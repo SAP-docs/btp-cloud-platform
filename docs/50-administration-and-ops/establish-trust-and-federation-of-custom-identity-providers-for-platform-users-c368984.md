@@ -1,6 +1,6 @@
 <!-- loioc36898473d704e07a33268c9f9d29515 -->
 
-# Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]
+# Establish Trust and Federation of Custom Identity Providers for Platform Users
 
 You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.
 
@@ -36,9 +36,6 @@ Platform users perform technical development, deployment, and administration tas
 
 -   Enforce your own password and authentication policies, such as stronger passwords or multifactor authentication.
 
-
-> ### Note:  
-> The content in this topic is relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
 
 > ### Note:  
 > The content in this section is only relevant for **platform users** and **not** business users.
@@ -106,12 +103,10 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
     For more information, see [Working with Users](working-with-users-2c91f88.md).
 
     > ### Note:  
-    > -   For subaccounts in the Neo environment, the identity provider will be offered in the value help only if a user in that identity provider has created at least one Neo subaccount in the corresponding global account and Neo region.
+    > For subaccounts in the Neo environment, the identity provider will be offered in the value help only if a user in that identity provider has created at least one Neo subaccount in the corresponding global account and Neo region.
     > 
-    > -   For global accounts upgraded from feature set A, in addition to at least one Neo subaccount being in the corresponding global account, you also need to ensure that the Neo region has a platform identity provider trust to the SAP Cloud Identity Services tenant in feature set A.
-    > 
-    >     > ### Tip:  
-    >     > If the identity provider isn't available in the value help for Neo subaccount members, log on to the global account with a user from that identity provider and create a new Neo subaccount. If it's not needed otherwise, you can delete it.
+    > > ### Tip:  
+    > > If the identity provider isn't available in the value help for Neo subaccount members, log on to the global account with a user from that identity provider and create a new Neo subaccount. If it's not needed otherwise, you can delete it.
 
     > ### Recommendation:  
     > We recommend that you keep at least one global account administrator from the default identity provider. You can then use this administrator to log on in the rare instance that access to the custom identity provider fails.
@@ -156,5 +151,5 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
 **Related Information**  
 
 
-[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.")
+[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, user management takes place at all levels from global account to environment.")
 

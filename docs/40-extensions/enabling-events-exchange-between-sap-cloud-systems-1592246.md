@@ -16,12 +16,16 @@ Systems that are included in *Eventing Between SAP Cloud Systems* formations on 
 > ### Note:  
 > By creating a formation of type *Eventing Between SAP Cloud Systems*, you understand that there may be event distribution charges incurred if you exceed the free quota limit when using SAP Event Broker. To learn more about usage and consumption costs, see [Usage and Consumption Costs](https://help.sap.com/docs/event-broker/event-broker-service-guide/usage-and-consumption-costs?version=Cloud).
 
-When creating *Eventing Between SAP Cloud Systems* formations, keep in mind the following rules:
+
+
+<a name="loio15922463e5a54538857795316eb4d997__section_h1s_5t2_lcc"/>
+
+## Rules
+
+When creating *Eventing Between SAP Cloud Systems* formations, keep in mind the following rule:
 
 -   Every system can be included in at most one *Eventing Between SAP Cloud Systems* formation.
 
-
-The following procedure outlines the steps you need to perform to enable the exchange of events across the systems within the system landscape.
 
 
 
@@ -40,7 +44,9 @@ The following procedure outlines the steps you need to perform to enable the exc
 
 ## Procedure
 
-1.  In the *System Landscape* page of the SAP BTP cockpit, in the *Systems* list, browse the already added systems in your customer system landscape or manually add and register any missing systems.
+The following procedure outlines the steps you need to perform to enable the exchange of events across the systems within the system landscape.
+
+1.  In the SAP BTP cockpit, in the *System Landscape* page of the SAP BTP cockpit, in the *Systems* list, browse the already added systems in your customer system landscape or manually add and register any missing systems.
 
     The customer landscape features systems that are added to the list in one of the following ways:
 

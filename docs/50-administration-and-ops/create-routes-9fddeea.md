@@ -106,5 +106,5 @@ Once you’ve created a route, you must map it to your application. Additionally
 
 [Map Routes to Applications](map-routes-to-applications-b25cf8a.md "Once a route has been created, you can map it to an application to make this application reachable for end users.")
 
-[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the cockpit to create space quotas.")
+[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the SAP BTP cockpit to create space quotas.")
 

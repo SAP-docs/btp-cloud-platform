@@ -10,40 +10,9 @@ Edit space quotas in the Cloud Foundry environment using the SAP BTP cockpit.
 
 You have the Org Manager role for the org in which you want to edit space quotas.
 
-<a name="task_fyy_qjy_dzb"/>
-
-<!-- task\_fyy\_qjy\_dzb -->
-
-## Feature Set A
 
 
-
-<a name="task_fyy_qjy_dzb__steps_jgs_mxw_z5"/>
-
-## Procedure
-
-1.  Choose the subaccount that contains the spaces for which you'd like to edit the space quota.
-
-2.  In the navigation menu, choose *Cloud Foundry* \> *Quota Plans*.
-
-3.  Choose *![](images/Edit_Icon_abfe424.png) \(Edit\)* for an existing quota plan.
-
-4.  Adjust the values in the text fields as needed.
-
-    For more information about the different values, see [https://docs.cloudfoundry.org/adminguide/quota-plans.html\#space](https://docs.cloudfoundry.org/adminguide/quota-plans.html#space).
-
-5.  To save your changes, choose *Create*.
-
-
-<a name="task_od5_rjy_dzb"/>
-
-<!-- task\_od5\_rjy\_dzb -->
-
-## Feature Set B
-
-
-
-<a name="task_od5_rjy_dzb__steps_cnx_4ky_dzb"/>
+<a name="loio2a58364d38cf42cc8ecfbae77231a411__steps_cnx_4ky_dzb"/>
 
 ## Procedure
 
@@ -65,7 +34,7 @@ You have the Org Manager role for the org in which you want to edit space quotas
 
 [Change Space Quota Plans Using the Command Line Interface](change-space-quota-plans-using-the-command-line-interface-2f5c847.md "Change space quota plans in the Cloud Foundry environment using the Cloud Foundry command line interface (cf CLI).")
 
-[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the cockpit to create space quotas.")
+[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the SAP BTP cockpit to create space quotas.")
 
 [Assign Space Quotas to Spaces](assign-space-quotas-to-spaces-13028c4.md "You can use the SAP BTP cockpit to assign space quotas to spaces.")
 

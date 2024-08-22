@@ -1,13 +1,8 @@
 <!-- loioaee40e1afa56445a9bd57c2621d6eaaa -->
 
-# Org Management Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]
+# Org Management Using the SAP BTP Command Line Interface \(btp CLI\)
 
 The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. To manage the lifecycle of an org in the Cloud Foundry environment, use the `accounts/environment-instance` command in the btp CLI.
-
-
-
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
 
 
 

@@ -1,7 +1,5 @@
 <!-- loiob01e6255607a42889483115dbd56cc1f -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # Configure the Entitlements for the SAP SuccessFactors Extensibility Service
 
 Configure the required entitlements to make the SAP SuccessFactors HXM Suite OData APIs of the registered SAP SuccessFactors system accessible in your subaccount in which your extension applications will reside.
@@ -37,28 +35,18 @@ Depending on feature set you are using, you need to follow different steps to co
 
 1.  In the SAP BTP cockpit, navigate to your global account.
 
-2.  Depending on the feature set you are using, you need to follow different steps to configure the entitlements.
+2.  In the navigation area, choose *Entitlements* \> *Entity Assignments*.
 
-    -   For feature set A, follow these steps:
-        1.  In the navigation area, choose *Entitlements* \> *Subaccount Assignments*.
-        2.  Select your subaccount from the drop down menu, choose *Go*, and then choose *Configure Entitlements*.
+3.  On the *Entity Assignments* screen, select your subaccount in the*Select Entities* field.
 
-            > ### Tip:  
-            > If your global account contains more than 20 subaccounts, choose <span class="SAP-icons-V5"></span> to open up the value help dialog. There you can filter subaccounts by role, environment and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
+4.  Choose *Go*, and then choose *Configure Entitlements*.
 
-
-    -   If you are using feature set B, you have to:
-        1.  In the navigation area, choose *Entitlements* \> *Entity Assignments*.
-        2.  On the *Entity Assignments* screen, select your subaccount in the*Select Entities* field.
-        3.  Choose *Go*, and then choose *Configure Entitlements*.
-
-
-3.  Choose *Add Service Plans*, and then select the *SAP SuccessFactors Extensibility* service.
+5.  Choose *Add Service Plans*, and then select the *SAP SuccessFactors Extensibility* service.
 
     > ### Note:  
     > To have the *SAP SuccessFactors Extensibility* service in the list, you need to have registered at least one SAP SuccessFactors system.
 
-4.  In the *Available Service Plans* area, select the system you have registered and the *api-access* and *sso-configuration* service plans, and then choose *Add 2 Service Plans*.
+6.  In the *Available Service Plans* area, select the system you have registered and the *api-access* and *sso-configuration* service plans, and then choose *Add 2 Service Plans*.
 
 
 **Related Information**  

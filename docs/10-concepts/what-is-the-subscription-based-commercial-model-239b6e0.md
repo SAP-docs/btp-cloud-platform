@@ -46,7 +46,7 @@ Note that you can use both consumption and subscription-based commercial models 
 
 [Managing Global Accounts Using the Cockpit](../50-administration-and-ops/managing-global-accounts-using-the-cockpit-667f34b.md "Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.")
 
-[Managing Directories Using the Cockpit \[Feature Set B\]](../50-administration-and-ops/managing-directories-using-the-cockpit-feature-set-b-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.")
+[Managing Directories Using the Cockpit](../50-administration-and-ops/managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.")
 
 [Managing Subaccounts Using the Cockpit](../50-administration-and-ops/managing-subaccounts-using-the-cockpit-55d0b6d.md "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.")
 

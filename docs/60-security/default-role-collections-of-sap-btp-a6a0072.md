@@ -1,8 +1,8 @@
 <!-- loioa6a00728e8c54efea8f7e60f6270b1d1 -->
 
-# Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]
+# Default Role Collections of SAP BTP
 
-The following table displays the default role collections available with cloud management tools feature set B after initially deploying your accounts. For more information, see the related links.
+The following table displays the default role collections available with SAP BTP after initially deploying your accounts.
 
 
 
@@ -821,9 +821,4 @@ Role for directory members with read-only authorizations for core commercializat
 </td>
 </tr>
 </table>
-
-**Related Information**  
-
-
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 

@@ -212,7 +212,16 @@ Supported request parameters:
     To filter by a specific event type, provide the event type name as the value for this parameter, for example `category=audit.data-access`. Multiple event types can be specified separated by commas, for example `category=audit.data-access,audit.configuration`.
 
     > ### Note:  
-    > To use this feature, you must have the `edp=true` parameter present as well, otherwise this filter is ignored.
+    > Filterning by category doesn't work for custom retention periods and Sovereign cloud. In such case, an error code 501 is returned with the following format and message:
+    > 
+    > ```
+    > {
+    >   "error": {
+    >     "code": "filter_category_not_supported",
+    >     "message": "Filtering by category not available for custom retention periods. Remove categories to proceed."
+    >   }
+    > }
+    > ```
 
 
 
@@ -248,11 +257,8 @@ You can query for one of the predefined audit log event types for the `category`
 Execute the following HTTP GET request:
 
 ```
-<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00&category=audit.data-access&edp=true
+<url_from_service_key>/auditlog/v2/auditlogrecords?time_from=2018-05-10T10:42:00&time_to=2018-05-11T10:46:00&category=audit.data-access
 ```
-
-> ### Note:  
-> Filterning only works on EDP storage, hence you must pass the additional request parameter `edp` as well. To enable the *EDP* field, make sure to select its checkbox.
 
 
 
@@ -279,6 +285,8 @@ Response codes:
 `HTTP 403 FORBIDDEN`
 
 `HTTP 429 Too Many Requests`
+
+`HTTP 501 NOT_IMPLEMENTED`
 
 
 

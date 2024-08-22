@@ -2,97 +2,139 @@
 
 # Resource Configuration
 
-Both application containers [Tomcat 9](tomcat-9-ddfc101.md) and [TomEE 7](tomee-7-79c039a.md) are configured through text configuration files. For example – `conf/server.xml`, `conf/tomee7.xml` or `conf/logging.properties` \(see [Apache Tomcat 9 Configuration Reference](https://tomcat.apache.org/tomcat-9.0-doc/config/)\).
+Both application containers, [Tomcat](tomcat-9-ddfc101.md) and [TomEE 7](tomee-7-79c039a.md), are configured through text configuration files.
+
+For example:
+
+-   `conf/server.xml`
+
+-   `conf/tomee7.xml`
+
+-   `conf/logging.properties`
+
+
+See: [Apache Tomcat 9 Configuration Reference](https://tomcat.apache.org/tomcat-9.0-doc/config/) 
 
 Resource configuration feature of SAP Java Buildpack provides means for changing parameterized values in all text files \(part of the application container or part of the application files\) during staging.
 
-Files can contain multiple key value pairs containing placeholders – marked as **`${propname}`**. To prevent undesired modifications, all files that can be changed must be explicitly listed by the application in a corresponding `resource_configuration.yml` file, along with the default values for all placeholders.
+Files can contain multiple key-value pairs containing placeholders, marked as **`${propname}`**. To prevent undesired modifications, all files that can be changed must be explicitly listed by the application in a corresponding **`resource_configuration.yml`** file, along with the default values for all placeholders.
 
-**Example** for `resource_configuration.yml`:
+
+
+<a name="loioc893e9c7d05e4cca8151a5c3d87ec6ce__section_kbh_h5v_jcc"/>
+
+## Template for `resource_configuration.yml`
 
 ```
 ---
-filepath:
+filepath1:
   key1: value1
   key2: value2
 filepath2:
   key1: value1
 ```
 
-The `filepath` must start with either **tomcat** or **tomee7** to match the used application container, and then contain a subpath to a resource.
+The `filepath1` must start with either **tomcat** or **tomee7** to match the used application container, and then contain a subpath to a resource.
 
 -   When changing parametrized values inside application files, the file path should look like this:
 
-    `<application_container>/webapps/ROOT/<path_to_file_relative_to_the_application_root>`
+    `<application_container>/webapps/ROOT/<path_to_file_relative_to_application_root>`
 
--   When changing parametrized values inside the configuration of an application container, the file path should look like this:
+-   When changing parametrized values in the configuration of an application container, the file path should look like this:
 
     `<application_container>/conf/<path_to_config_file>`
 
 
-**Example 1**
+
+
+<a name="loioc893e9c7d05e4cca8151a5c3d87ec6ce__section_gd4_gtv_jcc"/>
+
+## Example 1
+
+You can create a `resource_configuration.yml` with the following content:
 
 ```
+
 tomcat/webapps/ROOT/WEB-INF/mytextfile.txt:
   placeholder: "defaultValue"
-tomcat/conf/server.xml
+tomcat/conf/server.xml:
   connector.maxThreads: 800
-```
-
-**Example 2** 
-
-Given an application with the following application files:
 
 ```
 
-src/
-	main/
-		java/
-		resources/
-		webapp/
-			META-INF/
-				sap_java_buildpack/
-					config/
-						resource_configuration.yml
-			WEB-INF/
-				mytextfile.txt
 
-```
 
-where the content of `mytextfile.txt` is:
+<a name="loioc893e9c7d05e4cca8151a5c3d87ec6ce__section_iq5_dtv_jcc"/>
 
-```
-My hometown is ${hometown}.
-```
+## Example 2
 
-The `resource_configuration.yml` looks like:
+1.  You have a given application with the following application files:
 
-```
----
-tomcat/webapps/ROOT/WEB-INF/mytextfile.txt:
-  hometown: "London"
-```
+    ```
+    
+    src/
+    	main/
+    		java/
+    		resources/
+    		webapp/
+    			META-INF/
+    				sap_java_buildpack/
+    					config/
+    						resource_configuration.yml
+    			WEB-INF/
+    				mytextfile.txt
+    
+    ```
 
-After the application is staged, the content of `mytextfile.txt` will be:
+2.  The content of `mytextfile.txt` is:
 
-```
-My hometown is London.
-```
+    ```
+    My hometown is ${hometown}.
+    ```
 
-**Example 3**
+3.  The `resource_configuration.yml` looks like this:
 
-The follow example demonstrates how to provide values for placeholders during staging.
+    ```
+    ---
+    tomcat/webapps/ROOT/WEB-INF/mytextfile.txt:
+      hometown: "London"
+    ```
 
-Given the example above, add the following environment variable in the `manifest.yml` file of the application:
+4.  After the application is staged, the content of `mytextfile.txt` will be:
 
-```
-env:
-  JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/webapps/ROOT/WEB-INF/mytextfile.txt': {'hometown':"Paris"}]"
-```
+    ```
+    My hometown is London.
+    ```
 
-This gives the possibility to provide values for placeholders that differ from the default ones provided in the example above. Staging the application with this environment variable will modify the content of `mytextfile.txt` to:
 
-```
-My hometown is Paris.
-```
+
+
+<a name="loioc893e9c7d05e4cca8151a5c3d87ec6ce__section_pwr_gtv_jcc"/>
+
+## Example 3
+
+The following example demonstrates how to provide values for placeholders during staging.
+
+1.  Use the data from **Example 2** \(steps 1-3\).
+
+2.  Then, in the `manifest.yml` file of the application, add the following environment variable:
+
+    ```
+    env:
+      JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/webapps/ROOT/WEB-INF/mytextfile.txt': {'hometown':"Paris"}]"
+    ```
+
+    This gives the possibility to provide values for placeholders that differ from the default ones provided in the example above.
+
+3.  After staging of the application, the content of `mytextfile.txt` will be modified to:
+
+    ```
+    My hometown is Paris.
+    ```
+
+
+**Related Information**  
+
+
+[Overriding Resources in Droplet](overriding-resources-in-droplet-0a34588.md "Applications can override resources in the droplet by placing directory files that have the same relative path as the droplet root.")
 

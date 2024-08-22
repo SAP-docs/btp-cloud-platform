@@ -2,7 +2,7 @@
 
 # Create Space Quotas
 
-You can use the cockpit to create space quotas.
+You can use the SAP BTP cockpit to create space quotas.
 
 
 
@@ -12,54 +12,9 @@ You can use the cockpit to create space quotas.
 
 You have the Org Manager role for the org in which you want to create a space quota.
 
-<a name="task_igz_xgy_dzb"/>
-
-<!-- task\_igz\_xgy\_dzb -->
-
-## Feature Set A
 
 
-
-<a name="task_igz_xgy_dzb__steps_ycr_pz5_qbc"/>
-
-## Procedure
-
-1.  Navigate to the subaccount that contains the spaces to which you want to add quotas.
-
-2.  In the navigation menu, choose *Cloud Foundry* \> *Quota Plans*.
-
-3.  Choose *Create Quota Plan*.
-
-4.  Enter a name for your quota plan and add limits for the following:
-
-    -   *Memory \(MB\)*: Total amount of memory a space can have
-
-    -   \(Optional\) *Routes*: Total number of routes
-
-    -   \(Optional\) *Services*: Total number of service instances
-
-    -   \(Optional\) *Instance Memory \(MB\)*: Maximum amount of memory an application instance can have \(`-1` represents an unlimited amount\)
-
-    -   \(Optional\) *App Instances*: Total number of application instances
-
-    -   \(Optional\) *Allow Paid Services*: Select if you'd like to allow the provisioning of instances of paid service plans
-
-
-    > ### Note:  
-    > The org quota limit is applicable for a resource if you don’t enter a space quota limit. If the space quota limit for a resource exceeds the org quota limit, the org quota limit applies.
-
-5.  Choose *Create*.
-
-
-<a name="task_gcl_rhy_dzb"/>
-
-<!-- task\_gcl\_rhy\_dzb -->
-
-## Feature Set B
-
-
-
-<a name="task_gcl_rhy_dzb__steps_l1r_b3w_4bb"/>
+<a name="loiob13c4a2666dd4018a52780da581bbf6d__steps_l1r_b3w_4bb"/>
 
 ## Procedure
 

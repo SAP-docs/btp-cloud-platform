@@ -120,7 +120,7 @@ The first thing that is needed in the setup of your trial account is the creatio
     </td>
     <td valign="top">
     
-    \(Optional\) You can assign labels to help identify and organize the subaccounts in your global account. For example, you can filter subaccounts by custom property in the *Account Explorer* page. See [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+    \(Optional\) You can assign labels to help identify and organize the subaccounts in your global account. For example, you can filter subaccounts by custom property in the *Account Explorer* page. See [Labels](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
     
     </td>
     </tr>

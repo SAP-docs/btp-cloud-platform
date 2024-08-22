@@ -14,88 +14,7 @@ The subaccount technical name is a unique identifier of the subaccount on SAP BT
 
 You can change to the following subaccount details:
 
-**Editable Subaccount Details \[Feature Set A\]**
-
-
-<table>
-<tr>
-<th valign="top">
-
-Field
-
-</th>
-<th valign="top">
-
-Details
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Display Name
-
-</td>
-<td valign="top">
-
-Specify a human-readable name for your subaccount and change it later on, if necessary. This way you can distinguish between multiple subaccounts.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Description
-
-</td>
-<td valign="top">
-
-\(Optional\) Specify a short descriptive text about the subaccount.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Used for production
-
-</td>
-<td valign="top">
-
-Select this option if your subaccount is being used for production purposes.
-
-This does not change the configuration of your subaccount. Use this flag for your internal use to operate your production subaccounts in your global account and systems more efficiently. Your cloud operator may also use this flag to take appropriate action when handling incidents related to mission-critical accounts in production systems.
-
-Do not select this option if your account is used for non-production purposes, such as development, testing, and demos.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Enable beta features
-
-</td>
-<td valign="top">
-
-\(Optional\) Enable the subaccount to use services and applications which are occasionally made available by SAP for beta usage on SAP BTP. This option is available to administrators only and is, by default, unselected.
-
-> ### Caution:  
-> You shouldn't use SAP BTP beta features in subaccounts that belong to productive enterprise accounts. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
-
-> ### Note:  
-> Once you have enabled this setting in a subaccount you cannot disable it.
-
-> ### Note:  
-> If you enable this setting in a subaccount that is already consuming services and subscriptions, these consumed resources will not be automatically updated to beta versions if they exist.
-
-
-
-</td>
-</tr>
-</table>
-
-**Editable Subaccount Details \[Feature Set B\]**
+**Editable Subaccount Details**
 
 
 <table>
@@ -173,7 +92,7 @@ Labels
 </td>
 <td valign="top">
 
-\(Optional\) Assign, change, or remove labels from your subaccount. Labels help to make organizing and filtering your subaccounts easier. For more information, see [Labels \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+\(Optional\) Assign, change, or remove labels from your subaccount. Labels help to make organizing and filtering your subaccounts easier. For more information, see [Labels](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
 
 > ### Tip:  
 > -   When adding multiple values to a label, press [Enter\] after each value.
@@ -225,8 +144,6 @@ Enable beta features
 
 
 [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.")
-
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
 [Change the Default Database System](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/d531b2dd49904927a0327c9479edd2b7.html "Change the database property, which determines the database in the Neo environment on which an application runs.") :arrow_upper_right:
 

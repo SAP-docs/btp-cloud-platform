@@ -184,6 +184,8 @@ Not supported
 
 ## Inbound Communication
 
+All API requests must be sent to the correct API host. Use the API hostname format: **<tenant\>.abap.<domain\>**.
+
 
 <table>
 <tr>
@@ -220,7 +222,7 @@ Client certificate authentication
 
 SAML assertion authentication
 
-OpenID Connect bearer token
+OpenID Connect Bearer token
 
 OAuth 2.0 Authorization Code with Proof Key for Code Exchange \(PKCE\)
 
@@ -287,5 +289,19 @@ OpenID Connect Bearer token
 
 -   For more information about the SQL service, see [Accessing ABAP-Managed Data Using SQL Services for Data Integration Scenarios](accessing-abap-managed-data-using-sql-services-for-data-integration-scenarios-4082fe1.md).
 
--   For more information about SAML Assertion Authentication and OpenID Connect bearer token, see [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud).
+-   For more information about SAML Assertion Authentication and OpenID Connect Bearer token, see [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud).
+
+    > ### Note:  
+    > To use OpenID Connect Bearer token authentication, include the HTTP header **sap-icm-jwt-passthrough** with the value **TRUE** in the request sent to the API host.
+
+-   For HTTP protocol: provided that the technical requirements are met, it is recommended to use security sessions. For more information, see [3201227](https://me.sap.com/notes/3201227).
+
+    > ### Note:  
+    > It is mandatory for the API caller to explicitly request security sessions and confirm that the prerequisites are fulfilled. For more information, see [3319136](https://me.sap.com/notes/3319136).
+
+-   For all logon methods other than *Client certificate authentication*, it is recommended to instruct the server not to use mTLS for logon purposes. For more information, see [3455890](https://me.sap.com/notes/3455890).
+
+    > ### Note:  
+    > It is recommended that the API caller sends only one type of credential. The evaluation of an unintentionally transmitted client certificate should be deliberately prevented.
+
 

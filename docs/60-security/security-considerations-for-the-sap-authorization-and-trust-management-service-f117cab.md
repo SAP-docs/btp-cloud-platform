@@ -23,7 +23,7 @@ To configure the trusted domains, use one of the following methods:
 
 -   Enter trusted domains in the SAP BTP cockpit.
 
-    For more information, see [Configure Trusted Domains for Multi-environment Subaccounts \[Feature Set B\]](../50-administration-and-ops/configure-trusted-domains-for-multi-environment-subaccounts-feature-set-b-c5e9972.md).
+    For more information, see [Configure Trusted Domains for Multi-environment Subaccounts](../50-administration-and-ops/configure-trusted-domains-for-multi-environment-subaccounts-c5e9972.md).
 
 -   Access the Security Settings API.
 
@@ -236,7 +236,7 @@ Administrators are any SAP BTP cockpit users with the *User and Role Administrat
 
 [About Roles in the Cloud Foundry Environment](../50-administration-and-ops/about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
 
-[Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]](default-role-collections-of-sap-btp-cloud-foundry-environment-feature-set-b-a6a0072.md "The following table displays the default role collections available with cloud management tools feature set B after initially deploying your accounts. For more information, see the related links.")
+[Default Role Collections of SAP BTP](default-role-collections-of-sap-btp-a6a0072.md "The following table displays the default role collections available with SAP BTP after initially deploying your accounts.")
 
 <a name="loio24c226d64f994d80879d5f2518c0d0ab"/>
 

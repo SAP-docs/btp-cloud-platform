@@ -2,10 +2,22 @@
 
 # Enabling System Landscape for SAP Build
 
+
+
+<a name="loio642431173d3c4fabb7f5a155836903be__section_yv3_cy2_lcc"/>
+
+## Use
+
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
 A registered SAP S/4HANA Cloud system in the SAP BTP cockpit can expose consumption bundles that contain APIs and events. You can easily discover and consume the APIs exposed by the SAP S/4HANA Cloud systems in your system landscape when you develop and extend applications on SAP BTP, Cloud Foundry environment, using SAP Build. To do this, first you need to enable connectivity between your system landscape in SAP BTP cockpit and SAP Build. The integration requires performing several configuration steps starting with configuration on a global account level, and then, configuration on a subaccount level.
+
+
+
+<a name="loio642431173d3c4fabb7f5a155836903be__section_ij4_zx2_lcc"/>
+
+## Procedure
 
 The following procedure outlines the steps you need to perform to consume the APIs of registered SAP S/4HANA Cloud systems within SAP Build.
 
@@ -13,10 +25,10 @@ The following procedure outlines the steps you need to perform to consume the AP
 
     To expose information about its APIs and events and show this information on the *System Landscape* page, an SAP system of type *SAP S/4HANA Cloud* must be registered in the SAP BTP cockpit. Only when registered, the system communicates information about its APIs and other technical details across the landscape. See [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md).
 
-2.  Create a formation of type *Integration with SAP Build* and include the SAP S/4HANA Cloud systems you want to expose in SAP Build.
+2.  Create a formation of type *Integration with SAP Build* and include the SAP Build system and the SAP S/4HANA Cloud systems you want to expose in SAP Build.
 
     > ### Note:  
-    > In the formation type *Integration with SAP Build*, you can include only SAP systems of type *SAP S/4HANA Cloud*.
+    > In the formation type *Integration with SAP Build*, you can include only SAP systems of type *SAP Build* and *SAP S/4HANA Cloud*.
 
     To enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and SAP Build, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 

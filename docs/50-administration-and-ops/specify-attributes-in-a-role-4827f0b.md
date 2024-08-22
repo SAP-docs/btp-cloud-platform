@@ -21,7 +21,9 @@ You have maintained the attributes of the users in your identity provider.
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account \(cloud management tools feature set B \) orsubaccount \(cloud management tools feature set A\). For more information, see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md).
+2.  Go to your subaccount.
+
+    For more information, see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md).
 
 3.  Choose your space in *Cloud Foundry* \> *Spaces* or, in the case of subscriptions, see [Configure Application Roles and Assign Roles to Users](configure-application-roles-and-assign-roles-to-users-56a7153.md).
 

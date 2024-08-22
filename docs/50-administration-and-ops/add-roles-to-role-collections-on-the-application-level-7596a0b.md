@@ -38,7 +38,7 @@ A role is an instance of a role template; you can build a role based on a role t
 
 5.  To directly assign a role to role collections, choose the action button :heavy_plus_sign: \(Add\) in the same row.
 
-    A new window shows all role collections that are available in your global account \(cloud management tools feature set B \) orsubaccount \(cloud management tools feature set A\).
+    A new window shows all role collections that are available in your global account orsubaccount.
 
 6.  Select the role collections to which you want to add your role.
 
@@ -52,7 +52,7 @@ A role is an instance of a role template; you can build a role based on a role t
 
 [Attributes](attributes-713f52a.md "Attributes use information that is specific to the user, for example the user's country. If the application developer in the Cloud Foundry environment of SAP BTP has created a country attribute to a role, this restricts the data a business user can see based on this attribute.")
 
-[Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md "In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.")
+[Role Collections and Roles in Global Accounts, Directories, and Subaccounts](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-0039cf0.md "SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.")
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 

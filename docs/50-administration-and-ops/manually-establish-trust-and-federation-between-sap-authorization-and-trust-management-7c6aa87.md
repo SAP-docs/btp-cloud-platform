@@ -29,7 +29,7 @@ You want to use an SAML 2.0 identity provider, for example, SAP Cloud Identity S
 
 ## Prerequisites
 
--   You have subaccount administrator permissionsor you are a security administrator \(cloud management tools feature set A\) of this account. For more information, see the related link.
+-   You have subaccount administrator permissions.
 
 -   You have downloaded the SAML 2.0 metadata file from the SAP Cloud Identity Services tenant using the URL <code>https://<i class="varname">&lt;sap_cloud_identity_services_tenant&gt;</i>.accounts.ondemand.com/saml2/metadata</code>.
 
@@ -91,13 +91,6 @@ The following procedure describes how to establish trust with an SAP Cloud Ident
 ## Next Steps
 
 Register your SAP BTP subaccount in the SAML 2.0 Identity Provider
-
-\(Optional, cloud management tools feature set A\) If you don't need the SAP ID service, set it to inactive.
-
-**Related Information**  
-
-
-[Managing Security Administrators in Your Subaccount \[Feature Set A\]](managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md "Running on the cloud management tools feature set A: When you create a subaccount, SAP BTP automatically grants your user the role for the administration of business users and their authorizations in the subaccount. Having this role, you can also add or remove other users who will then also be user and role administrators of this subaccount.")
 
 <a name="loio347cc6991eda439ea7d87ef1311913bf"/>
 

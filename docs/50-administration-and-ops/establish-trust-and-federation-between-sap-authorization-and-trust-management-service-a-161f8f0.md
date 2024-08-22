@@ -10,7 +10,7 @@ Use your SAP Cloud Identity Services tenant as an identity provider or a proxy t
 
 ## Prerequisites
 
--   You've subaccount administrator permissionsor you are a security administrator \(cloud management tools feature set A\) of this account. For more information, see the related link.
+-   You've subaccount administrator permissions.
 
 -   You've a tenant of SAP Cloud Identity Services.
 
@@ -98,8 +98,6 @@ If you don't need the default identity provider anymore, set it to inactive or h
 
 **Related Information**  
 
-
-[Managing Security Administrators in Your Subaccount \[Feature Set A\]](managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md "Running on the cloud management tools feature set A: When you create a subaccount, SAP BTP automatically grants your user the role for the administration of business users and their authorizations in the subaccount. Having this role, you can also add or remove other users who will then also be user and role administrators of this subaccount.")
 
 [Default Identity Provider](default-identity-provider-d6a8db7.md "SAP ID service is the default identity provider for both platform users and business users (in applications) at SAP BTP. You can start using it without further configuration.")
 

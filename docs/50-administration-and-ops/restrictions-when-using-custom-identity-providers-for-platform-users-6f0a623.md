@@ -1,14 +1,12 @@
 <!-- loio6f0a623807b541a0aef41f3d65c7a0fa -->
 
-# Restrictions When Using Custom Identity Providers for Platform Users \[Feature Set B\]
+# Restrictions When Using Custom Identity Providers for Platform Users
 
-The following is a list of restrictions that apply to the use of custom identity providers with platform users in Feature Set B.
+The following is a list of restrictions that apply to the use of custom identity providers with platform users.
 
 
 
-## Supported with Restrictions When Using Custom Identity Providers for Platform Users \[Feature Set B\]
-
-****
+## Supported with Restrictions When Using Custom Identity Providers for Platform Users
 
 
 <table>

@@ -18,7 +18,7 @@ You want to use an SAML 2.0 identity provider. This is where the business users 
 
 ## Prerequisites
 
--   You have subaccount administrator permissionsor you are a security administrator \(cloud management tools feature set A\) of this account. For more information, see the related link.
+-   You have subaccount administrator permissions.
 
 -   You have downloaded the SAML 2.0 metadata file from your SAML 2.0 identity provider using the relevant URL. For more information, see the documentation of your identity provider.
 
@@ -54,17 +54,10 @@ You must establish a trust relationship with an SAML 2.0 identity provider in yo
 
 7.  Save your changes.
 
-8.  \(Optional, cloud management tools feature set A\) If you do not need SAP ID service, set it to inactive.
+8.  To get the SAML metadata of your subaccount, choose the *SAML Metadata* button.
 
-    You have successfully configured trust in your SAML 2.0 identity provider.
+    You create an XML file with the SAML metadata of your subaccount. Its name is <code>saml-<i class="varname">&lt;subdomain&gt;</i>-sp.xml</code>. Use this file to import the SAML metadata into your identity provider.
 
-9.  To get the SAML metadata of your subaccount, choose the *SAML Metadata* button. You create an XML file with the SAML metadata of your subaccount. Its name is `saml-<subdomain>-sp.xml`. Use this file to import the SAML metadata into your identity provider.
-
-
-**Related Information**  
-
-
-[Managing Security Administrators in Your Subaccount \[Feature Set A\]](managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md "Running on the cloud management tools feature set A: When you create a subaccount, SAP BTP automatically grants your user the role for the administration of business users and their authorizations in the subaccount. Having this role, you can also add or remove other users who will then also be user and role administrators of this subaccount.")
 
 <a name="loio2bf08c7e91794ddfa0702a353be4c61d"/>
 

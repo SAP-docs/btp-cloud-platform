@@ -85,11 +85,11 @@ A directory can contain directories and subaccounts to create a hierarchy. Using
 
 See:
 
-[Directories \[Feature Set B\]](account-model-8ed4a70.md#loioa92721fc75524ec09a7a7255997dbd94)
+[Directories](account-model-8ed4a70.md#loioa92721fc75524ec09a7a7255997dbd94)
 
-[Create a Directory \[Feature Set B\]](../50-administration-and-ops/create-a-directory-feature-set-b-b8ef1c4.md)
+[Create a Directory](../50-administration-and-ops/create-a-directory-b8ef1c4.md)
 
-[Manage the Account Explorer Hierarchy \[Feature Set B\]](../50-administration-and-ops/manage-the-account-explorer-hierarchy-feature-set-b-2e2a5b6.md)
+[Manage the Account Explorer Hierarchy](../50-administration-and-ops/manage-the-account-explorer-hierarchy-2e2a5b6.md)
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Labels are user-defined so you can apply them as you wish according to your own 
 
 You can manage labels for the supported entities using the SAP BTP cockpit, command line interface \(btp CLI\), or REST APIs.
 
-See [Labels \[Feature Set B\]](account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
+See [Labels](account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ Discover and consume REST APIs to manage, build, and extend the cloud operation 
 -   Generate reports based on the resource and cost consumption within your accounts.
 
 
-See [Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-feature-set-b-17b6a17.md) and [Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](../50-administration-and-ops/monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-featur-bf2b304.md).
+See [Account Administration Using APIs of the SAP Cloud Management Service](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-17b6a17.md) and [Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](../50-administration-and-ops/monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-featur-bf2b304.md).
 
 </td>
 </tr>
@@ -284,7 +284,7 @@ See:
 
 [Managing Entitlements and Quotas Using the Cockpit](../50-administration-and-ops/managing-entitlements-and-quotas-using-the-cockpit-c824874.md)
 
-[Configure Entitlements and Quotas for Directories \[Feature Set B\]](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md)
+[Configure Entitlements and Quotas for Directories](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-37f8871.md)
 
 [Subscribe to Multitenant Applications Using the Cockpit](../50-administration-and-ops/subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md)
 
@@ -339,9 +339,9 @@ See:
 
 [User and Member Management](user-and-member-management-cc1c676.md)
 
-[Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md)
+[Role Collections and Roles in Global Accounts, Directories, and Subaccounts](role-collections-and-roles-in-global-accounts-directories-and-subaccounts-0039cf0.md)
 
-[Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]](../60-security/default-role-collections-of-sap-btp-cloud-foundry-environment-feature-set-b-a6a0072.md)
+[Default Role Collections of SAP BTP](../60-security/default-role-collections-of-sap-btp-a6a0072.md)
 
 </td>
 </tr>
@@ -366,7 +366,7 @@ See:
 
 [User and Member Management](user-and-member-management-cc1c676.md)
 
-[Managing Security Administrators in Your Subaccount \[Feature Set A\]](../50-administration-and-ops/managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md)
+ <?sap-ot O2O class="- topic/xref " href="6752c4b8435c456ebf67a97ddbbcb267.xml" text="" desc="" xtrc="xref:28" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/caf4e4e23aef4666ad8f125af393dfb2.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Impact of Upgrading from Feature Set A to Feature Set B on User and Account Management](impact-of-upgrading-from-feature-set-a-to-feature-set-b-on-user-and-account-management-1ac8143.md)
 
@@ -392,11 +392,11 @@ See:
 
 [User and Member Management](user-and-member-management-cc1c676.md)
 
-[Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md)
+[Role Collections and Roles in Global Accounts, Directories, and Subaccounts](role-collections-and-roles-in-global-accounts-directories-and-subaccounts-0039cf0.md)
 
 [Add Members to Your Subaccount \[Feature Set B\]](../50-administration-and-ops/add-members-to-your-subaccount-feature-set-b-1e1b7b6.md)
 
-[Default Role Collections of SAP BTP Cloud Foundry Environment \[Feature Set B\]](../60-security/default-role-collections-of-sap-btp-cloud-foundry-environment-feature-set-b-a6a0072.md)
+[Default Role Collections of SAP BTP](../60-security/default-role-collections-of-sap-btp-a6a0072.md)
 
 </td>
 </tr>
@@ -425,7 +425,7 @@ Custom identity providers enable you to integrate platform and business users fr
 
 See: [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md)
 
-[Restrictions When Using Custom Identity Providers for Platform Users \[Feature Set B\]](../50-administration-and-ops/restrictions-when-using-custom-identity-providers-for-platform-users-feature-set-b-6f0a623.md)
+[Restrictions When Using Custom Identity Providers for Platform Users](../50-administration-and-ops/restrictions-when-using-custom-identity-providers-for-platform-users-6f0a623.md)
 
 </td>
 </tr>

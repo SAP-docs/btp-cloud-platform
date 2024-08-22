@@ -2,10 +2,22 @@
 
 # Enabling System Landscape for SAP Business Application Studio
 
+
+
+<a name="loio272ca23a7ebf4532922b226dc0310c45__section_vzy_bz2_lcc"/>
+
+## Use
+
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
 A registered SAP S/4HANA Cloud system in the SAP BTP cockpit can expose consumption bundles that contain APIs and events. You can easily discover and consume the APIs exposed by the SAP S/4HANA Cloud systems in your system landscape when you develop and extend applications on SAP BTP, Cloud Foundry environment, using SAP Business Application Studio. To do this, first you need to enable connectivity between your system landscape in SAP BTP cockpit and SAP Business Application Studio. The integration requires performing several configuration steps starting with configuration on a global account level, and then, configuration on a subaccount level.
+
+
+
+<a name="loio272ca23a7ebf4532922b226dc0310c45__section_tmz_zy2_lcc"/>
+
+## Procedure
 
 The following procedure outlines the steps you need to perform to consume the APIs of registered SAP S/4HANA Cloud systems within the SAP Business Application Studio.
 

@@ -12,7 +12,7 @@ Platform users of the Cloud Foundry environment have the option to log on with a
 
 -   You know the origin key of the identity provider.
 
-    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md) and [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
+    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md).
 
 -   You don't already have a session with the Cloud Foundry environment.
 
@@ -33,7 +33,7 @@ When accessing a web application, like a service dashboard \(for example `logs.c
 
     The login screen appears.
 
-    If this is the first time you're loging on or your browser cache has been cleaned of cookies, you're prompted to provide the origin key of your custom identity provider or choose the default identity provider.
+    If this is the first time you're logging on or your browser cache has been cleaned of cookies, you're prompted to provide the origin key of your custom identity provider or choose the default identity provider.
 
       
       
@@ -41,7 +41,7 @@ When accessing a web application, like a service dashboard \(for example `logs.c
 
     ![](images/Logon_page_for_CF_platform_3ee6653.png "Logon Page Without Cookies")
 
-    Otherwise the sign in page lists your accounts on custom identity providers with which you previously logged on.
+    Otherwise, the sign-in page lists your accounts on custom identity providers with which you previously logged on.
 
       
       

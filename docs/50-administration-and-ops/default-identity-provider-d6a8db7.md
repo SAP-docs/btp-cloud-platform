@@ -71,7 +71,7 @@ For SAP ID service, you can ask users hosted by this identity provider to enable
 > 
 > For more information, see:
 > 
-> -   [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md)
+> -   [Establish Trust and Federation of Custom Identity Providers for Platform Users](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md)
 > 
 > -   [Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md)
 
@@ -115,9 +115,7 @@ For more information about your users of SAP ID service can enable multifactor a
 
 Trust between your subaccount and SAP ID service is preconfigured by default, so you can start using it without further configuration.
 
-In cloud management tools feature set A, you can set the default trust to inactive, for example if you prefer to use another identity provider.
-
-In cloud management tools feature set B, you can hide the default trust.
+You can hide the default trust.
 
 For more information, see [Hide Logon Link for Default Identity Provider](hide-logon-link-for-default-identity-provider-9e3d457.md).
 
@@ -133,6 +131,4 @@ For more information, see [Trust and Federation with Identity Providers](trust-a
 [Platform Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html "The platform identity provider is the user base for access to your SAP BTP subaccount in the Neo environment. The default user base is provided by SAP ID Service. You can switch to an Identity Authentication tenant if you want to use a custom user base.") :arrow_upper_right:
 
 [Working with Users](working-with-users-2c91f88.md "In the SAP BTP cockpit, you can see the users of your global account or subaccount, user-related identity provider information, and their authorizations. In a user's overview, you can create and delete users, and assign role collections. You can also display an overview of the role collections, where you can drill down all the way to the role, and see the application that the role is belongs to.")
-
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 

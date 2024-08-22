@@ -2,7 +2,7 @@
 
 # Accessing the Landscape Portal
 
-The Landscape Portal itself is part of SAP BTP ABAP environment and requires no additional license. To build and deploy products \(see [Build Product Version](build-product-version-8120bf6.md) and [Maintain Solution](maintain-solution-4985d3c.md)\) a subscription to the SAP Continuous Integration and Delivery service is needed, which requires a separate license, see [SAP Continuous Integration and Delivery](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all). To set up access to the Landscape Portal, you just need to add the Landscape Portal as entitlement to your subaccount, subscribe to it, and assign the necessary role collections to your user. Once you have done this, you can easily access the Landscape Portal by clicking on its tile in the Service Marketplace.
+The Landscape Portal itself is part of SAP BTP ABAP environment and requires no additional license. To build and deploy products \(see [Build Product Version](build-product-version-8120bf6.md) and [Maintain Solution](maintain-solution-4985d3c.md)\) a subscription to the SAP Continuous Integration and Delivery service is needed, which requires a separate license, see [SAP Continuous Integration and Delivery](https://discovery-center.cloud.sap/serviceCatalog/continuous-integration--delivery?region=all). To set up access to the Landscape Portal, we recommend using the [Landscape Portal for ABAP Environment Booster](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/prepare?version=Cloud#booster-for-landscape-portal). Alternatively, you can also set up access to the Landscape Portal manually: add the Landscape Portal as entitlement to your subaccount, subscribe to it, and assign the necessary role collections to your user. Once you have done this, you can easily access the Landscape Portal by clicking on its tile in the Service Marketplace.
 
 > ### Note:  
 > The Landscape Portal authorization is handled by the SAP ID Service \(accounts.sap.com\) for SAP BTP only. No other identity providers, such as custom IDPs, are supported. For more information on how to proceed, see [Default Identity Provider](https://help.sap.com/docs/btp/sap-business-technology-platform/default-identity-provider?version=Cloud).
@@ -18,12 +18,15 @@ The Landscape Portal itself is part of SAP BTP ABAP environment and requires no 
 
 ## Adding the *Landscape Portal* as Entitlement
 
+> ### Note:  
+> You can skip this step if you use the [Landscape Portal for ABAP Environment Booster](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/prepare?version=Cloud#booster-for-landscape-portal).
+
 The*Landscape Portal* needs to be assigned to your subaccount as an entitlement.
 
 1.  Sign into your account in the *SAP BTP Cockpit*.
 2.  On global account level, navigate to *Entity Assignments* in the Entitlements menu tree.
 3.  Open the value help for *Select Entities* and choose the subaccount \(located in cf-eu10\) to which the *Landscape Portal* entitlement shall be added. Click *Select*.
-4.  Click the button *Configure Entitlements* and then *Add Service Plans*.
+4.  Click the button *Edit* and then *Add Service Plans*.
 5.  Select*Landscape Portal* from the list and choose the service plan *standard*, then click *Add 1 Service Plan*.
 6.  Click *Save* to add the service plan to your selected subaccout.
 
@@ -32,6 +35,9 @@ The*Landscape Portal* needs to be assigned to your subaccount as an entitlement.
 <a name="loio2e1e3931d39b4e2e88a411799de31616__section_phm_2rp_qmb"/>
 
 ## Subscribing to the *Landscape Portal* in the SAP BTP cockpit
+
+> ### Note:  
+> You can skip this step if you use the [Landscape Portal for ABAP Environment Booster](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/prepare?version=Cloud#booster-for-landscape-portal).
 
 To enable the *Landscape Portal*, you need to subscribe to it in the SAP BTP cockpit. Here’s how:
 
@@ -47,12 +53,15 @@ To enable the *Landscape Portal*, you need to subscribe to it in the SAP BTP coc
 
 ## Assigning the Landscape Portal Role Collections
 
+> ### Note:  
+> If you use the [Landscape Portal for ABAP Environment Booster](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/prepare?version=Cloud#booster-for-landscape-portal), the role collection Landscape Portal Admin \("LandscapePortalAdminRoleCollection"\) will be assigned to your user automatically.
+
 In order to log into the *Landscape Portal*, a user first needs to be assigned the necessary role collection. This is done by the security administrators of your production subaccount in the SAP BTP cockpit. For more information on how to add security administrators, see [Add Security Administrators to Your Subaccount \[Feature Set A\]](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/fea877c449ba4c5fbb0aafd92a80afb4.html). For more information on how to assign role collections, see [Assign Users to Role Collections](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/c5766765bda74ad59fe656977c8fa4d6.html).
 
 > ### Remember:  
 > You need to be a security administrator in your production subaccount in order to assign the role collections. 
 
-There are four different role collections available for the *Landscape Portal*:
+There are different role collections available for the *Landscape Portal*:
 
 -   Landscape Portal Admin \("LandscapePortalAdminRoleCollection"\): Full functionality of the *Landscape Portal*.
 

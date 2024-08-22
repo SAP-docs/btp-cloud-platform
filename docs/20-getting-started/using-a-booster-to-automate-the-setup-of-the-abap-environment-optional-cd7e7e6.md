@@ -75,9 +75,9 @@ After the booster has run successfully, the following tasks have been performed 
 
 -   For the *ABAP environment* service, quotas have been distributed for the ABAP server and the SAP HANA persistence. The quotas that you have chosen are deducted from the available quota for each service in your global account..
 
--   If you have entitlements for SAP Build Work Zone, standard edition and SAP Business Application Studio, then you have subscribed to these services and standard quotas have been assigned accordingly. \(\[Feature Set B\]: Entitlements for subscription services are assigned to the subaccount.\)
+-   If you have entitlements for SAP Build Work Zone, standard edition and SAP Business Application Studio, then you have subscribed to these services and standard quotas have been assigned accordingly. Entitlements for subscription services are assigned to the subaccount.
 
--   You’re subscribed to the Web access for ABAP SaaS application and get direct browser access to your instances in the ABAP environment. \(\[Feature Set B\]: Entitlements for subscription services are assigned to the subaccount.\)
+-   You’re subscribed to the Web access for ABAP SaaS application and get direct browser access to your instances in the ABAP environment. Entitlements for subscription services are assigned to the subaccount.
 
 -   Additional users with Cloud Foundry organization manager and space manager roles have been added. If you have ordered the SAP Build Work Zone, standard edition as a service, the additional administration users have also been assigned to the role collection *Launchpad\_Admin*.
 

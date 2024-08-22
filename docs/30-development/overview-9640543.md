@@ -460,7 +460,7 @@ Access the Landscape Portal. See [Access to Landscape Portal](access-to-landscap
 
 Subscribe to the Landscape Portal application in the global accounts for development and production.
 
-See [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
+See [Accessing the Landscape Portal](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d9e865ad47204b80816b6f62af57b823.html).
 
 </td>
 <td valign="top">
@@ -818,7 +818,7 @@ Apply update for SaaS solution \(=add-on product\). See [Deploy Add-On Update](m
 
 Deploy your add-on update by using the Landscape Portal.
 
-See [Landscape Portal](landscape-portal-5eb70fb.md).
+See [Landscape Portal](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/6aa0a773510e4c82b167fcca4c755327.html).
 
 </td>
 <td valign="top">

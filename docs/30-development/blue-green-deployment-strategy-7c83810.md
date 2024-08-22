@@ -95,7 +95,7 @@ You can see an example of the process at [Blue-Green Deployment](https://github.
 
 [https://github.com/SAP-samples/cf-mta-examples/tree/main/blue-green-deploy-strategy](https://github.com/SAP-samples/cf-mta-examples/tree/main/blue-green-deploy-strategy)
 
-[Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md "Run two identical production environments to employ the blue-green deployment technique.")
+[Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md "Run two identical production environments, set of cloud foundry applications that run together, to employ the blue-green deployment technique.")
 
 [Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md "Use the legacy blue-green deployment strategy of Multitarget applications.")
 

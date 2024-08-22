@@ -18,9 +18,7 @@ For information about the security events of the UAA, see [UAA Audit Requirement
 
 ## Security Events of the SAP Authorization and Trust Management Service
 
-In cloud management tools feature set A, account management and role assignments, such as for the security administrator, are managed by SAP Authorization and Trust Management service in the Neo environment. For more information about audit logging in the Neo environment, see the related links at the end of this document.
-
-In cloud management tools feature set B, SAP Authorization and Trust Management service uses role collections to handle account management.
+The SAP Authorization and Trust Management service uses role collections to handle account management.
 
 SAP Authorization and Trust Management service records all its changes in its database tables and summarizes these changes in the audit log. The following table summarizes the audit log entries.
 
@@ -707,9 +705,4 @@ We include SAML responses in the audit log for web single sign-on and SAML beare
 </td>
 </tr>
 </table>
-
-**Related Information**  
-
-
-[Audit Logging in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/02c39712c1064c96b37c1ea5bc9420dc.html)
 

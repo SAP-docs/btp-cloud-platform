@@ -18,7 +18,7 @@ A factory calendar is based on a country-specific holiday calendar and defines w
 Read on to learn about the set of data we deliver for these categories.
 
 > ### Note:  
-> Class `CL_SCAL_API` is still available, but deprecated. We recommend that you use class `CL_FHC_CALENDAR_RUNTIME` and the related interfaces `IF_FHC_FCAL_RUNTIME`, `IF_FHC_HCAL_RUNTIME` and `IF_FHC_HOLIDAY_RUNTIME` instead. Furthermore, the CDS views from the section [Accessing Holiday and Factory Calendar Tables Using VDM-Compliant CDS Views](accessing-holiday-and-factory-calendar-tables-using-vdm-compliant-cds-views-cc36b14.md) can be used to get an overview of existing factory- and holiday calendars. For information about the mapping between SCAL-relevant IDs and FHC-relevant IDs, see the corresponding section below.
+> Class `CL_SCAL_API` is still available, but deprecated. We recommend that you use class `CL_FHC_CALENDAR_RUNTIME` and the related interfaces `IF_FHC_FCAL_RUNTIME`, `IF_FHC_HCAL_RUNTIME` and `IF_FHC_HOLIDAY_RUNTIME` instead. Furthermore, the CDS views from the section  <?sap-ot O2O class="- topic/xref " href="a4b45317c4274f4b804a5cfaeee2c499.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/f7cbd3c336f84dc09c85639c55b4309f.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>  can be used to get an overview of existing factory- and holiday calendars. For information about the mapping between SCAL-relevant IDs and FHC-relevant IDs, see the corresponding section below.
 
 
 

@@ -10,7 +10,7 @@ Secure development focuses on Pod security, network traffic restriction, Istio s
 
 ## Pod Security
 
-Read  <?sap-ot O2O class="- topic/xref " href="f8cb6e55496b4bd1be68d6dfa4d15487.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/ff51a3258fe54c308c05ed5901d1a793.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>  for details on how to secure your Kubernetes Pods in Kyma.
+Read [Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommendations-f8cb6e5.md) for details on how to secure your Kubernetes Pods in Kyma.
 
 
 
@@ -71,7 +71,7 @@ See [Security Considerations](https://kyma-project.io/#/serverless-manager/user/
 
 [Secure Administration and Operations in the Kyma Environment](secure-administration-and-operations-in-the-kyma-environment-a22ef28.md "Secure administration and operations focus on landscape setup, authentication, authorization, and Istio access logs. Learn about the security measures you can take from the following sections.")
 
- <?sap-ot O2O class="- topic/link " href="f8cb6e55496b4bd1be68d6dfa4d15487.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/ff51a3258fe54c308c05ed5901d1a793.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommendations-f8cb6e5.md " 		 	")
 
 [Function Security](function-security-1be599b.md "When creating Functions, make sure you understand how they work to avoid potential threats.")
 

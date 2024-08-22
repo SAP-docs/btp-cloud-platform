@@ -24,8 +24,6 @@ Once you have implemented the custom SAP Fiori application, you can deploy it to
 
 You can launch the deployed apps standalone or embed them into the SAP Fiori launchpad.
 
-SAP S/4HANA Cloud comes with an embedded SAP Fiori launchpad and provides access to SAP Fiori apps that are deployed to the ABAP environment. You can also add apps that are deployed to the ABAP environment to launchpads provided by the [SAP Build Work Zone, standard edition](https://help.sap.com/docs/build-work-zone-standard-edition).
-
 
 
 Spaces and pages structure the way apps and other content appears in the SAP Fiori launchpad. They offer more flexibility to influence the launchpad layout for different user groups. Each user can see one or more spaces that contain one or more pages. The pages show apps clustered in different sections.

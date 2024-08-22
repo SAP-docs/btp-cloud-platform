@@ -1,7 +1,5 @@
 <!-- loiob7e88abcc00044ec9c81c629753e3963 -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # Configure the Entitlements for SAP Event Mesh
 
 To be able to consume SAP S/4HANA Cloud events, you need to configure the entitlements for SAP Event Mesh for the subaccount in SAP BTP.
@@ -22,27 +20,17 @@ You need to configure the entitlements for the SAP Event Mesh service to create 
 
 1.  In SAP BTP cockpit, navigate to the global account that contains the subaccount in which you want to make your SAP system accessible.
 
-2.  In the navigation area, choose *Entitlements*. Then, depending on the feature set you are using, you have to follow different steps. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
+2.  In the navigation area, choose *Entitlements* \> *Entity Assignments*.
 
-    -   If you are using feature set A, you have to:
-        1.  In the navigation area, choose *Entitlements* \> *Subaccount Assignments*.
-        2.  Select your subaccount from the drop down menu, choose *Go*, and then choose *Configure Entitlements*.
+3.  On the *Entity Assignments* screen, select your subaccount in the*Select Entities* field.
 
-            > ### Tip:  
-            > If your global account contains more than 20 subaccounts, choose <span class="SAP-icons-V5"></span> to open up the value help dialog. There you can filter subaccounts by role, environment and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
+4.  Choose *Go*, and then choose *Configure Entitlements*.
 
+5.  Choose *Add Service Plans*, and then select the *SAP Event Mesh* service.
 
-    -   If you are using feature set B, you have to:
-        1.  In the navigation area, choose *Entitlements* \> *Entity Assignments*.
-        2.  On the *Entity Assignments* screen, select your subaccount in the*Select Entities* field.
-        3.  Choose *Go*, and then choose *Configure Entitlements*.
+6.  In the *Available Service Plans* area, select the system you have registered and the *default* service plan, and then choose *Add Service Plan*.
 
-
-3.  Choose *Add Service Plans*, and then select the *SAP Event Mesh* service.
-
-4.  In the *Available Service Plans* area, select the system you have registered and the *default* service plan, and then choose *Add Service Plan*.
-
-5.  Choose *Save*.
+7.  Choose *Save*.
 
 
 **Related Information**  

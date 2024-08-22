@@ -277,7 +277,7 @@ Command line interface for SAP BTP
 <tr>
 <td valign="top">
 
-\(If you do not use `SAP ID Service`\) Assign the role collections to user groups \(cloud management tools feature set A regions\)
+\(If you do not use `SAP ID Service`\) Assign the role collections to user groups
 
 [Map Role Collections to User Groups](../50-administration-and-ops/map-role-collections-to-user-groups-51acfc8.md)
 

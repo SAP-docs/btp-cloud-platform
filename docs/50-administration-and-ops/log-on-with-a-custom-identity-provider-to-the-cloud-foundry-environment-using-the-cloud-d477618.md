@@ -18,7 +18,7 @@ Learn how to use different methods to log on to Cloud Foundry using a custom ide
 
 -   Your administrator has configured your Cloud Foundry environment to use a custom identity provider.
 
-    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md) and [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
+    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md).
 
 -   You've configured the login screen to display your custom identity provider, see [Log on with a Browser to the Cloud Foundry CLI and Service Dashboards](log-on-with-a-browser-to-the-cloud-foundry-cli-and-service-dashboards-7eb0943.md) \(relevant for the manual login process\).
 
@@ -29,7 +29,7 @@ Learn how to use different methods to log on to Cloud Foundry using a custom ide
 
 ## Context
 
-The cf CLI provides different options to log on using a custom IdP. One scenario is recommended for an interactive logon because you must switch from the CLI to the browser to log on. This scenario supports multifactor authentication and other passwordless authentication methods, as well as single sign-on. The other scenario focuses on automation scenarios where switching between the CLI and a browser isn’t possible.
+The cf CLI provides different options to log on using a custom identity provider. One scenario is recommended for an interactive logon because you must switch from the CLI to the browser to log on. This scenario supports multifactor authentication and other passwordless authentication methods, as well as single sign-on. The other scenario focuses on automation scenarios where switching between the CLI and a browser isn’t possible.
 
 
 

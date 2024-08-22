@@ -16,12 +16,11 @@ To learn more about the concept of subaccounts, see [Subaccounts](../10-concepts
 
 1.  Learn how to create subaccounts.
 
-    -   [Create a Subaccount](create-a-subaccount-05280a1.md)
+    [Create a Subaccount](create-a-subaccount-05280a1.md)
 
 2.  Learn how to manage users.
 
-    -   [Managing Security Administrators in Your Subaccount \[Feature Set A\]](managing-security-administrators-in-your-subaccount-feature-set-a-6752c4b.md)
-    -   [Add Members to Your Subaccount \[Feature Set B\]](add-members-to-your-subaccount-feature-set-b-1e1b7b6.md)
+    [Add Members to Your Subaccount \[Feature Set B\]](add-members-to-your-subaccount-feature-set-b-1e1b7b6.md)
 
 3.  Learn how to administer your subaccount.
 

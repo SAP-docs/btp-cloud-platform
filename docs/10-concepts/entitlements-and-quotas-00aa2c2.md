@@ -52,23 +52,9 @@ See also the sections below and [Managing Entitlements and Quotas Using the Cock
 
 
 
-<a name="loio00aa2c23479d42568b18882b1ca90d79__section_uqw_t12_klb"/>
-
-## Distribution and Usage of Entitlements and Quotas \[Feature Set A\]
-
-Entitlements and quotas are purchased and managed at global account level, from where they’re distributed to subaccounts, which consume them.
-
-When you remove quotas or assignments from a subaccount, they become available again at global account level and can be assigned to other subaccounts.
-
-For example, let's say you've purchased 10 units of service plan <x\> for your global account. If you have 3 subaccounts in your global account and you assign all 10 units to only one of them, the other 2 subaccounts won't be able to use that service plan at all. You would have to remove some quota from that one subaccount and then entitle that service plan to the other subaccount, distributing the globally available quota among them.
-
-For more information, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md).
-
-
-
 <a name="loio00aa2c23479d42568b18882b1ca90d79__section_lqp_5b2_klb"/>
 
-## Distribution and Usage of Entitlements and Quotas \[Feature Set B\]
+## Distribution and Usage of Entitlements and Quotas
 
 Entitlements and quotas are purchased and managed at global account level, from where they’re distributed to subaccounts, which consume them.
 
@@ -87,7 +73,7 @@ When you remove quotas or assignments from a directory or subaccount, they becom
 For more information, see:
 
 -   [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md)
--   [Configure Entitlements and Quotas for Directories \[Feature Set B\]](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md)
+-   [Configure Entitlements and Quotas for Directories](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-37f8871.md)
 
 
 

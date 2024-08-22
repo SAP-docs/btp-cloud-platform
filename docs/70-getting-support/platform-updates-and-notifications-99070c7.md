@@ -2,7 +2,7 @@
 
 # Platform Updates and Notifications
 
-SAP BTP is a dynamic product, which has continuous production releases \(updates\). To get notifications for the new features and fixes every release, follow the community page at [SAP Business Technology Platform](https://blogs.sap.com/tags/8077228b-f0b1-4176-ad1b-61a78d61a847/). Also, make sure you have enabled your account notifications as described at [Your Notification Settings](https://community.sap.com/resources/getting-started#your-notification-settings).
+SAP BTP is a dynamic product, which has continuous production releases \(updates\). To get notifications for the new features and fixes every release, subscribe at [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&version=Cloud). For more information, see [Subscribing to What's New Notifications](https://help.sap.com/docs/BTP/922bf2dbe0b646aaaa8cb5e077cfd799/903c8f5e91e44346b03c9511022a5e25.html?locale=en-US).
 
 
 

@@ -1,9 +1,6 @@
 <!-- loio17b6a171552544a6804f12ea83112a3f -->
 
-# Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]
-
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
+# Account Administration Using APIs of the SAP Cloud Management Service
 
 Provides information about using the APIs of the SAP Cloud Management service for SAP BTP \(technical name: `cis`\) to manage some of the administrative operations in your accounts.
 

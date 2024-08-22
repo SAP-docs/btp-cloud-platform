@@ -153,7 +153,7 @@ Node.js
 <tr>
 <td valign="top">
 
-Learn how to use `java-security` to perform JWT Validation as part of your Java application. Furthermore, learn how to test the secured application using the `java-security-test` utilities.
+Learn how to use the `java-security` library to perform JWT Validation as part of your Java application. Furthermore, learn how to test the secured application using the `java-security-test` utilities.
 
 </td>
 <td valign="top">
@@ -181,6 +181,28 @@ Java
 <td valign="top">
 
 [GitHub](https://github.com/SAP-samples/cloud-espm-cloud-native#security-implementation) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Learn how to validate OAuth tokens using a Python library. Use this library to add authentication in your Python application.
+
+> ### Note:  
+> This library isn't part of an SAP BTP license. However, it belongs to a related open source project.
+
+
+
+</td>
+<td valign="top">
+
+Python
+
+</td>
+<td valign="top">
+
+[GitHub](https://github.com/SAP/cloud-pysec) 
 
 </td>
 </tr>
@@ -240,7 +262,7 @@ For business users:
 
 For platform users:
 
--   [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](../50-administration-and-ops/establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md)
+-   [Establish Trust and Federation of Custom Identity Providers for Platform Users](../50-administration-and-ops/establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md)
 
 
 For default identity provider:
@@ -346,7 +368,7 @@ Command line interface for SAP BTP
 <tr>
 <td valign="top">
 
-\(If you do not use `SAP ID Service`\) Assign the role collections to user groups \(cloud management tools feature set A regions\)
+\(If you do not use `SAP ID Service`\) Assign the role collections to user groups
 
 [Map Role Collections to User Groups](../50-administration-and-ops/map-role-collections-to-user-groups-51acfc8.md)
 

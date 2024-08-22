@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# View Directory Usage Analytics \[Feature Set B\]
+# View Directory Usage Analytics
 
 You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.
 
@@ -11,7 +11,7 @@ To monitor and track usage in a directory, open your directory from the *Account
 > ### Note:  
 > This cockpit page is available only for directories that have user management enabled.
 > 
-> You must also be assigned as an admin of the directory. For the more information, see [Create a Directory \[Feature Set B\]](create-a-directory-feature-set-b-b8ef1c4.md) and [Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md).
+> You must also be assigned as an admin of the directory. For the more information, see [Create a Directory](create-a-directory-b8ef1c4.md) and [Manage Users in Directories](manage-users-in-directories-ff4d4a4.md).
 
 
 
@@ -105,5 +105,5 @@ Some rounding or shortening is applied to large values. You can mouse over value
 
 [Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-featur-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 
-[Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md "Manage members in your directory using the SAP BTP cockpit.")
+[Manage Users in Directories](manage-users-in-directories-ff4d4a4.md "Manage members in your directory using the SAP BTP cockpit.")
 

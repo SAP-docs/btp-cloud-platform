@@ -512,8 +512,9 @@ Build and run mobile apps for B2C use cases.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
 -   Israel \(Tel Aviv\) GCP
+-   KSA \(Dammam\) GCP public sector
 
 
 
@@ -2236,7 +2237,7 @@ A single gateway to all your data.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
 -   US Central \(IA\)
 
 
@@ -2489,58 +2490,6 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 <tr>
 <td valign="top">
 
-[SAP Secure Login Service for SAP GUI](https://help.sap.com/sls) 
-
-</td>
-<td valign="top">
-
-Get client certificates via Secure Login Client \(SLC\) to log-on with SAP GUI.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-SEC-SLS
-
-
-
-</td>
-<td valign="top">
-
--   
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
-
-
-
-</td>
-<td valign="top">
-
--   
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Identity Authentication - Additional Tenant](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US) 
 
 </td>
@@ -2579,116 +2528,6 @@ Secure authentication and single sign-on for users in the cloud.
 <td valign="top">
 
 -   
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
-
-</td>
-<td valign="top">
-
-Calculate prices for configurable- and non-configurable products
-
-</td>
-<td valign="top">
-
--   LOD-CPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Singapore
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
-
-</td>
-<td valign="top">
-
-Calculate prices for configurable- and non-configurable products
-
-</td>
-<td valign="top">
-
--   LOD-CPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
 
 
 </td>
@@ -3329,8 +3168,65 @@ Manage transports of development artifacts and application-specific content.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
+-   KSA \(Dammam\) GCP public sector
 -   Israel \(Tel Aviv\) GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Data Enrichment Service](https://help.sap.com/viewer/product/Cloud_Platform_Data_Enrichment/latest/en-US) 
+
+</td>
+<td valign="top">
+
+Create or enrich master data using trusted third-party data.
+
+</td>
+<td valign="top">
+
+-   LOD-MDM-DE
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Singapore
 
 
 
@@ -3507,7 +3403,8 @@ Develop, debug, test, and deploy SAP business applications.
 
 -   US Central \(IA\)
 -   Israel \(Tel Aviv\) GCP
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
+-   KSA \(Dammam\) GCP public sector
 
 
 
@@ -3562,6 +3459,62 @@ Develop, debug, test, and deploy SAP business applications.
 <td valign="top">
 
 -   China \(Shanghai\)\*\*
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Data Enrichment Service](https://help.sap.com/viewer/product/Cloud_Platform_Data_Enrichment/latest/en-US) 
+
+</td>
+<td valign="top">
+
+Create or enrich master data using trusted third-party data.
+
+</td>
+<td valign="top">
+
+-   LOD-MDM-DE
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Singapore
 
 
 
@@ -3976,72 +3929,6 @@ Manage print queues, connect print clients, and monitor print status.
 <tr>
 <td valign="top">
 
-[Forms Service by Adobe](https://help.sap.com/viewer/product/CP_FORMS_BY_ADOBE/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Generate print and interactive forms using Adobe Document Services.
-
-</td>
-<td valign="top">
-
--   BC-SRV-FP-NEO
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Brazil \(São Paulo\)
--   Canada \(Toronto\)
--   UAE \(Dubai\)
--   Europe \(Amsterdam\)
--   KSA \(Riyadh\)
--   Europe \(Frankfurt\)
--   US West \(Colorado Springs\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [SAP Intelligent Product Design](https://help.sap.com/viewer/p/PLM_CP) 
 
 </td>
@@ -4204,17 +4091,17 @@ Manage and track expenses, and compare them against your budget in real time.
 <tr>
 <td valign="top">
 
-[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+[Variant Configuration](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
 
 </td>
 <td valign="top">
 
-Connect applications, services and systems across different landscapes.
+Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 
 </td>
 <td valign="top">
 
--   BC-CP-EM-MES
+-   LOD-CPS
 
 
 
@@ -4235,13 +4122,9 @@ Connect applications, services and systems across different landscapes.
 </td>
 <td valign="top">
 
--   US East \(VA\)
--   Australia \(Sydney\)
--   Singapore
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
 -   Europe \(Frankfurt\)
--   Canada \(Montreal\)
+-   US East \(VA\)
+-   Singapore
 
 
 
@@ -4264,17 +4147,17 @@ Connect applications, services and systems across different landscapes.
 <tr>
 <td valign="top">
 
-[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+[Variant Configuration](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
 
 </td>
 <td valign="top">
 
-Connect applications, services and systems across different landscapes.
+Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 
 </td>
 <td valign="top">
 
--   BC-CP-EM-MES
+-   LOD-CPS
 
 
 
@@ -4295,120 +4178,7 @@ Connect applications, services and systems across different landscapes.
 </td>
 <td valign="top">
 
--   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Singapore
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Connect applications, services and systems across different landscapes.
-
-</td>
-<td valign="top">
-
--   BC-CP-EM-MES
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Connect applications, services and systems across different landscapes.
-
-</td>
-<td valign="top">
-
--   BC-CP-EM-MES
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
 
 
 
@@ -4833,6 +4603,59 @@ Recommendation of the G/L accounts using machine learning.
 <tr>
 <td valign="top">
 
+[Invoicing option for Peppol](https://help.sap.com/viewer/product/DC_PEPPOL/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Meet compliance requirements by exchanging documents with the Peppol network.
+
+</td>
+<td valign="top">
+
+-   LOD-LH-DCS-PAP
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+
+
+
+</td>
+<td valign="top">
+
+-   
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Serverless Runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
 
 </td>
@@ -5189,116 +5012,6 @@ Create and extend SAP full-stack applications for browsers and mobile devices.
 <tr>
 <td valign="top">
 
-[Variant Configuration](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
-
-</td>
-<td valign="top">
-
-Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
-
-</td>
-<td valign="top">
-
--   LOD-CPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Singapore
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Variant Configuration](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
-
-</td>
-<td valign="top">
-
-Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
-
-</td>
-<td valign="top">
-
--   LOD-CPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [SAP Live Link 365 for Authentication](https://livelink.sapmobileservices.com/documentation/#/integrate/apiReferences) 
 
 </td>
@@ -5571,7 +5284,9 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <td valign="top">
 
 -   US Central \(IA\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
+-   Israel \(Tel Aviv\) GCP
+-   KSA \(Dammam\) GCP public sector
 
 
 
@@ -6979,6 +6694,116 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 <tr>
 <td valign="top">
 
+[Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+</td>
+<td valign="top">
+
+Calculate prices for configurable- and non-configurable products
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+</td>
+<td valign="top">
+
+Calculate prices for configurable- and non-configurable products
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Integration Suite](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_INTEGRATION_SUITE) 
 
 </td>
@@ -7415,6 +7240,61 @@ Use machine learning to automate your document information extraction processes.
 -   Japan \(Tokyo\)
 -   US East \(VA\)
 -   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP HANA spatial services](https://help.sap.com/viewer/product/SAP_HANA_SPATIAL_SERVICES/latest/) 
+
+</td>
+<td valign="top">
+
+SAP HANA spatial services provides a set of APIs for location-based services.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-HSS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
 
 
 
@@ -8269,8 +8149,9 @@ Create role based, multi-channel sites to access business apps and content.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
 -   Israel \(Tel Aviv\) GCP
+-   KSA \(Dammam\) GCP public sector
 
 
 
@@ -8502,7 +8383,9 @@ Cloud Offering with End-to-End visibility on Business Processes
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
+-   Israel \(Tel Aviv\) GCP
+-   KSA \(Dammam\) GCP public sector
 
 
 
@@ -8820,6 +8703,116 @@ Create and consume in-memory cache with Redis based on hyperscalers.
 <tr>
 <td valign="top">
 
+[Administration Service](https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing) 
+
+</td>
+<td valign="top">
+
+Administer the configuration and pricing services
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Administration Service](https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing) 
+
+</td>
+<td valign="top">
+
+Administer the configuration and pricing services
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [UI5 flexibility for key users](https://help.sap.com/viewer/product/UI5_FLEXIBILITY_KEY_USER/Cloud/en-US) 
 
 </td>
@@ -8975,7 +8968,8 @@ Add UI adaptation to your UI5 applications.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
+-   KSA \(Dammam\) GCP public sector
 -   Israel \(Tel Aviv\) GCP
 
 
@@ -9153,7 +9147,7 @@ Store and analyze application logs, metrics, and traces based on OpenSearch.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
 
 
 
@@ -9262,6 +9256,233 @@ Manage your SAP systems in infrastructure as a service \(IaaS\) environments.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Connect applications, services and systems across different landscapes.
+
+</td>
+<td valign="top">
+
+-   BC-CP-EM-MES
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   US East \(VA\)
+-   Australia \(Sydney\)
+-   Singapore
+-   Brazil \(São Paulo\)
+-   Japan \(Tokyo\)
+-   Europe \(Frankfurt\)
+-   Canada \(Montreal\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Connect applications, services and systems across different landscapes.
+
+</td>
+<td valign="top">
+
+-   BC-CP-EM-MES
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Japan \(Tokyo\)
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Connect applications, services and systems across different landscapes.
+
+</td>
+<td valign="top">
+
+-   BC-CP-EM-MES
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\) GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Event Mesh](https://help.sap.com/viewer/product/SAP_ENTERPRISE_MESSAGING/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Connect applications, services and systems across different landscapes.
+
+</td>
+<td valign="top">
+
+-   BC-CP-EM-MES
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
 
 
 
@@ -9711,38 +9932,50 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
-[SAP Excise Tax Management](https://help.sap.com/viewer/p/EXCISE_TAX) 
+[Forms Service by Adobe](https://help.sap.com/viewer/product/CP_FORMS_BY_ADOBE/Cloud/en-US) 
 
 </td>
 <td valign="top">
 
-Help Excise Tax customers calculate, track, and comply with excise duty tax requirements in real time
+Generate print and interactive forms using Adobe Document Services.
 
 </td>
 <td valign="top">
 
--   LOD-ET-INT
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
+-   BC-SRV-FP-NEO
 
 
 
 </td>
 <td valign="top">
 
--   AWS
+-   Neo
 
 
 
 </td>
 <td valign="top">
 
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Brazil \(São Paulo\)
+-   Canada \(Toronto\)
+-   UAE \(Dubai\)
+-   Europe \(Amsterdam\)
+-   KSA \(Riyadh\)
 -   Europe \(Frankfurt\)
+-   US West \(Colorado Springs\)
 
 
 
@@ -9820,62 +10053,6 @@ Embed data quality services to validate addresses and enrich with geocodes.
 <tr>
 <td valign="top">
 
-[Data Enrichment](https://help.sap.com/viewer/product/Cloud_Platform_Data_Enrichment/latest/en-US) 
-
-</td>
-<td valign="top">
-
-Create or enrich master data using trusted third-party data.
-
-</td>
-<td valign="top">
-
--   LOD-MDM-DE
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Singapore
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [SAP Customer Order Sourcing](https://help.sap.com/viewer/product/SAP_CUSTOMER_ORDER_SOURCING/Cloud/) 
 
 </td>
@@ -9908,6 +10085,72 @@ Calculate sourcing results based on your own sourcing strategies.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Java Apps Lifecycle Management](https://help.sap.com/viewer/product/LIFECYCLE_MGMT/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Manage the lifecycle of Java applications by using a REST API.
+
+</td>
+<td valign="top">
+
+-   BC-NEO-DPL
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
+-   Brazil \(São Paulo\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
 
 
 
@@ -10437,9 +10680,10 @@ Simplify access to applications by establishing a central entry point.
 <td valign="top">
 
 -   US Central \(IA\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
 -   Israel \(Tel Aviv\) GCP
 -   Europe \(Frankfurt\)
+-   KSA \(Dammam\) GCP public sector
 
 
 
@@ -10969,7 +11213,7 @@ Create and receive real-time alerts about your services
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
 -   Israel \(Tel Aviv\) GCP
 
 
@@ -11435,6 +11679,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 -   Japan \(Tokyo\)
+-   Australia \(Sydney\)
 
 
 
@@ -11511,50 +11756,38 @@ Configure and run predefined pipelines for continuous integration and delivery.
 <tr>
 <td valign="top">
 
-[Java Apps Lifecycle Management](https://help.sap.com/viewer/product/LIFECYCLE_MGMT/Cloud/en-US) 
+[Continuous Integration and Delivery](https://help.sap.com/docs/CONTINUOUS_DELIVERY?version=Cloud) 
 
 </td>
 <td valign="top">
 
-Manage the lifecycle of Java applications by using a REST API.
+Configure and run predefined pipelines for continuous integration and delivery.
 
 </td>
 <td valign="top">
 
--   BC-NEO-DPL
-
-
-
-</td>
-<td valign="top">
-
--   Neo
+-   BC-CP-CF-CICD
 
 
 
 </td>
 <td valign="top">
 
--   SAP
+-   Cloud Foundry
 
 
 
 </td>
 <td valign="top">
 
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   UAE \(Dubai\)
--   KSA \(Riyadh\)
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Israel \(Tel Aviv\) GCP
 
 
 
@@ -11791,59 +12024,6 @@ Manage retention and residence rules to block or delete personal data.
 
 -   Yes
 
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Peppol Exchange](https://help.sap.com/viewer/product/DC_PEPPOL/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Meet compliance requirements by exchanging documents with the Peppol network.
-
-</td>
-<td valign="top">
-
--   LOD-LH-DCS-PAP
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
-
-
-
-</td>
-<td valign="top">
-
--   
 
 
 </td>
@@ -12479,7 +12659,9 @@ Enrich cloud offerings with decision modeling, management, and execution service
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
+-   Israel \(Tel Aviv\) GCP
+-   KSA \(Dammam\) GCP public sector
 
 
 
@@ -12846,6 +13028,169 @@ Debug your Java application even through networks with high latency.
 <tr>
 <td valign="top">
 
+[SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
+
+</td>
+<td valign="top">
+
+Put raw sensor data into business context and leverage it in analytical or transactional applications.
+
+</td>
+<td valign="top">
+
+-   IOT-BSV-APB
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
+
+</td>
+<td valign="top">
+
+Put raw sensor data into business context and leverage it in analytical or transactional applications.
+
+</td>
+<td valign="top">
+
+-   IOT-BSV-APB
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Excise Tax Management](https://help.sap.com/viewer/p/EXCISE_TAX) 
+
+</td>
+<td valign="top">
+
+Help Excise Tax customers calculate, track, and comply with excise duty tax requirements in real time.
+
+</td>
+<td valign="top">
+
+-   LOD-ET-INT
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Service Manager](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/3a27b85a47fc4dff99184dd5bf181e14.html) 
 
 </td>
@@ -13006,168 +13351,6 @@ The central registry for service brokers and platforms in SAP BTP.
 
 -   Yes
 
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Administration Service](https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing) 
-
-</td>
-<td valign="top">
-
-Administer the configuration and pricing services
-
-</td>
-<td valign="top">
-
--   LOD-CPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Singapore
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Administration Service](https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing) 
-
-</td>
-<td valign="top">
-
-Administer the configuration and pricing services
-
-</td>
-<td valign="top">
-
--   LOD-CPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Rapid Application Development by Mendix](https://help.sap.com/viewer/product/Mendix/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Develop SAP business applications with a low-code, graphical toolset.
-
-</td>
-<td valign="top">
-
--   XX-PART-MDX-RAD
-
-
-
-</td>
-<td valign="top">
-
--   
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
-
-
-
-</td>
-<td valign="top">
-
--   
 
 
 </td>
@@ -14473,101 +14656,44 @@ Retrieve information about destinations in the Cloud Foundry environment.
 <tr>
 <td valign="top">
 
-[SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
+[SAP Secure Login Service for SAP GUI](https://help.sap.com/sls) 
 
 </td>
 <td valign="top">
 
-Put raw sensor data into business context and leverage it in analytical or transactional applications.
+Get client certificates via Secure Login Client \(SLC\) to log-on with SAP GUI.
 
 </td>
 <td valign="top">
 
--   IOT-BSV-APB
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
+-   BC-CP-CF-SEC-SLS
 
 
 
 </td>
 <td valign="top">
 
--   AWS
+-   
+
+
+</td>
+<td valign="top">
+
+-   SAP
 
 
 
 </td>
 <td valign="top">
 
--   Europe \(Frankfurt\)
--   US East \(VA\)
+-   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
 
 
 
 </td>
 <td valign="top">
 
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
-
-</td>
-<td valign="top">
-
-Put raw sensor data into business context and leverage it in analytical or transactional applications.
-
-</td>
-<td valign="top">
-
--   IOT-BSV-APB
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
+-   
 
 
 </td>
@@ -14983,8 +15109,9 @@ Build and run mobile apps for B2E and B2B use cases.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
--   India \(Mumbai\)
+-   India \(Mumbai\) GCP
 -   Israel \(Tel Aviv\) GCP
+-   KSA \(Dammam\) GCP public sector
 
 
 
@@ -15092,9 +15219,7 @@ SAP BTP Cockpit
 </td>
 <td valign="top">
 
-BC-NEO-CPT \[Feature Set A\]
-
-BC-CP-CPT \[Feature Set B\]
+BC-CP-CPT
 
 BC-CP-CF-CPT \[Cloud Foundry environment UI\]
 

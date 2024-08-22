@@ -80,7 +80,7 @@ You have a previously deployed MTA, with functional productive applications and 
 
 [https://github.com/SAP-samples/cf-mta-examples/tree/main/blue-green-deploy-legacy](https://github.com/SAP-samples/cf-mta-examples/tree/main/blue-green-deploy-legacy)
 
-[Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md "Run two identical production environments to employ the blue-green deployment technique.")
+[Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md "Run two identical production environments, set of cloud foundry applications that run together, to employ the blue-green deployment technique.")
 
 [Blue-Green Deployment Strategy](blue-green-deployment-strategy-7c83810.md "Use the current blue-green deployment of Multitarget applications.")
 

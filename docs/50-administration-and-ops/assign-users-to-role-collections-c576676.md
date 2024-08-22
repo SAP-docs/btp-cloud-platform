@@ -18,7 +18,7 @@ You can assign users from default identity providers, and from custom identity p
 
 1.  Open the SAP BTP cockpit.
 
-2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\).
+2.  Go to your global account or subaccount \(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\).
 
 3.  Choose *Security* \> *Role Collections*.
 
@@ -26,12 +26,12 @@ You can assign users from default identity providers, and from custom identity p
 
 5.  Go to the *Users* section and choose *Edit*.
 
-6.  Enter the user ID of the user that you want to assign to the role collection. If the user only exists in a connected identity provider, you must choose the identity provider and type in the e-mail address.
+6.  Enter the user ID, identity provider, and e-mail address of the user that you want to assign to the role collection.
 
 7.  \(Optional\) To add more users, choose :heavy_plus_sign: \(Add a user\).
 
 8.  Save your changes.
 
-    You've now assigned this user to the role collection. The user has all of the authorizations of the role collection.
+    You've now assigned this user to the role collection. The user has the authorizations of the role collection.
 
 

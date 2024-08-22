@@ -63,7 +63,7 @@ Global accounts and subaccounts are completely independent of user accounts. For
 
 <!-- loioa92721fc75524ec09a7a7255997dbd94 -->
 
-## Directories \[Feature Set B\]
+## Directories
 
 With **directories**, you can organize and manage your subaccounts according to your technical and business needs.
 
@@ -95,9 +95,9 @@ Optionally, you can also enable the following features in your directories:
 **Related Information**  
 
 
-[Manage the Account Explorer Hierarchy \[Feature Set B\]](../50-administration-and-ops/manage-the-account-explorer-hierarchy-feature-set-b-2e2a5b6.md "Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.")
+[Manage the Account Explorer Hierarchy](../50-administration-and-ops/manage-the-account-explorer-hierarchy-2e2a5b6.md "Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.")
 
-[Configure Entitlements and Quotas for Directories \[Feature Set B\]](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Directories](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.")
 
 [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.")
 
@@ -107,13 +107,13 @@ Optionally, you can also enable the following features in your directories:
 
 [Managing Global Accounts Using the Cockpit](../50-administration-and-ops/managing-global-accounts-using-the-cockpit-667f34b.md "Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.")
 
-[Managing Directories Using the Cockpit \[Feature Set B\]](../50-administration-and-ops/managing-directories-using-the-cockpit-feature-set-b-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.")
+[Managing Directories Using the Cockpit](../50-administration-and-ops/managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.")
 
 [Managing Subaccounts Using the Cockpit](../50-administration-and-ops/managing-subaccounts-using-the-cockpit-55d0b6d.md "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.")
 
 [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md "Use the SAP BTP command line interface (btp CLI) to manage operations with global accounts, directories, and subaccounts.")
 
-[Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-feature-set-b-17b6a17.md "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.")
+[Account Administration Using APIs of the SAP Cloud Management Service](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-17b6a17.md "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.")
 
 <a name="loioeeda449cf252418a97e0f7c9abd30b9a"/>
 
@@ -148,7 +148,7 @@ The hierarchical structure of global accounts, directories, and subaccounts lets
 
 <!-- loioe8663c08ead648faa673b0d63c5b478e -->
 
-## Labels \[Feature Set B\]
+## Labels
 
 Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.
 
@@ -290,10 +290,10 @@ When working with labels, consider the following aspects:
 
 -   [Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md)
 -   [Change Subaccount Details](../50-administration-and-ops/change-subaccount-details-567d4a8.md)
--   [Create a Directory \[Feature Set B\]](../50-administration-and-ops/create-a-directory-feature-set-b-b8ef1c4.md)
+-   [Create a Directory](../50-administration-and-ops/create-a-directory-b8ef1c4.md)
 -   [Cloud Management Tools — Feature Set Overview](cloud-management-tools-feature-set-overview-caf4e4e.md)
 -   [Commands in the btp CLI](../50-administration-and-ops/commands-in-the-btp-cli-a03a555.md)
--   [Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-feature-set-b-17b6a17.md)
+-   [Account Administration Using APIs of the SAP Cloud Management Service](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-17b6a17.md)
 -   [Managing Service Resources Using the APIs of the SAP Service Manager](../50-administration-and-ops/managing-service-resources-using-the-apis-of-the-sap-service-manager-ee4f871.md)
 -   [Creating Service Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/fad874a99a434ae58c59d7340a528bdc.html)
 -   [Working with Environment Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/1d6897d22f90443c8a3f9f6c8bb41bb8.html#loio1d6897d22f90443c8a3f9f6c8bb41bb8__section_usz_bfz_qrb)

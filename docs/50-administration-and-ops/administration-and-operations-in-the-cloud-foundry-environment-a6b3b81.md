@@ -7,13 +7,13 @@ Learn about the different account administration and application operation tasks
 -   [Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md)
 
 -   [Account Administration in the Cockpit](account-administration-in-the-cockpit-8061ecc.md)
--   [Account Administration Using APIs of the SAP Cloud Management Service \[Feature Set B\]](account-administration-using-apis-of-the-sap-cloud-management-service-feature-set-b-17b6a17.md)
+-   [Account Administration Using APIs of the SAP Cloud Management Service](account-administration-using-apis-of-the-sap-cloud-management-service-17b6a17.md)
 
 -   [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md)
 
 -   [Org Administration Using the Cockpit](org-administration-using-the-cockpit-c4c25cc.md)
 
--   [Org Management Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](org-management-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-aee40e1.md)
+-   [Org Management Using the SAP BTP Command Line Interface \(btp CLI\)](org-management-using-the-sap-btp-command-line-interface-btp-cli-aee40e1.md)
 
 -   [Org Administration Using the Cloud Foundry CLI](org-administration-using-the-cloud-foundry-cli-927377f.md)
 -   [Application Operations in the Cloud Foundry Environment](application-operations-in-the-cloud-foundry-environment-0f1286a.md)

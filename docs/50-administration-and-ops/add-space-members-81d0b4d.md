@@ -63,14 +63,9 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
     If the new members are platform users from a custom identity provider, enter the origin.
 
-    -   Feature Set A: Choose *Other* and then enter the corresponding origin of the Identity Authentication tenant.
+    Select the corresponding origin of the Identity Authentication tenant.
 
-        For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
-
-    -   Feature Set B: Select the corresponding origin of the Identity Authentication tenant.
-
-        For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
-
+    For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md).
 
 7.  Select the roles for the users and save your changes.
 

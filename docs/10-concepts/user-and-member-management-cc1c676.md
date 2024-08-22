@@ -2,7 +2,7 @@
 
 # User and Member Management
 
-On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.
+On SAP BTP, user management takes place at all levels from global account to environment.
 
 
 
@@ -10,9 +10,19 @@ On SAP BTP, member management takes place at all levels from global account to e
 
 ## User Accounts
 
-A user account corresponds to a particular user in an identity provider, such as the default identity provider or a custom tenant of SAP Cloud Identity Services - Identity Authentication.
+A user account corresponds to a particular user in an identity provider. The user is always stored in an external identity provider, such as a custom tenant of SAP Cloud Identity Services - Identity Authentication or the default identity provider.
 
-**User accounts** enable users to log on to SAP BTP, access subaccounts, and to use services according to the permissions granted to them.
+**User accounts** enable users to log on to SAP BTP, access accounts and environments, and use applications according to the authorizations.
+
+> ### Note:  
+> A user name alone doesn't determine a concrete user account with associated authorizations, as you can have users with the same user name in different identity providers. Accessible data and allowed operations also depend on the identity provider. The concrete user is identified by the combination of user name and identity provider.
+> 
+> > ### Example:  
+> > There are two users with the same user name, which is the email address here. The two users with different identity providers have different authorizations and can access different applications.
+> > 
+> > -   julia.moore@acme.com from the custom identity provider has authorizations to access her favorite industrial applications. She needs the logon with the custom identity provider for her actual work.
+> > 
+> > -   julia.moore@acme.com from the default identity provider has no authorizations.
 
 Before diving into the different user and member management concepts, it's important to understand the difference between the two types of users we’re referring to: **platform users** and **business users**.
 
@@ -20,12 +30,10 @@ Before diving into the different user and member management concepts, it's impor
 
 ![Platform Users and Business Users](images/user-accounts_27c8463.png)
 
+For more information, see [Platform Users](platform-users-4401316.md) and [Business Users](business-users-2e68494.md).
+
 **Related Information**  
 
-
-[Platform Users](platform-users-4401316.md "Platform users are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that have full access and give certain permissions, for instance, at global account, directory, or subaccount level. Members only have basic access.")
-
-[Business Users](business-users-2e68494.md "Business users use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.")
 
 [Working with Users](../50-administration-and-ops/working-with-users-2c91f88.md "In the SAP BTP cockpit, you can see the users of your global account or subaccount, user-related identity provider information, and their authorizations. In a user's overview, you can create and delete users, and assign role collections. You can also display an overview of the role collections, where you can drill down all the way to the role, and see the application that the role is belongs to.")
 

@@ -228,12 +228,12 @@ Maximum
 </td>
 <td valign="top">
 
-328Mi
+628Mi
 
 </td>
 <td valign="top">
 
-0.45
+1.2
 
 </td>
 </tr>
@@ -386,9 +386,9 @@ Up to 20000Mi \(for PVC for internal Docker registry\)
 
 ## Telemetry
 
-Using the Telemetry module without further API usage results in the Telemetry Manager running with the footprint of:
+Resource consumption depends on the APIs \(pipelines\) you are using. For details, see [Module Lifecycle](../30-development/telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_lifecycle).
 
-****
+Using the Telemetry module without activating any pipelines results in the Telemetry Manager running with the following footprint:
 
 
 <table>
@@ -445,9 +445,7 @@ Maximum
 </tr>
 </table>
 
-Activation of the first LogPipeline will cause the deployment of the log agent running an instance per node:
-
-****
+Activation of the first `LogPipeline` causes the deployment of the log agent running an instance per node:
 
 
 <table>
@@ -504,9 +502,7 @@ Maximum per node
 </tr>
 </table>
 
-Activation of the first TracePipeline will cause the deployment of the trace gateway running with two replicas:
-
-****
+Activation of the first `TracePipeline` causes the deployment of the trace gateway running with two replicas:
 
 
 <table>
@@ -563,9 +559,7 @@ Maximum
 </tr>
 </table>
 
-Activation of the first MetricPipeline will cause the deployment of the metric gateway running with two replicas and the metric agent running per node:
-
-****
+Activation of the first `MetricPipeline` causes the deployment of the metric gateway running with two replicas and the metric agent running per node:
 
 
 <table>

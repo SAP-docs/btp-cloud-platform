@@ -37,5 +37,5 @@ Specify the following parameters:
 **Related Information**  
 
 
-[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the cockpit to create space quotas.")
+[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the SAP BTP cockpit to create space quotas.")
 

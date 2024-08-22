@@ -47,7 +47,7 @@ There are two types of users in subaccounts:
     -   *Subaccount Viewer*
 
 
-    For more information about the available role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-feature-set-b-0039cf0.md).
+    For more information about the available role collections, see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-0039cf0.md).
 
     To work in the Cloud Foundry, ABAP, Kyma, and Neo environments, your team members need additional authorizations.
 
@@ -101,7 +101,7 @@ The user can log on to SAP BTP and access resources according to the role collec
 **Related Information**  
 
 
-[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.")
+[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, user management takes place at all levels from global account to environment.")
 
 [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.")
 

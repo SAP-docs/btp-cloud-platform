@@ -44,17 +44,12 @@ In the cockpit, add users as org members and assign roles to grant the users acc
 
     If the new members are platform users from a custom identity provider, enter the origin.
 
-    -   Feature Set A: Choose *Other* and then enter the corresponding origin of the Identity Authentication tenant.
+    Select the corresponding origin of the Identity Authentication tenant.
 
-        For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md).
+    > ### Note:  
+    > The option to select an origin appears only if you have two or more identity providers.
 
-    -   Feature Set B: Select the corresponding origin of the Identity Authentication tenant.
-
-        > ### Note:  
-        > The option to select an origin appears only if you have two or more identity providers.
-
-        For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
-
+    For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md).
 
 6.  Select roles for the members and save your entries.
 

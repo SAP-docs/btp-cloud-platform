@@ -223,8 +223,8 @@ The Telemetry module collects application logs and distributed traces for your a
 </td>
 <td valign="top">
 
--   [kyma-project.io: Telemetry module](https://kyma-project.io/#/telemetry-manager/user/README)
--   [GitHub: Telemetry manager releases](https://github.com/kyma-project/telemetry-manager/releases)
+-   [Kyma Telemetry Module](kyma-telemetry-module-87ec550.md)
+-   [What's New for Telemetry](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2023-09-08%3A2099-12-31&q=Telemetry#top)
 -   [GitHub repository: Telemetry](https://github.com/kyma-project/telemetry-manager)
 
 
@@ -284,11 +284,11 @@ At the moment, the SAP Event Mesh default plan and NATS are supported. If you ch
 
 <a name="copydb6b63f8a36543d985dd0dfa641273bb__section_jcm_gyz_jxb"/>
 
-## Third-Party Modules
+## Other SAP Modules
 
-The third-party modules are developed and maintained by SAP teams outside of Kyma. To get help or request a feature, contact the module provider directly.
+These modules are developed and maintained by SAP teams outside of Kyma. To get help or request a feature, contact the module provider directly.
 
-**Third-Party Modules**
+**Other SAP Modules**
 
 
 <table>

@@ -1,11 +1,8 @@
 <!-- loio0039cf082d3d43eba9200fe15647922a -->
 
-# Role Collections and Roles in Global Accounts, Directories, and Subaccounts \[Feature Set B\]
+# Role Collections and Roles in Global Accounts, Directories, and Subaccounts
 
-In the cloud management tools feature set B, SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.
-
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
+SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.
 
 Role collections group authorizations for resources and services. Your administrators assign these role collections to other platform users to create new administrators. Role collections consist of individual roles. For more information on role collections, roles, see the related link.
 
@@ -1101,7 +1098,7 @@ If you've enabled environments in your subaccount, manage the roles for those en
 **Related Information**  
 
 
-[User and Member Management](user-and-member-management-cc1c676.md "On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.")
+[User and Member Management](user-and-member-management-cc1c676.md "On SAP BTP, user management takes place at all levels from global account to environment.")
 
 [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md "As an administrator, you group application roles in role collections. You then assign role collections to application users.")
 

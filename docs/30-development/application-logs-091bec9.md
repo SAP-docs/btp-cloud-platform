@@ -44,5 +44,5 @@ For more information, see
 **Related Information**  
 
 
-[Working with Application Log Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-application-log-objects)
+[Working with Application Log Objects](https://help.sap.com/docs/SAP_S4HANA_CLOUD/25cf71e63940453397a32dc2b7676947/081904c149e5471089bcfc6030b0e819.html)
 

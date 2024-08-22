@@ -60,6 +60,30 @@ Behavior Definition
 <tr>
 <td valign="top">
 
+BGQC
+
+</td>
+<td valign="top">
+
+Background Processing Context
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CDBO
+
+</td>
+<td valign="top">
+
+Customer Data Browser Object
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 CFDF
 
 </td>
@@ -132,6 +156,18 @@ Class
 <tr>
 <td valign="top">
 
+COTA
+
+</td>
+<td valign="top">
+
+Connection Target Transport Object
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DCLS
 
 </td>
@@ -198,6 +234,18 @@ DRTY
 <td valign="top">
 
 Dictionary: CDS Type Definitions
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DTEB
+
+</td>
+<td valign="top">
+
+Dictionary Tuning: Entities Buffer
 
 </td>
 </tr>
@@ -576,6 +624,30 @@ Maintainable Business Configuration
 <tr>
 <td valign="top">
 
+SOD1
+
+</td>
+<td valign="top">
+
+API Package
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SOD2
+
+</td>
+<td valign="top">
+
+API Package Assignment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SRVD
 
 </td>
@@ -606,6 +678,18 @@ SUSO
 <td valign="top">
 
 Authorization Object
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SWCR
+
+</td>
+<td valign="top">
+
+Software Component Relations
 
 </td>
 </tr>
@@ -656,7 +740,7 @@ Transformation
 -   All objects imported with abapGit are imported as inactive, except the ones that don’t have an inactive state. Therefore, you have to activate all the imported objects after the import.
 
     > ### Note:  
-    > During the activation process, some objects may depend on other objects which need to be activated beforehand.
+    > During the activation process, some objects may depend on other objects which need to be activated beforehand. For instance, the newly enabled DSFI objects depend on a corresponding DSFD, that needs to be activated beforehand.
     > 
     > Also note that mass activation is not supported.
 

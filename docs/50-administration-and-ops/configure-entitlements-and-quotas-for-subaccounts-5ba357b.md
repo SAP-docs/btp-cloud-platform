@@ -37,9 +37,6 @@ Distribute the entitlements that are available in your global account by adding 
 You can distribute assignments and quotas across subaccounts within a global account from these places in the cockpit:
 
 -   The *Entitlements* \> *Entity Assignments* page at the global account level \(visible only to global account administrators\).
-
-    If your account is part of cloud management tools feature set A, this page is called *Subaccount Assignments*.
-
 -   The *Entitlements* \> *Entity Assignments* page at the directory level by first navigating into the directory from the *Account Explorer*. This applies only subaccounts that resides in the path of a directory that is configured to manage entitlements.
 -   The *Entitlements* page at the subaccount level \(visible to all subaccount members, but editable only by global account administrators\) by first navigating into the subaccount from the *Account Explorer*.
 
@@ -58,9 +55,9 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 > If you navigate to a subaccount from the *Account Explorer*, you view its assignments in its *Overview* page view.
 
 > ### Note:  
-> -   \[Feature Set B\] To subscribe to a multitenant application, you must first assign it to the specific subaccount using the same process explained below. If you remove a subaccount’s assignments to a multitenant application, any subscriptions to it from that subaccount stop working.
+> -   To subscribe to a multitenant application, you must first assign it to the specific subaccount using the same process explained below. If you remove a subaccount’s assignments to a multitenant application, any subscriptions to it from that subaccount stop working.
 > 
-> -   \[Feature Set B\] Before a subaccount admin can enable a quota-based environment, such as Kyma, the subaccount admin must first assign the environment's plan and quota to the subaccount. Other non-quota-based environments, such as Cloud Foundry, are available by default to all subaccounts, and therefore aren’t available as entitlements.
+> -   Before a subaccount admin can enable a quota-based environment, such as Kyma, the subaccount admin must first assign the environment's plan and quota to the subaccount. Other non-quota-based environments, such as Cloud Foundry, are available by default to all subaccounts, and therefore aren’t available as entitlements.
 
 <a name="task_lzl_bpb_vhb"/>
 
@@ -78,8 +75,6 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 
 2.  \[Feature Set B\] Choose *Entitlements* \> *Entity Assignments* from the left hand-side navigation.
 
-    \[Feature Set A\] Choose *Entitlements* \> *Subaccount Assignments* from the left hand-side navigation.
-
     > ### Remember:  
     > There are other ways you can access the subaccount to manage its assignments, such as navigating to the subaccount or its managed directory from the *Account Explorer*. See above for more information.
 
@@ -93,9 +88,6 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 4.  Select the <span class="SAP-icons-V5"></span> icon in the *Directories / Subaccounts* dropdown menu.
 
 5.  In the *Select Subaccounts and Directories* dialog box, select all the subaccounts that you want to manage assignments.
-
-    > ### Tip:  
-    > \[Feature Set A\] If your global account contains more than 20 subaccounts, choose <span class="SAP-icons-V5"></span> to open up the value help dialog. There you can filter subaccounts by role, environment, and region to make your selection easier and faster. You can only select a maximum of 50 subaccounts at once.
 
 6.  Choose *Select* to apply the filter.
 
@@ -198,8 +190,6 @@ For more information, see [Managing Entitlements and Quotas Using the Cockpit](m
 
 [Entitlements and Quotas](../10-concepts/entitlements-and-quotas-00aa2c2.md "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
 
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
-
 <a name="task_h3v_xmb_vhb"/>
 
 <!-- task\_h3v\_xmb\_vhb -->
@@ -242,7 +232,7 @@ In addition to being a global account administrator, you must also be a member o
 
 [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md "When you purchase an enterprise account, you are entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
 
-[Configure Entitlements and Quotas for Directories \[Feature Set B\]](configure-entitlements-and-quotas-for-directories-feature-set-b-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.")
 
 [Using Free Service Plans](../10-concepts/using-free-service-plans-524e108.md "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model and an enterprise account.")
 

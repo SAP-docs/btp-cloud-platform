@@ -16,28 +16,13 @@ You have received a welcome e-mail from SAP for your global account.
 
 
 
-## Context
-
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set A. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
-
-When your organization signs a contract for SAP BTP services, an e-mail is sent to the e-mail address specified in the contract. The e-mail message contains the link to log on to the system and the SAP Cloud Identity credentials \(user ID\) for the specified user. These credentials can also be used for sites such as the [SAP Store](https://www.sapstore.com/) or the [SAP Community](https://www.sap.com/community.html).
-
-
-
 <a name="loio77be28886328492086ab07c003cb8d37__steps_w21_1ns_ndb"/>
 
 ## Procedure
 
 1.  Use the link in your Welcome e-mail.
 
-    When using cloud management tools feature set A: Choose [https://account.eu1.hana.ondemand.com](https://account.eu1.hana.ondemand.com) to access the cockpit.
-
-    When using cloud management tools feature set B:
-
-    Choose `https://cockpit.btp.cloud.sap` to access the cockpit. Depending on your own geo location this URL will redirect you to the closest regional Cockpit URL.
-
-    For more information, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
+    Choose `https://cockpit.btp.cloud.sap` to access the cockpit. Depending on your own geo location this URL will redirect you to the closest regional cockpit URL.
 
     > ### Note:  
     > If single sign-on has not been configured for you, you will have to enter your credentials. You’ll find your logon ID in your Welcome e-mail.
@@ -50,8 +35,6 @@ When your organization signs a contract for SAP BTP services, an e-mail is sent 
 <a name="loio77be28886328492086ab07c003cb8d37__result_chm_ryx_32b"/>
 
 ## Results
-
-When using cloud management tools feature set A: The global account *Overview* page opens.
 
 When using cloud management tools feature set B: The *Account Explorer* page for that global account opens.
 
@@ -75,8 +58,6 @@ When using cloud management tools feature set B: The *Account Explorer* page for
 
 **Related Information**  
 
-
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
 [Account Model](../10-concepts/account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377 "Learn more about the different types of accounts on SAP BTP and how they relate to each other.")
 

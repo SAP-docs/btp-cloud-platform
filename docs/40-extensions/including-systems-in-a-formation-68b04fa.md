@@ -142,9 +142,23 @@ If you want to reconfigure the systems in a formation from scratch without exclu
         </td>
         <td valign="top">
         
-        Formations of type *Integration with SAP Build* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and SAP Build, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it.
+        Formations of type *Integration with SAP Build* enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and SAP Build. Уou must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it.
 
         See [Enabling System Landscape for SAP Build](enabling-system-landscape-for-sap-build-6424311.md).
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        *Integration with SAP Integration Suite* 
+        
+        </td>
+        <td valign="top">
+        
+        Formations of type *Integration with SAP Integration Suite* enable the communication flow between SAP S/4HANA Cloud systems and SAP Integration Suite.
+
+        See [Enabling System Landscape for SAP Integration Suite](enabling-system-landscape-for-sap-integration-suite-a14c276.md).
         
         </td>
         </tr>

@@ -2,7 +2,7 @@
 
 # Blue-Green Deployment of Multitarget Applications
 
-Run two identical production environments to employ the blue-green deployment technique.
+Run two identical production environments, set of cloud foundry applications that run together, to employ the blue-green deployment technique.
 
 > ### Restriction:  
 > Blue-green deployment is supported only for Cloud Foundry applications. It is not supported for bound services, such as service instances and their configuration, workflow content, and HTML5 repository content, among others. Live and idle applications are bound to the same service instances.

@@ -154,7 +154,7 @@ You have to create an HTTP destination to be able to make calls to the SAP Succe
     </td>
     <td valign="top">
     
-    Enter the URL of the SAP SuccessFactors OData API you want to consume with *cert.* before *successfactors.com*. For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [List of SAP SuccessFactors API Servers](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/28bc3c8e3f214ab487ec51b1b8709adc/af2b8d5437494b12be88fe374eba75b6.html?version=LATEST&locale=en-US).
+    Enter the URL of the SAP SuccessFactors OData API you want to consume with *cert.* before *successfactors.com*. For a list of the API Endpoint URL for the SAP SuccessFactors environments, see [List of SAP SuccessFactors API Servers](https://help.sap.com/docs/SAP_SUCCESSFACTORS_PLATFORM/93f95815070049ebaaff042d8322d518/af2b8d5437494b12be88fe374eba75b6.html?version=latest).
 
     For example, *https://api8sales.cert.successfactors.com*.
     

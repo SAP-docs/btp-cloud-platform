@@ -35,7 +35,7 @@ You can connect a Cloud Connector with a multi-environment subaccount of SAP BTP
 For more information, see [Use a Custom IDP for Subaccount Configuration](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/202261235a204db5ba0b35bbaa6d40ff.html "Enable custom identity provider (IDP) authentication to configure a Cloud Foundry subaccount in the Cloud Connector by using a one-time passcode.") :arrow_upper_right:.
 
 > ### Restriction:  
-> Currently in Feature Set B, Cloud Connector can be connected to an SAP BTP subaccount only with users from the default identity provider.
+> Currently, Cloud Connector can be connected to an SAP BTP subaccount only with users from the default identity provider.
 
 > ### Note:  
 > In addition to the the initial connection from Cloud Connector to SAP BTP, the regular rotation of the client certificate that is used for the ongoing connection, is also affected.
@@ -53,9 +53,6 @@ SAP BTP Command Line Interface \(btp CLI\)
 <td valign="top">
 
 Once trust has been configured on the global account level in the cockpit, platform users can log on using the custom identity provider and use the full range of the btp CLI.
-
-> ### Note:  
-> The btp CLI is available only for Feature Set B.
 
 To log on to a global account, you need to provide the hostname of the tenant \(for example, *ar9ibaxhm*\) with the `--idp` parameter. See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
 

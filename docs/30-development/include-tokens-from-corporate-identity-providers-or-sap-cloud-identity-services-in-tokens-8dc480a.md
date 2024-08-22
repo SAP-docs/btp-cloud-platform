@@ -27,9 +27,9 @@ In scenarios where your SAP BTP application interacts with applications that don
 
 ## Context
 
-Imagine you have an on-premise SAP system that trusts your corporate provider. You want to access data in that system from an application on SAP BTP. Your application can get a token from SAP Authorization and Trust Management service, but you don't want to or can't configure your SAP system to trust that token.
+Imagine you have an on-premise SAP system that trusts your corporate provider. You want to access data in that system from an application on SAP BTP. Your application can get a token from the SAP Authorization and Trust Management service, but you don't want to or can't configure your SAP system to trust that token.
 
-In this scenario, configure the SAP Authorization and Trust Management service to embed the token of a corporate identity provider trusted by the trusted SAP Cloud Identity Services tenant. In this example, before the SAP BTP application makes a service call to the Cloud Connector proxy, the application calls SAP Authorization and Trust Management service to exchange its current token for a new token that embeds a token from the identity provider. Cloud Connector presents the identity provider token to the on-premise SAP system.
+In this scenario, configure the SAP Authorization and Trust Management service to embed the token of a corporate identity provider trusted by the trusted SAP Cloud Identity Services tenant. In this example, before the SAP BTP application makes a service call to the Cloud Connector proxy, the application calls the SAP Authorization and Trust Management service to exchange its current token for a new token that embeds a token from the identity provider. Cloud Connector presents the identity provider token to the on-premise SAP system.
 
 The following figure illustrates this scenario.
 
@@ -40,6 +40,9 @@ The following figure illustrates this scenario.
 
 
 ![](images/embedded-idp-token_55063cb.png)
+
+> ### Caution:  
+> Token embedding is provided as a best-effort solution. The BTP application must be designed to fail gracefully when the SAP Authorization and Trust Management service is unable to embed tokens from SAP Cloud Identity Services or the corporate identity provider. SAP Authorization and Trust Management service records such events in the audit log.
 
 
 
@@ -112,7 +115,7 @@ The service can embed tokens of trusted identity providers in its tokens.
 
 ## Next Steps
 
-If you use Cloud Connector, ensure that the service doesn't trust SAP Authorization and Trust Management service. To use the token of the corporate identity provider, ensure that the service doesn't trust the SAP Cloud Identity Services tenant, too.
+If you use Cloud Connector, ensure that the service doesn't trust the SAP Authorization and Trust Management service. To use the token of the corporate identity provider, ensure that the service doesn't trust the SAP Cloud Identity Services tenant, too.
 
 For more information, see [Configure Trusted Entities in the Cloud Connector](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/a4ee70f0274248f8bbc7594179ef948d.html#configure-trusted-entities-in-the-cloud-connector) in the documentation of SAP BTP Connectivity.
 

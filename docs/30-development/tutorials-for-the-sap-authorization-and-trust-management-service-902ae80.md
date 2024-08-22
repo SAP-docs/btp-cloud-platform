@@ -132,7 +132,7 @@ Node.js
 <tr>
 <td valign="top">
 
-Learn how to use `java-security` to perform JWT Validation as part of your Java application. Furthermore, learn how to test the secured application using the `java-security-test` utilities.
+Learn how to use the `java-security` library to perform JWT Validation as part of your Java application. Furthermore, learn how to test the secured application using the `java-security-test` utilities.
 
 </td>
 <td valign="top">
@@ -160,6 +160,28 @@ Java
 <td valign="top">
 
 [GitHub](https://github.com/SAP-samples/cloud-espm-cloud-native#security-implementation) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Learn how to validate OAuth tokens using a Python library. Use this library to add authentication in your Python application.
+
+> ### Note:  
+> This library isn't part of an SAP BTP license. However, it belongs to a related open source project.
+
+
+
+</td>
+<td valign="top">
+
+Python
+
+</td>
+<td valign="top">
+
+[GitHub](https://github.com/SAP/cloud-pysec) 
 
 </td>
 </tr>

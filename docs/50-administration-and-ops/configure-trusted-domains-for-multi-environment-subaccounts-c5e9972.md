@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Configure Trusted Domains for Multi-environment Subaccounts \[Feature Set B\]
+# Configure Trusted Domains for Multi-environment Subaccounts
 
 By default, applications of the subaccount, including login pages of the SAP Authorization and Trust Management service \(XSUAA\), can’t be framed by other applications in different domains for security reasons.
 
@@ -21,7 +21,7 @@ By default, applications of the subaccount, including login pages of the SAP Aut
 
     The documentation of your application indicates whether you need to make this configuration or not.
 
-    The login pages of the SAP Authorization and Trust Management service \(XSUAA\), supports this feature.
+    The login pages of the SAP Authorization and Trust Management service \(XSUAA\) supports this feature.
 
 
 

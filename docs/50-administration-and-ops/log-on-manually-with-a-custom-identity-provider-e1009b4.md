@@ -2,7 +2,7 @@
 
 # Log On Manually With a Custom Identity Provider
 
-To log on to Cloud Foundry, using a custom identity provider identity provider, use the single sign-on option of the CF CLI.
+To log on to Cloud Foundry, using a custom identity provider, use the single sign-on option of the CF CLI.
 
 
 
@@ -16,7 +16,7 @@ To log on to Cloud Foundry, using a custom identity provider identity provider, 
 
 -   You know the origin key of the identity provider.
 
-    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users in Multi-Environment Subaccounts \[Feature Set A\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-in-multi-8600afb.md) and [Establish Trust and Federation of Custom Identity Providers for Platform Users \[Feature Set B\]](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-feature-c368984.md).
+    For more information, see [Establish Trust and Federation of Custom Identity Providers for Platform Users](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md).
 
 
 
@@ -25,7 +25,7 @@ To log on to Cloud Foundry, using a custom identity provider identity provider, 
 
 ## Context
 
-During logon, the system provides you with a URL to your custom identity provider for you to enter in a web browser. If you’re already logged on to your custom identity provider, the system provides a temporary authentication code to complete your logon. If you don't have an active session with your custom IdP, you need to log on to receive the temporary authentication code.
+During logon, the system provides you with a URL to your custom identity provider for you to enter in a web browser. If you’re already logged on to your custom identity provider, the system provides a temporary authentication code to complete your logon. If you don't have an active session with your custom identity provider, you need to log on to receive the temporary authentication code.
 
 
 
@@ -56,13 +56,13 @@ During logon, the system provides you with a URL to your custom identity provide
 
 4.  Open the URL that is provided on the screen to go to the logon screen.
 
-    If this is the first time you're loging on or your browser cache has been cleaned of cookies, you're prompted to provide the origin key of your custom identity provider or choose the default identity provider.
+    If this is the first time you're logging on or your browser cache has been cleaned of cookies, you're prompted to provide the origin key of your custom identity provider or choose the default identity provider.
 
-    Otherwise the sign in page lists your accounts on custom identity providers with which you previously logged on.
+    Otherwise, the sign-in page lists your accounts on custom identity providers with which you previously logged on.
 
 5.  Choose the account of your identity provider.
 
-    If you don't have an active session yet, you’re prompted to log on to your IdP.
+    If you don't have an active session yet, you’re prompted to log on to your identity provider.
 
     After you’ve successfully logged on, you receive a temporary authentication code.
 

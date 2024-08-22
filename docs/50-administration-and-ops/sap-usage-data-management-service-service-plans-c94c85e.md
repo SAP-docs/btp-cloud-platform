@@ -72,7 +72,7 @@ When you create a service instance of this plan, you have to pass the directory 
 > ### Restriction:  
 > The directory must be located under `globalAccount` and contain the subaccount from which you are creating the service instance.
 > 
-> User management must be enabled for the directory, see [Manage Users in Directories \[Feature Set B\]](manage-users-in-directories-feature-set-b-ff4d4a4.md).
+> User management must be enabled for the directory, see [Manage Users in Directories](manage-users-in-directories-ff4d4a4.md).
 
 
 

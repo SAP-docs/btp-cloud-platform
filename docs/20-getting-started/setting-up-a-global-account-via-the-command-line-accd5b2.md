@@ -388,7 +388,7 @@ Run this command in the btp CLI:
 </td>
 <td valign="top">
 
-See [Working with Environments Using the btp CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md) and[Org Management Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](../50-administration-and-ops/org-management-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-aee40e1.md) .
+See [Working with Environments Using the btp CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md) and[Org Management Using the SAP BTP Command Line Interface \(btp CLI\)](../50-administration-and-ops/org-management-using-the-sap-btp-command-line-interface-btp-cli-aee40e1.md) .
 
 </td>
 </tr>

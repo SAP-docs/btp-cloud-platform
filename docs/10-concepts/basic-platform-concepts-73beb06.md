@@ -169,20 +169,20 @@ For more information, see [Entitlements and Quotas](entitlements-and-quotas-00aa
 
 ## User and Member Management
 
-On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.
+On SAP BTP, user management takes place at all levels from global account to environment.
 
-**User accounts** enable users to log on to SAP BTP, access subaccounts, and to use services according to the permissions granted to them. We distinguish between two types of users:
+**User accounts** enable users to log on to SAP BTP, access accounts and environments, and use applications according to the authorizations. We distinguish between two types of users:
 
 ![Platform and Business Users](images/user-accounts_27c8463.png)
 
--   **Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP.
+-   **Platform users** are administrators, developers, or operators who manage SAP BTP accounts and environments, and deploy, administer, and troubleshoot applications and services.
 
--   **Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.
+-   **Business users** use applications on SAP BTP. For example, users of SaaS applications, such as SAP Build Work Zone, advanced edition, SAP Integration Suite, or extensions of SAP S/4HANA Cloud, and your custom applications are business users.
 
 
-**Member management** refers to managing permissions for platform users. A member is a user who is assigned to an SAP BTP global account or subaccount. Administrators can add users to global accounts and subaccounts and assign roles to them as needed. You can use predefined roles, for example the administrator role for managing subaccount members.
+**Member management** refers to managing authentication and authorization for platform users. In addition, subaccount administrators also manage business users and their authorizations.
 
-**User management** refers to managing authentication and authorization for your business users.
+**User management** refers to managing authentication and authorization for your business users. This is one of the tasks of subaccount administrators.
 
 For more information, see [User and Member Management](user-and-member-management-cc1c676.md).
 

@@ -148,7 +148,7 @@ Delete environment instances of a subaccount
 </table>
 
 > ### Tip:  
-> For information about using these btp CLI commands with the Cloud Foundry environment, see [Org Management Using the SAP BTP Command Line Interface \(btp CLI\) \[Feature Set B\]](org-management-using-the-sap-btp-command-line-interface-btp-cli-feature-set-b-aee40e1.md).
+> For information about using these btp CLI commands with the Cloud Foundry environment, see [Org Management Using the SAP BTP Command Line Interface \(btp CLI\)](org-management-using-the-sap-btp-command-line-interface-btp-cli-aee40e1.md).
 > 
 > For information about using btp CLI with the project "Kyma" environment, see the [Enable SAP BTP, Kyma Runtime Using the Command Line](https://developers.sap.com/tutorials/btp-cli-setup-kyma-cluster.html) tutorial and the [Creating SAP BTP, Kyma runtime via the SAP BTP cli](https://community.sap.com/t5/technology-blogs-by-sap/creating-sap-btp-kyma-runtime-via-the-sap-btp-cli/ba-p/13526069) blog.
 

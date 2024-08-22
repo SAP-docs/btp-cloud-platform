@@ -6,7 +6,7 @@ Use the SAP BTP command line interface \(btp CLI\) to display and update the sec
 
 The security settings comprise configuration settings, such as information about signing keys, URLs for cross origin resource sharing or iframing, and about bindings.
 
-For more information, see [Configure Trusted Domains for Multi-environment Subaccounts \[Feature Set B\]](configure-trusted-domains-for-multi-environment-subaccounts-feature-set-b-c5e9972.md) and [Configure Token Policy for SAP Authorization and Trust Management Service](configure-token-policy-for-sap-authorization-and-trust-management-service-40290a9.md).
+For more information, see [Configure Trusted Domains for Multi-environment Subaccounts](configure-trusted-domains-for-multi-environment-subaccounts-c5e9972.md) and [Configure Token Policy for SAP Authorization and Trust Management Service](configure-token-policy-for-sap-authorization-and-trust-management-service-40290a9.md).
 
 
 <table>
