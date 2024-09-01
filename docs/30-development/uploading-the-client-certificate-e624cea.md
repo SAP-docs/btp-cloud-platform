@@ -85,7 +85,7 @@ To connect your ABAP environment system with the SAP AEM broker, you need to upl
 
     5.  Copy the content of the certificate you downloaded from your ABAP environment system before.
 
-    6.  Paste the the content into *Client Certificate Content* field.
+    6.  Paste the content into *Client Certificate Content* field.
 
     7.  Choose *Save*.
 
