@@ -164,7 +164,7 @@ See [Regions](regions-350356d.md).
 
 ## Cancelling a SAP BTP Enterprise Account
 
-As a business user, you can cancel your contract via your account executive. As an individual user with a trial acoount, you can cancel your account in your [SAP for Me account](https://me.sap.com). You can also contact the SAP store via their "Contact Us" function.
+As a business user, you can cancel your contract via your account executive. As an individual user with a trial account, you can cancel your account in your [SAP for Me account](https://me.sap.com). You can also contact the SAP store via their "Contact Us" function.
 
 
 
