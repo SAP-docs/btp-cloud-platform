@@ -340,7 +340,7 @@ For a custom identity provider:
 
 Add one or more org managers to a Cloud Foundry org in a subaccount.
 
-`usersToAdd` adds the OrgManager role to the user, and, if it doesnt exist yet, it creates the user in the org.
+`usersToAdd` adds the OrgManager role to the user, and, if it doesn't exist yet, it creates the user in the org.
 
 </td>
 <td valign="top">
@@ -379,7 +379,7 @@ For a custom identity provider:
 
 Remove one or more org managers from a Cloud Foundry org in a subaccount.
 
-`usersToRemove` removes the OrgManager role from the the user, but it doesn't remove the user from the org.
+`usersToRemove` removes the OrgManager role from the user, but it doesn't remove the user from the org.
 
 </td>
 <td valign="top">
