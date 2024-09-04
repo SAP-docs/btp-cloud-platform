@@ -12,7 +12,7 @@ The capabilities of a tenant used by the application provider or application con
 
 -   **Business User Logon**: Business users are authenticated in an ABAP tenant using trusted identity providers configured in either the provider subaccount or consumer subaccount. See [Trust and Federation with Identity Providers](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/cb1bc8f1bd5c482e891063960d7acd78.html?locale=en-US&version=Cloud).
 
--   **Provider Support Access**: In the Landscape Portal the application provider can request support user access for certain tenants in the ABAP system to troubleshoot & debug issues. See [Create Support Users](create-support-users-b31712c.md).
+-   **Provider Support Access**: In the Landscape Portal the application provider can request support user access for certain tenants in the ABAP system to troubleshoot & debug issues. See [Create Support Users](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/7a839f03916a491892e8997a79c67602.html) .
 
 -   **Key-User Extensibility Configuration**: Key-user extensibility features of a solution like custom logic and predefined custom fields can only be configured in tenants of particular types. See [Providing Business Add-Ins](providing-business-add-ins-6747acb.md) and [Configuring Predefined Custom Fields](configuring-predefined-custom-fields-a7994b1.md).
 
@@ -24,7 +24,7 @@ The capabilities of a tenant used by the application provider or application con
 
 -   **Tenant Offboarding**: When and how tenants are deleted differs depending on the business type. See [Dismantle](dismantle-35a5882.md).
 
--   **Tenant Restore**: Only tenants of particular types can be restored during the retention period. See [Restore Consumer Tenants](restore-consumer-tenants-619c40e.md).
+-   **Tenant Restore**: Only tenants of particular types can be restored during the retention period. See[Restore Consumer Tenants](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/a433537d4850440fa7d97d6fb72d81ef.html).
 
 
 

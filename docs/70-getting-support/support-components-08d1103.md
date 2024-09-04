@@ -6246,7 +6246,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 </td>
 <td valign="top">
 
--   BC-XS-SRV-JBS
+-   BC-CP-CF-JBS
 
 
 
@@ -6308,7 +6308,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 </td>
 <td valign="top">
 
--   BC-XS-SRV-JBS
+-   BC-CP-CF-JBS
 
 
 
@@ -6367,7 +6367,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 </td>
 <td valign="top">
 
--   BC-XS-SRV-JBS
+-   BC-CP-CF-JBS
 
 
 
@@ -6423,7 +6423,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 </td>
 <td valign="top">
 
--   BC-XS-SRV-JBS
+-   BC-CP-CF-JBS
 
 
 
@@ -11680,6 +11680,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   US East \(VA\)
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
+-   Brazil \(São Paulo\)
 
 
 
@@ -13788,7 +13789,7 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 <td valign="top">
 
--   BC-XS-SEC
+-   BC-CP-CF-SEC-IAM
 
 
 
@@ -13850,7 +13851,7 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 <td valign="top">
 
--   BC-XS-SEC
+-   BC-CP-CF-SEC-IAM
 
 
 
@@ -13909,7 +13910,7 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 <td valign="top">
 
--   BC-XS-SEC
+-   BC-CP-CF-SEC-IAM
 
 
 
@@ -13965,7 +13966,7 @@ Manage application authorizations and trusted connections to identity providers.
 </td>
 <td valign="top">
 
--   BC-XS-SEC
+-   BC-CP-CF-SEC-IAM
 
 
 

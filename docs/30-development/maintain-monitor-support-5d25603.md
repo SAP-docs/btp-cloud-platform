@@ -153,7 +153,7 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 -   New release versions are released with updates containing significant enhancements and new features
 
 > ### Tip:  
-> Use the [Check Product Version](check-product-version-0da158a.md) app in Landscape Portal to find out which product version has already been built.
+> Use the [Check Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/4de24e56f52d4ca4ae8971aae6861f8e.html)app in Landscape Portal to find out which product version has already been built.
 
 **Create new patch version \(emergency patch\)**
 
@@ -307,7 +307,7 @@ If you are using gCTS instead of add-ons for delivering software components into
 
 ### Check Add-on Build Result
 
-Use the *Check Product Version* app in Landscape Portal to check whether the product version, its components, and respective packages are ready for delivery. See [Check Product Version](check-product-version-0da158a.md).
+Use the *Check Product Version* app in Landscape Portal to check whether the product version, its components, and respective packages are ready for delivery. See[Check Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/4de24e56f52d4ca4ae8971aae6861f8e.html).
 
 <a name="loio0a80d4c5c079435e9aca4eb9e6841de9"/>
 
@@ -315,7 +315,7 @@ Use the *Check Product Version* app in Landscape Portal to check whether the pro
 
 ### Deploy Add-On Update
 
-As a SaaS solution operator, you can apply add-on updates to existing systems via the [Deploy Product](deploy-product-32c4f7d.md) app in the Landscape Portal.
+As a SaaS solution operator, you can apply add-on updates to existing systems via the[Deploy Product](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/c4da7bba8b5a46b9ae08986d9399046d.html) app in the Landscape Portal.
 
 You can select the target add-on product and version for the update. Afterwards, you can select the systems where the update should be applied and schedule the update.
 
@@ -382,7 +382,7 @@ If a customer faces an issue, you have to provide troubleshooting based on a rep
 
 **Identify ABAP System and Consumer Tenant**
 
-The ABAP system can be identified in the *Systems Overview* in the Landscape Portal application. See [View Tenants and Systems](view-tenants-and-systems-99c975e.md).
+The ABAP system can be identified in the *Systems Overview* in the Landscape Portal application. See [Systems Overview](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/4f812863a1bf4eff928951a9e14eb01b.html?locale=en-US).
 
 The system ID is defined in the ABAP Solution service via configuration parameter `sap_system_name`. If there are multiple solutions, the system description identifies the corresponding ABAP system as it always follows the same pattern: *ABAP Solution System for <parameter "name" in ABAP Solution service\>*. See [ABAP Solution Service](order-and-provide-975bd3e.md#loio1697387c02e74e66a55cf21a05678167).
 
@@ -404,7 +404,7 @@ The subdomain is displayed in the *Tenants View* as *Subaccount Domain* when sel
 
 **Access the Consumer Tenant of the ABAP System**
 
-A consumer tenant in client \>= 200 \(business type *Partner Customer Test* or *Partner Customer Production*\) can be accessed with a provider support user created in the Landscape Portal. See [Create Support Users](create-support-users-b31712c.md).
+A consumer tenant in client \>= 200 \(business type *Partner Customer Test* or *Partner Customer Production*\) can be accessed with a provider support user created in the Landscape Portal. See[Create Support Users](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/7a839f03916a491892e8997a79c67602.html?locale=en-US).
 
 -   **Frontend Access to SAP Fiori launchpad**
 
@@ -412,7 +412,7 @@ A consumer tenant in client \>= 200 \(business type *Partner Customer Test* or *
 
 -   **Backend Access using ABAP Development Tools**
 
-    Access to a consumer tenant in client \>= 200 using ABAP Development Tools requires an adapted service key in the service instance in the SAP BTP cockpit: The service key `SAP_ASP` displayed in the cockpit needs to be adjusted with the GUID of the consumer tenant. See [Create Support Users](create-support-users-b31712c.md).
+    Access to a consumer tenant in client \>= 200 using ABAP Development Tools requires an adapted service key in the service instance in the SAP BTP cockpit: The service key `SAP_ASP` displayed in the cockpit needs to be adjusted with the GUID of the consumer tenant. See [Create Support Users](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/7a839f03916a491892e8997a79c67602.html?locale=en-US).
 
 
 ABAP Development Tools access with a provider support user created in the Landscape Portal grants access to troubleshooting capabilities, such as those granted with business role `Application Support Engineer - Development Support (BR_APPL_SUP_ENG_DEV_SUP)`.

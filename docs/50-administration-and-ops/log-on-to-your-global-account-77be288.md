@@ -36,7 +36,7 @@ You have received a welcome e-mail from SAP for your global account.
 
 ## Results
 
-When using cloud management tools feature set B: The *Account Explorer* page for that global account opens.
+The *Account Explorer* page for that global account opens.
 
 
 

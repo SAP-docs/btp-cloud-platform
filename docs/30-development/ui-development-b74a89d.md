@@ -10,19 +10,20 @@ Learn more about the different options to develop SAP Fiori applications for an 
 
 ## Overview
 
-You can develop SAP Fiori applications for OData services that are exposed as a UI service. See [OData Service Consumption](https://help.sap.com/docs/btp/sap-abap-restful-application-programming-model/odata-service-consumption?version=Cloud).
+You can develop SAP Fiori applications for OData services that are exposed as a UI service. See [OData Service Consumption](https://help.sap.com/docs/abap-cloud/abap-rap/odata-service-consumption?version=sap_btp).
 
-![](images/Image_Map_UIDevOverview_eacde77.png)
+-   SAP Fiori is a design system that enables you to create business apps with a consumer-grade user experience, turning casual users into SAP experts with simple screens that run on any device. Apps that follow the Fiori design principle can be built using a combination of SAP UI5 and SAP Fiori Elements. See [SAP Fiori](https://help.sap.com/docs/SAP_FIORI_OVERVIEW).
+
+-   SAPUI5 is a development framework that a developer would use to actually build a front-end application that follows the Fiori design guidelines. UI5 apps are built using HTML5, JS, XML, OData and JSON, and are based on the Model, View, Controller \(or MVC\) design pattern. See [SAPUI5](https://help.sap.com/docs/SAPUI5?version=External).
+
+-   SAP Fiori Elements is a framework that comprises the most commonly used floorplan templates and is designed to speed up development by reducing the amount of frontend code needed to build SAP Fiori apps, and driving UX consistency and compliance with the latest SAP Fiori design guidelines. See [SAP Fiori Elements](https://sapui5.hana.ondemand.com/#/topic/03265b0408e2432c9571d6b3feb6b1fd).
+
+
+![](images/UIDevOverviewBTP_6d231ba.png)
 
 
 
-In order to develop SAP Fiori applications, you use SAP Business Application Studio with SAP Fiori tools extensions.
-
-SAP Business Application Studio supports integration with Git so that you can use Git as source control system and store the code of SAP Fiori applications in remote git repositories.
-
-Once you have implemented the custom SAP Fiori application, you can deploy it to the ABAP environment.
-
-You can launch the deployed apps standalone or embed them into the SAP Fiori launchpad.
+In order to develop SAP Fiori applications, you use SAP Business Application Studio with SAP Fiori tools extensions. SAP Business Application Studio supports integration with Git so that you can use Git as source control system and store the code of SAP Fiori applications in remote git repositories. Once you have implemented the custom SAP Fiori application, you can deploy it to the ABAP environment or the Cloud Foundry environment. You can launch the deployed apps standalone or embed them into the SAP Fiori launchpad. The ABAP environment comes with an embedded Fiori Launchpad and provides access to Fiori apps that are stored on the SAPUI5 ABAP repository. Apps stored in the HTML5 application repository can be added to a launchpad provided by the SAP Build Work Zone. It is also possible to add apps stored on the SAPUI5 ABAP repository to launchpads provided by the SAP Build Work Zone. See [Integration Scenario](https://help.sap.com/docs/btp/sap-business-technology-platform/integration-scenarios?version=Cloud)"
 
 
 

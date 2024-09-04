@@ -1,6 +1,6 @@
 <!-- loio5481d594718f44c1ad7a63d154c342fd -->
 
-# Registering Third-Party Systems
+# Registering a Third-Party System
 
 To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to register this system.
 

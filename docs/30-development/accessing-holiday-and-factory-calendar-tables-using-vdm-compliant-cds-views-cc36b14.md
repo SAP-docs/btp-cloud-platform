@@ -6,9 +6,6 @@ You can access the factory calendar and holiday calendar tables using VDM-compli
 
 The VDM-compliant CDS views used here are CDS views that were created in `SAP_BASIS` and belong to the component `BC-SRV-ASF-CAL`.
 
-> ### Note:  
-> The CDS views mentioned here should be differentiated from the C1-released VDM CDS views created by `SAP S/4HANA`. An example for a C1-released CDS view is `I_FactoryCalendar`. C1-released VDM CDS views refer to the tables of the factory- and holiday calendar used previously. They don't belong to component `BC-SRV-ASF-CAL`. For this reason, the name addition `BASIC` was introduced for the new version of the CDS views, as can be seen below.
-
 The following CDS views access the factory- and holiday calendar tables:
 
 
@@ -98,4 +95,7 @@ Value help for factory calendars containing the factory calendar ID, legacy fact
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> The CDS views mentioned here should be differentiated from the C1-released VDM CDS views created by `SAP S/4HANA`. An example for a C1-released CDS view is `I_FactoryCalendar`. C1-released VDM CDS views refer to the tables of the factory- and holiday calendar used previously. They don't belong to component `BC-SRV-ASF-CAL`. For this reason, the name addition `BASIC` was introduced for the new version of the CDS views, as can be seen below.
 

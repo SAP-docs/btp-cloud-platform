@@ -17,17 +17,17 @@ In some of the date/time functions, ABAP data type names are reflected in the fu
 
 > ### Sample Code:  
 > ```sql
-> SQL> SELECT date'20150102'                      AS C_DATN,
->             ADD_DAYS( date'20150102', 5 )       AS C_DATN_P_5, 
->             DATN_ADD_DAYS( date'20150102', 10 ) AS C_DATN_P_10,
->             DATS_FROM_DATN( date'20150102')     AS C_DATS
+> SQL> SELECT date'2015-01-02'    AS C_DATN,
+>             ADD_DAYS( date'2015-01-02', 5 )       AS C_DATN_5, 
+>             DATN_ADD_DAYS( date'2015-01-02', 10 ) AS C_DATN_10
 > FROM SYS.DUMMY
 > 
-> +----------+----------+----------+----------+
-> | C_DATN   | C_DATN_5 | C_DATN_10| C_DATS   |
-> +----------+----------+----------+----------+
-> | 20150102 | 20150107 | 20150120 | 20150102 |
-> +----------+----------+----------+----------+
+> 
+> +------------+------------+------------+
+> | C_DATN     | C_DATN_5   | C_DATN_10  |
+> +------------+------------+------------+
+> | 2015-01-02 | 2015-01-07 | 2015-01-12 |
+> +------------+------------+------------+
 > 
 > ```
 

@@ -50,7 +50,7 @@ The add-on administrator is responsible for everything related to the add-on pro
 
 -   Adjusting add-on descriptor file `addon.yml` for new versions
 
--   Registering add-on product for installation in global account for development and production. See [Register Product](register-product-dc15fb4.md).
+-   Registering add-on product for installation in global account for development and production. See [Register Product](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/7b5e33f3e62e4cf2984385759dfc61f8.html).
 
 -   Executing add-on build pipeline in Jenkins instance
 
@@ -111,7 +111,7 @@ Developer users use ABAP Development Tools \(ADT\) to create backend service art
 
 -   Developing SAP Fiori based UI in SAP Business Application Studio and deploying back to ABAP system. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 
--   Supporting and troubleshooting customer issues via provider support access in the Landscape Portal. See [Landscape Portal](landscape-portal-5eb70fb.md).
+-   Supporting and troubleshooting customer issues via provider support access in the Landscape Portal. See [Landscape Portal](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/6aa0a773510e4c82b167fcca4c755327.html).
 
 
 
@@ -193,9 +193,9 @@ The SaaS solution operator is responsible for creating the account model on the 
     -   Tester users in TST/QAS systems
 
 
--   Add-on update of existing systems in the Update Product Version app. See [Deploy Product](deploy-product-32c4f7d.md).
+-   Add-on update of existing systems in the Update Product Version app. See[Deploy Product](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/c4da7bba8b5a46b9ae08986d9399046d.html).
 
--   Monitoring of system/tenant provisioning and user onboarding. See [Operations Dashboard](operations-dashboard-0a3a735.md).
+-   Monitoring of system/tenant provisioning and user onboarding. See [Operations Dashboard](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/66d17ae222254fd08ca2e5498fd41f60.html).
 
 -   > ### Note:  
     > If you use gCTS for delivery to customer production systems instead of using add-ons, you are responsible for cloning software components and pulling the latest changes into the system using the *Manage Software Components* app.
@@ -255,7 +255,7 @@ S-users are used by partners and customers to log on to SAP ONE Support Launchpa
 
 -   Reserving development namespace in Namespace Application See [https://launchpad.support.sap.com/\#/namespaces](https://launchpad.support.sap.com/#/namespaces).
 
--   Activating new namespaces in already existing systems using Landscape Portal. See [Maintain Namespaces](maintain-namespaces-5456007.md).
+-   Activating new namespaces in already existing systems using Landscape Portal. See  <?sap-ot O2O class="- topic/xref " href="5456007ac4d04cb98b52b41f8c2d4a71.xml" text="" desc="" xtrc="xref:25" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/4b4deeea31f74bfaa2598dc6b1c99eb9.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 -   Creating technical communication user. See SAP note [2532813](https://me.sap.com/notes/2532813).
 
 

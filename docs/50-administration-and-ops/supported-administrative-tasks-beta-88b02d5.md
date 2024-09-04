@@ -16,10 +16,14 @@ You can ask Joule to do these things in the cockpit:
     > ### Note:  
     > Subaccounts are created with a beta label to identify that they're part of the beta program. These subaccounts aren't available in global accounts that are used in production.
 
--   Enable Cloud Foundry for a subaccount. This option becomes available as a quick action once you create a new subaccount.
+-   Enable Cloud Foundry for a subaccount. This option is available as an action button in the chat window after you create a new subaccount.
 -   Add a new user to a subaccount. You can assign a role collection once the user is created.
 -   Copy users from a global account to a subaccount. By default, users are assigned the **Subaccount Viewer** role.
 -   Copy users from one subaccount to another subaccount. Users are copied over with the same role permissions that they were assigned in the source subaccount, as long as that role already exists in the destination subaccount.
+
+    > ### Note:  
+    > Joule doesn't support administrative actions in Neo environments.
+
 
 There are times when it's helpful to see a summary of your global account and subaccount user details. You can also ask Joule to show you these things in the cockpit:
 

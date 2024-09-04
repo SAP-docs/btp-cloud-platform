@@ -21,7 +21,7 @@ Create subaccounts in your global account using the SAP BTP cockpit.
 You are a global account administrator.
 
 > ### Note:  
-> If you a creating a subaccount in an entitlement-managed or user-managed directory, then you must be either a global account administrator or a directory administrator. See [Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md) and [Manage Users in Directories](manage-users-in-directories-ff4d4a4.md).
+> If you are creating a subaccount in an entitlement-managed or user-managed directory, then you must be either a global account administrator or a directory administrator. See [Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md) and [Manage Users in Directories](manage-users-in-directories-ff4d4a4.md).
 
 > ### Recommendation:  
 > Before creating your subaccounts, we recommend you learn more about [Setting Up Your Account Model](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/2db81f42f5194454beecde6cd4994dda.html "The hierarchical structure between global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs.") :arrow_upper_right:.

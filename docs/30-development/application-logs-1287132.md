@@ -36,7 +36,7 @@ Your application must log to `stdout` or `stderr`, which ensures that the logs c
 
 In the Kyma cluster, the Telemetry module provides a DaemonSet of [Fluent Bit](https://fluentbit.io/) acting as a agent. The agent tails container logs from the Kubernetes container runtime and ships them to a backend.
 
-![](images/Logging_Architecture_859dd61.svg)
+![](images/Kyma_Logs_Architecture_c4cfebf.svg)
 
 1.  Container logs are stored by the Kubernetes container runtime under the `var/log` directory and its subdirectories.
 

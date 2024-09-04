@@ -1,8 +1,8 @@
 <!-- loio09dd313bf6644250a14f8f38c3d644c0 -->
 
-# Create the Kyma Instance
+# Create a Kyma Instance
 
-Set up a Kubernetes cluster with project "Kyma" and use it to build applications and extensions to your SAP and third-party solutions.
+Set up a Kubernetes cluster with SAP BTP, Kyma runtime and use it to build applications and extensions to your SAP and third-party solutions.
 
 
 
@@ -69,7 +69,7 @@ You have created a Kyma environment instance.
 
 -   To manage access to the Kyma environment and Kyma dashboard, assign roles as needed.
 
--   To use functionalities such as telemetry and eventing, or to use BTP services, add the respective Kyma module.
+-   To use functionalities such as telemetry and eventing, or to use BTP services, add the respective [Kyma](../10-concepts/kyma-modules-0dda141.md) module.
 
 
 **Related Information**  

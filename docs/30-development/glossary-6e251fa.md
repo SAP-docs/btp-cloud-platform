@@ -282,7 +282,7 @@ Development namespace
 </td>
 <td valign="top">
 
-Naming conflicts can be avoided through agreements on naming conventions or by carrying out development in separate namespaces. See SAP note [84282](https://me.sap.com/notes/84282) and [Maintain Namespaces](maintain-namespaces-5456007.md).
+Naming conflicts can be avoided through agreements on naming conventions or by carrying out development in separate namespaces. See SAP note [84282](https://me.sap.com/notes/84282) and [Maintain Namespaces](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/59e9ddee17ee496fa14e2760c78bf9da.html?locale=en-US).
 
 </td>
 </tr>
@@ -318,7 +318,7 @@ Landscape Portal
 </td>
 <td valign="top">
 
-The Landscape Portal app acts as a central tool to allow service providers to perform lifecycle management operations such as add-on updates, provisioning new consumers as new tenants, and more. See [Landscape Portal](landscape-portal-5eb70fb.md).
+The Landscape Portal app acts as a central tool to allow service providers to perform lifecycle management operations such as add-on updates, provisioning new consumers as new tenants, and more. See[Landscape Portal](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/6aa0a773510e4c82b167fcca4c755327.html?locale=en-US) .
 
 </td>
 </tr>

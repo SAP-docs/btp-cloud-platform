@@ -999,32 +999,6 @@ Identity and Access Management
 </td>
 <td valign="top">
 
- <?sap-ot O2O class="- topic/xref " href="365b0d6fe67d4cecbfe11cc8344264cc.xml" text="" desc="" xtrc="xref:36" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/da320654ed6e4e1e804a1a882cd461ea.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-
-</td>
-<td valign="top">
-
-`SAP_BR_ADMINISTRATOR`
-
-*Administrator*
-
-</td>
-<td valign="top">
-
-`SAP_CORE_BC_IAM_RM`
-
-*Role Management*
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Identity and Access Management
-
-</td>
-<td valign="top">
-
 [Maintain Business User Groups](maintain-business-user-groups-24f5b79.md)
 
 </td>

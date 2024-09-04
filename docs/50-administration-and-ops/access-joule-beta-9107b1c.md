@@ -1,5 +1,7 @@
 <!-- loio9107b1ca998a4b6ba88be47c3528e373 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Access Joule \(Beta\)
 
 Launch Joule directly from SAP BTP cockpit.
@@ -7,7 +9,7 @@ Launch Joule directly from SAP BTP cockpit.
 > ### Note:  
 > This offering is a beta feature. Beta features aren't part of the officially delivered scope that SAP guarantees for future releases. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
 
-Joule is accessed directly from the cockpit when you click the diamond icon ![](images/joule_icon_ac08e52.png) in the cockpit tool header. When the chat window opens, you can ask Joule to perform one of the supported administrative tasks or you can ask Joule a question about SAP BTP.
+Joule is accessed directly from the cockpit when you click the diamond icon <span class="SAP-icons-V5"></span> in the cockpit tool header. When the chat window opens, you can ask Joule to perform one of the supported administrative tasks or you can ask Joule a question about SAP BTP.
 
 
 

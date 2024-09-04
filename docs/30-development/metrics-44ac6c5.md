@@ -39,7 +39,7 @@ In the Telemetry module, a central in-cluster Deployment of an [OTel Collector](
 
 Optionally, the Telemetry module provides a DaemonSet of an OTel Collector acting as an agent. This agent can pull metrics of a workload and the Istio sidecar in the [Prometheus pull-based format](https://prometheus.io/docs/instrumenting/exposition_formats/) and can provide runtime-specific metrics for the workload.
 
-![](images/Metrics_Architecture_bb3e832.svg)
+![](images/Kyma_Metrics_Architecture_b23f081.svg)
 
 1.  An application \(exposing metrics in OTLP\) sends metrics to the central metric gateway service.
 
@@ -477,6 +477,28 @@ Determines the protocol used for scraping metrics — either HTTPS with mTLS or 
 </tr>
 </table>
 
+If you're running the Pod targeted by a Service with Istio, Istio must be able to derive the [appProtocol](https://kubernetes.io/docs/concepts/services-networking/service/#application-protocol) from the Service port definition; otherwise the communication for scraping the metric endpoint cannot be established. You must either prefix the port name with the protocol like in *http-metrics*, or explicitly define the `appProtocol` attribute. For example, see the following `Service` configuration:
+
+```
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    prometheus.io/port: "8080"
+    prometheus.io/scrape: "true"
+  name: sample
+spec:
+  ports:
+  - name: http-metrics
+    appProtocol: http
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: sample
+  type: ClusterIP
+```
+
 > ### Note:  
 > The Metric agent can scrape endpoints even if the workload is a part of the Istio service mesh and accepts mTLS communication. However, there’s a constraint: For scraping through HTTPS, Istio must configure the workload using “STRICT” mTLS mode. Without “STRICT” mTLS mode, you can set up scraping through HTTP by applying the annotation `prometheus.io/scheme=http`. For related troubleshooting, see [Log Entry: Failed to Scrape Prometheus Endpoint](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/44ac6c5afef0464480fa18acb7483972.html?locale=en-US#subsection_troubleshooting_log_entry_failed_to_scrape_prometheus).
 
@@ -849,14 +871,18 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 > 
 > ```
 
-**Cause**: The workload is not configured to use “STRICT” mTLS mode. For details, see [Activate Prometheus-Based Metrics](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/44ac6c5afef0464480fa18acb7483972.html?locale=en-US#subsection_activate_prometheus_metrics).
+**Cause 1**: The workload is not configured to use “STRICT” mTLS mode. For details, see [Activate Prometheus-Based Metrics](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/44ac6c5afef0464480fa18acb7483972.html?locale=en-US#subsection_activate_prometheus_metrics).
 
-**Remedy**: You can either set up “STRICT” mTLS mode or HTTP scraping:
+**Remedy 1**: You can either set up “STRICT” mTLS mode or HTTP scraping:
 
 -   Configure the workload using “STRICT” mTLS mode \(for example, by applying a corresponding PeerAuthentication\).
 
 -   Set up scraping through HTTP by applying the `prometheus.io/scheme=http` annotation.
 
+
+**Cause 2**: The Service definition enabling the scrape with Prometheus annotations does not reveal the application protocol to use in the port definition. For details, see [Activate Prometheus-Based Metrics](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/44ac6c5afef0464480fa18acb7483972.html?locale=en-US#subsection_activate_prometheus_metrics).
+
+**Remedy 2**: Define the application protocol in the Service port definition by either prefixing the port name with the protocol, like in *http-metrics* or define the `appProtocol` attribute.
 
 
 

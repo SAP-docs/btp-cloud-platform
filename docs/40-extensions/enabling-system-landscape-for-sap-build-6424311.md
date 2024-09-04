@@ -15,6 +15,17 @@ A registered SAP S/4HANA Cloud system in the SAP BTP cockpit can expose consumpt
 
 
 
+<a name="loio642431173d3c4fabb7f5a155836903be__section_znb_p1c_dwb"/>
+
+## Prerequisites
+
+-   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
+
+-   You have an SAP Build subscription.
+
+
+
+
 <a name="loio642431173d3c4fabb7f5a155836903be__section_ij4_zx2_lcc"/>
 
 ## Procedure
@@ -111,8 +122,6 @@ The following procedure outlines the steps you need to perform to consume the AP
 
         Alternatively, the destination can be created automatically. You can do this, by creating a service instance of the SAP S/4HANA Cloud Extensibility service after you register an SAP S/4HANA Cloud system. See [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md) and [Create a Service Instance to Consume the SAP S/4HANA Cloud APIs](create-a-service-instance-to-consume-the-sap-s-4hana-cloud-apis-a735641.md).
 
-
-4.  Create an SAP Build subscription.
 
 
 

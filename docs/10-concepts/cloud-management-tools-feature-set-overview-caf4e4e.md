@@ -28,9 +28,7 @@ Feature sets A and B don't share the same cockpit. So in your feature set A cock
 
 When using cloud management tools feature set A: Choose [https://account.eu1.hana.ondemand.com](https://account.eu1.hana.ondemand.com) to access the SAP BTP cockpit.
 
-When using cloud management tools feature set B:
-
-Choose `https://cockpit.btp.cloud.sap` to access the cockpit. Depending on your own geo location this URL will redirect you to the closest regional Cockpit URL.
+When using cloud management tools feature set B: Choose [https://cockpit.btp.cloud.sap](https://cockpit.btp.cloud.sap) to access the cockpit. Depending on your own geo location this URL will redirect you to the closest regional Cockpit URL.
 
 For more information, see [Access the Cockpit](../50-administration-and-ops/access-the-cockpit-4e75066.md).
 
@@ -365,8 +363,6 @@ With feature set A, you define administrators in the cockpit under the *Security
 See:
 
 [User and Member Management](user-and-member-management-cc1c676.md)
-
- <?sap-ot O2O class="- topic/xref " href="6752c4b8435c456ebf67a97ddbbcb267.xml" text="" desc="" xtrc="xref:28" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/caf4e4e23aef4666ad8f125af393dfb2.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Impact of Upgrading from Feature Set A to Feature Set B on User and Account Management](impact-of-upgrading-from-feature-set-a-to-feature-set-b-on-user-and-account-management-1ac8143.md)
 

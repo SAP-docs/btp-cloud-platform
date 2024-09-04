@@ -22,7 +22,7 @@ If your framing and framed applications run under different domains, you must st
 > 
 > For more information, see the following:
 > 
-> -   How to test: [Preparing and Testing Your Solution for Third-Party Cookie Deprecation](https://help.sap.com/viewer/25b384c4cc9c472f9e056ebca95fa6ff/Cloud/en-US/70d545de1931484c9efbc2cda6519fa7.html "The focus of this guide is to identify issues related to the phase out of third-party cookies. You will learn how to test your application your extensions and assess whether they are affected. Mitigation strategies are covered in Implementing a Permanent Solution for the Third-Party Cookie Deprecation guide.") :arrow_upper_right:
+> -   How to test: [Preparing and Testing Your Solution for Third-Party Cookie Deprecation](https://help.sap.com/viewer/25b384c4cc9c472f9e056ebca95fa6ff/Cloud/en-US/70d545de1931484c9efbc2cda6519fa7.html "The focus of this guide is to identify issues related to the phase out of third-party cookies. You will learn how to test your application your extensions and assess whether they are affected. Mitigation strategies are covered in Implementing a Permanent Solution for the Third-Party Cookie Phase-Out guide.") :arrow_upper_right:
 > 
 > -   How to use the API: [Accessing Administration Using APIs of the SAP Authorization and Trust Management Service](https://help.sap.com/docs/btp/sap-business-technology-platform/accessing-administration-using-apis-of-sap-authorization-and-trust-management-service)
 > 

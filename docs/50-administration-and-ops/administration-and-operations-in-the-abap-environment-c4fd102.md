@@ -123,7 +123,7 @@ Performing lifecycle management operations and system administration tasks such 
 </td>
 <td valign="top">
 
-The [Landscape Portal](../30-development/landscape-portal-5eb70fb.md) functions as a central tool for providers to perform lifecycle management operations and system admininistation tasks, see [Manage System Hibernation](../30-development/manage-system-hibernation-26e2ee1.md), [Restore Consumer Tenants](../30-development/restore-consumer-tenants-619c40e.md), [Operations Dashboard](../30-development/operations-dashboard-0a3a735.md).
+The[Landscape Portal](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/6aa0a773510e4c82b167fcca4c755327.html?locale=en-US) functions as a central tool for providers to perform lifecycle management operations and system admininistation tasks, see[Manage System Hibernation](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/cf4fa759888745889152bfba5e1e7833.html),[Restore Consumer Tenants](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/a433537d4850440fa7d97d6fb72d81ef.html), [Operations Dashboard](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/66d17ae222254fd08ca2e5498fd41f60.html).
 
 </td>
 </tr>

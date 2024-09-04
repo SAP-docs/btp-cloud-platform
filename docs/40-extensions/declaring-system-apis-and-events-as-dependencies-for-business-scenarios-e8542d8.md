@@ -6,7 +6,7 @@
 
 ## Context
 
-For certain formation types, systems of type *Other System Type*, *CAP Application*, or *SAP Integration Suite* that are part of the *System Landscape* page may need to describe their runtime dependencies so other systems can comply with these dependencies to be able to interact with these systems in a common scenario.
+For certain formation types, systems of type *Other System Type*, *SAP BTP Application*, or *SAP Integration Suite* that are part of the *System Landscape* page may need to describe their runtime dependencies so other systems can comply with these dependencies to be able to interact with these systems in a common scenario.
 
 The integration dependency includes a list of requirements, which point out which API and event resources are involved. Each requirement describes one aspect and can be used to express alternatives using OR conditions for achieving the same outcome.
 
@@ -47,7 +47,7 @@ Depending on your use case, there are different templates that help you set up t
 
 ## Prerequisites
 
-You have a system of type *Other System Type* or *CAP Application* listed in the *System Landscape* page of your global account in SAP BTP. See [Registering Third-Party Systems](registering-third-party-systems-5481d59.md).
+You have a system of type *Other System Type* or *SAP BTP Application* listed in the *System Landscape* page of your global account in SAP BTP. See [Registering a Third-Party System](registering-a-third-party-system-5481d59.md).
 
 
 

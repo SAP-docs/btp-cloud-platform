@@ -73,7 +73,7 @@ To separate development and production purposes, you have to create different gl
     > ### Note:  
     > The ABAP environment platform version of the assembly system is used to determine the minimum platform version for the add-on product version that is created.
     > 
-    > Such a system should not be nominated for the pre-upgrade option of the ABAP environment because this would lead to the add-on product only being able to installed in systems with the pre-upgrade release. When using BPV \(recommended\), the add-on definition is configured directly in the app.
+    > Such a system should not be nominated for the pre-upgrade option of the ABAP environment because this would lead to the add-on product only being able to installed in systems with the pre-upgrade release. When using Build Product Version \(recommended\), the add-on definition is configured directly in the app.
 
     For the add-on build process, an assembly system BLD is provisioned in this subaccount by the CI/CD server. See [Software Assembly Integration \(SAP\_COM\_0582\)](software-assembly-integration-sap-com-0582-26b8df5.md) When using the Build Product Version app \(recommended\), the add-on definition is configured directly in the app.
 

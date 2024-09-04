@@ -12,7 +12,7 @@ During the grace period
 
 -   The tenant access is blocked for the consumer and for the SaaS provider as well in the support use case.
 
--   The provider can restore the tenant in the *Landscape Portal*. See [Restore Consumer Tenants](restore-consumer-tenants-619c40e.md).
+-   The provider can restore the tenant in the *Landscape Portal*. See[Restore Consumer Tenants](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/a433537d4850440fa7d97d6fb72d81ef.html).
 
 
 After the end of the grace period, the tenant and all related data are irreversibly deleted and cannot be restored anymore.

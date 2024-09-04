@@ -214,7 +214,7 @@ PS\*
 
 **Support users** are SAP-owned technical users that can access customer systems. See [SAP Support User Request Log](../50-administration-and-ops/sap-support-user-request-log-934a027.md).
 
-**Provider support users** are technical users of the provider of a SaaS solution that can access consumer tenants in customer systems. See [Create Support Users](create-support-users-b31712c.md).
+**Provider support users** are technical users of the provider of a SaaS solution that can access consumer tenants in customer systems. See [Create Support Users](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/7a839f03916a491892e8997a79c67602.html?locale=en-US).
 
 
 

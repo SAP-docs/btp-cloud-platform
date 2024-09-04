@@ -77,7 +77,7 @@ As a Landscape Portal administrator, you can implement the multitenant applicati
 -   the consumer tenant limit and system sizing values that you have decided on.
 
 
-For more information regarding solutions, see [Create Solution](create-solution-aca34fa.md).
+For more information regarding solutions, see[Create Solution](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/4441a90bb6644a02a44b2f9e25b80cc5.html).
 
 
 
@@ -96,7 +96,7 @@ After creating the solution, it is recommended to perform a test deployment to v
 -   Maintain the subdomain of the subaccount where you intend to test the subscription process.
 
 
-For more information regarding deployment configurations, see [Create Deployment Configuration](create-deployment-configuration-58b90ec.md).
+For more information regarding deployment configurations, see[Create Deployment Configuration](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/146b71650f254d57b403ec982eea82ff.html).
 
 
 
@@ -123,7 +123,7 @@ After successfully testing the subscription process you can proceed to a product
 -   It is recommended to use a wildcard route in conjunction with custom domains. This will route all requests towards that domain to your application.
 
 
-To set up a custom domain, please follow the steps outlined in [Configuring Custom Domains](https://help.sap.com/docs/custom-domain/custom-domain-manager/configuring-custom-domains?version=Cloud) or [Get Started with the Custom Domain Manager](https://developers.sap.com/tutorials/btp-custom-domain-manager-getting-started.html). After registering the custom domain in your provider subaccount, it becomes available as a private domain \(see [Private domains](https://docs.cloudfoundry.org/devguide/deploy-apps/routes-domains.html#private-domains)\) for route creation in any of the Cloud Foundry spaces of the subaccount. Once you have created the production deployment configuration, you can trigger it using the *Deploy* action, see [Deploy Solution](deploy-solution-0b7df99.md). Once deployed, your solution should appear in the service marketplace on SAP BTP Cockpit for subaccounts within your global account for production.
+To set up a custom domain, please follow the steps outlined in [Configuring Custom Domains](https://help.sap.com/docs/custom-domain/custom-domain-manager/configuring-custom-domains?version=Cloud) or [Get Started with the Custom Domain Manager](https://developers.sap.com/tutorials/btp-custom-domain-manager-getting-started.html). After registering the custom domain in your provider subaccount, it becomes available as a private domain \(see [Private domains](https://docs.cloudfoundry.org/devguide/deploy-apps/routes-domains.html#private-domains)\) for route creation in any of the Cloud Foundry spaces of the subaccount. Once you have created the production deployment configuration, you can trigger it using the *Deploy* action, see[Deploy Solution](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/aea1dfd5093c4a2bb107f6d20b8dfc83.html). Once deployed, your solution should appear in the service marketplace on SAP BTP Cockpit for subaccounts within your global account for production.
 
 <a name="loioa4c7b148a9ab4341b876574fd54c0a18"/>
 
@@ -1265,7 +1265,7 @@ As a provider, you can deploy your SaaS solution in a subaccount that is located
 
 A consumer can then subscribe to and access your SaaS solution from a subaccount. The consumer subaccount needs to be located in the same region as the subaccount which you deployed the SaaS solution in.
 
-Keep in mind that regions are chosen on the subaccount level: For each subaccount, you select exactly one region. This is done when creating the subaccount. The **Landscape Portal** can only be accessed from subaccounts located in region cf-eu10. You thus need to make sure that the subaccount from which you want to access the **Landscape Portal** has the region attribute cf-eu10. For more information on regions, see [Regions.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html) and [Accessing the Landscape Portal](accessing-the-landscape-portal-2e1e393.md).
+Keep in mind that regions are chosen on the subaccount level: For each subaccount, you select exactly one region. This is done when creating the subaccount. The **Landscape Portal** can only be accessed from subaccounts located in region cf-eu10. You thus need to make sure that the subaccount from which you want to access the **Landscape Portal** has the region attribute cf-eu10. For more information on regions, see [Regions.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html) and [Accessing the Landscape Portal](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d9e865ad47204b80816b6f62af57b823.html).
 
 <a name="loio3a7648b69f514365b1842dde29cfda85"/>
 
@@ -1350,7 +1350,7 @@ To create a multitenant application for use with a custom domain, following conf
 
 For the subscriptions to the multitenant application to work correctly, configured SaaS Registry callback URLs need to be reachable \(cis… route\). For Application Routing routing to work, the approuter needs to be able to resolve the application URL based on current `TENANT_HOST_PATTERN` configuration.
 
-You can use the [Maintain Solution](maintain-solution-4985d3c.md) app in the Landscape Portal to easily create such a multitenant application with custom domain, please refer to [Create Deployment Configuration](create-deployment-configuration-58b90ec.md) → **Step 3: Routing Information**.
+You can use the[Maintain Solution](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d2a73509305c4ea7971ee24e68509dd8.html) app in the Landscape Portal to easily create such a multitenant application with custom domain, please refer to [Create Deployment Configuration](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/146b71650f254d57b403ec982eea82ff.html) → **Step 3: Routing Information**.
 
 Or, if you are following the MTA-based approach to create your multitenant application, in the [MTA Extension descriptor for production phase](https://github.com/sap-software/abap-saas-reference-solution/blob/main/extensions/examples/prod.mtaext) these configurations are changed using following MTA parameters:
 
@@ -1525,5 +1525,5 @@ Now you are ready to access the solution’s new tenant, where you will see the 
 2.  On the initial administrator onboarding screen, your email address, subdomain, and subaccount ID are displayed. Select Onboard User to start the onboarding process. This might take a few minutes. Once the process is finished, you are redirected to the system. This onboarding process only needs to be performed once.
 
 
-You can also monitor the tenant user provisioning using the Systems Overview and Operations Dashboard apps in the Landscape Portal. Ongoing tenant user provisionings are displayed in the Requests section of the Systems Overview app. See [View the Request Log](view-the-request-log-0ea69c2.md).
+You can also monitor the tenant user provisioning using the Systems Overview and Operations Dashboard apps in the Landscape Portal. Ongoing tenant user provisionings are displayed in the Requests section of the Systems Overview app. See [Systems Overview](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/4f812863a1bf4eff928951a9e14eb01b.html?locale=en-US).
 

@@ -69,7 +69,7 @@ When you revoke custom retention all stored audit data which is older than 90 da
 
 ### Revoke Custom retention of a Terminated Subaccount
 
-SAP-generated audit log data for a terminated subaccount deleted when it is older than 90 days. The 90-day retention period is kept free of charge for audit purposes.
+SAP-generated audit log data for a terminated subaccount is deleted when it is older than 90 days. The 90-day retention period is kept free of charge for audit purposes.
 
 > ### Note:  
 > When you delete a subaccount, all audit log data older than 90 days is automatically deleted.
