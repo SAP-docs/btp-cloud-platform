@@ -61,7 +61,7 @@ With the API Management capability, you can build, manage, publish, and monetize
 
 **Software Development Kits \(SDKs\)**
 
-For an overview on the available SDKs, see [Tools](tools-abcae5b.md).
+For an overview of the available SDKs, see [Tools](tools-abcae5b.md).
 
 </td>
 <td valign="top">

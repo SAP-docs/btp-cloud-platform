@@ -44,7 +44,7 @@ All other parameters correspond to the known `execute` method.
 > 
 >   CATCH cx_web_http_client_error cx_http_dest_provider_error.
 >      " handle exception here
-> ENDTRY. has occurrred!'.
+> ENDTRY. has occurred!'.
 > ENDTRY.
 > 
 > ```

@@ -2,7 +2,7 @@
 
 # Working with Users
 
-In the SAP BTP cockpit, you can see the users of your global account or subaccount, user-related identity provider information, and their authorizations. In a user's overview, you can create and delete users, and assign role collections. You can also display an overview of the role collections, where you can drill down all the way to the role, and see the application that the role is belongs to.
+In the SAP BTP cockpit, you can see the users of your global account or subaccount, user-related identity provider information, and their authorizations. In a user's overview, you can create and delete users, and assign role collections. You can also display an overview of the role collections, where you can drill down all the way to the role, and see the application that the role belongs to.
 
 
 
@@ -22,7 +22,7 @@ SAP BTP creates a copy of the user in the global account or in the subaccount wh
 > ### Note:  
 > User data of shadow users is regularly updated after authentication at the identity provider.
 > 
-> When a user authenticates against SAP BTP, an authentication request is forwarded to the trusted identity provider \(for example, SAP Cloud Identity Services\). After succcessful authentication, the identity provider creates a user token based on its configuration and sends it back to SAP BTP. In SAP BTP, the user data is updated according to the token.
+> When a user authenticates against SAP BTP, an authentication request is forwarded to the trusted identity provider \(for example, SAP Cloud Identity Services\). After successful authentication, the identity provider creates a user token based on its configuration and sends it back to SAP BTP. In SAP BTP, the user data is updated according to the token.
 
 
 
@@ -182,7 +182,7 @@ Delete shadows user to comply with data protection and privacy regulations.
 </td>
 <td valign="top">
 
-For data protection and privacy reasons, administrators might be legallly obliged to delete shadow users who belonged to employees who left the company. You can find and delete the shadow users in the SAP BTP cockpit.
+For data protection and privacy reasons, administrators might be legally obliged to delete shadow users who belonged to employees who left the company. You can find and delete the shadow users in the SAP BTP cockpit.
 
 See [Delete Users](delete-users-51000c2.md).
 

@@ -88,5 +88,5 @@ To install ABAP development tools for Eclipse, follow the [Installation Guide](h
 
 ## Support
 
-The use of ABAP development tools for Eclipse is subject to the terms and conditions of your license agreement with SAP which is directly related to the SAP shipment channel from whichABAP development tools for Eclipse was initially downloaded and installed.
+The use of ABAP development tools for Eclipse is subject to the terms and conditions of your license agreement with SAP which is directly related to the SAP shipment channel from which ABAP development tools for Eclipse was initially downloaded and installed.
 

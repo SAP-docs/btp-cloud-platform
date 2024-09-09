@@ -19,7 +19,7 @@ We recommend using the documentation of SAP Business Technology Platform (SAP BT
     * Choose *Feedback* > *Edit page* to suggest a change for the current page you see in the Help Portal viewer, or
     * Choose *Feedback* > *Create issue* to open a GitHub issue in this repository.
 
-    Choosing any of these options allows you start a conversation with us. We can clarify the proposed changes or issues and then update the documentation properly.
+    Choosing any of these options allows you to start a conversation with us. We can clarify the proposed changes or issues and then update the documentation properly.
 
 If you only make a small contribution, that's the quickest way to propose a change. For larger contributions, we recommend forking this repository to work locally. The filenames in the [docs](docs) directory are created based on the title of the page on SAP Help Portal.
 
