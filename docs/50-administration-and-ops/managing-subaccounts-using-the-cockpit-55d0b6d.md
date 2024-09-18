@@ -20,7 +20,7 @@ To learn more about the concept of subaccounts, see [Subaccounts](../10-concepts
 
 2.  Learn how to manage users.
 
-    [Add Members to Your Subaccount \[Feature Set B\]](add-members-to-your-subaccount-feature-set-b-1e1b7b6.md)
+    [Add Members to Your Subaccount](add-members-to-your-subaccount-1e1b7b6.md)
 
 3.  Learn how to administer your subaccount.
 

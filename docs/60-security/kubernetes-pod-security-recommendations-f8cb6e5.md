@@ -2,9 +2,7 @@
 
 # Kubernetes Pod Security Recommendations
 
-
-
-Pods are the smallest deployable units of computing that you can create and manage in Kubernetes. This document shows how to use Pods securely and ultimately have a secure workload. Follow the three-step guidelines depending on your workload's needs. First, decide on the basic security settings, then enable additional capabilities if needed, and finally, consider special features.
+Pods are the smallest deployable units of computing that you can create and manage in Kubernetes. This document shows how to use Pods securely and ultimately have a secure workload. The following steps guide you to use Pods securely and ultimately have a secure workload, depending on your needs.
 
 
 
@@ -24,7 +22,7 @@ If you are not aware of any special requirements, set up your workload in the mo
 
 -   Drop all capabilities.
 
--   Use seccomp. For more details, read the [Kubernetes documentation](https://kubernetes.io/docs/tutorials/security/seccomp/).
+-   Use seccomp. For more information, see the [Restrict a Container's Syscalls with seccomp](https://kubernetes.io/docs/tutorials/security/seccomp/).
 
 -   Run with a read-only root file system.
 
@@ -135,7 +133,7 @@ If you need storage, follow these recommendations:
         -   `/etc/kubernetes/manifests`
 
 
-    -   Use only the *File* or *Directory* `hostPath.type`. Usually use *File*, and *Directory* as a fallback.
+    -   Use only the `File` or `Directory` `hostPath.type`. Usually use `File`, and `Directory` as a fallback.
     -   Some files and directories on the host can only be accessible by root. Read more in the [Kubernetes documentation](https://kubernetes.io/docs/concepts/storage/volumes/#hostpath).
 
 
@@ -207,7 +205,7 @@ If you need storage, follow these recommendations:
 
 
 
-If your application doesn't work as expected, you may need some additional capabilities. Find the full list of the available capabilities on the [Linux manual page](https://man7.org/linux/man-pages/man7/capabilities.7.html). Check which capabilities are missing using the [Inspector Gadget](https://github.com/inspektor-gadget/inspektor-gadget) tools. You can [install the toolset as a kubectl plugin using krew](https://github.com/inspektor-gadget/inspektor-gadget/blob/main/docs/getting-started/install-kubernetes.md#installing-kubectl-gadget). After it's installed, use the `kubectl gadget trace capabilities` command.
+If your application doesn't work as expected, you may need some additional capabilities. Find the full list of the available capabilities on the [Linux manual page](https://man7.org/linux/man-pages/man7/capabilities.7.html). Check which capabilities are missing using the [Inspector Gadget](https://github.com/inspektor-gadget/inspektor-gadget) tools. You can [install the toolset as a kubectl plugin using krew](https://github.com/inspektor-gadget/inspektor-gadget/blob/main/docs/reference/install-kubernetes.md). After it's installed, use the `kubectl gadget trace capabilities` command.
 
 
 
@@ -217,7 +215,7 @@ If your application doesn't work as expected, you may need some additional capab
 
 
 
-### Accessing Parts of the `/proc` file system
+### Accessing Parts of the `/proc` File System
 
 The `proc` file system provides a lot of critical information about the system and its running processes. To learn more, read [Exploring the Linux`/proc` file system](https://www.redhat.com/sysadmin/linux-proc-filesystem) and [Important Linux`/proc` file system files you need to know](https://www.redhat.com/sysadmin/important-proc-files). By default, container runtimes mask certain parts of the `/proc` file system from inside a container in order to prevent potential security issues.
 
@@ -265,7 +263,10 @@ In the Pod spec, the following fields represent the host namespaces:
 -   `hostNetwork`: network namespace
 
 
-The three fields are by default set to *false* and should remain so.
+The three fields are by default set to `false` and should remain so.
 
-Usually, there is no need to remove this isolation and therefore, Pods should not have access to host namespaces. Removing namespaces from Pods is a very advanced feature. Use it only if you are certain you need it, for example, for low-level observation of other containers.
+Usually, there is no need to remove this isolation and therefore, Pods should not have access to host namespaces.
+
+> ### Caution:  
+> Removing namespaces from Pods is a very advanced feature. Use it only if you are certain you need it, for example, for low-level observation of other containers.
 

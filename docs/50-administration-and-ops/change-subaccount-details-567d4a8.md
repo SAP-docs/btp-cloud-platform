@@ -143,7 +143,7 @@ Enable beta features
 **Related Information**  
 
 
-[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.")
+[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.")
 
 [Change the Default Database System](https://help.sap.com/viewer/d4790b2de2f4429db6f3dff54e4d7b3a/Cloud/en-US/d531b2dd49904927a0327c9479edd2b7.html "Change the database property, which determines the database in the Neo environment on which an application runs.") :arrow_upper_right:
 

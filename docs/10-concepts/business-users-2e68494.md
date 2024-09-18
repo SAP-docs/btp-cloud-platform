@@ -2,7 +2,7 @@
 
 # Business Users
 
-**Business users** use applications on SAP BTP. For example, users of SaaS applications, such as SAP Build Work Zone, advanced edition, SAP Integration Suite, or extensions of SAP S/4HANA Cloud, and your custom applications are business users.
+**Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.
 
 Application developers \(platform users\) create and deploy application-specific security artifacts for business users, such as scopes. Administrators use these artifacts to assign roles, build role collections, and assign these role collections to business users or user groups. In this way, they control the users' permissions in the application.
 
@@ -14,7 +14,7 @@ For business users, there's a [default identity provider](../50-administration-a
 
 ## User Management
 
-**User management** refers to managing authentication and authorization for your business users. This is one of the tasks of subaccount administrators.
+**User management** refers to managing authentication and authorization for your business users.
 
 To manage your business users:
 

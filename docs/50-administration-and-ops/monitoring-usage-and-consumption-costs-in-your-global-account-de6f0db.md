@@ -32,7 +32,7 @@ To monitor and track costs and usage in your global account, open the global acc
 > 
 > If your global account uses the subscription-based commercial model exclusively, then you must access the *Usage* page instead.
 > 
-> The *Usage* page is very similar to the *Costs and Usage* page, except you won't see any data relating to costs or cloud credits since your eligible services are already prepaid and you aren't charged per usage. See [Using the Usage View](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_vff_dr3_m1c).
+> The *Usage* page is similar to the *Costs and Usage* page, except you cannot see any data relating to costs or cloud credits since your eligible services are already prepaid and you aren't charged per usage. See [Using the Usage View](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_vff_dr3_m1c).
 
 
 
@@ -96,7 +96,7 @@ This card is displayed only if your global account uses either the SAP BTPEA or 
 
 Use the *Usage* and *Costs* buttons in this card to switch the view between usage and cost information.
 
-In this card, you'll see warnings if you're approaching or exceeded your cloud credit limit for the current contract phase. Any overages will be billed at list price, so make sure to contact SAP if you need more cloud credits.
+In this card, you'll see warnings if you're approaching or exceeded your cloud credit limit for the current contract phase. Any overages are billed at list price, so make sure to contact SAP if you need more cloud credits.
 
 Note the following:
 
@@ -242,7 +242,7 @@ The *Costs and Usage* page uses the same terminology that is used in your monthl
 > 
 >     These estimates are based on resource usage values before computation for billing and might change after the next balance statement is issued. The estimated values are not projected or forecast values.
 > 
-> -   Some SAP BTP services report their billing and usage at the global account level, and not at the subaccount level. Such services will be listed in the *Costs and Usage* page under a reserved technical entity named `REPORTED-AT-GLOBAL-ACCOUNT-LEVEL` with the ID `DEFAULT_SA`.
+> -   Some SAP BTP services report their billing and usage at the global account level, and not at the subaccount level. Such services are listed in the *Costs and Usage* page under a reserved technical entity named `REPORTED-AT-GLOBAL-ACCOUNT-LEVEL` with the ID `DEFAULT_SA`.
 
 Here are some useful tips that are common to both the *Billing* and *Usage* views:
 
@@ -282,7 +282,7 @@ Sort the data in ascending or descending order
 
 Click a column heading in the table and choose the sort order you want.
 
-Sorting the tables can be very useful to determine which service plans and subaccounts have the highest and lowest costs.
+Sorting the tables can be useful for determining which service plans and subaccounts have the highest and lowest costs.
 
 </td>
 </tr>
@@ -357,7 +357,7 @@ In the *Billing* view, you can switch between the *View by Service* and *View by
 </td>
 <td valign="top">
 
-This perspective provides an overview of your charged usage across different services and their associated plans. It is particularly useful if you want to verify billing details.
+This perspective provides an overview of your charged usage across different services and their associated plans, and is useful for verifying billing details.
 
 Here are some useful tips for working in this perspective:
 
@@ -376,14 +376,18 @@ Here are some useful tips for working in this perspective:
 
 -   To filter the main table for specific subaccounts or directories, use the *Subaccounts/Directories* dropdown list.
 
--   To view the monthly trend of a specific service plan over the last 12 months, select the plan in the main table and then scroll down past the main table until you reach a chart. Choose the chart type in the *View By* dropdown list.
+-   To view a visual chart of the monthly cost trend, cumulative costs, or breakdown of the costliest subaccounts for a specific service plan over the last 12 months, first select the service plan from the main table and then scroll down past the main table to the chart area. Then, select the chart type from the *View By* dropdown list that is located adjacent to the chart area.
 
     > ### Tip:  
-    > The charts are useful for seeing in which months a service plan has usage and costs, which service plans have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per service plan.
-    > 
-    > You can also switch to a chart that shows the cumulative costs of the selected service over time.
+    > These charts are useful for seeing in which months a service plan has usage and costs, which service plans have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per service plan.
 
--   When you haven't selected a row in the main table, the *Global Account - Cost Summary* chart is displayed below the main table. It shows a summary of the costs by month in your global account over the last 12 months. To get back to this chart when a chart with the costs for a specific subaccount, directory, or service is displayed, unselect the selected row in the main table.
+-   To view a visual chart with a summary of the costs of all service plans in your global account over the last 12 months, make sure you do not have a specific service plan selected in the main table. Then, scroll past the table to the *Global Account - Cost Summary* chart area.
+
+    In the *View By* dropdown list, select a chart type; for example, *List Price*, *Cost Breakdown by Service Plans*, or *Cumulative List Price*.
+
+    > ### Tip:  
+    > In the cost breakdown chart, the 8 costliest service plans in your global account over the last 12 months are displayed. Click *Show More* below the chart legend to expand the chart and to view the cost breakdown of additional plans.
+
 
 See other useful tips, such as table sorting, filtering, and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
 
@@ -415,14 +419,20 @@ Here are some useful tips for working in this perspective:
 -   You can quickly expand or collapse the entire account hierarchy by clicking the <span class="SAP-icons-V5"></span> \(Expand All\) and <span class="SAP-icons-V5"></span> \(Collapse All\) buttons.
 -   To filter the main table for specific services, use the *Services* dropdown list.
 
--   To view the monthly trend of a specific subaccount or directory over the last 12 months, select the subaccount or directory in the main table and then scroll down past the main table until you reach a chart. Choose the chart type in the *View By* dropdown list.
+-   To view a visual chart of the monthly cost trend, cumulative costs, or breakdown of the costliest service plans for a specific subaccount or directory over the last 12 months, first select the subaccount or directory from the main table and then scroll down past the main table to the chart area. Then, select the chart type from the *View By* dropdown list that is located adjacent to the chart area.
 
     > ### Tip:  
-    > The charts are useful for seeing in which months a subaccount or directory has usage and costs, which subaccounts or directories have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per subaccount or directory.
+    > These charts are useful for seeing in which months a subaccount or directory has usage and costs, which subaccounts or directories have increased or decreased usage/costs over time, or the months that have the highest and lowest usage/costs per subaccount or directory.
     > 
-    > You can also switch to a chart that shows the cumulative costs of the selected subaccount or directory over time.
+    > When you choose a directory, the cost information applies to all subaccounts under the directory.
 
--   When you haven't selected a row in the main table, the *Global Account - Cost Summary* chart is displayed below the main table. It shows a summary of the costs by month in your global account over the last 12 months. To get back to this chart when a chart with the costs for a specific subaccount, directory, or service is displayed, unselect the selected row in the main table.
+-   To view a visual chart with a summary of the costs of all subaccounts in your global account over the last 12 months, make sure you do not have a specific subaccount or directory selected in the main table. Then, scroll past the table to the *Global Account - Cost Summary* chart area.
+
+    In the *View By* dropdown list, select a chart type; for example, *List Price*, *Cost Breakdown by Subaccounts*, or *Cumulative List Price*.
+
+    > ### Tip:  
+    > In the cost breakdown chart, the 8 costliest subaccounts in your global account over the last 12 months are displayed. If your global account has more than 8 subaccounts, click *Show More* below the chart legend to expand the chart and to view the cost breakdown of additional subaccounts.
+
 
 See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
 
@@ -430,9 +440,9 @@ See other useful tips, such as table sorting and searching, in the [Understandin
 </tr>
 </table>
 
-If your global account has subaccounts that have been deleted but have charges in the last 12 months while they were still active, they will still be listed. Such subaccounts are marked with *\(deleted\)* after their name. If these subaccounts were originally located under a directory, you'll see them listed directly under the root global account.
+If your global account has subaccounts that have been deleted but have charges in the last 12 months while they were still active, they’ll still be listed. Such subaccounts are marked with *\(deleted\)* after their name. If these subaccounts were originally located under a directory, you'll see them listed directly under the root global account.
 
-If your global accounts uses both a subscription-based and a commercial-based model, the *Usage* column shows the combined total usage of services, both subscription-based and consumption-based. Note that:
+If your global account uses both a subscription-based and a commercial-based model, the *Usage* column shows the combined total usage of services, both subscription-based and consumption-based. Note that:
 
 -   The subscription-based consumption includes usage of services that falls within the prepaid quota that is specified in your subscription-based commercial model agreement. This part of the combined usage is shown in the *Prepaid Quota* column. There will be no additional billing for consumption of the services that falls within this prepaid quota.
 -   The consumption-based usage includes the usage of services that exceeds the prepaid subscription-based quota. This part of the combined usage is shown in the *Charged Usage* column. For this usage, you'll be charged based on the terms outlined in your consumption-based commercial model agreement.
@@ -518,14 +528,28 @@ Choose one or more subaccounts or directories in the *Subaccounts/Directories* d
 <tr>
 <td valign="top">
 
-View the monthly trend of a specific service plan over the last 12 months
+View the monthly usage trend of a specific service plan over the last 12 months
 
 </td>
 <td valign="top">
 
-Select the service plan in the main table and the scroll down past the table to view the chart.
+Select the service plan from the main table and scroll past the table to the chart area. Then, choose *Actual Usage* in the *View By* dropdown list that is located adjacent the chart area.
 
 This chart is useful for seeing changes in usage trends over time, including the months with the highest and lowest usage per service.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+View a monthly breakdown of subaccounts that have used a specific service plan the most over the last 12 months
+
+</td>
+<td valign="top">
+
+Select the service plan from the main table and scroll past the table to the chart area. Then, choose *Usage Breakdown by Subaccounts* in the *View By* dropdown list.
+
+The top 8 subaccounts that use the selected plan the most are displayed initially. If there are more than 8 subaccounts that use the plan, click *Show More* to expand the chart and to view the breakdown of additional subaccounts.
 
 </td>
 </tr>

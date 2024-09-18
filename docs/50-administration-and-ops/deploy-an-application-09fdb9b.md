@@ -52,7 +52,7 @@ The file containing your new application is uploaded and your application is dep
 **Related Information**  
 
 
-[About Routes in the Cockpit](about-routes-in-the-cockpit-4af288c.md "Routes are the URLs that enable your end users to reach your application.")
+[About Routes in the Cockpit](about-routes-in-the-cockpit-4af288c.md "To enable your end users to reach your application, create a route and map it to the application in the SAP BTP cockpit.")
 
 [Create Routes](create-routes-9fddeea.md "You can configure the URLs through which end users can reach your applications.")
 

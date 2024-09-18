@@ -311,12 +311,30 @@ Enables the application router to send the entire chain of certificates provided
 <tr>
 <td valign="top">
 
-OWN\_SAP\_CLOUD\_SERVICE
+`OWN_SAP_CLOUD_SERVICE` 
 
 </td>
 <td valign="top">
 
 An array that contains the business solutions \("SAP cloud services"\) that your HTML5 applications are associated with as values. This configuration enables the standalone application router to use the same standardized format for runtime URLs \(`/<sap.cloud.service>.<appId>-<versionId>/`\) that is also used by the managed application router. If a runtime URL contains one of the defined values in the `<sap.cloud.service>` section, the application router will recognize the value during the processing of a request.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`DYNAMIC_IDENTITY_PROVIDER` 
+
+</td>
+<td valign="top">
+
+Configures a dynamic identity provider.
+
+If `DYNAMIC_IDENTITY_PROVIDER` is set to true, the end user can set the identity provider \(IDP\) for the application’s login process. If SAP Authorization and Trust Management is used, the `sap_idp`request query parameter must be filled with the IDP origin key. If Identity Authentication is used, the `sap_idp` request query parameter must be filled with the name of the corporate identity provider configured in the administration console for SAP Cloud Identity services. Note that this is not the*display name*, but the *name* of the corporate identity provider \(see [Creating URL To Access Application with Specific Identity Provider](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/create-url-to-access-saml-oidc-application-with-specific-identity-provider) \).
+
+If the `identityProvider` property is defined in the [route](routes-666eb55.md), its value will be overwritten by the `sap_idp` query parameter value.
+
+The default value for `DYNAMIC_IDENTITY_PROVIDER` is `false`.
 
 </td>
 </tr>

@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Add Members to Your Subaccount \[Feature Set B\]
+# Add Members to Your Subaccount
 
 Add members to your subaccount to enable users to access resources available there. Platform users manage subaccounts with cloud management tools, while business users consume applications and services.
 
@@ -30,9 +30,6 @@ Add members to your subaccount to enable users to access resources available the
 <a name="loio1e1b7b60bb1b4764a2d4bb96bd73182d__context_uqz_cjg_klb"/>
 
 ## Context
-
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
 
 There are two types of users in subaccounts:
 
@@ -101,7 +98,7 @@ The user can log on to SAP BTP and access resources according to the role collec
 **Related Information**  
 
 
-[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, user management takes place at all levels from global account to environment.")
+[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.")
 
-[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.")
+[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.")
 

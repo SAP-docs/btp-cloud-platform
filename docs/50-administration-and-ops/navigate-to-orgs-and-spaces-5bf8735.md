@@ -78,5 +78,5 @@ Navigate to the subaccount that contains the space you'd like to navigate to.
 **Related Information**  
 
 
-[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.")
+[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.")
 

@@ -4,7 +4,7 @@
 
 # Navigate in the Cockpit
 
-Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.
+Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.
 
 
 
@@ -17,63 +17,7 @@ Learn how to navigate to your global accounts and subaccounts in the SAP BTP coc
 
 
 
-<a name="loio0874895f1f78459f9517da55a11ffebd__steps_hbw_vy2_knb"/>
-
-## Procedure
-
-1.  Find out which cloud management tools feature set your global account uses. For more information, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
-
-2.  Become familiar with the navigation behavior in the SAP BTP cockpit.
-
-    -   [Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set A\]](navigate-in-the-cockpit-0874895.md#loio0874895f1f78459f9517da55a11ffebd__Navigate-FSA) 
-
-    -   [Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set B\]](navigate-in-the-cockpit-0874895.md#loio0874895f1f78459f9517da55a11ffebd__Navigate-FSB)
-
-
-**Related Information**  
-
-
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
-
-<a name="Navigate-FSA"/>
-
-<!-- Navigate-FSA -->
-
-## Navigate in the Cockpit to Global Accounts and Subaccounts \[Feature Set A\]
-
-
-
-<a name="Navigate-FSA__steps_bhk_my2_knb"/>
-
-## Procedure
-
-1.  Navigate to a global account.
-
-    You can see the following path in the breadcrumbs:
-
-    :house: Home / <span class="SAP-icons-V5"></span> <global\_account\>
-
-2.  Navigate to a subaccount.
-
-    1.  Select the global account that contains the subaccount you'd like to navigate to by following the steps described above.
-
-    2.  Select the subaccount.
-
-
-    You can see the following path in the breadcrumbs:
-
-    :house: Home / <span class="SAP-icons-V5"></span> <global\_account\> / <span class="SAP-icons-V5"></span> <subaccount\>
-
-
-<a name="Navigate-FSB"/>
-
-<!-- Navigate-FSB -->
-
-## Navigate to Global Accounts, Directories, and Subaccounts \[Feature Set B\]
-
-
-
-<a name="Navigate-FSB__steps_ibv_bhf_mqb"/>
+<a name="loio0874895f1f78459f9517da55a11ffebd__steps_zrt_h3g_4cc"/>
 
 ## Procedure
 

@@ -102,7 +102,7 @@ The customer production system AMT is provisioned during the initial subscriptio
 -   Initial efforts to set up ABAP environment pipeline for add-on build
 -   ABAP environment pipeline needs to be executed in a Jenkins CI/CD Server
 -   Initial configuration effort and requires to set up Jenkins server infrastructure. See [Infrastructure](https://www.project-piper.io/infrastructure/overview/).
--   Resulting delivery packages are either installed as part of an add-on during system provisioning or updated centrally in the systems using the *Landscape Portal* application. See  <?sap-ot O2O class="- topic/xref " href="8c5cb9e6eafc4a18a0c49f2b17e70e51.xml" text="" desc="" xtrc="xref:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/438d7ebfdc4a41de82dcdb156f01857e.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+-   Resulting delivery packages are either installed as part of an add-on during system provisioning or updated centrally in the systems using the *Landscape Portal* application. See [Perform Add-on Updates](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/1d9e16daeaaa4338a20e927e4672916f.html).
 
 
 

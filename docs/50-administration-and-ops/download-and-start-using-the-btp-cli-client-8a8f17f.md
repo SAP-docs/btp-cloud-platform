@@ -25,7 +25,7 @@ In the [What's New for SAP Business Technology Platform](https://help.sap.com/wh
 
 ## Procedure
 
-1.  Download the appropriate client for your operating system from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli) with the links in the table below. If you prefer using the command line or a script, you can use the curl command from the table below, which downloads and saves the latest client version to your computer and accepts the SAP Developer Agreement \(EULA\).
+1.  Download the appropriate client for your operating system from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli) with the links in the table below. If you prefer using the the command line or a script, you can use the curl command from the table below, which downloads and saves the latest client version to your computer and accepts the SAP Developer Agreement \(EULA\).
 
 
     <table>
@@ -139,7 +139,7 @@ In the [What's New for SAP Business Technology Platform](https://help.sap.com/wh
 
 4.  \(Optional\) If you have a proxy server configured in your environment, you need to specify its address and port as environment variable `HTTPS_PROXY` or `https_proxy` to access SAP BTP. For example, `HTTPS_PROXY=https://my-https-proxy:1234`.
 
-    The specified proxy server is then used for HTTPS requests, unless overridden by the `NO_PROXY` or `no_proxy`, environment variables, which define a comma-separated list of hosts to be excluded from proxying.
+    The specified proxy server is then used for HTTPS requests, unless overriden by the `NO_PROXY` or `no_proxy`, environment variables, which define a comma-separated list of hosts to be excluded from proxying.
 
 5.  Run `btp` in your terminal. Note that you need read and write permissions in the target folder to run this executable.
 

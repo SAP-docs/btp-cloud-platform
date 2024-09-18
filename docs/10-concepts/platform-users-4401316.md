@@ -2,7 +2,7 @@
 
 # Platform Users
 
-**Platform users** are administrators, developers, or operators who manage SAP BTP accounts and environments, and deploy, administer, and troubleshoot applications and services. They’re the users that have full access and give certain permissions, for instance, at global account, directory, or subaccount level. Members only have basic access.
+**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that have full access and give certain permissions, for instance, at global account, directory, or subaccount level. Members only have basic access.
 
 Platform users who have administrative permissions can view or manage the list of global accounts, subaccounts, and environments, such as Cloud Foundry orgs and spaces. Members have basic access to them using the SAP BTP cockpit, the SAP BTP command-line interface \(btp CLI\), or environment-specific CLI, such as the Cloud Foundry \(CF\) CLI.
 
@@ -19,7 +19,7 @@ For platform users, there's a [default identity provider](../50-administration-a
 
 ## Member Management
 
-**Member management** refers to managing authentication and authorization for platform users. Members have only basic access to SAP BTP.
+**Member management** refers to managing permissions for platform users. Members have only basic access to SAP BTP.
 
 Member management happens at global account, directory, subaccount, and environment level. Members' permissions apply to all operations that are associated with the global account, the organization, or the space, irrespective of the tool used. Depending on the scope and the cloud management tools you're using, you manage members in different ways:
 
@@ -99,7 +99,7 @@ See:
 
 [Role Collections and Roles in Global Accounts, Directories, and Subaccounts](role-collections-and-roles-in-global-accounts-directories-and-subaccounts-0039cf0.md) 
 
-[Add Members to Your Subaccount \[Feature Set B\]](../50-administration-and-ops/add-members-to-your-subaccount-feature-set-b-1e1b7b6.md)
+[Add Members to Your Subaccount](../50-administration-and-ops/add-members-to-your-subaccount-1e1b7b6.md)
 
 [Create Users](../50-administration-and-ops/create-users-a3bc7e8.md)
 

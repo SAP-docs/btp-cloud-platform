@@ -8,9 +8,6 @@ The btp CLI offers convenient features for interactive use as well as for script
 
 If you want to use the btp CLI for scripting, we recommend to use the `--format json` option or to persistently set the output format to json with `btp set config --format json`. See [Change the Output Format to JSON](change-the-output-format-to-json-dcb85b7.md) and [Change Configuration Settings](change-configuration-settings-dba4eb6.md).
 
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
-
 
 
 <a name="loio7c6df2db6332419ea7a862191525377c__section_nc4_bpf_15b"/>

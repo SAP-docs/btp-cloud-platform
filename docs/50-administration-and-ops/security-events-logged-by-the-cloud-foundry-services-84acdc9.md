@@ -275,6 +275,18 @@ SAP Business Application Studio
 <tr>
 <td valign="top">
 
+SAP Cloud Identity Access Governance
+
+</td>
+<td valign="top">
+
+[Integration of Audit Log Service](https://help.sap.com/docs/SAP_CLOUD_IDENTITY_ACCESS_GOVERNANCE/8927ff487e3e4520b3211167b7f06c31/f77eb1b5ce21422fb35784a248fb88a1.html?version=CLOUDFOUNDRY)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Cloud Integration \(Cloud Foundry\)
 
 </td>

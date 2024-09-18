@@ -51,7 +51,7 @@ You can carry out the following activities in the detail view:
 
 -   Edit restrictions and values by clicking the pencil icon when you are in edit mode.
 
-    -   Maintain the field settings *Restricted*, *Unrestricted Access* or *Not maintained* by selecting the radio buttons. The option *Maintained in Derived Role* is only available if the business role you're currently editing is a leading business role.
+    -   Maintain the field settings *Restricted*, *Unrestricted Access* or *Not maintained* by selecting the radio buttons. The option *Maintained in Derived Role* is only availabe if the business role you're currently editing is a leading business role.
 
     -   Select and deselect values from the value help list
 
@@ -76,13 +76,13 @@ You can carry out the following activities in the detail view:
 
 -   Easily change the access category of a restriction by selecting the following radio buttons: *Write, Read, Value Help*, *Read, Value Help*, or*Value Help*.
 
--   Add other instances of this restriction type of the highest access category \(which is automatically selected\) by pressing the *Add* button in the header of the restrictions list.
+-   Add other instances of this restriction type of the highest access category \(which is automatically selected\) by pressing the the *Add* button in the header of the restrictions list.
 
 -   Define a restriction of the *General type* as leading by selecting the *Leading Restriction* checkbox.
 
     If required, you can define several general restrictions as leading. You can do this by selecting the required restrictions and then clicking *Leading*.
 
--   Remove restrictions if required by selecting the restrictions and clicking the *Remove button* in the header of the restrictions list.
+-   Remove restrictions if required by selecting the restrictions and clicking the the*Remove button* in the header of the restrictions list.
 
 -   Hide fields you have set as *Unrestricted*. This makes it easier for you to gain an overview of all restrictions. You can do this clicking *Hide Unrestricted* in the very top right corner of the screen.
 

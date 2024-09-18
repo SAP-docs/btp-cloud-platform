@@ -36,7 +36,7 @@ If you want to make your application reachable on another route, you can add add
 
 [Using Custom Domains](using-custom-domains-2291aea.md "SAP BTP allows subaccount owners to make their SAP BTP applications reachable and secure via a custom domain that is different from the default domain – for example, subdomain.mydomain.com.")
 
-[About Routes in the Cockpit](about-routes-in-the-cockpit-4af288c.md "Routes are the URLs that enable your end users to reach your application.")
+[About Routes in the Cockpit](about-routes-in-the-cockpit-4af288c.md "To enable your end users to reach your application, create a route and map it to the application in the SAP BTP cockpit.")
 
 [Configuring Application URLs (Neo environment)](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/7ceeaa5e528140c48ae53b68433293ba.html "By default, all applications running on SAP BTP are accessed on the hana.ondemand.com domain.") :arrow_upper_right:
 

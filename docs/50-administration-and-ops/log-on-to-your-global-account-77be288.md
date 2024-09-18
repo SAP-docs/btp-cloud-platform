@@ -12,7 +12,9 @@ Use the SAP BTP cockpit to log on to your global account and start working in SA
 
 ## Prerequisites
 
-You have received a welcome e-mail from SAP for your global account.
+You have received a welcome e-mail from SAP for your global account. If you don't have a global account administrator or one isn't available, there is a workaround using SAP for Me.
+
+For more information, see [2669325 - How to add a user as a Global Account administrator for SAP Business Technology Platform](https://me.sap.com/notes/0002669325).
 
 
 

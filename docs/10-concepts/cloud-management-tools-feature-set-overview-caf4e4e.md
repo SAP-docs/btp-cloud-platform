@@ -390,7 +390,7 @@ See:
 
 [Role Collections and Roles in Global Accounts, Directories, and Subaccounts](role-collections-and-roles-in-global-accounts-directories-and-subaccounts-0039cf0.md)
 
-[Add Members to Your Subaccount \[Feature Set B\]](../50-administration-and-ops/add-members-to-your-subaccount-feature-set-b-1e1b7b6.md)
+[Add Members to Your Subaccount](../50-administration-and-ops/add-members-to-your-subaccount-1e1b7b6.md)
 
 [Default Role Collections of SAP BTP](../60-security/default-role-collections-of-sap-btp-a6a0072.md)
 

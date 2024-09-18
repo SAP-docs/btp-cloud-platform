@@ -36,7 +36,7 @@ The following list covers all possible use cases and will guide you to the respe
 
     To learn more about the app and how to enable it, see [Schedule Custom Code Analysis](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/schedule-custom-code-analysis).
 
-6.  **Maintain the Baseline:** In the Custom Code Migration app, it is now possible to maintain the baseline. This means that you can add/remove custom code project check results to/from the baseline​ and choose whether you would like to exempt your findings, suppress your findings or reduce their priority. After adding findings to the baseline, they won't appear in the subsequent check results of the custom code project.
+6.  **Maintain the Baseline:** In the Custom Code Migration app, it is now possible to maintain the ATC baseline. This means that you can add/remove custom code project check results to/from the baseline​ and choose whether you would like to exempt your findings, suppress your findings or reduce their priority. After adding findings to the baseline, they won't appear in the subsequent check results of the custom code project.
 
     To learn more about the baseline functionality in the Custom Code Migration app, see [Custom Code Migration](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/custom-code-migration).
 

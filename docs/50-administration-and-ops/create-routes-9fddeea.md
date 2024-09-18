@@ -8,11 +8,17 @@ You can configure the URLs through which end users can reach your applications.
 
 
 
+<a name="loio9fddeea396b34b528bc8d286f3d5d9cf__prereq_cft_vrb_kcc"/>
+
+## Prerequisites
+
+You must have the Space Developer or the Space Supporter role.
+
+
+
 ## Context
 
 Routes belong to a space but they’re globally unique, regardless of the organization that controls a space. If a route with a URL exists, you can’t create a route with the same URL.
-
-The following steps guide you through the procedure of creating routes by using the SAP BTP cockpit, but you can also create routes by using the CF CLI. For more information, see [https://cli.cloudfoundry.org/en-US/cf/create-route.html](https://cli.cloudfoundry.org/en-US/cf/create-route.html).
 
 
 
@@ -22,7 +28,7 @@ The following steps guide you through the procedure of creating routes by using 
 
 2.  Choose *Routes* from the left hand-side navigation.
 
-3.  Choose *New Route* to create a route.
+3.  Choose *Create Route*.
 
 4.  In the dialog, enter the following parameters:
 
@@ -59,7 +65,7 @@ The following steps guide you through the procedure of creating routes by using 
     <tr>
     <td valign="top">
     
-    **Host Name** 
+    **Host Name**
     
     </td>
     <td valign="top">
@@ -75,7 +81,7 @@ The following steps guide you through the procedure of creating routes by using 
     <tr>
     <td valign="top">
     
-    **Path**
+    **Path** \(Optional\)
     
     </td>
     <td valign="top">
@@ -90,7 +96,7 @@ The following steps guide you through the procedure of creating routes by using 
     
     You can see the preview of your route at the bottom of the dialog.
 
-5.  When you're happy with your route, choose *Save*.
+5.  When you're happy with your route, choose *Create*.
 
 
 
@@ -99,12 +105,13 @@ The following steps guide you through the procedure of creating routes by using 
 
 ## Next Steps
 
-Once you’ve created a route, you must map it to your application. Additionally, you also have the option to bind it to a route service instance, by choosing <span class="SAP-icons-V5"></span> \(Bind Route Service\) from the *Actions* column.
+-   Once you’ve created a route, you must map it to your application. For more information, see [Map Routes to Applications](map-routes-to-applications-b25cf8a.md).
+
+-   Additionally, you also have the option to bind it to a route service instance by choosing <span class="SAP-icons-V5"></span> \(Bind Route Service\) from the *Actions* column. For more information, see [Bind Routes to Service Instances](bind-routes-to-service-instances-6826512.md).
+
 
 **Related Information**  
 
 
-[Map Routes to Applications](map-routes-to-applications-b25cf8a.md "Once a route has been created, you can map it to an application to make this application reachable for end users.")
-
-[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the SAP BTP cockpit to create space quotas.")
+[About Routes in the Cockpit](about-routes-in-the-cockpit-4af288c.md "To enable your end users to reach your application, create a route and map it to the application in the SAP BTP cockpit.")
 

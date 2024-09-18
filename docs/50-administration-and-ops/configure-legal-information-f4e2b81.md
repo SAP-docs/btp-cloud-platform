@@ -36,7 +36,7 @@ You can define the privacy link relevant for a global account so the members of 
 **Related Information**  
 
 
-[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.")
+[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.")
 
 [Global Accounts](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/722a4755da7f4b7e9929be8f15af0f1b.html#loio9b7d44f92eec44a6ae87129c02aeec0d "Global accounts are hosted environments that represent the scope of the functionality and the level of support based on a customer or partner’s entitlement to platform resources and services.") :arrow_upper_right:
 

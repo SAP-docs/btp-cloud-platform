@@ -301,7 +301,7 @@ Kyma modules ship logs that contain information relevant to the containers.
 
 [Distributed Denial-of-Service Protection in Kyma](distributed-denial-of-service-protection-in-kyma-5e13d59.md "A distributed denial-of-service (DDoS) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service or network by overwhelming the target or its surrounding infrastructure with a flood of traffic.")
 
-[Secure Administration and Operations in the Kyma Environment](secure-administration-and-operations-in-the-kyma-environment-a22ef28.md "Secure administration and operations focus on landscape setup, authentication, authorization, and Istio access logs. Learn about the security measures you can take from the following sections.")
+[Secure Administration and Operations in the Kyma Environment](secure-administration-and-operations-in-the-kyma-environment-a22ef28.md "Secure administration and operations focus on landscape setup, authentication, authorization, and Istio access logs. Learn about the security measures you can take to improve the security of your Kyma environment.")
 
-[Secure Development in the Kyma Environment](secure-development-in-the-kyma-environment-ff51a32.md "Secure development focuses on Pod security, network traffic restriction, Istio sidecar proxy injection, and workload exposure. Learn about the security measures you can take.")
+[Secure Development in the Kyma Environment](secure-development-in-the-kyma-environment-ff51a32.md "Secure development focuses on Pod security, network traffic restriction, Istio sidecar proxy injection, and workload exposure. Learn about the security measures you can take to improve the security of your Kyma environment .")
 

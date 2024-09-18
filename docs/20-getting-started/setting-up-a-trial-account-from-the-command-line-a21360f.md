@@ -1,17 +1,12 @@
 <!-- loioa21360fa19714751a7c49c796d39ac3d -->
 
-# Setting Up a Trial Account via the Command Line \[Feature Set B\]
+# Setting Up a Trial Account From the Command Line
 
-If your trial account is running on the cloud management tools feature set B, you can use the command-line interfaces to set it up. For all tasks on global account and subaccount level, you use the **SAP BTP command line interface** \(**btp CLI**\). Once you’ve created a Cloud Foundry environment instance \(a Cloud Foundry org\), you use the Cloud Foundry CLI \(cf CLI\). This procedure works without the SAP BTP cockpit \(except that you need the global account subdomain to log in, which you may have to look up in the cockpit\).
-
-
-
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
+You can use the command-line interface to set up a trial account. For all tasks on global account and subaccount levels, you use the **SAP BTP command-line interface** \(**btp CLI**\). Once you’ve created a Cloud Foundry environment instance \(a Cloud Foundry org\), you use the Cloud Foundry CLI \(cf CLI\). This procedure works without the SAP BTP cockpit \(except that you need the global account subdomain to log in, which you may have to look up in the cockpit\).
 
 
 
-For all tasks on global account and subaccount level, you can use the **the btp CLI** instead of the SAP BTP cockpit. Once you’ve created a Cloud Foundry environment instance \(a Cloud Foundry org\), you use the Cloud Foundry CLI \(cf CLI\).
+For all tasks on global account and subaccount level, you can use the **the btp CLI** instead of the SAP BTP cockpit. Once you’ve created a Cloud Foundry environment instance \(a Cloud Foundry org\), use the Cloud Foundry CLI \(cf CLI\).
 
 
 
@@ -23,7 +18,7 @@ For all tasks on global account and subaccount level, you can use the **the btp 
 
 -   You have downloaded and extracted the following command-line tools:
 
-    -   SAP BTP command line interface \(btp CLI\). See [Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md)
+    -   SAP BTP command-line interface \(btp CLI\). See [Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md)
 
     -   Cloud Foundry CLI \(cf CLI\). See [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) 
 
@@ -487,7 +482,7 @@ See [Using Services in the Cloud Foundry Environment](../30-development/using-se
 </tr>
 </table>
 
-Using the btp CLI, you can perform additional account maintenance tasks, such as updating global account and subaccount details, deleting subaccounts, and deleting environment instances.
+Using the btp CLI, you can perform account maintenance tasks, such as updating global account and subaccount details, deleting subaccounts, and deleting environment instances.
 
 Subaccount members can also use the btp CLI to work with multitenant applications. See [Working with Multitenant Applications Using the btp CLI](../50-administration-and-ops/working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md).
 
@@ -499,7 +494,7 @@ Subaccount members can also use the btp CLI to work with multitenant application
 
 Org/space members can create service instances, which are entitled to the subaccount, using also the <code>cf create-service <i class="varname">&lt;allowed-service-plan&gt;</i></code> command in the cf CLI. Use the cf CLI command cf services to verify that the service instances exist.
 
-For further documentation about developer tasks, see [Development in the Cloud Foundry Environment](../30-development/development-in-the-cloud-foundry-environment-40a8f8f.md).
+For more information about developer tasks, see [Development in the Cloud Foundry Environment](../30-development/development-in-the-cloud-foundry-environment-40a8f8f.md).
 
 **Related Information**  
 

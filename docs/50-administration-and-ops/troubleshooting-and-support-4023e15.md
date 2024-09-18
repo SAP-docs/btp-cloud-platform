@@ -36,7 +36,7 @@ For more information, see SAP Note [3085908](https://me.sap.com/notes/3085908) a
 
 ## I'd like to setup a global account with the command line
 
-If you don't know how to get started, you might want to have a look at the appropriate workflow: [Setting Up a Trial Account via the Command Line \[Feature Set B\]](../20-getting-started/setting-up-a-trial-account-via-the-command-line-feature-set-b-a21360f.md) or [Setting Up a Global Account via the Command Line](../20-getting-started/setting-up-a-global-account-via-the-command-line-accd5b2.md).
+If you don't know how to get started, you might want to have a look at the appropriate workflow: [Setting Up a Trial Account From the Command Line](../20-getting-started/setting-up-a-trial-account-from-the-command-line-a21360f.md) or [Setting Up a Global Account via the Command Line](../20-getting-started/setting-up-a-global-account-via-the-command-line-accd5b2.md).
 
 
 

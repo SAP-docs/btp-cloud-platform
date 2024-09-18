@@ -4549,60 +4549,6 @@ Create, store, access, and analyze application logs.
 <tr>
 <td valign="top">
 
-[Invoice Object Recommendation](https://help.sap.com/viewer/product/Invoice_Object_Recommendation) 
-
-</td>
-<td valign="top">
-
-Recommendation of the G/L accounts using machine learning.
-
-</td>
-<td valign="top">
-
--   CA-ML-AR-GL
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Invoicing option for Peppol](https://help.sap.com/viewer/product/DC_PEPPOL/Cloud/en-US) 
 
 </td>

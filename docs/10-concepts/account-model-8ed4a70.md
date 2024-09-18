@@ -6,7 +6,7 @@
 
 Learn more about the different types of accounts on SAP BTP and how they relate to each other.
 
-Accounts are structured according to global accounts, subaccounts, and directories \[Feature Set B\].
+Accounts are structured according to global accounts, subaccounts, and directories.
 
 To learn more about managing your account model, see [Account Administration](../50-administration-and-ops/account-administration-5d62ec8.md).
 
@@ -133,7 +133,7 @@ For more information about the relationship between a global account and its sub
 
 <!-- loio20828fc639954939890d3d74a22c5f66 -->
 
-## Relationship Between Global Accounts, Subaccounts, and Directories \[Feature Set B\]
+## Relationship Between Global Accounts, Subaccounts, and Directories
 
 A global account can group together different directories and subaccounts that an administrator makes available to users. Administrators can assign the available entitlements and quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.
 

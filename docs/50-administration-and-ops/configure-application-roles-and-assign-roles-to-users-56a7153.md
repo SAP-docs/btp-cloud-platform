@@ -66,5 +66,5 @@ You can use any SAML 2.0 standard compliant identity provider. See [Trust and Fe
 **Related Information**  
 
 
-[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, user management takes place at all levels from global account to environment.")
+[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.")
 

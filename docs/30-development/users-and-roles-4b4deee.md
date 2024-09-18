@@ -255,7 +255,7 @@ S-users are used by partners and customers to log on to SAP ONE Support Launchpa
 
 -   Reserving development namespace in Namespace Application See [https://launchpad.support.sap.com/\#/namespaces](https://launchpad.support.sap.com/#/namespaces).
 
--   Activating new namespaces in already existing systems using Landscape Portal. See  <?sap-ot O2O class="- topic/xref " href="5456007ac4d04cb98b52b41f8c2d4a71.xml" text="" desc="" xtrc="xref:25" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/4b4deeea31f74bfaa2598dc6b1c99eb9.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+-   Activating new namespaces in already existing systems using Landscape Portal. See [Maintain Namespaces](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/59e9ddee17ee496fa14e2760c78bf9da.html).
 -   Creating technical communication user. See SAP note [2532813](https://me.sap.com/notes/2532813).
 
 

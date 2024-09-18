@@ -2,7 +2,7 @@
 
 # Secure Development in the Kyma Environment
 
-Secure development focuses on Pod security, network traffic restriction, Istio sidecar proxy injection, and workload exposure. Learn about the security measures you can take.
+Secure development focuses on Pod security, network traffic restriction, Istio sidecar proxy injection, and workload exposure. Learn about the security measures you can take to improve the security of your Kyma environment .
 
 
 
@@ -10,7 +10,7 @@ Secure development focuses on Pod security, network traffic restriction, Istio s
 
 ## Pod Security
 
-Read [Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommendations-f8cb6e5.md) for details on how to secure your Kubernetes Pods in Kyma.
+To learn how to secure your Kubernetes Pods in Kyma, see [Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommendations-f8cb6e5.md).
 
 
 
@@ -18,9 +18,9 @@ Read [Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommend
 
 ## Restrict and Secure Network Traffic
 
--   Set up Kubernetes [Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/) to restrict the network traffic between Pods in your namespaces
+-   Set up Kubernetes [Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/) to restrict the network traffic between Pods in your namespaces.
 
--   [Enable Automatic Istio Sidecar Proxy Injection](https://kyma-project.io/#/istio/user/operation-guides/02-20-enable-sidecar-injection) for your namespaces
+-   [Enable Automatic Istio Sidecar Proxy Injection](https://kyma-project.io/#/istio/user/operation-guides/02-20-enable-sidecar-injection) for your namespaces.
 
 
 
@@ -29,17 +29,17 @@ Read [Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommend
 
 ## Expose Workloads Securely
 
-To securely expose workloads in SAP BTP, Kyma runtime, use the Istio and API Gateway modules. As a prerequisite, make sure that you have those two modules added to your Kyma cluster. Then you can follow steps from these tutorials:
+To securely expose workloads in SAP BTP, Kyma runtime, use the Istio and API Gateway modules. As a prerequisite, make sure that you have those two modules added to your Kyma cluster. Then, perform the following tasks:
 
 -   [Set Up a Custom Domain for a Workload](https://kyma-project.io/#/api-gateway/user/tutorials/01-10-setup-custom-domain-for-workload)
 
--   [Disable the default Gateway](https://kyma-project.io/#/api-gateway/user/custom-resources/apigateway/04-10-kyma-gateway?id=disable-or-enable-kyma-gateway)
+-   Disable the default gateway. See [Disable or Enable Kyma Gateway](https://kyma-project.io/#/api-gateway/user/custom-resources/apigateway/04-10-kyma-gateway?id=disable-or-enable-kyma-gateway).
 
--   Set up your own API Gateway
+-   Set up your own API gateway with one of the following options:
 
-    -   with TLS. See [Set Up a TLS Gateway in Simple Mode](https://kyma-project.io/#/api-gateway/user/tutorials/01-20-set-up-tls-gateway)
+    -   [Set Up a TLS Gateway in Simple Mode](https://kyma-project.io/#/api-gateway/user/tutorials/01-20-set-up-tls-gateway)
 
-    -   with mTLS. See [Set Up an mTLS Gateway and Expose Workloads Behind It](https://kyma-project.io/#/api-gateway/user/tutorials/01-30-set-up-mtls-gateway)
+    -   [Set Up an mTLS Gateway and Expose Workloads Behind It](https://kyma-project.io/#/api-gateway/user/tutorials/01-30-set-up-mtls-gateway)
 
 
 -   Create an [APIRule Custom Resource](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-10-apirule-custom-resource) to securely expose your workloads
@@ -69,9 +69,9 @@ See [Security Considerations](https://kyma-project.io/#/serverless-manager/user/
 
 [Kyma Security Concepts](kyma-security-concepts-dbf4503.md "SAP BTP, Kyma runtime takes various security measures regarding your cluster and its underlying infrastructure. Benefit from the security setup that SAP BTP, Kyma runtime provides.")
 
-[Secure Administration and Operations in the Kyma Environment](secure-administration-and-operations-in-the-kyma-environment-a22ef28.md "Secure administration and operations focus on landscape setup, authentication, authorization, and Istio access logs. Learn about the security measures you can take from the following sections.")
+[Secure Administration and Operations in the Kyma Environment](secure-administration-and-operations-in-the-kyma-environment-a22ef28.md "Secure administration and operations focus on landscape setup, authentication, authorization, and Istio access logs. Learn about the security measures you can take to improve the security of your Kyma environment.")
 
-[Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommendations-f8cb6e5.md " 		 	")
+[Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommendations-f8cb6e5.md "Pods are the smallest deployable units of computing that you can create and manage in Kubernetes. This document shows how to use Pods securely and ultimately have a secure workload. The following steps guide you to use Pods securely and ultimately have a secure workload, depending on your needs.")
 
 [Function Security](function-security-1be599b.md "When creating Functions, make sure you understand how they work to avoid potential threats.")
 

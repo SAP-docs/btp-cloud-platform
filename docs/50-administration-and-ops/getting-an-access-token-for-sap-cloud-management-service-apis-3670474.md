@@ -65,7 +65,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         </td>
         <td valign="top">
         
-        `Create a Service Management binding`
+        `Create a Service Manager binding`
         
         </td>
         </tr>
@@ -77,7 +77,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         </td>
         <td valign="top">
         
-        `Get a Service Management binding`
+        `Get a Service Manager binding`
         
         </td>
         </tr>
@@ -89,7 +89,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         </td>
         <td valign="top">
         
-        `Delete a Service Management binding`
+        `Delete a Service Manager binding`
         
         </td>
         </tr>
@@ -224,11 +224,10 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
 
     See [Get Access to the APIs Using the apiaccess Service Plan](https://help.sap.com/viewer/e56a6c50d31541ea826021dc8e721a53/Cloud/en-US/f7796baaef6a48e9867298827f5028ff.html)
 
-4.  Call the SAP Cloud Management service APIs using Swagger with the `access_token` that you received in the previous step:
+4.  Call the SAP Cloud Management service APIs in SAP API Business Accelerator Hub with the `access_token` that you received in the previous step:
     1.  Choose one of the endpoints of your instance. See step 2 and the sample code for a service instance in Cloud Foundry.
     2.  Browse to `<endpoint url>/swagger-ui.html`.
-    3.  In Swagger, choose *Authorize*.
-    4.  Enter the `api_key` and choose *Authorize*.
+    3.  Enter the `api_key` and choose *Authorize*.
 
         > ### Note:  
         > Use the `<access_token>` that you received in the step 3 to compose the `api_key` in the format: `bearer` *<access\_token\>*

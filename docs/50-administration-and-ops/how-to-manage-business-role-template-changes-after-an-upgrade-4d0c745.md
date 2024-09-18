@@ -26,11 +26,11 @@ To get an overview of changes in the business role template area since the last 
 
 6.  Click *Save* when you're done.
 
-    Please note that you can also adjust your business roles directly in the *Business Role Templates* app.
+    Please note that you can also adjust your businesss roles directly in the *Business Role Templates* app.
 
 
 **Related Information**  
 
 
-[Business Role Templates](business-role-templates-223dfd3.md "You can use this app to get an overview of the business role templates delivered by SAP.")
+[Business Role Templates](business-role-templates-223dfd3.md "You can use this app to you get an overview of the business role templates delivered by SAP.")
 

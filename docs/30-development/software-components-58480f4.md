@@ -33,7 +33,7 @@ Your development, including transportation, is organized and managed in so-calle
 You create your software components in the development system:
 
 -   The software component `ZLOCAL` is available by default. It serves a similar role like `$TMP` in an on-premise system.
--   Create your software components with the SAP Fiori app Manage Software Components \(business catalog `Lifecycle Management - Software Components SAP_A4C_BC_MSCL_PC`\). Afterwards, pull the software component into the ABAP system to start developing in it.
+-   Create your software components with the SAP Fiori app [Manage Software Components](https://help.sap.com/docs/btp/sap-business-technology-platform/software-component-lifecycle-management?version=Cloud) \(business catalog `Lifecycle Management - Software Components SAP_A4C_BC_MSCL_PC`\). Afterwards, pull the software component into the ABAP system to start developing in it.
 -   You can use an ABAP namespace in the ABAP environment. If you have registered a namespace at SAP, it is automatically provided during provisioning. For more information on namespaces, see SAP note [105132](https://me.sap.com/notes/105132) on how to reserve a namespace and ONE Support Launchpad [Namespace Application](https://launchpad.support.sap.com/#/namespaces). A developer key and repair key are created and assigned automatically by the ABAP system. In the namespace application, you can search for your key assignments by filtering the installation number \(`CLOUDSYSTM`\).
 -   If you want to transport business configuration content across ABAP systems, create a software component. You have to decide which type you want to use for transporting business configuration:
 

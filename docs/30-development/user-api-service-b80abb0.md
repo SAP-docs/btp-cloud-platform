@@ -40,8 +40,8 @@ The `/attributes` endpoint response has the following format:
 >    "lastname": "Doe",
 >    "email": "john.doe@sap.com",
 >    "name": "john.doe@sap.com" (The user ID in the identity provider), 
->    "scopes": ["openid","user_attributes","uaa.user"] (Only if the authentication type is “xsuaa"),
->    < user attributes including custom attributes > (Only if the authentication type is “xsuaa")
+>    "scopes": ["openid","user_attributes","uaa.user"] (Only if the the authentication type is “xsuaa"),
+>    < user attributes including custom attributes > (Only if the the authentication type is “xsuaa")
 > }
 > ```
 > 

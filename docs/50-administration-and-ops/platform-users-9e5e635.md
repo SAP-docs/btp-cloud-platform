@@ -2,9 +2,9 @@
 
 # Platform Users
 
-**User accounts** enable users to log on to SAP BTP, access accounts and environments, and use applications according to the authorizations. In this context, it's important to understand the difference between the two types of users that we refer to: Platform users and business users.
+**User accounts** enable users to log on to SAP BTP, access subaccounts, and to use applications according to the permissions granted to them. In this context, it's important to understand the difference between the two types of users that we refer to: Platform users and business users.
 
-**Platform users** are administrators, developers, or operators who manage SAP BTP accounts and environments, and deploy, administer, and troubleshoot applications and services. 
+**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. 
 
 Platform users who were added as members and have administrative permissions can view or manage the list of global accounts, directories, subaccounts, and Cloud Foundry orgs and spaces that are available to them. Members access them using the SAP BTP Cockpit, the SAP BTP command-line interface \(btp CLI\), or the Cloud Foundry command-line interface \(CF CLI\).
 
@@ -16,7 +16,7 @@ For platform users, there's a [default identity provider](default-identity-provi
 **Related Information**  
 
 
-[Business Users](business-users-3a3f0e1.md "User accounts enable users to log on to SAP BTP, access accounts and environments, and use applications according to the authorizations. In this context, it's important to understand the difference between the two types of users that we refer to: business users and platform users.")
+[Business Users](business-users-3a3f0e1.md "User accounts enable users to log on to SAP BTP, access subaccounts, and to use applications according to the permissions granted to them. In this context, it's important to understand the difference between the two types of users that we refer to: business users and platform users.")
 
 [Establish Trust and Federation of Custom Identity Providers for Platform Users](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.")
 

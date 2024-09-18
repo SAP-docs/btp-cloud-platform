@@ -341,7 +341,7 @@ Learn how to define and import recommended alerts for SAP Cloud Logging. The fol
 
 3.  Execute `POST _plugins/_alerting/monitors`, followed by the contents of the respective JSON file.
 
-4.  Depending on the pipelines you are using, enable some or all of the following alerts:
+4.  Depending on the pipelines you are using, enable the some or all of the following alerts:
 
     **Recommended Alerts**
 
@@ -474,7 +474,7 @@ You can view logs, traces, and metrics in SAP Cloud Logging dashboards:
 
 -   To view distributed traces, use the OpenSearch plugin *Observability*.
 
--   To view the container- and Pod-related metrics collected by the `MetricPipeline` `runtime` input, use the dashboard *\[OTel\] K8s Container Metrics*.
+-   To view the the container- and Pod-related metrics collected by the `MetricPipeline` `runtime` input, use the dashboard *\[OTel\] K8s Container Metrics*.
 
 -   To use the dashboard for Istio metrics of Pods that have an active Istio sidecar injection \(collected by the `MetricPipeline` `istio` input\), manually import the file [Kyma Istio Service Metrics](https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/dashboard-istio.ndjson).
 

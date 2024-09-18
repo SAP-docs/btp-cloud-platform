@@ -6,12 +6,7 @@ Your global account is the entry point for managing the resources, landscape, an
 
 
 
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
-
-
-
-Set up your account model using the btp CLI by creating subaccounts in your enterprise account that is running on the cloud management tools feature set B. You can create any number of subaccounts in the Cloud Foundry environment and region.
+Set up your account model using the btp CLI by creating subaccounts in your enterprise account. You can create any number of subaccounts in the Cloud Foundry environment and region.
 
 To manage Cloud Foundry, i.e. for managing service instances and members in orgs and spaces, creating spaces, as well as assigning quota to orgs and spaces, you use the cf CLI.
 
@@ -210,7 +205,7 @@ Run this command in the btp CLI:
 </td>
 <td valign="top">
 
-See [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md) and [Relationship Between Global Accounts and Subaccounts \[Feature Set A\]](../10-concepts/account-model-8ed4a70.md#loioeeda449cf252418a97e0f7c9abd30b9a).
+See [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md).
 
 </td>
 </tr>
@@ -538,8 +533,6 @@ For further documentation about developer tasks, see [Development in the Cloud F
 [Command Syntax of the btp CLI](../50-administration-and-ops/command-syntax-of-the-btp-cli-69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
 
 [Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md "To use the SAP BTP command line interface (btp CLI), you need to download the client first.")
-
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

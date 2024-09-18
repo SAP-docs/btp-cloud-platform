@@ -2,7 +2,7 @@
 
 # User and Member Management
 
-On SAP BTP, user management takes place at all levels from global account to environment.
+On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.
 
 
 
@@ -12,7 +12,7 @@ On SAP BTP, user management takes place at all levels from global account to env
 
 A user account corresponds to a particular user in an identity provider. The user is always stored in an external identity provider, such as a custom tenant of SAP Cloud Identity Services - Identity Authentication or the default identity provider.
 
-**User accounts** enable users to log on to SAP BTP, access accounts and environments, and use applications according to the authorizations.
+**User accounts** enable users to log on to SAP BTP, access subaccounts, and to use applications according to the permissions granted to them.
 
 > ### Note:  
 > A user name alone doesn't determine a concrete user account with associated authorizations, as you can have users with the same user name in different identity providers. Accessible data and allowed operations also depend on the identity provider. The concrete user is identified by the combination of user name and identity provider.

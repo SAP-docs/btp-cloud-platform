@@ -154,6 +154,13 @@ You can use the `logoutPage` property to specify the Web page in one of the foll
 
     The authentication service \(UAA or Indentity Authentication - depending on which service you are using for the authentication\) redirects the user back to the application router, and the path is interpreted according to the configured routes.
 
+    The `logoutEndpoint` can be called with the `skip-redirect` or `skip-redirect=true` query parameter to prevent the application router from redirecting to the Identity Authentication service \(IAS\) for logout after ending the application router user session. Use this configuration if the logout process is initiated by Identity Authentication . In this case, the end user initiates the single logout flow of Identity Authentication, and subsequently, the application router logout endpoint is called. The application router logout endpoint must not redirect to the Identity Authentication logout endpoint in this case. For more details see [Handle Single Logout Request from Identity Authentication](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/configure-your-application-for-single-logout?version=Cloud). For example:
+
+    > ### Sample Code:  
+    > ```
+    > window.location.replace('/my/logout?skip-redirect')
+    > ```
+
     The `logoutEndpoint` can be called with query parameters. For example:
 
     > ### Sample Code:  
@@ -200,14 +207,6 @@ You can use the `logoutPage` property to specify the Web page in one of the foll
     >   ]
     > } 
     > ```
-
-    > ### Note:  
-    > The `logoutEndpoint` can be called with the `skip-redirect` or the `skip-redirect=true` query parameter to prevent the application router from redirecting to the Identity Authentication service \(IAS\) for logout after ending the application router user session. Use this configuration if the logout process is initiated by Identity Authentication . In this case, the end user initiates the single logout flow of Identity Authentication, and subsequently, the application router logout endpoint is called. The application router logout endpoint must not redirect to the Identity Authentication logout endpoint in this case. For more details see [Handle Single Logout Request from Identity Authentication](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/configure-your-application-for-single-logout?version=Cloud). For example:
-    > 
-    > > ### Sample Code:  
-    > > ```
-    > > window.location.replace('/my/logout?skip-redirect')
-    > > ```
 
 -   Absolute HTTP\(S\) path
 

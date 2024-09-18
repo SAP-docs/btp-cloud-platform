@@ -4,7 +4,7 @@
 
 # Map Routes to Applications
 
-Once a route has been created, you can map it to an application to make this application reachable for end users.
+Once a route has been created, you must map it to an application to make this application reachable for end users.
 
 
 
@@ -12,7 +12,10 @@ Once a route has been created, you can map it to an application to make this app
 
 ## Prerequisites
 
-You have at least one route and one deployed application in the same Cloud Foundry space.
+-   You have at least one route and one deployed application in the same Cloud Foundry space.
+
+-   You must have the Space Developer or the Space Supporter role.
+
 
 
 
@@ -20,7 +23,7 @@ You have at least one route and one deployed application in the same Cloud Found
 
 1.  Navigate to the *Routes* page in your Cloud Foundry space in the cockpit.
 
-2.  For the route that you wish to map to an application, choose :link: \(Map Route\) from the *Actions* column and select the application you want to map it to.
+2.  For the route that you wish to map to an application, choose :link: from the *Actions* column and select the application you want to map it to.
 
 
 
@@ -29,7 +32,7 @@ You have at least one route and one deployed application in the same Cloud Found
 
 ## Results
 
-Your application can now be accessed via the route mapped to it. You can launch your mapped route from 2 different places in the cockpit:
+Your application can now be accessed via the route mapped to it. You can launch your mapped route from two different places in the cockpit:
 
 -   *Routes* page:
 
@@ -42,6 +45,8 @@ Your application can now be accessed via the route mapped to it. You can launch 
 
 **Related Information**  
 
+
+[About Routes in the Cockpit](about-routes-in-the-cockpit-4af288c.md "To enable your end users to reach your application, create a route and map it to the application in the SAP BTP cockpit.")
 
 [Create Routes](create-routes-9fddeea.md "You can configure the URLs through which end users can reach your applications.")
 

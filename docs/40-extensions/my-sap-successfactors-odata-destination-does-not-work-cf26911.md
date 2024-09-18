@@ -10,7 +10,7 @@ SAP SuccessFactors OData destination does not work.
 
 ## Issue/Symptom
 
-You are extending SAP SuccessFactors on SAP BTP, Cloud Foundry environment using the SAP SuccessFactors Extensibility service. You are trying to configure the integration between SAP SuccessFactors and SAP Business Technology Platform \(SAP BTP\) and your SAP SuccessFactors OData destination does not work.
+You are extending SAP SuccessFactors on SAP BTP, Cloud Foundry environment using the SAP SuccessFactors Extensibility service. You are trying to configure the the integration between SAP SuccessFactors and SAP Business Technology Platform \(SAP BTP\) and your SAP SuccessFactors OData destination does not work.
 
 
 

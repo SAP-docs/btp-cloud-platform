@@ -116,7 +116,7 @@ You have maintained the attributes of the users in your identity provider.
 **Related Information**  
 
 
-[Subscribe to Multitenant Applications Using the Cockpit](subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md "Subscribe to multitenant applications from the Service Marketplace page in the SAP BTP cockpit.")
+[Subscribe to Multitenant Applications Using the Cockpit](subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md "Subscribe to multitenant applications from the Subscriptions page in the SAP BTP cockpit.")
 
 [Attributes](attributes-713f52a.md "Attributes use information that is specific to the user, for example the user's country. If the application developer in the Cloud Foundry environment of SAP BTP has created a country attribute to a role, this restricts the data a business user can see based on this attribute.")
 

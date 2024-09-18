@@ -56,7 +56,7 @@ Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy,
 **Related Information**  
 
 
-[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts and subaccounts in the SAP BTP cockpit.")
+[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.")
 
-[Relationship Between Global Accounts, Subaccounts, and Directories \[Feature Set B\]](../10-concepts/account-model-8ed4a70.md#loio20828fc639954939890d3d74a22c5f66 "A global account can group together different directories and subaccounts that an administrator makes available to users. Administrators can assign the available entitlements and quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.")
+[Relationship Between Global Accounts, Subaccounts, and Directories](../10-concepts/account-model-8ed4a70.md#loio20828fc639954939890d3d74a22c5f66 "A global account can group together different directories and subaccounts that an administrator makes available to users. Administrators can assign the available entitlements and quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.")
 

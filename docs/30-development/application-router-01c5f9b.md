@@ -6,7 +6,7 @@ The application router is the single point-of-entry for an application running i
 
 You can set up and run your own application router or you can use the application router that is managed by SAP \(for more information see [Managed Application Router](managed-application-router-589a239.md)\).
 
-We recommend running you own application router only in advanced cases, for example when application router extensibility is required. The application router is available on the following sites:
+We recommend running your own application router only in advanced cases, for example when application router extensibility is required. The application router is available on the following sites:
 
 -   As a library on npmjs.com \(NPM\), see [@sap/approuter](https://www.npmjs.com/package/@sap/approuter#overview)
 

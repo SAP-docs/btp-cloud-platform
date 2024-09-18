@@ -2,9 +2,6 @@
 
 # Audit Log Retrieval API for Global Accounts in the Cloud Foundry Environment
 
-> ### Note:  
-> The following procedure is applicable only for Feature Set B Global Accounts. To retrieve audit logs for Feature Set A Global Accounts, contact SAP support and include in your request: Global Account ID, recipient email, timeframe, and reason for the request. For more information about feature sets, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md)
-
 On Central regions, Audit Log Retrieval API allows you to retrieve audit logs written on behalf of your SAP BTP Global Account.
 
 Your central region is the eu10 Europe \(Frankfurt\) region, unless your global account is located in the China \(Shanghai\) and Government Cloud \(US\) regions. Then use the landscape domain of your central region.
@@ -32,7 +29,7 @@ The API returns a HTTP 429 response code when the limit is exceeded.
 
 ## Prerequisites
 
-You do the following procedure through Cloud Foundry Environment, which is part of a subaccount. To enable Audit Log Retrieval API for Global Account \(Feature Set B\), you must perform the following prerequisite steps as a global account administrator:
+You do the following procedure through Cloud Foundry Environment, which is part of a subaccount. To enable Audit Log Retrieval API for Global Account , you must perform the following prerequisite steps as a global account administrator:
 
 1.  You need to have one or more subaccounts in the Central region<sup>\(1\)</sup>. Create one if needed.
 

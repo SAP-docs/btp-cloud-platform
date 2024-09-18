@@ -4,7 +4,7 @@
 
 # Subscribe to Multitenant Applications Using the Cockpit
 
-Subscribe to multitenant applications from the *Service Marketplace* page in the SAP BTP cockpit.
+Subscribe to multitenant applications from the *Subscriptions* page in the SAP BTP cockpit.
 
 
 
@@ -29,11 +29,9 @@ Subscribe to multitenant applications from the *Service Marketplace* page in the
     -   You have created a multi-environment subaccount for each application consumer in the region in which the application is deployed. See [Providing Multitenant Applications to Consumers in the Cloud Foundry Environment](../30-development/providing-multitenant-applications-to-consumers-in-the-cloud-foundry-environment-7a013f1.md).
 
 
--   \[Feature Set A\] You are an administrator of the global account.
+-   You are an admininistrator of the subaccount.
 
--   \[Feature Set B\] You are an admininistrator of the subaccount.
-
--   \[Feature Set B\] Your subaccount is entitled to the multitenant application. See [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
+-   Your subaccount is entitled to the multitenant application. See [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 
 
 
@@ -134,7 +132,7 @@ The instructions provided here apply whether you are an SAP customer subscribing
 
 1.  Configure user access to the application.
 
-    See [Working with Role Collections](working-with-role-collections-393ea0b.md).
+    See [Configure Application Roles and Assign Roles to Users](configure-application-roles-and-assign-roles-to-users-56a7153.md).
 
 2.  If the application consumer isn't the subaccount owner or administrator, provide the consumer-specific URL of the application to the consumer or the users of the application.
 

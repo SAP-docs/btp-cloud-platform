@@ -2,9 +2,9 @@
 
 # Business Users
 
-**User accounts** enable users to log on to SAP BTP, access accounts and environments, and use applications according to the authorizations. In this context, it's important to understand the difference between the two types of users that we refer to: business users and platform users.
+**User accounts** enable users to log on to SAP BTP, access subaccounts, and to use applications according to the permissions granted to them. In this context, it's important to understand the difference between the two types of users that we refer to: business users and platform users.
 
-**Business users** use applications on SAP BTP. For example, users of SaaS applications, such as SAP Build Work Zone, advanced edition, SAP Integration Suite, or extensions of SAP S/4HANA Cloud, and your custom applications are business users.
+**Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.
 
 In the Cloud Foundry environment, application developers \([platform users](platform-users-9e5e635.md)\) create and deploy application-based security artifacts for business users. Administrators use these artifacts to assign roles, build role collections, and then assign those role collections to business users or user groups. The assignment of role collections enables administrators to control the permissions that the users have in the deployed applications.
 
@@ -13,7 +13,7 @@ For business users, there's a [default identity provider](default-identity-provi
 **Related Information**  
 
 
-[Platform Users](platform-users-9e5e635.md "User accounts enable users to log on to SAP BTP, access accounts and environments, and use applications according to the authorizations. In this context, it's important to understand the difference between the two types of users that we refer to: Platform users and business users.")
+[Platform Users](platform-users-9e5e635.md "User accounts enable users to log on to SAP BTP, access subaccounts, and to use applications according to the permissions granted to them. In this context, it's important to understand the difference between the two types of users that we refer to: Platform users and business users.")
 
 [Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md "Use your SAP Cloud Identity Services tenant as an identity provider or a proxy to your own identity provider hosting your business users. This method avoids the upload and download of SAML meta data by using OpenID Connect (OIDC) to establish trust.")
 

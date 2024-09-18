@@ -4,7 +4,7 @@
 
 There are two git-based transport mechanisms in the ABAP environment.
 
-**Git-based CTS \(gCTS**\) is the evolution of the classical Change and Transport Management System \(CTS\). It is the recommended approach for transporting objects between ABAP systems in your global account. It offers built-in and easy to use functionalities provided by the Manage Software Components app in your SAP Fiori launchpad.
+**Git-based CTS \(gCTS**\) is the evolution of the classical Change and Transport Management System \(CTS\). It is the recommended approach for transporting objects between ABAP systems in your global account. It offers built-in and easy to use functionalities provided by the [Manage Software Components](https://help.sap.com/docs/btp/sap-business-technology-platform/software-component-lifecycle-management?version=Cloud) app in your SAP Fiori launchpad.
 
 **abapGit** is an open-source Git client that allows you to import existing code into your ABAP system. You should use it for the following use cases:
 
