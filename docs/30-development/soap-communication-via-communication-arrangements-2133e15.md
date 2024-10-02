@@ -12,6 +12,10 @@
 -   You have a service meta data file \(WSDL file\) for the service you want to consume.
 -   You have created and activated a service consumption model \(SRVC\) of type `Web Service`. See [Generating Proxies for Remote Web Service](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/generating-proxies-for-remote-web-service?version=sap_btp) for more information.
 
+    > ### Restriction:  
+    > When calling a SOAP service via communication arrangements, only SOAP 1.1 is supported.
+
+
 
 
 ## Procedure

@@ -1685,14 +1685,14 @@ Australia \(Sydney\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="8">
 
 Standard: Google Cloud
 
 technical name: `gcp`
 
 </td>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="8">
 
 Provisioning
 
@@ -1769,7 +1769,31 @@ Israel \(Tel Aviv\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="10">
+<td valign="top">
+
+`australia-southeast1`
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`southamerica-east1`
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="11">
 
 Standard: Microsoft Azure
 
@@ -1780,7 +1804,7 @@ Kyma Test Demo and Development \(Azure Lite\)
 technical name: `azure_lite`
 
 </td>
-<td valign="top" rowspan="10">
+<td valign="top" rowspan="11">
 
 Provisioning
 
@@ -1901,6 +1925,18 @@ Australia \(Sydney\)
 <td valign="top">
 
 Switzerland \(Zurich\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`brazilsouth`
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
 
 </td>
 </tr>

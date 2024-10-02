@@ -148,7 +148,7 @@ NUMBER\_ALPHA
 </td>
 <td valign="top">
 
-Obsolete. Please use the parameter `NUMBER` 
+Alphanumeric and optional length check
 
 </td>
 </tr>

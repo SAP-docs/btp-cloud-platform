@@ -25,7 +25,7 @@ Optional resource attributes include:
     > ### Tip:  
     > By default recourses process in parallel, but if you want to enable an order of resources, see [Sequential Resource Processing](sequential-resource-processing-b93db81.md).
 
--   `optional`
+-   `optional`- its value can be `true` or `false` and the default value is `false`. If set to `true`, the resource processing is fail-safe.
 
 
 
@@ -205,28 +205,6 @@ Service Plan
 Created Service
 
 </th>
-</tr>
-<tr>
-<td valign="top">
-
-`com.sap.xs.hana-sbss`
-
-</td>
-<td valign="top">
-
-`hana`
-
-</td>
-<td valign="top">
-
-`sbss`
-
-</td>
-<td valign="top">
-
-Service-broker security
-
-</td>
 </tr>
 <tr>
 <td valign="top">

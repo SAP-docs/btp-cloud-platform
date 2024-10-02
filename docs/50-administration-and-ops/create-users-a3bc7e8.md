@@ -20,7 +20,7 @@ All users in the subaccounts of SAP BTP are stored in identity providers, either
 
 A new hire starts to work in your company next month. As an administrator, you want to provide a user, enable logon to the SAP BTP subaccount, and provide the necessary authorizations for this new hire. You create the actual user in the identity provider. However, you can't assign subaccount authorizations to an individual user in an identity provider. You need a shadow user in the SAP BTP subaccount to assign authorizations. After having created a shadow user, you can assign role collections. Thus, you make sure that the new hire can log on to the subaccount and that the necessary authorizations are in place when the new hire starts.
 
-If you switched off the creation of shadow users in the trust configuration of your custom identity providers, new users created in the identity provider don't have a user copy \(shadow user\) in the respective SAP BTP subaccount. You, as a subaccount administrator, have full control of who can log on to this subaccount. The new user can log on to the subaccount if you've created a shadow user with the same e-mail address in the SAP BTP subaccount. Now, you can grant authorizations by assigning role collections.
+If you switched off the creation of shadow users in the trust configuration of your custom identity providers, new users created in the identity provider don't have a user copy \(shadow user\) in the respective SAP BTP subaccount. You, as a subaccount administrator, have full control of who can log on to this subaccount. The new user can log on to the subaccount if you've created a shadow user with the same email address in the SAP BTP subaccount. Now, you can grant authorizations by assigning role collections.
 
 You can alternatively grant authorizations in the subaccount by mapping role collections to the user group if the user belongs to a user group in the identity provider.
 
@@ -40,7 +40,10 @@ As an administrator, you can create shadow users in your subaccount and you must
 
     The SAP BTP cockpit displays a new row where you can enter the user data.
 
-5.  Enter the user ID and e-mail address.
+5.  Enter the user ID and email address.
+
+    > ### Note:  
+    > The email address of the user is the user identifier for all account levels \(global account, directory, multi-environment subaccount\) and for the Cloud Foundry environment.
 
     > ### Note:  
     > To specify the last name and first name of the user, maintain the names in the identity provider that stores the user. This information is automatically added to the shadow users when the user logs on with their identity provider using a URL such as:

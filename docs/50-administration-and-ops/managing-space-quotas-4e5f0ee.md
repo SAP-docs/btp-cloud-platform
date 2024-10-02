@@ -1,5 +1,7 @@
 <!-- loio4e5f0eec96fd40b686d84b497d30ced3 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Managing Space Quotas
 
 Learn what a space quota is, what type of information you will find on the *Space Quotas* page in the SAP BTP cockpit, and what you can do with a space quota in the Cloud Foundry environment.
@@ -99,7 +101,7 @@ You can switch between the following views on this page:
 
     -   A list of all the available spaces in the subaccount you have access to and whether they have a space quota assigned to them or if they are using the org quota instead.
 
-    -   The option to *![](images/Edit_Icon_abfe424.png) \(Edit\)* a quota assignment.
+    -   The option to :pencil2: a quota assignment.
 
 
     For more information, see [Assign Space Quotas to Spaces](assign-space-quotas-to-spaces-13028c4.md).

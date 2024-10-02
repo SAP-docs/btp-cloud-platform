@@ -93,7 +93,7 @@ The following graphic is designed to help you find the information you need for 
 
 ## Development Options Overview
 
-![](images/Development_Options_Overview_1_1_1f5671e.png)
+![](images/Development_Options_Overview_1_2_1f5671e.png)
 
 
 

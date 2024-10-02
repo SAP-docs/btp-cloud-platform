@@ -8,13 +8,11 @@ To enable your end users to reach your application, create a route and map it to
 
 ## What Is a Route?
 
-A route is the Uniform Resource Locator \(URL\) that enables your end users to reach your application.
-
-Routes belong to a space, and therefore are managed at space level.
+A route is the URL that enables your end users to reach your application. Routes belong to a space, and therefore are managed at space level.
 
 The Router component in Cloud Foundry is responsible for routing routes. It maintains a list of mapped applications and compares each request with the list to find the best match. Based on this comparison, it then routes requests to the appropriate application instance.
 
-Currently, you can create, map, and delete HTTP routes. An HTTP route includes a domain, an optional host name \(or subdomain\), and an optional path.
+Currently, you can create, map, and delete HTTP routes. An HTTP route includes a domain, a host name \(or subdomain\), and an optional path.
 
 
 

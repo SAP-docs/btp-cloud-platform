@@ -9,7 +9,7 @@ Learn about the administrative tasks that Joule can perform for you in the SAP B
 > 
 > Joule doesn't support administrative actions in Neo environments.
 
-You can ask Joule to perform certain administrative tasks for you in the cockpit. If Joule recognizes the task as a supported workflow, then it walks you through the steps to complete the task.
+You can ask Joule to perform certain administrative tasks for you in the cockpit. If Joule recognizes the task as a supported capability, then it walks you through the steps to complete the task.
 
 You can ask Joule to do these things in the cockpit:
 
@@ -27,6 +27,7 @@ There are times when it's helpful to see a summary of your global account and su
 
 -   View global account users. You can view all users or filter by role.
 -   View subaccount users. You can view all users or filter by role.
+-   View subaccount details. Joule displays information about the account. For example, region, Cloud Foundry status, subdomain, and more.
 
 ![Joule screen with administrative task prompts](images/Joule_BTP_Tasks_b9ba888.png)
 

@@ -1,5 +1,7 @@
 <!-- loio5209d55d8dd84228897112b0655d999b -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Managing Spaces
 
 Learn what a Cloud Foundry space is, what type of information you will find on the *Spaces* page in the SAP BTP cockpit, and what you can do with or within a space.
@@ -73,7 +75,7 @@ Here are some of the space-related actions you can do:
 
 -   Edit Spaces
 
-    To edit a space, choose ![](images/Edit_Icon_abfe424.png) \(Edit\) on the space tile. This option lets you change the name of the space.
+    To edit a space, choose :pencil2:
 
     Org Managers and Space Managers are allowed to rename spaces.
 

@@ -71,18 +71,6 @@ Synchronize the user data with a provisioning service.
 <tr>
 <td valign="top">
 
-Keep a few global account administrators from the default identity provider.
-
-</td>
-<td valign="top">
-
-[BTP-UAA-0009](https://help.sap.com/docs/BTP/c8a9bb59fe624f0981efa0eff2497d7d/531f33def8074ccdb6f1f784a34dafcb.html?seclist-index=BTP-UAA-0009) 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Check which users have critical roles.
 
 </td>

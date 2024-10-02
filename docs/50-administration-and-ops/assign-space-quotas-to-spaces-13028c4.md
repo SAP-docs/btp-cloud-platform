@@ -1,5 +1,7 @@
 <!-- loio13028c44698e4a1a919fd5f96e9c28a5 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Assign Space Quotas to Spaces
 
 You can use the SAP BTP cockpit to assign space quotas to spaces.
@@ -27,7 +29,7 @@ You can use the SAP BTP cockpit to assign space quotas to spaces.
 
 3.  Open the *Quota Assignments* tab.
 
-4.  Select one of the existing quota assignments and choose *![](images/Edit_Icon_abfe424.png) \(Edit\)* to make changes.
+4.  Select one of the existing quota assignments and choose :pencil2: to make changes.
 
 5.  Select either a specific *Space Quota* from the drop-down or the *Org Quota*.
 

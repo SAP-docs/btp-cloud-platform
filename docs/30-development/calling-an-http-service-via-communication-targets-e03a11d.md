@@ -56,16 +56,16 @@ To call an HTTP service via communication targets, proceed as follows.
 >     FIELD-SYMBOLS: <ls_out_srv> LIKE LINE OF lt_out_srv_a.
 >     DATA(lt_properties) = io_com_arrangement->get_properties( ).
 > 
->     DATA lv_scenarioid TYPE i VALUE 1.
+>     DATA lv_usecase TYPE i VALUE 1.
 >     LOOP AT lt_properties INTO DATA(ls_property).
 >       IF ls_property-name EQ 'USECASE'.
->         lv_scenarioid = ls_property-values[ 1 ].
+>         lv_usecase = ls_property-values[ 1 ].
 >       ENDIF.
 >     ENDLOOP.
 > 
 >   " save the application destination to an application-specific persistence
 >     LOOP AT lt_out_srv_a ASSIGNING <ls_out_srv>.
->       ls_custom-scenario = lv_scenarioid.
+>       ls_custom-usecase = lv_usecase.
 >       ls_custom-appldest = <ls_out_srv>-destination_name.
 > 
 >       MODIFY zcota_custom FROM @ls_custom.
@@ -100,21 +100,21 @@ To call an HTTP service via communication targets, proceed as follows.
 >   DATA lt_output TYPE STANDARD TABLE OF string.
 >   DATA lv_appl_dest TYPE sappdestname.
 > 
->   DATA(lv_scen) = request->get_form_field( i_name = 'scen' ).
+>   DATA(lv_usecase) = request->get_form_field( i_name = 'usecase' ).
 > 
->   IF lv_scen IS INITIAL.
->     response->set_text( 'Scenario Parameter not provided.' ).
+>   IF lv_usecase IS INITIAL.
+>     response->set_text( 'Use case parameter not provided.' ).
 >     RETURN.
 >   ENDIF.
 > 
 >   " select the relevant application destination from the customizing table
 >   SELECT SINGLE dest 
 >   FROM zcota_custom 
->   WHERE scenario = @lv_scen
+>   WHERE usecase = @lv_scen
 >   INTO @lv_appl_dest.
 > 
 >   IF sy-subrc <> 0.
->     response->set_text( 'Unknown scenario.' ).
+>     response->set_text( 'Unknown use case.' ).
 >     RETURN.
 >   ENDIF.
 >   
@@ -131,7 +131,7 @@ To call an HTTP service via communication targets, proceed as follows.
 >     CATCH cx_communication_target_error INTO DATA(lx_communication_target_error).
 >       APPEND lx_communication_target_error->get_text( ) TO lt_output.
 >     CATCH cx_web_http_client_error INTO DATA(lx_web_http_client_error).
->       APPEND cx_web_http_client_error->get_text( ) TO lt_output.
+>       APPEND lx_web_http_client_error->get_text( ) TO lt_output.
 >   ENDTRY.
 > 
 >   DATA(lv_output) = REDUCE string( INIT r = ``

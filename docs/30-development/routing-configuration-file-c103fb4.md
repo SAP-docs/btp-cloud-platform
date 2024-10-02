@@ -152,6 +152,9 @@ Define the amount of time \(in minutes\) for which a session can remain inactive
 > 
 > If the environment variable [SESSION\_TIMEOUT](environment-variables-ba52705.md#loioba527058dc4d423a9e0a69ecc67f4593__section_blz_hgn_mv) is set this property will be overwritten.
 
+> ### Note:  
+> You can configure `sessionTimeout` only in the central routing configuration file \(xs-app.json\) that belongs to the application router, not in an xs-app.json file that is part of an HTML5 application.
+
 
 
 </td>

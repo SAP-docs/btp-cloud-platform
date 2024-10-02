@@ -16,7 +16,7 @@ Instead of setting the *Additional Properties* as in the destination service app
 > An existing service consumption model \(SRVC\) is required.
 
 > ### Note:  
-> Use the URL approach mainly for testing purposes.
+> Using `create_by_url` is only suitable for public services or test purposes, because credentials should be stored in the communication management in SAP Fiori launchpad.
 
 Call the SOAP service as described in the example. As described in [SOAP Communication via Communication Arrangements](soap-communication-via-communication-arrangements-2133e15.md), copy the code snippet from the *Overview* tab in your SRVC. Replace the `CREATE_BY_COMM_ARRANGEMENT` method with the `CREATE_BY_URL` method and pass the required URL to the method.
 

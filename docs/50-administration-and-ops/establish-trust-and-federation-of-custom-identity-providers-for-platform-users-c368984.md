@@ -20,6 +20,9 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 
 -   Make sure that the email addresses of all users in your identity provider are unique and correct.
 
+    > ### Note:  
+    > The email address of the user is the user identifier for all account levels \(global account, directory, multi-environment subaccount\) and for the Cloud Foundry environment.
+
 
 
 

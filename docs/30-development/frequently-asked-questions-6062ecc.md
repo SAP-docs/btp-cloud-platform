@@ -60,7 +60,7 @@ Use the command `cf mta-ops` and find the id of the operation related to the des
 
 ### How can I list the MTAs that I have deployed in my space?
 
-Use the `cf mtas` command and locate the ID of the desired MTA. After locating the correct MTA ID, execute the command `cf mta <located-mta-id>` to get detailed information about the the MTA with the provided ID.
+Use the `cf mtas` command and locate the ID of the desired MTA. After locating the correct MTA ID, execute the command `cf mta <located-mta-id>` to get detailed information about the MTA with the provided ID.
 
 
 
@@ -83,7 +83,7 @@ Use the `cf mtas` command and locate the ID of the desired MTA. After locating t
 
 ### How can I redeploy my MTA when a deployment is already running?
 
-You can abort the currently running deployment, using the command `cf <operation> -i <operation-id> -a abort` \(Example: `cf deploy -i 12353 -a abort`\) or you can execute the command for staring the deployment by providing the option -f as described in the [deploy](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_irt_3dc_zs) section.
+You can abort the currently running deployment, using the command `cf <operation> -i <operation-id> -a abort` \(Example: `cf deploy -i 12353 -a abort`\) or you can execute the command for starting the deployment by providing the option -f as described in the [deploy](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_irt_3dc_zs) section.
 
 > ### Example:  
 > `cf deploy <path-to-mtar>.mtar -f`

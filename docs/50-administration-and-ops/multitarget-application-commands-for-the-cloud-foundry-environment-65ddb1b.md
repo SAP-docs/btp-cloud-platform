@@ -199,10 +199,11 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     ```
     cf deploy <MTA_ARCHIVE>|<DIRECTORY_PATH> [-e <EXT_DESCRIPTOR_1>[,<EXT_DESCRIPTOR_2>]] 
     [-u <URL>] [-t <TIMEOUT>] [-v <VERSION_RULE>]
-    [--no-start] [--namespace]
+    [--no-start] [--namespace] [--apps-upload-timeout <TIMEOUT>] [--apps-stage-timeout <TIMEOUT>] [--apps-start-timeout <TIMEOUT>] [--apps-task-execution-timeout <TIMEOUT>] 
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
+    [--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
     cf deploy ...[--retries <RETRIES>]
+    
     ```
 
 -   **Deployment using an URL to the MTA archive**
@@ -215,10 +216,11 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     ```
     <write MTA archive URL to STDOUT> | cf deploy [-e <EXT_DESCRIPTOR_1>[,<EXT_DESCRIPTOR_2>]] 
     [-u <MTA controller URL>] [-t <TIMEOUT>] [-v <VERSION_RULE>]
-    [--no-start] [--namespace]
+    [--no-start] [--namespace] [--apps-upload-timeout <TIMEOUT>] [--apps-stage-timeout <TIMEOUT>] [--apps-start-timeout <TIMEOUT>] [--apps-task-execution-timeout <TIMEOUT>]
     [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-    [][--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
+    [--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]  
     cf deploy ...[--retries <RETRIES>]
+    
     ```
 
     > ### Caution:  
@@ -421,6 +423,82 @@ Force deployment without requiring any confirmation about aborting any conflicti
 <td valign="top">
 
 Do not start application after deployment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--apps-upload-timeout &lt;TIMEOUT&gt;</i></code>
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, you can upload your application binary before the MTA operation times out.
+
+See [Application-Specific Timeouts](../30-development/applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc) .
+
+> ### Note:  
+> This applies to all applications.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--apps-stage-timeout &lt;TIMEOUT&gt;</i></code>
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take during staging before the MTA operation times out.
+
+See [Application-Specific Timeouts](../30-development/applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc) .
+
+> ### Note:  
+> This applies to all applications.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--apps-start-timeout &lt;TIMEOUT&gt;</i></code>
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take to start before the MTA operation times out.
+
+See [Application-Specific Timeouts](../30-development/applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc) .
+
+> ### Note:  
+> This applies to all applications.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--apps-task-execution-timeout &lt;TIMEOUT&gt;</i></code>
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take to execute a task before the MTA operation times out.
+
+See [Application-Specific Timeouts](../30-development/applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc) .
+
+> ### Note:  
+> This applies to all applications.
+
+
 
 </td>
 </tr>

@@ -38,7 +38,7 @@ For more information, see [Use a Custom IDP for Subaccount Configuration](https:
 > Currently, Cloud Connector can be connected to an SAP BTP subaccount only with users from the default identity provider.
 
 > ### Note:  
-> In addition to the the initial connection from Cloud Connector to SAP BTP, the regular rotation of the client certificate that is used for the ongoing connection, is also affected.
+> In addition to the initial connection from Cloud Connector to SAP BTP, the regular rotation of the client certificate that is used for the ongoing connection, is also affected.
 
 
 

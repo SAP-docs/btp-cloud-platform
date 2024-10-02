@@ -1272,6 +1272,58 @@ cn40.platform.sapcloud.cn
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+sa30
+
+</td>
+<td valign="top">
+
+KSA \(Dammam\)
+
+</td>
+<td valign="top">
+
+cf-sa30
+
+</td>
+<td valign="top">
+
+me-central2
+
+</td>
+<td valign="top">
+
+34.166.4.164, 34.166.4.182, 34.166.8.22, 34.166.10.68, 34.166.19.145, 34.166.20.65, 34.166.37.166, 34.166.38.149, 34.166.39.3, 34.166.40.145, 34.166.41.104, 34.166.44.55, 34.166.46.73, 34.166.46.216, 34.166.47.18, 34.166.50.229, 34.166.52.69, 34.166.53.147, 34.166.55.78, 34.166.57.177, 34.166.60.109, 34.166.61.61, 34.166.61.119, 34.166.61.169, 34.166.61.173, 34.166.62.51, 34.166.62.206, 34.166.63.160, 34.166.64.6, 34.166.65.231
+
+</td>
+<td valign="top">
+
+34.166.32.46
+
+</td>
+<td valign="top">
+
+api.cf.sa30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+sa30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
 </table>
 
 **Regions for Trial Accounts**

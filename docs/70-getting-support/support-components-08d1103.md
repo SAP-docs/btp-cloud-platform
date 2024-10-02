@@ -2324,7 +2324,7 @@ Detect and highlight entities from unstructured text using machine learning.
 </td>
 <td valign="top">
 
-Connects extension applications running in a subaccount in SAP BTP to an SAP S/4HANA Cloud system.
+Automates the connectivity configuration of extension applications running on SAP BTP to SAP S/4HANA Cloud systems.
 
 </td>
 <td valign="top">
@@ -2350,13 +2350,15 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 </td>
 <td valign="top">
 
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   Singapore
+-   South Korea \(Seoul\)
+-   Brazil \(São Paulo\)
 -   Canada \(Montreal\)
+-   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
+-   Japan \(Tokyo\)
+-   US East \(VA\)
 
 
 
@@ -2384,7 +2386,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 </td>
 <td valign="top">
 
-Connects extension applications running in a subaccount in SAP BTP to an SAP S/4HANA Cloud system.
+Automates the connectivity configuration of extension applications running on SAP BTP to SAP S/4HANA Cloud systems.
 
 </td>
 <td valign="top">
@@ -2410,9 +2412,13 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 </td>
 <td valign="top">
 
+-   Australia \(Sydney\)
+-   Singapore
+-   Switzerland \(Zurich\) EU Access
 -   Europe \(Netherlands\)
--   US West \(WA\)
 -   Japan \(Tokyo\)
+-   US West \(WA\)
+-   US East \(VA\)
 
 
 
@@ -2440,7 +2446,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 </td>
 <td valign="top">
 
-Connects extension applications running in a subaccount in SAP BTP to an SAP S/4HANA Cloud system.
+Automates the connectivity configuration of extension applications running on SAP BTP to SAP S/4HANA Cloud systems.
 
 </td>
 <td valign="top">
@@ -2466,8 +2472,9 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP S/4
 </td>
 <td valign="top">
 
--   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   India \(Mumbai\) GCP
+-   US Central \(IA\)
 
 
 
@@ -3405,6 +3412,7 @@ Develop, debug, test, and deploy SAP business applications.
 -   Israel \(Tel Aviv\) GCP
 -   India \(Mumbai\) GCP
 -   KSA \(Dammam\) GCP public sector
+-   Europe \(Frankfurt\)
 
 
 
@@ -4726,7 +4734,7 @@ Allows you to create, manage, configure extensions on SAP Cloud Platform.
 </td>
 <td valign="top">
 
-Connects extension applications running in a subaccount in SAP BTP to an SAP SuccessFactors system.
+Automates the connectivity configuration of extension applications running on SAP BTP to SAP SuccessFactors systems.
 
 </td>
 <td valign="top">
@@ -4752,13 +4760,15 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 </td>
 <td valign="top">
 
--   Brazil \(São Paulo\)
 -   Australia \(Sydney\)
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Canada \(Montreal\)
 -   Singapore
+-   South Korea \(Seoul\)
+-   Brazil \(São Paulo\)
+-   Canada \(Montreal\)
+-   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
 -   Japan \(Tokyo\)
+-   US East \(VA\)
 
 
 
@@ -4786,7 +4796,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 </td>
 <td valign="top">
 
-Connects extension applications running in a subaccount in SAP BTP to an SAP SuccessFactors system.
+Automates the connectivity configuration of extension applications running on SAP BTP to SAP SuccessFactors systems.
 
 </td>
 <td valign="top">
@@ -4812,9 +4822,13 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 </td>
 <td valign="top">
 
+-   Australia \(Sydney\)
+-   Singapore
+-   Switzerland \(Zurich\) EU Access
 -   Europe \(Netherlands\)
--   US West \(WA\)
 -   Japan \(Tokyo\)
+-   US West \(WA\)
+-   US East \(VA\)
 
 
 
@@ -4842,7 +4856,7 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 </td>
 <td valign="top">
 
-Connects extension applications running in a subaccount in SAP BTP to an SAP SuccessFactors system.
+Automates the connectivity configuration of extension applications running on SAP BTP to SAP SuccessFactors systems.
 
 </td>
 <td valign="top">
@@ -4868,8 +4882,9 @@ Connects extension applications running in a subaccount in SAP BTP to an SAP Suc
 </td>
 <td valign="top">
 
--   US Central \(IA\)
 -   Europe \(Frankfurt\)
+-   India \(Mumbai\) GCP
+-   US Central \(IA\)
 
 
 
@@ -11735,6 +11750,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 <td valign="top">
 
 -   Israel \(Tel Aviv\) GCP
+-   US Central \(IA\)
 
 
 

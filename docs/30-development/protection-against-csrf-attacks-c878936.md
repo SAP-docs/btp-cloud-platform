@@ -27,16 +27,16 @@ The code below shows an example for implementing the method `HANDLE_REQUEST` of 
 
 > ### Sample Code:  
 > ```
-> method IF_HTTP_SERVICE_EXTENSION~HANDLE_REQUEST.
-> 	data(lv_valid) = cl_http_service_utility=>handle_csrf(
-> 	EXPORTING
-> 	request = request
-> 	response = response
-> 	).
-> 	check lv_valid = abap_true.
-> 	//Start der Implementierung des  HTTP Services
-> 	//Beginn der Anwendungslogik
-> endmethod.
+> METHOD if_http_service_extension~handle_request.
+>   DATA(lv_valid) = cl_http_service_utility=>handle_csrf(
+> 	 EXPORTING
+> 	   request = request
+> 	   response = response
+>   ).
+>   CHECK lv_valid = abap_true.
+>   //Start the implementation of the HTTP service 
+>   //Start the application logic
+> ENDMETHOD.
 > 
 > ```
 

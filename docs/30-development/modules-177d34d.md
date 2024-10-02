@@ -71,7 +71,7 @@ Result
 No default parameter.
 
 > ### Note:  
-> We strongly recommend that you specify the appropriate buildpack for your application. To do so, use the `buildpack` module parameter.
+> We strongly recommend that you specify the appropriate buildpack for your application.modules: parameters: buildpack: binary\_buildpack To do so, use the `buildpack` - name: my-binary-app module parameter.
 
 
 
@@ -389,6 +389,9 @@ Direct content deployment to backing services
 > ### Note:  
 > This module type is **deprecated**. Please use `com.sap.html5.application.content` instead.
 
+> ### Note:  
+> Keep the dependency to `@sap/html5-app-deployer` updated to the latest version. If you are using an older version, you might encounter some issues.
+
 -   `no-route` \(`true`\). Defines if a route should be assigned to the application.
 -   `memory` \(`256M`\). Defines the memory allocated to the application.
 -   `execute-app` - \(`true`\). Defines whether the application is executed. If yes, the application performs certain amount of work and upon completion sets a `success-marker` or `failure-marker` by means of a log message.
@@ -423,7 +426,7 @@ Deploys a content deployment application, and creates a task that performs the c
 <td valign="top">
 
 > ### Note:  
-> Before using this module type, update the content deployer applications to their latest version.
+> Keep the dependency to `@sap/html5-app-deployer` updated to the latest version. If you are using an older version, you might encounter some issues.
 
 -   `no-route` \(`true`\). Defines if a route should be assigned to the application.
 -   `no-start` - \(`true`\). Only the one-off tasks will be executed, that is, without triggering the start of the application.
@@ -624,11 +627,7 @@ To choose a `binary_buildpack`, define it by using the following:
 
 > ### Sample Code:  
 > ```
-> modules:
->   - name: my-binary-app
->     type: custom
->     parameters:
->       buildpack: binary_buildpack
+> 
 > ```
 
 
@@ -693,7 +692,7 @@ The name of the application in the Cloud Foundry environment to be deployed for 
 </td>
 <td valign="top">
 
-`${default-app-name`\}
+`${default-app-name}`
 
 </td>
 <td valign="top">
@@ -2253,6 +2252,117 @@ n/a
 <tr>
 <td valign="top">
 
+`stage-timeout`
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take during staging before the MTA operation times out.
+
+See [Application-Specific Timeouts](applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc).
+
+</td>
+<td valign="top">
+
+1h
+
+</td>
+<td valign="top">
+
+```
+modules: 
+   - name: java 
+     …………….. 
+     parameters: 
+        stage-timeout: 100  
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`start-timeout`
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take to start before the MTA operation times out.
+
+See [Application-Specific Timeouts](applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc).
+
+</td>
+<td valign="top">
+
+1h
+
+</td>
+<td valign="top">
+
+```
+modules: 
+   - name: java 
+     …………….. 
+     parameters: 
+        start-timeout: 100
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`task-execution-timeout`
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take to execute a task before the MTA operation times out.
+
+See [Application-Specific Timeouts](applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc).
+
+</td>
+<td valign="top">
+
+12h
+
+</td>
+<td valign="top">
+
+```
+modules: 
+   - name: java 
+     …………….. 
+     parameters: 
+        task-execution-timeout: 100 
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `tasks`
 
 </td>
@@ -2337,6 +2447,43 @@ Specifies whether the application should have `TCPS` type routes.
 <td valign="top">
 
 `tcps:true`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`upload-timeout`
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, you can upload your application binary before the MTA operation times out.
+
+See [Application-Specific Timeouts](applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc) .
+
+</td>
+<td valign="top">
+
+1h
+
+</td>
+<td valign="top">
+
+```
+modules: 
+   - name: java 
+     .......... 
+     parameters: 
+        upload-timeout: 100 
+```
+
+
 
 </td>
 </tr>

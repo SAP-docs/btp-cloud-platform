@@ -25,3 +25,6 @@ A session timeout triggers a central log out with the following consequences:
 -   Deletes the user session
 -   Requests the log out paths for all your back-end services \(if you provided these paths in the `destinations` and `service` properties\).
 
+> ### Note:  
+> `sessionTimeout` can only be configured in the central routing configuration file \(xs-app.json\) that belongs to the application router, not in an xs-app.json file that is part of an HTML5 application.
+

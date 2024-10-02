@@ -58,13 +58,15 @@ In the example used in this documentation, you need the ODBC data source for a b
     > TrustAll=true
     > CryptoLibrary=/home/<myuser>/ODBC_driver_for_ABAP/libsapcrypto.so
     > AuthenticationType=Browser
-    > AuthenticationURL=https://<uihost>/sap/bc/sec/reentrance
+    > AuthenticationURL=https://<ui host name>/sap/bc/sec/reentrance
     > UID=dummy
     > PWD=dummy
     > 
     > ```
 
     In this example, the driver definition was included in the `.odbc.ini` file using the driver keyword. In the example, for the sake of simplicity, no PSE file was created and the `TrustAll=True` property was used instead. The entries UID=dummy and PWD=dummy were added so that you are not forced to enter a user and password in the browser that are required by the unixODBC tool `iusql` for testing, but are not needed by the ODBC driver.
+
+    `<ui host name>` is the standard host name also used in the SAP Fiori Launchpad.
 
 4.  Use the unixODBC tools `isql` or `iusql` to test the ODBC connection.
 

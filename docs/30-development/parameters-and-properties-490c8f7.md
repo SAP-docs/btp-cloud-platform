@@ -101,6 +101,181 @@ Example
 <tr>
 <td valign="top">
 
+`apps-stage-timeout`
+
+</td>
+<td valign="top">
+
+Global
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take during staging before the MTA operation times out.
+
+See [Application-Specific Timeouts](applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc) .
+
+> ### Note:  
+> This applies to all applications.
+
+
+
+</td>
+<td valign="top">
+
+1h
+
+</td>
+<td valign="top">
+
+```
+
+parameters: 
+    apps-stage-timeout: 100
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`apps-start-timeout`
+
+</td>
+<td valign="top">
+
+Global
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take to start before the MTA operation times out.
+
+See [Application-Specific Timeouts](applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc) .
+
+> ### Note:  
+> This applies to all applications.
+
+
+
+</td>
+<td valign="top">
+
+1h
+
+</td>
+<td valign="top">
+
+```
+
+parameters: 
+    apps-start-timeout: 100
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`apps-task-execution-timeout`
+
+</td>
+<td valign="top">
+
+Global
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take to execute a task before the MTA operation times out.
+
+See [Application-Specific Timeouts](applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc) .
+
+> ### Note:  
+> This applies to all applications.
+
+
+
+</td>
+<td valign="top">
+
+12h
+
+</td>
+<td valign="top">
+
+```
+
+parameters: 
+    apps-task-execution-timeout: 100
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`apps-upload-timeout` 
+
+</td>
+<td valign="top">
+
+Global
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, you can upload your application binary before the MTA operation times out.
+
+See [Application-Specific Timeouts](applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc) .
+
+</td>
+<td valign="top">
+
+1h
+
+</td>
+<td valign="top">
+
+```
+
+parameters: 
+    apps-upload-timeout: 100 
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `authorization-url`
 
 </td>

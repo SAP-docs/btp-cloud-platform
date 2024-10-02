@@ -75,6 +75,8 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
 -   A trial account enables you to explore the basic functionality of SAP BTP.
 
+-   SAP BTP trial accounts use cloud management tools feature set B. For more information, see [Cloud Management Tools — Feature Set Overview](cloud-management-tools-feature-set-overview-caf4e4e.md).
+
 -   SAP BTP trial accounts are available in several regions. For more information, see [Regions](regions-350356d.md).
 
 -   You can create directories in your trial account. For more information, see [Managing Directories Using the Cockpit](../50-administration-and-ops/managing-directories-using-the-cockpit-f495ac1.md)

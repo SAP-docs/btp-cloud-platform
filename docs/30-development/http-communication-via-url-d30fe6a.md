@@ -12,7 +12,7 @@ You can configure the URL static in the code:
 > ```
 
 > ### Note:  
-> Using `create_by_url` is only suitable for public services or test purposes, because credentials should be stored in the destination service, or using communication arrangements \(`create_by_comm_arrangement`, `create_by_cloud_destination`\).
+> Using `create_by_url` is only suitable for public services or test purposes, because credentials should be stored in the communication management in SAP Fiori launchpad.
 
 **Related Information**  
 

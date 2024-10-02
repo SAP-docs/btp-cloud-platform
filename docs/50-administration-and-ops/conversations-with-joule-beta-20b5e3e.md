@@ -9,7 +9,7 @@ Let Joule help you find answers to questions about managing your accounts in SAP
 
 Take your SAP BTP cockpit administration questions to Joule. Just type a question in the Joule chat using natural language and let Joule scan the product documentation on the SAP Help Portal for answers.
 
-Joule summarizes the relevant SAP Help Portal information. This summary is then displayed along with the top three search results. If you select a link result, you're taken directly to the topic on the SAP Help Portal.
+Joule summarizes the relevant SAP Help Portal information. This summary is then displayed along with the top help results. If you select a link result, you're taken directly to the topic on the SAP Help Portal.
 
 > ### Note:  
 > Joule is an addition to in-app help content, guided tours, embedded learning content, and customer-specific enablement content in SAP Companion.

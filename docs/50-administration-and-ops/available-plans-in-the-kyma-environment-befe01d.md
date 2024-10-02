@@ -157,7 +157,10 @@ The technical name of the plan is `free`. Using the free service plans for Kyma 
 
 -   Before you enable the Kyma environment, you must first assign it as an entitlement to your subaccount.
 
--   You have only one 30-day free service plan quota available per global account.
+-   You can use the free plan only once in a global account for up to 30 days.
+
+    > ### Remember:  
+    > Once you have started the free plan in a subaccount, you cannot use it in another subaccount within the same global account even though the 30-day period has not ended.
 
 -   The services you plan to use must be available in the same region as the subaccount for the Kyma runtime. If necessary, change the default subaccount region.
 
@@ -620,7 +623,7 @@ Updating
 
 ## Kyma Test Demo and Development \(Azure Lite\)
 
-The technical name of the plan is `azure_lite`. The Kyma Test Demo and Development plan is offered to Partners, who can use it for testing, development, and demo purposes.
+The technical name of the plan is `azure_lite`. The Kyma Test Demo and Development plan is offered to Partners, whithin the [*Pay-As-You-Go for SAP BTP for cloud test, demo, and development*](https://partneredge.sap.com/en/profile/create-profile.html) commercial model. You can use this plan for testing, development, and demo purposes. In the SAP BTP cockpit, the plan is called "Kyma Runtime Partner TDD".
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.

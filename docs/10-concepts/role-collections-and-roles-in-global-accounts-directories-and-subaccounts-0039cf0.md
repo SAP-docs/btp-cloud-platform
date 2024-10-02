@@ -525,7 +525,7 @@ Read-only access for authorizations, trusted identity providers, and users.
 
 ## Directory Role Collections
 
-The role collections *Directory Administrator* and *Directory Viewer* can be assigned during the creation of a directory. If you select the checkbox *Manage Authorizations* in the creation wizard, you can assign users the role collections during the step *Manage Authorizations*. You can't create custom role collections for directories.
+The role collections *Directory Administrator* and *Directory Viewer* can be assigned after the creation of a directory. If you select the *Enable user management* checkbox, you receive the *Directory Administrator* role collection by default. You can't create custom role collections for directories.
 
 The *Directory Administrator* role collection grants a user administration permission for directories.
 

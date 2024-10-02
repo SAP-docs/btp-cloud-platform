@@ -504,5 +504,5 @@ Internal error during processing
 </table>
 
 > ### Note:  
-> Find more information about classes and interfaces of the *Application Log API* in the ABAB Development Tools \(ADT\).
+> Find more information about classes and interfaces of the *Application Log API* in the ABAP development tools for Eclipse \(ADT\).
 

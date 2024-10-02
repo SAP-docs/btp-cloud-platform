@@ -40,6 +40,107 @@ The MTA deployment is an incremental process. This means that the state of the a
     -   The MTA version is changed, which requires a change of special application environment variables, managed by the deploy service.
 
 
+
+
+<a name="loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc"/>
+
+## **Application-Specific Timeouts**
+
+When creating Cloud Foundry applications as part of the MTA deployment, you have the option to set specific timeouts for different phases of the application's creation or execution. When any of these timeouts occur, the MTA operation fails with a relevant error message to avoid MTA deployment run indefinitely. When any of these timeouts occurs, the MTA operation fails and a relevant error message is displayed. This is to prevent the MTA deployment from running indefinitely.
+
+Currently the following timeouts are supported:
+
+-   **Upload timeout** – the time it takes to upload the application binary to the Cloud Controller. Once the upload is complete, the application is ready to use.
+
+
+-   **Stage timeout** – the time it takes to stage the application.
+
+
+-   **Start timeout** – the time it takes to start all application instances.
+
+
+-   **Task execution timeout** – the time between when you run a Cloud Foundry task and when it reaches its final state.
+
+
+
+
+### Priority of Timeout Parameters
+
+You can configure application timeouts at different levels according to your needs. When the same timeout \(for example, start timeout\) is configured in several places for one MTA deployment, a certain order of priority is applied.
+
+The order provides flexibility when you want to define common timeouts for all applications which are part of an MTA but at the same time, you need to define application-specific timeouts.
+
+The timeout parameters follow the following descending order of priority:
+
+1.  **Operation parameters / Command-Line Options \(Highest Priority\):** 
+
+    The highest priority is given to operation parameters passed during the MTA deployment. If you provide a timeout value as a command-line option, it overrides any other parameters defined into the MTA descriptor. These operation parameters apply to all applications.
+
+    > ### Example:  
+    > ```
+    > cf deploy … --apps-upload-timeout 40 –apps-upload-timeout 50 --apps-start-timeout 30 –apps-task-execution-timeout 100 
+    > ```
+
+2.  **Module-Level Parameters:** 
+
+    If you do not provide any command-line arguments, the module-level parameters are used instead.
+
+    > ### Example:  
+    > ```
+    > 
+    > modules: 
+    >    - name: java 
+    >      .......... 
+    >      parameters: 
+    >         upload-timeout: 100 
+    >    stage-timeout: 50 
+    >         start-timeout: 60 
+    >    task-execution-timeout:120 
+    > ```
+
+3.  **Global-Level Parameters:** 
+
+    If neither a command-line option nor a module-level parameter are provided, the global parameters are used. Global parameters are applicable to all applications.
+
+    > ### Example:  
+    > ```
+    > 
+    > parameters: 
+    >      apps-upload-timeout: 50 
+    >      apps-stage-timeout: 60 
+    >      apps-start-timeout: 70 
+    >      apps-task-execution-timeout:110  
+    > ```
+
+4.  **Default Values:**
+
+    If you do not provide any of the above parameters, the application uses the predefined default timeout values. This ensures that there is always a time limit in place to prevent MTA operations from running indefinitely.
+
+    Default values:
+
+    -   Start timeout: 1h
+
+    -   Upload timeout: 1h
+
+    -   Stage timeout: 1h
+
+    -   Task execution timeout: 12h
+
+
+
+
+
+### Maximum Allowed Values
+
+-   Upload timeout: 3h
+
+-   Stage timeout: 3h
+
+-   Start timeout: 3h
+
+-   Task execution timeout: 24h
+
+
 **Related Information**  
 
 

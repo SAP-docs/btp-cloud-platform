@@ -1,5 +1,7 @@
 <!-- loio2a58364d38cf42cc8ecfbae77231a411 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Edit Space Quotas
 
 Edit space quotas in the Cloud Foundry environment using the SAP BTP cockpit.
@@ -20,7 +22,7 @@ You have the Org Manager role for the org in which you want to edit space quotas
 
 2.  In the navigation menu, choose *Cloud Foundry* \> *Space Quotas*.
 
-3.  Choose *![](images/Edit_Icon_abfe424.png) \(Edit\)* for an existing space quota.
+3.  Choose :pencil2: for an existing space quota.
 
 4.  Adjust the values in the text fields as needed.
 

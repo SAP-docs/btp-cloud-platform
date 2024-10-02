@@ -33,6 +33,8 @@ In the example used in this documentation, you need the ODBC data source for a b
     > 
     > `AuthenticationType=Browser`
     > 
-    > `AuthenticationURL=https://<uihost>/sap/bc/sec/reentrance`
+    > `AuthenticationURL=https://<ui host name>/sap/bc/sec/reentrance`
+    > 
+    > `<ui host name>` is the standard host name also used in the SAP Fiori Launchpad.
 
 

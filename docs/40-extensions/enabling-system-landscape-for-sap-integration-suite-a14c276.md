@@ -32,6 +32,9 @@ When creating *Integration with SAP Integration Suite* formations, keep in mind 
 
 -   You have a subscription to SAP Integration Suite. See[Subscribing and Configuring Initial Access to SAP Integration Suite](https://help.sap.com/docs/integration-suite/sap-integration-suite/subscribing-to-integration-suite?version=CLOUD).
 
+    > ### Note:  
+    > Every time you create a subscription to a new SAP Integration Suite tenant, the system type for the tenant is automatically defined as “SAP Integration Suite”.
+
 
 
 

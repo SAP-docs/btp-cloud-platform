@@ -276,6 +276,42 @@ Australia \(Sydney\)
 
 Enterprise account
 
+Partner Test, Demo, and Development account
+
+</td>
+<td valign="top">
+
+br20
+
+</td>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+cf-br20
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
+
+</td>
+<td valign="top">
+
+`azure`
+
+`azure_lite`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
 </td>
 <td valign="top">
 
@@ -791,6 +827,70 @@ Israel \(Tel Aviv\)
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+br30
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+cf-br30
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
+
+</td>
+<td valign="top">
+
+`gcp` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+ap30
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+cf-ap30
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+`gcp` 
+
+</td>
+</tr>
 </table>
 
 
@@ -828,12 +928,12 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="11">
+<td valign="top" rowspan="12">
 
 Microsoft Azure
 
 </td>
-<td valign="top" rowspan="10">
+<td valign="top" rowspan="11">
 
 `azure`
 
@@ -956,6 +1056,18 @@ Australia \(Sydney\)
 <td valign="top">
 
 Switzerland \(Zurich\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`brazilsouth`
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
 
 </td>
 </tr>
@@ -1148,12 +1260,12 @@ US East \(VA\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="8">
 
 Google Cloud
 
 </td>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="8">
 
 `gcp`
 
@@ -1226,6 +1338,30 @@ KSA \(Dammam\)
 <td valign="top">
 
 Israel \(Tel Aviv\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`australia-southeast1`
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`southamerica-east1`
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
 
 </td>
 </tr>

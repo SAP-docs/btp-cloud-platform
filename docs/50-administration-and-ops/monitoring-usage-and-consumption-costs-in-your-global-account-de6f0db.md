@@ -110,7 +110,7 @@ Note the following:
 </tr>
 </table>
 
-Pay attention that if your global account uses a combination of the consumption-based commercial model and the subscription-based commercial model, the card on the right shows billing and usage data that is charged solely according to the consumption-based commercial model. In other words, for services that are part of your subscription-based commercial agreement, the billing and usage data in this card apples only to consumption that exceeds your prepaid \(subscription\) quota. For this excess service usage, you are charged according to your contract for the consumption-based commercial model.
+Pay attention that if your global account uses a combination of the consumption-based commercial model and the subscription-based commercial model, the card on the right shows billing and usage data that is charged solely according to the consumption-based commercial model. In other words, for services that are part of your subscription-based commercial agreement, the billing and usage data in this card applies only to consumption that exceeds your prepaid \(subscription\) quota. For this excess service usage, you are charged according to your contract for the consumption-based commercial model.
 
 For example, if your subscription contract is entitled to consume a given service at a fixed cost for up to 100 unique site visits, and 151 unique site visits are registered, this card shows data relating only to the 51 visits that have exceeded the prepaid 100 visits.
 

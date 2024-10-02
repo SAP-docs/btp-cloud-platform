@@ -9,7 +9,7 @@ Learn about the administrative tasks that SAP's generative AI copilot, Joule, ca
 
 Joule makes it easier than ever to create subaccounts and manage account users in the cockpit. With Joule integrated into the cockpit, you can accomplish your goals faster.
 
--   Ask Joule to perform an administrative action for you from a set of pre-defined administrative workflows.
+-   Ask Joule to perform an administrative action for you from a set of pre-defined capabilities.
 -   Ask Joule a question about SAP BTP services or the cockpit. Joule references SAP BTP cockpit documentation and provides a summary of what it finds, as well as links to relevant help content.
 
 **Related Information**  
