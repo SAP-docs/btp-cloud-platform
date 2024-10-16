@@ -132,7 +132,7 @@ For additional information about using the SAP Cloud Management service APIs wit
 
 [Rate Limiting](rate-limiting-77b217b.md "Describes how all API requests to the SAP Cloud Management service for SAP BTP adhere to rate limiting rules.")
 
-[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-featur-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
+[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 
 [Using SAP SaaS Provisioning Service APIs to Manage Multitenant Applications](../30-development/using-sap-saas-provisioning-service-apis-to-manage-multitenant-applications-ed08c7d.md "Use the SaaS Provisioning Service (technical name: saas-registry) APIs to work with multitenant applications.")
 

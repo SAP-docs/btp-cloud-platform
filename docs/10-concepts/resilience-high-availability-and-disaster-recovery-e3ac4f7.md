@@ -117,7 +117,7 @@ In addition to the services offered by SAP BTP, you can follow our best practice
 
 -   **Working with Availability Zones**
 
-    To benefit from the high availability mechanisms in Cloud Foundry, set up your applications with multiple instances. For more information, see  <?sap-ot O2O class="- topic/xref " href="b1b929a5aea64571b2f74e810b622568.xml" text="Developing Resilient Applications in the Cloud Foundry Environment" desc="" xtrc="xref:11" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e3ac4f7c25a3442ca585950095eec599.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+    To benefit from the high availability mechanisms in Cloud Foundry, set up your applications with multiple instances. For more information, see [Developing Resilient Applications](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/b1b929a5aea64571b2f74e810b622568.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
 
 <a name="loio001180644f8a428bb422cd41caebb95f"/>

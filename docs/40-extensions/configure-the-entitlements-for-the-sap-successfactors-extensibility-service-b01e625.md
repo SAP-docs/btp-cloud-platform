@@ -25,8 +25,6 @@ Configure the required entitlements to make the SAP SuccessFactors HXM Suite ODa
 
 An entitlement is your right to provision and consume a resource. In other words, the entitlement is the *api-access* service plan that you're entitled to use, and the *sso-configuration* service plan that allows you to register an assertion consumer service in SAP SuccessFactors automatically.
 
-Depending on feature set you are using, you need to follow different steps to configure the entitlements. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
-
 
 
 <a name="loiob01e6255607a42889483115dbd56cc1f__steps_ynv_cxm_3pb"/>
@@ -37,16 +35,16 @@ Depending on feature set you are using, you need to follow different steps to co
 
 2.  In the navigation area, choose *Entitlements* \> *Entity Assignments*.
 
-3.  On the *Entity Assignments* screen, select your subaccount in the*Select Entities* field.
+3.  On the *Entity Assignments* screen, select your subaccount in the *Subaccounts/Directories* field.
 
-4.  Choose *Go*, and then choose *Configure Entitlements*.
+4.  Choose *Edit*, and then choose *Add Service Plans*.
 
-5.  Choose *Add Service Plans*, and then select the *SAP SuccessFactors Extensibility* service.
+5.  Select the *SAP SuccessFactors Extensibility* service.
 
     > ### Note:  
     > To have the *SAP SuccessFactors Extensibility* service in the list, you need to have registered at least one SAP SuccessFactors system.
 
-6.  In the *Available Service Plans* area, select the system you have registered and the *api-access* and *sso-configuration* service plans, and then choose *Add 2 Service Plans*.
+6.  In the *Service Details* area, select the system you have registered. In the *Available Plans* area, select the *api-access* and *sso-configuration* service plans, and then choose *Add 2 Service Plans*.
 
 
 **Related Information**  

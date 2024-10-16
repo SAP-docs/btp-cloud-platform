@@ -2,6 +2,19 @@
 
 # Establish Trust and Federation with UAA Using Any SAML Identity Provider
 
+Integrate trust between the SAP BTP subaccount and any SAML 2.0 identity provider.
+
+
+
+<a name="loio2ce3938c66d94479848bff3090999027__context_vtx_mpg_mcc"/>
+
+## Context
+
+> ### Tip:  
+> Avoid multiple trust configurations in the same subaccount. We recommend that you use SAP Cloud Identity Services as identity provider and connect a potential corporate identity provider there. We strongly recommend OpenID Connect \(OIDC\). If you use SAML 2.0, connect an SAP Cloud Identity Services tenant and then add your corporate identity provider. If you don't have a tenant yet, check [Getting a Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html#getting-a-tenant).
+> 
+> For more information, see the announcement of December 31, 2024 in the [release notes](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Authorization+and+Trust+Management+Service&Valid_as_Of=2022-01-01:2050-12-31&locale=en-US).
+
 To establish trust, configure the trust configuration of the SAML 2.0 identity provider in your subaccount using the SAP BTP cockpit. Next, register your subaccount in User Account and Authentication service using the administration console of your SAML 2.0 identity provider. To complete federation, maintain the federation attributes of the SAML 2.0 user groups. This makes sure that you can assign authorizations to user groups.
 
 <a name="loio8a213ea1a8664e6b96c0593e71339e0e"/>
@@ -27,7 +40,7 @@ You want to use an SAML 2.0 identity provider. This is where the business users 
 
 ## Context
 
-You must establish a trust relationship with an SAML 2.0 identity provider in your subaccount in SAP BTP. The following procedure tries to guide you though the trust configuration in your SAML 2.0 identity provider.
+You want to establish a trust relationship with an SAML 2.0 identity provider in your subaccount in SAP BTP. The following procedure guides you through the trust configuration.
 
 
 
@@ -56,7 +69,7 @@ You must establish a trust relationship with an SAML 2.0 identity provider in yo
 
 8.  To get the SAML metadata of your subaccount, choose the *SAML Metadata* button.
 
-    You create an XML file with the SAML metadata of your subaccount. Its name is <code>saml-<i class="varname">&lt;subdomain&gt;</i>-sp.xml</code>. Use this file to import the SAML metadata into your identity provider.
+    You download an XML file with the SAML metadata of your subaccount. Its name is <code>saml-<i class="varname">&lt;subdomain&gt;</i>-sp.xml</code>. Use this file to import the SAML metadata into your identity provider.
 
 
 <a name="loio2bf08c7e91794ddfa0702a353be4c61d"/>

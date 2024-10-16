@@ -16,6 +16,8 @@ For more information, see [Security Administration: Managing Authentication and 
 
 
 
+<a name="loiobb1b2f4814b04f41833ff0a5bdd5d599__context_ssx_xmw_ycc"/>
+
 ## Context
 
 We recommend creating users within the SAP Cloud Identity Services. The persistency layer of SAP Cloud Identity Services is the Identity Directory. Use SAP Cloud Identity Services - Identity Provisioning to provision users to SAP cloud solutions, such as SAP BTP. Identity Provisioning has connectors to distribute user artifacts needed at different levels of your SAP BTP accounts. By managing your identities centrally, you also ensure that when you offboard users, they're removed from target systems.
@@ -24,6 +26,8 @@ We recommend creating users within the SAP Cloud Identity Services. The persiste
 > Currently, you can't provision platform users \(org/space members\) to the Cloud Foundry environment.
 
 
+
+<a name="loiobb1b2f4814b04f41833ff0a5bdd5d599__steps_tsx_xmw_ycc"/>
 
 ## Procedure
 

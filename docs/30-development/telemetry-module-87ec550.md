@@ -1,6 +1,6 @@
 <!-- loio87ec55072f394ac48d91c8c723e26e3b -->
 
-# Kyma Telemetry Module
+# Telemetry Module
 
 Learn more about the Telemetry Module. Use it to enable observability for your application.
 
@@ -26,7 +26,7 @@ Fundamentally, “Observability” is a measure of how well the application’s 
 The Telemetry module focuses exactly on the aspects of instrumentation, collection, and shipment that happen in the runtime and explicitly defocuses on backends.
 
 > ### Tip:  
-> An enterprise-grade setup demands a central solution outside the cluster, so we recommend in-cluster solutions only for testing purposes. If you want to install lightweight in-cluster backends for demo or development purposes, see [Integration Guides](kyma-telemetry-module-87ec550.md#loio87ec55072f394ac48d91c8c723e26e3b__section_telemetry_integration).
+> An enterprise-grade setup demands a central solution outside the cluster, so we recommend in-cluster solutions only for testing purposes. If you want to install lightweight in-cluster backends for demo or development purposes, see [Integration Guides](telemetry-module-87ec550.md#loio87ec55072f394ac48d91c8c723e26e3b__section_telemetry_integration).
 
 
 

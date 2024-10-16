@@ -59,3 +59,11 @@ The **Access Management** section includes the following main scenarios about ho
 
 OData services that you develop using ADT can also be consumed in SAP Fiori applications \(developed using the Business Application Studio\). In this guide, you also learn how to provide access to an SAP Fiori application that consumes a business service.
 
+
+
+<a name="loio5b6290112008456b9e9400faebb8cd33__section_dqg_2hv_ycc"/>
+
+## Custom Development and Testing
+
+In SAP Business Technology Platform \(SAP BTP\), customers have the flexibility to develop their own code and services using ABAP. To test newly created services and applications in the development tenant, it is crucial that the developer role `SAP_A4C_BC_DEV_TST_PC` is extended with every newly created custom Authorization Object \(AO\), ensuring that full authorizations are granted for testing purposes. This ensures that developers can comprehensively test their applications without facing authorization issues, enhancing the development and deployment experience.
+

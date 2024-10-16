@@ -98,7 +98,7 @@ The recommended framework for logging is Simple Logging Facade for Java \(SLF4J\
         >   encoder: ''
         > ```
 
-        **NOTE:** You can also add some default values for *pattern* and *encoder*.
+        **NOTE:** You can also add some default values for `pattern` and `encoder`.
 
     3.  Add the following property in your **`manifest.yml`** file. For example \(if using Tomcat\):
 
@@ -119,5 +119,5 @@ The recommended framework for logging is Simple Logging Facade for Java \(SLF4J\
 **Related Information**  
 
 
-[Configure the Access Logs of an Application](configure-the-access-logs-of-an-application-64c1153.md "The SAP Java Buildpack uses the logback-access module to provide HTTP-access log functionality.")
+[Configure the Access Logs of an Application](configure-the-access-logs-of-an-application-64c1153.md "SAP Java Buildpack uses the logback-access module to provide HTTP-access log functionality.")
 

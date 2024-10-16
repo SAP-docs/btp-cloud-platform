@@ -197,16 +197,17 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     You have the option to deploy or synchronize an MTA, the source of which is contained in a local directory:
 
     ```
-    cf deploy <MTA_ARCHIVE>|<DIRECTORY_PATH> [-e <EXT_DESCRIPTOR_1>[,<EXT_DESCRIPTOR_2>]] 
-    [-u <URL>] [-t <TIMEOUT>] [-v <VERSION_RULE>]
-    [--no-start] [--namespace] [--apps-upload-timeout <TIMEOUT>] [--apps-stage-timeout <TIMEOUT>] [--apps-start-timeout <TIMEOUT>] [--apps-task-execution-timeout <TIMEOUT>] 
-    [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-    [--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]
-    cf deploy ...[--retries <RETRIES>]
-    
+    cf deploy MTA_ARCHIVE | DIRECTORY_PATH [-e EXT_DESCRIPTOR[,...]] [-t TIMEOUT] 
+    [--version-rule VERSION_RULE] [-u URL] [-f] [--retries RETRIES] [--no-start] [--namespace NAMESPACE] 
+    [--apply-namespace-app-names true/false] [--apply-namespace-service-names true/false] 
+    [--apply-namespace-app-routes true/false] [--apply-namespace-as-suffix true/false ] 
+    [--delete-services] [--delete-service-keys] [--delete-service-brokers] [--keep-files] 
+    [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--abort-on-error] 
+    [--strategy STRATEGY] [--skip-testing-phase] [--skip-idle-start] [--apps-start-timeout TIMEOUT] 
+    [--apps-stage-timeout TIMEOUT] [--apps-upload-timeout TIMEOUT] [--apps-task-execution-timeout TIMEOUT]
     ```
 
--   **Deployment using an URL to the MTA archive**
+-   **Deployment using a URL to the MTA archive**
 
     You have the option to deploy or synchronize an MTA, the source of which is contained at a URL address.When you use this command, the request prompts the backend to download the archive and then dеploy it:
 
@@ -214,13 +215,14 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     > This option is currently experimental.
 
     ```
-    <write MTA archive URL to STDOUT> | cf deploy [-e <EXT_DESCRIPTOR_1>[,<EXT_DESCRIPTOR_2>]] 
-    [-u <MTA controller URL>] [-t <TIMEOUT>] [-v <VERSION_RULE>]
-    [--no-start] [--namespace] [--apps-upload-timeout <TIMEOUT>] [--apps-stage-timeout <TIMEOUT>] [--apps-start-timeout <TIMEOUT>] [--apps-task-execution-timeout <TIMEOUT>]
-    [--delete-services] [--delete-service-keys] [--delete-service-brokers] 
-    [--keep-files] [--no-restart-subscribed-apps] [--do-not-fail-on-missing-permissions] [--skip-idle-start]  
-    cf deploy ...[--retries <RETRIES>]
-    
+    <write MTA archive URL to STDOUT> | cf deploy [-e EXT_DESCRIPTOR[,...]] 
+    [-t TIMEOUT] [--version-rule VERSION_RULE] [-u MTA_CONTROLLER_URL] [--retries RETRIES] [--no-start] 
+    [--namespace NAMESPACE] [--apply-namespace-app-names true/false] [--apply-namespace-service-names true/false] 
+    [--apply-namespace-app-routes true/false] [--apply-namespace-as-suffix true/false ] [--delete-services] 
+    [--delete-service-keys] [--delete-service-brokers] [--keep-files] [--no-restart-subscribed-apps] 
+    [--do-not-fail-on-missing-permissions] [--abort-on-error] [--strategy STRATEGY] [--skip-testing-phase] 
+    [--skip-idle-start] [--apps-start-timeout TIMEOUT] [--apps-stage-timeout TIMEOUT] 
+    [--apps-upload-timeout TIMEOUT] [--apps-task-execution-timeout TIMEOUT]
     ```
 
     > ### Caution:  
@@ -705,7 +707,95 @@ Namespace for the MTA. They are also applied to the application and service name
 <tr>
 <td valign="top">
 
-*\--skip-idle-start*
+<code><i>--apply-namespace-app-names true/false</i></code>
+
+> ### Note:  
+> This option is currently experimental.
+
+
+
+</td>
+<td valign="top">
+
+Apply namespace to application names. If the namespace value is not provided in the CLI options, it is not applied.
+
+> ### Note:  
+> This is applied on all applications.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--apply-namespace-service-names true/false</i></code>
+
+> ### Note:  
+> This option is currently experimental.
+
+
+
+</td>
+<td valign="top">
+
+Apply namespace to service names. If the namespace value is not provided in the CLI options, it is not applied.
+
+> ### Note:  
+> This is applied on all services.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--apply-namespace-app-routes true/false</i></code>
+
+> ### Note:  
+> This option is currently experimental.
+
+
+
+</td>
+<td valign="top">
+
+Apply namespace to application routes. If the namespace value is not provided in the CLI options, it is not applied.
+
+> ### Note:  
+> This is applied on all application routes.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--apply-namespace-as-suffix true/false</i></code>
+
+> ### Note:  
+> This option is currently experimental.
+
+
+
+</td>
+<td valign="top">
+
+Apply namespace as suffix. If the namespace value is not provided in the CLI options, it is not applied.
+
+> ### Note:  
+> This is applied on all applications, services, and application routes.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--skip-idle-start</i></code>
 
 > ### Note:  
 > This option is currently experimental.

@@ -4,7 +4,7 @@
 
 **User accounts** enable users to log on to SAP BTP, access subaccounts, and to use applications according to the permissions granted to them. In this context, it's important to understand the difference between the two types of users that we refer to: Platform users and business users.
 
-**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. 
+**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot accounts, applications and services on SAP BTP. 
 
 Platform users who were added as members and have administrative permissions can view or manage the list of global accounts, directories, subaccounts, and Cloud Foundry orgs and spaces that are available to them. Members access them using the SAP BTP Cockpit, the SAP BTP command-line interface \(btp CLI\), or the Cloud Foundry command-line interface \(CF CLI\).
 

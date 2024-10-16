@@ -11,9 +11,7 @@ Extend SAP S/4HANA Cloud with extension applications running on the cloud platfo
 ## Overview
 
 > ### Note:  
-> The SAP S/4HANA Cloud Extensibility service is availble for the EU-only access regions for feature set B global accounts. See [Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions).
-> 
-> EU Access is not available for feature set A global accounts for the SAP S/4HANA Cloud Extensibility service.
+> The SAP S/4HANA Cloud Extensibility service is availble for the EU-only access regions. See [Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions).
 
 > ### Note:  
 > This documentation refers to SAP S/4HANA Cloud Public Edition. See [Introduction to the Universe of SAP S/4HANA Cloud Public Edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).
@@ -131,9 +129,4 @@ You have the following options:
 </td>
 </tr>
 </table>
-
-**Related Information**  
-
-
-[Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html)
 

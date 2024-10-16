@@ -11,9 +11,7 @@ Use SAP BTP to extend SAP SuccessFactors with extension applications running on 
 ## Overview
 
 > ### Note:  
-> The SAP SuccessFactors Extensibility service is availble for the EU-only access regions for feature set B global accounts. See [Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions).
-> 
-> EU Access is not available for feature set A global accounts for the SAP SuccessFactors Extensibility service.
+> The SAP SuccessFactors Extensibility service is availble for the EU-only access regions. See [Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions).
 
 SAP BTP offers a standard way for extending SAP solutions.
 

@@ -93,9 +93,9 @@ The timeout parameters follow the following descending order of priority:
     >      .......... 
     >      parameters: 
     >         upload-timeout: 100 
-    >    stage-timeout: 50 
+    >         stage-timeout: 50 
     >         start-timeout: 60 
-    >    task-execution-timeout:120 
+    >         task-execution-timeout:120 
     > ```
 
 3.  **Global-Level Parameters:** 

@@ -33,7 +33,7 @@ Overall, Infrastructure as Code brings the principles and practices of software 
 
 ## Infrastructure as Code with the Terraform Provider for SAP BTP 
 
-There is an open-source solution for using IaC for SAP BTP: The **Terraform Provider for SAP BTP**. It focuses on administration capabilities within SAP BTP global accounts. For example, it lets you manage subaccounts and directories, entitlements, environment instances, subaciptions, service instances and bindings, users and role collections, and trust configurations to custom identity providers.
+There is an open-source solution for using IaC for SAP BTP: The **Terraform Provider for SAP BTP**. It focuses on administration capabilities within SAP BTP global accounts. For example, it lets you manage subaccounts and directories, entitlements, environment instances, subscriptions, service instances and bindings, users and role collections, and trust configurations to custom identity providers.
 
 
 

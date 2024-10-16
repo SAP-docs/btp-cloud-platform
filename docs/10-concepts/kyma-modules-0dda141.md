@@ -166,6 +166,31 @@ Application Connector allows you to connect with external solutions. No matter i
 <tr>
 <td valign="top">
 
+*Eventing*
+
+`eventing`
+
+</td>
+<td valign="top">
+
+Eventing provides functionality to publish and subscribe to CloudEvents.
+
+At the moment, the SAP Event Mesh default plan and NATS are supported. If you choose NATS, add the NATS module.
+
+</td>
+<td valign="top">
+
+-   [Configure SAP Event Mesh for Kyma Eventing](../30-development/configure-sap-event-mesh-for-kyma-eventing-407d126.md)
+-   [kyma-project.io: Eventing module](https://kyma-project.io/#/eventing-manager/user/README)
+-   [GitHub repository: Eventing](https://github.com/kyma-project/eventing-manager) 
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Keda*
 
 `keda`
@@ -178,7 +203,29 @@ The Keda module comes with Keda Manager, an extension to Kyma that allows you to
 </td>
 <td valign="top">
 
--   [kyma-project.io: Keda module](https://kyma-project.io/#/keda-manager/user/README)
+-   [Keda Module](../30-development/keda-module-2f69be2.md)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*NATS*
+
+`nats`
+
+</td>
+<td valign="top">
+
+NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend for Kyma Eventing.
+
+</td>
+<td valign="top">
+
+-   [kyma-project.io: NATS module](https://kyma-project.io/#/nats-manager/user/README)
+-   [GitHub repository: NATS](https://github.com/kyma-project/nats-manager)
 
 
 
@@ -223,56 +270,9 @@ The Telemetry module collects application logs and distributed traces for your a
 </td>
 <td valign="top">
 
--   [Kyma Telemetry Module](../30-development/kyma-telemetry-module-87ec550.md)
+-   [Telemetry Module](../30-development/telemetry-module-87ec550.md)
 -   [What's New for Telemetry](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma%20Runtime&locale=en-US&version=Cloud&Valid_as_Of=2023-09-08%3A2099-12-31&q=Telemetry#top)
 -   [GitHub repository: Telemetry](https://github.com/kyma-project/telemetry-manager)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*NATS*
-
-`nats`
-
-</td>
-<td valign="top">
-
-NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend for Kyma Eventing.
-
-</td>
-<td valign="top">
-
--   [kyma-project.io: NATS module](https://kyma-project.io/#/nats-manager/user/README)
--   [GitHub repository: NATS](https://github.com/kyma-project/nats-manager)
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Eventing*
-
-`eventing`
-
-</td>
-<td valign="top">
-
-Eventing provides functionality to publish and subscribe to CloudEvents.
-
-At the moment, the SAP Event Mesh default plan and NATS are supported. If you choose NATS, add the NATS module.
-
-</td>
-<td valign="top">
-
--   [Configure SAP Event Mesh for Kyma Eventing](../30-development/configure-sap-event-mesh-for-kyma-eventing-407d126.md)
--   [kyma-project.io: Eventing module](https://kyma-project.io/#/eventing-manager/user/README)
--   [GitHub repository: Eventing](https://github.com/kyma-project/eventing-manager) 
 
 
 

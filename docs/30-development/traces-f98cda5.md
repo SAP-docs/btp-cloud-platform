@@ -495,7 +495,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 -   **Unavailability of Output**: For up to 5 minutes, a retry for data is attempted when the destination is unavailable. After that, data is dropped.
 
--   **No Guaranteed Delivery**: The used buffers are volatile. If the OTel collector instance crashes, trace data can be lost.
+-   **No Guaranteed Delivery**: The used buffers are volatile. If the OTel Collector instance crashes, trace data can be lost.
 
 -   **Multiple TracePipeline Support**: The maximum amount of `TracePipeline` resources is 3.
 
@@ -523,7 +523,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Remedy**:
 
-1.  Check the `telemetry-trace-collector` Pods for error logs by calling `kubectl logs -n kyma-system {POD_NAME}`.
+1.  Check the `telemetry-trace-gateway` Pods for error logs by calling `kubectl logs -n kyma-system {POD_NAME}`.
 
 2.  Check if the backend is up and reachable.
 
@@ -545,7 +545,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Remedy**:
 
-1.  Check the `telemetry-trace-collector` Pods for error logs by calling `kubectl logs -n kyma-system {POD_NAME}`. Also, check your observability backend to investigate potential causes.
+1.  Check the `telemetry-trace-gateway` Pods for error logs by calling `kubectl logs -n kyma-system {POD_NAME}`. Also, check your observability backend to investigate potential causes.
 
 2.  If the backend is limiting the rate by refusing spans, try the options desribed in [Gateway Buffer Filling Up](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/f98cda5d058e48ff808ade541a64a6ad.html?locale=en-US&state=DRAFT&version=Internal#subsection_troubleshoot_bufferfillingup).
 
@@ -630,5 +630,5 @@ If you just want to see traces for one particular request, you can manually forc
 
 **Cause**: Gateway cannot receive spans at the given rate.
 
-**Remedy**: Manually scale out the gateway by increasing the number of replicas for the Trace collector. See [Module Configuration and Status](telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_configuration).
+**Remedy**: Manually scale out the gateway by increasing the number of replicas for the trace gateway. See [Module Configuration and Status](telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_configuration).
 

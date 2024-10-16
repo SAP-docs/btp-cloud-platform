@@ -32,7 +32,7 @@ Depending on your use case, there are different templates that help you set up t
 
 -   Simplified Business Eventing template
 
-    Integration dependencies are exposed as available event subscriptions in SAP Event Broker. This template helps you write simplified integration dependencies that identify the types of events a subscribing application wants to consume. Here's an example. Let's say SAP SuccessFactors publishes a set of events. You want to receive a subset of those events. You can use the *Simplified Business Eventing Template* to identify the event types that SAP Event Broker makes available to your subscribing system.
+    Integration dependencies are exposed as available event subscriptions in SAP Cloud Application Event Hub. This template helps you write simplified integration dependencies that identify the types of events a subscribing application wants to consume. Here's an example. Let's say SAP SuccessFactors publishes a set of events. You want to receive a subset of those events. You can use the *Simplified Business Eventing Template* to identify the event types that SAP Cloud Application Event Hub makes available to your subscribing system.
 
 
 <a name="loio030b4c59ae6f4c19aa50274a4999e68f"/>
@@ -47,7 +47,7 @@ Depending on your use case, there are different templates that help you set up t
 
 ## Prerequisites
 
-You have a system of type *Other System Type* or *SAP BTP Application* listed in the *System Landscape* page of your global account in SAP BTP. See [Registering a Third-Party System](registering-a-third-party-system-5481d59.md).
+You have a system of type *Other System Type* or *SAP BTP Application* listed in the *Systems* page of your global account in SAP BTP. See [Registering a Third-Party System](registering-a-third-party-system-5481d59.md).
 
 
 
@@ -96,20 +96,20 @@ Integration dependencies contain aspects. An aspect contains a set of APIs and/o
 
 ## Prerequisites
 
--   An SAP Cloud system is registered in System Landscape and has a catalog of events that it plans to publish. Refer to the product documentation for the publishing system for more details. For example, an SAP SuccessFactors system can be configured to publish events. See [SAP Event Broker Service Guide: Integration Use Cases](https://help.sap.com/docs/event-broker/event-broker-service-guide/integration-use-cases?version=Cloud).
+-   An SAP Cloud system is registered in the *Systems* page in SAP BTP cockpit and has a catalog of events that it plans to publish. Refer to the product documentation for the publishing system for more details. For example, an SAP SuccessFactors system can be configured to publish events. See [SAP Cloud Application Event Hub Service Guide: Integration Use Cases](https://help.sap.com/docs/event-broker/event-broker-service-guide/integration-use-cases?version=Cloud).
 
-    The SAP system you plan to use as the subscriber is registered in System Landscape. If you want to use SAP Integration Suite integration flows to consume events from SAP Event Broker, then the tenant with the integration flow must be registered in System Landscape. See [Integration Example using SAP Integration Suite](https://help.sap.com/docs/event-broker/event-broker-service-guide/integration-example-using-sap-integration-suite-iflows?version=Cloud).
+    The SAP system you plan to use as the subscriber is registered in the *Systems* page. If you want to use SAP Integration Suite integration flows to consume events from SAP Cloud Application Event Hub, then the tenant with the integration flow must be registered in the *Systems* page. See [Integration Example using SAP Integration Suite](https://help.sap.com/docs/event-broker/event-broker-service-guide/integration-example-using-sap-integration-suite-iflows?version=Cloud).
 
--   Your subscribing system is listed in the *System Landscape* page of your global account in SAP BTP.
+-   Your subscribing system is listed in the *Systems* page of your global account in SAP BTP.
 
-    For example, you have a system of type *SAP Integration Suite* listed in the *System Landscape*. It appears as auto-discovered.
+    For example, you have a system of type *SAP Integration Suite* listed in the *Systems* page. It appears as auto-discovered.
 
 
 
 
 ## Context
 
-You can subscribe to events with extension applications. For example, you use SAP SuccessFactors to publish events and an Integration Suite tenant to consume them. The SAP SuccessFactors system is publishing these events and you add the event types that you want this system to receive using the *Simplified Business Eventing Template* of the integration dependencies. Integration dependencies are exposed as available event subscriptions in SAP Event Broker. The *Simplified Business Eventing Template* helps you write simplified integration dependencies specifying only event-specific information.
+You can subscribe to events with extension applications. For example, you use SAP SuccessFactors to publish events and an Integration Suite tenant to consume them. The SAP SuccessFactors system is publishing these events and you add the event types that you want this system to receive using the *Simplified Business Eventing Template* of the integration dependencies. Integration dependencies are exposed as available event subscriptions in SAP Cloud Application Event Hub. The *Simplified Business Eventing Template* helps you write simplified integration dependencies specifying only event-specific information.
 
 
 
@@ -121,7 +121,7 @@ You can subscribe to events with extension applications. For example, you use SA
 
 3.  In the *Integration Dependencies* tab, choose *Add*.
 
-4.  Select *Simplified Business Eventing Template* to identify the system that is publishing events and add the event types that you want to receive. Integration dependencies are exposed as available event subscriptions in SAP Event Broker.
+4.  Select *Simplified Business Eventing Template* to identify the system that is publishing events and add the event types that you want to receive. Integration dependencies are exposed as available event subscriptions in SAP Cloud Application Event Hub.
 
 5.  Define a name and a description for the new integration dependency.
 

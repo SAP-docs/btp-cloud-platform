@@ -627,7 +627,11 @@ To choose a `binary_buildpack`, define it by using the following:
 
 > ### Sample Code:  
 > ```
-> 
+> modules:
+>   - name: my-binary-app
+>     type: custom
+>     parameters:
+>       buildpack: binary_buildpack
 > ```
 
 
@@ -700,6 +704,42 @@ The name of the application in the Cloud Foundry environment to be deployed for 
 `node-hello-world`
 
 `com.sap.xs2.samples.xsjshelloworld.node-hello-world`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`apply-namespace`
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Applies namespace to the application name. When you set `apply-namespace` to the application name and do not specify `apply-namespace` for its route, the namespace is applied to both the application name and its route. If the `namespace` value is not provided in the CLI options, it is not applied. For more information, see [Fine-Grained Configuration](experimental-namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+```
+modules:
+- name: java
+     ...
+  parameters:
+	apply-namespace: true 
+   
+```
+
+
 
 </td>
 </tr>
@@ -1430,33 +1470,6 @@ n/a
 <td valign="top">
 
 `health-check-invocation-timeout:16`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`upload-timeout`
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-The application upload timeout in seconds
-
-</td>
-<td valign="top">
-
-3600
-
-</td>
-<td valign="top">
-
-`upload-timeout: 1800`
 
 </td>
 </tr>

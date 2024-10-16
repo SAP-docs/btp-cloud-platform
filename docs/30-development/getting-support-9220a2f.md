@@ -40,7 +40,7 @@ Application Router
 </td>
 <td valign="top">
 
-BC-XS-APR
+BC-CP-APR
 
 </td>
 </tr>

@@ -2,7 +2,7 @@
 
 # Configure the Access Logs of an Application
 
-The SAP Java Buildpack uses the *logback-access* module to provide HTTP-access log functionality.
+SAP Java Buildpack uses the *logback-access* module to provide HTTP-access log functionality.
 
 
 
@@ -19,9 +19,11 @@ The SAP Java Buildpack uses the *logback-access* module to provide HTTP-access l
 
 ## Context
 
-The access logs differ slightly from the other logs and traces. There are many standard tools available that read access logs from any server, display them, calculate statistics and so on. That's why the format of the access log produced by Tomcat and TomEE 7 is not SAP-specific. The default pattern defined in the configuration file is `"%date "%r" %s %b"`.
+The access logs differ slightly from the other logs and traces. There are many standard tools available that read access logs from any server, display them, calculate statistics and so on. That's why the format of the access log produced by Tomcat and TomEE 7 is not SAP-specific. The default pattern defined in the configuration file is **`"%date "%r" %s %b"`**.
 
-To find the access log files of your application, you have to connect via SSH to the Cloud Foundry container and go to the `logs` directory.
+To find the access log files of your application, you have to connect via SSH to the SAP BTP, Cloud Foundry container and go to the **`logs`** directory.
+
+To change the default access log settings, follow the steps below.
 
 
 
@@ -29,7 +31,7 @@ To find the access log files of your application, you have to connect via SSH to
 
 1.  Modify the default configuration.
 
-    SAP Java buildpack uses LogbackValve to configure access logs in Tomcat and TomEE 7. The following environment variables are used in the configuration file and can be overwritten:
+    SAP Java Buildpack uses `LogbackValve` to configure access logs in Tomcat and TomEE 7. The following environment variables are used in the configuration file and can be overwritten:
 
     -   *<ACCESS\_LOG\_FILE\>*
     -   *<ACCESS\_LOG\_FILE\_COUNT\>*
@@ -38,7 +40,7 @@ To find the access log files of your application, you have to connect via SSH to
 
 2.  \(Optional\) Change the name of the access log files.
 
-    By default access logs are placed in the application container in the `logs/access.log` file. You can configure the directory containing this file and the name of the files – with the environment variable `ACCESS_LOG_FILE`. To do that, define the full path to the desired directory and the file name. For example:
+    By default, access logs are placed in the application container in the `logs/access.log` file. You can configure the directory containing this file, as well as the name of the files by using environment variable `ACCESS_LOG_FILE`. To do that, define the full path to the desired directory and the file name. For example:
 
     ```
     env:
@@ -65,21 +67,23 @@ To find the access log files of your application, you have to connect via SSH to
 
 5.  \(Optional\) Change the format of the HTTP access log
 
-    You can change the default format and have your access logs written differently. The SAP Java buildpack uses the *Resource configuration* functionality to allow this. Changing the `pattern` attribute in the configuration file of Tomcat and TomEE 7 is supported. The application has to provide the new value via the JBP\_CONFIG mechanism:
+    You can change the default format and have your access logs written differently. SAP Java Buildpack uses the *resource configuration* functionality to allow this. Changing the `pattern` attribute in the configuration file of Tomcat and TomEE 7 is supported. The application has to provide the new value via the JBP\_CONFIG\_RESOURCE\_CONFIGURATION mechanism.
 
-    -   Changing the format of the access log for Tomcat:
+    -   For SAP Java Buildpack 1:
 
         ```
         env:
         JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/conf/logback-access-localhost.xml':{'logback.access.log.xs.pattern' : 'combined'}]"
         ```
 
-    -   Changing the format of the access log for TomEE 7:
+    -   For SAP Java Buildpack 2:
 
         ```
         env:
-        JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomee7/conf/logback-access-localhost.xml':{'logback.access.log.xs.pattern' : 'combined'}]"
+        JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/conf/logback-access-localhost.xml':{'logback.access.log.pattern' : 'combined'}]"
         ```
 
+
+    **NOTE:** If you use an Apache TomEE container, the configuration is the same – just replace `tomcat` with **`tomee`**.
 
 

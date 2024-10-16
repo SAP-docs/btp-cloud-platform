@@ -1,12 +1,12 @@
 <!-- loio6c4feeae9fa84269aed1140d1b2725d3 -->
 
-# Prerequisites for Maintaining Client Certificates
+# Using Client Certificate Authentication with SAP BTP Destination Service
 
-To enable client certificate-based authentication in SAP Cloud Platform ABAP Environment, the following prerequisites have to be met:
+To enable client certificate-based authentication in SAP BTP, ABAP environment, the following prerequisites have to be met:
 
 
 
-SAP Cloud Platform Cockpit:
+:
 
 
 

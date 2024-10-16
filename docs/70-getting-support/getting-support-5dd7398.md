@@ -40,7 +40,7 @@ Before you report a case, ensure the following:
 Make sure that you've the latest versions of the tools you're using \(recommended\), or at least the versions you're using are still supported. For more information, see [SAP Development Tools](https://tools.hana.ondemand.com/).
 
 > ### Note:  
-> Trial users \(without an S-user\) can ask for support by posting a question in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html). However, they should first check for answers in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html) and [Guided Answers](https://ga.support.sap.com/dtp/viewer/#/tree/2065/actions/26547).
+> Trial users can ask for support by posting a question in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html). However, they should first check for answers in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html) and [Guided Answers](https://ga.support.sap.com/dtp/viewer/#/tree/2065/actions/26547).
 
 
 

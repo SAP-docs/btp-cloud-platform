@@ -22,9 +22,7 @@ Use `btp --help` to display an overview of all commands. If new commands are ava
 
 ## I cannot log on
 
-The btp CLI is part of our cloud management tools feature set B. This means that you can only access a global account that uses this feature set B. For example, all trial accounts are on feature set B. For more information, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
-
-To log on, we recommend to run `btp login --sso` or `btp login` without parameters. Then confirm the server URL that is proposed by the CLI and provide tyour credentials when you are prompted. After successful authentication, the btp CLI will log you into your global account, or, if you have more than one, will show all available global accounts for you to select the one you need.
+To log on, we recommend to run `btp login --sso` or `btp login` without parameters. Then confirm the server URL that is proposed by the CLI and provide your credentials when you are prompted. After successful authentication, the btp CLI will log you into your global account, or, if you have more than one, will show all available global accounts for you to select the one you need.
 
 To log on with SAP Universal ID, you need to use the `--sso` parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
 

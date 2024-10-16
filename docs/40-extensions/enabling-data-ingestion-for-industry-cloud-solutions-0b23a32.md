@@ -15,7 +15,7 @@ SAP’s industry cloud provides specialized industry-focused solutions to help y
 
 Data ingestion for industry cloud solutions allows supported industry cloud solutions to consume data from a shared data foundation instead of integrating with the source systems individually. This helps to simplify solution implementation, increase operational visibility, and improve data quality. For a list of all industry cloud solutions published by SAP that support data ingestion, see [Data Integration Overview](https://help.sap.com/docs/DI_ICS/925366f331c54ee88e2b61ddae0be9fc/88da41cc955e49f1b7080e882bae36d4.html).
 
-To set up on SAP BTP systems that support data ingestion and are part of the industry cloud solutions published by SAP, you need to include them in a formation of type *Data Ingestion for Industry Cloud Solutions*. When you create a new formation of type *Data Ingestion for Industry Cloud Solutions*, a system of type *Data Ingestion for Industry Cloud Solutions* is automatically added to the *Systems* list and included in this formation.
+To set up on SAP BTP systems that support data ingestion and are part of the industry cloud solutions published by SAP, you need to include them in a formation of type *Data Ingestion for Industry Cloud Solutions*. When you create a new formation of type *Data Ingestion for Industry Cloud Solutions*, a system of type *Data Ingestion for Industry Cloud Solutions* is automatically added to the *System Landscape* \> *Systems* page and included in this formation.
 
 
 
@@ -48,9 +48,9 @@ You are a global account administrator, or you are a system landscape administra
 
 ## Procedure
 
-1.  In the *System Landscape* page of the SAP BTP cockpit, in the *Systems* list, browse the already added systems that are part of the industry cloud solutions published by SAP in your customer system landscape.
+1.  In the *System Landscape* \> *Systems* page of the SAP BTP cockpit, browse the already added systems that are part of the industry cloud solutions published by SAP in your customer system landscape.
 
-2.  Create a formation of type *Data Ingestion for Industry Cloud Solutions* and include the relevant systems in it.
+2.  In the *System Landscape* \> *Formations* page, create a formation of type *Data Ingestion for Industry Cloud Solutions* and include the relevant systems in it.
 
     1.  Add any name that helps you identify your formation.
 

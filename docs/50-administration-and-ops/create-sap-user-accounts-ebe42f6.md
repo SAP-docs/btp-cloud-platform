@@ -35,5 +35,5 @@ The Web site registers you with SAP Universal ID, which also registers you with 
 
 [Default Identity Provider](default-identity-provider-d6a8db7.md "SAP ID service is the default identity provider for both platform users and business users (in applications) at SAP BTP. You can start using it without further configuration.")
 
-[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
+[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "")
 

@@ -90,19 +90,19 @@ or
 </td>
 <td valign="top">
 
-This is the card on the right; it provides information relating to your cloud-credit usage and costs per month relative to your total cloud credits for the current contract phase. It also shows your monthly trend of cloud-credit usage and costs.
+This is the card on the right; it provides information relating to your cloud-credit usage and costs per month relative to your total cloud credits for the current cloud credits period. It also shows your monthly trend of cloud-credit usage and costs.
 
 This card is displayed only if your global account uses either the SAP BTPEA or CPEA flavor of the consumption-based commercial model.
 
 Use the *Usage* and *Costs* buttons in this card to switch the view between usage and cost information.
 
-In this card, you'll see warnings if you're approaching or exceeded your cloud credit limit for the current contract phase. Any overages are billed at list price, so make sure to contact SAP if you need more cloud credits.
+In this card, you'll see warnings if you're approaching or exceeded your cloud credit limit for the current cloud credits period. Any overages are billed at list price, so make sure to contact SAP if you need more cloud credits.
 
 Note the following:
 
--   Cloud-credit usage and cost information is displayed for the current contract phase only. The total contract duration is split into contract phases \(usually one year each\) and the total cloud credits are divided between these phases.
+-   Cloud-credit usage and cost information is displayed only for the current cloud credits period. The total contract duration is split into cloud credit periods \(typically one year each\) and the total cloud credits are divided between these periods.
 -   Your cloud credit balance is calculated each month by deducting the corresponding costs of all SAP BTP services for the previous month.
--   If your global account has received a cloud-credit refund at any time during the current contract phase, you may see a difference between your total usage/costs and the monthly usage/costs in the chart.
+-   If your global account has received a cloud-credit refund at any time during the current cloud credits period, you may see a difference between your total usage/costs and the monthly usage/costs in the chart.
 
 
 
@@ -622,7 +622,7 @@ Consumption-Based
 </td>
 <td valign="top">
 
-Provides general information about your global account. If there is a cloud-credit balance for the global account, then its cloud-credit usage, per month as a percentage of your total cloud credits for the current contract phase, is also shown.
+Provides general information about your global account. If there is a cloud-credit balance for the global account, then its cloud-credit usage, per month as a percentage of your total cloud credits for the current cloud credits period, is also shown.
 
 </td>
 <td valign="top">
@@ -762,5 +762,5 @@ Yes
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
-[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-featur-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
+[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 

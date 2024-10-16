@@ -11642,6 +11642,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   Brazil \(São Paulo\)
+-   Singapore
 
 
 

@@ -22,13 +22,13 @@ You need to configure the entitlements for the SAP Event Mesh service to create 
 
 2.  In the navigation area, choose *Entitlements* \> *Entity Assignments*.
 
-3.  On the *Entity Assignments* screen, select your subaccount in the*Select Entities* field.
+3.  On the *Entity Assignments* screen, select your subaccount in the *Subaccounts/Directories* field.
 
-4.  Choose *Go*, and then choose *Configure Entitlements*.
+4.  Choose *Edit*, and then choose *Add Service Plans*.
 
-5.  Choose *Add Service Plans*, and then select the *SAP Event Mesh* service.
+5.  Select the *SAP Event Mesh* service.
 
-6.  In the *Available Service Plans* area, select the system you have registered and the *default* service plan, and then choose *Add Service Plan*.
+6.  In the *Service Details* area, select the system you have registered. In the *Available Plans* area, select the *default* service plan, and then choose *Add Service Plan*.
 
 7.  Choose *Save*.
 

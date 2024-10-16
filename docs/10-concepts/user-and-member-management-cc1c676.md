@@ -2,7 +2,7 @@
 
 # User and Member Management
 
-On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.
+On SAP BTP, user management takes place at all levels from global account to environment. There are different types of users, such as depending on their roles in the company.
 
 
 
@@ -41,5 +41,5 @@ For more information, see [Platform Users](platform-users-4401316.md) and [Busin
 
 [Attributes](../50-administration-and-ops/attributes-713f52a.md "Attributes use information that is specific to the user, for example the user's country. If the application developer in the Cloud Foundry environment of SAP BTP has created a country attribute to a role, this restricts the data a business user can see based on this attribute.")
 
-[Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
+[Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md "")
 

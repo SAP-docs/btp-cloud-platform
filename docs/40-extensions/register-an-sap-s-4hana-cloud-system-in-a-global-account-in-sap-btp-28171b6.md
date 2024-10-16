@@ -29,7 +29,7 @@ The registration process is based on a registration token that is used for the p
 > ### Note:  
 > When registering SAP S/4HANA Cloud systems, you can have up to 1000 tokens per global account ready to be used. Tokens that are already used to register an SAP S/4HANA Cloud system are not included in this number.
 > 
-> This means that you cannot have more than 1000 systems in the *Systems* list of type SAP S/4HANA Cloud with an empty status and generated token that is not used yet.
+> This means that you cannot have more than 1000 systems in the *Systems* page of type SAP S/4HANA Cloud with an empty status and generated token that is not used yet.
 
 > ### Note:  
 > You cannot migrate the registered SAP S/4HANA Cloud systems between global accounts.

@@ -1,11 +1,8 @@
 <!-- loiobf2b3043d0474ea0a2c11c0390460d85 -->
 
-# Monitoring Usage Information Using APIs of the SAP Usage Data Management Service \[Feature Set B\]
+# Monitoring Usage Information Using APIs of the SAP Usage Data Management Service 
 
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
-
-Provides information about using the *Resource Consumption* APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.
+Provides information about using the *Resource Consumption* APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing. 
 
 The service accumulates the information and provides reports in SAP BTP cockpit via APIs for resource planning and cross-billing purposes.
 

@@ -11,10 +11,10 @@
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-Systems that are included in *Eventing Between SAP Cloud Systems* formations on the *System Landscape* page of the SAP BTP cockpit can publish and consume events. The process of publishing and consuming events is in fact an exchange of event information across the customer system landscape and is driven by the system formations on the one hand side and the SAP Event Broker on the other.
+Systems that are included in *Eventing Between SAP Cloud Systems* formations on the *System Landscape* page of the SAP BTP cockpit can publish and consume events. The process of publishing and consuming events is in fact an exchange of event information across the customer system landscape and is driven by the system formations on the one hand side and the SAP Cloud Application Event Hub on the other.
 
 > ### Note:  
-> By creating a formation of type *Eventing Between SAP Cloud Systems*, you understand that there may be event distribution charges incurred if you exceed the free quota limit when using SAP Event Broker. To learn more about usage and consumption costs, see [Usage and Consumption Costs](https://help.sap.com/docs/event-broker/event-broker-service-guide/usage-and-consumption-costs?version=Cloud).
+> By creating a formation of type *Eventing Between SAP Cloud Systems*, you understand that there may be event distribution charges incurred if you exceed the free quota limit when using SAP Cloud Application Event Hub. To learn more about usage and consumption costs, see [Usage and Consumption Costs](https://help.sap.com/docs/event-broker/event-broker-service-guide/usage-and-consumption-costs?version=Cloud).
 
 
 
@@ -35,7 +35,7 @@ When creating *Eventing Between SAP Cloud Systems* formations, keep in mind the 
 
 -   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   You have subscribed to the SAP Event Broker application. See [Subscribing to SAP Event Broker Application](https://help.sap.com/docs/SAP_EMKS/19cb7423096b476d940924799c9e8f5a/53f34cca6bf74610836585e6af9b3745.html).
+-   You have subscribed to the SAP Cloud Application Event Hub application. See [Subscribing to SAP Cloud Application Event Hub Application](https://help.sap.com/docs/SAP_EMKS/19cb7423096b476d940924799c9e8f5a/53f34cca6bf74610836585e6af9b3745.html).
 
 
 
@@ -46,7 +46,7 @@ When creating *Eventing Between SAP Cloud Systems* formations, keep in mind the 
 
 The following procedure outlines the steps you need to perform to enable the exchange of events across the systems within the system landscape.
 
-1.  In the SAP BTP cockpit, in the *System Landscape* page of the SAP BTP cockpit, in the *Systems* list, browse the already added systems in your customer system landscape or manually add and register any missing systems.
+1.  In the SAP BTP cockpit, in the *System Landscape* \> *Systems* page of the SAP BTP cockpit, browse the already added systems in your customer system landscape or manually add and register any missing systems.
 
     The customer landscape features systems that are added to the list in one of the following ways:
 
@@ -64,7 +64,7 @@ The following procedure outlines the steps you need to perform to enable the exc
 
 
     > ### Note:  
-    > If a given SAP system is missing on the *System Landscape* page, it may be associated with a different customer ID on the SAP BTP global account you are working in. In this case, you need to add the system manually, and then, register it.
+    > If a given SAP system is missing on the *Systems* page, it may be associated with a different customer ID on the SAP BTP global account you are working in. In this case, you need to add the system manually, and then, register it.
 
     See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
@@ -74,12 +74,12 @@ The following procedure outlines the steps you need to perform to enable the exc
 
     2.  In the *Formation Type* dropdown menu, select *Eventing Between SAP Cloud Systems*.
 
-    3.  Select the systems that you want to include in the formation. One of these systems must be of type *SAP Event Broker*.
+    3.  Select the systems that you want to include in the formation. One of these systems must be of type *SAP Cloud Application Event Hub*.
 
         > ### Note:  
         > Systems can only be added to one formation of type *Eventing Between SAP Cloud Systems* in a global account.
         > 
-        > Also, a formation of type *Eventing Between SAP Cloud Systems* can contain only one system of type *SAP Event Broker*.
+        > Also, a formation of type *Eventing Between SAP Cloud Systems* can contain only one system of type *SAP Cloud Application Event Hub*.
 
     4.  Review your selections and create the formation.
 
@@ -91,7 +91,7 @@ The following procedure outlines the steps you need to perform to enable the exc
 
 ## Next Steps
 
-When the formation is created, navigate to the SAP Event Broker application and enable the event subscriptions. See [Enabling SAP Event Subscriptions](https://help.sap.com/docs/event-broker/event-broker-service-guide/enable-subscriptions?version=Cloud).
+When the formation is created, navigate to the SAP Cloud Application Event Hub application and enable the event subscriptions. See [Enabling SAP Event Subscriptions](https://help.sap.com/docs/event-broker/event-broker-service-guide/enable-subscriptions?version=Cloud).
 
 
 
@@ -99,5 +99,5 @@ When the formation is created, navigate to the SAP Event Broker application and 
 
 ## Remove a System from the Formation
 
-If you want to remove an SAP system from a formation of type *Eventing Between SAP Cloud Systems*, make sure that all active event subscriptions are disabled first in SAP Event Broker. You can check your subscriptions in the SAP Event Broker application on the *Subscriptions* page. See [Disabling SAP Event Subscriptions](https://help.sap.com/docs/event-broker/event-broker-service-guide/disable-event-subscriptions?version=Cloud).
+If you want to remove an SAP system from a formation of type *Eventing Between SAP Cloud Systems*, make sure that all active event subscriptions are disabled first in SAP Cloud Application Event Hub. You can check your subscriptions in the SAP Cloud Application Event Hub application on the *Subscriptions* page. See [Disabling SAP Event Subscriptions](https://help.sap.com/docs/event-broker/event-broker-service-guide/disable-event-subscriptions?version=Cloud).
 

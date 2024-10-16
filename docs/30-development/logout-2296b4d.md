@@ -37,7 +37,7 @@ Description
 <tr>
 <td valign="top">
 
-`logoutPath`
+`logoutEndpoint`
 
 </td>
 <td valign="top">

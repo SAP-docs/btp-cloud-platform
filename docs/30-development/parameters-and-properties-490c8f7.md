@@ -101,6 +101,66 @@ Example
 <tr>
 <td valign="top">
 
+```
+
+apply-namespace:
+	app-names: true/false
+	service-names: true/false
+	app-routes: true/false
+	as-suffix: true/false
+											
+```
+
+
+
+</td>
+<td valign="top">
+
+Global
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Applies namespace to application names \(app-names\), service names \(service-names\), application routes \(app-routes\) as suffix or prefix \(as-suffix\). If the namespace value is not provided in the CLI options, it is not applied.
+
+See [Fine-Grained Configuration](experimental-namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
+
+> ### Note:  
+> This applies to all applications.
+
+
+
+</td>
+<td valign="top">
+
+true
+
+</td>
+<td valign="top">
+
+```
+
+parameters:
+	apply-namespace:
+		app-names: true
+		service-names: true
+		app-routes: false
+		as-suffix: true
+											
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `apps-stage-timeout`
 
 </td>
@@ -254,6 +314,11 @@ Write
 Defines how long, in seconds, you can upload your application binary before the MTA operation times out.
 
 See [Application-Specific Timeouts](applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc) .
+
+> ### Note:  
+> This applies to all applications.
+
+
 
 </td>
 <td valign="top">

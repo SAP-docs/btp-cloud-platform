@@ -84,3 +84,24 @@ Note that the protocol value must be `http1` or `http2` and must be included in 
 >     protocol: http2
 > ```
 
+
+
+<a name="loio53daaafe8f8345fc9b8497b86d17c9d9__section_mpm_dwl_xcc"/>
+
+## Deploy applications to a route with a namespace
+
+To bind an application to a route with a namespace, use the `routes` and `apply-namespace` parameters. When the value of the `apply-namespace` parameter is set to `true`, a prefix with the namespace value will be added to the route.
+
+> ### Sample Code:  
+> ```
+> routes:
+>         - route: host1.some-domain.com
+>           apply-namespace: true
+>         - route: host2.some-domain.com
+>           apply-namespace: false
+> ```
+
+If you don't explicitly set the `apply-namespace` parameter for a specific route, its value will be determined by the application's `apply-namespace` parameter. This means that if the application has a namespace defined, that namespace will also be applied to the bound route. Conversely, if the application does not have a namespace, the route will not have one either.
+
+For more information, see [Fine-Grained Configuration](experimental-namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
+

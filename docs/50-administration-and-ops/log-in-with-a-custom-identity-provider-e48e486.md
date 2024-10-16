@@ -42,7 +42,7 @@ To learn how to configure trust to a custom identity provider, see [Establish Tr
 
 [Establish Trust and Federation of Custom Identity Providers for Platform Users](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.")
 
-[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
+[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "")
 
 [Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
 

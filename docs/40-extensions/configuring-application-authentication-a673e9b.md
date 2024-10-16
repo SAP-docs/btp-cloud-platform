@@ -46,7 +46,7 @@ You need your own application router that connects your extension application to
 **Related Information**  
 
 
-[Establish Trust and Federation with UAA Using Any SAML Identity Provider](../50-administration-and-ops/establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio2ce3938c66d94479848bff3090999027 "To establish trust, configure the trust configuration of the SAML 2.0 identity provider in your subaccount using the SAP BTP cockpit. Next, register your subaccount in User Account and Authentication service using the administration console of your SAML 2.0 identity provider. To complete federation, maintain the federation attributes of the SAML 2.0 user groups. This makes sure that you can assign authorizations to user groups.")
+[Establish Trust and Federation with UAA Using Any SAML Identity Provider](../50-administration-and-ops/establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio2ce3938c66d94479848bff3090999027 "Integrate trust between the SAP BTP subaccount and any SAML 2.0 identity provider.")
 
 [Authentication for Applications](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/09f5bd3f346b4ee08b5ca084128e2e81.html)
 

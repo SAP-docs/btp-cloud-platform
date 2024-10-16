@@ -100,7 +100,7 @@ The following technical configurations are specific to SAP BTP and differ from t
 
 -   SAP BTP supports the Cloud Foundry API version 3. The Cloud Foundry API v2 has been deprecated and is no longer supported. For more information, see [https://v3-apidocs.cloudfoundry.org/](https://v3-apidocs.cloudfoundry.org/).
 
--   On SAP BTP, the Cloud Foundry API is protected by a rate limit against misuse. The limit is in the range of a few 10k requests per hour per user on average. Starting in April 2023, the rate limit for the deprecated Cloud Foundry API v2 will be decreased and eventually reach the range of a few hundred requests per hour per user.
+-   On SAP BTP, the Cloud Foundry API is protected by a rate limit against misuse. The limit is in the range of a few 10k requests per hour per user on average. The rate limit for the deprecated Cloud Foundry API v2 is in the range of a few hundred requests per hour per user.
 
 -   In addition to the general rate limit on the Cloud Foundry API, requests for certain API endpoints related to services face a separate limit on concurrent requests. The Cloud Foundry API responds with HTTP status code `429` if a rate limit is reached and provides a Retry-After Header suggesting when the client can attempt a retry. For more information, see [https://docs.cloudfoundry.org/running/rate-limit-cloud-controller-api.html\#Rate%20Limit%20Responses:%20Service%20Brokers](https://docs.cloudfoundry.org/running/rate-limit-cloud-controller-api.html#Rate%20Limit%20Responses:%20Service%20Brokers).
 
@@ -114,7 +114,7 @@ The following technical configurations are specific to SAP BTP and differ from t
 
 -   In the SAP BTP, Cloud Foundry environment, an internal HTTP `keep-alive` is set to 90s. A higher value must be set on application-side to avoid intermittent disruptions. For more information, see step 4 of [3406978](https://me.sap.com/notes/3406978).
 
--   In the Cloud Foundry environment, there’s a logging rate limit to guard against malicious applications. If this limit is exceeded, additional logs from the application instance are dropped and a warning message is injected into the application instance’s log stream every second. This message also contains the exact log rate limit.
+-   In the Cloud Foundry environment, there’s a logging rate limit to guard against malicious applications. By default, the limit is 4000 logs per second per application instance, but in exceptional high load scenarios it may be lowered by the platform. If this limit is exceeded, additional logs from the application instance are dropped and a warning message is injected into the application instance’s log stream every second. This message also contains the exact current log rate limit.
 
 -   Applications requiring sent envelopes to be delivered to external Log Management Services should use the Cloud Foundry syslog drain capability. See [https://docs.cloudfoundry.org/devguide/services/log-management.html](https://docs.cloudfoundry.org/devguide/services/log-management.html).
 
@@ -197,7 +197,7 @@ The SAP BTP Cloud Foundry environment follows these recommendations to support h
 
     For more information on high availability configuration, see [High Availability in Cloud Foundry](https://docs.cloudfoundry.org/concepts/high-availability.html#overview).
 
-    For more information on application stability and resilience, see  <?sap-ot O2O class="- topic/xref " href="b1b929a5aea64571b2f74e810b622568.xml" text="" desc="" xtrc="xref:9" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/b6a7e11c3a58416a9ab1175bba17193a.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+    For more information on application stability and resilience, see [Developing Resilient Applications](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/b1b929a5aea64571b2f74e810b622568.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
 
 <a name="loio1c6cba872ce24f2ba24f53feb6dbce6d"/>
@@ -739,7 +739,7 @@ This plan is only for using the SAP BTP, Cloud Foundry runtime as part of SAP Bu
 
 ## Metrics
 
-The table below provides details about the metrics for SAP BTP, Cloud Foundry runtime. It includes the names of services, with which the metrics are associated on the pages *Usage* accessed from the global account level\) and *Usage Analytics* \(accessed from the subaccount level\) in the SAP BTP cockpit.
+The table below provides details about the metrics for SAP BTP, Cloud Foundry runtime. It includes the names of services, with which the metrics are associated on the pages *Usage* \(accessed from the global account level\) and *Usage Analytics* \(accessed from the subaccount level\) in the SAP BTP cockpit.
 
 
 <table>

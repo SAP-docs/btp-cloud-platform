@@ -28,7 +28,7 @@ The registration process is based on a registration token that is used for the p
 > ### Note:  
 > When registering SAP Marketing Cloud systems, you can have up to 1000 tokens per global account ready to be used. Tokens that are already used to register an SAP Marketing Cloud system are not included in this number.
 > 
-> This means that you cannot have more than 1000 systems in the *Systems* list of type SAP Marketing Cloud with an empty status and generated token that is not used yet.
+> This means that you cannot have more than 1000 systems in the *Systems* page of type SAP Marketing Cloud with an empty status and generated token that is not used yet.
 
 The registration process has the following states displayed in the cockpit:
 

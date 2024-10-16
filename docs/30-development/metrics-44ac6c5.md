@@ -504,7 +504,131 @@ spec:
 
 
 
-### 5. Activate Runtime Metrics
+### 5. Monitor Pipeline Health
+
+By default, a `MetricPipeline` emits metrics about the health of all pipelines managed by the Telemetry module. Based on these metrics, you can track the status of every individual pipeline and set up alerting for it.
+
+**Metrics for Pipelines and the Telemetry Module**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Metric
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+Availability
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`kyma.resource.status.conditions`
+
+</td>
+<td valign="top">
+
+Value represents status of different conditions reported by the resource. Possible values are *1* \(“True”\), *0* \(“False”\), and *\-1* \(other status values\)
+
+</td>
+<td valign="top">
+
+Available for both, the pipelines and the Telemetry resource
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`kyma.resource.status.state`
+
+</td>
+<td valign="top">
+
+Value represents the state of the resource \(if present\)
+
+</td>
+<td valign="top">
+
+Available for the Telemetry resource
+
+</td>
+</tr>
+</table>
+
+**Metric Attributes for Monitoring**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Attribute
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`metric.attributes.Type`
+
+</td>
+<td valign="top">
+
+Type of the condition
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`metric.attributes.status`
+
+</td>
+<td valign="top">
+
+Status of the condition
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`metric.attributes.reason`
+
+</td>
+<td valign="top">
+
+Contains a programmatic identifier indicating the reason for the condition's last transition
+
+</td>
+</tr>
+</table>
+
+To set up alerting, use an alert rule. In the following example, the alert is triggered if metrics are not delivered to the backend:
+
+```
+min by (k8s_resource_name) ((kyma_resource_status_conditions{type="TelemetryFlowHealthy",k8s_resource_kind="metricpipelines"})) == 0
+
+```
+
+
+
+### 6. Activate Runtime Metrics
 
 To enable collection of runtime metrics, define a `MetricPipeline` that has the `runtime` section enabled as input:
 
@@ -524,55 +648,188 @@ spec:
 
 ```
 
-The agent configures the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kubeletstatsreceiver) for the metric groups `pod` and `container`. With that, system metrics related to containers and Pods are collected.
+By default, container and Pod metrics are collected.
 
-If you want to disable the collection of the Pod or container metrics, define the `resources` section in the `runtime` input.
+To enable or disable the collection of metrics for a specific resource, use the `resources` section in the `runtime` input.
 
--   The following example drops the runtime Pod metrics and only collects runtime container metrics:
+The following example collects only the Pod metrics:
 
-    ```
-    apiVersion: telemetry.kyma-project.io/v1alpha1
-    kind: MetricPipeline
-    metadata:
-      name: backend
-    spec:
-      input:
-        runtime:
+```
+apiVersion: telemetry.kyma-project.io/v1alpha1
+kind: MetricPipeline
+metadata:
+  name: backend
+spec:
+  input:
+    runtime:
+      enabled: true
+      resources:
+        pod:
           enabled: true
-          resources:
-            pod:
-              enabled: false
-      output:
-        otlp:
-          endpoint:
-            value: https://backend.example.com:4317
-    
-    ```
+        container:
+          enabled: false
+        node:
+          enabled: false
+  output:
+    otlp:
+      endpoint:
+        value: https://backend.example.com:4317
 
--   The following example drops the runtime container metrics and only collects runtime Pod metrics:
+```
 
-    ```
-    apiVersion: telemetry.kyma-project.io/v1alpha1
-    kind: MetricPipeline
-    metadata:
-      name: backend
-    spec:
-      input:
-        runtime:
-          enabled: true
-          resources:
-            container:
-              enabled: false
-      output:
-        otlp:
-          endpoint:
-            value: https://backend.example.com:4317
-    ```
+**Collected Metrics per Resource Type**
 
 
+<table>
+<tr>
+<th valign="top">
+
+With Pod Metrics Enabled
+
+</th>
+<th valign="top">
+
+With Container Metrics Enabled
+
+</th>
+<th valign="top">
+
+With Node Metrics Enabled
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+From the kubletstatsreceiver:
+
+-   k8s.pod.cpu.capacity
+
+-   k8s.pod.cpu.usage
+
+-   k8s.pod.filesystem.available
+
+-   k8s.pod.filesystem.capacity
+
+-   k8s.pod.filesystem.usage
+
+-   k8s.pod.memory.available
+
+-   k8s.pod.memory.major\_page\_faults
+
+-   k8s.pod.memory.page\_faults
+
+-   k8s.pod.memory.rss
+
+-   k8s.pod.memory.usage
+
+-   k8s.pod.memory.working\_set
+
+-   k8s.pod.network.errors
+
+-   k8s.pod.network.io
 
 
-### 6. Activate Istio Metrics
+
+
+</td>
+<td valign="top">
+
+From the kubletstatsreceiver:
+
+-   container.cpu.time
+
+-   container.cpu.usage
+
+-   container.filesystem.available
+
+-   container.filesystem.capacity
+
+-   container.filesystem.usage
+
+-   container.memory.available
+
+-   container.memory.major\_page\_faults
+
+-   container.memory.page\_faults
+
+-   container.memory.rss
+
+-   container.memory.usage
+
+-   container.memory.working\_set
+
+
+
+
+</td>
+<td valign="top">
+
+From the kubletstatsreceiver:
+
+-   k8s.node.cpu.usage
+
+-   k8s.node.filesystem.available
+
+-   k8s.node.filesystem.capacity
+
+-   k8s.node.filesystem.usage
+
+-   k8s.node.memory.available
+
+-   k8s.node.memory.usage
+
+-   k8s.node.network.errors
+
+-   k8s.node.network.io
+
+-   k8s.node.memory.rss
+
+-   k8s.node.memory.working\_set
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+From the k8sclusterreceiver:
+
+-   k8s.pod.phase
+
+
+
+
+</td>
+<td valign="top">
+
+From the k8sclusterreceiver:
+
+-   k8s.container.cpu\_request
+
+-   k8s.container.cpu\_limit
+
+-   k8s.container.memory\_request
+
+-   k8s.container.memory\_limit
+
+
+
+
+</td>
+<td valign="top">
+
+\-
+
+</td>
+</tr>
+</table>
+
+
+
+### 7. Activate Istio Metrics
 
 To enable collection of Istio metrics, define a `MetricPipeline` that has the `istio` section enabled as input:
 
@@ -596,7 +853,7 @@ With this, the agent starts collecting all Istio metrics from Istio sidecars.
 
 
 
-### 7. Deactivate OTLP Metrics
+### 8. Deactivate OTLP Metrics
 
 By default, `otlp` input is enabled.
 
@@ -624,7 +881,7 @@ With this, the agent starts collecting all Istio metrics from Istio sidecars, an
 
 
 
-### 8. Add Filters
+### 9. Add Filters
 
 To filter metrics by namespaces, define a `MetricPipeline` that has the `namespaces` section defined in one of the inputs. For example, you can specify the namespaces from which metrics are collected or the namespaces from which metrics are dropped. Learn more about the available [parameters and attributes](https://kyma-project.io/#/telemetry-manager/user/resources/05-metricpipeline).
 
@@ -682,7 +939,7 @@ To filter metrics by namespaces, define a `MetricPipeline` that has the `namespa
 
 
 
-### 9. Activate Diagnostic Metrics
+### 10. Activate Diagnostic Metrics
 
 If you use the `prometheus` or `istio` input, for every metric source typical scrape metrics are produced, such as `up`, `scrape_duration_seconds`, `scrape_samples_scraped`, `scrape_samples_post_metric_relabeling`, and `scrape_series_added`.
 
@@ -736,7 +993,7 @@ If you want to use them for debugging and diagnostic purposes, you can activate 
 
 
 
-### 10. Deploy the Pipeline
+### 11. Deploy the Pipeline
 
 To activate the `MetricPipeline`, apply the `metricpipeline.yaml` resource file in your cluster:
 

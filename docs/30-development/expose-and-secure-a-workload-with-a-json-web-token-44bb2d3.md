@@ -12,7 +12,7 @@ Learn how to expose a workload and secure it with a JSON Web Token \(JWT\). To g
 
 -   You have an SAP Cloud Identity Services - Identity Authentication tenant.
 
--   You have created an OpenID Connect Application in your Identity Authenticationtenant. See [Create OpenID Connect Application for JWT Bearer Flow](https://help.sap.com/docs/identity-authentication/identity-authentication/configure-apps-create-openid-connect-application-for-jwt-bearer-flow?version=Cloud).
+-   You have created an OpenID Connect Application in your Identity Authentication tenant. See [Create OpenID Connect Application for JWT Bearer Flow](https://help.sap.com/docs/identity-authentication/identity-authentication/configure-apps-create-openid-connect-application-for-jwt-bearer-flow?version=Cloud).
 
 -   You have configured a Secret for API Authentication and saved the values of Client ID and Client Secret. See [Configure Secrets for API Authentication](https://help.sap.com/docs/identity-authentication/identity-authentication/dev-configure-secrets-for-api-authentication?version=Cloud).
 -   You have the default Istio and API Gateway modules in your cluster.

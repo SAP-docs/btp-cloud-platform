@@ -32,16 +32,16 @@ A registered SAP S/4HANA Cloud system in the SAP BTP cockpit can expose consumpt
 
 The following procedure outlines the steps you need to perform to consume the APIs of registered SAP S/4HANA Cloud systems within the SAP Business Application Studio.
 
-1.  In the *System Landscape* page of SAP BTP cockpit, in the *Systems* tab, add and then register an SAP system of type *SAP S/4HANA Cloud*.
+1.  In the *System Landscape* \> *Systems* page of SAP BTP cockpit, add and then register an SAP system of type *SAP S/4HANA Cloud*.
 
-    To expose information about its APIs and events and show this information on the *System Landscape* page, an SAP system of type *SAP S/4HANA Cloud* must be registered in the SAP BTP cockpit. Only when registered, the system communicates information about its APIs and other technical details across the landscape. See [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md).
+    To expose information about its APIs and events and show this information on the *Systems* page, an SAP system of type *SAP S/4HANA Cloud* must be registered in the SAP BTP cockpit. Only when registered, the system communicates information about its APIs and other technical details across the landscape. See [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md).
 
-2.  In the *Formations* tab, create a formation of type *Developing with SAP Business Application Studio* and include the SAP Business Application Studio system and the SAP S/4HANA Cloud systems you want to expose in SAP Business Application Studio.
+2.  In the *System Landscape* \> *Formations* page, create a formation of type *Developing with SAP Business Application Studio* and include the SAP Business Application Studio system and the SAP S/4HANA Cloud systems you want to expose in SAP Business Application Studio.
 
     > ### Note:  
     > In the formation type *Developing with SAP Business Application Studio*, you can include only SAP systems of type *SAP Business Application Studio* and *SAP S/4HANA Cloud*.
 
-    To enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *System Landscape* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
+    To enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *Systems* page of SAP BTP cockpit and the SAP Business Application Studio, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 
 3.  Create a destination and make sure it has the corresponding system and consumption bundle properties.
 
@@ -116,7 +116,7 @@ The following procedure outlines the steps you need to perform to consume the AP
         </tr>
         </table>
         
-        All of the required properties of a given SAP S/4HANA Cloud system are accessible in the corresponding *System Details* section on the *System Landscape* page. See [Create a Destination](../30-development/create-a-destination-3fa7934.md) and [Configuring the Extension Application's Connectivity to SAP S/4HANA Cloud](configuring-the-extension-application-s-connectivity-to-sap-s-4hana-cloud-ef4b7ca.md).
+        All of the required properties of a given SAP S/4HANA Cloud system are accessible in the corresponding *System Details* section on the *Systems* page. See [Create a Destination](../30-development/create-a-destination-3fa7934.md) and [Configuring the Extension Application's Connectivity to SAP S/4HANA Cloud](configuring-the-extension-application-s-connectivity-to-sap-s-4hana-cloud-ef4b7ca.md).
 
     -   Create a destination automatically.
 

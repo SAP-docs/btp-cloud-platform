@@ -106,7 +106,11 @@ In the MSC app simply refresh the branch table to see the new branch. You can pr
 
 ### Deleting a Software Component
 
-Deleting a software component in the SCLM app will unlink the component to the remote repository but will not delete the remote repository that resides in your chosen git provider. The local software component will be deleted and releasing transport requests will no longer be possible. Deleting the software component is an irreversible action. To delete the component simply proceed by clicking on the *Delete* button.
+Deleting a software component in the *Manage Software Components* app with the default settings will only delete the local representation of the software component in the ABAP system instance. Releasing transport requests will no longer be possible.
+
+Selecting the *Unregister Repository* option will additionally unlink the remote repository from the software component and delete the software component completely from your global account.
+
+Deleting the software component is an irreversible action, so be sure to first delete the software component on all system instances where it is cloned. To delete the component, simply proceed by clicking *Delete* in the dialog. The remote Git repository will not be deleted, but it can't be used again with the existing software component you are trying to delete. Additionally, it can't be linked to new software components.
 
 
 

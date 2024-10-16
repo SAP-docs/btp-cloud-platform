@@ -56,7 +56,7 @@ For those who prefer to work with command-line tools, the Kyma runtime also offe
 
 ## SAP Cloud Application Programming Model
 
-The SAP Cloud Application Programming Model \(CAP\) is the recommended framework for application and service development in the Kyma runtime. To learn more, see [SAP Cloud Application Programming Model](../10-concepts/sap-cloud-application-programming-model-042061d.md).
+The SAP Cloud Application Programming Model \(CAP\) is the recommended framework for application and service development in the Kyma runtime. To learn more, see [Programming Models](../10-concepts/programming-models-042061d.md).
 
 
 

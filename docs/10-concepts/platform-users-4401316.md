@@ -2,7 +2,7 @@
 
 # Platform Users
 
-**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP. They’re the users that have full access and give certain permissions, for instance, at global account, directory, or subaccount level. Members only have basic access.
+**Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot accounts, applications and services on SAP BTP. They’re the users that have full access and give certain permissions, for instance, at global account, directory, or subaccount level. Members only have basic access.
 
 Platform users who have administrative permissions can view or manage the list of global accounts, subaccounts, and environments, such as Cloud Foundry orgs and spaces. Members have basic access to them using the SAP BTP cockpit, the SAP BTP command-line interface \(btp CLI\), or environment-specific CLI, such as the Cloud Foundry \(CF\) CLI.
 

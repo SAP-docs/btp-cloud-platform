@@ -1098,7 +1098,7 @@ If you've enabled environments in your subaccount, manage the roles for those en
 **Related Information**  
 
 
-[User and Member Management](user-and-member-management-cc1c676.md "On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.")
+[User and Member Management](user-and-member-management-cc1c676.md "On SAP BTP, user management takes place at all levels from global account to environment. There are different types of users, such as depending on their roles in the company.")
 
 [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md "As an administrator, you group application roles in role collections. You then assign role collections to application users.")
 

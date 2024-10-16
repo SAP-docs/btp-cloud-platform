@@ -214,14 +214,14 @@ Tool
 <tr>
 <td valign="top">
 
-Use an existing role or create a new one using role templates
+Assign the role collection to the users provided by an identity provider
 
-[Add Roles to Role Collections on the Application Level](../50-administration-and-ops/add-roles-to-role-collections-on-the-application-level-7596a0b.md)
+[Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md) or [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
 
 </td>
 <td valign="top">
 
-Administrator of the Cloud Foundry environment
+Account administrator
 
 </td>
 <td valign="top">
@@ -235,14 +235,14 @@ Command line interface for SAP BTP
 <tr>
 <td valign="top">
 
-Create a role collection and assign roles to it
+\(If you do use a custom identity provider\) Assign the role collections to user groups
 
-[Define a Role Collection](../50-administration-and-ops/define-a-role-collection-4b20383.md)
+[Map Role Collections to User Groups](../50-administration-and-ops/map-role-collections-to-user-groups-51acfc8.md) or [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
 
 </td>
 <td valign="top">
 
-Administrator of the Cloud Foundry environment
+Account administrator
 
 </td>
 <td valign="top">
@@ -258,12 +258,12 @@ Command line interface for SAP BTP
 
 Assign the role collections to users and user groups, manage attribute mappings
 
-[Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md) or [Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md)
+[Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md) or [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
 
 </td>
 <td valign="top">
 
-Administrator of the Cloud Foundry environment
+Account administrator
 
 </td>
 <td valign="top">
@@ -277,33 +277,35 @@ Command line interface for SAP BTP
 <tr>
 <td valign="top">
 
-\(If you do not use `SAP ID Service`\) Assign the role collections to user groups
+Create a role collection and assign roles to it
 
-[Map Role Collections to User Groups](../50-administration-and-ops/map-role-collections-to-user-groups-51acfc8.md)
+[Define a Role Collection](../50-administration-and-ops/define-a-role-collection-4b20383.md) or [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
 
 </td>
 <td valign="top">
 
-Administrator of the Cloud Foundry environment
+Account administrator
 
 </td>
 <td valign="top">
 
 SAP BTP cockpit
 
+Command line interface for SAP BTP
+
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Assign the role collection to the business users provided by an identity provider
+Use an existing role or create a new one using role templates
 
-[Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md)
+[Add Roles to Role Collections on the Application Level](../50-administration-and-ops/add-roles-to-role-collections-on-the-application-level-7596a0b.md) or [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
 
 </td>
 <td valign="top">
 
-Administrator of the Cloud Foundry environment
+Account administrator
 
 </td>
 <td valign="top">

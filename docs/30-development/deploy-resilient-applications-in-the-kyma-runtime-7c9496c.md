@@ -24,7 +24,7 @@ To develop resilient applications deployed on Kubernetes, use:
 
 -   [Resource quotas](https://kubernetes.io/docs/concepts/policy/resource-quotas/) to prevent resource starvation and ensure fair resource allocation.
 
--   The [Kyma Telemetry Module](kyma-telemetry-module-87ec550.md) to configure a logging and monitoring solution to identify and troubleshoot issues in real time.
+-   The [Telemetry Module](telemetry-module-87ec550.md) to configure a logging and monitoring solution to identify and troubleshoot issues in real time.
 
 
 

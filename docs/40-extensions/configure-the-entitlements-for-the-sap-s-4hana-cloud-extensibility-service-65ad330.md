@@ -33,19 +33,21 @@ An entitlement is your right to provision and consume a resource. In other words
 
 2.  In the navigation area, choose *Entitlements* \> *Entity Assignments*.
 
-3.  On the *Entity Assignments* screen, select your subaccount in the*Select Entities* field.
+3.  On the *Entity Assignments* screen, select your subaccount in the *Subaccounts/Directories* field.
 
-4.  Choose *Go*, and then choose *Configure Entitlements*.
+4.  Choose *Edit*, and then choose *Add Service Plans*.
 
-5.  Choose *Add Service Plans*, and then select the *SAP S/4HANA Cloud Extensibility* service.
+5.  Select the *SAP S/4HANA Cloud Extensibility* service.
 
     > ### Note:  
     > To have the *SAP S/4HANA Cloud Extensibility* service in the list, you need to have registered at least one SAP S/4HANA Cloud system.
 
-6.  In the *Available Service Plans* area, select the system you have registered and the required service plans, and then choose *Add Service Plan*.
+6.  In the *Service Details* area, select the system you have registered. In the *Available Plans* area, select the required service plans, and then choose *Add Service Plan*.
 
     > ### Note:  
     > For more information about the available service plans for SAP S/4HANA Cloud Extensibility service, see [Supported Service Plans for SAP S/4HANA Cloud](supported-service-plans-for-sap-s-4hana-cloud-925c00a.md).
+
+7.  Choose *Save*.
 
 
 **Related Information**  

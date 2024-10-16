@@ -33,7 +33,7 @@ When creating *Integration with SAP Integration Suite* formations, keep in mind 
 -   You have a subscription to SAP Integration Suite. See[Subscribing and Configuring Initial Access to SAP Integration Suite](https://help.sap.com/docs/integration-suite/sap-integration-suite/subscribing-to-integration-suite?version=CLOUD).
 
     > ### Note:  
-    > Every time you create a subscription to a new SAP Integration Suite tenant, the system type for the tenant is automatically defined as “SAP Integration Suite”.
+    > Every time you create a subscription to a new SAP Integration Suite tenant, the system type for the tenant is automatically defined as SAP Integration Suite.
 
 
 
@@ -44,11 +44,11 @@ When creating *Integration with SAP Integration Suite* formations, keep in mind 
 
 The following procedure outlines the steps you need to perform to consume the APIs of registered SAP S/4HANA Cloud systems within SAP Integration Suite.
 
-1.  Add and then register an SAP system of type *SAP S/4HANA Cloud* in the *System Landscape* page of SAP BTP cockpit.
+1.  Add and then register an SAP system of type *SAP S/4HANA Cloud* in the *System Landscape* \> *Systems* page of SAP BTP cockpit.
 
-    To expose information about its APIs and events and show this information on the *System Landscape* page, an SAP system of type *SAP S/4HANA Cloud* must be registered in the SAP BTP cockpit. Only when registered, the system communicates information about its APIs and other technical details across the landscape. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
+    To expose information about its APIs and events and show this information on the *Systems* page, an SAP system of type *SAP S/4HANA Cloud* must be registered in the SAP BTP cockpit. Only when registered, the system communicates information about its APIs and other technical details across the landscape. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
 
-2.  Create a formation of type *Integration with SAP Integration Suite* and include the SAP S/4HANA Cloud systems you want to expose to SAP Integration Suite. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
+2.  In the *System Landscape* \> *Formations*page, create a formation of type *Integration with SAP Integration Suite* and include the SAP S/4HANA Cloud systems you want to expose to SAP Integration Suite. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 
     > ### Note:  
     > In the formation type *Integration with SAP Integration Suite*, you can include only SAP systems of type *SAP S/4HANA Cloud*.

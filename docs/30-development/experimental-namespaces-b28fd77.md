@@ -7,6 +7,7 @@ Use this feature to prevent conflicts for applications deriving from the same MT
 > ### Restriction:  
 > -   This feature is experimental. We advise you first try it out in a non-productive environment.
 > -   The namespace can only be passed as an argument to the deployment call, and cannot be modelled directly in the descriptor.
+> -   The namespace cannot be longer than 36 characters.
 
 
 
@@ -26,7 +27,7 @@ By using the namespaces feature, you can deploy and operate a single multitarget
 
 The feature is employed by adding the parameter `--namespace`, when you input the deployment command in the Cloud Foundry Command Line Interface \(CF CLI\), and by modifying the deployment descriptor as described below. Using a more detailed configuration, you can include or exclude specific resources from having the namespace feature applied to them, namely:
 
--   services
+-   resources
 -   modules
 -   routes.
 
@@ -34,117 +35,184 @@ When set so, the excluded resources are shared among all namespaces of this MTA 
 
 
 
+<a name="loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc"/>
+
+## Fine-Grained Configuration
+
+You can configure the application of namespaces at different levels according to your needs. When the same `apply-namespace` parameter is configured in several places for one MTA deployment, a certain order of priority applies. This order provides flexibility if you want to set a namespace for all applications, application routes, and services that are part of the MTA, but at the same time, you need to define a specific namespace for a particular application, application route, or service.
+
+The priority for `apply-namespace` parameters in descending order is the following:
+
+1.  **Operation parameters / Command-Line Options \(Highest Priority\)**
+
+    Operation parameters passed during the MTA deployment have the highest priority. If you provide an `apply-namespace` parameter as a command-line option, it overrides any other parameters defined in the MTA descriptor. Operation parameters apply to all applications.
+
+    There are four available options for applying a namespace:
+
+    -   `--apply-namespace-app-names true/false`: Applies namespace to application names.
+    -   `--apply-namespace-service-names true/false`: Applies namespace to service names.
+    -   `--apply-namespace-app-routes true/false`: Applies namespace to application routes.
+    -   `--apply-namespace-as-suffix true/false`: Applies namespace either as prefix or suffix.
+
+    **Example:**
+
+    When you deploy using the command `cf deploy … --namespace test --apply-namespace-app-names true --apply-namespace-service-names false --apply-namespace-app-routes true`, all application names and application routes will have the prefix '`test-`'. Service names will remain unchanged, as specified by the `--apply-namespace-service-names false` option. Other `apply-namespace` parameters will not affect this configuration.
+
+    If you use the command `cf deploy … --apply-namespace-app-names true --apply-namespace-service-names false --apply-namespace-app-routes true` without the '`--namespace`' option, the `apply-namespace` options will be ignored.
+
+    For more information about `apply-namespace` options, refer to the **Command Options Overview** table in [deploy](https://help.sap.com/docs/btp/sap-business-technology-platform/multitarget-application-commands-for-cloud-foundry-environment?version=Cloud#deploy).
+
+2.  **Module-Level and Resource-Level Parameters**
+
+    If no command-line argument is provided, the module-level and resource-level parameters are considered next.
+
+    **Example**:
+
+    > ### Sample Code:  
+    > ```
+    > 
+    > modules: 
+    >   - name: java
+    >     ...........
+    >     parameters: 
+    >       apply-namespace: true
+    >       routes:
+    >      	- route: host.some-domain.com
+    >      	  apply-namespace: true
+    > resources:
+    >   - name: my-service
+    >     ...........
+    >     parameters:
+    >       apply-namespace: false
+    >         
+    > ```
+
+3.  **Global-Level Parameters**
+
+    If neither command-line options nor module-level parameter are provided, the global parameters are used. Global parameters are applicable for all applications.
+
+    > ### Sample Code:  
+    > ```
+    > 
+    > parameters: 
+    >   apply-namespace:
+    >     app-names: true
+    >     service-names: false
+    >     app-route: true
+    >         
+    > ```
+
+4.  **Default Values**
+
+    If you don't provide any of the above mentioned parameters, the application will use the predefined default values. When you set the '`--namespace`' option, the default value is `true`, otherwise, it's `false`.
+
+
+
+
 <a name="loiob28fd77836d44bde8c404618bf0f1228__section_nln_mdd_4nb"/>
 
-## Procedure
+## Examples
 
-To deploy several entities of a multitarget application using namespaces, proceed as follows:
+To deploy several entities of a multitarget application using namespaces, follow these steps:
 
-1.  \(Optional\) Descriptor modifications are not required, but you can consider using one or both of the following options:
-    1.  You can specify to which route the `apply-namespace` prefix should not be applied:
+1.  Using the CF CLI, deploy the initial MTA archive by using the command **`cf deploy ./MyMTA.mtar`** with the descriptor given below:
 
-        > ### Sample Code:  
-        > ```
-        > modules: 
-        >   - name: appA
-        >     type: java.tomee
-        >     path: application.war
-        >     parameters: 
-        >       routes: 
-        >         - route: application.${default-domain}
-        >         - route: route-without-namespace.${default-domain}
-        >           apply-namespace: false
-        > ```
+    > ### Sample Code:  
+    > ```
+    > 
+    > modules:							
+    >   - name: appA
+    >     type: java.tomee
+    >     path: application.war
+    >     requires:
+    >       - name: service
+    >     parameters:
+    >       routes:
+    >       - route: appA.${default-domain}
+    >       - route: route-without-namespace.${default-domain}
+    >   - name: appB
+    >     type: java.tomee
+    >     path: application.war
+    > resources:
+    >   - name: service
+    > ```
 
-    2.  You can set `apply-namespace` to not be applied on the module, but to be applied to a specified route:
+    The result should match the image below:
 
-        > ### Sample Code:  
-        > ```
-        > modules: 
-        >   - name: appA
-        >     type: java.tomee
-        >     path: application.war
-        >     parameters: 
-        >       routes: 
-        >         - route: application.${default-domain}
-        >         - route: route-with-namespace.${default-domain}
-        >           apply-namespace: true
-        >     apply-namespace: false
-        > ```
+    ![](images/MTA_example_no_namespace_db12793.png)
+
+2.  Deploy again the MTA archive by using the command **`cf deploy ./MyMTA.mtar --namespace foo`** with the same descriptor. The result should match the image shown below:
+
+    ![](images/mta_foo_namespace_example_e40bee4.png)
+
+    If you bind 'appA' to 'appA.my-domain.com', the system automatically binds 'foo-appA' to 'foo-appA.my-domain.com' upon deployment. If 'appA' requires a service instance called 'service', 'foo-appA' binds to a different service instance named 'foo-service'.
+
+    There are also other ways to achieve this result, for example:
+
+    -   Deploy using the `cf deploy` command with the following options:
+
+        ```
+        cf deploy ./MyMTA.mtar --namespace foo --apply-namespace-app-names true --apply-namespace-service-names true --apply-namespace-app-routes true
+        ```
+
+        This command deploys the MTA archive 'MyMTA.mtar' and applies the namespace 'foo' to the application names, service names, and application routes.
+
+    -   Set global parameters in the deployment descriptor:
+
+        If you don't have operation parameters or module-level and resource-level parameters, you can set the global parameters in the deployment descriptor to `true`. This approach produces the same result as using the `cf deploy` command with the namespace options.
 
 
-2.  Using the CF CLI, deploy the initial MTA archive by using the following command:
+    Both methods ensure that the namespace is applied consistently across application names, service names, and application routes during the deployment process.
+
+3.  Deploy again the MTA archive by using the command **`cf deploy ./MyMTA.mtar --namespace foo`** with the given descriptor below:
+
+    > ### Sample Code:  
+    > ```
+    > 
+    > modules:							
+    >   - name: appA
+    >     type: java.tomee
+    >     path: application.war
+    >     requires:
+    >       - name: service
+    >     parameters:
+    >       routes:
+    >       - route: appA.${default-domain}
+    >         apply-namespace: true
+    >   - name: appB
+    >     type: java.tomee
+    >     path: application.war
+    >     parameters:
+    >       apply-namespace: false
+    > resources:
+    >   - name: service
+    >     parameters:
+    >       apply-namespace: true
+    > ```
+
+    The result matches the image below:
+
+    ![](images/mta_namespace_foo_2_example_01aee51.png)
+
+    The deployment automatically binds 'foo-appA' to 'foo-appA.my-domain.com'.
+
+    If the descriptor contains:
 
     ```
-    $ cf deploy ./MyMTA.mtar
+    
+    routes:
+      - route: appA.${default-domain}
+        apply-namespace: false
     ```
 
-3.  \(Optional\) Check the deployment by inspecting the applications and details. Use the commands:
-
-    ```
-    $ cf app
-    ```
-
-    ```
-    $ cf mtas
-    ```
-
-    ```
-    $ cf mta MyMTA
-    ```
-
-4.  For each subsequent deployment of the same MTA archive, use the following command:
-
-    ```
-    $ cf deploy ./MyMTA.mtar --namespace <your namespace>
-    ```
-
-5.  \(Optional\) Check whether your subsequent deployments have not removed the original MTA deployment:
-
-    ```
-    $ cf app
-    ```
-
-    ```
-    $ cf mtas
-    ```
-
-    ```
-    $ cf mta MyMTA --namespace <your namespace>
-    ```
-
-6.  Validate your deployments by calling their exposed web endpoints:
-
-    ```
-    $ cf app | grep '^appA'
-    ```
-
-    ```
-    $ cf app | grep '^<your namespace>-appA'
-    ```
-
-    1.  when using a route without a namespace `curl https://route-without-namespace.<domain>`
-    2.  when using a route with a namespace `curl https://<your namespace>-route-with-namespace.<domain>`
-
-
-You might have one of the following results, depending on your usage
-
--   ![](images/MTA_namespaces_01_image_3b94992.png)
-
-    -   This image shows an MTA deployed in the same space - once without a namespace \(default behaviour\), and once with the namespace `foo`. The second deployment creates applications `foo-appA` and `foo-appB` from modules `appA` and `appB` and service instance `foo-service` from resource `service`
-    -   If `appA` is bound to `appA.my-domain.com`, then `foo-appA` is automatically bound to `foo-appA.my-domain.com` upon deployment
-    -   If `appA` requires service instance `service` then `foo-appA` is bound to a different service instance called `foo-service`.
-
--   ![](images/MTA_namespaces_02_image_932794a.png)
-
-    In the image above, the third MTA is deployed in the namespace `bar`, but with `appA` and `service` having the `apply-namespace` parameter set to `false`. This enables the MTAs to share `appA` and `service` between eachother. Therefore the application and the service are not recreated. However they are detected as part of the latest deployed MTA because their metadata is updated.
+    then 'foo-appA' automatically binds to 'appA.my-domain.com' upon deployment instead.
 
 
 
 
 <a name="loiob28fd77836d44bde8c404618bf0f1228__section_x22_m3d_4nb"/>
 
-## Special use: sharing one resource among several MTAs using namespaces
+## Special Use: Sharing One Resource Among Several MTAs Using Namespaces
 
 You can use deployment with namespaces in a way that only one of the resources receives a namespace. To do so, you use the parameter `apply-namespace` in the MTA deployment descriptor follows, and then deploy by using the procedure above. The deployment result should be as follows:
 

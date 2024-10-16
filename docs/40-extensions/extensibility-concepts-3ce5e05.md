@@ -10,9 +10,9 @@ When implementing your extensibility scenario, there are a couple of concepts yo
 
 ## Systems
 
-A system is a specific instance of an SAP or third-party solution that is manually added or auto discovered and is listed in the SAP BTP cockpit.
+A system is a specific instance of an SAP or third-party solution that is manually added or auto discovered and is listed in the *System Landscape* \> *Systems* page in the SAP BTP cockpit.
 
-When you want to add functionality to your SAP or third-party solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP or third-party solution, you add the system of this solution to the *System Landscape* page of the SAP BTP cockpit. If the system is one of the following types, you also have to register it using a registration token:
+When you want to add functionality to your SAP or third-party solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP or third-party solution, you add the system of this solution to the *Systems* page of the SAP BTP cockpit. If the system is one of the following types, you also have to register it using a registration token:
 
 -   SAP S/4HANA Cloud
 
@@ -74,14 +74,14 @@ You can use the URL as an entry point to the corresponding system. Optionally, y
 
 ### Discovery Mechanisms
 
-There are different ways to add systems to the *System Landscape* page in the SAP BTP cockpit: manually or automatically. If a system of your solution is associated with your global account or through a subscription in SAP BTP cockpit associated with a given subaccount, it will appear in the list automatically. Otherwise, you have to add your system manually. Systems are added to the list in one of the following ways:
+There are different ways to add systems to the *Systems* page in the SAP BTP cockpit: manually or automatically. If a system of your solution is associated with your global account or through a subscription in SAP BTP cockpit associated with a given subaccount, it will appear in the list automatically. Otherwise, you have to add your system manually. Systems are added to the list in one of the following ways:
 
 **Auto-Discovered**
 
 An auto-discovered system is a system \(associated with the given global account\) that has been discovered and added automatically to the list based on information of the existing system landscape. Any SAP system of the supported system types that is associated with the same customer ID, with which your global account in SAP BTP is associated, will be added automatically in the system landscape list.
 
 > ### Note:  
-> If a given SAP system is missing on the *System Landscape* page, it may be associated with a different customer ID on the SAP BTP global account you are working in. In this case, you need to add the system manually, and then, register it.
+> If a given SAP system is missing on the *Systems* page, it may be associated with a different customer ID on the SAP BTP global account you are working in. In this case, you need to add the system manually, and then, register it.
 
 **Subaccount/<my-subaccount\>**
 
@@ -103,7 +103,7 @@ These are the things you can do with a system:
 
 **Adding**
 
-Adding a system to the list in the *System Landscape* page is just the first step of the system registration process. When you have only added a system, the system is not yet registered in the global account in SAP BTP. It appears in the system landscape list as a record with empty \(or initialized\) status. That is, the required configuration on the system side has not been performed, and therefore, the newly added system cannot exchange or expose its technical details, metadata, APIs, or events. Only when the registration process is complete and the system is registered with SAP BTP, it can exchange the relevant information and enable the extension scenario.
+Adding a system to the list in the *Systems* page is just the first step of the system registration process. When you have only added a system, the system is not yet registered in the global account in SAP BTP. It appears in the system landscape list as a record with empty \(or initialized\) status. That is, the required configuration on the system side has not been performed, and therefore, the newly added system cannot exchange or expose its technical details, metadata, APIs, or events. Only when the registration process is complete and the system is registered with SAP BTP, it can exchange the relevant information and enable the extension scenario.
 
 **Registering**
 
@@ -157,7 +157,7 @@ Extension business cases often involve extending several SAP or third-party solu
 -   SAP or third-party systems that expose event data, which can be shared and exchanged with the systems included in the formation.
 
 
-When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP or third-party solutions you want to extend. If your business case features more than one system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
+When creating a formation in the *System Landscape* \> *Formations* page in the SAP BTP cockpit, you include the systems of the different SAP or third-party solutions you want to extend. If your business case features more than one system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
 
 
 

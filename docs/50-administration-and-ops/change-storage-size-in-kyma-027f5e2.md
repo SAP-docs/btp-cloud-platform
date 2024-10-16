@@ -57,5 +57,5 @@ Remember to back up your customer data.
 
 [Kubernetes: Expanding Persistent Volumes Claims](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#expanding-persistent-volumes-claims)
 
-[Kyma Environment Backup](kyma-environment-backup-ab959cf.md "The user load on a Kyma cluster typically consists of various Kubernetes objects and volumes. The object backup process is automated, but you need to take care of volume backups so you can recover your customer data.")
+[Kyma Environment Backup](kyma-environment-backup-ab959cf.md "")
 

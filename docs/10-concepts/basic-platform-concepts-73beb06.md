@@ -169,15 +169,15 @@ For more information, see [Entitlements and Quotas](entitlements-and-quotas-00aa
 
 ## User and Member Management
 
-On SAP BTP, member management takes place at all levels from global account to environment, while user management is relevant for business applications.
+On SAP BTP, user management takes place at all levels from global account to environment. There are different types of users, such as depending on their roles in the company.
 
 **User accounts** enable users to log on to SAP BTP, access subaccounts, and to use applications according to the permissions granted to them. We distinguish between two types of users:
 
 ![Platform and Business Users](images/user-accounts_27c8463.png)
 
--   **Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot applications and services on SAP BTP.
+-   **Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot accounts, applications and services on SAP BTP.
 
--   **Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Workflow service or SAP Cloud Integration, or end users of your custom applications are business users.
+-   **Business users** use the applications that are deployed to SAP BTP. For example, the end users of SaaS apps or services, such as SAP Build Work Zone, or end users of your custom applications are business users.
 
 
 **Member management** refers to managing permissions for platform users. A member is a user who is assigned to an SAP BTP global account or subaccount. Administrators can add users to global accounts and subaccounts and assign roles to them as needed. You can use predefined roles, for example the administrator role for managing subaccount members.
@@ -198,7 +198,7 @@ SAP BTP provides various programming languages and tools for your development pr
 
 -   SAP BTP supports many different programming languages; the availability of each depends on the development environment you're using. For more information, see [Programming Languages](programming-languages-730d82d.md).
 
--   The SAP Cloud Application Programming Model offers a consistent end-to-end programming model that includes languages, libraries, and APIs that are tailored for full-stack development on SAP BTP. For more information, see [SAP Cloud Application Programming Model](sap-cloud-application-programming-model-042061d.md).
+-   The SAP Cloud Application Programming Model offers a consistent end-to-end programming model that includes languages, libraries, and APIs that are tailored for full-stack development on SAP BTP. For more information, see [Programming Models](programming-models-042061d.md).
 
 -   Depending on your use case, you can choose between different offerings for continuous integration and delivery. For more information, see [Continuous Integration and Delivery \(CI/CD\)](continuous-integration-and-delivery-ci-cd-fe74df5.md).
 

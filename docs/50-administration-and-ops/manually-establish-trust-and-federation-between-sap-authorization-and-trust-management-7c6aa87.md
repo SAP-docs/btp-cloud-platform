@@ -54,6 +54,11 @@ The following procedure describes how to establish trust with an SAP Cloud Ident
 > ### Restriction:  
 > Consider the upper limits for trust configurations in the subaccount. See [Limits for the Subaccount](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_ddk_bhf_fzb).
 
+> ### Restriction:  
+> We recommend a single trust configuration per subaccount with SAP Cloud Identity Services using the OpenID Connect \(OIDC\) protocol. If this isn't sufficient, you may use a trust configuration with SAML 2.0.
+> 
+> Nevertheless, we recommend migrating existing SAML 2.0 trusts according to the documentation [Migration from SAML Trust to OpenID Connect Trust with SAP Cloud Identity Services](migration-from-saml-trust-to-openid-connect-trust-with-sap-cloud-identity-services-d097ce2.md).
+
 
 
 ## Procedure

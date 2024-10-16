@@ -12,7 +12,7 @@ You can include various SAP systems into a formation and thus combine diverse SA
 
 -   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   The SAP solution systems that you want to include to a formation must be added at the *Systems* list in the *System Landscape* page. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+-   The SAP solution systems that you want to include to a formation must be added in the *Systems* page. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
 
 
@@ -170,7 +170,7 @@ If you want to reconfigure the systems in a formation from scratch without exclu
         </td>
         <td valign="top">
         
-        Formations of type *Eventing Between SAP Cloud Systems* enable end-to-end communication flow of events between the SAP systems that are included in the given formation. As the name of the formation suggests, the systems transmit information about events using SAP Event Broker. To be able to exchange such events information, the SAP systems must be also visible and configurable in the SAP Event Broker user interface. The formation makes the systems visible in SAP Event Broker, however, it requires a subscription to SAP Event Broker in the corresponding SAP BTP subaccount first.
+        Formations of type *Eventing Between SAP Cloud Systems* enable end-to-end communication flow of events between the SAP systems that are included in the given formation. As the name of the formation suggests, the systems transmit information about events using SAP Cloud Application Event Hub. To be able to exchange such events information, the SAP systems must be also visible and configurable in the SAP Cloud Application Event Hub user interface. The formation makes the systems visible in SAP Cloud Application Event Hub, however, it requires a subscription to SAP Cloud Application Event Hub in the corresponding SAP BTP subaccount first.
 
         See [Enabling Events Exchange Between SAP Cloud Systems](enabling-events-exchange-between-sap-cloud-systems-1592246.md).
         
@@ -234,7 +234,7 @@ If you want to reconfigure the systems in a formation from scratch without exclu
 
 6.  On the *Include Systems* step, select one or more systems that you want to include in the newly created formation, and then, choose *Next Step*.
 
-    The wizard prefilters the systems that were added to the *Systems* tab and are valid for the formation type that you specified at the previous step.
+    The wizard prefilters the systems that were added to the *Systems* page and are valid for the formation type that you specified at the previous step.
 
 7.  On the *Review* step, double check your entries before you create the formation.
 
@@ -256,7 +256,7 @@ If you want to reconfigure the systems in a formation from scratch without exclu
 For systems of type SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Service Management, the access to the corresponding solution's APIs has been enabled. After you have created a formation, you can edit it and change the included systems. The status of each system depends on whether you have registered that system in the global account.
 
 > ### Note:  
-> When you delete a formation, several activities are performed at one go. First, the systems are excluded from the formation. Then, the subaccount is unassigned. Finally, the formation is deleted from the formations list completely.
+> When you delete a formation, several activities are performed at one go. First, the systems are excluded from the formation. Then, the subaccount is unassigned. Finally, the formation is deleted from the *Formations* page completely.
 > 
 > To restore a deleted formation, first you must create it anew, and then, include all of its systems again, one by one.
 

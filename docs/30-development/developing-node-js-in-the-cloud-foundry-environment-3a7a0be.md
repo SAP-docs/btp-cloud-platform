@@ -68,21 +68,35 @@ The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports th
 
 -   Node.js **18** 
 -   Node.js **20**
+-   Node.js **22**
+
+    > ### Restriction:  
+    > Bear in mind that the following listed SAP libraries don't support Node.js 22 yet. Thus, if an application running on Node.js 22 depends on any of them, it will fail during deployment or redeployment:
+    > 
+    > -   `sap/xsenv`
+    > 
+    > -   `sap/textbundle`
+    > 
+    > -   `sap/xss-secure`
+    > 
+    > -   `sap/e2e-trace`
+    > 
+    > -   `sap/audit-logging`
+    > 
+    > -   `sap/instance-manager`
 
 
 
-### Node.js 14 and 16 – end of life
+
+<a name="loio3a7a0bece0d044eca59495965d8a0237__section_gcy_z4m_zcc"/>
+
+## Deprecated Versions
 
 Node.js 14 reached end of life on **April 30, 2023** and was removed from the Cloud Foundry community in [version 1.8.10](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.10).
 
 Node.js 16 reached end of life on **September 11, 2023** and was removed from the Cloud Foundry community in [version 1.8.15](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.15).
 
-This means that deployment and redeployment of applications with Node.js 14 and 16 will **fail**. For more information, see:
-
--   [Node.js Roadmap](https://github.com/nodejs/Release)
-
--   [Bringing forward the End-of-Life Date for Node.js 16](https://nodejs.org/en/blog/announcements/nodejs16-eol)
-
+This means that deployment and redeployment of applications with Node.js 14 and 16 will **fail**. For more information, see: [Node.js Roadmap](https://github.com/nodejs/Release)
 
 We recommend that you migrate your applications to Node.js **18** or **20** as soon as possible.
 

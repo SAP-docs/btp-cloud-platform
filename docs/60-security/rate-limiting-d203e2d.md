@@ -354,7 +354,7 @@ An `HTTP 429 Too Many Requests` response status code is sent.
 
 ## User Management \(SCIM\) APIs
 
-The user management \(SCIM\) APIs enable you to manage shadow users and role collections. You find the APIs of SAP Authorization and Trust Management service in the [SAP API Business Hub](https://api.sap.com/package/authtrustmgmnt/rest).
+The user management \(SCIM\) APIs enable you to manage shadow users and role collections. You find the APIs of SAP Authorization and Trust Management service in the [SAP Business Accelerator Hub](https://api.sap.com/package/authtrustmgmnt?section=Artifacts).
 
 **User Management \(SCIM\) APIs**
 

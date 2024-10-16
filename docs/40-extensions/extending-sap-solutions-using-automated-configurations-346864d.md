@@ -36,9 +36,9 @@ To enable the integration, you need to:
 
     -   For systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, SAP SuccessFactors and SAP systems from the SAP Customer Experience portfolio, during the pairing process you create an registration token which is then used by the SAP system administrator to configure the registration on the SAP system side. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
-    -   For systems of type different than SAP S/4HANA Cloud, SAP Marketing Cloud, SAP SuccessFactors and SAP systems from the SAP Customer Experience portfolio, the SAP system is already registered when it's part of the *Systems* list. However, in the *Status* column, there is no status shown. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+    -   For systems of type different than SAP S/4HANA Cloud, SAP Marketing Cloud, SAP SuccessFactors and SAP systems from the SAP Customer Experience portfolio, the SAP system is already registered when it's part of the *Systems* page. However, in the *Status* column, there is no status shown. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
 
-    -   For third-party systems, the system is already registered when it's part of the *Systems* list. However, in the *Status* column, there is no status shown. See [Registering a Third-Party System](registering-a-third-party-system-5481d59.md).
+    -   For third-party systems, the system is already registered when it's part of the *Systems* page. However, in the *Status* column, there is no status shown. See [Registering a Third-Party System](registering-a-third-party-system-5481d59.md).
 
 
     > ### Note:  

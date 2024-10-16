@@ -70,5 +70,5 @@ Custom trust configuration \(for example: a tenant of SAP Cloud Identity Service
 
 [Working with Role Collections](working-with-role-collections-393ea0b.md "As an administrator, you group application roles in role collections. You then assign role collections to application users.")
 
-[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users to get you started, your organization has identity providers that you want to integrate.")
+[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "")
 
