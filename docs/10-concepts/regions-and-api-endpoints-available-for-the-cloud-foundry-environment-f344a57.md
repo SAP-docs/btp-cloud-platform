@@ -1223,58 +1223,6 @@ il30.hana.ondemand.com
 <tr>
 <td valign="top">
 
-Alibaba Cloud
-
-</td>
-<td valign="top">
-
-cn40
-
-</td>
-<td valign="top">
-
-China \(Shanghai\)
-
-</td>
-<td valign="top">
-
-cf-cn40
-
-</td>
-<td valign="top">
-
-cn-shanghai
-
-</td>
-<td valign="top">
-
-101.132.190.155, 106.14.165.33, 106.14.184.113
-
-</td>
-<td valign="top">
-
-139.224.7.71
-
-</td>
-<td valign="top">
-
-api.cf.cn40.platform.sapcloud.cn
-
-</td>
-<td valign="top">
-
-cn40.platform.sapcloud.cn
-
-</td>
-<td valign="top">
-
-[Open Cockpit](https://cockpit.cn40.platform.sapcloud.cn/cockpit)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Google Cloud
 
 </td>
@@ -1321,6 +1269,58 @@ sa30.hana.ondemand.com
 <td valign="top">
 
 [Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Alibaba Cloud
+
+</td>
+<td valign="top">
+
+cn40
+
+</td>
+<td valign="top">
+
+China \(Shanghai\)
+
+</td>
+<td valign="top">
+
+cf-cn40
+
+</td>
+<td valign="top">
+
+cn-shanghai
+
+</td>
+<td valign="top">
+
+101.132.190.155, 106.14.165.33, 106.14.184.113
+
+</td>
+<td valign="top">
+
+139.224.7.71
+
+</td>
+<td valign="top">
+
+api.cf.cn40.platform.sapcloud.cn
+
+</td>
+<td valign="top">
+
+cn40.platform.sapcloud.cn
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.cn40.platform.sapcloud.cn/cockpit)
 
 </td>
 </tr>

@@ -24,7 +24,10 @@ Before setting up your account, you need to decide which free offering for SAP B
 
 -   A **trial account** lets you try out SAP BTP for free for 90 days. The services provided for the trial account allow restricted use of the platform resources and services. Access is open to everyone. Trial accounts are intended for personal exploration, your own non-productive testing, and evaluation of the services in accordance with [SAP BTP trial terms and conditions](https://accounts.sap.com/ui/public/viewTextResource?scenario=1b5ff22b-ac85-466f-9644-833d07e77d5e&resourceType=RESOURCE_TERMS_OF_USE&locale=en_US). A SAP BTP trial account must not be used for production use or team development. You are not permitted to use the trial account in any productive or commercial manner.
 
-    You can self-register for a trial account. For more information on how to do that, see [Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+    > ### Note:  
+    > When using Kyma, the free plan is available only once in a global account for up to 30 days. For more information, see [Available Plans in the Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/available-plans-in-kyma-environment?&version=Cloud#free).
+
+    You can self-register for a trial account. For more information on how to do that, see [Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html) 
 
 
 
@@ -74,8 +77,6 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 ## Trial Scope
 
 -   A trial account enables you to explore the basic functionality of SAP BTP.
-
--   SAP BTP trial accounts use cloud management tools feature set B. For more information, see [Cloud Management Tools — Feature Set Overview](cloud-management-tools-feature-set-overview-caf4e4e.md).
 
 -   SAP BTP trial accounts are available in several regions. For more information, see [Regions](regions-350356d.md).
 

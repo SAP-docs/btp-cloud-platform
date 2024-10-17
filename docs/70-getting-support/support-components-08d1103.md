@@ -512,9 +512,9 @@ Build and run mobile apps for B2C use cases.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
 
 
 
@@ -1334,7 +1334,7 @@ Consume an object-relational database with PostgreSQL.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -1511,7 +1511,7 @@ Get robust asynchronous messaging between applications.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -2237,7 +2237,7 @@ A single gateway to all your data.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
+-   India \(Mumbai\)
 -   US Central \(IA\)
 
 
@@ -2473,7 +2473,7 @@ Automates the connectivity configuration of extension applications running on SA
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
+-   India \(Mumbai\)
 -   US Central \(IA\)
 
 
@@ -2889,7 +2889,7 @@ Operate polyglot cloud applications in Cloud Foundry.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -3175,9 +3175,9 @@ Manage transports of development artifacts and application-specific content.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
--   India \(Mumbai\) GCP
--   KSA \(Dammam\) GCP public sector
--   Israel \(Tel Aviv\) GCP
+-   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
+-   Israel \(Tel Aviv\)
 
 
 
@@ -3409,9 +3409,9 @@ Develop, debug, test, and deploy SAP business applications.
 <td valign="top">
 
 -   US Central \(IA\)
--   Israel \(Tel Aviv\) GCP
--   India \(Mumbai\) GCP
--   KSA \(Dammam\) GCP public sector
+-   Israel \(Tel Aviv\)
+-   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
 -   Europe \(Frankfurt\)
 
 
@@ -3808,7 +3808,7 @@ Implement an in-memory caching layer with Redis.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -4480,7 +4480,7 @@ Create, store, access, and analyze application logs.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -4883,7 +4883,7 @@ Automates the connectivity configuration of extension applications running on SA
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
+-   India \(Mumbai\)
 -   US Central \(IA\)
 
 
@@ -5245,9 +5245,9 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <td valign="top">
 
 -   US Central \(IA\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
 
 
 
@@ -5826,7 +5826,7 @@ Store and manage the blobs/objects on SAP BTP.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -6351,7 +6351,7 @@ Define and manage your jobs or Cloud Foundry tasks that run on one-time or recur
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -6578,7 +6578,7 @@ Store and retrieve credentials such as cryptographic keys and passwords.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -6914,7 +6914,7 @@ Integrate applications, services, and systems across landscapes.
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -7142,7 +7142,7 @@ Create and consume relational databases with PostgreSQL based on hyperscalers.
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -7488,7 +7488,7 @@ Develop and run HTML5 applications in a cloud environment.
 <td valign="top">
 
 -   US Central \(IA\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -8110,9 +8110,9 @@ Create role based, multi-channel sites to access business apps and content.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
 
 
 
@@ -8344,9 +8344,9 @@ Cloud Offering with End-to-End visibility on Business Processes
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
 
 
 
@@ -8641,7 +8641,7 @@ Create and consume in-memory cache with Redis based on hyperscalers.
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -8929,9 +8929,9 @@ Add UI adaptation to your UI5 applications.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
--   KSA \(Dammam\) GCP public sector
--   Israel \(Tel Aviv\) GCP
+-   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
+-   Israel \(Tel Aviv\)
 
 
 
@@ -9108,7 +9108,7 @@ Store and analyze application logs, metrics, and traces based on OpenSearch.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
+-   India \(Mumbai\)
 
 
 
@@ -9389,7 +9389,7 @@ Connect applications, services and systems across different landscapes.
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -9816,7 +9816,7 @@ Establish connections between cloud applications and on-premise systems.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -10410,7 +10410,7 @@ Automatically increase or decrease the number of application instances.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -10641,10 +10641,10 @@ Simplify access to applications by establishing a central entry point.
 <td valign="top">
 
 -   US Central \(IA\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
 -   Europe \(Frankfurt\)
--   KSA \(Dammam\) GCP public sector
+-   KSA \(Dammam\) public sector
 
 
 
@@ -11174,8 +11174,8 @@ Create and receive real-time alerts about your services
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
 
 
 
@@ -11750,7 +11750,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 -   US Central \(IA\)
 
 
@@ -12623,9 +12623,9 @@ Enrich cloud offerings with decision modeling, management, and execution service
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
 
 
 
@@ -12795,7 +12795,7 @@ Develop and run containerized applications and extensions on Kubernetes.
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -12903,7 +12903,7 @@ A core, security and compliance based SAP BTP service to provide means for audit
 </td>
 <td valign="top">
 
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -13306,7 +13306,7 @@ The central registry for service brokers and platforms in SAP BTP.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -13896,7 +13896,7 @@ Manage application authorizations and trusted connections to identity providers.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -14543,7 +14543,7 @@ Retrieve information about destinations in the Cloud Foundry environment.
 
 -   US Central \(IA\)
 -   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\) GCP
+-   Israel \(Tel Aviv\)
 
 
 
@@ -15073,9 +15073,9 @@ Build and run mobile apps for B2E and B2B use cases.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
--   India \(Mumbai\) GCP
--   Israel \(Tel Aviv\) GCP
--   KSA \(Dammam\) GCP public sector
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
 
 
 
