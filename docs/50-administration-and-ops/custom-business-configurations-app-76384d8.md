@@ -10,7 +10,7 @@ Find out how to use the *Custom Business Configurations* app.
 
 ## Purpose
 
-The *Custom Business Configurations* app serves as an entry point to the [Business Configuration Maintenance Object](../30-development/business-configuration-maintenance-object-61159c4.md)provided by the custom applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior. For more information, see also [Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App](../30-development/creating-business-configuration-apps-with-abap-restful-application-programming-model-and-fa420dd.md).
+The *Custom Business Configurations* app serves as an entry point to the [Business Configuration Maintenance Object](../30-development/business-configuration-maintenance-object-61159c4.md) provided by the custom applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior. For more information, see also [Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App](../30-development/creating-business-configuration-apps-with-abap-restful-application-programming-model-and-fa420dd.md).
 
 
 
