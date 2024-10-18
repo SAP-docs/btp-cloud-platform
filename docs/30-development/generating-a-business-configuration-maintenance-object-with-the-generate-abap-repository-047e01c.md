@@ -40,7 +40,7 @@ All tables must fulfill the following requirements:
 -   \(optional\) have a timestamp field with data element `ABP_LOCINST_LASTCHANGE_TSTMPL`. If the table doesn't contain this field, the concurrency control is not active
 
 
-The basis databse table must also meet the following requirements:
+The basis database table must also meet the following requirements:
 
 -   have a timestamp field with data element `ABP_LASTCHANGE_TSTMPL`. For more information, see [RAP Reuse Data Elements](https://help.sap.com/docs/SAP_S4HANA_CLOUD/e5522a8a7b174979913c99268bc03f1a/84bd58e2b9354be4a7a1c91cb687815c.html). If the table doesn't contain this field, the entire ETag is handled by CDS entity `I_CstmBizConfignLastChgd`
 
