@@ -285,7 +285,7 @@ You can set up ingestion of metrics from applications and the Istio service mesh
 
 ## Set Up Kyma Dashboard Integration
 
-For easier access from the Kyma dashboard, adjust the navigation under *Observability*, and add deep links to the *Pod*, *Deployment*, and *Namespace* views.
+For easier access from the Kyma dashboard, add links to the navigation under *SAP Cloud Logging*, and add deep links to the *Pod*, *Deployment*, and *Namespace* views.
 
 
 
@@ -293,32 +293,13 @@ For easier access from the Kyma dashboard, adjust the navigation under *Observab
 
 ## Procedure
 
-1.  Read the SAP Cloud Logging dashboard URL from the Secret:
+1.  Apply the `ConfigMap`:
 
     ```
-    export DASHBOARD_URL=$(kubectl -n sap-cloud-logging-integration get secret sap-cloud-logging --template='{{index .data "dashboards-endpoint" | base64decode}}')
+    kubectl apply -f https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/kyma-dashboard-configmap.yaml
     ```
 
-2.  Download the following ConfigMaps containing the sample configuration:
-
-    ```
-    curl -o configmap-navigation.yaml https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/configmap-navigation.yaml
-    curl -o configmap-deeplinks.yaml https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/configmap-deeplinks.yaml
-    ```
-
-3.  Replace placeholders in the ConfigMaps with the URL:
-
-    ```
-    sed -e "s/{PLACEHOLDER}/$DASHBOARD_URL/" configmap-navigation.yaml
-    sed -e "s/{PLACEHOLDER}/$DASHBOARD_URL/" configmap-deeplinks.yaml
-    ```
-
-4.  Apply the ConfigMaps:
-
-    ```
-    kubectl apply -f configmap-navigation.yaml
-    kubectl apply -f configmap-deeplinks.yaml
-    ```
+2.  If your Secret has a different name or namespace, then download the file first and adjust the namespace and name accordingly in the `dataSources` section of the file.
 
 
 <a name="task_c2k_rbw_xbc"/>
@@ -341,7 +322,7 @@ Learn how to define and import recommended alerts for SAP Cloud Logging. The fol
 
 3.  Execute `POST _plugins/_alerting/monitors`, followed by the contents of the respective JSON file.
 
-4.  Depending on the pipelines you are using, enable the some or all of the following alerts:
+4.  Depending on the pipelines you are using, enable some or all of the following alerts:
 
     **Recommended Alerts**
 
@@ -449,6 +430,23 @@ Learn how to define and import recommended alerts for SAP Cloud Logging. The fol
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    Kyma Telemetry Integration
+    
+    </td>
+    <td valign="top">
+    
+    [Kyma Telemetry Status](https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/alert-telemetry-status.json)
+    
+    </td>
+    <td valign="top">
+    
+    The Telemetry module might report a non-ready state indicating a configuration or data flow problem.
+    
+    </td>
+    </tr>
     </table>
     
 5.  Edit notification action: Add the `destination` and adjust the intervals and thresholds to your needs.
@@ -474,7 +472,13 @@ You can view logs, traces, and metrics in SAP Cloud Logging dashboards:
 
 -   To view distributed traces, use the OpenSearch plugin *Observability*.
 
--   To view the the container- and Pod-related metrics collected by the `MetricPipeline` `runtime` input, use the dashboard *\[OTel\] K8s Container Metrics*.
+-   To view the container- and Pod-related metrics collected by the `MetricPipeline` `runtime` input, use the dashboard *\[OTel\] K8s Container Metrics*.
+
+-   To view the Kubernetes Node-related metrics collected by the `MetricPipeline` `runtime` input, manually import the file [K8s Nodes](https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/dashboard-nodes.ndjson).
+
+-   To view the Kubernetes Volume-related metrics collected by the `MetricPipeline` `runtime` input, manually import the file [K8s Volumes](https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/dashboard-volumes.ndjson).
+
+-   To view the status of the SAP Cloud Logging integration with the Kyma Telemetry module, manually import the file [Kyma Telemetry Status](https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/dashboard-status.ndjson).
 
 -   To use the dashboard for Istio metrics of Pods that have an active Istio sidecar injection \(collected by the `MetricPipeline` `istio` input\), manually import the file [Kyma Istio Service Metrics](https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/dashboard-istio.ndjson).
 

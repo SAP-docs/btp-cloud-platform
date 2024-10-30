@@ -13,9 +13,12 @@ Use the current blue-green deployment of Multitarget applications.
 > ### Restriction:  
 > Blue-green deployment is supported only for Cloud Foundry applications. It is not supported for bound services, such as service instances and their configuration, workflow content, and HTML5 repository content, among others. Live and idle applications are bound to the same service instances.
 
-You have a previously deployed MTA, with functional productive applications and routes:
+-   You have a previously deployed MTA, with functional productive applications and routes:
 
-![](images/Blue_Application_Version_of_an_MTA_NEW_8d66427.png)
+    ![](images/Blue_Application_Version_of_an_MTA_NEW_8d66427.png)
+
+-   You have ensured that the changes in the new version of the application are compatible with the old version. This includes changes in the database tables, UAA configurations, and so on.
+
 
 
 
@@ -23,8 +26,10 @@ You have a previously deployed MTA, with functional productive applications and 
 
 ## Context
 
-> ### Note:  
-> If you already have executed deployments using the `cf bg-deploy` command and they have been successful, you can switch to the deploy `--strategy blue-green` deployment method, or vice versa. Do not begin a blue-green deployment using a given deployment command and continue with the other, as this might result in downtime.
+If you have already executed successful deployments using the [Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md) method \('`cf bg-deploy`'\), you should have no problems when executing deployments with the blue-green deployment strategy \('`cf deploy --strategy blue-green`'\). However, this does not apply the other way around and it is generally not recommended to go back to the legacy blue-green deployment method.
+
+> ### Caution:  
+> Do not begin a blue-green deployment using '`cf bg-deploy`' and continue with '`cf deploy --strategy blue-green`', or vice versa, as this might result in downtime.
 
 
 
@@ -34,12 +39,17 @@ You have a previously deployed MTA, with functional productive applications and 
 
 1.  Deploy your updated MTA in idle state by executing the command `cf deploy <your-mta-archive-v2> --strategy blue-green`.
 
-    > ### Note:  
-    > The first action is that all MTA services are updated. The changes between the old and the new versions must be compatible. For example, the changes between the old and the new versions of the database tables, UAA configurations, and so on.
+    The first action is that all MTA services are updated.
 
     This creates:
 
     -   new applications adding “idle” to the original application names
+
+        > ### Note:  
+        > The new application version is launched on all instances defined in the MTA deployment descriptor. During the testing phase or when the deployment is paused for user verification, the application temporarily requires double the usual resources \(instances\). This is because both the old and the new versions of the application are running concurrently. If the testing phase is skipped or if the deployment continues without delay, the resource usage will be optimized sooner.
+        > 
+        > If you are looking for a more resource-efficient deployment approach, see [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2e4dfeded960446da4aa1c0b734fc81b.html "") :arrow_upper_right:. However, keep in mind that this approach requires more time than the standard blue-green deployment strategy.
+
     -   temporary routes to the idle applications
 
         ![](images/Blue-Green_with_a_Temporatry_Route_NEW_2519972.png)
@@ -88,16 +98,16 @@ You have a previously deployed MTA, with functional productive applications and 
 
 ## Results
 
-You can see an example of the process at [Blue-Green Deployment](https://github.com/SAP-samples/cf-mta-examples/tree/main/blue-green-deploy-strategy)
+For more detailed information and example results of the blue-green deployment process, see [Blue-Green Deployment](https://github.com/SAP-samples/cf-mta-examples/tree/main/blue-green-deploy-strategy).
 
 **Related Information**  
 
 
-[https://github.com/SAP-samples/cf-mta-examples/tree/main/blue-green-deploy-strategy](https://github.com/SAP-samples/cf-mta-examples/tree/main/blue-green-deploy-strategy)
-
-[Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md "Run two identical production environments, set of cloud foundry applications that run together, to employ the blue-green deployment technique.")
+[Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md "Use the blue-green deployment technique by running two identical production environments, allowing seamless updates without downtime for Cloud Foundry Multitarget applications.")
 
 [Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md "Use the legacy blue-green deployment strategy of Multitarget applications.")
+
+[](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2e4dfeded960446da4aa1c0b734fc81b.html "") :arrow_upper_right:
 
 [Multitarget Application Commands for the Cloud Foundry Environment](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md "A list of additional commands to deploy multitarget applications (MTA) to the Cloud Foundry environment.")
 

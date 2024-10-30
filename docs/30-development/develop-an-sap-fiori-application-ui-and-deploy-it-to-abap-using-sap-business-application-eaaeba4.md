@@ -99,5 +99,3 @@ Launch your app in SAP Fiori launchpad. See [Add Your App to SAP Fiori Launchpad
 
 [Tutorial: Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html)
 
-[Tutorial: Create a Shell-Plug-in in the SAP BTP ABAP Environment](https://developers.sap.com/group.sap-btp-abap-shell-plugin.html)
-

@@ -4,7 +4,7 @@
 
 You can perform remote code analysis in ATC, allowing you to analyze custom code remotely with the latest checks.
 
-When using SAP BTP ABAP environment as the central check system, you will use the `Custom Code Migration` app to scope and analyze custom code in an on-premise SAP system for SAP S/4HANA Cloud.
+When using SAP BTP ABAP environment as the central check system, you will use the `Custom Code Migration` app to scope and analyze custom code in an on-premise SAP system for SAP S/4HANA Cloud Public Edition.
 
 To use this SAP Fiori app, your SAP administrator must enable the app to provide access for the relevant users. In addition, you also need to establish an RFC connection for the Cloud Connector. This enables you to access the on-premise system as the checked system from the ABAP environment as central check system remotely.
 

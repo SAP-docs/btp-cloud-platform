@@ -56,6 +56,7 @@ The syntax required to set the properties and values defined in the `xs-security
                                           "CostCenter"] 
                     } 
                    ], 
+
  "authorities":["$ACCEPT_GRANTED_AUTHORITIES"],
  "oauth2-configuration": {
                     "token-validity": 900, 

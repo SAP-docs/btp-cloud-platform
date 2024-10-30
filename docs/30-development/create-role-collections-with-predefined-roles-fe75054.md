@@ -67,7 +67,7 @@ You define the role collections in the application security descriptor file \(`x
 
 3.  Go to the folder where the application security descriptor \(`xs-security.json`\) file is stored.
 
-4.  To deploy the security information, create a service using your `xs.security.json` file.
+4.  To deploy the security information, create a service using your `xs-security.json` file.
 
     `cf create-service xsuaa application <service_name> -c xs-security.json`
 

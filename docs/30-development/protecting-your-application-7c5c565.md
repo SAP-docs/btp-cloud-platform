@@ -190,7 +190,7 @@ CF command line interface or SAP BTP cockpit
 > 
 > [Setting Up Instance-Based Authorizations](setting-up-instance-based-authorizations-519965c.md)
 
-**Setting Up Authorization Artifacts \(Administrators\)**
+**Setting Up Authorization Artifacts \(Account Administrators\)**
 
 
 <table>
@@ -202,12 +202,7 @@ Task
 </th>
 <th valign="top">
 
-User Role
-
-</th>
-<th valign="top">
-
-Tool
+Links
 
 </th>
 </tr>
@@ -216,19 +211,10 @@ Tool
 
 Assign the role collection to the users provided by an identity provider
 
-[Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md) or [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
-
 </td>
 <td valign="top">
 
-Account administrator
-
-</td>
-<td valign="top">
-
-SAP BTP cockpit
-
-Command line interface for SAP BTP
+[Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md) 
 
 </td>
 </tr>
@@ -237,19 +223,10 @@ Command line interface for SAP BTP
 
 \(If you do use a custom identity provider\) Assign the role collections to user groups
 
-[Map Role Collections to User Groups](../50-administration-and-ops/map-role-collections-to-user-groups-51acfc8.md) or [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
-
 </td>
 <td valign="top">
 
-Account administrator
-
-</td>
-<td valign="top">
-
-SAP BTP cockpit
-
-Command line interface for SAP BTP
+[Map Role Collections to User Groups](../50-administration-and-ops/map-role-collections-to-user-groups-51acfc8.md) 
 
 </td>
 </tr>
@@ -258,19 +235,10 @@ Command line interface for SAP BTP
 
 Assign the role collections to users and user groups, manage attribute mappings
 
-[Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md) or [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
-
 </td>
 <td valign="top">
 
-Account administrator
-
-</td>
-<td valign="top">
-
-SAP BTP cockpit
-
-Command line interface for SAP BTP
+[Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md) 
 
 </td>
 </tr>
@@ -279,19 +247,10 @@ Command line interface for SAP BTP
 
 Create a role collection and assign roles to it
 
-[Define a Role Collection](../50-administration-and-ops/define-a-role-collection-4b20383.md) or [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
-
 </td>
 <td valign="top">
 
-Account administrator
-
-</td>
-<td valign="top">
-
-SAP BTP cockpit
-
-Command line interface for SAP BTP
+[Define a Role Collection](../50-administration-and-ops/define-a-role-collection-4b20383.md) 
 
 </td>
 </tr>
@@ -300,19 +259,10 @@ Command line interface for SAP BTP
 
 Use an existing role or create a new one using role templates
 
-[Add Roles to Role Collections on the Application Level](../50-administration-and-ops/add-roles-to-role-collections-on-the-application-level-7596a0b.md) or [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
-
 </td>
 <td valign="top">
 
-Account administrator
-
-</td>
-<td valign="top">
-
-SAP BTP cockpit
-
-Command line interface for SAP BTP
+[Add Roles to Role Collections on the Application Level](../50-administration-and-ops/add-roles-to-role-collections-on-the-application-level-7596a0b.md) 
 
 </td>
 </tr>

@@ -6,7 +6,7 @@ To enable client certificate-based authentication in SAP BTP, ABAP environment, 
 
 
 
-:
+SAP BTP cockpit:
 
 
 

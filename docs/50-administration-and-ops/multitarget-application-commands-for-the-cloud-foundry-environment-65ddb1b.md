@@ -664,7 +664,7 @@ Deploy all resources.
 </td>
 <td valign="top">
 
-Announce to the platform a special deployment approach, for example when performing a “blue-green” deployment. See [Blue-Green Deployment Strategy](../30-development/blue-green-deployment-strategy-7c83810.md).
+Announce to the platform a special deployment approach, for example when performing a “blue-green” or an “incremental-blue-green” deployment. See [Blue-Green Deployment Strategy](../30-development/blue-green-deployment-strategy-7c83810.md) and [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2e4dfeded960446da4aa1c0b734fc81b.html "") :arrow_upper_right:.
 
 Using this option, you will not be asked to manually confirm the deletion of the older version of the MTA applications. This means that the deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
 
@@ -678,7 +678,7 @@ Using this option, you will not be asked to manually confirm the deletion of the
 </td>
 <td valign="top">
 
-When using the *\--strategy* option for “blue-green”, you can choose to skip the phase for testing and you will not be asked to manually confirm the deletion of the older version of the MTA applications. The deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
+When using the *\--strategy* option for “blue-green” or “incremental-blue-green” deployment, you can choose to skip the testing phase and you will not be asked to manually confirm the deletion of the older version of the MTA applications. The deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
 
 > ### Note:  
 > This option is equivalent to *\--no-confirm* from “bg-deploy”.

@@ -30,15 +30,23 @@ If a software component is not in your system yet, you will first need to clone 
     > Response
     > HTTP/1.1 200 OK
     > X-csrf-token: xCsrfToken
+    > 						that was retrieved in the first request in the header parameters. The
+    > 						software component is passed in the path of the request URL. The branch you
+    > 						want to clone is passed in the body of the request. If you don’t enter a
+    > 						branch name, the main branch is automatically selected. Alternatively, you
+    > 						can clone a specific tag or commit ID by entering the tag name or commit ID.
+    > 						Make sure that the tag or commit ID exists on the branch. If that's not the
+    > 						case, no clone action will be executed.
     > ```
 
 2.  *Cloning a Software Component*
 
-    To trigger the clone, you need to insert the `x-csrf-token` that was retrieved in the first request in the header parameters. The software component is passed in the path of the request URL. The branch you want to clone is passed in the body of the request. If you don’t enter a branch name, the main branch is automatically selected. Alternatively, you can clone a specific tag or commit ID by entering the tag name or commit ID. Make sure that the tag or commit ID exists on the branch. If that's not the case, no clone action will be executed.
+    To trigger the clone, you need to insert the `x-csrf-token`
 
     > ### Sample Code:  
     > ```
-    > Request
+    > 
+    > 						that was retrieved in the first request in the header parameters. TheRequest
     >     POST /sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/SoftwareComponents/%2FDMO%2FCOMPONENT/SAP__self.clone HTTP/1.1
     > Accept: application/json
     > X-Csrf-Token: {{xcsrfToken}}

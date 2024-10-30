@@ -2,7 +2,7 @@
 
 # Org Administration Using the Cockpit
 
-In the Cloud Foundry enviroment, manage orgs, spaces and space quota plans using the SAP BTP cockpit. 
+In the Cloud Foundry environment, manage orgs, spaces and space quota plans using the SAP BTP cockpit. 
 
 In addition to global accounts and subaccounts, the Cloud Foundry environment includes another hierarchical level represented by orgs and spaces.
 

@@ -10,8 +10,6 @@ Log in with the btp CLI is on global account level.
 
 ## Prerequisites
 
--   Your global account must be on feature set B. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
-
 -   You need to pass the CLI server URL. Usually, it is proposed during login and you can confirm with [ENTER\]: `https://cli.btp.cloud.sap/`.
 
     Note that in clients up until version 2.49.0, the old server URL `https://cpcli.cf.eu10.hana.ondemand.com` is proposed. For the time being, you can use either one, but we recommend to switch to `https://cli.btp.cloud.sap/`. If you are in a private cloud and your operator has provided you with a different server URL, you'll have to enter that one.
@@ -29,7 +27,7 @@ Log in with the btp CLI is on global account level.
 
 ## Context
 
-When you log in to your global account with the btp CLI, a token is created and stored on your computer that allows to close and reopen the command line without losing your login. With each command call, this token is renewed and valid for 12 hours. So, if you take a longer break from working with the btp CLI, you’ll have to log in again. If you want to end your login earlier, you can use `btp logout`.
+When you log in to your global account with the btp CLI, a token is created and stored on your computer that allows you to close and reopen the command line without losing your login. With each command call, this token is renewed and valid for 12 hours. So, if you take a longer break from working with the btp CLI, you’ll have to log in again. If you want to end your login earlier, you can use `btp logout`.
 
 
 

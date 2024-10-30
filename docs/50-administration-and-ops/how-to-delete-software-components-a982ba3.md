@@ -76,21 +76,33 @@ The software component contains objects locally and possible changes are committ
 
 ### Local and Remote Deletion - SAP-managed Software Components
 
+****
+
 
 <table>
 <tr>
-<th valign="top">
+<td valign="top">
 
-Local Deletion
+ 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-Local and Remote Deletion
+**Local Deletion**
 
-</th>
+</td>
+<td valign="top">
+
+**Local and Remote Deletion**
+
+</td>
 </tr>
 <tr>
+<td valign="top">
+
+**Use Case**
+
+</td>
 <td valign="top">
 
 Only the local representation of the software component is deleted. Local means all ABAP objects including the parent structure package.
@@ -107,7 +119,10 @@ When deleting local and remote representations, local means only the current sys
 <tr>
 <td valign="top">
 
-Consequences:
+**Consequences**
+
+</td>
+<td valign="top">
 
 You can re-clone the software component again.
 
@@ -134,21 +149,33 @@ This step should be performed as a last step once all local deletions on other s
 
 ### Local and Remote Deletion - Customer-managed Software Components
 
+****
+
 
 <table>
 <tr>
-<th valign="top">
+<td valign="top">
 
-Local Deletion
+ 
 
-</th>
-<th valign="top">
+</td>
+<td valign="top">
 
-Local and Remote Deletion
+**Local Deletion**
 
-</th>
+</td>
+<td valign="top">
+
+**Local and Remote Deletion**
+
+</td>
 </tr>
 <tr>
+<td valign="top">
+
+**Use Case**
+
+</td>
 <td valign="top">
 
 Only the local representation of the software component is deleted. Local means all ABAP objects including the parent structure package.
@@ -170,7 +197,10 @@ The remote deletion of the software component is performed if the checkbox *Unre
 <tr>
 <td valign="top">
 
-Consequences:
+**Consequences**
+
+</td>
+<td valign="top">
 
 You can re-clone the software component again.
 

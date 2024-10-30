@@ -66,7 +66,7 @@ ABAP development tools for Eclipse is released to customers in combination with 
 
 The release notes are a general overview of the most significant changes relating to features of ABAP development tools for Eclipse in the context of ABAP development and the ABAP programming models.
 
-For more information, see [Release Notes of ABAP Development Tools for Eclipse](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-eclipse-release-notes/release-notes-of-abap-development-tools-for-eclipse?version=sap_btp)
+For more information, see [Release Notes of ABAP Development Tools for Eclipse](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-eclipse-release-notes/release-notes-of-abap-development-tools-for-eclipse?version=sap_btp).
 
 
 
@@ -76,7 +76,7 @@ For more information, see [Release Notes of ABAP Development Tools for Eclipse](
 
 If you are an `SE80` expert and new to ABAP development tools for Eclipse, the frequently asked questions \(FAQs\) enable you to skim the features you want to perform in ADT.
 
-For more information, see [FAQs for SE80 Experts Using ADT](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/bd5c5b75eeab4b7892eff1e1abce7485.html)
+For more information, see [FAQs for SE80 Experts Using ADT](https://help.sap.com/docs/ABAP_PLATFORM_NEW/c238d694b825421f940829321ffa326a/bd5c5b75eeab4b7892eff1e1abce7485.html).
 
 
 

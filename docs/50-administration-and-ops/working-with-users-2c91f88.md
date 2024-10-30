@@ -156,7 +156,7 @@ Automate the provisioning of users.
 
 You want to provision users to SAP cloud solutions, such as SAP BTP so that you can manage your identities centrally.
 
-How to provision users to SAP BTP, see [Provision Users to SAP BTP](provision-users-to-sap-btp-bb1b2f4.md).
+How to provision users to SAP BTP, see [Provision Users to SAP BTP Accounts](provision-users-to-sap-btp-accounts-bb1b2f4.md).
 
 </td>
 </tr>

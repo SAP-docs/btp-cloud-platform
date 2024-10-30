@@ -83,5 +83,5 @@ cf unset-org-role <USERNAME> <ORG> <ROLE>
 
 [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
 
-[Managing Org Members Using the Cockpit](managing-org-members-b792066.md "Learn how to add, edit, and delete org members in the cockpit.")
+[Managing Org Members Using the Cockpit](managing-org-members-b792066.md "Learn how to add, edit, and delete org members in the SAP BTP cockpit.")
 

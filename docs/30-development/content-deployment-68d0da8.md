@@ -72,6 +72,11 @@ Simulated App Execution
 
 Simulated App Execution
 
+> ### Note:  
+> This module type is deprecated and will be removed soon. If you want to deploy Business Logging content, use module type `com.sap.application.content` as described in [Providing Text Resources Using GACD](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/f4a898bd0f9b4619940dd049c5328ee4.html).
+
+
+
 </td>
 </tr>
 <tr>
@@ -107,6 +112,11 @@ CF task execution
 <td valign="top">
 
 CF task execution
+
+> ### Note:  
+> This module type is deprecated and will be removed soon. If you want to deploy Business Logging content, use module type `com.sap.application.content` as described in [Providing Text Resources Using GACD](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/f4a898bd0f9b4619940dd049c5328ee4.html).
+
+
 
 </td>
 </tr>

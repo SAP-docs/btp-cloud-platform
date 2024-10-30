@@ -110,7 +110,7 @@ Deleting a software component in the *Manage Software Components* app with the d
 
 Selecting the *Unregister Repository* option will additionally unlink the remote repository from the software component and delete the software component completely from your global account.
 
-Deleting the software component is an irreversible action, so be sure to first delete the software component on all system instances where it is cloned. To delete the component, simply proceed by clicking *Delete* in the dialog. The remote Git repository will not be deleted, but it can't be used again with the existing software component you are trying to delete. Additionally, it can't be linked to new software components.
+Deleting the software component is an irreversible action. To delete the component, simply proceed by clicking *Delete* in the dialog. The remote Git repository will not be deleted, but it cannot be used again and be linked to new software components. This action is irreversible, therefore ensure to first delete the software component on all system instances where it is cloned.
 
 
 

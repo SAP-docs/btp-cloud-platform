@@ -461,6 +461,9 @@ CF application with SAP HTML5 content
 <td valign="top">
 
 > ### Note:  
+> This module type is deprecated and will be removed soon. If you want to deploy Business Logging content, use module type `com.sap.application.content` as described in [Providing Text Resources Using GACD](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/f4a898bd0f9b4619940dd049c5328ee4.html).
+
+> ### Note:  
 > Before using this module type, update the content deployer applications to their latest version.
 
 -   `no-route` \(`true`\). Defines if a route should be assigned to the application.
@@ -495,9 +498,10 @@ Deploys the Business Logging for configuring text resources
 </td>
 <td valign="top">
 
-This module type is **deprecated**.
+> ### Note:  
+> This module type is deprecated and will be removed soon. If you want to deploy Business Logging content, use module type `com.sap.application.content` as described in [Providing Text Resources Using GACD](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/f4a898bd0f9b4619940dd049c5328ee4.html).
 
-You have to use `com.sap.business-logging.content` instead.
+
 
 </td>
 <td valign="top">

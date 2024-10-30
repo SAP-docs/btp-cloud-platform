@@ -2,7 +2,7 @@
 
 # Delete Orgs
 
-You can delete a Cloud Foundry org from a subaccount using the cockpit. Once the org is deleted, you can create a new one.
+You can delete a Cloud Foundry org from a subaccount using the SAP BTP cockpit. Once the org is deleted, you can create a new one.
 
 
 

@@ -4,7 +4,7 @@
 
 # Edit Org Members
 
-Remove existing roles or assign new roles to an org member in the cockpit.
+Remove existing roles or assign new roles to an org member in the SAP BTP cockpit.
 
 
 
@@ -30,19 +30,17 @@ Remove existing roles or assign new roles to an org member in the cockpit.
 
 ## Procedure
 
-1.  Navigate to your subaccount in the cockpit. Make sure that Cloud Foundry is enabled. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
-
-2.  In the navigation area, choose *Cloud Foundry* \> *Org Members*.
+1.  In the navigation area in the cockpit, choose *Cloud Foundry* \> *Org Members*.
 
     The screen displays all members currently assigned to the org in a list.
 
-3.  Choose :pencil2:.
+2.  Find the org member in the list and choose :pencil2:.
 
-4.  Select or unselect the roles you want to assign or remove.
+3.  Select or unselect the roles you want to assign or remove.
 
     For more information, see [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md).
 
-5.  Choose *Save*.
+4.  Choose *Save*.
 
     The changes you make to the roles of a member take effect immediately.
 
@@ -50,7 +48,7 @@ Remove existing roles or assign new roles to an org member in the cockpit.
 **Related Information**  
 
 
-[Add Org Members Using the Cockpit](add-org-members-a4eeaf1.md "In the cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
+[Add Org Members Using the Cockpit](add-org-members-a4eeaf1.md "In the SAP BTP cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 
-[Delete Org Members Using the Cockpit](delete-org-members-35a720c.md "Delete all roles of an org member in the cockpit. As a consequence, the member is removed from the org and any spaces in that org.")
+[Delete Org Members Using the Cockpit](delete-org-members-35a720c.md "Delete all roles of an org member in the SAP BTP cockpit. As a consequence, the member is removed from the org and any spaces in that org.")
 

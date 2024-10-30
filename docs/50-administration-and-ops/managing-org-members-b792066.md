@@ -2,7 +2,7 @@
 
 # Managing Org Members
 
-Learn how to add, edit, and delete org members in the cockpit.
+Learn how to add, edit, and delete org members in the SAP BTP cockpit.
 
 -   [Add Org Members](add-org-members-a4eeaf1.md)
 

@@ -1265,7 +1265,7 @@ As a provider, you can deploy your SaaS solution in a subaccount that is located
 
 A consumer can then subscribe to and access your SaaS solution from a subaccount. The consumer subaccount needs to be located in the same region as the subaccount which you deployed the SaaS solution in.
 
-Keep in mind that regions are chosen on the subaccount level: For each subaccount, you select exactly one region. This is done when creating the subaccount. The **Landscape Portal** can be accessed from subaccounts located in regions that are available for the ABAP environment. You thus need to make sure that the subaccount from which you want to access the **Landscape Portal** has the correct region attribute \(that is, the technical key, such as cf-eu10\). For more information on regions, see [Regions](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html) and [Accessing the Landscape Portal](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d9e865ad47204b80816b6f62af57b823.html).
+Keep in mind that regions are chosen on the subaccount level: For each subaccount, you select exactly one region. This is done when creating the subaccount. The **Landscape Portal** can only be accessed from subaccounts located in region cf-eu10. You thus need to make sure that the subaccount from which you want to access the **Landscape Portal** has the region attribute cf-eu10. For more information on regions, see [Regions.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html) and [Accessing the Landscape Portal](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d9e865ad47204b80816b6f62af57b823.html).
 
 <a name="loio3a7648b69f514365b1842dde29cfda85"/>
 

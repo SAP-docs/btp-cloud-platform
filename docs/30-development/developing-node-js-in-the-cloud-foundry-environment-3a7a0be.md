@@ -92,18 +92,14 @@ The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports th
 
 ## Deprecated Versions
 
-Node.js 14 reached end of life on **April 30, 2023** and was removed from the Cloud Foundry community in [version 1.8.10](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.10).
-
-Node.js 16 reached end of life on **September 11, 2023** and was removed from the Cloud Foundry community in [version 1.8.15](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.15).
-
-This means that deployment and redeployment of applications with Node.js 14 and 16 will **fail**. For more information, see: [Node.js Roadmap](https://github.com/nodejs/Release)
+Node.js 16 reached end of life on **September 11, 2023** and was removed from the Cloud Foundry community in [version 1.8.15](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.15). This means that deployment and redeployment of applications running on Node.js 16 will **fail**. For more information, see: [Node.js Roadmap](https://github.com/nodejs/Release)
 
 We recommend that you migrate your applications to Node.js **18** or **20** as soon as possible.
 
 > ### Note:  
 > Applications using XSJS are strongly impacted as the [@sap/fibers](https://www.npmjs.com/package/@sap/fibers) library \(on which [@sap/xsjs](https://www.npmjs.com/package/@sap/xsjs) depends\) is **not supported** on Node.js 16 and later versions. To learn more, see: [Migrating Applications from XSJS to Async-XSJS](migrating-applications-from-xsjs-to-async-xsjs-40ded9d.md)
 
-In exceptional cases \(if you haven’t completed the migration to Node.js 18\), to avoid application failures during redeployment, you may pin the last buildpack version that contains Node.js 14 or 16, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) community. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version) 
+In exceptional cases \(if you haven’t completed the migration to Node.js 18\), to avoid application failures during redeployment, you may pin the last buildpack version that contains Node.js 16, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) community. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version) 
 
 > ### Remember:  
 > SAP does **not** recommend use of deprecated Node.js versions, as support and security fixes are no longer provided for them.
@@ -121,7 +117,7 @@ To check the latest news and updates about the Node.js buildpack, go to its rele
 > 
 > -   [Deprecation of Cloud Foundry Stack cflinuxfs3 and Migration to cflinuxfs4](https://blogs.sap.com/2023/02/16/deprecation-of-cloud-foundry-stack-cflinuxfs3-and-migration-to-cflinuxfs4/)
 > 
-> -   What's New for SAP BTP, Cloud Foundry Runtime \(cflinuxfs\)
+> -   [What's New: cflinuxfs4 becomes the default stack](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=Node.js+System+Buildpack&Valid_as_Of=2023-01-11:2023-03-25)
 
 
 

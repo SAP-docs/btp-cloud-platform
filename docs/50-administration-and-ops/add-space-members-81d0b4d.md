@@ -1,10 +1,8 @@
 <!-- loio81d0b4dcfbc84016b6b3c1465d4272f4 -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # Add Space Members
 
-You can add space members and assign roles to them at the space level in the cockpit.
+You can add space members and assign roles to them at the space level in the SAP BTP cockpit.
 
 
 
@@ -14,9 +12,12 @@ You can add space members and assign roles to them at the space level in the coc
 
 -   You have the Space Manager or Org Manager role.
 
-    If you only have the Space Manager role, the users you want to add to the space must already be members of the org.
+    If you only have the Space Manager role, the users you want to add to the space must already have the Org User role.
 
-    For more information, see the *Context* section.
+    If you have the Org Manager role, you can assign space roles to users even if they're not members of the org yet.
+
+    > ### Note:  
+    > When you add users who aren't yet members of an org to a space in that org, they get the Org User role by default. This makes them members of the org as well.
 
 -   The users exist in a trusted platform identity provider.
 
@@ -25,29 +26,17 @@ You can add space members and assign roles to them at the space level in the coc
 
 
 
-<a name="loio81d0b4dcfbc84016b6b3c1465d4272f4__context_rqw_csz_kjb"/>
-
-## Context
-
-Space members are organization members who have specific roles in a space.
-
-Org members can only be added by an Org Manager. This means that if you only have the Space Manager role, you can’t add space members that aren’t known to the org. To do that, you must first ask your Org Manager to add the users as org members with no roles. Once this is done, you can add them as space members following the steps below.
-
-If you’re the Org Manager, you don’t need to first add the users as org members with no roles. Since you have the permissions necessary to add users to the org, when you add a new user as a space member, that user automatically becomes part of the org as well.
-
-
-
 <a name="loio81d0b4dcfbc84016b6b3c1465d4272f4__steps_jrg_wt4_zl"/>
 
 ## Procedure
 
-1.  Navigate to the space to which you'd like to add members. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
+1.  Navigate to *Cloud Foundry* \> *Spaces* in the SAP BTP cockpit. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
 
-2.  Choose a space.
+2.  Choose a space to which you'd like to add members. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
 
-3.  In the navigation area, choose *Members*.
+3.  In the navigation area, choose *Space Members*.
 
-    The screen displays all members currently assigned to the org in a list.
+    The screen displays all members currently assigned to the space in a list.
 
 4.  Choose *Add Members*.
 
@@ -67,9 +56,11 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
     For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md).
 
-7.  Select the roles for the users and save your changes.
+7.  Select the space roles you want to assign.
 
     For more information, see [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md).
+
+8.  Choose *Add*.
 
 
 
@@ -80,15 +71,17 @@ If you’re the Org Manager, you don’t need to first add the users as org memb
 
 You also have the following options:
 
--   To change the roles of a member, choose :pencil2:.
--   To remove all the roles of a member, choose :wastebasket:. This removes the member from the space.
+-   [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d9e1a1592cf3448b931924e11f69a9e1.html "") :arrow_upper_right:
+
+-   [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/78b20cf8ae584498822dbd5c30e75b52.html "") :arrow_upper_right:
+
 
 **Related Information**  
 
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
-[Add Org Members Using the Cockpit](add-org-members-a4eeaf1.md "In the cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
+[Add Org Members Using the Cockpit](add-org-members-a4eeaf1.md "In the SAP BTP cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 
 [Add Space Members Using the Cloud Foundry Command Line Interface](add-space-members-using-the-cloud-foundry-command-line-interface-d23ea8b.md "You can use the Cloud Foundry Command Line Interface (cf CLI) to add space members and assign roles to them.")
 

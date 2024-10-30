@@ -19,3 +19,10 @@ The User Account and Authentication \(UAA\) component is the central infrastruct
 
 Business system use APIs to directly access the resources in the runtime container. The UAA acts as an OAuth authorization server and issues an appropriate access token. It enables the business system to directly access an application in the runtime container. Runtime containers act as OAuth resource servers, using the container security API of the relevant container \(for example, Java\) to validate the token issued by the OAuth authorization server.
 
+**Related Information**  
+
+
+[Protecting Your Application](../30-development/protecting-your-application-7c5c565.md "Developers create authorization information for business users in their environment; this information is deployed in an application and made available to administrators who complete the authorization setup and assign the authorizations to business users.")
+
+[Tutorials for the SAP Authorization and Trust Management Service](../30-development/tutorials-for-the-sap-authorization-and-trust-management-service-902ae80.md "Follow the tutorials below to get familiar with the SAP Authorization and Trust Management service in the Cloud Foundry environment of SAP BTP.")
+

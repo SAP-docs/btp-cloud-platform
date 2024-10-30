@@ -34,6 +34,9 @@ If you're a new user, you can use the self-service registration option at the [S
 
 ## SAP Universal ID
 
+> ### Note:  
+> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+
 SAP Universal ID manages the users of official SAP sites, including the SAP developer and partner community. If you already have such a user, then you're already registered with SAP ID service as well. SAP ID service acts as a proxy for SAP Universal ID, when users log on with their e-mail addresses. Users can log on with and manage all their user accounts with SAP Universal ID.
 
 The following figure illustrates how default and custom identity providers can federate other identity providers.

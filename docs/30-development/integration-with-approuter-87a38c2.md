@@ -7,3 +7,5 @@ You can integrate the OData service of your ABAP environment into the applicatio
 > ### Note:  
 > If the application and the instance of the ABAP environment are deployed to different subaccounts, use routing via destination.
 
+For more information about the two types of routing, navigate to [Routing via Service](routing-via-service-aba737f.md) or [Routing via Destination](routing-via-destination-97d7a02.md).
+

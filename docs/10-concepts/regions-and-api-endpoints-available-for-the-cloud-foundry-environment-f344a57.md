@@ -248,6 +248,58 @@ Microsoft Azure
 </td>
 <td valign="top">
 
+br20
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
+
+</td>
+<td valign="top">
+
+cf-br20
+
+</td>
+<td valign="top">
+
+Brazil South
+
+</td>
+<td valign="top">
+
+20.206.161.114, 20.206.249.230, 191.233.21.237
+
+</td>
+<td valign="top">
+
+4.228.118.21
+
+</td>
+<td valign="top">
+
+api.cf.br20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+br20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
 us20
 
 </td>
@@ -1269,6 +1321,58 @@ sa30.hana.ondemand.com
 <td valign="top">
 
 [Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+ap30
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+cf-ap30
+
+</td>
+<td valign="top">
+
+australia-southeast1
+
+</td>
+<td valign="top">
+
+34.40.139.113, 34.40.148.106, 34.40.148.145, 34.87.197.203, 34.87.227.150, 34.87.246.15, 34.87.246.56, 34.116.64.18, 34.116.71.248, 34.116.93.109, 34.116.96.225, 34.116.98.18, 34.151.82.192, 34.151.84.167, 34.151.92.254, 34.151.95.105, 34.151.110.186, 34.151.113.55, 35.189.5.90, 35.189.6.201, 35.189.24.237, 35.189.29.223, 35.197.168.71, 35.201.9.202, 35.201.25.163, 35.201.28.91, 35.244.87.121, 35.244.96.216, 35.244.100.190, 35.244.124.253
+
+</td>
+<td valign="top">
+
+35.244.71.16
+
+</td>
+<td valign="top">
+
+api.cf.ap30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ap30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>

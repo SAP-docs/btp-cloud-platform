@@ -12,7 +12,11 @@ Since identity providers provide the users or user groups, you make then sure th
 
 ## Authentication
 
-Identity providers provide the users. The default platform identity provider for SAP BTP is SAP ID service. If you use external identity providers, you must configure the trust relationship.
+A user account corresponds to a particular user in an identity provider. The user is always authenticated using an external identity provider. We recommend to use a custom tenant of Cloud Identity Services. You can connect Cloud Identity Services to your corporate identity provider.
+
+SAP BTP distinguishes two types of users. Platform users are usually administrators, operator, or developers. They have full access and give permissions at global account, directory, and subaccount level. Business users use the applications deployed to SAP BTP. They are, for example, end users of SaaS apps or of custom applications.
+
+For more information, see the related links.
 
 
 
@@ -22,7 +26,20 @@ Identity providers provide the users. The default platform identity provider for
 
 Application developers create and deploy application-based authorization artifacts for business users. Administrators use this model to manage roles, build role collections, and assign these collections to users or user groups. In this way, they control the users' permissions.
 
-**Setting Up Authorization Artifacts \(Administrators\)**
+To perform the functions related to authorization artifacts, account administrators can have multiple options. Here are some of the options:
+
+-   The SAP BTP cockpit covers all authorization functions. Its user interface offers easy-to-use and clear navigation.
+
+-   There is also a command line option to manage most authorization artifacts. If you prefer working in a terminal or automating operations, use the SAP BTP command line interface \(btp CLI\). It's suitable for repetitive tasks.
+
+-   Especially if you need to perform bulk operations or programmatically access the authorizations, we recommend to use the REST API for authorizations of the SAP Authorization and Trust Management service.
+
+-   Administrators can also use the Terraform Provider for SAP BTP within Infrastructure as Code to manage some of the authorization functions.
+
+
+You find the all available options and tools for managing authorizations in the account administration overview. See [Account Administration](account-administration-5d62ec8.md).
+
+**Setting Up Authorization Artifacts \(Account Administrators\)**
 
 
 <table>
@@ -34,12 +51,7 @@ Task
 </th>
 <th valign="top">
 
-User Role
-
-</th>
-<th valign="top">
-
-Tool
+Links
 
 </th>
 </tr>
@@ -48,19 +60,10 @@ Tool
 
 Assign the role collection to the users provided by an identity provider
 
-[Working with Role Collections](working-with-role-collections-393ea0b.md) or [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
-
 </td>
 <td valign="top">
 
-Account administrator
-
-</td>
-<td valign="top">
-
-SAP BTP cockpit
-
-Command line interface for SAP BTP
+[Working with Role Collections](working-with-role-collections-393ea0b.md) 
 
 </td>
 </tr>
@@ -69,19 +72,10 @@ Command line interface for SAP BTP
 
 \(If you do use a custom identity provider\) Assign the role collections to user groups
 
-[Map Role Collections to User Groups](map-role-collections-to-user-groups-51acfc8.md) or [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
-
 </td>
 <td valign="top">
 
-Account administrator
-
-</td>
-<td valign="top">
-
-SAP BTP cockpit
-
-Command line interface for SAP BTP
+[Map Role Collections to User Groups](map-role-collections-to-user-groups-51acfc8.md) 
 
 </td>
 </tr>
@@ -90,19 +84,10 @@ Command line interface for SAP BTP
 
 Assign the role collections to users and user groups, manage attribute mappings
 
-[Mapping Role Collections in the Subaccount](mapping-role-collections-in-the-subaccount-9e1bf57.md) or [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
-
 </td>
 <td valign="top">
 
-Account administrator
-
-</td>
-<td valign="top">
-
-SAP BTP cockpit
-
-Command line interface for SAP BTP
+[Mapping Role Collections in the Subaccount](mapping-role-collections-in-the-subaccount-9e1bf57.md) 
 
 </td>
 </tr>
@@ -111,19 +96,10 @@ Command line interface for SAP BTP
 
 Create a role collection and assign roles to it
 
-[Define a Role Collection](define-a-role-collection-4b20383.md) or [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
-
 </td>
 <td valign="top">
 
-Account administrator
-
-</td>
-<td valign="top">
-
-SAP BTP cockpit
-
-Command line interface for SAP BTP
+[Define a Role Collection](define-a-role-collection-4b20383.md) 
 
 </td>
 </tr>
@@ -132,19 +108,10 @@ Command line interface for SAP BTP
 
 Use an existing role or create a new one using role templates
 
-[Add Roles to Role Collections on the Application Level](add-roles-to-role-collections-on-the-application-level-7596a0b.md) or [Managing Users and Their Authorizations Using the btp CLI](managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md)
-
 </td>
 <td valign="top">
 
-Account administrator
-
-</td>
-<td valign="top">
-
-SAP BTP cockpit
-
-Command line interface for SAP BTP
+[Add Roles to Role Collections on the Application Level](add-roles-to-role-collections-on-the-application-level-7596a0b.md) 
 
 </td>
 </tr>
@@ -163,4 +130,6 @@ Command line interface for SAP BTP
 [SAP Authorization and Trust Management Service](../60-security/sap-authorization-and-trust-management-service-6373bb7.md "The global account and subaccounts get their users from identity providers. Administrators make sure that users can only access their dedicated subaccount by making sure that there is a dedicated trust relationship only between the identity providers and the respective subaccounts. Developers configure and deploy application-based security artifacts containing authorizations, and administrators assign these authorizations using the SAP BTP cockpit.")
 
 [Default Identity Provider](default-identity-provider-d6a8db7.md "SAP ID service is the default identity provider for both platform users and business users (in applications) at SAP BTP. You can start using it without further configuration.")
+
+[User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, user management takes place at all levels from global account to environment. There are different types of users, such as depending on their roles in the company.")
 

@@ -4,7 +4,7 @@
 
 # Delete Org Members
 
-Delete all roles of an org member in the cockpit. As a consequence, the member is removed from the org and any spaces in that org.
+Delete all roles of an org member in the SAP BTP cockpit. As a consequence, the member is removed from the org and any spaces in that org.
 
 
 
@@ -30,13 +30,11 @@ Delete all roles of an org member in the cockpit. As a consequence, the member i
 
 ## Procedure
 
-1.  Navigate to your subaccount in the cockpit. Make sure that Cloud Foundry is enabled. For more information, see [Navigate to Orgs and Spaces](navigate-to-orgs-and-spaces-5bf8735.md).
-
-2.  In the navigation area, choose *Cloud Foundry* \> *Org Members*.
+1.  In the navigation area in the cockpit, choose *Cloud Foundry* \> *Org Members*.
 
     The screen displays all members currently assigned to the org in a list.
 
-3.  To remove all the roles of a member, choose :wastebasket:.
+2.  Find the org member in the list. To remove all the roles of that member, choose :wastebasket:.
 
     This action removes the member from the organization and any spaces in the org.
 
@@ -44,7 +42,5 @@ Delete all roles of an org member in the cockpit. As a consequence, the member i
 **Related Information**  
 
 
-[Add Org Members Using the Cockpit](add-org-members-a4eeaf1.md "In the cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
-
-[Edit Org Members Using the Cockpit](edit-org-members-fdbeabb.md "Remove existing roles or assign new roles to an org member in the cockpit.")
+[Managing Org Members](managing-org-members-b792066.md "Learn how to add, edit, and delete org members in the SAP BTP cockpit.")
 

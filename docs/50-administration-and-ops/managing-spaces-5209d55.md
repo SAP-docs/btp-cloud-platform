@@ -69,7 +69,7 @@ Here are some of the space-related actions you can do:
 
 -   [Create Spaces](create-spaces-2f6ed22.md)
 
--   [Add Space Members](add-space-members-81d0b4d.md)
+-   [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ab77383d56146f783d41fe4b1201316.html "") :arrow_upper_right:
 
 -   [Deploy an Application](deploy-an-application-09fdb9b.md)
 
@@ -85,7 +85,7 @@ Here are some of the space-related actions you can do:
 **Related Information**  
 
 
-[Org Administration Using the Cockpit](org-administration-using-the-cockpit-c4c25cc.md "In the Cloud Foundry enviroment, manage orgs, spaces and space quota plans using the SAP BTP cockpit.")
+[Org Administration Using the Cockpit](org-administration-using-the-cockpit-c4c25cc.md "In the Cloud Foundry environment, manage orgs, spaces and space quota plans using the SAP BTP cockpit.")
 
 [Org Administration Using the Cloud Foundry CLI](org-administration-using-the-cloud-foundry-cli-927377f.md "Use the Cloud Foundry command line interface (CF CLI) for managing subaccounts in the Cloud Foundry environment, such as creating orgs and spaces, or managing quota.")
 

@@ -39,7 +39,7 @@ In the Telemetry module, a central in-cluster Deployment of an [OTel Collector](
 
 Optionally, the Telemetry module provides a DaemonSet of an OTel Collector acting as an agent. This agent can pull metrics of a workload and the Istio sidecar in the [Prometheus pull-based format](https://prometheus.io/docs/instrumenting/exposition_formats/) and can provide runtime-specific metrics for the workload.
 
-![](images/Kyma_Metrics_Architecture_b23f081.svg)
+![](images/Metrics_Architecture_99c13a2.svg)
 
 1.  An application \(exposing metrics in OTLP\) sends metrics to the central metric gateway service.
 
@@ -47,7 +47,7 @@ Optionally, the Telemetry module provides a DaemonSet of an OTel Collector actin
 
 3.  Additionally, you can activate the agent to pull metrics of each Istio sidecar.
 
-4.  The agent supports collecting container metrics from the Kubelet and Kubernetes APIServer.
+4.  The agent supports collecting metrics from the Kubelet and Kubernetes APIServer.
 
 5.  The agent converts and pushes all collected metric data to the gateway in OTLP.
 
@@ -670,6 +670,8 @@ spec:
           enabled: false
         node:
           enabled: false
+        volume:
+          enabled: false
   output:
     otlp:
       endpoint:
@@ -684,24 +686,29 @@ spec:
 <tr>
 <th valign="top">
 
-With Pod Metrics Enabled
+Pod Metrics
 
 </th>
 <th valign="top">
 
-With Container Metrics Enabled
+Container Metrics
 
 </th>
 <th valign="top">
 
-With Node Metrics Enabled
+Node Metrics
+
+</th>
+<th valign="top">
+
+Volume Metrics
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-From the kubletstatsreceiver:
+From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kubeletstatsreceiver):
 
 -   k8s.pod.cpu.capacity
 
@@ -735,7 +742,7 @@ From the kubletstatsreceiver:
 </td>
 <td valign="top">
 
-From the kubletstatsreceiver:
+From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kubeletstatsreceiver):
 
 -   container.cpu.time
 
@@ -765,7 +772,7 @@ From the kubletstatsreceiver:
 </td>
 <td valign="top">
 
-From the kubletstatsreceiver:
+From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kubeletstatsreceiver):
 
 -   k8s.node.cpu.usage
 
@@ -779,13 +786,27 @@ From the kubletstatsreceiver:
 
 -   k8s.node.memory.usage
 
--   k8s.node.network.errors
-
--   k8s.node.network.io
-
 -   k8s.node.memory.rss
 
 -   k8s.node.memory.working\_set
+
+
+
+
+</td>
+<td valign="top">
+
+From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kubeletstatsreceiver):
+
+-   k8s.volume.available
+
+-   k8s.volume.capacity
+
+-   k8s.volume.inodes
+
+-   k8s.volume.inodes.free
+
+-   k8s.volume.inodes.used
 
 
 
@@ -795,7 +816,7 @@ From the kubletstatsreceiver:
 <tr>
 <td valign="top">
 
-From the k8sclusterreceiver:
+From the [k8sclusterreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/k8sclusterreceiver):
 
 -   k8s.pod.phase
 
@@ -805,7 +826,7 @@ From the k8sclusterreceiver:
 </td>
 <td valign="top">
 
-From the k8sclusterreceiver:
+From the [k8sclusterreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/k8sclusterreceiver):
 
 -   k8s.container.cpu\_request
 
@@ -817,6 +838,11 @@ From the k8sclusterreceiver:
 
 
 
+
+</td>
+<td valign="top">
+
+\-
 
 </td>
 <td valign="top">

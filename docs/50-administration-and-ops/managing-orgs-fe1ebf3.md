@@ -2,7 +2,7 @@
 
 # Managing Orgs
 
-Learn how to create a Cloud Foundry org, manage its members, and later delete it, if needed.
+In the SAP BTP cockpit, learn how to create a Cloud Foundry org, manage its members, and later delete it, if needed.
 
 -   [Create Orgs](create-orgs-a9b1f54.md)
 -   [Delete Orgs](delete-orgs-9a3babd.md)

@@ -2,7 +2,7 @@
 
 # Add Org Members
 
-In the cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.
+In the SAP BTP cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.
 
 
 
@@ -51,9 +51,11 @@ In the cockpit, add users as org members and assign roles to grant the users acc
 
     For more information about finding the origin, see [Establish Trust and Federation of Custom Identity Providers for Platform Users](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md).
 
-6.  Select roles for the members and save your entries.
+6.  Select the org roles you want to assign.
 
     For more information, see [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md).
+
+7.  Choose *Add*.
 
 
 
@@ -62,7 +64,7 @@ In the cockpit, add users as org members and assign roles to grant the users acc
 
 ## Next Steps
 
--   To select or unselect roles for a member, see [Edit Org Members](edit-org-members-fdbeabb.md).
+-   To change the roles of a member, see [Edit Org Members](edit-org-members-fdbeabb.md).
 
 -   To remove all the roles of a member, see [Delete Org Members](delete-org-members-35a720c.md).
 
