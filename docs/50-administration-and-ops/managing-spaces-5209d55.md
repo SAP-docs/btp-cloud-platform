@@ -69,7 +69,7 @@ Here are some of the space-related actions you can do:
 
 -   [Create Spaces](create-spaces-2f6ed22.md)
 
--   [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5ab77383d56146f783d41fe4b1201316.html "") :arrow_upper_right:
+-   [Managing Space Members](managing-space-members-5ab7738.md)
 
 -   [Deploy an Application](deploy-an-application-09fdb9b.md)
 

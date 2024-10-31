@@ -664,7 +664,7 @@ Deploy all resources.
 </td>
 <td valign="top">
 
-Announce to the platform a special deployment approach, for example when performing a “blue-green” or an “incremental-blue-green” deployment. See [Blue-Green Deployment Strategy](../30-development/blue-green-deployment-strategy-7c83810.md) and [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2e4dfeded960446da4aa1c0b734fc81b.html "") :arrow_upper_right:.
+Announce to the platform a special deployment approach, for example when performing a “blue-green” or an “incremental-blue-green” deployment. See [Blue-Green Deployment Strategy](../30-development/blue-green-deployment-strategy-7c83810.md) and [\(Experimental\) Incremental Blue-Green Deployment Strategy](../30-development/experimental-incremental-blue-green-deployment-strategy-2e4dfed.md).
 
 Using this option, you will not be asked to manually confirm the deletion of the older version of the MTA applications. This means that the deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
 

@@ -71,9 +71,9 @@ You can add space members and assign roles to them at the space level in the SAP
 
 You also have the following options:
 
--   [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/d9e1a1592cf3448b931924e11f69a9e1.html "") :arrow_upper_right:
+-   [Edit Space Members](edit-space-members-d9e1a15.md)
 
--   [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/78b20cf8ae584498822dbd5c30e75b52.html "") :arrow_upper_right:
+-   [Delete Space Members](delete-space-members-78b20cf.md)
 
 
 **Related Information**  

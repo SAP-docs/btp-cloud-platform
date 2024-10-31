@@ -13,7 +13,7 @@ In the context of Multitarget applications, you have the following options for u
 
 -   [Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md) - where the production environments are called “blue” and “green”
 -   [Blue-Green Deployment Strategy](blue-green-deployment-strategy-7c83810.md) - where the production environments are called “live” and “idle”
--   [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2e4dfeded960446da4aa1c0b734fc81b.html "") :arrow_upper_right: - an alternative to the standard blue-green deployment strategy, where the "idle" application is incrementally scaled up to the desired instance count while the "live" application instances are gradually stopped
+-   [\(Experimental\) Incremental Blue-Green Deployment Strategy](experimental-incremental-blue-green-deployment-strategy-2e4dfed.md) - an alternative to the standard blue-green deployment strategy, where the "idle" application is incrementally scaled up to the desired instance count while the "live" application instances are gradually stopped
 
 **Related Information**  
 

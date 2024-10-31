@@ -92,5 +92,5 @@ For more detailed information and example results of the legacy blue-green deplo
 
 [Blue-Green Deployment Strategy](blue-green-deployment-strategy-7c83810.md "Use the current blue-green deployment of Multitarget applications.")
 
-[](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2e4dfeded960446da4aa1c0b734fc81b.html "") :arrow_upper_right:
+[\(Experimental\) Incremental Blue-Green Deployment Strategy](experimental-incremental-blue-green-deployment-strategy-2e4dfed.md "Use the incremental blue-green deployment strategy to save resources by incrementally deploying the new version of your Multitarget application.")
 

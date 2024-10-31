@@ -48,7 +48,7 @@ If you have already executed successful deployments using the [Legacy Blue-Green
         > ### Note:  
         > The new application version is launched on all instances defined in the MTA deployment descriptor. During the testing phase or when the deployment is paused for user verification, the application temporarily requires double the usual resources \(instances\). This is because both the old and the new versions of the application are running concurrently. If the testing phase is skipped or if the deployment continues without delay, the resource usage will be optimized sooner.
         > 
-        > If you are looking for a more resource-efficient deployment approach, see [](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2e4dfeded960446da4aa1c0b734fc81b.html "") :arrow_upper_right:. However, keep in mind that this approach requires more time than the standard blue-green deployment strategy.
+        > If you are looking for a more resource-efficient deployment approach, see [\(Experimental\) Incremental Blue-Green Deployment Strategy](experimental-incremental-blue-green-deployment-strategy-2e4dfed.md). However, keep in mind that this approach requires more time than the standard blue-green deployment strategy.
 
     -   temporary routes to the idle applications
 
@@ -107,7 +107,7 @@ For more detailed information and example results of the blue-green deployment p
 
 [Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md "Use the legacy blue-green deployment strategy of Multitarget applications.")
 
-[](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/2e4dfeded960446da4aa1c0b734fc81b.html "") :arrow_upper_right:
+[\(Experimental\) Incremental Blue-Green Deployment Strategy](experimental-incremental-blue-green-deployment-strategy-2e4dfed.md "Use the incremental blue-green deployment strategy to save resources by incrementally deploying the new version of your Multitarget application.")
 
 [Multitarget Application Commands for the Cloud Foundry Environment](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md "A list of additional commands to deploy multitarget applications (MTA) to the Cloud Foundry environment.")
 
