@@ -15,5 +15,7 @@ Watch the following video to learn how to get started with printing:
 **Related Information**  
 
 
- <?sap-ot O2O class="- topic/link " href="d07a4297e776446e898f2b27532f63c6.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/3e3ea05baa204284a3774856831a6465.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[SAP\_COM\_0466 \(SAP S/4HANA Cloud\)](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/d07a4297e776446e898f2b27532f63c6.html)
+
+[SAP\_COM\_0466 \(SAP BTP ABAP Environment\)](https://help.sap.com/docs/btp/sap-business-technology-platform/sap-com-0466?version=Cloud)
 

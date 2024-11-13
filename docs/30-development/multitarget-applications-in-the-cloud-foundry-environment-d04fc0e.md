@@ -295,6 +295,26 @@ You have to consider the following limits for the MTA artifacts, which can be ha
 -   Maximum size of MTA resource content: 1 MB
 -   Maximum size of MTA descriptors \(`mtad.yaml` and `MANIFEST.MF`\): 1 MB
 
+
+
+### Unsupported Cloud Foundry Features
+
+In addition to the features that are not supported by the Cloud Foundry environment on SAP BTP \(See [Supported and Unsupported Cloud Foundry Features](https://help.sap.com/docs/btp/sap-business-technology-platform/cloud-foundry-environment?version=Cloud#supported-and-unsupported-cloud-foundry-features)\), MTA deployment in Cloud Foundry currently does not support these features as well:
+
+-   Sidecars. See [https://docs.cloudfoundry.org/devguide/sidecars.html](https://docs.cloudfoundry.org/devguide/sidecars.html).
+
+-   Route services. See [https://docs.cloudfoundry.org/services/route-services.html](https://docs.cloudfoundry.org/services/route-services.html).
+
+-   Readiness health check. See [https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html](https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html).
+
+-   Health check interval. See [https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html](https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html).
+
+-   Metadata. See [https://docs.cloudfoundry.org/adminguide/metadata.html](https://docs.cloudfoundry.org/adminguide/metadata.html).
+
+
+> ### Note:  
+> These features might be implemented in the future. For the latest information, follow the release notes regarding Multitarget Applications for Cloud Foundry in [What’s New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Multitarget+Applications+for+Cloud+Foundry&locale=en-US&version=Cloud).
+
 **Related Information**  
 
 

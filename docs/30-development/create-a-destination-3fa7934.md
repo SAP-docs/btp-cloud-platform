@@ -38,3 +38,6 @@ If your business application uses external services, you have to set up a destin
 8.  In the *New Communication Arrangement* dialog, use the value help to select scenario `SAP_COM_0276` and give the arrangement a meaningful name \(e.g. the name of the destination service instance\).
 9.  Enter the service key of your destination service instance and select *Create*.
 
+> ### Note:  
+> The process for connecting to an ABAP service instance URL when creating a new ABAP Cloud project in ABAP development tools for Eclipse has changed. For more information, see [ABAP Service Instance URL](abap-service-instance-url-41ec2d3.md).
+

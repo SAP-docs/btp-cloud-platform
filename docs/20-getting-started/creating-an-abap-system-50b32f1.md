@@ -85,6 +85,18 @@ For more information about creating service instances, see [Create Service Insta
     <tr>
     <td valign="top">
     
+    Admin Employee ID `admin_employee_id`
+    
+    </td>
+    <td valign="top">
+    
+    The **admin employee ID** is an optional parameter used to provide the employee ID for the initial user. You can either set it directly by using this parameter during instance creation or after instance creation in the Maintain Employees Fiori application of the ABAP environment service instance. Once set, it cannot be changed anymore. The employee ID must only contain uppercase letters, digits, underscores, hyphens and periods, and must not be longer than 60 characters.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     ABAP System Description
 
     \(`description`\)

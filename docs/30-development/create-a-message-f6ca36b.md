@@ -6,7 +6,7 @@ One item category, which can be written into an application log, is a message. A
 
 When an application log message is defined, you can set the following attributes:
 
--   Severity, such as 'Error', 'Warning', 'Information'. Values of the severity are defined as constants in interface `IF_BALI_CONSTANTS`.
+-   Severity, such as *Error*, *Warning*, *Information*. Possible values of the severity are defined as constants in interface `IF_BALI_CONSTANTS`.
 
 -   Message ID
 
@@ -15,6 +15,8 @@ When an application log message is defined, you can set the following attributes
 -   Variables 1 - 4 of the message
 
 -   Detail Level of the item: If the application displays the items of the application log, the detail level can be used to define at which level of detail the item shall be displayed.
+
+-   Context: Allows the storage of application-specific data related to the message. See [Set a Context](set-a-context-0afccc8.md).
 
 
 To add a message to an application log, an instance of interface `IF_BALI_MESSAGE_SETTER` is required. To create this instance, class `CL_BALI_MESSAGE_SETTER` provides the following methods:
@@ -50,6 +52,8 @@ Interface `IF_BALI_MESSAGE_SETTER` contains the following methods to set or chan
 -   SET\_FROM\_BAPIRET2: Changes the severity, message ID, message number and the variables of the message to the values of structure BAPIRET2.
 
 -   SET\_DETAIL\_LEVEL: Sets the detail level.
+
+-   SET\_CONTEXT: Sets the context of the message.
 
 
 > ### Sample Code:  

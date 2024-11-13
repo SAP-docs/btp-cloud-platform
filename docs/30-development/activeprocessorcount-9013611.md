@@ -48,5 +48,5 @@ If you want to explicitly set the value of `ActiveProcessorCount`, you can do th
 **Related Information**  
 
 
-[Java Out Of Memory Behavior](java-out-of-memory-behavior-588cfd9.md "")
+[Out-Of-Memory Behavior](out-of-memory-behavior-588cfd9.md "")
 

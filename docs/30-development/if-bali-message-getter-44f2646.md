@@ -95,6 +95,20 @@ UTC time stamp of the message creation
 <tr>
 <td valign="top">
 
+CONTEXT\_STRUCTURE\_NAME
+
+\(from IF\_BALI\_ITEM\_GETTER\)
+
+</td>
+<td valign="top">
+
+Data dictionary name of the context structure
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 ID
 
 </td>
@@ -178,6 +192,8 @@ Count of cumulated messages
 </tr>
 </table>
 
+**Public Methods**
+
 
 
 Get the message text of the message \(the output of ABAP command `MESSAGE`\):
@@ -214,6 +230,47 @@ MESSAGE\_TEXT
 <td valign="top">
 
 Text of the message in the logon language
+
+</td>
+</tr>
+</table>
+
+
+
+Get the context data of the message:
+
+**GET\_CONTEXT \(from the interface IF\_BALI\_ITEM\_GETTER\)**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exporting parameter**
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CONTEXT
+
+</td>
+<td valign="top">
+
+Structure that is filled with context data
 
 </td>
 </tr>

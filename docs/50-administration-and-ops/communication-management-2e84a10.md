@@ -44,7 +44,7 @@ The communication management apps allow you to establish secure communication be
 
 [Maintain Communication Users](maintain-communication-users-eef80dd.md "You can use this app to create and edit communication users. Communication users are used by solutions to authenticate themselves to be able to post data.")
 
- <?sap-ot O2O class="- topic/link " href="fab3fd449cf74c6384622b98831e989e.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/2e84a10c430645a88bdbfaaa23ac9ff7.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[Communication Arrangements](communication-arrangements-1decd8b.md)
 
 [Communication Systems](communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
 

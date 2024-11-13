@@ -6,6 +6,12 @@ Learn how to set up a destination in the same Cloud Foundry subaccount in which 
 
 
 
+## Context
+
+The process for connecting to an ABAP service instance URL when creating a new ABAP Cloud project in ABAP development tools for Eclipse has changed. For more information, see [ABAP Service Instance URL](../30-development/abap-service-instance-url-41ec2d3.md).
+
+
+
 <a name="loioe597948462fe45c98c10269bbe3603d6__steps_fn5_mv2_mmb"/>
 
 ## Procedure

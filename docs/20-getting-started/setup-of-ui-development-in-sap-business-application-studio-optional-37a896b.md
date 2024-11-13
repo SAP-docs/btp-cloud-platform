@@ -6,6 +6,9 @@ If developers want to use SAP Business Application Studio to create and deploy S
 
 In the Cloud Foundry environment, SAP Business Application Studio is a service that provides a modular development environment, including the development of SAP Fiori applications. As an alternative to SAP Business Application Studio, you can also use SAP Web IDE. We recommend that you use SAP Business Application Studio.
 
+> ### Note:  
+> The process for connecting to an ABAP service instance URL when creating a new ABAP Cloud project in ABAP development tools for Eclipse has changed. For more information, see [ABAP Service Instance URL](../30-development/abap-service-instance-url-41ec2d3.md).
+
 
 
 <a name="loio37a896bfac604076ae825a1d37b0bd0a__section_bbn_q4x_4mb"/>

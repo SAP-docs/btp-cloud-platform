@@ -10,6 +10,9 @@ In the SAP BTP cockpit, you can create a service key for the ABAP system. You ca
 
 You can use service keys to generate credentials to communicate directly with a service instance. After you have configured the service keys for your service, local clients, apps in other spaces, or entities outside your deployment can access your service with these keys. Using a service key is one option how you can access the service instance of the ABAP environment, for example, as administrator for test purposes. Note, however, that there's also another option for users of ABAP development tools \(ADT\): instead of using an existing service key, developers and other users with a user and password for the ABAP system can also use the project creation wizard in ADT to log on to the ABAP service instance and use the service key that is automatically provided by the service instance. For more information about service keys, see [Using a Service Key Provided by the Service Instance](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/b7983cfadaa840ddbb44b146fc9b2db0.html). You can also create service keys for other use cases, such as: [Create a Communication Arrangement for Inbound Communication with Service Key Type Basic](../30-development/create-a-communication-arrangement-for-inbound-communication-with-service-key-type-basic-1cc5a1d.md) and [Configure Timeout of @sap/approuter Component of a Communication Arrangement for Inbound Communication with Service Key OAuth](../30-development/configure-timeout-of-sap-approuter-component-of-a-communication-arrangement-for-inbound-c-48bcc77.md).
 
+> ### Note:  
+> The process for connecting to an ABAP service instance URL when creating a new ABAP Cloud project in ABAP development tools for Eclipse has changed. For more information, see [ABAP Service Instance URL](../30-development/abap-service-instance-url-41ec2d3.md).
+
 
 
 <a name="loiobf701059725540098fba6b364433dc13__steps_ztx_bpm_z2b"/>

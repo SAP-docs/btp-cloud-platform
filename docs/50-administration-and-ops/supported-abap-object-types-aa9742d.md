@@ -555,6 +555,23 @@ Data Protection Template
 <tr>
 <td valign="top">
 
+DRAS
+
+</td>
+<td valign="top">
+
+CDS Aspects
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DRTY
 
 </td>

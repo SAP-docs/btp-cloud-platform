@@ -14,6 +14,8 @@ The XCO Generation APIs are the part of the XCO library that allows the programm
 
 -   DDLX \(Metadata Extensions\)
 
+-   DESD \(Logical External Schema\)
+
 -   DEVC \(Packages\)
 
 -   DOMA \(Domains\)
@@ -201,6 +203,33 @@ X
 <td valign="top">
 
 DDLX
+
+</td>
+<td valign="top">
+
+X
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+X
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DESD
 
 </td>
 <td valign="top">

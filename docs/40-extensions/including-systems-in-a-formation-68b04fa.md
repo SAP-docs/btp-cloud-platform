@@ -193,14 +193,14 @@ If you want to reconfigure the systems in a formation from scratch without exclu
         <tr>
         <td valign="top">
         
-        *Integration with SAP Build Work Zone* 
+        *Integration with SAP Start* 
         
         </td>
         <td valign="top">
         
-        Formations of type *Integration with SAP Build Work Zone* set up SAP Build Work Zone, standard edition with SAP S/4HANA Cloud on SAP BTP.
+        Formations of type *Integration with SAP Start* set up SAP Build Work Zone, standard edition with SAP S/4HANA Cloud on SAP BTP.
 
-        See [Enabling SAP Build Work Zone, Standard Edition](enabling-sap-build-work-zone-standard-edition-f7d3f5e.md).
+        See [Enabling SAP Start](enabling-sap-start-f7d3f5e.md).
         
         </td>
         </tr>

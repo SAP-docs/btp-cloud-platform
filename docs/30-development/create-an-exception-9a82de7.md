@@ -6,11 +6,13 @@ One item category, which can be written into an application log, is an *Exceptio
 
 To define an application log exception, you can set the following attributes:
 
--   Severity, such as 'Error', 'Warning', 'Information'. Possible values of the severity are defined as constants in interface`IF_BALI_CONSTANTS`.
+-   Severity, such as *Error*, *Warning*, *Information*. Possible values of the severity are defined as constants in interface `IF_BALI_CONSTANTS`.
 
 -   Reference to the exception object
 
--   Detail Level of the item: If the application displays the items of the application log, the detail level can be used to define at which level of detail the item shall be displayed.
+-   Detail Level of the item: If the application displays the items of the application log, the detail level can be used to define at which level of detail the item should be displayed.
+
+-   Context: Allows the storage of application-specific data related to the exception. See [Set a Context](set-a-context-0afccc8.md).
 
 
 To add an exception to an application log, an instance of interface `IF_BALI_EXCEPTION_SETTER` is required. To create this instance, method `CREATE` of class `CL_BALI_EXCEPTION_SETTER` can be used. It allows to set the severity and the reference to the exception object.
@@ -20,6 +22,8 @@ If you want to set or change the attributes of the exception, you can use interf
 -   SET\_EXCEPTION: Changes the reference to the exception object and the severity.
 
 -   SET\_DETAIL\_LEVEL: Sets the detail level.
+
+-   SET\_CONTEXT: Sets the context of the exception.
 
 
 > ### Sample Code:  

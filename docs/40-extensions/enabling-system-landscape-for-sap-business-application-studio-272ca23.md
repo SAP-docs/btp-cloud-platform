@@ -116,7 +116,7 @@ The following procedure outlines the steps you need to perform to consume the AP
         </tr>
         </table>
         
-        All of the required properties of a given SAP S/4HANA Cloud system are accessible in the corresponding *System Details* section on the *Systems* page. See [Create a Destination](../30-development/create-a-destination-3fa7934.md) and [Configuring the Extension Application's Connectivity to SAP S/4HANA Cloud](configuring-the-extension-application-s-connectivity-to-sap-s-4hana-cloud-ef4b7ca.md).
+        All of the required properties of a given SAP S/4HANA Cloud system are accessible in the corresponding *System Details* section on the *Systems* page. See [Create a Destination](../30-development/create-a-destination-3fa7934.md).
 
     -   Create a destination automatically.
 

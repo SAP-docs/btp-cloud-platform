@@ -23,7 +23,7 @@
 
 ### Maintain Business Role
 
-To enable business users to access the `Custom Code Migration` app, create the `Project Manager – IT` business role and assign one or more business user\(s\) to it. Please note that, in order to use the feature of adding findings to the baseline, you'll also need the `Quality Manager – Software Development` business role. To create these roles, proceed as follow \(taking `Project Manager – IT` as an example\):
+To enable business users to access the *Custom Code Migration* app, create the `Project Manager – IT` business role and assign one or more business user\(s\) to it. Please note that, in order to use the feature of adding findings to the baseline, you'll also need the `Quality Manager – Software Development` business role. To create these roles, proceed as follow \(taking `Project Manager – IT` as an example\):
 
 1.  From the SAP Fiori launchpad of your ABAP environment, open the *Maintain Business Role* tile.
 
@@ -45,7 +45,7 @@ To enable business users to access the `Custom Code Migration` app, create the `
 
 ### Maintain Communication Arrangement
 
-To enable communication from your ABAP environment to your on-premise systems using Remote Function Calls \(RFC\), you need to create the communication arrangement SAP Custom Code Migration Integration \(`SAP_COM_0464`\) in your ABAP environment.
+To enable communication from your ABAP environment to your on-premise systems using Remote Function Calls \(RFC\), you need to create the communication arrangement *SAP Custom Code Migration Integration* \(`SAP_COM_0464`\) in your ABAP environment.
 
 To set up the connection from the ABAP system in the ABAP environment to your on-premise system, proceed as follows:
 
@@ -70,7 +70,7 @@ To set up the connection from the ABAP system in the ABAP environment to your on
 
     7.  Under *RFC Settings*, fill in the fields *Client*, *Instance Number* and *Target Host* as specified as virtual host in your *Cloud Connector*.
 
-    8.  Under *User for Outbound Communication*, choose *\+* to assign the RFC user you created in the checked system to the communication system.
+    8.  Under *User for Outbound Communication*, choose *\+* to assign the RFC user you created in the checked system to the communication system. See [Configuring Remote ATC Using a Central Check System](https://help.sap.com/docs/btp/sap-business-technology-platform/configuring-remote-atc-using-central-check-system) to learn how to create such an RFC user.
 
     9.  Choose *Create* and then *Save* to save the communication system and to be navigated back to the Communication Arrangement creation page.
 
@@ -83,7 +83,9 @@ To set up the connection from the ABAP system in the ABAP environment to your on
 
 6.  Under *Outbound Services* \> *Retrieve Custom Code*, ensure that the *Service Status* is set to *Active*.
 
-7.  Choose *Save* to save the communication arrangement. A message should now pop up at the bottom of the screen informing you that the activation was successful.
+7.  Under *Outbound Services* \> *Display Custom Code*, ensure that the *Service Status* for displaying custom code via UI link is set to *Active*.
+
+8.  Choose *Save* to save the communication arrangement. A message should now pop up at the bottom of the screen informing you that the activation was successful.
 
 
 You can now select the communication arrangement in the *Object Provider to Remote System* field in the `Custom Code Migration` app to establish the connection to your on-premise system.
@@ -94,7 +96,7 @@ You can now select the communication arrangement in the *Object Provider to Remo
 
 ## On-Premise System: Install Remote Stubs
 
-To analyze your custom code in your on-premise system using the `Custom Code Migration` app, see SAP Note [2599695](https://me.sap.com/notes/2599695) Custom Code Migration Fiori App: Remote Stubs for the Checked System.
+To analyze your custom code in your on-premise system using the *Custom Code Migration* app, see SAP Note [2599695](https://me.sap.com/notes/2599695).
 
 **Related Information**  
 

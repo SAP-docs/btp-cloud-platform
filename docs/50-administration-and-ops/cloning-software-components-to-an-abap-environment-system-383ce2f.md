@@ -45,17 +45,19 @@ If a software component is not in your system yet, you will first need to clone 
 
     > ### Sample Code:  
     > ```
-    > 
-    > 						that was retrieved in the first request in the header parameters. TheRequest
+    > Request
     >     POST /sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/SoftwareComponents/%2FDMO%2FCOMPONENT/SAP__self.clone HTTP/1.1
     > Accept: application/json
     > X-Csrf-Token: {{xcsrfToken}}
     > Host: host.abapcp.int.sap
-    > Content-Length: 122
+    > Content-Length: 172
     >     {
-    >     "commit_id": "",
-    >     "branch_name": "main",
-    >     "tag_name": "",
+    > 		"commit_id": "",
+    > 		"branch_name": "main",
+    > 		"tag_name": "",
+    > 		"username": "myUsername",
+    > 		"password": "myToken",
+    > 		"auth_method": "token"
     >     }
     > 
     > Response
@@ -80,10 +82,145 @@ If a software component is not in your system yet, you will first need to clone 
     >         "start_time": "2024-01-16T13:46:26Z",
     >         "execution_mode": "",
     >         "import_mode": "",
+    >         "batch_id": null,
+    >         "batch_sequence": 0,
     >         "SAP__Messages": []
     >     }
     > 
     > ```
+
+    -   *2.1 Cloning Your Own Software Component from Git Repository Using Bring Your Own Git \(BYOG\)*
+
+        Determine whether you have created a Bring Your Own Git \(BYOG\) software component as described in the according documentation.
+
+        If the software component is to be cloned from an externally managed Git repository, the clone request must be adjusted. The request must be supplemented with the parameters `username`, `password` and `auth_method`. These parameters are used to authenticate with external Git providers.
+
+        Two authentication options, which are specified with the `auth_method` parameter, are supported.
+
+        Following, these two authentication options are listed.
+
+
+        <table>
+        <tr>
+        <th valign="top">
+
+        auth\_method
+        
+        </th>
+        <th valign="top">
+
+        Meaning
+        
+        </th>
+        <th valign="top">
+
+        Usage
+        
+        </th>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        basic
+        
+        </td>
+        <td valign="top">
+        
+        Authentification with username and password
+        
+        </td>
+        <td valign="top">
+        
+        > ### Sample Code:  
+        > ```
+        >    {
+        >         "username": "myUsername",
+        >         "password": "myPassword",
+        >         "auth_method": "basic"
+        >     }
+        > 
+        > ```
+
+
+        
+        </td>
+        </tr>
+        <tr>
+        <td valign="top">
+        
+        token
+        
+        </td>
+        <td valign="top">
+        
+        Authentification with username and token
+        
+        </td>
+        <td valign="top">
+        
+        > ### Sample Code:  
+        > ```
+        >    {
+        >         "username": "myUsername",
+        >         "password": "myToken",
+        >         "auth_method": "token"
+        >     }
+        > 
+        > ```
+
+
+        
+        </td>
+        </tr>
+        </table>
+        
+        If `auth_method` is not defined, the token method is automatically selected.
+
+        > ### Sample Code:  
+        > ```
+        > Request
+        >     POST /sap/opu/odata4/sap/a4c_mswc_api/srvd_a2x/sap/manage_software_components/0001/SoftwareComponents/%2FDMO%2FCOMPONENT/SAP__self.clone HTTP/1.1
+        > Accept: application/json
+        > X-Csrf-Token: {{xcsrfToken}}
+        > Host: host.abapcp.int.sap
+        > Content-Length: 172
+        >     {
+        >         "commit_id": "",
+        >         "branch_name": "main",
+        >         "tag_name": "",
+        >         "username": "myUsername",
+        >         "password": "myToken",
+        >         "auth_method": "token"
+        >     }
+        > 
+        > Response
+        >     HTTP/1.1 200 OK
+        >     Content-Type: application/json
+        >     {
+        >         "@odata.context": "../$metadata#Actions/$entity",
+        >         "@odata.metadataEtag": "W/\"20240111143934\"",
+        >         "uuid": "96bbf3e1-5202-1ede-ad8e-b46db5437410",
+        >         "sc_name": "/DMO/COMPONENT",
+        >         "import_type": "Clone",
+        >         "branch_name": "main",
+        >         "namespace": "",
+        >         "status": "Q",
+        >         "status_descr": "Scheduled",
+        >         "criticality": 0,
+        >         "user_name": "WebAPI - CC0000000009",
+        >         "commit_id": "",
+        >         "tag_name": "",
+        >         "relative_date_change_time": "",
+        >         "change_time": "2024-01-16T13:46:26Z",
+        >         "start_time": "2024-01-16T13:46:26Z",
+        >         "execution_mode": "",
+        >         "import_mode": "",
+        >         "batch_id": null,
+        >         "batch_sequence": 0,
+        >         "SAP__Messages": []
+        >     }
+        > ```
+
 
 3.  *Tracking the Status of the Action*
 

@@ -39,3 +39,5 @@ When you now log on to the SAP Fiori launchpad with the assigned business user, 
 
 [Approve ATC Exemptions](approve-atc-exemptions-8c6696c.md)
 
+[SAP Note 3480722 - Downport Program to Export ATC Exemptions](https://me.sap.com/notes/3480722/E)
+

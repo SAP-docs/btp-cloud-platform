@@ -20,7 +20,6 @@ Supported content types that currently allow deployment with CF Task execution:
 -   HDI content - MTA module type `com.sap.xs.hdi`. For more information, see [The SAP HDI Deployer](https://help.sap.com/docs/HANA_CLOUD_DATABASE/b9902c314aef4afb8f7a29bf8c5b37b3/1b567b05e53c4cb9b130026cb2e7302d.html)
 
 -   FLP content - MTA module type `com.sap.portal.content`
--   Business Logging - MTA module type `com.sap.business-logging.content`. For more information, see [Using the Content Deployer](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/626b5511d7924ace8b6ae912e8ff3447.html?locale=en-US)
 -   HTML5 Content - MTA module type `com.sap.html5.application.content`. For more information, see [Deploy Content Using HTML5 Application Deployer](https://help.sap.com/docs/btp/sap-business-technology-platform/deploy-content-using-html5-application-deployer?version=Cloud)
 
 
@@ -76,7 +75,7 @@ The Content Deployer and Service Instance follow the same rules as the ones from
 
 ## CF Tasks
 
-Tasks are native to Cloud Foundry and are valuable in various scenarios, which demand one-off jobs. For more information, see[https://help.sap.com/docs/btp/sap-business-technology-platform/tasks?version=Cloud](https://help.sap.com/docs/btp/sap-business-technology-platform/tasks?version=Cloud) from the official documentation.
+Tasks are native to Cloud Foundry and are valuable in various scenarios, which demand one-off jobs. For more information, see [Tasks](https://help.sap.com/docs/btp/sap-business-technology-platform/tasks).
 
 CF tasks, dedicated for content deployment, are predefined from the SAP Cloud Deployment service and must not be changed by the end customer. They are represented by the module level parameter `tasks`.
 

@@ -30,7 +30,7 @@ To call an HTTP service via communication targets, proceed as follows.
 
 5.  Publish the communication scenario. The administrator can then create the required communication management objects as described in [Next Steps](calling-an-http-service-via-communication-targets-e03a11d.md#loioe03a11db11554cb0a81d2f60b5095686__postreq_vcb_cjy_pbc).
 
-6.  If the communication target has multiple assigned application destinations, create an implementation of the `communication_management` BAdI as described in the example.
+6.  If the communication target has multiple assigned application destinations, create an implementation of the `communication_management` BAdI as described in the example. The BAdI implementation stores the name of the application destinations in a customizing table.
 
 7.  Adapt the service call according to your needs as described in the example.
 
@@ -39,7 +39,25 @@ To call an HTTP service via communication targets, proceed as follows.
 
 ## Example
 
-**Retrieve the name of the relevant application destination**
+**Create a customizing table to store the name of the application destination.**
+
+> ### Sample Code:  
+> ```abap
+> @EndUserText.label : 'Cota Custom Table'
+> @AbapCatalog.enhancement.category : #NOT_EXTENSIBLE
+> @AbapCatalog.tableCategory : #TRANSPARENT
+> @AbapCatalog.deliveryClass : #C
+> @AbapCatalog.dataMaintenance : #RESTRICTED
+> define table zcota_custom {
+> 
+>   key client  : abap.clnt not null;
+>   key usecase : abap.int1 not null;
+>   appldest    : abap.sstring(50) not null;
+> 
+> }
+> ```
+
+**Retrieve the name of the relevant application destination.**
 
 > ### Sample Code:  
 > ```abap
@@ -56,16 +74,16 @@ To call an HTTP service via communication targets, proceed as follows.
 >     FIELD-SYMBOLS: <ls_out_srv> LIKE LINE OF lt_out_srv_a.
 >     DATA(lt_properties) = io_com_arrangement->get_properties( ).
 > 
->     DATA lv_usecase TYPE i VALUE 1.
+>     DATA lv_scenarioid TYPE i VALUE 1.
 >     LOOP AT lt_properties INTO DATA(ls_property).
 >       IF ls_property-name EQ 'USECASE'.
->         lv_usecase = ls_property-values[ 1 ].
+>         lv_scenarioid = ls_property-values[ 1 ].
 >       ENDIF.
 >     ENDLOOP.
 > 
 >   " save the application destination to an application-specific persistence
 >     LOOP AT lt_out_srv_a ASSIGNING <ls_out_srv>.
->       ls_custom-usecase = lv_usecase.
+>       ls_custom-usecase = lv_scenarioid.
 >       ls_custom-appldest = <ls_out_srv>-destination_name.
 > 
 >       MODIFY zcota_custom FROM @ls_custom.
@@ -95,51 +113,44 @@ To call an HTTP service via communication targets, proceed as follows.
 
 > ### Sample Code:  
 > ```abap
-> METHOD if_http_service_extension~handle_request.
->   DATA lo_cota TYPE REF TO z_cota.
->   DATA lt_output TYPE STANDARD TABLE OF string.
->   DATA lv_appl_dest TYPE sappdestname.
+> METHOD if_oo_adt_classrun~main.
 > 
->   DATA(lv_usecase) = request->get_form_field( i_name = 'usecase' ).
+>     DATA lo_cota TYPE REF TO z_cota_http.
+>     DATA lt_output TYPE STANDARD TABLE OF string.
+>     DATA lv_appl_dest TYPE sappdestname.
 > 
->   IF lv_usecase IS INITIAL.
->     response->set_text( 'Use case parameter not provided.' ).
->     RETURN.
->   ENDIF.
+>     DATA(lv_scen) = '1'.
 > 
->   " select the relevant application destination from the customizing table
->   SELECT SINGLE dest 
->   FROM zcota_custom 
->   WHERE usecase = @lv_scen
->   INTO @lv_appl_dest.
 > 
->   IF sy-subrc <> 0.
->     response->set_text( 'Unknown use case.' ).
->     RETURN.
->   ENDIF.
->   
->   TRY.
->       DATA(lo_cota) = NEW z_cota( lv_appl_dest ).
->       DATA(lo_client) = lo_cota->create_web_http_client( ).
->       DATA(lo_response) = lo_client->execute( if_web_http_client=>get ).
->       DATA(ls_status) = lo_response->get_status( ).
+>     " select the relevant application destination from the customizing table
+>     
+>     SELECT SINGLE appldest
+>     FROM zcota_custom
+>     WHERE usecase = @lv_scen
+>     INTO @lv_appl_dest.
 > 
->       APPEND |Cota call ended with status { ls_status-code }<br/>| TO lt_output.
 > 
->     CATCH cx_appdestination INTO DATA(lx_appdestination).
->       APPEND lx_appdestination->get_text( ) TO lt_output.
->     CATCH cx_communication_target_error INTO DATA(lx_communication_target_error).
->       APPEND lx_communication_target_error->get_text( ) TO lt_output.
->     CATCH cx_web_http_client_error INTO DATA(lx_web_http_client_error).
->       APPEND lx_web_http_client_error->get_text( ) TO lt_output.
->   ENDTRY.
+>     TRY.
+>         lo_cota = NEW z_cota_http( lv_appl_dest ).
+>         DATA(lo_client) = lo_cota->create_web_http_client( ).
+>         DATA(lo_response) = lo_client->execute( if_web_http_client=>get ).
+>         DATA(ls_status) = lo_response->get_status( ).
 > 
->   DATA(lv_output) = REDUCE string( INIT r = ``
->   FOR <line> IN lt_output
->   NEXT r = |{ r }{ <line> }{ cl_abap_char_utilities=>cr_lf }| ).
 > 
->   response->set_text( lv_output ).
-> ENDMETHOD.
+>       CATCH cx_appdestination INTO DATA(lx_appdestination).
+>         APPEND lx_appdestination->get_text( ) TO lt_output.
+>       CATCH cx_communication_target_error INTO DATA(lx_communication_target_error).
+>         APPEND lx_communication_target_error->get_text( ) TO lt_output.
+>       CATCH cx_web_http_client_error INTO DATA(lx_web_http_client_error).
+>         APPEND lx_web_http_client_error->get_text( ) TO lt_output.
+> 
+>     ENDTRY.
+> 
+> 
+>     out->write( lo_response->get_text( ) ).
+> 
+> 
+>   ENDMETHOD.
 > ```
 
 

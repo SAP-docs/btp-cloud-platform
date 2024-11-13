@@ -2,9 +2,11 @@
 
 # Writing Change Documents
 
-Write change documents
+
 
 The `WRITE` method in the generated class `CL_<change document object name>_CHDO` creates change documents from the object-specific update for an object ID.
+
+If the *Fiori Reuse Library for Change Document Solution* will be used to display the change documents, time of change \(UTIME\) and date of change \(UDATE\) need to be provided in system time zone.
 
 **Import Parameters**
 
@@ -42,7 +44,7 @@ UTIME
 </td>
 <td valign="top">
 
-Time of change
+Time of change \(If the *Fiori Reuse Library for Change Document Solution* is used provide information in system time zone.\)
 
 </td>
 </tr>
@@ -54,7 +56,7 @@ UDATE
 </td>
 <td valign="top">
 
-Date of change
+Date of change \(If the *Fiori Reuse Library for Change Document Solution* is used provide information in system time zone.\)
 
 </td>
 </tr>

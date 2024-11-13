@@ -129,14 +129,170 @@ For more information about identity federation, see [Configure Identity Federati
     If the corporate identity provider sends user attributes with other names, set the source to the corporate identity provider and the value to the correct attribute name.
 
     > ### Example:  
-    > If your corporate identity provider sends users' last names as the **sn** attribute, add the corporate identity provider as source to the *last\_name* attribute with the value `sn`.
+    > If your corporate identity provider sends users' last names as the `sn` attribute, add the corporate identity provider as source to the `last_name` attribute with the value `sn`.
 
-      
-      
     **Customized Last Name Attribute Configuration in SAP Cloud Identity Services**
 
-    ![](images/last_name-sn_attributes_subaccount_b820b4d.png "Customized Last Name Attribute Configuration in SAP Cloud Identity Services")
 
+    <table>
+    <tr>
+    <th valign="top">
+
+    Attribute Name
+    
+    </th>
+    <th valign="top">
+
+    Source
+    
+    </th>
+    <th valign="top">
+
+    Attribute Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `email` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `Email` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `email_verified` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `Email Verified` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `family_name` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `Last Name` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `given_name` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `First Name` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `groups` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `Groups` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `last_name` 
+    
+    </td>
+    <td valign="top">
+    
+    Corporate Identity Provider
+    
+    </td>
+    <td valign="top">
+    
+    > ### Example:  
+    > `sn`
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `mail` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `Email` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `user_uuid` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `Global User ID` 
+    
+    </td>
+    </tr>
+    </table>
+    
     For more information, see [User Attributes](https://help.sap.com/docs/identity-authentication/identity-authentication/user-attributes?version=Cloud) in the documentation of SAP Cloud Identity Services.
 
 

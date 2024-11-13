@@ -208,7 +208,7 @@ SAP API Management
 </td>
 <td valign="top">
 
-[Auditing and Logging Information](https://help.sap.com/viewer/DRAFT/66d066d903c2473f81ec33acfe2ccdb4/Development/en-US/77024b3e29e749a799b3d724f1535d34.html)
+[Auditing and Logging Information](https://help.sap.com/docs/sap-api-management/sap-api-management/auditing-and-logging-information-for-api-management)
 
 </td>
 </tr>
@@ -305,6 +305,18 @@ SAP Cloud Integration for data services
 <td valign="top">
 
 [Security Log](https://help.sap.com/viewer/dab65b1584e04026a132a06a711e3f5a/LATEST/en-US/f010f3664ad944d0b3caa9fa3c582c85.html)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Portal service
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/docs/cloud-portal-service/sap-cloud-portal-service-on-cloud-foundry/auditing-and-logging-information)
 
 </td>
 </tr>
@@ -545,6 +557,18 @@ SAP S/4HANA Cloud Extensibility
 <td valign="top">
 
 [Auditing and Logging Information](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/b250a8d232654c71a8080c2660d5305c.html)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Start
+
+</td>
+<td valign="top">
+
+[Security Events Logged by the Interest Cards Service](https://help.sap.com/docs/start/sap-start/security#security-events-logged-by-the-interest-cards-service)
 
 </td>
 </tr>

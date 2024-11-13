@@ -105,7 +105,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         > > ### Remember:  
         > > For `central-viewer` or `local-viewer` service plans, you can only use the Client Credentials grant type.
 
-    -   To create a service instance in Kyma using the Kyma dashboard, see [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md#loioea4dd81e49254dd482d32e3c20f4477a).
+    -   To create a service instance in Kyma using the Kyma dashboard, see [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md).
 
     > ### Recommendation:  
     > If you aren't working in Cloud Foundry, Kyma, or Kubernetes, use the SAP Service Manager to create and manage service instances. These instances are platform agnostic and can be deployed and integrated with any other environment of your choice.
@@ -123,7 +123,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
 
     -   To create bindings in other environments, see [Consuming Services in Other Environments Using the Service Management Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
 
-    -   To create credentials for calling the service and retrieving information in the Kyma environment, see [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md#loioea4dd81e49254dd482d32e3c20f4477a).
+    -   To create credentials for calling the service and retrieving information in the Kyma environment, see [Using SAP BTP Services in the Kyma Environment](../30-development/using-sap-btp-services-in-the-kyma-environment-ea4dd81.md).
 
 
     > ### Sample Code:  
@@ -151,6 +151,24 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
     >  }
     > }
     > ```
+
+    ```
+    
+    {
+      "parameters": {
+        "credential-type": "x509",
+        "x509": {
+          "key-length": 2048, // specifies the byte length of the generated private key,
+                              // defaults to 2048
+          "validity": 7, // specifies the number of time units in validity-type,
+                         // defaults to 7, thus the complete validity defaults to 7 days
+          "validity-type": "DAYS" // specifies the validity time unit,
+                                  // only DAYS, MONTHS and YEARS are supported,
+                                  // defaults to DAYS
+        }
+      }
+    }
+    ```
 
 3.  Use the `uaa_url`, `clientid`, and `clientsecret` to request an access token using the following commands:
 

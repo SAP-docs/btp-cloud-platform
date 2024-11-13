@@ -12,7 +12,7 @@
 
 ABAP Cloud reflects the modern way to develop ABAP. It allows you to build lifecycle-stable and cloud-ready business applications, services, and extensions.
 
-ABAP Cloud provides tools and techniques that ensure cloud qualities, promotes new technologies, contains a cloud-optimized subset of the ABAP language, and makes upgrade cycles easier by a clear separation between custom code and SAP code by only using released APIs and objects. See  <?sap-ot O2O class="- topic/xref " href="9aaaf650d02e42afba0e4b09e2991d78.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/042061da2e964b7eab3c7ec2a5cc7ece.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+ABAP Cloud provides tools and techniques that ensure cloud qualities, promotes new technologies, contains a cloud-optimized subset of the ABAP language, and makes upgrade cycles easier by a clear separation between custom code and SAP code by only using released APIs and objects. See [ABAP Cloud](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/9aaaf650d02e42afba0e4b09e2991d78.html?locale=en-US&state=PRODUCTION&version=Cloud) in [SAP BTP Developer’s Guide](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/ba26ec41130d4835aef2265ad3d3704e.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
 
 
@@ -39,5 +39,5 @@ Here are some of the benefits that come with the SAP Cloud Application Programmi
 -   Latest UX and themes
 
 
-See  <?sap-ot O2O class="- topic/xref " href="696ec2328d02468eb1455c280e1eb969.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/042061da2e964b7eab3c7ec2a5cc7ece.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+See [SAP Cloud Application Programming Model \(CAP\)](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/696ec2328d02468eb1455c280e1eb969.html?locale=en-US&state=PRODUCTION&version=Cloud) in [SAP BTP Developer’s Guide](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/ba26ec41130d4835aef2265ad3d3704e.html?locale=en-US&state=PRODUCTION&version=Cloud).
 

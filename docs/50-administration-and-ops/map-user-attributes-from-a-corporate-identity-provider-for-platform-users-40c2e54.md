@@ -6,6 +6,15 @@ When you enable trust with a tenant of SAP Cloud Identity Services, you get an O
 
 
 
+<a name="loio40c2e54a5eb140baa46ed5bb15de4d3b__section_mvm_1pq_ddc"/>
+
+## Prerequisites
+
+-   Ensure that your corporate identity provider allows local users from SAP Cloud Identity Services. If local users are not allowed, you must enrich the attributes coming from the corporate identity provider. For more information, see [Enrich Assertion Attributes Coming from Corporate IdP](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/enrich-assertion-attributes-coming-from-corporate-idp?version=Cloud).
+
+
+
+
 <a name="loio40c2e54a5eb140baa46ed5bb15de4d3b__section_yv2_3cr_qsb"/>
 
 ## Finding the Application for Your Platform Users
@@ -23,7 +32,7 @@ For more information, see [OpenID Connect](https://help.sap.com/viewer/6d6d63354
 There are several options to customize attribute mappings in SAP Cloud Identity Services, depending on whether identity federation is enabled or disabled. For more information about identity federation, see [Configure Identity Federation](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/c029bbbaefbf4350af15115396ba14e2.html?version=Cloud).
 
 -   When identity federation is disabled, SAP Cloud Identity Services always propagates all the attributes received from the corporate identity provider to all the applications, on a 1:1 basis. You have the following options:
-    -   Configure the corporate identity provider to directly send the attributes.
+    -   Configure the corporate identity provider to directly send the attributes \(see the table below\).
 
     -   If needed, use **enriched token claims** or **enriched assertion attributes** \(depending on whether the corporate identity provider is connected with SAML or OIDC\) to map the attributes sent by the corporate identity provider, to the attribute names needed by SAP BTP.
 
@@ -41,23 +50,135 @@ There are several options to customize attribute mappings in SAP Cloud Identity 
     > 
     > To check which groups SAP Cloud Identity Services actually sends, use the troubleshooting logs for OpenID Connect. For more information, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/identity-authentication/identity-authentication/logging-openid-connect-tokens?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
-      
-      
-    **Default Configuration of Application Attributes for the Platform Identity Provider**
+    > ### Note:  
+    > Ensure that you enter the accurate value names for the attributes as they are provided by your corporate identity provider.
 
-    ![](images/default_attributes_platform_1fcf046.png "Default Configuration of Application Attributes for the Platform Identity Provider")
+    **Default Configuration of Application Attributes in SAP Cloud Identity Services**
 
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Attribute Name
+    
+    </th>
+    <th valign="top">
+
+    Source
+    
+    </th>
+    <th valign="top">
+
+    Attribute Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top" rowspan="2">
+    
+    `email` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `Email` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Corporate Identity Provider
+    
+    </td>
+    <td valign="top">
+    
+    `email` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `groups` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `Groups` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top" rowspan="2">
+    
+    `mail` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Directory
+    
+    </td>
+    <td valign="top">
+    
+    `Email` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Corporate Identity Provider
+    
+    </td>
+    <td valign="top">
+    
+    `email` 
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `uuid` 
+    
+    </td>
+    <td valign="top">
+    
+    Identity Provider
+    
+    </td>
+    <td valign="top">
+    
+    `User ID` 
+    
+    </td>
+    </tr>
+    </table>
+    
     If the corporate identity provider sends user attributes for email address, first and last name with other names than *mail*, *first\_name*, or *last\_name*, set the right attribute name by replacing those values.
 
     > ### Example:  
-    > If your corporate identity provider sends users' last names as the `sn` attribute, add the corporate identity provider as source to the *last\_name* attribute with the value `sn`.
+    > If your corporate identity provider sends users' last names as the `sn` attribute, add the corporate identity provider as source to the `last_name` attribute with the value `sn`.
 
     For more information, see [User Attributes](https://help.sap.com/docs/identity-authentication/identity-authentication/user-attributes?version=Cloud) in the documentation of SAP Cloud Identity Services.
 
 
 The following table provides the information needed for mapping the attributes.
 
-The subject name identifier attribute is used by SAP BTP to uniquely identify the user in Neo subaccounts. The e-mail address is used as the user identifier in the Cloud Foundry environment \(global account, directory, multi-environment subaccount\).
+The subject name identifier attribute is used by SAP BTP to uniquely identify the user in Neo subaccounts. In the Cloud Foundry environment, the email address is used as the user identifier for the global account, directory, and multi-environment subaccount.
 
 For more information, see [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1d020e3a3ba34c43a71fde70bfa6419a.html) in the documentation of SAP Cloud Identity Services.
 

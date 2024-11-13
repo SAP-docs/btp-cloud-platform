@@ -14,6 +14,8 @@ An application log contains header information and attributes to identify the lo
 
 -   A flag defining whether it should not be allowed to delete the log before the expiry date by a standard report. The application is still able to delete the log before this date.
 
+-   Context: Allows the storage of application-specific data related to the log. See [Set a Context](set-a-context-0afccc8.md).
+
 
 To define the log header, an instance of the `IF_BALI_HEADER_SETTER` interface is required. To create this instance, you can use method `CREATE` of class `CL_BALI_HEADER_SETTER`. It allows to set the object, subobject and the external identifier of the application log.
 
@@ -22,6 +24,8 @@ Interface `IF_BALI_HEADER_SETTER` contains the following methods to set or chang
 -   `SET_DESCRIPTOR`: Changes the object, subobject and external identifier.
 
 -   `SET_EXPIRY`: Sets the expiry date and the *keep until expiry* flag.
+
+-   `SET_CONTEXT`: Sets the context of the log.
 
 
 > ### Note:  

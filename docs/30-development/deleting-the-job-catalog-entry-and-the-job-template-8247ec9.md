@@ -4,20 +4,22 @@
 
 Find out how to delete a job catalog entry and a related job template.
 
-To delete a job catalog entry, you must first delete the related job template. You can delete the job template using the method `DELETE_JOB_TEMPLATE_ENTRY` of the class `CL_APJ_DT_CREATE_CONTENT`.
+To delete a job catalog entry or a job template, use the ABAP development tools for Eclipse. Right-click on the object in the *Project Explorer* and select *Delete*.
 
-In order to delete a job catalog entry, if you don't want to create a job catalog entry with the same name anymore and if you enabled the job scheduling via the app, you need to manually undo all actions that were performed after the creation of the job catalog entry in reverse order. Undo the actions in the following order:
+Alternatively, you could also still delete job catalog entries and job templates via a released API. For more information, see [Creating a Job Catalog Entry and a Job Template via API](creating-a-job-catalog-entry-and-a-job-template-via-api-e58737f.md).
+
+Before you can delete a job catalog entry, you must first delete all related job templates: When you create a job catalog entry, an IAM app that is based on the job catalog entry is automatically created in the Cloud. If you have followed the steps in [Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md), you should perform additional steps before deleting the job catalog entry, since otherwise, the IAM app can't automatically be deleted together with the job catalog entry:
 
 -   Remove the business role from the business user in the Fiori app *Maintain Business Users*
 
 -   Delete the business role in the Fiori app *Maintain Business Roles*
 
--   Unassign the IAM app from the IAM business catalog in ADT
+-   Unassign the IAM app from the IAM business catalog in ABAP development tools for Eclipse
 
--   Delete the IAM business catalog in ADT
+-   Delete the IAM business catalog in ABAP development tools for Eclipse
 
 
-Then, call the method `DELETE_JOB_CAT_ENTRY` of the class `CL_APJ_DT_CREATE_CONTENT`.
+Now, you can delete the job catalog entry.
 
-If you do want to create a job catalog entry with the same name as the job catalog entry you want to delete, it's sufficient to remove the IAM app assignment from the IAM business catalog\(s\) to which you've assigned it before. After the creation of the new job catalog entry, assign the new IAM app again to the IAM business catalog.
+If you only want to replace the job catalog entry \(if you want to delete it to recreate it with the same name\), it's sufficient to remove the IAM app assignment from the IAM business catalogs. After the creation of the new job catalog entry, assign the new IAM app to the IAM business catalogs.
 

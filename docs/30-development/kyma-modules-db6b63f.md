@@ -99,7 +99,7 @@ Within the SAP BTP Operator module, BTP Manager installs the SAP BTP service ope
 </td>
 <td valign="top">
 
--   [Using SAP BTP Services in the Kyma Environment](using-sap-btp-services-in-the-kyma-environment-ea4dd81.md#loioea4dd81e49254dd482d32e3c20f4477a)
+-   [Using SAP BTP Services in the Kyma Environment](using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
 -   [kyma-project.io: SAP BTP Operator module](https://kyma-project.io/#/btp-manager/user/README)
 -   [GitHub: BTP Manager releases](https://github.com/kyma-project/btp-manager/releases)
 -   [GitHub: SAP BTP service operator releases](https://github.com/SAP/sap-btp-service-operator/releases)

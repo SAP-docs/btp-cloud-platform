@@ -4,7 +4,7 @@
 
 # Dependency Analysis
 
-In this topic, you will learn more about dependency analysis in the `Custom Code Migration` app.
+In this topic, you will learn more about dependency analysis in the Custom Code Migration app.
 
 
 
@@ -12,9 +12,28 @@ In this topic, you will learn more about dependency analysis in the `Custom Code
 
 ## Purpose
 
-You can utilize dependency analysis to identify dependencies from your custom code to the SAP standard and thus which part of your custom code can be transformed to the SAP BTP ABAP Environment. To do this, you can use the Scoping app within the `Custom Code Migration` app. This app provides you with a set of measures that analyze how likely it is that you can transform your code to the SAP BTP ABAP Environment.
+You can utilize dependency analysis to identify dependencies from your custom code to the SAP standard and thus which part of your custom code can be transformed to the SAP BTP, ABAP Environment. To do this, you can use the *Scoping* app within the Custom Code Migration app. This app provides you with a set of measures that analyze how likely it is for you to be able to transform your code to the SAP BTP, ABAP environment.
 
-In the Scoping app within the `Custom Code Migration` app, select the *Settings* \(:gear:\) button. Under *Measures*, choose the metrics for the chart axes. This way you can set up your own individualized chart to perform dependency analysis of your custom code with SAP standard. You can determine, for example, how often your custom code calls SAP application APIs or uses DB accesses to SAP application tables such as the `MARA` table. The following measures are available:
+> ### Note:  
+> Please be aware that as of the SAP BTP, ABAP environment 2411 release, you now need to initiate scope calculation manually after project creation. Scope calculation no longer starts automatically at project creation.
+
+This is how you start a dependency analysis in the Scoping app:
+
+1.  In your project, select the *Scope* tab in the lower half of the project overview page.
+
+2.  Select *Change Scope*.
+
+3.  Select the second *Packages* tab from the left. This tab is marked with a bubble chart icon.
+
+4.  Select the *Settings* \(:gear:\) button.
+
+5.  Under *Measures*, choose your metrics for the chart axes.
+
+    > ### Tip:  
+    > This way you can set up your own individualized chart to perform dependency analysis of your custom code with SAP standard. You can determine, for example, how often your custom code calls SAP application APIs or uses DB accesses to SAP application tables such as the `MARA` table.
+
+
+The following measures are available:
 
 **The measures and their meanings**
 

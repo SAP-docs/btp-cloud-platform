@@ -2,7 +2,7 @@
 
 # Schedule an Application Job
 
-With JobSchedule you can schedule an application job based on a job template using the HTTP method `POST`. No start condition can be specified, it is always 'immediate start'.
+With `JobSchedule`, you can schedule an application job based on a job template using the HTTP method `POST`. No start condition can be specified, it's always an immediate start.
 
 
 
@@ -62,6 +62,23 @@ Optional
 <td valign="top">
 
 These are the parameter values of the application job.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+JobParameterValuesSimple
+
+</td>
+<td valign="top">
+
+Optional
+
+</td>
+<td valign="top">
+
+This is the parameter string containing the step number. You can schedule application jobs with a simplified format, containing the step number, the application job name, and the `T_VALUE`.
 
 </td>
 </tr>
@@ -194,4 +211,13 @@ POST <host>/sap/opu/odata/SAP/BC_EXT_APPJOB_MANAGEMENT;v=0002/JobSchedule?JobTem
 }
 
 ```
+
+
+
+### Example of `JobParameterValuesSimple`
+
+> ### Sample Code:  
+> ```
+> '{"VALUES":[{"STEP_NR":StepNum","NAME":"ParameterName","T_VALUE":[{"SIGN":"I","OPTION":"EQ","LOW":"Value or X depending on parameter Type","HIGH":""}]}]}'
+> ```
 

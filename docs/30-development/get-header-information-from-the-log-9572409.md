@@ -20,6 +20,8 @@ Interface `IF_BALI_HEADER_GETTER` contains the following attributes:
 
 -   KEEP\_UNTIL\_EXPIRY: A flag which defines whether or not it is allowed to delete the log before the expiry date. If the flag is set, the standard reports which delete application logs do not delete the log before the expiry date. The application is still able to delete the log before this date.
 
+-   CONTEXT\_STRUCTURE\_NAME: The name of the dictionary structure which was used to set the context. See [Get the Context](get-the-context-80b6442.md).
+
 -   NUMBER\_ALL\_ITEMS: Total number of items which are stored in the log.
 
 -   NUMBER\_ABORT\_ITEMS: Number of abort items which are stored in the log.
@@ -38,6 +40,8 @@ Interface `IF_BALI_HEADER_GETTER` contains the following methods:
 -   GET\_OBJECT\_DESCRIPTION: Returns the description text of the log object in the logon language.
 
 -   GET\_SUBOBJECT\_DESCRIPTION: Returns the description text of the log subobject in the logon language.
+
+-   GET\_CONTEXT: Get the context of the log. See [Get the Context](get-the-context-80b6442.md).
 
 
 > ### Note:  

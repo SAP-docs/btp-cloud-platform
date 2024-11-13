@@ -2,115 +2,22 @@
 
 # Implementing the Business Logic
 
+Business logic is ABAP coding that you want to be run within an application job.
 
 
-Business logic is ABAP coding that you want to be run within an application job. Usually this coding also defines selection fields. In this context, business logic is implemented in a class. The following development steps require a user with the development role.
 
-Create a class which implements the two interfaces:
+Usually, business logic also defines the data type and some properties of the selection fields that you get on the selection screen before you schedule an application job. In this context, the business logic is implemented in an ABAP class. The following development steps require a user with the development role.
 
--   **IF\_APJ\_DT\_EXEC\_OBJECT**
--   **IF\_APJ\_RT\_EXEC\_OBJECT**
+To implement the business logic, create an ABAP class that implements a certain interface:
 
-This class is considered the main class per application job. This class needs to be part of a customer-defined software component \(not ZLOCAL\) in order to be able to transport the class into subsequent systems.
+-   Create an ABAP class with interface `IF_APJ_RT_RUN`. Here, the selection fields are defined as public attributes of the class. See [Creating an ABAP Class with Interface IF\_APJ\_RT\_RUN](creating-an-abap-class-with-interface-if-apj-rt-run-79bd2d9.md) for more information. It's recommended to use this interface for all new developments.
+-   You can still create an ABAP class with interfaces `IF_APJ_DT_EXEC_OBJECT` and `IF_APJ_RT_EXEC_OBJECT`. Here, the selection fields are defined in method `GET_PARAMETERS` of the interface `IF_APJ_DT_EXEC_OBJECT`. See [Creating an ABAP Class with Interfaces IF\_APJ\_DT\_EXEC\_OBJECT and IF\_APJ\_RT\_EXEC\_OBJECT](creating-an-abap-class-with-interfaces-if-apj-dt-exec-object-and-if-apj-rt-exec-object-767ef7b.md) for more information.
 
-The first interface, IF\_APJ\_DT\_EXEC\_OBJECT, contains design-time related methods. Method **GET\_PARAMETERS\( \)** is called by the application jobs framework to get all supported selection parameters.
-
-The method GET\_PARAMETERS\( \) returns two internal tables:
-
--   The content of the table **ET\_PARAMETER\_DEF** determines the parameter section for the job catalog entry, which will refer to this main class.
--   The content of the table **ET\_PARAMETER\_VAL** determines the default values for these parameters in the job template, which will refer to the job catalog entry mentioned above.
+    > ### Note:  
+    > Note that this is a legacy interface. Don't use it for new developments. If you use this interface, you only have limited options during the editing of the job catalog entry.
 
 
-The second interface, IF\_APJ\_RT\_EXEC\_OBJECT, contains runtime related methods. Method **EXECUTE\(\)** is called by the application jobs framework if a scheduled job will actually be executed. It receives an internal table as parameter. This table is of the same type as the table ET\_PARAMETER\_VAL of method GET\_PARAMETERS\(\). The method EXECUTE\(\) simply receives the parameters and values, which were stored in the template and which were originally delivered by the method GET\_PARAMETERS\(\).
-
-Please refer to the example code for an application jobs main class. Literals are used instead of language-dependent texts in order to simplify the example. For writing application log entries, please refer to [Runtime API](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/55c208330eb642d39580a281bf66870c.html)
-
-> ### Sample Code:  
-> ```abap
-> CLASS zcl_test_apj_simple DEFINITION
->   PUBLIC
->   FINAL
->   CREATE PUBLIC .
-> 
->   PUBLIC SECTION.
->     INTERFACES if_apj_dt_exec_object.
->     INTERFACES if_apj_rt_exec_object.
->   PROTECTED SECTION.
->   PRIVATE SECTION.
-> ENDCLASS.
-> 
-> 
-> CLASS zcl_test_apj_simple IMPLEMENTATION.
-> 
->   METHOD if_apj_dt_exec_object~get_parameters.
-> 
->     " Return the supported selection parameters here
->     et_parameter_def = VALUE #(
->       ( selname = 'S_ID'    kind = if_apj_dt_exec_object=>select_option datatype = 'C' length = 10 param_text = 'My ID'                                      changeable_ind = abap_true )
->       ( selname = 'P_DESCR' kind = if_apj_dt_exec_object=>parameter     datatype = 'C' length = 80 param_text = 'My Description'   lowercase_ind = abap_true changeable_ind = abap_true )
->       ( selname = 'P_COUNT' kind = if_apj_dt_exec_object=>parameter     datatype = 'I' length = 10 param_text = 'My Count'                                   changeable_ind = abap_true )
->       ( selname = 'P_SIMUL' kind = if_apj_dt_exec_object=>parameter     datatype = 'C' length =  1 param_text = 'My Simulate Only' checkbox_ind = abap_true  changeable_ind = abap_true )
->     ).
-> 
->     " Return the default parameters values here
->     et_parameter_val = VALUE #(
->       ( selname = 'S_ID'    kind = if_apj_dt_exec_object=>select_option sign = 'I' option = 'EQ' low = '4711' )
->       ( selname = 'P_DESCR' kind = if_apj_dt_exec_object=>parameter     sign = 'I' option = 'EQ' low = 'My Default Description' )
->       ( selname = 'P_COUNT' kind = if_apj_dt_exec_object=>parameter     sign = 'I' option = 'EQ' low = '200' )
->       ( selname = 'P_SIMUL' kind = if_apj_dt_exec_object=>parameter     sign = 'I' option = 'EQ' low = abap_true )
->     ).
-> 
->   ENDMETHOD.
-> 
->   METHOD if_apj_rt_exec_object~execute.
-> 
->     TYPES ty_id TYPE c LENGTH 10.
-> 
->     DATA s_id    TYPE RANGE OF ty_id.
->     DATA p_descr TYPE c LENGTH 80.
->     DATA p_count TYPE i.
->     DATA p_simul TYPE abap_boolean.
-> 
->     DATA: jobname   type cl_apj_rt_api=>TY_JOBNAME.
->     DATA: jobcount  type cl_apj_rt_api=>TY_JOBCOUNT.
->     DATA: catalog   type cl_apj_rt_api=>TY_CATALOG_NAME.
->     DATA: template  type cl_apj_rt_api=>TY_TEMPLATE_NAME.
-> 
->     " Getting the actual parameter values
->     LOOP AT it_parameters INTO DATA(ls_parameter).
->       CASE ls_parameter-selname.
->         WHEN 'S_ID'.
->           APPEND VALUE #( sign   = ls_parameter-sign
->                           option = ls_parameter-option
->                           low    = ls_parameter-low
->                           high   = ls_parameter-high ) TO s_id.
->         WHEN 'P_DESCR'. p_descr = ls_parameter-low.
->         WHEN 'P_COUNT'. p_count = ls_parameter-low.
->         WHEN 'P_SIMUL'. p_simul = ls_parameter-low.
->       ENDCASE.
->     ENDLOOP.
-> 
->     try.
-> * read own runtime info catalog
->        cl_apj_rt_api=>GET_JOB_RUNTIME_INFO(
->                         importing
->                           ev_jobname        = jobname
->                           ev_jobcount       = jobcount
->                           ev_catalog_name   = catalog
->                           ev_template_name  = template ).
-> 
->        catch cx_apj_rt.
-> 
->     endtry.
-> 
-> 
->     " Implement the job execution
-> 
->   ENDMETHOD.
-> 
-> ENDCLASS.
-> 
-> ```
+The ABAP class mentioned here is considered the main class of each application job. This class needs to be part of a customer-defined software component \(not `ZLOCAL`\) to be able to transport the class into subsequent systems.
 
 **Related Information**  
 
@@ -119,7 +26,7 @@ Please refer to the example code for an application jobs main class. Literals ar
 
 [Creating the Job Template](creating-the-job-template-1f04ad2.md "")
 
-[Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
+[Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ABAP development tools for Eclipse and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 
 [Application Logs](application-logs-091bec9.md "You can use the Application Logs to display and check if any errors occurred during runtime.")
 

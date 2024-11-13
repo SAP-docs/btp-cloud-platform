@@ -22,8 +22,6 @@ Supported content types that currently allow deployment with simulated app execu
 
 -   FLP content - MTA module type `com.sap.portal.site-content`
 
--   Business Logging - MTA module type `business-logging`. For more information see [Using the Content Deployer](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/626b5511d7924ace8b6ae912e8ff3447.html?locale=en-US).
-
 -   HTML5 Application Content – MTA module type `com.sap.html5.application-content`. For more information see [Deploy Content Using HTML5 Application Deployer](https://help.sap.com/docs/btp/sap-business-technology-platform/deploy-content-using-html5-application-deployer?version=Cloud).
 
 

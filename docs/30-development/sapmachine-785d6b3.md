@@ -66,7 +66,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: "{ version: 11.+ }"
+    JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 11.+ }'
 ```
 
 To make the buildpack download a particular published JRE version \(for example, 11.0.13\), specify it the following way:
@@ -98,7 +98,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: "{ version: 17.+ }"
+    JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 17.+ }'
 ```
 
 To make the buildpack download a particular published JRE version \(for example, 17.0.10\), specify it the following way:
@@ -130,7 +130,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: "{ version: 21.+ }"
+    JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 21.+ }'
 ```
 
 To make the buildpack download a particular published JRE version \(for example, 21.0.2\), specify it the following way:
@@ -197,7 +197,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: "{ version: 11.+ }"
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 11.+ }'
 ```
 
 
@@ -226,7 +226,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: "{ version: 17.+ }"
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.+ }'
 ```
 
 
@@ -255,7 +255,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: "{ version: 21.+ }"
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 21.+ }'
 ```
 
 **Related Information**  

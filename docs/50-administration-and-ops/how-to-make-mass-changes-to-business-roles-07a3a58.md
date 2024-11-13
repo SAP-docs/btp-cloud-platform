@@ -8,12 +8,17 @@
 
 ## Context
 
-You can use the mass change wizard to change multiple business roles at once. This is helpful, for example, if you have switched from using custom spaces to predefined spaces or if you start using spaces. In that case, you can select all affected business roles and click *Assign Predefined Spaces*. The system then automatically assigns predefined spaces to all of the business roles in question. If you click *Remove Launchpad Spaces Already Assigned*, the custom spaces that were assigned to the business roles previously are automatically removed.
+You can use the mass change wizard to change multiple business roles at once. This is helpful, for example, if you have switched from using custom spaces to predefined spaces or if you start using spaces. In that case, you can select all affected business roles and choose *Assign Predefined Spaces*. The system then automatically assigns predefined spaces to all of the business roles in question. If you choose *Remove Launchpad Spaces Already Assigned*, the custom spaces that were previously assigned to the business roles are automatically removed.
 
 > ### Note:  
-> Please note that SAP-defined business roles can only be modified for business user assignment in the initial set-up. Apart from this, they can be updated by SAP only. We recommend that you create your own business roles from templates so that you can modify them as required.
+> Please note that SAP-defined business roles can only be modified for business user assignment in the initial setup. Apart from this, they can be updated by SAP only. We recommend that you create your own business roles from templates so that you can modify them as required.
 
-Select the business roles you want to change and click *Mass Change*. The *Mass Change Wizard* appears. It has the following pattern:
+Select the business roles you want to change and click *Mass Change*. The *Mass Change Wizard* appears. The pattern of the wizard is described in the next section.
+
+> ### Caution:  
+> If you have selected a combination of leading, non-leading, and derived business roles, some attributes might not be selectable. For example, business catalogs in derived business roles can't be edited. Therefore, business catalogs are not included in the mass change if a derived business role is selected.
+> 
+> To change all of the listed attributes, select only leading business roles.
 
 
 
@@ -163,8 +168,6 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
 2.  Apply the required attributes to your business roles.
 
 3.  Review and confirm your changes.
-
-    Please note that some attributes might not be changeable if you have selected a combination of leading, non-leading and derived business roles. If you only select leading roles, all of the listed attributes are changeable.
 
 
 **Related Information**  

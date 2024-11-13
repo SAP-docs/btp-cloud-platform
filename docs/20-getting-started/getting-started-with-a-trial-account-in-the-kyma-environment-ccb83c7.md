@@ -39,6 +39,6 @@ Quickly get started with a trial account in the Kyma environment.
 
     Check out [Development in the Kyma Environment](../30-development/development-in-the-kyma-environment-606ec61.md) to learn more.
 
-    You can also provide extensions for the SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Service Management systems. For more information, read [Extending SAP Solutions Using Automated Configurations](../40-extensions/extending-sap-solutions-using-automated-configurations-346864d.md).
+    You can also provide extensions for the SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Service Management systems. For more information, read [Extending SAP Solutions](../40-extensions/extending-sap-solutions-346864d.md).
 
 

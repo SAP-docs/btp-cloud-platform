@@ -2,21 +2,21 @@
 
 # Setting up the Authorizations
 
-Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app *Application Jobs*.
+Some further activities in ABAP development tools for Eclipse and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app *Application Jobs*.
 
 
 
-1.  Create an Identity and Access Management \(IAM\) Business Catalog.
+1.  Create an Identity and Access Management \(IAM\) business catalog.
 
-    When you create a job catalog entry and a job template as explained in [Creating a Job Catalog Entry and a Job Template in ADT](creating-a-job-catalog-entry-and-a-job-template-in-adt-949ba00.md), an object of the type **IAM App** is created automatically. It has the name **<job catalog entry name\>\_SAJC**. This IAM app contains the start authorization for all job templates that refer to this job catalog entry.
+    When you create a job catalog entry and a job template as explained in [Creating a Job Catalog Entry and a Job Template](creating-a-job-catalog-entry-and-a-job-template-949ba00.md), an object of the type **IAM App** is created automatically. It has the name **<job catalog entry name\>\_SAJC**. This IAM app contains the start authorization for all job templates that refer to this job catalog entry.
 
-    Create an IAM business catalog via ADT:
+    Create an IAM business catalog via ABAP development tools for Eclipse:
 
     1.  Right-click the package where the objects are located that have already been created.
     2.  Select *New \> Other ABAP Repository Object*.
     3.  Expand *Cloud Identity and Access Management*.
     4.  Double-click *Business Catalog*.
-    5.  Enter a name \(e.g. `ZTEST_MY_SIMPLE_JOBS`\) and a description.
+    5.  Enter a name \(such as `ZTEST_MY_SIMPLE_JOBS`\) and a description.
     6.  Select *Save* and choose the appropriate transport request.
     7.  Select the tab *Apps* below.
     8.  Press *Add …* on the top right corner of the screen.
@@ -49,16 +49,16 @@ Some further activities in ADT and in the administrator’s launchpad are necess
 
 3.  Create a business role.
 
-    Open the Fiori App *Maintain Business Roles* in the Fiori Launchpad of the administrator and perform the following steps:
+    Open the Fiori app *Maintain Business Roles* in the Fiori launchpad of the administrator and perform the following steps:
 
     1.  Click*New*.
-    2.  Choose a name \(e.g. `ZTEST_MY_SIMPLE_JOBS`\) and a description.
+    2.  Choose a name \(such as `ZTEST_MY_SIMPLE_JOBS`\) and a description.
     3.  Click on *Assigned Business Catalogs*.
     4.  Select *Add*.
-    5.  Select the business catalog created in the previous step \(e.g. `ZTEST_MY_SIMPLE_JOBS`\).
+    5.  Select the business catalog created in the previous step \(such as `ZTEST_MY_SIMPLE_JOBS`\).
 
         > ### Note:  
-        > A business user who shall be able to schedule application jobs needs to have access to the *Application Jobs* tile. This tile is provided by the business catalog `SAP_CORE_BC_APJ_JCE`, which is contained in the business role `SAP_BR_ADMINISTRATOR`. It doesn't only provide the *Application Jobs* app, but also contains restriction types to configure the authorization on other users’ jobs and to schedule jobs for other users \(for more information, see the section *Assigning Further Authorizations* below\).
+        > A business user scheduling application jobs needs to have access to the *Application Jobs* tile. This tile is provided by the business catalog `SAP_CORE_BC_APJ_JCE`, which is contained in the business role `SAP_BR_ADMINISTRATOR`. It doesn't only provide the *Application Jobs* app, but also contains restriction types to configure the authorization on other users’ jobs and to schedule jobs for other users \(for more information, see the section *Assigning Further Authorizations* below\).
         > 
         > Add the business catalog `SAP_CORE_BC_APJ_JCE` to the business role created following the steps above, or assign it to a separate business role.
 

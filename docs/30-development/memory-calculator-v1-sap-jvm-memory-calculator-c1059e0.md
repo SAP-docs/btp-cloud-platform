@@ -170,7 +170,7 @@ The **memory\_calculator** section encloses the input data for the memory calcul
     
 -   *memory\_initials* - this section defines initial and maximum values for *heap* and *metaspace*. By default, the initial values for *heap* and *metaspace* are set to 100%. That means, the memory calculation will result in **\-Xms=-Xmx** and **\-XX:MetaspaceSize=-XX:MaxMetaspaceSize**. If those values are set to 50%, then **\-Xmx = 2\*-Xms** and **\-XX:MaxMetaspaceSize=2\*-XX:MetaspaceSize**.
 
--   *memory\_settings* - for details, see [Java Out Of Memory Behavior](java-out-of-memory-behavior-588cfd9.md)
+-   *memory\_settings* - for details, see [Out-Of-Memory Behavior](out-of-memory-behavior-588cfd9.md)
 
 -   *memory\_calculator\_v2* - for details, see [Memory Calculator V2](memory-calculator-v2-8eef959.md)
 

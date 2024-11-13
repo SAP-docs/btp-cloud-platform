@@ -1171,9 +1171,9 @@ Internal error during processing
 
 
 
-<a name="loio5e25cf7682d9432b840aa11144f2c2ac__section_zgr_ycr_lsb"/>
 
-## RELEASE\_MEMORY
+
+### RELEASE\_MEMORY:
 
 Remove the log from the memory. After this, the log is invalidated and can no longer be used.
 

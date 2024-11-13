@@ -720,6 +720,42 @@ Table Type
 <tr>
 <td valign="top">
 
+UIAD
+
+</td>
+<td valign="top">
+
+Application Descriptors for the Fiori Launchpad Enviornment
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+UIPG
+
+</td>
+<td valign="top">
+
+Fiori Launchpad Page Template
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+UIST
+
+</td>
+<td valign="top">
+
+Fiori Launchpad Space Template
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 XSLT
 
 </td>

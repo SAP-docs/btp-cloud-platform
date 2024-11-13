@@ -828,7 +828,7 @@ This section contain examples for writing audit log events using `curl` demo pur
 
 ### Writing a Security Event
 
-Mandatory fields: `uuid`, `user`, `tenant`, `time`, `data`, `tenant`.
+Mandatory fields: `uuid`, `user`, `time`, `data`, `tenant`.
 
 ```
 curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oauth2/v2/security-events' \

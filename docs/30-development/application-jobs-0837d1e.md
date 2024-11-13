@@ -6,6 +6,8 @@
 
 You can use this app to schedule and monitor application-related jobs. If you have manual activities that you often need to do at a specific time, the `Application Jobs` app can reduce your workload by running these tasks smoothly in the background. Planning regular jobs will keep you free to concentrate on other tasks.
 
+The application job framework ideally defines long-running, repeated jobs. It's not recommended to use it to define short-running jobs with a high frequency. See also [Technical Limits and Boundary Conditions for ABAP Applications](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/development-in-abap-environment?version=Cloud#technical-limits-and-boundary-conditions-for-abap-applications).
+
 
 
 ## Key Features

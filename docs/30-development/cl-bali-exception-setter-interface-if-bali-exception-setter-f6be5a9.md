@@ -252,6 +252,90 @@ Reference to current application log exception object
 
 
 
+Set the exception context using a data dictionary structure:
+
+**SET\_CONTEXT**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Importing parameter**
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CONTEXT
+
+</td>
+<td valign="top">
+
+Structure with the context data
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Returning parameter**
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NEW\_EXCEPTION\_OBJ
+
+</td>
+<td valign="top">
+
+Reference to the current application log exception object
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exceptions \(inherit from CX\_BALI\_RUNTIME\)**
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_INVALID\_PARAMETER
+
+</td>
+<td valign="top">
+
+-   Field `CONTEXT` is not based on a database table or structure that is defined in the data dictionary
+
+-   The total size of field `CONTEXT` is longer than 256 characters
+
+
+
+
+</td>
+</tr>
+</table>
+
+
+
 Get all exception values:
 
 
@@ -312,6 +396,25 @@ EXCEPTION
 <td valign="top">
 
 Reference to ABAP exception class instance
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CONTEXT\_DATA
+
+</td>
+<td valign="top">
+
+Structure and content of the context. `CONTEXT_DATA` has the following fields:
+
+-   `STRUCTURE_NAME`: Name of the data dictionary structure which was used for the context data
+
+-   `CONTENT`: The content of the context data. The content is stored in a character field with a length of 256 characters
+
+
+
 
 </td>
 </tr>

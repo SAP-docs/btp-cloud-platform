@@ -8,7 +8,7 @@ SCIM stands for System for Cross-domain Identity Management. It is an open stand
 
 
 
-You can use this interface to maintain and retrieve business users in your Cloud system and assign business roles and business user groups to them.
+You can use this interface provided by the communication scenario SAP\_COM\_0465 to maintain and retrieve business users in your Cloud system and assign business roles and business user groups to them.
 
 
 

@@ -455,69 +455,6 @@ CF application with SAP HTML5 content
 <tr>
 <td valign="top">
 
-`com.sap.business-logging.content`
-
-</td>
-<td valign="top">
-
-> ### Note:  
-> This module type is deprecated and will be removed soon. If you want to deploy Business Logging content, use module type `com.sap.application.content` as described in [Providing Text Resources Using GACD](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/f4a898bd0f9b4619940dd049c5328ee4.html).
-
-> ### Note:  
-> Before using this module type, update the content deployer applications to their latest version.
-
--   `no-route` \(`true`\). Defines if a route should be assigned to the application.
--   `no-start` - \(`true`\). Only the one-off tasks will be executed, that is, without triggering the start of the application.
--   `memory` \(`256M`\). Defines the memory allocated to the application.
--   `tasks` \(`name:deploy, memory:256M, command:npm start)`
-
-    For more information, see [Tasks](tasks-a1c184c.md).
-
--   `dependency-type`\(`hard`\). Defines if this module should be deployed first, if it takes part in circular module dependency cycles. If `hard` means that this module is deployed first.
--   `buildpack``(nodejs_buildpack)`
-
-
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-Deploys the Business Logging for configuring text resources
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`business-logging`
-
-</td>
-<td valign="top">
-
-> ### Note:  
-> This module type is deprecated and will be removed soon. If you want to deploy Business Logging content, use module type `com.sap.application.content` as described in [Providing Text Resources Using GACD](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/f4a898bd0f9b4619940dd049c5328ee4.html).
-
-
-
-</td>
-<td valign="top">
-
-None
-
-</td>
-<td valign="top">
-
-Deploys the Business Logging for configuring text resources
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `staticfile`
 
 </td>
@@ -650,6 +587,9 @@ Module parameters have platform-specific semantics. To reference a parameter val
 > It is also possible to declare metadata for parameters and properties defined in the MTA deployment description; the mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional; false`\) or can be modified `overwritable: true`.
 
 The following parameters are supported:
+
+> ### Note:  
+> If you can't find a specific parameter from the native Cloud Foundry manifest here, refer to [Prerequisites and Restrictions](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md#loiod04fc0e2ad894545aebfd7126384307c__section_ph2_r5h_1cb) to see which Cloud Foundry features are currently not supported.
 
 **MTA Development and Deployment Module Parameters**
 

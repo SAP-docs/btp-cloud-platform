@@ -4,7 +4,7 @@
 
 # Complexity Analysis
 
-In this topic, you will learn more about complexity analysis in the `Custom Code Migration` app.
+In this topic, you will learn more about complexity analysis in the Custom Code Migration app.
 
 
 
@@ -12,12 +12,12 @@ In this topic, you will learn more about complexity analysis in the `Custom Code
 
 ## Purpose
 
-Sometimes, your ABAP code can contain complex objects that very often also experience the most frequent changes. With the `Custom Code Migration` app it is possible to identify the most complex objects via complexity analysis and help you decide whether you want to redesign and therefore simplify them.
+Sometimes, your ABAP code can contain complex objects that very often also experience the most frequent changes. With the Custom Code Migration app it is possible to identify the most complex objects via complexity analysis and help you decide whether you want to redesign and therefore simplify them.
 
 > ### Note:  
 > Please be aware that, in this topic, the focus is on reducing the complexity of packages only. Nevertheless, generally, what applies to packages also applies to request entry points.
 
-In your `Custom Code Migration` project, choose the bubble chart to display all packages that contain custom code. With this chart, you can also display the Halstead difficulty of a package. The Halstead complexity measures are software metrics that describe the effort to develop and understand the complexity of a program.
+In your Custom Code Migration project, choose the bubble chart to display all packages that contain custom code. With this chart, you can also display the Halstead difficulty of a package. The Halstead complexity measures are software metrics that describe the effort to develop and understand the complexity of a program.
 
 The chart enables you to identify packages that contain complex coding and have often been changed in the last year, for example.
 

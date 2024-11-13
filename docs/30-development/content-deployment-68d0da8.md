@@ -11,7 +11,7 @@ SAP Workflow Management provides the possibility for SAP partners to develop the
 With multitarget applications, you can manage the lifecycle of content provided by different SAP applications. This way, by using one standard approach via an MTA, you can deploy various kinds of SAP application content in your accounts, normally done on the CF space level.
 
 > ### Restriction:  
-> Content deployment used with [Blue Green deployment](https://help.sap.com/docs/btp/sap-business-technology-platform/blue-green-deployment-of-multitarget-applications) will be done during the first phase when idle suffixes and temporary routes are used. The same rule is applicable for all content deployment mechanisms – either with direct content deployment or with content deployers \(`hdi-deploy`, `html5-app-deployer`, `portal deployer`\). HTTP Destinations, created with direct content deployment, will not be updated after the validation phase, so avoid using default resolvable parameters `${default-host}`, `${default-uri}`, `${default-url}`. Configurations that include idle suffixes and temporary routes may persist after the MTA deployment finishes. Content that was already deployed during the first phase cannot be reverted or removed. It will be necessary to trigger a new MTA deployment.
+> Content deployment used with [blue-green deployment](https://help.sap.com/docs/btp/sap-business-technology-platform/blue-green-deployment-of-multitarget-applications) will be done during the first phase when idle suffixes and temporary routes are used. The same rule is applicable for all content deployment mechanisms – either with direct content deployment or with content deployers \(`hdi-deploy`, `html5-app-deployer`, `portal deployer`\). HTTP Destinations, created with direct content deployment, will not be updated after the validation phase, so avoid using default resolvable parameters `${default-host}`, `${default-uri}`, `${default-url}`. Configurations that include idle suffixes and temporary routes may persist after the MTA deployment finishes. Content that was already deployed during the first phase cannot be reverted or removed. It will be necessary to trigger a new MTA deployment.
 
 
 
@@ -65,23 +65,6 @@ Simulated App Execution
 <tr>
 <td valign="top">
 
-`business-logging`
-
-</td>
-<td valign="top">
-
-Simulated App Execution
-
-> ### Note:  
-> This module type is deprecated and will be removed soon. If you want to deploy Business Logging content, use module type `com.sap.application.content` as described in [Providing Text Resources Using GACD](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/f4a898bd0f9b4619940dd049c5328ee4.html).
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `com.sap.html5.application-content`
 
 </td>
@@ -100,23 +83,6 @@ Simulated App Execution
 <td valign="top">
 
 CF task execution
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`com.sap.business-logging.content`
-
-</td>
-<td valign="top">
-
-CF task execution
-
-> ### Note:  
-> This module type is deprecated and will be removed soon. If you want to deploy Business Logging content, use module type `com.sap.application.content` as described in [Providing Text Resources Using GACD](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/f4a898bd0f9b4619940dd049c5328ee4.html).
-
-
 
 </td>
 </tr>
@@ -182,5 +148,5 @@ CPI content deployment
 </tr>
 </table>
 
-For all predefined parameters and properties for each MTA module type, see.
+For all predefined parameters and properties for each MTA module type, see [MTA Module Types](modules-177d34d.md#loio177d34d45e3d4fd99f4eeeffc5814cf1__section_mtaModuleTypes).
 

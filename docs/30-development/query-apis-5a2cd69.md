@@ -23,7 +23,7 @@ In the first example, all repository objects of the whole ABAP Repository whose 
 
 > ### Sample Code:  
 > ```abap
->  DATA(lo_software_component_filter) = xco_cp_system=>software_component->get_filter( xco_cp_abap_sql=>constraint->equal( 'ZLOCAL' ) ).
+> DATA(lo_software_component_filter) = xco_cp_system=>software_component->get_filter( xco_cp_abap_sql=>constraint->equal( 'ZLOCAL' ) ).
 > DATA(lo_name_filter) = xco_cp_abap_repository=>object_name->get_filter( xco_cp_abap_sql=>constraint->contains_pattern( '%CAL%' ) ).
 > 
 > DATA(lt_objects) = xco_cp_abap_repository=>objects->where( VALUE #(

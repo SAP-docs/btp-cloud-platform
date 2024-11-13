@@ -36,14 +36,21 @@ Public attributes of all log items:
 
 -   TIMESTAMP: A UTC timestamp which contains the creation time of the item.
 
+-   CONTEXT\_STRUCTURE\_NAME: The name of the dictionary structure which was used to set the context. See [Get the Context](get-the-context-80b6442.md).
 
-Method of all log items is `GET_MESSAGE_TEXT`: It returns the message text of the item.
 
--   The output of ABAP command `MESSAGE` for a message item
+Methods of all log items:
 
--   The text of a free text item
+-   GET\_MESSAGE\_TEXT: It returns the message text of the item. It is:
 
--   The output of method `GET_TEXT` of the exception object for an exception item
+    -   The output of ABAP command `MESSAGE` for a message item
+
+    -   The text of a free text item
+
+    -   The output of method `GET_TEXT` of the exception object for an exception item
+
+
+-   GET\_CONTEXT: Get the context of the item. See [Get the Context](get-the-context-80b6442.md).
 
 
 The category of the item restricts which other attributes of the item are available. For example, the message number is only available for a message, because a free text does not have a message number. To get additional attributes, a down cast to the more specific interface of the item category is required. The following item categories are supported:

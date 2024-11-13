@@ -54,22 +54,24 @@ Using this code sample, you can discover available CDS SQL-based scalar function
 > ### Note:  
 > To find automatically exposed functions \(which must be accessed without schema name qualification\), you must use the filter `SCHEMA_NAME = ''`. To make sure that you only get the scalar functions, use the filter `FUNCTION_TYPE = 'SCALAR'`.
 
-The following code sample illustrates how you can get information about the parameters of a test scalar function, `TEST_COUNT_CHAR`:
+The following code sample illustrates how you can get information about the parameters of the demo scalar function `DEMO_CDS_DECFLOAT_RATIO`:
 
 > ### Sample Code:  
 > ```
 > SQL> select PARAMETER_NAME, PARAMETER_TYPE, DDIC_TYPE_NAME, ODBC_DATA_TYPE, ODBC_COLUMN_SIZE 
->      FROM SYS.FUNCTIONS S 
->      INNER JOIN SYS.FUNCTION_PARAMETERS P ON S.SCHEMA_NAME = P.SCHEMA_NAME and S.FUNCTION_NAME = P.FUNCTION_NAME 
->      WHERE S.FUNCTION_TYPE = 'SCALAR' 
->        AND S.SCHEMA_NAME   = ''
->        AND S.FUNCTION_NAME = 'TEST_COUNT_CHAR'
+> FROM SYS.FUNCTIONS S 
+> INNER JOIN SYS.FUNCTION_PARAMETERS P ON S.SCHEMA_NAME = P.SCHEMA_NAME and S.FUNCTION_NAME = P.FUNCTION_NAME 
+> WHERE S.FUNCTION_TYPE = 'SCALAR' 
+> AND S.SCHEMA_NAME   = '' 
+> AND S.FUNCTION_NAME = 'DEMO_CDS_DECFLOAT_RATIO'
 > +-------------------------------+---------------+---------------+---------------+-----------------+
+> 
 > | PARAMETER_NAME                | PARAMETER_TYPE| DDIC_TYPE_NAME| ODBC_DATA_TYPE| ODBC_COLUMN_SIZE|
+> 
 > +-------------------------------+---------------+---------------+---------------+-----------------+
-> | char_to_count                 | IN            | CHAR          | -9            | 1               |
-> | text                          | IN            | CHAR          | -9            | 101             |
-> |                               | RETURN        | INT8          | -5            | 19              |
+> | base                          | IN            | D34N          | -360          | 34              |
+> | portion                       | IN            | D34N          | -360          | 34              |
+> |                               | RETURN        | D34N          | -360          | 34              |
 > +-------------------------------+---------------+---------------+---------------+-----------------+
 > 
 > SQLRowCount returns 0
@@ -77,20 +79,16 @@ The following code sample illustrates how you can get information about the para
 > 
 > ```
 
-In the following code sample, the test scalar function `TEST_COUNT_CHAR` is applied and returns the number of characters `'l'` in the string `'Hello World'`:
+In the following code sample, the demo scalar function `DEMO_CDS_DECFLOAT_RATIO` is applied to calculate a ratio:
 
 > ### Sample Code:  
 > ```
-> SQL> select TEST_COUNT_CHAR( char_to_count => 'l' , text => 'Hello World' ) FROM SYS.DUMMY
-> +---------------------+
-> 
-> |                     |
-> 
-> +---------------------+
-> 
-> | 3                   |
-> 
-> +---------------------+
+> SQL> select DEMO_CDS_DECFLOAT_RATIO( base => CAST( 200 AS DECIMAL) , portion => CAST( 50 AS DECIMAL) ) FROM SYS.DUMMY
+> +-------------------------------------------+
+> |                                           |
+> +-------------------------------------------+
+> | 25                                        |
+> +-------------------------------------------+
 > 
 > SQLRowCount returns 0
 > 1 rows fetched

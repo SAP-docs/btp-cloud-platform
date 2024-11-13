@@ -193,9 +193,34 @@ POST
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+[Retrieve Application Job Parameters](retrieve-application-job-parameters-117063a.md)
+
+</td>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+<host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobParamValuesGet?JobName='JobName'&JobCount='JobCount'
+
+and
+
+<host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/JobParamValuesStructGet?JobName='JobName'&JobCount='JobCount'
+
+</td>
+</tr>
 </table>
 
 For more information on these operations, see [3383044](https://me.sap.com/notes/3383044).
+
+**Working with $Batch**
+
+The OData implementation can optionally support running multiple operations sent in a single HTTP request through the use of batching. This is especially useful when scheduling application jobs with a large amount of application job parameters, as these parameters are added to the request URL and may exceed the maximum number of allowed characters. For details, see the chapter **Batch** on page 17 of [3383044](https://me.sap.com/notes/3383044).
 
 **Error Handling**
 

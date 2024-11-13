@@ -12,7 +12,6 @@ To create an object of class `CL_BALI_LOG`, the class provides two methods:
 > ### Example:  
 > > ### Sample Code:  
 > > ```abap
-> > 
 > > CLASS zcl_test_write DEFINITION
 > >   PUBLIC
 > >   FINAL
@@ -29,7 +28,7 @@ To create an object of class `CL_BALI_LOG`, the class provides two methods:
 > >   METHOD if_oo_adt_classrun~main.
 > > 
 > >     TRY.
-> >         " Create a new Application Log
+> >         " Create a new application log
 > >         DATA(l_log) = cl_bali_log=>create( ).
 > > 
 > >         " Add a header to the log
@@ -75,12 +74,10 @@ To create an object of class `CL_BALI_LOG`, the class provides two methods:
 > > 
 > >   ENDMETHOD.
 > > ENDCLASS.
-> > 
 > > ```
 
 > ### Sample Code:  
 > ```abap
-> 
 > ...
 >     TRY.
 >         DATA(l_log) = cl_bali_log=>create_with_header(
@@ -121,7 +118,7 @@ After calling the method RELEASE\_MEMORY, the log object is invalidated and can 
 >  TRY.
 >      DATA(l_log) = cl_bali_log=>create( ).
 >      ...
->      " Add items to the log and e.g. write the log to the database
+>      " Add items to the log and, for example, write the log to the database
 >      ...
 >      " Release the memory of the log
 >      l_log->release_memory( ).  

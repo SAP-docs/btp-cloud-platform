@@ -293,306 +293,6 @@ Control the rollout of new features.
 <tr>
 <td valign="top">
 
-[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
-
-</td>
-<td valign="top">
-
-Build and run mobile apps for B2C use cases.
-
-</td>
-<td valign="top">
-
--   MOB-CLD-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Brazil \(São Paulo\)
--   Canada \(Toronto\)
--   KSA \(Riyadh\)
--   UAE \(Dubai\)
-
-
-
-</td>
-<td valign="top">
-
--   
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
-
-</td>
-<td valign="top">
-
-Build and run mobile apps for B2C use cases.
-
-</td>
-<td valign="top">
-
--   MOB-CLD-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Australia \(Sydney\)
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   US East \(VA\)
--   Europe \(Frankfurt\)
--   Singapore
--   Canada \(Montreal\)
--   South Korea \(Seoul\)
--   Europe \(Frankfurt\) EU Access
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
-
-</td>
-<td valign="top">
-
-Build and run mobile apps for B2C use cases.
-
-</td>
-<td valign="top">
-
--   MOB-CLD-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   Japan \(Tokyo\)
--   US East \(VA\)
--   Singapore
--   Switzerland \(Zurich\) EU Access
--   Brazil \(São Paulo\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
-
-</td>
-<td valign="top">
-
-Build and run mobile apps for B2C use cases.
-
-</td>
-<td valign="top">
-
--   MOB-CLD-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US Central \(IA\)
--   India \(Mumbai\)
--   Israel \(Tel Aviv\)
--   KSA \(Dammam\) public sector
--   Australia \(Sydney\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
-
-</td>
-<td valign="top">
-
-Build and run mobile apps for B2C use cases.
-
-</td>
-<td valign="top">
-
--   MOB-CLD-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Dynatrace Agent Activation](https://help.sap.com/viewer/p/DYNATRACE_AGENT_ACTIVATION) 
 
 </td>
@@ -2856,72 +2556,6 @@ Deploy, subscribe and transport Solutions using Multi-Target Applications \(MTA\
 <tr>
 <td valign="top">
 
-[SAP Fiori Cloud](https://help.sap.com/viewer/p/SAP_FIORI_CLOUD_ALL) 
-
-</td>
-<td valign="top">
-
-Revamp your user experience with SAP Fiori on SAP Cloud Platform.
-
-</td>
-<td valign="top">
-
--   EP-CPP-NEO-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   Europe \(Amsterdam\)
--   UAE \(Dubai\)
--   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [SAP Procurement Intelligence](https://help.sap.com/viewer/product/SAP_S4HANA_CLOUD_INTELLIGENT_INSIGHTS/2005/en-US) 
 
 </td>
@@ -2954,237 +2588,6 @@ Automate and simplify your business processes by applying machine learning intel
 <td valign="top">
 
 -   Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
-
-</td>
-<td valign="top">
-
-Operate polyglot cloud applications in Cloud Foundry.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   US East \(VA\)
--   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   Canada \(Montreal\)
--   Australia \(Sydney\)
--   Singapore
--   South Korea \(Seoul\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
-
-</td>
-<td valign="top">
-
-Operate polyglot cloud applications in Cloud Foundry.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Singapore
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
-
-</td>
-<td valign="top">
-
-Operate polyglot cloud applications in Cloud Foundry.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   US Central \(IA\)
--   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
-
-</td>
-<td valign="top">
-
-Operate polyglot cloud applications in Cloud Foundry.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
 
 
 
@@ -4452,6 +3855,236 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 <tr>
 <td valign="top">
 
+[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+
+</td>
+<td valign="top">
+
+Build API and UI based document management capabilities for your business apps.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SDM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Singapore
+-   Brazil \(São Paulo\)
+-   Canada \(Montreal\)
+-   Europe \(Frankfurt\) EU Access
+-   South Korea \(Seoul\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+
+</td>
+<td valign="top">
+
+Build API and UI based document management capabilities for your business apps.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SDM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Japan \(Tokyo\)
+-   Singapore
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+
+</td>
+<td valign="top">
+
+Build API and UI based document management capabilities for your business apps.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SDM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
+
+</td>
+<td valign="top">
+
+Build API and UI based document management capabilities for your business apps.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-SDM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [SAP IoT Connect 365](https://community.sapmobileservices.com/t5/SAP-IoT-Connect-365/bd-p/SAPIoTConnect365) 
 
 </td>
@@ -5133,6 +4766,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 
 
 
@@ -5190,6 +4824,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
 -   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
 
 
 
@@ -5244,6 +4879,72 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 <td valign="top">
 
 -   China \(Shanghai\)\*\*
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Java Debugging](https://help.sap.com/viewer/product/DEBUGGING_SERVICE/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Debug your Java application even through networks with high latency.
+
+</td>
+<td valign="top">
+
+-   BC-JVM
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
+-   Brazil \(São Paulo\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
 
 
 
@@ -8233,6 +7934,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 
 
 
@@ -8291,6 +7993,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
 -   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
 
 
 
@@ -9905,6 +9608,72 @@ Generate print and interactive forms using Adobe Document Services.
 <tr>
 <td valign="top">
 
+[SAP Fiori Cloud](https://help.sap.com/viewer/p/SAP_FIORI_CLOUD_ALL) 
+
+</td>
+<td valign="top">
+
+Revamp your user experience with SAP Fiori on SAP Cloud Platform.
+
+</td>
+<td valign="top">
+
+-   EP-CPP-NEO-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
+-   Brazil \(São Paulo\)
+-   Europe \(Amsterdam\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Data Quality Services](https://help.sap.com/viewer/product/SAP_Data_Quality_Management_microservices_for_location_data/Cloud/en-US) 
 
 </td>
@@ -10363,63 +10132,6 @@ Manage the lifecycle of Java applications by using a REST API.
 
 -   Yes
 
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Enhanced Disaster Recovery](https://help.sap.com/viewer/p/DISASTER_RECOVERY) 
-
-</td>
-<td valign="top">
-
-Restore your cloud production environment with minimal data loss.
-
-</td>
-<td valign="top">
-
--   BC-NEO-DR
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   Australia \(Sydney\)
-
-
-
-</td>
-<td valign="top">
-
--   
 
 
 </td>
@@ -11554,236 +11266,6 @@ Infuse your applications with intelligent, easy-to-use services based on Machine
 <tr>
 <td valign="top">
 
-[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
-
-</td>
-<td valign="top">
-
-Build API and UI based document management capabilities for your business apps.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-SDM
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Singapore
--   Brazil \(São Paulo\)
--   Canada \(Montreal\)
--   Europe \(Frankfurt\) EU Access
--   South Korea \(Seoul\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
-
-</td>
-<td valign="top">
-
-Build API and UI based document management capabilities for your business apps.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-SDM
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Japan \(Tokyo\)
--   Singapore
--   Australia \(Sydney\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
-
-</td>
-<td valign="top">
-
-Build API and UI based document management capabilities for your business apps.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-SDM
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US Central \(IA\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Document Management Service, Integration Option](https://help.sap.com/viewer/p/DOCUMENT_MANAGEMENT) 
-
-</td>
-<td valign="top">
-
-Build API and UI based document management capabilities for your business apps.
-
-</td>
-<td valign="top">
-
--   BC-CP-CF-SDM
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Monitoring](https://help.sap.com/viewer/product/MONITORING_SERVICE/Cloud/en-US) 
 
 </td>
@@ -11942,6 +11424,8 @@ Configure and run predefined pipelines for continuous integration and delivery.
 <td valign="top">
 
 -   Europe \(Netherlands\)
+-   US East \(VA\)
+-   Switzerland \(Zurich\) EU Access
 
 
 
@@ -11999,6 +11483,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
 -   US Central \(IA\)
+-   KSA \(Dammam\) public sector
 
 
 
@@ -12227,6 +11712,307 @@ Manage retention and residence rules to block or delete personal data.
 
 -   Europe \(Netherlands\)
 -   US West \(WA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2E and B2B use cases.
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Brazil \(São Paulo\)
+-   Canada \(Toronto\)
+-   KSA \(Riyadh\)
+-   UAE \(Dubai\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2E and B2B use cases.
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Australia \(Sydney\)
+-   Brazil \(São Paulo\)
+-   Japan \(Tokyo\)
+-   US East \(VA\)
+-   Europe \(Frankfurt\)
+-   Singapore
+-   Canada \(Montreal\)
+-   South Korea \(Seoul\)
+-   Europe \(Frankfurt\) EU Access
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2E and B2B use cases.
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   Japan \(Tokyo\)
+-   US East \(VA\)
+-   Singapore
+-   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2E and B2B use cases.
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2E and B2B use cases.
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
 
 
 
@@ -12815,6 +12601,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 
 
 
@@ -12873,6 +12660,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
 -   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
 
 
 
@@ -13173,72 +12961,6 @@ A core, security and compliance based SAP BTP service to provide means for audit
 <tr>
 <td valign="top">
 
-[Java Debugging](https://help.sap.com/viewer/product/DEBUGGING_SERVICE/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Debug your Java application even through networks with high latency.
-
-</td>
-<td valign="top">
-
--   BC-JVM
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   UAE \(Dubai\)
--   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [SAP IoT](https://help.sap.com/viewer/p/SAP_Leonardo_IoT) 
 
 </td>
@@ -13326,6 +13048,237 @@ Put raw sensor data into business context and leverage it in analytical or trans
 <td valign="top">
 
 -   Europe \(Netherlands\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
+
+</td>
+<td valign="top">
+
+Operate polyglot cloud applications in Cloud Foundry.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   US East \(VA\)
+-   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
+-   Brazil \(São Paulo\)
+-   Japan \(Tokyo\)
+-   Canada \(Montreal\)
+-   Australia \(Sydney\)
+-   Singapore
+-   South Korea \(Seoul\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
+
+</td>
+<td valign="top">
+
+Operate polyglot cloud applications in Cloud Foundry.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Singapore
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
+
+</td>
+<td valign="top">
+
+Operate polyglot cloud applications in Cloud Foundry.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+-   Europe \(Frankfurt\)
+-   Israel \(Tel Aviv\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
+
+</td>
+<td valign="top">
+
+Operate polyglot cloud applications in Cloud Foundry.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
 
 
 
@@ -13923,6 +13876,63 @@ Automate business processes using workflow technology.
 <tr>
 <td valign="top">
 
+[Enhanced Disaster Recovery Service](https://help.sap.com/viewer/p/DISASTER_RECOVERY) 
+
+</td>
+<td valign="top">
+
+Restore your cloud production environment with minimal data loss.
+
+</td>
+<td valign="top">
+
+-   BC-NEO-DR
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Keystore Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/a18327e4b1a34bd6844384ae1c7f3d51.html) 
 
 </td>
@@ -14022,6 +14032,306 @@ Develop, customize, and operate IoT business applications in the cloud.
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2C use cases.
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Brazil \(São Paulo\)
+-   Canada \(Toronto\)
+-   KSA \(Riyadh\)
+-   UAE \(Dubai\)
+
+
+
+</td>
+<td valign="top">
+
+-   
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2C use cases.
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Australia \(Sydney\)
+-   Brazil \(São Paulo\)
+-   Japan \(Tokyo\)
+-   US East \(VA\)
+-   Europe \(Frankfurt\)
+-   Singapore
+-   Canada \(Montreal\)
+-   South Korea \(Seoul\)
+-   Europe \(Frankfurt\) EU Access
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2C use cases.
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   Japan \(Tokyo\)
+-   US East \(VA\)
+-   Singapore
+-   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2C use cases.
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Mobile Services, consumers](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
+
+</td>
+<td valign="top">
+
+Build and run mobile apps for B2C use cases.
+
+</td>
+<td valign="top">
+
+-   MOB-CLD-OPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
 
 
 
@@ -14789,307 +15099,6 @@ Discover, explore and test the APIs offered by SAP.
 <td valign="top">
 
 -   
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
-
-</td>
-<td valign="top">
-
-Build and run mobile apps for B2E and B2B use cases.
-
-</td>
-<td valign="top">
-
--   MOB-CLD-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Brazil \(São Paulo\)
--   Canada \(Toronto\)
--   KSA \(Riyadh\)
--   UAE \(Dubai\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
-
-</td>
-<td valign="top">
-
-Build and run mobile apps for B2E and B2B use cases.
-
-</td>
-<td valign="top">
-
--   MOB-CLD-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Australia \(Sydney\)
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   US East \(VA\)
--   Europe \(Frankfurt\)
--   Singapore
--   Canada \(Montreal\)
--   South Korea \(Seoul\)
--   Europe \(Frankfurt\) EU Access
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
-
-</td>
-<td valign="top">
-
-Build and run mobile apps for B2E and B2B use cases.
-
-</td>
-<td valign="top">
-
--   MOB-CLD-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   Japan \(Tokyo\)
--   US East \(VA\)
--   Singapore
--   Switzerland \(Zurich\) EU Access
--   Brazil \(São Paulo\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
-
-</td>
-<td valign="top">
-
-Build and run mobile apps for B2E and B2B use cases.
-
-</td>
-<td valign="top">
-
--   MOB-CLD-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US Central \(IA\)
--   India \(Mumbai\)
--   Israel \(Tel Aviv\)
--   KSA \(Dammam\) public sector
--   Australia \(Sydney\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Mobile Services, users](https://help.sap.com/viewer/38dbd9fbb49240f3b4d954e92335e670/Cloud/en-US/d2a9afc1681c4e57a4a0f2039274d250.html) 
-
-</td>
-<td valign="top">
-
-Build and run mobile apps for B2E and B2B use cases.
-
-</td>
-<td valign="top">
-
--   MOB-CLD-OPS
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Alibaba
-
-
-
-</td>
-<td valign="top">
-
--   China \(Shanghai\)\*\*
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
 
 
 </td>

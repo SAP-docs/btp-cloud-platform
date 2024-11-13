@@ -29,7 +29,6 @@ Cloud Foundry service offerings that currently support GACD are:
 -   `portal` \(For more information, see [Add an SAP Fiori Launchpad Module](https://help.sap.com/docs/Portal_Service/ad4b9f0b14b0458cad9bd27bf435637d/b55594e28a7d47a2ab4bf1f03ebfd56b.html)\)
 -   `workflow` \(For more information, see [Create a Workflow Module](https://help.sap.com/docs/WORKFLOW/e157c391253b4ecd93647bf232d18a83/b2df7c220b2245dcad11be747794c042.html?version=Cloud&locale=en-US)\)
 -   `destination` \(For more information, see [Create Destinations Using the MTA Descriptor](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/8aeea65eb9d64267b554f64a3db8a349.html?version=Cloud)\)
--   `business logging` \(For more information, see [Using GACD](https://help.sap.com/docs/SAP_CP_BUS_REUSE_SERVICE_BL/9d9c6578dd284b7491e2b6ceb1395329/f4a898bd0f9b4619940dd049c5328ee4.html?locale=en-US)\)
 
 
 

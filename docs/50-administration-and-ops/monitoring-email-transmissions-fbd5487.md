@@ -83,3 +83,5 @@ Sending test emails can help administrators to check if the email outbound of th
 
 [Monitor Email Transmissions](monitor-email-transmissions-8cf1ac9.md "")
 
+[Configuration of the System Email Outbound](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/configuration-of-system-mail-outbound?version=Cloud)
+

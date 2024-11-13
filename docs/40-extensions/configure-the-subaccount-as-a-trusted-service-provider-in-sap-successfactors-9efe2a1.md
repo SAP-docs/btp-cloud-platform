@@ -23,12 +23,7 @@ To configure the subaccount as a trusted service provider in SAP SuccessFactors,
 
 ## Context
 
-With the SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan, you can create automatically an assertion consumer service in SAP SuccessFactors for the subaccount in which this service instance is created and a logout URL for each extension application you have deployed in SAP BTP that is extending the functionality of the registered SAP SuccessFactors system. To create an assertion consumer service, you either go to the SAP SuccessFactors Provisioning and create these assertion consumer services manually, or create them automatically in the SAP BTP cockpit via an SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan without loggin in to the Provisioning. If you want to create an assertion consumer service in the Provisioning manually, see:
-
--   [Register the Assertion Consumer Service of the Subaccount in SAP BTP in SAP SuccessFactors](register-the-assertion-consumer-service-of-the-subaccount-in-sap-btp-in-sap-successfactor-de3a1b3.md)
-
--   [Register the Assertion Consumer Service for Every Extension Application in SAP SuccessFactors](register-the-assertion-consumer-service-for-every-extension-application-in-sap-successfac-ebc8341.md)
-
+With the SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan, you can create automatically an assertion consumer service in SAP SuccessFactors for the subaccount in which this service instance is created and a logout URL for each extension application you have deployed in SAP BTP that is extending the functionality of the registered SAP SuccessFactors system. To create an assertion consumer service, you either go to the SAP SuccessFactors Provisioning and create these assertion consumer services manually, or create them automatically in the SAP BTP cockpit via an SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan without loggin in to the Provisioning.
 
 To create an assertion consumer service automatically, you create an SAP SuccessFactors Extensibility service instance of plan *sso-configuration* providing all the necessary information in a JSON file. You can have only one service instance of plan *sso-configuration* per subaccount.
 

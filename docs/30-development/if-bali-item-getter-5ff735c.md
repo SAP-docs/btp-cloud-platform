@@ -84,12 +84,22 @@ Detail level of the item \(number between '1' and '9' or ' '\)
 
 TIMESTAMP
 
-\(from IF\_BALI\_ITEM\_GETTER\)
-
 </td>
 <td valign="top">
 
 UTC time stamp of the item creation
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CONTEXT\_STRUCTURE\_NAME
+
+</td>
+<td valign="top">
+
+Data dictionary name of the context structure
 
 </td>
 </tr>
@@ -140,6 +150,47 @@ MESSAGE\_TEXT
 <td valign="top">
 
 ext of the item message in the logon language
+
+</td>
+</tr>
+</table>
+
+
+
+Get the context data of the item:
+
+**GET\_CONTEXT**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exporting parameter**
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CONTEXT
+
+</td>
+<td valign="top">
+
+Structure that is filled with context data
 
 </td>
 </tr>

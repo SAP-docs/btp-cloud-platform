@@ -10,6 +10,9 @@ You can use the *Reuse Library* to implement a reusable component that can displ
 
 To be able to use the reusable components, you need to adapt the code that can be found in your `manifest.json` file.
 
+> ### Restriction:  
+> Mind that the Fiori reuse library is only released for the OData V2 protocol.
+
 
 
 ## Procedure

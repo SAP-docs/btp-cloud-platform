@@ -28,6 +28,14 @@ Whenever you add a user at the org or space level with the SAP BTP cockpit, SAP 
 
 For more information about shadow users, see [Working with Users](working-with-users-2c91f88.md).
 
+
+
+<a name="loio8e6ce969c432437dbaecedea385df8c8__section_rqx_rj1_fdc"/>
+
+## User Provisioning
+
+For user management of Cloud Foundry organizations, use the provisioning connectors of SAP Cloud Identity Services - Identity Provisioning. For more information, see [SAP BTP Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-btp-integration-scenario?version=Cloud).
+
 **Related Information**  
 
 

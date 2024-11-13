@@ -25,13 +25,13 @@ To add a log item to an application log, the `IF_BALI_LOG` interface provides th
 
 -   `ADD_ALL_ITEMS_FROM_OTHER_LOG`: Read all items from another application log and append them to this log. This method can be used if the items of different application logs are merged into one log.
 
-    Sometimes it's required to filter items which are put into an application log by using the method `ADD_ITEM`. For example, there may be an encapsulated application class which writes error and status messages into an application log, and the caller of this application class only requires the error messages. In this case, the caller can define an item filter \(see [Define a Filter](define-a-filter-8e17d0d.md)\). The caller can then add this item filter to the log using the method `SET_FILTER_FOR_ADD_ITEM`. If an item filter is set for a log object, only those items that pass this filter are added to the log object.
+    Sometimes it's required to filter items which are put into an application log by using the method `ADD_ITEM`. For example, there may be an encapsulated application class which writes error and status messages into an application log, and the caller of this application class only requires the error messages. In this case, the caller can define an item filter \(see [Define a Filter for the Log Items](define-a-filter-for-the-log-items-9fafb86.md)\). The caller can then add this item filter to the log using the method `SET_FILTER_FOR_ADD_ITEM`. If an item filter is set for a log object, only those items that pass this filter are added to the log object.
 
 
 > ### Note:  
 > If an item was already added to the application log, its attributes can't be changed any more. Therefore, if the attributes of the item object are changed after the item was added to the log, these changes are not transferred to the log.
 > 
-> When an item is added to the application log, it can probably be converted internally. For example, an exception which is based on a message \(which contains a message ID and message number\) is internally converted into a message.
+> When an item is added to the application log, it can happen that it's converted internally. For example, an exception which is based on a message \(which contains a message ID and message number\) is internally converted into a message.
 
 > ### Sample Code:  
 > ```abap

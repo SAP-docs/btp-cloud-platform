@@ -92,6 +92,18 @@ UTC time stamp of the free text creation
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+CONTEXT\_STRUCTURE\_NAME \(from IF\_BALI\_ITEM\_GETTER\)
+
+</td>
+<td valign="top">
+
+Data dictionary name of the context structure
+
+</td>
+</tr>
 </table>
 
 **Public Methods**
@@ -132,6 +144,47 @@ MESSAGE\_TEXT
 <td valign="top">
 
 Content of the free text
+
+</td>
+</tr>
+</table>
+
+
+
+Get the context data of the free text:
+
+**GET\_CONTEXT \( from the interface IF\_BALI\_ITEM\_GETTER\)**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exporting parameter**
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CONTEXT
+
+</td>
+<td valign="top">
+
+Structure that is filled with context data
 
 </td>
 </tr>

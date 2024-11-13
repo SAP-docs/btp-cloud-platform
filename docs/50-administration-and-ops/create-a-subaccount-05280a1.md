@@ -48,7 +48,7 @@ You create subaccounts in your global account. Once you create a new subaccount,
     > You can also create a subaccount from scratch by selecting *Create Subaccount* from the <span class="SAP-icons-V5"></span> \(Actions\) context menu of the global account or a directory.
 
     > ### Tip:  
-    > Alternatively, you can create a new subaccount from an existing subaccount. For more information, see the [Create a Subaccount from an Existing Subaccount](create-a-subaccount-05280a1.md#loio05280a123d3044ae97457a25b3013918__task_ltb_jzk_5bc) procedure below.
+    > Alternatively, you can create a new subaccount from an existing subaccount. For more information, see the [Create a Subaccount from an Existing Subaccount](https://help.sap.com/docs/btp/sap-business-technology-platform/create-subaccount?version=Cloud#create-a-subaccount-from-an-existing-subaccount) procedure below.
 
 3.  Specify a display name.
 
@@ -137,7 +137,7 @@ Instead of creating a subaccount from scratch, you can create one from an existi
 
 3.  Edit the new subaccount's properties and labels, as needed.
 
-    Refer to [Create a Subaccount](create-a-subaccount-05280a1.md#loio05280a123d3044ae97457a25b3013918__task_dvg_gmd_cqb) above to find out more information about the various subaccount properties.
+    Refer to [Create a Subaccount](https://help.sap.com/docs/btp/sap-business-technology-platform/create-subaccount?version=Cloud#create-a-subaccount) above to find out more information about the various subaccount properties.
 
 4.  **Optional:** If you don't want all the assigned service plans in the selected subaccount to be copied to the new subaccount, turn off the *Copy service plan assignments* option.
 

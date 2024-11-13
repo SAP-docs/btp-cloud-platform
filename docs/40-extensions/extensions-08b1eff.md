@@ -38,7 +38,7 @@ You have the following options to extend your SAP solution using the SAP Success
 
 If you have to group the systems of different SAP solutions in the same business case, you can set up the connectivity between all these systems and a global account in SAP BTP in a single formation in the SAP BTP cockpit. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
 
-See [Extending SAP Solutions Using Automated Configurations](extending-sap-solutions-using-automated-configurations-346864d.md).
+See [Extending SAP Solutions](extending-sap-solutions-346864d.md).
 
 
 

@@ -652,7 +652,7 @@ By default, container and Pod metrics are collected.
 
 To enable or disable the collection of metrics for a specific resource, use the `resources` section in the `runtime` input.
 
-The following example collects only the Pod metrics:
+The following example collects only DaemonSet, Deployment, StatefulSet, and Job metrics:
 
 ```
 apiVersion: telemetry.kyma-project.io/v1alpha1
@@ -664,14 +664,22 @@ spec:
     runtime:
       enabled: true
       resources:
-        pod:
-          enabled: true
-        container:
-          enabled: false
-        node:
-          enabled: false
-        volume:
-          enabled: false
+          pod:
+            enabled: false
+          container:
+            enabled: false
+          node:
+            enabled: false
+          volume:
+            enabled: false
+          daemonset:
+            enabled: true
+          deployment:
+            enabled: true
+          statefulset:
+            enabled: true
+          job:
+            enabled: true
   output:
     otlp:
       endpoint:
@@ -679,36 +687,34 @@ spec:
 
 ```
 
-**Collected Metrics per Resource Type**
+**Collected Metrics per Resource**
 
 
 <table>
 <tr>
 <th valign="top">
 
-Pod Metrics
+Resource
 
 </th>
 <th valign="top">
 
-Container Metrics
+From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kubeletstatsreceiver)
 
 </th>
 <th valign="top">
 
-Node Metrics
-
-</th>
-<th valign="top">
-
-Volume Metrics
+From the [k8sclusterreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/k8sclusterreceiver)
 
 </th>
 </tr>
 <tr>
 <td valign="top">
 
-From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kubeletstatsreceiver):
+Pod
+
+</td>
+<td valign="top">
 
 -   k8s.pod.cpu.capacity
 
@@ -742,7 +748,20 @@ From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-c
 </td>
 <td valign="top">
 
-From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kubeletstatsreceiver):
+-   k8s.pod.phase
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Container
+
+</td>
+<td valign="top">
 
 -   container.cpu.time
 
@@ -772,7 +791,26 @@ From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-c
 </td>
 <td valign="top">
 
-From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kubeletstatsreceiver):
+-   k8s.container.cpu\_request
+
+-   k8s.container.cpu\_limit
+
+-   k8s.container.memory\_request
+
+-   k8s.container.memory\_limit
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Node
+
+</td>
+<td valign="top">
 
 -   k8s.node.cpu.usage
 
@@ -796,7 +834,17 @@ From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-c
 </td>
 <td valign="top">
 
-From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kubeletstatsreceiver):
+\-
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Volume
+
+</td>
+<td valign="top">
 
 -   k8s.volume.available
 
@@ -812,32 +860,16 @@ From the [kubletstatsreceiver](https://github.com/open-telemetry/opentelemetry-c
 
 
 </td>
+<td valign="top">
+
+\-
+
+</td>
 </tr>
 <tr>
 <td valign="top">
 
-From the [k8sclusterreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/k8sclusterreceiver):
-
--   k8s.pod.phase
-
-
-
-
-</td>
-<td valign="top">
-
-From the [k8sclusterreceiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/k8sclusterreceiver):
-
--   k8s.container.cpu\_request
-
--   k8s.container.cpu\_limit
-
--   k8s.container.memory\_request
-
--   k8s.container.memory\_limit
-
-
-
+Deployment
 
 </td>
 <td valign="top">
@@ -847,7 +879,92 @@ From the [k8sclusterreceiver](https://github.com/open-telemetry/opentelemetry-co
 </td>
 <td valign="top">
 
+-   k8s.deployment.available
+
+-   k8s.deployment.desired
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DaemonSet
+
+</td>
+<td valign="top">
+
 \-
+
+</td>
+<td valign="top">
+
+-   k8s.daemonset.current\_scheduled\_nodes
+
+-   k8s.daemonset.desired\_scheduled\_nodes
+
+-   k8s.daemonset.misscheduled\_nodes
+
+-   k8s.daemonset.ready\_nodes
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+StatefulSet
+
+</td>
+<td valign="top">
+
+\-
+
+</td>
+<td valign="top">
+
+-   k8s.statefulset.current\_pods
+
+-   k8s.statefulset.desired\_pods
+
+-   k8s.statefulset.ready\_pods
+
+-   k8s.statefulset.updated\_pods
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Job
+
+</td>
+<td valign="top">
+
+\-
+
+</td>
+<td valign="top">
+
+-   k8s.job.active\_pods
+
+-   k8s.job.desired\_successful\_pods
+
+-   k8s.job.failed\_pods
+
+-   k8s.job.max\_parallel\_pods
+
+-   k8s.job.successful\_pods
+
+
+
 
 </td>
 </tr>

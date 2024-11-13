@@ -176,6 +176,18 @@ Number of status items which are stored in the log
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+CONTEXT\_STRUCTURE\_NAME
+
+</td>
+<td valign="top">
+
+Data dictionary name of the context structure
+
+</td>
+</tr>
 </table>
 
 **Public Methods**
@@ -257,6 +269,47 @@ SUBOBJECT\_DESCRIPTION
 <td valign="top">
 
 Description of the subobject in the logon language
+
+</td>
+</tr>
+</table>
+
+
+
+Get the context data of the header:
+
+**GET\_CONTEXT**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Exporting parameter**
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CONTEXT
+
+</td>
+<td valign="top">
+
+Structure that is filled with context data
 
 </td>
 </tr>

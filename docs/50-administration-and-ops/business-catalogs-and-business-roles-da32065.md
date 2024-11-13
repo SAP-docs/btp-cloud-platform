@@ -1829,7 +1829,7 @@ Technical Monitoring
 </td>
 <td valign="top">
 
-[Table Analysis](table-analysis-8ec349b.md) 
+[HANA Table Analysis](hana-table-analysis-8ec349b.md) 
 
 </td>
 <td valign="top">

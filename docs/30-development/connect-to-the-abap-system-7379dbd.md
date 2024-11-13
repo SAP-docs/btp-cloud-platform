@@ -11,6 +11,10 @@ Set up your ABAP cloud project to connect to the ABAP system.
 ## Prerequisites
 
 -   You are assigned the developer role. See [Assigning the ABAP Developer User to the ABAP Developer Role](../20-getting-started/assigning-the-abap-developer-user-to-the-abap-developer-role-13b2cfb.md) and [Creating Service Keys](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-service-keys?version=Cloud).
+
+    > ### Note:  
+    > The process for connecting to an ABAP service instance URL when creating a new ABAP Cloud project in ABAP development tools for Eclipse has changed. For more information, see [ABAP Service Instance URL](abap-service-instance-url-41ec2d3.md).
+
 -   You have downloaded and installed the front-end components of [ABAP Development Tools \(ADT\)](https://tools.hana.ondemand.com/#abap). See [Video Tutorial: Configure ABAP Development Tools.](https://www.youtube.com/watch?v=hgJgDTyB6Kg&list=PLkzo92owKnVxWqJSoFLGe1VRkzOs4Ucdr&index=5&t=0s) 
 
 -   You are a member of the relevant space in the Cloud Foundry environment, see [Add Space Members Using the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/add-space-members-using-cockpit?version=Cloud), **or** you have a service key in JSON format, see [Creating Service Keys](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-service-keys?version=Cloud).

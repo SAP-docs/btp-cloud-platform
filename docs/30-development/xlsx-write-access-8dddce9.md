@@ -41,6 +41,13 @@ Adding a new worksheet works like this:
 
 You can provide a name for the sheet by filling the optional parameter `iv_name`.
 
+To modify an existing XSLX document, get a write access like this:
+
+> ### Sample Code:  
+> ```abap
+> DATA(lo_write_access) = xco_cp_xlsx=>document->for_file_content( lv_file_content )->write_access( ).
+> ```
+
 
 
 <a name="loio8dddce9fd9954e72a09d2b39d22db995__section_xlz_dmn_1vb"/>
@@ -261,4 +268,42 @@ The **best effort** value transformation is based on an inspection \(based on AB
 -   I, INT8 and P: When an ABAP field of type I, INT8 or P is written to a cell, a numeric value will be written to the worksheet
 
 If an attempt is made to write an ABAP field of any other type to a cell of a worksheet using the best effort value transformation, you can expect a runtime error.
+
+
+
+<a name="loio8dddce9fd9954e72a09d2b39d22db995__section_bhp_rmt_2dc"/>
+
+## Cell Styling
+
+Cells in an XSLX document ca be styled in various ways. To change the background color of a cell, do the following:
+
+> ### Sample Code:  
+> ```abap
+> DATA(lo_cursor) = lo_worksheet->cursor(
+>   io_column = xco_cp_xlsx=>coordinate->for_alphabetic_value( 'B' )
+>   io_row    = xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
+> ).
+> DATA(lo_cell) = lo_cursor->get_cell( ).
+> DATA(lo_fill_color_yellow) = xco_cp_xlsx=>style->fill( )->set_background_color( xco_cp_xlsx=>color->standard->yellow ).
+> lo_cell->apply_styles( VALUE #( ( lo_fill_color_yellow ) ) ).
+> ```
+
+You can also protect cells from modifications by locking the entire worksheet. Single cells can then be unlocked to allow selective modifications. See the following example:
+
+> ### Sample Code:  
+> ```abap
+> lo_worksheet->protect( ).
+> DATA(lo_protection_unlock_cell) = xco_cp_xlsx=>style->protection( )->set_locked( abap_false ).
+> lo_cell->apply_styles( VALUE #( ( lo_protection_unlock_cell ) ) ).
+> ```
+
+To show a drop-down list of values for a cell, set the data validation. Add the values that should be shown on the list by calling `add_source` with a string that contains a single value or a comma-separated list of values. See the following example:
+
+> ### Sample Code:  
+> ```abap
+> DATA(lo_data_validation) = xco_cp_xlsx=>data_validation_type->if_xco_xlsx_dat_val_type_f~list( )->add_source( '1'
+>   )->add_source( '2'
+>   )->add_source( '3,4,5' ).
+> lo_cell->data_validation->set_type( lo_data_validation ).
+> ```
 

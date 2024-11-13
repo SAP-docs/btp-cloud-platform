@@ -56,7 +56,13 @@ The syntax required to set the properties and values defined in the `xs-security
                                           "CostCenter"] 
                     } 
                    ], 
-
+ "role-collections": [
+                     {
+                    "name": "UserViewerRC",
+                    "description": "User Viewer Role Collection",
+                    "role-template-references": ["$XSAPPNAME.Viewer"]
+                     }
+                   ],
  "authorities":["$ACCEPT_GRANTED_AUTHORITIES"],
  "oauth2-configuration": {
                     "token-validity": 900, 

@@ -300,7 +300,7 @@ The content of a view entity can be specified via a form specification. The foll
 >   )->set_key(
 >   )->set_alias( 'myKeyField' ).
 > lo_field->add_annotation( 'EndUserText.label' )->value->build( )->add_string( |My key field| ).
->  
+> lo_field->add_comment( xco_cp=>string( 'This is a key field' ) ). 
 > lo_put_operation->execute( ).
 > ```
 

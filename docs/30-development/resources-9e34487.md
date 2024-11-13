@@ -900,6 +900,9 @@ Resource parameters have platform-specific semantics. To reference a parameter v
 
 The following parameters are supported:
 
+> ### Note:  
+> If you can't find a specific parameter from the native Cloud Foundry manifest here, refer to [Prerequisites and Restrictions](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md#loiod04fc0e2ad894545aebfd7126384307c__section_ph2_r5h_1cb) to see which Cloud Foundry features are currently not supported.
+
 **MTA Development and Deployment Parameters**
 
 

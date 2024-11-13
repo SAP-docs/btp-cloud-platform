@@ -499,7 +499,7 @@ Message attributes \(a structure of type BAPIRET2\)
 <tr>
 <td valign="top">
 
-MESSAGE
+NEW\_MESSAGE
 
 </td>
 <td valign="top">
@@ -561,12 +561,106 @@ Allowed values: Number between '1' and '9' or ' '
 <tr>
 <td valign="top">
 
-MESSAGE
+NEW\_MESSAGE
 
 </td>
 <td valign="top">
 
 Reference to current message object
+
+</td>
+</tr>
+</table>
+
+
+
+Set the message context using a data dictionary structure:
+
+**SET\_CONTEXT**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Name
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+**Importing parameters**
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CONTEXT
+
+</td>
+<td valign="top">
+
+Structure with the context data
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NEW\_MESSAGE
+
+</td>
+<td valign="top">
+
+Reference to the current message object
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CX\_BALI\_INVALID\_PARAMETER
+
+</td>
+<td valign="top">
+
+-   Field `CONTEXT` is not based on a database table or structure that is defined in the data dictionary
+
+-   The total size of field `CONTEXT` is longer than 256 characters
+
+
+
 
 </td>
 </tr>
@@ -602,7 +696,7 @@ Description
 <tr>
 <td valign="top">
 
-DETAIL\_LEVELDETAIL\_LEVEL
+DETAIL\_LEVEL
 
 </td>
 <td valign="top">
@@ -696,21 +790,21 @@ VARIABLE\_4
 </td>
 </tr>
 <tr>
-<td valign="top" colspan="2">
-
-**Returning parameter**
-
-</td>
-</tr>
-<tr>
 <td valign="top">
 
-NEW\_MESSAGE
+CONTEXT\_DATA
 
 </td>
 <td valign="top">
 
-Reference to current message object
+Structure and content of the context. `CONTEXT_DATA` has the following fields:
+
+-   `STRUCTURE_NAME`: Name of the data dictionary structure which was used for the context data
+
+-   `CONTENT`: The content of the context data. The content is stored in a character field with a length of 256 characters
+
+
+
 
 </td>
 </tr>

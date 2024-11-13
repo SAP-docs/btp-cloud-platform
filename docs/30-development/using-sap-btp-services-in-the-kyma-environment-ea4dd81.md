@@ -2,155 +2,28 @@
 
 # Using SAP BTP Services in the Kyma Environment
 
-With the Kyma environment, you can connect SAP BTP services to your cluster and manage them using SAP BTP Service Operator.
+With the Kyma environment you can connect SAP BTP services to your cluster and manage them using the SAP BTP Operator module.
 
+**Related Information**  
 
 
-<a name="loioea4dd81e49254dd482d32e3c20f4477a__prereq_vbj_qf2_qtb"/>
+[SAP BTP Operator Module](sap-btp-operator-module-50347ea.md "Use the SAP BTP Operator module to enable service management and consume SAP BTP services from your Kyma cluster.")
 
-## Prerequisites
+[Preconfigured Credentials and Access](preconfigured-credentials-and-access-ab106d7.md "When you create SAP BTP, Kyma runtime, all necessary resources for consuming SAP BTP services are created, and the basic cluster access is configured.")
 
--   The SAP BTP Operator module is added, see [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). Otherwise, you get the following error message: `resource mapping not found for {...} ensure CRDs are installed first`.
+[Creating Service Instances and Service Bindings](creating-service-instances-and-service-bindings-17bd304.md "Create service instances and service bindings using Kyma dashboard or kubectl.")
 
--   For CLI interactions: [kubectl](https://kubernetes.io/docs/tasks/tools/) v1.17 or higher.
+[Working with Multiple Subaccounts](working-with-multiple-subaccounts-862dd6a.md "With the SAP BTP Operator module, you can create configurations for several subaccounts in a single Kyma cluster.")
 
--   You know the `serviceOfferingName` and `servicePlanName` for the SAP BTP service you want to connect to the Kyma cluster. You find these values in the Service Marketplace of the SAP BTP cockpit. Click on the service's tile and find *name* and *Plan*, respectively.
+[Instance-Level Mapping](instance-level-mapping-d9e9c7f.md "You can map a Kubernetes service instance to an SAP Service Manager instance in a given subaccount. The Service Manager instance is then used to provision that service instance.")
 
+[Namespace-Level Mapping](namespace-level-mapping-63ad410.md "You can map a Kubernetes namespace to an SAP Service Manager instance in a given subaccount. The Service Manager instance is then used to provision all service instances in that namespace.")
 
-> ### Note:  
-> You can use [SAP BTP kubectl plugin](https://github.com/SAP/sap-btp-service-operator#sap-btp-kubectl-plugin-experimental) to get the available services in your SAP BTP account by using the access credentials stored in the cluster. However, the plugin is still experimental.
+[Passing Parameters](passing-parameters-2cfd47c.md "You can set input parameters for your resources.")
 
-<a name="loio975983821be040f0b7886791abcf3b7e"/>
+[Rotating Service Bindings](rotating-service-bindings-37ac30a.md "Enhance security by automatically rotating the credentials associated with your service bindings. This process involves generating a new service binding while keeping the old credentials active for a specified period to ensure a smooth transition.")
 
-<!-- loio975983821be040f0b7886791abcf3b7e -->
+[Formatting Service Binding Secrets](formatting-service-binding-secrets-4733eb5.md "Use different attributes in your ServiceBinding resource to generate different formats of your Secret resources.")
 
-## Creating and Managing Services Using Kyma dashboard
-
-Create and manage Service Instances and Service Bindings using Kyma dashboard.
-
-
-
-## Context
-
-Use Kyma dashboard to create and manage your resources.
-
-
-
-## Procedure
-
-1.  In the *Namespace* view, go to *Service Management**→Service Instances*.
-
-2.  Create Service Instance using the required service details.
-
-    You see the status `PROVISIONED`.
-
-3.  Go to *Service Management**→Service Bindings* and create Service Binding, choosing your instance name from the dropdown list.
-
-    You see the status `PROVISIONED`.
-
-
-
-
-<a name="loio975983821be040f0b7886791abcf3b7e__result_m43_t3y_bzb"/>
-
-## Results
-
-You can now use a given service in your Kyma cluster.
-
-<a name="loioc8520b1c5c67409eb2d6e06c519eef18"/>
-
-<!-- loioc8520b1c5c67409eb2d6e06c519eef18 -->
-
-## Creating and Managing Services Using kubectl
-
-Create and manage Service Instances and Service Bindings using kubectl.
-
-
-
-## Context
-
-Use kubectl to create and manage your resources.
-
-
-
-<a name="loioc8520b1c5c67409eb2d6e06c519eef18__steps_ayb_vch_ypb"/>
-
-## Procedure
-
-1.  Create a Service Instance:
-
-    ```
-    kubectl create -f - <<EOF
-    apiVersion: services.cloud.sap.com/v1
-    kind: ServiceInstance
-    metadata:
-      name: {INSTANCE_NAME}
-      namespace: {NAMESPACE}
-    spec:
-      serviceOfferingName: {NAME_FROM_SERVICE_MARKETPLACE}
-      servicePlanName: {PLAN_FROM_SERVICE_MARKETPLACE}
-      externalName: {INSTANCE_NAME}
-    EOF
-    ```
-
-2.  To see the output, run:
-
-    ```
-    kubectl get serviceinstances.services.cloud.sap.com {INSTANCE_NAME} -o yaml
-    ```
-
-    You can see the status ***created*** and the message ***ServiceInstance provisioned successfully***.
-
-3.  Create a Service Binding:
-
-    ```
-    kubectl create -f - <<EOF
-    apiVersion: services.cloud.sap.com/v1
-    kind: ServiceBinding
-    metadata:
-      name: {BINDING_NAME}
-      namespace: {NAMESPACE}
-    spec:
-      serviceInstanceName: {INSTANCE_NAME}
-      externalName: {BINDING_NAME}
-      secretName: {BINDING_NAME}
-      parameters:
-          key1: val1
-          key2: val2
-    EOF
-    ```
-
-4.  To see the output, run:
-
-    ```
-    kubectl get servicebindings.services.cloud.sap.com {BINDING_NAME} -o yaml
-    ```
-
-    You can see the status ***created*** and the message ***ServiceBinding provisioned successfully***.
-
-
-
-
-<a name="loioc8520b1c5c67409eb2d6e06c519eef18__result_sch_bjy_bzb"/>
-
-## Results
-
-You can now use a given service in your Kyma cluster. To see credentials, run:
-
-```
-kubectl get secret {BINDING_NAME} -o yaml
-```
-
-
-
-<a name="loioc8520b1c5c67409eb2d6e06c519eef18__postreq_jqd_mjy_bzb"/>
-
-## Next Steps
-
-To clean up your resources, run:
-
-```
-kubectl delete servicebindings.services.cloud.sap.com {BINDING_NAME}
-kubectl delete serviceinstances.services.cloud.sap.com {INSTANCE_NAME}
-```
+[Deleting Service Bindings and Service Instances](deleting-service-bindings-and-service-instances-5deca69.md "Delete service bindings and service instances using Kyma dashboard or kubectl.")
 
