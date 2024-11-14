@@ -2,9 +2,9 @@
 
 # SAP Java Buildpack 1
 
-SAP Java Buildpack is a Cloud Foundry buildpack for running JVM-based applications.
+SAP Java Buildpack 1 is a Cloud Foundry buildpack for running JVM-based applications.
 
-This buildpack supports the following runtimes:
+This buildpack supports Java 8, 11, and 17, as well as the following runtimes:
 
 -   [TomEE 7](tomee-7-79c039a.md)
 
@@ -12,6 +12,11 @@ This buildpack supports the following runtimes:
 
 -   [Java Main](java-main-8a1786a.md)
 
+
+> ### Caution:  
+> Bear in mind that SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment on **July 1, 2025**!
+> 
+> For more information, see: [Release Notes - August 22](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP+Java+Buildpack&Valid_as_Of=2024-08-20:2024-08-25&locale=en-US&version=Cloud)
 
 
 
@@ -57,7 +62,7 @@ modules:
 
 <a name="loioad3e8dfdbaad423e96ca875a4cd36f61__section_czc_1hd_kgb"/>
 
-## Buildpack Versioning
+## Buildpack Versions
 
 The SAP BTP, Cloud Foundry environment provides four versions of SAP Java Buildpack 1 as part of its system buildpacks:
 

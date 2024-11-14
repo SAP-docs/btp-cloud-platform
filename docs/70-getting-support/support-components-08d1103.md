@@ -10910,6 +10910,61 @@ Design, configure, and execute automation projects.
 <tr>
 <td valign="top">
 
+[Internet of Things](https://help.sap.com/viewer/product/SAP_CP_IOT_CF/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Develop, customize, and operate IoT business applications in the cloud.
+
+</td>
+<td valign="top">
+
+-   BC-NEO-SVC-IOT
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Alert Notification](https://help.sap.com/viewer/p/ALERT_NOTIFICATION) 
 
 </td>
@@ -11484,6 +11539,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Israel \(Tel Aviv\)
 -   US Central \(IA\)
 -   KSA \(Dammam\) public sector
+-   Australia \(Sydney\)
 
 
 
@@ -13977,61 +14033,6 @@ Manage cryptographic keys and certificates.
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Internet of Things](https://help.sap.com/viewer/product/SAP_CP_IOT_CF/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Develop, customize, and operate IoT business applications in the cloud.
-
-</td>
-<td valign="top">
-
--   BC-NEO-SVC-IOT
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
 
 
 

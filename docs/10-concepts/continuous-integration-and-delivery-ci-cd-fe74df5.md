@@ -35,19 +35,15 @@ SAP Continuous Integration and Delivery lets you configure and run predefined pi
 
     Configure a CI/CD pipeline for the development of applications that follow the SAP Cloud Application Programming Model in the Cloud Foundry runtime.
 
--   [Configure an SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-in-cloud-foundry-environment-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)
+-   [Configure an SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-cloud-application-programming-model-job-in-job-editor?version=Cloud&language=en-US)
 
     Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Cloud Foundry runtime.
-
--   [Configure an SAP Fiori in the Neo Environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-in-neo-environment-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)
-
-    Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Neo environment.
 
 -   [Configure an SAP Fiori for the ABAP Platform](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-for-abap-platform-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)
 
     Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications for the ABAP platform.
 
--   [Configure an SAP Integration Suite Artifacts](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-integration-suite-artifacts-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)SAP Integration Suite Artifacts
+-   [Configure an SAP Integration Suite Artifacts](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-integration-suite-artifacts-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment) 
 
     Configure a CI/CD pipeline for the development of SAP Cloud Integration artifacts in the Cloud Foundry runtime.
 
@@ -84,7 +80,7 @@ To configure SAP Continuous Integration and Delivery:
 
 Now you can create and modify your CI/CD jobs and monitor their outcome. If you want to automate your builds, you can configure a webhook between your repository and the service. You can create and modify timed triggers for your jobs, if necessary.
 
-For more information, see [Initial Setup](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/initial-setup?version=Cloud) and [Configuration](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configuration?version=Cloud), or follow the tutorial [Configure and Run a Predefined SAP Continuous Integration and Delivery \(CI/CD\) Pipeline](https://developers.sap.com/tutorials/btp-app-ci-cd-btp.html).
+For more information, see [Initial Setup](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/initial-setup?version=Cloud) and [Configuration](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configuration?version=Cloud).
 
 
 

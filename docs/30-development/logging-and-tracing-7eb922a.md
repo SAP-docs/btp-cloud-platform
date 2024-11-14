@@ -39,37 +39,6 @@ SAP Java Buildpack integrates the [Cloud Foundry Java Logging Support](https://g
     cf logs <app_name> --recent
     ```
 
-4.  \(Optional\) Change the log level of a logging location, depending on the type of your Java application.
-
-    -   **Standard applications using Tomcat and TomEE**
-
-        To change the log level of a specific location, configure the SET\_LOGGING\_LEVEL environment variable in the **`manifest.yml`** file of your application . For example:
-
-        ```
-        
-        env:
-          SET_LOGGING_LEVEL: '{com.sap.sample.java.LogInfo: INFO, com.sap.sample.java.LogWarn: WARN}'
-        ```
-
-    -   **Spring Boot applications using Java Main**
-
-        For Spring Boot applications, the default log configuration provides messages of levels ERROR, WARN, and INFO. You can enable other log levels, for example DEBUG. To do this, create a file **`application.properties`** in directory `/src/main/resources/` and add the following line:
-
-        ```
-        
-        logging.level.root=DEBUG
-        ```
-
-        If you want to enable DEBUG logging for a particular class only, you can do so by specifying the fully qualified class name:
-
-        ```
-        
-        logging.level.com.mypackage.MySpecificClass=DEBUG
-        ```
-
-        **NOTE:** If you use a Spring Boot generator \(for example [Spring Initializr](https://start.spring.io)\), the file directory `/src/main/resources/application.properties` is automatically created for you.
-
-
 
 **Related Information**  
 

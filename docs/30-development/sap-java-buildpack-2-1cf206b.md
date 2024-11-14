@@ -4,7 +4,7 @@
 
 SAP Java Buildpack 2 is a Cloud Foundry buildpack for running SapMachine-based applications.
 
-This buildpack supports the following runtimes:
+This buildpack supports Java 17 and 21, as well as the following runtimes:
 
 -   [Tomcat 10](tomcat-10-97d0e34.md)
 
