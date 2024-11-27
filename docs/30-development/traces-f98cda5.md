@@ -521,7 +521,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: Incorrect backend endpoint configuration \(such as using the wrong authentication credentials\), or the backend is unreachable.
 
-**Remedy**:
+**Solution**:
 
 1.  Check the `telemetry-trace-gateway` Pods for error logs by calling `kubectl logs -n kyma-system {POD_NAME}`.
 
@@ -543,7 +543,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: It can happen due to a variety of reasons - for example, the backend is limiting the ingestion rate.
 
-**Remedy**:
+**Solution**:
 
 1.  Check the `telemetry-trace-gateway` Pods for error logs by calling `kubectl logs -n kyma-system {POD_NAME}`. Also, check your observability backend to investigate potential causes.
 
@@ -558,7 +558,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: Your SDK version is incompatible with the OTel Collector version.
 
-**Remedy**:
+**Solution**:
 
 1.  Check which SDK version you are using for instrumentation.
 
@@ -573,7 +573,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: By default, only 1% of the requests are sent to the trace backend for trace recording.
 
-**Remedy**:
+**Solution**:
 
 To see more traces in the trace backend, increase the percentage of requests by changing the default settings.
 
@@ -610,7 +610,7 @@ If you just want to see traces for one particular request, you can manually forc
 
 **Cause**: The backend export rate is too low compared to the gateway ingestion rate.
 
-**Remedy**:
+**Solution**:
 
 -   Option 1: Increase the maximum backend ingestion rate - for example, by scaling out the SAP Cloud Logging instances.
 
@@ -630,5 +630,5 @@ If you just want to see traces for one particular request, you can manually forc
 
 **Cause**: Gateway cannot receive spans at the given rate.
 
-**Remedy**: Manually scale out the gateway by increasing the number of replicas for the trace gateway. See [Module Configuration and Status](telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_configuration).
+**Solution**: Manually scale out the gateway by increasing the number of replicas for the trace gateway. See [Module Configuration and Status](telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_configuration).
 

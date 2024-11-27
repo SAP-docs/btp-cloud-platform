@@ -12,7 +12,7 @@ You can include various SAP systems into a formation and thus combine diverse SA
 
 -   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   The SAP solution systems that you want to include to a formation must be added in the *Systems* page. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+-   The SAP solution systems that you want to include to a formation must be added in the *Systems* page. See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
 
 
 
@@ -259,27 +259,4 @@ For systems of type SAP Commerce Cloud, SAP Cloud for Customer, and SAP Field Se
 > When you delete a formation, several activities are performed at one go. First, the systems are excluded from the formation. Then, the subaccount is unassigned. Finally, the formation is deleted from the *Formations* page completely.
 > 
 > To restore a deleted formation, first you must create it anew, and then, include all of its systems again, one by one.
-
-
-
-<a name="loio68b04fa73aa740cb96ed380a85a4761a__postreq_jls_r5d_jlb"/>
-
-## Next Steps
-
-For the systems of type SAP S/4HANA Cloud, SAP Marketing Cloud, and SAP SuccessFactors and a formation using the Cloud Foundry environment, or the Kyma environment, to be able to consume the respective APIs, you need to continue with assigning the required entitlements and creating a service instance.
-
--   SAP S/4HANA Cloud, and SAP Marketing Cloud:
-
-    1.  [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md)
-
-    2.  [Create a Service Instance to Consume the SAP S/4HANA Cloud APIs](create-a-service-instance-to-consume-the-sap-s-4hana-cloud-apis-a735641.md)
-
-
--   SAP SuccessFactors:
-
-    1.  [Configure the Entitlements for the SAP SuccessFactors Extensibility Service](configure-the-entitlements-for-the-sap-successfactors-extensibility-service-b01e625.md)
-
-    2.  [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](create-a-service-instance-to-consume-the-sap-successfactors-hxm-suite-odata-api-46c5ea1.md)
-
-
 

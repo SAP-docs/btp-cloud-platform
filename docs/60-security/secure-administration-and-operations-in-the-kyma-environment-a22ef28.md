@@ -37,7 +37,7 @@ Kyma uses Kubernetes Role-Based Access Control \(RBAC\) and assures during provi
 
 ## Istio Access Logs
 
-Collecting Istio access logs can help indicate the core concepts of monitoring \(latency, traffic, errors, and saturation\) and capture critical aspects of system behavior. [Configure Istio Access Logs](https://kyma-project.io/#/istio/user/tutorials/01-45-enable-istio-access-logs) to monitor and analyze the traffic in your Kyma cluster. Then, send the logs to a central platform, for example, a Security Information and Event Management \(SIEM\) system, for threat detection and incident response.
+Collecting Istio access logs can help indicate the core concepts of monitoring \(latency, traffic, errors, and saturation\) and capture critical aspects of system behavior. By [Configuring Istio Access Logs](../30-development/configuring-istio-access-logs-d3f20b6.md) you monitor and analyze the traffic in your Kyma cluster. Then, send the logs to a central platform, for example, a Security Information and Event Management \(SIEM\) system, for threat detection and incident response.
 
 **Related Information**  
 

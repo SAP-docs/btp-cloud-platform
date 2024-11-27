@@ -10,7 +10,7 @@ Register an SAP Customer Experience system to connect it with a global account i
 
 ## Prerequisites
 
--   See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+-   See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
 
 -   You are an administrator of the global account where you want to register your SAP Customer Experience system.
 
@@ -123,7 +123,7 @@ Once you use the integration token to connect your SAP Customer Experience syste
 **Related Information**  
 
 
-[Registering an SAP System](registering-an-sap-system-2ffdaff.md "To connect an SAP system with a global account in SAP BTP, you need to register the system.")
+[Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md "To connect an SAP system with a global account in SAP BTP, you need to register the system. You can also add and work with a third-party systems.")
 
 [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md "When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.")
 

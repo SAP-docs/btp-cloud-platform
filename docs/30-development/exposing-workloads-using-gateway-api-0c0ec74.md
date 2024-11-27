@@ -14,7 +14,7 @@ Use [Gateway API](https://gateway-api.sigs.k8s.io/) to expose your workload.
 -   You have a deployed workload.
 
 > ### Caution:  
-> Exposing an unsecured workload to the outside world is a potential security vulnerability, so tread carefully. If you want to use this example in a production environment, make sure to secure your workload.
+> Exposing an unsecured workload to the outside world is a potential security vulnerability, so be careful. If you want to use this example in a production environment, make sure to secure your workload.
 
 
 

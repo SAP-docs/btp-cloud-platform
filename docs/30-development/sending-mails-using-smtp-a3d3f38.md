@@ -10,31 +10,6 @@ For more information, see [Configure Access Control \(TCP\)](https://help.sap.co
 
 
 
-<a name="copya3d3f38de12b430bb670e418e7e66bad__section_cty_fjg_slb"/>
-
-## Prerequisites
-
-You must define the following configurations in a communication system. See [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud) for more information.
-
--   Host
--   Port
--   Enable *Cloud Connector* to access your customer owned SMTP server
--   Disable *Cloud Connector* when the communication is done directly to a publicly available SMTP server
-
--   *SCC Location ID* of the `SAP BTP Cloud Connector`\(only needed when the Cloud connector is enabled\)
-
-    > ### Note:  
-    > This parameter is only required if several SAP BTP, Cloud connectors are used in one subaccount \(to define the target SAP BTP, Cloud Connector with the same *SCC Location ID*\).
-
--   A referenced outbound communication user with authentication method *User and Password*
-
-> ### Note:  
-> -   Instead of maintaining the information directly in the communication system, it's also possible to enter a referenced destination of type *MAIL* in the destination service. For more information, see [Create Mail Destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-mail-destinations?version=Cloud).
-
-Afterwards, create a communication arrangement for the `SAP_COM_0548` communication scenario using this communication system.
-
-
-
 <a name="copya3d3f38de12b430bb670e418e7e66bad__section_u1r_zjg_slb"/>
 
 ## Application Programming Interface \(API\)
@@ -123,19 +98,4 @@ After calling the `SEND_ASYNC` method, a background process is triggered. The pr
 The status of an email can be monitored using the Fiori app *Monitor Email Transmission*. Additionally, it is possible to implement a monitoring instance directly in the backend for each email request. This monitoring instance, which is an implementation of the interface `IF_BCS_MAIL_STATUS_MONITOR`, provides information about the email status as well as the status of each recipient, including the SMTP response. The `send()` method provides the same statuses as exporting parameters.
 
 To obtain this monitoring instance, you can either receive it as the return parameter of the methods`send()` or`send_async()`, or create a new instance using the factory method `create_mail_status_monitor()` of the class `CL_BCS_MAIL_MESSAGE`
-
-
-
-For more information, see
-
--   [Create Mail Destinations](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/6442cb4f8b0f41178abce14c35f5def4.html)
-
--   [Communication Systems](../50-administration-and-ops/communication-systems-15663c1.md)
-
--   [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md)
-
--   [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md)
-
--   [Configure Access Control \(TCP\)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/befd4374d33a4833be117d7149b6a103.html)
-
 

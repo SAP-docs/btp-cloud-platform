@@ -27,7 +27,7 @@ Log in with the btp CLI is on global account level.
 
 ## Context
 
-When you log in to your global account with the btp CLI, a token is created and stored on your computer that allows you to close and reopen the command line without losing your login. With each command call, this token is renewed and valid for 12 hours. So, if you take a longer break from working with the btp CLI, you’ll have to log in again. If you want to end your login earlier, you can use `btp logout`.
+When you log in with the btp CLI, a session token is saved in your local configuration. This allows you to keep your authentication over multiple command calls or after restarting your computer. The maximum session length is 12 hours. After that, you’ll have to log in again. If you want to end your login earlier, use `btp logout`.
 
 
 
@@ -155,11 +155,6 @@ You can also provide the global account as a parameter by specifying its subdoma
 
 ![](images/cli_subdomain_dc4961c.png)
 
-> ### Note:  
-> If you don't find the subdomain of the global account in your cockpit, your global account is probably not on SAP BTP feature set B, which means you cannot access it with the btp CLI. See [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
-
-
-
 </td>
 </tr>
 </table>
@@ -191,7 +186,7 @@ Upon successful login, the btp CLI creates a folder \(`btp`\) and a configuratio
 -   Linux: `~/.config/.btp/config.json`
 
 
-To change this location, use the `--config` option or the environmnet variable. See [Specify the Location of the Configuration File](specify-the-location-of-the-configuration-file-e57288d.md).
+To change this location, use the `--config` option or the environment variable. See [Specify the Location of the Configuration File](specify-the-location-of-the-configuration-file-e57288d.md).
 
 > ### Tip:  
 > You’ve logged in to the global account and all commands are executed in this global account, unless you provide a subaccount or directory ID with the command. To change this default context for subsequent commands, you can target a subaccount or directory, or even a different global account by using `btp target`. See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).

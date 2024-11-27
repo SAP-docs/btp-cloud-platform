@@ -16,7 +16,7 @@ Some Pods don't have an Istio sidecar proxy injected.
 
 ## Cause
 
-By default, the Istio module does not automatically inject an Istio sidecar proxy into any Pods you create. To inject a Pod with an Istio sidecar proxy, you must explicitly enable injection for the Pod's Deployment or for the entire namespace. If you have done this and the sidecar is still not installed, follow the remedy steps to identify which settings are preventing the injection.
+By default, the Istio module does not automatically inject an Istio sidecar proxy into any Pods you create. To inject a Pod with an Istio sidecar proxy, you must explicitly enable injection for the Pod's Deployment or for the entire namespace. If you have done this and the sidecar is still not installed, follow the solution steps to identify which settings are preventing the injection.
 
 A Pod is not injected with an Istio sidecar proxy if:
 
@@ -36,7 +36,7 @@ Find out which Pods do not have Istio sidecar proxy injection enabled and why. Y
 
 ### Check Pods in All Namespaces
 
-1.  Download the [script](https://github.com/kyma-project/istio/blob/main/docs/assets/sidecar-analysis.sh).
+1.  Download the [sidecar analysis script](https://github.com/kyma-project/istio/blob/main/docs/assets/sidecar-analysis.sh).
 2.  Run the script.
 
     ```
@@ -65,7 +65,7 @@ Find out which Pods do not have Istio sidecar proxy injection enabled and why. Y
 
 ### Check Pods in a Selective Namespace
 
-1.  Download the [script](https://github.com/kyma-project/istio/blob/main/docs/assets/sidecar-analysis.sh).
+1.  Download the [sidecar analysis script](https://github.com/kyma-project/istio/blob/main/docs/assets/sidecar-analysis.sh).
 2.  Run the script passing the namespace name as a parameter.
 
     ```

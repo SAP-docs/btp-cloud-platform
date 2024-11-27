@@ -28,9 +28,9 @@ The following types of communication scenarios are available:
 
 [Overview of Communication Scenarios Managed by SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/overview-of-communication-scenarios-managed-by-sap?version=Cloud)
 
-[Developing External Service Consumption \(Outbound Communication\)](../30-development/developing-external-service-consumption-outbound-communication-f871712.md "Get more information about consuming external services.")
-
 [Developing APIs for Inbound Communication](../30-development/developing-apis-for-inbound-communication-94ebfa0.md "Learn more about developing APIs for inbound communication.")
+
+[Outbound Communication](https://help.sap.com/docs/ABAP_Cloud/eede1416d18c436e8810eaaeb20c38ae/5c6e2cacbd7b446e8565aaa4c02983b2.html?locale=en-US&state=PRODUCTION&version=sap_cross_product_abap)
 
 <a name="copy8973afa24520400f945acf8612b10aa5"/>
 

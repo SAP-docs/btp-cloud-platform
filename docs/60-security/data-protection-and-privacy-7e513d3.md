@@ -2,9 +2,9 @@
 
 # Data Protection and Privacy
 
-Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.
+Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it's necessary to consider compliance with industry-specific legislation in different countries/regions.
 
-SAP provides specific features and functions to support compliance with regard to relevant legal requirements, including data protection. SAP does not give any advice on whether these features and functions are the best method to support company, industry, regional, or country-specific requirements. Furthermore, this information should not be taken as advice or a recommendation regarding additional features that would be required in specific IT environments. Decisions related to data protection must be made on a case-by-case basis, taking into consideration the given system landscape and the applicable legal requirements.
+SAP provides specific features and functions to support compliance with regard to relevant legal requirements, including data protection. SAP does not give any advice on whether these features and functions are the best method to support company, industry, regional, or country/region-specific requirements. Furthermore, this information shouldn't be taken as advice or a recommendation regarding additional features that would be required in specific IT environments. Decisions related to data protection must be made on a case-by-case basis, taking into consideration the given system landscape and the applicable legal requirements.
 
 > ### Note:  
 > SAP does not provide legal advice in any form. SAP software supports data protection compliance by providing security features and specific data protection-relevant functions. In many cases, compliance with applicable data protection and privacy laws will not be covered by a product feature. Definitions and other terms used in this document are not taken from a particular legal source.
@@ -21,7 +21,7 @@ SAP provides specific features and functions to support compliance with regard t
 You also need to make sure that no personal data enters the system in an uncontrolled or non-purpose related way, for example, in free-text fields, or customer extensions.
 
 > ### Caution:  
-> Please don’t enter personal data in fields such as global and subaccount names, Cloud Foundry orgs and spaces names, database names, and tenant names. These fields aren’t intended to process personal data, so our EU Access commitment doesn’t apply to them. Personal data in such fields can be processed outside of the European Economic Area and Switzerland. The previous list of example fields is not complete.
+> Don't enter personal data in fields, such as global and subaccount names, Cloud Foundry orgs and spaces names, database names, and tenant names. Personal data in such fields can't be detected and removed during data deletion requests. Even if such cases could be identified, removing such data may lead to disruptive and unexpected behavior in our services. The previous list of example fields isn't complete.
 
 
 
@@ -29,7 +29,7 @@ You also need to make sure that no personal data enters the system in an uncontr
 
 ## SAP BTP
 
-This documentation covers personal data relating to SAP BTP accounts and data stored in databases by SAP BTP. SAP BTP offers a number of capabilities, that is, services, buildpacks, application, and so on. Here we cover the core platform. For more information about data protection and privacy for capabilities you have purchased, see the data protection and privacy documentation for those capabilities.
+This documentation covers personal data relating to SAP BTP accounts and data stored in databases by SAP BTP. SAP BTP offers a number of capabilities, that is, services, buildpacks, application, and so on. Here we cover the core platform. For more information about data protection and privacy for capabilities you've purchased, see the data protection and privacy documentation for those capabilities.
 
 To view the services consumed by a global account:
 

@@ -80,7 +80,7 @@ Istio is a service mesh with Kyma-specific configuration.
 </td>
 <td valign="top">
 
-[kyma-project.io: Istio module](http://kyma-project.io/#/istio/user/README)
+[Istio Module](istio-module-26ffe00.md)
 
 </td>
 </tr>
@@ -99,10 +99,9 @@ Within the SAP BTP Operator module, BTP Manager installs the SAP BTP service ope
 </td>
 <td valign="top">
 
--   [Using SAP BTP Services in the Kyma Environment](using-sap-btp-services-in-the-kyma-environment-ea4dd81.md)
--   [kyma-project.io: SAP BTP Operator module](https://kyma-project.io/#/btp-manager/user/README)
--   [GitHub: BTP Manager releases](https://github.com/kyma-project/btp-manager/releases)
--   [GitHub: SAP BTP service operator releases](https://github.com/SAP/sap-btp-service-operator/releases)
+-   [SAP BTP Operator Module](sap-btp-operator-module-50347ea.md)
+-   [What's New for SAP BTP Operator](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Kyma+Runtime&q=SAP+BTP+Operator&locale=en-US&version=Cloud#top)
+-   [GitHub repository: BTP Manager](https://github.com/kyma-project/btp-manager)
 
 
 

@@ -156,7 +156,7 @@ To establish trust from a tenant of SAP Cloud Identity Services to a subaccount,
 
 7.  Choose *Default Name ID Format* and select *E-Mail* as a unique attribute. Save your changes.
 
-8.  Choose *Attributes*, use *Add* to add an attribute named `Groups`with a source `Identity Provider` and the value `Groups` \(case-sensitive\). Save your changes.
+8.  Choose *Attributes*, use *Add* to add an attribute named `Groups` with a source `Identity Provider` and the value `Groups` \(case-sensitive\). Save your changes.
 
     > ### Note:  
     > Be aware that the X.509 certificates exposed in the SAML 2.0 metadata have specific validities. This applies to both SAML service providers and SAML identity providers. Authentication may fail with an error once the X.509 certificates expire.

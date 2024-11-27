@@ -2,7 +2,7 @@
 
 # How to Configure Your Git Repository
 
-Up until this point, the ABAP repositories in SAP BTP, ABAP Environment were managed by the Manage Software Components Fiori app, which was the only interface where users could see the status of their remote repository. Bring Your Own Git \(BYOG\) allows users to connect their own Git repositories with the Manage Software Components app. In doing so, the user has a better overview of their own code, branches, and commits. However, the user is not allowed to make code changes in their remote Git repository and import these changes into the local SAP BTP, ABAP Environment system instance, as this might violate any guidelines for ABAP cloud development. See [Supported ABAP Object Types](https://help.sap.com/docs/btp/sap-business-technology-platform/supported-abap-object-types?version=Cloud)
+Up until this point, the ABAP repositories in SAP BTP, ABAP environment were managed by the Manage Software Components Fiori app, which was the only interface where users could see the status of their remote repository. Bring Your Own Git \(BYOG\) allows users to connect their own Git repositories with the Manage Software Components app. In doing so, the user has a better overview of their own code, branches, and commits. However, the user is not allowed to make code changes in their remote Git repository and import these changes into the local SAP BTP, ABAP environment system instance, as this might violate any guidelines for ABAP cloud development. See [Supported ABAP Object Types](https://help.sap.com/docs/btp/sap-business-technology-platform/supported-abap-object-types?version=Cloud)
 
 
 
@@ -60,7 +60,7 @@ Next, copy the HTTPS link \(must end with `.git`\) to clone the repository in th
 
 ### Create a Software Component and link the remote repository
 
-In the Manage Software Components app, create a new software component and enter the URL from the previous step in the *Repository URL* field.
+In the Manage Software Components app, create a new software component and enter the URL from the previous step in the *Repository URL* field. Select the correct Git provider for your repository. The currently supported providers are GitHub, GitLab, Azure and Bitbucket. Choose *'Git \(others\)'* if none of the other options apply.
 
 > ### Note:  
 > When specifying the repository URL, please note that it must be case-insensitive and unique. This prevents multiple software components from being linked to a single or identical Git repository.

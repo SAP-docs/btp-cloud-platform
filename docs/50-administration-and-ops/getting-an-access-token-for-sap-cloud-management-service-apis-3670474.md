@@ -152,24 +152,6 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
     > }
     > ```
 
-    ```
-    
-    {
-      "parameters": {
-        "credential-type": "x509",
-        "x509": {
-          "key-length": 2048, // specifies the byte length of the generated private key,
-                              // defaults to 2048
-          "validity": 7, // specifies the number of time units in validity-type,
-                         // defaults to 7, thus the complete validity defaults to 7 days
-          "validity-type": "DAYS" // specifies the validity time unit,
-                                  // only DAYS, MONTHS and YEARS are supported,
-                                  // defaults to DAYS
-        }
-      }
-    }
-    ```
-
 3.  Use the `uaa_url`, `clientid`, and `clientsecret` to request an access token using the following commands:
 
     > ### Sample Code:  

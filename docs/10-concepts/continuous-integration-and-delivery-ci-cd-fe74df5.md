@@ -84,6 +84,16 @@ For more information, see [Initial Setup](https://help.sap.com/docs/continuous-i
 
 
 
+<a name="loiofe74df55b0f54e99bf6e13a3b53e1db0__section_qhr_t5m_jdc"/>
+
+## Automate the Provisioning of Resources Needed to Create a Kyma Cluster
+
+Integrate the Terraform module, which uses the Terraform provider for SAP BTP, into CI/CD pipelines, so you can automate the provisioning of resources needed to create a Kyma cluster, deploy applications, run tests, and tear down the resources when they are no longer required. As there is no need to have resources running continuously, this approach reduces operational costs.
+
+See [Terraforming Kyma Runtimes](https://help.sap.com/docs/btp/btp-developers-guide-dev/btp-developers-guide?version=Cloud).
+
+
+
 <a name="loiofe74df55b0f54e99bf6e13a3b53e1db0__section_kl1_g4n_nkb"/>
 
 ## Learn and Get Certified

@@ -4614,58 +4614,6 @@ Manage your mobile devices.
 <tr>
 <td valign="top">
 
-[SAP Live Link 365 for Authentication](https://livelink.sapmobileservices.com/documentation/#/integrate/apiReferences) 
-
-</td>
-<td valign="top">
-
-Generate and validate configurable one-time PINs or verification codes.
-
-</td>
-<td valign="top">
-
--   BC-IAM-IDS
-
-
-
-</td>
-<td valign="top">
-
--   
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   This service does not run on standard SAP Cloud Platform regions. Check out [this note](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html#loio3b642f68227b4b1398d2ce1a5351389a__otherregions) for further details.
-
-
-
-</td>
-<td valign="top">
-
--   
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
 
 </td>

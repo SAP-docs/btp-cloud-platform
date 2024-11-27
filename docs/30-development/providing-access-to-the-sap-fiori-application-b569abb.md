@@ -39,5 +39,5 @@ This guide outlines the steps that are needed after you’ve followed the proced
 
 In addition to this documentation, the following tutorial is available:
 
-[Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html)
+[Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-integrate-app-into-flp.html)
 

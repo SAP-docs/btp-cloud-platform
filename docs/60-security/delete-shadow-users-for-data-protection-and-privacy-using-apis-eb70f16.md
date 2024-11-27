@@ -79,7 +79,7 @@ The User Account and Authentication service stores user-related data records in 
 **Related Information**  
 
 
-[Data Protection and Privacy](data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.")
+[Data Protection and Privacy](data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it's necessary to consider compliance with industry-specific legislation in different countries/regions.")
 
 [https://docs.cloudfoundry.org/uaa/uaa-concepts.html\#%23shadow](https://docs.cloudfoundry.org/uaa/uaa-concepts.html#%23shadow)
 

@@ -1,6 +1,6 @@
 <!-- loioc33bb114a86e474a95db29cfd53f15e6 -->
 
-# Commercial Information for Kyma Runtime
+# Service Plans and Metering for Kyma Runtime
 
 This page explains the relationship between the service plans of the SAP Discovery Center and the service plans of the SAP BTP cockpit and provides information to help you understand how the service is billed.
 

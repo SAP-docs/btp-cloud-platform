@@ -20,7 +20,7 @@ To learn how to secure your Kubernetes Pods in Kyma, see [Kubernetes Pod Securit
 
 -   Set up Kubernetes [Network Policies](https://kubernetes.io/docs/concepts/services-networking/network-policies/) to restrict the network traffic between Pods in your namespaces.
 
--   [Enable Automatic Istio Sidecar Proxy Injection](https://kyma-project.io/#/istio/user/tutorials/01-40-enable-sidecar-injection) for your namespaces.
+-   [Enabling Istio Sidecar Proxy Injection](../30-development/enabling-istio-sidecar-proxy-injection-b3c6f1d.md) for your namespaces.
 
 
 

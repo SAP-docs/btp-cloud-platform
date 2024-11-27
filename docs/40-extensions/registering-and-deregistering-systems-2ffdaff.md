@@ -1,12 +1,10 @@
 <!-- loio2ffdaff0f1454acdb046876045321c91 -->
 
-# Registering an SAP System
+# Registering and Deregistering Systems
 
-To connect an SAP system with a global account in SAP BTP, you need to register the system.
+To connect an SAP system with a global account in SAP BTP, you need to register the system. You can also add and work with a third-party systems.
 
 
-
-<a name="loio2ffdaff0f1454acdb046876045321c91__prereq_l4m_s5b_fhb"/>
 
 ## Prerequisites
 
@@ -17,9 +15,7 @@ To connect an SAP system with a global account in SAP BTP, you need to register 
 
 
 
-<a name="loio2ffdaff0f1454acdb046876045321c91__context_ihl_j3h_jlb"/>
-
-## Context
+## Registering SAP Systems
 
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
@@ -71,9 +67,9 @@ If the registration error persists, report a case in one of the following compon
 
 
 
-## Procedure
+### Procedure
 
-1.  In the cockpit, navigate to your global account, and then choose *System Landscape* \> *Systems* .
+1.  In the cockpit, navigate to your global account, and then choose *System Landscape* \> *Systems*.
 
 2.  On the *Systems* page, choose *Add System*.
 
@@ -116,9 +112,7 @@ If the registration error persists, report a case in one of the following compon
 
 
 
-<a name="loio2ffdaff0f1454acdb046876045321c91__result_ytq_hrh_jlb"/>
-
-## Results
+### Result
 
 The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit. For systems of type SAP SuccessFactors, SAP S/4HANA Cloud and SAP systems from the SAP Customer Experience portfolio, a registration token for connecting the corresponding SAP solution with the global account in SAP BTP has been generated. Systems of type other than SAP SuccessFactors, SAP S/4HANA Cloud and SAP systems from the SAP Customer Experience portfolio, are automatically registrated, no additional configurations are required.
 
@@ -127,9 +121,7 @@ The system has been added as a record to the list on the *Systems* page in the S
 
 
 
-<a name="loio2ffdaff0f1454acdb046876045321c91__postreq_e5y_rxz_klb"/>
-
-## Next Steps
+### Next Steps
 
 -   For SAP systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, use the registration token to complete the registration on the respective SAP system side. See:
 
@@ -153,6 +145,34 @@ The system has been added as a record to the list on the *Systems* page in the S
 -   If you no longer need it, you can deregister or remove the system depending on its status. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
 
 
+
+
+## Registering Third-Party Systems
+
+You add a third-party system to the list in the *System Landscape* \> *Systems* page. At this point you provide all the required details for this system: its type, provider, URL, and system ID. For third-party systems, this completes the registration process and you have your third-party system registered with SAP BTP. Even though the third-party system is registered directly, no status is displayed.
+
+See [Registering a Third-Party System](registering-a-third-party-system-5481d59.md).
+
+
+
+<a name="loio2ffdaff0f1454acdb046876045321c91__section_nvz_2cy_mdc"/>
+
+## Deregistering Systems
+
+Deregistering an SAP or third-party system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established, while removing a system means that this system is no longer part of the system landscape list. You can deregister or remove a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list.
+
+See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
+
+
+
+<a name="loio2ffdaff0f1454acdb046876045321c91__section_ghh_m5c_ndc"/>
+
+## Merging Systems
+
+If you have already added these systems manually at a given point in time and you have registered them, the auto-discovered systems might create duplicate entries in the list. To avoid duplicates and streamline the list of systems, you can merge automatically the auto-discovered SAP systems with your manually added systems.
+
+See [Merging SAP Systems](merging-sap-systems-5592d86.md).
+
 **Related Information**  
 
 
@@ -163,4 +183,8 @@ The system has been added as a record to the list on the *Systems* page in the S
 [Extending SAP SuccessFactors in the Cloud Foundry and Kyma Environment](extending-sap-successfactors-in-the-cloud-foundry-and-kyma-environment-9e33934.md "Use SAP BTP to extend SAP SuccessFactors with extension applications running on the cloud platform.")
 
 [Extending SAP Customer Experience Products in the Kyma Environment](extending-sap-customer-experience-products-in-the-kyma-environment-83df31a.md "You can configure the integration between SAP BTP and SAP Customer Experience automatically to extend SAP Customer Experience products with applications running on the cloud platform.")
+
+ <?sap-ot O2O class="- topic/link " href="be85ce07823844848183a63c1bb15d17.xml" text="" desc="" xtrc="link:5" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/2ffdaff0f1454acdb046876045321c91.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+
+[Registering a Third-Party System](registering-a-third-party-system-5481d59.md "To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to add this system to the Systems page.")
 

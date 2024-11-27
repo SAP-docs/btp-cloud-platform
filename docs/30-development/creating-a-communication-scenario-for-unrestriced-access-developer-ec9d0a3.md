@@ -33,8 +33,3 @@ For more information, see the information about consuming services in the contex
 7.  If you want to test your communication scenario directly in the development system, publish it locally to make sure that the required services have been generated.
 
 
-**Related Information**  
-
-
-[Communication Management](communication-management-5b8ff39.md#loio5b8ff39ddb6741a29ddfcf587939e8f4 "Learn more about the basic principles of communication management when integrating your system or solution with other systems to enable data exchange in your ABAP environment.")
-

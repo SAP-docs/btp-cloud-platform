@@ -2,7 +2,7 @@
 
 # Metrics
 
-The goal of the Telemetry module is to support you in collecting all relevant metrics of a workload in a Kyma cluster and ship them to a backend for further analysis. Kyma modules like [Istio](https://kyma-project.io/#/istio/user/README) or [Serverless](https://kyma-project.io/#/serverless-manager/user/README) contribute metrics instantly, and the Telemetry module enriches the data. You can choose among multiple [vendors for OTLP-based backends](https://opentelemetry.io/ecosystem/vendors/).
+The goal of the Telemetry module is to support you in collecting all relevant metrics of a workload in a Kyma cluster and ship them to a backend for further analysis. Kyma modules like [Istio Module](istio-module-26ffe00.md) or [Serverless](https://kyma-project.io/#/serverless-manager/user/README) contribute metrics instantly, and the Telemetry module enriches the data. You can choose among multiple [vendors for OTLP-based backends](https://opentelemetry.io/ecosystem/vendors/).
 
 
 
@@ -648,7 +648,7 @@ spec:
 
 ```
 
-By default, container and Pod metrics are collected.
+By default, metrics for all resources \(Pod, container, Node, Volume, DaemonSet, Deployment, StatefulSet, and Job\) are collected.
 
 To enable or disable the collection of metrics for a specific resource, use the `resources` section in the `runtime` input.
 
@@ -1211,7 +1211,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: Incorrect backend endpoint configuration \(such as using the wrong authentication credentials\) or the backend is unreachable.
 
-**Remedy**:
+**Solution**:
 
 1.  Check the `telemetry-metric-gateway` Pods for error logs by calling `kubectl logs -n kyma-system {POD_NAME}`.
 
@@ -1233,7 +1233,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: It can happen due to a variety of reasons - for example, the backend is limiting the ingestion rate.
 
-**Remedy**:
+**Solution**:
 
 1.  Check the `telemetry-metric-gateway` Pods for error logs by calling `kubectl logs -n kyma-system {POD_NAME}`. Also, check your observability backend to investigate potential causes.
 
@@ -1250,7 +1250,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: Your SDK version is incompatible with the OTel Collector version.
 
-**Remedy**:
+**Solution**:
 
 1.  Check which SDK version you are using for instrumentation.
 
@@ -1273,7 +1273,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause 1**: The workload is not configured to use “STRICT” mTLS mode. For details, see [Activate Prometheus-Based Metrics](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/44ac6c5afef0464480fa18acb7483972.html?locale=en-US#subsection_activate_prometheus_metrics).
 
-**Remedy 1**: You can either set up “STRICT” mTLS mode or HTTP scraping:
+**Solution 1**: You can either set up “STRICT” mTLS mode or HTTP scraping:
 
 -   Configure the workload using “STRICT” mTLS mode \(for example, by applying a corresponding PeerAuthentication\).
 
@@ -1282,7 +1282,33 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause 2**: The Service definition enabling the scrape with Prometheus annotations does not reveal the application protocol to use in the port definition. For details, see [Activate Prometheus-Based Metrics](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/44ac6c5afef0464480fa18acb7483972.html?locale=en-US#subsection_activate_prometheus_metrics).
 
-**Remedy 2**: Define the application protocol in the Service port definition by either prefixing the port name with the protocol, like in *http-metrics* or define the `appProtocol` attribute.
+**Solution 2**: Define the application protocol in the Service port definition by either prefixing the port name with the protocol, like in *http-metrics* or define the `appProtocol` attribute.
+
+**Cause 3**: A deny-all `NetworkPolicy` was created in the workload namespace, which prevents that the agent can scrape metrics from annotated workloads.
+
+**Solution 3**: Create a separate `NetworkPolicy` to explicitly let the agent scrape your workload using the \`telemetry.kyma-project.io/metric-scrape\` label. For example, see the following `NetworkPolicy` configuration:
+
+```
+yaml
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-traffic-from-agent
+spec:
+  podSelector: 
+    matchLabels:
+      app.kubernetes.io/name: "annotated-workload" # <your workload here>
+  ingress:
+  - from:
+    - namespaceSelector:
+        matchLabels:
+          kubernetes.io/metadata.name: kyma-system
+      podSelector:
+        matchLabels:
+          telemetry.kyma-project.io/metric-scrape: "true"
+  policyTypes:
+  - Ingress
+```
 
 
 
@@ -1292,7 +1318,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: The backend export rate is too low compared to the gateway ingestion rate.
 
-**Remedy**:
+**Solution**:
 
 -   Option 1: Increase maximum backend ingestion rate. For example, by scaling out the SAP Cloud Logging instances.
 
@@ -1309,5 +1335,5 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: Gateway cannot receive metrics at the given rate.
 
-**Remedy**: Manually scale out the gateway by increasing the number of replicas for the Metric gateway. See [Module Configuration and Status](telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_configuration).
+**Solution**: Manually scale out the gateway by increasing the number of replicas for the Metric gateway. See [Module Configuration and Status](telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_configuration).
 

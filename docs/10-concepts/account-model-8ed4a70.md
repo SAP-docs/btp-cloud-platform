@@ -115,20 +115,6 @@ Optionally, you can also enable the following features in your directories:
 
 [Account Administration Using APIs of the SAP Cloud Management Service](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-17b6a17.md "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.")
 
-<a name="loioeeda449cf252418a97e0f7c9abd30b9a"/>
-
-<!-- loioeeda449cf252418a97e0f7c9abd30b9a -->
-
-## Relationship Between Global Accounts and Subaccounts \[Feature Set A\]
-
-A global account can group together different subaccounts that an administrator makes available to users. Administrators can assign the available quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.
-
-
-
-The hierarchical structure of global accounts and subaccounts lets you define an account model that accurately fits your business and development needs. For example, if you want to separate development, testing, and productive usage, you can create a subaccount for each of these scenarios in your global account. You can also create subaccounts for different development teams or departments in your organizations.
-
-For more information about the relationship between a global account and its subaccounts, see the graphic in [Basic Platform Concepts](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/38ecf59cdda64150a102cfaa62d5faab.html#loio38ecf59cdda64150a102cfaa62d5faab "SAP BTP offers users the ability to turn data into business value, compose end-to-end business processes, and build and extend SAP applications quickly.") :arrow_upper_right:. For best practices, see [Setting Up Your Account Model](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/2db81f42f5194454beecde6cd4994dda.html "The hierarchical structure between global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs.") :arrow_upper_right:.
-
 <a name="loio20828fc639954939890d3d74a22c5f66"/>
 
 <!-- loio20828fc639954939890d3d74a22c5f66 -->
@@ -138,9 +124,6 @@ For more information about the relationship between a global account and its sub
 A global account can group together different directories and subaccounts that an administrator makes available to users. Administrators can assign the available entitlements and quotas of a global account to its different subaccounts and move it between subaccounts that belong to the same global account.
 
 
-
-> ### Note:  
-> The content in this section is only relevant for cloud management tools feature set B. For more information, see [Cloud Management Tools - Feature Set Overview](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/caf4e4e23aef4666ad8f125af393dfb2.html).
 
 The hierarchical structure of global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs. For example, if you want to separate development, testing, and productive usage for different departments in your organization, you can create a directory for each department, and within each directory, you group subaccounts for development, testing, and production.
 

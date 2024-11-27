@@ -4,6 +4,12 @@
 
 Components of the Cloud Foundry environment use the digital signature of the access tokens to verify the validity of access tokens. Periodically rotate the signing keys of access tokens.
 
+
+
+<a name="loiob279adf3ec134b2a8611a42bff1ee9d9__context_m1d_3s2_ndc"/>
+
+## Context
+
 **Related Information**  
 
 
@@ -78,6 +84,13 @@ For more information, see [Managing Signing Keys for Access Tokens](managing-sig
 
     > ### Caution:  
     > If the `keyID` is ***key-id-0*** or ***key-id-1***, these keys are legacy signing keys. When you enable the first signing key after a legacy signing key, the legacy signing key is immediately invalid. Clients with access tokens issued within the lifetime of an access token can't use their access tokens anymore. Affected clients must reauthenticate to get a new token.
+    > 
+    > In addition, the issuer of the key changes as well. Update the configuration of systems depending on these keys, such as SAP HANA systems and cloud connector connections. For more information, see:
+    > 
+    > -   [Managed Certificate Collections](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-security-guide/managed-certificate-collections) in the *SAP HANA Cloud, SAP HANA Database Security Guide*
+    > 
+    > -   [Configure a CA Certificate](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/configure-ca-certificate-for-principal-propagation?version=Cloud) in the *SAP BTP Connectivity* documentation
+    > 
     > 
     > Plan for possible service interruption when you add your first signing key.
 
@@ -195,6 +208,13 @@ You can use the Security Setting API of the SAP Authorization and Trust Manageme
 
     > ### Caution:  
     > If the `keyID` is ***key-id-0*** or ***key-id-1***, these keys are legacy signing keys. When you enable the first signing key after a legacy signing key, the legacy signing key is immediately invalid. Clients with access tokens issued within the lifetime of an access token, can't use their access tokens anymore. Affected clients must reauthenticate to get a new token.
+    > 
+    > In addition, the issuer of the key changes as well. Update the configuration of systems depending on these keys, such as SAP HANA systems and cloud connector connections. For more information, see:
+    > 
+    > -   [Managed Certificate Collections](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-security-guide/managed-certificate-collections) in the *SAP HANA Cloud, SAP HANA Database Security Guide*
+    > 
+    > -   [Configure a CA Certificate](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/configure-ca-certificate-for-principal-propagation?version=Cloud) in the *SAP BTP Connectivity* documentation
+    > 
     > 
     > Plan for possible service interruption when you add your first signing key.
 

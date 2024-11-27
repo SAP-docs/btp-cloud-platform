@@ -101,9 +101,9 @@ You can set up shipment of applications and access logs to SAP Cloud Logging. Th
 
 By default, Istio sidecar injection and Istio access logs are disabled in Kyma. To analyze access logs of your workload in the default SAP Cloud Logging dashboards shipped for SAP BTP, Kyma runtime, you must enable them:
 
-3.  Enable Istio sidecar injection for your workload. See [Enable Istio Sidecar Injection](https://kyma-project.io/#/istio/user/tutorials/01-40-enable-sidecar-injection).
+3.  Enable Istio sidecar injection for your workload. See [Enabling Istio Sidecar Proxy Injection](enabling-istio-sidecar-proxy-injection-b3c6f1d.md).
 
-4.  Enable Istio access logs for your workload. See [Configure Istio Access Logs](https://kyma-project.io/#/istio/user/tutorials/01-45-enable-istio-access-logs).
+4.  Enable Istio access logs for your workload. See [Configuring Istio Access Logs](configuring-istio-access-logs-d3f20b6.md).
 
 5.  Deploy the `LogPipeline` for Istio access logs and enable access logs in Kyma with the following script:
 
@@ -477,6 +477,8 @@ You can view logs, traces, and metrics in SAP Cloud Logging dashboards:
 -   To view the Kubernetes Node-related metrics collected by the `MetricPipeline` `runtime` input, manually import the file [K8s Nodes](https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/dashboard-nodes.ndjson).
 
 -   To view the Kubernetes Volume-related metrics collected by the `MetricPipeline` `runtime` input, manually import the file [K8s Volumes](https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/dashboard-volumes.ndjson).
+
+-   To view the Kubernetes Workload-related metrics collected by the `MetricPipeline` `runtime` input, manually import the file [K8s Workloads](https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/dashboard-volumes.ndjson).
 
 -   To view the status of the SAP Cloud Logging integration with the Kyma Telemetry module, manually import the file [Kyma Telemetry Status](https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/dashboard-status.ndjson).
 

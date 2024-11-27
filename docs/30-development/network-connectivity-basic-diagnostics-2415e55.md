@@ -5,7 +5,7 @@
 If you're having trouble with network connectivity and don't know where to begin troubleshooting, follow these steps. The issues may not be directly related to Istio, but could be due to misconfigured Istio resources or other cluster resources.
 
 -   Verify the state of the Istio custom resource. If it is in the ***Warning*** state, check the warning message and conditions.
--   Verify that no `NetworkPolicy` resources affect the connectivity by blocking traffic between Pods in the service mesh. To get all `NetworkPolicy` resources, run the command `kubectl get networkpolicies -A`.
+-   Verify that no `NetworkPolicy` resources affect the connectivity by blocking traffic between Pods in the service mesh. To get all `NetworkPolicy` resources, run `kubectl get networkpolicies -A`.
 -   The configuration of the following kinds of resources might affect the connectivity in the service mesh. Verify that these resources are configured as intended:
     -   [DestinationRule](https://istio.io/latest/docs/reference/config/networking/destination-rule/)
     -   [PeerAuthentication](https://istio.io/latest/docs/reference/config/security/peer_authentication/)

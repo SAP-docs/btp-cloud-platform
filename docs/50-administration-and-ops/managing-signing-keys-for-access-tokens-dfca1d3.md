@@ -4,7 +4,7 @@
 
 Use the SAP BTP command line interface \(btp CLI\) to manage signing keys for access tokens in the subaccount.
 
-You can create a new signing key for access tokens.
+You can create and manage signing keys for access tokens.
 
 > ### Note:  
 > The newly created key only becomes active once you enable it. The number of keys is restricted to 2 per subaccount.

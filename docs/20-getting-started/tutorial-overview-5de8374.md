@@ -221,10 +221,6 @@ wihtout group/mission:
 
 ## Tools, User, Identity Management
 
-*Mission:*[SAP BTP, ABAP Environment: Create and Expose a CDS-Based Data Model](https://developers.sap.com/mission.cp-starter-extensions-abap.html)
-
-*Group:*[https://developers.sap.com/group.abap-env-expose-cds-travel-model.html](https://developers.sap.com/group.abap-env-expose-cds-travel-model.html)
-
 -   [Create an SAP Cloud Platform ABAP Environment Trial User](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 
 
@@ -243,11 +239,9 @@ without group/mission:
 
 ## UI Development
 
-*Mission:*[SAP BTP, ABAP Environment: Create and Expose a CDS-Based Data Model](https://developers.sap.com/mission.cp-starter-extensions-abap.html)
-
 -   [Develop and Run SAP Fiori Application With SAP Business Application Studio](https://developers.sap.com/tutorials/abap-environment-deploy-cf-production.html)
 
--   [Integrate List Report into ABAP FLP](https://developers.sap.com/tutorials/abap-environment-abap-flp.html)
+-   [Add the Shopping Cart Fiori Application to FLP](https://developers.sap.com/tutorials/abap-s4hanacloud-purchasereq-integrate-flp.html#8759e299-6049-4282-93c3-abaf9a2fb815)
 
 -   [Add SAP BTP ABAP environment App to Portal Site](https://developers.sap.com/tutorials/abap-environment-portal-site-bas.html)
 
@@ -256,13 +250,6 @@ without group/mission:
 -   [RAP Feature Showcase App](https://github.com/SAP-samples/abap-platform-fiori-feature-showcase)
 
 -   [Create a Travel App with SAP Fiori Elements Based on OData V4 RAP Service](https://developers.sap.com/group.fiori-tools-odata-v4-travel.html)
-
-
-*Group:*
-
--   [Implement a Custom Shell-Plugin in the SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-shell-plugin.html)
-
--   [Enrich Your Shell-Plugin with O-Data Services](https://developers.sap.com/tutorials/abap-environment-shell-plugin-enrich.html)
 
 
 without group/mission:

@@ -10,7 +10,7 @@ Your SAP BTP global account is the entry point for managing the resources, lands
 
 <a name="loio667f34ba9222450491c2b848cd17e189__section_mr1_jjq_lnb"/>
 
-## Feature Set B: Global Account Settings
+## Global Account Settings
 
 As a global account administrator, you can access the global account settings by clicking :gear: in the SAP BTP cockpit.
 

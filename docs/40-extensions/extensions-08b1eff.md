@@ -8,11 +8,15 @@ The extension capabilities of SAP Business Technology Platform \(SAP BTP\) enabl
 
 <a name="loio08b1effc53634890a525f945017e2edc__section_cl5_p4h_q3b"/>
 
-## Overview
+## Unified Customer Landscape
+
+The Unified Customer Landscape service provides capabilities for automated extensibility and integration of SAP and third-party systems.
 
 All standard SAP solutions are offered with customizing capabilities. Additionally, customers often have their own requirements for innovative or industry-specific extensions and the extension capabilities of SAP BTP can help them build, deploy, and operate their new functionality.
 
 You can extend standard SAP solutions without disrupting their performance and core processes. When building extension applications, you can also benefit from the automation of the integration between the cloud platform and the extended SAP solutions.
+
+You can also benefit from an automated integration between SAP systems or between SAP systems and a specific service in SAP BTP.
 
 Using the Unified Customer Landscape service, you can maintain your customer landscape. The frontend representation of this service is the *System Landscape* page in the SAP BTP cockpit. The dedicated SAP S/4HANA Cloud Extensibility and SAP SuccessFactors Extensibility services are also part of the Unified Customer Landscape capabilities. See [Maintaining Unified Customer Landscape](maintaining-unified-customer-landscape-a8b1e26.md).
 

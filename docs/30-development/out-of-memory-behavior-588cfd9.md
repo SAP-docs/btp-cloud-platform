@@ -2,7 +2,7 @@
 
 # Out-Of-Memory Behavior
 
-SAP Java Buildpack prints a histogram of the heap to the logs when the JVM encounters a terminal failure.
+SAP Java Buildpack prints a histogram of the heap memory to the logs when the JVM encounters a terminal failure.
 
 > ### Output Code:  
 > ```
@@ -49,17 +49,9 @@ applications:
 
 
 
-<a name="loio588cfd95fbab41178c21ceefd916a311__section_xcd_gky_3dc"/>
+<a name="loio588cfd95fbab41178c21ceefd916a311__section_wgj_csw_mdc"/>
 
-## Generate Heap Dumps
-
-It's a good practice to generate a **`.hprof`** heap dump file on the event of *OutOfMemoryError* to analyze and find the root cause of the issue.
-
-You can generate heap dumps in two ways:
-
-
-
-### Using jvmkill
+## Killing a process with jvmkill
 
 SAP Java Buildpack allows you to set *jvmkill* agent when staging your application. A *jvmkill* agent is added by default to the properties when starting the Java application process. The following configuration is added:
 
@@ -67,23 +59,7 @@ SAP Java Buildpack allows you to set *jvmkill* agent when staging your applicati
 -agentpath:META-INF/.sap_java_buildpack/jvm_kill/jvmkill-<jvmkill_version>.RELEASE-trusty.so=printHeapHistogram=1
 ```
 
-This is sufficient to print histogram and kill the process by using *jvmkill* once an OOM error occurs. To generate a heap dump, your application should be bound to a volume service named **heap-dump**.
-
-For example, if you have the following parameter specified in the `manifest.yml` file:
-
-```
-
-services:
-  - heap-dump
-```
-
-it will result in the following set of properties for the *jvmkill* agent:
-
-```
--agentpath:META-INF/.sap_java_buildpack/jvm_kill/jvmkill-<jvmkill_version>-trusty.so=printHeapHistogram=1,heapDumpPath=<heap_dump_volume_path>/<heap_dump_name>.hprof -XX:ErrorFile=<heap_dump_volume_path>/<error_file_name>.log
-```
-
-If an OOM error occurs, *jvmkill* will store the heap dump under the relevant volume path.
+This is sufficient to print a histogram and kill the process when an out-of-memory \(OOM\) error occurs.
 
 If you want to disable *jvmkill* and omit its agent being added to the startup properties, use the SJB\_NO\_JVMKILL environment variable, like this:
 
@@ -95,20 +71,29 @@ env:
 
 
 
-### Using standard Java properties
+<a name="loio588cfd95fbab41178c21ceefd916a311__section_qvt_wrw_mdc"/>
 
-Various distributions including *SapMachineJre* and *SapMachineJdk* provide standard mechanism for generating a heap dump in the event of an OOM error. The following properties can be added on startup for this purpose, like this:
+## Generate Heap Dumps with Java Properties
+
+It's a good practice to generate a **`.hprof`** heap dump file on the event of *OutOfMemoryError* to analyze and find the root cause of the issue.
+
+Various distributions including *SapMachineJre* and *SapMachineJdk* provide standard mechanism for generating a heap dump in the event of an OOM error. The following properties can be added on startup for this purpose:
 
 ```
 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=<heap_dump_path> -XX:OnOutOfMemoryError='kill -9 %p'
 ```
 
-**`-XX:+HeapDumpOnOutOfMemoryError`** is sufficient to trigger heap dump generation under a default path. The other two properties specify *where* you want to specify the heapdump file with `-XX:HeapDumpPath`, and *what command or script* you want to be executed if this occurs with `-XX:OnOutOfMemoryError`. The command usually kills the process, as shown in the example in the previous section.
+-   **`-XX:+HeapDumpOnOutOfMemoryError`** is sufficient to trigger heap dump generation under a default path.
+
+-   `-XX:HeapDumpPath` specifies *where* you want to specify the heap dump file.
+
+-   `-XX:OnOutOfMemoryError` specifies *what command or script* you want to be run if OOM occurs. This command usually kills the process.
+
+
+The heap dump is generated and stored in an application container location. This means, it will be removed once the application instance container is restarted.
 
 > ### Note:  
-> The heap dump is generated and stored in an application container location. This means, it will be removed once the application instance container is restarted. A restart will happen if the process is killed \(like shown in the example in the previous section\).
-> 
-> Therefore, if you want to dig further in the heap dump file, stored in the application container, the process should not be killed in order to prevent restart.
+> Killing the process will trigger a restart. Therefore, if you need to investigate further in the heap dump file stored in the application container, the process should not be killed.
 
 **Related Information**  
 

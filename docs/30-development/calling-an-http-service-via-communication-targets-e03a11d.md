@@ -30,7 +30,7 @@ To call an HTTP service via communication targets, proceed as follows.
 
 5.  Publish the communication scenario. The administrator can then create the required communication management objects as described in [Next Steps](calling-an-http-service-via-communication-targets-e03a11d.md#loioe03a11db11554cb0a81d2f60b5095686__postreq_vcb_cjy_pbc).
 
-6.  If the communication target has multiple assigned application destinations, create an implementation of the `communication_management` BAdI as described in the example. The BAdI implementation stores the name of the application destinations in a customizing table.
+6.  If the communication target has multiple assigned application destinations, create an implementation of the `communication_management` BAdI as described in the example. The BAdI implementation stores the name of the application destinations in a e.
 
 7.  Adapt the service call according to your needs as described in the example.
 
@@ -39,7 +39,7 @@ To call an HTTP service via communication targets, proceed as follows.
 
 ## Example
 
-**Create a customizing table to store the name of the application destination.**
+**Create a Customizing table to store the name of the application destination.**
 
 > ### Sample Code:  
 > ```abap
@@ -122,7 +122,7 @@ To call an HTTP service via communication targets, proceed as follows.
 >     DATA(lv_scen) = '1'.
 > 
 > 
->     " select the relevant application destination from the customizing table
+>     " select the relevant application destination from the Customizing table
 >     
 >     SELECT SINGLE appldest
 >     FROM zcota_custom

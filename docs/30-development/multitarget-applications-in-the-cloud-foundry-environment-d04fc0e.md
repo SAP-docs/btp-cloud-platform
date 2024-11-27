@@ -4,7 +4,7 @@
 
 A Multitarget application \(MTA\) is essentially a single application that consists of multiple parts. These parts are created using various technologies and share the same lifecycle.
 
-The MTA developers outline the intended outcomes using the MTA model. This model consists of MTA modules, MTA resources, and the interdependencies between them. Afterward, the SAP Cloud Deployment service validates it, orchestrates the necessary actions, and automates the MTA deployment. The outcome is the formation of Cloud Foundry applications, services, and the generation of SAP specific content. For more information about the Multitarget Application model, see the official specification documents [The Multitarget Application Model v.2](https://www.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html) and [The Multitarget Application Model v.3](https://www.sap.com/documents/2021/09/66d96898-fa7d-0010-bca6-c68f7e60039b.html).
+The MTA developers outline the intended outcomes using the MTA model. This model consists of MTA modules, MTA resources, and the interdependencies between them. Afterward, the SAP Cloud Deployment service validates it, orchestrates the necessary actions, and automates the MTA deployment. The outcome is the formation of Cloud Foundry applications, services, and the generation of SAP specific content. For more information about the Multitarget Application model, see the official specification documents [The Multitarget Application Model v.2](https://help.sap.com/doc/multitarget-application-modelv2/Cloud/en-US/The%20Multitarget%20Application%20Model.pdf) and [The Multitarget Application Model v.3](https://help.sap.com/doc/multitarget-application-modelv3/Cloud/en-US/The%20Multitarget%20Application%20M%D0%BEdel.pdf).
 
 You can create and deploy a Multitarget Application in the Cloud Foundry environment as described below by following different approaches that can yield the same result:
 
@@ -288,12 +288,13 @@ Archive containing a deployment descriptor, the module and resource binaries, an
 
 ## Prerequisites and Restrictions
 
-You have to consider the following limits for the MTA artifacts, which can be handled by the Cloud Foundry deploy service:
+You have to consider the following limits for the MTA artifacts, which can be handled by the SAP Cloud Deployment service:
 
 -   Maximum size of the MTA archive: 4 GB
 -   Maximum size of MTA module content: 1 GB
 -   Maximum size of MTA resource content: 1 MB
 -   Maximum size of MTA descriptors \(`mtad.yaml` and `MANIFEST.MF`\): 1 MB
+-   Maximum size of deployments which use multiple MTA archives: 20GB. This restriction is applicable only in transport scenarios via cTMS or CTS+, where one transport request with multiple MTAs results in a single deployment process in SAP Cloud Deployment service.
 
 
 

@@ -14,7 +14,7 @@ The creation of an application destination is triggered when a communication arr
 
 ## Communication Targets With Exactly One Assigned Application Destination
 
-The communication target can have either multiple or only exactly one assigned application destination. To call an HTTP service via communication targets in your ABAP code, call the `CREATE_BY_COM_TARGET` method.
+The communication target can have either multiple or only exactly one assigned application destination. To call an HTTP service via communication targets in your ABAP code, create an HTTP client from your communication target class and call its execute method.
 
 
 

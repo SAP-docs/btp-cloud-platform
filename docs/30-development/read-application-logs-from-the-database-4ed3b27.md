@@ -37,7 +37,7 @@ Authorization object: `S_APPL_LOG`, with
 
 
 > ### Example:  
-> Load a log from the database, generic code example:
+> Load a log from the database:
 > 
 > > ### Sample Code:  
 > > ```abap
@@ -104,10 +104,10 @@ Authorization object: `S_APPL_LOG`, with
 > > ```
 
 > ### Example:  
-> Load a single log from the database which uses log handle l\_handle; only read the log header:
+> Load a single log from the database which uses log handle l\_handle. Only read the log header:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...
 > >     DATA l_handle TYPE if_bali_log=>ty_handle.
@@ -124,7 +124,7 @@ Authorization object: `S_APPL_LOG`, with
 > Load all logs from the database which were created by the current user:
 > 
 > > ### Sample Code:  
-> > ```
+> > ```abap
 > > 
 > > ...
 > >     TRY.

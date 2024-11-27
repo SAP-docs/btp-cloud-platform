@@ -11,7 +11,7 @@ Learn what the X-Forwarded-For \(XFF\) header is. Use it to forward client attri
 ## Prerequisites
 
 -   You have the Istio module added. See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
--   To use CLI instruction, you must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) and [curl](https://curl.se/). Alternatively, you can use Kyma dashboard.
+-   To use CLI instructions, you must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) and [curl](https://curl.se/). Alternatively, you can use Kyma dashboard.
 -   You have Istio Ingress Gateway set up. See [Set Up a TLS Gateway in Simple Mode](https://kyma-project.io/#/api-gateway/user/tutorials/01-20-set-up-tls-gateway?id=set-up-a-tls-gateway-in-simple-mode).
 
 
@@ -44,7 +44,7 @@ To use the XFF header, you must configure the corresponding settings in the Isti
 
         Due to the variety of network topologies, the Istio CR must specify the number of trusted proxies deployed in front of the Istio Ingress Gateway proxy in the Istio CR, so that the client address can be extracted correctly.
 
-    6.  If you use a GCP or Azure cluster, navigate to the *Gateway* section and set the Gateway traffic policy to *Local*. If you use a different cloud service provider, skip this step.
+    6.  If you use a Google Cloud or Azure cluster, navigate to the *Gateway* section and set the Gateway traffic policy to *Local*. If you use a different cloud service provider, skip this step.
 
         > ### Caution:  
         > For production Deployments, it is strongly recommended to deploy Istio Ingress Gateway Pod to multiple nodes if you enable `externalTrafficPolicy : Local`. For more information, see [Network Load Balancer](https://istio.io/latest/docs/tasks/security/authorization/authz-ingress/#network).
@@ -52,7 +52,7 @@ To use the XFF header, you must configure the corresponding settings in the Isti
         > Default Istio installation profile configures `PodAntiAffinity` to ensure that Ingress Gateway Pods are evenly spread across all nodes. This guarantees that the above requirement is satisfied if your IngressGateway autoscaling configuration `minReplicas` is equal to or greater than the number of nodes. You can configure autoscaling options in the Istio CR using the field `spec.config.components.ingressGateway.k8s.hpaSpec.minReplicas`.
 
         > ### Tip:  
-        > If you use a GCP or Azure cluster, you can find your load balancer's IP address in the field `status.loadBalancer.ingress` of the `ingress-gateway` Service.
+        > If you use a Google Cloud or Azure cluster, you can find your load balancer's IP address in the field `status.loadBalancer.ingress` of the `ingress-gateway` Service.
 
     7.  Choose *Save*.
 
@@ -67,7 +67,7 @@ To use the XFF header, you must configure the corresponding settings in the Isti
 
         Due to the variety of network topologies, the Istio CR must specify the configuration property `numTrustedProxies`, so that the client IP address can be extracted correctly.
 
-    2.  If you use a GCP or Azure cluster, run the following command to set the traffic policy to *Local*. If you use a different cloud service provider, skip this step.
+    2.  If you use a Google Cloud or Azure cluster, run the following command to set the traffic policy to *Local*. If you use a different cloud service provider, skip this step.
 
         ```
         kubectl patch istios/default -n kyma-system --type merge -p '{"spec":{"config":{"gatewayExternalTrafficPolicy": "Local"}}}'
@@ -79,7 +79,7 @@ To use the XFF header, you must configure the corresponding settings in the Isti
         > Default Istio installation profile configures `PodAntiAffinity` to ensure that Ingress Gateway Pods are evenly spread across all nodes. This guarantees that the above requirement is satisfied if your IngressGateway autoscaling configuration `minReplicas` is equal to or greater than the number of nodes. You can configure autoscaling options in the Istio CR using the field `spec.config.components.ingressGateway.k8s.hpaSpec.minReplicas`.
 
         > ### Tip:  
-        > If you use a GCP or Azure cluster, you can find your load balancer's IP address in the field `status.loadBalancer.ingress` of the `ingress-gateway` Service.
+        > If you use a Google Cloud or Azure cluster, you can find your load balancer's IP address in the field `status.loadBalancer.ingress` of the `ingress-gateway` Service.
 
 
 

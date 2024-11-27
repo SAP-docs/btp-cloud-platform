@@ -4,10 +4,7 @@
 
 # Configure Entitlements and Quotas for Directories
 
-> ### Note:  
-> Directories are available only in \[Feature Set B\], and there is no equivalent in \[Feature Set A\]. For more information, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
-
-Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.
+Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit. 
 
 <a name="task_pxy_ph1_ryb"/>
 

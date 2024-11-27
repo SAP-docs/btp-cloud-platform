@@ -35,7 +35,7 @@ The registration process can have the following status values:
 
 -   *Registered*
 
-    The registration token has been used and the automated registration process has been completed successfully. Connectivity to the system has been established and it can be used in extension business scenarios.
+    The registration token has been used and the automated registration process has been completed successfully. Now, the system can be used in extensibility business scenarios.
 
 -   *Error while Registering*
 
@@ -51,7 +51,16 @@ The registration process can have the following status values:
 
 -   *Removing*
 
-    A system removal process has started in the SAP BTP cockpit. You can remove a system from the list only when this system has been deregistered. Then, you can remove the system from the *Systems* list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure.
+    A system removal process has started in the SAP BTP cockpit. You can remove a system from the list only when this system:
+
+    -   Hasn't been registered yet
+
+    -   Has been deregistered first
+
+    -   Has been manually added
+
+
+    Then, you can remove the system from the *Systems* list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure.
 
 -   *Error while Removing*
 
@@ -111,7 +120,7 @@ When registering a system, the required configuration on the system side has bee
 
 The registration of the newly added systems is based on a registration token. The token is used for the pairing of the system and the corresponding global account. After you add a system, you can get the token in the SAP BTP cockpit. Then, you can use it to configure the integration on the corresponding system side. By using the registration token on the system side and registering the system, the system administrator allows the integration of the system with SAP BTP.
 
-The system gets a *Registered* status, only when a token is issued and the registration is complete on the corresponding system side. In general, the *Registered* status means that the communication between the system and SAP BTP has been established. However, depending on the system and its requirements, additional configuration might be needed for the enablement of a fully functional extension scenario. The additional configuration, depending on the system type, is outlined in the corresponding documents listed in the *Related Information* section. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+The system gets a *Registered* status, only when a token is issued and the registration is complete on the corresponding system side. In general, the *Registered* status means that the communication between the system and SAP BTP has been established. However, depending on the system and its requirements, additional configuration might be needed for the enablement of a fully functional extension scenario. The additional configuration, depending on the system type, is outlined in the corresponding documents listed in the *Related Information* section. See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
 
 **Specifics When Registering SAP S/4HANA Cloud Systems**
 
@@ -133,7 +142,7 @@ Deregistering a system means that the connectivity between this system and the g
 
 Removing a system means that this system is no longer part of the system landscape list. To remove a system from the list, first you have to deregister it. You can remove a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the *System* list. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
 
-You can see the discovery mechanism and access all the actions related to the systems listed in the SAP BTP cockpit, in *System Landscape* \> *Systems*. See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+You can see the discovery mechanism and access all the actions related to the systems listed in the SAP BTP cockpit, in *System Landscape* \> *Systems*. See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
 
 
 

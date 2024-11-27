@@ -126,7 +126,7 @@ This is the workflow and requirements for developing and deploying a multitenant
 
 [Using SAP SaaS Provisioning Service APIs to Manage Multitenant Applications](using-sap-saas-provisioning-service-apis-to-manage-multitenant-applications-ed08c7d.md "Use the SaaS Provisioning Service (technical name: saas-registry) APIs to work with multitenant applications.")
 
-[Data Protection and Privacy](../60-security/data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it is necessary to consider compliance with industry-specific legislation in different countries.")
+[Data Protection and Privacy](../60-security/data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it's necessary to consider compliance with industry-specific legislation in different countries/regions.")
 
 [Using the Subscription Management Dashboard](using-the-subscription-management-dashboard-434be69.md "Learn how to use the SAP BTP subscription management dashboard to manage your multitenant applications through a user interface.")
 

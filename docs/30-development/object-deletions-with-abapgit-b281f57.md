@@ -2,7 +2,7 @@
 
 # Object Deletions with abapGit
 
-Initially, abapGit as a Git client has been integrated into SAP BTP, ABAP environment to enable customers to facilitate the import of code assets from customers' on-premise systems to SAP BTP, ABAP environment. Over time, additional use cases came up, so that the focus is no longer on a one-time transfer but also on managing a basic lifecycle for the code, including handling of deletions.
+Initially, abapGit as a Git client has been integrated into SAP BTP, ABAP environment to enable customers to facilitate the import of code assets from customers' on-premise systems to SAP BTP, ABAP environment. Over time, additional use cases came up, so that the focus is no longer on a one-time transfer but also onrepeated export and import of development objects across different landscapes, including handling of deletions.
 
 In general, there are two basic types of deletions.
 
@@ -94,7 +94,7 @@ Objects from the remote repository have been pulled into your linked ABAP packag
 
     After that, the system performs a delta calculation to identify the differences between the package and the remote repository.
 
-3.  The object previously deleted in your remote repository will now be shown in the window called *delete local object*. Here, you can select the object to be deleted.
+3.  The object previously deleted in your remote repository will now be shown as the action *delete local object*. Here, you can select the object to be deleted.
 
     Afterwards, click on *Next* and then *Finish*.
 

@@ -2,7 +2,7 @@
 
 # Enabling Istio Sidecar Proxy Injection
 
-You can enable Istio sidecar proxy injection for either an entire namespace or a single Deployment. Learn how to perform both these operations.
+To include your workloads into the Istio service mesh, enable the Istio sidecar proxy injection. You can do this for either an entire namespace or a single Deployment. Learn how to perform both these operations.
 
 <a name="task_jwk_3cr_rcc"/>
 

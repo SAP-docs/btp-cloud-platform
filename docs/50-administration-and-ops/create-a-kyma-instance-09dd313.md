@@ -55,9 +55,9 @@ To set up the Kyma environment on your subaccount, you must create an instance o
 You have created a Kyma environment instance.
 
 > ### Tip:  
-> For users who like to work in a terminal or want to automate operations using scripts, there's an alternative to the SAP BTP cockpit: You can create the Kyma environment with the SAP BTP command line interface \(btp CLI\).
+> If you prefer to work in a terminal or want to automate operations using scripts, there's an alternative to the SAP BTP cockpit: You can create the Kyma environment with the SAP BTP command line interface \(btp CLI\). See [Creating SAP BTP, Kyma runtime via the SAP BTP cli](https://blogs.sap.com/2022/02/24/creating-sap-btp-kyma-runtime-via-the-sap-btp-cli/).
 > 
-> To learn more, read [Creating SAP BTP, Kyma runtime via the SAP BTP cli](https://blogs.sap.com/2022/02/24/creating-sap-btp-kyma-runtime-via-the-sap-btp-cli/).
+> To manage a Kyma instance automatically, create a Kyma service binding. The binding enables getting a Kyma kubeconfig, which in turn allows for accessing a Kyma cluster, deploying applications, running tests, and deleting the resources in a fully automated way. See [Managing Kyma Runtime Using the Provisioning Service API](managing-kyma-runtime-using-the-provisioning-service-api-f4afb1a.md).
 
 
 

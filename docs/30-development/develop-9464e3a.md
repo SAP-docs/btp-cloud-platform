@@ -68,7 +68,7 @@ For **outbound communication**, the following protocols are supported:
 -   RFC \(Internet\)
 -   RFC \(Cloud Connector\)
 
-See [Supported Protocols and Authentication Methods](supported-protocols-and-authentication-methods-437e9d4.md).
+See [Developing External Service Consumption](https://help.sap.com/docs/btp/sap-business-technology-platform/developing-external-service-consumption-outbound-communication?version=Cloud).
 
 
 

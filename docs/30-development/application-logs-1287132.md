@@ -453,7 +453,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: Incorrect backend endpoint configuration \(for example, using the wrong authentication credentials\) or the backend being unreachable.
 
-**Remedy**:
+**Solution**:
 
 -   Check the `telemetry-fluent-bit` Pods for error logs by calling `kubectl logs -n kyma-system {POD_NAME}`.
 
@@ -468,7 +468,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: It can happen due to a variety of reasons. For example, a possible reason may be that the backend is limiting the ingestion rate, or the backend is refusing logs because they are too large.
 
-**Remedy**:
+**Solution**:
 
 1.  Check the `telemetry-fluent-bit` Pods for error logs by calling `kubectl logs -n kyma-system {POD_NAME}`. Also, check your observability backend to investigate potential causes.
 
@@ -485,7 +485,7 @@ To detect and fix such situations, check the pipeline status and check out [Trou
 
 **Cause**: The backend export rate is too low compared to the log collection rate.
 
-**Remedy**:
+**Solution**:
 
 -   Option 1: Increase maximum backend ingestion rate. For example, by scaling out the SAP Cloud Logging instances.
 

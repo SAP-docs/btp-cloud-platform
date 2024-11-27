@@ -66,7 +66,7 @@ The following procedure outlines the steps you need to perform to enable the exc
     > ### Note:  
     > If a given SAP system is missing on the *Systems* page, it may be associated with a different customer ID on the SAP BTP global account you are working in. In this case, you need to add the system manually, and then, register it.
 
-    See [Registering an SAP System](registering-an-sap-system-2ffdaff.md).
+    See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
 
 2.  Create a formation of type *Eventing Between SAP Cloud Systems* and include the relevant systems in it.
 

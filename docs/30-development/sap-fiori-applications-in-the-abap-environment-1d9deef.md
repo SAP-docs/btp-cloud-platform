@@ -81,7 +81,7 @@ Moreover, you can maintain a business role template to have a streamlined proces
 
 This saves time and effort for an administrator but still allows for a more tailored user experience.
 
-While the IAM business catalog defines the access to the apps, the space and page template determine which apps are visible for the users on the Fiori Launchpad. The business role template combines the IAM business catalogs and space templates that are typically needed for such a role.
+While the business catalog defines the access to the apps, the space and page template determine which apps are visible for the users on the Fiori Launchpad. The business role template combines the business catalogs and space templates that are typically needed for such a role.
 
 > ### Restriction:  
 > Creation of Space Templates and Page Templates

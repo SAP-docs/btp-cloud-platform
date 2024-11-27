@@ -1,6 +1,6 @@
 <!-- loiof6e134ca3f71494fb2d31f0843fd4798 -->
 
-# Display Business Events by Objects
+# Display Business Events by SAP Object
 
 
 

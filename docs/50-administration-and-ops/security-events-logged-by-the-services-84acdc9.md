@@ -1,6 +1,6 @@
 <!-- loio84acdc91c60c4f32b7c06cdbc442fdef -->
 
-# Security Events Logged by the Cloud Foundry Services
+# Security Events Logged by the  Services
 
 This document contains a list of the Cloud Foundry services that log security events. The logged events are service specific and determined by the service itself. The Audit Log service does not know what security events the services log, it only provides the infrastructure for services to write the logs, and for customers to read them by using the Audit Log Retrieval API and the Audit Log Viewer. For more information about the security events logged by a service, follow the corresponding link in the table.
 
@@ -557,6 +557,18 @@ SAP S/4HANA Cloud Extensibility
 <td valign="top">
 
 [Auditing and Logging Information](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/b250a8d232654c71a8080c2660d5305c.html)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Secure Login Service for SAP GUI
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](https://help.sap.com/docs/SAP%20SECURE%20LOGIN%20SERVICE/c35917ca71e941c5a97a11d2c55dcacd/b1790557643147f7b615517892cbf98f.html?version=Cloud)
 
 </td>
 </tr>
