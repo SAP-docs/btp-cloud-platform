@@ -70,7 +70,7 @@ The APIs of Kyma modules and third-party modules' may vary from the least stable
 > To get the list of the APIs, their kind, and version, run:
 > 
 > ```
-> kubectl get crd -o custom-columns="KIND:.spec.names.kind,GROUP:.spec.group,VERSION:.spec.versions[*].name
+> kubectl get crd -o custom-columns="KIND:.spec.names.kind,GROUP:.spec.group,VERSION:.spec.versions[*].name"
 > ```
 > 
 > If an API is available in two versions, always use the version that is more stable.
