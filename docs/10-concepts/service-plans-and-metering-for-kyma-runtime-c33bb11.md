@@ -262,7 +262,7 @@ Number of CU per Hour
 </tr>
 </table>
 
-**For Storage**
+**For Standard Storage**
 
 
 <table>
@@ -304,7 +304,54 @@ Number of CU per Hour
 </tr>
 </table>
 
+### Additional Costs
 
+Since some Cloud Manager features instantiate additional hardware resources in the cloud provider account, extra costs might be charged based on the features you instantiate.
+Additional costs are always calculated using a base formula, a combination of the two metrics used to compute the other kyma's costs: **CPU** and **Storage**.
+
+#### Premium Storage
+
+The premium storage can be instantiated using Cloud Managerand will create storage using the NFS technology.
+Premium storage is priced using the storage metrics and it's scaled up by a factor of 3 compared to the standard storage.
+
+<table>
+<tr>
+<th valign="top">
+
+Amount of Storage
+
+</th>
+<th valign="top">
+
+Number of CU per Hour
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+1GB
+
+</td>
+<td valign="top">
+
+0.00169271 ( = 3 * 0.00056423611)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+32GB
+
+</td>
+<td valign="top">
+
+0.05416667 \(0.00169271 x 32\)
+
+</td>
+</tr>
+</table>
 
 ### Examples
 
