@@ -306,13 +306,13 @@ Number of CU per Hour
 
 ### Additional Costs
 
-Since some Cloud Manager features instantiate additional hardware resources in the cloud provider account, extra costs might be charged based on the features you instantiate.
-Additional costs are always calculated using a base formula, a combination of the two metrics used to compute the other kyma's costs: **CPU** and **Storage**.
+Certain features of Cloud Manager may initiate additional hardware resources in the cloud provider account. These features could potentially incur extra costs based on the resources you implement.
+All additional costs are calculated using a baseline formula, which is a combination of the two metrics used to compute other Kyma costs: **CPU** and **Storage**.
 
 #### Premium Storage
 
-The premium storage can be instantiated using Cloud Managerand will create storage using the NFS technology.
-Premium storage is priced using the storage metrics and it's scaled up by a factor of 3 compared to the standard storage.
+Premium storage can be enabled using Cloud Manager and will create storage using NFS technology.
+The pricing for premium storage is based on the storage metrics and is scaled up by a factor of **3** compared to standard storage.
 
 <table>
 <tr>
@@ -353,6 +353,31 @@ Number of CU per Hour
 </tr>
 </table>
 
+#### Cloud-managed Redis
+
+When deployed with the Cloud Manager module, Redis creates a cluster in the Kyma's cloud provider account and begins consuming new, dedicated machines.
+Generally, a cache is defined by its size, measured in GiB, which is then used to determine metering and billing using storage metrics as the basis.
+As the price is standardized across all available cloud providers, Redis is offered in several different tiers that are essentially equivalent across all cloud providers. This applies to both the standard and the premium plans.
+
+| **Tier** 	| **Approx. Available  Size (GiB)** | **Cost expressed in Storage size** 	| **Cost in CU** 	|
+|:--------:	|:--------------------------------:	|-----------------------------------:	|---------------:	|
+|    S1    	|                 1                	|                                182 	|             74 	|
+|    S2    	|                 3                	|                                364 	|            148 	|
+|    S3    	|                 6                	|                                953 	|            387 	|
+|    S4    	|                12                	|                               1915 	|            778 	|
+|    S5    	|                24                	|                               3793 	|           1541 	|
+|    S6    	|                48                	|                               7591 	|           3084 	|
+|    S7    	|                101               	|                              15180 	|           6167 	|
+|    S8    	|                202               	|                              30353 	|          12331 	|
+|    P1    	|                 5                	|                               1903 	|            773 	|
+|    P2    	|                12                	|                               3828 	|           1555 	|
+|    P3    	|                24                	|                               7586 	|           3082 	|
+|    P4    	|                48                	|                              15180 	|           6167 	|
+|    P5    	|                101               	|                              30363 	|          12335 	|
+|    P6    	|                200               	|                              60704 	|          24661 	|
+
+NB: **Approx. Available  Size (GiB)** might vary depending on the cloud provider.
+
 ### Examples
 
 -   Your bill for Nodes shows 1800 capacity units charged for 4vCPU Nodes in a month.
@@ -382,9 +407,9 @@ Find the Kyma price calculator on [https://kyma-project.github.io/price-calculat
 
 2.  Choose the **minimum of VMs** you need.
 
-3.  Estimate the **hours per month** you expect to run them.
+3.  Optionally, add more storage and additional capabilities to the calculation.
 
-4.  Optionally, add more Nodes and more storage to the calculation.
+4.  You can also change the **Conversion rate from Capacity Units to €** to estimate the eventual discount applicable with your contract.
 
 
 Note that the result is an estimate, and the monthly bill may vary depending on the actual hours and size of the Kyma cluster \(workload and storage\) that was running in a month.
