@@ -163,7 +163,7 @@ There are various ways of downloading the client for each operating system, as e
 
         3.  Copy the client executable from the unpacked folder to a directory of your choice. We recommend the following, because it ensures that you can call `btp` system-wide, i.e., that it is in your PATH:
 
-            `/user/local/bin`
+            `/usr/local/bin`
 
         4.  **Optional:** If you have a proxy server configured in your environment, you need to specify its address and port as environment variable `HTTPS_PROXY` or `https_proxy` to access SAP BTP. For example, `HTTPS_PROXY=https://my-https-proxy:1234`.
 
@@ -251,7 +251,7 @@ There are various ways of downloading the client for each operating system, as e
 
         3.  Copy the client executable from the unpacked folder to a directory of your choice. We recommend the following, because it ensures that you can call `btp` system-wide, i.e., that it is in your PATH:
 
-            `/user/local/bin`
+            `/usr/local/bin`
 
         4.  **Optional:** If you have a proxy server configured in your environment, you need to specify its address and port as environment variable `HTTPS_PROXY` or `https_proxy` to access SAP BTP. For example, `HTTPS_PROXY=https://my-https-proxy:1234`.
 

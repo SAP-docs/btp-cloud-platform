@@ -444,19 +444,7 @@ The diagram below shows how the service plans listed in the [SAP Discovery Cente
 
 This image is interactive. Hover over rectangles in the diagram to see the description. Choose the highlighted areas for more information.
 
-![A diagram depicting the relationship between service plans in the SAP Discovery Center, service plans in the SAP BTP
-                                    cockpit, environment plans in the SAP BTP
-                                    cockpit, and the metric GB Memory.
-								Consumption-based
-								commercial model, line 1 of 2: Service Plan (SAP Discovery Center) - Standard; Service Plan (SAP BTP Cockpit) - not applicable; Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB
-									Memory; SKU - 8008837. Consumption-based commercial model, line 2 of 2: Service Plan
-									(SAP Discovery Center) - Free; Service Plan (SAP BTP Cockpit) - free (Environment); Environment Plan (SAP
-									BTP Cockpit) - free; Metrics - GB Memory; SKU - 8011138. Subscription-based commercial model, line 1 of 1: Service Plan (SAP
-									Discovery Center) - Standard; Service Plan (SAP BTP Cockpit)
-								- MEMORY, the plan is associated with a standalone service Cloud
-									Foundry Runtime (technical name: APPLICATION_RUNTIME); Environment
-								Plan (SAP BTP Cockpit) - standard; Metrics - GB
-									Memory; SKU - 8008837.](images/SAP_BTP_Cloud_Foundry_Runtime_Commercial_Information_Plans_-_2024_V2_67db7c4.png)
+![A diagram depicting the relationship between service plans in the SAP Discovery Center, service plans in the SAP BTP cockpit, environment plans in the SAP BTP cockpit, and the metric GB Memory. Consumption-based commercial model, line 1 of 2: Service Plan (SAP Discovery Center) - Standard; Service Plan (SAP BTP Cockpit) - not applicable; Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB Memory; SKU - 8008837. Consumption-based commercial model, line 2 of 2: Service Plan (SAP Discovery Center) - Free; Service Plan (SAP BTP Cockpit) - free (Environment); Environment Plan (SAP BTP Cockpit) - free; Metrics - GB Memory; SKU - 8011138. Subscription-based commercial model, line 1 of 1: Service Plan (SAP Discovery Center) - Standard; Service Plan (SAP BTP Cockpit) - MEMORY, the plan is associated with a standalone service Cloud Foundry Runtime (technical name: APPLICATION_RUNTIME); Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB Memory; SKU - 8008837.](images/SAP_BTP_Cloud_Foundry_Runtime_Commercial_Information_Plans_-_2024_V2_67db7c4.png)
 
 
 
@@ -579,7 +567,7 @@ This is a **paid** plan for productive use. In the consumption-based commercial 
 > ### Caution:  
 > With this plan, you get a technical quota of 200 GB of runtime memory per Cloud Foundry org. This doesn't mean that you can use the runtime memory for free. The technical quota represents a **limit** on how much runtime memory all the spaces in the org can use at any given time. To increase this limit, create a case on the [SAP Support Portal](https://support.sap.com) using the component `BC-NEO-CIS`.
 
-The plan is available for all subaccounts by default and can be enabled by a subaccount administrator. For more information about the procedure, see  <?sap-ot O2O class="- topic/xref " href="b7f3dc869147454b871cdc5e4720abc5.xml" text="" desc="" xtrc="xref:22" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8d41fa40e47b45bf90d38e393a989c4c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+The plan is available for all subaccounts by default and can be enabled by a subaccount administrator.
 
 </td>
 </tr>
@@ -610,7 +598,7 @@ This is a **free tier** plan that allows you to try out and evaluate the service
 
 With this plan, you get a free quota of runtime memory for your Cloud Foundry org. The amount of such free quotas per global enterprise account is limited.
 
-The plan must be assigned to the subaccount by a global account administrator \(or a directory administrator\), before it can be enabled by a subaccount administrator. For more information about the procedure, see  <?sap-ot O2O class="- topic/xref " href="5f4a816f349f46a9b792df000be32117.xml" text="" desc="" xtrc="xref:24" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8d41fa40e47b45bf90d38e393a989c4c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+The plan must be assigned to the subaccount by a global account administrator \(or a directory administrator\), before it can be enabled by a subaccount administrator.
 
 > ### Note:  
 > Only community support is available for free tier service plans and these are not subject to SLAs. Use of free tier service plans is subject to additional terms and conditions as provided in the [Business Technology Platform Supplemental Terms and Conditions](https://www.sap.com/about/trust-center/agreements/cloud/cloud-services.html?sort=latest_desc&search=Supplement%20Business%20Technology%20Platform&tag=language%3Aenglish&pdf-asset=c8e624f5-bc7e-0010-bca6-c68f7e60039b&page=1).
@@ -711,7 +699,7 @@ This is a **paid** plan for productive use. In the subscription-based commercial
 
 The runtime memory quota purchased with your subscription must be entitled to subaccounts through the service plan MEMORY. This service plan is associated with the service Cloud Foundry Runtime \(`APPLICATION_RUNTIME`\), which is specific to the subscription-based commercial model.
 
-The plan **standard** is available for all subaccounts by default and can be enabled by a subaccount administrator. The runtime memory quota can be entitled to the subaccount only by a global account administrator \(or a directory administrator\). These steps are independent, but both of them are required to run applications in the Cloud Foundry environment. For more information about the procedure, see  <?sap-ot O2O class="- topic/xref " href="819612cd7410411f850227c7669383c3.xml" text="" desc="" xtrc="xref:28" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8d41fa40e47b45bf90d38e393a989c4c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+The plan **standard** is available for all subaccounts by default and can be enabled by a subaccount administrator. The runtime memory quota can be entitled to the subaccount only by a global account administrator \(or a directory administrator\). These steps are independent, but both of them are required to run applications in the Cloud Foundry environment.
 
 </td>
 </tr>

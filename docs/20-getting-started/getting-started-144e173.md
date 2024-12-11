@@ -8,9 +8,11 @@ Once you're familiar with the basic concepts of SAP BTP, you can start your firs
 
 <a name="loio144e1733d0d64d58a7176e817fa6aeb3__section_o1n_3rw_slb"/>
 
-## Onboarding Guide
+## Onboarding Guides
 
-The guide [Best Practices for SAP BTP](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US) helps you plan your development projects on SAP BTP from setting up the correct organizational structure to creating an account and security model, to developing and operating applications.
+The guide [SAP BTP Administrator's Guide](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US) helps you plan your development projects on SAP BTP from onboarding to SAP Cloud Identity Services, through setting up the correct organizational structure, to creating an account and security model, to developing and operating applications.
+
+The guide [SAP BTP Developer’s Guide](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/ba26ec41130d4835aef2265ad3d3704e.html?locale=en-US&state=PRODUCTION&version=Cloud) helps you define the correct methodologies and tools for your development project.
 
 
 
@@ -50,6 +52,8 @@ The SAP Developer Center provides further resources to get you started:
 
 
 [SAP BTP Administrator's Guide](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/9f2bb927464e4d1ba3d13b2d79ca9bd1.html "Learn about the SAP BTP Administrator's Guide and how you can use it to plan and set up your landscape and your lifecycle management for running applications on SAP Business Technology Platform (SAP BTP).") :arrow_upper_right:
+
+[SAP BTP Developer's Guide](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/ba26ec41130d4835aef2265ad3d3704e.html?locale=en-US&state=PRODUCTION&version=Cloud)
 
 [Access the Cockpit](../50-administration-and-ops/access-the-cockpit-4e75066.md "Learn how to access the SAP BTP cockpit.")
 

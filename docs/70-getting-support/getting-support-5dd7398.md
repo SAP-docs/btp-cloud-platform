@@ -86,6 +86,14 @@ To report a case in SAP for Me, proceed as follows:
     For any other non-technical assistance, see [Customer Interaction Center](https://support.sap.com/en/contact-us.html?anchorId=section_42886245).
 
 
+
+
+<a name="concept_tbg_yzt_mqb__section_tzm_ygf_ldc"/>
+
+## Creating a Support User
+
+Sometimes you might need to create a support user to troubleshoot issues in your system. For more information about how and when to create a support user, see [3543065 - Best Practices for Creating Support Users in Your BTP System](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fme.sap.com%2Fnotes%2F3543065).
+
 **Related Information**  
 
 

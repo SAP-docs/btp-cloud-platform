@@ -4,7 +4,7 @@
 
 The Multitarget Application \(МТА\) extension descriptor is a YAML file that contains data complementary to the deployment descriptor \(from MTA archive\). It has a structure similar to the one of the deployment descriptor, and you will normally find it placed outside of the MTA archive.
 
-The data can be environment or deployment specific, for example, application scaling setup or credentials depending on the user who performs the deployment. This allows you to use the one and the same unmodifiable MTA archive and deploy it with different extension descriptors, resulting in different setups.
+The data can be environment-specific or deployment-specific, for example, application scaling setup or credentials depending on the user who performs the deployment. This allows you to use the one and the same unmodifiable MTA archive and deploy it with different extension descriptors, resulting in different setups.
 
 When you are deploying an MTA, you can provide several extension descriptors. The descriptors in the chain are considered in order, with each descriptor having a higher priority than the one it extends.
 
@@ -171,9 +171,9 @@ In some cases, there are operation-level parameters \(command-line arguments\) t
 
 You can do the following using an extension descriptor:
 
--   Add new data in properties and parameters on module level, resource level, provided section level and required section level
+-   Add new data in properties and parameters on module level, resource level, `provides` and `requires` section level
 
--   Overwrite an existing data \(in depth\) in modules, resources, parameters, properties, provides, requires sections. This depends on the parameter or property metadata overwritable. See [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md).
+-   Overwrite existing data \(in depth\) in modules, resources, parameters, properties, `provides` and `requires` sections. This depends on the parameter or property metadata `overwritable`. See [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md).
 
 -   As of schema version 3.xx, by default parameters and properties are overwritable and optional. If you want to make a certain parameter or property non-overwritable or required, you need to add specific metadata. See [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md).
 
@@ -194,7 +194,7 @@ You cannot use an extension descriptor to:
 
 [MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f1caa871360c40e7be7ce4264ab9c336.html "") :arrow_upper_right:
 
-[The Multitarget Application Model v.2](http://go.sap.com/documents/2016/06/e2f618e4-757c-0010-82c7-eda71af511fa.html)
+[The Multitarget Application Model v.2](https://help.sap.com/doc/multitarget-application-modelv2/Cloud/en-US/The%20Multitarget%20Application%20Model.pdf)
 
-[The Multitarget Application Model v.3](https://www.sap.com/documents/2021/09/66d96898-fa7d-0010-bca6-c68f7e60039b.html)
+[The Multitarget Application Model v.3](https://help.sap.com/doc/multitarget-application-modelv3/Cloud/en-US/The%20Multitarget%20Application%20M%D0%BEdel.pdf)
 

@@ -37,7 +37,7 @@ Besides proxying any ingress and egress requests to external systems and dealing
 
 The Application Connector module provides the following features:
 
--   Easy installation of Kyma's Application Connectivity capabilities by enabling the Application Connector module on your Kyma cluster.
+-   Easy installation of Kyma's Application Connectivity capabilities by enabling the Application Connector module in your SAP BTP, Kyma runtime.
 
 -   Simple configuration using Kubernetes CRs and easy management with Kyma dashboard.
 
@@ -74,11 +74,11 @@ When you add the Application Connector module, Application Connector Manager tak
 
 The API of the Applicaton Connector module is based on Kubernetes Custom Resource Definitions \(CRD\), which extend the Kubernetes API with custom additions. To inspect the specification of the Application Connector module API, see:
 
--   [Application CRD](https://kyma-project.io/#/application-connector-manager/user/resources/06-10-application)
+-   [Application CRD](https://kyma-project.io/#/application-connector-manager/user/resources/04-10-application)
 
--   [CompassConnection CRD](https://kyma-project.io/#/application-connector-manager/user/resources/06-20-compassconnection)
+-   [CompassConnection CRD](https://kyma-project.io/#/application-connector-manager/user/resources/04-20-compassconnection)
 
--   [ApplicationConnector CRD](https://kyma-project.io/#/application-connector-manager/user/resources/06-30-application-connector)
+-   [ApplicationConnector CRD](https://kyma-project.io/#/application-connector-manager/user/resources/04-30-application-connector)
 
 
 

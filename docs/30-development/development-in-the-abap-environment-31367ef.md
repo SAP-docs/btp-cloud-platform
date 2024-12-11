@@ -15,19 +15,19 @@ The ABAP environment enables you to **expose**:
 -   OData services. See [ABAP RESTful Application Programming Model](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?version=sap_btp).
 
 -   HTTP services. See [Working with the HTTP Service Editor](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/494a02697388437aa71067dd95b2c561.html).
--   SQL services. See [Consumption of the SQL Service for Data Federation](consumption-of-the-sql-service-for-data-federation-6ac9ec8.md).
--   RFC function modules. See [Develop a Remote-Enabled Function Module \(RFM\)](develop-a-remote-enabled-function-module-rfm-abf7105.md).
--   SOAP provider model. See [Generate Provider Proxies From WSDL Files](https://help.sap.com/docs/btp/sap-business-technology-platform/generate-provider-proxies-from-wsdl-files?version=Cloud).
+-   SQL services. See [Data Federation Using the SQL Service](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/data-federation).
+-   RFC function modules. See [Providing an RFC Service](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/provide-rfc-service).
+-   SOAP provider model. See [Providing a SOAP Service](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/provide-soap-service).
 
 
 With your ABAP applications, you can **consume**:
 
--   HTTP services \(HTTP client\). See [Set Up HTTP Communication](set-up-http-communication-3884bc3.md).
+-   HTTP services \(HTTP client\). See [Outbound HTTP Administration Tasks](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/outbound-http-administration-tasks).
 
--   OData services \(service consumption model\). See [Developing a UI Service with Access to a Remote Service](https://help.sap.com/viewer/923180ddb98240829d935862025004d6/Cloud/en-US/f4969e551d3049c59715210cbeb4ef56.html).
--   Remote Function Calls \(RFC\). See [Set Up RFC Communication](set-up-rfc-communication-b4eaa0a.md).
+-   OData services \(service consumption model\). See [Developing a UI Service with Access to a Remote Service](https://help.sap.com/docs/abap-cloud/abap-rap/developing-ui-service-with-access-to-remote-service?version=sap_btp).
+-   Remote Function Calls \(RFC\). See [Outbound RFC Administration Tasks](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/outbound-rfc-administration-tasks).
 -   On-premise systems via Cloud Connector. See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md).
--   SOAP-based Web services. See [Set Up SOAP Communication](set-up-soap-communication-8b6723b.md).
+-   SOAP-based Web services. See [Outbound SOAP Administration Tasks](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/outbound-soap-administration-tasks).
 
 
 
@@ -55,13 +55,13 @@ For elasticity, operability and protection reasons, the runtime of API or UI req
 
 [Connect to the ABAP System](connect-to-the-abap-system-7379dbd.md)
 
-[HTTP Service Development](http-service-development-77c269b.md)
+[Providing an HTTP Service](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/provide-http-service)
 
 [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md)
 
-[Developing External Service Consumption \(Outbound Communication\)](developing-external-service-consumption-outbound-communication-f871712.md)
+[Supported Protocols and Authentication Methods](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/supported-protocols-and-authentication-methods)
 
-[Developing APIs for Inbound Communication](developing-apis-for-inbound-communication-94ebfa0.md)
+[Inbound Communication](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/inbound-communication-4a091c967fd44ab7ba7d9c4429979b1e)
 
 [Working with abapGit](working-with-abapgit-d62ed9d.md)
 

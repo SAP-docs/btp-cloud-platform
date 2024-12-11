@@ -56,7 +56,7 @@ If your subaccount audit logs contain other log types or information, create a [
 
 [Audit Log Retention for the Cloud Foundry Environment](audit-log-retention-for-the-cloud-foundry-environment-adaefa6.md "The audit log data is stored on a subaccount level. The access to the stored audit log data is strictly restricted - only authorized stakeholders can preview, retrieve, and download their audit log data.")
 
-[Audit Log Viewer for the Cloud Foundry Environment](audit-log-viewer-for-the-cloud-foundry-environment-e3baa5f.md "The SAP Audit Log Viewer service displays the audit logs for your Cloud Foundry account, produced by SAP applications and services you’ve subscribed to.")
+[SAP Audit Log Viewer service for the Cloud Foundry Environment](sap-audit-log-viewer-service-for-the-cloud-foundry-environment-e3baa5f.md "The SAP Audit Log Viewer service displays the audit logs for your Cloud Foundry account, produced by SAP applications and services you’ve subscribed to.")
 
 [Guided Answers for Audit Logging in the Cloud Foundry Environment](https://ga.support.sap.com/dtp/viewer/#/tree/3642/actions/59095)
 

@@ -489,7 +489,12 @@ Subaccount Service Auditor
 </td>
 <td valign="top">
 
-Read-only access to service brokers and environments on a subaccount level 
+Read-only access to service brokers and environments on a subaccount level
+
+> ### Note:  
+> To see the credentials, copy the role collection and add the `Service Credentials Viewer` role \(see [Define a Role Collection](../50-administration-and-ops/define-a-role-collection-4b20383.md)\).
+
+
 
 </td>
 </tr>
@@ -898,6 +903,28 @@ GlobalAccount\_Usage\_Reporting\_Viewer
 <td valign="top">
 
 uas!*<suffix\>*  
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Service Credentials Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Service\_Credentials\_Viewer 
+
+</td>
+<td valign="top">
+
+service-manager!*<suffix\>* 
 
 </td>
 </tr>

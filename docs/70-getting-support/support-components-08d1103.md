@@ -4190,12 +4190,12 @@ Meet compliance requirements by exchanging documents with the Peppol network.
 <tr>
 <td valign="top">
 
-[Serverless Runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
+[Serverless Runtime](https://help.sap.com/docs/integration-suite/sap-integration-suite/odata-provisioning) 
 
 </td>
 <td valign="top">
 
-Allows you to create, manage, configure extensions on SAP Cloud Platform.
+Use extensions on SAP Business Technology Platform and get runtime access to OData services in SAP Integration Suite.
 
 </td>
 <td valign="top">
@@ -4251,12 +4251,12 @@ Allows you to create, manage, configure extensions on SAP Cloud Platform.
 <tr>
 <td valign="top">
 
-[Serverless Runtime](https://help.sap.com/viewer/product/XF_SERVERLESS_RUNTIME/Cloud/en-US) 
+[Serverless Runtime](https://help.sap.com/docs/integration-suite/sap-integration-suite/odata-provisioning) 
 
 </td>
 <td valign="top">
 
-Allows you to create, manage, configure extensions on SAP Cloud Platform.
+Use extensions on SAP Business Technology Platform and get runtime access to OData services in SAP Integration Suite.
 
 </td>
 <td valign="top">
@@ -9490,6 +9490,71 @@ Establish connections between cloud applications and on-premise systems.
 <tr>
 <td valign="top">
 
+[Platform Identity Provider Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html) 
+
+</td>
+<td valign="top">
+
+Use your user base from the identity authentication tenant for admin tasks.
+
+</td>
+<td valign="top">
+
+-   BC-NEO-SEC-IAM
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
+-   Brazil \(São Paulo\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
+
+
+
+</td>
+<td valign="top">
+
+-   
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Forms Service by Adobe](https://help.sap.com/viewer/product/CP_FORMS_BY_ADOBE/Cloud/en-US) 
 
 </td>
@@ -11269,7 +11334,7 @@ Infuse your applications with intelligent, easy-to-use services based on Machine
 <tr>
 <td valign="top">
 
-[Monitoring](https://help.sap.com/viewer/product/MONITORING_SERVICE/Cloud/en-US) 
+[Monitoring Service](https://help.sap.com/viewer/product/MONITORING_SERVICE/Cloud/en-US) 
 
 </td>
 <td valign="top">
@@ -11371,6 +11436,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   US East \(VA\)
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
+-   South Korea \(Seoul\)
 -   Brazil \(São Paulo\)
 -   Singapore
 
@@ -12249,71 +12315,6 @@ Determine and calculate indirect taxes to support tax compliance.
 
 -   Yes
 
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Platform Identity Provider Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/80edbe70b8f3478d8a59c21a91a47aa6.html) 
-
-</td>
-<td valign="top">
-
-Use your user base from the identity authentication tenant for admin tasks.
-
-</td>
-<td valign="top">
-
--   BC-NEO-SEC-IAM
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   UAE \(Dubai\)
--   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   
 
 
 </td>

@@ -12,11 +12,11 @@ After the initial add-on version has been built, you must deploy and provide it 
 
 In order to offer a multitenant application based on an ABAP add-on product, a multi-target application \(MTA\) is developed and deployed to the Cloud Foundry environment on SAP BTP. The MTA integrates the different services required for this scenario, such as the ABAP Solution service, responsible for provisioning ABAP systems, tenants, and users on demand. For more in-depth information, see [Multitenant Applications](https://help.sap.com/docs/btp/sap-business-technology-platform/entitlements-and-quotas?version=Cloud&q=entitlements%20and%20quotas).
 
-Once you’ve configured your multitenant application, you can deploy it once for testing purposes in the global account for development. After testing the subscription process during this development phase, the multitenant application can be deployed to the global account for production. See [System Landscape/Account Model](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?state=DRAFT&version=Cloud#system-landscape%2Faccount-model).
+Once you’ve configured your multitenant application, you can deploy it once for testing purposes in the global account for development. After testing the subscription process during this development phase, the multitenant application can be deployed to the global account for production. See [System Landscape/Account Model](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts#system-landscape%252Faccount-model).
 
 After the multitenant application has been deployed for production purposes, the SaaS solution is ready for commercialization.
 
-You have two options for implementing and deploying the application. The recommended approach is to use the Maintain Solution app in the Landscape Portal. See [Maintain Solution](https://help.sap.com/docs/btp/sap-business-technology-platform/maintain-solution?version=Cloud).
+You have two options for implementing and deploying the application. The recommended approach is to use the Maintain Solution app in the Landscape Portal. See [Maintain Solution](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d2a73509305c4ea7971ee24e68509dd8.html).
 
 Alternatively, you can create your own multitenant application. This allows you to modify parameters that are not exposed in the Maintain Solution app; however, the app should cover all common use cases. See Developing Multitenant Applications in the Abap Environment.
 
