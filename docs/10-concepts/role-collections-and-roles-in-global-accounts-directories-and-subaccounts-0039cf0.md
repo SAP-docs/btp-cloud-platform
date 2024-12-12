@@ -489,12 +489,7 @@ Subaccount Service Auditor
 </td>
 <td valign="top">
 
-Read-only access to service brokers and environments on a subaccount level
-
-> ### Note:  
-> To see the credentials, copy the role collection and add the `Service Credentials Viewer` role \(see [Define a Role Collection](../50-administration-and-ops/define-a-role-collection-4b20383.md)\).
-
-
+Read-only access to service brokers and environments on a subaccount level 
 
 </td>
 </tr>
@@ -523,6 +518,9 @@ Read-only access for authorizations, trusted identity providers, and users.
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> To obtain permissions to view the service binding credentials, ask an administrator to create a new role collection that includes the `Subaccount Viewer` role collection and the `Service Credentials Viewer` role \(see [Define a Role Collection](../50-administration-and-ops/define-a-role-collection-4b20383.md)\).
 
 
 

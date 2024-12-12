@@ -11495,6 +11495,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Europe \(Netherlands\)
 -   US East \(VA\)
 -   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 
 
 
