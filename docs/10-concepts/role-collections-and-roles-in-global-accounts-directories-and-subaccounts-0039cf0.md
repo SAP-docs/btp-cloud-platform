@@ -519,6 +519,9 @@ Read-only access for authorizations, trusted identity providers, and users.
 </tr>
 </table>
 
+> ### Note:  
+> To obtain permissions to view the service binding credentials, ask an administrator to create a new role collection that includes the `Subaccount Viewer` role collection and the `Service Credentials Viewer` role \(see [Define a Role Collection](../50-administration-and-ops/define-a-role-collection-4b20383.md)\).
+
 
 
 <a name="loio0039cf082d3d43eba9200fe15647922a__section_vmx_l2s_cpb"/>
@@ -898,6 +901,28 @@ GlobalAccount\_Usage\_Reporting\_Viewer
 <td valign="top">
 
 uas!*<suffix\>*  
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Service Credentials Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Service\_Credentials\_Viewer 
+
+</td>
+<td valign="top">
+
+service-manager!*<suffix\>* 
 
 </td>
 </tr>

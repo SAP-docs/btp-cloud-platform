@@ -37,24 +37,33 @@ Learn how to configure the Keda module using the Keda CustomResourceDefinition \
           enabledSidecarInjection: true
     ```
 
--   To change the resource consumption, enter your preferred values for `operator` and `metricServer`. For example:
+-   To change the resource consumption, enter your preferred values for `operator`, `metricServer`, and `admissionWebhook`. For example:
 
     ```
+    spec:
       resources:
         operator:
           limits:
             cpu: "1"
             memory: "200Mi"
           requests:
-            cpu: "0.5"
+            cpu: "150m"
             memory: "150Mi"
         metricServer:
           limits:
             cpu: "1"
             memory: "1000Mi"
           requests:
-            cpu: "300m"
+            cpu: "150m"
             memory: "500Mi"
+        admissionWebhook:
+          limits:
+            cpu: "1"
+            memory: "1000Mi"
+          requests:
+            cpu: "50m"
+            memory: "800Mi"
+    
     ```
 
 

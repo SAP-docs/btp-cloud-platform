@@ -12,88 +12,12 @@ The version of Istio depends on the version of the Istio module that you use. If
 
 ## Compatibility Mode
 
-Compatibility mode allows you to revert certain changes in Istio's behavior, and it is recommended only when you encounter compatibility issues with the new version of Istio. The Istio module supports compatibility with the previous minor version of Istio. For example, for the version of the Istio module that contains Istio 1.21, you can apply a compatibility version of Istio 1.20. See [Compatibility Versions](https://istio.io/latest/docs/setup/additional-setup/compatibility-versions/).
+Compatibility mode allows you to revert certain changes in Istio's behavior, and it is recommended only when you encounter compatibility issues with the new version of Istio. The Istio module supports compatibility with the previous minor version of Istio. For example, for the version of the Istio module that contains Istio 1.24, you can apply a compatibility version of Istio 1.23. See [Compatibility Versions](https://istio.io/latest/docs/setup/additional-setup/compatibility-versions/).
 
 > ### Caution:  
 > You can use the compatibility mode to retain the behavior of the current Istio version before a new version of the Istio module with a higher version of Istio is released. Then, the compatibility is first set to a minor version lower than the one you are currently using. If this lower version’s behavior is not compatible with your current mesh setup, some configurations may be broken until the new release of the Istio module is rolled out.
 
 To enable compatibility mode, set the `spec.compatibilityMode` field in the Istio CR to *true*.
 
-When you set `spec.compatibilityMode: true`, the Istio module applies an opinionated subset of Istio `compatibilityVersion` variables. The compatibility version of Istio 1.22 includes the following Istio Pilot and Istio Proxy environment variables:
-
-**Compatibility Mode Istio Environment Variables**
-
-
-<table>
-<tr>
-<th valign="top">
-
-Istio Component
-
-</th>
-<th valign="top">
-
-Variable Name
-
-</th>
-<th valign="top">
-
-Value
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-Istio Pilot
-
-</td>
-<td valign="top">
-
-`ENABLE_DELIMITED_STATS_TAG_REGEX`
-
-</td>
-<td valign="top">
-
-*false*
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Istio Proxy
-
-</td>
-<td valign="top">
-
-`ENABLE_DEFERRED_CLUSTER_CREATION`
-
-</td>
-<td valign="top">
-
-*false*
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Istio Proxy
-
-</td>
-<td valign="top">
-
-`ENABLE_DELIMITED_STATS_TAG_REGEX`
-
-</td>
-<td valign="top">
-
-*false*
-
-</td>
-</tr>
-</table>
-
-To learn more about the changes that specific compatibility versions revert, follow [What's New notes](https://help.sap.com/whats-new/f0d108472a9347d99053658d05ae23e2?Component=Kyma+Runtime&locale=en-US&state=DRAFT&q=Istio+module:).
+When you set `spec.compatibilityMode: true`, the Istio module applies an opinionated subset of Istio `compatibilityVersion` variables. To learn more about the changes that specific compatibility versions revert, follow [What's New notes](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?q=Istio+module&locale=en-US&version=Cloud).
 

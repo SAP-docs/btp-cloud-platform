@@ -11,7 +11,7 @@ With the Kyma environment you can connect SAP BTP services to your cluster and m
 
 [Preconfigured Credentials and Access](preconfigured-credentials-and-access-ab106d7.md "When you create SAP BTP, Kyma runtime, all necessary resources for consuming SAP BTP services are created, and the basic cluster access is configured.")
 
-[Creating Service Instances and Service Bindings](creating-service-instances-and-service-bindings-17bd304.md "Create service instances and service bindings using Kyma dashboard or kubectl.")
+[Creating Service Instances and Service Bindings](creating-service-instances-and-service-bindings-17bd304.md "To use an SAP BTP service in your Kyma cluster, create its service instance and service binding using Kyma dashboard or kubectl.")
 
 [Working with Multiple Subaccounts](working-with-multiple-subaccounts-862dd6a.md "With the SAP BTP Operator module, you can create configurations for several subaccounts in a single Kyma cluster.")
 

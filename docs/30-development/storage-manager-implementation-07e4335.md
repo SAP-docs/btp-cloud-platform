@@ -6,9 +6,9 @@ The storage manager integrates the data archiving runtime with the actual storag
 
 The storage manager will be processed in the different steps of the data archiving process. Within the storage manager implementation, you have the full flexibility to choose which storage will be integrated. Possible options to integrate external storages already exist in ABAP Cloud:
 
--   [Via cloud connector for On-Premise integration](https://help.sap.com/docs/btp/sap-business-technology-platform/integrating-on-premise-systems?version=Cloud)
+-   [Via Cloud Connector for On-Premise integration](https://help.sap.com/docs/btp/sap-business-technology-platform/integrating-on-premise-systems?version=Cloud)
 
--   [Developing External Service Consumption \(Outbound Communication\)](developing-external-service-consumption-outbound-communication-f871712.md)
+-   [Outbound Communication](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/outbound-communication-48d3624d9f7d47d7ab712d110cb02d77)
 
 
 As a precondition for data archiving, you need to create a class which implements the interface `IF_ARCH_STORAGE_MANAGER`. This interface provides the following methods:

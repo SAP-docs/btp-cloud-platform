@@ -16,7 +16,7 @@ Once you’ve completed these development activities, the solution is ready to b
 
 ## Prerequisites
 
--   For ABAP development, you need a developer user using ABAP Development Tools. See [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
+-   For ABAP development, you need a developer user using ABAP development tools for Eclipse. See [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
 -   For UI development, you need a developer user using SAP Business Application Studio. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
 -   For custom code migration, you need a business user that is assigned the business role based on business role template `SAP_BR_IT_PROJECT_MANAGER`, and a communication arrangement instance for `SAP_COM_0464`. See [Custom Code Migration](../50-administration-and-ops/custom-code-migration-651ef65.md).
 

@@ -1,6 +1,6 @@
 <!-- loio69263dfde8814ed19646a68675bb5143 -->
 
-# Fiori Elements Integration
+# Fiori Elements Integration OData V2
 
 You can implement the reusable component from the *Reuse Library* in a `Fiori Elements` app in order to display an application log.
 

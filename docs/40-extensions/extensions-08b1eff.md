@@ -24,7 +24,19 @@ To get a full list of terms related to the extensibility and integration concept
 
 
 
-### Extending SAP Solutions
+<a name="loio08b1effc53634890a525f945017e2edc__section_uxx_xdg_ndc"/>
+
+## Registering and Deregistering Systems
+
+To connect a system with a global account in SAP BTP, you need to have the system listed in the *System* page.
+
+[Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md)
+
+
+
+<a name="loio08b1effc53634890a525f945017e2edc__section_xlp_ycg_ndc"/>
+
+## Extending SAP Solutions
 
 The extension capabilities of SAP BTP provide a standard way for extending SAP solutions and developing event-driven extensions and applications. This framework includes:
 

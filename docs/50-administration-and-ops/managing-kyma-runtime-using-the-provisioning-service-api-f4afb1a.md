@@ -166,3 +166,8 @@ curl -s -X DELETE "$PROVISIONING_SERVICE_URL/provisioning/v1/environments/$INSTA
 > ### Note:  
 > You can delete the runtime independently of the bindings. Existing bindings do not block the runtime deprovisioning.
 
+**Related Information**  
+
+
+[Account Administration Using APIs of the SAP Cloud Management Service](account-administration-using-apis-of-the-sap-cloud-management-service-17b6a17.md "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.")
+

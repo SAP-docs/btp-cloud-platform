@@ -83,11 +83,11 @@ Various distributions including *SapMachineJre* and *SapMachineJdk* provide stan
 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=<heap_dump_path> -XX:OnOutOfMemoryError='kill -9 %p'
 ```
 
--   **`-XX:+HeapDumpOnOutOfMemoryError`** is sufficient to trigger heap dump generation under a default path.
+-   **`-XX:+HeapDumpOnOutOfMemoryError`** triggers heap dump generation under a default path.
 
--   `-XX:HeapDumpPath` specifies *where* you want to specify the heap dump file.
+-   **`-XX:HeapDumpPath`** specifies *where* to specify the heap dump file.
 
--   `-XX:OnOutOfMemoryError` specifies *what command or script* you want to be run if OOM occurs. This command usually kills the process.
+-   **`-XX:OnOutOfMemoryError`** specifies *what command or script* to be run if OOM occurs. This command usually kills the process.
 
 
 The heap dump is generated and stored in an application container location. This means, it will be removed once the application instance container is restarted.
