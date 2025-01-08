@@ -40,6 +40,6 @@ With the creation of a metric provider, you register your metrics that are defin
 
     Set a higher priority for metric providers that you consider as more important than others. A higher priority ensures that the values for these metric providers are collected first by the application job. Make sure that metric providers that are dependent on the values of other metric providers have a lower priority than the metric providers on which they depend.
 
-5.  Leave the field *Scope Dependent* set to *Yes*.
+5.  Leave the field *Scope Dependent* set to *No*.
 
 

@@ -64,15 +64,7 @@ The registration process has the following states displayed in the cockpit:
 
 2.  On the *Systems* page, choose *Add System*.
 
-    1.  Enter a name for the system you want to register.
-
-        > ### Note:  
-        > Use only printable ASCII characters.
-
-        > ### Tip:  
-        > We recommend that you indicate the type of the system when specifying the system name. For example, <code><i class="varname">&lt;mysystem&gt;</i>-S/4HANA-cloud</code>. This helps you identify the system type when assigning systems to a formation.
-
-    2.  In the *Type* dropdown list, select the system type.
+    1.  In the *Type* dropdown list, select the system type.
 
         The following SAP Customer Experience systems are supported:
 
@@ -82,6 +74,14 @@ The registration process has the following states displayed in the cockpit:
 
         -   SAP Cloud for Customer
 
+
+    2.  Enter a name for the system you want to register.
+
+        > ### Note:  
+        > Use only printable ASCII characters.
+
+        > ### Tip:  
+        > We recommend that you indicate the type of the system when specifying the system name. For example, <code><i class="varname">&lt;mysystem&gt;</i>-S/4HANA-cloud</code>. This helps you identify the system type when assigning systems to a formation.
 
     3.  Choose *Add*.
 
@@ -103,7 +103,7 @@ The registration process has the following states displayed in the cockpit:
         The SAP Customer Experience system appears in the list of systems on the *Systems* page. Its *Status* field is empty because the registration process is not yet completed.
 
 
-3.  \(Recommended\) Follow the steps in [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md) before proceeding with the registration on the SAP Customer Experience side.
+3.  \(Recommended\) Follow the steps in [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md) before proceeding with the registration on the SAP Customer Experience side.
 
 4.  Configure the integration on the SAP Customer Experience system side. See [Extending SAP Customer Experience Products in the Kyma Environment](extending-sap-customer-experience-products-in-the-kyma-environment-83df31a.md).
 
@@ -125,5 +125,5 @@ Once you use the integration token to connect your SAP Customer Experience syste
 
 [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md "To connect an SAP system with a global account in SAP BTP, you need to register the system. You can also add and work with a third-party systems.")
 
-[Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md "When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.")
+[Deregister or Removе a System](deregister-or-remov-a-system-0c6f498.md "When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.")
 

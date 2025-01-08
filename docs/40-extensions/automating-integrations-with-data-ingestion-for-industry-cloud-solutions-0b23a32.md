@@ -1,6 +1,6 @@
 <!-- loio0b23a32acddc4750840f82fef9a87383 -->
 
-# Enabling Data Ingestion for Industry Cloud Solutions
+# Automating Integrations with Data Ingestion for Industry Cloud Solutions
 
 
 

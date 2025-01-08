@@ -22,6 +22,13 @@ With the automated configuration you have the following key benefits:
 -   A central repository for solutions' APIs, events, credentials, and other data, thereby ensuring easy access to services while creating your extensions
 
 
+You can also use dedicated formations that help you integrate automaticatically the SAP solution you want to extend with runtimes and tools you might need. See:
+
+-   [Setting Up System Landscape for Kyma](setting-up-system-landscape-for-kyma-9154051.md)
+-   [Setting Up System Landscape for SAP Build](setting-up-system-landscape-for-sap-build-6424311.md)
+-   [Setting Up System Landscape for SAP Integration Suite](setting-up-system-landscape-for-sap-integration-suite-a14c276.md)
+-   [Setting Up System Landscape for SAP Business Application Studio](setting-up-system-landscape-for-sap-business-application-studio-272ca23.md)
+
 
 
 <a name="loio346864df64f24011b49abee07bbd79af__section_tsg_vmf_nhb"/>
@@ -38,7 +45,7 @@ To enable the integration, you need to:
 
     -   For systems of type different than SAP S/4HANA Cloud, SAP Marketing Cloud, SAP SuccessFactors and SAP systems from the SAP Customer Experience portfolio, the SAP system is already registered when it's part of the *Systems* page. However, in the *Status* column, there is no status shown. See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
 
-    -   For third-party systems, the system is already registered when it's part of the *Systems* page. However, in the *Status* column, there is no status shown. See [Registering a Third-Party System](registering-a-third-party-system-5481d59.md).
+    -   For third-party systems, the system is already registered when it's part of the *Systems* page. However, in the *Status* column, there is no status shown. See [Register a Third-Party System](register-a-third-party-system-5481d59.md).
 
 
     > ### Note:  
@@ -48,7 +55,7 @@ To enable the integration, you need to:
 
 2.  Optional: Group SAP systems so that they can be extended in a business scenario at one go.
 
-    To do so, you create a formation containing one or more different systems assigned to a common subaccount. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
+    To do so, you create a formation containing one or more different systems assigned to a common subaccount. See [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md).
 
 3.  Make the SAP system accessible in the subaccounts in which you want to build your extension applications.
 

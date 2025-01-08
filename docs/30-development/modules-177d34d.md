@@ -333,9 +333,12 @@ CF application with SAP Fiori launchpad content
 </td>
 <td valign="top">
 
-This module type is **deprecated**.
+> ### Note:  
+> This module type is **deprecated**.
+> 
+> You have to use `com.sap.portal.content` instead.
 
-You have to use `com.sap.portal.content` instead.
+
 
 </td>
 <td valign="top">
@@ -584,7 +587,7 @@ To choose a `binary_buildpack`, define it by using the following:
 Module parameters have platform-specific semantics. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example, `${default-host}`.
 
 > ### Tip:  
-> It is also possible to declare metadata for parameters and properties defined in the MTA deployment description; the mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional; false`\) or can be modified `overwritable: true`.
+> It is also possible to declare metadata for parameters and properties defined in the MTA deployment description; the mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional: false`\) or can be modified `overwritable: true`.
 
 The following parameters are supported:
 
@@ -813,7 +816,7 @@ The name of the application in the Cloud Foundry environment to be deployed for 
 </td>
 <td valign="top">
 
-The module name with or without a name-space prefix
+The module name with or without a namespace prefix
 
 </td>
 <td valign="top">
@@ -910,7 +913,7 @@ Valid for blue-green deployment. Specify this parameter if you want the name of 
 </td>
 <td valign="top">
 
-The module name with or without a name-space prefix
+The module name with or without a namespace prefix
 
 </td>
 <td valign="top">
@@ -1352,7 +1355,7 @@ If the `health-check-type` parameter is set to `http`, the controller will do a 
 </td>
 <td valign="top">
 
-If health-check-type is set to `http`, the default value is `/`, otherwise there is no default value
+If `health-check-type` is set to `http`, the default value is `/`, otherwise there is no default value.
 
 </td>
 <td valign="top">

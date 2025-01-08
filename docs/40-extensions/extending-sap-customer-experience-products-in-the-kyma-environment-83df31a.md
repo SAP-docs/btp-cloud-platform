@@ -82,7 +82,7 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 </td>
 <td valign="top">
 
-[Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md)
+[Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md)
 
 </td>
 </tr>

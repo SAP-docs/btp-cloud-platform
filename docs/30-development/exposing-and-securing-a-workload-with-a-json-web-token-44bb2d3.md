@@ -1,6 +1,6 @@
 <!-- loio44bb2d3596554bf4b94ea344e40937dd -->
 
-# Expose and Secure a Workload with a JSON Web Token
+# Exposing and Securing a Workload with a JSON Web Token
 
 Learn how to expose a workload and secure it with a JSON Web Token \(JWT\). To get the token, create a client credentials application using SAP Cloud Identity Services - Identity Authentication.
 
@@ -10,14 +10,22 @@ Learn how to expose a workload and secure it with a JSON Web Token \(JWT\). To g
 
 ## Prerequisites
 
+-   You have the default Istio and API Gateway modules added.
+
+-   You have a workload deployed.
+
 -   You have an SAP Cloud Identity Services - Identity Authentication tenant.
 
 -   You have created an OpenID Connect Application in your Identity Authentication tenant. See [Create OpenID Connect Application for JWT Bearer Flow](https://help.sap.com/docs/identity-authentication/identity-authentication/configure-apps-create-openid-connect-application-for-jwt-bearer-flow?version=Cloud).
 
 -   You have configured a Secret for API Authentication and saved the values of Client ID and Client Secret. See [Configure Secrets for API Authentication](https://help.sap.com/docs/identity-authentication/identity-authentication/dev-configure-secrets-for-api-authentication?version=Cloud).
--   You have the default Istio and API Gateway modules in your cluster.
+-   You have [set up your custom domain](https://kyma-project.io/#/api-gateway/user/tutorials/01-10-setup-custom-domain-for-workload). Alternatively, you can use the default domain of your Kyma cluster and the default Gateway `kyma-system/kyma-gateway`.
 
--   You have a workload deployed.
+    > ### Note:  
+    > Because the default Kyma domain is a wildcard domain, which uses a simple TLS Gateway, it is recommended that you set up your custom domain for use in a production environment.
+
+    > ### Tip:  
+    > To learn what the default domain of your Kyma cluster is, run `kubectl get gateway -n kyma-system kyma-gateway -o jsonpath='{.spec.servers[0].hosts}`
 
 
 
@@ -92,107 +100,84 @@ You got a JWT that you can use to interact with a workload.
 
 <!-- loioc83ae5d38fee48f7a0aebd8833f4631d -->
 
-## Expose and Secure a Workload with a JWT Using Kyma Dashboard
+## Expose and Secure a Workload with a JWT
 
 Use Kyma dashboard to expose a workload and secure it with a JWT.
 
 
 
-<a name="loioc83ae5d38fee48f7a0aebd8833f4631d__steps_sk5_xwq_1bc"/>
+<a name="loioc83ae5d38fee48f7a0aebd8833f4631d__steps-unordered_bdn_n5f_xdc"/>
 
 ## Procedure
 
-1.  Create a namespace.
+-   Use Kyma dashboard.
 
-2.  Go to *Discovery and Network**→ API Rules* and select *Create*.
+    1.  Create a namespace.
 
-3.  Provide the following configuration details:
+    2.  Go to *Discovery and Network**→ API Rules* and select *Create*.
+
+    3.  Choose the name for the APIRule CR.
+
+    4.  Add the name and port of the service you want to expose.
+
+    5.  Add the Gateway.
+
+    6.  Add a host in format \{SUBDOMAIN\}.\{YOUR\_DOMAIN\}.
+
+    7.  Add a rule with the following configuration:
+
+        -   `Path`: */.\**
+        -   `Access Strategy Handler`: *jwt*
+        -   `Methods`: *GET*
+
+    8.  To access the secured service, call it using the JWT.
+
+        ```
+        curl -ik https://{SUBDOMAIN}.{YOUR_DOMAIN}/headers -H "Authorization: Bearer $ACCESS_TOKEN"
+        ```
+
+        This call returns the `200 OK` response code.
 
 
-    <table>
-    <tr>
-    <th valign="top">
+-   Use kubectl.
 
-    Parameter
-    
-    </th>
-    <th valign="top">
+    1.  To expose and secure your workload, create the APIRule in your namespace.
 
-    Value
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Name*
-    
-    </td>
-    <td valign="top">
-    
-    `httpbin`
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Service Name*
-    
-    </td>
-    <td valign="top">
-    
-    `httpbin`
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Port*
-    
-    </td>
-    <td valign="top">
-    
-    `8000`
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Host*
-    
-    </td>
-    <td valign="top">
-    
-    `httpbin.{DOMAIN_TO_EXPOSE_WORKLOADS}`
+        Replace all placeholders and run the following command. In the `jwks_uri` section, add your JSON Web Key Set URIs.
 
-    Replace `{DOMAIN_TO_EXPOSE_WORKLOADS}` with the name of your domain.
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    *Access Strategy Handler*
-    
-    </td>
-    <td valign="top">
-    
-    `jwt`
-    
-    </td>
-    </tr>
-    </table>
-    
-4.  To access the secured service, call it using the JWT.
+        ```
+        cat <<EOF | kubectl apply -f -
+        apiVersion: gateway.kyma-project.io/v1beta1
+        kind: APIRule
+        metadata:
+          name: {APIRULE_NAME}
+          namespace: {APIRULE_NAMESPACE}
+        spec:
+          host: {SUBDOMAIN}.{YOUR_DOMAIN}   
+          service:
+            name: {SERVICE_NAME}
+            port: {SERVICE_PORT}
+          gateway: {GATEWAY_NAME}/{GATEWAY_NAMESPACE}
+          rules:
+            - accessStrategies:
+              - handler: jwt
+                config:
+                  jwks_urls:
+                  - {JWKS_URI}
+              methods:
+                - GET
+              path: /.*
+        EOF
+        ```
 
-    ```
-    curl -ik https://httpbin.$DOMAIN_TO_EXPOSE_WORKLOADS/headers -H "Authorization: Bearer $ACCESS_TOKEN"
-    ```
+    2.  To access the secured service, call it using the JWT.
 
-    This call returns the `200 OK` response code.
+        ```
+        curl -ik https://{SUBDOMAIN}.{YOUR_DOMAIN}/headers -H "Authorization: Bearer $ACCESS_TOKEN"
+        ```
+
+        This call returns the `200 OK` response code.
+
 
 
 

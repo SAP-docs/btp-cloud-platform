@@ -12,7 +12,7 @@ Enable the Kyma environment with a custom identity provider \(IdP\).
 
 -   Install [kubectl oidc-login](https://github.com/int128/kubelogin). This is also needed when you log in to Kyma dashboard, as the dashboard uses the kubeconfig file, and it requires the kubectl oidc-login tool to work.
 
--   If you choose to use SAP Cloud Identity Services as custom IdP, you have configured your tenant as OICD provider for your Kyma cluster. For details, see [Configure OpenID Connect Application for Authorization Code Flow](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/auth-code-configure-openid-connect-application-for-authorization-code-flow?version=Cloud).
+-   If you choose to use SAP Cloud Identity Services as custom IdP, you have configured your tenant as OpenID Connect \(OIDC\) provider for your Kyma cluster. For details, see [Configure OpenID Connect Application for Authorization Code Flow](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/auth-code-configure-openid-connect-application-for-authorization-code-flow?version=Cloud).
 
 -   Configure the Kyma dashboard URL \(`https://dashboard.kyma.cloud.sap`\) and the localhost for kubectl authentication \(`http://localhost:8000`\) as allowed callback URLs at your IdP provider, so that authenticated users can be redirected back to the Kyma application. See [Redirect URIs, Post Logout Redirect URI Rules](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/redirect-uris-post-logout-redirect-uri-rules?version=Cloud).
 

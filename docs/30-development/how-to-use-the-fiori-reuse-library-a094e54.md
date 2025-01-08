@@ -6,5 +6,5 @@ You can use the *Reuse Library* to implement a reusable component that can displ
 
 For more information on how to use the Fiori reuse library in a freestyle app, see [Freestyle App Integration](freestyle-app-integration-f0fdb1a.md).
 
-For more information on how to use the Fiori reuse library in a Fiori elements app, see [Fiori Elements Integration OData V2](fiori-elements-integration-odata-v2-69263df.md).
+For more information on how to use the Fiori reuse library in a Fiori elements app, see [Fiori Elements Integration OData V2](fiori-elements-integration-odata-v2-69263df.md) \(for OData V2 apps\) and [Fiori Elements Integration OData V4](fiori-elements-integration-odata-v4-08b3a2f.md) \(for OData V4 apps\).
 

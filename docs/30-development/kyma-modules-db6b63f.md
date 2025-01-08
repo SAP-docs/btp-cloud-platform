@@ -155,7 +155,7 @@ Application Connector allows you to connect with external solutions. No matter i
 </td>
 <td valign="top">
 
--   [kyma-project.io: What is Application Connectivity in Kyma?](https://kyma-project.io/#/application-connector-manager/user/README)
+-   [Application Connector Module](application-connector-module-4dadebe.md)
 -   [GitHub repository: Application Connector Manager](https://github.com/kyma-project/application-connector-manager) 
 
 

@@ -47,7 +47,7 @@ Depending on your use case, there are different templates that help you set up t
 
 ## Prerequisites
 
-You have a system of type *Other System Type* or *SAP BTP Application* listed in the *Systems* page of your global account in SAP BTP. See [Registering a Third-Party System](registering-a-third-party-system-5481d59.md).
+You have a system of type *Other System Type* or *SAP BTP Application* listed in the *Systems* page of your global account in SAP BTP. See [Register a Third-Party System](register-a-third-party-system-5481d59.md).
 
 
 

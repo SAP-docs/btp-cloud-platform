@@ -506,6 +506,194 @@ Microsoft Azure
 </td>
 <td valign="top">
 
+ap20
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+cf-ap20
+
+</td>
+<td valign="top">
+
+australiaeast
+
+</td>
+<td valign="top">
+
+20.211.81.46, 20.70.213.77, 20.211.46.196
+
+</td>
+<td valign="top">
+
+api.cf.ap20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ap20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://apac.cockpit.btp.cloud.sap/](https://apac.cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+ap21
+
+</td>
+<td valign="top">
+
+Singapore
+
+</td>
+<td valign="top">
+
+cf-ap21
+
+</td>
+<td valign="top">
+
+southeastasia
+
+</td>
+<td valign="top">
+
+20.6.9.203, 20.198.169.36, 20.195.25.14
+
+</td>
+<td valign="top">
+
+api.cf.ap21.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ap21.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://apac.cockpit.btp.cloud.sap/](https://apac.cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+br20
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
+
+</td>
+<td valign="top">
+
+cf-br20
+
+</td>
+<td valign="top">
+
+brazilsouth
+
+</td>
+<td valign="top">
+
+74.163.88.199, 191.235.112.28, 20.197.249.147
+
+</td>
+<td valign="top">
+
+api.cf.br20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+br20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://amer.cockpit.btp.cloud.sap/](https://amer.cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+ch20
+
+</td>
+<td valign="top">
+
+Switzerland \(Zurich\) Azure EU Access
+
+</td>
+<td valign="top">
+
+cf-ch20
+
+</td>
+<td valign="top">
+
+switzerlandnorth
+
+</td>
+<td valign="top">
+
+172.162.240.234, 51.107.40.177, 51.103.221.23
+
+</td>
+<td valign="top">
+
+api.cf.ch20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ch20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://eu-access.cockpit.btp.cloud.sap/](https://eu-access.cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
 eu20
 
 </td>
@@ -557,42 +745,42 @@ Microsoft Azure
 </td>
 <td valign="top">
 
-ch20
+jp20
 
 </td>
 <td valign="top">
 
-Switzerland \(Zurich\) Azure EU Access
+Japan \(Tokyo\)
 
 </td>
 <td valign="top">
 
-cf-ch20
+cf-jp20
 
 </td>
 <td valign="top">
 
-switzerlandnorth
+japaneast
 
 </td>
 <td valign="top">
 
-172.162.240.234, 51.107.40.177, 51.103.221.23
+20.78.124.111, 20.63.141.36, 20.78.37.7
 
 </td>
 <td valign="top">
 
-api.cf.ch20.hana.ondemand.com
+api.cf.jp20.hana.ondemand.com
 
 </td>
 <td valign="top">
 
-ch20.hana.ondemand.com
+jp20.hana.ondemand.com
 
 </td>
 <td valign="top">
 
-[https://eu-access.cockpit.btp.cloud.sap/](https://eu-access.cockpit.btp.cloud.sap/) 
+[https://apac.cockpit.btp.cloud.sap/](https://apac.cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -693,12 +881,12 @@ us21.hana.ondemand.com
 <tr>
 <td valign="top">
 
-Microsoft Azure
+Google Cloud
 
 </td>
 <td valign="top">
 
-ap20
+ap30
 
 </td>
 <td valign="top">
@@ -708,126 +896,32 @@ Australia \(Sydney\)
 </td>
 <td valign="top">
 
-cf-ap20
+cf-ap30
 
 </td>
 <td valign="top">
 
-australiaeast
+australia-southeast1
 
 </td>
 <td valign="top">
 
-20.211.81.46, 20.70.213.77, 20.211.46.196
+34.40.134.54, 35.244.118.182, 35.189.59.175, 35.244.102.155, 35.244.118.9, 34.116.93.234
 
 </td>
 <td valign="top">
 
-api.cf.ap20.hana.ondemand.com
+api.cf.ap30.hana.ondemand.com
 
 </td>
 <td valign="top">
 
-ap20.hana.ondemand.com
+ap30.hana.ondemand.com
 
 </td>
 <td valign="top">
 
-[https://apac.cockpit.btp.cloud.sap/](https://apac.cockpit.btp.cloud.sap/) 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Microsoft Azure
-
-</td>
-<td valign="top">
-
-ap21
-
-</td>
-<td valign="top">
-
-Singapore
-
-</td>
-<td valign="top">
-
-cf-ap21
-
-</td>
-<td valign="top">
-
-southeastasia
-
-</td>
-<td valign="top">
-
-20.6.9.203, 20.198.169.36, 20.195.25.14
-
-</td>
-<td valign="top">
-
-api.cf.ap21.hana.ondemand.com
-
-</td>
-<td valign="top">
-
-ap21.hana.ondemand.com
-
-</td>
-<td valign="top">
-
-[https://apac.cockpit.btp.cloud.sap/](https://apac.cockpit.btp.cloud.sap/) 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Microsoft Azure
-
-</td>
-<td valign="top">
-
-jp20
-
-</td>
-<td valign="top">
-
-Japan \(Tokyo\)
-
-</td>
-<td valign="top">
-
-cf-jp20
-
-</td>
-<td valign="top">
-
-japaneast
-
-</td>
-<td valign="top">
-
-20.78.124.111, 20.63.141.36, 20.78.37.7
-
-</td>
-<td valign="top">
-
-api.cf.jp20.hana.ondemand.com
-
-</td>
-<td valign="top">
-
-jp20.hana.ondemand.com
-
-</td>
-<td valign="top">
-
-[https://apac.cockpit.btp.cloud.sap/](https://apac.cockpit.btp.cloud.sap/) 
+[https://apac.cockpit.btp.cloud.sap/](https://apac.cockpit.btp.cloud.sap/)
 
 </td>
 </tr>

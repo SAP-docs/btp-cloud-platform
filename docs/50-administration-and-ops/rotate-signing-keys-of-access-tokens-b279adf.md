@@ -2,28 +2,22 @@
 
 # Rotate Signing Keys of Access Tokens
 
-Components of the Cloud Foundry environment use the digital signature of the access tokens to verify the validity of access tokens. Periodically rotate the signing keys of access tokens.
-
-
-
-<a name="loiob279adf3ec134b2a8611a42bff1ee9d9__context_m1d_3s2_ndc"/>
-
-## Context
+Components of SAP BTP use the digital signature of the access tokens to verify the validity of access tokens. Periodically rotate the signing keys of access tokens \(see [Security Recommendations for SAP Authorization and Trust Management Service](../60-security/security-recommendations-for-sap-authorization-and-trust-management-service-0578b80.md)\).
 
 **Related Information**  
 
 
-[Rotate Signing Keys of Access Tokens with the SAP BTP CLI](rotate-signing-keys-of-access-tokens-b279adf.md#loio8e15b59efbd846de990a9207b45ac71d "The SAP BTP CLI enables you to rotate the signing keys of access tokens.")
+[Manually Rotate Signing Keys of Access Tokens with the SAP BTP CLI](rotate-signing-keys-of-access-tokens-b279adf.md#loio8e15b59efbd846de990a9207b45ac71d "The SAP BTP CLI enables you to manually rotate the signing keys of access tokens.")
 
-[Rotate Signing Keys of Access Tokens with the Security Setting API](rotate-signing-keys-of-access-tokens-b279adf.md#loiodb9daade18d04bfbb4b03fca11dbd349 "You can use the Security Setting API of the SAP Authorization and Trust Management service to rotate the signing keys of access tokens .")
+[Manually Rotate Signing Keys of Access Tokens with the Security Setting API](rotate-signing-keys-of-access-tokens-b279adf.md#loiodb9daade18d04bfbb4b03fca11dbd349 "You can use the Security Setting API of the SAP Authorization and Trust Management service to manually rotate the signing keys of access tokens.")
 
 <a name="loio8e15b59efbd846de990a9207b45ac71d"/>
 
 <!-- loio8e15b59efbd846de990a9207b45ac71d -->
 
-## Rotate Signing Keys of Access Tokens with the SAP BTP CLI
+## Manually Rotate Signing Keys of Access Tokens with the SAP BTP CLI
 
-The SAP BTP CLI enables you to rotate the signing keys of access tokens.
+The SAP BTP CLI enables you to manually rotate the signing keys of access tokens.
 
 
 
@@ -143,9 +137,9 @@ For more information, see [Managing Signing Keys for Access Tokens](managing-sig
 
 <!-- loiodb9daade18d04bfbb4b03fca11dbd349 -->
 
-## Rotate Signing Keys of Access Tokens with the Security Setting API
+## Manually Rotate Signing Keys of Access Tokens with the Security Setting API
 
-You can use the Security Setting API of the SAP Authorization and Trust Management service to rotate the signing keys of access tokens .
+You can use the Security Setting API of the SAP Authorization and Trust Management service to manually rotate the signing keys of access tokens.
 
 
 

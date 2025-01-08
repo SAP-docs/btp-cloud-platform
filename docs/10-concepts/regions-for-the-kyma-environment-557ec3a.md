@@ -643,6 +643,38 @@ Enterprise account
 </td>
 <td valign="top">
 
+us11
+
+</td>
+<td valign="top">
+
+Amazon Web Services
+
+</td>
+<td valign="top">
+
+cf-us11
+
+</td>
+<td valign="top">
+
+US West \(Oregon\)
+
+</td>
+<td valign="top">
+
+`aws` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
 us30
 
 </td>
@@ -1089,12 +1121,12 @@ Singapore
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="13">
+<td valign="top" rowspan="14">
 
 Amazon Web Services
 
 </td>
-<td valign="top" rowspan="11">
+<td valign="top" rowspan="12">
 
 `aws`
 
@@ -1227,6 +1259,18 @@ Singapore
 <td valign="top">
 
 Australia \(Sydney\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`us-west-2`
+
+</td>
+<td valign="top">
+
+US West \(Oregon\)
 
 </td>
 </tr>

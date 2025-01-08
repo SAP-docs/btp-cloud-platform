@@ -48,7 +48,7 @@ In the SAP BTP cockpit, you get a comprehensive overview of all your systems ass
 
 See:
 
--   [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md)
+-   [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md)
 
 -   [Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment](extending-sap-s-4hana-cloud-in-the-cloud-foundry-and-kyma-environment-40b9e6c.md)
 

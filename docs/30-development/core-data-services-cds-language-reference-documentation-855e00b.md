@@ -1,6 +1,6 @@
 <!-- loio855e00bd559742a3b8276fbed4af1008 -->
 
-# Core Data and Services \(CDS\) Language Reference Documentation
+# Core Data Services \(CDS\) Language Reference Documentation
 
 CDS is the backbone of the SAP Cloud Application Programming Model \(CAP\). It provides the means to declaratively capture service definitions and data models, queries, and expressions in plain \(JavaScript\) object notations. CDS features to parse from a variety of source languages and to compile them into various target languages.
 

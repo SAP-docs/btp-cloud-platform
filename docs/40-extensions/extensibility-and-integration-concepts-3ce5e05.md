@@ -1,6 +1,6 @@
 <!-- loio3ce5e05f7a1c48ebbad828c8f5d1c8d7 -->
 
-# Extensibility Concepts
+# Extensibility and Integration Concepts
 
 When implementing your extensibility scenario, there are a couple of concepts you need to understand to be able to benefit from the functionality that SAP BTP offers.
 
@@ -132,15 +132,15 @@ You can configure the communication scenario groups when registering an SAP S/4H
 
 **Merging**
 
-You have added your SAP systems manually at a given point in time and you have registered them. Then, you notice that you have the exact same systems in the list in the *Systems* page only this time they are auto-discovered and are not registered. To avoid duplicates and streamline the list of systems, you can merge the auto-discovered SAP systems with your manually added systems. The logic automatically detects duplicates based on their URL and system type. Note that you can only merge auto-discovered SAP systems without assigned status in a target system that has already been registered. That is, you cannot merge registered auto-discovered systems. See [Merging SAP Systems](merging-sap-systems-5592d86.md).
+You have added your SAP systems manually at a given point in time and you have registered them. Then, you notice that you have the exact same systems in the list in the *Systems* page only this time they are auto-discovered and are not registered. To avoid duplicates and streamline the list of systems, you can merge the auto-discovered SAP systems with your manually added systems. The logic automatically detects duplicates based on their URL and system type. Note that you can only merge auto-discovered SAP systems without assigned status in a target system that has already been registered. That is, you cannot merge registered auto-discovered systems. See [Mergе SAP Systems](merg-sap-systems-5592d86.md).
 
 **Deregistering**
 
-Deregistering a system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established. You can deregister a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the *System* list. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
+Deregistering a system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established. You can deregister a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the *System* list. See [Deregister or Removе a System](deregister-or-remov-a-system-0c6f498.md).
 
 **Removing**
 
-Removing a system means that this system is no longer part of the system landscape list. To remove a system from the list, first you have to deregister it. You can remove a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the *System* list. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
+Removing a system means that this system is no longer part of the system landscape list. To remove a system from the list, first you have to deregister it. You can remove a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the *System* list. See [Deregister or Removе a System](deregister-or-remov-a-system-0c6f498.md).
 
 You can see the discovery mechanism and access all the actions related to the systems listed in the SAP BTP cockpit, in *System Landscape* \> *Systems*. See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
 
@@ -184,7 +184,7 @@ A consumption bundle can group logically a set of events for communication with 
 
 ### Types
 
-The formation type defines the use case. Therefore, depending on the use case, you have different formation types. To a get a list of the available formation types, see [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
+The formation type defines the use case. Therefore, depending on the use case, you have different formation types. To a get a list of the available formation types, see [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md).
 
 
 
@@ -237,5 +237,5 @@ Detach the systems, unassign the subaccount, and delete the formation at one go.
 
 When you start a formation deletion process, first the systems are excluded from the formation, then, the subaccount is unassigned, and last, the formation is deleted from the list completely.
 
-You can create and configure formations in the SAP BTP cockpit, in *System Landscape* \> *Formations*. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
+You can create and configure formations in the SAP BTP cockpit, in *System Landscape* \> *Formations*. See [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md).
 

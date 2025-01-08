@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Deregistering or Removing a System
+# Deregister or Removе a System
 
 When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.
 

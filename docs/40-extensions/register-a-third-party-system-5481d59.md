@@ -1,6 +1,6 @@
 <!-- loio5481d594718f44c1ad7a63d154c342fd -->
 
-# Registering a Third-Party System
+# Register a Third-Party System
 
 To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to add this system to the **Systems** page.
 
@@ -45,15 +45,15 @@ When you have this system added in the *Systems* page, you can select it and ope
 
 3.  In the *Add System* wizard:
 
-    1.  Enter a name for the system you want to register.
+    1.  In the *Type* dropdown list, select *Other System Type*.
+
+    2.  Enter a name for the system you want to register.
 
         > ### Note:  
         > Use only printable ASCII characters.
 
         > ### Tip:  
         > We recommend that you indicate the type of the system when specifying the system name. For example, <code><i class="varname">&lt;mysystem&gt;</i>-google-workspace</code>.
-
-    2.  In the *Type* dropdown list, select *Other System Type*.
 
     3.  In the *System Type Name* field, enter the type of your system. This is a user-defined type of the system you want to add. For example, *Workspace*.
 
@@ -127,5 +127,5 @@ When you have this system added in the *Systems* page, you can select it and ope
 
 The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit and you have added the respective APIs or events.
 
-If you no longer need it, you can remove the system depending on its status. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
+If you no longer need it, you can remove the system depending on its status. See [Deregister or Removе a System](deregister-or-remov-a-system-0c6f498.md).
 

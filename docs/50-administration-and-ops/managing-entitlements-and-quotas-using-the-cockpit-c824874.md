@@ -8,8 +8,12 @@ An entitlement equals your right to provision and consume a resource. A quota re
 
 Entitlements are managed at the global account level, where services plans and their allowed quota are distributed to subaccounts, and then consumed by the subaccounts. When quota is freed at the subaccount level, it becomes available again at the global account level.
 
+Optionally, you can assign service plans and quota from the global account to directories, and from there distribute these assignments to subaccounts under the directory. Before you can assign plans and quota to a directory, the directory must first be configured to manage entitlements. See [Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md). When quota is freed at the subaccount level, it becomes available again at the directory level.
+
 > ### Note:  
-> Only global account administrators can configure entitlements and quotas for subaccounts.
+> Only global account administrators can configure entitlements and quotas for subaccounts and managed directories.
+> 
+> Note that if you're assigning plans to a subaccount that is under a managed directory that also has the user management feature enabled, then you must be either the directory administrator or a global account administrator.
 
 There are two places in the SAP BTP cockpit where you can view entitlements and assign service plans and quotas for subaccounts - at the global account level and at the subaccount level. Depending on your permissions, you may only have access to one of these pages. You can find more details below:
 
@@ -113,13 +117,6 @@ Subaccount members \(regardless of whether they are also global account administ
 </td>
 </tr>
 </table>
-
-> ### Note:  
-> You can also assign service plans to directories. These directories must be configured to manage entitlements. See [Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md).
-> 
-> To assign plans to managed directories you must a global account administrator.
-> 
-> Similarly, if you're assigning plans to a subaccount that is under a directory that has the user management feature enabled, then you must be the directory administrator or a global account administrator.
 
 The *Entitlements* \> *Entity Assignments* is where you view and edit assignments and quota from the perspective of subaccounts and directories. This page contains these views \(tabs\):
 

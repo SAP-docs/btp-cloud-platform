@@ -1,6 +1,6 @@
 <!-- loio915405167207476d8f2798256db964bb -->
 
-# Enabling Side-by-Side Extensibility with Kyma
+# Setting Up System Landscape for Kyma
 
 
 

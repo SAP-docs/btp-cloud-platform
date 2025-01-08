@@ -21,9 +21,6 @@ To use an SAP BTP service in your Kyma cluster, create its service instance and 
     To find the service and service plan names, in the SAP BTP cockpit, go to *Services* \> *Service Marketplace*. Click on the service tile and find its *name* and *Plan*.
 
 
-> ### Note:  
-> You can use [SAP BTP kubectl plugin](https://github.com/SAP/sap-btp-service-operator#sap-btp-kubectl-plugin-experimental) to get the available services in your SAP BTP account by using the access credentials stored in the cluster. However, the plugin is still experimental.
-
 <a name="task_tps_kqw_ycc"/>
 
 <!-- task\_tps\_kqw\_ycc -->

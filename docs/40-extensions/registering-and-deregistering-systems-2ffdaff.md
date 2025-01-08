@@ -86,7 +86,9 @@ If the registration error persists, report a case in one of the following compon
 
 3.  In the *Add System* wizard:
 
-    1.  Enter a name for the system you want to register.
+    1.  In the *Type* dropdown list, select the system type.
+
+    2.  Enter a name for the system you want to register.
 
         > ### Note:  
         > Use only printable ASCII characters.
@@ -94,13 +96,11 @@ If the registration error persists, report a case in one of the following compon
         > ### Tip:  
         > We recommend that you indicate the type of the system when specifying the system name. For example, <code><i class="varname">&lt;mysystem&gt;</i>-commerce-cloud</code>. This helps you identify the system type when assigning systems to a formation.
 
-    2.  In the *Type* dropdown list, select the system type.
-
     3.  Choose *Add*.
 
     4.  For systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, choose *Get Token*.
 
-        The system generates the registration token.
+        A registration token is generated for this system.
 
         Systems of type different than SAP SuccessFactors, SAP S/4HANA Cloud and SAP systems from the SAP Customer Experience portfolio don't need a registration token, they are automatically registered when added to the *Systems* page. Their status is empty but you can consider them as registered.
 
@@ -140,9 +140,9 @@ The system has been added as a record to the list on the *Systems* page in the S
     -   For systems of type other than *SAP S/4HANA Cloud*, *SAP Marketing Cloud* and *SAP SuccessFactors* and SAP systems from the SAP Customer Experience portfolio, after adding these systems in the *Systems* list, you can directly include them in a formation.
 
 
-    See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
+    See [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md).
 
--   If you no longer need it, you can deregister or remove the system depending on its status. See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
+-   If you no longer need it, you can deregister or remove the system depending on its status. See [Deregister or Removе a System](deregister-or-remov-a-system-0c6f498.md).
 
 
 
@@ -151,7 +151,7 @@ The system has been added as a record to the list on the *Systems* page in the S
 
 You add a third-party system to the list in the *System Landscape* \> *Systems* page. At this point you provide all the required details for this system: its type, provider, URL, and system ID. For third-party systems, this completes the registration process and you have your third-party system registered with SAP BTP. Even though the third-party system is registered directly, no status is displayed.
 
-See [Registering a Third-Party System](registering-a-third-party-system-5481d59.md).
+See [Register a Third-Party System](register-a-third-party-system-5481d59.md).
 
 
 
@@ -161,7 +161,7 @@ See [Registering a Third-Party System](registering-a-third-party-system-5481d59.
 
 Deregistering an SAP or third-party system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established, while removing a system means that this system is no longer part of the system landscape list. You can deregister or remove a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list.
 
-See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md).
+See [Deregister or Removе a System](deregister-or-remov-a-system-0c6f498.md).
 
 
 
@@ -171,7 +171,7 @@ See [Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f
 
 If you have already added these systems manually at a given point in time and you have registered them, the auto-discovered systems might create duplicate entries in the list. To avoid duplicates and streamline the list of systems, you can merge automatically the auto-discovered SAP systems with your manually added systems.
 
-See [Merging SAP Systems](merging-sap-systems-5592d86.md).
+See [Mergе SAP Systems](merg-sap-systems-5592d86.md).
 
 **Related Information**  
 
@@ -184,7 +184,7 @@ See [Merging SAP Systems](merging-sap-systems-5592d86.md).
 
 [Extending SAP Customer Experience Products in the Kyma Environment](extending-sap-customer-experience-products-in-the-kyma-environment-83df31a.md "You can configure the integration between SAP BTP and SAP Customer Experience automatically to extend SAP Customer Experience products with applications running on the cloud platform.")
 
- <?sap-ot O2O class="- topic/link " href="be85ce07823844848183a63c1bb15d17.xml" text="" desc="" xtrc="link:5" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/2ffdaff0f1454acdb046876045321c91.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[Register an SAP Integrated Business Planning System in a Global Account in SAP BTP](register-an-sap-integrated-business-planning-system-in-a-global-account-in-sap-btp-be85ce0.md "To connect an SAP Integrated Business Planning system with a global account in SAP BTP, you need to register the system in the corresponding global account.")
 
-[Registering a Third-Party System](registering-a-third-party-system-5481d59.md "To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to add this system to the Systems page.")
+[Register a Third-Party System](register-a-third-party-system-5481d59.md "To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to add this system to the Systems page.")
 

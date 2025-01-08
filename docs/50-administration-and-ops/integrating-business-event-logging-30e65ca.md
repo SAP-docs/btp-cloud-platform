@@ -8,7 +8,7 @@
 
 ## Context
 
-There are three integration scenarios supporting data flow from Business Event Logging to the target systems:
+There are two integration scenarios supporting data flow from Business Event Logging to the target systems:
 
 -   SAP\_COM\_0A54: This integration scenario is for data federation/extraction from Business Event Logging to target systems.
 

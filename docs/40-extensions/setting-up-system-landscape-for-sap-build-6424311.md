@@ -1,6 +1,6 @@
 <!-- loio642431173d3c4fabb7f5a155836903be -->
 
-# Enabling System Landscape for SAP Build
+# Setting Up System Landscape for SAP Build
 
 
 
@@ -12,6 +12,9 @@
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
 A registered SAP S/4HANA Cloud system in the SAP BTP cockpit can expose consumption bundles that contain APIs and events. You can easily discover and consume the APIs exposed by the SAP S/4HANA Cloud systems in your system landscape when you develop and extend applications on SAP BTP, Cloud Foundry environment, using SAP Build. To do this, first you need to enable connectivity between your system landscape in SAP BTP cockpit and SAP Build. The integration requires performing several configuration steps starting with configuration on a global account level, and then, configuration on a subaccount level.
+
+> ### Note:  
+> This documentation refers to SAP S/4HANA Cloud Public Edition. See [Introduction to the Universe of SAP S/4HANA Cloud Public Edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).
 
 
 
@@ -41,7 +44,7 @@ The following procedure outlines the steps you need to perform to consume the AP
     > ### Note:  
     > In the formation type *Integration with SAP Build*, you can include only SAP systems of type *SAP Build* and *SAP S/4HANA Cloud*.
 
-    To enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *Systems* page of SAP BTP cockpit and SAP Build, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
+    To enable connectivity between given SAP systems of type *SAP S/4HANA Cloud* from the *Systems* page of SAP BTP cockpit and SAP Build, you must create a formation of the corresponding type and include the SAP S/4HANA Cloud systems in it. See [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md).
 
 3.  Create a destination and make sure it has the corresponding system and consumption bundle properties.
 

@@ -13,8 +13,6 @@ Kyma does not provide backup, neither for objects nor volumes, that can replace 
 
 
 
-
-
 <a name="loioab959cfbd07b46af97aecfd6577bfb10__section_dvs_k5q_ssb"/>
 
 ## Object Backup for Kubernetes Configuration
@@ -45,6 +43,8 @@ Your customer data isn't backed up automatically. If you're using Kubernetes vol
 
 **Related Information**  
 
+
+[Creating On-Demand Volume Snapshots](creating-on-demand-volume-snapshots-889bce3.md "")
 
 [Change Storage Size in Kyma](change-storage-size-in-kyma-027f5e2.md "If the amount of data for the applications in your Kyma environment grows, you can expand the storage size for your customer data by resizing the respective Persistent Volume Claim (PVC).")
 

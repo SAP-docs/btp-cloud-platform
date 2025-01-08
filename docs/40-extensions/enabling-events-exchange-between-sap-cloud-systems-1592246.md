@@ -14,7 +14,7 @@
 Systems that are included in *Eventing Between SAP Cloud Systems* formations on the *System Landscape* page of the SAP BTP cockpit can publish and consume events. The process of publishing and consuming events is in fact an exchange of event information across the customer system landscape and is driven by the system formations on the one hand side and the SAP Cloud Application Event Hub on the other.
 
 > ### Note:  
-> By creating a formation of type *Eventing Between SAP Cloud Systems*, you understand that there may be event distribution charges incurred if you exceed the free quota limit when using SAP Cloud Application Event Hub. To learn more about usage and consumption costs, see [Usage and Consumption Costs](https://help.sap.com/docs/event-broker/event-broker-service-guide/usage-and-consumption-costs?version=Cloud).
+> By creating a formation of type *Eventing Between SAP Cloud Systems*, keep in mind that there may be event distribution charges incurred if you exceed the free quota limit when using SAP Cloud Application Event Hub. To learn more about usage and consumption costs, see [Usage and Consumption Costs](https://help.sap.com/docs/event-broker/event-broker-service-guide/usage-and-consumption-costs?version=Cloud).
 
 
 
@@ -74,12 +74,12 @@ The following procedure outlines the steps you need to perform to enable the exc
 
     2.  In the *Formation Type* dropdown menu, select *Eventing Between SAP Cloud Systems*.
 
-    3.  Select the systems that you want to include in the formation. One of these systems must be of type *SAP Cloud Application Event Hub*.
+    3.  Select the systems that you want to include in the formation. One of these systems must be of type *SAP Event Broker*.
 
         > ### Note:  
         > Systems can only be added to one formation of type *Eventing Between SAP Cloud Systems* in a global account.
         > 
-        > Also, a formation of type *Eventing Between SAP Cloud Systems* can contain only one system of type *SAP Cloud Application Event Hub*.
+        > Also, a formation of type *Eventing Between SAP Cloud Systems* can contain only one system of type *SAP Event Broker*.
 
     4.  Review your selections and create the formation.
 

@@ -84,15 +84,15 @@ The registration process has the following states displayed in the cockpit:
 
 2.  On the *Systems* page, choose *Add System*.
 
-    1.  Enter a name for the system you want to register.
+    1.  In the *Type* dropdown list, select *SAP S/4HANA Cloud*.
+
+    2.  Enter a name for the system you want to register.
 
         > ### Note:  
         > Use only printable ASCII characters.
 
         > ### Tip:  
         > We recommend that you indicate the type of the system when specifying the system name. For example, <code><i class="varname">&lt;mysystem&gt;</i>-S/4HANA-cloud</code>. This helps you identify the system type when assigning systems to a formation.
-
-    2.  In the *Type* dropdown list, select *SAP S/4HANA Cloud*.
 
     3.  Choose *Add*.
 
@@ -128,7 +128,7 @@ The registration process has the following states displayed in the cockpit:
 3.  Start the automated registration process on the SAP S/4HANA Cloud system side. To do so, proceed as described in as described in [Trigger the Registration in the SAP S/4HANA Cloud Tenant](trigger-the-registration-in-the-sap-s-4hana-cloud-tenant-cadf8f6.md).
 
     > ### Note:  
-    > You can register a system with the same name only once per global account. Once you have started a registration process for a system with a specified name you can no longer register a system with the same name and connect it with the same global account, unless you delete the corresponding extension in the *Maintain Extensions on SAP BTP* in the SAP S/4HANA Cloud tenant. If the registration process fails, you need to delete the failed extension from the SAP S/4HANA Cloud tenant and create a new integration token in the cockpit for the corresponding system to be able to start the automated registration process again.
+    > You can register a system with the same name only once per global account. Once you have started a registration process for a system with a specified name you can no longer register a system with the same name and connect it with the same global account.
 
 4.  Check the status of the registration process. To do so, in the cockpit navigate to your global account, and on the *Systems* page, check if the status of the SAP S/4HANA Cloud system has changed to *Registered*.
 
@@ -148,5 +148,5 @@ The registration process has the following states displayed in the cockpit:
 
 [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md "To connect an SAP system with a global account in SAP BTP, you need to register the system. You can also add and work with a third-party systems.")
 
-[Deregistering or Removing a System](deregistering-or-removing-a-system-0c6f498.md "When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.")
+[Deregister or Removе a System](deregister-or-remov-a-system-0c6f498.md "When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.")
 

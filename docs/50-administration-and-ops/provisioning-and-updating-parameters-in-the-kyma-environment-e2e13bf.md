@@ -1163,7 +1163,7 @@ Provisioning
 </td>
 <td valign="top">
 
-10.250.0.0/22
+10.250.0.0/16
 
 </td>
 <td valign="top">
@@ -1537,7 +1537,7 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="11">
+<td valign="top" rowspan="12">
 
 Standard: Amazon Web Services
 
@@ -1548,7 +1548,7 @@ Free
 technical name: `free`
 
 </td>
-<td valign="top" rowspan="11">
+<td valign="top" rowspan="12">
 
 Provisioning
 
@@ -1681,6 +1681,18 @@ Singapore
 <td valign="top">
 
 Australia \(Sydney\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`us-west-2`
+
+</td>
+<td valign="top">
+
+US West \(Oregon\)
 
 </td>
 </tr>

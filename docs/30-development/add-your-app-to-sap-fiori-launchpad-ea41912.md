@@ -4,7 +4,7 @@
 
 Get an overview on how to add your app to SAP Fiori launchpad.
 
-If you need further assistance with the individual steps, check out the developer tutorial [Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html).
+If you need further assistance with the individual steps, check out the developer tutorial [Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-integrate-app-into-flp.html).
 
 ![](images/Launch_Your_App_ABAP_d8b027c.png)
 
@@ -25,4 +25,9 @@ If you need further assistance with the individual steps, check out the develope
 ## Next Step
 
 [Transport Your App](https://help.sap.com/docs/SAP_S4HANA_CLOUD/6aa39f1ac05441e5a23f484f31e477e7/f259607ecde645f1b77bed32815c2db0.html?q=transport%20your%20app)
+
+**Related Information**  
+
+
+[Transporting Changes to Spaces and Pages](https://help.sap.com/docs/btp/user-interface-configurations/transporting-changes-to-spaces-and-pages?version=Cloud)
 

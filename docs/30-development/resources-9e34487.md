@@ -97,7 +97,7 @@ In the above example:
 
 -   `org.cloudfoundry.managed-service`
 
-    In cases you have to choose a managed service and/or service plan that is not listed in [Generic MTA Resource Types](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_mtaResourceTypes), you define it using the `org.cloudfoundry.managed-service` resource type with the following parameters:
+    In cases you have to choose a managed service and/or service plan that is not listed in [Predefined MTA Resource Types](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_predefinedMTAResourceTypes), you define it using the `org.cloudfoundry.managed-service` resource type with the following parameters:
 
     -   \(Required\) `service` - Name of the service to create.
     -   \(Optional\) `service-name` - Service instance name. Default value is the resource name.
@@ -105,7 +105,7 @@ In the above example:
         > ### Note:  
         > Service names that do not comply with the Cloud Foundry limitation of 50 symbols are automatically corrected. In such cases, the name is shortened and its end is replaced with a hash code.
 
-    -   \(Required\) `service-plan` - Name of the service to create.
+    -   \(Required\) `service-plan` - Name of the service plan.
 
     For example:
 
@@ -135,7 +135,7 @@ In the above example:
 
 -   `org.cloudfoundry.existing-service`
 
-    То indicate that the \(named\) service exists, without managing its lifecycle, you define the service name by using the `org.cloudfoundry.managed-service` resource type with the following parameters:
+    То indicate that the \(named\) service exists, without managing its lifecycle, you define the service name by using the `org.cloudfoundry.existing-service` resource type with the following parameters:
 
     -   \(Optional\) `service-name` - Service instance name. Default value is the resource name.
 
@@ -270,7 +270,7 @@ SAP HANA secure store
 `com.sap.xs.hdi-container`
 
 > ### Note:  
-> modules: When using the free trial subaccount, modify the default service:
+> When using а free trial subaccount, modify the default service:
 > 
 > > ### Sample Code:  
 > > ```
@@ -896,7 +896,7 @@ Redis in-memory data structure store
 Resource parameters have platform-specific semantics. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example, `${default-host}`.
 
 > ### Tip:  
-> It is also possible to declare metadata for parameters and properties defined in the MTA deployment description; the mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional; false`\) or can be modified `overwritable: true`.
+> It is also possible to declare metadata for parameters and properties defined in the MTA deployment descriptor; the mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional: false`\) or can be modified \(`overwritable: true`\).
 
 The following parameters are supported:
 

@@ -1,6 +1,6 @@
 <!-- loio3c98c84c61784e2985854cede54dd105 -->
 
-# Enabling SAP Ariba Buying
+# Automating Integrations with SAP Ariba Buying
 
 
 
@@ -14,6 +14,9 @@
 SAP Ariba Buying offers procurement users a unique buying experience through a guided process. SAP Ariba Buying provides buyers an easy process to shop for items. Buyers can search for, view and purchase items that are available in the connected shopping sites, or request items from suppliers. SAP Ariba Buying also helps buyers to track their purchase requests.
 
 To set up SAP Ariba Buying with SAP S/4HANA Cloud on SAP BTP you need to have all the necessary systems included in a formation of type *Integration with SAP Ariba Buying* in the *System Landscape* \> *Systems* page of the SAP BTP cockpit.
+
+> ### Note:  
+> This documentation refers to SAP S/4HANA Cloud Public Edition. See [Introduction to the Universe of SAP S/4HANA Cloud Public Edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).
 
 
 

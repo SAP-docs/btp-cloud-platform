@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Merging SAP Systems
+# Mergе SAP Systems
 
 Merging the SAP systems allows you to reduce the duplicate systems in the list. You can merge auto-discovered SAP systems without assigned status in a target system that has already been registered.
 

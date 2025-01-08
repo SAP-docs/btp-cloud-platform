@@ -2,7 +2,7 @@
 
 # Developing Business Applications Using Node.js
 
-Develop a sample business service using Core Data & Services \(CDS\), Node.js, and SQLite, by using the SAP Cloud Application Programming Model \(CAP\). Develop on your local environment and deploy to the Cloud.
+Develop a sample business service using Core Data Services \(CDS\), Node.js, and SQLite, by using the SAP Cloud Application Programming Model \(CAP\). Develop on your local environment and deploy to the Cloud.
 
 The following sections describe how to set up a development environment to get you started.
 

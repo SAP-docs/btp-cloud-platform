@@ -20,7 +20,7 @@ You can also benefit from an automated integration between SAP systems or betwee
 
 Using the Unified Customer Landscape service, you can maintain your customer landscape. The frontend representation of this service is the *System Landscape* page in the SAP BTP cockpit. The dedicated SAP S/4HANA Cloud Extensibility and SAP SuccessFactors Extensibility services are also part of the Unified Customer Landscape capabilities. See [Maintaining Unified Customer Landscape](maintaining-unified-customer-landscape-a8b1e26.md).
 
-To get a full list of terms related to the extensibility and integration concepts in the Unified Customer Landscape area, see [Extensibility Concepts](extensibility-concepts-3ce5e05.md).
+To get a full list of terms related to the extensibility and integration concepts in the Unified Customer Landscape area, see [Extensibility and Integration Concepts](extensibility-and-integration-concepts-3ce5e05.md).
 
 
 
@@ -31,6 +31,16 @@ To get a full list of terms related to the extensibility and integration concept
 To connect a system with a global account in SAP BTP, you need to have the system listed in the *System* page.
 
 [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md)
+
+
+
+<a name="loio08b1effc53634890a525f945017e2edc__section_x4n_5dg_ndc"/>
+
+## Integrating SAP Solutions
+
+You can integrate several systems and services as part of the common business scenario. To do that, you create a formation in the SAP BTP cockpit that includes all systems that the scenario requires. Every formation has a type related to its purpose. Using formations is a standard way to enable the communication between systems.
+
+See [Integrating SAP Solutions](integrating-sap-solutions-3414bbc.md).
 
 
 
@@ -52,7 +62,7 @@ You have the following options to extend your SAP solution using the SAP Success
 -   Extensions with automated configurations in the Kyma runtime: applicable for SAP S/4HANA Cloud, SAP Marketing Cloud, SAP SuccessFactors, SAP Cloud for Customer, SAP Commerce Cloud, and SAP Field Service Management.
 
 
-If you have to group the systems of different SAP solutions in the same business case, you can set up the connectivity between all these systems and a global account in SAP BTP in a single formation in the SAP BTP cockpit. See [Including Systems in a Formation](including-systems-in-a-formation-68b04fa.md).
+If you have to group the systems of different SAP solutions in the same business case, you can set up the connectivity between all these systems and a global account in SAP BTP in a single formation in the SAP BTP cockpit. See [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md).
 
 See [Extending SAP Solutions](extending-sap-solutions-346864d.md).
 
