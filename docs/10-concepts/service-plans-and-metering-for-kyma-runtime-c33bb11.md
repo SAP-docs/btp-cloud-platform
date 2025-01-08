@@ -357,7 +357,7 @@ Number of CU per Hour
 
 When deployed with the Cloud Manager module, Redis creates a cluster in the Kyma's cloud provider account and begins consuming new, dedicated machines.
 Generally, a cache is defined by its size, measured in GiB, which is then used to determine metering and billing using storage metrics as the basis.
-As the price is standardized across all available cloud providers, Redis is offered in several different tiers that are essentially equivalent across all cloud providers. This applies to both the standard and the premium plans.
+Because the price is standardized across all available cloud providers, Redis is offered in several different tiers that are essentially equivalent across all cloud providers. This applies to both, the basic and the premium plans.
 
 | **Tier** 	| **Approx. Available  Size (GiB)** | **Cost expressed in Storage size** 	| **Cost in CU** 	|
 |:--------:	|:--------------------------------:	|-----------------------------------:	|---------------:	|
