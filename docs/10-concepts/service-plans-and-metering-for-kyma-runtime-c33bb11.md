@@ -409,7 +409,7 @@ Find the Kyma price calculator on [https://kyma-project.github.io/price-calculat
 
 3.  Optionally, add more storage and additional capabilities to the calculation.
 
-4.  You can also change the **Conversion rate from Capacity Units to €** to estimate the eventual discount applicable with your contract.
+4. To estimate the eventual discount applicable with your contract, you can also change the **Conversion rate from Capacity Units to €**.
 
 
 Note that the result is an estimate, and the monthly bill may vary depending on the actual hours and size of the Kyma cluster \(workload and storage\) that was running in a month.
