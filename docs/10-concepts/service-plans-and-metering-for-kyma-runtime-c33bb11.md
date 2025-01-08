@@ -353,7 +353,7 @@ Number of CU per Hour
 </tr>
 </table>
 
-#### Cloud-managed Redis
+#### Cloud-Managed Redis
 
 When deployed with the Cloud Manager module, Redis creates a cluster in the Kyma's cloud provider account and begins consuming new, dedicated machines.
 Generally, a cache is defined by its size, measured in GiB, which is then used to determine metering and billing using storage metrics as the basis.
