@@ -49,25 +49,6 @@ Documentation
 <tr>
 <td valign="top">
 
-*API Gateway*
-
-`api-gateway`
-
-</td>
-<td valign="top">
-
-API Gateway provides functionalities that allow you to expose and secure APIs.
-
-</td>
-<td valign="top">
-
-[kyma-project.io: API Gateway module](https://kyma-project.io/#/api-gateway/user/README)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 *Istio*
 
 `istio`
@@ -81,6 +62,25 @@ Istio is a service mesh with Kyma-specific configuration.
 <td valign="top">
 
 [Istio Module](istio-module-26ffe00.md)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*API Gateway*
+
+`api-gateway`
+
+</td>
+<td valign="top">
+
+API Gateway provides functionalities that allow you to expose and secure APIs.
+
+</td>
+<td valign="top">
+
+[kyma-project.io: API Gateway module](https://kyma-project.io/#/api-gateway/user/README)
 
 </td>
 </tr>

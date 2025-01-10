@@ -163,11 +163,11 @@ As the magnitude of a disaster is unpredictable, a region might not be restored 
 
 In-Metro DR is a disaster recovery solution that utilizes synchronous data replication. It has been designed to protect our customers from the impact of local disasters that may affect a single availability zone \(AZ\). By deploying services across multiple AZs within a single region, In-Metro DR ensures that if a disaster occurs in one AZ, the issue is contained within that zone. Meanwhile, the other unaffected AZs continue to function normally, efficiently handling incoming requests.
 
-In-Metro DR is offered to customers of SAP BTP cloud services as contractual obligations and includes:
+-   In-Metro DR is offered to customers of SAP BTP cloud services as contractual obligations and includes:
 
--   Recovery Point Objective \(RPO\): No more than 5 minutes of data loss.
+    -   Recovery Point Objective \(RPO\): No more than 5 minutes of data loss.
 
--   Recovery Time Objective \(RTO\): Full-service restoration within 2 hours.
+    -   Recovery Time Objective \(RTO\): Full-service restoration within 2 hours.
 
 
 -   In-Metro DR solution leverages an active/active HA set up across 2 or more availability zones with a failover for all customers from primary to secondary site. That is, availability zones within a single region

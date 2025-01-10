@@ -21,7 +21,7 @@ SAP BTP, Kyma runtime uses OpenID Connect for authentication. Kyma runtime is co
 -   delegates authentication to an upstream corporate IdP to prevent introducing redundant identities and to benefit from SSO, based on identity provided "centrally"
 
 
-![](images/Custom_IdP_16dee5b.svg)
+![](images/Custom_IdP_diagram_636e132.png)
 
 Learn how to [Get Your Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant?version=Cloud) from SAP Cloud Identity Services.
 
