@@ -2174,7 +2174,7 @@ Simplify the complex connectivity, scalability, and management of IoT.
 <tr>
 <td valign="top">
 
-[Document Information Extraction](https://help.sap.com/dox) 
+[Document Information Extraction](https://help.sap.com/docs/document-information-extraction/document-information-extraction/enabling-service-in-cloud-foundry-environment) 
 
 </td>
 <td valign="top">
@@ -10357,7 +10357,7 @@ Connect data from various sources to enable next-generation data management.
 <tr>
 <td valign="top">
 
-[Personalized Recommendation](https://help.sap.com/pr) 
+[Personalized Recommendation](https://help.sap.com/docs/personalized-recommendation/personalized-recommendation/initial-setup) 
 
 </td>
 <td valign="top">

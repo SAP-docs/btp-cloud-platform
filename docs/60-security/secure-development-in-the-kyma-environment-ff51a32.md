@@ -62,7 +62,7 @@ To securely expose workloads in SAP BTP, Kyma runtime, use the Istio and API Gat
 
 ### Serverless Module
 
-For more information, see  <?sap-ot O2O class="- topic/xref " href="43590d2e92c84bcf878babb28a7dad3d.xml" text="" desc="" xtrc="xref:12" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/ff51a3258fe54c308c05ed5901d1a793.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+For more information, see [Security Considerations](https://kyma-project.io/#/serverless-manager/user/00-40-security-considerations) for the Serveless module.
 
 **Related Information**  
 
