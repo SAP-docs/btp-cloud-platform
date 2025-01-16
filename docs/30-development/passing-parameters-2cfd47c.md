@@ -10,19 +10,18 @@ You can set input parameters for your resources.
 
 ## Procedure
 
-To set input parameters, go to the `spec` of the `ServiceInstance` or `ServiceBinding` resource, and use both or one of the following fields:
+To set input parameters, go to the `spec` of the `ServiceInstance` or `ServiceBinding` resource, and use one or all of the following fields:
 
 -   `parameters`: Specifies a set of properties sent to the service broker. The specified data is passed to the service broker without any modifications aside from converting it to JSON for transmission to the broker if the `spec` field is specified as YAML. All valid YAML or JSON constructs are supported.
 
-    > ### Note:  
-    > You can specify only one parameter field per `spec`.
+-   `parametersFrom`: Specifies which Secret, together with the key in it, to include in the set of parameters sent to the service broker. The key contains a `string` that represents a JSON file. The `parametersFrom` field is a list that supports multiple sources referenced per `spec`. The ServiceInstance resource can specify multiple related Secrets.
 
--   `parametersFrom`: Specifies which Secret, together with the key in it, to include in the set of parameters sent to the service broker. The key contains a `string` that represents a JSON file. The `parametersFrom` field is a list that supports multiple sources referenced per `spec`.
+-   `watchParametersFromChanges`: Use this field together with `parametersFrom`. Set it to `true` to trigger an automatic update of the ServiceInstance resource with the changes to the Secret values listed in `parametersFrom`. By default, the field is set to `false`.
 
 
-If you specified multiple sources in the `parameters` and `parametersFrom` fields, the final payload results from merging all of them at the top level.
+If you specify multiple sources in the `parameters` and `parametersFrom` fields, the final payload merges all of them at the top level.
 
-If there are any duplicate properties defined at the top level, the specification is invalid. The further processing of the `ServiceInstance` or `ServiceBinding` resource stops with the status ***Error***.
+To avoid errors, do not use the same top-level parameter name in multiple sources in the `parameters` and `parametersFrom` fields. Otherwise, the specification is invalid, and further processing of the `ServiceInstance` or `ServiceBinding` resources stops with the status ***Error***.
 
 
 
@@ -43,6 +42,7 @@ See the following examples:
         - secretKeyRef:
             name: {SECRET_NAME}
             key: secret-parameter
+      watchParametersFromChanges: true      
     ```
 
 -   The `spec` format in JSON:
@@ -59,6 +59,7 @@ See the following examples:
             "key": "secret-parameter"
           }
         }
+        "watchParametersFromChanges": true
       } 
     }
     ```

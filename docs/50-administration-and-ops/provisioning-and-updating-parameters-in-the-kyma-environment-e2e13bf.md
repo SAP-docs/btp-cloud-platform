@@ -373,21 +373,21 @@ Virtual Machine Size
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="14">
 
 Standard: Amazon Web Services
 
 technical name: `aws`
 
 </td>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="14">
 
 Provisioning
 
 Updating
 
 </td>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="14">
 
 `m6i.large`
 
@@ -466,6 +466,18 @@ Updating
 <tr>
 <td valign="top">
 
+`m6i.16xlarge`
+
+</td>
+<td valign="top">
+
+64vCPU, 256GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `m5.large`
 
 </td>
@@ -536,21 +548,33 @@ Updating
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="6">
+<td valign="top">
+
+`m5.16xlarge`
+
+</td>
+<td valign="top">
+
+64vCPU, 256GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="7">
 
 Standard: Google Cloud
 
 technical name: `gcp`
 
 </td>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="7">
 
 Provisioning
 
 Updating
 
 </td>
-<td valign="top" rowspan="6">
+<td valign="top" rowspan="7">
 
 `n2-standard-2`
 
@@ -622,7 +646,19 @@ Updating
 </td>
 <td valign="top">
 
-48vCPU, 192B RAM
+48vCPU, 192GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`n2-standard-64`
+
+</td>
+<td valign="top">
+
+64vCPU, 256GB RAM
 
 </td>
 </tr>

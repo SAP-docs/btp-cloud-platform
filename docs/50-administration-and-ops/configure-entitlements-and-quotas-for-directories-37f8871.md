@@ -40,9 +40,9 @@ There are several ways you can enable the entitlement management feature for a d
 
 -   Navigate to the directory's *Entitlements* page and select *Enable Entitlement Management*.
 
--   Navigate to your global account and open the *Entitlements* \> *Entity Assignments* from the navigation panel. Select the <span class="SAP-icons-V5"></span> icon in the *Select Entity* dropdown menu.
+-   Navigate to your global account and open the *Entitlements* \> *Entity Assignments* from the navigation panel. Select the <span class="SAP-icons-V5"></span> icon in the *Subaccounts/Directories* dropdown menu.
 
-    Then, in the *Select Entities* dialog box, choose the directory for which you want to manage assignments. Click *Select* and then *Enable Entitlement Management*.
+    Then, in the *Select Subaccounts and Directories* dialog box, choose the directory for which you want to manage assignments. Click *Select* and then *Enable Entitlement Management*.
 
     > ### Tip:  
     > To disable entitlement management for a directory, redo these steps from the global account's *Entitlements* \> *Entity Assignments* page, but choose *Disable Entitlement Management* at the end. When you disable entitlement management, any assignments and quota that are currently assigned to the directory are "returned" to the global account and are then available for distribution to other directories and subaccounts.
