@@ -60,16 +60,16 @@ Follow the instructions to obtain a JWT.
     export ENCODED_CREDENTIALS=$(echo -n "$CLIENT_ID:$CLIENT_SECRET" | base64)
     ```
 
-3.  Get values of the **token\_endpoint** and **jwks\_uri** parameters:
+3.  Get values of the `token_endpoint` and `jwks_uri` parameters:
 
     ```
     curl -s https://$IDENTITY_AUTHENTICATION_INSTANCE.accounts400.ondemand.com/.well-known/openid-configuration
     ```
 
     > ### Note:  
-    > You need the value of the **jwks\_uri** parameter to secure your workload using an APIRule of the JWT type.
+    > You need the value of the `jwks_uri` parameter to secure your workload using an APIRule of the JWT type.
 
-4.  Export the value of the **token\_endpoint** as an environment variable:
+4.  Export the value of the `token_endpoint` as an environment variable:
 
     ```
     export TOKEN_ENDPOINT={YOUR_TOKEN_ENDPOINT}
@@ -102,7 +102,7 @@ You got a JWT that you can use to interact with a workload.
 
 ## Expose and Secure a Workload with a JWT
 
-Use Kyma dashboard to expose a workload and secure it with a JWT.
+Use Kyma dashboard or kubectl to expose a workload and secure it with a JWT.
 
 
 

@@ -1189,7 +1189,7 @@ type: string
 </td>
 <td valign="top">
 
-Defines a custom IP range for worker Nodes.
+Defines a custom IP range for worker nodes.
 
 </td>
 <td valign="top">
@@ -1204,7 +1204,7 @@ Provisioning
 </td>
 <td valign="top">
 
-CIDR range for Nodes must not overlap with the following CIDRs: 10.96.0.0/13, 10.104.0.0/13, 10.243.128.0/17, 10.242.0.0/16, 10.243.0.0/17, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16
+CIDR range for nodes must not overlap with the following CIDRs: 10.96.0.0/13, 10.104.0.0/13, 10.243.128.0/17, 10.242.0.0/16, 10.243.0.0/17, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16
 
 </td>
 </tr>

@@ -14,9 +14,9 @@ To set input parameters, go to the `spec` of the `ServiceInstance` or `ServiceBi
 
 -   `parameters`: Specifies a set of properties sent to the service broker. The specified data is passed to the service broker without any modifications aside from converting it to JSON for transmission to the broker if the `spec` field is specified as YAML. All valid YAML or JSON constructs are supported.
 
--   `parametersFrom`: Specifies which Secret, together with the key in it, to include in the set of parameters sent to the service broker. The key contains a `string` that represents a JSON file. The `parametersFrom` field is a list that supports multiple sources referenced per `spec`. The ServiceInstance resource can specify multiple related Secrets.
+-   `parametersFrom`: Specifies which Secret, together with the key in it, to include in the set of parameters sent to the service broker. The key contains a `string` that represents a JSON file. The `parametersFrom` field is a list that supports multiple sources referenced per `spec`. The `ServiceInstance` resource can specify multiple related Secrets.
 
--   `watchParametersFromChanges`: Use this field together with `parametersFrom`. Set it to `true` to trigger an automatic update of the ServiceInstance resource with the changes to the Secret values listed in `parametersFrom`. By default, the field is set to `false`.
+-   `watchParametersFromChanges`: Use this field together with `parametersFrom`. Set it to `true` to trigger an automatic update of the `ServiceInstance` resource with the changes to the Secret values listed in `parametersFrom`. By default, the field is set to `false`.
 
 
 If you specify multiple sources in the `parameters` and `parametersFrom` fields, the final payload merges all of them at the top level.
