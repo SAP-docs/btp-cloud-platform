@@ -71,7 +71,7 @@ To be able to use the reusable components, you need to adapt the code that can b
     >         }
     > ```
 
-    After your app was deployed successfully to an SAP BTP, ABAP environment system, the *BSP application* and the *SAP Fiori launchpad* app descriptor item will appear under your created package in Eclipse.
+    After your app was deployed successfully to an SAP BTP ABAP environment system, the *BSP application* and the *SAP Fiori launchpad* app descriptor item will appear under your created package in Eclipse.
 
     ![](images/Eclipse_ABAP_Environment_e0a96c5.png)
 

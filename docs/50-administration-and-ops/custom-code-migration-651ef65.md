@@ -14,7 +14,7 @@ The `Custom Code Migration` app enables you to create three different kinds of p
 
 2.  SAP BTP Analysis Project:
 
-    Analyze custom code for readiness to run in SAP BTP, ABAP environment.
+    Analyze custom code for readiness to run in SAP BTP ABAP environment.
 
 3.  Custom Code Analysis Project:
 

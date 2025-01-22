@@ -10,7 +10,7 @@ To make the setup of continuous integration pipelines as easy as possible, the o
 
 The reusable continuous integration pipeline contains the following steps:
 
--   Creating an SAP BTP, ABAP environment system
+-   Creating an SAP BTP ABAP environment system
 
 -   Setting up a communication arrangement for the APIs
 
@@ -19,11 +19,11 @@ The reusable continuous integration pipeline contains the following steps:
 -   Running ABAP Test Cockpit checks
 
 -   Running ABAP unit tests
--   Deprovisioning the SAP BTP, ABAP environment system
+-   Deprovisioning the SAP BTP ABAP environment system
 
 
 > ### Note:  
-> You can only dynamically create SAP BTP, ABAP environment systems during the pipeline execution if you are using a consumption-based model. See [What Is the Consumption-Based Commercial Model?](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/7047eb4a15a84ac7be3c8612179e6d1f.html)
+> You can only dynamically create SAP BTP ABAP environment systems during the pipeline execution if you are using a consumption-based model. See [What Is the Consumption-Based Commercial Model?](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/7047eb4a15a84ac7be3c8612179e6d1f.html)
 
 **Related Information**  
 

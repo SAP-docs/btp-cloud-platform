@@ -13,7 +13,7 @@ For information about regional availability, see [Regions and API Endpoints for 
 **Related Information**  
 
 
-[Getting Started in the ABAP Environment](../20-getting-started/getting-started-in-the-abap-environment-2ffdd24.md "Get onboarded in the SAP BTP, ABAP environment. Follow the workflows for trial or customer accounts.")
+[Getting Started in the ABAP Environment](../20-getting-started/getting-started-in-the-abap-environment-2ffdd24.md "Get onboarded in the SAP BTP ABAP environment. Follow the workflows for trial or customer accounts.")
 
 [Development in the ABAP Environment](../30-development/development-in-the-abap-environment-31367ef.md "Learn more about developing applications in the ABAP environment.")
 

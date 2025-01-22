@@ -8,7 +8,7 @@
 
 ## Context
 
-Previously, when creating a new ABAP Cloud project in ABAP development tools for Eclipse, a service key was necessary to connect to the SAP BTP, ABAP environment. In the window *Connection to an ABAP Service Instance*, there was a distinction between the connection to SAP S/4HANA Cloud Public Edition and SAP BTP, ABAP environment. From now on, only one option to paste in your ABAP service instance URL is available.
+Previously, when creating a new ABAP Cloud project in ABAP development tools for Eclipse, a service key was necessary to connect to the SAP BTP ABAP environment. In the window *Connection to an ABAP Service Instance*, there was a distinction between the connection to SAP S/4HANA Cloud Public Edition and SAP BTP ABAP environment. From now on, only one option to paste in your ABAP service instance URL is available.
 
 
 

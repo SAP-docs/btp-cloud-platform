@@ -11,7 +11,7 @@ User provisioning is the automated process of creating users, that are later gra
 
 <a name="loioef52a682060c4051a0645f4ecc5859d0__section_bq1_xms_xsb"/>
 
-## Creating SAP BTP, ABAP environment Users
+## Creating SAP BTP ABAP environment Users
 
 Each business user created in the ABAP environment system has a unique and stable employee ID. Employees are maintained in the SAP Fiori app *Maintain Employees*. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
 

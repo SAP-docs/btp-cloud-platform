@@ -2,7 +2,7 @@
 
 # Using Client Certificate Authentication with SAP BTP Destination Service
 
-To enable client certificate-based authentication in SAP BTP, ABAP environment, the following prerequisites have to be met:
+To enable client certificate-based authentication in SAP BTP ABAP environment, the following prerequisites have to be met:
 
 
 

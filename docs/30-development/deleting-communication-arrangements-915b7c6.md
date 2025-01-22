@@ -20,7 +20,7 @@ After creating a communication arrangement, you can still delete the communicati
 
 ## Procedure
 
-1.  Log on to the SAP Fiori launchpad in the SAP BTP, ABAP environment system.
+1.  Log on to the SAP Fiori launchpad in the SAP BTP ABAP environment system.
 
 2.  In the *Communication Management* app, select the *Communication Arrangements* artifact.
 

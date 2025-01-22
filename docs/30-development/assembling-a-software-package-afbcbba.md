@@ -25,7 +25,7 @@ In doing so, the following activities are performed automatically:
 -   You’ve created a *Communication Arrangement* as described in [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
 
 -   You have selected the communication scenario*SAP\_COM\_0582* for your communication arrangement and have mapped it to your communication system.
--   You have pulled a repository to the SAP BTP, ABAP environment system using communication scenario *SAP\_COM\_0510*.
+-   You have pulled a repository to the SAP BTP ABAP environment system using communication scenario *SAP\_COM\_0510*.
 
 -   You have provided information on build essentials in an addon.yml file which has already been validated by the Add-On Assembly Kit as a Service \(AAKaaS\).
 
@@ -36,7 +36,7 @@ In doing so, the following activities are performed automatically:
 
 ## Procedure
 
-1.  During the build pipeline run, the step **abapEnvironmentAssemblePackages** is executed \(see [abapEnvironmentAssemblePackages](https://sap.github.io/jenkins-library/steps/abapEnvironmentAssemblePackages/)\). This step runs the assembly of a list of provided installations, support packages or patches in an SAP BTP, ABAP environment system and saves the corresponding SAR archive to the pipeline.
+1.  During the build pipeline run, the step **abapEnvironmentAssemblePackages** is executed \(see [abapEnvironmentAssemblePackages](https://sap.github.io/jenkins-library/steps/abapEnvironmentAssemblePackages/)\). This step runs the assembly of a list of provided installations, support packages or patches in an SAP BTP ABAP environment system and saves the corresponding SAR archive to the pipeline.
 
 2.  An example for the configuration in config.yml as well as input arguments and values can be found here: [Examples](https://sap.github.io/jenkins-library/steps/abapEnvironmentAssemblePackages/#examples).
 

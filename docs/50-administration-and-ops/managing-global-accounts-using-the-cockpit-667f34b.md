@@ -17,7 +17,7 @@ As a global account administrator, you can access the global account settings by
 In the *General* tab of the global account settings, you can obtain general information about your global account, including your global account ID, global account name, account type, payment models, contract status, global account subdomain, geographic access restrictions, and when your account was created.
 
 > ### Note:  
-> In this tab, you can change any of the values. The only value that is editable by you is the global account name, and you can do this in the *Account Explorer* page \(see [Change the Display Name of Your Global Account](change-the-display-name-of-your-global-account-36a6674.md)\).
+> In this tab, you cannot change any of the values. The only value that you can edit is the global account name, and you can do this in the *Account Explorer* page \(see [Change the Display Name of Your Global Account](change-the-display-name-of-your-global-account-36a6674.md)\).
 
 In the *Subaccount Defaults* tab in the global account settings, you can set the supported providers, the default provider, and the default region. These default settings are used when creating a new subaccount in this global account.
 

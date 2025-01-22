@@ -2,7 +2,7 @@
 
 # logout
 
-You can define any options that apply if you want your application to have a central logout end point.
+You can define a central logout end point for your application.
 
 
 

@@ -8,7 +8,7 @@
 
 <a name="loio1731f982edd24c669133255384bf45f9__section_edc_y4n_mrb"/>
 
-## SAP BTP, ABAP environment Users
+## SAP BTP ABAP environment Users
 
 In the ABAP environment, there are different types of users such as business users, communication users, and support users.
 

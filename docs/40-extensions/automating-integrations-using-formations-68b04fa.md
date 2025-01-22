@@ -122,6 +122,8 @@ If you want to reconfigure the systems in a formation from scratch without exclu
 
 [Automating Integrations with SAP Collaboration Manager](automating-integrations-with-sap-collaboration-manager-b4297f9.md "")
 
+[Automating Integrations with SAP Advanced Financial Closing](automating-integrations-with-sap-advanced-financial-closing-46d0881.md "")
+
 [Enabling Joule](enabling-joule-e208f1f.md "")
 
 [Enabling Events Exchange Between SAP Cloud Systems](enabling-events-exchange-between-sap-cloud-systems-1592246.md "")

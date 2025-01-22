@@ -10,15 +10,15 @@ Use your SAP Cloud Identity Services tenant as an identity provider or a proxy t
 
 ## Prerequisites
 
--   You've subaccount administrator permissions.
+-   You have subaccount administrator permissions.
 
--   You've a tenant of SAP Cloud Identity Services.
+-   You have a tenant of SAP Cloud Identity Services.
 
-    For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html#getting-a-tenant) in the documentation for SAP Cloud Identity Services.
+    For more information, see [Get Your Tenant](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/get-your-tenant?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
 -   The SAP Cloud Identity Services tenant is associated with the customer IDs of the relevant global account of SAP BTP.
 
-    For more information, see [**Reuse SAP Cloud Identity Services Tenants for Different Customer IDs**](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for SAP Cloud Identity Services.
+    For more information, see [Reuse SAP Cloud Identity Services Tenants for Different Customer IDs](https://help.sap.com/docs/identity-authentication/identity-authentication/reuse-sap-cloud-identity-services-tenants-for-different-customer-ids) in the documentation for SAP Cloud Identity Services.
 
 
 

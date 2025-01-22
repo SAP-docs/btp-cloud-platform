@@ -10,12 +10,7 @@ To enable the integration of your extension applications with the SAP S/4HANA Cl
 
 ## Prerequisites
 
-For a communication flow with SAML Bearer Assertion authentication, you must:
-
--   Configure Single-Sign On \(SSO\). See [Single Sign-On Configuration](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8d3c376e573946258dad098b54fba480.html).
-
--   Protect your application. See [Configure Application Authentication](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/0926369928ce4e89ac22c847e4a51662.html).
-
+You have configured the required entitlements to make the APIs of the registered SAP S/4HANA Cloud system accessible in your subaccount in which your extension applications will reside. See [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md).
 
 
 

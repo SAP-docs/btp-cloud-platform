@@ -2,5 +2,5 @@
 
 # Getting Started in the ABAP Environment
 
-Get onboarded in the SAP BTP, ABAP environment. Follow the workflows for trial or customer accounts.
+Get onboarded in the SAP BTP ABAP environment. Follow the workflows for trial or customer accounts.
 

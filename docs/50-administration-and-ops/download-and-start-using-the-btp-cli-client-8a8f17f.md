@@ -10,9 +10,9 @@ To use the SAP BTP command line interface \(btp CLI\), you need to download the 
 
 ## Context
 
-Each client version is supported for at least one year and most of the updates to the btp CLI don't require a new client installation, but are made available through the btp CLI server so that you can use them in your installed version of the client. Regularly updating the client, however, will ensure that you don’t miss out on any new features or security updates.
+Each client version is supported for at least one year. Most of the updates to the btp CLI don't require a new client installation, but are made available through the btp CLI server so that you can use them in your installed version of the client. Using the latest version of the client ensures that you don't miss out on any new features or security updates. If you already have the client installed, you can see which version you have by simply entering `btp`.
 
-Check out the [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal \(filtered for *SAP BTP Command Line Interface*\) to stay informed about features, client releases, as well about client deprecations and discontinuations.
+To stay informed about features, client releases, as well as client deprecations and discontinuations, check out the [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal \(filtered for *SAP BTP Command Line Interface*\).
 
 The client is available for 64-bit versions of the following operating systems:
 
@@ -37,13 +37,13 @@ There are various ways of downloading the client for each operating system, as e
 
 <!-- loio28a339f4145842cb88681af8ec66996c -->
 
-## Microsoft Windows \(amd64\)
+## Get the btp CLI Client for Microsoft Windows \(amd64\)
 
 
 
 ## Procedure
 
-1.  You can get the btp CLI client by running the installation script or manually downloading it.
+1.  To get the btp CLI client, you can either run the installation script or download the client manually.
 
     -   Option 1: **Installation Script \(Windows PowerShell\)**
 
@@ -61,15 +61,11 @@ There are various ways of downloading the client for each operating system, as e
 
     -   Option 2: **Manually install the latest Microsoft Windows \(amd64\) version**
 
-        1.  Download the latest [Microsoft Windows client](https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz) from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli). If you prefer using the command line, use the curl command, which downloads and saves the latest client version to your computer and accepts the SAP Developer Agreement \(EULA\).
+        1.  Download the latest [Microsoft Windows client](https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz) from SAP Development Tools.
 
-            ```
-            curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz --cookie "eula_3_2_agreed=tools.hana.ondemand.com/developer-license-3_2.txt"
-            ```
+        2.  Extract the client from `tar.gz` archive.
 
-        2.  Extract the client from tar.gz archive.
-
-            Use PowerShell or an external program, such as WinRar, to extract the tar.gz file. Tip: Once you've unpacked the executable file, enter `cmd` or `powershell` in the address bar of the folder. This opens the command prompt or PowerShell in this folder. Or proceed with the next step in order to enable calling `btp` from any location on your system.
+            Use PowerShell or an external program, such as WinRar, to extract the tar.gz file. Tip: Once you've unpacked the executable file, enter `cmd` or `powershell` in the address bar of the folder. This opens the command prompt or PowerShell in this folder. Or proceed with the next step to enable calling `btp` from any location on your system.
 
         3.  Copy the client executable from the unpacked folder to a directory of your choice. We recommend the following, because it ensures that you can call `btp` system-wide, i.e., that it is in your PATH:
 
@@ -83,9 +79,9 @@ There are various ways of downloading the client for each operating system, as e
 
 
 
-2.  Run `btp` in your terminal. Note that you need read and write permissions in the target folder to run this executable.
+2.  In your terminal, run `btp`. Note that you need read and write permissions in the target folder to run this executable.
 
-3.  Log into your global account with `btp login` or `btp login --sso`. The login flow is interactive and will prompt for all required information. Note that you need to confirm the btp CLI server \(`https://cli.btp.cloud.sap/`and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
+3.  Log into your global account with `btp login` and enter the required information. You must confirm the btp CLI server \(`https://cli.btp.cloud.sap/`\) and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
 4.  Once you're logged in, familiarize yourself with the btp CLI, for example with [How to Work with the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/11d9f67d2c68485ca2f435b955d3b85b.html?locale=en-US&state=PRODUCTION&version=Cloud), [Command Syntax of the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/69606f42743f46c29fa72c04e8c18674.html?locale=en-US&state=PRODUCTION&version=Cloud), or simply by trying out a few commands, such as the following:
 
@@ -205,7 +201,7 @@ There are various ways of downloading the client for each operating system, as e
 
 <!-- loioe1caa5f29fb340e797cc13383451dcf9 -->
 
-## Linux \(amd64 and arm64\)
+## Get the btp CLI Client for Linux \(amd64 and arm64\)
 
 
 
@@ -213,7 +209,7 @@ There are various ways of downloading the client for each operating system, as e
 
 ## Procedure
 
-1.  You can get the btp CLI client by running the installation script or manually downloading it.
+1.  To get the btp CLI client, you can either run the installation script or download the client manually.
 
     -   Option 1: **Installation Script**
 
@@ -231,21 +227,9 @@ There are various ways of downloading the client for each operating system, as e
 
     -   Option 2: **Manually install the latest Linux \(amd64 and arm64\) version**
 
-        1.  Download the latest Linux client \([amd64](https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz) or [arm64](https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz)\) from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli). If you prefer using the command line, use the curl command, which downloads and saves the latest client version to your computer and accepts the SAP Developer Agreement \(EULA\).
+        1.  Download the latest Linux client \([amd64](https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz) or [arm64](https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz)\) from SAP Development Tools.
 
-            For Linux amd64:
-
-            ```
-            curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz --cookie "eula_3_2_agreed=tools.hana.ondemand.com/developer-license-3_2.txt"
-            ```
-
-            For Linux arm64:
-
-            ```
-            curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz --cookie "eula_3_2_agreed=tools.hana.ondemand.com/developer-license-3_2.txt"
-            ```
-
-        2.  Extract the client from tar.gz archive.
+        2.  Extract the client from `tar.gz` archive.
 
             Use the terminal to open the tar.gz file with `tar -xzf btp-cli-linus-amd64-latest.tar.gz`
 
@@ -253,15 +237,15 @@ There are various ways of downloading the client for each operating system, as e
 
             `/usr/local/bin`
 
-        4.  **Optional:** If you have a proxy server configured in your environment, you need to specify its address and port as environment variable `HTTPS_PROXY` or `https_proxy` to access SAP BTP. For example, `HTTPS_PROXY=https://my-https-proxy:1234`.
+        4.  **Optional:** If you have a proxy server configured in your environment, you must specify its address and port as environment variable `HTTPS_PROXY` or `https_proxy` to access SAP BTP. For example, `HTTPS_PROXY=https://my-https-proxy:1234`.
 
             The specified proxy server is then used for HTTPS requests, unless overridden by the NO\_PROXY or no\_proxy, environment variables, which define a comma-separated list of hosts to be excluded from proxying.
 
 
 
-2.  Run `btp` in your terminal. Note that you need read and write permissions in the target folder to run this executable.
+2.  In your terminal, run `btp`. Note that you need read and write permissions in the target folder to run this executable.
 
-3.  Log into your global account with `btp login` or `btp login --sso`. The login flow is interactive and will prompt for all required information. Note that you need to confirm the btp CLI server \(`https://cli.btp.cloud.sap/`and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
+3.  Log into your global account with `btp login` and enter the required information. You must confirm the btp CLI server \(`https://cli.btp.cloud.sap/`\) and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
 4.  Once you're logged in, familiarize yourself with the btp CLI, for example with [How to Work with the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/11d9f67d2c68485ca2f435b955d3b85b.html?locale=en-US&state=PRODUCTION&version=Cloud), [Command Syntax of the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/69606f42743f46c29fa72c04e8c18674.html?locale=en-US&state=PRODUCTION&version=Cloud), or simply by trying out a few commands, such as the following:
 

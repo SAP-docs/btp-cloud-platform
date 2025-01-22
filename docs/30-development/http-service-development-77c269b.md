@@ -2,7 +2,7 @@
 
 # HTTP Service Development
 
-With the ABAP environment, you can develop HTTP services in your ABAP Development Tools \(ADT\) in Eclipse.
+With the ABAP environment, you can develop HTTP services in your ABAP development tools for Eclipse \(ADT\).
 
 For the implementation of your HTTP service, we provide the interface `IF_HTTP_SERVICE_EXTENSION` with HTTP request/response parameters, giving you the full flexibility to build an HTTP service of your choice. See [Working with the HTTP Service Editor](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/494a02697388437aa71067dd95b2c561.html) and [Tutorial: Create an HTTP Service](https://developers.sap.com/tutorials/abap-environment-create-http-service.html).
 

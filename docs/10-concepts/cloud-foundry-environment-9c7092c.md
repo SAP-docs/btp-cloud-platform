@@ -442,8 +442,6 @@ This page explains the relationship between the service plans in the SAP Discove
 
 The diagram below shows how the service plans listed in the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-foundry-runtime?region=all&tab=service_plan) correspond to the plans you choose in the [SAP BTP cockpit](https://cockpit.btp.cloud.sap), depending on the commercial model of your enterprise global account. For more information about the commercial models offered by SAP, see [Commercial Models](commercial-models-263d400.md).
 
-This image is interactive. Hover over rectangles in the diagram to see the description. Choose the highlighted areas for more information.
-
 ![A diagram depicting the relationship between service plans in the SAP Discovery Center, service plans in the SAP BTP cockpit, environment plans in the SAP BTP cockpit, and the metric GB Memory. Consumption-based commercial model, line 1 of 2: Service Plan (SAP Discovery Center) - Standard; Service Plan (SAP BTP Cockpit) - not applicable; Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB Memory; SKU - 8008837. Consumption-based commercial model, line 2 of 2: Service Plan (SAP Discovery Center) - Free; Service Plan (SAP BTP Cockpit) - free (Environment); Environment Plan (SAP BTP Cockpit) - free; Metrics - GB Memory; SKU - 8011138. Subscription-based commercial model, line 1 of 1: Service Plan (SAP Discovery Center) - Standard; Service Plan (SAP BTP Cockpit) - MEMORY, the plan is associated with a standalone service Cloud Foundry Runtime (technical name: APPLICATION_RUNTIME); Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB Memory; SKU - 8008837.](images/SAP_BTP_Cloud_Foundry_Runtime_Commercial_Information_Plans_-_2024_V2_67db7c4.png)
 
 

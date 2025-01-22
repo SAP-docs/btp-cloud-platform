@@ -85,6 +85,8 @@ Key user extensibility that is enabled in the SaaS solution can be configured an
 > Key user extensibility provided in a SaaS solution can only be configured in tenants of particular types, for consumption purposes in customer systems, such as AMT, in tenants of type *Partner Customer Test* or *Partner Customer Production* depending on parameter `usage` in the configuration of the ABAP solution. See [ABAP Solution Service](order-and-provide-975bd3e.md#loio1697387c02e74e66a55cf21a05678167).
 > 
 > These tenant types are provisioned in non-development systems, such as customer system AMT, where development is not allowed \(`is_development_allowed = false`\). The tenants are created dependent on a subscription to the SaaS solution. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html).
+> 
+> For a complete list of tenant business types that are enabled for key user extensibility, see [Tenant Business Types](tenant-business-types-018e8bd.md).
 
 As a business user in a *Partner Customer Test* or *Partner Customer Production* tenant \(client \>= 200\), you configure key user extensibility in a customer production system AMT.
 

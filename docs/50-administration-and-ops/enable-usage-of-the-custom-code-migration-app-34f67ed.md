@@ -105,5 +105,5 @@ To analyze your custom code in your on-premise system using the *Custom Code Mig
 
 [Custom Code Migration Guide for SAP S/4HANA](https://help.sap.com/doc/9dcbc5e47ba54a5cbb509afaa49dd5a1/latest/en-US/CustomCodeMigration_EndtoEnd.pdf)
 
-[How to check your custom ABAP code for SAP BTP, ABAP environment](https://blogs.sap.com/2018/10/02/how-to-check-your-custom-abap-code-for-sap-cloud-platform-abap-environment/)
+[How to check your custom ABAP code for SAP BTP ABAP environment](https://blogs.sap.com/2018/10/02/how-to-check-your-custom-abap-code-for-sap-cloud-platform-abap-environment/)
 

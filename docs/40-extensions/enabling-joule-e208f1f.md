@@ -108,5 +108,5 @@ As an alternative to the steps that follow, you can use the *Setting Up Joule* b
 
 ## Next Steps
 
-The next steps of the different SAP solutions interated with Joule are listed at [Integrating Joule with SAP Solutions](https://help.sap.com/docs/JOULE/a566dd86443f447aadfb5dfd9e1b7acc/702f3db8996a4a5bbceb6abd33c3ec69.html).
+The next steps of the different SAP solutions integrated with Joule are listed at [Integrating Joule with SAP Solutions](https://help.sap.com/docs/JOULE/a566dd86443f447aadfb5dfd9e1b7acc/702f3db8996a4a5bbceb6abd33c3ec69.html).
 

@@ -72,7 +72,7 @@ In order to implement the reusable component in a Fiori Elements app, you first 
     -   `logHandle`: `{path: 'myOdataServiceLogHandle'}`
 
 
-    After your app was deployed successfully to an SAP BTP, ABAP environment system, the *BSP application* and the *SAP Fiori Launchpad* app descriptor item will appear under your created package in Eclipse.
+    After your app was deployed successfully to an SAP BTP ABAP environment system, the *BSP application* and the *SAP Fiori Launchpad* app descriptor item will appear under your created package in Eclipse.
 
     ![](images/Eclipse_ABAP_Environment_e0a96c5.png)
 

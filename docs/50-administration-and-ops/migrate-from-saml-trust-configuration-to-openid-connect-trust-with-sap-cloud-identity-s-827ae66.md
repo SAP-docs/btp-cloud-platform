@@ -12,7 +12,10 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
 -   The prerequisites for working with the SAP BTP command line interface \(CLI\) are fulfilled \(see [Log in](log-in-e241b30.md)\).
 
--   In the SAP BTP cockpit under *Custom Identity Provider for Applications*, there are no trust configurations with the OpenID Connect protocol and no more than one with SAML; namely the configuration that you want to migrate.
+-   In the SAP BTP cockpit under *Custom Identity Provider for Applications*, there are no trust configurations with the OpenID Connect protocol and no more than one with SAML trust configuration that is used for interactive user login \(*Available for User Logon*\); namely the configuration that you want to migrate.
+
+    > ### Note:  
+    > SAML trust configurations that are used for principal propagation from other applications are not relevant and can remain unchanged.
 
     For more information, see [Migration from SAML Trust to OpenID Connect Trust with SAP Cloud Identity Services](migration-from-saml-trust-to-openid-connect-trust-with-sap-cloud-identity-services-d097ce2.md).
 

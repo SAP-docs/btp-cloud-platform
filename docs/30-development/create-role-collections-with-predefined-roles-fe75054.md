@@ -29,7 +29,7 @@ You define the role collections in the application security descriptor file \(`x
 
 1.  Deploy an application you want to use for creating security artifacts.
 
-2.  Edit the application descriptor file \(`xs-security.json`\) and add the `role-collections` property.
+2.  Edit the application descriptor file \(`xs-security.json`\) and add the `role-collections` property. For more information, see [Application Security Descriptor Configuration Syntax](application-security-descriptor-configuration-syntax-517895a.md).
 
     > ### Sample Code:  
     > ```
@@ -96,4 +96,6 @@ You define the role collections in the application security descriptor file \(`x
 [Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md "You've arranged roles in role collections, and now want to assign or map these role collections to business users.")
 
 [Tutorials for the SAP Authorization and Trust Management Service](tutorials-for-the-sap-authorization-and-trust-management-service-902ae80.md "Follow the tutorials below to get familiar with the SAP Authorization and Trust Management service in the Cloud Foundry environment of SAP BTP.")
+
+[Application Security Descriptor Configuration Syntax](application-security-descriptor-configuration-syntax-517895a.md "The syntax required to set the properties and values defined in the xs-security.json application security descriptor file.")
 

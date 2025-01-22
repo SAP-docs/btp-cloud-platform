@@ -2,7 +2,7 @@
 
 # Mail Communication
 
-Create a mail destination and enable mail communication from SAP BTP, ABAP environment
+Create a mail destination and enable mail communication from SAP BTP ABAP environment
 
 
 <table>

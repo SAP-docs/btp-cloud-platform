@@ -53,7 +53,7 @@ If multiple trusts are really needed in the subaccount, avoid that business user
 Some applications can be accessed using a URL that includes a query parameter to define the trust configuration for user login, instead of asking the user to choose one.
 
 > ### Example:  
-> `https://application.cfapps.eu10.hana.ondemand.com/sap_idp=some-origin-key`
+> `https://application.cfapps.eu10.hana.ondemand.com/?sap_idp=some-origin-key`
 
 Options
 

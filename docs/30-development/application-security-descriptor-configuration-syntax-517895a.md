@@ -906,7 +906,9 @@ Specifies the types of secrets available for binding applications to the service
 
 For more information, see [Service Instance Secrets](../50-administration-and-ops/service-instance-secrets-5578ec4.md).
 
-The default value is `instance-secret`. With `instance-secret` all bindings of a service instance of the SAP Authorization and Trust Management service share a single instance secret.
+With `instance-secret` all bindings of a service instance of the SAP Authorization and Trust Management service share a single instance secret.
+
+The default value is `binding-secret`.
 
 > ### Recommendation:  
 > Use `binding-secret` or `x509` so you can rotate the secret of a single binding without affecting other bindings of the service instance.

@@ -52,7 +52,7 @@ Description
 </td>
 <td valign="top">
 
-Deploy a new Multitarget Application \(MTA\) or synchronize changes to an existing MTA
+Deploy a new Multitarget Application \(MTA\) or synchronize changes to an existing MTA.
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ Deploy a new Multitarget Application \(MTA\) or synchronize changes to an existi
 </td>
 <td valign="top">
 
-Deploy a Multitarget Application using “blue-green” \(zero-downtime\) deployment
+Deploy a Multitarget Application using “blue-green” \(zero-downtime\) deployment.
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Deploy a Multitarget Application using “blue-green” \(zero-downtime\) deploy
 </td>
 <td valign="top">
 
-Undeploy a Multitarget Application \(MTA\)
+Undeploy a Multitarget Application \(MTA\).
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ Undeploy a Multitarget Application \(MTA\)
 </td>
 <td valign="top">
 
-Display information about a deployed Multitarget Application \(MTA\)
+Display information about a deployed Multitarget Application \(MTA\).
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ Display information about a deployed Multitarget Application \(MTA\)
 </td>
 <td valign="top">
 
-List all deployed Multitarget Applications \(MTA\)
+List all deployed Multitarget Applications \(MTA\).
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ List all deployed Multitarget Applications \(MTA\)
 </td>
 <td valign="top">
 
-List all active operations for Multitarget Applications
+List all active operations for Multitarget Applications.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ List all active operations for Multitarget Applications
 </td>
 <td valign="top">
 
-Download the log files for one or more operations concerning Multitarget Applications
+Download the log files for one or more operations concerning Multitarget Applications.
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Download the log files for one or more operations concerning Multitarget Applica
 </td>
 <td valign="top">
 
-Purge all configuration entries and subscriptions, which are no longer valid
+Purge all configuration entries and subscriptions, which are no longer valid.
 
 </td>
 </tr>
@@ -352,7 +352,7 @@ Define one or more extensions to the deployment descriptors; multiple extension 
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point that is to be used for the deployment operation
+Specify the URL for the deployment-service end-point that is to be used for the deployment operation.
 
 </td>
 </tr>
@@ -364,7 +364,7 @@ Specify the URL for the deployment-service end-point that is to be used for the 
 </td>
 <td valign="top">
 
-Specify the maximum amount of time \(in seconds\) that the service must wait for before starting the deployed application
+Specify the maximum amount of time \(in seconds\) that the service must wait for before starting the deployed application.
 
 </td>
 </tr>
@@ -388,7 +388,7 @@ Specify the rule to apply to determine how the application version number is use
 </td>
 <td valign="top">
 
-Specify the ID of the deploy operation that you want to perform an action on
+Specify the ID of the deploy operation that you want to perform an action on.
 
 </td>
 </tr>
@@ -400,7 +400,7 @@ Specify the ID of the deploy operation that you want to perform an action on
 </td>
 <td valign="top">
 
-Specify the action to perform on the deploy operation, for example, “abort”, “retry”, or “monitor”, or “resume”
+Specify the action to perform on the deploy operation, for example, “abort”, “retry”, or “monitor”, or “resume”.
 
 </td>
 </tr>
@@ -412,7 +412,7 @@ Specify the action to perform on the deploy operation, for example, “abort”,
 </td>
 <td valign="top">
 
-Force deployment without requiring any confirmation about aborting any conflicting processes
+Force deployment without requiring any confirmation about aborting any conflicting processes.
 
 </td>
 </tr>
@@ -424,7 +424,7 @@ Force deployment without requiring any confirmation about aborting any conflicti
 </td>
 <td valign="top">
 
-Do not start application after deployment
+Do not start application after deployment.
 
 </td>
 </tr>
@@ -512,7 +512,7 @@ See [Application-Specific Timeouts](../30-development/applications-0540211.md#lo
 </td>
 <td valign="top">
 
-Re-create changed services and delete discontinued services
+Re-create changed services and delete discontinued services.
 
 </td>
 </tr>
@@ -524,7 +524,7 @@ Re-create changed services and delete discontinued services
 </td>
 <td valign="top">
 
-Delete the existing service keys and apply the new ones
+Delete the existing service keys and apply the new ones.
 
 </td>
 </tr>
@@ -536,7 +536,7 @@ Delete the existing service keys and apply the new ones
 </td>
 <td valign="top">
 
-Delete discontinued service brokers
+Delete discontinued service brokers.
 
 </td>
 </tr>
@@ -548,7 +548,7 @@ Delete discontinued service brokers
 </td>
 <td valign="top">
 
-Keep the files used for deployment
+Keep the files used for deployment.
 
 </td>
 </tr>
@@ -560,7 +560,7 @@ Keep the files used for deployment
 </td>
 <td valign="top">
 
-Do not restart subscribed applications that are updated during the deployment
+Do not restart subscribed applications that are updated during the deployment.
 
 </td>
 </tr>
@@ -720,7 +720,7 @@ Namespace for the MTA. They are also applied to the application and service name
 Apply namespace to application names. If the namespace value is not provided in the CLI options, it is not applied.
 
 > ### Note:  
-> This is applied on all applications.
+> This applies to all applications.
 
 
 
@@ -742,7 +742,7 @@ Apply namespace to application names. If the namespace value is not provided in 
 Apply namespace to service names. If the namespace value is not provided in the CLI options, it is not applied.
 
 > ### Note:  
-> This is applied on all services.
+> This applies to all services.
 
 
 
@@ -764,7 +764,7 @@ Apply namespace to service names. If the namespace value is not provided in the 
 Apply namespace to application routes. If the namespace value is not provided in the CLI options, it is not applied.
 
 > ### Note:  
-> This is applied on all application routes.
+> This applies to all application routes.
 
 
 
@@ -786,7 +786,7 @@ Apply namespace to application routes. If the namespace value is not provided in
 Apply namespace as suffix. If the namespace value is not provided in the CLI options, it is not applied.
 
 > ### Note:  
-> This is applied on all applications, services, and application routes.
+> This applies to all applications, services, and application routes.
 
 
 
@@ -944,7 +944,7 @@ Define one or more extensions to the deployment descriptors; multiple extension 
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point that is to be used for the deployment operation
+Specify the URL for the deployment-service end-point that is to be used for the deployment operation.
 
 </td>
 </tr>
@@ -956,7 +956,7 @@ Specify the URL for the deployment-service end-point that is to be used for the 
 </td>
 <td valign="top">
 
-Specify the maximum amount of time \(in seconds\) that the service must wait for before starting the deployed application
+Specify the maximum amount of time \(in seconds\) that the service must wait for before starting the deployed application.
 
 </td>
 </tr>
@@ -980,7 +980,7 @@ Specify the rule to apply to determine how the application version number is use
 </td>
 <td valign="top">
 
-Specify the ID of the deploy operation that you want to perform an action on
+Specify the ID of the deploy operation that you want to perform an action on.
 
 </td>
 </tr>
@@ -992,7 +992,7 @@ Specify the ID of the deploy operation that you want to perform an action on
 </td>
 <td valign="top">
 
-Specify the action to perform on the deploy operation, for example, “abort”, “retry”, or “monitor”, or “resume”
+Specify the action to perform on the deploy operation, for example, “abort”, “retry”, or “monitor”, or “resume”.
 
 </td>
 </tr>
@@ -1004,7 +1004,7 @@ Specify the action to perform on the deploy operation, for example, “abort”,
 </td>
 <td valign="top">
 
-Force deploy without requiring any confirmation for aborting any conflicting processes
+Force deploy without requiring any confirmation for aborting any conflicting processes.
 
 </td>
 </tr>
@@ -1016,7 +1016,7 @@ Force deploy without requiring any confirmation for aborting any conflicting pro
 </td>
 <td valign="top">
 
-Do not start application after deployment
+Do not start application after deployment.
 
 </td>
 </tr>
@@ -1028,7 +1028,7 @@ Do not start application after deployment
 </td>
 <td valign="top">
 
-Use namespaces in application \(and service\) names during application deployment
+Use namespaces in application \(and service\) names during application deployment.
 
 </td>
 </tr>
@@ -1040,7 +1040,7 @@ Use namespaces in application \(and service\) names during application deploymen
 </td>
 <td valign="top">
 
-Do not use namespaces in service names
+Do not use namespaces in service names.
 
 </td>
 </tr>
@@ -1052,7 +1052,7 @@ Do not use namespaces in service names
 </td>
 <td valign="top">
 
-Re-create changed services and delete discontinued services
+Re-create changed services and delete discontinued services.
 
 </td>
 </tr>
@@ -1064,7 +1064,7 @@ Re-create changed services and delete discontinued services
 </td>
 <td valign="top">
 
-Delete the existing service keys and apply the new ones
+Delete the existing service keys and apply the new ones.
 
 </td>
 </tr>
@@ -1076,7 +1076,7 @@ Delete the existing service keys and apply the new ones
 </td>
 <td valign="top">
 
-Delete discontinued service brokers
+Delete discontinued service brokers.
 
 </td>
 </tr>
@@ -1088,7 +1088,7 @@ Delete discontinued service brokers
 </td>
 <td valign="top">
 
-Keep the files used for deployment
+Keep the files used for deployment.
 
 </td>
 </tr>
@@ -1100,7 +1100,7 @@ Keep the files used for deployment
 </td>
 <td valign="top">
 
-Do not restart subscribed applications that are updated during the deployment
+Do not restart subscribed applications that are updated during the deployment.
 
 </td>
 </tr>
@@ -1136,7 +1136,7 @@ Perform the deployment, even if required administrator permissions are missing f
 </td>
 <td valign="top">
 
-If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*
+If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*.
 
 </td>
 </tr>
@@ -1182,7 +1182,7 @@ Deploy all modules.
 </td>
 <td valign="top">
 
-Deploy only the resource with the specified name
+Deploy only the resource with the specified name.
 
 > ### Note:  
 > It can be used multiple times.
@@ -1339,7 +1339,7 @@ Description
 </td>
 <td valign="top">
 
-Specify the URL for the service end-point that is to be used for the undeployment operation
+Specify the URL for the service end-point that is to be used for the undeployment operation.
 
 </td>
 </tr>
@@ -1351,7 +1351,7 @@ Specify the URL for the service end-point that is to be used for the undeploymen
 </td>
 <td valign="top">
 
-Specify the ID of the undeploy operation that you want to perform an action on
+Specify the ID of the undeploy operation that you want to perform an action on.
 
 </td>
 </tr>
@@ -1363,7 +1363,7 @@ Specify the ID of the undeploy operation that you want to perform an action on
 </td>
 <td valign="top">
 
-Specify the action to perform on the undeploy operation, for example, “abort”, “retry”, or “monitor”
+Specify the action to perform on the undeploy operation, for example, “abort”, “retry”, or “monitor”.
 
 </td>
 </tr>
@@ -1375,7 +1375,7 @@ Specify the action to perform on the undeploy operation, for example, “abort�
 </td>
 <td valign="top">
 
-Force completion of the undeploy operation without any system prompt or confirmation
+Force completion of the undeploy operation without any system prompt or confirmation.
 
 </td>
 </tr>
@@ -1387,7 +1387,7 @@ Force completion of the undeploy operation without any system prompt or confirma
 </td>
 <td valign="top">
 
-Delete any related services
+Delete any related services.
 
 </td>
 </tr>
@@ -1399,7 +1399,7 @@ Delete any related services
 </td>
 <td valign="top">
 
-Delete discontinued service brokers
+Delete discontinued service brokers.
 
 </td>
 </tr>
@@ -1411,7 +1411,7 @@ Delete discontinued service brokers
 </td>
 <td valign="top">
 
-Do not restart subscribed applications that are updated during the deployment
+Do not restart subscribed applications that are updated during the deployment.
 
 </td>
 </tr>
@@ -1447,7 +1447,7 @@ If an operation fails, the corresponding process is automatically aborted and ca
 </td>
 <td valign="top">
 
-Delete the existing service keys
+Delete the existing service keys.
 
 </td>
 </tr>
@@ -1532,7 +1532,7 @@ Description
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA
+Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA.
 
 </td>
 </tr>
@@ -1582,7 +1582,7 @@ Description
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA
+Specify the URL for the deployment-service endpoint to use to obtain details of the selected MTA.
 
 </td>
 </tr>
@@ -1632,7 +1632,7 @@ Description
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA operations
+Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA operations.
 
 </td>
 </tr>
@@ -1644,7 +1644,7 @@ Specify the URL for the deployment-service end-point to use to obtain details of
 </td>
 <td valign="top">
 
-List the last *<NUM\>* active MTA operations
+List the last *<NUM\>* active MTA operations.
 
 </td>
 </tr>
@@ -1656,7 +1656,7 @@ List the last *<NUM\>* active MTA operations
 </td>
 <td valign="top">
 
-List all active MTA operations
+List all active MTA operations.
 
 </td>
 </tr>
@@ -1728,7 +1728,7 @@ Description
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA operations
+Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA operations.
 
 </td>
 </tr>
@@ -1740,7 +1740,7 @@ Specify the URL for the deployment-service end-point to use to obtain details of
 </td>
 <td valign="top">
 
-Specify the identity \(ID\) of the MTA operation whose logs you want to download
+Specify the identity \(ID\) of the MTA operation whose logs you want to download.
 
 </td>
 </tr>
@@ -1752,7 +1752,7 @@ Specify the identity \(ID\) of the MTA operation whose logs you want to download
 </td>
 <td valign="top">
 
-Specify the path to the location where you want to save the downloaded MTA operation logs; by default, the location is <code>./mta-op-<i class="varname">&lt;OPERATION_ID&gt;</i>/</code>
+Specify the path to the location where you want to save the downloaded MTA operation logs; by default, the location is <code>./mta-op-<i class="varname">&lt;OPERATION_ID&gt;</i>/</code>.
 
 </td>
 </tr>

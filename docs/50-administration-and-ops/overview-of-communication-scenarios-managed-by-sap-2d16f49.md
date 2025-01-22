@@ -292,7 +292,7 @@ Enabling Notifications \(SAP\_COM\_0683\)
 </td>
 <td valign="top">
 
-[Enabling Notifications on SAP BTP, ABAP environment in Launchpads Running on SAP BTP](enabling-notifications-on-sap-btp-abap-environment-in-launchpads-running-on-sap-btp-ba62b2a.md)
+[Enabling Notifications on SAP BTP ABAP environment in Launchpads Running on SAP BTP](enabling-notifications-on-sap-btp-abap-environment-in-launchpads-running-on-sap-btp-ba62b2a.md)
 
 </td>
 </tr>

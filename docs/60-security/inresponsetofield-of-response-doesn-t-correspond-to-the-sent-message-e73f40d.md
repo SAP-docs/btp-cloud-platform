@@ -34,7 +34,7 @@ The identity provider may be out of sync; or if it consistently takes a long tim
 
 ### Check the audit log
 
-Check the audit log for the *AuthnRequest expired - ID: <RequestId\> Destination: <IdPDestination\>* error. If you find this error message, refer to [this Guided Answer](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:48362).
+Check the audit log for the *AuthnRequest expired - ID: <RequestId\> Destination: <IdPDestination\>* error. If you find this error message, refer to [AuthnRequest expired - ID: <RequestId\> Destination: <IdPDestination\>](authnrequest-expired-id-requestid-destination-idpdestination-01aee78.md).
 
 For more information about the audit log, refer to [Auditing and Logging Information for SAP Authorization and Trust Management Service - SAP Help Portal](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d8f4b7c7298a422183beddb4ad47c108.html).
 

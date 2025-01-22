@@ -15,7 +15,3 @@ These technologies are described in detail with corresponding examples in the [A
 							cases are supported by administration tasks that are displyed as two more text boxes: communication management and
 							monitoring](images/Image_Map_Overview_of_the_ABAP_Integration_and_Connectivity_Guide_3864c49.png)
 
-
-
-For information about connectivity administration in the SAP BTP cockpit, see [SAP BTP Connectivity](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/connectivity?version=Cloud).
-

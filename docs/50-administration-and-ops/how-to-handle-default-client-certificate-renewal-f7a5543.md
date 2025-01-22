@@ -10,9 +10,9 @@ If you use the default client certificate for certificate-based authentication i
 
 ## Context
 
-In outbound integration scenarios that use certificate-based authentication, the SAP BTP, ABAP environment system needs to authenticate itself against the external system with a client certificate. You can use the default client certificate provided by SAP BTP, ABAP environment for this purpose. This certificate will be rotated twice a year by SAP, regardless of its remaining validity.
+In outbound integration scenarios that use certificate-based authentication, the SAP BTP ABAP environment system needs to authenticate itself against the external system with a client certificate. You can use the default client certificate provided by SAP BTP ABAP environment for this purpose. This certificate will be rotated twice a year by SAP, regardless of its remaining validity.
 
-The new certificate needs to be configured in your external system that communicates with SAP BTP, ABAP environment.
+The new certificate needs to be configured in your external system that communicates with SAP BTP ABAP environment.
 
 
 

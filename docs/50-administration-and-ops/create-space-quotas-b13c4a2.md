@@ -44,6 +44,14 @@ You have the Org Manager role for the org in which you want to create a space qu
 5.  Choose *Create*.
 
 
+
+
+<a name="loiob13c4a2666dd4018a52780da581bbf6d__example_tpp_j22_zdc"/>
+
+## Creating a Space Quota in the Cockpit
+
+![](images/Example_for_Creating_a_Space_Quota_in_the_SAP_BTP_Cockpit_dbcbfb6.png)
+
 **Related Information**  
 
 

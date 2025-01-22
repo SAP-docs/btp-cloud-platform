@@ -24,7 +24,7 @@
 
 ## Context
 
-You can use the communication scenario `SAP_COM_0510` to work with Git repositories on an SAP BTP, ABAP environment system.
+You can use the communication scenario `SAP_COM_0510` to work with Git repositories on an SAP BTP ABAP environment system.
 
 > ### Note:  
 > In ABAP Environment, Git repositories are wrapped in software components. These are currently managed in the *Manage Software Components* app. The technical parameter `sc_name` used in this API needs to be the name of the Git repository on the ABAP Environment system – the name of the software component.

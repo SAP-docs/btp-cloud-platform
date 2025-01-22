@@ -18,7 +18,7 @@ The `Schedule Custom Code Analysis` app enables you to schedule projects created
 
 ## Key Features
 
-With this app you can schedule ABAP Test Cockpit \(ATC\) mass runs for your custom code migration project in a SAP BTP, ABAP environment system through a predefined custom code analysis application job template.
+With this app you can schedule ABAP Test Cockpit \(ATC\) mass runs for your custom code migration project in a SAP BTP ABAP environment system through a predefined custom code analysis application job template.
 
 
 

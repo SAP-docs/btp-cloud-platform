@@ -2,7 +2,7 @@
 
 # Communication Management
 
-The *Communication Management* app helps you to integrate your SAP BTP, ABAP environment system with SAP BTP, Cloud Foundry environment systems to enable data exchange.
+The *Communication Management* app helps you to integrate your SAP BTP ABAP environment system with SAP BTP, Cloud Foundry environment systems to enable data exchange.
 
 
 

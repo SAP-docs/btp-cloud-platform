@@ -4,7 +4,7 @@
 
 If you want to create an application in Cloud Foundry and use the SAP Cloud Deployment service, you must create an MTA module first.
 
-In most of cases, an MTA module represents a Cloud Foundry application, but there are cases where they represent an entirely different type of entity, for example content. Modules can have different types and parameters that modify their behavior. See [Modules](modules-177d34d.md) for more information.
+In most of cases, an MTA module represents a Cloud Foundry application, but there are cases where they represent an entirely different type of entity, for example content. Modules can have different types and parameters that modify their behavior. For more information, see [Modules](modules-177d34d.md).
 
 > ### Note:  
 > We strongly recommend that you specify the appropriate buildpack for your application. This ensures that the application is handled by the buildpack for which it is intended and tested. It also speeds up application deployment, because only the specified buildpack is downloaded for use during the staging process.
@@ -46,7 +46,7 @@ The MTA deployment is an incremental process. This means that the state of the a
 
 ## **Application-Specific Timeouts**
 
-When creating Cloud Foundry applications as part of the MTA deployment, you have the option to set specific timeouts for different phases of the application's creation or execution. When any of these timeouts occur, the MTA operation fails with a relevant error message to avoid MTA deployment run indefinitely. When any of these timeouts occurs, the MTA operation fails and a relevant error message is displayed. This is to prevent the MTA deployment from running indefinitely.
+When creating Cloud Foundry applications as part of the MTA deployment, you have the option to set specific timeouts for different phases of the application's creation or execution. When any of these timeouts occur, the MTA operation fails with a relevant error message to prevent the MTA deployment from running indefinitely.
 
 Currently the following timeouts are supported:
 
@@ -59,7 +59,7 @@ Currently the following timeouts are supported:
 -   **Start timeout** – the time it takes to start all application instances.
 
 
--   **Task execution timeout** – the time between when you run a Cloud Foundry task and when it reaches its final state.
+-   **Task execution timeout** – the time between the initiation of a Cloud Foundry task and its final state. This timeout also applies to module hooks, as they use Cloud Foundry tasks. For more information, see [Module Hooks](module-hooks-b9245ba.md).
 
 
 

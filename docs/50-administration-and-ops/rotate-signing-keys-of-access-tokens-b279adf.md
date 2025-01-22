@@ -29,7 +29,7 @@ Plan for waiting time in hours between the steps of this procedure.
 
 After activating a new key, wait for access tokens signed by the old key to expire before deleting the old key. The default lifetime of access tokens is 12 hours.
 
-To support this delay in rotation, the service enforces a minimum 1-hour delay between rotation and the activation.
+To support this delay in rotation, the service enforces a minimum 12-hour delay between rotation and the activation.
 
 > ### Note:  
 > In emergency cases or in automated test setups, you can bypass the delay in activation and deletion by using the `--force` option. Forcing changes can also cause service interruption for access tokens that haven't expired yet.
@@ -155,7 +155,7 @@ You can use the Security Setting API of the SAP Authorization and Trust Manageme
 
     After activating a new key, wait for access tokens signed by the old key to expire before deleting the old key. The default lifetime of access tokens is 12 hours.
 
-    To support this delay in rotation, the service enforces a minimum 1-hour delay between rotation and the activation \(`UPDATE`\) or deletion \(`DELETE`\) of signing keys.
+    To support this delay in rotation, the service enforces a minimum 12-hour delay between rotation and the activation \(`UPDATE`\) or deletion \(`DELETE`\) of signing keys.
 
     > ### Note:  
     > In emergency cases or in automated test setups, you can bypass the delay in activation and deletion by using the `FORCE_UPDATE` and `FORCE_DELETE` change modes. Forcing changes can also cause service interruption for access tokens that haven't expired yet.

@@ -34,6 +34,7 @@ The SaaS Provisioning Service allows application providers to register multitena
               {
                 "name": "...",
                 "description": "..."
+        	   "allowedTargetPlans": "..."
               },{
                 ...
               }
@@ -147,6 +148,8 @@ The SaaS Provisioning Service allows application providers to register multitena
         <td valign="top">
         
         \(Optional\) Specify the plan for your application. Name it and provide a short description. With the help of plans, you can try out your application in different modes or variations. For example, an app for staging or development purposes. Note that the plans are only visible in the subaccounts that belong to the provider global account.
+
+        With <code><b>allowedTargetPlans</b></code>, you can specifiy a list of plans to which the existing subscription can switch. This includes plans for upgrades, downgrades, and other types of transitions.
         
         </td>
         </tr>

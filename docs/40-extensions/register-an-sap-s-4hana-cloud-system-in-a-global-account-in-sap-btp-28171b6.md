@@ -82,7 +82,12 @@ The registration process has the following states displayed in the cockpit:
 
 1.  In the cockpit, navigate to your global account, and then choose *System Landscape* \> *Systems*.
 
-2.  On the *Systems* page, choose *Add System*.
+2.  Check if your SAP S/4HANA Cloud system has been auto-discovered and is already in the *Systems* page. If yes, then continue with *step 3.e.* and get the registration token.
+
+    > ### Note:  
+    > If your SAP S/4HANA Cloud system is auto-discovered and you still add it manually and then finish the registration process with the manually added system, you can merge the two entries. See [Mergе SAP Systems](merg-sap-systems-5592d86.md).
+
+3.  On the *Systems* page, choose *Add System*.
 
     1.  In the *Type* dropdown list, select *SAP S/4HANA Cloud*.
 
@@ -125,12 +130,12 @@ The registration process has the following states displayed in the cockpit:
         The SAP S/4HANA Cloud system appears in the list of systems on the *Systems* page. Its *Status* field is empty because the registration process is not yet completed.
 
 
-3.  Start the automated registration process on the SAP S/4HANA Cloud system side. To do so, proceed as described in as described in [Trigger the Registration in the SAP S/4HANA Cloud Tenant](trigger-the-registration-in-the-sap-s-4hana-cloud-tenant-cadf8f6.md).
+4.  Start the automated registration process on the SAP S/4HANA Cloud system side. To do so, proceed as described in as described in [Trigger the Registration in the SAP S/4HANA Cloud Tenant](trigger-the-registration-in-the-sap-s-4hana-cloud-tenant-cadf8f6.md).
 
     > ### Note:  
     > You can register a system with the same name only once per global account. Once you have started a registration process for a system with a specified name you can no longer register a system with the same name and connect it with the same global account.
 
-4.  Check the status of the registration process. To do so, in the cockpit navigate to your global account, and on the *Systems* page, check if the status of the SAP S/4HANA Cloud system has changed to *Registered*.
+5.  Check the status of the registration process. To do so, in the cockpit navigate to your global account, and on the *Systems* page, check if the status of the SAP S/4HANA Cloud system has changed to *Registered*.
 
     If you are already on the *Systems* page, refresh the page to check if the status has changed.
 

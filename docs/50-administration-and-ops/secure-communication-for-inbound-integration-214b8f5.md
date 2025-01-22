@@ -2,7 +2,7 @@
 
 # Secure Communication for Inbound Integration
 
-Integration scenarios from a customer system to SAP BTP, ABAP environment \(inbound integration\) require secure communication.
+Integration scenarios from a customer system to SAP BTP ABAP environment \(inbound integration\) require secure communication.
 
 You specify and configure the authentication method in the *Communication Arrangements* app when you select a user for inbound communication. The underlying communication scenario defines the authentication methods that are available for a communication arrangement.
 
@@ -32,17 +32,17 @@ Token-based authentication methods are configured in the *Communication System* 
 
 ### OAuth-Based Authentication
 
-When the external system authenticates to SAP BTP, ABAP environment using OAuth, it presents a short-lived token to SAP BTP, ABAP environmentt. This token is cryptographically signed by a trusted token provider.
+When the external system authenticates to SAP BTP ABAP environment using OAuth, it presents a short-lived token to SAP BTP ABAP environmentt. This token is cryptographically signed by a trusted token provider.
 
-To establish the trust relationship between SAP BTP, ABAP environment and the token provider, you must upload the token provider’s certificate \(public key\) to your SAP BTP, ABAP environment in the *Communication Systems* app.
+To establish the trust relationship between SAP BTP ABAP environment and the token provider, you must upload the token provider’s certificate \(public key\) to your SAP BTP ABAP environment in the *Communication Systems* app.
 
 
 
 ### SAML-Based Authentication
 
-In SAML-based authentication, the external system authenticates by passing a SAML assertion \(a cryptographically signed piece of text\) to SAP BTP, ABAP environment.
+In SAML-based authentication, the external system authenticates by passing a SAML assertion \(a cryptographically signed piece of text\) to SAP BTP ABAP environment.
 
-For authentication to succeed, the issuer of the SAML assertion must be trusted by the SAP BTP, ABAP environment. To ensure trust, you must upload the certificate \(public key\) of the SAML issuer in the *Communication Systems* app. This enables SAP BTP, ABAP environment to verify the authenticity of the SAML assertion.
+For authentication to succeed, the issuer of the SAML assertion must be trusted by the SAP BTP ABAP environment. To ensure trust, you must upload the certificate \(public key\) of the SAML issuer in the *Communication Systems* app. This enables SAP BTP ABAP environment to verify the authenticity of the SAML assertion.
 
 
 

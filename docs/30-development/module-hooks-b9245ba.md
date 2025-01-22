@@ -9,6 +9,9 @@ Define and execute hooks at specific phases of module deployment.
 
 You can use hooks to change the typical deployment process, in this case to enable tasks to be executed during a specific moment of the application deployment. For example, you can set hooks to be executed before or after the actual deployment steps for a module, depending on the applications' need.
 
+> ### Note:  
+> Currently, module hooks are only Cloud Foundry app tasks. Therefore, the timeout of a hook is the task execution timeout defined for the respective module. For more information, see [Application-Specific Timeouts](applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc).
+
 When added to the deployment descriptor, module hooks are modeled as follows:
 
 > ### Sample Code:  

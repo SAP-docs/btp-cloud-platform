@@ -30,20 +30,26 @@ These are the formations types following this use case:
 
 -   *Integration with SAP Ariba Central Invoice Management*. See [Automating Integrations with SAP Ariba Central Invoice Management](automating-integrations-with-sap-ariba-central-invoice-management-27ca5c2.md).
 
+-   *Integration with SAP Subscription Billing*. See [Automating Integrations with SAP Subscription Billing](automating-integrations-with-sap-subscription-billing-08f42b2.md).
+
+-   *Integration with SAP Collaboration Manager*. See [Automating Integrations with SAP Collaboration Manager](automating-integrations-with-sap-collaboration-manager-b4297f9.md).
+
+-   *Integration with SAP Ariba Central Invoice Management*. See [Automating Integrations with SAP Advanced Financial Closing](automating-integrations-with-sap-advanced-financial-closing-46d0881.md).
+
 
 
 
 ### Integrate SAP Systems with a Service in SAP BTP
 
-There are formations dedicated to automate the integration between supported SAP systems and a service in SAP BTP. In this use case the topology is star where the service is in the center and is communicating with every SAP system that is included in the formation. The formation type is related to the service. The SAP systems that are included do not communication between each other.
+There are formations dedicated to automate the integration between supported SAP systems and a service in SAP BTP. In this use case the topology is a star topology where the service is in the center and is communicating with every SAP system that is included in the formation. The formation type is related to the service. The SAP systems that are included do not communicate between each other.
 
 These are the formations types following this use case:
+
+-   *Integration with Joule*. See [Enabling Joule](enabling-joule-e208f1f.md).
 
 -   *Eventing Between SAP Cloud Systems*. See [Enabling Events Exchange Between SAP Cloud Systems](enabling-events-exchange-between-sap-cloud-systems-1592246.md).
 
 -   *Integration with SAP Master Data Integration*. See [Enabling Integration with SAP Master Data Integration](enabling-integration-with-sap-master-data-integration-9743f20.md).
-
--   *Integration with Joule*. See [Enabling Joule](enabling-joule-e208f1f.md).
 
 
 
@@ -56,10 +62,10 @@ These are the formations types following this use case:
 
 -   *Side-by-Side Extensibility with Kyma*. See [Setting Up System Landscape for Kyma](setting-up-system-landscape-for-kyma-9154051.md).
 
--   *Developing with SAP Business Application Studio*. See [Setting Up System Landscape for SAP Business Application Studio](setting-up-system-landscape-for-sap-business-application-studio-272ca23.md).
-
 -   *Integration with SAP Build*. See [Setting Up System Landscape for SAP Build](setting-up-system-landscape-for-sap-build-6424311.md).
 
 -   *Integration with SAP Integration Suite*. See [Setting Up System Landscape for SAP Integration Suite](setting-up-system-landscape-for-sap-integration-suite-a14c276.md).
+
+-   *Developing with SAP Business Application Studio*. See [Setting Up System Landscape for SAP Business Application Studio](setting-up-system-landscape-for-sap-business-application-studio-272ca23.md).
 
 

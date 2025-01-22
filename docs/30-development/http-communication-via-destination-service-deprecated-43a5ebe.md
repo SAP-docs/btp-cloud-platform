@@ -115,7 +115,7 @@ Create a destination object using class `cl_http_destination_provider` and metho
     </table>
     
 
-Other authentication methods are currently not supported by the SAP BTP, ABAP environment.
+Other authentication methods are currently not supported by the SAP BTP ABAP environment.
 
 
 
@@ -167,7 +167,7 @@ To test your outbound call, configure an HTTP destination as described in [Creat
 
 -   Only the authentication methods listed in table *Authentication Methods* are available.
 -   If you're using Client Certificate Authentication as authentication method, activate *Use client provided certificate*. This flag is only visible if the URL field contains a URL string starting with *https://...* .
--   For proxy type `Internet` and the use of authentication type `client certificate`, you must upload the X.509 client certificate in P12 format on the client side in the SAP BTP, ABAP environment using the Maintain Client Certificates application. For more information, see [Maintain Client Certificates](../50-administration-and-ops/maintain-client-certificates-7f6a8fb.md). Uploading the client certificate via destination service isn't supported.
+-   For proxy type `Internet` and the use of authentication type `client certificate`, you must upload the X.509 client certificate in P12 format on the client side in the SAP BTP ABAP environment using the Maintain Client Certificates application. For more information, see [Maintain Client Certificates](../50-administration-and-ops/maintain-client-certificates-7f6a8fb.md). Uploading the client certificate via destination service isn't supported.
 -   The use of `if_a4c_cp_service=>user_propagation` isn't supported in the ADT class runner. It can only be tested when a business user context is available, for example, during processing of OData services or HTTP services.
 
 **Related Information**  

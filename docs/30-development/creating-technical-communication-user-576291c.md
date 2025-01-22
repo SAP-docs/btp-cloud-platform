@@ -2,7 +2,7 @@
 
 # Creating Technical Communication User
 
-You use this procedure to create a communication user for inbound communication from SAP BTP, ABAP environment to SAP S/4HANA Cloud systems.
+You use this procedure to create a communication user for inbound communication from SAP BTP ABAP environment to SAP S/4HANA Cloud systems.
 
 
 

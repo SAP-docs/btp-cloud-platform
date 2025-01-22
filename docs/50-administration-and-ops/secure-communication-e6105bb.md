@@ -2,7 +2,7 @@
 
 # Secure Communication
 
-SAP BTP, ABAP environment offers secure communication features for securing both machine-to-machine communication \(server communication security\) as well as communication between systems and end-user UIs \(frontend communication security\).
+SAP BTP ABAP environment offers secure communication features for securing both machine-to-machine communication \(server communication security\) as well as communication between systems and end-user UIs \(frontend communication security\).
 
 Communication security is maintained on multiple levels.
 

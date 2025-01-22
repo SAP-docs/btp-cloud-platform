@@ -19,23 +19,23 @@ You can use the cockpit to deploy a new application in the Cloud Foundry environ
     > ### Note:  
     > To avoid any unexpected behavior, specify the attributes of your choice and their respective values in the `manifest.yml` file. For reference, see [https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest-attributes.html).
 
-5.  \(Optional\) If you don't want to use a manifest, deselect the *Use Manifest* box and enter the application details.
+5.  \(Optional\) If you don't want to use a manifest, select the *Custom Settings* radio button and enter the application details.
 
     1.  Enter a name for your application.
 
-    2.  \(Optional\) Edit the amount of memory and disk space available to each instance of your app, as well as the number of instances.
+    2.  \(Optional\) Edit the amount of memory and disk space available to each instance of your application, as well as the number of instances.
 
         The amount of memory per instance that you assign, in this step or in the `manifest.yml` file during deployment, is the value that is metered when using the Cloud Foundry runtime service. For more information, see the examples in [Monitoring and Troubleshooting](https://help.sap.com/viewer/4287333baaa6413a8ece0a8ed1196af4/Cloud/en-US/2d6eb4d7181d4e8f8d7091158957b730.html).
 
         > ### Note:  
-        > By default, each instance of a new app is assigned 1024 MB of memory and 512 MB of disk space, and each app starts with 1 instance. If you require more or less resources, edit the prefilled fields in the form to suit your needs.
+        > By default, each instance of a new application is assigned 1024 MB of memory and 512 MB of disk space, and each application starts with 1 instance. If you require more or less resources, edit the prefilled fields in the form to suit your needs.
 
-    3.  \(Optional\) If you don't need a route for your app, select the *No Route* box.
+    3.  \(Optional\) If you don't need a route for your application, switch off *Create Route*.
 
-    4.  \(Optional\) If you would like to create a route for your app, leave the *No Route* box deselected and choose a host name \(if different than your app name\) and a domain for your app.
+    4.  \(Optional\) If you would like to create a route for your application, leave *Create Route* switched on and choose a *Host* name \(if different from your application name\) and a *Domain* for your application.
 
         > ### Note:  
-        > When you enter an app name, the *Host* field is automatically filled with the same name. You can make changes to it or leave it as is. After deciding on a host and domain, you can see a preview of your final application route at the bottom of the form.
+        > When you enter an application name, the *Host* field is automatically filled with the same name. You can make changes to it or leave it as is. After deciding on a host and domain, you can see a preview of your final *Application Route* at the bottom of the form.
 
 
 6.  Choose *Deploy*.

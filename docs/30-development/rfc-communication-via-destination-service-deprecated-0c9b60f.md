@@ -133,7 +133,7 @@ The sample code below shows how to get a reference to a destination and how to u
 
 ## Test Your Outbound Call
 
-To test your outbound call, configure an RFC destination as described in [Create RFC Destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-neo/create-rfc-destinations?version=Cloud). The following authentication methods are supported in the SAP BTP, ABAP environment:
+To test your outbound call, configure an RFC destination as described in [Create RFC Destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-neo/create-rfc-destinations?version=Cloud). The following authentication methods are supported in the SAP BTP ABAP environment:
 
 **Internet**:
 
@@ -146,7 +146,7 @@ To test your outbound call, configure an RFC destination as described in [Create
 -   Principal Propagation: Use the additional property `jco.destination.auth_type` with value `PrincipalPropagation` to enable Principal Propagation.
 
 > ### Note:  
-> -   For proxy type *Internet* and the use of authentication type client certificate, you must upload the X.509 client certificate in P12 format on the client side in the SAP BTP, ABAP environment, using the Maintain Client Certificates application. For more information, see [Maintain Client Certificates](../50-administration-and-ops/maintain-client-certificates-7f6a8fb.md). Uploading the client certificate via destination service isn't supported.
+> -   For proxy type *Internet* and the use of authentication type client certificate, you must upload the X.509 client certificate in P12 format on the client side in the SAP BTP ABAP environment, using the Maintain Client Certificates application. For more information, see [Maintain Client Certificates](../50-administration-and-ops/maintain-client-certificates-7f6a8fb.md). Uploading the client certificate via destination service isn't supported.
 > -   For proxy type *OnPremise*, the use of authentication type `PrincipalPropagation` for a destination isn't supported in the ADT class runner.
 
 **Related Information**  

@@ -2,7 +2,7 @@
 
 # Object Deletions with abapGit
 
-Initially, abapGit as a Git client has been integrated into SAP BTP, ABAP environment to enable customers to facilitate the import of code assets from customers' on-premise systems to SAP BTP, ABAP environment. Over time, additional use cases came up, so that the focus is no longer on a one-time transfer but also onrepeated export and import of development objects across different landscapes, including handling of deletions.
+Initially, abapGit as a Git client has been integrated into SAP BTP ABAP environment to enable customers to facilitate the import of code assets from customers' on-premise systems to SAP BTP ABAP environment. Over time, additional use cases came up, so that the focus is no longer on a one-time transfer but also onrepeated export and import of development objects across different landscapes, including handling of deletions.
 
 In general, there are two basic types of deletions.
 
