@@ -56,7 +56,7 @@ The identity provider hosts the users and their attributes. When a user is authe
 **Related Information**  
 
 
-[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "")
+[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users from the default identity provider to get you started, your organization has identity providers that you want to integrate.")
 
 [Map Role Collections to User Groups](map-role-collections-to-user-groups-51acfc8.md "You want to assign a role collection to a user group provided by an identity provider that has a custom trust configuration in SAP BTP. In this case, the assignment is a mapping of a user group to a role collection. Your identity provider provides the user groups using the attribute called Groups. Each value of the attribute is mapped to a role collection as described in this procedure.")
 

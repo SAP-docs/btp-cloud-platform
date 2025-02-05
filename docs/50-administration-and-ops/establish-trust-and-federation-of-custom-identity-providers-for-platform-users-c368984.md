@@ -69,6 +69,10 @@ You must establish a trust relationship with a custom identity provider in your 
     > The origin key is a technical identifier of an identity provider for platform users. Administrators need it when managing users. Platform users from the identity provider need the origin key when signing in with certain tools, such as the Cloud Foundry command line interface or service dashboards.
     > 
     > You can only set the origin key once for the whole landscape. You can't change the origin key later.
+    > 
+    > The whole origin key including `-platform` can have at maximum 36 characters. Only use the following characters for the origin key of the trust configuration.
+    > 
+    > `aA`–`zZ`, `0`–`9`, `-` \(hyphen\), `_` \(underscore\)
 
 6.  The wizard shows you a preview of your configuration. To complete your new trust configuration, choose *Finish*.
 

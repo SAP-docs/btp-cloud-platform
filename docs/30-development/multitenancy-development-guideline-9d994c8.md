@@ -192,7 +192,7 @@ Development artifacts such as Data Dictionary objects, classes, or interfaces, w
 
 ## Connectivity
 
-Outbound communication management in the ABAP environment differs from the on-premise usage of SM59 destinations. See [Developing External Service Consumption \(Outbound Communication\)](developing-external-service-consumption-outbound-communication-f871712.md). Destinations are configured in a Cloud Foundry destination service and the ABAP consumer API references these destinations.
+Outbound communication management in the ABAP environment differs from the on-premise usage of SM59 destinations. See  <?sap-ot O2O class="- topic/xref " href="f871712b816943b0ab5e04b60799e518.xml" text="" desc="" xtrc="xref:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/9d994c89909c49e2957db840d7eace5c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> . Destinations are configured in a Cloud Foundry destination service and the ABAP consumer API references these destinations.
 
 > ### Restriction:  
 > The ABAP environment only supports one communication configuration layer that is intended for the consumer. It is currently not possible to enforce a communication configuration exclusively managed by the service provider within the consumer tenant.

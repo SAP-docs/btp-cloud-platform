@@ -2,7 +2,7 @@
 
 # How to Create a Fiori App for a single Number Range Object
 
-You can maintain files in the SAP Fiori Launchpad to launch the Number Range app with the help of a custom app.
+You can maintain files in the SAP Fiori launchpad to launch the Number Range app with the help of a custom app.
 
 
 
@@ -10,7 +10,7 @@ You can maintain files in the SAP Fiori Launchpad to launch the Number Range app
 
 ## Prerequisites
 
-The business user will need to be assigned with suitable authorization in the Steampunk system:
+The business user will need to be assigned with suitable authorization in the SAP BTP ABAP environment:
 
 -   the SAP\_CA\_BC\_IC\_LND\_NUM\_PC catalog is needed, as it grants access to the Maintain Number Ranges app
 -   the SAP\_CA\_BC\_IC\_LND\_PC catalog is needed, as it grants access to the customizing changes
@@ -26,7 +26,7 @@ A custom tile that navigates directly to the Number Range Object app has been cr
 
 The implementation contains a creation and deployment of an empty freestyle UI5 app that redirects to the `NumberRangeInterval-manage` \(manage number range intervals\) with the required parameter. When clicking the tile, the launchpad will first navigate to the intent of the custom app \(which is maintained in the app descriptor\) and will then automatically be rerouted to the intent of the Maintain Business Configurations app. This rerouting is quite simple to implement after generating an empty app in Business Application Studio \(BAS\).
 
-In terms of authorization control, a custom business catalog and business role needs to be created in the Steampunk system and assigned to the business user.
+In terms of authorization control, a custom business catalog and business role needs to be created in the SAP BTP ABAP environment and assigned to the business user.
 
 
 
@@ -50,7 +50,7 @@ A development package and a transport request are needed to implement the soluti
 
     ![](images/deploy_8984fb5.png)
 
-4.  After filling in the mandatory fields of the project attributes, add your deployment configuration as well as your FLP configuration by choosing *Yes*.
+4.  After filling in the mandatory fields of the project attributes, add your deployment configuration as well as your Fiori configuration by choosing *Yes*.
 
     > ### Note:  
     > This configuration can also be added later via the terminal by running the command
@@ -61,7 +61,7 @@ A development package and a transport request are needed to implement the soluti
 
 5.  1.  Add a target repository name and a target package, then create a workbench transport request or choose an already existing one. Press *Next*.
 
-6.  Finally, adjust the Fiori Launchpad Configuration information:
+6.  Finally, adjust the Fiori Configuration information:
 
     -   Choose a semantic object that represents a business entity such as a customer, a sales order or a product.
 
@@ -89,11 +89,11 @@ After creating a new SAP Fiori application in BAS, you can deploy it.
 
     > ### Sample Code:  
     > ```
-    > info builder:custom deploy-to-abap Fiori Launchpad App Descr Item ZIG_NROBJ5_UI5R was created
+    > info builder:custom deploy-to-abap Fiori launchpad App Descr Item ZIG_NROBJ5_UI5R was created
     > ```
 
-5.  Now, a successfully deployed application will appear in ABAP Development Tool in the BSP library folder of the deployment package.
+5.  Now, a successfully deployed application will appear in ABAP development tools for Eclipse in the BSP library folder of the deployment package.
 
 
-To publish the business catalog to the system and pin your final product to the home screen of your Fiori Launchpad, continue reading the next topic called *IAM App Creation and Settings*.
+To publish the business catalog to the system and pin your final product to the home screen of your Fiori launchpad, continue reading the next topic called *IAM App Creation and Settings*.
 

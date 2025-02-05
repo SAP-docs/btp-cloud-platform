@@ -38,6 +38,23 @@ Dimension key
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+LANGUAGE
+
+</td>
+<td valign="top">
+
+Language key \(optional\)
+
+> ### Note:  
+> If no language key is provided, the default logon language is used.
+
+
+
+</td>
+</tr>
 </table>
 
 
@@ -297,7 +314,8 @@ Light exponent of the dimension
 >     DATA(lo_dim) = cl_uom_dim_maintenance=>get_instance( ).
 >  
 >     TRY. 
->         lo_dim->read( EXPORTING  dimid  = 'AAAADL' 
+>         lo_dim->read( EXPORTING  dimid  = 'AAAADL'
+>                                  language = 'E'   
 >                       IMPORTING  dim_st = DATA(ls_dim) ). 
 >       CATCH cx_uom_error. 
 >     ENDTRY. 

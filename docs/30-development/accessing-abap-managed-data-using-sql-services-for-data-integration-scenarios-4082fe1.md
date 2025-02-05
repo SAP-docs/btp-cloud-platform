@@ -28,12 +28,15 @@ Data access patterns for ABAP-managed data can be categorized into data federati
 
 Examples of data consumption scenarios include data consumption using external ODBC clients like Microsoft Excel and LibreOffice, which can work with both privileged and business user access. Another example is data consumption using SAP Datasphere, where data is replicated from an ABAP system to SAP Datasphere for analytical scenarios.
 
-**Related Information**  
 
 
-[Data Integration Patterns](data-integration-patterns-96368bd.md "When you set up access to ABAP-managed data using SQL services, you can set up privileged or business user-based data access. As consumption scenarios, there's data federation and replication.")
+<a name="loio4082fe1b66164eeb8aa41192166526af__section_vhm_zn2_ldc"/>
 
-[Data Consumption Using External ODBC Clients](data-consumption-using-external-odbc-clients-0237571.md "As a developer in the ABAP environment, you can access CDS view entities in an ABAP system using SQL and the open database connectivity (ODBC), a standard API for accessing databases. As a result, you can use SQL statements in external analytical tools to access data in database tables (via CDS view entities) that reside in the ABAP environment.")
+## More Information
 
-[Data Consumption Using SAP Datasphere](data-consumption-using-sap-datasphere-ec312dd.md "You can consume ABAP-managed data using SAP clients such as SAP Datasphere.")
+For more information and a detailed end-to-end setup description, see the ABAP integration and connectivity guide on SAP Help Portal:
+
+[Data Integration](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/data-integration) \(concept and architecture overview\)
+
+[Data Integration](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/data-integration-84537caeb611420b9f3435efce209ef7) \(developer guide\)
 

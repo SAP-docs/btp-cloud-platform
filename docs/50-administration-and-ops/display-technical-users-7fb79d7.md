@@ -255,3 +255,14 @@ This user is used for system internal processing in the Web service runtime.
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-IAM`.
 
+**Related Information**  
+
+
+[Business Catalogs for Identity and Access Management Apps](business-catalogs-for-identity-and-access-management-apps-9bbbfc7.md "Get an overview of available business role catalogs and their restrictions.")
+
+[Maintain Communication Users](maintain-communication-users-eef80dd.md "You can use this app to create and edit communication users. Communication users are used by solutions to authenticate themselves to be able to post data.")
+
+[Access Levels](access-levels-3cdb582.md "Authorizations of SAP support users")
+
+[Access Categories](access-categories-7dbdd05.md "")
+

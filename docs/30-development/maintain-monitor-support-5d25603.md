@@ -153,11 +153,11 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 -   New release versions are released with updates containing significant enhancements and new features
 
 > ### Tip:  
-> Use the [Check Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/4de24e56f52d4ca4ae8971aae6861f8e.html)app in Landscape Portal to find out which product version has already been built.
+> Use the [Check Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/4de24e56f52d4ca4ae8971aae6861f8e.html) app in the Landscape Portal to find out which product version has already been built.
 
 **Create new patch version \(emergency patch\)**
 
-Patch versions are used to deliver unplanned and most likely urgent corrections that are required to keep the application up and running. These changes could be required for a service consumption model of an OData Client Proxy in case of changes to the structure of the underlying OData service. See [OData Client Proxies](odata-client-proxies-0d92f49.md).
+Patch versions are used to deliver unplanned and most likely urgent corrections that are required to keep the application up and running. These changes could be required for a service consumption model of an OData Client Proxy in case of changes to the structure of the underlying OData service. See  <?sap-ot O2O class="- topic/xref " href="0d92f493624f47fba997d3a5e0dd2a0d.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/a35582346bff4914a5b4b0bcb776668c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 Bug fixes are delivered as a new patch version of a software component and are implemented on the correction code line. Therefore, the dedicated ABAP correction system COR is used. For more information on the different software component version numbers, see [Software Component Version](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#software-component-version).
 
@@ -189,9 +189,9 @@ To deliver a new patch version, see the following steps:
 
     As an add-on admin, you can use the Build Product Version app in the Landscape Portal to create new patches:
 
--   Make sure that the pipeline template for Patch Delivery is configured. If you want to validate the add-on build beforehand, configure the template for Test Patch Delivery as well. See [Configure Pipeline Template](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-pipeline-template?version=Cloud).
+-   Make sure that the pipeline template for Patch Delivery is configured. If you want to validate the add-on build beforehand, configure the template for Test Patch Delivery as well. See [Configure Pipeline Template](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/5919ca97b3d54c758cf56dfb0887c306.html).
 
--   Choose the parent version that shall be patched and create a new product version of type Patch Delivery. See [Create a New Product Version](https://help.sap.com/docs/btp/sap-business-technology-platform/create-new-product-version?version=Cloud).
+-   Choose the parent version that shall be patched and create a new product version of type Patch Delivery. See [Create a New Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d4c9f0877f1640bebe1f6fbe267bf9af.html).
 
 
 If you are configuring the add-on build pipeline manually, adjust your add-on descriptor file to build the new patch version. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#addonyml).
@@ -230,9 +230,9 @@ To deliver a new support package stack, see the following steps:
 
 As an add-on admin, you can use the Build Product Version app in the Landscape Portal to create new support package stacks:
 
-1.  Make sure that the pipeline template for Suport Package Stack is configured. If you want to validate the add-on build beforehand, configure the template for Test Support Package Stack as well. See [Configure a Pipeline Template](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-pipeline-template?version=Cloud).
+1.  Make sure that the pipeline template for Suport Package Stack is configured. If you want to validate the add-on build beforehand, configure the template for Test Support Package Stack as well. See [Configure a Pipeline Template](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/5919ca97b3d54c758cf56dfb0887c306.html).
 
-2.  Choose the parent version that shall be patched and create a new product version of type Patch Delivery. See [Create a New Product Version](https://help.sap.com/docs/btp/sap-business-technology-platform/create-new-product-version?version=Cloud).
+2.  Choose the parent version that shall be patched and create a new product version of type Patch Delivery. See [Create a New Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d4c9f0877f1640bebe1f6fbe267bf9af.html).
 
 
 If you are configuring the add-on build pipeline manually, adjust your add-on descriptor file to build the new patch version. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#addonyml).
@@ -266,10 +266,10 @@ To deliver a new release version, see the following steps:
 
     As an add-on admin, you can use the Build Product Version app in the Landscape Portal to create new release versions:
 
-    -   Make sure that the pipeline template for Release Delivery is configured. If you want to validate the add-on build beforehand, configure the template for Test Release Delivery as well. See [Configure Pipeline Template](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-pipeline-template?version=Cloud).
+    -   Make sure that the pipeline template for Release Delivery is configured. If you want to validate the add-on build beforehand, configure the template for Test Release Delivery as well. See [Configure Pipeline Template](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/5919ca97b3d54c758cf56dfb0887c306.html).
 
 
--   Choose the relevant add-on product and create a new product version of type Release Delivery. See [Create a New Product Version](https://help.sap.com/docs/btp/sap-business-technology-platform/create-new-product-version?version=Cloud).
+-   Choose the relevant add-on product and create a new product version of type Release Delivery. See [Create a New Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d4c9f0877f1640bebe1f6fbe267bf9af.html).
 
 
 If you are configuring the add-on build pipeline manually, adjust your add-on descriptor file to build the new patch version. See [Build and Publish Add-on Products on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#addonyml).

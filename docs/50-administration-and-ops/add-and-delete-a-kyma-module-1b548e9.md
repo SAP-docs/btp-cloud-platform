@@ -114,7 +114,7 @@ To add a module using [kubectl](https://kubernetes.io/docs/reference/kubectl/), 
 **Related Information**  
 
 
-[Kyma's Modular Approach](../10-concepts/kyma-s-modular-approach-95a4101.md "With Kyma's modular approach, you can install only the modules you need, instead of a predefined set of components.")
+[Kyma's Modular Approach](../10-concepts/kyma-s-modular-approach-95a4101.md "With Kyma's modular approach, you can add only the modules you need, instead of a predefined set of components.")
 
 [Kyma Release Channels](../10-concepts/kyma-s-modular-approach-95a4101.md#loio95a410144d7c449687c957da0cc43a0d__section_kyma_release_channels)
 

@@ -28,9 +28,13 @@ When creating a formation in the SAP BTP cockpit, you include the systems of the
 
 A formation can have the following status values:
 
--   No status
+-   *Ready*
 
     The formation has been added as a record to the list and all registered systems are included successfully.
+
+-   *Draft*
+
+    Not all the systems were included when creating the formation. Include all the missing systems and choose *Finalize Formation*.
 
 -   *Action Required*
 
@@ -49,7 +53,7 @@ A formation can have the following status values:
 
 When you include systems in a formation, these systems are synchronized in the background. If an error occurs, you can resynchronize these systems to restart the synchronization process. To do that, choose *Resynchronize* for the particular formation. You will have this action available only for formations that are in status *Error*.
 
-If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in SAP BTP cockpit and their formation type is Side-by-Side Extensibility with Kyma.
+If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in SAP BTP cockpit and their formation type is *Side-by-Side Extensibility with Kyma*.
 
 > ### Note:  
 > When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.

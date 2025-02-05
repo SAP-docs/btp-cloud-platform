@@ -4,22 +4,18 @@
 
 Send mails using the Simple Message Transfer Protocol \(SMTP\).
 
-You can send mails with the Simple Message Transfer Protocol \(SMTP\) using a mail server connected via the *SAP Business Technology Platform \(SAP BTP\), Cloud Connector* or use a publicly available SMTP server.
-
-For more information, see [Configure Access Control \(TCP\)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/befd4374d33a4833be117d7149b6a103.html)
-
 
 
 <a name="copya3d3f38de12b430bb670e418e7e66bad__section_u1r_zjg_slb"/>
 
 ## Application Programming Interface \(API\)
 
-Use the `CL_BCS_MAIL_MESSAGE` class to create and send mails. You can specify sender and recipient. Furthermore, you can add textual body parts using class *CL\_BCS\_MAIL\_TEXTPART* or binary attachments \(e.g. PDF documents\) represented by class *CL\_BCS\_MAIL\_BINARYPART*, respectively.
+Use the `CL_BCS_MAIL_MESSAGE` class to create and send mails. You can specify sender and recipient. Furthermore, you can add textual body parts using class *CL\_BCS\_MAIL\_TEXTPART* or binary attachments \(for example, PDF documents\) represented by class *CL\_BCS\_MAIL\_BINARYPART*, respectively.
 
 With the send method of the API, the mail is sent via the mail server configured in the destination using the cloud connector. Sending is performed synchronously.
 
 > ### Sample Code:  
-> ```
+> ```abap
 > 
 > try.
 >     data(lo_mail) = cl_bcs_mail_message=>create_instance( ).
@@ -27,6 +23,9 @@ With the send method of the API, the mail is sent via the mail server configured
 >     lo_mail->add_recipient( 'recipient1@yourcompany.com' ).
 >     lo_mail->add_recipient( iv_address = 'recipient2@yourcompany.com' iv_copy = cl_bcs_mail_message=>cc ).
 >     lo_mail->set_subject( 'Test Mail' ).
+>     lo_mail->set_importance( cl_bcs_mail_message=>importance-low ).
+>     lo_mail->set_sensitivity( cl_bcs_mail_message=>sensitivity-confidential ).
+>     lo_mail->set_additional_mime_headers( value #( ( field_name = 'Additional_Header' field_body = 'Header_Body' ) ) ).
 >     lo_mail->set_main( cl_bcs_mail_textpart=>create_text_html( '<h1>Hello</h1><p>This is a test mail.</p>' ) ).
 >     lo_mail->add_attachment( cl_bcs_mail_textpart=>create_text_plain(
 >       iv_content      = 'This is a text attachment'
@@ -48,11 +47,15 @@ With the send method of the API, the mail is sent via the mail server configured
 >   catch cx_bcs_mail into data(lx_mail).
 >     “handle exceptions here
 > endtry.
+> 
 > ```
 
+> ### Note:  
+> The use of additional MIME header fields is only advisable if these fields are universally recognized. Please be aware that SAP doesn't hold accountability for any issues that may occur due to these headers' usage. Header fields that can be placed using set-methods, along with the `Date`, `Message-ID`, and `Content-Type` header fields, are not allowed.
 
 
-<a name="copya3d3f38de12b430bb670e418e7e66bad__section_th2_ghd_lxb"/>
+
+<a name="copya3d3f38de12b430bb670e418e7e66bad__section_esb_51v_tvb"/>
 
 ## Bodyparts in a Message
 
@@ -62,16 +65,16 @@ The factory methods `CREATE_TEXT_PLAIN`, `CREATE_TEXT_HTML` of class `CL_BCS_MAI
 
 
 
-<a name="copya3d3f38de12b430bb670e418e7e66bad__section_nfd_45q_bcc"/>
+<a name="copya3d3f38de12b430bb670e418e7e66bad__section_ywx_bcr_3xb"/>
 
 ## Sending Emails Asynchronously
 
-In `RESTful application programming (RAP)` or in other transactional contexts, you may need to send an email asynchronously from time to time. This can be due to the performance, since external communication can take a while, or because you want to send an email when the `COMMIT WORK` statement is triggered at the end of a successful transaction.
+In RESTful application programming \(RAP\) or in other transactional contexts, you may need to send an email asynchronously from time to time. This can be due to the performance, since external communication can take a while, or because you want to send an email when the `COMMIT WORK` statement is triggered at the end of a successful transaction.
 
 An email can be sent asynchronously with the method `SEND_ASYNC`. See the following example:
 
 > ### Sample Code:  
-> ```
+> ```abap
 > try.
 >     data(lo_mail) = cl_bcs_mail_message=>create_instance( ).
 >     lo_mail->set_sender( 'noreply@yourcompany.com' ).
@@ -81,21 +84,20 @@ An email can be sent asynchronously with the method `SEND_ASYNC`. See the follow
 >   catch cx_bcs_mail into data(lx_mail).
 >     “handle exceptions here
 > endtry.
-> 
 > ```
 
-After calling the `SEND_ASYNC` method, a background process is triggered. The process can be monitored in the Fiori app[Monitor Email Transmissions](../50-administration-and-ops/monitor-email-transmissions-8cf1ac9.md).
+After calling the `SEND_ASYNC` method, a background process is triggered. The process can be monitored in the Fiori app [Monitor Email Transmissions](../50-administration-and-ops/monitor-email-transmissions-8cf1ac9.md).
 
 > ### Caution:  
-> The process must call `COMMIT WORK` at the end of a transaction, otherwise the background process will not start and the email status will remain Waiting in the Monitor Email Transmissions app.
+> The process must call `COMMIT WORK` at the end of a transaction, otherwise the background process will not start and the email status will remain **Waiting** in the *Monitor Email Transmissions* app.
 
 
 
-<a name="copya3d3f38de12b430bb670e418e7e66bad__section_crf_bvq_bcc"/>
+<a name="copya3d3f38de12b430bb670e418e7e66bad__section_lxj_vrs_nbc"/>
 
 ## Email Status Monitoring
 
-The status of an email can be monitored using the Fiori app *Monitor Email Transmission*. Additionally, it is possible to implement a monitoring instance directly in the backend for each email request. This monitoring instance, which is an implementation of the interface `IF_BCS_MAIL_STATUS_MONITOR`, provides information about the email status as well as the status of each recipient, including the SMTP response. The `send()` method provides the same statuses as exporting parameters.
+The status of an email can be monitored using the Fiori app *Monitor Email Transmission*. Additionally, it's possible to implement a monitoring instance directly in the backend for each email request. This monitoring instance, which is an implementation of the interface`IF_BCS_MAIL_STATUS_MONITOR`, provides information about the email status as well as the status of each recipient, including the SMTP response. The `send()` method provides the same statuses as exporting parameters.
 
-To obtain this monitoring instance, you can either receive it as the return parameter of the methods`send()` or`send_async()`, or create a new instance using the factory method `create_mail_status_monitor()` of the class `CL_BCS_MAIL_MESSAGE`
+To obtain this monitoring instance, you can either receive it as the return parameter of the methods `send()` or`send_async()`, or create a new instance using the factory method `create_mail_status_monitor()` of the class `CL_BCS_MAIL_MESSAGE`.
 

@@ -26,7 +26,7 @@ To get an overview of changes in the business role template area since the last 
 
 6.  Click *Save* when you're done.
 
-    Please note that you can also adjust your businesss roles directly in the *Business Role Templates* app.
+    Please note that you can also adjust your business roles directly in the *Business Role Templates* app.
 
 
 **Related Information**  

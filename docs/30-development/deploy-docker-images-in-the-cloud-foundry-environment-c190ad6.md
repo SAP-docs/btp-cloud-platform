@@ -118,7 +118,7 @@ Consume newer versions \(especially patches\) of the underlying OS and JVM regul
 
     [https://12factor.net/](https://12factor.net/)
 
-2.  You only use supported features in the SAP BTP, Cloud Foundry environment, see [Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18)
+2.  You only use supported features in the SAP BTP, Cloud Foundry environment, see [Supported and Unsupported Cloud Foundry Features](../10-concepts/supported-and-unsupported-cloud-foundry-features-f8a351c.md)
 
 3.  Read what the open source documentation says about deploying an application with Docker.
 

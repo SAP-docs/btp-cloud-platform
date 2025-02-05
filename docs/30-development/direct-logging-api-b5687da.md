@@ -66,17 +66,29 @@ The ABAP Class `CL_BEL_DIRECT_LOGGING` can be consumed via the interface `IF_BEL
 
 
 
-### Parameters
+### Method Parameters
 
 The API is invoked via method `LOG_BUSINESS_EVENT` of interface `IF_BEL_DIRECT_LOGGING`. The method takes input as different events and returns the results in terms of return code and an internal table containing processing results of each event.
 
-The method has the following parameters:.
+The method has the following parameters:
 
 -   `IT_EVENTS`: This is an input parameter of type table and contains the list of events that need to be logged into the Business Event Logging component. The main components of this parameter are:
 
-    -   `EVENT_GUID`: Unique identifier for a given event. This has to be provided by the consumer application. Although it is an optional parameter, we recommend that you provide it. It identifies whether an event has already been logged. By default, a GUID is generated.
+    -   `EVENT_GUID`:
+
+        Unique identifier for a given event. This has to be provided by the consumer application and it helps us identify whether an event has already been logged. By default, an empty a GUID is automatically generated for EVENT\_GUID.
+
+        > ### Note:  
+        > If you want to use the direct event API to add single or multiple events with past timestamp to the business event log, you should generate the EVENT\_GUID manually. You do this the same way that you generate the event id for events. With the same EVENT\_GUID, the ID will be stored only once, even if it is added multiple times. For example, you can create the event ID by concatenating and then hashing the object key, event type, and timestamp of the event.
+
     -   `SOURCE_SYSTEM`: This identifies the system where the event was generated. It is an optional parameter. By default it would be filled with the current logical system.
-    -   `TRANSACTION_ID`: An ID uniquely identifying the transaction in which the business event was run. Although it is an optional parameter, we recommend that you provide it. Business events with the same ID are considered to have been run at the same time. By default the transaction\_ID would be filled with the ID of the current kernel transaction.
+    -   `TRANSACTION_ID`:
+
+        An ID uniquely identifying the transaction in which the business event was run. Business events with the same IDs are considered to have been run at the same time and by default the transaction\_ID is will be automatically filled with the ID of the current kernel transaction.
+
+        > ### Note:  
+        > If you want to use the direct event API to add single or multiple events with past timestamp to the business event log, then we recommend that you provide the transaction ID manually. Ensure that you provide a unique id for each event. For example: Use the same ID that you have used for the event id.
+
     -   `EXEC_USER`: This identifies the user who performed the business activity that created the event.Although it is an optional parameter, we recommend that you provide it. By default it will be filled with the current logon user.
     -   `EXEC_TIMESTAMP`: Timestamp at which the event was created. Although it is an optional parameter, we recommend that you provide it. By default it would be filled with the current timestamp. The timestamp can be in the past.
     -   `EVENT_TYPE`: This string carries the metadata such as the object and version information about the event. It is given in a specific format. For example:
@@ -100,8 +112,6 @@ The method has the following parameters:.
     -   Event Operation = Changed
 
 
-    Using the object details and event operation, determine the Event binding from EVTB\_PRODUCER table. Then using the Event Binding, get the CDS behaviour definition from table EVTB\_EVENT.
-
 -   `EV_RETCODE`: The return code may consist of three different values indicating the result of processing.
 
     -   0 = Successful.
@@ -116,8 +126,6 @@ The method has the following parameters:.
 
     -   `EVENT_TYPE`: Event type passed by the consumer application.
 
-    -   `EVENT_TYPE`: Event type passed by the consumer application.
-
     -   `EXEC_TIMESTAMP`: Event timestamp passed by consumer application.
 
     -   `EVENT_DATA`: Event specific data passed by consumer application.
@@ -126,16 +134,11 @@ The method has the following parameters:.
 
     -   `ID`: Message Class
 
-    -   `NUMBER`: Message Number:
-        -   `MESSAGE_V1`: Event identifier passed by the consumer application.
-
-        -   `MESSAGE_V2`: Event type passed by the consumer application.
-
-        -   `MESSAGE_V3`: First 50 characters of event data.
-
-        -   `MESSAGE_V4`: Event timestamp passed by consumer application.
-
-
+    -   `NUMBER`: Message Number
+    -   `MESSAGE_V1`: Event identifier passed by the consumer application.
+    -   `MESSAGE_V2`: Event type passed by the consumer application.
+    -   `MESSAGE_V3`: First 50 characters of event data.
+    -   MESSAGE\_V4: Event timestamp passed by consumer application.
 
 
 
@@ -145,8 +148,6 @@ The method has the following parameters:.
 The API can throw a Warning\(W\) return code in case the event is already existing in BEL database or event is not activated to be logged into BEL framework. The API can return error\(E\) return code in case the mandatory parameters are not passed or passed with initial values, if authorization check fails , if the EVENT\_DATA structure is passed incorrectly.The details of the error/warning can be seen in CT\_RETURN table parameter of the API. Some examples of error/warning are given below:
 
 -   Business Event is not defined \(E\) : The supplied business even is not defined either in Business Event Handling or RAP framework.
-
--   No change auth for Object \(E\) : No authorization to log the business events directly.
 
 -   Business event with Identical ID exists \(W\) : The business event supplied already exists in system.
 

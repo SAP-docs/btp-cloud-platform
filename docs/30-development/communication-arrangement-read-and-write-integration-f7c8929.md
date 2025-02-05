@@ -100,6 +100,11 @@ Description
 </th>
 <th valign="top">
 
+Constants
+
+</th>
+<th valign="top">
+
 Necessity
 
 </th>
@@ -113,6 +118,11 @@ CommunicationArrangements
 <td valign="top">
 
 Contains communication arrangement root data
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -134,6 +144,11 @@ Contains communication arrangement root property names
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 Optional
 
 </td>
@@ -147,6 +162,11 @@ PropertyValues
 <td valign="top">
 
 Contains communication arrangement root property values
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -168,6 +188,11 @@ Contains the reference to the communication system inbound user
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 Optional
 
 </td>
@@ -181,6 +206,11 @@ InboundServices
 <td valign="top">
 
 Contains the communication arrangement inbound service data
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -202,6 +232,11 @@ Contains communication arrangement inbound service property names
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 Optional
 
 </td>
@@ -215,6 +250,11 @@ InboundServicePropertyValues
 <td valign="top">
 
 Contains communication arrangement inbound service property values
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -236,6 +276,21 @@ Contains the reference to the communication system outbound user
 </td>
 <td valign="top">
 
+Contains the following attributes and values:
+
+-   OAuth2SAML2Identifier
+
+    -   user\_email
+
+    -   user\_uuid
+    -   user\_name
+
+
+
+
+</td>
+<td valign="top">
+
 Optional
 
 </td>
@@ -249,6 +304,11 @@ OutboundUserAuthScopes
 <td valign="top">
 
 Contains additional scopes for outbound users
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -270,6 +330,20 @@ Contains the communication arrangement outbound service data
 </td>
 <td valign="top">
 
+Contains the following attributes and values:
+
+-   Status
+
+    -   active
+
+    -   inactive
+
+
+
+
+</td>
+<td valign="top">
+
 Optional
 
 </td>
@@ -287,6 +361,11 @@ Contains communication arrangement outbound service property names
 </td>
 <td valign="top">
 
+ 
+
+</td>
+<td valign="top">
+
 Optional
 
 </td>
@@ -300,6 +379,11 @@ OutboundServicePropertyValues
 <td valign="top">
 
 Contains communication arrangement outbound service property values
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

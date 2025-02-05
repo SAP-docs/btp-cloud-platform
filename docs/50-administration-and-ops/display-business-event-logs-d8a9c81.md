@@ -4,7 +4,7 @@
 
 
 
-With this app, you can display logged business events. The events can be filtered by business event type for each SAP object type.
+With this app, you can display logged business events. The events can be filtered by business event type for each object.
 
 
 
@@ -16,7 +16,7 @@ a\) You can use this app to:
 
 -   Get an overview of logged business events
 -   View details of logged business events
--   Go to business event sequence for a node
+-   Go to business event sequence for an instance
 
 This app uses the **C\_BusEventLogEventAnlys** CDS view.
 

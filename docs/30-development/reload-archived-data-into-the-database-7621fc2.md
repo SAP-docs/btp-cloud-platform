@@ -13,7 +13,7 @@ There are two cases which need to be distinguished:
 2.  Reload of archived data after a long period of time. In this case it must be ensured that references to and within the reloaded data are still available in database. Furthermore, it needs to be guaranteed that no table key conflicts exist. Since this is not a real error, it's strongly recommended not to reload the data in this case.
 
 
-The runtime to reload archived data from an external storage system back into the database should be implemented in a central ABAP class. This ABAP class has to register interface `IF_ARCH_RELOAD_API` to be able to be selected in an archiving object definition in ADT.
+The runtime to reload archived data from an external storage system back into the database should be implemented in a central ABAP class. This ABAP class has to register interface `IF_ARCH_RELOAD` to be able to be selected in an archiving object definition in ADT.
 
 
 <table>

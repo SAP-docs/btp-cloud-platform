@@ -4,7 +4,7 @@
 
 # Add or Remove Application Instances
 
-To increase the availability of your Cloud Foundry application, you can run multiple instances of it.
+To increase the availability of your Cloud Foundry application, you can run multiple instances of it. You can add or remove application instances in the SAP BTP cockpit.
 
 
 
@@ -12,13 +12,16 @@ To increase the availability of your Cloud Foundry application, you can run mult
 
 ## Prerequisites
 
-You must have one application deployed in your Cloud Foundry space.
+-   You must have one application deployed in your Cloud Foundry space.
+
+-   You have the Space Developer or Space Supporter role.
+
 
 
 
 ## Procedure
 
-1.  Navigate to the *Applications* page in your Cloud Foundry space.
+1.  In the SAP BTP cockpit, navigate to the *Applications* page in your Cloud Foundry space.
 
 2.  Choose the application for which you want to add or remove application instances.
 
@@ -31,5 +34,5 @@ You must have one application deployed in your Cloud Foundry space.
 **Related Information**  
 
 
-[Deploy an Application](deploy-an-application-09fdb9b.md "You can use the cockpit to deploy a new application in the Cloud Foundry environment.")
+[Deploy an Application](deploy-an-application-09fdb9b.md "You can use the SAP BTP cockpit to deploy a new application in the Cloud Foundry environment.")
 

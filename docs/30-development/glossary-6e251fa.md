@@ -184,7 +184,7 @@ Cloud Foundry environment
 </td>
 <td valign="top">
 
-The Cloud Foundry environment enables you to develop new business applications and business services, supporting multiple runtimes, programming languages, libraries, and services. See [Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18).
+The Cloud Foundry environment enables you to develop new business applications and business services, supporting multiple runtimes, programming languages, libraries, and services. See [Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md).
 
 </td>
 </tr>
@@ -196,7 +196,7 @@ Communication arrangement
 </td>
 <td valign="top">
 
-A communication arrangement describes a communication scenario with a remote system during configuration time. It provides the necessary metadata for service configuration. See [Communication Arrangement](communication-management-5b8ff39.md#loio201de48e2f57404e9222181b019eff14).
+A communication arrangement describes a communication scenario with a remote system during configuration time. It provides the necessary metadata for service configuration. See  <?sap-ot O2O class="- topic/xref " href="201de48e2f57404e9222181b019eff14.xml" text="" desc="" xtrc="xref:9" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/6e251fa1b63f4ac48ac12c9d7201fae1.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ Communication scenario
 
 A communication scenario in the ABAP environment is a design time description of how two communication partners communicate with each other.
 
-It provides technical information, such as the used inbound and outbound services and their service type, for example OData or SOAP, and the number of allowed communication arrangement instances. See [Communication Scenario](communication-management-5b8ff39.md#loio7ea7276c89a644d9867bf0f8627aed67).
+It provides technical information, such as the used inbound and outbound services and their service type, for example OData or SOAP, and the number of allowed communication arrangement instances. See  <?sap-ot O2O class="- topic/xref " href="7ea7276c89a644d9867bf0f8627aed67.xml" text="" desc="" xtrc="xref:10" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/6e251fa1b63f4ac48ac12c9d7201fae1.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 </td>
 </tr>

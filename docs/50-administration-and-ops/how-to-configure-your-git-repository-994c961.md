@@ -60,10 +60,12 @@ Next, copy the HTTPS link \(must end with `.git`\) to clone the repository in th
 
 ### Create a Software Component and link the remote repository
 
-In the Manage Software Components app, create a new software component and enter the URL from the previous step in the *Repository URL* field. Select the correct Git provider for your repository. The currently supported providers are GitHub, GitLab, Azure and Bitbucket. Choose *'Git \(others\)'* if none of the other options apply.
+In the Manage Software Components app, create a new software component and enter the URL from the previous step in the *Repository URL* field.
 
 > ### Note:  
 > When specifying the repository URL, please note that it must be case-insensitive and unique. This prevents multiple software components from being linked to a single or identical Git repository.
+
+Select the correct Git Provider for your repository. The currently supported providers are GitHub, GitLab, Azure and Bitbucket. Choose **'Git \(others\)'** if none of the other options apply. This selection is important for the correct repository configuration and cannot be changed at a later stage.
 
 Add a name for your software component and choose the component type as development. Afterwards, click on *Create*. The software component is linked to the remote repository and is now ready to be cloned into the system.
 

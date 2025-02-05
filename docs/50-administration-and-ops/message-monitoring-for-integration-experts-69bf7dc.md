@@ -37,6 +37,8 @@ You can use this app to:
 
 -   Identify interfaces with an active alert and confirm the alert.
 
+-   Define data links and dynamic data links for log messages without a predefined link.
+
 
 
 

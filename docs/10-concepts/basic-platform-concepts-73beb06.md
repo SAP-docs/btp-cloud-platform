@@ -6,7 +6,7 @@ SAP BTP offers users the ability to turn data into business value, compose end-t
 
 
 
-SAP Business Technology Platform is built on a multi-cloud foundation, which lets you choose from different infrastructures and runtimes. The services and solutions of SAP BTP are available on multiple cloud infrastructure providers, and it supports different runtimes, such as Cloud Foundry, ABAP, and Kyma, as well as multiple different regions, and a broad choice of programming languages.
+SAP Business Technology Platform is built on a multi-cloud foundation, which lets you choose from different infrastructures and runtimes. The services and solutions of SAP BTP are available on multiple cloud infrastructure providers, and it supports different runtimes, such as Cloud Foundry, ABAP, and Kyma, as well as multiple regions, and a broad choice of programming languages.
 
 The central point of entry to the platform is the **SAP BTP cockpit**, where you can access your accounts and applications and manage all activities associated with them.
 
@@ -61,7 +61,7 @@ Environments constitute the actual platform-as-a-service offering of SAP BTP tha
 
 SAP BTP provides the following environments:
 
--   [Cloud Foundry Environment](cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18)
+-   [Cloud Foundry Environment](cloud-foundry-environment-9c7092c.md)
 
     The Cloud Foundry environment enables you to develop new business applications and business services, supporting multiple runtimes, programming languages, libraries, and services. You can leverage a multitude of buildpacks, including community innovations and self-developed buildpacks.
 
@@ -135,7 +135,7 @@ The SAP BTP cockpit is structured according to global accounts, directories, and
 
 -   With **directories**, you can organize and manage your subaccounts according to your technical and business needs.
 
--   **Subaccounts** let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements.
+-   In **Subaccounts**, you deploy applications, use services, and manage your subscriptions. You can use them to manage members, authorizations, and entitlements.
 
     In the SAP BTP, Cloud Foundry environment, the subaccount is divided into one or more spaces, which is where application development, deployment, and maintenance take place.
 

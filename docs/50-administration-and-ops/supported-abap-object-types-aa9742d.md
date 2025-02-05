@@ -963,6 +963,40 @@ Interface
 <tr>
 <td valign="top">
 
+INTM
+
+</td>
+<td valign="top">
+
+Intelligent Scenario Model
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+INTS
+
+</td>
+<td valign="top">
+
+Intelligent Scenario
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 IOBJ
 
 </td>
@@ -1484,6 +1518,23 @@ Process variants
 <td valign="top">
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAIA
+
+</td>
+<td valign="top">
+
+ABAP Development Tools IDE Action
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

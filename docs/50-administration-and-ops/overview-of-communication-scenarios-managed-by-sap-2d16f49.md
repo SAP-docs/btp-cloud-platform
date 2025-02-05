@@ -76,7 +76,7 @@ SAP BTP Cloud Foundry Destination Service Integration \(SAP\_COM\_0276\).
 </td>
 <td valign="top">
 
-[Create a Destination](../30-development/create-a-destination-3fa7934.md)
+ <?sap-ot O2O class="- topic/xref " href="3fa7934f5a714bf88d8490958211382f.xml" text="" desc="" xtrc="xref:5" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/2d16f49f1b0c4da096e0aacd8409e75b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ E-Mail Integration \(SAP\_COM\_0548\).
 </td>
 <td valign="top">
 
-[Sending Mails Using SMTP](../30-development/sending-mails-using-smtp-8d1f989.md)
+ <?sap-ot O2O class="- topic/xref " href="8d1f989deca1455dabc3d81b433fbdaf.xml" text="" desc="" xtrc="xref:17" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/2d16f49f1b0c4da096e0aacd8409e75b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 </td>
 </tr>
@@ -268,7 +268,7 @@ Communication Management - RFC Metadata Integration \(SAP\_COM\_0636\)
 </td>
 <td valign="top">
 
-[Develop a Remote-Enabled Function Module \(RFM\)](../30-development/develop-a-remote-enabled-function-module-rfm-abf7105.md)
+ <?sap-ot O2O class="- topic/xref " href="abf7105063f345edad7588cf58d53118.xml" text="" desc="" xtrc="xref:21" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/2d16f49f1b0c4da096e0aacd8409e75b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 </td>
 </tr>

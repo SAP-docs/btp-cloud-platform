@@ -35,7 +35,7 @@ You can use existing role templates to create new roles. An SAP BTP cockpit wiza
 
     Here you see a complete list of all existing roles sorted by the role template. It also contains the role names and the role description. On the right side, you find the action buttons.
 
-6.  \(Optional\) To add more roles, choose :heavy_plus_sign: \(Add a role\).
+6.  To add more roles, choose *Create*.
 
     The *Create Role* wizard opens.
 
@@ -46,6 +46,8 @@ You can use existing role templates to create new roles. An SAP BTP cockpit wiza
 9.  Select the available role collections for your new role and choose *Next*.
 
 10. You can review your role configuration in the next window and complete the creation of the role by choosing *Finish*.
+
+11. \(Optional\) Use :heavy_plus_sign: \(Add to role collection\) to add a role to a role collection.
 
 
 **Related Information**  

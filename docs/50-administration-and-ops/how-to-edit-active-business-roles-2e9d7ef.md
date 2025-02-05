@@ -10,7 +10,7 @@
 
 The editing of an active business role takes place in a draft version of this business role. This draft version is created by the system once you enter the edit mode of the active business role. Proceed as follows to edit an active business role:
 
-Select the tile of the Maintain Business Roles app on the SAP Fiori Launchpad to open the app. On the initial screen, select
+Select the tile of the *Maintain Business Roles* app on the SAP Fiori Launchpad to open the app. On the initial screen, select
 
 
 
@@ -31,5 +31,7 @@ Select the tile of the Maintain Business Roles app on the SAP Fiori Launchpad to
 5.  Save the business role.
 
     Once the changes are saved, they are written into the active business role and the draft version disappears. **If the dialog for editing a business role is left without saving the business role**, the active business role as well as the draft version of the business role will be available in the business roles overview. In this case, you can continue editing the draft version later.
+
+    Please note that the *Check Dependencies* function is only active in edit mode.
 
 

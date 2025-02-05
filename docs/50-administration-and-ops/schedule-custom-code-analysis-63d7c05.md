@@ -2,7 +2,7 @@
 
 # Schedule Custom Code Analysis
 
-Learn more about the `Schedule Custom Code Analysis` app.
+Learn more about the *Schedule Custom Code Analysis* app.
 
 
 
@@ -10,7 +10,7 @@ Learn more about the `Schedule Custom Code Analysis` app.
 
 ## Purpose
 
-The `Schedule Custom Code Analysis` app enables you to schedule projects created in the `Custom Code Migration` app as application jobs. With this functionality, the analyses can be performed once or periodically. The `Schedule Custom Code Analysis` app is available to all users that have access to the `Custom Code Migration` app and have been assigned the `Project Manager – IT` business role.
+The *Schedule Custom Code Analysis* app enables you to schedule projects created in the *Custom Code Migration* app as application jobs. With this functionality, the analyses can be performed once or periodically. The *Schedule Custom Code Analysis* app is available to all users that have access to the *Custom Code Migration* app and have been assigned the `Project Manager – IT` business role.
 
 
 

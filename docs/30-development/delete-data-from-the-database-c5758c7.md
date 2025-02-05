@@ -2,7 +2,7 @@
 
 # Delete Data from the Database
 
-The runtime to delete archived data from database should be implemented in a central ABAP class. This ABAP class must register interface `IF_ARCH_DELETE_API` to be able to be selected in an archiving object definition in ADT. This ABAP class can be [performed within an application job](perform-data-archiving-894f952.md).
+The runtime to delete archived data from database should be implemented in a central ABAP class. This ABAP class must register interface `IF_ARCH_DELETE` to be able to be selected in an archiving object definition in ADT. This ABAP class can be [performed within an application job](perform-data-archiving-894f952.md).
 
 There are different ways to delete archived data from the database:
 

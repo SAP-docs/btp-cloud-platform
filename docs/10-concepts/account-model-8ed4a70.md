@@ -32,7 +32,7 @@ Global accounts are region- and environment-independent. Within a global account
 
 ## Subaccounts
 
-**Subaccounts** let you structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements.
+In **Subaccounts**, you deploy applications, use services, and manage your subscriptions. You can use them to manage members, authorizations, and entitlements.
 
 
 

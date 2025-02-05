@@ -38,6 +38,23 @@ Internal unit of measurement
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+LANGUAGE
+
+</td>
+<td valign="top">
+
+Language key \(optional\)
+
+> ### Note:  
+> If no language key is provided, the default logon language is used.
+
+
+
+</td>
+</tr>
 </table>
 
 
@@ -350,7 +367,8 @@ Long description of a unit of measurement
 >  
 >     DATA(lo_uom) = cl_uom_maintenance=>get_instance( ). 
 >     TRY. 
->         lo_uom->read( EXPORTING unit = 'ST' 
+>         lo_uom->read( EXPORTING unit = 'ST'
+>                                 language = 'E' 
 >                       IMPORTING unit_st = DATA(ls_unit) ). 
 >                             
 >       CATCH cx_uom_error. 

@@ -2,7 +2,7 @@
 
 # Select Data and Write It to Archive Files
 
-The runtime to write archived data to an external storage should be implemented in a central ABAP class. This ABAP class must register the interface `IF_ARCH_WRITE_API` to be able to be selected in an archiving object definition in ADT. This ABAP class can be [performed within an application job](perform-data-archiving-894f952.md).
+The runtime to write archived data to an external storage should be implemented in a central ABAP class. This ABAP class must register the interface `IF_ARCH_WRITE` to be able to be selected in an archiving object definition in ADT. This ABAP class can be [performed within an application job](perform-data-archiving-894f952.md).
 
 The purpose of the ABAP class is the selection of application data which will be archived from the database. By using the ADK write API, this application data can be handed over to create a data object. A data object can contain entries of different tables that have been listed in the definition of the archiving object in ADT. Typically, these are all tables belonging to one business object instance, but there is no technical restriction. The application is free to group the tables according to their needs.
 

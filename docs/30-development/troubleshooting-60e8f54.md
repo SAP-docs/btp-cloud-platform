@@ -51,7 +51,7 @@ Find out which steps you can take to identify and resolve specific issues that m
 
 ## Cannot delete ABAP service instance
 
--   If you cannot delete an ABAP service instance, the ABAP service instance might still contain *Partner Test*, *Partner Customer Test*, or *Partner Customer Production* tenants. Make sure you delete these tenants first by unsubscribing from them \(for tenants created via consumer subscription\) or deleting the tenants in the *Landscape Portal*\(for test tenants created directly in the *Landscape Portal*\).
+-   If you cannot delete an ABAP service instance, the ABAP service instance might still contain *Test Tenant*, *Partner Customer Test*, or *Partner Customer Production* tenants. Make sure you delete these tenants first by unsubscribing from them \(for tenants created via consumer subscription\) or deleting the tenants in the *Landscape Portal*\(for test tenants created directly in the *Landscape Portal*\).
 
 -   The ABAP service instance might still contain a SAP\_ASP service key: The service key needs to be deleted before the service instance can be deleted.
 

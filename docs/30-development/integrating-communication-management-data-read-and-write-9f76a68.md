@@ -12,6 +12,14 @@ You can use this communication scenario to read and write communication arrangem
 
 This communication scenario allows you to read and write communication arrangements, communication systems and communication users.
 
+**Authentication Methods**
+
+This communication scenario can be configured with the following inbound authentication methods:
+
+-   *Basic Authentication* \(user and password\)
+
+-   *X.509* \(certificates\)
+
 
 
 <a name="loio9f76a684aaac4bddbe0da4f9c682df14__Communication_Arrangement_Integration_ReadWrite_steps"/>

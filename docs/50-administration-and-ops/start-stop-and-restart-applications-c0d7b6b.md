@@ -4,7 +4,7 @@
 
 # Start, Stop and Restart Applications
 
-You can start and stop applications in the Cloud Foundry environment to control whether they can be accessed by end users.
+You can start and stop applications in the Cloud Foundry environment in the SAP BTP cockpit to control whether they can be accessed by end users.
 
 
 
@@ -12,13 +12,23 @@ You can start and stop applications in the Cloud Foundry environment to control 
 
 ## Prerequisites
 
-You have deployed an app in your Cloud Foundry space.
+-   You have deployed an app in your Cloud Foundry space.
+
+-   You have the Space Developer or Space Supporter role.
+
 
 
 
 ## Context
 
-A user can only reach your application if the application is started. The application routes do not work when the application is stopped.
+A user can only reach your application if the application is started.
+
+> ### Note:  
+> On the *Applications* page in the cockpit, if an application is displayed as *Started* according to the *Requested State* column, it doesn't automatically mean that the application is started. This is the desired state, but there might be an issue with an application instance. For any warning alerts, check the *Instances* column.
+> 
+> To get more detailed information about the current state of your application instances, navigate to the *Overview* page of the application.
+
+The application routes do not work when the application is stopped.
 
 The first start of the application occurs when you deploy the app, if enough quota is available in the space.
 
@@ -26,7 +36,7 @@ The first start of the application occurs when you deploy the app, if enough quo
 
 ## Procedure
 
-1.  Navigate to the *Applications* page in your space.
+1.  In the SAP BTP cockpit, navigate to the *Applications* page in your space.
 
 2.  You can perform these actions either directly from the *Applications* page, or by navigating into your application, to the *Overview* page:
 
@@ -100,5 +110,5 @@ The first start of the application occurs when you deploy the app, if enough quo
 **Related Information**  
 
 
-[Deploy an Application](deploy-an-application-09fdb9b.md "You can use the cockpit to deploy a new application in the Cloud Foundry environment.")
+[Deploy an Application](deploy-an-application-09fdb9b.md "You can use the SAP BTP cockpit to deploy a new application in the Cloud Foundry environment.")
 

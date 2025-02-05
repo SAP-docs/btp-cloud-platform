@@ -2,7 +2,7 @@
 
 # Business Event Logging Applications
 
-With these apps, you can view business event logs and business events by SAP object nodes in your local system.
+With these apps, you can view business event logs and business events by object instances in your local system.
 
 
 

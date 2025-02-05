@@ -79,7 +79,7 @@ You're using SAP HANA Platform 1.0 \(XS classic\) on-premise. This scenario also
 </td>
 <td valign="top">
 
-This scenario is presumably a bigger project. The task isn’t only to use a different version of SAP HANA but also to make architectural changes: from monolithic applications to microservice-based applications. To give you an overview on things you need to consider, have a look at our guide: [Migrating from the Neo Environment to the Multi-Cloud Foundation for SAP BTP (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate scenarios from the Neo environment to the multi-cloud foundation for SAP BTP. This guide is for SAP Business Technology Platform (SAP BTP) customers with scenarios in the Neo environment that need to move to the multi-cloud foundation, including the Cloud Foundry environment or the Kyma environment.") :arrow_upper_right: 
+This scenario is presumably a bigger project. The task isn’t only to use a different version of SAP HANA but also to make architectural changes: from monolithic applications to microservice-based applications. To give you an overview on things you need to consider, have a look at our guide: [Migrating from the Neo Environment to the Multi-Cloud Foundation for SAP BTP (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate scenarios from the Neo environment to the multi-cloud foundation for SAP BTP. This guide is for SAP Business Technology Platform (SAP BTP) customers and partners with scenarios in the Neo environment that need to move to the multi-cloud foundation, including the Cloud Foundry environment or the Kyma environment.") :arrow_upper_right: 
 
 </td>
 </tr>
@@ -149,8 +149,8 @@ When you've created your data model with the SAP Cloud Application Programming M
 
 ### References
 
--   [SAP HANA Cloud product page on the Help Portal](https://help.sap.com/viewer/product/HANA_CLOUD/cloud/en-US)
+-   [SAP HANA Cloud product page on the Help Portal](https://help.sap.com/docs/hana-cloud)
 
--   [Feature Scope Description for SAP HANA Cloud](https://help.sap.com/viewer/5b0a45d84713461084c26b6a31533fd0/cloud/en-US)
+-   [Feature Scope Description for SAP HANA Cloud](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fhelp.sap.com%2Fdoc%2Feef71122810d4aa18d8eb6c37031f98a%2Fhanacloud%2Fen-US%2FFeature_Scope_Description_SAP_HANA_Cloud_en.pdf)
 
 

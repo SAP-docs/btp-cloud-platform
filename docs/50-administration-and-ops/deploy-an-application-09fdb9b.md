@@ -2,7 +2,18 @@
 
 # Deploy an Application
 
-You can use the cockpit to deploy a new application in the Cloud Foundry environment.
+You can use the SAP BTP cockpit to deploy a new application in the Cloud Foundry environment.
+
+
+
+<a name="loio09fdb9bdc6804c479d634297f1d07e09__prereq_mhg_cyp_12c"/>
+
+## Prerequisites
+
+-   You have the Space Developer role. For more information, see [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md).
+
+-   You have enough space quota, or enough org quota if no space quota is assigned to the space. For more information, see [Managing Space Quotas](managing-space-quotas-4e5f0ee.md).
+
 
 
 
@@ -49,8 +60,15 @@ You can use the cockpit to deploy a new application in the Cloud Foundry environ
 
 The file containing your new application is uploaded and your application is deployed.
 
+> ### Note:  
+> If an application is displayed as *Started* according to the *Requested State* column, it doesn't automatically mean that the application is started. This is the desired state, but there might be an issue with an application instance. For any warning alerts, check the *Instances* column.
+> 
+> To get more detailed information about the current state of your application instances, navigate to the *Overview* page of the application.
+
 **Related Information**  
 
+
+[Deploying to the Cloud Foundry Environment](../30-development/deploying-to-the-cloud-foundry-environment-2a21055.md "Get an overview of available deployment options.")
 
 [About Routes in the Cockpit](about-routes-in-the-cockpit-4af288c.md "To enable your end users to reach your application, create a route and map it to the application in the SAP BTP cockpit.")
 

@@ -44,7 +44,7 @@ You can also map role collections to attributes other than groups. For more info
 **Related Information**  
 
 
-[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "")
+[Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users from the default identity provider to get you started, your organization has identity providers that you want to integrate.")
 
 [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 

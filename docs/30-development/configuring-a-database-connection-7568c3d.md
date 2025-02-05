@@ -4,7 +4,7 @@
 
 
 
-You can configure your application to use a database connection so that the application can persist its data. This configuration is applicable for the [Tomcat 9](tomcat-9-ddfc101.md), [TomEE 7](tomee-7-79c039a.md), and [Tomcat 10](tomcat-10-97d0e34.md) application containers.
+You can configure your application to use a database connection so that the application can persist its data. This configuration is applicable for the [Tomcat 9](tomcat-9-ddfc101.md), [TomEE 7](tomee-7-79c039a.md), and [Tomcat 10](tomcat-10-97d0e34.md) application containers. See:
 
 -   [Configure a Database Connection for the Tomcat Application Container](configure-a-database-connection-for-the-tomcat-application-container-820994a.md)
 

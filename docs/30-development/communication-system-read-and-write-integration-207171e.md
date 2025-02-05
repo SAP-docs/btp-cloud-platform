@@ -100,9 +100,57 @@ Description
 </th>
 <th valign="top">
 
+Constants
+
+</th>
+<th valign="top">
+
 Necessity
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+CommunicationSystems
+
+</td>
+<td valign="top">
+
+Contains communication system data
+
+</td>
+<td valign="top">
+
+Contains the following attributes and values:
+
+-   Type
+
+    -   customer\_managed
+
+    -   sap\_managed
+    -   sap\_managed\_internal
+    -   provider\_managed
+
+-   OAuth2IdentityProviderUserLogonType
+    -   user\_uuid
+
+    -   user\_name
+
+-   SAMLBearerAssertionProviderUserLogonType
+    -   user\_uuid
+
+    -   user\_name
+
+
+
+
+</td>
+<td valign="top">
+
+Mandatory
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -117,7 +165,44 @@ Contains references to the communication user ID
 </td>
 <td valign="top">
 
-Mandatory
+Contains the following attributes and values:
+
+-   OAuth2GrantType
+
+    -   authorization\_code
+
+    -   saml2-bearer
+    -   ropc
+    -   client\_credentials
+
+
+-   OAuth2RefreshTokenExpiryUnit
+
+    -   days
+
+    -   months
+
+    -   years
+
+
+-   AuthenticationMethod
+
+    -   x509
+
+    -   basic
+    -   none
+    -   oauth2
+    -   oauth2\_mtls
+    -   sso2
+    -   oauth1
+
+
+
+
+</td>
+<td valign="top">
+
+Optional
 
 </td>
 </tr>
@@ -130,6 +215,31 @@ OutboundUsers
 <td valign="top">
 
 Contains outbound user data
+
+</td>
+<td valign="top">
+
+Contains the following attributes and values:
+
+-   OAuth2ClientAuthenticationMethod
+
+    -   basic
+
+    -   mtls
+    -   jwt
+
+-   AuthenticationMethod
+    -   x509
+
+    -   basic
+    -   none
+    -   oauth2
+    -   oauth2\_mtls
+    -   sso2
+    -   oauth1
+
+
+
 
 </td>
 <td valign="top">
@@ -147,6 +257,11 @@ BusinessPartners
 <td valign="top">
 
 Contains references to the business partner IDs
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

@@ -113,7 +113,7 @@ There are various ways of downloading the client for each operating system, as e
 
 <!-- loio6c48b6dbd6f744778e4389f935a3e554 -->
 
-## Apple macOS \(amd64 and arm64\)
+## Get the btp CLI Client for Apple macOS \(amd64 and arm64\)
 
 
 
@@ -121,7 +121,7 @@ There are various ways of downloading the client for each operating system, as e
 
 ## Procedure
 
-1.  You can get the btp CLI client by running the installation script or manually downloading it.
+1.  To get the btp CLI client, you can either run the installation script or download the client manually.
 
     -   Option 1: **Installation Script**
 
@@ -139,21 +139,9 @@ There are various ways of downloading the client for each operating system, as e
 
     -   Option 2: **Manually install the latest Apple macOS \(amd64 and arm64\) version**
 
-        1.  Download the latest Apple macOS client \([amd64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz) or [arm64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz)\) from [SAP Development Tools](https://tools.hana.ondemand.com/#cloud-btpcli). If you prefer using the command line, use the curl command, which downloads and saves the latest client version to your computer and accepts the SAP Developer Agreement \(EULA\).
+        1.  Download the latest Apple macOS client \([amd64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz) or [arm64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz)\) from SAP Development Tools.
 
-            For Apple macOS amd64:
-
-            ```
-            curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz --cookie "eula_3_2_agreed=tools.hana.ondemand.com/developer-license-3_2.txt"
-            ```
-
-            For Apple macOS arm64:
-
-            ```
-            curl -LJO https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz --cookie "eula_3_2_agreed=tools.hana.ondemand.com/developer-license-3_2.txt"
-            ```
-
-        2.  Extract the client from tar.gz archive.
+        2.  Extract the client from `tar.gz` archive.
 
             Open the tar.gz file by double-clicking it.
 
@@ -161,15 +149,15 @@ There are various ways of downloading the client for each operating system, as e
 
             `/usr/local/bin`
 
-        4.  **Optional:** If you have a proxy server configured in your environment, you need to specify its address and port as environment variable `HTTPS_PROXY` or `https_proxy` to access SAP BTP. For example, `HTTPS_PROXY=https://my-https-proxy:1234`.
+        4.  **Optional:** If you have a proxy server configured in your environment, you must specify its address and port as environment variable `HTTPS_PROXY` or `https_proxy` to access SAP BTP. For example, `HTTPS_PROXY=https://my-https-proxy:1234`.
 
             The specified proxy server is then used for HTTPS requests, unless overridden by the NO\_PROXY or no\_proxy, environment variables, which define a comma-separated list of hosts to be excluded from proxying.
 
 
 
-2.  Run `btp` in your terminal. Note that you need read and write permissions in the target folder to run this executable.
+2.  In your terminal, run `btp`. Note that you need read and write permissions in the target folder to run this executable.
 
-3.  Log into your global account with `btp login` or `btp login --sso`. The login flow is interactive and will prompt for all required information. Note that you need to confirm the btp CLI server \(`https://cli.btp.cloud.sap/`and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
+3.  Log into your global account with `btp login`and enter the required information. You must confirm the btp CLI server \(`https://cli.btp.cloud.sap/`\) and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
 4.  Once you're logged in, familiarize yourself with the btp CLI, for example with [How to Work with the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/11d9f67d2c68485ca2f435b955d3b85b.html?locale=en-US&state=PRODUCTION&version=Cloud), [Command Syntax of the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/69606f42743f46c29fa72c04e8c18674.html?locale=en-US&state=PRODUCTION&version=Cloud), or simply by trying out a few commands, such as the following:
 
@@ -231,7 +219,7 @@ There are various ways of downloading the client for each operating system, as e
 
         2.  Extract the client from `tar.gz` archive.
 
-            Use the terminal to open the tar.gz file with `tar -xzf btp-cli-linus-amd64-latest.tar.gz`
+            Use the terminal to open the tar.gz file with `tar -xzf btp-cli-linux-amd64-latest.tar.gz`
 
         3.  Copy the client executable from the unpacked folder to a directory of your choice. We recommend the following, because it ensures that you can call `btp` system-wide, i.e., that it is in your PATH:
 
@@ -272,40 +260,4 @@ There are various ways of downloading the client for each operating system, as e
 
 6.  To view the current context, target, and version, use `btp`.
 
-
-<a name="loioe92aa7859bc94a07a764f49c0437ead3"/>
-
-<!-- loioe92aa7859bc94a07a764f49c0437ead3 -->
-
-## Get Updates
-
-Updating the btp CLI client is essentially replacing the old executable file with a newer version.
-
-
-
-<a name="loioe92aa7859bc94a07a764f49c0437ead3__context_u1f_2kd_yjb"/>
-
-## Context
-
-Each btp CLI client version is supported for at least a year after its release, but we recommend to regularly update the client. This way, you won't miss any new features or security updates. The [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal announces new features and informs you if you need a client update to use them. If your client version is deprecated, an update hint is displayed in the client as well.
-
-To find out the version of the CLI client you are using, run `btp --info` or simply `btp`.
-
-
-
-## Procedure
-
-1.  Get the latest version either by re-running the installation script or downloading the client manually.
-
-2.  Extract the client file \(for example: `btp.exe`\) and replace the old file with this new one.
-
-3.  Work with the btp CLI as usual and enjoy the new features.
-
-
-**Related Information**  
-
-
-[Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
-
-[Commands in the btp CLI](commands-in-the-btp-cli-a03a555.md "Find a full reference of all btp CLI commands and their parameters here: btp CLI Command Reference.")
 

@@ -12,7 +12,7 @@ CDS View Name
 </td>
 <td valign="top">
 
-`C_BUSEVTLOGEVENTDEX_2`
+`C_BUSEVTLOGEVENTDEX_2` 
 
 </td>
 </tr>
@@ -36,7 +36,7 @@ Represented Objects
 </td>
 <td valign="top">
 
-This view represents the following SAP object type:
+This view represents the following objects:
 
 -   `BusEvtLogEvent` \(TechnicalObject\)
 
@@ -48,6 +48,8 @@ This view represents the following SAP object type:
 </table>
 
 
+
+<a name="loio1c38309b07c44272ae165e1e01e8296f__section_qqk_dsd_22c"/>
 
 ## Purpose
 
@@ -61,6 +63,8 @@ This CDS view provides the data to answer the following business questions:
 To help you decide which CDS view to use for your purposes, SAP has introduced the annotation `ObjectModel.supportedCapabilities` that indicates the most appropriate use cases for each CDS view. To find out what use cases are best supported by this CDS view, access the entry of the CDS view in the *View Browser* app and find the values for this annotation under the *Annotation* tab.
 
 
+
+<a name="loio1c38309b07c44272ae165e1e01e8296f__section_rqk_dsd_22c"/>
 
 ## Structure
 
@@ -104,7 +108,7 @@ Event operation, for example: Created, Deleted, Changed, and so on.
 </td>
 <td valign="top">
 
-The object type, a business object, or a technical object corresponding to the specified SAP object node type, for example: Outbound Delivery for Outbound Delivery Item.
+The object type, a business object, or a technical object corresponding to the specified object component, for example: Outbound Delivery for Outbound Delivery Item.
 
 </td>
 </tr>
@@ -116,7 +120,7 @@ The object type, a business object, or a technical object corresponding to the s
 </td>
 <td valign="top">
 
-Node type of an object type, for example, for an Outbound Delivery SAP object type, the SAP object node types are Outbound Delivery \(header\) and Outbound Delivery Item \(item\).
+Object component, for example, for an Outbound Delivery object, the object components are Outbound Delivery \(header\) and Outbound Delivery Item \(item\).
 
 </td>
 </tr>
@@ -128,7 +132,7 @@ Node type of an object type, for example, for an Outbound Delivery SAP object ty
 </td>
 <td valign="top">
 
-First part of the key of an object node instance, for example, in one event for an Outbound Delivery Item, the first part of the key is 80013910 \(outbound delivery number\).
+First part of the key of an object instance, for example, in one event for an Outbound Delivery Item, the first part of the key is 80013910 \(outbound delivery number\).
 
 </td>
 </tr>
@@ -140,12 +144,12 @@ First part of the key of an object node instance, for example, in one event for 
 </td>
 <td valign="top">
 
-Second part of the key of an object node instance, for example, in one event for an Outbound Delivery Item, the second part of the key is 00020 \(item number\). If an event refers to an SAP object node type with only one key part \(such as: Outbound Delivery \[header\]\), then all subsequent key parts are empty.
+Second part of the key of an object instance, for example, in one event for an Outbound Delivery Item, the second part of the key is 00020 \(item number\). If an event refers to an object component with only one key part \(such as: Outbound Delivery \[header\]\), then all subsequent key parts are empty.
 
 > ### Note:  
-> There can be many more node keys, depending on how many parts the object key has. For example: SAPBusinessObjectNodeKey3, SAPBusinessObjectNodeKey4, and so on.
+> There can be many more object ID, depending on how many parts the object key has. For example: SAPBusinessObjectNodeKey3, SAPBusinessObjectNodeKey4, and so on.
 > 
-> SAPObjectNodeType and SAPBusinessObjectNodeKey \(1-7\) identify a node instance of an SAP object. Outbound Delivery Item is an example of an SAP object node.
+> SAPObjectNodeType and SAPBusinessObjectNodeKey \(1-7\) identify an instance of an object. Outbound Delivery Item is an example of an instance.
 
 
 
@@ -190,6 +194,8 @@ Provides the event's namespace. This can either be a Standard or Custom
 </table>
 
 
+
+<a name="loio1c38309b07c44272ae165e1e01e8296f__section_tqk_dsd_22c"/>
 
 ## Examples
 

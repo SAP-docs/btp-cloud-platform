@@ -46,6 +46,48 @@ Find out how to create, check out and switch between different branches:
 8.  You can easily switch between all your different branches by using the *Checkout* button.
 
 
+
+
+### Merging of Branches - SAP Managed Software Components
+
+> ### Note:  
+> The merging of branches of SAP-managed software components is currently not supported.
+
+
+
+### Merging of Branches - Customer-managed Software Components
+
+It is possible to merge branches of a software component with Bring Your Own Git. However, this will have implications on the usability of your software component and is not officially supported using the Manage Software Components Fiori app. If you choose to merge branches of a customer-managed software component, please refer to the two options below:
+
+**Option 1: Merging of Branches Using the Git Provider UI** 
+
+You need to do a double maintenance for all the changes made to a branch that should be merged. This double maintenance needs to be performed on an SAP BTP ABAP environment, so that the changes exist in both the source branch and the target branch.
+
+If the double maintenance has not been done correctly, and changes to the same object are present in both branches, Git might detect a merge conflict.
+
+In case there are merge conflicts produced during the merge attempt of the two branches, please maintain your changes in both branches respectively. Once all changes are available in both branches, they can be merged on the remote repository.
+
+It is essential not to resolve merge conflicts using a merge conflict resolver by your Git provider. If the individual line content was altered during the merge conflict resolution, this commit might not be able to get pulled into an ABAP environment.
+
+**Option 2: Merging of Branches Using the Git Command Line Interface \(CLI\)** 
+
+With this approach, it is mandatory to clone the remote Git repository to your local machine.
+
+After the repository is cloned to your local machine, you need to perform the merge of the branches using either the `ours` or `theirs` strategy option. This approach ensures that the merging of branches does not alter individual line contents, butcontents but takes full objects from one side to the other instead. This way, the resulting commit from the merge is importable into an SAP BTP ABAP environment. As a reference, please take a look at the example below on how to perform a merge using the `theirs` strategy.
+
+> ### Sample Code:  
+> ```
+> git clone <Repository_URL>
+> cd <Repository_Name>
+> git checkout <baseBranch>
+> git merge -X theirs <mergeBranch>
+> git push origin <baseBranch>
+> 
+> ```
+
+> ### Note:  
+> Currently, the merging of branches is not officially supported in the Manage Software Components Fiori app using customer-managed software components.
+
 > ### Caution:  
 > **Branch Deletion**:
 > 

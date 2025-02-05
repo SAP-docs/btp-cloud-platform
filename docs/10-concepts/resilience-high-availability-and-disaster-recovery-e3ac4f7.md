@@ -41,7 +41,7 @@ Regional Availability
 </td>
 <td valign="top">
 
-To achieve better fault-tolerance in the Cloud Foundry environment, we deploy our services across multiple AZs, which improves the availability of a service if there are issues with the infrastructure of one AZ. For more information, see [Availability Zones in the Cloud Foundry Environment](cloud-foundry-environment-9c7092c.md#loiob6a7e11c3a58416a9ab1175bba17193a).
+To achieve better fault-tolerance in the Cloud Foundry environment, we deploy our services across multiple AZs, which improves the availability of a service if there are issues with the infrastructure of one AZ. For more information, see [Availability Zones in the Cloud Foundry Environment](availability-zones-in-the-cloud-foundry-environment-b6a7e11.md).
 
 </td>
 <td valign="top">

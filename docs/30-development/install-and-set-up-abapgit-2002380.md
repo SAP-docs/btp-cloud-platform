@@ -44,15 +44,15 @@ Learn how to install and set up abapGit.
 
 
 
-*Part 3: Install an ADT plugin for abapGit*
+*Part 3: Install an ABAP Development Tools for Eclipse Plugin for abapGit*
 
-1.  Log on to ABAP Development Tools in Eclipse.
+1.  Log on to ABAP development tools for Eclipse.
 
 2.  Navigate to *Help* \> *Install New Software...*.
 
-3.  To install the abapGit repositories ADT plug-in, add the following URL: `https://eclipse.abapgit.org/updatesite/` and provide a name for the repository.
+3.  To install the abapGit repositories ABAP development tools for Eclipse plug-in, add the following URL: `https://eclipse.abapgit.org/updatesite/` and provide a name for the repository.
 
-4.  To display all the available features, press enter, and select *abapGit for ABAP Development Tools \(ADT\)*.
+4.  To display all the available features, press enter, and select *abapGit for ABAP development tools for Eclipse*.
 
 5.  Select *Next*to finish the installation.
 

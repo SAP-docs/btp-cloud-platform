@@ -116,11 +116,17 @@ Adding a system to the list in the *Systems* page is just the first step of the 
 
 **Registering**
 
-When registering a system, the required configuration on the system side has been performed, and therefore, the newly added system can exchange or expose its technical details, metadata, APIs, or events. Only when the registration process is complete and the system is registered with SAP BTP, it can exchange the relevant information and enable the extension scenario.
+When registering an SAP system of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, the required configuration on the system side has been performed, and therefore, the newly added system can exchange or expose its technical details, metadata, APIs, or events. Only when the registration process is complete and the system is registered with SAP BTP, it can exchange the relevant information and enable the extension or integration scenario.
 
 The registration of the newly added systems is based on a registration token. The token is used for the pairing of the system and the corresponding global account. After you add a system, you can get the token in the SAP BTP cockpit. Then, you can use it to configure the integration on the corresponding system side. By using the registration token on the system side and registering the system, the system administrator allows the integration of the system with SAP BTP.
 
 The system gets a *Registered* status, only when a token is issued and the registration is complete on the corresponding system side. In general, the *Registered* status means that the communication between the system and SAP BTP has been established. However, depending on the system and its requirements, additional configuration might be needed for the enablement of a fully functional extension scenario. The additional configuration, depending on the system type, is outlined in the corresponding documents listed in the *Related Information* section. See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
+
+For system types different than SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, when adding a system in the *Systems* page, this system is registered directly but no status is displayed.
+
+**Refreshing**
+
+To ensure you have all your auto-discovered systems listed in the *Systems* page, choose *Refresh*. Refreshing the *Systems* list pulls all the systems and it might take some time.
 
 **Specifics When Registering SAP S/4HANA Cloud Systems**
 
@@ -184,7 +190,7 @@ A consumption bundle can group logically a set of events for communication with 
 
 ### Types
 
-The formation type defines the use case. Therefore, depending on the use case, you have different formation types. To a get a list of the available formation types, see [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md).
+The formation type defines the use case. Therefore, depending on the use case, you have different formation types. To a get a list of the available formation types, see [Integrating SAP Solutions](integrating-sap-solutions-3414bbc.md).
 
 
 
@@ -208,6 +214,10 @@ A formation can have the following status values:
 
     An error occurred while some of the systems that are included in the formation were synchronizing in the background.
 
+-   *Draft*
+
+    Not all the required systems were included when creating the formation. When you include all the missing systems, choose *Finalize Formation*.
+
 
 
 
@@ -230,6 +240,10 @@ When you include systems in a formation, these systems are synchronized in the b
 **Reseting and Resynchronizing Systems in a Formation**
 
 If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in SAP BTP cockpit their formation type is Side-by-Side Extensibility with Kyma.
+
+**Finalizing a Formation**
+
+You can finalize a formation that is in *Draft* state which means that not all the required systems were included when creating the formation. When you include all the missing systems, choose *Finalize Formation*.
 
 **Deleting Formations**
 

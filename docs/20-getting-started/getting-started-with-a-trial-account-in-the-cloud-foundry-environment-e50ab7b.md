@@ -14,7 +14,7 @@ Quickly get started with a trial account.
 
 Before you begin, sign up for a free trial account. See [Get a Free Trial Account](getting-a-global-account-d61c281.md#loio42e7e54590424e65969fced1acd47694). For more information about the scope of our trial offering, see [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md).
 
-If you want to familiarize yourself with the Cloud Foundry environment, see [Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18).
+If you want to familiarize yourself with the Cloud Foundry environment, see [Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md).
 
 
 
@@ -70,7 +70,7 @@ If you want to familiarize yourself with the Cloud Foundry environment, see [Clo
 **Related Information**  
 
 
-[Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18 "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the SAP BTP, Cloud Foundry runtime service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
+[Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the SAP BTP, Cloud Foundry runtime service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
 
 [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md "Explore the different options for trying out SAP BTP.")
 

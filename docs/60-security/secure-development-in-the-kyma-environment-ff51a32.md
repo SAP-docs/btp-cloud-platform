@@ -73,5 +73,3 @@ For more information, see [Security Considerations](https://kyma-project.io/#/se
 
 [Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommendations-f8cb6e5.md "Pods are the smallest deployable units of computing that you can create and manage in Kubernetes. This document shows how to use Pods securely and ultimately have a secure workload. The following steps guide you to use Pods securely and ultimately have a secure workload, depending on your needs.")
 
- <?sap-ot O2O class="- topic/link " href="1be599b74c9042b0b0b356598502b394.xml" text="" desc="" xtrc="link:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/ff51a3258fe54c308c05ed5901d1a793.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-

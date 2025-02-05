@@ -27,7 +27,7 @@ Learn about the different account administration and application operation tasks
 **Related Information**  
 
 
-[Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18 "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the SAP BTP, Cloud Foundry runtime service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
+[Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the SAP BTP, Cloud Foundry runtime service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
 
 [Getting Started in the Cloud Foundry Environment](../20-getting-started/getting-started-in-the-cloud-foundry-environment-b328cc8.md "Get onboarded in the Cloud Foundry environment of SAP BTP. Follow the workflows for trial or customer accounts or subscribe to business applications.")
 

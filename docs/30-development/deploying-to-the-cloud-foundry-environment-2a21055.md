@@ -32,6 +32,14 @@ If you prefer to develop on your local machine, you can deploy your application 
 
 
 
+<a name="loio2a21055cc94b4a528a820f73e6fa7d69__section_zmb_v33_12c"/>
+
+## SAP BTP Cockpit
+
+You can also deploy your application with or without a `manifest.yml` file using the SAP BTP cockpit. For more information, see [Deploy an Application](../50-administration-and-ops/deploy-an-application-09fdb9b.md).
+
+
+
 <a name="loio2a21055cc94b4a528a820f73e6fa7d69__section_gft_wyj_qnb"/>
 
 ## Docker Images

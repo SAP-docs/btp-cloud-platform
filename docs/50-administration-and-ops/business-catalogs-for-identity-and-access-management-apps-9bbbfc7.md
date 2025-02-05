@@ -30,30 +30,11 @@ Restrictions
 </th>
 </tr>
 <tr>
-<td valign="top">
-
-*Identity and Access Management*
-
-SAP\_CORE\_BC\_IAM
-
-</td>
-<td valign="top">
-
-All authorizations for the IAM apps
-
-</td>
-<td valign="top">
-
-Business catalog was set to obsolete due to potential SoD \(segregation of duties\) conflicts. Please use the other three catalogs listed below.
-
-</td>
-</tr>
-<tr>
 <td valign="top" rowspan="3">
 
 *User Management*
 
-SAP\_CORE\_BC\_IAM\_UM
+`SAP_CORE_BC_IAM_UM`
 
 </td>
 <td valign="top">
@@ -96,7 +77,7 @@ None
 
 *Role Management*
 
-SAP\_CORE\_BC\_IAM\_RM
+`SAP_CORE_BC_IAM_RM`
 
 </td>
 <td valign="top">
@@ -106,7 +87,7 @@ Maintain Business Roles
 </td>
 <td valign="top">
 
-Not possible to assign business roles to the business users
+Not possible to assign business roles to the business users.
 
 </td>
 </tr>
@@ -151,7 +132,7 @@ None
 
 *Role Assignment*
 
-SAP\_CORE\_BC\_IAM\_RA
+`SAP_CORE_BC_IAM_RA`
 
 </td>
 <td valign="top">
@@ -173,7 +154,7 @@ Maintain Business Roles
 </td>
 <td valign="top">
 
-Only possible to assign business roles to the business users. Not possible to change the business roles
+Only possible to assign business roles to the business users. Not possible to change the business roles.
 
 </td>
 </tr>
@@ -192,9 +173,73 @@ None
 <tr>
 <td valign="top">
 
+*Identity and Access Management - Role Management - Display* 
+
+`SAP_CORE_BC_IAM_RM_DISP_PC`
+
+</td>
+<td valign="top">
+
+This business catalog enables you to grant read-only access to the following apps related to identity and access management:
+
+-   *Maintain Business Roles*
+
+-   *IAM Information System*
+
+-   *IAM Key Figures*
+
+-   *Business Role Templates*
+
+-   *Business Catalogs*
+
+-   *Display Restriction Types*
+
+
+
+
+</td>
+<td valign="top">
+
+None
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Identity and Access Management - User Management - Display*
+
+`SAP_CORE_BC_IAM_UM_DISP_PC`
+
+</td>
+<td valign="top">
+
+This business catalog enables you to grant read-only access to the following apps related to identity and access management:
+
+-   *Maintain Business Users*
+
+-   *IAM Information System*
+
+-   *IAM Key Figures*
+
+-   *Display Technical Users*
+
+
+
+
+</td>
+<td valign="top">
+
+None
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Identity and Access Management - Group Management*
 
-SAP\_CORE\_BC\_IAM\_GRP\_PC
+`SAP_CORE_BC_IAM_GRP_PC`
 
 </td>
 <td valign="top">

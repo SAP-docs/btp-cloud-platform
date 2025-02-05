@@ -45,7 +45,7 @@ To enable navigation to custom UIs via tiles, enable launchpad spaces and pages.
 To test inbound and outbound communication, create communication arrangements in the test system TST based on the implemented communication scenarios. See [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
 
 > ### Note:  
-> Depending on whether you want to use an authentication method for outbound communication that requires a business user context \(Oauth2 SAML Bearer Assertion, Oauth2 User Token Exchange, JWT Principal Propagation\), you need to configure a destination in a communication arrangement instead of maintaining credentials by using an outbound communication user. See [Supported Protocols and Authentication Methods](supported-protocols-and-authentication-methods-437e9d4.md) and [Create a Destination](create-a-destination-3fa7934.md).
+> Depending on whether you want to use an authentication method for outbound communication that requires a business user context \(Oauth2 SAML Bearer Assertion, Oauth2 User Token Exchange, JWT Principal Propagation\), you need to configure a destination in a communication arrangement instead of maintaining credentials by using an outbound communication user. See  <?sap-ot O2O class="- topic/xref " href="437e9d41d24349c3a2b363f726022677.xml" text="" desc="" xtrc="xref:6" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8c5b4d76a05b4bed8df01937f4d8d487.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>  and  <?sap-ot O2O class="- topic/xref " href="3fa7934f5a714bf88d8490958211382f.xml" text="" desc="" xtrc="xref:7" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8c5b4d76a05b4bed8df01937f4d8d487.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 You can integrate the test system TST with on-premise systems. See [Integrating On-Premise Systems](integrating-on-premise-systems-c95327f.md).
 
@@ -62,11 +62,11 @@ As a test user, you can adjust business configuration objects in the *Maintain B
 Key user extensibility that is enabled in the SaaS solution can be configured and consumed in test systems.
 
 > ### Note:  
-> Key user extensibility provided in a SaaS solution can only be configured in tenants of particular types, for testing purposes in tenants of type Partner Test.
+> Key user extensibility provided in a SaaS solution can only be configured in tenants of particular types, for testing purposes in tenants of type Test Tenant.
 > 
 > These tenant types are provisioned in non-development systems, such as test system TST or quality assurance system QAS, where development is not allowed \(`is_development_allowed = false`\). The tenants are created independently from a subscription to the SaaS solution by using the *Landscape Portal* application. See [Manage Test Tenants](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/acc85d68b6da441fa6349af3ae4e4bb4.html).
 
-As a test user in a Partner Test tenant \(client \>= 200\), you configure key user extensibility in a test system.
+As a test user in a Test Tenant \(client \>= 200\), you configure key user extensibility in a test system.
 
 -   See [Custom Logic \(Deprecated\)](../50-administration-and-ops/custom-logic-deprecated-05880c7.md) for guidance on how to use the *Custom Logic* app to create and maintain custom logic for business add-ins \(BAdIs\).
 -   See [Configuring Predefined Custom Fields](../50-administration-and-ops/configuring-predefined-custom-fields-0033cbc.md) for guidance on how to configure predefined custom fields to customize applications and their UIs.

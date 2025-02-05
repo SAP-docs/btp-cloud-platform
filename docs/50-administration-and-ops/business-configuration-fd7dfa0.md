@@ -24,7 +24,7 @@ The administration of your business configuration has the following requirements
 
 -   The business configuration is client-dependent. After import, it's only available in the client where the import took place. In contrast, development objects are not client-dependent.
 
--   Business configuration content is usually not directly maintained in a productive system, but created in a development system, and then transported to the test system and productive system. For more information on how to set up your system landscape, please refer to the scenarios described in[Setting Up and Working with Your Landscape](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/latest/en-US/9a6fe7edf77a4f1299254c1c3c8bad48.html).
+-   Business configuration content is usually not directly maintained in a productive system, but created in a development system, and then transported to the test system and productive system. For more information on how to set up your system landscape, please refer to the scenarios described in [Setting Up and Working with Your Landscape](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/latest/en-US/9a6fe7edf77a4f1299254c1c3c8bad48.html).
 
 -   Changes to business configuration content are recorded onto transport requests of the type `Customizing`. They can be released in the source system and imported in any target system. For more information on how to set up a suitable software component for transport, please refer to [Software Components](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/58480f43e0b64de782196922bc5f1ca0.html?version=Cloud).
 

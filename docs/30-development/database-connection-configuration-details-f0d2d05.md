@@ -10,46 +10,49 @@ Define details of the database connection used by your Java Web Application runn
 
 ## Configuration Files
 
-To configure your application to establish a connection to the SAP HANA database, you must specify details of the connection in a configuration file. For example, you must define the data source that the application will use to discover and look up data. The application then uses a Java Naming and Directory Interface \(JNDI\) to look up the specified data in the file.
+To configure your application so as to establish a connection to the SAP HANA database, you must specify details of the connection in a configuration file. For example, you must define the data source that the application will use to discover and look up data. The application then uses a Java Naming and Directory Interface \(JNDI\) to look up the specified data in the file.
 
 The easiest way to define the required data source is to declare the keys for the data source in a resource file.
 
-For the Tomcat application container, you can create a `context.xml` file in the `META-INF/` directory with the following content:
+-   For Tomcat application containers, you can create a **`context.xml`** file in the `META-INF/` directory with the following content:
+
+    > ### Sample Code:  
+    > *context.xml*
+    > 
+    > ```
+    > <?xml version='1.0' encoding='utf-8'?>
+    > <Context>
+    >  <Resource name="jdbc/DefaultDB"
+    >     auth="Container"
+    >     type="javax.sql.DataSource"
+    >     factory="com.sap.xs.jdbc.datasource.tomcat.TomcatDataSourceFactory"
+    >     service="di-core-hdi"/>
+    > </Context>
+    > ```
+
+-   For TomEE application containers, you can create a **`resources.xml`** file in the `WEB-INF/` directory with the following content:
+
+    > ### Sample Code:  
+    > *resources.xml*
+    > 
+    > ```
+    > <?xml version='1.0' encoding='utf-8'?> 
+    > <resources>
+    >  <Resource id="jdbc/DefaultDB" provider="xs.openejb:XS Default JDBC Database" type="javax.sql.DataSource" >
+    >     service=di-core-hdi
+    >  </Resource>
+    > </resources>
+    > ```
+
+
+**NOTE:** This simple approach is not always applicable as your WAR file cannot be signed, and any modifications can only be made in the WAR file.
+
+For production environments, we recommend that you take advantage of the [Resource Configuration](resource-configuration-c893e9c.md) feature of SAP Java Buildpack. Use modification settings in files **`resource_configuration.yml`** and **`manifest.yml`** as illustrated in the following examples.
+
+Specify a default service name in **`resource_configuration.yml`**:
 
 > ### Sample Code:  
-> context.xml
-> 
-> ```
-> <?xml version='1.0' encoding='utf-8'?>
-> <Context>
->  <Resource name="jdbc/DefaultDB"
->     auth="Container"
->     type="javax.sql.DataSource"
->     factory="com.sap.xs.jdbc.datasource.tomcat.TomcatDataSourceFactory"
->     service="di-core-hdi"/>
-> </Context>
-> ```
-
-For the TomEE 7 application container, you can create a `resources.xml` file in the `WEB-INF/` directory with the following content:
-
-> ### Sample Code:  
-> resources.xml
-> 
-> ```
-> <?xml version='1.0' encoding='utf-8'?> 
-> <resources>
->  <Resource id="jdbc/DefaultDB" provider="xs.openejb:XS Default JDBC Database" type="javax.sql.DataSource" >
->     service=di-core-hdi
->  </Resource>
-> </resources>
-> ```
-
-The problem with this simple approach is that your WAR file cannot be signed, and any modifications can only be made in the WAR file. For this reason, it is recommended that you do not use the method in a production environment but rather take advantage of the [Resource Configuration](resource-configuration-c893e9c.md) feature of the SAP Java Buildpack. Use modification settings in `resource_configuration.yml` and `manifest.yml` as illustrated in the following examples.
-
-Defining a default service in `resource_configuration.yml`.
-
-> ### Sample Code:  
-> resource\_configuration.yml
+> *resource\_configuration.yml*
 > 
 > ```
 > ---
@@ -57,15 +60,15 @@ Defining a default service in `resource_configuration.yml`.
 >   service_name_for_DefaultDB: di-core-hdi
 > ```
 
-Specifying a default name for a service is useful \(for example, for automation purposes\) only if you are sure there can be no conflict with other names. For this reason, it is recommended that you include a helpful and descriptive error message instead of a default value. That way the error message will be part of an exception triggered when the data source is initialized, which helps troubleshooting.
-
-Sample `resource_configuration.yml`.
+**NOTE:** Specifying a default service name \(for example, for automation purposes\) is only useful if you're sure there will be no conflicts with other names. For this reason, we recommend that you include a helpful, descriptive error message instead of a default value. This way, the error message will be part of an exception triggered when the data source is initialized, which helps troubleshooting. For example:
 
 > ### Sample Code:  
+> *resource\_configuration.yml*
+> 
 > ```
 > ---
 > tomcat/webapps/ROOT/META-INF/context.xml:
->   service_name_for_DefaultDB: Specify the service name for Default DB in manifest.yml via "JBP_CONFIG_RESOURCE_CONFIGURATION"..
+>   service_name_for_DefaultDB: Specify the service name for Default DB in manifest.yml via "JBP_CONFIG_RESOURCE_CONFIGURATION".
 > ```
 
 
@@ -74,12 +77,10 @@ Sample `resource_configuration.yml`.
 
 ## Placeholders
 
-The generic mechanism JBP\_CONFIG\_RESOURCE\_CONFIGURATION basically replaces the key values in the specified files. For this reason, if you use placeholders in the configuration files, it is important to ensure that you use unique names for the placeholders, see [Resource Configuration](resource-configuration-c893e9c.md).
-
-Sample `context.xml`.
+Using the JBP\_CONFIG\_RESOURCE\_CONFIGURATION parameter is a generic mechanism that basically replaces the key values in the specified files. For this reason, if you use placeholders in the configuration files, it is important to ensure that you use unique names for the placeholders \(see [Resource Configuration](resource-configuration-c893e9c.md)\). For example:
 
 > ### Sample Code:  
-> context.xml
+> *context.xml*
 > 
 > ```
 > <?xml version='1.0' encoding='utf-8'?>
@@ -103,12 +104,12 @@ Sample `context.xml`.
 > </Context>
 > ```
 
-The names of the defined placeholders are also used in the other resource files.
+**NOTE:** This sample code uses just an exemplary set of attributes. You can use as many as you want, depending on your scenario and database. To check the full list, see [Tomcat: Common Attributes](https://tomcat.apache.org/tomcat-10.0-doc/jdbc-pool.html#Common_Attributes) 
 
-Sample `resource_configuration.yml`.
+The names of the defined placeholders are also used in the other resource files:
 
 > ### Sample Code:  
-> resource\_configuration.yml
+> *resource\_configuration.yml*
 > 
 > ```
 > ---
@@ -120,16 +121,23 @@ Sample `resource_configuration.yml`.
 >   
 > 
 > env:
->   JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/webapps/ROOT/META-INF/context.xml': {'service_name_for_DefaultDB' : 'my-local-special-di-core-hdi' , 'max_Active_Connections_For_DefaultDB' : '30', 'service_name_for_DefaultXADB' : 'my-local-special-xa-di-core-hdi' , 'max_Active_Connections_For_DefaultXADB' : '20'  }]"
+>   JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/webapps/ROOT/META-INF/context.xml': {'service_name_for_DefaultDB' : 'my-local-di-core-hdi' , 'max_Active_Connections_For_DefaultDB' : '30', 'service_name_for_DefaultXADB' : 'my-local-xa-di-core-hdi' , 'max_Active_Connections_For_DefaultXADB' : '20'  }]"
 > ```
 
-Sample `manifest.yml`.
-
 > ### Sample Code:  
-> manifest.yml
+> *manifest.yml*
 > 
 > ```
 > env:
->   JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/webapps/ROOT/META-INF/context.xml': {'service_name_for_DefaultDB' : 'my-local-special-di-core-hdi' , 'max_Active_Connections_For_DefaultDB' : '30', 'service_name_for_DefaultXADB' : 'my-local-special-xa-di-core-hdi' , 'max_Active_Connections_For_DefaultXADB' : '20'  }]"
+>   JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/webapps/ROOT/META-INF/context.xml': {'service_name_for_DefaultDB' : 'my-local-di-core-hdi' , 'max_Active_Connections_For_DefaultDB' : '30', 'service_name_for_DefaultXADB' : 'my-local-xa-di-core-hdi' , 'max_Active_Connections_For_DefaultXADB' : '20'  }]"
 > ```
+
+**Related Information**  
+
+
+[Configure a Database Connection for the TomEE 7 Application Container](configure-a-database-connection-for-the-tomee-7-application-container-03cfb10.md "")
+
+[Configure a Database Connection for the Tomcat Application Container](configure-a-database-connection-for-the-tomcat-application-container-820994a.md)
+
+[Resource Configuration](resource-configuration-c893e9c.md "Both application containers, Tomcat and TomEE 7, are configured through text configuration files.")
 

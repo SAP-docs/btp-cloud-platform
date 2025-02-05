@@ -35,14 +35,14 @@ Consider the following restrictions and tips before you start.
 > ### Restriction:  
 > -   You can only establish trust with a single tenant of SAP Cloud Identity Services per subaccount using this method.
 > 
-> -   Your SAP Cloud Identity Services tenant can be changed only when no SAP Cloud Identity Services-based subscriptions \(for example, SAP Build or SAP Integration Suite, advanced event mesh\) exist.
+> -   Your SAP Cloud Identity Services tenant can be changed only when no SAP Cloud Identity Services-based subscriptions \(for example, SAP Build Work Zone using authentication with SAP Cloud Identity Services, SAP Build Apps, or SAP Integration Suite, advanced event mesh\) exist.
 > 
-> -   You've already created a trust configuration with a custom identity provider for applications. In this case, you can't add a trust configuration with the same SAP Cloud Identity Services tenant using another protocol.
+> -   If you have an SAML trust configuration for a certain tenant already, you can't add an OIDC trust configuration to the same tenant in addition. Rather migrate the SAML trust configuration to OIDC \(see [Migration from SAML Trust to OpenID Connect Trust with SAP Cloud Identity Services](migration-from-saml-trust-to-openid-connect-trust-with-sap-cloud-identity-services-d097ce2.md)\).
 > 
 >     Consider the upper limits for trust configrations in the subaccount. See [Limits for the Subaccount](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_ddk_bhf_fzb).
 
 > ### Tip:  
-> -   We recommend that you always use SAP Cloud Identity Services as single identity provider for SAP BTP. If you use corporate identity providers, connect them to your SAP Cloud Identity Services tenant, which then acts as a hub. We especially recommend this if you are using multiple corporate identity providers. For platform users, the use of SAP Cloud Identity Services is mandatory.
+> -   We recommend that you use SAP Cloud Identity Services as identity provider and connect a potential corporate identity provider there. If you don't have a tenant yet, check [Getting a Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html#getting-a-tenant).
 > 
 >     For more information, see [Corporate Identity Providers](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/19f3eca47db643b6aad448b5dc1075ad.html) and [Configure Conditional Authentication for an Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/0143dce88a604533ab5ab17e639fec09.html) in [What Is Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/27882717f44b445fa287936c6f43dc1f.html) and [SAP Cloud Identity Services](https://help.sap.com/viewer/product/IDENTITY_AUTHENTICATION/Cloud/en-US)
 > 
@@ -64,9 +64,15 @@ Consider the following restrictions and tips before you start.
 
 4.  Choose the domain configured with the SAP Cloud Identity Services tenant and continue with *Next*.
 
-5.  You can change the name and the description of the tenant, display and change the origin key, and provide a link text for user logon \(see [Using Multiple Identity Providers from the Same Subaccount](using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md)\). Continue with *Next*.
+5.  You can change the name and the description of the tenant, display and change the origin key.
 
-6.  Review your configuration and confirm using *Finish*.
+    The origin key can have 36 characters at maximum. Only use the following characters for the origin key of the trust configuration.
+
+    `aA`–`zZ`, `0`–`9`, `-` \(hyphen\), `_` \(underscore\)
+
+6.  Provide a link text for user logon \(see [Using Multiple Identity Providers from the Same Subaccount](using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md)\). Continue with *Next*.
+
+7.  Review your configuration and confirm using *Finish*.
 
 
 

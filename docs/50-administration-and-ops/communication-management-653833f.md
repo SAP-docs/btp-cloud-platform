@@ -4,7 +4,7 @@
 
 Learn more about the basic principles of communication management when integrating your system or solution with other systems to enable data exchange in your ABAP environment.
 
-![](../30-development/images/ABAP_Environment_Communication_Management_Overview_38d2057.png)
+![](images/ABAP_Environment_Communication_Management_Overview_38d2057.png)
 
 <a name="copy0ea48d6604ad4f369a61d019d096a9fe"/>
 
@@ -28,7 +28,7 @@ The following types of communication scenarios are available:
 
 [Overview of Communication Scenarios Managed by SAP](https://help.sap.com/docs/btp/sap-business-technology-platform/overview-of-communication-scenarios-managed-by-sap?version=Cloud)
 
-[Developing APIs for Inbound Communication](../30-development/developing-apis-for-inbound-communication-94ebfa0.md "Learn more about developing APIs for inbound communication.")
+ <?sap-ot O2O class="- topic/link " href="94ebfa045c75426ea32045f6bbba3be5.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/0ea48d6604ad4f369a61d019d096a9fe.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Outbound Communication](https://help.sap.com/docs/ABAP_Cloud/eede1416d18c436e8810eaaeb20c38ae/5c6e2cacbd7b446e8565aaa4c02983b2.html?locale=en-US&state=PRODUCTION&version=sap_cross_product_abap)
 
@@ -94,7 +94,7 @@ The destination service allows you to read and manage the address of a remote se
 
 [Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/daca64dacc6148fcb5c70ed86082ef91.html#loiodaca64dacc6148fcb5c70ed86082ef91__services)
 
-[Create a Destination](../30-development/create-a-destination-3fa7934.md "If your business application uses external services, you have to set up a destination for outbound communication either in your subaccount, which is recommended, or in your space.")
+ <?sap-ot O2O class="- topic/link " href="3fa7934f5a714bf88d8490958211382f.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/3f8a0aed508c4940a71aaaf18e037095.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 <a name="copydfe2a7d9df774e1d874dd0d9d1db8a41"/>
 
@@ -114,7 +114,7 @@ You can use a destination to:
 > ### Note:  
 > You can create a destination for a destination service on instance level or subaccount level.
 > 
-> A destination can be referenced in a communication system. To refer a destination from a destination service instance, a communication arrangement for SAP-managed scenario `SAP_COM_0276` needs to be maintained to enable communication with the destination service instance. See [Create a Destination](../30-development/create-a-destination-3fa7934.md). In this case, the destination name and the service instance name need to be maintained in the communication system.
+> A destination can be referenced in a communication system. To refer a destination from a destination service instance, a communication arrangement for SAP-managed scenario `SAP_COM_0276` needs to be maintained to enable communication with the destination service instance. See  <?sap-ot O2O class="- topic/xref " href="3fa7934f5a714bf88d8490958211382f.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/dfe2a7d9df774e1d874dd0d9d1db8a41.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> . In this case, the destination name and the service instance name need to be maintained in the communication system.
 
 **Related Information**  
 

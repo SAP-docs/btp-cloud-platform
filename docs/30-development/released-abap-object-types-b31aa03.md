@@ -384,6 +384,30 @@ Interface
 <tr>
 <td valign="top">
 
+INTM
+
+</td>
+<td valign="top">
+
+Intelligent Scenario Model
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+INTS
+
+</td>
+<td valign="top">
+
+Intelligent Scenario
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 MSAG
 
 </td>

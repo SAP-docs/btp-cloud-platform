@@ -119,7 +119,7 @@ The following procedure outlines the steps you need to perform to consume the AP
         </tr>
         </table>
         
-        All of the required properties of a given SAP S/4HANA Cloud system are accessible in the corresponding *System Details* section on the *Systems* page. See [Create a Destination](../30-development/create-a-destination-3fa7934.md).
+        All of the required properties of a given SAP S/4HANA Cloud system are accessible in the corresponding *System Details* section on the *Systems* page. See  <?sap-ot O2O class="- topic/xref " href="3fa7934f5a714bf88d8490958211382f.xml" text="" desc="" xtrc="xref:5" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/642431173d3c4fabb7f5a155836903be.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
     -   Create a destination automatically.
 

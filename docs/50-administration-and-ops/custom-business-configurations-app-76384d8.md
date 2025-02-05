@@ -10,7 +10,7 @@ Find out how to use the *Custom Business Configurations* app.
 
 ## Purpose
 
-The *Custom Business Configurations* app serves as an entry point to the [Business Configuration Maintenance Object](../30-development/business-configuration-maintenance-object-61159c4.md)provided by the custom applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior. For more information, see also [Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App](../30-development/creating-business-configuration-apps-with-abap-restful-application-programming-model-and-fa420dd.md).
+The *Custom Business Configurations* app serves as an entry point to the [Business Configuration Maintenance Object](../30-development/business-configuration-maintenance-object-61159c4.md) provided by the custom applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior. For more information, see also [Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App](../30-development/creating-business-configuration-apps-with-abap-restful-application-programming-model-and-fa420dd.md).
 
 
 
@@ -53,13 +53,7 @@ You can use the parameter `TechnicalIdentifier` for the semantic object `Busines
 
 ## Display Change Logs
 
-For a selected business configuration, the action *Display Change Logs* is available in the header section if
-
--   for at least one database table of the `RAP BO` of the `Business Configuration Maintenance Object Table Logging` is active
--   the *Business Configuration Change Logs* app is configured as a valid navigation target for the user for the given device
-
-
-With this action, you can navigate to the [Business Configuration Change Logs](https://help.sap.com/docs/abap-cloud/abap-rap/developing-ready-to-run-business-object?version=sap_btp) app.
+The change logs of a business configuration maintenance object can be accessed through the  <?sap-ot O2O class="- topic/xref " href="889b6167fa3042d988b4bb100e1453a7.xml" text="Implementation Activities" desc="" xtrc="xref:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/76384d8e68e646d6ae5ce8977412cbb4.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>  app.
 
 
 

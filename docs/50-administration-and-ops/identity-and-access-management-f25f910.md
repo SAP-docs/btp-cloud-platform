@@ -6,7 +6,7 @@ Identity and Access Management \(IAM\) enables you to control user access to app
 
 
 
-The main elements of IAM are business catalogs, business roles, and business users. The IAM apps secure the access to your solution based on these elements. Please see *Business Roles, Business Catalogs, and Restrictions* in the *Related Information* section for a more detailed description of how these elements interrelate.
+The main elements of IAM are business catalogs, business roles, and business users. The IAM apps secure the access to your solution based on these elements. For more information about how these elements interrelate, refer to [Business Roles, Business Catalogs, App Authorization Variants, Restrictions](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53e36b5493804bcdb3f6f14de8b487dd/d45c96e6d9e2426187920bffb3287f45.html).
 
 Access to business apps is controlled by a role-based authorization management. That means you assign business roles to users and these business roles provide access to certain business tasks.
 
@@ -15,12 +15,12 @@ You can also assign business users to business roles in the **Maintain Business 
 As opposed to business users, technical users aren't persons, but rather services that are used to automate technical tasks in the system, for example, a communication user. The **Display Technical Users** app shows you what technical users are available in your solution.
 
 > ### Note:  
-> We recommend that you use the *Manage Business Role Changes After Upgrade* app as a starting point to carry out regular release activities. For more information, see *Manage Business Role Changes After Upgrade* in the *Related Information* section.
+> We recommend that you use the *Manage Business Role Changes After Upgrade* app as a starting point to carry out regular release activities.
 
 > ### Note:  
-> To find out which business roles grant access to which apps, you can use the*IAM Information System* app. On the *Business Role - Application* tab, you can display all apps per business role as well as the corresponding business catalog IDs. If you select *Application* in the *Main Entity* dropdown list, you can search for apps and see which business roles and business catalogs provide access to them. For more information, see *IAM Information System* in the *Related Information* section.
+> To find out which business roles grant access to which apps, you can use the*IAM Information System* app. On the *Business Role - Application* tab, you can display all apps per business role as well as the corresponding business catalog IDs. If you select *Application* in the *Main Entity* dropdown list, you can search for apps and see which business roles and business catalogs provide access to them. For more information, refer to [IAM Information System](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53e36b5493804bcdb3f6f14de8b487dd/82d17cfdb0f3464b9735e4ded705f71f.html).
 > 
-> If you don’t have access to the *IAM Information System* app, you can still find out which business catalogs grant access to which apps using the SAP Fiori Apps Reference Library. For more information, see the *Related Information*section.
+> If you don’t have access to the *IAM Information System* app, you can still find out which business catalogs grant access to which apps using the SAP Fiori Apps Reference Library.
 
 
 
@@ -72,7 +72,7 @@ For more information, see sections *Maintain Business Users* and *Business Catal
 
 [Maintain Business Roles](maintain-business-roles-8980ad0.md)
 
-[Business Roles, Business Catalogs and Restrictions](business-roles-business-catalogs-and-restrictions-d45c96e.md "")
+ <?sap-ot O2O class="- topic/link " href="d45c96e6d9e2426187920bffb3287f45.xml" text="" desc="" xtrc="link:13" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/f25f9108740442c3804370f2d88a9bdd.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [SAP Fiori Apps Reference Library - User Guide](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/5a8c8240cd43410ea3e3ea6cb901dab7.html)
 

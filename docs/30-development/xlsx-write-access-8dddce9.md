@@ -307,3 +307,26 @@ To show a drop-down list of values for a cell, set the data validation. Add the 
 > lo_cell->data_validation->set_type( lo_data_validation ).
 > ```
 
+You can change the font in various ways. See the following example:
+
+> ### Sample Code:  
+> ```abap
+> DATA(lo_cursor) = lo_worksheet->cursor(
+>   io_column = xco_cp_xlsx=>coordinate->for_alphabetic_value( 'B' )
+>   io_row    = xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
+> ).
+>  
+> DATA(lo_font) = xco_cp_xlsx=>style->font( ).
+> lo_font->set_color( xco_cp_xlsx=>color->standard->orange
+>   )->set_type( xco_cp_xlsx=>font_type->arial
+>   )->set_size( 16
+>   )->set_bold(
+>   )->set_italic(
+>   )->set_strikethrough(
+>   )->set_superscript(
+>   )->set_underline_type( xco_cp_xlsx=>underline_type->single ).
+>  
+> lo_cursor->get_cell(
+>   )->apply_styles( VALUE #( ( lo_font ) ) ).
+> ```
+

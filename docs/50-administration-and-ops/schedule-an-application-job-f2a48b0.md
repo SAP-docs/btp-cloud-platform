@@ -95,7 +95,7 @@ Mandatory
 </td>
 <td valign="top">
 
-This is the name of the application job template.
+This is the technical ID of the application job template from which the new application job will be generated.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ Mandatory
 </td>
 <td valign="top">
 
-This is the name of the application.
+This is the human-readable name for the application job.
 
 </td>
 </tr>

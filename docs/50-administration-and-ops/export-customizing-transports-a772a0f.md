@@ -57,6 +57,8 @@ You can use this app to:
 
 -   Check the consistency of all open requests
 
+-   Release all open requests
+
 
 
 

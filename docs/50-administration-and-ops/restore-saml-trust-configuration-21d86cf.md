@@ -18,7 +18,7 @@ For more information, see [Migrate from SAML Trust Configuration to OpenID Conne
 
 ## Procedure
 
-1.  Find the inactive OIDC trust configuration with the `oidc-migration-backup` origin key. There is an active trust configuration with the same name and a different origin key. This is the one you can restore to a SAML trust configuration.
+1.  Find the inactive SAML trust configuration with the `oidc-migration-backup` origin key. There's an active trust configuration with the same name and a different origin key. This trust is the one you can restore to a SAML trust configuration.
 
     You can look up the origin key in the trust configuration in the SAP BTP cockpit, using the SAP BTP command-line interface \(CLI\), or the Identity Provider Management API.
 
@@ -39,7 +39,7 @@ For more information, see [Migrate from SAML Trust Configuration to OpenID Conne
 5.  Find the name of the \(currently active\) OIDC trust configuration that you want to restore to the SAML protocol.
 
     > ### Note:  
-    > There is also an inactive trust configuration with the same name, but it has the `oidc-migration-backup` origin key and the SAML protocol. It still has the data and assignments of the original SAML trust configuration.
+    > There's also an inactive trust configuration with the same name, but it has the `oidc-migration-backup` origin key and the SAML protocol. It still has the data and assignments of the original SAML trust configuration.
 
 6.  Restore your trust configuration. Use the original key of the active OIDC trust configuration using the following command:
 

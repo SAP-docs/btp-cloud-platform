@@ -15,7 +15,7 @@ Autocompletion in btp CLI currently supports the following shells:
 -   Zsh
 
 > ### Note:  
-> The respective shell must be installed on your operating system before enabling autocomplete.
+> The respective shell must be installed on your operating system before enabling autocomplete. Additionally, the btp CLI executable must be available on the `path` for autocompletion to initialize. To install it on the `path`, follow the steps outlined in[Download and Start Using the btp CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506).
 
 Once autocomplete is enabled \(it’s disabled by default\), you use the autocomplete feature as follows in the command line:
 
@@ -89,19 +89,14 @@ The following examples show various ways that you can use autocompletion:
     > ### Sample Code:  
     > `btp enable autocomplete zsh`
 
-2.  The client asks for confirmation to install the autocomplete plugin script at the specified location. Enter "y" or "yes" to continue.
+2.  Enter the option of your choice.
 
-    Apart from the script being added to your file system, the RC file of your shell is modified to call this script at startup. The client looks for this RC file in your system and proposes possible files. You can choose to accept a proposal or specify a different RC file. If no RC file is found, the clients prints an error message with the full path of the missing file, so you can create it and run the enable command again.
-
-3.  Enter the option of your choice.
-
-    To specify a custom path, first choose "Custom" and then enter the full path of the RC file to use.
+    To enable autocompletion, the startup file \(RC file\) of your shell is modified to load the available commands and parameters. The client looks for this RC file in your system and proposes possible files. You can choose to accept a proposal or specify a different RC file. To specify a custom path, first choose "Custom" and then enter the full path of the RC file to use. If no RC file is found, the clients prints an error message with the full path of the missing file so that you can create it and run the enable command again.
 
     For example:
 
     ```
     ./btp enable autocomplete powershell
-    This will install the autocomplete plugin script for powershell to C:\AppData\btp\autocomplete\scripts. Do you want to continue? [no]>y
     Which RCFile should be used for the installation?
     1: C:\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
     2: Custom
@@ -109,7 +104,7 @@ The following examples show various ways that you can use autocompletion:
     Enter the full path of your RCFile>C:\Documents\WindowsPowerShell\Microsoft.PowerShell_my-custom-profile.ps1
     ```
 
-4.  Start a new terminal session to activate the installed autocomplete script.
+3.  Start a new terminal session to activate the installed autocomplete script.
 
 
 
@@ -118,20 +113,18 @@ The following examples show various ways that you can use autocompletion:
 
 ## Results
 
-When you enable command autocompletion, a script containing all the autocomplete commands is downloaded and installed in your file system.
-
-The autocompletion option remains enabled in future sessions in your current client, until you disable it. To disable command autocompletion and uninstall the autocomplete script, run the following command:
+The autocompletion option remains enabled in future sessions in your current client, until you disable it. To disable command autocompletion, run the following command:
 
 ```
 btp disable autocomplete <SHELL>
 ```
 
-You can run either `btp` or `btp --info` to see if command autocompletion is currently enabled and where the autocomplete script for your shell is located. If you don't see a line specifying the location of the autocomplete script, then it’s disabled.
+You can run either `btp` or `btp --info` to see if command autocompletion is currently enabled and where the autocomplete RC file for your shell is located. If you don't see a line specifying the location of the autocomplete script, then it’s disabled.
 
 > ### Tip:  
 > If you see a discrepancy between the version of the autocomplete script and the client, the update of the autocomplete script might have failed. In such a case, try to disable and enable the autocomplete feature again.
 
-Whenever you start a new btp CLI terminal session, the installed autocomplete scripts are automatically updated to include the latest commands. If a script is updated, you're prompted to restart your terminal session to load the newest autocomplete information.
+Whenever you start a new btp CLI terminal session, the autocomplete suggestions are automatically updated to include the latest commands.
 
-If disabling the command autocompletion fails or you have uninstalled the btp CLI client without disabling autocompletion, you can manually remove traces of the autocomplete installation in your shell initialization file \(RC or profile file depending on your shell\) by deleting the line that starts with `SAPCP_CLI_AUTOCOMPLETE`.
+If disabling the command autocompletion fails or you have uninstalled the btp CLI client without disabling autocompletion, you can manually remove traces of the autocomplete installation in your shell initialization file \(RC or profile file depending on your shell\) by deleting the section in your RC file from `Begin SAP BTP command line interface autocomplete`to `End SAP BTP command line interface autocomplete`.
 

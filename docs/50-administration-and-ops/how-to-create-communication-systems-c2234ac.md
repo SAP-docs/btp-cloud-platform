@@ -38,6 +38,10 @@ To create a communication system perform the following steps:
 
         If your communication system is intended for outbound communication, host, port, user and authentication method are used as specified in the destination service.
 
+    -   *Cipher Suites*
+
+        Here you can define a set of encryption mechanisms you want to use as a basis for your communication. You can choose between different versions of TLS \(Transport Layer Security\). A default value is defined by the system and you can change this if required.
+
     -   *Destination Service* \(Only for Outbound Communication\)
 
         Because SAP BTP for the ABAP environment uses destination services of SAP BTP for outbound communication, you need to enter the name of the required destination service. For more information, see [Set Up the Destination Service](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/3fa7934f5a714bf88d8490958211382f.html). You also need to select the instance the destination service is based on. For more information, see [Creating the Service Instance for the ABAP Environment](https://help.sap.com/viewer/a96b1df8525f41f79484717368e30626/Cloud/en-US/50b32f144e184154987a06e4b55ce447.html).

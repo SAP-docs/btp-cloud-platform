@@ -23,7 +23,7 @@
 
 ### Maintain Business Role
 
-To enable business users to access the *Custom Code Migration* app, create the `Project Manager – IT` business role and assign one or more business user\(s\) to it. Please note that, in order to use the feature of adding findings to the baseline, you'll also need the `Quality Manager – Software Development` business role. To create these roles, proceed as follow \(taking `Project Manager – IT` as an example\):
+To enable business users to access the Custom Code Migration app, create the `Project Manager – IT` business role and assign one or more business user\(s\) to it. Please note that, in order to use the feature of adding findings to the baseline, you'll also need the `Quality Manager – Software Development` business role. To create these roles, proceed as follow \(taking `Project Manager – IT` as an example\):
 
 1.  From the SAP Fiori launchpad of your ABAP environment, open the *Maintain Business Role* tile.
 
@@ -45,7 +45,7 @@ To enable business users to access the *Custom Code Migration* app, create the `
 
 ### Maintain Communication Arrangement
 
-To enable communication from your ABAP environment to your on-premise systems using Remote Function Calls \(RFC\), you need to create the communication arrangement *SAP Custom Code Migration Integration* \(`SAP_COM_0464`\) in your ABAP environment.
+To enable communication from your ABAP environment to your on-premise systems using Remote Function Calls \(RFC\), you need to create the communication arrangement SAP Custom Code Migration Integration \(`SAP_COM_0464`\) in your ABAP environment.
 
 To set up the connection from the ABAP system in the ABAP environment to your on-premise system, proceed as follows:
 
@@ -62,7 +62,7 @@ To set up the connection from the ABAP system in the ABAP environment to your on
 
     3.  Choose *Create*.
 
-    4.  In the *Technical Data* tab under *General*, enter the virtual host as specified in your *Cloud Connector* as *Host Name*. The field *Port* has already been filled in automatically with the default *443*.
+    4.  In the *Technical Data* tab under *General*, enter the virtual host as specified in your *Cloud Connector* as *Host Name*. The field *Port* has already been filled in automatically with the default *443*. The value of the field *UI Host* can be changed if it differs from that of the host.
 
     5.  Switch on the slider for *Cloud Connector*.
 
@@ -77,13 +77,14 @@ To set up the connection from the ABAP system in the ABAP environment to your on
     10. Confirm with *Save*.
 
 
-5.  Under *Additional Properties*, fill out the fields *Object Provider* and *System Group*. An object provider defines the RFC connection to be used for analysis in a remote SAP system and must be assigned to a system group. This is the name you then select as your *Object Provider to Remote System* for your custom code migration project in the `Custom Code Migration` app.
+5.  Under *Additional Properties*, fill out the fields *Object Provider* and *System Group*. An object provider defines the RFC connection to be used for analysis in a remote SAP system and must be assigned to a system group. This is the name you then select as your *Object Provider to Remote System* for your custom code migration project in the Custom Code Migration app. Enter a name for each field. This name can be defined by you and can be 20 characters long \(25 for system groups\). The object provider will be created on the spot. The system group will either be created right then as well or, if it already exists, the object provider will be grouped within the system group that already groups together other systems and object providers in the SAP BTP system.
 
-    A system group subsumes multiple SAP systems \(typically, the productive system, the test system\(s\), and the development system\(s\)\), which all represent a part of a system landscape of one and the same SAP release.
+    > ### Note:  
+    > A system group subsumes multiple SAP systems \(typically, the productive system, the test system\(s\), and the development system\(s\)\), which all represent a part of a system landscape of one and the same SAP release. If you're using an existing system group, your new object provider will be grouped with the existing object providers in this system group.
 
 6.  Under *Outbound Services* \> *Retrieve Custom Code*, ensure that the *Service Status* is set to *Active*.
 
-7.  Under *Outbound Services* \> *Display Custom Code*, ensure that the *Service Status* for displaying custom code via UI link is set to *Active*.
+7.  Under *Outbound Services* \> *Display Custom Code*, ensure that the *Service Status* for displaying custom code via UI link is set to *Active*. You may also need to enter a value for *Port* if the system number is not 00.
 
 8.  Choose *Save* to save the communication arrangement. A message should now pop up at the bottom of the screen informing you that the activation was successful.
 
@@ -96,7 +97,7 @@ You can now select the communication arrangement in the *Object Provider to Remo
 
 ## On-Premise System: Install Remote Stubs
 
-To analyze your custom code in your on-premise system using the *Custom Code Migration* app, see SAP Note [2599695](https://me.sap.com/notes/2599695).
+To analyze your custom code in your on-premise system using the Custom Code Migration app, see SAP Note [2599695](https://me.sap.com/notes/2599695) Custom Code Migration Fiori App: Remote Stubs for the Checked System.
 
 **Related Information**  
 

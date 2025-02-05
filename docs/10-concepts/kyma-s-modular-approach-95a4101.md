@@ -2,7 +2,7 @@
 
 # Kyma's Modular Approach
 
-With Kyma's modular approach, you can install only the modules you need, instead of a predefined set of components.
+With Kyma's modular approach, you can add only the modules you need, instead of a predefined set of components.
 
 
 
@@ -57,6 +57,8 @@ A release of a new moduleâ€™s version is announced with a release note in [Whatâ
 
 -   After approximately two weeks, the module version becomes available in the regular channel and the *Preview* label is removed.
 
+
+For more details on the Kyma release schedule, see [3459911](https://me.sap.com/notes/3459911).
 
 **Related Information**  
 

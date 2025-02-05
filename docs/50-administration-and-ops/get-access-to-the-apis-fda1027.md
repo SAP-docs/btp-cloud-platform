@@ -16,9 +16,9 @@ For more information, see [security/api-credential](https://help.sap.com/docs/bt
 
 ## Procedure
 
-1.  Log on to the SAP BTP CLI.
+1.  Log on to the SAP BTP CLI, targeting the relevant global account, directory, or subaccount.
 
-2.  Enter the following command in the relevant global account, subaccount, or directory:
+2.  Enter the following command:
 
     `btp create security/api-credential --name my-credential`
 

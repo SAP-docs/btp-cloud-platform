@@ -100,6 +100,11 @@ Description
 </th>
 <th valign="top">
 
+Constants
+
+</th>
+<th valign="top">
+
 Necessity
 
 </th>
@@ -117,6 +122,35 @@ Contains communication user root data
 </td>
 <td valign="top">
 
+Contains the following attributes and values:
+
+-   Type
+
+    -   customer\_communication
+    -   provider\_communication
+
+-   LockStatus
+    -   not\_locked
+
+    -   locked\_global\_by\_admin
+    -   locked\_local\_by\_admin
+
+    -   locked\_by\_system
+
+-   PasswordStatus
+    -   active
+
+    -   inactive
+    -   productive
+
+    -   initial
+
+
+
+
+</td>
+<td valign="top">
+
 Mandatory
 
 </td>
@@ -130,6 +164,11 @@ Certificates
 <td valign="top">
 
 Contains the assigned certificates
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

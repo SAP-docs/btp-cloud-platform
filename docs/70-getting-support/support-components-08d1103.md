@@ -2263,6 +2263,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 </td>
 <td valign="top">
 
+-   Canada \(Montreal\)
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
@@ -2324,6 +2325,8 @@ Configure and run predefined pipelines for continuous integration and delivery.
 </td>
 <td valign="top">
 
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
 -   US East \(VA\)
 -   Switzerland \(Zurich\) EU Access
@@ -4541,71 +4544,6 @@ Store and version source code in Git repositories.
 <tr>
 <td valign="top">
 
-[Virtual Machine Service](https://help.sap.com/viewer/product/VIRTUAL_MACHINES/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Virtualized hardware resources \(CPU, RAM, disk space, installed OS\) to install and maintain the Linux-based software.
-
-</td>
-<td valign="top">
-
--   BC-NEO-INFR-VM
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Amsterdam\)
--   Europe \(Frankfurt\)
--   Australia \(Sydney\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Brazil \(São Paulo\)
--   UAE \(Dubai\)
--   KSA \(Riyadh\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
-
-
-
-</td>
-<td valign="top">
-
--   
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Dynatrace Agent Activation](https://help.sap.com/viewer/p/DYNATRACE_AGENT_ACTIVATION) 
 
 </td>
@@ -6112,6 +6050,126 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 <tr>
 <td valign="top">
 
+[SAP Smart Business Service](https://help.sap.com/viewer/product/SAP_Smart_Business_Service/Cloud_Dev/en-US) 
+
+</td>
+<td valign="top">
+
+Expose KPIs and OPIs as SAP Fiori applications without the need to write any code.
+
+</td>
+<td valign="top">
+
+-   CA-GTF-SB-HCP
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
+-   Brazil \(São Paulo\)
+-   UAE \(Dubai\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Smart Business Service](https://help.sap.com/viewer/product/SAP_Smart_Business_Service/Cloud_Dev/en-US) 
+
+</td>
+<td valign="top">
+
+Expose KPIs and OPIs as SAP Fiori applications without the need to write any code.
+
+</td>
+<td valign="top">
+
+-   CA-GTF-SB-HCP
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Cloud Foundry Runtime](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/9c7092c7b7ae4d49bc8ae35fdd0e0b18.html) 
 
 </td>
@@ -7148,6 +7206,8 @@ Use extensions on SAP Business Technology Platform and get runtime access to ODa
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
+-   Australia \(Sydney\)
 -   US East \(VA\)
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
@@ -7208,11 +7268,72 @@ Use extensions on SAP Business Technology Platform and get runtime access to ODa
 </td>
 <td valign="top">
 
+-   Switzerland \(Zurich\) EU Access
+-   Brazil \(São Paulo\)
 -   Europe \(Netherlands\)
+-   Australia \(Sydney\)
 -   US West \(WA\)
 -   US East \(VA\)
 -   Japan \(Tokyo\)
 -   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Serverless Runtime](https://help.sap.com/docs/integration-suite/sap-integration-suite/odata-provisioning) 
+
+</td>
+<td valign="top">
+
+Use extensions on SAP Business Technology Platform and get runtime access to OData services in SAP Integration Suite.
+
+</td>
+<td valign="top">
+
+-   BC-CP-XF-SRT
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   India \(Mumbai\)
+-   Israel \(Tel Aviv\)
+-   KSA \(Dammam\) public sector
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
 
 
 
@@ -7689,6 +7810,114 @@ Manage transports of development artifacts and application-specific content.
 <tr>
 <td valign="top">
 
+[Serverless Runtime](https://help.sap.com/docs/integration-suite/sap-integration-suite/odata-provisioning) 
+
+</td>
+<td valign="top">
+
+Use extensions on SAP Business Technology Platform and get runtime access to OData services in SAP Integration Suite.
+
+</td>
+<td valign="top">
+
+-   BC-CP-XF-SRT
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   US East \(VA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Serverless Runtime](https://help.sap.com/docs/integration-suite/sap-integration-suite/odata-provisioning) 
+
+</td>
+<td valign="top">
+
+Use extensions on SAP Business Technology Platform and get runtime access to OData services in SAP Integration Suite.
+
+</td>
+<td valign="top">
+
+-   BC-CP-XF-SRT
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [SAP Translation Hub](https://help.sap.com/viewer/product/SAP_TRANSLATION_HUB/Cloud/en-US) 
 
 </td>
@@ -7782,6 +8011,71 @@ Meet compliance requirements by exchanging documents with the Peppol network.
 <td valign="top">
 
 -   Europe \(Rot\)\*
+
+
+
+</td>
+<td valign="top">
+
+-   
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Virtual Machine Service](https://help.sap.com/viewer/product/VIRTUAL_MACHINES/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Virtualized hardware resources \(CPU, RAM, disk space, installed OS\) to install and maintain the Linux-based software.
+
+</td>
+<td valign="top">
+
+-   BC-NEO-INFR-VM
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Amsterdam\)
+-   Europe \(Frankfurt\)
+-   Australia \(Sydney\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   US West \(Colorado Springs\)
+-   Brazil \(São Paulo\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
+-   Japan \(Tokyo\)
+-   Canada \(Toronto\)
 
 
 
@@ -13815,7 +14109,7 @@ Develop and run HTML5 applications in a cloud environment.
 </td>
 <td valign="top">
 
-Digitize workflows, manage decisions and gain end-to-end process visibility
+Digitize workflows, manage decisions and gain end-to-end process visibility.
 
 </td>
 <td valign="top">
@@ -13877,7 +14171,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 </td>
 <td valign="top">
 
-Digitize workflows, manage decisions and gain end-to-end process visibility
+Digitize workflows, manage decisions and gain end-to-end process visibility.
 
 </td>
 <td valign="top">
@@ -13938,7 +14232,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 </td>
 <td valign="top">
 
-Digitize workflows, manage decisions and gain end-to-end process visibility
+Digitize workflows, manage decisions and gain end-to-end process visibility.
 
 </td>
 <td valign="top">
@@ -13996,7 +14290,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility
 </td>
 <td valign="top">
 
-Digitize workflows, manage decisions and gain end-to-end process visibility
+Digitize workflows, manage decisions and gain end-to-end process visibility.
 
 </td>
 <td valign="top">
@@ -14792,126 +15086,6 @@ Monitor Java, SAP HANA XS and HTML5 applications, and databases.
 -   Brazil \(São Paulo\)
 -   UAE \(Dubai\)
 -   KSA \(Riyadh\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP Smart Business Service](https://help.sap.com/viewer/product/SAP_Smart_Business_Service/Cloud_Dev/en-US) 
-
-</td>
-<td valign="top">
-
-Expose KPIs and OPIs as SAP Fiori applications without the need to write any code.
-
-</td>
-<td valign="top">
-
--   CA-GTF-SB-HCP
-
-
-
-</td>
-<td valign="top">
-
--   Neo
-
-
-
-</td>
-<td valign="top">
-
--   SAP
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Rot\)\*
--   Europe \(Frankfurt\)
--   Europe \(Amsterdam\)
--   US East \(Ashburn\)
--   US West \(Chandler\)
--   US East \(Sterling\)
--   US West \(Colorado Springs\)
--   Australia \(Sydney\)
--   Japan \(Tokyo\)
--   Canada \(Toronto\)
--   Brazil \(São Paulo\)
--   UAE \(Dubai\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[SAP Smart Business Service](https://help.sap.com/viewer/product/SAP_Smart_Business_Service/Cloud_Dev/en-US) 
-
-</td>
-<td valign="top">
-
-Expose KPIs and OPIs as SAP Fiori applications without the need to write any code.
-
-</td>
-<td valign="top">
-
--   CA-GTF-SB-HCP
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   US East \(VA\)
 
 
 

@@ -30,7 +30,7 @@ To supply the rendering operation with business data, a reuse service can be app
 
 
 > ### Sample Code:  
-> ```abap
+> ```
 > 
 > DATA(lo_fdp_api) = cl_fp_fdp_services=>get_instance( `FP_FDP_SERVICE_EX1` ).
 > DATA(lt_keys)    = lo_fdp_api->get_keys( ).
@@ -46,7 +46,7 @@ To supply the rendering operation with business data, a reuse service can be app
 
 The `READ_TO_XML` method retrieves the data structure of the service definition for a specific item. It has the following Importing parameters:
 
-**Importing Parameters**
+**Importing Paramaters**
 
 
 <table>
@@ -82,7 +82,7 @@ Key parameters
 </td>
 <td valign="top">
 
-Overwrites the locale language \(useful if you want to control how dynamic values \(such as unites\) are resolved
+Overwrites the locale language \(useful if you want to control how dynamic values \(e.g. unites\) are resolved
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Overwrites the locale language \(useful if you want to control how dynamic value
 
 The `READ_TO_XML` method has the following returning parameters:
 
-**Returning Parameters**
+**Returning Paramaters**
 
 
 <table>
@@ -121,7 +121,7 @@ Resulting XML as XSTRING
 </table>
 
 > ### Sample Code:  
-> ```abap
+> ```
 > 
 > TRY.
 >     DATA(lt_keys)    = lo_fdp_api->get_keys(  ).
@@ -140,7 +140,7 @@ Resulting XML as XSTRING
 
 The `GET_XSD` method retrieves the XML Schema Definition \(XSD\) for the service definition. It has the following returning parameters:
 
-**Returning Parameters**
+**Returning Paramaters**
 
 
 <table>
@@ -171,34 +171,12 @@ Resulting XSD as XSTRING
 </table>
 
 > ### Sample Code:  
-> ```abap
+> ```
 > 
 > TRY.
 >    DATA(lv_xml)     = lo_fdp_api->get_xsd(  ).
 >  CATCH cx_fp_fdp_error INTO DATA(lo_exception).
-> ENDTRY
-> ```
-
-
-
-<a name="loioa104660468324090b601ee2969a54d99__section_ifw_y2x_w1c"/>
-
-## Read XML Data for a Service Definition Using Draft Functionality
-
-By default, for draft-enabled services, the `IsActiveEntity` property is exported implicitly, which describes if the active or the draft data should be read. Because this property is always false, by default, it needs to be overwritten during a service call to read the active data from the service definition.
-
-You can use the following sample code. Mind that you need to initiate the business data reader first \(see above\).
-
-> ### Sample Code:  
-> ```abap
-> TRY.
->     DATA(lt_keys)    = lo_fdp_api->get_keys(  ).
->     lt_keys[ name = 'UUID' ]-VALUE = 'FA163EE47BDD1ED9A682A2E6F1ECF696'.
->     DATA(lv_data) = lo_fdp_api->read_to_xml( 
->         it_select     = lt_keys
->         it_select_add = VALUE if_fp_fdp_api=>tt_select_keys( name = 'IsActiveEntity' value = 'X' data_type = 'ABAP_BOOL' )                                                                                        
->     ).
->  CATCH cx_fp_fdp_error INTO DATA(lo_exception).
 > ENDTRY.
+> 
 > ```
 

@@ -379,6 +379,8 @@ Set the value check to `FALSE`. Note that filter value checks are not supported.
 
 Add a filter called `TENANT_PREFIX` with the type `CHARACTER` to your BAdI definition. This filter ensures that only BAdI implementations for the current tenant are executed at runtime. In your code, obtain the current tenant's prefix by using the ABAP API `cl_ble_api_mt_tenant`. The method `GET_PREFIX` returns the tenant prefix.
 
+In the following example, the demo class `zcl_badi_demo` is used to illustrate the usage of `cl_ble_api_mt_tenant`. `z_badi` could be any BAdI that you want to register for use within the *Custom Logic* app.
+
 ```abap
 CLASS zcl_badi_demo DEFINITION PUBLIC FINAL CREATE PUBLIC.
   PUBLIC SECTION.
@@ -392,15 +394,10 @@ CLASS zcl_badi_demo IMPLEMENTATION.
     DATA(lv_tenant_prefix) = lo_tenant_api->get_prefix( ).
  
     DATA lo_badi TYPE REF TO z_badi.
- 
     GET BADI lo_badi FILTERS tenant_prefix = lv_tenant_prefix.
- 
-    TRY.
-        CALL BADI lo_badi->execute.
-      CATCH cx_ble_runtime_error INTO DATA(lx_ble_runtime_error).
-        " Handle exception.
-    ENDTRY.
+    CALL BADI lo_badi->execute.
   ENDMETHOD.
 ENDCLASS.
+
 ```
 

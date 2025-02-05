@@ -20,7 +20,7 @@ Before you start with the configuration, you need to decide on the right authent
 
 ### What Authentication Methods Are Supported Technically?
 
-The authentication method needs to be supported by both parties. The following authentication methods are commonly supported by the SAP Destination service and the ABAP environment. For more information, see [Supported Protocols and Authentication Methods](../30-development/supported-protocols-and-authentication-methods-437e9d4.md).
+The authentication method needs to be supported by both parties. The following authentication methods are commonly supported by the SAP Destination service and the ABAP environment. For more information, see [Supported Protocols and Authentication Methods](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/supported-protocols-and-authentication-methods).
 
 -   Authentication via communication user
     -   Basic authentication \(user name & password\)

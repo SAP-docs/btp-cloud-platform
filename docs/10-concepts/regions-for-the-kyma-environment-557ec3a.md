@@ -940,7 +940,7 @@ When you enable a Kyma environment for a given subaccount, you must select a pla
 <tr>
 <th valign="top">
 
-Hyperscaler
+IaaS Provider
 
 </th>
 <th valign="top">
@@ -960,7 +960,7 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="11">
 
 Microsoft Azure
 
@@ -1104,24 +1104,7 @@ Brazil \(São Paulo\)
 </td>
 </tr>
 <tr>
-<td valign="top">
-
-`trial`
-
-</td>
-<td valign="top">
-
-`southeastasia`
-
-</td>
-<td valign="top">
-
-Singapore
-
-</td>
-</tr>
-<tr>
-<td valign="top" rowspan="14">
+<td valign="top" rowspan="15">
 
 Amazon Web Services
 
@@ -1275,7 +1258,7 @@ US West \(Oregon\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="3">
 
 `trial`
 
@@ -1300,6 +1283,18 @@ Europe \(Frankfurt\)
 <td valign="top">
 
 US East \(VA\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ap-southeast-1`
+
+</td>
+<td valign="top">
+
+Singapore
 
 </td>
 </tr>

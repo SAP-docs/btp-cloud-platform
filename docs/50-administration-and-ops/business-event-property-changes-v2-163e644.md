@@ -12,7 +12,7 @@ CDS View Name
 </td>
 <td valign="top">
 
-`C_BUSEVTLOGPAYLOADDEX_2`
+`C_BUSEVTLOGPAYLOADDEX_2` 
 
 </td>
 </tr>
@@ -36,7 +36,7 @@ Represented Objects
 </td>
 <td valign="top">
 
-This view represents the following SAP object type:
+This view represents the following object:
 
 -   `BusEvtLogEvent` \(TechnicalObject\)
 
@@ -48,6 +48,8 @@ This view represents the following SAP object type:
 </table>
 
 
+
+<a name="loio163e644d223843f29b5951c99bb2ec15__section_n2j_psd_22c"/>
 
 ## Purpose
 
@@ -62,6 +64,8 @@ This CDS view provides the data to answer the following business questions:
 To help you decide which CDS view to use for your purposes, SAP has introduced the annotation `ObjectModel.supportedCapabilities` that indicates the most appropriate use cases for each CDS view. To find out what use cases are best supported by this CDS view, access the entry of the CDS view in the *View Browser* app and find the values for this annotation under the *Annotation* tab.
 
 
+
+<a name="loio163e644d223843f29b5951c99bb2ec15__section_o2j_psd_22c"/>
 
 ## Structure
 
@@ -105,7 +109,7 @@ Unique identifier for business events.
 </td>
 <td valign="top">
 
-The object type, a business object, or a technical object corresponding to the specified SAP object node type. For example: Outbound Delivery for Outbound Delivery Item.
+The object type, a business object, or a technical object corresponding to the specified object component. For example: Outbound Delivery for Outbound Delivery Item.
 
 </td>
 </tr>
@@ -117,7 +121,7 @@ The object type, a business object, or a technical object corresponding to the s
 </td>
 <td valign="top">
 
-Field of an SAP object. Example: Amount
+Field of an object. Example: Amount
 
 </td>
 </tr>

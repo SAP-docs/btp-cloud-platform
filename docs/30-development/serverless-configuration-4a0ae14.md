@@ -61,7 +61,7 @@ By default, Serverless uses PersistentVolume \(PV\) as the internal registry to 
 
 Follow these steps to use the external Docker registry in Serverless:
 
-1.  To use the external Docker registry create a Secret in the `kyma-system` namespace with the required data \(`username`, `password`, `serverAddress`, and `registryAddress`\):
+1.  Create a Secret in the `kyma-system` namespace with the required data \(`username`, `password`, `serverAddress`, and `registryAddress`\):
 
     ```
     kubectl create secret generic my-registry-config \

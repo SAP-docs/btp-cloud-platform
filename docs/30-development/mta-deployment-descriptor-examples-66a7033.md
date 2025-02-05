@@ -7,7 +7,7 @@ Examples of MTA deployment descriptors.
 
 
 > ### Note:  
-> The format and available options in the MTA deployment descriptor could change with the newer versions of the MTA specification. Always specify the schema version when defining an MTA deployment descriptor, so that the SAP BTP is aware against which specific MTA specification version you are deploying.
+> The format and available options in the MTA deployment descriptor could change with the newer versions of the MTA specification. Always specify the schema version when defining an MTA deployment descriptor, so that SAP BTP is aware against which MTA specification version you are deploying.
 
 
 
@@ -365,4 +365,13 @@ The UI5 application “hello-world” uses the environment variable *<ui5\_libra
 >       name: java-uaa                          # the name of the actual service
 > 
 > ```
+
+**Related Information**  
+
+
+[Defining Multitarget Application Deployment Descriptors for Cloud Foundry](defining-multitarget-application-deployment-descriptors-for-cloud-foundry-f48880b.md)
+
+[The Multitarget Application Model v.2](https://help.sap.com/doc/multitarget-application-modelv2/Cloud/en-US/The%20Multitarget%20Application%20Model.pdf)
+
+[The Multitarget Application Model v.3](https://help.sap.com/doc/multitarget-application-modelv3/Cloud/en-US/The%20Multitarget%20Application%20M%D0%BEdel.pdf)
 

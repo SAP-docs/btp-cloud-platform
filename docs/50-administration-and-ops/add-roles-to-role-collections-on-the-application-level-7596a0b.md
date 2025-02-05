@@ -36,7 +36,7 @@ A role is an instance of a role template; you can build a role based on a role t
     > ### Note:  
     > You cannot edit or delete predefined roles for default role collections. For this reason, the action buttons are grayed out. For more information, see the related link.
 
-5.  To directly assign a role to role collections, choose the action button :heavy_plus_sign: \(Add\) in the same row.
+5.  To directly assign a role to role collections, choose the action button :heavy_plus_sign: \(Add to role collection\) in the same row.
 
     A new window shows all role collections that are available in your global account orsubaccount.
 

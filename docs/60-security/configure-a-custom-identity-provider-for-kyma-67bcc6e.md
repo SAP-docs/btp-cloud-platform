@@ -94,7 +94,7 @@ If you've already created your Kyma environment, you can also apply the custom I
     >   ]
     > ```
     > 
-    > The email adresses must be recognised by `https://kyma.accounts.ondemand.com`.
+    > The email addresses must be recognized by `https://kyma.accounts.ondemand.com`.
 
 3.  Select *Create*.
 

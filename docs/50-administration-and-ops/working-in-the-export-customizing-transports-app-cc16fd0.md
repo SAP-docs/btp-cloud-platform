@@ -30,6 +30,19 @@ If the automatic recording for the client is not allowed, you can save changed c
 
 
 
+<a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_sgn_kqt_gdc"/>
+
+## Show Logs
+
+1.  To display the logs of a transport request either select a transport request that belongs to you and select *Release \> Show Logs* or navigate to the object page of the transport requests and click on the *Logs* section.
+
+2.  The logs of a transport request can also be filtered based on the type of the message.
+
+3.  In case the logs contain an error message, select the message *Description* to see a detailed information about the error and how to resolve it.
+
+
+
+
 <a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_qfh_hwf_bpb"/>
 
 ## Create Request
@@ -64,6 +77,78 @@ If the automatic recording for the client is not allowed, you can save changed c
     > 
     > If the *Check all* is already running, you can't trigger another and it will give you an error message
 
+
+
+
+<a name="loiocc16fd0c10ef4ed39a50ac718c71e5a8__section_hbd_mbt_gdc"/>
+
+## Release All
+
+1.  Open the *Export Customizing Transports* app. A list of customizing requests is displayed, with the latest request shown first at the top.
+2.  You may put a filter on Status for *modifiable* and *checking status*. Additionally, you can sort the requests in ascending order to see the current status of those requests sequentially.
+
+3.  Select *Release All \> Start* to trigger the release of all open requests.
+
+4.  When the release all process is running, select on*Release All \> Show Progress* to see the currently active phase.
+
+5.  Once the release all process is completed, select *Release All \> Show Progress* to check if any phase has failed and to view the list of requests with errors, if there are any.
+
+6.  The release of all open requests consists of the following phases:
+
+    > ### Note:  
+    > If any phase fails, the process does not proceed to the next phase.
+
+    1.  **Suppression of dependency check errors for all open requests.**
+        -   The dependency check errors are suppressed for the open requests since all open requests are released together.
+
+        -   If any error occurs in this phase, the message *Error occurred in suppression of request dependency check errors* is displayed. This message appears when you select *Release All \> Show Progress* after the run is completed. The message also contains a detailed description, which you can refer to.
+
+
+    2.  **Consistency check of all open requests.**
+
+        -   Consistency check is performed for all the open requests.
+
+        -   If any error occurs in this phase, the message *Error occurred in Check phase* is displayed. This message appears when you select *Release All \> Show Progress* after the run is completed. Additionally the individual requests with error in the consistency check are also displayed. You can navigate to those requests to see the logs of the error messages.
+
+
+    3.  **Check for changes to open requests during the consistency check phase**
+
+        -   The open requests are checked for any modifications made during the consistency check phase. Ensure that no modifications are made to the open requests and no changes are recorded to them during the process.
+
+        -   Changes to open requests, such as adding or deleting tasks under these requests or deleting any open requests, are not allowed during this process. This is because the dependency check errors have been suppressed with the assumption that the dependent requests are also released together. Therefore, changes to open requests could result in an inconsistent state.
+
+        -   If any error occurs due to any open request being modified or changed during the consistency check phase, the message *Error occurred in suppression of request dependency check errors* is displayed. This message appears when you select *Release All \> Show Progress* after the run is completed. The message also contains a detailed description, which you can refer to.
+
+
+    4.  **Assign ownership of all open requests to your user \(Assign To Me\)**
+
+        -   All open requests that are not already owned by you will be assigned to your user.
+
+        -   If any error occurs in this phase, the message *Error occurred in Assign To Me phase* is displayed. This message appears when you select *Release All \> Show Progress* after the run is completed. Additionally the individual requests with errors in assigning the ownership are also displayed. You can navigate to those requests to see the logs of the error messages.
+
+
+    5.  **Determining the sequence for releasing open requests**
+
+        -   The sequence for releasing open requests is determined.
+
+        -   If any error occurs in this phase, the message *Error occured in determination of release sequence for open requests* is displayed. This message appears when you select *Release All \> Show Progress* after the run is completed. The message also contains a detailed description, which you can refer to.
+
+
+    6.  **Release of all open requests.**
+
+        -   In the final phase, all the open requests are released in the order determined in the previous phase.
+
+        -   If any error occurs in this phase, the message *Error occured in Release phase* is displayed. This message appears when you select *Release All \> Show Progress* after the run is completed. Additionally the individual requests with an error during the release are also displayed. You can navigate to those requests to see the logs of the error messages.
+
+
+
+
+> ### Note:  
+> Consistency check gets triggered in thebackground and the UI shows the latest transport request status as soon as *Release All* is triggered. The UI gets refreshed everytime after certain interval showing the latest status. The transport with status *Checking* shows the request currently being processed.
+> 
+> As soon as the consistency check is complete, a momentarily message gets displayed at the bottom.
+> 
+> If the *Release all* is already running, you can't trigger another and it will give you an error message
 
 
 

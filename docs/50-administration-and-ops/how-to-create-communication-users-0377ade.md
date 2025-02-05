@@ -50,3 +50,5 @@ To create a new communication user, perform the following steps:
 
 [Communication Systems](communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
 
+ <?sap-ot O2O class="- topic/link " href="a0a3ba286e1e4ac6ab423395b81aa7de.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/0377adea0401467f939827242c1f4014.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+

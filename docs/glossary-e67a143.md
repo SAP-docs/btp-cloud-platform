@@ -77,7 +77,7 @@ A set of guided interactive steps that enable you to select, configure, and cons
 <tr>
 <td valign="top">
 
-[buildpack](10-concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18)
+[buildpack](10-concepts/cloud-foundry-environment-9c7092c.md)
 
 </td>
 <td valign="top">
@@ -411,7 +411,7 @@ An engine or context for executing programs, such as Java Web Tomcat 8 or Node.j
 <tr>
 <td valign="top">
 
-[SAP BTP, Cloud Foundry environment](10-concepts/cloud-foundry-environment-9c7092c.md#loio9c7092c7b7ae4d49bc8ae35fdd0e0b18)
+[SAP BTP, Cloud Foundry environment](10-concepts/cloud-foundry-environment-9c7092c.md)
 
 </td>
 <td valign="top">

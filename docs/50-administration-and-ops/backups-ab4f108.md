@@ -4,7 +4,7 @@
 
 The ABAP environment relies on backups from SAP HANA Cloud:
 
--   Backups are retained up to 14 days.
+-   Backups are retained up to 30 days.
 
 -   The recovery point objective \(RPO\), which is the maximum data loss, is no more than 15 minutes.
 
