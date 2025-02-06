@@ -71,12 +71,12 @@ SAP Cloud Identity Services - Identity Provisioning \(SAP\_COM\_0193\)
 <tr>
 <td valign="top">
 
-SAP BTP Cloud Foundry Destination Service Integration \(SAP\_COM\_0276\).
+SAP BTP Cloud Foundry Destination Service Integration \(SAP\_COM\_0276\)
 
 </td>
 <td valign="top">
 
- <?sap-ot O2O class="- topic/xref " href="3fa7934f5a714bf88d8490958211382f.xml" text="" desc="" xtrc="xref:5" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/2d16f49f1b0c4da096e0aacd8409e75b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[Creating a Destination](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/abap-integration-and-connectivity)
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ SAP Cloud ALM for Operations - Application Monitoring Push Integration \(SAP\_CO
 <tr>
 <td valign="top">
 
-SAP BTP Workflow Integration \(SAP\_COM\_0542\).
+SAP BTP Workflow Integration \(SAP\_COM\_0542\)
 
 </td>
 <td valign="top">
@@ -215,12 +215,12 @@ SAP BTP Workflow Integration \(SAP\_COM\_0542\).
 <tr>
 <td valign="top">
 
-E-Mail Integration \(SAP\_COM\_0548\).
+E-Mail Integration \(SAP\_COM\_0548\)
 
 </td>
 <td valign="top">
 
- <?sap-ot O2O class="- topic/xref " href="8d1f989deca1455dabc3d81b433fbdaf.xml" text="" desc="" xtrc="xref:17" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/2d16f49f1b0c4da096e0aacd8409e75b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[Sending Mails Using SMTP](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/sending-mails-using-smtp)
 
 </td>
 </tr>
@@ -268,7 +268,7 @@ Communication Management - RFC Metadata Integration \(SAP\_COM\_0636\)
 </td>
 <td valign="top">
 
- <?sap-ot O2O class="- topic/xref " href="abf7105063f345edad7588cf58d53118.xml" text="" desc="" xtrc="xref:21" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/2d16f49f1b0c4da096e0aacd8409e75b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[Providing an RFC Service](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/provide-rfc-service?q=RFC+Metadata+Integration+#rfc-metadata-integration-communication-scenario-sap-com-0636)
 
 </td>
 </tr>
@@ -323,7 +323,7 @@ ABAP Unit Test Integration \(SAP\_COM\_0735\)
 <tr>
 <td valign="top">
 
-Security Information and Event Management Integration \(SIEM\) \(SAP\_COM\_0750
+Security Information and Event Management Integration \(SIEM\) \(SAP\_COM\_0750\)
 
 </td>
 <td valign="top">

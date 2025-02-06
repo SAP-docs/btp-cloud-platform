@@ -196,7 +196,7 @@ Communication arrangement
 </td>
 <td valign="top">
 
-A communication arrangement describes a communication scenario with a remote system during configuration time. It provides the necessary metadata for service configuration. See  <?sap-ot O2O class="- topic/xref " href="201de48e2f57404e9222181b019eff14.xml" text="" desc="" xtrc="xref:9" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/6e251fa1b63f4ac48ac12c9d7201fae1.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+A communication arrangement describes a communication scenario with a remote system during configuration time. It provides the necessary metadata for service configuration. See [Communication Arrangement](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/communication-arrangement).
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ Communication scenario
 
 A communication scenario in the ABAP environment is a design time description of how two communication partners communicate with each other.
 
-It provides technical information, such as the used inbound and outbound services and their service type, for example OData or SOAP, and the number of allowed communication arrangement instances. See  <?sap-ot O2O class="- topic/xref " href="7ea7276c89a644d9867bf0f8627aed67.xml" text="" desc="" xtrc="xref:10" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/6e251fa1b63f4ac48ac12c9d7201fae1.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+It provides technical information, such as the used inbound and outbound services and their service type, for example OData or SOAP, and the number of allowed communication arrangement instances. See [Communication Scenario](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/communication-scenario).
 
 </td>
 </tr>
