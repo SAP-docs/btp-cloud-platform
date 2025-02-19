@@ -135,9 +135,9 @@ The names of the defined placeholders are also used in the other resource files:
 **Related Information**  
 
 
-[Configure a Database Connection for the TomEE 7 Application Container](configure-a-database-connection-for-the-tomee-7-application-container-03cfb10.md "")
+[Configure a Database Connection for the TomEE Application Container](configure-a-database-connection-for-the-tomee-application-container-03cfb10.md "")
 
 [Configure a Database Connection for the Tomcat Application Container](configure-a-database-connection-for-the-tomcat-application-container-820994a.md)
 
-[Resource Configuration](resource-configuration-c893e9c.md "Both application containers, Tomcat and TomEE 7, are configured through text configuration files.")
+[Resource Configuration](resource-configuration-c893e9c.md "You can configure your application container by using text configuration files.")
 

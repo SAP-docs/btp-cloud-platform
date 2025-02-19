@@ -1,7 +1,5 @@
 <!-- loio4b20383efab341f181becf0a947a5498 -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
 # Define a Role Collection
 
 To define a role collection, you can create a new role collection or copy an existing one. Add the roles, users, and user groups as needed.
@@ -24,7 +22,7 @@ If you have an existing role collection that you want to use as a template, it's
 
 3.  Choose *Security* \> *Role Collections*.
 
-4.  To create a new role collection, choose :heavy_plus_sign: \(Create New Role Collection\). To copy an existing role collection, choose *Copy* at the end of the row.
+4.  To create a new role collection, choose *Create*. To copy an existing role collection, choose *Copy* at the end of the row.
 
 5.  Enter a new name and description. If you copied an existing role collection, you can see the included roles.
 

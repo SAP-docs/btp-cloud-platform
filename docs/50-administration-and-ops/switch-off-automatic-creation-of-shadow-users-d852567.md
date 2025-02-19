@@ -29,7 +29,7 @@ To switch off creation of shadow users during logon, proceed as follows:
 
 3.  Choose *Edit*.
 
-4.  Go to *Create Shadow Users on User Logon* and remove the checkmark.
+4.  Go to *Create Shadow Users During Logon* and remove the checkmark.
 
 5.  Save your changes.
 

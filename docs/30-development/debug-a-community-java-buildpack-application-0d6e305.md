@@ -25,25 +25,25 @@ To debug an application using the [community Java buildpack](https://github.com/
 
 ## Procedure
 
-1.  To open the debugging port, you need to configure the `JAVA_OPTS` parameter in your JVM. From the cf CLI, execute:
+1.  To open the debugging port, you need to configure the `JAVA_OPTS` parameter in your JVM. From the cf CLI, run:
 
     ```
     cf set-env <app name> JAVA_OPTS '-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000'
     ```
 
-2.  To enable SSH tunneling for your application, execute:
+2.  To enable SSH tunneling for your application, run:
 
     ```
     cf enable-ssh <app name>
     ```
 
-3.  To activate the previous changes, restart the application by executing:
+3.  To activate the previous changes, restart the application by running:
 
     ```
     cf restart <app name>
     ```
 
-4.  To open the SSH tunnel, execute:
+4.  To open the SSH tunnel, run:
 
     ```
     cf ssh <app name> -N -T -L 8000:127.0.0.1:8000

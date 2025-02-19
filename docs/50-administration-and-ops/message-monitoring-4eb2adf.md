@@ -19,7 +19,7 @@ To access Message Monitoring, create a business role and assign the role to a ca
 ## Message Monitoring
 
 1.  Log on to SAP Fiori launchpad.
-2.  Open the *Message Monitoring Overview* app. For more information, refer to Message Monitoring Overview.
+2.  Open the *Message Monitoring Overview* app. For more information, refer to [Message Monitoring Overview](message-monitoring-overview-503c823.md).
 3.  Select *From* \(Date/Time\) and *To* \(Date/Time\) values to limit the time range for the monitoring records.
 
     > ### Note:  

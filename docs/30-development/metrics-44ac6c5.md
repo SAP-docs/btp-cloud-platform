@@ -357,7 +357,7 @@ spec:
 
 The Metric agent is configured with a generic scrape configuration, which uses annotations to specify the endpoints to scrape in the cluster.
 
-For metrics ingestion to start automatically, simply apply the following annotations either to a Service that resolves your metrics port, or directly to the Pod:
+For metrics ingestion to start automatically, use the annotations of the following table. If an Istio sidecar is present, apply them to a Service that resolves your metrics port. By annotating the Service, all endpoints targeted by the Service are resolved and scraped by the Metric agent bypassing the Service itself. Only if Istio sidecar is not present, you can alternatively apply the annotations directly to the Pod.
 
 **Prometheus Metrics Annotations**
 
@@ -454,7 +454,7 @@ Defines the HTTP path where Prometheus can find metrics data.
 <tr>
 <td valign="top">
 
-`prometheus.io/scheme` 
+`prometheus.io/scheme` \(only relevant when annotating a Service\)
 
 </td>
 <td valign="top">

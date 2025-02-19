@@ -1,6 +1,15 @@
 <!-- loio03cfb10c5b2042bd9cc0a1bc6bc6ba92 -->
 
-# Configure a Database Connection for the TomEE 7 Application Container
+# Configure a Database Connection for the TomEE Application Container
+
+
+
+<a name="loio03cfb10c5b2042bd9cc0a1bc6bc6ba92__context_q5h_yxx_j2c"/>
+
+## Context
+
+> ### Note:  
+> The examples below refer to TomEE 10 and SAP Java Buildpack 2.
 
 
 
@@ -30,7 +39,7 @@
     > </resources>
     > ```
 
-2.  Add the default keys and their values. You need to include the data source information in directory **`META-INF/sap_java_buildpack/config/resource_configuration.yml`** of the WAR file.
+2.  Add the default keys and their values. You need to include the data source information in directory **`META-INF/sap_java_buildpack_jakarta/config/resource_configuration.yml`** of the WAR file.
 
     -   Define a default service name for a Web application:
 
@@ -39,7 +48,7 @@
         > 
         > ```
         > ---
-        > tomee7/webapps/ROOT/WEB-INF/resources.xml:
+        > tomee/webapps/ROOT/WEB-INF/resources.xml:
         >   service_name_for_DefaultDB: di-core-hdi
         > ```
 
@@ -50,7 +59,7 @@
         > 
         > ```
         > ---
-        > tomee7/webapps/ROOT/META-INF/resources.xml:
+        > tomee/webapps/ROOT/META-INF/resources.xml:
         >   service_name_for_DefaultDB: di-core-hdi
         > ```
 
@@ -65,8 +74,8 @@
         > ```
         > 
         > env:
-        >   TARGET_RUNTIME: tomee7
-        >   JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomee7/webapps/ROOT/WEB-INF/resources.xml': {'service_name_for_DefaultDB' : 'my-local-di-core-hdi'}]"
+        >   TARGET_RUNTIME: tomee
+        >   JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomee/webapps/ROOT/WEB-INF/resources.xml': {'service_name_for_DefaultDB' : 'my-local-di-core-hdi'}]"
         > ```
 
     -   Define the new service name for the look-up of the data source in an EJB:
@@ -77,8 +86,8 @@
         > ```
         > 
         > env:
-        >   TARGET_RUNTIME: tomee7
-        >   JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomee7/webapps/ROOT/META-INF/resources.xml':{'service_name_for_DefaultDB' : 'my-local-di-core-hdi'}]"
+        >   TARGET_RUNTIME: tomee
+        >   JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomee/webapps/ROOT/META-INF/resources.xml':{'service_name_for_DefaultDB' : 'my-local-di-core-hdi'}]"
         > ```
 
 

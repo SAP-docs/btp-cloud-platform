@@ -312,6 +312,42 @@ Brazil \(São Paulo\)
 
 Enterprise account
 
+Partner Test, Demo, and Development account
+
+</td>
+<td valign="top">
+
+ca20
+
+</td>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+cf-ca20
+
+</td>
+<td valign="top">
+
+Canada \(Toronto\)
+
+</td>
+<td valign="top">
+
+`azure`
+
+`azure_lite`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
 </td>
 <td valign="top">
 
@@ -803,6 +839,38 @@ Enterprise account
 </td>
 <td valign="top">
 
+jp31
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+cf-jp31
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+</td>
+<td valign="top">
+
+`gcp` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
 sa30
 
 </td>
@@ -814,6 +882,38 @@ Google Cloud
 <td valign="top">
 
 cf-sa30
+
+</td>
+<td valign="top">
+
+KSA \(Dammam\) GCP public sector
+
+</td>
+<td valign="top">
+
+`gcp` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+sa31
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+cf-sa31
 
 </td>
 <td valign="top">
@@ -960,12 +1060,12 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="11">
+<td valign="top" rowspan="12">
 
 Microsoft Azure
 
 </td>
-<td valign="top" rowspan="11">
+<td valign="top" rowspan="12">
 
 `azure`
 
@@ -1100,6 +1200,18 @@ Switzerland \(Zurich\)
 <td valign="top">
 
 Brazil \(São Paulo\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`canadacentral`
+
+</td>
+<td valign="top">
+
+Canada \(Toronto\)
 
 </td>
 </tr>
@@ -1299,12 +1411,12 @@ Singapore
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="8">
+<td valign="top" rowspan="13">
 
 Google Cloud
 
 </td>
-<td valign="top" rowspan="8">
+<td valign="top" rowspan="13">
 
 `gcp`
 
@@ -1401,6 +1513,66 @@ Australia \(Sydney\)
 <td valign="top">
 
 Brazil \(São Paulo\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`asia-northeast1`
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`asia-southeast1`
+
+</td>
+<td valign="top">
+
+Singapore \(Jurong West\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`us-west1`
+
+</td>
+<td valign="top">
+
+North America \(Oregon\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`us-east4`
+
+</td>
+<td valign="top">
+
+North America \(Virginia\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`europe-west4`
+
+</td>
+<td valign="top">
+
+Europe \(Netherlands\)
 
 </td>
 </tr>

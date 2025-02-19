@@ -22,6 +22,8 @@ The SAP BTP Operator module provides the following features:
 
 -   Credentials and access preconfiguration: Your Secret is readily available on Kyma runtime creation. See [Preconfigured Credentials and Access](preconfigured-credentials-and-access-ab106d7.md).
 
+-   Customization of the default credentials and access: You can customize the default `sap-btp-manager` Secret. See [Customizing the Default Credentials and Access](customizing-the-default-credentials-and-access-15f22d5.md).
+
 -   Multitenancy: You can configure multiple subaccounts in a single cluster. See [Working with Multiple Subaccounts](working-with-multiple-subaccounts-862dd6a.md).
 
 -   Lifecycle management of service instances and service bindings: You can create and delete service instances and service bindings. See [Creating Service Instances and Service Bindings](creating-service-instances-and-service-bindings-17bd304.md) and [Deleting Service Bindings and Service Instances](deleting-service-bindings-and-service-instances-5deca69.md).

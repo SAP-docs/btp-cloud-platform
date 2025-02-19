@@ -2,7 +2,7 @@
 
 # Bill of Materials \(BOM\)
 
-For Maven projects, the versions of the SAP Java Buildpack dependencies and the APIs provided by supported runtime containers can be consumed through a Bill of Materials \(BOM\).
+For Maven projects, the versions of SAP Java Buildpack dependencies and the APIs provided by supported runtime containers can be consumed through a Bill of Materials \(BOM\).
 
 
 
@@ -16,11 +16,13 @@ The BOMs of SAP Java Buildpack are provided through [Maven Central](https://cent
 
 ## Usage
 
-There are two runtimes for which a BOM is provided: Tomcat and TomEE 7. The version of the BOM must match the version of the `sap_java_buildpack` you're using. For example, if your application uses `sap_java_buildpack` version 1.75.0, the BOM must be in version 1.75.0 as well.
+There are two runtimes for which a BOM is provided: Tomcat and TomEE.
 
-If you want to use version control, add the desired BOM artifact to your project's `pom.xml` file in the section *dependencyManagement*. The following code is an example.
+The version of the BOM must match the version of the `sap_java_buildpack` or `sap_java_buildpack_jakarta` you're using. For example, if your application uses **`sap_java_buildpack_jakarta`** version 2.24.0, the BOM must be in version 2.24.0 as well.
 
--   For Tomcat:
+If you want to use version control, add the desired BOM artifact to your project's `pom.xml` file in the section **`dependencyManagement`**. The following codes are exemplary.
+
+-   For Tomcat 10:
 
     ```
     
@@ -30,7 +32,7 @@ If you want to use version control, add the desired BOM artifact to your project
             <dependency>
                 <groupId>com.sap.cloud.sjb.cf</groupId>
                 <artifactId>cf-tomcat-bom</artifactId>
-                <version>1.75.0</version>
+                <version>2.24.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -39,7 +41,7 @@ If you want to use version control, add the desired BOM artifact to your project
     ...
     ```
 
--   For TomEE 7:
+-   For TomEE 10:
 
     ```
     ...
@@ -47,8 +49,8 @@ If you want to use version control, add the desired BOM artifact to your project
         <dependencies>
             <dependency>
                 <groupId>com.sap.cloud.sjb.cf</groupId>
-                <artifactId>cf-tomee7-bom</artifactId>
-                <version>1.75.0</version>
+                <artifactId>cf-tomee-bom</artifactId>
+                <version>2.24.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -58,7 +60,7 @@ If you want to use version control, add the desired BOM artifact to your project
     ```
 
 
-To add the dependencies that you want, use *groupId* and *artifactId*:
+To add the dependencies you want, use *groupId* and *artifactId*:
 
 ```
 ...
@@ -85,7 +87,7 @@ To add the dependencies that you want, use *groupId* and *artifactId*:
 ...
 ```
 
-If you simply want to have all dependencies in your project, you can also add the BOM to your project's section. By doing so, you don't need to enumerate single dependency artifacts.
+If you want to have all dependencies in your project, you can add the BOM to your project's section as well. By doing so, you don't need to enumerate single dependency artifacts.
 
 **Related Information**  
 

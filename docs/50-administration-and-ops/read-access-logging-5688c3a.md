@@ -88,6 +88,8 @@ SAP applications may contain predefined configurations. However, the customer's 
 
 You can view all log entries using the Read Access Logging monitor. For more information, see [How to Monitor the Read Access Log](how-to-monitor-the-read-access-log-5a1011a.md).
 
+For monitoring in external systems, for example Security Information and Event Management \(SIEM\) systems, you can replicate read access logs by integrating the [Read Access Logs API](integrating-read-access-logs-452c520.md).
+
 **Related Information**  
 
 

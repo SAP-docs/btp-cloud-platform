@@ -275,6 +275,18 @@ SAP Business Application Studio
 <tr>
 <td valign="top">
 
+SAP Cloud ALM
+
+</td>
+<td valign="top">
+
+[Integration of Audit Log Service](https://help.sap.com/docs/cloud-alm/security/change-and-audit-log)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Cloud Identity Access Governance
 
 </td>

@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Start, Stop and Restart Applications
+# Start, Stop, and Restart Applications
 
 You can start and stop applications in the Cloud Foundry environment in the SAP BTP cockpit to control whether they can be accessed by end users.
 
@@ -70,11 +70,6 @@ The first start of the application occurs when you deploy the app, if enough quo
 
 
     You cannot directly restart an application from this page.
-
-    > ### Note:  
-    > When you start or stop an application from this page, the state shown in the table changes. However, this is not the actual state of the application, but the state that has been requested through your action. To check the actual state of the application, navigate into it by choosing the application name from the table.
-
-
     
     </td>
     </tr>

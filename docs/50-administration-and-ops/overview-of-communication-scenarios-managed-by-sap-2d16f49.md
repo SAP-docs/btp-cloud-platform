@@ -208,7 +208,7 @@ SAP BTP Workflow Integration \(SAP\_COM\_0542\)
 </td>
 <td valign="top">
 
-[Integrating Workflow](integrating-workflow-b7931f7.md)
+[Integrating SAP Workflow Management](integrating-sap-workflow-management-b7931f7.md)
 
 </td>
 </tr>

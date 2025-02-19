@@ -1215,3 +1215,6 @@ ap21.hana.ondemand.com
 </tr>
 </table>
 
+> ### Note:  
+> SAP BTP ABAP Environment is available in other regions than SAP AI Core. To provide access to SAP AI Core services for the available ABAP Environment regions, a mapping between regions might be required, see [3566760](https://me.sap.com/notes/3566760).
+

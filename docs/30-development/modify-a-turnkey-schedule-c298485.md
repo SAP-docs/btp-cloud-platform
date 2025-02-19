@@ -1,4 +1,4 @@
-<!-- loioefb8b927f6b04193a8af4fc3bbfd373c -->
+<!-- loioc29848556c6b470c954bf79859540f2d -->
 
 # Modify a Turnkey Schedule
 
@@ -6,7 +6,7 @@ Create a turnkey schedule for an intelligent scenario with new schedule pattern.
 
 
 
-<a name="loioefb8b927f6b04193a8af4fc3bbfd373c__prereq_k23_nxc_sbc"/>
+<a name="loioc29848556c6b470c954bf79859540f2d__prereq_k23_nxc_sbc"/>
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ Create a turnkey schedule for an intelligent scenario with new schedule pattern.
 
 
 
-<a name="loioefb8b927f6b04193a8af4fc3bbfd373c__context_skm_34d_sbc"/>
+<a name="loioc29848556c6b470c954bf79859540f2d__context_skm_34d_sbc"/>
 
 ## Context
 
@@ -25,7 +25,7 @@ Any intelligent scenario that supports turnkey automation has predefined recurre
 
 
 
-<a name="loioefb8b927f6b04193a8af4fc3bbfd373c__steps_tkm_34d_sbc"/>
+<a name="loioc29848556c6b470c954bf79859540f2d__steps_tkm_34d_sbc"/>
 
 ## Procedure
 
@@ -287,14 +287,14 @@ Any intelligent scenario that supports turnkey automation has predefined recurre
 
 
 
-<a name="loioefb8b927f6b04193a8af4fc3bbfd373c__postreq_vl2_wld_sbc"/>
+<a name="loioc29848556c6b470c954bf79859540f2d__postreq_vl2_wld_sbc"/>
 
 ## Next Steps
 
 Depending on your requirement, you can either choose to monitor the schedule progress or cancel the turnkey schedule.
 
--    <?sap-ot O2O class="- topic/xref " href="60053865522a42438c6df56f0c9a137c.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/efb8b927f6b04193a8af4fc3bbfd373c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+-   [Turnkey Schedule Details](turnkey-schedule-details-04ce3d7.md)
 
--    <?sap-ot O2O class="- topic/xref " href="8e25e16e2a754b88804248714fa12794.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/efb8b927f6b04193a8af4fc3bbfd373c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+-   [Additional Turnkey Actions](additional-turnkey-actions-302be20.md)
 
 

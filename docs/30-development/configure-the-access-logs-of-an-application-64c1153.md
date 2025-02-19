@@ -19,7 +19,7 @@ SAP Java Buildpack uses the *logback-access* module to provide HTTP-access log f
 
 ## Context
 
-The access logs differ slightly from the other logs and traces. There are many standard tools available that read access logs from any server, display them, calculate statistics and so on. That's why the format of the access log produced by Tomcat and TomEE 7 is not SAP-specific. The default pattern defined in the configuration file is **`"%date "%r" %s %b"`**.
+The access logs differ slightly from the other logs and traces. There are many standard tools available that read access logs from any server, display them, calculate statistics and so on. That's why the format of the access log produced by Tomcat and TomEE is not SAP-specific. The default pattern defined in the configuration file is **`"%date "%r" %s %b"`**.
 
 To find the access log files of your application, you have to connect via SSH to the SAP BTP, Cloud Foundry container and go to the **`logs`** directory.
 
@@ -31,7 +31,7 @@ To change the default access log settings, follow the steps below.
 
 1.  Modify the default configuration.
 
-    SAP Java Buildpack uses `LogbackValve` to configure access logs in Tomcat and TomEE 7. The following environment variables are used in the configuration file and can be overwritten:
+    SAP Java Buildpack uses `LogbackValve` to configure access logs in Tomcat and TomEE. The following environment variables are used in the configuration file and can be overwritten:
 
     -   *<ACCESS\_LOG\_FILE\>*
     -   *<ACCESS\_LOG\_FILE\_COUNT\>*
@@ -67,7 +67,7 @@ To change the default access log settings, follow the steps below.
 
 5.  \(Optional\) Change the format of the HTTP access log
 
-    You can change the default format and have your access logs written differently. SAP Java Buildpack uses the *resource configuration* functionality to allow this. Changing the `pattern` attribute in the configuration file of Tomcat and TomEE 7 is supported. The application has to provide the new value via the JBP\_CONFIG\_RESOURCE\_CONFIGURATION mechanism.
+    You can change the default format and have your access logs written differently. SAP Java Buildpack uses the *resource configuration* functionality to allow this. Changing the `pattern` attribute in the configuration file of Tomcat and TomEE is supported. The application has to provide the new value via the JBP\_CONFIG\_RESOURCE\_CONFIGURATION mechanism.
 
     -   For SAP Java Buildpack 1:
 
@@ -84,6 +84,6 @@ To change the default access log settings, follow the steps below.
         ```
 
 
-    **NOTE:** If you use an Apache TomEE container, the configuration is the same – just replace `tomcat` with **`tomee`**.
+    **NOTE:** If you use an Apache TomEE container, the configuration is the same – just replace `tomcat` with **`tomee`** or **`tomee7`**.
 
 

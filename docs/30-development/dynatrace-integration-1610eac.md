@@ -59,7 +59,7 @@ Dynatrace supports full-stack monitoring for Cloud Foundry – from the applicat
     > - name: myapp
     >   memory: 1G
     >   instances: 1
-    >   buildpack: sap_java_buildpack
+    >   buildpack: sap_java_buildpack_jakarta
     >   services:
     >   - dynatraceservice
     > ```
@@ -72,7 +72,7 @@ Dynatrace supports full-stack monitoring for Cloud Foundry – from the applicat
     cf push myapp
     ```
 
-    Once the application receives web traffic, monitoring data will show up in Dynatrace.
+    Once the application receives Web traffic, monitoring data will show up in Dynatrace.
 
 
 **Related Information**  

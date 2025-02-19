@@ -55,7 +55,7 @@ tomcat
 **Apache Tomcat 9.0**
 
 > ### Note:  
-> Only relevant for SAP Java Buildpack 1
+> Only relevant for SAP Java Buildpack 1!
 
 
 
@@ -76,7 +76,9 @@ Java API for WebSocket 1.1
 
 Java Authentication Service Provider Interface for Containers \(JASPIC\) 1.1
 
-For more information, see [Apache Tomcat: Tomcat Versions](https://tomcat.apache.org/whichversion.html)
+. . .
+
+For a full list of specification versions, see: [Apache Tomcat Versions](https://tomcat.apache.org/whichversion.html)
 
 </td>
 </tr>
@@ -86,9 +88,9 @@ For more information, see [Apache Tomcat: Tomcat Versions](https://tomcat.apache
 
 <a name="loioddfc10180fe844049cc71f6989942dc2__section_cq3_nbv_42b"/>
 
-## Customizing the SAP Java Buildpack Defaults
+## Customize the buildpack defaults
 
-SAP Java Buildpack 1 provides some default configurations for the Apache Tomcat application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
+SAP Java Buildpack 1 provides some default configurations for the Apache Tomcat 9 application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature.
 
 Below is a list of all the placeholders than can be customized by the application, along with their default values:
 
@@ -191,7 +193,7 @@ env:
 
 ## Configure the maximum number of active sessions
 
-SAP Java Buildpack 1 provides the default configurations for unlimited sessions for the Apache Tomcat application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions, set the *maxActiveSessions* attribute on a *Manager* element. For example:
+SAP Java Buildpack 1 provides the default configurations for unlimited sessions for the Apache Tomcat 9 application container. They can be customized by the application with the [Resource Configuration](resource-configuration-c893e9c.md) feature. To limit the number of active sessions, set the *maxActiveSessions* attribute on a *Manager* element. For example:
 
 > ### Example:  
 > ```

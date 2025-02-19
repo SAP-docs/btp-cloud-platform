@@ -1,10 +1,10 @@
-<!-- loio5432f7c2b3e44eb2aaaa772a7623a1ae -->
+<!-- loio3645813291be47839e72ab08d8a31ac9 -->
 
 # Download Certificate
 
 
 
-<a name="loio5432f7c2b3e44eb2aaaa772a7623a1ae__prereq_hgp_gcj_ydc"/>
+<a name="loio3645813291be47839e72ab08d8a31ac9__prereq_hgp_gcj_ydc"/>
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ You already have the *SAP\_BR\_ADMINISTRATOR* business role assigned.
 
 
 
-<a name="loio5432f7c2b3e44eb2aaaa772a7623a1ae__context_yxt_1mm_zdc"/>
+<a name="loio3645813291be47839e72ab08d8a31ac9__context_yxt_1mm_zdc"/>
 
 ## Context
 
@@ -40,13 +40,10 @@ In this task, download the client default certificate of the ABAP system to crea
 
 8.  Choose *Export*.
 
-    > ### Note:  
-    > After Export, open certificate in open source tools. If the certificate is in multiple lines ensure that certificate is in one line.
 
 
 
-
-<a name="loio5432f7c2b3e44eb2aaaa772a7623a1ae__postreq_b33_vx1_f2c"/>
+<a name="loio3645813291be47839e72ab08d8a31ac9__postreq_b33_vx1_f2c"/>
 
 ## Next Steps
 

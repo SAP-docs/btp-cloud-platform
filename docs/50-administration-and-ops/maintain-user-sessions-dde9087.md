@@ -27,7 +27,7 @@ You can use this app to:
 
 The following business catalog is required to make this app visible:
 
-*System Management – Sessions* \(*SAP\_CORE\_BC\_CST\_DP\_MAS\_PC*\)
+*System Management – Sessions* \(`SAP_CORE_BC_CST_DP_MAS_PC`\)
 
 
 

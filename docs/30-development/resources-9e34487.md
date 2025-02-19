@@ -548,7 +548,7 @@ Audit log service
 </td>
 <td valign="top">
 
-`lite`
+`standard`
 
 </td>
 <td valign="top">

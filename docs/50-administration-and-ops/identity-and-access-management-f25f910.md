@@ -50,7 +50,7 @@ For more information, see sections *Maintain Business Users* and *Business Catal
 
 [Maintain Business Users](maintain-business-users-e40e710.md "You use this app to provide business users with access rights and to maintain business user settings.")
 
-[Display Technical Users](display-technical-users-7fb79d7.md "This app shows all technical users that exist in the system. To call the app, log on to your SAP Fiori Launchpad and go to Identity and Access Management > Display Technical Users .")
+[Display Technical Users](display-technical-users-7fb79d7.md "This app shows all technical users that exist in the system. To call the app, log on to your SAP Fiori launchpad and go to Identity and Access Management > Display Technical Users .")
 
 [Business Catalogs](business-catalogs-dd0abf5.md "You use this app to display all available business catalogs.")
 

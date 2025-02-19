@@ -2,7 +2,7 @@
 
 # Display Technical Users
 
-This app shows all technical users that exist in the system. To call the app, log on to your SAP Fiori Launchpad and go to *Identity and Access Management* \> *Display Technical Users*.
+This app shows all technical users that exist in the system. To call the app, log on to your SAP Fiori launchpad and go to *Identity and Access Management* \> *Display Technical Users*.
 
 
 
@@ -169,7 +169,7 @@ This user has always been used in on-premise systems to log on to newly created 
 </td>
 <td valign="top">
 
-This user is a reference user assigned to all customer business users and SAP support users. General authorizations required for basic system access are assigned through this reference \(for example to access Fiori Launchpad\). The user can't be used by itself. It's locked and has no logon credentials.
+This user is a reference user assigned to all customer business users and SAP support users. General authorizations required for basic system access are assigned through this reference \(for example to access SAP Fiori launchpad\). The user can't be used by itself. It's locked and has no logon credentials.
 
 </td>
 </tr>
@@ -229,7 +229,7 @@ This user is the default user to run system-internal technical jobs.
 </td>
 <td valign="top">
 
-This user is used by Business Workflow for the automated background processing of work items.
+This user is used by SAP Business Workflow for the automated background processing of work items.
 
 </td>
 </tr>

@@ -32,12 +32,16 @@ The roles are derived from role templates that are provided by applications. For
 
 5.  Choose *Edit*.
 
-6.  To delete a role from the role collection, choose :wastebasket: \(Delete\) in the row of the role that you want to delete. The roles are sorted alphabetically.
+6.  Choose the <span class="SAP-icons-V5"></span> \(Select multiple roles\) button.
 
-7.  Confirm the popup.
+7.  Select the roles you want to delete from the role collection.
 
-8.  Save your changes.
+8.  Choose *Remove*.
 
-9.  Repeat to delete more roles.
+9.  Confirm the popup.
+
+10. Save your changes.
+
+11. Repeat to delete more roles.
 
 

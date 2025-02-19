@@ -2,7 +2,7 @@
 
 # Subscribe to SAP Audit Log Viewer service
 
-Find explained the subscription procedure to the to the Audit Log Viewer service.
+Subscribe to SAP Audit Log Viewer service for access to audit log information.
 
 
 

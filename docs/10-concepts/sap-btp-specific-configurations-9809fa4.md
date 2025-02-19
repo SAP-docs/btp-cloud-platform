@@ -2,6 +2,8 @@
 
 # SAP BTP-Specific Configurations
 
+Learn about technical configurations for Cloud Foundry that are specific to SAP BTP.
+
 
 
 The following technical configurations are specific to SAP BTP and differ from the default configuration:
@@ -20,7 +22,7 @@ The following technical configurations are specific to SAP BTP and differ from t
 
 -   In the SAP BTP, Cloud Foundry environment, the total HTTP Request Header and HTTP Response Header size is limited to 64 KB to protect against misuse.
 
--   In the SAP BTP, Cloud Foundry environment, for both HTTP Request Headers and HTTP Response Headers the total amount of Headers is limited to 101.
+-   In the SAP BTP, Cloud Foundry environment, for both HTTP Request Headers and HTTP Response Headers the total amount of headers is limited to 101. Components that are handling the requests will add system-relevant headers such as `X-Vcap-Request-Id` or `X-Ssl-*` when mTLS is used. This addition reduces the amount of headers that can be set by the client \(for requests\) or the application \(for responses\).
 
 -   In the SAP BTP, Cloud Foundry environment, the limit of concurrent HTTP connections between client and application is 3000 per application container.
 

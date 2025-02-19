@@ -20,10 +20,10 @@ To learn more, see: [Developing Multitenant Applications in the Cloud Foundry En
 
 ## Multitenancy in the SAP Java Buildpack
 
-SAP Java Buildpack provides the possibility for multitenant applications running on Cloud Foundry to consume tenant-aware data sources out of the box. This is achieved by integrating the SAP Service Manager capabilities in the buildpack. The SAP Java buildpack provides out of the box tenant-aware data sources for:
+SAP Java Buildpack provides the possibility for multitenant applications running on Cloud Foundry to consume tenant-aware data sources out of the box. This is achieved by integrating the SAP Service Manager capabilities in the buildpack. SAP Java Buildpack provides out of the box tenant-aware data sources for:
 
 -   All tenants that have already been onboarded to an SAP Service Manager service instance.
--   Newly onboarded tenants at runtime. No restart of the Java application is needed.
+-   Newly onboarded tenants at runtime. No restart of your Java application is needed.
 
 
 
@@ -31,21 +31,22 @@ SAP Java Buildpack provides the possibility for multitenant applications running
 
 ## Configure the Application Multitenancy
 
-To achieve multitenant support in your application deployed with the SAP Java buildpack, your application should meet the following requirements:
+To achieve multitenant support in your application deployed with SAP Java Buildpack, your application should meet the following requirements:
 
 1.  Multitenancy support for Cloud Foundry is set up in advance. See: [Developing Multitenant Applications in the Cloud Foundry Environment](developing-multitenant-applications-in-the-cloud-foundry-environment-5e8a2b7.md)
 
-2.  The application should be bound to a managed database service. Your application should also use one of the following datasources that the SAP Java buildpack provides:
+2.  The application should be bound to a managed database service. Your application should also use one of the following data sources that your relevant SAP Java Buildpack version provides:
 
     -   `com.sap.xs.jdbc.datasource.tomcat.TomcatDataSourceFactory`
+    -   `com.sap.xs.jdbc.datasource.tomee.TomEEDataSourceFactory`
     -   `com.sap.xs.jdbc.datasource.tomee7.TomEE7DataSourceFactory`
 
     See section: [Configure Tenant-Aware Data Source](multitenant-java-applications-524cc11.md#loio524cc11778c64e2a8322cb3ec71709e5__section_tenant_aware_datasource)
 
-3.  The security concept that the application uses should be XSUAA. See section: [Configure XSUAA Authentication Method](multitenant-java-applications-524cc11.md#loio524cc11778c64e2a8322cb3ec71709e5__section_xsuaa_auth_method)
+3.  The security concept that the application uses should be **XSUAA**. See section: [Configure the XSUAA Authentication Method](multitenant-java-applications-524cc11.md#loio524cc11778c64e2a8322cb3ec71709e5__section_xsuaa_auth_method)
 
 
-Once these requirements are fulfilled, the application takes care of the onboarding of tenants in the SAP Service Manager service they use. For each request that comes from the application, the SAP Java buildpack will acquire \(obtain\) the tenant ID from the request through the JWT token provided by the XSUAA service. The buildpack will provide different database instance object for each tenant.
+Once these requirements are fulfilled, the application takes care of the onboarding of tenants in the SAP Service Manager service instance they use. For each request that comes from the application, SAP Java Buildpack acquires \(obtains\) the tenant ID from the request through the JWT token provided by the Authorization and Trust Management \(XSUAA\) service. The buildpack provides a different database instance object for each tenant.
 
 
 
@@ -55,7 +56,7 @@ Once these requirements are fulfilled, the application takes care of the onboard
 
 Once a multitenant application is bound to a managed database service instance, provisioning of the tenant-aware data source comes out of the box.
 
-In the following example of **context.xml**, the `jpa-db-managed` service instance is used to configure the data source. Provided that the `jpa-db-managed` service instance is of type *managed-hana* or *service-manager*, it will make the `jdbc/DatasourceOne` tenant aware.
+In the following example of **context.xml**, the `jpa-db-managed` service instance is used to configure the data source. Provided that the `jpa-db-managed` service instance is of type *managed-hana* or *service-manager*, it will make `jdbc/DatasourceOne` tenant-aware.
 
 ```
 
@@ -104,7 +105,7 @@ public class TestServlet extends HttpServlet {
 
 <a name="loio524cc11778c64e2a8322cb3ec71709e5__section_xsuaa_auth_method"/>
 
-## Configure XSUAA Authentication Method
+## Configure the XSUAA Authentication Method
 
 The configuration is done in the `login-config` section of the **web.xml** file:
 
@@ -125,7 +126,7 @@ The configuration is done in the `login-config` section of the **web.xml** file:
 
 ## Control Determination of the Current Tenant for Tenant-Aware Data Source
 
-As described above, by default the tenant-aware data source determines which tenant to be used for a specific request by getting the current log user from the JWT token provided by the XSUAA service.
+As described above, by default the tenant-aware data source determines which tenant to be used for a specific request by getting the current log user from the JWT token provided by the Authorization and Trust Management \(XSUAA\) service.
 
 For specific scenarios, the application can get control over the tenant determination with the following steps:
 
@@ -152,9 +153,9 @@ For specific scenarios, the application can get control over the tenant determin
     ```
 
     > ### Note:  
-    > The class is **required** in order to implement the `Supplier` interface.
+    > This class is **required** in order to implement the `Supplier` interface.
 
-2.  Define the application class as a `tenantProvider`. For example:
+2.  Define the application class as `tenantProvider`. For example:
 
     ```
     

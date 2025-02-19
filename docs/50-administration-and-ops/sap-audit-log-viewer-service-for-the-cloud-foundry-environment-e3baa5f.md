@@ -39,3 +39,12 @@ The default displayed columns are:
 
 The appearance of the UI can be modified by selecting the rows to be displayed on a single page, as well as the columns that you want to be visible.
 
+**Related Information**  
+
+
+[Subscribe to SAP Audit Log Viewer service](subscribe-to-sap-audit-log-viewer-service-8ef9054.md "Subscribe to SAP Audit Log Viewer service for access to audit log information.")
+
+[Access SAP Audit Log Viewer service](access-sap-audit-log-viewer-service-af26206.md "")
+
+[Accessibility Features in Audit Log Viewer](accessibility-features-in-audit-log-viewer-bf36fd1.md "To optimize your experience of Audit Log Viewer, SAP Business Technology Platform (SAP BTP) provides features and settings that help you use the software efficiently.")
+

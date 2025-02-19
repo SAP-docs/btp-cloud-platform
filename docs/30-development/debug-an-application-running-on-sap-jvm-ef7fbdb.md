@@ -14,7 +14,7 @@ You can debug an application running on a Cloud Foundry container that uses SAP 
 
 -   [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md)
 
--   Deploy your application using SAP Java Buildpack. To do that, from the cf CLI execute:
+-   Deploy your application using SAP Java Buildpack 1. To do that, open cf CLI and run:
 
     ```
     cf push <app name> -p <war file> -b sap_java_buildpack
@@ -36,25 +36,25 @@ After enabling the debugging port, you need to open an SSH tunnel that connects 
 
 ## Procedure
 
-1.  To enable debugging or to check the debugging state of your JVM, run `jvmmon` in your Cloud Foundry container by executing:
+1.  To enable debugging or to check the debugging state of your JVM, run **`jvmmon`** in your Cloud Foundry container by executing:
 
     ```
     cf ssh <app name> -c "app/META-INF/.sap_java_buildpack/sapjvm/bin/jvmmon"
     ```
 
-2.  From the `jvmmon` command line window, execute:
+2.  From the **`jvmmon`** command line window, run:
 
     ```
     start debugging
     ```
 
-3.  \(Optional\) To confirm that debugging is enabled and see which port is open, execute:
+3.  \(Optional\) To confirm that debugging is enabled and see which port is open, run:
 
     ```
     print debugging information
     ```
 
-    The following is an example of the information displayed by `jvmmon`:
+    The following is an example of the information displayed by **`jvmmon`**:
 
     ```
     State: Debugging back is waiting for debugger to connect
@@ -63,17 +63,17 @@ After enabling the debugging port, you need to open an SSH tunnel that connects 
     Globally accessible
     ```
 
-    The default port is 8000.
+    The default port is **8000**.
 
-4.  To exit `jvmmon`, execute: `q`
+4.  To exit **`jvmmon`**, run: `q`
 
-5.  To open the SSH tunnel, execute:
+5.  To open the SSH tunnel, run:
 
     ```
     cf ssh <app name> -N -T -L 8000:127.0.0.1:8000
     ```
 
-    Your local port 8000 is connected to the debugging port 8000 of the JVM running in the Cloud Foundry container. Also, 8000 is the default port.
+    Your local port 8000 is connected to the debugging port 8000 of SAP JVM running in the Cloud Foundry container.
 
     > ### Note:  
     > The connection is active until you close the SSH tunnel. When you finish debugging, close the SSH tunnel by pressing [Ctrl\] + [C\] .

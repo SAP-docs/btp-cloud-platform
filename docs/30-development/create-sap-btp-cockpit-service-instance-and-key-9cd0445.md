@@ -18,7 +18,7 @@ Create a service instance and service key for accessing SAP AI Core, where the l
 
 -   You have subscribed to SAP AI Core.
 
--   You have already downloaded the client default certificate from the ABAP system. See, [Download Certificate](download-certificate-5432f7c.md)
+-   You have already downloaded the client default certificate from the ABAP system. See,  <?sap-ot O2O class="- topic/xref " href="5432f7c2b3e44eb2aaaa772a7623a1ae.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/9cd044550da94218ba18ffcb8bfb01b7.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 
 <a name="task_o12_p2x_mdc"/>

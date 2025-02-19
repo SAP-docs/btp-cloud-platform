@@ -6,9 +6,9 @@ Learn more about the different application operations that you can perform in th
 
 -   [Deploy an Application](deploy-an-application-09fdb9b.md)
 
--   [Start, Stop and Restart Applications](start-stop-and-restart-applications-c0d7b6b.md)
+-   [Start, Stop, and Restart Applications](start-stop-and-restart-applications-c0d7b6b.md)
 
--   [Add or Remove Application Instances](add-or-remove-application-instances-75836f1.md)
+-   [Manage Application Instances](manage-application-instances-75836f1.md)
 
 -   [Configuring Application URLs in the Cloud Foundry CLI](configuring-application-urls-in-the-cloud-foundry-cli-e623e37.md)
 

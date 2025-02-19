@@ -1,4 +1,4 @@
-<!-- loio5dafcb797f9b47f0b216ef993c6152d8 -->
+<!-- loiodde994dcee104cee8714e0a95aad04d5 -->
 
 # Create a Turnkey Schedule
 
@@ -6,7 +6,7 @@ Create a turnkey schedule for an intelligent scenario with predefined schedule p
 
 
 
-<a name="loio5dafcb797f9b47f0b216ef993c6152d8__prereq_k23_nxc_sbc"/>
+<a name="loiodde994dcee104cee8714e0a95aad04d5__prereq_k23_nxc_sbc"/>
 
 ## Prerequisites
 
@@ -110,16 +110,16 @@ Any intelligent scenario that supports turnkey automation has predefined recurre
 
 
 
-<a name="loio5dafcb797f9b47f0b216ef993c6152d8__postreq_vl2_wld_sbc"/>
+<a name="loiodde994dcee104cee8714e0a95aad04d5__postreq_vl2_wld_sbc"/>
 
 ## Next Steps
 
 Depending on your requirement, you can either choose to modify, monitor the schedule progress or cancel the turnkey schedule.
 
--   [Modify a Turnkey Schedule](modify-a-turnkey-schedule-efb8b92.md)
+-   [Modify a Turnkey Schedule](modify-a-turnkey-schedule-c298485.md)
 
--    <?sap-ot O2O class="- topic/xref " href="60053865522a42438c6df56f0c9a137c.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/5dafcb797f9b47f0b216ef993c6152d8.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+-   [Turnkey Schedule Details](turnkey-schedule-details-04ce3d7.md)
 
--    <?sap-ot O2O class="- topic/xref " href="8e25e16e2a754b88804248714fa12794.xml" text="" desc="" xtrc="xref:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/5dafcb797f9b47f0b216ef993c6152d8.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+-   [Additional Turnkey Actions](additional-turnkey-actions-302be20.md)
 
 

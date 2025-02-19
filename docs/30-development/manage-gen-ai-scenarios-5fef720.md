@@ -1,4 +1,4 @@
-<!-- loio6107dd07c4a546b095c2a5c6ac82436d -->
+<!-- loio5fef7203b3294400988c2b1f4bd462a6 -->
 
 # Manage Gen AI Scenarios
 
@@ -15,5 +15,5 @@ The following is a list of operations that you can perform on an intelligent sce
 
 -   Inference Results - You can get the predictions that are generated from the trained machine learning models. See, [Inference Request](https://help.sap.com/docs/SAP_S4HANA_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/a7efd535fb624a0bb5bf9f1855af2e9c.html)
 
--   Turnkey - You can automate all ML operations of an intelligent scenario. Which means, once turnkey is enabled for an intelligent scenario, all the operations, such as pre-requisites check, train, deployment, and activation are run automatically. See, [Turnkey](https://help.sap.com/docs/SAP_S4HANA_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/5c40d9d7707346ea89fdc335f3a703f2.html)
+-   Turnkey - You can automate all ML operations of an intelligent scenario. Which means, once turnkey is enabled for an intelligent scenario, all the operations, such as pre-requisites check, train, deployment, and activation are run automatically. See, [Turnkey](turnkey-d9c6d05.md) 
 

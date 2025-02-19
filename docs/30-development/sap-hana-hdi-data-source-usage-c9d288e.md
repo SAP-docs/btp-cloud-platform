@@ -40,7 +40,7 @@ If you want your Java application to consume SAP HANA Database \(for example, to
 
     -   For Tomcat: **`web.xml`** and **`context.xml`**
 
-    -   For TomEE 7: **`web.xml`** and **`resource.xml`**
+    -   For TomEE: **`web.xml`** and **`resource.xml`**
 
 
 4.  Look up the data source in your code.

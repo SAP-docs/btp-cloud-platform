@@ -50,7 +50,7 @@ This mechanism also allows adding new resources inside the droplet in their resp
 **Related Information**  
 
 
-[Resource Configuration](resource-configuration-c893e9c.md "Both application containers, Tomcat and TomEE 7, are configured through text configuration files.")
+[Resource Configuration](resource-configuration-c893e9c.md "You can configure your application container by using text configuration files.")
 
 [Cloud Foundry component glossary](https://docs.cloudfoundry.org/concepts/glossary.html)
 

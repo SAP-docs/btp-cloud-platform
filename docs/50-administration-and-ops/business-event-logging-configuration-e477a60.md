@@ -10,7 +10,7 @@ You can configure business event logging using Configuration Items.
 
 ## Prerequisites
 
-To configure business event logging, create a business role and assign the catalog `SAP_BCR_CA_IC_LND_BEL_BCO_PC` to the role. For instructions, refer to [How to Create a New Business Role](how-to-create-a-new-business-role-f65e51a.md). You can also create a business role using the template `SAP_BR_BPC_EXPERT`. For instructions, refer to [How to Create a Business Role from a Template](how-to-create-a-business-role-from-a-template-ec310a8.md) .
+To configure business event logging, create a business role and assign the catalog `SAP_CA_BC_IC_LND_BEL_PC` to the role. For instructions, refer [here](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53e36b5493804bcdb3f6f14de8b487dd/f84e5ce53c754d799cffd0c724cbcdce.html). You can also create a business role using the template `SAP_BR_BPC_EXPERT`. For instructions, refer [here](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53e36b5493804bcdb3f6f14de8b487dd/87807ffd176c4dbca23d97ff1ec0705c.html).
 
 
 
@@ -20,26 +20,26 @@ To configure business event logging, create a business role and assign the catal
 
 
 
-### Activate Logging for SAP Object Types
+### Activate Business Event Logging
 
-To activate logging for your SAP Object Types:
+To activate logging for your objects:
 
-1.  Open the *Custom Business Configurations* app. You’ll see a list of all business configurations that can be adapted.
-2.  Search for*Activate Logging by SOT* using the search bar.
-
-3.  Select the custom business configuration from the list and choose *Edit*.
-4.  To activate logging for an SAP Object Type, select the *Activate Logging* checkbox and choose *Save*.
-5.  \(Optional\) To enable logging for all business event data, select the *Log All Data* checkbox for the SAP Object Type.
+1.  From SAP Fiori launchpad, go to *Implementation Cockpit \> Manage Your Solution \> Configure Your Solution*.
+2.  On the *Configure Your Solution* screen, in the *Application Area* field, select *Application Platform and Infrastructure*. Then in the *Sub Application Area* field, select *Process Management and Integration*.
+3.  In the *All Items* table, choose *Business Event Logging*.
+4.  In the configuration step,**Activate Business Event Logging**, choose *Configure*.
+5.  To activate logging for an object, select the *Enable Log* checkbox and choose *Save*.
+6.  \(Optional\) To enable logging for all business event data, select the *All Data* checkbox for the object.
 
     > ### Caution:  
     > When you enable logging for all business event data, it consumes additional storage.
 
-6.  To create a new entry, choose *New Entries*.
-7.  Enter the *SAP Object Type* and select the *Activate Logging* checkbox.
-8.  Choose *Save*.
+7.  To create a new entry, choose *New Entries*.
+8.  Enter the *Object* and select the *Enable Log* checkbox.
+9.  Choose *Save*.
 
-For documentation about this item, refer to *Show Documentation*.
+For documentation about this item, refer to *Configuration Help*.
 
 > ### Note:  
-> Ensure that you configure the retention period for SAP Object Types. For more information, refer to [Destroying Business Event Logging Objects Using BEL\_TIMESTAMP\_DESTRUCTION](destroying-business-event-logging-objects-using-bel-timestamp-destruction-4005b2f.md).
+> Ensure that you configure the retention period for objects. For more information, refer to [Destroying Business Event Logging Objects Using BEL\_TIMESTAMP\_DESTRUCTION](destroying-business-event-logging-objects-using-bel-timestamp-destruction-4005b2f.md).
 

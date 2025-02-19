@@ -2,9 +2,9 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Add or Remove Application Instances
+# Manage Application Instances
 
-To increase the availability of your Cloud Foundry application, you can run multiple instances of it. You can add or remove application instances in the SAP BTP cockpit.
+To increase the availability of your Cloud Foundry application, you can run multiple instances of it. In the SAP BTP cockpit, you can add or remove application instances, or change the size of their memory and disk.
 
 
 
@@ -23,12 +23,19 @@ To increase the availability of your Cloud Foundry application, you can run mult
 
 1.  In the SAP BTP cockpit, navigate to the *Applications* page in your Cloud Foundry space.
 
-2.  Choose the application for which you want to add or remove application instances.
+2.  Choose the application whose instances you want to manage.
 
 3.  In the *Overview* page of your application choose:
 
-    -   <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> *Instance* to start an additional instance of your application
+    -   <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> *Instance* to start an additional instance of your application.
+
     -   <span style="font-size:16px;"><span style="color:#346187;"><span class="SAP-icons-V5"></span></span></span> *Instance* to remove one of the running instances of your application.
+
+    -   *Change Instance Details* to update the memory size and the disk size of all instances of your application.
+
+        > ### Note:  
+        > Each instance of the application receives the size in megabytes you have specified. You can allocate instance memory up to the available space memory limit.
+
 
 
 **Related Information**  

@@ -138,13 +138,14 @@ To learn about changes in the Python buildpack's versions and features, regularl
 
 The `python_buildpack` supports the following versions:
 
--   Python **3.8**
 -   Python **3.9**
 -   Python **3.10**
 -   Python **3.11**
+-   Python **3.12**
+-   Python **3.13**
 
 > ### Note:  
-> Version **3.7** is out of maintenance, as per [Python release roadmap](https://www.python.org/downloads/). We strongly recommend that you switch to version 3.8 or higher.
+> Version **3.8** is out of maintenance, as per [Python release roadmap](https://www.python.org/downloads/). We strongly recommend that you switch to version 3.9 or higher.
 
 You can also decide to deploy your application with a particular buildpack version from the community [python-buildpack](https://github.com/cloudfoundry/python-buildpack) repository. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-python-applications-b5e1c82.md#loiob5e1c8244e594f53936b6406905c7937__specify_python_bp_version)
 

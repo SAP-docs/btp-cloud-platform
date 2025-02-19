@@ -1,4 +1,4 @@
-<!-- loio0d8de8180954443db83a2ceb127b8734 -->
+<!-- loio7d691a07627442a3b1d07000417c8056 -->
 
 # How to Configure the Communication System for SAP\_COM\_0A69
 
@@ -8,7 +8,7 @@ Currently, you can create one instance of the communication scenario per client.
 
 
 
-<a name="loio0d8de8180954443db83a2ceb127b8734__section_mlw_cqq_hdc"/>
+<a name="loio7d691a07627442a3b1d07000417c8056__section_mlw_cqq_hdc"/>
 
 ## Prerequisites
 
@@ -16,7 +16,6 @@ Make sure you have followed all steps as described in [Create SAP BTP Cockpit Se
 
 > ### Sample Code:  
 > ```
-> 
 > {
 > 
 > "serviceurls": {
@@ -44,7 +43,7 @@ Make sure you have followed all steps as described in [Create SAP BTP Cockpit Se
 
 
 
-<a name="loio0d8de8180954443db83a2ceb127b8734__section_arh_hqq_hdc"/>
+<a name="loio7d691a07627442a3b1d07000417c8056__section_arh_hqq_hdc"/>
 
 ## Procedure
 
@@ -102,9 +101,9 @@ Make sure you have followed all steps as described in [Create SAP BTP Cockpit Se
 
 
 
-<a name="loio0d8de8180954443db83a2ceb127b8734__section_izk_s2b_f2c"/>
+<a name="loio7d691a07627442a3b1d07000417c8056__section_izk_s2b_f2c"/>
 
 ## Next Steps
 
-[How to Create the Communication Arrangement for SAP\_COM\_0A69](how-to-create-the-communication-arrangement-for-sap-com-0a69-16d3b0e.md)
+ <?sap-ot O2O class="- topic/xref " href="16d3b0ed27b64bebb4f1ccdac7663ba0.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/7d691a07627442a3b1d07000417c8056.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

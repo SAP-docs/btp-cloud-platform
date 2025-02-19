@@ -6,6 +6,8 @@ SAP Java Buildpack 2 is a Cloud Foundry buildpack for running SapMachine-based a
 
 This buildpack supports Java 17 and 21, as well as the following runtimes:
 
+-   [TomEE 10](tomee-10-66e808e.md)
+
 -   [Tomcat 10](tomcat-10-97d0e34.md)
 
 -   [Java Main](java-main-8a1786a.md)
@@ -98,29 +100,29 @@ To check these versions, proceed as follows:
 
 **Example:**
 
-Let's say that the latest version of SAP Java Buildpack 2 is **2.10.0**. Then, the output of the `cf buildpacks` command would be:
+Let's say that the latest version of SAP Java Buildpack 2 is **2.24.0**. Then, the output of the `cf buildpacks` command would be:
 
 ```
 buildpack           position   enabled   locked   filename
 
-sap_java_buildpack_jakarta           1         true      false    sap_java_buildpack_jakarta-2.10.0.zip
-sap_java_buildpack_jakarta_2_10      2         true      false    sap_java_buildpack_jakarta-2.10.0.zip
-sap_java_buildpack_jakarta_2_9       3         true      false    sap_java_buildpack_jakarta-2.9.0.zip
-sap_java_buildpack_jakarta_2_8       4         true      false    sap_java_buildpack_jakarta-2.8.0.zip
+sap_java_buildpack_jakarta           1         true      false    sap_java_buildpack_jakarta-2.23.0.zip
+sap_java_buildpack_jakarta_2_23      2         true      false    sap_java_buildpack_jakarta-2.23.0.zip
+sap_java_buildpack_jakarta_2_22      3         true      false    sap_java_buildpack_jakarta-2.22.0.zip
+sap_java_buildpack_jakarta_2_21      4         true      false    sap_java_buildpack_jakarta-2.21.0.zip
 ```
 
-When SAP Java Buildpack 2 is updated on the SAP BTP, Cloud Foundry environment from version **2.10.0** to **2.11.0**, the list will change to:
+When SAP Java Buildpack 2 is updated on the SAP BTP, Cloud Foundry environment from version **2.23.0** to **2.24.0**, the list will change to:
 
 ```
 buildpack           position   enabled   locked   filename
 
-sap_java_buildpack_jakarta           1         true      false    sap_java_buildpack_jakarta-2.11.0.zip
-sap_java_buildpack_jakarta_2_11      2         true      false    sap_java_buildpack_jakarta-2.11.0.zip
-sap_java_buildpack_jakarta_2_10      3         true      false    sap_java_buildpack_jakarta-2.10.0.zip
-sap_java_buildpack_jakarta_2_9       4         true      false    sap_java_buildpack_jakarta-2.9.0.zip
+sap_java_buildpack_jakarta           1         true      false    sap_java_buildpack_jakarta-2.24.0.zip
+sap_java_buildpack_jakarta_2_24      2         true      false    sap_java_buildpack_jakarta-2.23.0.zip
+sap_java_buildpack_jakarta_2_23      3         true      false    sap_java_buildpack_jakarta-2.22.0.zip
+sap_java_buildpack_jakarta_2_22      4         true      false    sap_java_buildpack_jakarta-2.21.0.zip
 ```
 
-This means that *sap\_java\_buildpack\_jakarta\_2\_8* will no longer be available for applications.
+This means that *sap\_java\_buildpack\_jakarta\_2\_21* will no longer be available for applications.
 
 > ### Note:  
 > No fixes will be provided to older versions of the buildpack. Fixes, including security ones, will be part of the latest version.
@@ -147,7 +149,7 @@ applications:
   path: ./target/myapp.war
   instances: 1
   buildpacks:
-  - sap_java_buildpack_jakarta_2_9
+  - sap_java_buildpack_jakarta_2_18
 ```
 
 You can do the same in the `mtad.yml` of your **mtar** archive:
@@ -163,7 +165,7 @@ modules:
     parameters:
       ...
       memory: 512M
-      buildpack: sap_java_buildpack_jakarta_2_9
+      buildpack: sap_java_buildpack_jakarta_2_18
 ...
 ```
 
@@ -188,7 +190,7 @@ To learn how to configure your application to use SapMachine JRE and JDK, see: [
 
 SAP Java Buildpack 2 provides the following components in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack_jakarta`\):
 
--   Runtimes – [Tomcat 10](tomcat-10-97d0e34.md) and [Java Main](java-main-8a1786a.md)
+-   Runtimes – [Tomcat 10](tomcat-10-97d0e34.md), [TomEE 10](tomee-10-66e808e.md), and [Java Main](java-main-8a1786a.md)
 
 -   [SapMachine](sapmachine-785d6b3.md)
 
@@ -215,8 +217,8 @@ To see the latest news and updates about SAP Java Buildpack 2, regularly check t
 
 If you encounter an issue while using SAP Java Buildpack 2, you can:
 
--   Search for your problem in our Guided Answers: [SAP Java Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51219/?version=current)
+-   Search for your problem in our [Troubleshooting](sap-java-buildpack-ee609aa.md) section.
 
--   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51220/?version=current) 
+-   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 
 

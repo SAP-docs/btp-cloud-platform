@@ -4,7 +4,7 @@
 
 SAP Java Buildpack provides a context root redirect functionality.
 
-When you call a Web application without adding its runtime \([Tomcat](tomcat-9-ddfc101.md) or [TomEE 7](tomee-7-79c039a.md)\) context path to the URL, it's automatically appended.
+When you call a Web application without adding its [runtime](runtimes-and-containers-83d2416.md) context path to the URL, it's automatically appended.
 
 
 
@@ -12,7 +12,7 @@ When you call a Web application without adding its runtime \([Tomcat](tomcat-9-d
 
 ## Example
 
-If you configure `/test_context_path` as a context path, and the Web application is available on `/test_app`, then:
+If you configure `/my_context_path` as a context path, and the Web application is available on `/my_app`, then:
 
 
 <table>
@@ -32,7 +32,7 @@ You'll be redirected to:
 <td valign="top">
 
 ```
-<HOST>:<PORT>/test_app
+<HOST>:<PORT>/my_app
 ```
 
 
@@ -41,7 +41,7 @@ You'll be redirected to:
 <td valign="top">
 
 ```
-<HOST>:<PORT>/test_context_path/test_app
+<HOST>:<PORT>/my_context_path/my_app
 ```
 
 
@@ -50,7 +50,7 @@ You'll be redirected to:
 </tr>
 </table>
 
-The default context path value for Tomcat and TomEE 7 is *****""***** \(empty string\).
+The default context path value for Tomcat and TomEE is *****""***** \(empty string\).
 
 For more information on how to change the default value, see:
 
@@ -59,5 +59,7 @@ For more information on how to change the default value, see:
 -   [Tomcat 10](tomcat-10-97d0e34.md)
 
 -   [TomEE 7](tomee-7-79c039a.md)
+
+-   [TomEE 10](tomee-10-66e808e.md)
 
 

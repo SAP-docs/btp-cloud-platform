@@ -2,18 +2,18 @@
 
 # Resource Configuration
 
-Both application containers, [Tomcat](tomcat-9-ddfc101.md) and [TomEE 7](tomee-7-79c039a.md), are configured through text configuration files.
+You can configure your [application container](runtimes-and-containers-83d2416.md) by using text configuration files.
 
 For example:
 
--   `conf/server.xml`
-
 -   `conf/tomee7.xml`
+
+-   `conf/tomee.xml`
+
+-   `conf/server.xml`
 
 -   `conf/logging.properties`
 
-
-See: [Apache Tomcat 9 Configuration Reference](https://tomcat.apache.org/tomcat-9.0-doc/config/) 
 
 Resource configuration feature of SAP Java Buildpack provides means for changing parameterized values in all text files \(part of the application container or part of the application files\) during staging.
 
@@ -34,7 +34,7 @@ filepath2:
   key1: value1
 ```
 
-The `filepath1` must start with either **tomcat** or **tomee7** to match the used application container, and then contain a subpath to a resource.
+Depending on the SAP Java Buidlpack version \(1 or 2\), the `filepath1` must start with either **tomcat**, **tomee**, or **tomee7** to match the used application container, and should contain a subpath to a resource.
 
 -   When changing parametrized values inside application files, the file path should look like this:
 
@@ -78,7 +78,7 @@ tomcat/conf/server.xml:
     		resources/
     		webapp/
     			META-INF/
-    				sap_java_buildpack/
+    				sap_java_buildpack_jakarta/
     					config/
     						resource_configuration.yml
     			WEB-INF/
@@ -137,4 +137,10 @@ The following example demonstrates how to provide values for placeholders during
 
 
 [Overriding Resources in Droplet](overriding-resources-in-droplet-0a34588.md "Applications can override resources in the droplet by placing directory files that have the same relative path as the droplet root.")
+
+[Apache Tomcat 9: Configuration Reference](https://tomcat.apache.org/tomcat-9.0-doc/config/)
+
+[Apache Tomcat 10: Configuration Reference](https://tomcat.apache.org/tomcat-10.0-doc/config/)
+
+[Apache TomEE: Server Configuration](https://tomee.apache.org/latest/docs/admin/configuration/index.html)
 

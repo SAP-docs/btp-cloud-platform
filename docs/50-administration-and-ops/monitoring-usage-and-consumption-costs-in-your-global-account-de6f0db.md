@@ -30,7 +30,7 @@ To monitor and track costs and usage in your global account, open the global acc
 > ### Note:  
 > The *Costs and Usage* page is available only if your global account uses the consumption-based commercial model.
 > 
-> If your global account uses the subscription-based commercial model exclusively, then you must access the *Usage* page instead.
+> If your global account uses the subscription-based consumption-based model exclusively, then you must access the *Usage* page instead.
 > 
 > The *Usage* page is similar to the *Costs and Usage* page, except you cannot see any data relating to costs or cloud credits since your eligible services are already prepaid and you aren't charged per usage. See [Using the Usage View](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_vff_dr3_m1c).
 
@@ -442,7 +442,7 @@ See other useful tips, such as table sorting and searching, in the [Understandin
 
 If your global account has subaccounts that have been deleted but have charges in the last 12 months while they were still active, they’ll still be listed. Such subaccounts are marked with *\(deleted\)* after their name. If these subaccounts were originally located under a directory, you'll see them listed directly under the root global account.
 
-If your global account uses both a subscription-based and a commercial-based model, the *Usage* column shows the combined total usage of services, both subscription-based and consumption-based. Note that:
+If your global account uses both a subscription and a consumption-based commercial model, the *Usage* column shows the combined total usage of services, both subscription-based and consumption-based. Note that:
 
 -   The subscription-based consumption includes usage of services that falls within the prepaid quota that is specified in your subscription-based commercial model agreement. This part of the combined usage is shown in the *Prepaid Quota* column. There will be no additional billing for consumption of the services that falls within this prepaid quota.
 -   The consumption-based usage includes the usage of services that exceeds the prepaid subscription-based quota. This part of the combined usage is shown in the *Charged Usage* column. For this usage, you'll be charged based on the terms outlined in your consumption-based commercial model agreement.
@@ -709,6 +709,37 @@ The aggregated usage for each service is based on a formula that is specific to 
 <td valign="top">
 
 Yes
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**CF Space Costs by Service** 
+
+</td>
+<td valign="top">
+
+Allows you to view the monthly cost distribution of your service plans across the Cloud Foundry spaces in your global account.
+
+> ### Note:  
+> This is a beta feature. Beta features aren't part of the officially delivered scope that SAP guarantees for future releases. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
+
+To include this information in the spreadsheet, you must choose the *Export cost distribution by Cloud Foundry spaces* option in the *Custom Export* dialog box.
+
+The cost distribution in the exported spreadsheet is estimated and proportionate to the usage of each service across the Cloud Foundry spaces within a subaccount. For example, if the distribution of the total usage of a service is 20% in one space and 80% in another space within the same subaccount, the cost per space will be calculated proportionately as 20% and 80% of the total cost of the service in that subaccount for the two spaces, respectively.
+
+When a specific service **instance** is used by multiple spaces in Cloud Foundry, the full cost of that service is only charged to the space where it is provisioned. So, the cost breakdown by spaces in the exported Excel file works best when the service is used in the same space it was set up in. However, you can use the exported subaccount data to split the costs differently to better fit your setup.
+
+</td>
+<td valign="top">
+
+No
 
 </td>
 <td valign="top">

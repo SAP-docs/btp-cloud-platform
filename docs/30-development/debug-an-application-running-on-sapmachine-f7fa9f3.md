@@ -33,21 +33,21 @@ To debug an application using [SapMachine](https://github.com/SAP/SapMachine), y
       JBP_CONFIG_SAP_MACHINE_JDK: "[default_debug_agent_active: false]"
     ```
 
-    You could also disable the default configuration by specifying it manually. Set the following option in the application manifest file:
+    You could also disable the default configuration by specifying it manually. Set the following option in the application `manifest.yml` file:
 
     ```
     JBP_CONFIG_JAVA_OPTS: "[java_opts: '-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n]"
     ```
 
-    You can change the default port 8000 in the command.
+    You can change the default port **8000** in the command.
 
-2.  To enable SSH tunneling in your application, execute:
+2.  To enable SSH tunneling in your application, run:
 
     ```
     cf enable-ssh
     ```
 
-3.  To open the SSH tunnel, execute:
+3.  To open the SSH tunnel, run:
 
     ```
     cf ssh <app name> -N -T -L 8000:127.0.0.1:8000

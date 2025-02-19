@@ -198,13 +198,19 @@ The formation type defines the use case. Therefore, depending on the use case, y
 
 A formation can have the following status values:
 
--   No status
+-   *Ready*
+
+    The formation has been added as a record to the list and all registered systems are included successfully.
+
+-   *Draft*
+
+    Not all the systems were included when creating the formation. Include all the missing systems and choose *Finalize Formation*.
 
 -   *Action Required*
 
     The formation has been created but you cannot use it productively yet.
 
-    Based on the formation type and the subaccount that you specified, it might require an SAP BTP Kyma environment instance or an SAP Business Application Studio subscription. Although the SAP BTP cockpit allows you to create such a formation, to enable and make use of it, you must also create the respective instance or subscription.
+    Based on the formation type and the subaccount that you specified, it might require an SAP BTP, Kyma environment instance or an SAP Business Application Studio subscription. Although the SAP BTP cockpit allows you to create such a formation, to enable and make use of it, you must also create the respective instance or subscription.
 
 -   *Synchronizing*
 
@@ -213,10 +219,6 @@ A formation can have the following status values:
 -   *Error*
 
     An error occurred while some of the systems that are included in the formation were synchronizing in the background.
-
--   *Draft*
-
-    Not all the required systems were included when creating the formation. When you include all the missing systems, choose *Finalize Formation*.
 
 
 
@@ -239,7 +241,7 @@ When you include systems in a formation, these systems are synchronized in the b
 
 **Reseting and Resynchronizing Systems in a Formation**
 
-If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in SAP BTP cockpit their formation type is Side-by-Side Extensibility with Kyma.
+If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have *Ready* status and their formation type is Side-by-Side Extensibility with Kyma.
 
 **Finalizing a Formation**
 
