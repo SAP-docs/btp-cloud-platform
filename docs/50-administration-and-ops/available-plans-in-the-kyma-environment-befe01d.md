@@ -615,32 +615,6 @@ Updating
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-*Additional Worker Node Pools*
-
-btp CLI parameter: `additionalWorkerNodePools`
-
-</td>
-<td valign="top">
-
-Defines a custom list of additional worker node pools.
-
-</td>
-<td valign="top">
-
-Provisioning
-
-Updating
-
-</td>
-<td valign="top">
-
-[Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools)
-
-</td>
-</tr>
 </table>
 
 
@@ -903,32 +877,6 @@ Updating
 <td valign="top">
 
 [Administrators](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Administrators)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Additional Worker Node Pools*
-
-btp CLI parameter: `additionalWorkerNodePools`
-
-</td>
-<td valign="top">
-
-Defines a custom list of additional worker node pools.
-
-</td>
-<td valign="top">
-
-Provisioning
-
-Updating
-
-</td>
-<td valign="top">
-
-[Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools)
 
 </td>
 </tr>

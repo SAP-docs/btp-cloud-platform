@@ -23,6 +23,7 @@
             -   [Kyma's Modular Approach](10-concepts/kyma-s-modular-approach-95a4101.md)
             -   [Kyma Modules](10-concepts/kyma-modules-0dda141.md)
             -   [Kyma Functionalities](10-concepts/kyma-functionalities-4b83be9.md)
+            -   [Kyma Dashboard](10-concepts/kyma-dashboard-482ae2f.md)
             -   [Kyma Runtime: Basic Concepts](10-concepts/kyma-runtime-basic-concepts-4a0dd09.md)
             -   [Service Plans and Metering for Kyma Runtime](10-concepts/service-plans-and-metering-for-kyma-runtime-c33bb11.md)
         -   [Neo Environment](10-concepts/neo-environment-0f79436.md)

@@ -3718,6 +3718,244 @@ Get robust asynchronous messaging between applications.
 <tr>
 <td valign="top">
 
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Expose your data and processes as APIs and manage their lifecycles.
+
+</td>
+<td valign="top">
+
+-   OPU-API-OD
+
+
+
+</td>
+<td valign="top">
+
+-   Neo
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Rot\)\*
+-   Europe \(Frankfurt\)
+-   Europe \(Amsterdam\)
+-   US East \(Ashburn\)
+-   US West \(Chandler\)
+-   US East \(Sterling\)
+-   Australia \(Sydney\)
+-   Japan \(Tokyo\)
+-   Brazil \(São Paulo\)
+-   Canada \(Toronto\)
+-   UAE \(Dubai\)
+-   KSA \(Riyadh\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Expose your data and processes as APIs and manage their lifecycles.
+
+</td>
+<td valign="top">
+
+-   OPU-API-OD
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US East \(VA\)
+-   Singapore
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   Brazil \(São Paulo\)
+-   Canada \(Montreal\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Expose your data and processes as APIs and manage their lifecycles.
+
+</td>
+<td valign="top">
+
+-   OPU-API-OD
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Japan \(Tokyo\)
+-   Europe \(Netherlands\)
+-   US West \(WA\)
+-   US East \(VA\)
+-   Singapore
+-   Japan \(Tokyo\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[API Management](https://help.sap.com/viewer/product/SAP_CLOUD_PLATFORM_API_MANAGEMENT/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Expose your data and processes as APIs and manage their lifecycles.
+
+</td>
+<td valign="top">
+
+-   OPU-API-OD
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Alibaba
+
+
+
+</td>
+<td valign="top">
+
+-   China \(Shanghai\)\*\*
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [SAP Document Center](http://help.sap.com/mdocs) 
 
 </td>
