@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "btp-cloud-platform"
+SPDX-PackageSupplier = "Tsvetan Angelov (tsvetan.angelov01@sap.com)"
+SPDX-PackageDownloadLocation = "https://github.com/sap-docs/btp-cloud-platform"
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2021-2023 SAP SE or an SAP affiliate company and https://github.com/sap-docs/btp-cloud-platform contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
