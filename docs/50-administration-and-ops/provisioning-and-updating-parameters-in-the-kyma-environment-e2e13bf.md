@@ -17,6 +17,7 @@ To configure the cluster parameters, you can use your preferred interface, the S
 
 These are the configurable cluster parameters:
 
+-   [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools)
 -   [Administrators](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Administrators)
 -   [Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Max)
 -   [Auto Scaler Min](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Min)
@@ -28,6 +29,222 @@ These are the configurable cluster parameters:
 -   [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region)
 
 To see which parameters are available for configuration in a particular plan, go to [Available Plans in the Kyma Environment](available-plans-in-the-kyma-environment-befe01d.md).
+
+
+
+<a name="loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools"/>
+
+## Additional Worker Node Pools
+
+The *Additional Worker Node Pools* \(`additionalWorkerNodePools`\) array is an optional provisioning and updating parameter used for adding customized worker node pools to your Kyma runtime. It enables you to introduce worker nodes optimized and reserved for your particular workload requirements.
+
+If you do not provide the `additionalWorkerNodePools` array in the provisioning request, no additional worker node pools are created.
+
+If you do not provide the `additionalWorkerNodePools` array in the update request, the saved additional worker node pools stay unchanged. However, if you provide an empty array in the update request, all existing additional worker node pools are removed. If you rename your existing additional worker node pool, it is deleted and a new one is created.
+
+> ### Remember:  
+> The parameters marked with an asterisk "\*" are mandatory.
+
+**Additional Worker Node Pools Nested Parameters**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Nested Parameter
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+Supported Operation
+
+</th>
+<th valign="top">
+
+Allowed Input
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Name\**
+
+`name`
+
+type: string
+
+</td>
+<td valign="top">
+
+Specifies the name of your additional worker node pool.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), and hyphens. It can't contain white spaces.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Machine Type\**
+
+`machineType`
+
+type: string
+
+</td>
+<td valign="top">
+
+Specifies the provider-specific virtual machine type.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+See [Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*High Availability Zones\**
+
+`haZones`
+
+type: boolean
+
+</td>
+<td valign="top">
+
+Specifies if high availability zones are supported. This setting is permanent and cannot be updated.
+
+If enabled, your resources are distributed across three zones to enhance fault tolerance.
+
+If high availability is disabled, all resources are placed in a single, randomly selected zone. Disabling `haZones` is not recommended for production environments.
+
+High availability is not supported in the `azure_lite` plan.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+`true` or `false`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Auto Scaler Min\**
+
+`autoScalerMin`
+
+type: integer
+
+</td>
+<td valign="top">
+
+Specifies the minimum number of virtual machines to create.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+With high availability disabled, you can set it to `1`. With high availability enabled, you must set it to at least `3`.
+
+You can also set it to `1` in `azure_lite` because the plan does not support high availability.
+
+See [Auto Scaler Min](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Min).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Auto Scaler Max\**
+
+`autoScalerMax`
+
+type: integer
+
+</td>
+<td valign="top">
+
+Specifies the maximum number of virtual machines to create.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+With high availability disabled, you can set it to `1`. With high availability enabled, you must set it to at least `3`.
+
+You can also set it to `1` in `azure_lite` because the plan does not support high availability.
+
+See [Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Max).
+
+</td>
+</tr>
+</table>
+
+See the example configuration:
+
+```
+   "additionalWorkerNodePools": [
+      {
+         "name": "worker-1",
+         "machineType": "Standard_D2s_v5",
+         "haZones": true,
+         "autoScalerMin": 3,
+         "autoScalerMax": 20
+      },
+      {
+         "name": "worker-2",
+         "machineType": "Standard_D4s_v5",
+         "haZones": false,
+         "autoScalerMin": 1,
+         "autoScalerMax": 1
+      }
+   ]
+```
 
 
 
@@ -116,6 +333,8 @@ Updating
 
 Number between 3 and 300, but greater than or equal to *Auto Scaler Min*.
 
+Within the *Additional Worker Node Pools* array, with high availability disabled, you can set it to `1`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
+
 </td>
 </tr>
 <tr>
@@ -146,6 +365,8 @@ Updating
 <td valign="top">
 
 Number between 2 and 40, but greater than or equal to *Auto Scaler Min*.
+
+Within the *Additional Worker Node Pools* array, you can set it to `1`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
 
 </td>
 </tr>
@@ -227,6 +448,8 @@ Updating
 
 Number between 3 and the current value set in *Auto Scaler Max*.
 
+Within the *Additional Worker Node Pools* array, with high availability disabled, you can set it to `1`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
+
 </td>
 </tr>
 <tr>
@@ -257,6 +480,8 @@ Updating
 <td valign="top">
 
 Number between 2 and the current value set in *Auto Scaler Max*.
+
+Within the *Additional Worker Node Pools* array, you can set it to `1`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
 
 </td>
 </tr>

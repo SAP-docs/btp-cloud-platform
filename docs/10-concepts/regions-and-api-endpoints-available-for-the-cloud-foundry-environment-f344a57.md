@@ -1621,3 +1621,12 @@ ap21.hana.ondemand.com
 > ### Note:  
 > In the Cloud Foundry environment, the region in which a global account was created determines the API endpoint of all subaccounts associated with it. For example, subaccounts created in a global account in region **eu10** share the API endpoint URL `api.cf.eu10.hana.ondemand.com`.
 
+**Related Information**  
+
+
+[Regions for the Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/regions-for-kyma-environment)
+
+[Regions and API Endpoints for the ABAP Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/regions-and-api-endpoints-for-abap-environment)
+
+[Regions and Hosts Available for the Neo Environment](https://help.sap.com/docs/btp/sap-btp-neo-environment/regions-and-hosts-available-for-neo-environment)
+

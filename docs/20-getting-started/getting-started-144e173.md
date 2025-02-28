@@ -51,7 +51,7 @@ The SAP Developer Center provides further resources to get you started:
 **Related Information**  
 
 
-[SAP BTP Administrator's Guide](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/9f2bb927464e4d1ba3d13b2d79ca9bd1.html "Learn about the SAP BTP Administrator's Guide and how you can use it to plan and set up your landscape and your lifecycle management for running applications on SAP Business Technology Platform (SAP BTP).") :arrow_upper_right:
+[SAP BTP Administrator's Guide](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/9f2bb927464e4d1ba3d13b2d79ca9bd1.html "This guide is the starting point for setting up application lifecycle management for your specific use case, business, and IT landscape. It contains recommendations and best practices that give you an overview of what you should consider when planning development projects on SAP BTP – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications. It also includes links to step-by-step instructions when required.") :arrow_upper_right:
 
 [SAP BTP Developer's Guide](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/ba26ec41130d4835aef2265ad3d3704e.html?locale=en-US&state=PRODUCTION&version=Cloud)
 

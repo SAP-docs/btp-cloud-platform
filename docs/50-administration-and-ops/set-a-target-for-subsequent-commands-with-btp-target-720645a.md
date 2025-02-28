@@ -33,7 +33,7 @@ Usage: `btp [OPTIONS] target [PARAMS]`
     -   Enter `--hierarchy` as parameter to see all your global accounts with their entire account hierarchies. You can then select your target from this list.
 
         > ### Tip:  
-        > If you like the `--hierarchy` parameter and would like to make it the default for the target command, you can define it as a configuration setting with `btp set config --target.hierarchy true`. If you then run `btp target`, the entire hieraryh of all your global accounts is shown.
+        > If you like the `--hierarchy` parameter and would like to make it the default for the target command, you can define it as a configuration setting with `btp set config --target.hierarchy true`. If you then run `btp target`, the entire hierarchy of all your global accounts is shown.
 
     -   Specify the subaccount, directory, or global account you want to target as described in the next step.
 
