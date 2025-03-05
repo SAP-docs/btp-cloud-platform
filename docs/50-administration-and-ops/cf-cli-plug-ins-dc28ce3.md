@@ -8,3 +8,4 @@ A list of additional commands that have been implemented as plug-ins to extend t
 
 [Multitarget Application Commands for the Cloud Foundry Environment](multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md)
 
+[Java Commands for the Cloud Foundry Environment](java-plug-in-for-the-cloud-foundry-command-line-interface.md)
