@@ -39,9 +39,9 @@ Availability
 <tr>
 <td valign="top">
 
-*Development - ABAP Development Tools*
+*Development - Joule with ABAP Developer Capabilities Quota*
 
-SAP\_A4C\_BC\_DEV\_PC
+SAP\_A4C\_BC\_DEV\_AIQ\_PC
 
 </td>
 <td valign="top">
@@ -52,6 +52,30 @@ ADT Development
 <td valign="top">
 
 No transport request management \(transport tasks only\)
+
+</td>
+<td valign="top">
+
+In development systems only
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Development - ABAP Development Tools*
+
+SAP\_A4C\_BC\_DEV\_PC
+
+</td>
+<td valign="top">
+
+Using Joule for ABAP
+
+</td>
+<td valign="top">
+
+\-
 
 </td>
 <td valign="top">

@@ -74,7 +74,7 @@ If you want to reconfigure the systems in a formation from scratch without exclu
 
     1.  Enter a unique formation name.
 
-        The formation name can contain lowercase or uppercase Latin letters, numbers, hyphens, spaces, or underscores only. The name must start and end with an alphanumeric character.
+        The formation name must be up to 128 symbols which can be lowercase or uppercase Latin letters, numbers, hyphens, spaces, or underscores only. The name must start and end with an alphanumeric character.
 
     2.  Specify a type for the formation.
 

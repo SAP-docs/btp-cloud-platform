@@ -1,12 +1,12 @@
 <!-- loiob837a3b4226843cb86e8c35d2f35e6fa -->
 
-# How to Export Using SAP Cloud Transport Management
+# Export Commits using SAP Cloud Transport Management
 
 
 
-<a name="loiob837a3b4226843cb86e8c35d2f35e6fa__section_ify_m3j_bwb"/>
 
-## Context
+
+### Context
 
 1.  A developer creates and modifies ABAP coding in the SAP BTP ABAP environment by using the Eclipse-based IDE \(ABAP development tools for Eclipse\) with a rich debugger, troubleshooting, and testing tool support.
 2.  The changes are recorded in an ABAP transport request that is finally released. During the release, the changes are committed and pushed to the configured development branch of the corresponding Git repository \(there is a one-to-one relation between an ABAP software component and a Git repository\).
@@ -18,9 +18,7 @@
 
 
 
-<a name="loiob837a3b4226843cb86e8c35d2f35e6fa__section_bbr_43j_bwb"/>
-
-## Procedure
+### Procedure
 
 Before we can start releasing transport requests that generate commits, a new communication arrangement is needed in order to use an endpoint.
 
@@ -48,6 +46,8 @@ Before we can start releasing transport requests that generate commits, a new co
 
 
 
+
+
 ### Export to SAP Cloud Transport Management using the Manage Software Components app
 
 1.  Open the *Manage Software Components* app and navigate to the desired software component and a branch.
@@ -63,6 +63,14 @@ Before we can start releasing transport requests that generate commits, a new co
 
 5.  In case of an error, you will get an HTTP error code with a description.
 
+
+
+
+### Troubleshooting
+
+Do not use a service key created for the cTMS instance of the plan **transport\_operator** to establish integration with cTMS. This plan is not permitted to perform an export. The error shown in the **Manage Software Components** Fiori app for this is **access denied**.
+
+To run an export, you need to use a service key created for the cTMS instance of either the **standard** or **export** plan.
 
 **Related Information**  
 

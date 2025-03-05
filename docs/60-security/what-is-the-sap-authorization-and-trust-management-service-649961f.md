@@ -67,7 +67,7 @@ Enable different privileges to users accessing your applications based on roles.
 
 ### Overview
 
-The following figure shows a high-level overview of components, which comprise anSAP BTP business web applications and how these applications are embedded in the Cloud Foundry environment. Further details have been omitted for the sake of simplicity. It’s further assumed that the Cloud Foundry environment is set up with basic configuration \(that is, container-to-container networking isn’t configured\). The components and their interactions are depicted in the following block-diagram.
+The following figure shows a high-level overview of components, which comprise an SAP BTP business web applications and how these applications are embedded in the Cloud Foundry environment. Further details have been omitted for the sake of simplicity. It’s further assumed that the Cloud Foundry environment is set up with basic configuration \(that is, container-to-container networking isn’t configured\). The components and their interactions are depicted in the following block-diagram.
 
 ![](../30-development/images/Authorization_and_Trust_Management_Concepts_CF_71e83d3.png)
 

@@ -28,7 +28,7 @@ If the solution is successfully tested and works correctly, you can proceed with
 
 **Import Software Components**
 
-Before testing new developments in a software component in the test system, as an add-on admin, you have to import the latest changes from the remote repository. After you have cloned a software component into the test system TST, you can import the latest changes by pulling the software component in the *Manage Software Components* app. See [How to Pull Software Components](../50-administration-and-ops/how-to-pull-software-components-90b9b9d.md).
+Before testing new developments in a software component in the test system, as an add-on admin, you have to import the latest changes from the remote repository. After you have cloned a software component into the test system TST, you can import the latest changes by pulling the software component in the *Manage Software Components* app. See [Pull Software Components](../50-administration-and-ops/pull-software-components-90b9b9d.md).
 
 **Create and Assign Business Roles**
 

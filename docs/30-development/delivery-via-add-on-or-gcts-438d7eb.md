@@ -197,12 +197,12 @@ gCTS transport includes basic checks, for strict checks additional processes nee
 </td>
 <td valign="top">
 
--   Application content is initially not available: Software components need to be cloned locally into the provisioned systems using the *Manage Software Components* app. See [How to Clone Software Components](../50-administration-and-ops/how-to-clone-software-components-18564c5.md).
+-   Application content is initially not available: Software components need to be cloned locally into the provisioned systems using the *Manage Software Components* app. See [Clone Software Components](../50-administration-and-ops/clone-software-components-18564c5.md).
 
     > ### Note:  
     > You can use a separate test subscription that is not related to a consumer to trigger the creation of the system before the consumer subscribes to the solution. This initial system creation and import of the software components needs to be performed for each consumer production system.
 
--   Latest changes can be pulled locally into a system by using the *Manage Software Components* app. See [How to Pull Software Components](../50-administration-and-ops/how-to-pull-software-components-90b9b9d.md).
+-   Latest changes can be pulled locally into a system by using the *Manage Software Components* app. See [Pull Software Components](../50-administration-and-ops/pull-software-components-90b9b9d.md).
 -   Software component states installed in a system can only be identified locally in the *Manage Software Components* app.
 
     > ### Note:  

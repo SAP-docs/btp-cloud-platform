@@ -12,6 +12,9 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 
 -   You've a tenant of SAP Cloud Identity Services.
 
+    > ### Note:  
+    > For the custom identity provider for platform users, you can have up to three SAP Cloud Identity Services tenants per global account. Multiple global accounts can share the same SAP Cloud Identity Services tenant.
+
     For more information, see [Tenant Model and Licensing](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
 -   The SAP Cloud Identity Services tenant is associated with the customer IDs of the relevant global account of SAP BTP.

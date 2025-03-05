@@ -1,23 +1,21 @@
 <!-- loio90b9b9d5219c4875825be35137d9128f -->
 
-# How to Pull Software Components
+# Pull Software Components
 
 
 
-<a name="loio90b9b9d5219c4875825be35137d9128f__section_h4q_c4k_m3b"/>
 
-## Context
+
+### Context
 
 You can pull \(remotely available\) changes of your software component to the service instance you are currently on. To do the pull, perform the following steps:
 
 > ### Note:  
-> Keep in mind that if a software component is not in your system yet, you will first need to clone it once. For more information see [How to Clone Software Components](how-to-clone-software-components-18564c5.md).
+> Keep in mind that if a software component is not in your system yet, you will first need to clone it once. For more information see [Clone Software Components](clone-software-components-18564c5.md).
 
 
 
-<a name="loio90b9b9d5219c4875825be35137d9128f__section_xyb_2dc_p2b"/>
-
-## Procedure
+### Procedure
 
 1.  Navigate to the detail page of a software component from the list and choose *Pull* in the page header.
 
@@ -56,7 +54,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<ID\>* 
+    ID
     
     </td>
     <td valign="top">
@@ -68,7 +66,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Branch Name\>* 
+    Branch Name
     
     </td>
     <td valign="top">
@@ -80,7 +78,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Short Commit ID\>* 
+    Short Commit ID
     
     </td>
     <td valign="top">
@@ -92,7 +90,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Tag\>* 
+    Tag
     
     </td>
     <td valign="top">
@@ -104,7 +102,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Last Status Change\>* 
+    Last Status Change
     
     </td>
     <td valign="top">
@@ -116,7 +114,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Status\>* 
+    Status
     
     </td>
     <td valign="top">
@@ -135,7 +133,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Started By\>* 
+    Started By
     
     </td>
     <td valign="top">
@@ -147,7 +145,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Start Time\>* 
+    Start Time
     
     </td>
     <td valign="top">
@@ -159,7 +157,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Change Time\>* 
+    Change Time
     
     </td>
     <td valign="top">
@@ -201,7 +199,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Index\>*
+    Index
     
     </td>
     <td valign="top">
@@ -213,7 +211,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Log\>*
+    Log
     
     </td>
     <td valign="top">
@@ -225,7 +223,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Severity\>*
+    Severity
     
     </td>
     <td valign="top">
@@ -237,7 +235,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Transport Request\>*
+    Transport Request
     
     </td>
     <td valign="top">
@@ -249,7 +247,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<File inlcuding Path\>*
+    File inlcuding Path
     
     </td>
     <td valign="top">
@@ -261,7 +259,7 @@ You can pull \(remotely available\) changes of your software component to the se
     <tr>
     <td valign="top">
     
-    *<Timestamp\>*
+    Timestamp
     
     </td>
     <td valign="top">
@@ -276,7 +274,7 @@ You can pull \(remotely available\) changes of your software component to the se
 **Related Information**  
 
 
-[How to Clone Software Components](how-to-clone-software-components-18564c5.md "")
+[Clone Software Components](clone-software-components-18564c5.md "")
 
-[How to Configure Software Components](how-to-configure-software-components-51bed3b.md "")
+[Configure Software Components](configure-software-components-51bed3b.md "")
 

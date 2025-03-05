@@ -1,36 +1,35 @@
 <!-- loio78d6c8669451423eb377865266a4fa38 -->
 
-# How to Display Open Transport Requests
+# Display Open Transport Requests
 
 Displaying Open Transport Requests: Use this to easily view all open transport requests for a specific software component. It provides the unique identifier, description, owner, and last update of each request.
 
 
 
-<a name="loio78d6c8669451423eb377865266a4fa38__section_avt_v3d_pdc"/>
-
-## Context
-
-You want to see which *Open Transport Requests* are open on a specific software component. To display the open transport requests, perform the following steps:
 
 
+### Context
 
-## Procedure
+To view all open transport requests for the selected software component on the current system instance, follow these steps. Please note that open transport requests from other system instances will not be displayed.
 
-1.  Open the *Manage Software Components* app.
 
-2.  In the opened window, choose *Go* to display the list of available software components.
-3.  Here, you choose the software component that you want to display the *Open Transport Requests* with.
-4.  Next, you can scroll down or choose *Open Transports* in the header section.
-5.  The table will show you all open transport requests for the software component. The following information is provided.
 
-**Open Requests for the Software Component**
+### Procedure
+
+1.  Open the **Manage Software Components** Fiori app.
+2.  Select the software component you are interested in.
+3.  Scroll down to the section **Open Transports** to display the table.
+
+
+
+### Table Explanation
 
 
 <table>
 <tr>
 <th valign="top">
 
-Cloumn Name
+Column
 
 </th>
 <th valign="top">
@@ -42,48 +41,48 @@ Description
 <tr>
 <td valign="top">
 
-<Transport Request\>
+Transport Request
 
 </td>
 <td valign="top">
 
-Unique identifier of the transport request
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-<Description\>
-
-</td>
-<td valign="top">
-
-Description of the transport request.
+ID of the ABAP transport request.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-<Owned By\>
+Description
 
 </td>
 <td valign="top">
 
-SAP user the transport requests belong to
+Description of the ABAP transport request.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-<Updated At\>
+Owned By
 
 </td>
 <td valign="top">
 
-Date and time when the last changes to the transport request were made
+The name of the ABAP user who currently owns the transport request.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Updated At
+
+</td>
+<td valign="top">
+
+Date and time of the most recent change to the transport request.
 
 </td>
 </tr>

@@ -60,7 +60,11 @@ Consider the following restrictions and tips before you start.
 
     The *Configure Tenant* wizard opens.
 
-3.  Choose the SAP Cloud Identity Services tenant. The identity providers listed are the SAP Cloud Identity Services tenants associated with your customer ID. Continue with *Next*.
+3.  Choose the SAP Cloud Identity Services tenant and choose *Next*.
+
+    The identity providers listed are the SAP Cloud Identity Services tenants associated with your customer ID.
+
+    For more information, see the preceding prerequisites.
 
 4.  Choose the domain configured with the SAP Cloud Identity Services tenant and continue with *Next*.
 

@@ -1,6 +1,6 @@
 <!-- loio994c961dd666413e801df6c62cb727fc -->
 
-# How to Configure Your Git Repository
+# Bring Your Own Git
 
 Up until this point, the ABAP repositories in SAP BTP ABAP environment were managed by the Manage Software Components Fiori app, which was the only interface where users could see the status of their remote repository. Bring Your Own Git \(BYOG\) allows users to connect their own Git repositories with the Manage Software Components app. In doing so, the user has a better overview of their own code, branches, and commits. However, the user is not allowed to make code changes in their remote Git repository and import these changes into the local SAP BTP ABAP environment system instance, as this might violate any guidelines for ABAP cloud development. See [Supported ABAP Object Types](https://help.sap.com/docs/btp/sap-business-technology-platform/supported-abap-object-types?version=Cloud)
 
@@ -18,7 +18,7 @@ Up until this point, the ABAP repositories in SAP BTP ABAP environment were mana
 
 -   You have administrative authorizations to push, pull and clone from the repository. Credentials must include a username and a password or token.
 
--   The developer users have administrative authorizations to the Manage Software Components app.
+-   The developer users have administrative authorizations to the **Manage Software Components** app.
 
 -   Production, development and/or test system instances are in the same global account.
 
@@ -44,7 +44,7 @@ Up until this point, the ABAP repositories in SAP BTP ABAP environment were mana
 
 ## Procedure
 
-Follow the steps below to create and manage a BYOG \(Bring Your Own Git\) repository in the Manage Software Components \(MSC\) app.
+Follow the steps below to create and manage a BYOG \(Bring Your Own Git\) repository in the Manage Software Components app.
 
 
 
@@ -99,7 +99,7 @@ After the clone is finished, notice that there will be a new commit *Modify repo
 
 To create a branch, you should do so using the native interface \(e.g., Git interface\) of your git provider linked to your repository.
 
-In the MSC app simply refresh the branch table to see the new branch. You can proceed as usual with the checkout.
+In the Manage Software Components app simply refresh the branch table to see the new branch. You can proceed as usual with the checkout.
 
 > ### Note:  
 > To be able to work with an alternative branch, you should create the branch after the initial clone. It is important that any new branches are created based on the *Modify repository layout* commit, as mentioned above. The file generated from this commit will allow import into the local system instance.

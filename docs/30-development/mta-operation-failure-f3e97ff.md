@@ -144,7 +144,7 @@ To check if the issue is related to the MTA deployment, execute `cf push` instea
 
 If the command fails, there is a problem with the application, or the native Cloud Foundry, such as Cloud Controller or used buildpack\(s\). Troubleshoot your application and/or contact your application developer.
 
-If the command is executed successfully, the problem is not related to the application, but there is a problem with the MTA deployment. You **must** download the logs as described in [Troubleshooting](troubleshooting-3530af7.md). Afterward,[create an incident](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__create_incident) or contact the SAP support.
+If the command is executed successfully, the problem is not related to the application, but there is a problem with the MTA deployment. Download the logs as described in [Troubleshooting](troubleshooting-3530af7.md). Afterward,[create an incident](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__create_incident) or contact the SAP support.
 
 
 
@@ -154,11 +154,11 @@ To check if the issue is related to the MTA deployment, execute `cf run-task APP
 
 If the command fails, there is a problem with the application, or the native Cloud Foundry, such as Cloud Controller. Troubleshoot your application and/or contact your application developer.
 
-If the command is executed successfully, the problem is not related to the application or the task, but there is a problem with the MTA deployment. You **must** download the logs as described in [Troubleshooting](troubleshooting-3530af7.md). Afterward,[create an incident](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__create_incident) or contact the SAP support.
+If the command is executed successfully, the problem is not related to the application or the task, but there is a problem with the MTA deployment. Download the logs as described in [Troubleshooting](troubleshooting-3530af7.md). Afterward,[create an incident](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__create_incident) or contact the SAP support.
 
 
 
-### Applicatoin Starting Failure
+### Application Starting Failure
 
 In order to locate the problem in the application starting, the logs of the application should be checked.
 

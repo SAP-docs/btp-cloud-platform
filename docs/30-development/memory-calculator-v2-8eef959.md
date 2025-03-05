@@ -2,7 +2,13 @@
 
 # Memory Calculator V2
 
+When deploying applications on Cloud Foundry, developers can specify the memory limit of the application.
 
+
+
+The main goal of this Memory Calculator is to provide mechanism to fine-tune the Java Virtual Machine \(SAP JVM or SapMachine\) so that the JVM's memory grows below this memory limit.
+
+There are three memory types, which can be sized - **stack\_threads**, **class\_count**, and **headroom**.
 
 Customize the memory options by using the `JBP_CONFIG_JAVA_OPTS` environment variable:
 
@@ -21,35 +27,121 @@ applications:
 
 ## Default Settings
 
-SAP Java Buildpack is delivered with a default built-in configuration of the memory sizing options in YML format - **`config/sap_machine_jre.yml`** or **`config/sap_machine_jdk.yml`** \(path related to the buildpack archive\). These configuration files are parsed during application staging, and the memory configuration specified in them is used for calculating the memory sizes of *stack\_threads*, *class\_count* and *headroom*.
+SAP Java Buildpack is delivered with a default built-in configuration of the memory sizing options in YML format - see the configuration files in the table below. These configuration files are parsed during application staging, and the memory configuration specified in them is used for calculating the memory sizes of `stack_threads`, `class_count`, and `headroom`.
 
-The default structure of the `config/sap_machine_jre.yml` configuration file, for example, is the following:
+Default structures of the relevant configuration files:
+
+
+<table>
+<tr>
+<td valign="top">
+
+`config/sapjvm.yml`
+
+</td>
+<td valign="top">
 
 > ### Sample Code:  
 > ```
 > 
-> config/sap_machine_jre.yml
+> # Configuration for SAP JVM repository
+> ---
 > 
+> repository_root: "{default.repository.root}/sapjvm/{platform}/{architecture}"
+> version: +
+> memory_calculator_v2:
+>   version: 1.+
+>   repository_root: "{default.repository.root}/memory-calculator-v2/{platform}/{architecture}"
+>   class_count: 
+>   stack_threads: 250
+>   headroom: 0
+> jvm_kill:
+>   version: 1.+
+>   repository_root: "{default.repository.root}/jvmkill/{platform}/{architecture}"
+> ```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`config/sap_machine_jre.yml`
+
+</td>
+<td valign="top">
+
+> ### Sample Code:  
+> ```
 > 
 > # Configuration for JRE repository
 > ---
->   repository_root: "https://sap.github.io/SapMachine/assets/cf/jre/{platform}/{architecture}"
+> 
+> repository_root: "https://sap.github.io/SapMachine/assets/cf/jre/{platform}/{architecture}"
+> version: 17.+
+> use_offline_repository: true
+> repository_root_offline: "{default.repository.root}/sap_machine_jre/{platform}/{architecture}"
+> memory_calculator_v2:
+>   version: 1.+
+>   repository_root: "{default.repository.root}/memory-calculator/{platform}/{architecture}"
+>   class_count: 
+>   headroom: 0
+>   stack_threads: 250
 > jvmkill_agent:
 >   version: 1.+
 >   repository_root: "{default.repository.root}/jvmkill/{platform}/{architecture}"
-> memory_calculator:
->   version: 3.+
->   repository_root: "{default.repository.root}/memory-calculator/{platform}/{architecture}"
->   class_count: 500 
->   headroom: 7
->   stack_threads: 250
 > ```
 
--   `stack_threads` – an estimate of the number of threads that will be used by the application. Default value is **250**.
--   `class_count` – an estimate of the number of classes that will be loaded. The default behavior is to estimate this number as a fraction \(0.35\) of the number of class files in the application.
--   `headroom` – percentage of total memory available that is unallocated to cover JVM overhead. Maximum recommended value for headroom is **10**. Default value is **0**.
 
-Depending on which Java version you use \(8 or 11\), you can customize these three memory options by using the relevant environment variables:
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`config/sap_machine_jdk.yml`
+
+</td>
+<td valign="top">
+
+> ### Sample Code:  
+> ```
+> 
+> # Configuration for JDK repository
+> ---
+> 
+> repository_root: "https://sap.github.io/SapMachine/assets/cf/jdk/{platform}/{architecture}"
+> version: 17.+
+> repository_root_offline: "{default.repository.root}/sap_machine_jre/{platform}/{architecture}"
+> memory_calculator_v2:
+>   version: 1.+
+>   repository_root: "{default.repository.root}/memory-calculator/{platform}/{architecture}"
+>   class_count: 
+>   headroom: 7
+>   stack_threads: 250
+> jvmkill_agent:
+>   version: 1.+
+>   repository_root: "{default.repository.root}/jvmkill/{platform}/{architecture}"
+> ```
+
+
+
+</td>
+</tr>
+</table>
+
+The **memory\_calculator\_v2** section encloses the input data for the memory calculation techniques utilized in determining the JVM memory sizing options.
+
+-   `stack_threads` – the number of threads to be used by the application. Default value: **250**
+-   `headroom` – the percentage of total memory available that is unallocated to cover JVM overhead. The maximum recommended value for headroom is **10**. Default value: **0**
+-   `class_count` – the number of classes to be loaded. Default behavior: Estimating the number of class names in the application, adding a constant `42,215` to it, and then multiplying the final result by **0.35**. If you set a particular number, for example 500, only 500 classes will be loaded.
+
+    > ### Note:  
+    > If you're using SAP Java Buildpack 1, the constant `42,215` is not used in the calculation; only the number of class names in the application is considered.
+
+
+Depending on the Java version you use \(8, 11, 17, or 21\), you can customize these three memory options by using the relevant environment variables:
 
 -   JBP\_CONFIG\_SAPJVM
 
@@ -65,7 +157,7 @@ Depending on which Java version you use \(8 or 11\), you can customize these thr
 ## Java 8
 
 > ### Note:  
-> Only relevant for SAP Java Buildpack 1
+> Only relevant for SAP Java Buildpack 1!
 
 If you need JRE with Java 8, you have to use SAP JVM. Customize your memory options as follows:
 
@@ -86,7 +178,7 @@ applications:
 ## Java 11
 
 > ### Note:  
-> Only relevant for SAP Java Buildpack 1
+> Only relevant for SAP Java Buildpack 1!
 
 If you need JRE with Java 11, you have to use SapMachine 11. Customize your memory options as follows:
 
@@ -131,7 +223,7 @@ applications:
 ## Java 17
 
 > ### Note:  
-> Relevant for all Java buildpacks
+> Relevant for all Java buildpacks.
 
 If you need JRE with Java 17, you use SapMachine 17. Customize your memory options as follows:
 
@@ -177,7 +269,7 @@ applications:
 ## Java 21
 
 > ### Note:  
-> Only relevant for SAP Java Buildpack 2
+> Only relevant for SAP Java Buildpack 2!
 
 If you need JRE with Java 21, you use SapMachine 21. Customize your memory options as follows:
 

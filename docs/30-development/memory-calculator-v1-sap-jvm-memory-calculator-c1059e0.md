@@ -19,17 +19,11 @@ applications:
 > 
 > If you try to activate it for [SAP Java Buildpack 2](sap-java-buildpack-2-1cf206b.md), an error will be thrown.
 
+**When deploying applications on Cloud Foundry, developers can specify the memory limit of the application.**
 
+The main goal of the SAP JVM Memory Calculator is to provide mechanism to fine-tune the Java Virtual Machine \(JVM\) so that the JVM's memory grows below this memory limit.
 
-<a name="loioc1059e056aad406297addcd177a4fb7c__section_sgj_4ky_13b"/>
-
-## General Information
-
-When pushing applications to Cloud Foundry, application developers could specify the memory limit of the application.
-
-The main goal of the SAP JVM Memory Calculator is to provide mechanism to fine tune the Java Virtual Machine \(JVM\) in terms of restricting the JVM's memory to grow below this memory limit.
-
-There are three memory types, which can be sized - **heap**, **metaspace** and **stack**. For each memory type there is a command-line option, which must be passed to the JVM:
+There are three memory types, which can be sized - **heap**, **metaspace**, and **stack**. For each memory type there is a command-line option, which must be passed to the JVM:
 
 -   The initial and maximum size of the *heap* memory is controlled by the `-Xms` and `-Xmx` options, respectively.
 
@@ -44,7 +38,7 @@ There are three memory types, which can be sized - **heap**, **metaspace** and *
 
 ## Default Settings
 
-The SAP Java Buildpack is delivered with a default built-in configuration of the memory sizing options in YML format - `config/sapjvm.yml` \(path related to the buildpack archive\). That configuration file is parsed during application staging, and the memory configuration specified in it is used for calculating the memory sizes of the *heap*, *metaspace* and *stack*.
+The SAP Java Buildpack is delivered with a default built-in configuration of the memory sizing options in YML format - `config/sapjvm.yml` \(path related to the buildpack archive\). This configuration file is parsed during application staging, and the memory configuration specified in it is used for calculating the memory sizes of `heap`, `metaspace`, and `stack`.
 
 The default structure of the `config/sapjvm.yml` configuration file is the following:
 
@@ -55,13 +49,12 @@ The default structure of the `config/sapjvm.yml` configuration file is the follo
 > ---
 > repository_root: "{default.repository.root}/sapjvm/{platform}/{architecture}"
 > version: +
-> default_keystore_pass: changeit 
 > memory_calculator:
 >   version: 1.+
 > repository_root: "{default.repository.root}/memory-calculator/{platform}/{architecture}"
 > memory_sizes:
 >   heap:
->   metaspace: 64m..
+>   metaspace: 64M..
 >   stack:
 >   native:
 > memory_heuristics:
@@ -75,26 +68,28 @@ The default structure of the `config/sapjvm.yml` configuration file is the follo
 > memory_settings:
 >   codecache:
 >   directmemory:
-> memory_calculator_v2:
->   version: 1.+
->   repository_root: "{default.repository.root}/memory-calculator-v2/{platform}/{architecture}"
->   class_count: 
->   stack_threads: 250
+> 
 > ```
 
 The **memory\_calculator** section encloses the input data for the memory calculation techniques utilized in determining the JVM memory sizing options.
 
--   *heap* – configure sizing options for the Java heap. Affects JVM options `-Xms` and `-Xmx`
+-   `heap` – configure sizing options for the Java heap. Affects JVM options **`-Xms`** and **`-Xmx`**
 
--   *metaspace* – configure sizing options for the metaspace. Affects JVM options `-XX:MetaspaceSize` and `-XX:MaxMetaspaceSize`
+-   `metaspace` – configure sizing options for the metaspace. Affects JVM options **`-XX:MetaspaceSize`** and **`-XX:MaxMetaspaceSize`**
 
--   *stack* – configure sizing options for the stack. Affects JVM option `-Xss`
+-   `stack` – configure sizing options for the stack. Affects JVM option **`-Xss`**
 
--   *native* – serves to represent the rest of the memory \(different from *heap*, *stack*, *metaspace*\) in the calculations performed by the SAP JVM Memory Calculator. No JVM options are affected by this setting.
+-   `native` – serves to represent the rest of the memory \(different from `heap`, `stack`, `metaspace`\) in the calculations performed by the SAP JVM Memory Calculator. No JVM options are affected by this setting.
 
--   *memory\_heuristics* – this section defines the proportions between the memory regions addressed by the memory calculator. The ratios above will result in a *heap* space that is about 7.5 times larger than the *metaspace* and *native*; *stack* will be about half of the *metaspace* size.
+-   `memory_heuristics` – this section defines the proportions between the memory regions addressed by the memory calculator. The ratios above will result in a `heap` space that is about 7.5 times larger than the `metaspace` and `native`. The `stack` will be about half of the `metaspace` size.
 
--   *memory\_sizes* – this section defines sizes of the corresponding memory regions. The size of the memory region could be specified in kilobytes \(by using the K symbol\), megabytes \(by using the M symbol\) and gigabytes \(by using the G symbol\).
+-   `memory_initials` - this section defines initial and maximum values for `heap` and `metaspace`. By default, the initial values for `heap` and `metaspace` are set to 100%. That means, the memory calculation will result in **`-Xms = -Xmx`** and **`-XX:MetaspaceSize = -XX:MaxMetaspaceSize`**.
+
+    If those values are set to 50%, then **`-Xmx = 2*-Xms`** and **`-XX:MaxMetaspaceSize = 2*-XX:MetaspaceSize`**.
+
+-   `memory_settings` – see: [Out-Of-Memory Behavior](out-of-memory-behavior-588cfd9.md)
+
+-   `memory_sizes` – this section defines sizes of the corresponding memory regions. The size of the memory region could be specified in kilobytes \(by using the K symbol\), megabytes \(by using the M symbol\), and gigabytes \(by using the G symbol\).
 
 
     <table>
@@ -168,18 +163,12 @@ The **memory\_calculator** section encloses the input data for the memory calcul
     </tr>
     </table>
     
--   *memory\_initials* - this section defines initial and maximum values for *heap* and *metaspace*. By default, the initial values for *heap* and *metaspace* are set to 100%. That means, the memory calculation will result in **\-Xms=-Xmx** and **\-XX:MetaspaceSize=-XX:MaxMetaspaceSize**. If those values are set to 50%, then **\-Xmx = 2\*-Xms** and **\-XX:MaxMetaspaceSize=2\*-XX:MetaspaceSize**.
-
--   *memory\_settings* - for details, see [Out-Of-Memory Behavior](out-of-memory-behavior-588cfd9.md)
-
--   *memory\_calculator\_v2* - for details, see [Memory Calculator V2](memory-calculator-v2-8eef959.md)
-
 
 
 
 <a name="loioc1059e056aad406297addcd177a4fb7c__section_x32_fww_42b"/>
 
-## Customizing the Default Settings
+## Customize the Default Settings
 
 There are two ways to customize the default settings - during application staging and during application runtime.
 
@@ -431,5 +420,5 @@ The same calculation takes place, this time the *metaspace* is not considered be
 **Related Information**  
 
 
-[Memory Calculator V2](memory-calculator-v2-8eef959.md)
+[Memory Calculator V2](memory-calculator-v2-8eef959.md "When deploying applications on Cloud Foundry, developers can specify the memory limit of the application.")
 

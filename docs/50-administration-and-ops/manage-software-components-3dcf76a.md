@@ -57,11 +57,11 @@ In addition, the app supports the integration with Git.
 **Related Information**  
 
 
-[How to Display Available Software Components](how-to-display-available-software-components-8a501fa.md "")
+ <?sap-ot O2O class="- topic/link " href="8a501fa4fe354edfa67015eec1c4af73.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/3dcf76a072c9450eb46b99db947dab46.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
-[How to Create Software Components](how-to-create-software-components-67e2f2e.md "")
+[Create Software Components](create-software-components-67e2f2e.md "")
 
-[How to Pull Software Components](how-to-pull-software-components-90b9b9d.md "")
+[Pull Software Components](pull-software-components-90b9b9d.md "")
 
-[How to Delete Software Components](how-to-delete-software-components-a982ba3.md "")
+[Delete Software Components](delete-software-components-a982ba3.md "")
 

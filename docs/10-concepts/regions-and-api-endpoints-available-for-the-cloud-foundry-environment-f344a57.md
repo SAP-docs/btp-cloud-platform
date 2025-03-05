@@ -1083,6 +1083,58 @@ us10-002.hana.ondemand.com
 <tr>
 <td valign="top">
 
+Amazon Web Services
+
+</td>
+<td valign="top">
+
+us11
+
+</td>
+<td valign="top">
+
+US West \(Oregon\)
+
+</td>
+<td valign="top">
+
+cf-us11
+
+</td>
+<td valign="top">
+
+us-west-2
+
+</td>
+<td valign="top">
+
+44.244.167.160/28
+
+</td>
+<td valign="top">
+
+34.211.82.149, 35.95.238.236, 100.20.19.69
+
+</td>
+<td valign="top">
+
+api.cf.us11.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+us11.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Google Cloud
 
 </td>

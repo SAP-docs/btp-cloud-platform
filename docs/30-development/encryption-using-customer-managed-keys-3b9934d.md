@@ -35,9 +35,7 @@ The `config.json` file must contain:
 
 ## Enabling CMK Encryption for an Existing HTML5 Application Repository Service Instance
 
-To enable CMK for an existing HTML5 Application Repository service instance, update the configuration file for the service instance to include the parameter `"enableCmk": true`.
-
-Then redeploy the application content to the app-host service instance.
+To enable CMK for an existing HTML5 Application Repository service instance, update the configuration file for the service instance to include the parameter `"enableCmk": true`. Then redeploy the application content to the app-host service instance.
 
 
 
@@ -45,7 +43,5 @@ Then redeploy the application content to the app-host service instance.
 
 ## Disabling CMK Encryption for an HTML5 Application Repository Service Instance
 
-To disable the CMK for your HMTL5 Application Repository service instance, set the enableCmk parameter in the instance configuration file to false \(`"enableCmk": false`\).
-
-Then redeploy the application content to the app-host service instance.
+To disable the CMK for your HMTL5 Application Repository service instance, set the enableCmk parameter in the instance configuration file to false \(`"enableCmk": false`\). Then redeploy the application content to the app-host service instance.
 

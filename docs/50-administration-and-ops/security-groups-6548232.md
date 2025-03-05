@@ -19,10 +19,6 @@ In the SAP BTP, Cloud Foundry environment, the security groups are space-scoped 
     -   `public_networks`
 
 
--   Service-related security groups
-
-    A service-related security group is created when you bind the respective service to an application. Each service-related security group is specific to a single SAP BTP service. The name of the service is part of the security group name. For example, `<service-name>-security-group`.
-
 
 For more information, see [https://docs.cloudfoundry.org/concepts/asg.html](https://docs.cloudfoundry.org/concepts/asg.html).
 

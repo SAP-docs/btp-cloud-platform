@@ -18,7 +18,7 @@ To use the *Export Customizing Transports* app, business role `SAP_BR_BPC_EXPERT
 
 ## Procedure
 
-1.  In the *Manage Software Components* app, create a software component of type *Business Configuration* and clone it to the tenant where you want the business configuration to be created. See [How to Create Software Components](../50-administration-and-ops/how-to-create-software-components-67e2f2e.md) and [How to Clone Software Components](../50-administration-and-ops/how-to-clone-software-components-18564c5.md).
+1.  In the *Manage Software Components* app, create a software component of type *Business Configuration* and clone it to the tenant where you want the business configuration to be created. See [Create Software Components](../50-administration-and-ops/create-software-components-67e2f2e.md) and [Clone Software Components](../50-administration-and-ops/clone-software-components-18564c5.md).
 
 2.  In the *Export Customizing Transports* app, create a transport request. See [Working in the Export Customizing Transports App](../50-administration-and-ops/working-in-the-export-customizing-transports-app-cc16fd0.md). The system automatically associates the request to the previously cloned software component and sets its category to *Default*. Any user that is assigned to one of the transport request's tasks can use the request for change recording.
 

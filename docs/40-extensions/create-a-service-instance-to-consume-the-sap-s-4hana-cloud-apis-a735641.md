@@ -10,7 +10,10 @@ To enable the integration of your extension applications with the SAP S/4HANA Cl
 
 ## Prerequisites
 
-You have configured the required entitlements to make the APIs of the registered SAP S/4HANA Cloud system accessible in your subaccount in which your extension applications will reside. See [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md).
+-   You have configured the required entitlements to make the APIs of the registered SAP S/4HANA Cloud system accessible in your subaccount in which your extension applications will reside. See [Configure the Entitlements for the SAP S/4HANA Cloud Extensibility Service](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md).
+
+-   In case of principal propagation, you first need to configure single-sign on \(SSO\) with the Identity Authentication service and protect your application. See [Integrating the Service with SAP S/4HANA Cloud, SAP Integrated Business Planning and SAP Analytics Cloud](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/integrating-service-with-sap-s-4hana-cloud-sap-integrated-business-planning-and-sap-analytics-cloud).
+
 
 
 
@@ -56,11 +59,11 @@ You create the service instance in your subaccount with the respective environme
 
 -   OAuth 2.0 SAML Bearer Assertion \(inbound connections\)
 
-    To communicate with SAP S/4HANA Cloud the extension application can use Principal Propagation which is done using OAuth 2.0 SAML Bearer Assertion flows. Principal Propagation means you forward the identity of the logged-in cloud users when accessing or updating data in the SAP S/4HANA Cloud system.
+    To communicate with SAP S/4HANA Cloud the extension application can use principal propagation which is done using OAuth 2.0 SAML Bearer Assertion flows. Principal propagation means you forward the identity of the logged-in cloud users when accessing or updating data in the SAP S/4HANA Cloud system.
 
     This is useful in scenarios where you need to have restricted data access based on the logged-in user from your extension. Or, you want to ensure only users with the right permissions are able to update the system via extensions deployed in SAP BTP.
 
-    To use this authentication scenario, you first need to configure single-sign on \(SSO\) with the Identity Authentication service and protect your application. See [Single Sign-On Configuration](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/8d3c376e573946258dad098b54fba480.html).
+    To use this authentication scenario, you first need to configure single-sign on \(SSO\) with the Identity Authentication service and protect your application. See [Integrating the Service with SAP S/4HANA Cloud, SAP Integrated Business Planning and SAP Analytics Cloud](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/integrating-service-with-sap-s-4hana-cloud-sap-integrated-business-planning-and-sap-analytics-cloud).
 
 -   Client Certificate Authentication \(inbound and outbound connections\)
 

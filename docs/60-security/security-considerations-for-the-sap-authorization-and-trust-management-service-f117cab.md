@@ -23,7 +23,7 @@ To configure the trusted domains, use one of the following methods:
 
 -   Enter trusted domains in the SAP BTP cockpit.
 
-    For more information, see [Configure Trusted Domains for Multi-environment Subaccounts](../50-administration-and-ops/configure-trusted-domains-for-multi-environment-subaccounts-c5e9972.md).
+    For more information, see [Configure Trusted Domains for Multi-Environment Subaccounts](../50-administration-and-ops/configure-trusted-domains-for-multi-environment-subaccounts-c5e9972.md).
 
 -   Access the Security Settings API.
 

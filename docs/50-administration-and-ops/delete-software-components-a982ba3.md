@@ -1,12 +1,12 @@
 <!-- loioa982ba36da184788a133df4500b25a08 -->
 
-# How to Delete Software Components
+# Delete Software Components
 
 
 
-<a name="loioa982ba36da184788a133df4500b25a08__section_j3y_vrj_m3b"/>
 
-## Context
+
+### Context
 
 You want to delete a software component in order to:
 
@@ -19,9 +19,7 @@ For every delete activity, the executing business user is documented in a log.
 
 
 
-<a name="loioa982ba36da184788a133df4500b25a08__section_zzs_dnk_m3b"/>
-
-## Procedure
+### Procedure
 
 To delete a software component, perform the following steps:
 

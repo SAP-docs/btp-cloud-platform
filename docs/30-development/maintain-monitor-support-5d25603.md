@@ -167,7 +167,7 @@ Bug fixes are delivered as a new patch version of a software component and are i
 To deliver a new patch version, see the following steps:
 
 -   **Develop**
-    -   As an add-on admin, check out the maintenance branch, which is the branch that is created for bug fixes and maintenance deliveries. See [How to Work with Branches](../50-administration-and-ops/how-to-work-with-branches-6b2f0bf.md).
+    -   As an add-on admin, check out the maintenance branch, which is the branch that is created for bug fixes and maintenance deliveries. See [Work with Branches](../50-administration-and-ops/work-with-branches-6b2f0bf.md).
 
     -   Implement the bug fix in the ABAP correction system
 
@@ -177,7 +177,7 @@ To deliver a new patch version, see the following steps:
 -   **Test**
     -   Import the maintenance branch in the ABAP quality assurance system
 
-        You need to test the implemented corrections by importing the maintenance branch for the current support package level, where the transports for necessary bug fixes were released, in the dedicated test system, which is the ABAP quality assurance system QAS. See [How to Pull Software Components](../50-administration-and-ops/how-to-pull-software-components-90b9b9d.md).
+        You need to test the implemented corrections by importing the maintenance branch for the current support package level, where the transports for necessary bug fixes were released, in the dedicated test system, which is the ABAP quality assurance system QAS. See [Pull Software Components](../50-administration-and-ops/pull-software-components-90b9b9d.md).
 
     -   Test bugfix in ABAP quality assurance systemAs a tester, test the corrections in the QAS system to validate that the provided bug fixes are solving the problem and are working properly. Required testing can involve anything from maintaining business roles, creating communication arrangements to more complex testing scenarios where connectivity is involved.
 

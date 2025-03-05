@@ -83,7 +83,7 @@ type: string
 </td>
 <td valign="top">
 
-Specifies the name of your additional worker node pool.
+Specifies the unique name of your additional worker node pool.
 
 </td>
 <td valign="top">
@@ -95,7 +95,7 @@ Updating
 </td>
 <td valign="top">
 
-Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), and hyphens. It can't contain white spaces.
+Short string \(up to 15 characters\) that contains only alphanumeric lowercase characters \(a-z, 0–9\), and hyphens \(-\). It must begin and end with an alphanumeric character, and can't contain white spaces.
 
 </td>
 </tr>
@@ -252,7 +252,7 @@ See the example configuration:
 
 ## Administrators
 
-The *Administrators* \(`administrators`\) parameter is an array of strings. It is a provisioning and updating parameter, which specifies the list of runtime administrators. Complete the list with the administrators' email addresses as shown in this example:
+The *Administrators* \(`administrators`\) parameter is an array of strings. It is a provisioning and updating parameter, which specifies the list of runtime administrators. Complete the list with the administrators' email addresses as shown in the following example:
 
 ```
 "administrators": [
@@ -372,7 +372,7 @@ Within the *Additional Worker Node Pools* array, you can set it to `1`. See [Add
 </tr>
 </table>
 
-The default JSON input is:
+See the default JSON input:
 
 ```
 "autoScalerMax": 20
@@ -487,7 +487,7 @@ Within the *Additional Worker Node Pools* array, you can set it to `1`. See [Add
 </tr>
 </table>
 
-Here is an example of the JSON input:
+See an example of the JSON input:
 
 ```
 "autoScalerMin": 3
@@ -624,7 +624,7 @@ Updating
 </td>
 <td valign="top">
 
-2vCPU, 8GB RAM
+2 vCPU, 8 GB RAM
 
 </td>
 </tr>
@@ -636,7 +636,7 @@ Updating
 </td>
 <td valign="top">
 
-4vCPU, 16GB RAM
+4 vCPU, 16 GB RAM
 
 </td>
 </tr>
@@ -648,7 +648,7 @@ Updating
 </td>
 <td valign="top">
 
-8vCPU, 32GB RAM
+8 vCPU, 32 GB RAM
 
 </td>
 </tr>
@@ -660,7 +660,7 @@ Updating
 </td>
 <td valign="top">
 
-16vCPU, 64GB RAM
+16 vCPU, 64 GB RAM
 
 </td>
 </tr>
@@ -672,7 +672,7 @@ Updating
 </td>
 <td valign="top">
 
-32vCPU, 128GB RAM
+32 vCPU, 128 GB RAM
 
 </td>
 </tr>
@@ -684,7 +684,7 @@ Updating
 </td>
 <td valign="top">
 
-48vCPU, 192GB RAM
+48 vCPU, 192 GB RAM
 
 </td>
 </tr>
@@ -696,7 +696,7 @@ Updating
 </td>
 <td valign="top">
 
-64vCPU, 256GB RAM
+64 vCPU, 256 GB RAM
 
 </td>
 </tr>
@@ -708,7 +708,7 @@ Updating
 </td>
 <td valign="top">
 
-2vCPU, 8GB RAM
+2 vCPU, 8 GB RAM
 
 </td>
 </tr>
@@ -720,7 +720,7 @@ Updating
 </td>
 <td valign="top">
 
-4vCPU, 16GB RAM
+4 vCPU, 16 GB RAM
 
 </td>
 </tr>
@@ -732,7 +732,7 @@ Updating
 </td>
 <td valign="top">
 
-8vCPU, 32GB RAM
+8 vCPU, 32 GB RAM
 
 </td>
 </tr>
@@ -744,7 +744,7 @@ Updating
 </td>
 <td valign="top">
 
-16vCPU, 64GB RAM
+16 vCPU, 64 GB RAM
 
 </td>
 </tr>
@@ -756,7 +756,7 @@ Updating
 </td>
 <td valign="top">
 
-32vCPU, 128GB RAM
+32 vCPU, 128 GB RAM
 
 </td>
 </tr>
@@ -768,7 +768,7 @@ Updating
 </td>
 <td valign="top">
 
-48vCPU, 192GB RAM
+48 vCPU, 192 GB RAM
 
 </td>
 </tr>
@@ -780,7 +780,7 @@ Updating
 </td>
 <td valign="top">
 
-64vCPU, 256GB RAM
+64 vCPU, 256 GB RAM
 
 </td>
 </tr>
@@ -811,7 +811,7 @@ Updating
 </td>
 <td valign="top">
 
-2vCPU, 8GB RAM
+2 vCPU, 8 GB RAM
 
 </td>
 </tr>
@@ -823,7 +823,7 @@ Updating
 </td>
 <td valign="top">
 
-4vCPU, 16GB RAM
+4 vCPU, 16 GB RAM
 
 </td>
 </tr>
@@ -835,7 +835,7 @@ Updating
 </td>
 <td valign="top">
 
-8vCPU, 32GB RAM
+8 vCPU, 32 GB RAM
 
 </td>
 </tr>
@@ -847,7 +847,7 @@ Updating
 </td>
 <td valign="top">
 
-16vCPU, 64GB RAM
+16 vCPU, 64 GB RAM
 
 </td>
 </tr>
@@ -859,7 +859,7 @@ Updating
 </td>
 <td valign="top">
 
-32vCPU, 128GB RAM
+32 vCPU, 128 GB RAM
 
 </td>
 </tr>
@@ -871,7 +871,7 @@ Updating
 </td>
 <td valign="top">
 
-48vCPU, 192GB RAM
+48 vCPU, 192 GB RAM
 
 </td>
 </tr>
@@ -883,7 +883,7 @@ Updating
 </td>
 <td valign="top">
 
-64vCPU, 256GB RAM
+64 vCPU, 256 GB RAM
 
 </td>
 </tr>
@@ -914,7 +914,7 @@ Updating
 </td>
 <td valign="top">
 
-2vCPU, 8GB RAM
+2 vCPU, 8 GB RAM
 
 </td>
 </tr>
@@ -926,7 +926,7 @@ Updating
 </td>
 <td valign="top">
 
-4vCPU, 16GB RAM
+4 vCPU, 16 GB RAM
 
 </td>
 </tr>
@@ -938,7 +938,7 @@ Updating
 </td>
 <td valign="top">
 
-8vCPU, 32GB RAM
+8 vCPU, 32 GB RAM
 
 </td>
 </tr>
@@ -950,7 +950,7 @@ Updating
 </td>
 <td valign="top">
 
-16vCPU, 64GB RAM
+16 vCPU, 64 GB RAM
 
 </td>
 </tr>
@@ -962,7 +962,7 @@ Updating
 </td>
 <td valign="top">
 
-32vCPU, 128GB RAM
+32 vCPU, 128 GB RAM
 
 </td>
 </tr>
@@ -974,7 +974,7 @@ Updating
 </td>
 <td valign="top">
 
-48vCPU, 192GB RAM
+48 vCPU, 192 GB RAM
 
 </td>
 </tr>
@@ -986,7 +986,7 @@ Updating
 </td>
 <td valign="top">
 
-64vCPU, 256GB RAM
+64 vCPU, 256 GB RAM
 
 </td>
 </tr>
@@ -998,7 +998,7 @@ Updating
 </td>
 <td valign="top">
 
-4vCPU, 16GB RAM
+4 vCPU, 16 GB RAM
 
 </td>
 </tr>
@@ -1010,7 +1010,7 @@ Updating
 </td>
 <td valign="top">
 
-8vCPU, 32GB RAM
+8 vCPU, 32 GB RAM
 
 </td>
 </tr>
@@ -1022,7 +1022,7 @@ Updating
 </td>
 <td valign="top">
 
-16vCPU, 64GB RAM
+16 vCPU, 64 GB RAM
 
 </td>
 </tr>
@@ -1034,7 +1034,7 @@ Updating
 </td>
 <td valign="top">
 
-32vCPU, 128GB RAM
+32 vCPU, 128 GB RAM
 
 </td>
 </tr>
@@ -1046,7 +1046,7 @@ Updating
 </td>
 <td valign="top">
 
-48vCPU, 192GB RAM
+48 vCPU, 192 GB RAM
 
 </td>
 </tr>
@@ -1058,7 +1058,7 @@ Updating
 </td>
 <td valign="top">
 
-64vCPU, 256GB RAM
+64 vCPU, 256 GB RAM
 
 </td>
 </tr>
@@ -1089,7 +1089,7 @@ Updating
 </td>
 <td valign="top">
 
-4vCPU, 16GB RAM
+4 vCPU, 16 GB RAM
 
 </td>
 </tr>
@@ -1101,13 +1101,13 @@ Updating
 </td>
 <td valign="top">
 
-4vCPU, 16GB RAM
+4 vCPU, 16 GB RAM
 
 </td>
 </tr>
 </table>
 
-Here is an example of the input for the *Machine Type* parameter:
+See an example input for the *Machine Type* parameter:
 
 ```
 "machineType": "m5.xlarge"
@@ -1329,7 +1329,7 @@ You have the default Kyma modules provisioned in your cluster if you do not prov
 } 
 ```
 
-Here is an example of JSON input for a custom list of Kyma modules:
+See an example of JSON input for a custom list of Kyma modules:
 
 ```
 "modules": {
@@ -1429,7 +1429,9 @@ Provisioning
 </td>
 <td valign="top">
 
-CIDR range for nodes must not overlap with the following CIDRs: 10.96.0.0/13, 10.104.0.0/13, 10.243.128.0/17, 10.242.0.0/16, 10.243.0.0/17, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16.
+The CIDR range for nodes must not overlap with the following CIDRs: 10.242.0.0/16, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16.
+
+Also, the range for nodes must not overlap with those used for Pods or Services. That is also valid for the default ranges set for Pods or Services if you don’t provide your own.
 
 </td>
 </tr>
@@ -1460,7 +1462,9 @@ Provisioning
 </td>
 <td valign="top">
 
-CIDR range for Pods must not overlap with the following CIDRs: 10.96.0.0/13, 10.104.0.0/13, 10.243.128.0/17, 10.242.0.0/16, 10.243.0.0/17, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16.
+CIDR range for Pods must not overlap with the following CIDRs: 10.242.0.0/16, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16.
+
+Also, the range for Pods must not overlap with those used for nodes or Services. That is also valid for the default range set for Services if you don’t provide your own.
 
 </td>
 </tr>
@@ -1491,13 +1495,15 @@ Provisioning
 </td>
 <td valign="top">
 
-CIDR range for Services must not overlap with the following CIDRs: 10.96.0.0/13, 10.104.0.0/13, 10.243.128.0/17, 10.242.0.0/16, 10.243.0.0/17, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16.
+CIDR range for Services must not overlap with the following CIDRs: 10.242.0.0/16, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16.
+
+Also, the range for Services must not overlap with those used for nodes or Pods. That is also valid for the default range set for Pods if you don’t provide your own.
 
 </td>
 </tr>
 </table>
 
-Here is the default JSON input for the *Networking* object:
+See the default JSON input for the *Networking* object:
 
 ```
 "networking": {
@@ -1750,7 +1756,7 @@ To skip any prefixing, provide the value "-" \(dash character without additional
 </tr>
 </table>
 
-The following example shows the default configuration of the *OIDC* parameter. When you want to revert your changes to the default settings, copy and paste the following values:
+The following example shows the default configuration of the *OIDC* parameter. To revert your changes to the default settings, copy and paste the following values:
 
 ```
  "oidc": {

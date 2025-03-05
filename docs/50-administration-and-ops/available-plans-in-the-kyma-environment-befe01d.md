@@ -358,7 +358,10 @@ The technical names of the standard enterprise plans are `aws`, `gcp`, and `azur
 
 The [Kubernetes control plane](https://kubernetes.io/docs/reference/glossary/?all=true#term-control-plane) is also hosted in three availability zones of the respective region.
 
-While the high availability is guaranteed for Kubernetes and native Kyma components, by default it's not guaranteed for the customer's own applications. To guarantee high availability for your applications deployed on Kyma, you must manually configure these applications.
+While the high availability is guaranteed for Kubernetes and native Kyma components, by default, it's not guaranteed for the customer's own applications. To guarantee high availability for your applications deployed on Kyma, you must manually configure these applications.
+
+> ### Note:  
+> To indicate that your Kyma runtime is used for production, select *Used for production* in your subaccount details. This setting allows SAP BTP, Kyma runtime operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.

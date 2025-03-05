@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Access Joule \(Beta\)
+# Access Joule in the Cockpit \(Beta\)
 
 Launch Joule directly from SAP BTP cockpit.
 
@@ -17,7 +17,7 @@ Joule is accessed directly from the cockpit when you click the diamond icon <spa
 
 ## Authentication
 
-Joule only supports SAP-managed IAS tenants for authentication at this time.
+Joule currently only supports SAP ID service, the default identity provider of SAP BTP. To learn more about SAP ID service, see [Default Identify Provider](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/d6a8db70bdde459f92f2837349f95090.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
 
 

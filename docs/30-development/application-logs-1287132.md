@@ -419,6 +419,13 @@ The Telemetry module ensures that the log agent instances are operational and he
 
 To detect and fix such situations, check the pipeline status and check out [Troubleshooting](application-logs-1287132.md#loio12871325f46f48f6b4340c8ef47bdc66__section_kyma_logs_troubleshooting).
 
+If you have set up pipeline health monitoring, check the alerts and reports in an integrated backend like SAP Cloud Logging. For details, see [Setting up a MetricPipeline](metrics-44ac6c5.md#loio44ac6c5afef0464480fa18acb7483972__section_kyma_metrics_metricpipeline_setup), step *Monitor Pipeline Health*, as well as [Integrate with SAP Cloud Logging](integrate-with-sap-cloud-logging-eac5771.md).
+
+> ### Caution:  
+> It's not recommended to access the metrics endpoint of the used FluentBit instances directly, because the exposed metrics are no official API of the Kyma Telemetry module. Breaking changes can happen if the underlying FluentBit version introduces such.
+> 
+> Instead, use the [pipeline status](https://github.com/a-thaler/telemetry-manager/blob/ebbee2c1c785162ffe0970a238e1e775f9992d33/docs/user/resources/02-logpipeline.md#logpipeline-status).
+
 
 
 <a name="loio12871325f46f48f6b4340c8ef47bdc66__section_kyma_logs_limitations"/>

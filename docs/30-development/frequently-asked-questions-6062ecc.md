@@ -8,13 +8,13 @@
 
 ### My MTA deployment failed. What could be done?
 
-Check the [MTA Operation Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:40911) section.
+Check the [MTA Operation Failure](mta-operation-failure-f3e97ff.md) section.
 
 
 
 ### What to do when my application start-up/staging failed?
 
-Check the [Application Start-up Failed](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:41937) section.
+Check the [MTA Operation Failure](mta-operation-failure-f3e97ff.md) section.
 
 
 
@@ -66,13 +66,13 @@ Use the `cf mtas` command and locate the ID of the desired MTA. After locating t
 
 ### What can I do with my deployment?
 
--   If the deployment fails, see [MTA Operation Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:40911).
+-   If the deployment fails, see [MTA Operation Failure](mta-operation-failure-f3e97ff.md).
 
 -   If the deployment finishes successfully, you can check the deployment logs.
 
 -   If the deployment is still running, you can abort or monitor it.
 
-    The **Abort** action is described in more details in the [MTA Operation Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:40911) section.
+    The **Abort** action is described in more details in the [MTA Operation Failure](mta-operation-failure-f3e97ff.md) section.
 
     The **Monitor** action can be executed with the following command:
 
@@ -92,13 +92,13 @@ You can abort the currently running deployment, using the command `cf <operation
 
 ### What are the size limits of an MTA?
 
-4GB for the whole MTA and 1GB for a single module. For more information, see [Multitarget Applications for the Cloud Foundry Environment](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md#loiod04fc0e2ad894545aebfd7126384307c__section_ph2_r5h_1cb).
+4GB for the whole MTA and 1GB for a single module. For more information, see [Prerequisites and Restrictions](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md#loiod04fc0e2ad894545aebfd7126384307c__section_ph2_r5h_1cb).
 
 
 
 ### What to do in case of service creation failure?
 
-See [Service Create Failure](https://gad5158842f.us2.hana.ondemand.com/dtp/viewer/#/tree/2798/actions/40943:42021).
+See [MTA Operation Failure](mta-operation-failure-f3e97ff.md).
 
 
 

@@ -1,8 +1,6 @@
 <!-- loioc5e997235f724ec686dc5dc101a1ccfb -->
 
-<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
-
-# Configure Trusted Domains for Multi-environment Subaccounts
+# Configure Trusted Domains for Multi-Environment Subaccounts
 
 By default, applications of the subaccount, including login pages of the SAP Authorization and Trust Management service \(XSUAA\), can’t be framed by other applications in different domains for security reasons.
 
@@ -43,9 +41,11 @@ To prevent clickjacking or overlay attacks, web browsers follow a same origin po
 
 1.  Go to your subaccount \(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Settings*.
 
-2.  Choose :heavy_plus_sign:.
+2.  Choose the *Trusted Domains* tab.
 
-3.  Enter the host name for the trusted domain.
+3.  Choose *Add*.
+
+4.  Enter the host name for the trusted domain.
 
     For example: `https://store.example.com`
 
@@ -56,7 +56,7 @@ To prevent clickjacking or overlay attacks, web browsers follow a same origin po
     > ### Note:  
     > All the trusted domains together, including their space separators, can't exceed 2048 characters.
 
-4.  Save your entries.
+5.  Save your entries.
 
 
 

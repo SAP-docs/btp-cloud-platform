@@ -1,12 +1,12 @@
 <!-- loio18564c54f529496ba420d4c83545a2ce -->
 
-# How to Clone Software Components
+# Clone Software Components
 
 
 
-<a name="loio18564c54f529496ba420d4c83545a2ce__section_q4w_4fj_1mb"/>
 
-## Context
+
+### Context
 
 If a software component is not locally in your system yet, you will first need to clone it once to import it into your system.
 
@@ -19,9 +19,7 @@ Example of a use case: If you have a faulty remote repository \(software compone
 
 
 
-<a name="loio18564c54f529496ba420d4c83545a2ce__section_kkv_vfj_1mb"/>
-
-## Procedure
+### Procedure
 
 1.  Go to the details page of the software component you would like to clone.
 
@@ -44,5 +42,5 @@ Example of a use case: If you have a faulty remote repository \(software compone
 **Related Information**  
 
 
-[How to Pull Software Components](how-to-pull-software-components-90b9b9d.md "")
+[Pull Software Components](pull-software-components-90b9b9d.md "")
 

@@ -118,8 +118,8 @@ Depending on your requirement, you can either choose to modify, monitor the sche
 
 -   [Modify a Turnkey Schedule](modify-a-turnkey-schedule-c298485.md)
 
--   [Turnkey Schedule Details](turnkey-schedule-details-04ce3d7.md)
-
 -   [Additional Turnkey Actions](additional-turnkey-actions-302be20.md)
+
+-   [Turnkey Schedule Details](turnkey-schedule-details-04ce3d7.md)
 
 

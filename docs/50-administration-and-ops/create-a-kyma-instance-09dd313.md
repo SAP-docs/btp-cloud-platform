@@ -23,6 +23,9 @@ To set up the Kyma environment on your subaccount, you must create an instance o
 > ### Note:  
 > The legacy method to set up a Kubernetes cluster is to select *Enable Kyma* in the *Kyma Environment* section of your subaccount overview. However, this way offers fewer configuration options, so we recommend the Service Marketplace.
 
+> ### Note:  
+> To indicate that your Kyma runtime is used for production, select *Used for production* in your subaccount details. This setting allows SAP BTP, Kyma runtime operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).
+
 
 
 <a name="loio09dd313bf6644250a14f8f38c3d644c0__steps_dbj_w15_frb"/>

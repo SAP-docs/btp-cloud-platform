@@ -4,7 +4,7 @@
 
 
 
-In the **checked system**, the RFC user needs the following authorizations:
+You can either apply [3548772](https://me.sap.com/notes/3548772) in the **checked system** to get all relevant authorizations for your RFC user or, alternatively, check the table below.
 
 ****
 
@@ -344,9 +344,4 @@ Value
 </td>
 </tr>
 </table>
-
-
-
-> ### Tip:  
-> Alternatively, you can apply [3548772](https://me.sap.com/notes/3548772) in the checked system to get all relevant authorizations.
 

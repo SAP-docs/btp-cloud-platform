@@ -1,25 +1,21 @@
 <!-- loio67e2f2e1fbcf48a4801bad004133e0a7 -->
 
-# How to Create Software Components
+# Create Software Components
 
 
 
-<a name="loio67e2f2e1fbcf48a4801bad004133e0a7__section_w21_qmk_m3b"/>
 
-## Context
+
+### Context
 
 To create a new software component, perform the following steps:
 
 
 
-<a name="loio67e2f2e1fbcf48a4801bad004133e0a7__section_x4n_jdc_p2b"/>
-
-## Procedure
+### Procedure
 
 1.  On the *Manage Software Components* screen, select *Create*.
 2.  In the *New Software Component* popup, select your namespace from the drop-down menu and enter a name for the software component. Optionally you can also enter a description \(max. 60 characters\), which explains the functions of the component and is displayed in the app. Choose a type for your software component: Select either *Development* or *Business Configuration* from the drop-down menu.
-
-    **Software Component Types**
 
 
     <table>
@@ -70,7 +66,7 @@ To create a new software component, perform the following steps:
 
 4.  Back on the *Manage Software Component Lifecycle* screen, choose *Go* to display the new software component in the list.
 
-    1.  As soon as your software component is cloned into a service instance, a structure package with the same name as the software component is created there. The structure package can contain several ABAP packages. See [How to Clone Software Components](how-to-clone-software-components-18564c5.md).
+    1.  As soon as your software component is cloned into a service instance, a structure package with the same name as the software component is created there. The structure package can contain several ABAP packages. See [Clone Software Components](clone-software-components-18564c5.md).
 
     2.  The instance is integrated with the ABAP Development Tools \(ADT\), where ABAP development objects are created in development packages and uploaded to the structure package.
 

@@ -6,6 +6,18 @@ Here you can find a list of the security events that are logged by SAP Authoriza
 
 
 
+<a name="loiod8f4b7c7298a422183beddb4ad47c108__section_unr_qs1_42c"/>
+
+## Troubleshoot Identity Provider Issues
+
+To help troubleshoot issues with the identity provider, use tools depending on the trust configuration:
+
+For SAML identity providers, you can use the network trace of your browser.
+
+For OIDC identity providers, use the troubleshooting tools of the identity provider. For SAP Cloud Identity Services, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/logging-openid-connect-tokens?version=Cloud).
+
+
+
 <a name="loiod8f4b7c7298a422183beddb4ad47c108__section_xmv_pfp_spb"/>
 
 ## Security Events of the User Account and Authentication Service
@@ -178,8 +190,6 @@ Update instance.
 <td valign="top">
 
 <code>Attribute with name "complete" and value ""ServiceInstanceId: <i class="varname">&lt;Instance_ID&gt;</i></code>
-
-…
 
 <code>object with type "<i class="varname">&lt;Instance_Name&gt;</i>" and id consisting of: crudType "UPDATE"</code>
 
@@ -496,6 +506,8 @@ Assign global account or subaccount administrator in case of an emergency
 
 > ### Example:  
 > -   Assignment of a subaccount administrator by a global account administrator
+> 
+> -   Assignment of a global account administrator by an authorized user
 
 
 
@@ -531,7 +543,7 @@ Further information included in the log:
 </td>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="2">
 
 Token Embedding
 
@@ -553,6 +565,16 @@ audit.security-events
 Occurs when an error occurs when attempting to exchange a token for a token with an embedded token from SAP Cloud Identity Services or a corporate identity provider. Check the configuration of the application.
 
 For more information, see [Include Tokens from Corporate Identity Providers or SAP Cloud Identity Services in Tokens of the SAP Authorization and Trust Management Service](../30-development/include-tokens-from-corporate-identity-providers-or-sap-cloud-identity-services-in-tokens-8dc480a.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="3">
+
+> ### Caution:  
+> Be prepared for the possibility that the initial token retrieval might not include the corporate identity provider token. In such a case, a retry is recommended. However, keep in mind that even the retry might not yield the desired token, so ensure your application can handle this situation appropriately.
+
+
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ Troubleshooting and support information for the btp CLI.
 
 ## Make sure that you are using a recent version of the btp CLI client
 
-We recommend checking for updates of the client on a regular basis. Most new functionality is added via the CLI server, so no update from your side is required. But if new functionality is added to the client, the only way to get it is by downloading and installing a newer version.
+We recommend checking for updates of the client on a regular basis. Most new functionality is added via the CLI server, so no update from your side is required. But if new functionality is added to the client, the only way to get it is by downloading and installing the latest version.
 
-Run the command `btp` or `btp --info` to find out which version of the client you are using. Then check on our [download page](https://tools.hana.ondemand.com/#cloud-cpcli) for the current version and install the latest client.
+Run the command `btp` or `btp --info` to see which version of the client you are using. To get the latest client, you can run the [installation script](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/8a8f17f5fd334fb583438edbd831d506.html?locale=en-US&state=PRODUCTION&version=Cloud) for your operating system. Alternatively, you can check on our [download page](https://tools.hana.ondemand.com/#cloud-cpcli) for the current version and manually install the latest client.
 
 Use `btp --help` to display an overview of all commands. If new commands are available but cannot be used with your client version, these commands are marked with a notice to update your client. If you run such a command, you get an error message pointing you to the client version that you need.
 
@@ -20,13 +20,21 @@ Use `btp --help` to display an overview of all commands. If new commands are ava
 
 <a name="loio4023e1504ebc4a00a5108b8f716fe9a3__section_b25_g3c_xlb"/>
 
-## I cannot log on
+## I can't log on
 
 To log on, we recommend to run `btp login --sso` or `btp login` without parameters. Then confirm the server URL that is proposed by the CLI and provide your credentials when you are prompted. After successful authentication, the btp CLI will log you into your global account, or, if you have more than one, will show all available global accounts for you to select the one you need.
 
 To log on with SAP Universal ID, you need to use the `--sso` parameter. Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
 
 For more information, see SAP Note [3085908](https://me.sap.com/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
+
+
+
+<a name="loio4023e1504ebc4a00a5108b8f716fe9a3__section_p1h_yzh_42c"/>
+
+## I'm getting an error message about connecting to the server
+
+If you get an error message about connecting to the server, you should update your root CA or install the custom CA for the login URL you used. The btp CLI uses system defaults to locate the installed CA certificates. You should therefore follow the standard instructions for your operating system.
 
 
 

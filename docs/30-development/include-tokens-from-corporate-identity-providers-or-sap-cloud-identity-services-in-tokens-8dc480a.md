@@ -109,6 +109,13 @@ The following figure illustrates this scenario.
 
 The service can embed tokens of trusted identity providers in its tokens.
 
+> ### Caution:  
+> Your deployed application might not receive a token from the corporate identity provider even if it is configured to recognize the token from the corporate identity provider.
+> 
+> We recommend that applications implement one retry for the token retrieval if the received token does not contain the corporate identity provider token. Additionally, applications should react appropriately if the corporate identity provider token is still missing after the retry.
+> 
+> To analyze the issue, refer to the auditing and logging information. See [Auditing and Logging Information for SAP Authorization and Trust Management Service](../60-security/auditing-and-logging-information-for-sap-authorization-and-trust-management-service-d8f4b7c.md).
+
 
 
 <a name="loio8dc480a09e77437580cf0d85b82dbe8e__postreq_gln_t4q_nwb"/>
