@@ -1,6 +1,6 @@
 <!-- loio4023e1504ebc4a00a5108b8f716fe9a3 -->
 
-# Troubleshooting and Support
+# Troubleshooting for the btp CLI
 
 Troubleshooting and support information for the btp CLI.
 

@@ -1115,6 +1115,355 @@ See an example input for the *Machine Type* parameter:
 
 
 
+### \[WIP\] Machine Type in Additional Worker Node Pools
+
+> ### Note:  
+> The virtual machines in the following table are only available for use in [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
+
+**Machine Type in Additional Worker Node Pools**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Plan
+
+</th>
+<th valign="top">
+
+Supported Operation
+
+</th>
+<th valign="top">
+
+Allowed Input
+
+</th>
+<th valign="top">
+
+Virtual Machine Size
+
+</th>
+<th valign="top">
+
+Availability Regions
+
+</th>
+</tr>
+<tr>
+<td valign="top" rowspan="7">
+
+Standard: Amazon Web Services
+
+technical name: `aws`
+
+</td>
+<td valign="top" rowspan="7">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+`c7i.large`
+
+</td>
+<td valign="top">
+
+2 vCPU, 4 GB RAM
+
+</td>
+<td valign="top" rowspan="7">
+
+All Amazon Web Services regions. See [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c7i.xlarge`
+
+</td>
+<td valign="top">
+
+4 vCPU, 8 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c7i.2xlarge`
+
+</td>
+<td valign="top">
+
+8 vCPU, 16 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c7i.4xlarge`
+
+</td>
+<td valign="top">
+
+16 vCPU, 32 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c7i.8xlarge`
+
+</td>
+<td valign="top">
+
+32 vCPU, 64 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c7i.12xlarge`
+
+</td>
+<td valign="top">
+
+48 vCPU, 96 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c7i.16xlarge`
+
+</td>
+<td valign="top">
+
+64 vCPU, 128 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="6">
+
+Standard: Google Cloud
+
+technical name: `gcp`
+
+</td>
+<td valign="top" rowspan="6">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+`c2d-highcpu-2`
+
+</td>
+<td valign="top">
+
+2 vCPU, 4 GB RAM
+
+</td>
+<td valign="top" rowspan="6">
+
+`europe-west3`
+
+`europe-west4`
+
+`us-central1`
+
+`us-west1`
+
+`us-east4`
+
+`asia-southeast1`
+
+`asia-south1`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c2d-highcpu-4`
+
+</td>
+<td valign="top">
+
+4 vCPU, 8 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c2d-highcpu-8`
+
+</td>
+<td valign="top">
+
+8 vCPU, 16 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c2d-highcpu-16`
+
+</td>
+<td valign="top">
+
+16 vCPU, 32 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c2d-highcpu-32`
+
+</td>
+<td valign="top">
+
+32 vCPU, 64 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`c2d-highcpu-56`
+
+</td>
+<td valign="top">
+
+56 vCPU, 112 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="7">
+
+Standard: Microsoft Azure
+
+technical name: `azure`
+
+</td>
+<td valign="top" rowspan="7">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+`Standard_F2s_v2`
+
+</td>
+<td valign="top">
+
+2 vCPU, 4 GB RAM
+
+</td>
+<td valign="top" rowspan="7">
+
+All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_F4s_v2`
+
+</td>
+<td valign="top">
+
+4 vCPU, 8 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_F8s_v2`
+
+</td>
+<td valign="top">
+
+8 vCPU, 16 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_F16s_v2`
+
+</td>
+<td valign="top">
+
+16 vCPU, 32 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_F32s_v2`
+
+</td>
+<td valign="top">
+
+32 vCPU, 64 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_F48s_v2`
+
+</td>
+<td valign="top">
+
+48 vCPU, 96 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Standard_F64s_v2`
+
+</td>
+<td valign="top">
+
+64 vCPU, 128 GB RAM
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Modules"/>
 
 ## Modules

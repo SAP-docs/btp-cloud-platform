@@ -1313,7 +1313,7 @@
                 -   [Managing Security Settings](50-administration-and-ops/managing-security-settings-168dd75.md)
                 -   [Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](50-administration-and-ops/managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-managemen-ce43eb5.md)
                 -   [Working with Resources of the SAP Service Manager Using the btp CLI](50-administration-and-ops/working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md)
-            -   [Troubleshooting and Support](50-administration-and-ops/troubleshooting-and-support-4023e15.md)
+            -   [Troubleshooting for the btp CLI](50-administration-and-ops/troubleshooting-for-the-btp-cli-4023e15.md)
         -   [Account Administration Using APIs](50-administration-and-ops/account-administration-using-apis-1c8db14.md)
             -   [Account Administration Using APIs of the SAP Cloud Management Service](50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-17b6a17.md)
                 -   [Getting an Access Token for SAP Cloud Management Service APIs](50-administration-and-ops/getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md)

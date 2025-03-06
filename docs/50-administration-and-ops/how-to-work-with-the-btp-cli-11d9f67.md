@@ -120,7 +120,7 @@ Displays help. See [Get Help](get-help-f8fd1e5.md).
 </td>
 <td valign="top">
 
-Prints tracing information for support or for your own troubleshooting. See [Troubleshooting and Support](troubleshooting-and-support-4023e15.md).
+Prints tracing information for support or for your own troubleshooting. See [Troubleshooting for the btp CLI](troubleshooting-for-the-btp-cli-4023e15.md).
 
 To set the command output to verbose persistently, you can change the configuration settings with `btp set config --verbose true`. See [Change Configuration Settings](change-configuration-settings-dba4eb6.md).
 
