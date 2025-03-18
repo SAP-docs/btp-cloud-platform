@@ -39,7 +39,7 @@
     > </resources>
     > ```
 
-2.  Add the default keys and their values. You need to include the data source information in directory **`META-INF/sap_java_buildpack_jakarta/config/resource_configuration.yml`** of the WAR file.
+2.  Add the default keys and their values. You need to include the data source information in directory **`META-INF/sap_java_buildpack/config/resource_configuration.yml`** of the WAR file.
 
     -   Define a default service name for a Web application:
 

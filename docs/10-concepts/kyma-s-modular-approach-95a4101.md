@@ -60,6 +60,11 @@ A release of a new module’s version is announced with a release note in [What�
 
 For more details on the Kyma release schedule, see [3459911](https://me.sap.com/notes/3459911).
 
+> ### Note:  
+> In the What’s New for SAP Business Technology Platform, we also pre-notify users about breaking changes at least three months in advance. The release notes provide information on the actions required of users, as well as links to more detailed documentation or corresponding blog posts, including details on the opt-in solutions and migration timelines.
+> 
+> To receive notifications on breaking changes and other updates, subscribe to [What’s New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&Component=Kyma+Runtime).
+
 **Related Information**  
 
 

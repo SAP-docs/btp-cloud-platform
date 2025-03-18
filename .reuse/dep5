@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: btp-cloud-platform
+Upstream-Contact: Tsvetan Angelov (tsvetan.angelov01@sap.com)
+Source: https://github.com/sap-docs/btp-cloud-platform
+
+Files: *
+Copyright:  2021-2023 SAP SE or an SAP affiliate company and https://github.com/sap-docs/btp-cloud-platform contributors
+License: CC-BY-4.0

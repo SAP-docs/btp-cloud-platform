@@ -42,6 +42,8 @@ If you do not provide the `additionalWorkerNodePools` array in the provisioning 
 
 If you do not provide the `additionalWorkerNodePools` array in the update request, the saved additional worker node pools stay unchanged. However, if you provide an empty array in the update request, all existing additional worker node pools are removed. If you rename your existing additional worker node pool, it is deleted and a new one is created.
 
+See also [Assigning Workloads to Worker Node Pools](assigning-workloads-to-worker-node-pools-1bf21c1.md).
+
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
 
@@ -1115,7 +1117,7 @@ See an example input for the *Machine Type* parameter:
 
 
 
-### \[WIP\] Machine Type in Additional Worker Node Pools
+### Machine Type in Additional Worker Node Pools
 
 > ### Note:  
 > The virtual machines in the following table are only available for use in [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).

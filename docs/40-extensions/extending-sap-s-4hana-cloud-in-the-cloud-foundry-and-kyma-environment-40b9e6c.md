@@ -2,7 +2,7 @@
 
 # Extending SAP S/4HANA Cloud in the Cloud Foundry and Kyma Environment
 
-Extend SAP S/4HANA Cloud with extension applications running on the cloud platform using automated integration configuration.
+Extend SAP S/4HANA Cloud with extension applications running on SAP BTP using automated integration configuration.
 
 
 
@@ -11,7 +11,7 @@ Extend SAP S/4HANA Cloud with extension applications running on the cloud platfo
 ## Overview
 
 > ### Note:  
-> The SAP S/4HANA Cloud Extensibility service is availble for the EU-only access regions. See [Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions).
+> The SAP S/4HANA Cloud Extensibility service is available for the EU-only access regions. See [Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions).
 
 > ### Note:  
 > This documentation refers to SAP S/4HANA Cloud Public Edition. See [Introduction to the Universe of SAP S/4HANA Cloud Public Edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).

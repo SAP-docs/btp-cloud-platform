@@ -29,7 +29,7 @@ The gateways are based on the [OTel Collector](https://opentelemetry.io/docs/col
 
 -   Native Kubernetes support: API provided by Kyma supports an easy integration with Secrets, for example, served by the [SAP BTP Service Operator](https://github.com/SAP/sap-btp-service-operator#readme). Telemetry Manager takes care of the full lifecycle.
 
--   Focus: The user doesn’t need to understand underlying concepts.
+-   Focus: The user doesn’t need to understand the underlying concepts.
 
 
 The Telemetry module focuses on full configurability of backends integrated by OTLP. If you need more features than provided by the Kyma `MetricPipeline`, bring your own collector setup.
@@ -67,6 +67,17 @@ The Telemetry gateways automatically enrich your data by adding the following at
 
     -   Cluster name
 
+
+-   **Cloud provider** attributes: If data is available, the gateway automatically adds [cloud provider](https://opentelemetry.io/docs/specs/semconv/resource/cloud/) attributes to the telemetry data.
+
+    -   `cloud.provider`: Cloud provider name
+    -   `cloud.region`: Region where the Node runs \(from Node label `topology.kubernetes.io/region`\)
+    -   `cloud.availability_zone`: Zone where the Node runs \(from Node label `topology.kubernetes.io/zone`\)
+
+-   **Host** attributes: If data is available, the gateway automatically adds [host](https://opentelemetry.io/docs/specs/semconv/resource/host/) attributes to the telemetry data:
+
+    -   `host.type`: Machine type of the Node \(from Node label `node.kubernetes.io/instance-type`\)
+    -   `host.arch`: CPU architecture of the system the Node is running on \(from Node label `kubernetes.io/arch`\)
 
 
 

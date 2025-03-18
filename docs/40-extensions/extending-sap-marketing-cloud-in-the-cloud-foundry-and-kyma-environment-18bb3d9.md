@@ -9,7 +9,7 @@
 ## Overview
 
 > ### Note:  
-> The SAP S/4HANA Cloud Extensibility service is availble for the EU-only access regions. See [Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions).
+> The SAP S/4HANA Cloud Extensibility service is available for the EU-only access regions. See [Regions](https://help.sap.com/docs/btp/sap-business-technology-platform/regions).
 
 SAP BTP offers a standard way for extending SAP solutions.
 

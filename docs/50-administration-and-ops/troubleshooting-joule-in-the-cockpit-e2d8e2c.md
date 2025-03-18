@@ -1,6 +1,6 @@
 <!-- loioe2d8e2c0ad914564bd02f8b0d2c526c7 -->
 
-# Troubleshooting Joule in SAP BTP cockpit
+# Troubleshooting Joule in the Cockpit
 
 When you work with Joule, you could have questions about the things you see in the chat conversation. A list of common questions and answers are provided here.
 
@@ -18,5 +18,5 @@ When you work with Joule, you could have questions about the things you see in t
 -   **Solution 1**: Type the name of your subaccount directly in the chat window.
 
 -   **Cause 2**: Joule can only list subaccounts that are successfully created in SAP BTP cockpit.
--   **Solution 2**: Check your SAP BTP cockpit global account and make sure that the subaccount was created successfully. If the create action failed, you'll see a red tag on the subaccount that says *Creation Failed*.
+-   **Solution 2**: Check your SAP BTP cockpit global account and make sure that the subaccount was successfully created . If the create action failed, you'll see a red tag on the subaccount that says *Creation Failed*.
 

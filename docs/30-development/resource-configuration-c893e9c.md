@@ -78,7 +78,7 @@ tomcat/conf/server.xml:
     		resources/
     		webapp/
     			META-INF/
-    				sap_java_buildpack_jakarta/
+    				sap_java_buildpack/
     					config/
     						resource_configuration.yml
     			WEB-INF/
