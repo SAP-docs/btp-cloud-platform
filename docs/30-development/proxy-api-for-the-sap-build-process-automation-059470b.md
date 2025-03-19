@@ -1,8 +1,8 @@
 <!-- loio059470b6349d482f89eb9993be14ec00 -->
 
-# Proxy API for the Workflow Capability
+# Proxy API for the SAP Build Process Automation
 
-With the proxy API, you can start workflows of the workflow capability within SAP Workflow Management out of your ABAP Environment.
+With the proxy API, you can start workflows of the workflow capability within SAP Build Process Automation out of your ABAP Environment.
 
 
 
@@ -14,12 +14,12 @@ The overall starting point is the class CL\_SWF\_CPWF\_API\_FACTORY\_A4C. Once y
 
 ## Prerequisites
 
-You've executed the integration steps in your ABAP environment. See [Integrating SAP Workflow Management](../50-administration-and-ops/integrating-sap-workflow-management-b7931f7.md).
+You've executed the integration steps in your ABAP environment. See [Integrating SAP Build Process Automation](../50-administration-and-ops/integrating-sap-build-process-automation-4973966.md).
 
 
 
 > ### Sample Code:  
-> This coding sample shows how to start a workflow of the workflow capability.
+> This coding sample shows how to start a workflow of the SAP Build Process Automation.
 > 
 > ```abap
 > 
@@ -37,7 +37,7 @@ You've executed the integration steps in your ABAP environment. See [Integrating
 >     ).
 > 
 >     DATA(lv_cpwf_handle) = lo_cpwf_api->start_workflow(
->       iv_cp_workflow_def_id = 'SAP Workflow Management Workflow Definition ID'
+>       iv_cp_workflow_def_id = 'SAP Build Process Automation Workflow Definition ID'
 >       iv_context            = lv_context_json
 >       iv_retention_time     = 30
 >       iv_callback_class     = 'ZCL_SWF_CPWF_CALLBACK'
@@ -87,8 +87,8 @@ You've executed the integration steps in your ABAP environment. See [Integrating
 >              value TYPE int4,
 >            END OF ty_example_context.
 > 
->     CONSTANTS: lc_cp_workflow_def_id TYPE if_swf_cpwf_api=>cpwf_def_id 		VALUE '<SAP Workflow Management Workflow Definition ID>',
->                lc_event_def_id       TYPE if_swf_cpwf_api=>cpwf_evt_def_id 	VALUE '<SAP Workflow Management Event Definition ID>'.
+>     CONSTANTS: lc_cp_workflow_def_id TYPE if_swf_cpwf_api=>cpwf_def_id 		VALUE '<SAP Build Process Automation Workflow Definition ID>',
+>                lc_event_def_id       TYPE if_swf_cpwf_api=>cpwf_evt_def_id 	VALUE '<SAP Build Process Automation Event Definition ID>'.
 > 
 >     TRY.
 >         " Get a Instance for the CPWF Integration API

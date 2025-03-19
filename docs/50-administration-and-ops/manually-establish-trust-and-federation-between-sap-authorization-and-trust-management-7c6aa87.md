@@ -82,9 +82,11 @@ The following procedure describes how to establish trust with an SAP Cloud Ident
 
     This action also fills the fields for the single sign-on URLs and the single logout URLs.
 
-7.  Save your changes.
+7.  Provide a link text for user logon \(see [Using Multiple Identity Providers from the Same Subaccount](using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md)\).
 
-8.  To get the SAML metadata of your subaccount, choose *Download SAML Metadata*.
+8.  Save your changes.
+
+9.  To get the SAML metadata of your subaccount, choose *Download SAML Metadata*.
 
     You download an XML file with the SAML metadata of your subaccount. Its name is <code>saml-<i class="varname">&lt;subdomain&gt;</i>-sp.xml</code>. Use this file to import the SAML metadata into your identity provider.
 

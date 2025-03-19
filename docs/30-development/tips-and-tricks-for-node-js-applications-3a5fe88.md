@@ -23,14 +23,13 @@ To check your Node.js version, run:
 node --version
 ```
 
-To check your npm version, run:
+To check your *npm* version, run:
 
 ```
 npm --version
 ```
 
-> ### Tip:  
-> We recommend that you use the same *npm* version as the one on the SAP BTP, Cloud Foundry environment.
+**Tip:** We recommend that you use the same *npm* version as the one on the SAP BTP, Cloud Foundry environment.
 
 Alternatively, you can specify the *npm* version in the **package.json** file. For example, if you use Node.js 20, you can set:
 
@@ -103,11 +102,11 @@ node --v8-options
 
 At some point, you might need \(or decide\) to deploy your application with a particular buildpack version from the community [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) repository. For example, if this buildpack contains a Node.js version that is no longer supported by the SAP BTP, Cloud Foundry environment.
 
-Let's say, you want to pin version [1.8.9](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.9). To do that, proceed as follows:
+Let's say, you want to pin version [1.8.34](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.34). To do that, proceed as follows:
 
-1.  Open the **manifest.yml** file of your Node.js application.
+1.  Open the **`manifest.yml`** file of your Node.js application.
 
-2.  For the `buildpack` attribute, add the URL to version 1.8.9, like this:
+2.  For the `buildpack` attribute, add the URL to version 1.8.34, like this:
 
     ```
     
@@ -115,7 +114,7 @@ Let's say, you want to pin version [1.8.9](https://github.com/cloudfoundry/nodej
     applications:
     - name: myapp
       random-route: true
-      buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.9
+      buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.34
       memory: 128M
     ```
 
@@ -128,20 +127,51 @@ Let's say, you want to pin version [1.8.9](https://github.com/cloudfoundry/nodej
 
 **Alternative way:**
 
-If you don't want to make changes in your **manifest.yml** file, you can include the buildpack version in the `cf push` command.
+If you don't want to make changes in your **`manifest.yml`** file, you can include the buildpack version in the `cf push` command.
 
 -   To deploy just a **single** application with this particular buildpack version, run:
 
     ```
-    cf push myapp -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.9
+    cf push myapp -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.34
     ```
 
 -   To pin this buildpack version for **all** applications running in your SAP BTP, Cloud Foundry environment subaccount, run:
 
     ```
-    cf push -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.9
+    cf push -b https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.34
     ```
 
+
+
+
+<a name="loio3a5fe887f6e64abb827494baac352059__section_cp3_1bb_r2c"/>
+
+## Specify a buildpack version in `mtad.yaml`
+
+If you have a multi-target application, you can pin a specific buildpack version for it as well. Let's say, you need version [1.8.34](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.34). To do that, proceed as follows:
+
+1.  Open the **`mtad.yaml`** file of your Node.js application.
+
+2.  Set the module type to **javascript.nodejs**, for the `buildpack` attribute, add the URL to version 1.8.34, like this:
+
+    ```
+    
+    modules:
+    - name: myapp
+      type: javascript.nodejs
+      parameters:
+        buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.34
+    
+    ```
+
+3.  Redeploy your application. Run:
+
+    ```
+    cf push myapp
+    ```
+
+
+For more information, see: [MTA Module Types](https://help.sap.com/docs/btp/sap-business-technology-platform/modules#mta-module-types)
 
 
 
@@ -151,7 +181,7 @@ If you don't want to make changes in your **manifest.yml** file, you can include
 
 When deploying an application in the Cloud Foundry environment without specifying the application memory requirements, the Cloud Foundry controller assigns the default \(1G of RAM currently\) for your application. Many Node.js applications require less memory and assigning the default is a waste of resources.
 
-To save memory from your quota, specify the memory size in the deployment descriptor of your Cloud Foundry application – `manifest.yml`. For example:
+To save memory from your quota, specify the memory size in the deployment descriptor of your Cloud Foundry application – **`manifest.yml`**. For example:
 
 ```
 

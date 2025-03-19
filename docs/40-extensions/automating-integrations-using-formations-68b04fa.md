@@ -12,7 +12,7 @@ You can use the automated integration that allows you to include various SAP sys
 
 -   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   The SAP solution systems that you want to include to a formation must be listed in the *Systems* page. See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
+-   The SAP solution systems that you want to include to a formation must be listed in the *Systems* page. See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
 
 
 

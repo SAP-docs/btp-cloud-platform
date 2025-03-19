@@ -50,9 +50,75 @@ If a task was aborted with a runtime error, the short text of the corresponding 
 
 
 
+<a name="loio1193647aaf804eee8d8356ffe4096423__section_rg5_jty_m2c"/>
+
+## Example
+
+In this example, method `RUN_INST` of class `CL_ABAP_PARALLEL` is used.
+
+First, you have to define a processing class that implements the interface `IF_ABAP_PARALLEL`. The parallel processing starts with method `IF_ABAP_PARALLEL~DO`. The method in this example computes the square of a value.
+
+> ### Sample Code:  
+> ```abap
+> 
+> class LCL_PARALLEL_TASK definition. 
+>   public section. 
+>     interfaces IF_ABAP_PARALLEL. 
+>     methods CONSTRUCTOR importing P_INPUT type I. 
+>     data INPUT type I. 
+>     data RESULT type I. 
+> endclass. 
+> 
+> class LCL_PARALLEL_TASK implementation. 
+> 
+>   method CONSTRUCTOR. 
+>     SUPER->CONSTRUCTOR( ). 
+>     INPUT = P_INPUT. 
+>   endmethod. 
+> 
+>   method IF_ABAP_PARALLEL~DO. 
+>     RESULT = INPUT * INPUT. 
+>   endmethod. 
+> 
+> endclass.
+> 
+> ```
+
+Afterwards, you have to start the parallel processing using method `RUN_INST`. The input for this method is a list of instances of the processsing class. The output is also a list of instances of the processsing class plus additional information.
+
+> ### Sample Code:  
+> ```abap
+> class LCL_TEST_INST implementation. 
+>    method START. 
+>      data: 
+>        L_IN_TAB type CL_ABAP_PARALLEL=>T_IN_INST_TAB, 
+>        L_INST type ref to LCL_PARALLEL_TASK. 
+>      data(L_REF) = new CL_ABAP_PARALLEL( ). 
+> 
+>      do 1000 times. 
+>        append new LCL_PARALLEL_TASK( SY-INDEX ) to L_IN_TAB. 
+>      enddo. 
+> 
+>      L_REF->RUN_INST( exporting P_IN_TAB = L_IN_TAB importing P_OUT_TAB = data(L_OUT_TAB) ). 
+> 
+>      loop at L_OUT_TAB assigning field-symbol(<L_OUT>) where INST is not initial. 
+>        L_INST ?= <L_OUT>-INST.
+>        " use result in L_INST->RESULT. 
+>      endloop. 
+> 
+>    endmethod. 
+> 
+> endclass.
+> 
+> 
+>   
+> ```
+
+
+
 <a name="loio1193647aaf804eee8d8356ffe4096423__section_dzm_wpz_nzb"/>
 
 ## Related Information
 
-For more information, see the ABAP Doc comments of the `CL_ABAP_PARALLEL` class in ABAP Development Tools \(ADT\).
+For more information and examples, see the ABAP Doc comments of the `CL_ABAP_PARALLEL` class in the ABAP development tools for Eclipse \(ADT\).
 

@@ -14,7 +14,7 @@ Merging the SAP systems allows you to reduce the duplicate systems in the list. 
 
 -   You are a global account administrator, or you are a system landscape administrator of the global account where you want to deregister or remove your SAP system. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   You have registered the target SAP system. See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
+-   You have registered the target SAP system. See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
 
 
 

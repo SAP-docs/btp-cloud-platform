@@ -29,7 +29,7 @@ A role is an instance of a role template; you can build a role based on a role t
 
 3.  Choose *Security* in the navigation pane or go to *Cloud Foundry* \> *Spaces* \> *<your\_space\>* \> *<your\_application\>*.
 
-4.  Choose *Roles* in the navigation pane.
+4.  Choose *Security* \> *Roles* in the navigation pane.
 
     Here you see a complete list of all roles sorted by role templates. It also contains information about attributes used in this role and about the role collections the role has been added to. On the right side, you find the action buttons.
 

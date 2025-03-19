@@ -12,7 +12,7 @@ Here you can find a list of the security events that are logged by SAP Authoriza
 
 To help troubleshoot issues with the identity provider, use tools depending on the trust configuration:
 
-For SAML identity providers, you can use the network trace of your browser. For more information, see [2764266](https://me.sap.com/notes/2764266) and [2461862](https://me.sap.com/notes/2461862).
+For SAML identity providers, you can use the network trace of your browser. For more information, see [2461862](https://me.sap.com/notes/2461862).
 
 For OIDC identity providers, use the troubleshooting tools of the identity provider. For SAP Cloud Identity Services, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/logging-openid-connect-tokens?version=Cloud).
 

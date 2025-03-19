@@ -83,7 +83,7 @@ As an alternative to the steps that follow, you can use the *Setting Up Joule* b
     > ### Note:  
     > If a given SAP system is missing on the *Systems* page, it may be associated with a different customer ID on the SAP BTP global account you are working in. In this case, you need to add the system manually, and then, register it.
 
-    See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
+    See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
 
 2.  Create a formation of type *Integration with Joule* and include the relevant systems in it.
 

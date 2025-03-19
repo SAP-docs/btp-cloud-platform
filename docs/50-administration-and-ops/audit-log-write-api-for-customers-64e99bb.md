@@ -282,12 +282,24 @@ For security reasons, don't use very long validity period for the mTLS credentia
 
 ### Endpoints
 
-The endpoints exposed for the *premium* service plan for the 4 types of audit log categories are the following, where the <host\> can be obtained from the service key/service binding:
+The endpoints exposed for the *premium* service plan for the 4 types of audit log categories are the following, where the base URL can be obtained from the service key/service binding:
 
--   `https://api.auditlog.<host>:6081/audit-log/oauth2/v2/security-events`
--   `https://api.auditlog.<host>:6081/audit-log/oauth2/v2/configuration-changes`
--   `https://api.auditlog.<host>:6081/audit-log/oauth2/v2/data-accesses`
--   `https://api.auditlog.<host>:6081/audit-log/oauth2/v2/data-modifications`
+-   SAP BTP
+    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/security-events
+    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/configuration-changes
+    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/data-accesses
+    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/data-modifications
+
+-   SAP Converged Cloud
+    -   https://api.auditlog.<cf-domain\>:443/audit-log/premium/v2/security-events
+
+    -   https://api.auditlog.<cf-domain\>:443/audit-log/premium/v2/configuration-changes
+
+    -   https://api.auditlog.<cf-domain\>:443/audit-log/premium/v2/data-accesses
+
+    -   https://api.auditlog.<cf-domain\>:443/audit-log/premium/v2/data-modifications
+
+
 
 
 
@@ -734,7 +746,7 @@ This section contain examples for writing audit log events using `curl` demo pur
 Mandatory fields: `uuid`, `user`, `time`, `data`, `tenant`.
 
 ```
-curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oauth2/v2/security-events' \
+curl --location --request POST 'https://api.auditlog.cf.<cf-domain>:6081/audit-log/oauth2/v2/security-events' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <JWT-token-value>' \
 --data-raw '{
@@ -755,7 +767,7 @@ curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oa
 Mandatory fields: `object_id`, `uuid`, `user`, `tenant`, `time`, `attributes`.
 
 ```
-curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oauth2/v2/configuration-changes' \
+curl --location --request POST 'https://api.auditlog.cf.<cf-domain>:6081/audit-log/oauth2/v2/configuration-changes' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <JWT-token-value>'\
 --data-raw '{
@@ -803,7 +815,7 @@ curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oa
 Mandatory fields: `object_id`, `user`, `tenant`, `time`, `attributes`.
 
 ```
-curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oauth2/v2/data-accesses' \
+curl --location --request POST 'https://api.auditlog.cf.<cf-domain>:6081/audit-log/oauth2/v2/data-accesses' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <JWT-token-value>'\
 --data-raw '{
@@ -863,7 +875,7 @@ curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oa
 Mandatory fields: `object_id`, `user`, `tenant`, `time`, `attributes`.
 
 ```
-curl --location --request POST 'https://api.auditlog.cf.<host>:6081/audit-log/oauth2/v2/data-modifications' \
+curl --location --request POST 'https://api.auditlog.cf.<cf-domain>:6081/audit-log/oauth2/v2/data-modifications' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <JWT-token-value>' \
 --data-raw '{

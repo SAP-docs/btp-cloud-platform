@@ -6,9 +6,6 @@ This page provides solutions on known issues related to the Node.js buildpack.
 
 If you can't find a solution to your problem, create an incident to component **`BC-CP-CF-BLDP`**.
 
-> ### Note:  
-> You can also use component **`BC-XS-JS`**.
-
 
 
 <a name="loio1462ff0fa7f04839a96c51d968d15b34__section_np5_node_bbb"/>

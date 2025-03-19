@@ -10,7 +10,7 @@ Register an SAP Customer Experience system to connect it with a global account i
 
 ## Prerequisites
 
--   See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
+-   See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
 
 -   You are an administrator of the global account where you want to register your SAP Customer Experience system.
 
@@ -33,7 +33,7 @@ The registration process has the following states displayed in the cockpit:
 
     Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in.
 
--   *Error while Deregistering* - the deregistration has failed. Try to deregister the system again. If the problem persists, you have to report a case in the `BC-CP-MP` component.
+-   *Error while Deregistering* - the deregistration has failed. Try to deregister the system again. If the problem persists, report a case in the `BC-CP-MP` component.
 -   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the link between the SAP solution and SAP BTP is destroyed and the system is removed from the list. To register the system again, first you must add it to the list anew, and then initiate the registration procedure.
 
     Once a system is registered, you can only remove it if you first deregister it.
@@ -51,7 +51,7 @@ The registration process has the following states displayed in the cockpit:
     > 
     >     Try to deregister the system again.
 
--   *Error while Removing* - the system removal has failed. Try to deregister the system again. If the problem persists, you have to report a case in the `BC-CP-MP` component.
+-   *Error while Removing* - the system removal has failed. Try to remove the system again. If the problem persists, report a case in the `BC-CP-MP` component.
 
 > ### Note:  
 > When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.
@@ -123,7 +123,7 @@ Once you use the integration token to connect your SAP Customer Experience syste
 **Related Information**  
 
 
-[Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md "To connect an SAP system with a global account in SAP BTP, you need to register the system. You can also add and work with a third-party systems.")
+[Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md "To connect an SAP system with a global account in SAP BTP, you need to register the system. You can also add and work with a third-party systems.")
 
 [Deregister or Removе a System](deregister-or-remov-a-system-0c6f498.md "When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.")
 

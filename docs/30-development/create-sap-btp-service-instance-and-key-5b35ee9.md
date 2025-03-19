@@ -1,12 +1,12 @@
-<!-- loio9cd044550da94218ba18ffcb8bfb01b7 -->
+<!-- loio5b35ee98403045309bb0f8c7f0c79365 -->
 
-# Create SAP BTP Cockpit Service Instance and Key
+# Create SAP BTP Service Instance and Key
 
 Create a service instance and service key for accessing SAP AI Core, where the large language models in the generative AI hub are hosted. The X.509 service key is created with the downloaded client default certificate of the ABAP system passed as parameter.
 
 
 
-<a name="loio9cd044550da94218ba18ffcb8bfb01b7__prereq_cw2_s2f_jdc"/>
+<a name="loio5b35ee98403045309bb0f8c7f0c79365__prereq_cw2_s2f_jdc"/>
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ Create a service instance and service key for accessing SAP AI Core, where the l
 
 -   You have subscribed to SAP AI Core.
 
--   You have already downloaded the client default certificate from the ABAP system. See,  <?sap-ot O2O class="- topic/xref " href="5432f7c2b3e44eb2aaaa772a7623a1ae.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/9cd044550da94218ba18ffcb8bfb01b7.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+-   You have already downloaded the client default certificate from the ABAP system. See,  <?sap-ot O2O class="- topic/xref " href="5432f7c2b3e44eb2aaaa772a7623a1ae.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/5b35ee98403045309bb0f8c7f0c79365.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 
 <a name="task_o12_p2x_mdc"/>
@@ -33,7 +33,7 @@ Create a service instance and service key for accessing SAP AI Core, where the l
 
 ## Context
 
-Once you have an active SAP BTP global account, create a service instance using the SAP BTP cockpit.
+Once you have an active SAP BTP global account, create a service instance in your SAP BTP subaccount.
 
 > ### Note:  
 > This procedure is based on default content and UIs. Depending on your configuration settings, the procedure may be slightly different.

@@ -1129,7 +1129,7 @@ If you've enabled environments in your subaccount, manage the roles for those en
 
 [Building Roles and Role Collections for Applications](../50-administration-and-ops/building-roles-and-role-collections-for-applications-eaa6a26.md "As an administrator, you can maintain application roles and role collections which can be used in user management.")
 
-[Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md "You've arranged roles in role collections, and now want to assign or map these role collections to business users.")
+[Mapping Role Collections](../50-administration-and-ops/mapping-role-collections-9e1bf57.md "You've arranged roles in role collections, and now want to assign or map these role collections to business users.")
 
 [Managing Users and Their Authorizations Using the btp CLI](../50-administration-and-ops/managing-users-and-their-authorizations-using-the-btp-cli-94bb593.md "User authorizations are managed by assigning role collections to users (for example, Subaccount Administrator). Use the SAP BTP command-line interface (btp CLI) to manage roles and role collections, and to assign role collections to users.")
 

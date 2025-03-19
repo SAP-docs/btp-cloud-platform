@@ -28,5 +28,5 @@ The reusable continuous integration pipeline contains the following steps:
 **Related Information**  
 
 
-[Project "Piper"](https://sap.github.io/jenkins-library/)
+[Continuous Testing on SAP BTP, ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentTest/)
 

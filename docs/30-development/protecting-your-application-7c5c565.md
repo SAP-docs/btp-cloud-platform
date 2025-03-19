@@ -238,7 +238,7 @@ Assign the role collections to users and user groups, manage attribute mappings
 </td>
 <td valign="top">
 
-[Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md) 
+[Mapping Role Collections](../50-administration-and-ops/mapping-role-collections-9e1bf57.md) 
 
 </td>
 </tr>

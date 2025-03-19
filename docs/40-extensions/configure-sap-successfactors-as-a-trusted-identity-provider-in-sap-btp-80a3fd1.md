@@ -26,7 +26,7 @@ Use this procedure to set up the trust configuration of the subaccount in SAP BT
 
     2.  Choose *Security* \> *Trust Configuration*.
 
-    3.  Choose *New Trust Configuration*.
+    3.  Choose *New SAML Trust Configuration*.
 
     4.  To upload the SAML metadata you downloaded in step 1, choose *Upload*. Browse to the XML file you saved and select it. Some of the fields are automatically filled in.
 

@@ -1,6 +1,6 @@
 <!-- loio2ffdaff0f1454acdb046876045321c91 -->
 
-# Registering and Deregistering Systems
+# Adding, Registering and Deregistering Systems
 
 To connect an SAP system with a global account in SAP BTP, you need to register the system. You can also add and work with a third-party systems.
 

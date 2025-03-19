@@ -17,5 +17,7 @@ Please check the documentation of your OMS first to see which method is supporte
 
 [SAP\_COM\_0466](sap-com-0466-524c13a.md "This document describes the configuration steps that have to be carried out by customers to set up the integration between SAP BTP ABAP environment and local printers using SAP_COM_0466.")
 
+[SAP\_COM\_0A86](sap-com-0a86-3a7d4d7.md "This document describes the print queue administrator integration. It provides the configuration steps that have to be carried out by customers to create and delete print queues using SAP_COM_0A86.")
+
 [SAP\_COM\_0467](sap-com-0467-523eb80.md "This document describes the configuration steps that have to be carried out by customers to set up the integration between SAP BTP ABAP environment and local printers using SAP_COM_0467.")
 

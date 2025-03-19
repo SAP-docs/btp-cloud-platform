@@ -1216,12 +1216,12 @@ Canada \(Toronto\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="15">
+<td valign="top" rowspan="14">
 
 Amazon Web Services
 
 </td>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="11">
 
 `aws`
 
@@ -1282,18 +1282,6 @@ Brazil \(São Paulo\)
 <td valign="top">
 
 US East \(VA\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`us-west-1`
-
-</td>
-<td valign="top">
-
-US West \(N. California\)
 
 </td>
 </tr>

@@ -39,6 +39,19 @@ SAP Java Buildpack integrates the [Cloud Foundry Java Logging Support](https://g
     cf logs <app_name> --recent
     ```
 
+4.  \(Optional\) Change the log level of a logging location.
+
+    To do that, configure the SET\_LOGGING\_LEVEL environment variable in the **`manifest.yml`** file. You need to restart your application after that. For example:
+
+    > ### Sample Code:  
+    > ```
+    > 
+    > env:
+    >   SET_LOGGING_LEVEL: '{com.sap.sample.java.LogInfo: INFO, com.sap.sample.java.LogWarn: WARN}'
+    > ```
+
+    **NOTE:** Changing log levels is only applicable for applications running on TomEE and Tomcat containers. Java Main is not supported.
+
 
 **Related Information**  
 

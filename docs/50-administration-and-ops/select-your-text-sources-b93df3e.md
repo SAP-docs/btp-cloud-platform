@@ -42,6 +42,12 @@ Select the text sources that you want to have translated.
 
     -   CDS Type Definitions
 
+    -   Fiori Launchpad App Descriptor Items
+
+    -   Fiori Launchpad Page Templates
+
+    -   Fiori Launchpad Space Templates
+
 
     It’s also possible to specify a package from which all supported translatable elements will be pulled into the translation project. Please note that translatable elements in sub packages are not included.
 

@@ -2,7 +2,13 @@
 
 # Deploying Content
 
-Learn how to deploy your content using the preferred Generic Application Content Deployer or deploy , redeploy, and undeploy content from the HTML5 Application Repository.
+Learn how to deploy, redeploy, and undeploy content from the HTML5 Application Repository.
+
+In the Cloud Foundry environment, the Generic Application Content Deployer \(GACD\) is the preferred module for the application deployment. GACD deployment enables asynchronous uploads, making it more suitable for handling large content. This method helps mitigate the risk of network-related timeouts due to long response times. Additionally, with GACD, you do not need to deploy a Cloud Foundry application within your space. See [Deploy Content Using the Generic Application Content Deployer](deploy-content-using-the-generic-application-content-deployer-07c6796.md).
+
+In the Kyma environment, you use the HTML5 Application Deployer. See [Deploy Content Using HTML5 Application Deployer](deploy-content-using-html5-application-deployer-9b178ab.md).
+
+The following applies to deployment with both modules:
 
 > ### Note:  
 > The HTML5 Application Repository service does not provide the technical capabilities to support the collection, processing, and storage of personal data. The file names used for deploying the HTML5 applications are not intended for personal data.

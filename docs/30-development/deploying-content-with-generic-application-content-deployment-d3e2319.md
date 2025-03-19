@@ -113,7 +113,7 @@ The following code block contains a snippet from an MTA deployment descriptor \(
 > 
 > ```
 
-The following code block contains the accompanying `MANIFEST.MF` file:
+The following code block contains the accompanying  `MANIFEST.MF` file:
 
 > ### Sample Code:  
 > ```
@@ -166,7 +166,7 @@ You can enter content definitions inline in the MTA descriptor as part of module
 
 ## Service Keys in Content Deployment
 
-When an MTA module of type `com.sap.application.content` requires an MTA resource, the SAP Cloud Deployment service will create or re-use a service key.
+When an MTA module of type `com.sap.application.content` requires an MTA resource, the SAP Cloud Deployment service will create or reuse a service key.
 
 Service keys in content deployment are an alternative of service bindings between applications and services. When there is an intermediate content application, it might be bound to different services that provide specific capabilities. In direct content deployment, the required service keys have the same role. For example, a content module might require an xsuaa service instance, which might be used for secure communication at a later stage.
 
@@ -187,7 +187,7 @@ By default, service keys to all required services are created with the name that
 > 
 > ```
 
-By default, the existing service keys are re-used in future deployments. This is done to save time from their re-creation and avoid potential issues if they are used outside of the MTA and their credentials are invalidated.
+By default, the existing service keys are reused in future deployments. This is done to save time from their re-creation and avoid potential issues if they are used outside of the MTA and their credentials are invalidated.
 
 
 
@@ -215,11 +215,11 @@ You can customize the service keys created as part of the content deployment by 
 
 ### Re-create custom service keys for deployment
 
-This option extends the customization of service keys explained above. Based on its name, an existing service key may be re-used or deleted, as described in [How Content is Deployed with Generic Application Content Deployment](deploying-content-with-generic-application-content-deployment-d3e2319.md#loiod3e23196166b443db17b3545c912dfc0__section_p22_ckc_wxb).
+This option extends the customization of service keys explained above. Based on its name, an existing service key may be reused or deleted, as described in [How Content is Deployed with Generic Application Content Deployment](deploying-content-with-generic-application-content-deployment-d3e2319.md#loiod3e23196166b443db17b3545c912dfc0__section_p22_ckc_wxb).
 
 The option is particularly useful if you want to rotate and renew the credentials used for content deployment, like when they are based on user/password credentials or certificates.
 
-You can set the service keys to automatically rotate for each new deployment by using the existing deployment parameter `${timestamp}` as part of the name of the defined custom service key. Doing so ensures that the key will have a new name for each deployment, resulting in Deploy Service creating and using a new key for the related content deployment. The previously used service key will be deleted after the new one is in place.
+You can set the service keys to automatically rotate for each new deployment by using the existing deployment parameter `${timestamp}` as part of the name of the defined custom service key. This ensures that the key will have a new name for each deployment, resulting in SAP Cloud Deployment service creating and using a new key for the related content deployment. The previously used service key will be deleted after the new one is in place.
 
 > ### Sample Code:  
 > ```
@@ -234,6 +234,12 @@ You can set the service keys to automatically rotate for each new deployment by 
 >            name: workflow_service-key-${timestamp}
 > 
 > ```
+
+> ### Tip:  
+> To see complete examples of service key re-creation, visit the following pages from the MTA examples repository:
+> 
+> -   [Automatic Service Key Renewal](https://github.com/SAP-samples/cf-mta-examples/tree/main/service-key-renewal#automatic-service-key-renewal)
+> -   [Managing CF Apps and SAP BTP Service Instance Destination with an MTA](https://github.com/SAP-samples/cf-mta-examples/tree/main/cf-service-destination)
 
 
 
@@ -262,7 +268,7 @@ You can deploy content directly to an existing service key with a descriptor mod
 
 ### Using user-provided services
 
-Sometimes, the content endpoint might not be exposed as a standard service broker in the BTP. In these cases, neither service instance nor service key can be created. The only option to utilize content deployment to such content target is via user-provided services.
+Sometimes, the content endpoint might not be exposed as a standard service broker in BTP. In these cases, neither service instance nor service key can be created. The only option to utilize content deployment to such content target is via user-provided services.
 
 > ### Sample Code:  
 > ```
@@ -287,7 +293,7 @@ Sometimes, the content endpoint might not be exposed as a standard service broke
 
 ## Content Deployment Configuration
 
-Sometimes content deployment needs a configuration, which might be environment or context specific and cannot part directly in the content itself.
+Sometimes, the content deployment needs an environment-specific or context-specific configuration, which cannot be part of the content itself.
 
 There are two supported ways to pass additional configuration for content deployment:
 
@@ -302,7 +308,7 @@ There are two supported ways to pass additional configuration for content deploy
 
 By default, all required MTA resources from content modules are processed and used for content deployment configuration. This includes the MTA resources of types `org.cloudfoundry.managed-service`, `org.cloudfoundry.existing-service`, `org.cloudfoundry.existing-service-key` and `org.cloudfoundry.user-provided-service`. A service key is used for each of those resources, except for `org.cloudfoundry.user-provided-service`.
 
-In the example below, the content-module requires two services and only one of them is marked as content-target. The other required service is xsuaa, which will be used for content configuration, and it will guarantee more secure communication during end-to-end flow:
+In the example below, the content-module requires two services and only one of them is marked as content-target. The other required service is XSUAA, which will be used for content configuration and will guarantee more secure communication during the end-to-end flow:
 
 > ### Sample Code:  
 > ```

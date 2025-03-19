@@ -132,6 +132,39 @@ To learn about changes in the Python buildpack's versions and features, regularl
 
 
 
+<a name="loioacf8f49356d047fbb1a4d04dcec3fd36__section_xxx_4w3_t2b"/>
+
+## Usage
+
+To use this buildpack, specify its name when deploying a Python application to the SAP BTP, Cloud Foundry environment. You can do that in two ways:
+
+-   Specify it directly in the `cf push` command:
+
+    ```
+    cf push -f <PATH_TO_APP_MANIFEST> -b python_buildpack
+    ```
+
+-   Specify it in the **`manifest.yml`** file of your application by using the `buildpacks` attribute:
+
+    ```
+    ---
+    applications:
+    - name: <APP_NAME>
+      memory: 512M
+      buildpacks:
+      - python_buildpack
+      ...
+    ```
+
+    Then, you can deploy the application like this:
+
+    ```
+    cf push <app_name>
+    ```
+
+
+
+
 <a name="loioacf8f49356d047fbb1a4d04dcec3fd36__section_w1d_tr1_krb"/>
 
 ## Supported Versions

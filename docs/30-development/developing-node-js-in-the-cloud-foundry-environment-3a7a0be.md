@@ -26,7 +26,7 @@ To get familiar with the buildpack and how to deploy applications with it, take 
 
 ## SAP Node.js Packages
 
-You can download and consume SAP developed Node.js packages via the SAP NPM Registry. There is an overview of Node.js packages developed by SAP, what they are meant for, and where they are included in the SAP HANA Developer Guide for XS Advanced Model. See:
+You can download and consume SAP-developed Node.js packages via the SAP NPM Registry. There is an overview of Node.js packages developed by SAP, what they are meant for, and where they are included in the SAP HANA Developer Guide for XS Advanced Model. See:
 
 -   [Download and Consume SAP Node.js Packages](https://help.sap.com/viewer/4505d0bdaf4948449b7f7379d24d0f0d/2.0.latest/en-US/ddcff14e28384810a352bb6512cd3448.html)
 
@@ -60,13 +60,69 @@ To learn about changes in the Node.js buildpack's versions and features, regular
 
 
 
+<a name="loio3a7a0bece0d044eca59495965d8a0237__section_xxx_4w3_t2b"/>
+
+## Usage
+
+To use this buildpack, specify its name when deploying a Node.js application to the SAP BTP, Cloud Foundry environment. You can do it the following ways:
+
+-   Specify it directly in the `cf push` command:
+
+    ```
+    cf push -f <PATH_TO_APP_MANIFEST> -b nodejs_buildpack
+    ```
+
+-   Specify it in the **`manifest.yml`** file of your application by using the `buildpacks` attribute:
+
+    ```
+    ---
+    applications:
+    - name: <APP_NAME>
+      memory: 512M
+      buildpacks:
+      - nodejs_buildpack
+      ...
+    ```
+
+    Then, you can deploy the application like this:
+
+    ```
+    cf push <app_name>
+    ```
+
+-   Specify it in the **`mtad.yaml`** deployment descriptor file \(for multi-target applications\) by using the `buildpack` attribute:
+
+    ```
+    ...
+    modules:
+      - name: <APP_NAME>
+        type: nodejs
+        path: <path_to_archive>
+        properties:
+          ...
+        parameters:
+          ...
+          memory: 512M
+          buildpack: nodejs_buildpack
+    ...
+    ```
+
+    Then, you can deploy the application like this:
+
+    ```
+    cf push <app_name>
+    ```
+
+
+
+
 <a name="loio3a7a0bece0d044eca59495965d8a0237__section_w1d_tr1_krb"/>
 
 ## Supported Versions
 
 The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports the following versions:
 
--   Node.js **18** 
+-   Node.js **18** – this version is reaching end of life on April 30, 2025. See section **Deprecated Versions** below.
 -   Node.js **20**
 -   Node.js **22**
 
@@ -92,14 +148,52 @@ The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports th
 
 ## Deprecated Versions
 
-Node.js 16 reached end of life on **September 11, 2023** and was removed from the Cloud Foundry community in [version 1.8.15](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.15). This means that deployment and redeployment of applications running on Node.js 16 will **fail**. For more information, see: [Node.js Roadmap](https://github.com/nodejs/Release)
 
-We recommend that you migrate your applications to Node.js **18** or **20** as soon as possible.
+
+### Node.js 18
+
+Node.js 18 is reaching end of life on **April 30, 2025** according to the [Node.js Roadmap](https://github.com/nodejs/Release). It will stay available for a short time after that, and then will be removed from the SAP BTP, Cloud Foundry environment. When this version disappears, deployment and redeployment of Cloud Foundry applications running on Node.js 18 will fail.
+
+**Action:** We strongly recommend that you migrate your applications to Node.js 20 or 22 as soon as possible.
+
+In exceptional cases \(if you haven’t managed to switch to Node.js 20 in time\), to avoid application failures during redeployment, you can pin the last buildpack version that contains Node.js 18, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) community. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version)
+
+If you are using MTA deployment descriptors, in your *mtad.yaml* file you need to define module type **javascript.nodejs** and set parameter `buildpack` to **nodejs\_buildpack**. For example:
+
+```
+
+modules:
+- name: myapp
+  type: javascript.nodejs
+  parameters:
+    buildpack: nodejs_buildpack
+			
+```
+
+If you want to pin a particular buildpack version \(for example, **1.8.34**\), you can do it the following way:
+
+```
+
+modules:
+- name: myapp
+  type: javascript.nodejs
+  parameters:
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.34
+			
+```
+
+To learn more, see [MTA Module Types](https://help.sap.com/docs/btp/sap-business-technology-platform/modules#mta-module-types).
+
+
+
+### Node.js 16
+
+Node.js 16 reached end of life on **September 11, 2023** and was removed from the Cloud Foundry community in [version 1.8.15](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.15). This means that deployment and redeployment of applications running on Node.js 16 will **fail**. For more information, see: [Node.js Roadmap](https://github.com/nodejs/Release)
 
 > ### Note:  
 > Applications using XSJS are strongly impacted as the [@sap/fibers](https://www.npmjs.com/package/@sap/fibers) library \(on which [@sap/xsjs](https://www.npmjs.com/package/@sap/xsjs) depends\) is **not supported** on Node.js 16 and later versions. To learn more, see: [Migrating Applications from XSJS to Async-XSJS](migrating-applications-from-xsjs-to-async-xsjs-40ded9d.md)
 
-In exceptional cases \(if you haven’t completed the migration to Node.js 18\), to avoid application failures during redeployment, you may pin the last buildpack version that contains Node.js 16, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) community. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version) 
+In exceptional cases \(if you didn't manage to migrate to Node.js 18 or 20 in time\), to avoid application failures during redeployment, you can pin the last buildpack version that contains Node.js 16, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) community. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version) 
 
 > ### Remember:  
 > SAP does **not** recommend use of deprecated Node.js versions, as support and security fixes are no longer provided for them.
@@ -127,9 +221,9 @@ To check the latest news and updates about the Node.js buildpack, go to its rele
 
 If you encounter an issue while using the Node.js buildpack, you can:
 
--   Search for your problem in our Guided Answers: [Node.js Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51218/?version=current)
+-   Search for your problem in the [Node.js troubleshooting page](node-js-buildpack-1462ff0.md).
 
--   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51220/?version=current) 
+-   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 
 
 

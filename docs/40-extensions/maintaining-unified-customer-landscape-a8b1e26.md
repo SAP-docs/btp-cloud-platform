@@ -33,7 +33,7 @@ The *System Landscape* page of the SAP BTP cockpit gives you a visual overview o
 
     Specifies that the system has been added to the list manually by the global account administrator, using the *Add System* button and completing the wizard. The system has been associated with the global account in SAP BTP.
 
-    See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
+    See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
 
 
 

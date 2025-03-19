@@ -71,7 +71,7 @@ The following procedure outlines the steps you need to perform to enable the exc
     > ### Tip:  
     > When you register an SAP S/4HANA Cloud system, you can automate some of the required configuration steps at a later point. To do this, you can use the *All Communication Scenarios* or *Eventing Between SAP Cloud Systems* communication scenario groups when you get the registration token for the SAP S/4HANA Cloud system. This allows the automatic enablement of the communication scenario `SAP_COM_0892` after the corresponding system is added to the formation of type *Eventing Between SAP Cloud Systems*.
 
-    See [Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md).
+    See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
 
 2.  Create a formation of type *Eventing Between SAP Cloud Systems* and include the relevant systems in it.
 

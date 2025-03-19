@@ -6,7 +6,7 @@ The Telemetry gateways in Kyma take care of data enrichment, filtering, and disp
 
 
 
-<a name="loio61567b79e6db41cd81de5f58ec077201__section_ytk_rmh_1bc"/>
+<a name="loio61567b79e6db41cd81de5f58ec077201__section_features"/>
 
 ## Features
 
@@ -33,6 +33,40 @@ The gateways are based on the [OTel Collector](https://opentelemetry.io/docs/col
 
 
 The Telemetry module focuses on full configurability of backends integrated by OTLP. If you need more features than provided by the Kyma `MetricPipeline`, bring your own collector setup.
+
+
+
+<a name="loio61567b79e6db41cd81de5f58ec077201__section_usage"/>
+
+## Usage
+
+You can set up a pipeline with a backend that subsequently instantiates a gateway. For details, see [Traces](traces-f98cda5.md) and [Metrics](metrics-44ac6c5.md). To see whether you've set up your gateways and their push endpoints successfully, check the status of the default Telemetry resource:
+
+```
+kubectl -n kyma-system get telemetries.operator.kyma-project.io default -oyaml
+```
+
+In the status of the returned resource, you see the pipeline health as well as the available push endpoints:
+
+```
+endpoints:
+    metrics:
+      grpc: http://telemetry-otlp-metrics.kyma-system:4317http: http://telemetry-otlp-metrics.kyma-system:4318traces:
+      grpc: http://telemetry-otlp-traces.kyma-system:4317http: http://telemetry-otlp-traces.kyma-system:4318
+```
+
+For every signal type, there's a dedicated endpoint to which you can push data using [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/). OTLP supports GRPC and HTTP-based communication, each having its individual port on every endpoint. Use port `4317` for GRPC and `4318` for HTTP.
+
+![](images/Kyma_Gateways_e40856d.png)
+
+Applications that support OTLP typically use the [OTel SDK](https://opentelemetry.io/docs/languages/) for instrumentation of the data.
+
+You can either configure the endpoints hardcoded in the SDK setup, or you use standard [environment variables](https://opentelemetry.io/docs/languages/sdk-configuration/otlp-exporter/#otel_exporter_otlp_traces_endpoint) configuring the OTel exporter, for example:
+
+-   Traces GRPC: `export OTEL_EXPORTER_OTLP_TRACES_ENDPOINT="http://telemetry-otlp-traces.kyma-system:4317"` 
+-   Traces HTTP: `export OTEL_EXPORTER_OTLP_TRACES_ENDPOINT="http://telemetry-otlp-traces.kyma-system:4318/v1/traces"` 
+-   Metrics GRPC: `export OTEL_EXPORTER_OTLP_METRICS_ENDPOINT="http://telemetry-otlp-metrics.kyma-system:4317"` 
+-   Metrics HTTP: `export OTEL_EXPORTER_OTLP_METRICS_ENDPOINT="http://telemetry-otlp-metrics.kyma-system:4318/v1/metrics"` 
 
 
 
@@ -88,7 +122,7 @@ The Telemetry gateways automatically enrich your data by adding the following at
 
 The Telemetry module automatically detects whether the Istio module is added to your cluster, and injects Istio sidecars to the Telemetry components. Additionally, the ingestion endpoints of gateways are configured to allow traffic in the permissive mode, so they accept mTLS-based communication as well as plain text.
 
-![](images/Telemetry_Gateways_Istio_537da74.svg)
+![](images/Telemetry_Gateways_Istio_537da74.png)
 
 Clients in the Istio service mesh transparently communicate to the gateway with mTLS. Clients that don’t use Istio can communicate with the gateway in plain text mode. The same pattern applies for the communication to the backends running in the cluster. External clusters use the configuration as specified in the pipelines output section.
 

@@ -93,7 +93,7 @@ You define the role collections in the application security descriptor file \(`x
 
 [Deploy Business Applications in the Cloud Foundry Environment](deploy-business-applications-in-the-cloud-foundry-environment-4946ea5.md "When an application for the Cloud Foundry environment resides in a folder on your local machine, you can deploy it and start it by executing the command line interface (CLI) command push. To deploy business applications bundled in a multitarget application archive, you have to use the command deploy-mta.")
 
-[Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md "You've arranged roles in role collections, and now want to assign or map these role collections to business users.")
+[Mapping Role Collections](../50-administration-and-ops/mapping-role-collections-9e1bf57.md "You've arranged roles in role collections, and now want to assign or map these role collections to business users.")
 
 [Tutorials for the SAP Authorization and Trust Management Service](tutorials-for-the-sap-authorization-and-trust-management-service-902ae80.md "Follow the tutorials below to get familiar with the SAP Authorization and Trust Management service in the Cloud Foundry environment of SAP BTP.")
 

@@ -12,3 +12,7 @@ This guide describes the functionality and usage of the possibilities within the
 
 This guide describes the functionality and usage of tools for Core Data Services \(CDS\) in the ABAP environment. It focuses on use cases for creating, editing, testing, and analyzing ABAP CDS entities.
 
+**[Generative AI in ABAP Cloud](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/generative-ai-in-abap-cloud?locale=en-US)**
+
+This guide describes how generative AI supports you in the end-to-end development for ABAP Cloud.
+

@@ -49,6 +49,8 @@ For elasticity, operability and protection reasons, the runtime of API or UI req
 
 [ABAP CDS Development User Guide](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/about-abap-cds-development-tools-user-guide?version=sap_btp)
 
+[Generative AI in ABAP Cloud](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/generative-ai-in-abap-cloud?locale=en-US)
+
 [ABAP Keyword Documentation](abap-keyword-documentation-1632c79.md)
 
 [ABAP Lifecycle Management](abap-lifecycle-management-5c7b17d.md)

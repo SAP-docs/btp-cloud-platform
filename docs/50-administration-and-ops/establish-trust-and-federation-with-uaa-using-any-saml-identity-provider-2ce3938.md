@@ -118,7 +118,7 @@ To establish trust from a tenant of your identity provider to a subaccount, assi
 5.  Choose the SAML 2.0 configuration and import the relevant metadata XML file. Save your changes.
 
     > ### Note:  
-    > Use the `saml-<subdomain>-sp.xml` metadata file of your subaccount. You can create the file using the *SAML Metadata* button in *Security* \> *Trust Configuration* of your subaccount.
+    > Use the `saml-<subdomain>-sp.xml` metadata file of your subaccount. You can create the file using *Download SAML Metadata* in *Security* \> *Trust Configuration* of your subaccount.
 
     Take care that the fields of the SAML configuration are filled. The metadata provides information, such as the name, the URLs of the assertion consumer service and single logout endpoints, and the signing certificate.
 

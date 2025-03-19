@@ -23,7 +23,7 @@ Following is the architectural representation of ISLM integration with ABAP AI S
 The following sections shows get step-by-step instructions on how to set up the integration of ISLM with the generative AI hub in SAP AI Core:
 
 -   [Download Certificate](download-certificate-3645813.md)
--   [Create SAP BTP Cockpit Service Instance and Key](create-sap-btp-cockpit-service-instance-and-key-9cd0445.md)
+-    <?sap-ot O2O class="- topic/xref " href="9cd044550da94218ba18ffcb8bfb01b7.xml" text="" desc="" xtrc="xref:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8dd73367ad7542109c7c54edeb1ab9c5.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 -   [How to Configure the Communication System for SAP\_COM\_0A69](how-to-configure-the-communication-system-for-sap-com-0a69-7d691a0.md)
 -   [How to Create the Communication Arrangement for SAP\_COM\_0A69](how-to-create-the-communication-arrangement-for-sap-com-0a69-20014a0.md)
 -   [Manage Gen AI Scenarios](manage-gen-ai-scenarios-5fef720.md)

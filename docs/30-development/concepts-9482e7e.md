@@ -51,14 +51,11 @@ To separate development and production purposes, you have to create different gl
 
 ## Global Account for Development
 
-![](images/Global_Development_Account_d2da7d3.png)
+![](images/GlobalAccforDev_81dcc8f.png)
 
 1.  **00 Landscape Portal**
 
-    Since the Landscape Portal service is only available in region eu10, we recommend creating a dedicated subaccount in this region. This subaccount will contain your Landscape Portal & CI/CD service subscriptions for you to freely choose other regions for your other subaccounts.
-
-    > ### Note:  
-    > If you plan to create any of the other subaccounts in eu10, then you can simply reuse one of those subaccounts.
+    We recommend creating a dedicated subaccount for the Landscape Portal. This subaccount will contain your Landscape Portal & CI/CD service subscriptions for you to freely choose between regions for your other subaccounts.
 
 2.  **01 Develop: Development subaccount including development space**
 
@@ -122,7 +119,7 @@ For development and maintenance processes, the steps mentioned below, that are s
 
 ## Global Account for Production
 
-![](images/Global_Production_Account_e65057f.png)
+![](images/GlobalAccforProd_f0a8e93.png)
 
 1.  **00 Landscape Portal**
 
@@ -202,9 +199,9 @@ The general configuration of the ABAP environment pipeline always follows the sa
 
     To enable read access to the Git repository, you need to create a service user and assign it to the repository. Later, this user’s access credentials are stored in the Jenkins credentials by the Jenkins administrator. See [Using Credentials](https://www.jenkins.io/doc/book/using/using-credentials/).
 
-3.  **Create Jenkins Instance via Cx Server**
+3.  **Create Jenkins Instance**
 
-    As a Jenkins administrator, you need to set up a new Jenkins instance using Cx Server Lifecycle Management. After initializing the Cx server that is based on a set of docker images, you can start the Jenkins server with `./cx-server start`. See [Cx Server](https://sap.github.io/jenkins-library/infrastructure/overview/#cx-server-recommended) and [Docker Hub](https://hub.docker.com/u/ppiper).
+    As a Jenkins administrator, you need to set up a new Jenkins instance. See [Custom Jenkins Setup](https://www.project-piper.io/infrastructure/overview/) and [Docker Hub](https://hub.docker.com/u/ppiper).
 
 4.  **Configure Jenkins Instance**
 
@@ -509,7 +506,7 @@ Branch v1.1.0, that is based on branch v1.0.0, includes the same commits as bran
 
 
 
-Add-On products can consist of multiple software components. However, objects of one software component can't be used in another software component by default. Software components provide their functionality to other software components via explicitly released APIs. This means, you must set the API state of an object to *Released* if you want to use it from another software component. See [Released APIs](https://help.sap.com/docs/btp/sap-abap-development-user-guide/released-apis?version=Cloud) and [Findeing Released APIs and Deprecated Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/finding-released-apis-and-deprecated-objects?version=Cloud).
+Add-On products can consist of multiple software components. However, objects of one software component can't be used in another software component by default. Software components provide their functionality to other software components via explicitly released APIs. This means, you must set the API state of an object to *Released* if you want to use it from another software component. See [Released APIs](https://help.sap.com/docs/btp/sap-abap-development-user-guide/released-apis?version=Cloud) and [Finding Released APIs and Deprecated Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/finding-released-apis-and-deprecated-objects?version=Cloud).
 
 Having this in mind, you can structure development into reuse components that are used across several components.
 

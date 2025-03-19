@@ -2155,7 +2155,7 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="11">
 
 Standard: Amazon Web Services
 
@@ -2166,7 +2166,7 @@ Free
 technical name: `free`
 
 </td>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="11">
 
 Provisioning
 
@@ -2227,18 +2227,6 @@ Brazil \(São Paulo\)
 <td valign="top">
 
 US East \(VA\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`us-west-1`
-
-</td>
-<td valign="top">
-
-US West \(N. California\)
 
 </td>
 </tr>

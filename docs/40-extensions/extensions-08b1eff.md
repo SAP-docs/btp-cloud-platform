@@ -30,7 +30,7 @@ To get a full list of terms related to the extensibility and integration concept
 
 To connect a system with a global account in SAP BTP, you need to have the system listed in the *System* page.
 
-[Registering and Deregistering Systems](registering-and-deregistering-systems-2ffdaff.md)
+[Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md)
 
 
 

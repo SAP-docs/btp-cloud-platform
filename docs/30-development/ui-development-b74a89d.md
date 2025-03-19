@@ -2,7 +2,7 @@
 
 # UI Development
 
-Learn more about the different options to develop SAP Fiori applications for an OData service, where to store the application, and how to enable business users to access the application from SAP Fiori launchpad.
+Learn more about the different options to develop SAP Fiori applications for an existing OData UI service, where to store the application, and how to enable business users to access the application from SAP Fiori launchpad.
 
 
 
@@ -10,7 +10,7 @@ Learn more about the different options to develop SAP Fiori applications for an 
 
 ## Overview
 
-You can develop SAP Fiori applications for OData services that are exposed as a UI service. See [OData Service Consumption](https://help.sap.com/docs/abap-cloud/abap-rap/odata-service-consumption?version=sap_btp).
+You can develop SAP Fiori applications for OData UI services that are exposed as a UI service. See [OData service Consumption](https://help.sap.com/docs/abap-cloud/abap-rap/odata-service-consumption?version=sap_btp).
 
 -   SAP Fiori is a design system that enables you to create business apps with a consumer-grade user experience, turning casual users into SAP experts with simple screens that run on any device. Apps that follow the Fiori design principle can be built using a combination of SAP UI5 and SAP Fiori Elements. See [SAP Fiori](https://help.sap.com/docs/SAP_FIORI_OVERVIEW).
 
@@ -47,12 +47,12 @@ Read [Managing Launchpad Spaces and Pages](https://help.sap.com/docs/btp/user-in
 
 If you want to deploy an SAP Fiori application to the ABAP environment, the following users are involved:
 
--   A UI developer implements the SAP Fiori application against the OData service and defines the tile as part of the application. Once this is done, the developer deploys the SAP Fiori application to the SAPUI5 ABAP repository.
+-   A UI developer implements the SAP Fiori application against the OData UI service and defines the tile as part of the application. Once this is done, the developer deploys the SAP Fiori application to the SAPUI5 ABAP repository.
 
     > ### Note:  
     > The SAPUI5 ABAP repository is part of the ABAP environment and is the umbrella term for the single SAPUI5 repository of each application. Technically, the SAPUI5 ABAP repository is based on the Business Server Page \(BSP\) repository. Each SAPUI5 repository is represented by an individual BSP application. The SAPUI5 ABAP repository is also used for delivering SAPUI5 apps of the ABAP environment.
 
--   An administrator in the ABAP environment provides access to the OData service and the tile via a business role.
+-   An administrator in the ABAP environment provides access to the OData UI service and the tile via a business role.
 -   A business user that is assigned to the business role can access the tile from SAP Fiori launchpad and launch the application.
 
 ![](images/FioriAppsinABAP_830ec12.png)
@@ -65,7 +65,7 @@ If you want to deploy an SAP Fiori application to the ABAP environment, the foll
 
 If you want to deploy an SAP Fiori application to the Cloud Foundry environment, the following users are involved:
 
--   A UI developer implements the SAP Fiori application against the OData service as part of a multi-target application \(MTA\).
+-   A UI developer implements the SAP Fiori application against the OData UI service as part of a multi-target application \(MTA\).
 
     An MTA is logically a single application comprised of multiple parts created with different technologies, which share the same lifecycle. The developers of the MTA describe the desired result using the MTA model, which contains MTA modules, MTA resources, and interdependencies between them.
 
@@ -73,7 +73,7 @@ If you want to deploy an SAP Fiori application to the Cloud Foundry environment,
 
     The HTML5 application repository is an SAP BTP service that enables central storage of HTML5 applications' static content on the SAP BTP, Cloud Foundry environment. See [HTML5 Application Repository](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/f8520f572a6445a7bfaff4a1bbcbe60a.html?version=Cloud).
 
--   An administrator in the ABAP environment provides access to the OData service via a business role. A launchpad administrator enables access to the tile via a role collection.
+-   An administrator in the ABAP environment provides access to the OData UI service via a business role. A launchpad administrator enables access to the tile via a role collection.
 -   A business user that is assigned to the business role and role collection can access the tile from SAP Fiori launchpad and launch the application.
 
 ![](images/UIDevCF_dfa94a6.png)

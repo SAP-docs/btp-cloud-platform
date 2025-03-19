@@ -47,5 +47,5 @@ In this task, download the client default certificate of the ABAP system to crea
 
 ## Next Steps
 
-[Create SAP BTP Cockpit Service Instance and Key](create-sap-btp-cockpit-service-instance-and-key-9cd0445.md)
+ <?sap-ot O2O class="- topic/xref " href="9cd044550da94218ba18ffcb8bfb01b7.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/3645813291be47839e72ab08d8a31ac9.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

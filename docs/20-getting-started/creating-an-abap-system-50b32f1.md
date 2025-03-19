@@ -211,7 +211,7 @@ For more information about creating service instances, see [Create Service Insta
     </td>
     <td valign="top">
     
-    The **HANA Cloud memory size** refers to the memory size of the SAP HANA Cloud database used by the ABAP environment service instance. The size is specified in number of HANA compute units that should be used from the quota plan *hana\_compute\_unit*, with one HANA compute unit representing the suitable block size for the underlying SAP HANA Cloud instance \(16 GB on Microsoft Azure and Google Cloud Platform, or 15 GB on AWS\). The supported number of hana\_compute\_unit per HANA instance is 2, 4, 8, 16, 32, or 64.
+    The **HANA Cloud memory size** refers to the memory size of the SAP HANA Cloud database used by the ABAP environment service instance. The size is specified in number of HANA compute units that should be used from the quota plan *hana\_compute\_unit*, with one HANA compute unit representing a block size of 16 GB for the underlying SAP HANA Cloud instance. The supported number of hana\_compute\_unit per HANA instance is 2, 4, 8, 16, 32, or 64.
     
     </td>
     </tr>
@@ -225,7 +225,7 @@ For more information about creating service instances, see [Create Service Insta
     </td>
     <td valign="top">
     
-    The **HANA Cloud disk size** refers to the disk size in GB of the SAP HANA Cloud database used by the ABAP environment service instance. If the parameter is set to `auto`, the SAP HANA Cloud storage size is set to the minimal value `40 * size_of_persistence + 40`. The maximum allowed value is `120 * size_of_persistence + 40`. If you set a higher value, it will consume 0.002 HANA compute units \(HCU\) for any GB exceeding the minimal default size of the persistence disk. Therefore, the HCU ratio of additional storage disk to RAM is 1 : 31.25 per GB on Microsoft Azure and on Google Cloud Platform \(as 1 HCU = 16 GB\) or 1 : 33.33 per GB on AWS \(as 1 HCU = 15 GB\).
+    The **HANA Cloud disk size** refers to the disk size in GB of the SAP HANA Cloud database used by the ABAP environment service instance. If the parameter is set to `auto`, the SAP HANA Cloud storage size is set to the minimal value `40 * size_of_persistence + 40`. The maximum allowed value is `120 * size_of_persistence + 40`. If you set a higher value, it will consume 0.002 HANA compute units \(HCU\) for any GB exceeding the minimal default size of the persistence disk. Therefore, the HCU ratio of additional storage disk to RAM is 1 : 31.25 per GB \(as 1 HCU = 16 GB\).
     
     </td>
     </tr>

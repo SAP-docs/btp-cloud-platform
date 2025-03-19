@@ -273,7 +273,7 @@ For default identity provider:
     > ### Note:  
     > How you assign users to their authorizations depends on the type of trust configuration. If you’re using the default trust configuration via SAP ID service, you can assign users directly to role collections. For more information, see [Default Identity Provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md).
     > 
-    > However, if you’re using a custom trust configuration as described in this topic, you can assign individual users or groups to role collections. Assigning users to their authorizations is part of application administration, which is described here. For more information, see [Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md).
+    > However, if you’re using a custom trust configuration as described in this topic, you can assign individual users or groups to role collections. Assigning users to their authorizations is part of application administration, which is described here. For more information, see [Mapping Role Collections](../50-administration-and-ops/mapping-role-collections-9e1bf57.md).
 
 
 
@@ -330,7 +330,7 @@ Assign the role collections to users and user groups, manage attribute mappings
 </td>
 <td valign="top">
 
-[Mapping Role Collections in the Subaccount](../50-administration-and-ops/mapping-role-collections-in-the-subaccount-9e1bf57.md) 
+[Mapping Role Collections](../50-administration-and-ops/mapping-role-collections-9e1bf57.md) 
 
 </td>
 </tr>
