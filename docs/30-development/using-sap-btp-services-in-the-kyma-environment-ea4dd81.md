@@ -4,6 +4,16 @@
 
 With the Kyma environment, you can connect SAP BTP services to your cluster and manage them using the SAP BTP Operator module.
 
+
+
+<a name="loioea4dd81e49254dd482d32e3c20f4477a__context_onp_zh5_s2c"/>
+
+## Context
+
+To consume SAP BTP services and use their functionality for building and deploying your own applications, you must create and manage the service instances and bindings. To learn how to do it, see [Creating Service Instances and Service Bindings](creating-service-instances-and-service-bindings-17bd304.md#loio17bd304aeab34294a4ca34fa9564147c) and [Deleting Service Bindings and Service Instances](deleting-service-bindings-and-service-instances-5deca69.md).
+
+For an example of how to use a service, see [Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/create-s4c-ext-service-instance-in-kyma-msg?version=Cloud).
+
 **Related Information**  
 
 

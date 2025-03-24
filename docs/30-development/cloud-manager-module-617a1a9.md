@@ -10,7 +10,7 @@ Use the Cloud Manager module to manage infrastructure providers' resources from 
 
 ## What Is Cloud Manager?
 
-The Cloud Manager module manages access to the chosen resources and products of cloud providers. Once you add Cloud Manager to your Kyma cluster, the module brings the offered resources in a secure way. Cloud Manager is strictly coupled with the cloud provider where your Kyma cluster is deployed.
+The Cloud Manager module manages access to cloud providers' chosen resources and products. Once you add Cloud Manager to your Kyma cluster, the module securely brings the offered resources. Cloud Manager is strictly coupled with the cloud provider where your Kyma cluster is deployed.
 
 > ### Remember:  
 > Using certain features of the Cloud Manager module introduces additional costs. For more information, see [Calculation with the Cloud Manager Module](../10-concepts/service-plans-and-metering-for-kyma-runtime-c33bb11.md#loioc33bb114a86e474a95db29cfd53f15e6__section_cloud_manager).

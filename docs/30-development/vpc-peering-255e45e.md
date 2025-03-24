@@ -4,6 +4,9 @@
 
 VPC Peering in the Cloud Manager module enables peering with remote VPC networks of the same cloud provider.
 
+> ### Restriction:  
+> Cloud Manager supports the VPC peering feature of Amazon Web Services and Google Cloud only.
+
 The Cloud Manager module enables managed Virtual Private Cloud \(VPC\) peering functionality that allows you to peer the Kyma VPC network with a remote VPC network. Virtual network peering is possible only between networks of the same cloud providers. VPC peering in Kyma is fully automated. It means that Cloud Manager configures the peering on both Kyma's and cloud provider's side.
 
 

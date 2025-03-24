@@ -67,7 +67,7 @@ To access Kyma dashboard, use the link available in the **Kyma Environment** sec
 
 ## Procedure
 
-1.  To create a `ServiceInstance` custom resource \(CR\), follow this example:
+1.  To create a `ServiceInstance` custom resource \(CR\), replace the placeholders and run the following command:
 
     ```
         kubectl create -f - <<EOF 
@@ -144,7 +144,7 @@ To access Kyma dashboard, use the link available in the **Kyma Environment** sec
 
 ## Procedure
 
-1.  To create a `ServiceBinding` CR, follow this example:
+1.  To create a `ServiceBinding` CR, replace the placeholders and run the following command:
 
     ```
     kubectl create -f - <<EOF
@@ -174,7 +174,7 @@ To access Kyma dashboard, use the link available in the **Kyma Environment** sec
 
     You see the status ***Created***.
 
-3.  Verify the Secret is created with the name specified in the `spec.secretName` field of the `ServiceBinding` CR. The Secret contains access credentials that the applications need to use the service:
+3.  Verify the Secret is created with the name specified in the `spec.secretName` field of the `ServiceBinding` CR. The Secret contains access credentials that the applications need to use the service. Run:
 
     ```
     kubectl get secrets {SECRET_NAME} -n {NAMESPACE}
