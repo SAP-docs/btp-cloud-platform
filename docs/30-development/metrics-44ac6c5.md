@@ -103,7 +103,9 @@ In the following steps, you can see how to construct and deploy a typical `Metri
 
 To ship metrics to a new OTLP output, create a resource of the kind `MetricPipeline` and save the file \(named, for example, `metricpipeline.yaml`\).
 
-This configures the underlying OTel Collector of the gateway with a pipeline for metrics and opens a push endpoint that is accessible with the `telemetry-otlp-metrics` service. For details, see [Usage](telemetry-gateways-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_usage). The following push URLs are set up:
+This configures the underlying OTel Collector of the gateway with a pipeline for metrics and opens a push endpoint that is accessible with the `telemetry-otlp-metrics` service. For details, see [Usage](telemetry-gateways-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_usage).
+
+The following push URLs are set up:
 
 -   GRPC: `http://telemetry-otlp-metrics.kyma-system:4317`
 -   HTTP: `http://telemetry-otlp-metrics.kyma-system:4318`

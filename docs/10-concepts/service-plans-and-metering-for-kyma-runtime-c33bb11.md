@@ -14,12 +14,11 @@ This page explains the relationship between the service plans of the SAP Discove
 
 ### Overview
 
+The following diagram shows how the service plans listed in the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/kyma-runtime?tab=service_plan) correspond to the plans you choose in the SAP BTP cockpit. For more information about the commercial model, see [What is the Consumption-Based Commercial Model?](https://help.sap.com/docs/btp/sap-business-technology-platform/what-is-consumption-based-commercial-model?version=Cloud)
+
+Note that there's no subscription-based commercial model for SAP BTP, Kyma runtime.
+
 ![Service Plans for Kyma Runtime: Free (SKU 8011146) and Standard (8008456), with Standard available for aws, gcp, and azure.](images/Service_Plans_Kyma_fa903de.png)
-
-[**SAP Discovery Center: Kyma Runtime**](https://discovery-center.cloud.sap/serviceCatalog/kyma-runtime?tab=service_plan)
-
-> ### Note:  
-> For more information, see [What is the Consumption-Based Commercial Model?](https://help.sap.com/docs/btp/sap-business-technology-platform/what-is-consumption-based-commercial-model?version=Cloud)
 
 
 
@@ -146,7 +145,7 @@ Capacity Unit
 
 Number of units consumed by the usage of the services as outlined in the solution-specific product supplement.
 
-For SAP BTP, Kyma runtime, there are two capacity units: one to measure the workload, the second to measure the storage.
+For SAP BTP, Kyma runtime, CUs are calculated for **workload** and for **storage**.
 
 </td>
 </tr>
@@ -157,6 +156,9 @@ For SAP BTP, Kyma runtime, there are two capacity units: one to measure the work
 <a name="loioc33bb114a86e474a95db29cfd53f15e6__section_o4b_bsz_5zb"/>
 
 ## Backward Calculation
+
+> ### Tip:  
+> If you use the Cloud Manager module, also see [Calculation with the Cloud Manager Module](service-plans-and-metering-for-kyma-runtime-c33bb11.md#loioc33bb114a86e474a95db29cfd53f15e6__section_cloud_manager).
 
 
 
@@ -172,7 +174,7 @@ However, cost per monthly bill may vary because it depends on the size of the no
 
 In the following tables, “CU” stands for “Capacity Unit”.
 
-**For CPU**
+**Calculation for CPU**
 
 
 <table>
@@ -196,7 +198,7 @@ Number of CU per Hour
 </td>
 <td valign="top">
 
-0.48055555555555557 x 0.75
+0.48055555555555557 \* 0.75
 
 </td>
 </tr>
@@ -220,7 +222,7 @@ Number of CU per Hour
 </td>
 <td valign="top">
 
-0.48055555555555557 x 2
+0.48055555555555557 \* 2
 
 </td>
 </tr>
@@ -232,7 +234,7 @@ Number of CU per Hour
 </td>
 <td valign="top">
 
-0.48055555555555557 x 4
+0.48055555555555557 \* 4
 
 </td>
 </tr>
@@ -244,7 +246,7 @@ Number of CU per Hour
 </td>
 <td valign="top">
 
-0.48055555555555557 x 8
+0.48055555555555557 \* 8
 
 </td>
 </tr>
@@ -262,7 +264,7 @@ Number of CU per Hour
 </tr>
 </table>
 
-**For Storage**
+**Calculation for Storage**
 
 
 <table>
@@ -298,7 +300,7 @@ Number of CU per Hour
 </td>
 <td valign="top">
 
-0.01805555552 \(0.00056423611 x 32\)
+0.01805555552 \(= 0.00056423611 \* 32\)
 
 </td>
 </tr>
@@ -325,19 +327,353 @@ Number of CU per Hour
 
 
 
+<a name="loioc33bb114a86e474a95db29cfd53f15e6__section_cloud_manager"/>
+
+## Calculation with the Cloud Manager Module
+
+
+
+### Calculation with the Cloud Manager Module
+
+Using the Cloud Manager module and enabling Redis or NFS storage or both, introduces additional costs.
+
+-   The cost of NFS storage introduces factor 3 to the calculation.
+
+    **Calculation for NFS Storage**
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Amount of NFS Storage
+    
+    </th>
+    <th valign="top">
+
+    Number of CU per Hour
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    1GB
+    
+    </td>
+    <td valign="top">
+    
+    0.00169271 \( = 0.00056423611 \* 3\)
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    32GB
+    
+    </td>
+    <td valign="top">
+    
+    0.05416667 \(= 0.00169271 \* 32\)
+    
+    </td>
+    </tr>
+    </table>
+    
+-   Using Redis adds costs depending on the tier you choose.
+
+    > ### Note:  
+    > Even though the actual available size \(GiB\) might vary depending on the cloud provider, the tiers for Redis are standardized across cloud providers. Because of that, also the pricing is standardized across all available cloud providers.
+
+    **Calculation for Redis Tiers**
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Tier
+    
+    </th>
+    <th valign="top">
+
+    Approx. Available Size \(GiB\)
+    
+    </th>
+    <th valign="top">
+
+    Number of CU per Hour
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    S1
+    
+    </td>
+    <td valign="top">
+    
+    1
+    
+    </td>
+    <td valign="top">
+    
+    0.1027777778
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    S2
+    
+    </td>
+    <td valign="top">
+    
+    3
+    
+    </td>
+    <td valign="top">
+    
+    0.2055555556
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    S3
+    
+    </td>
+    <td valign="top">
+    
+    6
+    
+    </td>
+    <td valign="top">
+    
+    0.5375000000
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    S4
+    
+    </td>
+    <td valign="top">
+    
+    12
+    
+    </td>
+    <td valign="top">
+    
+    1.0805555556
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    S5
+    
+    </td>
+    <td valign="top">
+    
+    24
+    
+    </td>
+    <td valign="top">
+    
+    2.1402777778
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    S6
+    
+    </td>
+    <td valign="top">
+    
+    48
+    
+    </td>
+    <td valign="top">
+    
+    4.2833333333
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    S7
+    
+    </td>
+    <td valign="top">
+    
+    101
+    
+    </td>
+    <td valign="top">
+    
+    8.5652777778
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    S8
+    
+    </td>
+    <td valign="top">
+    
+    202
+    
+    </td>
+    <td valign="top">
+    
+    17.1263888889
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    P1
+    
+    </td>
+    <td valign="top">
+    
+    5
+    
+    </td>
+    <td valign="top">
+    
+    1.0736111111
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    P2
+    
+    </td>
+    <td valign="top">
+    
+    12
+    
+    </td>
+    <td valign="top">
+    
+    2.1597222222
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    P3
+    
+    </td>
+    <td valign="top">
+    
+    24
+    
+    </td>
+    <td valign="top">
+    
+    4.2805555556
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    P4
+    
+    </td>
+    <td valign="top">
+    
+    48
+    
+    </td>
+    <td valign="top">
+    
+    8.5652777778
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    P5
+    
+    </td>
+    <td valign="top">
+    
+    101
+    
+    </td>
+    <td valign="top">
+    
+    17.1319444444
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    P6
+    
+    </td>
+    <td valign="top">
+    
+    200
+    
+    </td>
+    <td valign="top">
+    
+    34.2513888889
+    
+    </td>
+    </tr>
+    </table>
+    
+
+
+
+### Examples for Cloud Manager
+
+-   Your bill for the NFS storage shows 200 capacity units charged for storage \(32GB block\) for the month.
+
+    This means that you used 200 / 0.0542 = 3692.31 hours of 32GB storage blocks. Given that a month has 720 hours, this means that you have used 3692.31/720 = 5.13 blocks of 32GB over the month. So, you used 15.34 \* 32 = 164.10 GB of NFS storage continuously during the month.
+
+-   Your bill for Redis shows 200 capacity units for storage for the month
+
+    This means that you used 200 / 0.1027777778 = 1945.946 hours of the Redis S1 tier. Given that a month has 720 hours, this means that you have used 1945.946/720 = 2.703 tier S1 Redis instances continuously during the month.
+
+
+
+
 <a name="loioc33bb114a86e474a95db29cfd53f15e6__section_dnb_hsz_5zb"/>
 
 ## Calculator
 
 Find the Kyma price calculator on [https://kyma-project.github.io/price-calculator/](https://kyma-project.github.io/price-calculator/) and use it to estimate the costs for your SAP BTP, Kyma runtime.
 
-1.  Choose the **size of virtual machine** \(VM\).
+1.  Choose the base configuration for the size and minimum number virtual machines \(VM\) you need.
 
-2.  Choose the **minimum of VMs** you need.
+2.  Optionally, add more storage to the calculation.
 
-3.  Estimate the **hours per month** you expect to run them.
-
-4.  Optionally, add more Nodes and more storage to the calculation.
+3.  If needed, adjust the conversion rate.
 
 
 Note that the result is an estimate, and the monthly bill may vary depending on the actual hours and size of the Kyma cluster \(workload and storage\) that was running in a month.
@@ -364,7 +700,7 @@ For more information, see [SAP Business Technology Platform Service Description 
 
 ## Service Specifics
 
-As soon as you instantiate a Kyma cluster, the basic costs for the empty cluster incurs.
+As soon as you instantiate a Kyma cluster, the basic cost for the empty cluster incurs.
 
 Cost may then vary depending on the actual workloads and storage you consume per month.
 

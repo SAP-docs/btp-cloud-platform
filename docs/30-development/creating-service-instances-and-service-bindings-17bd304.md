@@ -16,160 +16,171 @@ To use an SAP BTP service in your Kyma cluster, create its service instance and 
 
 -   For CLI interactions: [kubectl](https://kubernetes.io/docs/tasks/tools/) v1.17 or higher.
 
+-   For an enterprise account, you have added quotas to the services you purchased in your subaccount. Otherwise, only default free-of-charge services are listed in the service marketplace. Quotas are automatically assigned to the resources available in trial accounts.
+
+    For more information, see [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-entitlements-and-quotas-for-subaccounts?&version=Cloud).
+
 -   You know the service offering name and service plan name for the SAP BTP service you want to connect to your Kyma cluster.
 
-    To find the service and service plan names, in the SAP BTP cockpit, go to *Services* \> *Service Marketplace*. Click on the service tile and find its *name* and *Plan*.
+    > ### Tip:  
+    > To find the service and service plan names, in the SAP BTP cockpit, go to *Services* \> *Service Marketplace*. Click on the service tile and find its *name* and *Plan*.
 
 
-<a name="task_tps_kqw_ycc"/>
+<a name="loio3ca9284699c44180b12e7be513bdac06"/>
 
-<!-- task\_tps\_kqw\_ycc -->
+<!-- loio3ca9284699c44180b12e7be513bdac06 -->
 
-## Creating a Service Instance
-
-
-
-<a name="task_tps_kqw_ycc__context_xl3_m25_cdc"/>
-
-## Context
+## Create a Service Instance
 
 To create a service instance, use either Kyma dashboard or kubectl.
 
+<a name="task_unp_3d5_s2c"/>
+
+<!-- task\_unp\_3d5\_s2c -->
+
+### Use Kyma Dashboard
+
+To access Kyma dashboard, use the link available in the **Kyma Environment** section of your subaccount *Overview*.
 
 
-<a name="task_tps_kqw_ycc__steps-unordered_hv2_nqw_ycc"/>
 
 ## Procedure
 
--   Use Kyma dashboard.
+1.  In the navigation area, choose *Namespaces*, and go to the namespace you want to work in.
 
-    1.  In the *Namespaces* view, go to the namespace you want to work in.
+2.  Go to *Service Management* \> *Service Instances*, and choose *Create*.
 
-    2.  Go to *Service Management* \> *Service Instances*.
+3.  Provide the required service details in *Form*. Alternatively, you can switch to the *YAML* tab, and edit or upload your file.
 
-    3.  Provide the required service details and create a service instance.
+4.  Choose *Create*.
 
-        You see the status ***PROVISIONED***.
+    You see the status ***PROVISIONED***.
 
 
--   Use kubectl.
+<a name="task_rxw_225_s2c"/>
 
-    1.  To create a `ServiceInstance` custom resource \(CR\), follow this example:
+<!-- task\_rxw\_225\_s2c -->
 
-        ```
-            kubectl create -f - <<EOF 
-            apiVersion: services.cloud.sap.com/v1
-            kind: ServiceInstance
-            metadata:
-                name: {SERVICE_INSTANCE_NAME}
-                namespace: {NAMESPACE} 
-            spec:
-                serviceOfferingName: {SERVICE_OFFERING_NAME}
-                servicePlanName: {SERVICE_PLAN_NAME}
-                externalName: {SERVICE_INSTANCE_NAME}
-                parameters:
-                  key1: val1
-                  key2: val2
-            EOF
-        ```
-
-    2.  To check the service's status in your cluster, run:
-
-        ```
-        kubectl get serviceinstances.services.cloud.sap.com {SERVICE_INSTANCE_NAME} -n {NAMESPACE}
-        ```
-
-        You get an output similar to this one:
-
-        ```
-        
-        NAME                      OFFERING                    PLAN                     STATUS    AGE
-        {SERVICE_INSTANCE_NAME}   {SERVICE_OFFERING_NAME}     {SERVICE_PLAN_NAME}      Created   44s
-        ```
+### Use kubectl
 
 
 
-<a name="task_jjq_5rw_ycc"/>
+## Procedure
 
-<!-- task\_jjq\_5rw\_ycc -->
+1.  To create a `ServiceInstance` custom resource \(CR\), follow this example:
 
-## Creating a Service Binding
+    ```
+        kubectl create -f - <<EOF 
+        apiVersion: services.cloud.sap.com/v1
+        kind: ServiceInstance
+        metadata:
+            name: {SERVICE_INSTANCE_NAME}
+            namespace: {NAMESPACE} 
+        spec:
+            serviceOfferingName: {SERVICE_OFFERING_NAME}
+            servicePlanName: {SERVICE_PLAN_NAME}
+            externalName: {SERVICE_INSTANCE_NAME}
+            parameters:
+              key1: val1
+              key2: val2
+        EOF
+    ```
+
+2.  To check the service's status in your cluster, run:
+
+    ```
+    kubectl get serviceinstances.services.cloud.sap.com {SERVICE_INSTANCE_NAME} -n {NAMESPACE}
+    ```
+
+    You get an output similar to this one:
+
+    ```
+    
+    NAME                      OFFERING                    PLAN                     STATUS    AGE
+    {SERVICE_INSTANCE_NAME}   {SERVICE_OFFERING_NAME}     {SERVICE_PLAN_NAME}      Created   44s
+    ```
 
 
+<a name="loioab5ca11be3bf4c029982332fe7092f74"/>
 
-<a name="task_jjq_5rw_ycc__context_nw2_xrw_ycc"/>
+<!-- loioab5ca11be3bf4c029982332fe7092f74 -->
 
-## Context
-
-With a `ServiceBinding` custom resource \(CR\), your application can get access credentials for communicating with an SAP BTP service. These access credentials are available to applications through a Secret resource generated in your cluster.
+## Create a Service Binding
 
 To create a service binding, use either Kyma dashboard or kubectl.
 
+With a `ServiceBinding` custom resource \(CR\), your application can get access credentials for communicating with an SAP BTP service. These access credentials are available to applications through a Secret resource generated in your cluster.
+
+<a name="task_jpv_x25_s2c"/>
+
+<!-- task\_jpv\_x25\_s2c -->
+
+### Use Kyma Dashboard
+
+To access Kyma dashboard, use the link available in the **Kyma Environment** section of your subaccount *Overview*.
 
 
-<a name="task_jjq_5rw_ycc__steps-unordered_zh5_zrw_ycc"/>
 
 ## Procedure
 
--   Use Kyma dashboard.
+1.  In the navigation area, choose *Namespaces*, and go to the namespace you want to work in.
 
-    1.  In the *Namespaces* view, go to the namespace you want to work in.
+2.  Go to *Service Management* \> *Service Bindings*, and choose *Create*.
 
-    2.  Go to *Service Management* \> *Service Bindings*.
+3.  Provide the required details, and choose your service instance name from the dropdown list. Alternatively, you can provide the required details by switching from the *Form* to *YAML* tab, and editing or uploading your file.
 
-    3.  Choose your service instance name from the dropdown list and create a service binding.
+4.  Choose *Create*.
 
-        You see the status ***PROVISIONED***.
+    You see the status ***PROVISIONED***.
 
 
--   Use kubectl.
+<a name="task_tjn_z25_s2c"/>
 
-    1.  To create a `ServiceBinding` CR, follow this example:
+<!-- task\_tjn\_z25\_s2c -->
 
-        ```
-        kubectl create -f - <<EOF
-        apiVersion: services.cloud.sap.com/v1
-        kind: ServiceBinding
-        metadata:
-          name: {BINDING_NAME}
-        spec:
-          serviceInstanceName: {SERVICE_INSTANCE_NAME}
-          externalName: {EXTERNAL_NAME}
-          secretName: {SECRET_NAME}
-          parameters:
-            key1: val1
-            key2: val2   
-        EOF        
-        ```
-
-        > ### Remember:  
-        > In the `serviceInstanceName` field of the service binding, enter the name of the `ServiceInstance` resource you previously created.
-
-    2.  To check your service binding status, run:
-
-        ```
-        kubectl get servicebindings {BINDING_NAME} -n {NAMESPACE}
-        
-        ```
-
-        You see the status ***Created***.
-
-    3.  Verify the Secret is created with the name specified in the `spec.secretName` field of the `ServiceBinding` CR. The Secret contains access credentials that the applications need to use the service:
-
-        ```
-        kubectl get secrets {SECRET_NAME} -n {NAMESPACE}
-        
-        ```
-
-        You see the same Secret name as in the `spec.secretName` field of the `ServiceBinding` CR.
+### Use kubectl
 
 
 
+## Procedure
 
+1.  To create a `ServiceBinding` CR, follow this example:
 
-<a name="task_jjq_5rw_ycc__result_lqh_wtw_ycc"/>
+    ```
+    kubectl create -f - <<EOF
+    apiVersion: services.cloud.sap.com/v1
+    kind: ServiceBinding
+    metadata:
+      name: {BINDING_NAME}
+    spec:
+      serviceInstanceName: {SERVICE_INSTANCE_NAME}
+      externalName: {EXTERNAL_NAME}
+      secretName: {SECRET_NAME}
+      parameters:
+        key1: val1
+        key2: val2   
+    EOF        
+    ```
 
-## Results
+    > ### Remember:  
+    > In the `serviceInstanceName` field of the service binding, enter the name of the `ServiceInstance` resource you previously created.
 
-You can use a given service in your Kyma cluster.
+2.  To check your service binding status, run:
+
+    ```
+    kubectl get servicebindings {BINDING_NAME} -n {NAMESPACE}
+    
+    ```
+
+    You see the status ***Created***.
+
+3.  Verify the Secret is created with the name specified in the `spec.secretName` field of the `ServiceBinding` CR. The Secret contains access credentials that the applications need to use the service:
+
+    ```
+    kubectl get secrets {SECRET_NAME} -n {NAMESPACE}
+    
+    ```
+
+    You see the same Secret name as in the `spec.secretName` field of the `ServiceBinding` CR.
+
 

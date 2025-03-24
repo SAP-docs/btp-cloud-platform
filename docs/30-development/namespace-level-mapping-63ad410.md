@@ -85,7 +85,7 @@ To connect a namespace to a specific subaccount, maintain the access credentials
 
 ## Procedure
 
-1.  To create a service instance with a namespace-based Secret, follow the instructions in [Creating Service Instances and Service Bindings](creating-service-instances-and-service-bindings-17bd304.md).
+1.  To create a service instance with a namespace-based Secret, follow the instructions in [Creating Service Instances and Service Bindings](creating-service-instances-and-service-bindings-17bd304.md#loio17bd304aeab34294a4ca34fa9564147c).
 
 2.  To verify that you've correctly added the access credentials of the SAP Service Manager instance in your service instance, go to the custom resource \(CR\) `status` section, and make sure the subaccount ID to which the instance belongs is provided in the `subaccountID` field. The field must not be empty.
 

@@ -165,6 +165,28 @@ Application Connector allows you to connect with external solutions. No matter i
 <tr>
 <td valign="top">
 
+*Cloud Manager*
+
+`cloud-manager`
+
+</td>
+<td valign="top">
+
+Cloud Manager brings cloud provider products and resources into the Kyma cluster in a secure way.
+
+</td>
+<td valign="top">
+
+-   [Cloud Manager Module](../30-development/cloud-manager-module-617a1a9.md)
+-   [GitHub repository: Cloud Manager](https://github.com/kyma-project/cloud-manager)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Eventing*
 
 `eventing`

@@ -97,7 +97,7 @@ Updating
 </td>
 <td valign="top">
 
-Short string \(up to 15 characters\) that contains only alphanumeric lowercase characters \(a-z, 0–9\), and hyphens \(-\). It must begin and end with an alphanumeric character, and can't contain white spaces.
+Short string of up to 15 characters that contains only alphanumeric lowercase characters \(a-z, 0–9\), and hyphens \(-\). It must begin and end with an alphanumeric character, and can't contain whitespace characters.
 
 </td>
 </tr>
@@ -247,6 +247,8 @@ See the example configuration:
       }
    ]
 ```
+
+See also [Assigning Workloads to Worker Node Pools](assigning-workloads-to-worker-node-pools-1bf21c1.md).
 
 
 
@@ -554,7 +556,7 @@ Automatically generated as your Subaccount’s Subdomain.
 </td>
 <td valign="top">
 
-Short string \(up to 32 characters\) that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens. It can't contain white spaces.
+Short string of up to 32 characters that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens. It must not contain whitespace characters.
 
 </td>
 </tr>
@@ -1780,7 +1782,7 @@ Provisioning
 </td>
 <td valign="top">
 
-The CIDR range for nodes must not overlap with the following CIDRs: 10.242.0.0/16, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16.
+The CIDR range for nodes must not overlap with the following CIDRs: 10.242.0.0/16, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16, 192.168.123.0/24, 240.0.0.0/8.
 
 Also, the range for nodes must not overlap with those used for Pods or Services. That is also valid for the default ranges set for Pods or Services if you don’t provide your own.
 
@@ -1813,7 +1815,7 @@ Provisioning
 </td>
 <td valign="top">
 
-CIDR range for Pods must not overlap with the following CIDRs: 10.242.0.0/16, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16.
+CIDR range for Pods must not overlap with the following CIDRs: 10.242.0.0/16, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16, 192.168.123.0/24, 240.0.0.0/8.
 
 Also, the range for Pods must not overlap with those used for nodes or Services. That is also valid for the default range set for Services if you don’t provide your own.
 
@@ -1846,7 +1848,7 @@ Provisioning
 </td>
 <td valign="top">
 
-CIDR range for Services must not overlap with the following CIDRs: 10.242.0.0/16, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16.
+CIDR range for Services must not overlap with the following CIDRs: 10.242.0.0/16, 10.64.0.0/11, 10.254.0.0/16, 10.243.0.0/16 192.168.123.0/24, 240.0.0.0/8.
 
 Also, the range for Services must not overlap with those used for nodes or Pods. That is also valid for the default range set for Pods if you don’t provide your own.
 

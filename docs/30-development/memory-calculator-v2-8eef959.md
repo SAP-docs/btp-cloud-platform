@@ -134,7 +134,7 @@ Default structures of the relevant configuration files:
 The **memory\_calculator\_v2** section encloses the input data for the memory calculation techniques utilized in determining the JVM memory sizing options.
 
 -   `stack_threads` – the number of threads to be used by the application. Default value: **250**
--   `headroom` – the percentage of total memory available that is unallocated to cover JVM overhead. The maximum recommended value for headroom is **10**. Default value: **0**
+-   `headroom` – the percentage of the container's total memory \(available to the application\) that can be excluded from the memory calculator’s algorithm and used for covering JVM overhead \(non-JVM operations\). The maximum recommended value for headroom is **10**. Default value: **0**
 -   `class_count` – the number of classes to be loaded. Default behavior: Estimating the number of class names in the application, adding a constant `42,215` to it, and then multiplying the final result by **0.35**. If you set a particular number, for example 500, only 500 classes will be loaded.
 
     > ### Note:  

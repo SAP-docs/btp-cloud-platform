@@ -13,24 +13,28 @@ You can only delete service instances or service bindings created in Kyma using 
 > ### Caution:  
 > Once you delete your service instances and service bindings, you cannot revert the operation.
 
-Use either Kyma dashboard or kubectl to delete a service binding or a service instance.
-
 
 
 <a name="loio5deca69978eb471692743089ce1eed77__steps-unordered_bkr_vp2_xcc"/>
 
 ## Procedure
 
--   Use Kyma dashboard
+Use either Kyma dashboard or kubectl to delete a service binding or a service instance.
 
-    1.  In the *Namespaces* view, go to the namespace you want to delete a service binding/instance from.
+To access Kyma dashboard, use the link available in the **Kyma Environment** section of your subaccount *Overview*.
 
-    2.  Go to *Service Management* and then to *Service Bindings* or *Service Instances*.
+-   **Use Kyma dashboard**
 
-    3.  Delete the service binding/instance.
+    1.  In the navigation area, choose *Namespaces*.
+
+    2.  In the *Namespaces* view, go to the namespace you want to delete a service binding/instance from.
+
+    3.  Go to *Service Management* and then to *Service Bindings* or *Service Instances*.
+
+    4.  Choose the service binding/instance and delete it.
 
 
--   Use kubectl
+-   **Use kubectl**
 
     -   To delete a service binding, run:
 
