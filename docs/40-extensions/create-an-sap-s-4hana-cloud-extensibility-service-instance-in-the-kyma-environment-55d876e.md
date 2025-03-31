@@ -28,15 +28,15 @@ When creating this service instance, you create the required configurations in b
 
 1.  In the SAP BTP cockpit, navigate to the subaccount for which you want to create an SAP S/4HANA Cloud Extensibility service instance.
 
-2.  On the subaccount *Overview* page in the *Kyma Environment* section, open the Kyma dashboard.
+2.  On the subaccount *Overview* page in the *Kyma Environment* section, open Kyma dashboard.
 
-3.  Navigate to the *default* namespace from the drop-down list in the top navigation.
+3.  Navigate to the *default* namespace.
 
-4.  Choose *Service Management* \> *BTP Service Instances* from the left-hand side navigation.
+4.  Choose *Service Management* \> *Service Instances* from the left-hand side navigation.
 
-5.  In the *Service Instances* page, choose *Create Service Instance* in the upper right-hand corner. A new dialog opens.
+5.  On the *Service Instances* page, choose *Create* in the upper right-hand corner. A new dialog opens.
 
-6.  Choose the *Simple* tab and fill in the following fields:
+6.  In the *Form* tab, fill in the following fields:
 
     -   Give a meaningful name of the new SAP S/4HANA Cloud Extensibility service instance.
 
@@ -47,7 +47,7 @@ When creating this service instance, you create the required configurations in b
 
 7.  Choose the *YAML* tab.
 
-    In *parameters:* in the *spec:* section, specify the parameters to define the communication arrangement for the communication scenario *Enterprise Eventing Integration \(SAP\_COM\_0092\)* in the SAP S/4HANA Cloud tenant and to configure the parameters for the Event Mesh service. Make sure you include at least these two required parameters: `systemName` and `emclientId`. The parameters are listed in this YAML file: [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md).
+    In the *spec:* section, specify the parameters to define the communication arrangement for the communication scenario *Enterprise Eventing Integration \(SAP\_COM\_0092\)* in the SAP S/4HANA Cloud tenant and to configure the parameters for the Event Mesh service. Make sure you include at least these two required parameters: `systemName` and `emclientId`. For all available parameters, see [Define SAP S/4HANA Cloud Extensibility Service Descriptor JSON/YAML File](define-sap-s-4hana-cloud-extensibility-service-descriptor-json-yaml-file-2d50d91.md).
 
 8.  Choose *Create*.
 

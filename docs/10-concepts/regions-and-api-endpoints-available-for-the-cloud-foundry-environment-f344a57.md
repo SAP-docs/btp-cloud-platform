@@ -300,6 +300,110 @@ Microsoft Azure
 </td>
 <td valign="top">
 
+ca20
+
+</td>
+<td valign="top">
+
+Canada Central \(Toronto\)
+
+</td>
+<td valign="top">
+
+cf-ca20
+
+</td>
+<td valign="top">
+
+canadacentral
+
+</td>
+<td valign="top">
+
+4.172.210.105, 4.172.226.192, 4.204.51.0, 4.248.154.171, 20.63.122.64, 20.151.145.75
+
+</td>
+<td valign="top">
+
+4.172.17.29
+
+</td>
+<td valign="top">
+
+api.cf.ca20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ca20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+cn20
+
+</td>
+<td valign="top">
+
+China North 3 \(Hebei\)
+
+</td>
+<td valign="top">
+
+cf-cn20
+
+</td>
+<td valign="top">
+
+ChinaNorth3
+
+</td>
+<td valign="top">
+
+159.27.65.75, 159.27.107.117, 159.27.217.233
+
+</td>
+<td valign="top">
+
+143.64.224.195
+
+</td>
+<td valign="top">
+
+api.cf.cn20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+cn20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
 us20
 
 </td>
@@ -1348,6 +1452,110 @@ Google Cloud
 </td>
 <td valign="top">
 
+jp30
+
+</td>
+<td valign="top">
+
+Japan \(Osaka\)
+
+</td>
+<td valign="top">
+
+cf-jp30
+
+</td>
+<td valign="top">
+
+asia-northeast2
+
+</td>
+<td valign="top">
+
+34.97.10.131, 34.97.19.128, 34.97.24.15, 34.97.27.89, 34.97.33.154, 34.97.36.44, 34.97.42.85, 34.97.52.48, 34.97.71.122, 34.97.75.108, 34.97.76.16, 34.97.79.22, 34.97.116.150, 34.97.117.3, 34.97.126.206, 34.97.131.43, 34.97.140.64, 34.97.141.186, 34.97.147.230, 34.97.177.45, 34.97.185.68, 34.97.186.214, 34.97.190.161, 34.97.201.159, 34.97.209.167, 34.97.210.16, 34.97.210.66, 34.97.221.101, 34.97.246.18, 34.97.246.150
+
+</td>
+<td valign="top">
+
+34.97.168.169
+
+</td>
+<td valign="top">
+
+api.cf.jp30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+jp30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+jp31
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+</td>
+<td valign="top">
+
+cf-jp31
+
+</td>
+<td valign="top">
+
+asia-northeast1
+
+</td>
+<td valign="top">
+
+34.84.6.224, 34.84.32.55, 34.84.34.158, 34.84.126.44, 34.84.134.209, 34.84.141.254, 34.84.220.103, 34.84.225.24, 34.84.231.92, 34.85.20.250, 34.85.75.175, 34.146.79.159, 34.146.122.64, 34.146.132.93, 34.146.132.147, 34.146.174.212, 34.146.180.55, 34.146.195.200, 34.146.196.228, 34.146.212.140, 34.146.251.151, 34.146.252.171, 35.189.143.202, 35.189.159.75, 35.189.159.240, 35.194.111.248, 35.194.117.168, 35.200.34.120, 35.221.109.129, 35.243.117.227
+
+</td>
+<td valign="top">
+
+34.84.96.118
+
+</td>
+<td valign="top">
+
+api.cf.jp31.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+jp31.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
 sa30
 
 </td>
@@ -1400,6 +1608,58 @@ Google Cloud
 </td>
 <td valign="top">
 
+sa31
+
+</td>
+<td valign="top">
+
+KSA \(Dammam\)
+
+</td>
+<td valign="top">
+
+cf-sa31
+
+</td>
+<td valign="top">
+
+me-central2
+
+</td>
+<td valign="top">
+
+34.166.3.142, 34.166.11.228, 34.166.14.210, 34.166.38.222, 34.166.41.150, 34.166.43.17, 34.166.43.183, 34.166.48.219, 34.166.66.132, 34.166.69.32, 34.166.73.246, 34.166.78.126, 34.166.80.128, 34.166.87.5, 34.166.87.129, 34.166.87.229, 34.166.90.71, 34.166.93.161, 34.166.102.223, 34.166.104.146, 34.166.105.14, 34.166.106.220, 34.166.115.33, 34.166.115.46/31, 34.166.116.103, 34.166.117.89, 34.166.123.179, 34.166.125.172, 34.166.127.149
+
+</td>
+<td valign="top">
+
+34.166.72.122
+
+</td>
+<td valign="top">
+
+api.cf.sa31.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+sa31.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
 ap30
 
 </td>
@@ -1436,6 +1696,58 @@ api.cf.ap30.hana.ondemand.com
 <td valign="top">
 
 ap30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+br30
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
+
+</td>
+<td valign="top">
+
+cf-br30
+
+</td>
+<td valign="top">
+
+southamerica-east1
+
+</td>
+<td valign="top">
+
+34.95.136.152, 34.95.141.244, 34.95.169.207, 34.95.175.231, 34.95.181.247, 34.95.184.165, 34.95.200.14, 34.95.201.213, 34.95.225.218, 34.95.243.255, 34.95.246.4, 34.151.201.167, 34.151.205.45, 34.151.212.79, 34.151.214.13, 34.151.221.155, 34.151.234.215, 34.151.243.44, 34.151.246.168, 34.151.248.189, 35.198.10.217, 35.198.12.163, 35.198.39.142, 35.198.49.194, 35.199.67.49, 35.199.97.244, 35.199.110.212, 35.199.114.60, 35.247.219.74, 35.247.250.157
+
+</td>
+<td valign="top">
+
+34.95.189.118
+
+</td>
+<td valign="top">
+
+api.cf.br30hana.ondemand.com
+
+</td>
+<td valign="top">
+
+br30.hana.ondemand.com
 
 </td>
 <td valign="top">

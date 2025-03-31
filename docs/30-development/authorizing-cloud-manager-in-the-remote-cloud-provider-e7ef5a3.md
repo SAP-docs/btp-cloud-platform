@@ -161,7 +161,7 @@ Required to check if the remote VPC network is tagged with the Kyma shoot name t
 </tr>
 </table>
 
-For more information on how to manage access to service accounts, see the [official Google Cloud documentation](https://cloud.google.com/iam/docs/manage-access-service-accounts).
+It is recommended to create an Identity and Access Management \(IAM\) custom role with the permissions listed above. For more information, see the official Google Cloud documentation on how to [create a custom role](https://cloud.google.com/iam/docs/creating-custom-roles#creating) or the [Authorize Cloud Manager in the Remote Project](https://github.com/kyma-project/cloud-manager/blob/main/docs/user/tutorials/01-30-10-aws-vpc-peering.md#authorize-cloud-manager-in-the-remote-account)section in the Creating VPC Peering in Google Cloud tutorial.
 
 
 
@@ -206,4 +206,6 @@ Cloud Manager Service Account
 </td>
 </tr>
 </table>
+
+With the service account, you can authorize the Cloud Manager module in the remote project. For more information, see the official Google Cloud documentation on how to [grant a single role](https://cloud.google.com/iam/docs/granting-changing-revoking-access#grant-single-role) to a service account or the [Authorize Cloud Manager in the Remote Project section](https://github.com/kyma-project/cloud-manager/blob/bc4d180fbc094511f8eed5b30a29c8d62d13c550/docs/user/tutorials/01-30-20-gcp-vpc-peering.md#authorize-cloud-manager-in-the-remote-project) in the Creating VPC Peering in Google Cloud tutorial.
 

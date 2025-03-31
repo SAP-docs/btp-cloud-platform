@@ -158,9 +158,6 @@ You can see the discovery mechanism and access all the actions related to the sy
 
 A formation is a logical grouping of SAP or third-party systems that can be extended in a business scenario. Formations allow you to combine SAP or third-party solution systems and a subaccount in SAP BTP to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your extension scenario. To create a fully functional formation, you can use a two-step wizard. At the first step, you specify a custom formation name and assign a subaccount to it. At the second step, you can include an SAP or third-party solution system in the formation. You do this configuration once and you can change it anytime.
 
-> ### Note:  
-> You can assign a subaccount to the formation during the formation creation only. While you can include or exclude systems in the formation anytime, you cannot unassign or reassign subaccounts later on. Instead, you must recreate the formation.
-
 Extension business cases often involve extending several SAP or third-party solutions at a time. For example, for a given business case you might need to extend the functionality or the UI as follows:
 
 -   An SAP SuccessFactors system, and an SAP S/4HANA Cloud system. First, you need to configure the connectivity of each of these systems to Cloud Foundry, Kyma, or both environments. Extension applications of both solutions are part of the same business need.

@@ -30,7 +30,7 @@ The SAP BTP Cloud Foundry environment follows these recommendations to support h
 
 -   **High availability of the platform components:**
 
-    -   The building blocks of Cloud Foundry and the virtual machines on which the Cloud Foundry application instances are scheduled run in a high availability setup. These instances are distributed across different AZs.
+    -   The building blocks of Cloud Foundry and the virtual machines on which the Cloud Foundry application instances are scheduled run in a high availability setup. Their instances are distributed across different AZs.
 
     -   The technology that manages the deployment of the Cloud Foundry environment monitors the health of the platform. If there are infrastructure failures, it re-creates the faulty components.
 

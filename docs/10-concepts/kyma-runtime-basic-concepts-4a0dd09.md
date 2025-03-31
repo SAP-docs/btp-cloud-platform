@@ -100,6 +100,30 @@ The connection you create between a service instance and an SAP solution so that
 <tr>
 <td valign="top">
 
+CustomResourceDefinition \(CRD\)
+
+</td>
+<td valign="top">
+
+A Kubernetes API resource that allows you to define and manage custom resources \(CRs\), enabling the extension of Kubernetes API to cover additional use cases.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Custom resource \(CR\)
+
+</td>
+<td valign="top">
+
+An object that extends the Kubernetes API and is defined by a CustomResourceDefintion \(CRD\), allowing for the management of use cases that are not directly covered by core Kubernetes.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Credentials / Secrets
 
 </td>
