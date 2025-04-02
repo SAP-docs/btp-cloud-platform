@@ -26,15 +26,49 @@ To activate logging for your objects:
 2.  Search for*Activate Business Event Logging* using the search bar.
 
 3.  Select the custom business configuration from the list and choose *Edit*.
-4.  To activate logging for an object, select the *Activate Logging* checkbox and choose *Save*.
-5.  \(Optional\) To enable logging for all business event data, select the *Log All Data* checkbox for the object.
+4.  To create a new entry, choose *New Entries*.
+5.  Enter the *Object* and select the *Activate Logging* checkbox to activate logging for the object.
+6.  \(Optional\) To enable logging for all business event data, select the *Log All Data* checkbox for the object.
+
+    > ### Note:  
+    > When you activate logging for an object, the keys and metadata such as event type, performed by, performed at, and other details of the object are logged and displayed in the business event logging apps. When you enable logging for all business event data, all changes made to the object is logged by the system. The fields captured by the system depend on how the event has been defined. For more information on the fields that get logged, refer to the SAP Business Accelerator Hub.
+    > 
+    > An example of the details captured by the system for a **SalesOrder** object is given below:
+    > 
+    > For the event **Profit Center of Sales Order Item Changed**, the following details are logged depending on the configuration:
+    > 
+    > -   When *Enable Log* check box is selected: The changes made to profit \(old value and the new value\) are recorded.
+    > 
+    > -   When *All Business Event Data* is selected: The changes and the current values of the payload are displayed:
+    > 
+    >     `"DistributionChannel":` 
+    > 
+    >     `"EventRaisedDateTime":`
+    > 
+    >     `"OrganizationDivision":`
+    > 
+    >     `"PreviousProfitCenter":`
+    > 
+    >     `"Product":`
+    > 
+    >     `"ProfitCenter":`
+    > 
+    >     `"SalesOrder":`
+    > 
+    >     `"SalesOrderItem":`
+    > 
+    >     `"SalesOrderItemCategory":`
+    > 
+    >     `"SalesOrderType":`
+    > 
+    >     `"SalesOrganization":`
+    > 
+    >     `"SoldToParty":` 
 
     > ### Caution:  
     > When you enable logging for all business event data, it consumes additional storage.
 
-6.  To create a new entry, choose *New Entries*.
-7.  Enter the *Object* and select the *Activate Logging* checkbox.
-8.  Choose *Save*.
+7.  Choose *Save*.
 
 For documentation about this item, refer to *Show Documentation*.
 

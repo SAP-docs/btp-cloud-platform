@@ -51,7 +51,7 @@ To separate development and production purposes, you have to create different gl
 
 ## Global Account for Development
 
-![](images/GlobalAccforDev_81dcc8f.png)
+![](images/GlobalAccforDev1_c2fb198.png)
 
 1.  **00 Landscape Portal**
 

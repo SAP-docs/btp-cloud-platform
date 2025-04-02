@@ -49,10 +49,14 @@ kubectl -n kyma-system get telemetries.operator.kyma-project.io default -oyaml
 In the status of the returned resource, you see the pipeline health as well as the available push endpoints:
 
 ```
-endpoints:
+  endpoints:
     metrics:
-      grpc: http://telemetry-otlp-metrics.kyma-system:4317http: http://telemetry-otlp-metrics.kyma-system:4318traces:
-      grpc: http://telemetry-otlp-traces.kyma-system:4317http: http://telemetry-otlp-traces.kyma-system:4318
+      grpc: http://telemetry-otlp-metrics.kyma-system:4317
+      http: http://telemetry-otlp-metrics.kyma-system:4318
+    traces:
+      grpc: http://telemetry-otlp-traces.kyma-system:4317
+      http: http://telemetry-otlp-traces.kyma-system:4318
+
 ```
 
 For every signal type, there's a dedicated endpoint to which you can push data using [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/). OTLP supports GRPC and HTTP-based communication, each having its individual port on every endpoint. Use port `4317` for GRPC and `4318` for HTTP.
@@ -88,10 +92,10 @@ The Telemetry gateways automatically enrich your data by adding the following at
 
     4.  Pod name
 
-    5.  If none of the above is available, the value is `unknown_service`.
+    5.  If none of the above is available, the value is `unknown_service`
 
 
--   **k8s.\*** attributes: These attributes encapsulate various pieces of Kubernetes metadata associated with the Pod, including, but not limited, to:
+-   **k8s.\*** attributes: These attributes encapsulate various pieces of Kubernetes metadata associated with the Pod, including, but not limited to:
 
     -   Pod name
 

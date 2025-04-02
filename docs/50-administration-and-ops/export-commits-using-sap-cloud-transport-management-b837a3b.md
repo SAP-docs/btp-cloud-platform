@@ -13,7 +13,7 @@
 3.  After testing and after the release decision, a release branch is created from the main branch.
 4.  The resulting combination of the corresponding software component and either the commit ID, Git tag, or the branch name is used as a reference by the following export call to the cloud transport management service \(cTMS\). It is recommended using the commit ID, because the latest commit of a branch may change, resulting in unreproducible deployments.
 5.  In cTMS a transport request is created containing the reference and added to the import queue of the following cTMS node \(given by the configured service transport route\).
-6.  Finally, a transport administrator uses the cloud transport management service UI to generate the import to the SAP BTP, ABAP system configured on the cTMS transport route. In doing so, the service calls an import API of the target SAP BTP ABAP environment system by passing the reference.
+6.  Finally, a transport administrator uses the cloud transport management service UI to generate the import to the SAP BTP ABAP environment system configured on the cTMS transport route. In doing so, the service calls an import API of the target SAP BTP ABAP environment system by passing the reference.
 7.  The import is done asynchronously, and the progress status is monitored by the service. When the import is finished, the service receives the transport logs from the target SAP BTP ABAP environment instance.
 
 
@@ -81,5 +81,5 @@ To run an export, you need to use a service key created for the cTMS instance of
 
 [Using the Import Queue](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/3c4b6f38866b4a70b20e79501db5f7e5.html?version=Cloud&q=loio3c4b6f38866b4a70b20e79501db5f7e5)
 
-[Creating Destinations for Deployment of References of SAP BTP, ABAP environment](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/30144538f2c247be9e1a076754e06bb8.html?version=Cloud)
+[Creating Destinations for Deployment of References of SAP BTP ABAP environment](https://help.sap.com/docs/TRANSPORT_MANAGEMENT_SERVICE/7f7160ec0d8546c6b3eab72fb5ad6fd8/30144538f2c247be9e1a076754e06bb8.html?version=Cloud)
 

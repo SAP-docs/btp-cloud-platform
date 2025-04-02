@@ -16,7 +16,7 @@ With this app, you can view the recorded field changes for an object.
 
 You can use this app to view:
 
--   The field changes that have recorded for an object
+-   The field changes that are recorded for an object
 
 -   Old and new values for a changed field
 

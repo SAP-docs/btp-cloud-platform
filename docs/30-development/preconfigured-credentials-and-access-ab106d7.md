@@ -48,7 +48,9 @@ The `sap-btp-manager` Secret provides the following credentials:
 > 
 > To prevent your changes from being reverted, label the Secret with `kyma-project.io/skip-reconciliation: "true"`. For more information, see [Customizing the Default Credentials and Access](customizing-the-default-credentials-and-access-15f22d5.md).
 
-When the SAP BTP Operator module is added to your cluster by default, the `sap-btp-manager` Secret generates the SAP BTP service operator's resources as shown in the following diagram: ![](images/Module_Credentials_6af5090.png)
+When the SAP BTP Operator module is added to your cluster by default, the `sap-btp-manager` Secret populates the SAP BTP service operator's resources as shown in the following diagram:
+
+![](images/Module_Credentials_6af5090.png)
 
 The cluster ID represents and identifies Kyma service instance created in a particular subaccount. You can view the cluster ID in Kyma dashboard:
 
@@ -103,7 +105,7 @@ Generated when Kyma runtime is created.
 </td>
 <td valign="top">
 
-Indicates the namespace for Secrets referenced in service instances and Secrets, with the name containing a prefix of the service instance's namespace. Always set to `kyma-system`.
+Indicates the namespace for the Secrets with credentials to communicate with the SAP Service Manager. By default, set to `kyma-system`.
 
 </td>
 </tr>
@@ -115,7 +117,7 @@ Indicates the namespace for Secrets referenced in service instances and Secrets,
 </td>
 <td valign="top">
 
-Stores the chart's release namespace and indicates the namespace for the `sap-btp-service-operator` and `sap-btp-operator-clusterid` Secrets. By default, set to `kyma-system`.
+Indicates the namespace for the `sap-btp-service-operator` and `sap-btp-operator-clusterid` Secrets. By default, set to `kyma-system`.
 
 </td>
 </tr>
@@ -127,7 +129,7 @@ Stores the chart's release namespace and indicates the namespace for the `sap-bt
 </td>
 <td valign="top">
 
-You can use every namespace for your operations. The parameter is always set to *true*. If you change it to *false*, your setting is automatically reverted.
+You can use every namespace for your operations. The parameter is always set to *true*. If you change it to *false*, your setting is automatically reverted, and SAP BTP Operator cluster-wide permissions remain unchanged.
 
 </td>
 </tr>

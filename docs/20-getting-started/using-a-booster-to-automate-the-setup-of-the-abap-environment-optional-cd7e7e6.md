@@ -50,6 +50,9 @@ A booster is a set of guided interactive steps that enable you to select, config
 
     This step allows you to quickly create additional administration users for the ABAP environment, if needed, and developer users. In the *Origin* field, you can see the identity provider for the ABAP environment. By default, this is SAP ID service \(*sap.ids*\), but if you have set up a custom identity provider, you can choose this provider from the dropdown list.
 
+    > ### Note:  
+    > If the optional entitlement for SAP Build Work Zone, standard edition is selected in the *Configure Subaccounts* step, please select a custom identity provider for applications. If you choose the default identity provider, the subscription to the SAP Build Work Zone, standard edition application will fail. Refer to [Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](https://help.sap.com/docs/btp/sap-business-technology-platform/establish-trust-and-federation-between-uaa-and-identity-authentication?version=Cloud) for more information.
+
 10. On the *Configure ABAP Environment Instance* dialog, enter a 3-character ID for your ABAP system.
 
 11. Review your settings and finish the booster.

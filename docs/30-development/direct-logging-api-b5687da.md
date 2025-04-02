@@ -18,7 +18,7 @@ For an entry in the Business Event Log, the attribute ‘source of data’ will 
 
 ## Creating an instance to log business event
 
-If you want to write past business events to the business event log, you require an instance of class CL\_BEL\_DIRECT\_LOGGING. To create this instance, class CL\_BEL\_DIRECT\_LOGGING provides the following methods:
+If you want to write past business events to the business event log, you require an instance of class CL\_BEL\_DIRECT\_LOGGING. To create this instance, the class CL\_BEL\_DIRECT\_LOGGING provides the following methods:
 
 **Methods**
 
@@ -66,7 +66,7 @@ The Class `CL_BEL_DIRECT_LOGGING` can be consumed via the interface `IF_BEL_DIRE
 
 ![](images/Interface_BEL_a96a2d7.png)
 
-The API is invoked via method `LOG_BUSINESS_EVENT` of interface `IF_BEL_DIRECT_LOGGING`. The method takes input as different events and returns the results in terms of return code and an internal table containing processing results of each event.
+The API is invoked via the `LOG_BUSINESS_EVENT`method of interface `IF_BEL_DIRECT_LOGGING`. The method takes input as different events and returns the results in terms of return code and an internal table containing processing results of each event.
 
 
 
@@ -160,7 +160,7 @@ The method has the following parameters:
     </td>
     <td valign="top">
     
-    Timestamp at which the event was created. Although it is an optional parameter, we recommend that you provide it. By default, it would be filled with the current timestamp. The timestamp can be in the past.
+    The timestamp at which the event was created. Although it is an optional parameter, we recommend that you provide it. By default, it would be filled with the current timestamp. The timestamp can be in the past.
     
     </td>
     </tr>
@@ -220,7 +220,7 @@ The method has the following parameters:
     </td>
     <td valign="top">
     
-    The return code may consist of three different values indicating the result of processing.
+    The return code may consist of 3 different values indicating the result of processing.
 
     -   0 = Successful.
     -   1 = Successful with warnings.
@@ -240,15 +240,15 @@ The method has the following parameters:
     </td>
     <td valign="top">
     
-    This table parameter consists of result of processing of each event which was passed via IT\_EVENTS parameter. The components of the return table are as
+    This table parameter consists of the result of processing of each event which was passed via the IT\_EVENTS parameter. The components of the return table are as
 
     -   `EVENT_GUID`: Event identifier passed by the consumer application.
 
     -   `EVENT_TYPE`: Event type passed by the consumer application.
 
-    -   `EXEC_TIMESTAMP`: Event timestamp passed by consumer application.
+    -   `EXEC_TIMESTAMP`: Event's timestamp passed by consumer application.
 
-    -   `EVENT_DATA`: Event specific data passed by consumer application.
+    -   `EVENT_DATA`: Event-specific data passed by the consumer application.
 
     -   `TYPE`: Message type: S Success, E Error, W Warning
 
@@ -258,7 +258,7 @@ The method has the following parameters:
     -   `MESSAGE_V1`: Event identifier passed by the consumer application.
     -   `MESSAGE_V2`: Event type passed by the consumer application.
     -   `MESSAGE_V3`: First 50 characters of event data.
-    -   MESSAGE\_V4: Event timestamp passed by consumer application.
+    -   MESSAGE\_V4: Event's timestamp passed by consumer application.
 
 
     
@@ -375,11 +375,11 @@ Below is an example of how the API can be consumed. This sample contains the man
 
 ### Troubleshooting issues
 
-The API can throw a Warning\(W\) return code in case the event is already existing in BEL database or event is not activated to be logged into BEL framework. The API can return error\(E\) return code in case the mandatory parameters are not passed or passed with initial values, if authorization check fails, if the EVENT\_DATA definition is passed incorrectly. The details of the error/warning can be seen in CT\_RETURN table parameter of the API. Some examples of error/warning are given below:
+The API can throw a Warning\(W\) return code in case the event is already existing in the BEL database or the event is not activated to be logged into the BEL framework. The API can return error\(E\) return code in case the mandatory parameters are not passed or passed with initial values, if the authorization check fails, if the EVENT\_DATA definition is passed incorrectly. The details of the error/warning can be seen in the CT\_RETURN table parameter of the API. Some examples of error/warning are given below:
 
 -   Business Event is not defined \(E\): The supplied business event is not defined. Ensure that the business event exists in the SAP Business Accelerator Hub.
 
--   Business event with Identical ID exists \(W\): The business event supplied already exists in system. The corresponding event will be skipped.
+-   Business event with Identical ID exists \(W\): The business event supplied already exists in the system. The corresponding event will be skipped.
 
 -   Business Event not enabled for logging \(W\): The business event is not enabled for logging in the system.
 

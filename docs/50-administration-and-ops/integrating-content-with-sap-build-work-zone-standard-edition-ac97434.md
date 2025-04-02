@@ -33,5 +33,5 @@ Launchpad content from the same system/client has been transferred to SAP Build 
 **Related Information**  
 
 
-[Set SAP BTP, ABAP Environment as a Content Provider for SAP Build Work Zone, standard edition](https://developers.sap.com/tutorials/abap-environment-lp-service-content-provider.html)
+[Set SAP BTP ABAP Environment as a Content Provider for SAP Build Work Zone, standard edition](https://developers.sap.com/tutorials/abap-environment-lp-service-content-provider.html)
 

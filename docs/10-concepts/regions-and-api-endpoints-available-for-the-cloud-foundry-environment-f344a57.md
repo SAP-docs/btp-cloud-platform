@@ -4,6 +4,11 @@
 
 
 
+> ### Note:  
+> If you are using the Cloud Connector for on-premise connections between SAP BTP applications and your local network, and you restrict network access by allowlisting IP addresses in your local firewall rules, you must add connectivity-specific IPs to these rules for the respective SAP BTP region\(s\).
+> 
+> For more information, see [Prerequisites: Network](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/prerequisites#network) \(Cloud Connector documentation\).
+
 **Regions for Enterprise Accounts**
 
 
@@ -1980,7 +1985,7 @@ ap21.hana.ondemand.com
 > Existing trial accounts and subaccounts are not affected.
 
 > ### Note:  
-> In the Cloud Foundry environment, IPs are controlled by the respective IaaS provider \(AWS, Azure, or Google Cloud\). IPs may change due to network updates on the provider side. Any planned changes will be announced at least four weeks before they take effect.
+> In the Cloud Foundry environment, IPs are controlled by the respective IaaS provider \(AWS, Azure, or Google Cloud\). IPs may change due to network updates on the provider side. Any planned changes will be announced at least four weeks before they take effect. For information on how to subscribe to updates, see [Platform Updates and Notifications](https://help.sap.com/docs/btp/sap-business-technology-platform/platform-updates-and-notifications).
 
 > ### Note:  
 > In the Cloud Foundry environment, the region in which a global account was created determines the API endpoint of all subaccounts associated with it. For example, subaccounts created in a global account in region **eu10** share the API endpoint URL `api.cf.eu10.hana.ondemand.com`.

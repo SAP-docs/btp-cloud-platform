@@ -50,3 +50,10 @@ ENDCLASS.
 
 ```
 
+**Related Information**  
+
+
+[Maintain Print Queues](../50-administration-and-ops/maintain-print-queues-9dd6f64.md "")
+
+[Integrating SAP BTP ABAP environment and Local Printers](../50-administration-and-ops/integrating-sap-btp-abap-environment-and-local-printers-9dd57ea.md "To set up the integration between SAP BTP ABAP environment and local printers, you can use two communication scenarios, SAP_COM_0466 and SAP_COM_0467.")
+

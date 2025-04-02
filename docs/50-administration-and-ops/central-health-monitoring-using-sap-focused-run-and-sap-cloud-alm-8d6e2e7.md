@@ -10,7 +10,7 @@ Learn more about how you can monitor the ABAP environment using SAP Focused Run 
 
 ## Context
 
-If you run SAP BTP, ABAP environment, as part of a hybrid landscape with on-premise and cloud systems, you might already have a central monitoring and alerting infrastructure in place. For example, the service offering SAP Focused Run is designed specifically for businesses that need high-volume system and application monitoring, alerting, and analytics, especially for hybrid landscapes including on-premise SAP solutions.
+If you run SAP BTP ABAP environment as part of a hybrid landscape with on-premise and cloud systems, you might already have a central monitoring and alerting infrastructure in place. For example, the service offering SAP Focused Run is designed specifically for businesses that need high-volume system and application monitoring, alerting, and analytics, especially for hybrid landscapes including on-premise SAP solutions.
 
 In addition, for cloud-centric customers, there's SAP Cloud ALM as an application lifecycle management offering.
 

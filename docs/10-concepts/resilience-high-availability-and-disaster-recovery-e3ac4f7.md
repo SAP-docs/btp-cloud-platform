@@ -27,11 +27,6 @@ Processes and Offerings
 Description
 
 </th>
-<th valign="top">
-
-Regional Availability
-
-</th>
 </tr>
 <tr>
 <td valign="top">
@@ -41,46 +36,28 @@ Regional Availability
 </td>
 <td valign="top">
 
-To achieve better fault-tolerance in the Cloud Foundry environment, we deploy our services across multiple AZs, which improves the availability of a service if there are issues with the infrastructure of one AZ. For more information, see [Availability Zones in the Cloud Foundry Environment](availability-zones-in-the-cloud-foundry-environment-b6a7e11.md).
+To achieve better fault-tolerance, we deploy our services across multiple availability zones \(AZs\), which improves the availability of a service if there are issues with the infrastructure of one AZ. Both Kyma and Cloud Foundry utilize multiple AZs provided by the cloud providers to ensure high availability of the platform.
 
-</td>
-<td valign="top">
+For more information on AZs, see:
 
-All regions that support the Cloud Foundry runtime. See [Regions and API Endpoints Available for the Cloud Foundry Environment](regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
+-   Cloud Foundry runtime: [Availability Zones in the Cloud Foundry Environment](availability-zones-in-the-cloud-foundry-environment-b6a7e11.md).
+-   Kyma runtime: [Standard: Amazon Web Services, Google Cloud, and Microsoft Azure](https://help.sap.com/docs/btp/sap-business-technology-platform/available-plans-in-kyma-environment?&version=Cloud#standard-amazon-web-services-google-cloud-and-microsoft-azure).
 
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**Backups in Kyma runtime** 
-
-</td>
-<td valign="top">
-
-Kyma runtime relies on managed Kubernetes clusters for periodic backups of Kubernetes objects. For more information, see [Kyma Environment Backup](../50-administration-and-ops/kyma-environment-backup-ab959cf.md).
-
-</td>
-<td valign="top">
-
-All regions that support the Kyma runtime. See [Regions for the Kyma Environment](regions-for-the-kyma-environment-557ec3a.md).
+In addition to what SAP BTP offers, you can follow the [Best Practices for Resilient Applications](resilience-high-availability-and-disaster-recovery-e3ac4f7.md#loioe3ac4f7c25a3442ca585950095eec599__section_n1c_dqk_ylb) to ensure high availability of your applications.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-**Backup and Recovery for SAP HANA Cloud** 
+**Backups** 
 
 </td>
 <td valign="top">
 
-If you use SAP HANA Cloud, your SAP HANA Cloud instances are continually backed up to safeguard your database and ensure that it can be recovered speedily. For more information, see [Backup and Recovery](https://help.sap.com/viewer/db19c7071e5f4101837e23f06e576495/cloud/en-US/89d71f01daca4ecaaa069d6a060167f5.html).
+SAP provides platform-level backups for some foundation services. However, for most of the services, managing backups is customers' responsibility.
 
-</td>
-<td valign="top">
-
-All regions where SAP HANA Cloud is available. See [Availability of SAP HANA Cloud](https://help.sap.com/doc/aa1ccd10da6c4337aa737df2ead1855b/Cloud/en-US/3b642f68227b4b1398d2ce1a5351389a.html?scp-name=SAP%20HANA%20Cloud).
+For more information on backups, see [SAP BTP Service Configuration Backups Managed by Customers](https://help.sap.com/docs/btp/btp-admin-guide/service-configuration-backups-managed-by-customers?version=Cloud) and [Data Backups Managed by SAP](https://help.sap.com/docs/btp/btp-admin-guide/data-backups-managed-by-sap?version=Cloud).
 
 </td>
 </tr>
@@ -95,11 +72,6 @@ All regions where SAP HANA Cloud is available. See [Availability of SAP HANA Clo
 The SAP BTP Disaster Recovery \(DR\) Plan is part of the overall SAP BTP Business Continuity Plan, which includes crisis management and process continuity activities that are triggered by a declared disaster. For more information, see [Disaster Recovery as Part of the Business Continuity Plan](resilience-high-availability-and-disaster-recovery-e3ac4f7.md#loio001180644f8a428bb422cd41caebb95f).
 
 </td>
-<td valign="top">
-
-All regions.
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -110,11 +82,6 @@ All regions.
 <td valign="top">
 
 In-Metro DR is a disaster recovery solution that utilizes synchronous data replication. It has been designed to protect our customers from the impact of local disasters that may affect a single availability zone \(AZ\). By deploying services across multiple AZs within a single region, In-Metro DR ensures that if a disaster occurs in one AZ, the issue is contained within that zone. Meanwhile, the other unaffected AZs continue to function normally, efficiently handling incoming requests. For more information, see [Disaster Recovery as Part of the Business Continuity Plan](resilience-high-availability-and-disaster-recovery-e3ac4f7.md#loio001180644f8a428bb422cd41caebb95f).
-
-</td>
-<td valign="top">
-
-All regions.
 
 </td>
 </tr>
@@ -182,11 +149,11 @@ In-Metro DR is a disaster recovery solution that utilizes synchronous data repli
 
 -   Scope:
 
-    -   For the scope of BTP services, see [SAP BTP Disaster Recovery Overview](https://www.sap.com/about/agreements/policies/cloud-service-specifications.html?search=disaster%20recovery&sort=latest_desc&pdf-asset=caacc9ac-d97e-0010-bca6-c68f7e60039b&page=2).
+    -   For the scope of SAP BTP services, see [SAP BTP Disaster Recovery Overview](https://www.sap.com/about/agreements/policies/cloud-service-specifications.html?search=disaster%20recovery&sort=latest_desc&pdf-asset=caacc9ac-d97e-0010-bca6-c68f7e60039b&page=2).
 
-    -   Includes BTP regions on AWS and Azure
+    -   Includes SAP BTP regions on AWS and Azure
 
 
 
-For more information, see [Announcing the New "In-Metro" Disaster Recovery Solution for SAP BTP](https://community.sap.com/t5/technology-blogs-by-sap/announcing-the-new-quot-in-metro-quot-disaster-recovery-solution-for-sap/ba-p/13904013)
+For more information, see [Announcing the New "In-Metro" Disaster Recovery Solution for SAP BTP](https://community.sap.com/t5/technology-blogs-by-sap/announcing-the-new-quot-in-metro-quot-disaster-recovery-solution-for-sap/ba-p/13904013).
 

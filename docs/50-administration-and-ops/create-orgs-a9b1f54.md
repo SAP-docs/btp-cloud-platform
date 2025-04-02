@@ -17,7 +17,7 @@ To enable Cloud Foundry in your subaccount, you must create an org in order to u
 3.  Choose a plan from the drop-down list and enter a name for your org.
 
     > ### Note:  
-    > Once you've created the org, you can’t change its name afterwards in the SAP BTP cockpit.
+    > Once you've created the org, you can’t change its name afterwards in the SAP BTP cockpit. However, you can rename the org using the Cloud Foundry CLI \(cf CLI\), and the new org name will be reflected in the cockpit.
 
     As an optional step, you can customize the instance name of your environment. Otherwise, the wizard uses the automatically generated instance name.
 

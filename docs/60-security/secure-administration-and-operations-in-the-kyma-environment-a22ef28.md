@@ -10,7 +10,7 @@ Secure administration and operations focus on landscape setup, authentication, a
 
 ## Landscape Setup
 
-While creating a staged development environment is a good idea in any case, there are some considerations specific to Kyma you might want to take into account. For more information, see [Staged Development with the Kyma Environment](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/ec8a269c4312416dbb83deb9e5b6bc5b.html "While creating a staged development environment is a good idea in any case, there are some considerations specific to Kyma you might want to take into account.") :arrow_upper_right:.
+While creating a staged development environment is a good idea in any case, there are some considerations specific to Kyma you might want to take into account. For more information, see [Cloud Foundry, Kyma, or Both?](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/ec8a269c4312416dbb83deb9e5b6bc5b.html "You can set up one or more subaccounts that run both Cloud Foundry and Kyma, so that they can share SAP BTP services, such as SAP HANA Cloud. However, if your account model needs more complexity than just development stages, it's recommended to create one or more subaccounts specifically for Kyma, which can be shared between your teams.") :arrow_upper_right:.
 
 
 

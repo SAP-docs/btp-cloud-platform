@@ -44,7 +44,7 @@ To debug an application using [SapMachine](https://github.com/SAP/SapMachine), y
 2.  To enable SSH tunneling in your application, run:
 
     ```
-    cf enable-ssh
+    cf enable-ssh <app_name>
     ```
 
 3.  To open the SSH tunnel, run:

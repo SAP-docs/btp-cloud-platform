@@ -7,7 +7,7 @@ Early Numbering: In the RAP version of the workflow service, API workflows can b
 > ### Sample Code:  
 > Example: EML Create
 > 
-> ```
+> ```abap
 > MODIFY ENTITIES OF i_cpwf_inst
 >       ENTITY CPWFInstance
 >       EXECUTE registerWorkflow
@@ -28,7 +28,7 @@ The workflow context can be provided using the following EML statement:
 > ### Sample Code:  
 > Example: EML Create
 > 
-> ```
+> ```abap
 > MODIFY ENTITIES OF i_cpwf_inst
 >       ENTITY CPWFInstance
 >       EXECUTE setPayload
@@ -47,7 +47,7 @@ The workflow context can be set even later in the `adjust_numbers` method of you
 > ### Sample Code:  
 > Example: EML Create
 > 
-> ```
+> ```abap
 > 
 > MODIFY ENTITIES OF i_cpwf_inst
 >       ENTITY CPWFInstance
@@ -93,7 +93,7 @@ To register a running workflow capability instance for cancelation, use the `reg
 > ### Sample Code:  
 > Example: EML Cancel
 > 
-> ```
+> ```abap
 > 
 > MODIFY ENTITIES OF i_cpwf_inst
 >       ENTITY CPWFInstance

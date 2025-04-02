@@ -23,7 +23,7 @@ Application Connectivity in Kyma simplifies the interaction between external sys
 -   Monitoring and tracing capabilities to facilitate operational aspects
 
 
-The Application Connector module bundles all features of Application Connectivity in Kyma. You can [install and manage the module using Kyma dashboard](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+The Application Connector module bundles all features of Application Connectivity in Kyma. You can [install and manage the module using Kyma dashboard](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 The module includes Kubernetes operators and is fully configurable over its own Kubernetes custom resources \(CRs\). For each external system, a dedicated configuration is used. This allows for individual configuration of security and aspects \(like encryption and authentication\) per system.
 

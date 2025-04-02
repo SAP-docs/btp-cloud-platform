@@ -12,7 +12,7 @@ Learn how to configure the Telemetry module to ingest application and access log
 
 -   Kyma as the target deployment environment.
 
--   The Telemetry module is added. For details, see [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   The Telemetry module is added. For details, see [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 -   If you want to use Istio access logs, make sure that the Istio module is added.
 

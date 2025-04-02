@@ -1460,6 +1460,7 @@ Create role based, multi-channel sites to access business apps and content.
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -1520,6 +1521,8 @@ Create role based, multi-channel sites to access business apps and content.
 -   KSA \(Dammam\) public sector
 -   Japan \(Osaka\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
+-   Japan \(Tokyo\)
 
 
 
@@ -6413,6 +6416,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -6473,6 +6477,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   KSA \(Dammam\) public sector
 -   Japan \(Osaka\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
 
 
 
@@ -6705,6 +6710,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -6765,6 +6771,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   KSA \(Dammam\) public sector
 -   Japan \(Osaka\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
 
 
 
@@ -8464,6 +8471,7 @@ Simplify access to applications by establishing a central entry point.
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -8524,6 +8532,8 @@ Simplify access to applications by establishing a central entry point.
 -   KSA \(Dammam\) public sector
 -   Japan \(Osaka\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
+-   Japan \(Tokyo\)
 
 
 
@@ -14078,6 +14088,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   Australia \(Sydney\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   Canada Central \(Toronto\)
 
 
 
@@ -14137,6 +14148,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   KSA \(Dammam\) public sector
 -   Japan \(Osaka\)
 -   Australia \(Sydney\)
+-   KSA \(Dammam\)
 
 
 

@@ -38,7 +38,7 @@ If you want to explicitly set the value of `ActiveProcessorCount`, you can do th
     applications:
     - name: <APP_NAME>
       buildpacks:
-      - sap_jakarta_buildpack
+      - sap_java_buildpack_jakarta
       env:
         JBP_CONFIG_JAVA_OPTS: 'java_opts: ''-XX:ActiveProcessorCount=7'''
       ...

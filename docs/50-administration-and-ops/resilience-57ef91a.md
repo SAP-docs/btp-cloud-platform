@@ -2,9 +2,9 @@
 
 # Resilience
 
-The resilience of your ABAP Cloud applications and your data provided by a set of SAP BTP, ABAP environment features.
+The resilience of your ABAP Cloud applications and your data provided by a set of SAP BTP ABAP environment features.
 
-SAP BTP, ABAP environment provides the following set of features to increase the availability and resilience of your ABAP cloud applications and your data:
+SAP BTP ABAP environment provides the following set of features to increase the availability and resilience of your ABAP cloud applications and your data:
 
 -   Both the infrastructures for ABAP systems and SAP HANA Cloud databases are set up across multiple availability zones.
 
@@ -16,5 +16,5 @@ SAP BTP, ABAP environment provides the following set of features to increase the
 
 
 > ### Note:  
-> SAP BTP ABAP Environment provides protection against denial-of-service attacks via various defense mechanisms. These are continuously improved to keep a decent protection level. However, a full protection against DoS attacks cannot be guaranteed.
+> SAP BTP ABAP environment provides protection against denial-of-service attacks via various defense mechanisms. These are continuously improved to keep a decent protection level. However, a full protection against DoS attacks cannot be guaranteed.
 

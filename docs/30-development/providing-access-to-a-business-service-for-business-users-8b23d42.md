@@ -47,5 +47,5 @@ After you've implemented access based on one of the scenarios mentioned, you can
 
 In addition to this documentation, the following tutorial is also available:
 
-[Create Authorization Model with SAP BTP, ABAP Environment](https://developers.sap.com/group.abap-env-authorizations.html)
+[Create Authorization Model with SAP BTP ABAP Environment](https://developers.sap.com/group.abap-env-authorizations.html)
 

@@ -2,6 +2,8 @@
 
 # Display Business Event Logs
 
+App ID: F6021
+
 
 
 With this app, you can display logged business events. The events can be filtered by business event type for each object.
@@ -12,7 +14,7 @@ With this app, you can display logged business events. The events can be filtere
 
 ## Key Features
 
-a\) You can use this app to:
+You can use this app to:
 
 -   Get an overview of logged business events
 -   View details of logged business events

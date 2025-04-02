@@ -42,7 +42,7 @@
 -   [Add Transactional Behavior to Your Core Data Services](https://developers.sap.com/tutorials/abap-environment-transactional-enablement.html)
 
 
-*Group:*[Create an ABAP Core Data Services \(CDS\) View in SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-create-cds-mde.html)
+*Group:*[Create an ABAP Core Data Services \(CDS\) View in SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-create-cds-mde.html)
 
 -   [Enhance an ABAP Core Data Services \(CDS\) View in SAP Business Technology Platform \(BTP\) ABAP Environment](https://developers.sap.com/tutorials/abap-environment-enhance-cds-view.html)
 
@@ -83,15 +83,15 @@
 
 ## Authorization Model
 
-*Group:*[Create Authorization Model with SAP BTP, ABAP Environment](https://developers.sap.com/group.abap-env-authorizations.html)
+*Group:*[Create Authorization Model with SAP BTP ABAP Environment](https://developers.sap.com/group.abap-env-authorizations.html)
 
--   [Create Data Model and Lock Object in SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-lock-object.html)
+-   [Create Data Model and Lock Object in SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-lock-object.html)
 
--   [Create Behavior and Service in SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-behavior-definition.html)
+-   [Create Behavior and Service in SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-behavior-definition.html)
 
--   [Create Authorization Model and App in SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-authorization.html)
+-   [Create Authorization Model and App in SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-authorization.html)
 
--   [Maintain Business Roles and Access Restrictions in SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-access-mgmt.html)
+-   [Maintain Business Roles and Access Restrictions in SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-access-mgmt.html)
 
 
 
@@ -119,7 +119,7 @@
 
 -   [Transfer Your ABAP Source Code With SAP Cloud Platform ABAP Environment via abapGit](https://developers.sap.com/tutorials/abap-environment-abapgit-transfer.html)
 
--   [Create Branches with SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-branch.html)
+-   [Create Branches with SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-branch.html)
 
 -   [Use Checkout Functionality of Branches to Switch Between Different Versions of Code](https://developers.sap.com/tutorials/abap-environment-checkout.html)
 
@@ -136,9 +136,9 @@
 
 ## Cloud Operations
 
--   [Monitor an SAP BTP, ABAP Environment Service Using SAP Focused Run \(FRUN\)](https://developers.sap.com/tutorials/abap-environment-monitoring-frun-healthmonitoring.html)
+-   [Monitor an SAP BTP ABAPEnvironment Service Using SAP Focused Run \(FRUN\)](https://developers.sap.com/tutorials/abap-environment-monitoring-frun-healthmonitoring.html)
 
--   [Monitor an SAP BTP, ABAP Environment Service Using SAP Cloud ALM \(CALM\)](https://developers.sap.com/tutorials/abap-environment-monitoring-calm-health-monitoring.html)
+-   [Monitor an SAP BTP ABAPEnvironment Service Using SAP Cloud ALM \(CALM\)](https://developers.sap.com/tutorials/abap-environment-monitoring-calm-health-monitoring.html)
 
 
 
@@ -147,7 +147,7 @@
 
 ## Eventing
 
--   [How to Create RAP Business Events in SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-create-rap-business-events.html)
+-   [How to Create RAP Business Events in SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-create-rap-business-events.html)
 
 -   [Event Consumption in ABAP Development Tools for Eclipse](https://developers.sap.com/tutorials/abap-environment-event-enablement-consumption.html)
 
@@ -171,7 +171,7 @@
 
 -   [Get Data from an On-Premise System Using a Remote Function Call \(RFC\) Scenario](https://developers.sap.com/tutorials/abap-env-rfc-scenario.html)
 
--   [Remote Function Call \(RFC\) - Connect to Your On-Premise System from SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-env-rfc.html)
+-   [Remote Function Call \(RFC\) - Connect to Your On-Premise System from SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-env-rfc.html)
 
 -   [Test the Business API \(BAPI\) with an ABAP Console App](https://developers.sap.com/tutorials/abap-environment-test-rfc.html)
 
@@ -184,7 +184,7 @@
 
 *Mission:* [Get Data from a Remote System Using an OData Service](https://developers.sap.com/mission.abap-env-connect-2-environments.html)
 
--   [Enable Connection From a Remote Instance of SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-a4c-inbound-communication.html)
+-   [Enable Connection From a Remote Instance of SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-a4c-inbound-communication.html)
 
 -   [Prepare Consuming System and Create Service Consumption Model](https://developers.sap.com/tutorials/abap-environment-create-service-consumption-model.html)
 
@@ -193,18 +193,18 @@
 -   [Implement Custom Entity and Query Implementation Class](https://developers.sap.com/tutorials/abap-environment-a4c-create-custom-entity.html)
 
 
-*Mission:* [Connect to SAP S/4HANA Cloud with SAP BTP, ABAP Environment](https://developers.sap.com/mission.abap-env-connect-s4hana.html)
+*Mission:* [Connect to SAP S/4HANA Cloud with SAP BTP ABAP Environment](https://developers.sap.com/mission.abap-env-connect-s4hana.html)
 
--   [Create Communication System to Connect to SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-s4hanacloud.html)
+-   [Create Communication System to Connect to SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-s4hanacloud.html)
 
 -   [Create Service Consumption Model for Business Partner and Sales Order Item Cube](https://developers.sap.com/tutorials/abap-environment-s4hanacloud-service-consumption.html)
 
--   [Create Service Binding for Bonus Plan Scenario with SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-s4hanacloud-binding.html)
+-   [Create Service Binding for Bonus Plan Scenario with SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-s4hanacloud-binding.html)
 
 
 wihtout group/mission:
 
--   [Call an External API and Parse the Response in SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-external-api.html)
+-   [Call an External API and Parse the Response in SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-external-api.html)
 
 -   [Create RFC Proxy Class](https://developers.sap.com/tutorials/abap-environment-generation-rfc-proxy.html)
 
@@ -212,7 +212,7 @@ wihtout group/mission:
 
 -   [Using ODBC driver for SQL Service](https://developers.sap.com/tutorials/abap-environment-abap-sql.html)
 
--   [Consume SOAP Based Web Services with SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-soap-web-services.html)
+-   [Consume SOAP Based Web Services with SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-soap-web-services.html)
 
 
 
@@ -230,7 +230,7 @@ without group/mission:
 
 -   [Create a Developer User in SAP Cloud ABAP Environment](https://developers.sap.com/tutorials/abap-environment-developer-user.html)
 
--   [Provision Users into your SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-ips.html)
+-   [Provision Users into your SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-ips.html)
 
 
 
@@ -262,7 +262,7 @@ without group/mission:
 
 -   [Set SAP BTP ABAP Environment as a ContentProvider for SAP Build Workzone, standard edition](https://developers.sap.com/tutorials/abap-environment-lp-service-content-provider.html)
 
--   [Use Custom Themes in the SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-custom-theme.html)
+-   [Use Custom Themes in the SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-custom-theme.html)
 
 
 
@@ -303,11 +303,11 @@ without group/mission:
 
 ## Badges
 
-Taster: [Get Started with SAP BTP, ABAP Environment](https://developers.sap.com/mission.abap-env-trial-user.html)
+Taster: [Get Started with SAP BTP ABAP Environment](https://developers.sap.com/mission.abap-env-trial-user.html)
 
 Level 1: [Get to know the ABAP RESTfulApplication Programming Model](https://developers.sap.com/mission.cp-starter-extensions-abap.html)
 
-Level 2: [Level up with SAP BTP, ABAP Environment](https://developers.sap.com/mission.abap-env-level-up.html)
+Level 2: [Level up with SAP BTP ABAP Environment](https://developers.sap.com/mission.abap-env-level-up.html)
 
-Level 3: [SAP BTP, ABAP Environment: Intermediate Topics](https://developers.sap.com/mission.abap-env-intermediate.html)
+Level 3: [SAP BTP ABAP Environment: Intermediate Topics](https://developers.sap.com/mission.abap-env-intermediate.html)
 

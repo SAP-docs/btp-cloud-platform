@@ -2,6 +2,8 @@
 
 # Display Business Events by Objects
 
+App ID: F6035
+
 
 
 With this app, you can display business events grouped by object instances. You can filter the results by processing variants. The detailed view provides information about the sequences of business events for instances of object components.
@@ -12,7 +14,7 @@ With this app, you can display business events grouped by object instances. You 
 
 ## Key Features
 
-a\) You can use this app to view:
+You can use this app to view:
 
 -   Instances of object components containing business events
 -   Sequence of business events logged for an instance of object component

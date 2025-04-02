@@ -2,9 +2,9 @@
 
 # Getting Started with Custom Code Analysis in the ABAP Environment
 
-Learn how to get started with Custom Code Analysis in the SAP BTP, ABAP environment.
+Learn how to get started with Custom Code Analysis in the SAP BTP ABAP environment.
 
-You want to use the SAP BTP, ABAP environment to analyze your custom code remotely in your SAP ECC or SAP S/4HANA systems? This documentation will help you gain insight into all the options to work with the ABAP Test Cockpit \(ATC\) in the SAP BTP, ABAP environment.
+You want to use the SAP BTP ABAP environment to analyze your custom code remotely in your SAP ECC or SAP S/4HANA systems? This documentation will help you gain insight into all the options to work with the ABAP Test Cockpit \(ATC\) in the SAP BTP ABAP environment.
 
 The following list covers all possible use cases and will guide you to the respective documentation chapters providing more details on each use case.
 
@@ -14,13 +14,13 @@ The following list covers all possible use cases and will guide you to the respe
 
     To learn how to enable the app, see [Enable Usage of the ABAP Test Cockpit Configurator App](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/enable-usage-of-abap-test-cockpit-configurator-app).
 
-2.  **Custom Code Analysis:** If you want to check your custom code in your on-premise system remotely using the SAP BTP, ABAP environment as the central check system, you need to set up the Custom Code Migration app on the SAP Fiori launchpad.
+2.  **Custom Code Analysis:** If you want to check your custom code in your on-premise system remotely using the SAP BTP ABAP environment as the central check system, you need to set up the Custom Code Migration app on the SAP Fiori launchpad.
 
     To enable the Custom Code Migration app, see [Enable Usage of the Custom Code Migration App](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/enable-usage-of-custom-code-migration-app).
 
     To learn all about custom code migration, see the [Custom Code Migration Guide for SAP S/4HANA 2023](https://help.sap.com/doc/9dcbc5e47ba54a5cbb509afaa49dd5a1/2023.000/en-US/CustomCodeMigration_EndToEnd.pdf).
 
-3.  **ATC Developer Scenario:** You can use a system in the SAP BTP, ABAP environment as a central check system to run ATC checks from an on-premise system against this system. To do this, a number of configurations will be necessary.
+3.  **ATC Developer Scenario:** You can use a system in the SAP BTP ABAP environment as a central check system to run ATC checks from an on-premise system against this system. To do this, a number of configurations will be necessary.
 
     To learn how to use the ATC as a central check system, see [Configuring Remote ATC Using a Central Check System](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/configuring-remote-atc-using-central-check-system?).
 
@@ -44,7 +44,7 @@ The following list covers all possible use cases and will guide you to the respe
 **Related Information**  
 
 
-[SAP BTP, ABAP environment](https://help.sap.com/docs/sap-btp-abap-environment)
+[SAP BTP ABAP environment](https://help.sap.com/docs/sap-btp-abap-environment)
 
 [Custom Code Analysis](../50-administration-and-ops/custom-code-analysis-15d0a1a.md "")
 

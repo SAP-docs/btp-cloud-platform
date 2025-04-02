@@ -18,7 +18,7 @@ You can decide which modules are needed for your workload, although some feature
 
 Learn more about the available Kyma modules: [Kyma Modules](kyma-modules-0dda141.md).
 
-Learn how to add a module under [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+Learn how to add a module under [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 
 

@@ -58,5 +58,5 @@ Following, you can find an overview of necessary steps, grouped by the executing
 
 As administrator you create a communication arrangement based on the scenario implemented by the developer. The arrangement is tied to a communication system that identifies the SAP S/4HANA Cloud Public Edition system as the target host.
 
-Tutorial group [Integrate the SAP BTP, ABAP environment with SAP S/4HANA Cloud, public edition](https://developers.sap.com/group.sap-btp-abap-s4hana-integrate.html) shows how to consume the business partner OData API service in SAP S/4HANA Cloud Public Edition from a console application in SAP BTP ABAP environment using basic authentication \(communication user\) and OAuth 2.0 SAML Bearer Assertion \(propagation of business user\).
+Tutorial group [Integrate the SAP BTP ABAP environment with SAP S/4HANA Cloud, public edition](https://developers.sap.com/group.sap-btp-abap-s4hana-integrate.html) shows how to consume the business partner OData API service in SAP S/4HANA Cloud Public Edition from a console application in SAP BTP ABAP environment using basic authentication \(communication user\) and OAuth 2.0 SAML Bearer Assertion \(propagation of business user\).
 

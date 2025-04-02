@@ -135,7 +135,7 @@ The SAP BTP cockpit is structured according to global accounts, directories, and
 
 -   With **directories**, you can organize and manage your subaccounts according to your technical and business needs.
 
--   In **Subaccounts**, you deploy applications, use services, and manage your subscriptions. You can use them to manage members, authorizations, and entitlements.
+-   In **subaccounts**, you deploy applications, use services, and manage your subscriptions. You can use them to manage members, authorizations, and entitlements.
 
     In the SAP BTP, Cloud Foundry environment, the subaccount is divided into one or more spaces, which is where application development, deployment, and maintenance take place.
 

@@ -10,7 +10,7 @@ If you want to use SAP Event Mesh as backend for Kyma Eventing, you must first s
 
 ## Prerequisites
 
--   The Kyma Eventing module is added to your cluster. See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   The Kyma Eventing module is added to your cluster. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 -   The Kyma SAP BTP Operator module is added to your cluster.
 

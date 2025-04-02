@@ -10,7 +10,7 @@ Use [Gateway API](https://gateway-api.sigs.k8s.io/) to expose your workload.
 
 ## Prerequisites
 
--   You have the Istio module added. See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have the Istio module added. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 -   You have a deployed workload.
 
 > ### Caution:  

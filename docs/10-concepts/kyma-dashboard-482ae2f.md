@@ -34,9 +34,9 @@ You can use Kyma dashboard to perform the following actions:
 
 [Create a Kyma Instance](../50-administration-and-ops/create-a-kyma-instance-09dd313.md "Set up a Kubernetes cluster with SAP BTP, Kyma runtime and use it to build applications and extensions to your SAP and third-party solutions.")
 
-[Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "To use a Kyma module, you must add it first. Use Kyma dashboard or kubectl to do that. If you don't need the module anymore, delete it to save resources.")
+[Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, delete it to save resources.")
 
-[Setting Your Module to the Unmanaged State in Kyma Dashboard](../50-administration-and-ops/setting-your-module-to-the-unmanaged-state-in-kyma-dashboard-d281d80.md "In some cases, for example, for testing, you may need to modify your module beyond what is supported by its configuration. By default, when a module is in the managed state, Kyma Control Plane governs its Kubernetes resources, reverting any manual changes during the next reconciliation loop. To modify Kubernetes objects directly without them being reverted, you must set the module to the unmanaged state. In this state, reconciliation is disabled, ensuring your manual changes are preserved.")
+[Setting Your Module to the Unmanaged and Managed State using Kyma Dashboard](../50-administration-and-ops/setting-your-module-to-the-unmanaged-and-managed-state-c071680.md#loiod281d803c7d946f4adcc28ee72700119 "Use Kyma dashboard to set your module to the unmanaged state.")
 
 [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 

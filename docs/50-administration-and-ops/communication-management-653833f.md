@@ -94,7 +94,7 @@ The destination service allows you to read and manage the address of a remote se
 
 [Destination Service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/daca64dacc6148fcb5c70ed86082ef91.html#loiodaca64dacc6148fcb5c70ed86082ef91__services)
 
- <?sap-ot O2O class="- topic/link " href="3fa7934f5a714bf88d8490958211382f.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/3f8a0aed508c4940a71aaaf18e037095.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[Create a Destination](../30-development/create-a-destination-3fa7934.md "If your business application uses external services, you have to set up a destination for outbound communication either in your subaccount, which is recommended, or in your space.")
 
 <a name="copydfe2a7d9df774e1d874dd0d9d1db8a41"/>
 

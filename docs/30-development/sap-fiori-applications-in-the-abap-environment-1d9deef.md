@@ -10,22 +10,24 @@ When you plan to create an SAP Fiori application in the ABAP environment and wan
 
 ## Implementing and Deploying the UI
 
-![](images/Implement_DeployUI_5c92fc2.png)
+![](images/SAPFioriPic1correct_a5076f7.png)
 
 
 
 ### Implementing an SAP Fiori Application
 
-To implement an SAP Fiori application for an OData service, you can use the Fiori tools application generator in SAP Business Application Studio or Visual Studio Code. When generating the application, you can select one of the available OData services for UI development and choose the main entity. Amongst others, the generator will create the `manifest.json` file. The manifest defines static information about the application, such as the name of the application or OData service used. You can add a SAP Fiori launchpad configuration to the manifest.json file, for example, a tile with an icon. The SAP Fiori launchpad configuration can be added from the application generator or from the application information page.
+To implement an SAP Fiori application for an OData UI service, you can use the Fiori tools application generator in SAP Business Application Studio or Visual Studio Code. When generating the application, you can select one of the available OData UI services for UI development and choose the main entity. Amongst others, the generator will create the `manifest.json` file. The manifest defines static information about the application, such as the name of the application or OData UI service used. You can add a SAP Fiori launchpad configuration to the manifest.json file, for example, a tile with an icon. The SAP Fiori launchpad configuration can be added from the application generator or from the application information page.
 
 After generating the app, you can run the application in preview mode.
 
 > ### Restriction:  
-> -   Only OData services from your custom service binding are supported.
+> -   Only OData UI services from your custom service binding are supported.
 > 
 > -   API services on SAP Business Accelerator Hub are not supported. They are released for external consumption only.
 
-To discover the available OData services, the `SAP_A4_BC_DEV_UID_PC` business catalog needs to be assigned. In order to run the application in preview mode, the `SAP_CORE_BC_EXT_TST` business catalog has to be assigned. This business catalog is contained in the `SAP_BR_DEVELOPER` business role template.
+Refer to \[Develop an OData UI service against a released BO interface or CDS View\] for how to create OData UI services that are suitable for UI consumption in an SAP Fiori application.
+
+To discover the available OData UI services, the `SAP_A4_BC_DEV_UID_PC` business catalog needs to be assigned. In order to run the application in preview mode, the `SAP_CORE_BC_EXT_TST` business catalog has to be assigned. This business catalog is contained in the `SAP_BR_DEVELOPER` business role template.
 
 
 
@@ -73,7 +75,7 @@ It is recommended to utilize launchpad app descriptor items created from the `ma
 
 After you have deployed the SAP Fiori application and created Fiori launchpad app descriptor items, either automatically from the manifest or manually in ABAP development tools for Eclipse, you need to create an IAM app and assign the created SAP Fiori launchpad app descriptor item to the IAM app. Furthermore, you need to create a business catalog and assign the IAM app to the business catalog. The business catalog enables access to the SAP Fiori application.
 
-![](images/corrpicforSAPFioriUI_9f7d337.png)
+![](images/SAPFioriPic2_be13083.png)
 
 Additionally, you can provide a predefined launchpad layout by creatinge a space template and a page template referring to the tile of the SAP Fiori launchpad app descriptor item.
 

@@ -6,7 +6,7 @@ Get an overview about how to create and deploy an SAP Fiori application to ABAP 
 
 
 
-If you need further assistance with creating and deploying an application, check out the tutorial [**Create an SAP Fiori App and Deploy it to SAP BTP, ABAP Environment**](https://developers.sap.com/tutorials/abap-environment-deploy-cf-production.html).
+If you need further assistance with creating and deploying an application, check out the tutorial [Create an SAP Fiori App and Deploy it to SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-deploy-cf-production.html).
 
 
 
@@ -26,9 +26,9 @@ If you need further assistance with creating and deploying an application, check
 
 > ### Prerequisites:  
 > -   You have created a development package in ABAP Development Tools for Eclipse. See [Creating ABAP Packages](https://help.sap.com/docs/btp/sap-abap-development-user-guide/creating-abap-packages?version=Cloud).
-> -   You have exposed a RAP business service as an OData service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/docs/btp/sap-abap-cds-development-user-guide/using-service-binding-editor-for-odata-v2-service?version=Cloud).
-> -   Business catalog `SAP_A4C_BC_DEV_UID_PC` is assigned to your user, which allows you to discover available OData services and deploy your application.
-> -   Business catalog `SAP_CORE_BC_EXT_TST` is assigned to your user, which allows you to preview your application. See [Business Catalog for Key User Tasks](https://help.sap.com/docs/btp/sap-business-technology-platform/business-catalog-for-key-user-tasks?version=Cloud).
+> -   You have exposed a RAP business service as an OData service. See [Using Service Binding Editor for OData Service](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/using-service-binding-editor-for-odata-v4-service?version=sap_btp). In case no suitable service is available yet, you may create one based on a released BO interface or CDS View. See  <?sap-ot O2O class="- topic/xref " href="5717c0a1dafc4335add0207b81c39cef.xml" text="" desc="" xtrc="xref:6" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/eaaeba48e5e04949855f2763477cd557.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+> -   Business catalog `SAP_A4C_BC_DEV_UID_PC` is assigned to your user, which allows you to discover available services and deploy your application.
+> -   Business catalog `SAP_CORE_BC_EXT_TST` is assigned to your user, which allows you to preview your application. See [Business Catalogs for Development Tasks](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/business-catalogs-for-development-tasks?version=Cloud).
 > -   You have an open transport request.
 
 ![](images/bild1SAP_BAS_UI_Dev_b3af0ae.png)
@@ -73,7 +73,7 @@ If you need further assistance with creating and deploying an application, check
 > ### Prerequisite:  
 > Business catalog `SAP_A4C_BC_DEV_PC` is assigned to your user, which is required for development with ABAP Development Tools. See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
 
-![](images/developertasks2_aefc54c.png)
+![](images/DevelopSAPFioriPic1_19a2ef5.png)
 
 1.  To manage access to your SAP Fiori application, you need to log on as a developer in ABAP development tools for Eclipse to create an Identity and Access Management \(IAM\) application, assign a launchpad app descriptor item for your UI5 application and a service, and maintain authorizations \(steps 1-3 in the figure above\). See [Creating an IAM App for the Business Service](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-iam-app-for-business-service?version=Cloud).
 2.  Once you have created your IAM app, you have to create a business catalog. See [Creating a Business Catalog](https://help.sap.com/docs/btp/sap-business-technology-platform/iam-creating-business-catalog?version=Cloud).

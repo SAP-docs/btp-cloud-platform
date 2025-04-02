@@ -87,7 +87,7 @@ Select the text sources that you want to have translated.
 > -   When the translations are published, the rows containing the texts in the target language will be added to the selected transport via R3TR TABU.
 > 
 > 
-> In this tutorial \([Create an SAP Fiori-based Table Maintenance App with SAP BTP, ABAP Environment](https://developers.sap.com/group.abap-env-factory.html)\) on how to create a business configuration application to maintain error code definitions, for instance, the language-dependent texts for the respective error code definitions are stored as entries in the database table `ZERROR_CODE_T###` with `###` being replaced by a number chosen by the developer, such as `000`. The non-key field for which translations can be maintained is field `DESCRIPTION`.
+> In this tutorial \([Create an SAP Fiori-based Table Maintenance App with SAP BTP ABAP Environment](https://developers.sap.com/group.abap-env-factory.html)\) on how to create a business configuration application to maintain error code definitions, for instance, the language-dependent texts for the respective error code definitions are stored as entries in the database table `ZERROR_CODE_T###` with `###` being replaced by a number chosen by the developer, such as `000`. The non-key field for which translations can be maintained is field `DESCRIPTION`.
 
 **Related Information**  
 

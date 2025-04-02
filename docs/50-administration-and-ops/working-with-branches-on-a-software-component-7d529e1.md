@@ -10,12 +10,12 @@
 
 -   You’ve created a communication arrangement as described in [How to Create a Communication Arrangement](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-arrangement?version=Cloud&q=how%20to%20create%20a%20communication%20arrangement).
 
--   You have selected the communication scenario SAP\_COM\_0948 for your communication arrangement and have mapped it to your communication system.
+-   You have selected the communication scenario `SAP_COM_0948` for your communication arrangement and have mapped it to your communication system.
 
--   You have cloned the software component to the ABAP Environment system. See Cloning Software Components to an ABAP Environment System.
+-   You have cloned the software component to the ABAP environment system. See [Cloning Software Components to an ABAP Environment System](cloning-software-components-to-an-abap-environment-system-383ce2f.md).
 
 
-You can use the communication scenario SAP\_COM\_0948 to work with software components on an SAP BTP, ABAP environment system.
+You can use the communication scenario `SAP_COM_0948` to work with software components on a SAP BTP ABAP environment system.
 
 1.  *Authentification on the server*
 
@@ -37,7 +37,7 @@ You can use the communication scenario SAP\_COM\_0948 to work with software comp
 
 2.  *Create a Branch*
 
-    To create a branch, you perform a POST request on the Branches entity. In the header parameters, you should include the `x-csrf-token` that was retrieved in the first request. Fill in the following data in your request body:
+    To create a branch, you perform a `POST` request on the `Branches` entity. In the header parameters, you should include the `x-csrf-token` that was retrieved in the first request. Fill in the following data in your request body:
 
     1.  `sc_name`: the name of your software component
 
@@ -64,27 +64,27 @@ You can use the communication scenario SAP\_COM\_0948 to work with software comp
     >     HTTP/1.1 201 Created
     >     Content-Type: application/json
     >     {
-    >     "@odata.context": "$metadata#Branches/$entity",
-    >     "@odata.metadataEtag": "W/\"20240111143934\"",
-    >     "sc_name": "/DMO/COMPONENT",
-    >     "branch_name": "feature",
-    >     "is_active": false,
-    >     "criticality": 0,
-    >     "delta": "Please checkout first",
-    >     "delta_criticality": 0,
-    >     "derived_from": "main",
-    >     "name_of_new_branch": "",
-    >     "commit_id": "",
-    >     "commit_message": "",
-    >     "last_commit_by": "",
-    >     "relative_date_last_rem_commit": "",
-    >     "last_commit_on": null,
-    >     "commit_id_on_system": "-",
-    >     "created_by": "CC0000000009",
-    >     "created_on": "2024-01-16T14:00:00Z",
-    >     "execution_mode": "",
-    >     "import_mode": "",
-    >     "SAP__Messages": []
+    >         "@odata.context": "$metadata#Branches/$entity",
+    >         "@odata.metadataEtag": "W/\"20240111143934\"",
+    >         "sc_name": "/DMO/COMPONENT",
+    >         "branch_name": "feature",
+    >         "is_active": false,
+    >         "criticality": 0,
+    >         "delta": "Please checkout first",
+    >         "delta_criticality": 0,
+    >         "derived_from": "main",
+    >         "name_of_new_branch": "",
+    >         "commit_id": "",
+    >         "commit_message": "",
+    >         "last_commit_by": "",
+    >         "relative_date_last_rem_commit": "",
+    >         "last_commit_on": null,
+    >         "commit_id_on_system": "-",
+    >         "created_by": "CC0000000009",
+    >         "created_on": "2024-01-16T14:00:00Z",
+    >         "execution_mode": "",
+    >         "import_mode": "",
+    >         "SAP__Messages": []
     >     }
     > 
     > ```
@@ -102,8 +102,8 @@ You can use the communication scenario SAP\_COM\_0948 to work with software comp
     >         Host: host.abapcp.int.sap
     >         Content-Length: 44
     >         {
-    >         "import_mode" : "",
-    >         "execution_mode": ""
+    >             "import_mode" : "",
+    >             "execution_mode": ""
     >         }
     > 
     > Response
@@ -129,7 +129,7 @@ You can use the communication scenario SAP\_COM\_0948 to work with software comp
     >         "execution_mode": "",
     >         "import_mode": "",
     >         "SAP__Messages": []
-    >         }
+    >       }
     > 
     > ```
 

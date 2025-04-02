@@ -12,9 +12,9 @@ Learn how to extend an SAP Fiori application with an application variant by crea
 
 
 
-If an SAP Fiori application doesn\`t fully support your business process or the specific needs of some of your business users, and if the SAP Fiori application is released for extensibility, you can extend the SAP Fiori application with an applicaion variant while the original SAP Fiori application remains available and unchanged. In an application variant, you can extend the original code to define changes that fulfil the specific business requirements of different business roles, user groups, organizational units, and countries. For example, you might want to create an application variant to simplify and streamline a specific process by hiding fields not required by casual users, visualizing data as a chart, or changing a responsive table to a grid table to make information easier to process.
+If an SAP Fiori application doesn't fully support your business process or the specific needs of some of your business users, and if the SAP Fiori application is released for extensibility, you can extend the SAP Fiori application with an applicaion variant while the original SAP Fiori application remains available and unchanged. In an application variant, you can extend the original code to define changes that fulfil the specific business requirements of different business roles, user groups, organizational units, and countries. For example, you might want to create an application variant to simplify and streamline a specific process by hiding fields not required by casual users, visualizing data as a chart, or changing a responsive table to a grid table to make information easier to process.
 
-As a developer, you can use SAPUI5 adaptaion projects in [SAP Business Application Studio](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/extending-sap-fiori-application) to create applications variants.You can efficiently reuse the original SAP Fiori application together with its OData service and application logic to define changes that are specific to the application variant only.
+As a developer, you can use SAPUI5 adaptaion projects in [SAP Business Application Studio](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/extending-sap-fiori-application) to create applications variants.You can efficiently reuse the original SAP Fiori application together with its OData UI service and application logic to define changes that are specific to the application variant only.
 
 After deployment, both the base application and the newly created application variant exist and can be made available to the relevant business users through corresponding tiles in the SAP Fiori launchpad. If the base application is changed by a new version, it does not affect the deployed application variant. You can test the application variant with the latest enhancements of the base application in SAP Business Application Studio and deploy it again to benefit from the latest enhancements. For further information, see [Check Whether Your Adaptaion Project Is Up-To-Date with Base App Upgrades](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/check-whether-your-adaptation-project-is-up-to-date-with-base-app-upgrades).
 
@@ -40,7 +40,7 @@ You have set up and integrated SAP Business Application Studio. See [Setup of UI
 
     -   Business catalog `SAP_A4C_BC_DEV_OBJ_DIS_PC` \(or other business catalog for development tasks\), which allows you to retrieve the list of extensible base applications.
 
-    -   A business catalog that grants access to the base application, which allows you to execute the corresponding OData service.
+    -   A business catalog that grants access to the base application, which allows you to execute the corresponding OData UI service.
 
     -   Business catalog `SAP_A4C_BC_DEV_UID_PC`, which allows you to deploy the adaptation project.
 
@@ -52,11 +52,11 @@ You have set up and integrated SAP Business Application Studio. See [Setup of UI
 
 1.  As a developer user in SAP Business Application Studio, generate an SAPUI5 adaptation project. See [Create the Adaptation Project](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/create-project).
 
-2.  Make adaptations to the UI, for example, change control properties, add own sections to the object page, add controller extensions, etc.. See [Make Adaptations](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/make-adaptations-9486af5a8f6f440ab4f6d924bafc90d4).
+2.  Make adaptations to the UI. For example, change control properties, add own sections to the object page, or add controller extensions. See [Make Adaptations](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/make-adaptations-9486af5a8f6f440ab4f6d924bafc90d4).
 
-3.  Now you can preview the generated SAP Fiori application. See [Preview the Adaptation Project](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/preview-adaptation-project-a8038817f4ee43508f8c5fab254783b8).
+3.  Now, you can preview the generated SAP Fiori application. See [Preview the Adaptation Project](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/preview-adaptation-project-a8038817f4ee43508f8c5fab254783b8).
 
-4.  Deploy the SAP Fiori UI by executing command `npm run deploy` in the terminal of your project. See [Deploy or Update the Adaptation Project to the ABAP Repository](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/deploy-or-update-adaptation-project-to-abap-repository) .
+4.  Deploy the SAP Fiori UI by running command `npm run deploy` in the terminal of your project. See [Deploy or Update the Adaptation Project to the ABAP Repository](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/deploy-or-update-adaptation-project-to-abap-repository) .
 
 
 
@@ -69,9 +69,9 @@ You have set up and integrated SAP Business Application Studio. See [Setup of UI
 
 ![](images/BASIAM_a5dcb67.png)
 
-1.  To manage access to your SAP Fiori application, you need to log on to the development tenant in ABAP Development Tools for Eclipse as a developer to create an Identity and Access Management \(IAM\) application. Moreover, you need to assign an SAPUI5 adaptation project and maintain authorizations, as shown in steps one and two in the figure above. See [Creating an IAM App for the Business Service \(Developer\)](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-iam-app-for-business-service?version=Cloud).
+1.  To manage access to your SAP Fiori application, you need to log on to the development tenant in ABAP development tools for Eclipse as a developer to create an Identity and Access Management \(IAM\) application. Moreover, you need to assign an SAPUI5 adaptation project and maintain authorizations, as shown in steps one and two in the figure above. See [Creating an IAM App for the Business Service \(Developer\)](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-iam-app-for-business-service?version=Cloud).
 
-    1.  Open and log onto ABAP Development Tools \(ADT\).
+    1.  Open and log onto ABAP development tools for Eclipse \(ADT\).
 
     2.  In the Project Explorer, open your package and expand the BSP Library folder and then the BSP Applications folder to view the application variant you deployed in SAP Business Application Studio.
 
@@ -122,7 +122,7 @@ You have set up and integrated SAP Business Application Studio. See [Setup of UI
 **Related Information**  
 
 
-[Extending an SAP Fiori Application for S/4HANA Cloud public Edition and SAP BTP, ABAP Environment](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/extending-sap-fiori-application-for-s-4hana-cloud)
+[Extending an SAP Fiori Application for S/4HANA Cloud public Edition and SAP BTP ABAP Environment](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/extending-sap-fiori-application-for-s-4hana-cloud)
 
 [SAP Business Application Studio](https://help.sap.com/docs/bas)
 

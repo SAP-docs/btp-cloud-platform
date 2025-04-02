@@ -41,7 +41,7 @@ If you want to deactivate it, add property `-XX:+ExitVMOnOutOfMemoryError` throu
 applications:
 - name: <APP_NAME>
   buildpacks:
-  - sap_jakarta_buildpack
+  - sap_java_buildpack_jakarta
   env:
     JBP_CONFIG_JAVA_OPTS: 'false, java_opts: ''-XX:+ExitVMOnOutOfMemoryError'''
   ...

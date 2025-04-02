@@ -49,7 +49,7 @@ Optionally, the Telemetry module provides a DaemonSet of an OTel Collector actin
 
 4.  The agent supports collecting metrics from the Kubelet and Kubernetes APIServer.
 
-5.  The agent converts and pushes all collected metric data to the gateway in OTLP.
+5.  The agent converts and sends all collected metric data to the gateway in OTLP.
 
 6.  The gateway discovers the metadata and enriches all received data with typical metadata of the source by communicating with the Kubernetes APIServer. Furthermore, it filters data according to the pipeline configuration.
 
@@ -70,9 +70,9 @@ The `MetricPipeline` resource is watched by Telemetry Manager, which is responsi
 
 1.  Telemetry Manager watches all `MetricPipeline` resources and related Secrets.
 
-2.  Furthermore, Telemetry Manager takes care of the full lifecycle of the gateway Deployment and the agent DaemonSet itself. Only if you defined a `MetricPipeline`, the gateway and agent are deployed.
+2.  Furthermore, Telemetry Manager takes care of the full lifecycle of the gateway Deployment and the agent DaemonSet. Only if you defined a `MetricPipeline`, the gateway and agent are deployed.
 
-3.  Whenever the configuration changes, Telemetry Manager validates it and generates a single configuration for the gateway and agent.
+3.  Whenever the user configuration changes, Telemetry Manager validates it and generates a single configuration for the gateway and agent.
 
 4.  Referenced Secrets are copied into one Secret that is mounted to the gateway as well.
 
@@ -103,7 +103,7 @@ In the following steps, you can see how to construct and deploy a typical `Metri
 
 To ship metrics to a new OTLP output, create a resource of the kind `MetricPipeline` and save the file \(named, for example, `metricpipeline.yaml`\).
 
-This configures the underlying OTel Collector of the gateway with a pipeline for metrics and opens a push endpoint that is accessible with the `telemetry-otlp-metrics` service. For details, see [Usage](telemetry-gateways-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_usage).
+This configures the underlying OTel Collector with a pipeline for metrics and opens a push endpoint that is accessible with the `telemetry-otlp-metrics` service. For details, see [Usage](telemetry-gateways-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_usage).
 
 The following push URLs are set up:
 
@@ -408,7 +408,7 @@ none
 </td>
 <td valign="top">
 
-Controls whether Prometheus automatically scrapes metrics from this target.
+Controls whether Prometheus Receiver automatically scrapes metrics from this target.
 
 </td>
 </tr>
@@ -452,7 +452,7 @@ Specifies the port where the metrics are exposed.
 </td>
 <td valign="top">
 
-Defines the HTTP path where Prometheus can find metrics data.
+Defines the HTTP path where Prometheus Receiver can find metrics data.
 
 </td>
 </tr>
@@ -477,6 +477,28 @@ The default scheme is *http* unless an Istio sidecar is present, denoted by the 
 <td valign="top">
 
 Determines the protocol used for scraping metrics — either HTTPS with mTLS or plain HTTP.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`prometheus.io/param_<name>: <value>` 
+
+</td>
+<td valign="top">
+
+*prometheus.io/param\_format: prometheus*
+
+</td>
+<td valign="top">
+
+none
+
+</td>
+<td valign="top">
+
+Instructs Prometheus Receiver to pass name-value pairs as URL parameters when calling the metrics endpoint.
 
 </td>
 </tr>
@@ -577,7 +599,7 @@ Available for the Telemetry resource
 <tr>
 <th valign="top">
 
-Attribute
+Name
 
 </th>
 <th valign="top">
@@ -999,6 +1021,35 @@ spec:
 
 With this, the agent starts collecting all Istio metrics from Istio sidecars.
 
+If you are using the `istio` input, you can also collect Envoy metrics. Envoy metrics provide insights into the performance and behavior of the Envoy proxy, such as request rates, latencies, and error counts. These metrics are useful for observability and troubleshooting service mesh traffic.
+
+For details, see the list of available [Envoy metrics](https://www.envoyproxy.io/docs/envoy/latest/configuration/upstream/cluster_manager/cluster_stats) and [server metrics](https://www.envoyproxy.io/docs/envoy/latest/configuration/observability/statistics).
+
+> ### Note:  
+> Envoy metrics are only available for the `istio` input. Ensure that Istio sidecars are correctly injected into your workloads for Envoy metrics to be available.
+
+By default, Envoy metrics collection is disabled.
+
+To activate Envoy metrics, enable the `envoyMetrics` section in the `MetricPipeline` specification under the `istio` input:
+
+```
+apiVersion: telemetry.kyma-project.io/v1alpha1
+kind: MetricPipeline
+metadata:
+  name: envoy-metrics
+spec:
+  input:
+    istio:
+      enabled: true
+      envoyMetrics:
+        enabled: true
+  output:
+    otlp:
+      endpoint:
+        value: https://backend.example.com:4317
+
+```
+
 
 
 ### 8. Deactivate OTLP Metrics
@@ -1298,7 +1349,7 @@ If you have set up pipeline health monitoring, check the alerts and reports in a
 
 **Cause 3**: A deny-all `NetworkPolicy` was created in the workload namespace, which prevents that the agent can scrape metrics from annotated workloads.
 
-**Solution 3**: Create a separate `NetworkPolicy` to explicitly let the agent scrape your workload using the \`telemetry.kyma-project.io/metric-scrape\` label. For example, see the following `NetworkPolicy` configuration:
+**Solution 3**: Create a separate `NetworkPolicy` to explicitly let the agent scrape your workload using the `telemetry.kyma-project.io/metric-scrape` label. For example, see the following `NetworkPolicy` configuration:
 
 ```
 yaml

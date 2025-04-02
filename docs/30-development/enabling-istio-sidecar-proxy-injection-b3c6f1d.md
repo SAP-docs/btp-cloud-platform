@@ -16,7 +16,7 @@ To include your workloads into the Istio service mesh, enable the Istio sidecar 
 
 ## Prerequisites
 
--   You have the Istio module added. See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have the Istio module added. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 -   To use CLI instructions, you must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl). Alternatively, you can use Kyma dashboard.
 
 
@@ -82,7 +82,7 @@ You've enabled Istio sidecar proxy injection for the specified namespace. The na
 
 ## Prerequisites
 
--   You have the Istio module added. See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have the Istio module added. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 -   To use CLI instructions, you must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl). Alternatively, you can use Kyma dashboard.
 
 

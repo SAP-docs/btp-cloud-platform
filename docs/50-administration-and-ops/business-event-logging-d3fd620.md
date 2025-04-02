@@ -6,7 +6,7 @@ Business Event Logging enables you to log business events that are raised by SAP
 
 You can activate Business Event Logging using configuration activities for each object, such as Sales Order, Outbound Delivery, and so on. Business event is a message that is sent to notify a consumer that an object has changed.
 
-The business event logs give you insights into the way processes run in the local system and how objects change. You can get an overview of all the logged business events, the number of events triggered, the types of business events triggered, and information on changes to fields
+The business event logs give you insights into the way processes run in the local system and how objects change. You can get an overview of all the logged business events, the number of events triggered, the types of business events triggered, and information on changes to fields.
 
 This graphic displays the components of Business Event Logging:
 
@@ -18,7 +18,7 @@ This graphic displays the components of Business Event Logging:
 
 ## Benefits
 
-With Business Event Logging, you can collect records of these business events, irrespective of whether the consumer has subscribed to the event, to get insights into the way business processes run in the local system.. You can either store the default information or the complete business event data, depending on your configuration settings.
+With Business Event Logging, you can collect records of these business events, irrespective of whether the consumer has subscribed to the event, to get insights into the way business processes run in the local system. You can either store the default information or the complete business event data, depending on your configuration settings.
 
 Essential properties of an event are stored by default. These properties are:
 

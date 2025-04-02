@@ -19,11 +19,24 @@ You can develop SAP Fiori applications for OData UI services that are exposed as
 -   SAP Fiori Elements is a framework that comprises the most commonly used floorplan templates and is designed to speed up development by reducing the amount of frontend code needed to build SAP Fiori apps, and driving UX consistency and compliance with the latest SAP Fiori design guidelines. See [SAP Fiori Elements](https://sapui5.hana.ondemand.com/#/topic/03265b0408e2432c9571d6b3feb6b1fd).
 
 
-![](images/UIDevOverviewBTP_6d231ba.png)
+![](images/UIDevPic1_79c34d2.png)
 
 
 
-In order to develop SAP Fiori applications, you use SAP Business Application Studio with SAP Fiori tools extensions. SAP Business Application Studio supports integration with Git so that you can use Git as source control system and store the code of SAP Fiori applications in remote git repositories. Once you have implemented the custom SAP Fiori application, you can deploy it to the ABAP environment or the Cloud Foundry environment. You can launch the deployed apps standalone or embed them into the SAP Fiori launchpad. The ABAP environment comes with an embedded Fiori Launchpad and provides access to Fiori apps that are stored on the SAPUI5 ABAP repository. Apps stored in the HTML5 application repository can be added to a launchpad provided by the SAP Build Work Zone. It is also possible to add apps stored on the SAPUI5 ABAP repository to launchpads provided by the SAP Build Work Zone. See [Integration Scenario](https://help.sap.com/docs/btp/sap-business-technology-platform/integration-scenarios?version=Cloud)"
+An OData UI service makes it possible to consume a RAP business object with a Fiori elements UI or other UI clients. That means, a Fiori UI application reads the information in the metadata and creates the matching UI for the service.
+
+SAP does not provide UI services for consumption but instead business object interfaces or ABAP Core Data Services that are released with **Contract C1: Use System-Internally** that can be utilized.
+
+Not all business object interfaces and CDS views are suitable for UI consumption. Only those explicitly annotated with the `@ObjectModel.supportedCapabilities: [#UI_PROVIDER_PROJECTION_SOURCE]` annotation are intended for UI use \(see `ObjectModel.supportedCapabilities`\). These business object interfaces/CDS views come with the following qualities:
+
+-   Text relations: Available for all ID fields with associated texts.
+-   Value helps: Provided for all ID fields that have texts.
+-   Additional fields: Exposes commonly used fields and associations.
+-   Draft enablement: Available for business object interfaces when create, update, and delete behaviors are implemented.
+
+For a UI developer to implement an SAP Fiori application using these business object interfaces/CDS views, a custom OData UI service must be created first.
+
+In order to develop SAP Fiori applications on top of OData UI services, you use SAP Business Application Studio or Visual Studio Code with SAP Fiori tools extensions. SAP Business Application Studio supports integration with Git so that you can use Git as source control system and store the code of SAP Fiori applications in remote git repositories. Once you have implemented the custom SAP Fiori application, you can deploy it to the ABAP environment or the Cloud Foundry environment. You can launch the deployed apps standalone or embed them into the SAP Fiori launchpad. The ABAP environment comes with an embedded Fiori Launchpad and provides access to Fiori apps that are stored on the SAPUI5 ABAP repository. Apps stored in the HTML5 application repository can be added to a launchpad provided by the SAP Build Work Zone. It is also possible to add apps stored on the SAPUI5 ABAP repository to launchpads provided by the SAP Build Work Zone. See [Integration Scenario](https://help.sap.com/docs/btp/sap-business-technology-platform/integration-scenarios?version=Cloud)"
 
 
 
@@ -55,13 +68,13 @@ If you want to deploy an SAP Fiori application to the ABAP environment, the foll
 -   An administrator in the ABAP environment provides access to the OData UI service and the tile via a business role.
 -   A business user that is assigned to the business role can access the tile from SAP Fiori launchpad and launch the application.
 
-![](images/FioriAppsinABAP_830ec12.png)
+![](images/UIDecvPic2_9376890.png)
 
 
 
 <a name="loiob74a89d3565b4abeb88efb581a081c8d__section_u5t_g3r_stb"/>
 
-## SAP Fiori Application in the Cloud Foundry environment
+## SAP Fiori Applications in the Cloud Foundry environment
 
 If you want to deploy an SAP Fiori application to the Cloud Foundry environment, the following users are involved:
 
@@ -76,7 +89,7 @@ If you want to deploy an SAP Fiori application to the Cloud Foundry environment,
 -   An administrator in the ABAP environment provides access to the OData UI service via a business role. A launchpad administrator enables access to the tile via a role collection.
 -   A business user that is assigned to the business role and role collection can access the tile from SAP Fiori launchpad and launch the application.
 
-![](images/UIDevCF_dfa94a6.png)
+![](images/UIDevPic3_4a6aea7.png)
 
 **Related Information**  
 

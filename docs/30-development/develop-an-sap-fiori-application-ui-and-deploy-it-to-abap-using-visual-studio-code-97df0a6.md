@@ -4,7 +4,7 @@
 
 Get an overview about how to create and deploy an SAP Fiori application to ABAP using Visual Studio Code.
 
-For further assistance with creating and deploying an application into SAP Fiori launchpad, see [Create a SAP Fiori App in Visual Studio Code and Deploy it to SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-vs-code.html).
+For further assistance with creating and deploying an application into SAP Fiori launchpad, see [Create a SAP Fiori App in Visual Studio Code and Deploy it to SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-vs-code.html).
 
 
 
@@ -13,7 +13,7 @@ For further assistance with creating and deploying an application into SAP Fiori
 ## Prerequisites
 
 -   You have installed and set up Visual Studio Code including the SAP Fiori tools extensions. See [Visual Studio Code](https://help.sap.com/viewer/17d50220bcd848aa854c9c182d65b699/Latest/en-US/17efa217f7f34a9eba53d7b209ca4280.html).
--   You have access to a RAP business service that has been exposed as an OData service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/docs/btp/sap-abap-cds-development-user-guide/using-service-binding-editor-for-odata-v2-service?version=Cloud).
+-   You have access to a RAP business service that has been exposed as an OData UI service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/docs/btp/sap-abap-cds-development-user-guide/using-service-binding-editor-for-odata-v2-service?version=Cloud).
 -   To establish a connection with your ABAP environment system, you either have to be a space developer in the ABAP environment instance or have access to a service key in the ABAP environment instance. See [Add Space Members Using the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/add-space-members-using-cockpit?version=Cloud) and [Creating Service Keys](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-service-keys?version=Cloud) in the ABAP service instance.
 -   You have established trust by setting up a custom Identity service. See [Setup of a Custom Identity Service](https://help.sap.com/docs/btp/sap-business-technology-platform/setup-of-custom-identity-service?version=Cloud).
 
@@ -24,9 +24,9 @@ For further assistance with creating and deploying an application into SAP Fiori
 ## 1. Generating and Deploying Your Application
 
 > ### Prerequisites:  
-> -   You have created a development package in ABAP Development Tools for Eclipse. See [Creating ABAP Packages](https://help.sap.com/docs/btp/sap-abap-development-user-guide/creating-abap-packages?version=Cloud).
-> -   You have exposed a RAP business service as an OData service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/docs/btp/sap-abap-cds-development-user-guide/using-service-binding-editor-for-odata-v2-service?version=Cloud).
-> -   Business catalog `SAP_A4C_BC_DEV_UID_PC` is assigned to your user, which allows you to discover available OData services and deploy your application.
+> -   You have created a development package in ABAP development tools for Eclipse. See [Creating ABAP Packages](https://help.sap.com/docs/btp/sap-abap-development-user-guide/creating-abap-packages?version=Cloud).
+> -   You have exposed a RAP business service as an OData UI service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/docs/btp/sap-abap-cds-development-user-guide/using-service-binding-editor-for-odata-v2-service?version=Cloud).
+> -   Business catalog `SAP_A4C_BC_DEV_UID_PC` is assigned to your user, which allows you to discover available OData UI services and deploy your application.
 > -   Business catalog `SAP_CORE_BC_EXT_TST` is assigned to your user, which allows you to preview your application. See [Business Catalog for Key User Tasks](https://help.sap.com/docs/btp/sap-business-technology-platform/business-catalog-for-key-user-tasks?version=Cloud).
 > -   You have an open transport request.
 
@@ -70,9 +70,9 @@ For further assistance with creating and deploying an application into SAP Fiori
 > ### Prerequisite:  
 > Business catalog `SAP_A4C_BC_DEV_PC` is assigned to your user, which is required for development with ABAP Development Tools. See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
 
-![](images/developertasks2_aefc54c.png)
+![](images/DevelopSAPFioriPic1_19a2ef5.png)
 
-1.  To manage access to your SAP Fiori application, you have to log on as a developer in ABAP Development Tools for Eclipse to create an Identity and Access Management \(IAM\) application, assign a launchpad app descriptor item for your UI5 application and a service, and maintain authorizations \(steps 1-3 in the figure above\). See [Creating an IAM App for the Business Service](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-iam-app-for-business-service?version=Cloud).
+1.  To manage access to your SAP Fiori application, you have to log on as a developer in ABAP development tools for Eclipse to create an Identity and Access Management \(IAM\) application, assign a launchpad app descriptor item for your UI5 application and a service, and maintain authorizations \(steps 1-3 in the figure above\). See [Creating an IAM App for the Business Service](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-iam-app-for-business-service?version=Cloud).
 2.  Once you have created your IAM app, you have to create a business catalog. See [Creating a Business Catalog](https://help.sap.com/docs/btp/sap-business-technology-platform/iam-creating-business-catalog?version=Cloud).
 3.  Assign your IAM app to the business catalog.
 4.  Publish the IAM app and business catalog locally.
@@ -96,5 +96,5 @@ Launch your app in SAP Fiori launchpad. See [Add Your App to SAP Fiori Launchpad
 
 [Tutorial: Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html)
 
-[Tutorial: Create an SAP Fiori App in Visual Studio Code and Deploy it to SAP BTP, ABAP Environment](https://developers.sap.com/tutorials/abap-environment-vs-code.html)
+[Tutorial: Create an SAP Fiori App in Visual Studio Code and Deploy it to SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-vs-code.html)
 

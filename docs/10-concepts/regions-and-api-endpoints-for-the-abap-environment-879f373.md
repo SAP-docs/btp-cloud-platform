@@ -501,6 +501,53 @@ cf-us10-002: us10-002.hana.ondemand.com
 <tr>
 <td valign="top">
 
+Amazon Web Services
+
+</td>
+<td valign="top">
+
+us11
+
+</td>
+<td valign="top">
+
+US West \(Oregon\)
+
+</td>
+<td valign="top">
+
+cf-us11
+
+</td>
+<td valign="top">
+
+us-west-2
+
+</td>
+<td valign="top">
+
+35.167.112.20, 44.245.184.113, 52.36.59.222, 44.247.175.75
+
+</td>
+<td valign="top">
+
+api.cf.us11.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+us11.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://amer.cockpit.btp.cloud.sap/](https://amer.cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Microsoft Azure
 
 </td>

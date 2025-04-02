@@ -6,7 +6,7 @@ With Kyma's modular approach, you can install just the modules you need, instead
 
 
 
-You can choose to add any modules as required. To learn how, see [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). To find out which module version is running in your cluster, go to [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters).
+You can choose to add any modules as required. To learn how, see [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c). To find out which module version is running in your cluster, go to [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters).
 
 > ### Tip:  
 > A release of a new module’s version is announced with a release note in [What’s New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&version=Cloud) for both, the fast and regular channels:
@@ -21,7 +21,7 @@ You can choose to add any modules as required. To learn how, see [Add and Delete
 
 ## Default Kyma Modules
 
-When you create Kyma runtime in SAP BTP cockpit, it is provisioned with the default modules added. The default modules are not mandatory. If you don't need them, you can delete them in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters). See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+When you create Kyma runtime in SAP BTP cockpit, it is provisioned with the default modules added. The default modules are not mandatory. If you don't need them, you can delete them in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters). See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 **Default Kyma Modules**
 
@@ -115,7 +115,7 @@ Within the SAP BTP Operator module, BTP Manager installs the SAP BTP service ope
 
 ## Optional Kyma Modules
 
-When you create Kyma runtime in SAP BTP cockpit, the following modules are not added by default, but you can choose to add and delete them anytime in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters). See [Add and Delete a Kyma Module](../50-administration-and-ops/add-and-delete-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+When you create Kyma runtime in SAP BTP cockpit, the following modules are not added by default, but you can choose to add and delete them anytime in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters). See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 **Optional Kyma Modules**
 

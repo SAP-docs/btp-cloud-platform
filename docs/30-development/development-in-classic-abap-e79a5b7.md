@@ -48,7 +48,7 @@ If there is a running process instance in SAP Build Process automation which you
 > ### Sample Code:  
 > Register a SAP Cloud Platform Workflow
 > 
-> ```
+> ```abap
 > 
 > " Get a Instance for the CPWF Integration API
 > DATA(lo_cpwf_api) = cl_swf_cpwf_api_factory_a4c...=>get_api_instance( ... ).
@@ -73,7 +73,7 @@ As shown in the above snippets, a callback class can be provided that allows pro
 > ### Sample Code:  
 > Completion callback with reading context
 > 
-> ```
+> ```abap
 > METHOD if_swf_cpwf_callback~workflow_instance_completed.
 >   TYPES: BEGIN OF ty_context,
 >            some_result TYPE string,
@@ -110,7 +110,7 @@ If the process expects a intermediate message event, this can be raised via the 
 > ### Sample Code:  
 > Raise an intermediate message event
 > 
-> ```
+> ```abap
 > TYPES: BEGIN OF ty_example_context,
 >          value TYPE int4,
 >        END OF ty_example_context.
@@ -146,7 +146,7 @@ For example, you can query the current lifecycle status of processes.
 > ### Sample Code:  
 > Read Workflow Instances
 > 
-> ```
+> ```abap
 > " Get a Instance for the CPWF Integration API
 > DATA(lo_cpwf_api) = cl_swf_cpwf_api_factory_a4c...=>get_api_instance( ... ).
 > DATA(lo_wf_inst) = lo_cpwf_api->if_swf_cpwf_capi~get_workflow_instances_api( ).
@@ -162,7 +162,7 @@ or retrieve the current context:
 > ### Sample Code:  
 > Read Workflow Instance Context
 > 
-> ```
+> ```abap
 > TYPES: BEGIN OF ty_context,
 >          attr1 TYPE string,
 >          attr2 TYPE int4,
@@ -192,7 +192,7 @@ The following examples show how the `IV_CONTEXT_PATH` parameter can be used.
 > ### Sample Code:  
 > Sample Context
 > 
-> ```
+> ```abap
 > {
 >     "decision_travelRequestApproved_2": {
 >         "outcome": "APPROVED"

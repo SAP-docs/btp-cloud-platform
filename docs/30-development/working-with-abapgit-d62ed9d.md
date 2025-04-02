@@ -4,7 +4,7 @@
 
 abapGit is an open source developed Git client for the ABAP server to import and export ABAP objects between ABAP systems.
 
-With abapGit, you can export your ABAP objects from any system to another, typically from on-premise to cloud or from one cloud system to another. See [Use abapGit to Transfer Your On-Premise ABAP Source Code to the Cloud](https://developers.sap.com/tutorials/abap-environment-abapgit.html) and [Push Your ABAP Source Code from SAP BTP, ABAP Environment to a GitHub Repository Using abapGit](https://developers.sap.com/tutorials/abap-environment-abapgit-transfer.html).
+With abapGit, you can export your ABAP objects from any system to another, typically from on-premise to cloud or from one cloud system to another. See [Use abapGit to Transfer Your On-Premise ABAP Source Code to the Cloud](https://developers.sap.com/tutorials/abap-environment-abapgit.html) and [Push Your ABAP Source Code from SAP BTP ABAP Environment to a GitHub Repository Using abapGit](https://developers.sap.com/tutorials/abap-environment-abapgit-transfer.html).
 
 > ### Note:  
 > While the ABAP environment comes with a preinstalled cloud version of abapGit, you can only use abapGit in an on-premise system if you have installed the [official community version](https://github.com/abapGit/abapGit) of abapGit. However, the official community version is not supported by SAP.
@@ -19,7 +19,7 @@ With the official SAP distribution of abapGit, you can use ABAP Development Tool
 
 *Side-by-Side-Development*
 
-abapGit can assist you in side-by-side development by enabling the transfer of source code between on-premise systems and SAP BTP, ABAP Environment.
+abapGit can assist you in side-by-side development by enabling the transfer of source code between on-premise systems and SAP BTP ABAP Environment.
 
 *Account Transfer*
 

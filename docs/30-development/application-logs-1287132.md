@@ -30,10 +30,6 @@ Your application must log to `stdout` or `stderr`, which ensures that the logs c
 
 ## Architecture
 
-
-
-### Log Agent
-
 In the Kyma cluster, the Telemetry module provides a DaemonSet of [Fluent Bit](https://fluentbit.io/) acting as a agent. The agent tails container logs from the Kubernetes container runtime and ships them to a backend.
 
 ![](images/Kyma_Logs_Architecture_c4cfebf.svg)
@@ -113,9 +109,9 @@ An output is a data destination configured by a [Fluent Bit output](https://docs
 
 ### 2. Filter Your Input
 
-`kube-system`, `istio-system`, `kyma-system`\), which are excluded by default.
+By default, input is collected from all namespaces, except the system namespaces \(`kube-system`, `istio-system`, `kyma-system`\), which are excluded by default.
 
-To filter your application logs by namespace or container, use an `input` spec to restrict or specify which resources you want to include. For example, you can define the namespaces to include in the input collection, exclude namespaces from the input collection, or choose that only system namespaces are included. Learn more about the available By default, input is collected from all namespaces, except the system namespaces \([parameters and attributes](https://kyma-project.io/#/telemetry-manager/user/resources/02-logpipeline).
+To filter your application logs by namespace or container, use an `input` spec to restrict or specify which resources you want to include. For example, you can define the namespaces to include in the input collection, exclude namespaces from the input collection, or choose that only system namespaces are included. Learn more about the available[parameters and attributes](https://kyma-project.io/#/telemetry-manager/user/resources/02-logpipeline).
 
 The following example collects input from all namespaces excluding `kyma-system` and only from the `istio-proxy` containers:
 
@@ -155,7 +151,7 @@ spec:
 
 ### 3. Add Authentication Details From Secrets
 
-By defIntegrations into external systems usually need authentication details dealing with sensitive data. To handle that data properly in Secrets, `LogPipeline` supports the reference of Secrets.
+Integrations into external systems usually need authentication details dealing with sensitive data. To handle that data properly in Secrets, `LogPipeline` supports the reference of Secrets.
 
 Using the *http* output definition and the `valueFrom` attribute, you can map Secret keys for mutual TLS \(mTLS\) or Basic Authentication:
 
