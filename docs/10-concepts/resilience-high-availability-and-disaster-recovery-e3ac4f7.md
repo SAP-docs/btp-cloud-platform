@@ -55,7 +55,7 @@ In addition to what SAP BTP offers, you can follow the [Best Practices for Resil
 </td>
 <td valign="top">
 
-SAP provides platform-level backups for some foundation services. However, for most of the services, managing backups is customers' responsibility.
+SAP provides platform-level backups for some foundation services. However, for most of the services, managing backups is the customers' responsibility.
 
 For more information on backups, see [SAP BTP Service Configuration Backups Managed by Customers](https://help.sap.com/docs/btp/btp-admin-guide/service-configuration-backups-managed-by-customers?version=Cloud) and [Data Backups Managed by SAP](https://help.sap.com/docs/btp/btp-admin-guide/data-backups-managed-by-sap?version=Cloud).
 

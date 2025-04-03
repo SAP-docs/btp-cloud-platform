@@ -57,7 +57,7 @@ Follow these steps to get familiar with workloads and learn how to use them.
 3.  If you want to expose your workload outside the cluster, read [Expose a Workload](https://kyma-project.io/#/api-gateway/user/tutorials/01-40-expose-workload/01-40-expose-workload-apigateway).
 
     > ### Note:  
-    > For more details on the available security options in Kyma, see [Configure Authorization \(OAuth2, JWT\)](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-50-apirule-authorizations).
+    > For more details on the available security options in Kyma, see [APIRule Access Strategies](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-15-api-rule-access-strategies).
 
 4.  If you want your workload to react to events, read [Trigger the Workload with an Event](https://kyma-project.io/#/eventing-manager/user/tutorials/evnt-02-subs-with-multiple-filters?id=trigger-the-workload-with-an-event).
 

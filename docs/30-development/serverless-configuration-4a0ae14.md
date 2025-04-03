@@ -6,31 +6,35 @@ The Serverless module has its own operator \(Serverless Operator\). It watches t
 
 The Serverless CR is an API to configure the Serverless module. You can use it to perform the following actions:
 
--   Enable or disable the internal Docker registry
+-   Enable or disable the internal Docker registry.
 
--   Configure the external Docker registry
+-   Configure the external Docker registry.
 
--   Override endpoint for traces collected by the Serverless Functions
+-   Override endpoint for traces collected by the Serverless Functions.
 
--   Override endpoint for Eventing
+-   Override endpoint for Eventing.
 
--   Override the target CPU utilization percentage
+-   Override the target CPU utilization percentage.
 
--   Override the Function requeue duration
+-   Override the Function requeue duration.
 
--   Override the Function build executor arguments
+-   Override the Function build executor arguments.
 
--   Override the Function build max simultaneous jobs
+-   Override the Function build max simultaneous jobs.
 
--   Override the healthz liveness timeout
+-   Override the healthz liveness timeout.
 
--   Override the Function request body limit
+-   Override the Function request body limit.
 
--   Override the Function timeout
+-   Override the Function timeout.
 
--   Override the default build Job preset
+-   Override the default build Job preset.
 
--   Override the default runtime Pod preset
+-   Override the default runtime Pod preset.
+
+-   Override the default log level.
+
+-   Override the default log format.
 
 
 The default configuration of the Serverless module is the following:
@@ -273,4 +277,32 @@ You can configure the default runtime Pod preset to be used.
 ```
 
 For more information on presets, [see Available Presets](https://kyma-project.io/#/serverless-manager/user/technical-reference/07-80-available-presets).
+
+
+
+<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_h3m_nqj_w2c"/>
+
+## Configure the Log Level
+
+You can configure the desired log level to be used.
+
+```
+   spec:
+      logLevel: "debug"
+
+```
+
+
+
+<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_ovm_rqj_w2c"/>
+
+## Configure the Log Format
+
+You can configure the desired log format to be used.
+
+```
+   spec:
+      logFormat: "yaml"
+
+```
 

@@ -46,8 +46,6 @@ To securely expose workloads in SAP BTP, Kyma runtime, use the Istio and API Gat
 
     -   [Expose and Secure a Workload with JWT](https://kyma-project.io/#/api-gateway/user/tutorials/01-50-expose-and-secure-a-workload/01-52-expose-and-secure-workload-jwt)
 
-    -   [Expose and Secure a Workload with Istio](https://kyma-project.io/#/api-gateway/user/tutorials/01-50-expose-and-secure-a-workload/01-53-expose-and-secure-workload-istio)
-
     -   [Expose and Secure a Workload with a Certificate](https://kyma-project.io/#/api-gateway/user/tutorials/01-50-expose-and-secure-a-workload/01-54-expose-and-secure-workload-with-certificate)
 
 
