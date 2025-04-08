@@ -387,17 +387,17 @@ ChinaNorth3
 </td>
 <td valign="top">
 
-api.cf.cn20.hana.ondemand.com
+api.cf.cn20.platform.sapcloud.cn
 
 </td>
 <td valign="top">
 
-cn20.hana.ondemand.com
+cn20.platform.sapcloud.cn
 
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
+[Open Cockpit](https://cockpit.cn40.platform.sapcloud.cn/cockpit)
 
 </td>
 </tr>
@@ -1566,7 +1566,7 @@ sa30
 </td>
 <td valign="top">
 
-KSA \(Dammam\)
+KSA \(Dammam - KSA Regulated Customers\)
 
 </td>
 <td valign="top">
@@ -1618,7 +1618,7 @@ sa31
 </td>
 <td valign="top">
 
-KSA \(Dammam\)
+KSA \(Dammam - KSA Non-Regulated Customers\)
 
 </td>
 <td valign="top">

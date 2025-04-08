@@ -119,7 +119,7 @@ Select Microsoft Azure as the cloud provider where your Kyma cluster is deployed
 
 ## Metrics
 
-The usage metric for the Cloud Service is a Capacity Unit \(CU\) per month.
+The usage metric for SAP BTP, Kyma runtime is a Capacity Unit \(CU\) per hour.
 
 
 <table>
@@ -164,15 +164,15 @@ For SAP BTP, Kyma runtime, CUs are calculated for **workload** and for **storage
 
 ### Formula
 
-The relationship between consumed workload/storage and the respective CU is straightforward.
+The formula is a mapping between consumed workload/storage and the respective CUs. The details are provided in the following tables.
 
-However, cost per monthly bill may vary because it depends on the size of the nodes that were used. There is no fixed formula because of Kyma's flexible scaling.
+However, as Kyma supports flexible scaling, cost per hour may vary because it depends on the size of the nodes that were used.
 
 
 
 ### Underlying Metrics
 
-In the following tables, “CU” stands for “Capacity Unit”.
+The workload calculation takes the number of virtual CPU \(vCPU\) and provides the number of CU per hour. To better understand the relationship between vCPU and nodes, note that one node is sized with 2 vCPUs.
 
 **Calculation for CPU**
 
@@ -181,7 +181,7 @@ In the following tables, “CU” stands for “Capacity Unit”.
 <tr>
 <th valign="top">
 
-Amount of CPU/CPU Nodes
+Number of vCPU
 
 </th>
 <th valign="top">
@@ -198,7 +198,7 @@ Number of CU per Hour
 </td>
 <td valign="top">
 
-0.48055555555555557 \* 0.75
+0.24 \* 1.5
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ Number of CU per Hour
 </td>
 <td valign="top">
 
-0.48055555555555557
+0.24 \* 2
 
 </td>
 </tr>
@@ -222,7 +222,7 @@ Number of CU per Hour
 </td>
 <td valign="top">
 
-0.48055555555555557 \* 2
+0.24 \* 4
 
 </td>
 </tr>
@@ -234,7 +234,7 @@ Number of CU per Hour
 </td>
 <td valign="top">
 
-0.48055555555555557 \* 4
+0.24 \* 8
 
 </td>
 </tr>
@@ -246,7 +246,7 @@ Number of CU per Hour
 </td>
 <td valign="top">
 
-0.48055555555555557 \* 8
+0.24 \* 16
 
 </td>
 </tr>
@@ -263,6 +263,8 @@ Number of CU per Hour
 </td>
 </tr>
 </table>
+
+You can also calculate CU for different storage types: PersistentVolume and VolumeSnapshotContent resources.
 
 **Calculation for Storage**
 
@@ -283,24 +285,12 @@ Number of CU per Hour
 <tr>
 <td valign="top">
 
-1GB
+32 GB
 
 </td>
 <td valign="top">
 
-0.00056423611
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-32GB
-
-</td>
-<td valign="top">
-
-0.01805555552 \(= 0.00056423611 \* 32\)
+0.02
 
 </td>
 </tr>
@@ -310,19 +300,19 @@ Number of CU per Hour
 
 ### Examples
 
--   Your bill for Nodes shows 1800 capacity units charged for 4vCPU Nodes in a month.
+-   Your consumption report for nodes shows 1800 capacity units charged for 4 vCPU nodes for 30 days.
 
-    This means that you were running roughly 1800 / 0.4806 = 3745.32 hours worth of 4vCPU nodes. Given that a month has 720 hours, this means you were running 3745.32/720 = 5.2 Nodes cluster for a full month.
+    This means that you were running roughly 1800 / \(0.24 \* 2\) = 3750 hours worth of 4 vCPU nodes. Given that 30 days have 720 hours, this means you were running 3750/720 = 5.21 nodes cluster for the 30 days.
 
-    Due to Kyma’s automatic scaling, 5.2 does not mean actual size. It means that during some hours in the month, the cluster size was 4 nodes. At other times, there was more load, so the cluster autoscaled to 5 or 6 nodes, based on your configurations. So your average cluster size for the full month was 5.2 Nodes.
+    Due to Kyma’s automatic scaling, 5.21 does not mean actual size. It means that during some hours in the 30 days, the cluster size was 4 nodes. At other times, there was more load, so the cluster autoscaled to 5 or 6 nodes, based on your configurations. So your average cluster size for the 30 days was 5.21 nodes.
 
--   Your bill for storage shows 200 capacity units charged for storage \(32GB block\) for the month.
+-   Your consumption report for storage shows 200 capacity units charged for storage \(32 GB block\) for 30 days.
 
-    This means that you used 200 / 0.0181 = 11049.72 hours of 32GB storage blocks. Given that a month has 720 hours, this means that you have used 11049.72/720 = 15,34 blocks of 32GB over the month. So, you used 15.34 \* 32 = 491GB of storage continuously during the month.
+    This means that you used 200 / 0.02 = 10000 hours of 32 GB storage blocks. Given that 30 days have 720 hours, this means that you have used 10000/720 = 13.89 blocks of 32 GB over the 30 days. So, you used 13.89 \* 32 = 444.44 GB of storage continuously during the 30 days.
 
-    This implies that as you started using Kyma, you deployed more applications that used storage of various sizes, such as 4GB or 8GB.
+    This implies that as you started using Kyma, you deployed more applications that used storage of various sizes, such as 4 GB or 8 GB.
 
-    Note that storage is provided in blocks of 32GB, so if you used 33 GB, you would be charged for 2 \* 32GB, that is 64 GB.
+    Note that storage is provided in blocks of 32 GB, so if you used 33 GB, you would be charged for 2 \* 32 GB, that is 64 GB.
 
 
 
@@ -358,24 +348,12 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     <tr>
     <td valign="top">
     
-    1GB
+    32 GB
     
     </td>
     <td valign="top">
     
-    0.00169271 \( = 0.00056423611 \* 3\)
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    32GB
-    
-    </td>
-    <td valign="top">
-    
-    0.05416667 \(= 0.00169271 \* 32\)
+    0.06 \(= 0.02 \* 3\)
     
     </td>
     </tr>
@@ -403,6 +381,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     </th>
     <th valign="top">
 
+    Cost in Storage Size per Hour
+    
+    </th>
+    <th valign="top">
+
     Number of CU per Hour
     
     </th>
@@ -416,6 +399,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     <td valign="top">
     
     1
+    
+    </td>
+    <td valign="top">
+    
+    0.25277778
     
     </td>
     <td valign="top">
@@ -437,6 +425,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     </td>
     <td valign="top">
     
+    0.50555556
+    
+    </td>
+    <td valign="top">
+    
     0.2055555556
     
     </td>
@@ -450,6 +443,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     <td valign="top">
     
     6
+    
+    </td>
+    <td valign="top">
+    
+    1.32361111
     
     </td>
     <td valign="top">
@@ -471,6 +469,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     </td>
     <td valign="top">
     
+    2.65972222
+    
+    </td>
+    <td valign="top">
+    
     1.0805555556
     
     </td>
@@ -484,6 +487,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     <td valign="top">
     
     24
+    
+    </td>
+    <td valign="top">
+    
+    5.26805556
     
     </td>
     <td valign="top">
@@ -505,6 +513,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     </td>
     <td valign="top">
     
+    10.54305556
+    
+    </td>
+    <td valign="top">
+    
     4.2833333333
     
     </td>
@@ -518,6 +531,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     <td valign="top">
     
     101
+    
+    </td>
+    <td valign="top">
+    
+    21.08333333
     
     </td>
     <td valign="top">
@@ -539,6 +557,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     </td>
     <td valign="top">
     
+    42.15694444
+    
+    </td>
+    <td valign="top">
+    
     17.1263888889
     
     </td>
@@ -552,6 +575,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     <td valign="top">
     
     5
+    
+    </td>
+    <td valign="top">
+    
+    2.64305556
     
     </td>
     <td valign="top">
@@ -573,6 +601,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     </td>
     <td valign="top">
     
+    5.31666667
+    
+    </td>
+    <td valign="top">
+    
     2.1597222222
     
     </td>
@@ -586,6 +619,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     <td valign="top">
     
     24
+    
+    </td>
+    <td valign="top">
+    
+    10.53611111
     
     </td>
     <td valign="top">
@@ -607,6 +645,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     </td>
     <td valign="top">
     
+    21.08333333
+    
+    </td>
+    <td valign="top">
+    
     8.5652777778
     
     </td>
@@ -620,6 +663,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     <td valign="top">
     
     101
+    
+    </td>
+    <td valign="top">
+    
+    42.17083333
     
     </td>
     <td valign="top">
@@ -641,6 +689,11 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     </td>
     <td valign="top">
     
+    84.31111111
+    
+    </td>
+    <td valign="top">
+    
     34.2513888889
     
     </td>
@@ -652,13 +705,13 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
 
 ### Examples for Cloud Manager
 
--   Your bill for the NFS storage shows 200 capacity units charged for storage \(32GB block\) for the month.
+-   Your consumption report for the NFS storage shows 200 capacity units charged for storage \(32 GB block\) for 30 days.
 
-    This means that you used 200 / 0.0542 = 3692.31 hours of 32GB storage blocks. Given that a month has 720 hours, this means that you have used 3692.31/720 = 5.13 blocks of 32GB over the month. So, you used 15.34 \* 32 = 164.10 GB of NFS storage continuously during the month.
+    This means that you used 200 / 0.06 = 3333.33 hours of 32 GB storage blocks. Given that 30 days have 720 hours, this means that you have used 3333.33/720 = 4.63 blocks of 32 GB over the 30 days. So, you used 4.63 \* 32 = 148.15 GB of NFS storage continuously during the 30 days.
 
--   Your bill for Redis shows 200 capacity units for storage for the month
+-   Your consumption report for Redis shows 200 capacity units for storage for 30 days.
 
-    This means that you used 200 / 0.1027777778 = 1945.946 hours of the Redis S1 tier. Given that a month has 720 hours, this means that you have used 1945.946/720 = 2.703 tier S1 Redis instances continuously during the month.
+    This means that you used 200 / 0.1027777778 = 1945.946 hours of the Redis S1 tier. Given that 30 days have 720 hours, this means that you have used 1945.946/720 = 2.703 tier S1 Redis instances continuously during the 30 days.
 
 
 
@@ -667,7 +720,7 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
 
 ## Calculator
 
-Find the Kyma price calculator on [https://kyma-project.github.io/price-calculator/](https://kyma-project.github.io/price-calculator/) and use it to estimate the costs for your SAP BTP, Kyma runtime.
+Find the Kyma price calculator at [https://kyma-project.github.io/price-calculator/](https://kyma-project.github.io/price-calculator/) and use it to estimate the costs for your SAP BTP, Kyma runtime.
 
 1.  Choose the base configuration for the size and minimum number virtual machines \(VM\) you need.
 
@@ -676,7 +729,7 @@ Find the Kyma price calculator on [https://kyma-project.github.io/price-calculat
 3.  If needed, adjust the conversion rate.
 
 
-Note that the result is an estimate, and the monthly bill may vary depending on the actual hours and size of the Kyma cluster \(workload and storage\) that was running in a month.
+Note that the result is an estimate, and the consumption report may vary depending on the actual hours and size of the Kyma cluster \(workload and storage\) that was running in 30 days.
 
 
 
@@ -702,5 +755,5 @@ For more information, see [SAP Business Technology Platform Service Description 
 
 As soon as you instantiate a Kyma cluster, the basic cost for the empty cluster incurs.
 
-Cost may then vary depending on the actual workloads and storage you consume per month.
+Cost may then vary depending on the actual workloads and storage you consume.
 

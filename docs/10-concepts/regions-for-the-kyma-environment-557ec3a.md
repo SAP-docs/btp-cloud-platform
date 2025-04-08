@@ -775,6 +775,38 @@ Enterprise account
 </td>
 <td valign="top">
 
+eu31
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+cf-eu31
+
+</td>
+<td valign="top">
+
+Europe \(Netherlands\)
+
+</td>
+<td valign="top">
+
+`gcp` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
 in30
 
 </td>
@@ -1015,6 +1047,38 @@ cf-ap30
 <td valign="top">
 
 Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+`gcp` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+ap31
+
+</td>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+cf-ap31
+
+</td>
+<td valign="top">
+
+Singapore \(Jurong West\)
 
 </td>
 <td valign="top">
@@ -1423,6 +1487,18 @@ Europe \(Frankfurt\)
 <tr>
 <td valign="top">
 
+`europe-west4`
+
+</td>
+<td valign="top">
+
+Europe \(Netherlands\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `us-central1`
 
 </td>
@@ -1549,18 +1625,6 @@ North America \(Oregon\)
 <td valign="top">
 
 North America \(Virginia\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`europe-west4`
-
-</td>
-<td valign="top">
-
-Europe \(Netherlands\)
 
 </td>
 </tr>

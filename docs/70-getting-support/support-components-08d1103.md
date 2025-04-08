@@ -6478,6 +6478,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   Japan \(Osaka\)
 -   Australia \(Sydney\)
 -   KSA \(Dammam\)
+-   Japan \(Tokyo\)
 
 
 
@@ -6772,6 +6773,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   Japan \(Osaka\)
 -   Australia \(Sydney\)
 -   KSA \(Dammam\)
+-   Japan \(Tokyo\)
 
 
 
@@ -14149,6 +14151,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   Japan \(Osaka\)
 -   Australia \(Sydney\)
 -   KSA \(Dammam\)
+-   Japan \(Tokyo\)
 
 
 

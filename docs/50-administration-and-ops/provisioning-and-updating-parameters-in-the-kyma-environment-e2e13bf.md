@@ -2331,6 +2331,18 @@ Europe \(Frankfurt\)
 <tr>
 <td valign="top">
 
+`europe-west4`
+
+</td>
+<td valign="top">
+
+Europe \(Netherlands\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `asia-south1`
 
 </td>
@@ -2457,18 +2469,6 @@ North America \(Oregon\)
 <td valign="top">
 
 North America \(Virginia\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`europe-west4`
-
-</td>
-<td valign="top">
-
-Europe \(Netherlands\)
 
 </td>
 </tr>
