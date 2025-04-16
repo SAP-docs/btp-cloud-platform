@@ -22,7 +22,7 @@ on:
 jobs:
   main:
     if: contains(github.repositoryUrl, 'github.com')
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
 
     - id: checkout_repo
