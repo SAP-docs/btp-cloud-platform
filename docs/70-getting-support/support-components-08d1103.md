@@ -2161,6 +2161,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 </td>
 <td valign="top">
 
+-   Canada Central \(Toronto\)
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)

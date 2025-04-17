@@ -1,6 +1,6 @@
 <!-- loioe7097737709842b7bb1c3b9bf3d688b6 -->
 
-# Profiling an Application Running on SAP JVM
+# Profile an Application Running on SAP JVM
 
 The SAP JVM Profiler is a tool that helps you analyze the resource consumption of a Java application running on SAP Java Virtual Machine \(JVM\). You can use it to profile simple standalone Java programs or complex enterprise applications.
 

@@ -26,17 +26,20 @@ You have the Org Manager role for the org in which you want to create a space qu
 
 4.  Enter a name for your space quota and add limits for the following:
 
-    -   *Memory \(MB\)*: Total amount of memory a space can have
+    -   *Space Memory \(MB\)*: Total amount of memory a space can have
 
     -   *Routes*: Total number of routes
 
-    -   *Services*: Total number of service instances
+    -   *Service Instances*: Total number of service instances
 
-    -   *Instance Memory \(MB\)*: Maximum amount of memory an application instance can have \(`-1` represents an unlimited amount\)
+    -   *Memory per Instance \(MB\)*: Maximum amount of memory an application instance can have
 
     -   *App Instances*: Total number of application instances
 
-    -   \(Optional\) *Allow Paid Service*: Switch on if you'd like to allow the provisioning of instances of paid service plans
+    -   \(Optional\) *Allow Paid Service*: Switch on if you'd like to allow the provisioning of instances of paid service plans.
+
+    > ### Note:  
+    > The value of `-1` represents an unlimited amount.
 
     > ### Note:  
     > If the space quota limit for a resource exceeds the org quota limit, the org quota limit applies.

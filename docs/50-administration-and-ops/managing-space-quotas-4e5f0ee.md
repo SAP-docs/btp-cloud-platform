@@ -14,13 +14,13 @@ Learn what a space quota is, what type of information you will find on the *Spac
 
 A space quota defines the upper consumption limit for all resources in a space, such as:
 
--   Memory
+-   Space memory
 
 -   Route
 
--   Services
+-   Service instances
 
--   Instance memory
+-   Memory per instance
 
 -   Application instances
 
@@ -34,7 +34,7 @@ When working with space quotas, keep in mind the following additional specifics:
 
 -   If a space quota is larger than the org quota, the org quota limit is applied.
 
-    Example: If you create a space quota with memory of 2048MB but the org quota has a total memory of 1024MB, then the space is going to use the org quota instead.
+    Example: If you create a space quota with space memory of 2048MB but the org quota has a total memory of 1024MB, then the space is going to use the org quota instead.
 
 -   Also, you can have only one space quota named "dev" in an org, but two orgs can have two separate space quotas with the same name "dev".
 
@@ -67,18 +67,21 @@ You can switch between the following views on this page:
 
     -   Details about each space quota tile related to the space, such as:
 
-        -   *Memory \(MB\)*: Total amount of memory
+        -   *Space Memory \(MB\)*: Total amount of memory
 
         -   *Routes*: Total number of routes
 
-        -   *Services*: Total number of service instances
+        -   *Service Instances*: Total number of service instances
 
         -   *Paid Services*: Selected if you'd like to allow the provisioning of instances of paid service plans
 
         -   *App Instances*: Total number of application instances
 
-        -   *Instance Memory \(MB\)*: Maximum amount of memory an application instance can have \(`-1` represents an unlimited amount\)
+        -   *Memory per Instance \(MB\)*: Maximum amount of memory an application instance can have
 
+
+        > ### Note:  
+        > The value of `-1` represents an unlimited amount.
 
     -   The option to create a space quota.
 

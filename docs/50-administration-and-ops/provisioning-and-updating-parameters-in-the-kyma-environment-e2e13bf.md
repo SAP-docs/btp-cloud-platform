@@ -712,7 +712,7 @@ Updating
 </td>
 <td valign="top">
 
-2 vCPU, 8 GB RAM
+ 
 
 </td>
 </tr>

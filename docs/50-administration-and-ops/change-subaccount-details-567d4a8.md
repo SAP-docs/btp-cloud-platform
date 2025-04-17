@@ -78,7 +78,7 @@ Used for production
 
 \(Optional\) Select this option if your subaccount is being used for production purposes.
 
-This does not change the configuration of your subaccount. Use this flag for your internal use to operate your production subaccounts in your global account and systems more efficiently. Your cloud operator may also use this flag to take appropriate action when handling incidents related to mission-critical accounts in production systems.
+This does not change the configuration of your subaccount. Use this flag for your internal use to operate your production subaccounts in your global account and systems more efficiently. Your cloud operator may also use this flag to take appropriate action when handling incidents related to mission-critical accounts in production systems. Since subaccounts that are marked as used for production cannot be force deleted, this option also prevents an accidental forced deletion of the account.
 
 Do not select this option if your account is used for non-production purposes, such as development, testing, and demos.
 

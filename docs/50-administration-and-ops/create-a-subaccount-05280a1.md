@@ -132,7 +132,7 @@ Instead of creating a subaccount from scratch, you can create one from an existi
 
     -   Select *Create* \> *Create from Existing Subaccount* and then choose the source subaccount.
 
-    -   Locate the source subaccount in your account hierarchy and then choose *Create as New Subaccount* option in its <span class="SAP-icons-V5"></span> \(Actions\)\) context menu.
+    -   Locate the source subaccount in your account hierarchy and then choose *Create as New Subaccount* option in its <span class="SAP-icons-V5"></span> \(Actions\)context menu.
 
 
 3.  Edit the new subaccount's properties and labels, as needed.

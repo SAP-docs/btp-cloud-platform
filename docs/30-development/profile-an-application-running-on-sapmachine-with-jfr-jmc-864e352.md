@@ -1,6 +1,6 @@
 <!-- loio864e35223c6b471ea72cd066ffe0608f -->
 
-# Profiling an Application Running on SapMachine
+# Profile an Application Running on SapMachine with JFR/JMC
 
 You can use Java Flight Recorder \([JFR](https://docs.oracle.com/en/java/java-components/jdk-mission-control/9/user-guide/using-jdk-flight-recorder.html)\) to profile your Java application on SapMachine, and Java Mission Control \([JMC](https://docs.oracle.com/en/java/java-components/jdk-mission-control/9/user-guide/jdk-mission-control.html)\) to do remote profiling and analysis.
 
@@ -16,6 +16,10 @@ You can use Java Flight Recorder \([JFR](https://docs.oracle.com/en/java/java-co
 
 -   You are logged on to a SAP BTP, Cloud Foundry space. See: [Log On to the Cloud Foundry Environment Using cf CLI](https://help.sap.com/docs/btp/sap-business-technology-platform/log-on-to-cloud-foundry-environment-using-cloud-foundry-command-line-interface?version=Cloud)
 
+-   The version of your buildpack is at least **1.110.0** \(for SAP Java Buildpack 1\) or **2.24.0** \(for SAP Java Buildpack 2\).
+
+-   The version of your SapMachine is at least **17.0.14** or **21.0.6**.
+
 -   You have a Java application that is up and running on SAP BTP, Cloud Foundry.
 
 -   You have enabled SSH for your application. See: [Configuring SSH access at the app level](https://docs.cloudfoundry.org/devguide/deploy-apps/ssh-apps.html#configure-ssh-access-apps)
@@ -27,7 +31,9 @@ You can use Java Flight Recorder \([JFR](https://docs.oracle.com/en/java/java-co
 
 ## Context
 
-To profile with JMC, you need to start the Management Agent on a RMI port and then open an SSH tunnel to connect to that port. To do that, follow the steps below.
+The commands below use [async-profiler](https://github.com/async-profiler/async-profiler/blob/master/README.md), which is a lightweight command-line tool that uses low memory resources. You can use it to execute *jcmd* commands without worrying about high memory consumption or potential Out-Of-Memory errors during profiling. The `async-profiler` tool is integrated in SapMachine, thus no need to download it.
+
+To profile with JMC, you need to start the Management Agent on a RMI port and then open an SSH tunnel to connect to that port.
 
 > ### Note:  
 > In the steps below, we use **myapp** and **5555** as *exemplary* application name and port. Replace them with your actual app name and a free port number on your localhost.
@@ -45,19 +51,19 @@ To profile with JMC, you need to start the Management Agent on a RMI port and th
     ---
     applications:
     - name: myapp
-      buildpack: sap_java_buildpack
+      buildpack: sap_java_buildpack_jakarta
     ...
       env:
         TARGET_RUNTIME: tomcat
         JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-        JBP_CONFIG_SAP_MACHINE_JRE: '{version: 11.+}'
+        JBP_CONFIG_SAP_MACHINE_JRE: '{version: 21.+}'
         JBP_CONFIG_JAVA_OPTS: "[java_opts: '-Djava.rmi.server.hostname=127.0.0.1']"
     ```
 
 2.  Start the Management Agent by running `jcmd` in your Cloud Foundry container. Execute:
 
     ```
-    cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/jcmd $(pgrep java) ManagementAgent.start jmxremote.authenticate=false jmxremote.ssl=false jmxremote.port=5555 jmxremote.rmi.port=5555"
+    cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/asprof jcmd $(pgrep java) ManagementAgent.start jmxremote.authenticate=false jmxremote.ssl=false jmxremote.port=5555 jmxremote.rmi.port=5555"
     ```
 
     Depending on what your SapMachine is using \(JRE or JDK\), specify the path accordingly \(**`sap_machine_jre`** or **`sap_machine_jdk`**\). To learn more, see: [SapMachine](sapmachine-785d6b3.md)
@@ -76,7 +82,7 @@ To profile with JMC, you need to start the Management Agent on a RMI port and th
 3.  \(Optional\) You can check the status of the Management Agent. Execute:
 
     ```
-    cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/jcmd $(pgrep java) ManagementAgent.status"
+    cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/asprof jcmd $(pgrep java) ManagementAgent.status"
     ```
 
 4.  Enable an SSH tunnel for this port. Execute:
@@ -125,12 +131,7 @@ To profile with JMC, you need to start the Management Agent on a RMI port and th
 12. Stop the Management Agent. Execute:
 
     ```
-    cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/jcmd $(pgrep java) ManagementAgent.stop"
+    cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/asprof jcmd $(pgrep java) ManagementAgent.stop"
     ```
 
-
-**Related Information**  
-
-
-[Debug an Application Running on SapMachine](debug-an-application-running-on-sapmachine-f7fa9f3.md "Debug a Java web application running on a Cloud Foundry container that uses SapMachine.")
 

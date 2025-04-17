@@ -2,7 +2,11 @@
 
 # Development in ABAP RESTful Application Programming Model \(RAP\)
 
-Early Numbering: In the RAP version of the workflow service, API workflows can be registered via the command.
+For development in the ABAP RESTful Application Programming Model \(RAP\) follow the below guidance.
+
+**Early Numbering**
+
+In the RAP version of the workflow service, API workflows can be registered via the command.
 
 > ### Sample Code:  
 > Example: EML Create

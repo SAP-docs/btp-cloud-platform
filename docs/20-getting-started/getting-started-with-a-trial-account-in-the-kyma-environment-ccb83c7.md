@@ -24,7 +24,7 @@ Quickly get started with a trial account in the Kyma environment.
 
     You can also download and use the SAP BTP command line interface \(btp CLI\) to create new subaccounts. See [Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506) and [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md).
 
-3.  Create your Kyma environment. For details, see [Create a Kyma Instance](../50-administration-and-ops/create-a-kyma-instance-09dd313.md) and [Enable Trial Kyma Environment](setting-up-your-trial-account-57074a0.md#loio6313afa84b8940f7963ceec0bb236780).
+3.  Create your Kyma environment. For details, see [Creating a Kyma Instance](../50-administration-and-ops/creating-a-kyma-instance-09dd313.md) and [Enable Trial Kyma Environment](setting-up-your-trial-account-57074a0.md#loio6313afa84b8940f7963ceec0bb236780).
 
 4.  Configure your Kyma environment.
 

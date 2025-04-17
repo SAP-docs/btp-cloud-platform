@@ -190,7 +190,7 @@ After you’ve successfully added the entitlements, you can enable your trial Ky
 
 1.  Navigate to your subaccount.
 
-2.  Create your Kyma environment. For details, see [Create a Kyma Instance](../50-administration-and-ops/create-a-kyma-instance-09dd313.md).
+2.  Create your Kyma environment. For details, see [Creating a Kyma Instance](../50-administration-and-ops/creating-a-kyma-instance-09dd313.md).
 
 3.  Provide the name of your cluster and, optionally, a description.
 

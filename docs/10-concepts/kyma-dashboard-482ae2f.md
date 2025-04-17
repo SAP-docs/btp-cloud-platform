@@ -32,7 +32,7 @@ You can use Kyma dashboard to perform the following actions:
 **Related Information**  
 
 
-[Create a Kyma Instance](../50-administration-and-ops/create-a-kyma-instance-09dd313.md "Set up a Kubernetes cluster with SAP BTP, Kyma runtime and use it to build applications and extensions to your SAP and third-party solutions.")
+[Creating a Kyma Instance](../50-administration-and-ops/creating-a-kyma-instance-09dd313.md "Set up a Kubernetes cluster with SAP BTP, Kyma runtime and use it to build applications and extensions to your SAP and third-party solutions.")
 
 [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, delete it to save resources.")
 

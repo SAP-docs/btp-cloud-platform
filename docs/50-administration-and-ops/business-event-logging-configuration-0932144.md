@@ -32,38 +32,6 @@ To activate logging for your objects:
 
     > ### Note:  
     > When you activate logging for an object, the keys and metadata such as event type, performed by, performed at, and other details of the object are logged and displayed in the business event logging apps. When you enable logging for all business event data, all changes made to the object is logged by the system. The fields captured by the system depend on how the event has been defined. For more information on the fields that get logged, refer to the SAP Business Accelerator Hub.
-    > 
-    > An example of the details captured by the system for a **SalesOrder** object is given below:
-    > 
-    > For the event **Profit Center of Sales Order Item Changed**, the following details are logged depending on the configuration:
-    > 
-    > -   When *Enable Log* check box is selected: The changes made to profit \(old value and the new value\) are recorded.
-    > 
-    > -   When *All Business Event Data* is selected: The changes and the current values of the payload are displayed:
-    > 
-    >     `"DistributionChannel":` 
-    > 
-    >     `"EventRaisedDateTime":`
-    > 
-    >     `"OrganizationDivision":`
-    > 
-    >     `"PreviousProfitCenter":`
-    > 
-    >     `"Product":`
-    > 
-    >     `"ProfitCenter":`
-    > 
-    >     `"SalesOrder":`
-    > 
-    >     `"SalesOrderItem":`
-    > 
-    >     `"SalesOrderItemCategory":`
-    > 
-    >     `"SalesOrderType":`
-    > 
-    >     `"SalesOrganization":`
-    > 
-    >     `"SoldToParty":` 
 
     > ### Caution:  
     > When you enable logging for all business event data, it consumes additional storage.

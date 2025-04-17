@@ -43,7 +43,7 @@ Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy,
     > If you are not a subaccount administrator, then you won't be able to access the *Instances and Subscriptions*. Instead, you'll have to ask a subaccount administrator in your organization to review the content in this subaccount and to manually remove the content from there.
 
     > ### Caution:  
-    > If the subaccount contains data, then you're also given the option to use the **force-delete** option, which deletes the subaccount and all its data for you.
+    > If the subaccount contains data, you may have the option to force delete it. This option deletes the subaccount and all its data. Force deletion is available only if the force deletion of subaccounts is enabled in the global account settings and if the subaccount isn't marked as used for production.
     > 
     > You must use this option with extreme caution because any data in the subaccount is deleted permanently, including productive data, without any recovery option.
     > 

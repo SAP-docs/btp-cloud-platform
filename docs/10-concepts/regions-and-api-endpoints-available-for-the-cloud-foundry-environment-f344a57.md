@@ -1747,7 +1747,7 @@ southamerica-east1
 </td>
 <td valign="top">
 
-api.cf.br30hana.ondemand.com
+api.cf.br30.hana.ondemand.com
 
 </td>
 <td valign="top">

@@ -8,6 +8,9 @@ Space and page templates are not visible in the [Manage Launchpad Spaces](https:
 
 To use the space and page templates in the development system you must implement your own scoping using the scoping API \(Application Programming Interface\) `DL APS BC SCOPE CHANGE API`. It's recommended to use a console application to set the space and page template in scope.
 
+> ### Note:  
+> Please be aware that the API in the following example is not available for SAP trial accounts.
+
 > ### Sample Code:  
 > ```
 > 

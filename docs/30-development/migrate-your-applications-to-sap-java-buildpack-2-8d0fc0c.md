@@ -112,7 +112,7 @@ applications:
 ...
 ```
 
-There are some differences between *TomEE WebProfile* and *TomEE Plume* distribution, that might affect your applications. To learn more, see [Apache TomEE: Comparison](https://tomee.apache.org/comparison.html)
+**NOTE:** There are some differences between *TomEE WebProfile* and *TomEE Plume* distribution, that might affect your applications. For example, you may need to increase the memory settings of your apps. See also: [Apache TomEE: Comparison](https://tomee.apache.org/comparison.html)
 
 
 

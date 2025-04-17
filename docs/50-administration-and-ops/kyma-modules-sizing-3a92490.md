@@ -182,12 +182,12 @@ Maximum
 </td>
 <td valign="top">
 
-628 Mi
+1000 Mi
 
 </td>
 <td valign="top">
 
-1.2
+2
 
 </td>
 </tr>

@@ -168,7 +168,7 @@ You can enter content definitions inline in the MTA descriptor as part of module
 
 When an MTA module of type `com.sap.application.content` requires an MTA resource, the SAP Cloud Deployment service will create or reuse a service key.
 
-Service keys in content deployment are an alternative of service bindings between applications and services. When there is an intermediate content application, it might be bound to different services that provide specific capabilities. In direct content deployment, the required service keys have the same role. For example, a content module might require an xsuaa service instance, which might be used for secure communication at a later stage.
+Service keys in content deployment are an alternative of service bindings between applications and services. When there is an intermediate content application, it might be bound to different services that provide specific capabilities. In direct content deployment, the required service keys have the same role. For example, a content module might require an SAP Authorization and Trust Management service \(XSUAA\) instance, which might be used for secure communication at a later stage.
 
 By default, service keys to all required services are created with the name that follows the template `<module_name>-<resource_name>-credentials`. For example, the result of the sample below will be a service instance with name `workflow_service` which will have a service key named `content-module-workflow_service-credentials`:
 
@@ -217,7 +217,7 @@ You can customize the service keys created as part of the content deployment by 
 
 This option extends the customization of service keys explained above. Based on its name, an existing service key may be reused or deleted, as described in [How Content is Deployed with Generic Application Content Deployment](deploying-content-with-generic-application-content-deployment-d3e2319.md#loiod3e23196166b443db17b3545c912dfc0__section_p22_ckc_wxb).
 
-The option is particularly useful if you want to rotate and renew the credentials used for content deployment, like when they are based on user/password credentials or certificates.
+The option is particularly useful if you want to rotate and renew the credentials used for content deployment, especially those based on user/password credentials or certificates.
 
 You can set the service keys to automatically rotate for each new deployment by using the existing deployment parameter `${timestamp}` as part of the name of the defined custom service key. This ensures that the key will have a new name for each deployment, resulting in SAP Cloud Deployment service creating and using a new key for the related content deployment. The previously used service key will be deleted after the new one is in place.
 
@@ -240,6 +240,28 @@ You can set the service keys to automatically rotate for each new deployment by 
 > 
 > -   [Automatic Service Key Renewal](https://github.com/SAP-samples/cf-mta-examples/tree/main/service-key-renewal#automatic-service-key-renewal)
 > -   [Managing CF Apps and SAP BTP Service Instance Destination with an MTA](https://github.com/SAP-samples/cf-mta-examples/tree/main/cf-service-destination)
+
+
+
+### Delete service keys after deployment
+
+This option is similar to the **Re-create custom service keys for deployment** option explained above. As the title suggests, the used service keys are deleted after the successful content deployment.
+
+Deleting service keys after deployment could be particularly useful for maintaining a minimal footprint in your environment or if you want to use new credentials for content deployment, especially those based on user/password credentials or certificates. This option cannot be used if the service key credentials are used at a later stage after the content deployment, such as during runtime, which is the case in HTML5 application content deployment. A drawback of this option is the missing possibility for troubleshooting in case of issues related to wrong credentials.
+
+> ### Sample Code:  
+> ```
+> modules:  
+> - name: content-module  
+>    type: com.sap.application.content  
+>    requires:  
+>     - name: workflow_service  
+>       parameters:  
+>          content-target: true  
+>          service-key:  
+>            name: workflow_service-key-${timestamp}
+>          delete-service-key-after-deployment: true
+> ```
 
 
 

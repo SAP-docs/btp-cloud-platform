@@ -10,7 +10,7 @@ As an administrator, you must perform several steps to set up a fully operationa
 
 ## Prerequisites
 
--   To perform administrative and development tasks, you need a global account and one or several subaccounts for which you can provision the Kyma environment. For details, see [Create a Kyma Instance](../50-administration-and-ops/create-a-kyma-instance-09dd313.md).
+-   To perform administrative and development tasks, you need a global account and one or several subaccounts for which you can provision the Kyma environment. For details, see [Creating a Kyma Instance](../50-administration-and-ops/creating-a-kyma-instance-09dd313.md).
 
 -   The subaccount must have the following entitlements assigned:
 
@@ -28,7 +28,7 @@ As an administrator, you must perform several steps to set up a fully operationa
 
 ## Procedure
 
-1.  Set up a Kubernetes cluster with the project "Kyma" to connect and extend SAP systems: [Create a Kyma Instance](../50-administration-and-ops/create-a-kyma-instance-09dd313.md)
+1.  Set up a Kubernetes cluster with the project "Kyma" to connect and extend SAP systems: [Creating a Kyma Instance](../50-administration-and-ops/creating-a-kyma-instance-09dd313.md)
 
 2.  Add the modules you'd like to use: [Kyma Modules](../10-concepts/kyma-modules-0dda141.md).
 

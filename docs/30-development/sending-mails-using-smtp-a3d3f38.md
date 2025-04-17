@@ -6,6 +6,14 @@ Send mails using the Simple Message Transfer Protocol \(SMTP\).
 
 
 
+<a name="copya3d3f38de12b430bb670e418e7e66bad__section_w12_ghw_t2c"/>
+
+## Prerequesites
+
+It is necessary to complete the communication scenario [Integrating Outbound Emails Using SMTP](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/integrating-outbound-emails-using-smtp?locale=en-US&version=Cloud).
+
+
+
 <a name="copya3d3f38de12b430bb670e418e7e66bad__section_u1r_zjg_slb"/>
 
 ## Application Programming Interface \(API\)

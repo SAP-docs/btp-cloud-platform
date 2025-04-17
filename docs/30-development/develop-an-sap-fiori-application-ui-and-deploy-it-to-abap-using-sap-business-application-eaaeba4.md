@@ -26,7 +26,7 @@ If you need further assistance with creating and deploying an application, check
 
 > ### Prerequisites:  
 > -   You have created a development package in ABAP Development Tools for Eclipse. See [Creating ABAP Packages](https://help.sap.com/docs/btp/sap-abap-development-user-guide/creating-abap-packages?version=Cloud).
-> -   You have exposed a RAP business service as an OData service. See [Using Service Binding Editor for OData Service](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/using-service-binding-editor-for-odata-v4-service?version=sap_btp). In case no suitable service is available yet, you may create one based on a released BO interface or CDS View. See  <?sap-ot O2O class="- topic/xref " href="5717c0a1dafc4335add0207b81c39cef.xml" text="" desc="" xtrc="xref:6" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/eaaeba48e5e04949855f2763477cd557.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+> -   You have exposed a RAP business service as an OData service. See [Using Service Binding Editor for OData Service](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/using-service-binding-editor-for-odata-v4-service?version=sap_btp). In case no suitable service is available yet, you may create one based on a released BO interface or CDS View. See[Develop an OData UI Service Against a Released BO Interface or CS View](https://help.sap.com/docs/btp/sap-business-technology-platform-internal/develop-odata-ui-service-against-released-bo-interface-or-cds-view?version=Cloud).
 > -   Business catalog `SAP_A4C_BC_DEV_UID_PC` is assigned to your user, which allows you to discover available services and deploy your application.
 > -   Business catalog `SAP_CORE_BC_EXT_TST` is assigned to your user, which allows you to preview your application. See [Business Catalogs for Development Tasks](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/business-catalogs-for-development-tasks?version=Cloud).
 > -   You have an open transport request.
@@ -99,5 +99,7 @@ Launch your app in SAP Fiori launchpad. See [Add Your App to SAP Fiori Launchpad
 
 [Tutorial: Develop and Run SAP Fiori Application With SAP Business Application Studio](https://developers.sap.com/tutorials/abap-environment-deploy-cf-production.html)
 
-[Tutorial: Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-abap-flp.html)
+[https://developers.sap.com/tutorials/abap-environment-abap-flp.html](https://developers.sap.com/tutorials/abap-environment-abap-flp.html)
+
+[Tutorial: Integrate List Report into ABAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-environment-integrate-app-into-flp.html)
 

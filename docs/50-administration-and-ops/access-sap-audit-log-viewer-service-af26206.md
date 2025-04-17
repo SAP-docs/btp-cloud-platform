@@ -29,3 +29,8 @@ To retrieve the audit logs for your subaccount using the Audit Log Viewer servic
     > Only account members with the Security Administrator role are authorized to edit application authorizations.
 
 
+**Related Information**  
+
+
+[Subscribe to SAP Audit Log Viewer service](subscribe-to-sap-audit-log-viewer-service-8ef9054.md "Subscribe to SAP Audit Log Viewer service for access to audit log information.")
+

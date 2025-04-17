@@ -961,6 +961,102 @@ modules:
 <tr>
 <td valign="top">
 
+`content-target`
+
+</td>
+<td valign="top">
+
+required dependency
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+This parameter defines the target for the content deployment. It is usually a service instance or a service key toward the content backend that processes the content. The parameter is valid only for modules with direct content deployment:
+
+-   `com.sap.application.content`
+-   `com.sap.integration`
+-   `com.sap.api.management`
+
+For more information, see [Deploying Content with Generic Application Content Deployment](deploying-content-with-generic-application-content-deployment-d3e2319.md).
+
+</td>
+<td valign="top">
+
+false
+
+</td>
+<td valign="top">
+
+```
+modules: 
+ - name: java 
+ ......... 
+ requires: 
+  - name: test 
+    parameters: 
+     content-target: true
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`delete-service-key-after-deployment`
+
+</td>
+<td valign="top">
+
+required dependency
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+If this parameter is set to true, the service keys used during the content deployment are deleted once the deployment is completed. The parameter is valid only for modules with direct content deployment:
+
+-   `com.sap.application.content`
+-   `com.sap.integration`
+-   `com.sap.api.management`
+
+
+
+</td>
+<td valign="top">
+
+false
+
+</td>
+<td valign="top">
+
+```
+modules: 
+ - name: java 
+ ......... 
+ requires: 
+  - name: test 
+    parameters: 
+     delete-service-key-after-deployment: true
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `env-var-name`
 
 </td>

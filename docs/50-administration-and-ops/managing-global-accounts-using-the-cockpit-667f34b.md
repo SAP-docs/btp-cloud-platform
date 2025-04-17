@@ -19,7 +19,16 @@ In the *General* tab of the global account settings, you can obtain general info
 > ### Note:  
 > In this tab, you cannot change any of the values. The only value that you can edit is the global account name, and you can do this in the *Account Explorer* page \(see [Change the Display Name of Your Global Account](change-the-display-name-of-your-global-account-36a6674.md)\).
 
-In the *Subaccount Defaults* tab in the global account settings, you can set the supported providers, the default provider, and the default region. These default settings are used when creating a new subaccount in this global account.
+In the *Subaccounts* tab in the global account settings, you can
+
+-   Define default settings that are used when creating a new subaccount in this global account.
+
+    You can set the supported providers, the default provider, and the default region.
+
+-   Set the option to enable the force deletion of subaccounts.
+
+    If this option is selected, all global account admins can force delete subaccounts that are not marked as "used for production". The force deletion of a subaccount permanently deletes all its data, including applications, service instances, spaces, active subscriptions, and members. The force deletion is permanent and irreversible. This option also enables the force deletion of subaccounts using the btp CLI or the SAP Cloud Management APIs. Subaccounts that are marked as "used for production" cannot be force deleted.
+
 
 **Related Information**  
 

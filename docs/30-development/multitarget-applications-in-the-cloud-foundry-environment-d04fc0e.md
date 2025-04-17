@@ -125,7 +125,7 @@ How to deploy the Multitarget Application
 </td>
 <td valign="top">
 
-[Multitarget Application Plug-In for the Cloud Foundry Command Line Interface](../50-administration-and-ops/multitarget-application-plug-in-for-the-cloud-foundry-command-line-interface-e93b231.md)
+[Multitarget Application Plugin for Cloud Foundry Command Line Interface](../50-administration-and-ops/multitarget-application-plugin-for-cloud-foundry-command-line-interface-e93b231.md)
 
 </td>
 </tr>

@@ -21,7 +21,7 @@ You can only delete service instances or service bindings created in Kyma using 
 
 Use either Kyma dashboard or kubectl to delete a service binding or a service instance.
 
-To access Kyma dashboard, use the link available in the **Kyma Environment** section of your subaccount *Overview*.
+Kyma dashboard is a web-based UI providing a graphical overview of your cluster and all its resources. To access Kyma dashboard, use the link available in the **Kyma Environment** section of your subaccount *Overview*.
 
 -   **Use Kyma dashboard**
 

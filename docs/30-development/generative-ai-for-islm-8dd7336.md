@@ -14,7 +14,7 @@ The intelligent scenarios are development objects that can be created using the 
 
 The [Intelligent Scenario Management](https://help.sap.com/docs/SAP_S4HANA_CLOUD/6aa39f1ac05441e5a23f484f31e477e7/4e67f075b34c4044802d0418efdef3b3.html) app should be used for operating intelligent scenarios, for example activation and deployments.
 
-For SAP delivered Gen AI and custom-developed intelligent scenarios that support turnkey, the creation and activation of deployments can be automated using the [Turnkey](https://help.sap.com/docs/SAP_S4HANA_CLOUD/6aa39f1ac05441e5a23f484f31e477e7/5c40d9d7707346ea89fdc335f3a703f2.html) feature.
+For SAP delivered Gen AI and custom-developed intelligent scenarios that support turnkey, the creation and activation of deployments can be automated using the [Turnkey](turnkey-d9c6d05.md) feature.
 
 Following is the architectural representation of ISLM integration with ABAP AI SDK.
 
@@ -23,7 +23,7 @@ Following is the architectural representation of ISLM integration with ABAP AI S
 The following sections shows get step-by-step instructions on how to set up the integration of ISLM with the generative AI hub in SAP AI Core:
 
 -   [Download Certificate](download-certificate-3645813.md)
--    <?sap-ot O2O class="- topic/xref " href="9cd044550da94218ba18ffcb8bfb01b7.xml" text="" desc="" xtrc="xref:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8dd73367ad7542109c7c54edeb1ab9c5.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+-   [Create SAP BTP Service Instance and Key](create-sap-btp-service-instance-and-key-5b35ee9.md)
 -   [How to Configure the Communication System for SAP\_COM\_0A69](how-to-configure-the-communication-system-for-sap-com-0a69-7d691a0.md)
 -   [How to Create the Communication Arrangement for SAP\_COM\_0A69](how-to-create-the-communication-arrangement-for-sap-com-0a69-20014a0.md)
 -   [Manage Gen AI Scenarios](manage-gen-ai-scenarios-5fef720.md)

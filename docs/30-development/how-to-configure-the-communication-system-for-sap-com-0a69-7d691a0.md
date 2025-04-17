@@ -12,7 +12,7 @@ Currently, you can create one instance of the communication scenario per client.
 
 ## Prerequisites
 
-Make sure you have followed all steps as described in  <?sap-ot O2O class="- topic/xref " href="9cd044550da94218ba18ffcb8bfb01b7.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/7d691a07627442a3b1d07000417c8056.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> , so the X.509 service key is created from the default client certificate of the ABAP system.
+Make sure you have followed all steps as described in [Create SAP BTP Service Instance and Key](create-sap-btp-service-instance-and-key-5b35ee9.md), so the X.509 service key is created from the default client certificate of the ABAP system.
 
 > ### Sample Code:  
 > ```
@@ -105,5 +105,5 @@ Make sure you have followed all steps as described in  <?sap-ot O2O class="- top
 
 ## Next Steps
 
- <?sap-ot O2O class="- topic/xref " href="16d3b0ed27b64bebb4f1ccdac7663ba0.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/7d691a07627442a3b1d07000417c8056.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[How to Create the Communication Arrangement for SAP\_COM\_0A69](how-to-create-the-communication-arrangement-for-sap-com-0a69-20014a0.md)
 

@@ -18,7 +18,7 @@ You have at least one additional worker node pool in your Kyma runtime. To learn
 
 Worker node pools are collections of one or more worker nodes. To assign your workloads \(Pods\) to a particular worker node pool, use the following worker node's label: `worker.gardener.cloud/pool=<worker-pool-name>`. The label specifies the worker pool to which the node belongs.
 
-You can assign your workloads to worker node pools in one of the following ways:
+You can assign your workloads to worker node pools using one of the following recommended methods:
 
 -   Set a [node selector](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector).
 
@@ -26,6 +26,8 @@ You can assign your workloads to worker node pools in one of the following ways:
 
 
 Node affinity offers more flexibility for assigning workloads than node selector. You can define multiple affinity rules and configure them as hard or soft requirements by using one of the following strategies: `requiredDuringSchedulingIgnoredDuringExecution` or `preferredDuringSchedulingIgnoredDuringExecution`. You can also invert affinity by setting it as anti-affinity.
+
+You can also assign your workloads to worker node pools using taints with tolerations. This method is useful for strict control over where workloads are placed, ensuring isolation or prioritization of specific workloads. For more information, see [Taints and Tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/).
 
 
 

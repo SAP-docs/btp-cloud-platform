@@ -30,7 +30,7 @@ To use an SAP BTP service in your Kyma cluster, create its service instance and 
 
 <!-- loio3ca9284699c44180b12e7be513bdac06 -->
 
-## Create a Service Instance
+## Creating a Service Instance
 
 To create a service instance, use either Kyma dashboard or kubectl.
 
@@ -40,7 +40,7 @@ To create a service instance, use either Kyma dashboard or kubectl.
 
 ### Use Kyma Dashboard
 
-To access Kyma dashboard, use the link available in the **Kyma Environment** section of your subaccount *Overview*.
+Kyma dashboard is a web-based UI providing a graphical overview of your cluster and all its resources. To access Kyma dashboard, use the link available in the **Kyma Environment** section of your subaccount *Overview*.
 
 
 
@@ -105,7 +105,7 @@ To access Kyma dashboard, use the link available in the **Kyma Environment** sec
 
 <!-- loioab5ca11be3bf4c029982332fe7092f74 -->
 
-## Create a Service Binding
+## Creating a Service Binding
 
 To create a service binding, use either Kyma dashboard or kubectl.
 
@@ -117,7 +117,7 @@ With a `ServiceBinding` custom resource \(CR\), your application can get access 
 
 ### Use Kyma Dashboard
 
-To access Kyma dashboard, use the link available in the **Kyma Environment** section of your subaccount *Overview*.
+Kyma dashboard is a web-based UI providing a graphical overview of your cluster and all its resources. To access Kyma dashboard, use the link available in the **Kyma Environment** section of your subaccount *Overview*.
 
 
 

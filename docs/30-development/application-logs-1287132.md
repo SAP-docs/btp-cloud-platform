@@ -407,6 +407,16 @@ The record **after** applying the JSON parser:
 
 
 
+### Log Time Fields
+
+SAP Cloud Logging uses a dedicated attribute called `@timestamp` to represent the time of a log record. When processing a log, SAP Cloud Logging first checks whether the record contains a date field with a valid value in either Unix time \(integer format\) or ISO 8601 format. If the date field is missing or contains an invalid value, SAP Cloud Logging generates the `@timestamp` attribute based on the time the log record was received. This generated timestamp is usually later than the original log time and is not helpful in most scenarios.
+
+Fluent Bit's HTTP output plugin also uses a date field. This field represents the time when Fluent Bit observed the log and is formatted in ISO 8601 with millisecond precision. The field's value may slightly differ from the original log time because while the original log timestamp may have nanosecond precision, the Fluent Bit date field is limited to millisecond precision.
+
+Fluent Bit HTTP output uses an additional filter to improve log time precision. The filter allows copying the original `time` attribute to the `@timestamp` field.
+
+
+
 <a name="loio12871325f46f48f6b4340c8ef47bdc66__section_kyma_logs_operations"/>
 
 ## Operations

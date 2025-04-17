@@ -96,6 +96,8 @@ To have multiple service instances from different subaccounts associated with on
 
 To create the service instance, use either Kyma dashboard or kubectl.
 
+Kyma dashboard is a web-based UI providing a graphical overview of your cluster and all its resources. To access Kyma dashboard, use the link available in the **Kyma Environment** section of your subaccount *Overview*.
+
 
 
 <a name="task_etb_jfy_ddc__steps-unordered_lbf_4fy_ddc"/>

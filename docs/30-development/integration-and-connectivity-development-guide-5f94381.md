@@ -1,8 +1,8 @@
 <!-- loio5f94381ecc8d4841ae6481be9d4d0d31 -->
 
-# Integration and Connectivity
+# Integration and Connectivity Development Guide
 
-The ABAP environment enables you to connect to other systems using different protocols. It is possible to consume services from other systems and provide services for consumption in other systems.
+Get an overview of the ABAP integration and connectivity development guide.
 
 
 

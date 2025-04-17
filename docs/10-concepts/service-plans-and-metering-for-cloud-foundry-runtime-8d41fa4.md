@@ -385,7 +385,7 @@ CF Runtime
 </td>
 <td valign="top">
 
-The metric CF Runtime is intended only for monitoring the usage of SAP BTP, Cloud Foundry runtime when it's used as part of SAP Build Code. For more information, see [What Is SAP Build Code](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/504854f457cc4fbf9f79136dbc773618.html).
+The metric CF Runtime is intended for monitoring the usage of SAP BTP, Cloud Foundry runtime when it's used as part of SAP Build Code. For more information, see [What Is SAP Build Code](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/504854f457cc4fbf9f79136dbc773618.html).
 
 > ### Note:  
 > The metric is not depicted on the diagram in [Service](service-plans-and-metering-for-cloud-foundry-runtime-8d41fa4.md#loio8d41fa40e47b45bf90d38e393a989c4c__service).

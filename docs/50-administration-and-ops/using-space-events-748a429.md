@@ -2,7 +2,7 @@
 
 # Using Space Events
 
-The *Events* page in the SAP BTP cockpit shows the order in which actions are performed in a space.
+The *Events* page at space level in the SAP BTP cockpit shows the order in which actions are performed in a space.
 
 
 

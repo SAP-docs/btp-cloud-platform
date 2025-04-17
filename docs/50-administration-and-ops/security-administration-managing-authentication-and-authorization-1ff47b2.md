@@ -12,7 +12,10 @@ Since identity providers provide the users or user groups, you make then sure th
 
 ## Authentication
 
-A user account corresponds to a particular user in an identity provider. The user is always authenticated using an external identity provider. We recommend to use a custom tenant of Cloud Identity Services. You can connect Cloud Identity Services to your corporate identity provider.
+A user account corresponds to a particular user in an identity provider. The user is always authenticated using an external identity provider.
+
+> ### Recommendation:  
+> We recommend to use a custom tenant of SAP Cloud Identity Services. You can connect SAP Cloud Identity Services to your corporate identity provider.
 
 SAP BTP distinguishes two types of users. Platform users are usually administrators, operator, or developers. They have full access and give permissions at global account, directory, and subaccount level. Business users use the applications deployed to SAP BTP. They are, for example, end users of SaaS apps or of custom applications.
 
