@@ -980,6 +980,53 @@ Google Cloud
 </td>
 <td valign="top">
 
+br30
+
+</td>
+<td valign="top">
+
+Brazil \(São Paulo\)
+
+</td>
+<td valign="top">
+
+cf-br30
+
+</td>
+<td valign="top">
+
+southamerica-east1
+
+</td>
+<td valign="top">
+
+34.95.137.184, 35.247.201.68, 34.39.150.8, 35.247.226.31, 34.95.150.147, 34.95.207.43
+
+</td>
+<td valign="top">
+
+api.cf.br30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+br30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://amer.cockpit.btp.cloud.sap/](https://amer.cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
 eu30
 
 </td>
@@ -1058,6 +1105,53 @@ api.cf.in30.hana.ondemand.com
 <td valign="top">
 
 in30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://apac.cockpit.btp.cloud.sap/](https://apac.cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+jp30
+
+</td>
+<td valign="top">
+
+Japan \(Osaka\)
+
+</td>
+<td valign="top">
+
+cf-jp30
+
+</td>
+<td valign="top">
+
+asia-northeast2
+
+</td>
+<td valign="top">
+
+34.97.109.65, 34.97.169.121, 34.97.118.229, 34.97.49.120, 34.97.5.235, 34.97.12.103
+
+</td>
+<td valign="top">
+
+api.cf.jp30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+jp30.hana.ondemand.com
 
 </td>
 <td valign="top">

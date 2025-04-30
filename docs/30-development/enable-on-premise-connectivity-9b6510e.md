@@ -16,9 +16,9 @@ Create an HTTP and an RFC destination to enable communication from the ABAP envi
 
 -   If you want to use principal propagation as authentication type, the Cloud Connector must be configured to support this authentication type. See [Cloud Connector: Configuring Principal Propagation](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/c84d4d0b12d34890b334998185f49e88.html).
 
-    Also, make sure that no communication arrangement to the deprecated communication scenario SAP\_COM\_0200 exists.
+    Also, make sure that no communication arrangement to the deprecated communication scenario `SAP_COM_0200` exists.
 
--   If you use more than one Cloud Connector in your subaccount, you have assigned a location ID to each of these Cloud Connectors. See [Managing Subaccounts](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/f16df12fab9f4fe1b8a4122f0fd54b6e.html) \(section **Procedure**, step 4\).
+-   If you use more than one Cloud Connector in your subaccount, you have assigned a location ID to each of these Cloud Connectors. See [Managing Subaccounts](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/f16df12fab9f4fe1b8a4122f0fd54b6e.html).
 
 
 
@@ -26,8 +26,15 @@ Create an HTTP and an RFC destination to enable communication from the ABAP envi
 
 ## Procedure
 
-To enable on-premise connectivity, you must set up or reuse an HTTP destination or an RFC destination with *<Proxy Type\>* `OnPremise`:
+To enable on-premise connectivity, you must use the Cloud Connector in your communication system:
 
--   [Create HTTP Destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-http-destinations?version=Cloud)
--   [Create RFC Destinations](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-rfc-destinations?version=Cloud)
+-   [Creating a Communication System for Outbound HTTP](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/create-communication-system-for-outbound-http?version=sap_btp)
+-   [Creating a Communication System for Outbound RFC](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/create-communication-system-for-outbound-rfc?version=sap_btp)
+
+**Related Information**  
+
+
+[Outbound Communication](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/outbound-communication-48d3624d9f7d47d7ab712d110cb02d77?version=sap_btp)
+
+[Communication System](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/communication-system?version=sap_btp)
 

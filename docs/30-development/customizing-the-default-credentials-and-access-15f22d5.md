@@ -65,7 +65,9 @@ data:
 
 ## Results
 
-Your customized `sap-btp-manager` Secret is now the default Secret of the SAP BTP Operator module. It generates the SAP BTP service operator's resources, as shown in the following diagram:![](images/Customized_Module_Credentials_412b368.png)
+Your customized `sap-btp-manager` Secret is now the default Secret of the SAP BTP Operator module. It generates the SAP BTP service operator's resources, as shown in the following diagram:
+
+![](images/Customized_Module_Credentials_412b368.png)
 
 The reconciliation of the Secret stops and your changes are not reverted.
 

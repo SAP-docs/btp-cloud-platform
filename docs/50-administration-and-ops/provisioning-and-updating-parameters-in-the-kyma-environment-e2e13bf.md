@@ -23,6 +23,8 @@ These are the configurable cluster parameters:
 -   [Auto Scaler Min](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Min)
 -   [Cluster Name\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Cluster_Name)
 -   [Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type)
+    -   [Machine Type in Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__Additional_machine_types)
+
 -   [Modules](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Modules)
 -   [Networking](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Networking)
 -   [OpenID Connect \(OIDC\)](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
@@ -230,22 +232,7 @@ See [Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environme
 See the example configuration:
 
 ```
-   "additionalWorkerNodePools": [
-      {
-         "name": "worker-1",
-         "machineType": "Standard_D2s_v5",
-         "haZones": true,
-         "autoScalerMin": 3,
-         "autoScalerMax": 20
-      },
-      {
-         "name": "worker-2",
-         "machineType": "Standard_D4s_v5",
-         "haZones": false,
-         "autoScalerMin": 1,
-         "autoScalerMax": 1
-      }
-   ]
+   "additionalWorkerNodePools": [      {         "name": "worker-1",         "machineType": "Standard_D2s_v5",         "haZones": true,         "autoScalerMin": 3,         "autoScalerMax": 20      },      {         "name": "worker-2",         "machineType": "Standard_D4s_v5",         "haZones": false,         "autoScalerMin": 1,         "autoScalerMax": 1      }   ]
 ```
 
 See also [Assigning Workloads to Worker Node Pools](assigning-workloads-to-worker-node-pools-1bf21c1.md).
@@ -259,12 +246,7 @@ See also [Assigning Workloads to Worker Node Pools](assigning-workloads-to-worke
 The *Administrators* \(`administrators`\) parameter is an array of strings. It is a provisioning and updating parameter, which specifies the list of runtime administrators. Complete the list with the administrators' email addresses as shown in the following example:
 
 ```
-"administrators": [
-        "example_1@mail.com",
-        "example_2@mail.com",
-        "example_3@mail.com"
-    ]
-
+"administrators": [        "example_1@mail.com",        "example_2@mail.com",        "example_3@mail.com"    ]
 ```
 
 
@@ -309,11 +291,13 @@ Allowed Input
 <tr>
 <td valign="top">
 
-Standard: Amazon Web Services \(technical name: `aws`\)
+Standard
 
-Standard: Google Cloud \(technical name: `gcp`\)
+technical names: `aws`, `gcp`, `azure`
 
-Standard: Microsoft Azure \(technical name: `azure`\)
+Build Runtime
+
+technical names: `build-runtime-aws`, `build-runtime-gcp`, or `build-runtime-azure`
 
 </td>
 <td valign="top">
@@ -346,7 +330,7 @@ Within the *Additional Worker Node Pools* array, with high availability disabled
 
 Kyma Test Demo and Development \(Azure Lite\)
 
-\(technical name: `azure_lite`\)
+technical name: `azure_lite`
 
 </td>
 <td valign="top">
@@ -424,11 +408,13 @@ Allowed Input
 <tr>
 <td valign="top">
 
-Standard: Amazon Web Services \(technical name: `aws`\)
+Standard
 
-Standard: Google Cloud \(technical name: `gcp`\)
+technical names: `aws`, `gcp`, `azure`
 
-Standard: Microsoft Azure \(technical name: `azure`\)
+Build Runtime
+
+technical names: `build-runtime-aws`, `build-runtime-gcp`, or `build-runtime-azure`
 
 </td>
 <td valign="top">
@@ -461,7 +447,7 @@ Within the *Additional Worker Node Pools* array, with high availability disabled
 
 Kyma Test Demo and Development \(Azure Lite\)
 
-\(technical name: `azure_lite`\)
+technical name: `azure_lite`
 
 </td>
 <td valign="top">
@@ -608,6 +594,10 @@ Standard: Amazon Web Services
 
 technical name: `aws`
 
+Build Runtime: Amazon Web Services
+
+technical name: `build-runtime-aws`
+
 </td>
 <td valign="top" rowspan="14">
 
@@ -712,7 +702,7 @@ Updating
 </td>
 <td valign="top">
 
- 
+2 vCPU, 8 GB RAM
 
 </td>
 </tr>
@@ -794,6 +784,10 @@ Updating
 Standard: Google Cloud
 
 technical name: `gcp`
+
+Build Runtime: Google Cloud
+
+technical name: `build-runtime-gcp`
 
 </td>
 <td valign="top" rowspan="7">
@@ -897,6 +891,10 @@ Updating
 Standard: Microsoft Azure
 
 technical name: `azure`
+
+Build Runtime: Microsoft Azure
+
+technical name: `build-runtime-azure`
 
 </td>
 <td valign="top" rowspan="13">
@@ -1162,6 +1160,10 @@ Standard: Amazon Web Services
 
 technical name: `aws`
 
+Build Runtime: Amazon Web Services
+
+technical name: `build-runtime-aws`
+
 </td>
 <td valign="top" rowspan="7">
 
@@ -1265,6 +1267,10 @@ Standard: Google Cloud
 
 technical name: `gcp`
 
+Build Runtime: Google Cloud
+
+technical name: `build-runtime-gcp`
+
 </td>
 <td valign="top" rowspan="6">
 
@@ -1367,6 +1373,10 @@ Updating
 Standard: Microsoft Azure
 
 technical name: `azure`
+
+Build Runtime: Microsoft Azure
+
+technical name: `build-runtime-azure`
 
 </td>
 <td valign="top" rowspan="7">
@@ -1677,40 +1687,23 @@ Provisioning
 You have the default Kyma modules provisioned in your cluster if you do not provide the `modules` object in the JSON payload, or if you use the following input:
 
 ```
-"modules": { 
-    "default": true 
-} 
+"modules": {     "default": true } 
 ```
 
 See an example of JSON input for a custom list of Kyma modules:
 
 ```
-"modules": {
-    "list": [
-        {
-            "name": "btp-operator"
-        },
-        {
-            "name": "keda",
-            "customResourcePolicy": "CreateAndDelete",
-            "channel": "fast"
-        }
-    ]
-}
+"modules": {    "list": [        {            "name": "btp-operator"        },        {            "name": "keda",            "customResourcePolicy": "CreateAndDelete",            "channel": "fast"        }    ]}
 ```
 
 Applying the following values results in Kyma runtime provisioning without any Kyma modules.
 
 ```
-"modules": {
-    "list": []
-}
+"modules": {    "list": []}
 ```
 
 ```
-"modules": {
-    "default": false
-}
+"modules": {    "default": false}
 ```
 
 
@@ -1859,12 +1852,7 @@ Also, the range for Services must not overlap with those used for nodes or Pods.
 See the default JSON input for the *Networking* object:
 
 ```
-"networking": {
-        "nodes": "10.250.0.0/22"
-        "pods": "10.96.0.0/13"
-        "services": "10.104.0.0/13"
-    }
-
+"networking": {        "nodes": "10.250.0.0/22"        "pods": "10.96.0.0/13"        "services": "10.104.0.0/13"    }
 ```
 
 
@@ -2112,14 +2100,7 @@ To skip any prefixing, provide the value "-" \(dash character without additional
 The following example shows the default configuration of the *OIDC* parameter. To revert your changes to the default settings, copy and paste the following values:
 
 ```
- "oidc": {
-        "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
-        "groupsClaim": "groups",
-        "issuerURL": "https://kyma.accounts.ondemand.com",
-        "signingAlgs": ["RS256"],
-        "usernameClaim": "sub",
-        "usernamePrefix": "-"
-    }
+ "oidc": {        "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",        "groupsClaim": "groups",        "issuerURL": "https://kyma.accounts.ondemand.com",        "signingAlgs": ["RS256"],        "usernameClaim": "sub",        "usernamePrefix": "-"    }
 ```
 
 
@@ -2166,6 +2147,10 @@ technical name: `aws`
 Free
 
 technical name: `free`
+
+Build Runtime: Amazon Web Services
+
+technical name: `build-runtime-aws`
 
 </td>
 <td valign="top" rowspan="11">
@@ -2310,6 +2295,10 @@ US West \(Oregon\)
 Standard: Google Cloud
 
 technical name: `gcp`
+
+Build Runtime: Google Cloud
+
+technical name: `build-runtime-gcp`
 
 </td>
 <td valign="top" rowspan="13">
@@ -2482,6 +2471,10 @@ technical name: `azure`
 Kyma Test Demo and Development \(Azure Lite\)
 
 technical name: `azure_lite`
+
+Build Runtime: Microsoft Azure
+
+technical name: `build-runtime-azure`
 
 </td>
 <td valign="top" rowspan="12">

@@ -55,6 +55,8 @@ If you have SAP Subscription Billing set up in your subaccount in SAP BTP, follo
 
 1.  In the *Systems* page, find the systems of type *SAP Subscription Billing* and *SAP S/4HANA Cloud* that you want to include in a formation.
 
+    The **SAP S/4HANA Cloud** and the *SAP Subscription Billing* systems you are going to include in this formation must not be part of another formation.
+
 2.  In the *System Landscape* \> *Formations* page, create a formation of type *Integration with SAP Subscription Billing* and include the relevant systems in it.
 
     1.  Add any name that helps you identify your formation.

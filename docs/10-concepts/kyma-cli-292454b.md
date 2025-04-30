@@ -60,7 +60,7 @@ Kyma CLI provides the following features:
 **Related Information**  
 
 
-[Adding and Deleting a Kyma Module Using Kyma CLI](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio5a3666c015fb476b8b94b8abcbe9a17d "Use Kyma CLI to add and delete a Kyma module.")
+[Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, delete it to save resources.")
 
-[Setting Your Module to the Unmanaged and Managed State in Kyma CLI](../50-administration-and-ops/setting-your-module-to-the-unmanaged-and-managed-state-c071680.md#loio2a0ba7160e5145688f1b8cc21f89651d "Use Kyma CLI to set your module to the unmanaged state.")
+[Setting Your Module to the Unmanaged and Managed State](../50-administration-and-ops/setting-your-module-to-the-unmanaged-and-managed-state-c071680.md#loioc07168072c8340ecbb392260cf52c165 "In some cases, for example, for testing, you may need to modify your module beyond what is supported by its configuration. By default, when a module is in the managed state, Kyma Control Plane governs its Kubernetes resources, reverting any manual changes during the next reconciliation loop. To modify Kubernetes objects directly without them being reverted, you must set the module to the unmanaged state. In this state, reconciliation is disabled, ensuring your manual changes are preserved.")
 

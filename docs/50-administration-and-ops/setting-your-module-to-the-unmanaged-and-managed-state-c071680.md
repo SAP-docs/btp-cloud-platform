@@ -4,114 +4,101 @@
 
 In some cases, for example, for testing, you may need to modify your module beyond what is supported by its configuration. By default, when a module is in the managed state, Kyma Control Plane governs its Kubernetes resources, reverting any manual changes during the next reconciliation loop. To modify Kubernetes objects directly without them being reverted, you must set the module to the unmanaged state. In this state, reconciliation is disabled, ensuring your manual changes are preserved.
 
-<a name="loiod281d803c7d946f4adcc28ee72700119"/>
+<a name="task_qmd_tk1_cfc"/>
 
-<!-- loiod281d803c7d946f4adcc28ee72700119 -->
+<!-- task\_qmd\_tk1\_cfc -->
 
-## Setting Your Module to the Unmanaged and Managed State using Kyma Dashboard
-
-Use Kyma dashboard to set your module to the unmanaged state.
-
-
-
-## Context
-
-Follow this procedure to easily set your module to the unmanaged state from the dashboard's *Cluster Details* view.
-
-> ### Caution:  
-> Setting your module to the unmanaged state may lead to instability and data loss within your cluster. It may also be impossible to revert the changes. In addition, we don't guarantee any service level agreement \(SLA\) or provide updates and maintenance for the module.
+## Setting Your Module to the Unmanaged State
 
 
 
 ## Procedure
 
-1.  Go to Kyma dashboard. The URL is in the Overview section of your subaccount.
+-   Use Kyma dashboard
 
-2.  Choose *Modify Modules*, and go to the *Edit* tab.
+    1.  Go to Kyma dashboard. The URL is in the Overview section of your subaccount.
 
-3.  In the *Form* view, uncheck the *Managed* checkbox under your module.
+    2.  Choose *Modify Modules*, and go to the *Edit* tab.
 
-4.  Save the changes.
+    3.  In the *Form* view, uncheck the *Managed* checkbox under your module.
 
+    4.  Save the changes.
 
-
-
-<a name="loiod281d803c7d946f4adcc28ee72700119__result_s1l_jxn_22c"/>
-
-## Results
-
-In the *View* tab, you see your module in the `Unmanaged` state.
+        In the *View* tab, you see your module in the `Unmanaged` state.
 
 
+-   Use Kyma CLI
 
-<a name="loiod281d803c7d946f4adcc28ee72700119__postreq_usj_4xn_22c"/>
+    > ### Caution:  
+    > The `alpha` group commands are still in development, which means their functions and API may be modified over time. We encourage you to explore them, but keep in mind that changes may occur.
 
-## Next Steps
+    -   To set a module to the unmanaged state, use the following command:
 
-To bring your module back to the managed state, go to the *Edit* tab, check the *Managed* box under your module, and save changes.
-
-> ### Caution:  
-> Depending on the introduced changes, bringing back the module to the managed state might not be possible.
-
-<a name="loio2a0ba7160e5145688f1b8cc21f89651d"/>
-
-<!-- loio2a0ba7160e5145688f1b8cc21f89651d -->
-
-## Setting Your Module to the Unmanaged and Managed State in Kyma CLI
-
-Use Kyma CLI to set your module to the unmanaged state.
+        ```
+        kyma alpha module unmanage {MODULE-NAME}
+        ```
 
 
+    You should see the following message:
 
-<a name="loio2a0ba7160e5145688f1b8cc21f89651d__prereq_qvz_h3v_v2c"/>
-
-## Prerequisites
-
-You have Kyma CLI installed. For more information, see [Install Kyma CLI](../10-concepts/kyma-cli-292454b.md#loio292454b34bf543afa111dec20d9da434__section_xy1_41f_52c).
-
+    ```
+    Module {MODULE-NAME} set to unmanaged
+    ```
 
 
-## Context
+**Related Information**  
 
-Set your module to the unmanaged state with a simple Kyma CLI command.
 
-> ### Caution:  
-> Setting your module to the unmanaged state may lead to instability and data loss within your cluster. It may also be impossible to revert the changes. In addition, we don't guarantee any service level agreement \(SLA\) or provide updates and maintenance for the module.
+[Kyma Dashboard](../10-concepts/kyma-dashboard-482ae2f.md "Use Kyma dashboard to access various features and functionalities of SAP BTP, Kyma runtime.")
+
+[Kyma CLI](../10-concepts/kyma-cli-292454b.md "Kyma CLI is an essential tool for application developers who want to get started quickly and efficiently with SAP BTP, Kyma runtime. Designed to streamline workflows, it simplifies complex tasks, enabling developers to deploy and manage applications easily")
+
+<a name="task_qww_pm1_cfc"/>
+
+<!-- task\_qww\_pm1\_cfc -->
+
+## Setting Your Module to the Managed State
 
 
 
 ## Procedure
 
-To set a module to the unmanaged state, use the following command:
+-   Use Kyma dashboard
 
-```
-kyma alpha module unmanage {MODULE-NAME}
+    1.  Go to Kyma dashboard. The URL is in the Overview section of your subaccount.
 
-```
+    2.  Choose *Modify Modules*, and go to the *Edit* tab.
 
+    3.  In the *Form* view, check the *Managed* checkbox under your module.
 
+    4.  Save the changes.
 
-<a name="loio2a0ba7160e5145688f1b8cc21f89651d__result_i1q_mgk_52c"/>
-
-## Results
-
-Your module is now in the unmanaged state.
+        In the *View* tab, you see your module in the `Ready` state.
 
 
+-   Use Kyma CLI
 
-<a name="loio2a0ba7160e5145688f1b8cc21f89651d__postreq_scs_tgk_52c"/>
+    > ### Caution:  
+    > The `alpha` group commands are still in development, which means their functions and API may be modified over time. We encourage you to explore them, but keep in mind that changes may occur.
 
-## Next Steps
+    -   To set a module to the managed state, use the following command:
 
-To bring your module back to the managed state, use the following command:
+        ```
+        kyma alpha module manage {MODULE-NAME}
+        ```
 
-```
-kyma alpha module manage {MODULE-NAME}
 
-```
+    You should see the following message:
 
-Even if the module is already in the managed state, you can change its policy by adding the optional flag `--policy {POLICY-NAME}`. The default policy is `CreateAndDelete`.
+    ```
+    Module {MODULE-NAME} set to managed
+    ```
 
-> ### Caution:  
-> Depending on the introduced changes, bringing back the module to the managed state might not be possible.
+
+**Related Information**  
+
+
+[Kyma Dashboard](../10-concepts/kyma-dashboard-482ae2f.md "Use Kyma dashboard to access various features and functionalities of SAP BTP, Kyma runtime.")
+
+[Kyma CLI](../10-concepts/kyma-cli-292454b.md "Kyma CLI is an essential tool for application developers who want to get started quickly and efficiently with SAP BTP, Kyma runtime. Designed to streamline workflows, it simplifies complex tasks, enabling developers to deploy and manage applications easily")
 

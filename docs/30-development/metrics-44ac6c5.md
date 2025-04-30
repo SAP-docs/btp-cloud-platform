@@ -826,6 +826,8 @@ Container
 
 -   k8s.container.memory\_limit
 
+-   k8s.container.restarts
+
 
 
 

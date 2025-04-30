@@ -58,3 +58,6 @@ Application resiliency is an important topic within traffic management. Traditio
 
 When the Istio version is updated or the configuration of Istio sidecar proxies changes, the Pods that have Istio sidecar proxy injection enabled are automatically restarted. This is possible for all resources that allow for a rolling restart. If Istio is uninstalled, the workloads are restarted again to remove the Istio sidecar proxies. However, if a resource is a Job, a ReplicaSet that is not managed by any Deployment, or a Pod that is not managed by any other resource, the restart cannot be performed automatically. In such cases, a warning is logged, and you must manually restart the resources. The Istio module does not restart an Istio sidecar proxy if it has a custom image set. See [Resource Annotations](https://istio.io/latest/docs/reference/config/annotations/#SidecarProxyImage).
 
+> ### Caution:  
+> Istio-injected Pods with `restartPolicy: Never` may end up in a permanently broken state due to a known issue in Istio. See [issue \#49210](https://github.com/istio/istio/issues/49210). If you need to use this setting, you must be aware of the risk until the issue is fixed. If you don’t have a specific need for setting `restartPolicy` to *Never*, consider using a different option.
+

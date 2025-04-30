@@ -50,7 +50,9 @@ The following procedure outlines the steps you need to perform to enable the exc
 
 1.  In the SAP BTP cockpit, in the *System Landscape* \> *Systems* page of the SAP BTP cockpit, browse the already added systems in your customer system landscape or manually add and register any missing systems.
 
-    The customer landscape features systems that are added to the list in one of the following ways:
+    Every system you are going to include in this formation must not be part of another formation.
+
+    The customer system landscape features systems that are added to the list in one of the following ways:
 
     -   *Auto-discovered*
 

@@ -20,8 +20,6 @@ You can use this app to:
 -   View details of logged business events
 -   Go to business event sequence for an instance
 
-This app uses the **C\_BusEventLogEventAnlys** CDS view.
-
 
 
 <a name="loiod8a9c813764b4a21ba3c018cf9c52a69__section_wjz_vvl_tsb"/>

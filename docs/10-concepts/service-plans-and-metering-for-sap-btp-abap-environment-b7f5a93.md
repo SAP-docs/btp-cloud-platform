@@ -1,6 +1,6 @@
 <!-- loiob7f5a93ce3804963ab7fd547f3c4fdf9 -->
 
-# Commercial Information for SAP BTP ABAP environment
+# Service Plans and Metering for SAP BTP ABAP environment
 
 This page explains the relationship between the service plans of the SAP Discovery Center and the service plans of the SAP BTP cockpit and provides information to help you understand how the service is billed.
 

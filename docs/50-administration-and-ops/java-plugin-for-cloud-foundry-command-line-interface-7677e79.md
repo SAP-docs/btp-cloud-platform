@@ -8,8 +8,3 @@ Before using the extended commands, you first need to install the Java plugin in
 
 See: [Install the Java CLI Plugin in the Cloud Foundry Environment](install-the-java-cli-plugin-in-the-cloud-foundry-environment-36a90bb.md) 
 
-**Related Information**  
-
-
- <?sap-ot O2O class="- topic/link " href="26825e02b0a54271bb06b71f71a74d1e.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/7677e79323c04830a8c3de4b9b76fa09.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-

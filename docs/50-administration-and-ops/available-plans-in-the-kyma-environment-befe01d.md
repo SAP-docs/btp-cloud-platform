@@ -648,6 +648,297 @@ Updating
 
 
 
+<a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_hnj_3nz_bfc"/>
+
+## Build Runtime: Amazon Web Services, Google Cloud, and Microsoft Azure
+
+The technical names of these enterprise plans are `build-runtime-aws`, `build-runtime-azure`, and `build-runtime-gcp`. Use them to integrate Kyma's functionalities within SAP Build. See the [SAP Build documentation](https://help.sap.com/docs/build-service/build-service-guide/what-is-sap-build?version=Cloud).
+
+> ### Remember:  
+> The parameters marked with an asterisk "\*" are mandatory.
+
+**Build Runtime Plan Specification**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+Supported Operation
+
+</th>
+<th valign="top">
+
+More Information
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Cluster Name\**
+
+btp CLI parameter: `name`
+
+</td>
+<td valign="top">
+
+Defines the name of your cluster.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Cluster Name\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Cluster_Name)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Region\**
+
+btp CLI parameter: `region`
+
+</td>
+<td valign="top">
+
+Defines a region \(set of datacenters\) where your cluster runs.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Machine Type*
+
+btp CLI parameter: `machineType`
+
+</td>
+<td valign="top">
+
+Specifies the provider-specific virtual machine type.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Auto Scaler Min*
+
+btp CLI parameter: `autoScalerMin`
+
+</td>
+<td valign="top">
+
+Specifies the minimum number of virtual machines to create.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Auto Scaler Min](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Min)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Auto Scaler Max*
+
+btp CLI parameter: `autoScalerMax`
+
+</td>
+<td valign="top">
+
+Specifies the maximum number of virtual machines to create.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Max)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Modules*
+
+btp CLI parameter: `modules`
+
+</td>
+<td valign="top">
+
+Defines which Kyma modules are provisioned in your cluster.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Modules](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Modules)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Networking*
+
+btp CLI parameter: `networking`
+
+</td>
+<td valign="top">
+
+Provides a custom IP range for worker nodes.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Networking](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Networking)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*OpenID Connect*
+
+btp CLI parameter: `oidc`
+
+</td>
+<td valign="top">
+
+Provides a custom Open ID Connect \(OIDC\) configuration.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[OpenID Connect \(OIDC\)](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Administrators*
+
+btp CLI parameter: `administrators`
+
+</td>
+<td valign="top">
+
+Specifies the list of runtime administrators.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Administrators](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Administrators)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Additional Worker Node Pools*
+
+btp CLI parameter: `additionalWorkerNodePools`
+
+</td>
+<td valign="top">
+
+Defines a custom list of additional worker node pools.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools)
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_vbl_4w4_wsb"/>
 
 ## Kyma Test Demo and Development \(Azure Lite\)

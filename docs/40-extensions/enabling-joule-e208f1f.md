@@ -47,7 +47,7 @@ When creating *Integration with Joule* formations, keep in mind the following ru
 
 -   You are a global account administrator, or you are a system landscape administrator. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   You have a Joule system and at least one other system of the supported types that fulfil the rules in the *Systems* page. The Joule system is auto-discovered.
+-   You have a Joule system and at least one other system of the supported types that fulfill the rules in the *Systems* page. The Joule system is auto-discovered.
 
 
 
@@ -65,7 +65,9 @@ As an alternative to the steps that follow, you can use the *Setting Up Joule* b
 
 1.  In the SAP BTP cockpit, in the *System Landscape* \> *Systems* page of the SAP BTP cockpit, browse the already added systems in your customer system landscape or manually add and register any missing systems.
 
-    The customer landscape features systems that are added to the list in one of the following ways:
+    The *Joule* system you are going to include in this formation must not be part of another formation.
+
+    The customer system landscape features systems that are added to the list in one of the following ways:
 
     -   *Auto-discovered*
 

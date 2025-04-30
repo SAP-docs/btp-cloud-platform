@@ -72,6 +72,8 @@ The `apigateways.operator.kyma-project.io` CRD describes the APIGateway CR that 
 
 The `apirules.operator.kyma-project.io` CRD describes the APIRule CR that APIRule Controller uses to expose and secure APIs. See [APIRule Custom Resource](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/README).
 
+The `ratelimits.gateway.kyma-project.io` CRD describes the kind and the format of data that RateLimit Controller uses to configure the request rate limits for applications. See [RateLimit Custom Resource](https://kyma-project.io/#/api-gateway/user/custom-resources/ratelimit/04-00-ratelimit).
+
 
 
 <a name="loiof323ab16595a47779bc74344969c0133__section_u2c_qr2_qbc"/>

@@ -24,39 +24,60 @@ This buildpack supports Java 8, 11, and 17, as well as the following runtimes:
 
 ## Usage
 
-To use this buildpack, specify its name when deploying a Java application to the SAP BTP, Cloud Foundry environment:
+To use this buildpack, specify its name when deploying a Java application to the SAP BTP, Cloud Foundry environment. You can do it the following ways:
 
-```
-cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack
-```
+-   Specify it directly in the `cf push` command:
 
-You can also use the buildpack attribute to specify it in the `manifest.yml` file:
+    ```
+    cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack
+    ```
 
-```
----
-applications:
-- name: <APP_NAME>
-  buildpacks:
-  - sap_java_buildpack
-  ...
-```
 
-or in the `mtad.yml` file of your archive:
+-   Specify it in the **`manifest.yml`** file of your application by using the `buildpacks` attribute:
 
-```
-...
-modules:
-  - name: <APP_NAME>
-    type: java.tomcat
-    path: <path_to_archive>
-    properties:
-      ...
-    parameters:
-      ...
+    ```
+    
+    ---
+    applications:
+    - name: <APP_NAME>
       memory: 512M
-      buildpack: sap_java_buildpack
-...
-```
+      buildpacks:
+      - sap_java_buildpack
+      ...
+      env:
+        TARGET_RUNTIME: tomcat
+    ```
+
+    Then, you can deploy the application like this:
+
+    ```
+    cf push <app_name>
+    ```
+
+-   Specify it in the **`mtad.yaml`** deployment descriptor file \(for multi-target applications\) by using the `buildpack` attribute:
+
+    ```
+    
+    ...
+    modules:
+      - name: <APP_NAME>
+        type: java.tomcat
+        path: <path_to_archive>
+        properties:
+          ...
+        parameters:
+          ...
+          memory: 512M
+          buildpack: sap_java_buildpack
+    ...
+    ```
+
+    Then, you can deploy the application like this:
+
+    ```
+    cf push <app_name>
+    ```
+
 
 
 

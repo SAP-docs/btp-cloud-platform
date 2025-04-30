@@ -54,6 +54,8 @@ When creating formations of type *Integration with SAP Ariba Central Invoice Man
 
 -   You have registered the *SAP S/4HANA Cloud* system that you are going to include in the formation of type *Integration with SAP Ariba Central Invoice Management*.
 
+    When you register an SAP S/4HANA Cloud system, use the *All Communication Scenarios* or the *Integration with SAP Ariba Central Invoice Management* communication scenario groups when you get the registration token for the SAP S/4HANA Cloud system. This allows the automatic enablement of the `SAP_COM_0897`, `SAP_COM_0516`, and `SAP_COM_0531` communication scenarios after the corresponding system is added to the formation of type *Integration with SAP Ariba Central Invoice Management*. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
+
 -   You have created a formation of type *Integration with SAP Master Data Integration* and have included in it the *SAP Ariba Central Invoice Management* and the *SAP S/4HANA Cloud* systems. See [Enabling Integration with SAP Master Data Integration](enabling-integration-with-sap-master-data-integration-9743f20.md).
 
 
@@ -76,6 +78,8 @@ As an alternative to the steps that follow, you can use the *Set Up SAP Ariba Ce
 > We recommend that you use the *Set Up SAP Ariba Central Invoice Management* booster.
 
 1.  In the *System Landscape* \> *Systems* page of the SAP BTP cockpit, browse the already added systems in your system landscape.
+
+    The *SAP S/4HANA Cloud* and the *SAP Ariba Central Invoice Management* systems you are going to include in this formation must not be part of another formation.
 
 2.  In the *System Landscape* \> *Formations* page, create a formation of type *Integration with SAP Ariba Central Invoice Management* and include the relevant systems in it.
 

@@ -18,9 +18,9 @@ Your subaccount has entitlements for Kyma runtime configured. See [Configure Ent
 
 ## Context
 
-To set up the Kyma environment on your subaccount, you must create an instance of it. You can easily create it from your subaccount *Overview* section by choosing *Enable Kyma* and following the wizard steps to configure the provisioning parameters. You can also create a Kyma environment instance from *Service Marketplace* in the same way as any other SAP BTP service or application.
+To set up the Kyma environment on your subaccount, you must create an instance of it. You can create it from your subaccount *Overview* section by choosing *Enable Kyma* and following the wizard steps to configure the provisioning parameters. You can also create a Kyma environment instance from *Service Marketplace* in the same way as any other SAP BTP service or application.
 
-If you prefer to work in a terminal or want to automate operations using scripts, there's an alternative to the SAP BTP cockpit: You can create the Kyma environment with the SAP BTP command line interface \(btp CLI\). See [Enable SAP BTP, Kyma Runtime Using the Command Line](https://developers.sap.com/tutorials/btp-cli-setup-kyma-cluster.html).
+If you prefer to work in a terminal or want to automate operations using scripts, there's an alternative to the SAP BTP cockpit. You can create the Kyma environment with the SAP BTP command line interface \(btp CLI\). See [Enable SAP BTP, Kyma Runtime Using the Command Line](https://developers.sap.com/tutorials/btp-cli-setup-kyma-cluster.html).
 
 > ### Note:  
 > To indicate that your SAP BTP, Kyma runtime is used for production, select *Used for production* in your subaccount details. This setting allows Kyma runtime operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).

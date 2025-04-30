@@ -7016,6 +7016,7 @@ Add UI adaptation to your UI5 applications.
 -   Australia \(Sydney\)
 -   KSA \(Dammam\)
 -   Japan \(Tokyo\)
+-   Brazil \(São Paulo\)
 
 
 

@@ -11,5 +11,3 @@ Application profiling helps you analyze the resource consumption of your Java ap
 
 [Profile an Application Running on SapMachine with JFR/JMC](profile-an-application-running-on-sapmachine-with-jfr-jmc-864e352.md "You can use Java Flight Recorder (JFR) to profile your Java application on SapMachine, and Java Mission Control (JMC) to do remote profiling and analysis.")
 
- <?sap-ot O2O class="- topic/link " href="26825e02b0a54271bb06b71f71a74d1e.xml" text="" desc="" xtrc="link:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/bc7052d2a7034270b2695bf59a82703c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-

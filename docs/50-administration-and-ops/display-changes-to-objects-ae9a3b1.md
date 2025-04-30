@@ -22,10 +22,6 @@ You can use this app to view:
 
 
 
-This app uses the `C_BuEvLgSAPObjNdePrptyChg` CDS view.
-
-
-
 <a name="loioae9a3b105cf241fc9d53be3052978dcc__section_dsc_2f5_cdc"/>
 
 ## Supported Device Types

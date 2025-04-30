@@ -36,7 +36,7 @@ You can use Kyma dashboard to perform the following actions:
 
 [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, delete it to save resources.")
 
-[Setting Your Module to the Unmanaged and Managed State using Kyma Dashboard](../50-administration-and-ops/setting-your-module-to-the-unmanaged-and-managed-state-c071680.md#loiod281d803c7d946f4adcc28ee72700119 "Use Kyma dashboard to set your module to the unmanaged state.")
+[Setting Your Module to the Unmanaged and Managed State](../50-administration-and-ops/setting-your-module-to-the-unmanaged-and-managed-state-c071680.md#loioc07168072c8340ecbb392260cf52c165 "In some cases, for example, for testing, you may need to modify your module beyond what is supported by its configuration. By default, when a module is in the managed state, Kyma Control Plane governs its Kubernetes resources, reverting any manual changes during the next reconciliation loop. To modify Kubernetes objects directly without them being reverted, you must set the module to the unmanaged state. In this state, reconciliation is disabled, ensuring your manual changes are preserved.")
 
 [Using RBAC Authorization](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 

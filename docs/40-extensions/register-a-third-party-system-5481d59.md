@@ -66,7 +66,7 @@ When you have this system added in the *Systems* page, you can select it and ope
     7.  Choose *Add*.
 
 
-4.  Find this system in the *Systems* list and open its system details. Choose *Add Consumption Bundle* and fill in the following properties:
+4.  \(Optional\) Find this system in the *Systems* list and open its system details. Choose *Add Consumption Bundle* and fill in the following properties:
 
     -   *Consumption Bundle Name*: add a meaningful name
 
@@ -92,9 +92,9 @@ When you have this system added in the *Systems* page, you can select it and ope
 
 
 
-5.  Choose *Add*. Open the consumption bundle from the list.
+    Choose *Add*. Open the consumption bundle from the list.
 
-6.  If you want to add APIs, choose *Add API* and fill in the following properties:
+5.  \(Optional\) If you want to add APIs, choose *Add API* and fill in the following properties:
 
     -   *API Name*: add a meaningful name.
 
@@ -107,7 +107,7 @@ When you have this system added in the *Systems* page, you can select it and ope
     -   *Type*: this is the type of the specification. The API specification type can be OpenAPI or OData.
 
 
-7.  If you want to add events, choose *Add Event* and fill in the following properties:
+6.  \(Optional\) If you want to add events, choose *Add Event* and fill in the following properties:
 
     -   *Event Name*: add a meaningful name.
 

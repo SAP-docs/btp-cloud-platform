@@ -20,8 +20,6 @@ You can use this app to view:
 -   Sequence of business events logged for an instance of object component
 -   Processing variants, number of events for each instance of object component, and the processing cycle time
 
-This app uses the **C\_BusEvtLogObjectNodeAnlys** CDS view.
-
 
 
 <a name="loiof6e134ca3f71494fb2d31f0843fd4798__section_m5z_bwl_tsb"/>

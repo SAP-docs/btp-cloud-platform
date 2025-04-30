@@ -117,7 +117,7 @@ Alternatively, go to <code>https://events-service.<i class="varname">&lt;app dom
 > 
 > -   To call the core platform API methods, you must obtain an access token. See [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
 
-For information about the APIs of the SAP Service Manager service, see [Working with Service Management APIs](https://help.sap.com/viewer/DRAFT/09cc82baadc542a688176dce601398de/Cloud/en-US/4e19b11211fe4ca2a266d3fdd4a72188.html).
+For information about the APIs of the SAP Service Manager service, see [Working with Service Management APIs](https://help.sap.com/docs/service-manager/sap-service-manager/working-with-sap-service-manager-apis?version=Cloud).
 
 For additional information about using the SAP Cloud Management service APIs with subaccounts in the Neo environment, see [Working with Cloud Management Tools Feature Set B in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/8c963e83a42545e29d1b4277a287a01b.html "Enterprise accounts in SAP BTP that have access to cloud management tools feature set B, can also use the enhanced capabilities offered by feature set B with their subaccounts in the Neo environment.") :arrow_upper_right:.
 

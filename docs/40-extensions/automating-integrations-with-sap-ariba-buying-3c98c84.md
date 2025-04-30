@@ -55,7 +55,7 @@ When creating *Integration with SAP Ariba Buying* formations, keep in mind the f
 
 -   Register the SAP S/4HANA Cloud system in the *Systems* page.
 
-    When you register an SAP S/4HANA Cloud system, use the *Integration with SAP Ariba Buying* communication scenario group when you get the registration token for the SAP S/4HANA Cloud system. This allows the automatic enablement of the communication scenarios `SAP_COM_0545` and `SAP_COM_0A00` after the corresponding system is added to the formation of type *Integration with SAP Ariba Buying*. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
+    When you register an SAP S/4HANA Cloud system, use the *All Communication Scenarios* or the *Integration with SAP Ariba Buying* communication scenario group when you get the registration token for the SAP S/4HANA Cloud system. This allows the automatic enablement of the communication scenarios `SAP_COM_0545` and `SAP_COM_0A00` after the corresponding system is added to the formation of type *Integration with SAP Ariba Buying*. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
 
 
 
@@ -69,6 +69,8 @@ If you have SAP Ariba Buying set up in your subaccount in SAP BTP, follow these 
 If you want to have the end-to-end setup automatically, including creating the formation, use the *Set Up SAP Ariba Buying* booster in the SAP BTP cockpit to guide you through the steps to configure SAP Ariba Buying in your subaccount and integrate it with SAP S/4HANA Cloud.
 
 1.  In the *Systems* page, find the systems of type *SAP Ariba Buying* and *SAP S/4HANA Cloud* that you want to include in a formation.
+
+    The *SAP S/4HANA Cloud* system you are going to include in this formation must not be part of another formation.
 
 2.  In the *System Landscape* \> *Formations* page, create a formation of type *Integration with SAP Ariba Buying* and include the relevant systems in it.
 

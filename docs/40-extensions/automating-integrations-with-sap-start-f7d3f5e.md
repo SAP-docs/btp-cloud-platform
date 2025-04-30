@@ -69,6 +69,8 @@ If you want to have the end-to-end setup automatically, including creating the f
 
 1.  In the SAP BTP cockpit, in the *Systems* page, find the systems of type *SAP Build Work Zone* and *SAP S/4HANA Cloud* that you want to include in a formation.
 
+    The *SAP Build Work Zone* system you are going to include in this formation must not be part of another formation.
+
 2.  In the *System Landscape* \> *Formations* page, create a formation of type *Integration with SAP Start* and include the relevant systems in it.
 
     1.  Add any name that helps you identify your formation.

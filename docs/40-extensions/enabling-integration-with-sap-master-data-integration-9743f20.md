@@ -56,6 +56,8 @@ When creating formations of type *Integration with SAP Master Data Integration*,
 
 -   You have registered the *SAP S/4HANA Cloud* system that you are going to include in the formation of type *Integration with SAP Master Data Integration*.
 
+    When you register an SAP S/4HANA Cloud system, use the *All Communication Scenarios* or the *Integration with SAP Master Data Integration* communication scenario groups when you get the registration token for the SAP S/4HANA Cloud system. This allows the automatic enablement of the `SAP_COM_0008`, `SAP_COM_0091`, `SAP_COM_0659`, and `SAP_COM_0594` communication scenarios after the corresponding system is added to the formation of type Integration with SAP Master Data Integration.
+
 
 
 
@@ -64,6 +66,8 @@ When creating formations of type *Integration with SAP Master Data Integration*,
 ## Procedure
 
 1.  In the *System Landscape* \> *Systems* page of the SAP BTP cockpit, browse the already added systems in your system landscape.
+
+    The **SAP S/4HANA Cloud** and the *SAP Master Data Integration* systems you are going to include in this formation must not be part of another formation.
 
 2.  In the *System Landscape* \> *Formations* page, create a formation of type *Integration with SAP Master Data Integration* and include the relevant systems in it.
 

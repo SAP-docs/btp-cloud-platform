@@ -15,43 +15,64 @@ This buildpack supports Java 17 and 21, as well as the following runtimes:
 
 
 
-<a name="loio1cf206b5ef7043b282ba87380fcfbfc1__section_xxx_4w3_t2b"/>
+<a name="loio1cf206b5ef7043b282ba87380fcfbfc1__section_xxx_444_t2b"/>
 
 ## Usage
 
-To use this buildpack, specify its name when deploying a Java \(Jakarta\) application to the SAP BTP, Cloud Foundry environment:
+To use this buildpack, specify its name when deploying a Jakarta-based application to the SAP BTP, Cloud Foundry environment. You can do it the following ways:
 
-```
-cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_jakarta
-```
+-   Specify it directly in the `cf push` command:
 
-You can also use the buildpack attribute to specify it in the `manifest.yml` file:
+    ```
+    cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_jakarta
+    ```
 
-```
----
-applications:
-- name: <APP_NAME>
-  buildpacks:
-  - sap_java_buildpack_jakarta
-  ...
-```
 
-or in the `mtad.yml` file of your archive:
+-   Specify it in the **`manifest.yml`** file of your application by using the `buildpacks` attribute:
 
-```
-...
-modules:
-  - name: <APP_NAME>
-    type: java.tomcat
-    path: <path_to_archive>
-    properties:
-      ...
-    parameters:
-      ...
+    ```
+    
+    ---
+    applications:
+    - name: <APP_NAME>
       memory: 512M
-      buildpack: sap_java_buildpack_jakarta
-...
-```
+      buildpacks:
+      - sap_java_buildpack_jakarta
+      ...
+      env:
+        TARGET_RUNTIME: tomcat
+    ```
+
+    Then, you can deploy the application like this:
+
+    ```
+    cf push <app_name>
+    ```
+
+-   Specify it in the **`mtad.yaml`** deployment descriptor file \(for multi-target applications\) by using the `buildpack` attribute:
+
+    ```
+    
+    ...
+    modules:
+      - name: <APP_NAME>
+        type: java.tomcat
+        path: <path_to_archive>
+        properties:
+    	 ...
+        parameters:
+          ...
+          memory: 512M
+          buildpack: sap_java_buildpack_jakarta
+    ...
+    ```
+
+    Then, you can deploy the application like this:
+
+    ```
+    cf push <app_name>
+    ```
+
 
 
 

@@ -2,7 +2,7 @@
 
 # Configuring Istio Access Logs
 
-Use the Telemetry API to selectively enable the Istio access logs.
+Use the Telemetry API to selectively enable the Istio access logs and filter them if needed.
 
 
 
@@ -11,7 +11,7 @@ Use the Telemetry API to selectively enable the Istio access logs.
 ## Prerequisites
 
 -   You have the Istio module added. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
--   To use CLI instructions, you must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) and [curl](https://curl.se/). Alternatively, you can use Kyma dashboard.
+-   You have access to Kyma dashboard. Alternatively, to use CLI instructions, you must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) and [curl](https://curl.se/).
 
 
 
@@ -31,7 +31,7 @@ extensionProviders:
           tracestate: "%REQ(TRACESTATE)%"
 ```
 
-The [log format](https://github.com/kyma-project/istio/blob/main/internal/istiooperator/istio-operator.yaml#L160) is based on the Istio default format enhanced with the attributes relevant for identifying the related trace context conforming to the [w3c-tracecontext](https://www.w3.org/TR/trace-context/) protocol. See [Traces](traces-f98cda5.md) for details. See [Istio tracing](https://kyma-project.io/#/telemetry-manager/user/03-traces?id=istio) on how to enable trace context propagation with Istio.
+The [log format](https://github.com/kyma-project/istio/blob/main/internal/istiooperator/istio-operator.yaml#L160) is based on the Istio default format enhanced with the attributes relevant for identifying the related trace context conforming to the [w3c-tracecontext](https://www.w3.org/TR/trace-context/) protocol. To learn how to enable trace context propagation with Istio, see [Kyma Modules with Tracing Capabilities: Istio](traces-f98cda5.md#loiof98cda5d058e48ff808ade541a64a6ad__subsection_traces_istio).
 
 > ### Caution:  
 > Enabling access logs may drastically increase logs volume and quickly fill up your log storage.
@@ -179,7 +179,7 @@ To configure label-based selection of workloads, use a [selector](https://istio.
 
 <!-- task\_et1\_wnf\_scc -->
 
-## Configuring Istio Access Logs for a Selecitve Gateway
+## Configuring Istio Access Logs for a Selective Gateway
 
 Instead of enabling the access logs for all the individual proxies of the workloads you have, you can enable the logs for the proxy used by the related Istio Ingress Gateway.
 
@@ -312,4 +312,30 @@ Enable access logs for all individual proxies of all your workloads and Istio In
         ```
 
 
+
+<a name="concept_gbq_rz4_s2c"/>
+
+<!-- concept\_gbq\_rz4\_s2c -->
+
+## Filtering Access Logs
+
+To filter the enabled access logs, you can edit the Telemetry API by adding a filter expression.
+
+Often, access logs emitted by Envoy do not contain data relevant to your observations, especially when the traffic is not based on an HTTP-based protocol. In such a situation, you can directly configure the Istio Envoys to filter out logs using a filter expression. To filter access logs, you can leverage the same [Istio Telemetry API](https://istio.io/latest/docs/reference/config/telemetry/#AccessLogging) that you used to enable them. To formulate which logs to **keep**, define a filter expression leveraging the typical [Envoy attributes](https://www.envoyproxy.io/docs/envoy/latest/intro/arch_overview/advanced/attributes).
+
+For example, to filter out all logs having no protocol defined \(which is the case if they are not HTTP-based\), you can use a configuration similar to this example:
+
+```
+apiVersion: telemetry.istio.io/v1
+kind: Telemetry
+metadata:
+ name: access-config
+ namespace: istio-system
+spec:
+ accessLogging:
+ - filter:
+     expression: 'has(request.protocol)'
+   providers:
+   - name: stdout-json
+```
 

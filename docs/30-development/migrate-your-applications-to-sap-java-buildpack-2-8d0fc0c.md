@@ -37,33 +37,39 @@ To check which buildpack your Java applications are currently using, proceed as 
 
 2.  Enter your credentials and choose your Cloud Foundry subaccount and space.
 
-3.  To check which applications use SAP Java Buildpack 1, run:
+3.  Find out the ID of your space as you'll need it for the next step. Run:
+
+    ```
+    cf space <space_name> --guid
+    ```
+
+4.  To check which applications use SAP Java Buildpack 1, run:
 
     -   For Windows systems:
 
         ```
-        cf curl "/v2/apps" | jq ".resources[] | select(.entity.buildpack == "sap_java_buildpack") | .entity.name"
+        cf curl "/v2/spaces/<space_id>/apps" | jq ".resources[] | select(.entity.buildpack == "sap_java_buildpack") | .entity.name"
         ```
 
     -   For Linux and macOS systems:
 
         ```
-        cf curl "/v2/apps" | jq '.resources[] | select(.entity.buildpack == "sap_java_buildpack") | .entity.name'
+        cf curl "/v2/spaces/<space_id>/apps" | jq '.resources[] | select(.entity.buildpack == "sap_java_buildpack") | .entity.name'
         ```
 
 
-4.  To check which applications use SAP Java Buildpack 2, run:
+5.  To check which applications use SAP Java Buildpack 2, run:
 
     -   For Windows systems:
 
         ```
-        cf curl "/v2/apps" | jq ".resources[] | select(.entity.buildpack == "sap_java_buildpack_jakarta") | .entity.name"
+        cf curl "/v2/spaces/<space_id>/apps" | jq ".resources[] | select(.entity.buildpack == "sap_java_buildpack_jakarta") | .entity.name"
         ```
 
     -   For Linux and macOS systems:
 
         ```
-        cf curl "/v2/apps" | jq '.resources[] | select(.entity.buildpack == "sap_java_buildpack_jakarta") | .entity.name'
+        cf curl "/v2/spaces/<space_id>/apps" | jq '.resources[] | select(.entity.buildpack == "sap_java_buildpack_jakarta") | .entity.name'
         ```
 
 
