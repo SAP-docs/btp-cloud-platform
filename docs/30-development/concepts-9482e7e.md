@@ -105,11 +105,12 @@ To separate development and production purposes, you have to create different gl
 
 For development and maintenance processes, the steps mentioned below, that are similar to the ones described in [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](use-case-2-one-development-and-correction-codeline-in-a-5-system-landscape-4e53874.md), are performed.
 
-![](images/Global_Development_Account_and_Branching_62a2652.png)
+![](images/jetztaber_1b2b0af.png)
 
 -   ABAP system COR and QAS have the same software state, unless a new change is tested and released. This means, transport requests are released in ABAP system DEV only if development is completed and it’s planned to import the changes to the production ABAP system.
--   Upon cutoff date, development is finished. All development that is released at this time must be tested and be of good quality. From then on, you must fix defects in the COR system and maintain them in parallel in the DEV system.
+-   Upon cutoff date, development is finished. All development that is released at this time must be tested and be of good quality. From then on, you must fix defects in the COR system and maintain them in parallel in the DEV system. In case of released APIs in the involved software components, API snapshots should be created at this point - in the test system TST as well as development system DEV. This is required for API compatibility checks to function properly. See[Checking the Compatibility of Released APIs.](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/checking-compatibility-of-released-apis)
 -   Upon release date, all defects must be fixed. If, during testing in the QAS system, you make the decision that a complete functionality isn’t delivered, developers must delete, revert, or disable the functionality in the COR system and release the corresponding transport requests. You can't remove objects from the release branch, e.g. by deselecting transport requests. To revert objects to a previous transported state, use the Compare editor of the Eclipse History view. If you want to withdraw the functionality in the DEV system as well, it’s considered a correction and you have to perform double maintenance of corrections into the DEV system. See [Double Maintenance of Corrections into Development](double-maintenance-of-corrections-into-development-1241b14.md).
+-   Once correction system COR and quality assurance system QAS are used for maintenance development, you can also create API snapshots for the latest release or support package version in these systems.
 -   Users in ABAP system COR are locked during ongoing development and only unlocked when a correction has to be implemented
 -   For the consumption as a SaaS solution, instead of importing a release branch into a productive system, software components are installed via add-on delivery packages into multitenancy-enabled production systems AMT provisioned via the ABAP Solution service. See [ABAP Solution Service](order-and-provide-975bd3e.md#loio1697387c02e74e66a55cf21a05678167).
 
@@ -145,7 +146,7 @@ For development and maintenance processes, the steps mentioned below, that are s
     -   Trust settings \(custom identity provider\).
 
         > ### Note:  
-        > If you want to integrate an existing corporate identity provider for authentication/authorization in subaccounts of the global account for production, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md). To restrict access based on certain criteria, such as the IP address, you need to use the Identity Authentication service. See [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
+        > If you want to integrate an existing corporate identity provider for authentication/authorization in subaccounts of the global account for production, see [Trust and Federation with Identity Providers](https://help.sap.com/docs/btp/sap-business-technology-platform/trust-and-federation-with-identity-providers?version=Cloud). To restrict access based on certain criteria, such as the IP address, you need to use the Identity Authentication service. See [SAP Cloud Identity Services - Identity Authentication](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/d17a116432d24470930ebea41977a888.html).
 
     -   Connectivity via SAP Cloud Connector. See [Connectivity in the Cloud Foundry Environment](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/34010ace6ac84574a4ad02f5055d3597.html).
 
@@ -242,15 +243,94 @@ The ABAP environment  pipeline is executed in a Jenkins server that is con
 
 **Add-On Assembly System**
 
-Add-on assembly system BLD includes an instance of communication scenario `SAP_COM_0510` and an instance of communication scenario `SAP_COM_0582`. See [\(Deprecated\) Test Integration \(SAP\_COM\_0510\)](deprecated-test-integration-sap-com-0510-b04a9ae.md) and [Software Assembly Integration \(SAP\_COM\_0582\)](software-assembly-integration-sap-com-0582-26b8df5.md). Service keys with parameters referring to the communication scenarios are created in the BLD system, which leads to the creation of communication arrangements that can be used by the pipeline for inbound communication.
+Add-on assembly system BLD includes an instance of communication scenario `SAP_COM_0948` and an instance of communication scenario `SAP_COM_0582`. See SAP\_COM\_0948 and [Software Assembly Integration \(SAP\_COM\_0582\)](software-assembly-integration-sap-com-0582-26b8df5.md). Service keys with parameters referring to the communication scenarios are created in the BLD system, which leads to the creation of communication arrangements that can be used by the pipeline for inbound communication.
 
 In the **Prepare System** pipeline stage, a new transient system BLD is provisioned for the add-on assembly. See [Prepare System](https://www.project-piper.io/pipelines/abapEnvironment/stages/prepareSystem/). ABAP Test Cockpit checks, software component imports, and the local build of deliveries are performed in this stage. By default, the system is deleted again in the **Post** pipeline stage. See [Post](https://www.project-piper.io/pipelines/abapEnvironment/stages/post/).
 
-The communication with remote components is enabled via communication scenario [Test Integration \(SAP COM 0510\)](https://help.sap.com/docs/btp/sap-business-technology-platform/test-integration-sap-com-0510?version=Cloud) and communication scenario [Software Assembly Integration \(SAP COM 0582\)](https://help.sap.com/docs/btp/sap-business-technology-platform/software-assembly-integration-sap-com-0582?version=Cloud).
+The communication with remote components is enabled via communication scenario SAP\_COM\_0948 and communication scenario [Software Assembly Integration \(SAP COM 0582\)](https://help.sap.com/docs/btp/sap-business-technology-platform/software-assembly-integration-sap-com-0582?version=Cloud).
 
-By default, the system is created from scratch for each new add-on version. If you are configuring your pipeline manually, you can choose to reuse a permanent BLD system instead of provisioning a new one each time. This has the advantage of reducing the pipeline execution time, as system provisioning is one of the most time-consuming tasks. See [Build Add-Ons on a Permanent ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build-static).
+By default, the system is created from scratch for each new add-on version. You can choose to reuse a permanent BLD system instead of provisioning a new one each time. This has the advantage of reducing the pipeline execution time, as system provisioning is one of the most time-consuming tasks. See [Build Add-Ons on a Permanent ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build-static).
 
 To reduce costs, it is recommended that you shut down the permanent system when no builds are scheduled. See [Manage System Hibernation](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-system-hibernation?version=Cloud). Please note that hibernated systems still incur costs.
+
+You can decide in detail whether to use a permanent or transient assembly system based on following criteria:
+
+
+<table>
+<tr>
+<th valign="top">
+
+ 
+
+</th>
+<th valign="top">
+
+Transient Assembly System
+
+</th>
+<th valign="top">
+
+Permanent Assembly System
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Pros
+
+</td>
+<td valign="top">
+
+-   API Snapshots are automatically created locally and remain in the system for continuous API compatibility checks
+-   If additional dependencies to objects outside the modeled product exist, they will be transparent as import errors
+
+
+
+</td>
+<td valign="top">
+
+-   API Snapshots are automatically created locally and remain in the system for continuous API compatibility checks
+-   Reduced time consumed for add-on build as no new assembly system needs to be provisioned
+-   Local history of ABAP objects, transport piece lists, deliveries, transport logs etc. remains available in the system for trouble shooting and error analysis
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Contras
+
+</td>
+<td valign="top">
+
+-   API Snapshots are only created locally and thus are deleted once a system is deprovisioned → API compatibility checks cannot be used
+-   A new assembly system needs to be provisioned for each new add-on build, software components need to be cloned from scratch – resulting in longer runtime
+-   Local history of ABAP objects, transport piece lists, deliveries, transport logs etc. is not available after the assembly system is deprovisioned
+
+
+
+</td>
+<td valign="top">
+
+-   Import errors during gCTS operations must be resolved to always guarantee the software component state in the system to be consistent with the remote repository
+-   Dependencies to objects outside the modeled product might exist, so there is no guarantee to reveal unwanted dependencies
+
+
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
+> In case of dependencies between software components that are facilitated trough the creation of released APIs, it is recommended to use a permanent assembly system. Only then the API compatibility checks can function properly based on the API snapshots that are required to remain in the system. See [Released APIs and API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#released-apis-and-api-snapshots).
+
+> ### Tip:  
+> You may reuse existing permanent test systems like TST or quality assurance system QAS as alternative for the assembly system BLD. If you choose to do so, make sure that there are no ongoing activities like software component lifecycle actions. See [System Landscape/Account Model](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#system-landscape-account-model).
+> 
+> In such a case also the manual creation of API snapshots in those systems becomes obsolete as the add-on build pipeline will automatically create such snapshots and set them as check-relevant. See [Released APIs and API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#released-apis-and-api-snapshots).
 
 **Add-on Installation Test System**
 
@@ -258,9 +338,9 @@ To verify that the delivery packages included in the add-on product version are 
 
 In the **Integration Tests** pipeline stage, a new transient system ATI is then provisioned for an add-on deployment test that installs the add-on product version. See [Integration Tests](https://www.project-piper.io/pipelines/abapEnvironment/stages/integrationTest/). After the successful add-on installation is confirmed, the system is deleted, unless otherwise specified.
 
-The communication with remote components is enabled via communication scenario [Test Integration \(SAP COM 0510\)](https://help.sap.com/docs/btp/sap-business-technology-platform/test-integration-sap-com-0510?version=Cloud).
+For generation and syntax check, please take a look at communication scenario [Software Assembly Integration \(SAP\_COM 0582\)](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/software-assembly-integration-sap-com-0582?version=Cloud).
 
-By default, the ATI system is created from scratch for each new add-on version. If you are configuring your pipeline manually, you can choose to reuse a permanent ATI system instead of provisioning a new one each time. This has the advantage of reducing the pipeline execution time, as system provisioning is one of the most time-consuming tasks. We recommend that you provision a new ATI system at least for each new major release of your add-on.
+By default the ATI system is not created from scratch for each new add-on version. If you configure your pipeline manually, you can choose not to dismantle the ATI system automatically after the import test. This is intended to be able to analyze issues in this system in case they cannot be solved by the pipeline log output. Do not forget to delete the system manually prior to the next implementation of the pipeline. Otherwise it is reused. Reusing the system would save runtime as no new system would need to be provisioned but not all issues which should be detected by this installation test would be detectable anymore.
 
 **Add-on Assembly Kit as a Service**
 
@@ -506,17 +586,43 @@ Branch v1.1.0, that is based on branch v1.0.0, includes the same commits as bran
 
 
 
-Add-On products can consist of multiple software components. However, objects of one software component can't be used in another software component by default. Software components provide their functionality to other software components via explicitly released APIs. This means, you must set the API state of an object to *Released* if you want to use it from another software component. See [Released APIs](https://help.sap.com/docs/btp/sap-abap-development-user-guide/released-apis?version=Cloud) and [Finding Released APIs and Deprecated Objects](https://help.sap.com/docs/btp/sap-abap-development-user-guide/finding-released-apis-and-deprecated-objects?version=Cloud).
+<a name="loio919be04888aa4e07b1a99416fb8bb68d__section_fl4_cby_ffc"/>
+
+## Released APIs and API snapshots
+
+Add-On products can consist of multiple software components. However, objects of one software component can't be used in another software component by default. Software components provide their functionality to other software components via explicitly released APIs. This means, you must set the API state of an object to *Released* if you want to use it from another software component.
+
+Once you have released an object, we recommend not changing it incompatibly because this can lead to errors for its consumers. Released APIs need to fulfill certain stability and consistency criteria depending on the underlying release contract. To fulfill these criteria, any changes done to already released APIs need to be checked for compatibility. This is done using so called API snapshots that are created locally in development and test systems. For more information, see [Released APIs and API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#released-apis-and-api-snapshots).
+
+> ### Note:  
+> The `abapEnvironmentAssemblePackages` step in the *Build* stage of the ABAP environment pipeline, which is used to assemble delivery packages while following the add-on delivery approach, will automatically create a new API snapshot for each semantic version. The created snapshot will be searched for at the beginning of the build of the next version and will then be set as check-relevant. Finally, the `API_COMPATIBILITY` check will be used to look for any incompatible changes on the piece list of the delivery, comparing the latest state of the released APIs in a software component to the state of the API facades in the API snapshot. With this, there is no need to manually create API snapshots in an add-on assembly system. For more information, see [abapEnvironmentAssemblePackages](https://www.project-piper.io/steps/abapEnvironmentAssemblePackages/) and [Software Assembly Integration \(SAP\_COM\_0582\)](https://help.sap.com/docs/btp/sap-business-technology-platform/software-assembly-integration-sap-com-0582?version=Cloud).
+> 
+> Performing manual actions \(e.g. regenerate or delete\) on the API snapshots created in the build system is not recommended. Instead, use ATC exemptions to mitigate compatibility check findings that are false-positive or cannot be resolved in time. For more information, see [Working with ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-exemptions). If your add-on build system is transient, the semantic version API snapshots won’t be carried over from system to system and the compatibility checks will be skipped.
+
+
+
+### Software Component Relations
+
+Software components must not have cyclic dependencies. For more information on software component restrictions, see [Software Components](https://help.sap.com/docs/btp/sap-business-technology-platform/software-components?version=Cloud).
+
+You should however use software component relations to define access permissions and dependencies between specific software components. This approach of permitting usage across software components does not come with the same stability and consistency requirements as is the case with the release state on object level \(which is also not targeted to specific software components\). For more information, see [Software Component Relations](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/software-component-relations).
+
+> ### Note:  
+> The abapEnvironmentAssemblePackages step in the Build stage of the ABAP Environment Pipeline, which is used to assemble delivery packages while following the add-on delivery approach, will automatically run the `SCR_CONSISTENCY ATC` Check. Refer to [abapEnvironmentAssemblePackages](https://www.project-piper.io/steps/abapEnvironmentAssemblePackages/) and [Software Assembly Integration \(SAP\_COM\_0582\)](https://help.sap.com/docs/btp/sap-business-technology-platform/software-assembly-integration-sap-com-0582?version=Cloud).
+> 
+> The `SCR_CONSISTENCY` check will fail if undeclared dependencies between add-on software components are found. In such cases resolve the findings by defining the missing dependencies as part of a software component relation or removing the dependencies if unintended. For more information, see [Software Component Relations](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/software-component-relations). Use ATC exemptions to mitigate dependency consistency check findings that are false-positives or cannot be resolved in time. See [Working with ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-exemptions).
+
+
+
+
+
+### Software Component Dependencies in Add-ons
 
 Having this in mind, you can structure development into reuse components that are used across several components.
 
 ![](images/Software_Components_and_Add-On_Products_b0bbd71.png)
 
 In this example, one add-on product consists of a leading software component A and software component C, whereas another add-on product consists of a leading software component B and C. Software component A and B use released objects of software component C, and thereby depend on this software component.
-
-Once you have released an object, we recommend not changing it incompatibly because this can lead to errors for its consumers.
-
-Software components must not have cyclic dependencies. In the example above, reuse software component C must not use objects from leading software component A. For more information on software component restrictions, see [Software Components](software-components-58480f4.md).
 
 In the add-on descriptor file, dependencies are reflected by the order of the components in the repositories list:
 

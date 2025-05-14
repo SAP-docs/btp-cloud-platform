@@ -23,8 +23,6 @@ This documentation explains how to use the plugin on Cloud Foundry in BTP. For d
 
 ## Command List
 
-to follow
-
 [Cloud Foundry Commands of Application Autoscaler](cloud-foundry-commands-of-application-autoscaler-0faf8a2.md)
 
 **Related Information**  

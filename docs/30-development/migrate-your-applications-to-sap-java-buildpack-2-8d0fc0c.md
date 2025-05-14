@@ -48,7 +48,7 @@ To check which buildpack your Java applications are currently using, proceed as 
     -   For Windows systems:
 
         ```
-        cf curl "/v2/spaces/<space_id>/apps" | jq ".resources[] | select(.entity.buildpack == "sap_java_buildpack") | .entity.name"
+        cf curl "/v2/spaces/<space_id>/apps" | jq ".resources[] | select(.entity.buildpack == \"sap_java_buildpack\") | .entity.name"
         ```
 
     -   For Linux and macOS systems:
@@ -63,7 +63,7 @@ To check which buildpack your Java applications are currently using, proceed as 
     -   For Windows systems:
 
         ```
-        cf curl "/v2/spaces/<space_id>/apps" | jq ".resources[] | select(.entity.buildpack == "sap_java_buildpack_jakarta") | .entity.name"
+        cf curl "/v2/spaces/<space_id>/apps" | jq ".resources[] | select(.entity.buildpack == \"sap_java_buildpack_jakarta\") | .entity.name"
         ```
 
     -   For Linux and macOS systems:

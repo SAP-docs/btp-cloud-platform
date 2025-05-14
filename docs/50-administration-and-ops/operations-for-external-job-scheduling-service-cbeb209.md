@@ -214,6 +214,27 @@ and
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+[Retrieve Application Job Template Parameters](retrieve-application-job-template-parameters-dc5e8d9.md)
+
+</td>
+<td valign="top">
+
+GET
+
+</td>
+<td valign="top">
+
+<host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/TemplateValuesGet?JobTemplateName='TemplateName'
+
+and
+
+<host\>/sap/opu/odata/SAP/BC\_EXT\_APPJOB\_MANAGEMENT;v=0002/TempalteValuesStructGet?JobTemplateName='TemplateName'
+
+</td>
+</tr>
 </table>
 
 For more information on these operations, see [3383044](https://me.sap.com/notes/3383044).

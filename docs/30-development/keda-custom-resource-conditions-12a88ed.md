@@ -2,7 +2,14 @@
 
 # Keda Custom Resource Conditions
 
-This document describes the possible states of the Keda CR. Two condition types, `Installed` and `Deleted`, are used.
+This document describes the possible states of the Keda CR.
+
+The following condition types are used:
+
+-   `Installed`
+
+-   `Deleted`
+
 
 ****
 
@@ -272,6 +279,11 @@ One instance of Keda is allowed
 </td>
 <td valign="top">
 
+Deleting
+
+</td>
+<td valign="top">
+
 Deleted
 
 </td>
@@ -283,11 +295,6 @@ unknown
 <td valign="top">
 
 Deletion
-
-</td>
-<td valign="top">
-
-Deletion in progress
 
 </td>
 <td valign="top">

@@ -25,7 +25,7 @@ With the creation of a metric provider, you register your metrics that are defin
 
 ## Procedure
 
-1.  To create a metric provider in ABAP Development Tools, choose *New* \> *Other* \> *ABAP Repository Object* \> *Others* \> *Metric Provider*.
+1.  To create a metric provider in ABAP Development Tools, choose *New* \> *Other* \> *ABAP Repository Object* \> *Observability* \> *Metric Provider*.
 
 2.  In the wizard, enter a package, name, and description.
 

@@ -4,13 +4,13 @@
 
 # Assign Users to Role Collections
 
-You can assign users to a role collection by adding them to the role collection.
+You can assign users to role collections by adding them to the desired role collection in the SAP BTP cockpit. Use this function to manage user authorizations and access control within your global account or subaccount in the cloud platform.
 
 
 
 ## Context
 
-You can assign users from default identity providers, and from custom identity providers, to a role collection. After having entered the user's user ID, choose the origin key of the identity provider and the e-mail address.
+You can assign users to a role collection. After having entered the user's user ID, choose the name of the trust configuration and the e-mail address.
 
 
 

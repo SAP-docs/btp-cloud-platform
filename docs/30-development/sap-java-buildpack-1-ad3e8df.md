@@ -14,9 +14,9 @@ This buildpack supports Java 8, 11, and 17, as well as the following runtimes:
 
 
 > ### Caution:  
-> Bear in mind that SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment on **July 1, 2025**!
+> Bear in mind that SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment on **June 30, 2025**!
 > 
-> For more information, see: [Release Notes - August 22](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP+Java+Buildpack&Valid_as_Of=2024-08-20:2024-08-25&locale=en-US&version=Cloud)
+> For more information, see: [Release Notes - April 3, 2025](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP+Java+Buildpack&Valid_as_Of=2025-04-01:2025-04-05&locale=en-US&version=Cloud)
 
 
 
@@ -129,23 +129,25 @@ To check these versions, proceed as follows:
 Let's say that the latest version of SAP Java Buildpack 1 is **1.80.0**. Then, the output of the `cf buildpacks` command would be:
 
 ```
-buildpack           position   enabled   locked   filename
 
-sap_java_buildpack           1         true      false    sap_java_buildpack-1.80.0.zip
-sap_java_buildpack_1_80      2         true      false    sap_java_buildpack-1.80.0.zip
-sap_java_buildpack_1_79      3         true      false    sap_java_buildpack-1.79.0.zip
-sap_java_buildpack_1_78      4         true      false    sap_java_buildpack-1.78.0.zip
+buildpack                position    enabled     locked    filename
+
+sap_java_buildpack           1         true      false     sap_java_buildpack-v1.80.0.zip
+sap_java_buildpack_1_80      2         true      false     sap_java_buildpack-v1.80.0.zip
+sap_java_buildpack_1_79      3         true      false     sap_java_buildpack-v1.79.0.zip
+sap_java_buildpack_1_78      4         true      false     sap_java_buildpack-v1.78.0.zip
 ```
 
 When SAP Java Buildpack 1 is updated on the SAP BTP, Cloud Foundry environment from version **1.80.0** to **1.81.0**, the list will change to:
 
 ```
- – You take advantage of all latest features and fixes in SAP Javabuildpack           position   enabled   locked   filename
 
-sap_java_buildpack           1         true      false    sap_java_buildpack-1.81.0.zip
-sap_java_buildpack_1_81      2         true      false    sap_java_buildpack-1.81.0.zip
-sap_java_buildpack_1_80      3         true      false    sap_java_buildpack-1.80.0.zip
-sap_java_buildpack_1_79      4         true      false    sap_java_buildpack-1.79.0.zip
+buildpack                position    enabled     locked    filename
+
+sap_java_buildpack           1         true      false     sap_java_buildpack-v1.81.0.zip
+sap_java_buildpack_1_81      2         true      false     sap_java_buildpack-v1.81.0.zip
+sap_java_buildpack_1_80      3         true      false     sap_java_buildpack-v1.80.0.zip
+sap_java_buildpack_1_79      4         true      false     sap_java_buildpack-v1.79.0.zip
 ```
 
 This means that *sap\_java\_buildpack\_1\_78* will no longer be available for applications.
@@ -229,16 +231,6 @@ SAP Java Buildpack 1 provides the following components in the application contai
 
 
 To check all the components regularly updated in the SAP Java Buildpack 1.x releases, see: [SAP Java Buildpack BOM](https://mvnrepository.com/artifact/com.sap.cloud.sjb.cf/sap-java-buildpack-bom)
-
-
-
-<a name="loioad3e8dfdbaad423e96ca875a4cd36f61__section_m1p_3w4_jyb"/>
-
-## Async Servlets
-
-In the current version of the SAP Java Buildpack 1, the async servlets are *not supported*.
-
-**Reason:** Some of the [valves](https://tomcat.apache.org/tomcat-8.0-doc/config/valve.html) that SAP Java Buildpack 1 brings to Tomcat and TomEE 7 are not "async enabled".
 
 
 

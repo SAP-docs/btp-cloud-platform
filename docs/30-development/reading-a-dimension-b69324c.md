@@ -288,6 +288,57 @@ Light exponent of the dimension
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+HASUNITSWITHTEMPERATURESPEC
+
+</td>
+<td valign="top">
+
+Indicates whether the dimension has units with a temperature specification
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+HASUNITSWITHPRESSURESPEC
+
+</td>
+<td valign="top">
+
+Indicates whether the dimension has units with a pressure specification
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+LANGUAGE
+
+</td>
+<td valign="top">
+
+Language key
+
+</td>
+</tr>
 </table>
 
 > ### Note:  

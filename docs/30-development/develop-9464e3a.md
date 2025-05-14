@@ -82,6 +82,20 @@ Using the business configurations API, you can register business configurations.
 
 
 
+<a name="loiofa5af4ecdf90496b8eec54fe0e22150c__section_fpw_yvx_ffc"/>
+
+## Providing Released APIs
+
+APIs can be released for stable custom development based on different release contracts. Refer to [Released APIs](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/released-apis).
+
+
+
+### Developer Extensibility Enablement
+
+Developer extensibility can be provided for APIs by defining the corresponding API state for system-internal use \(contract C1\) and use in ABAP for Cloud Development. This allows the APIs to be used across ABAP for Cloud Development software components and objects. Refer to [Releasing Development Objects](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/setting-api-release-state).
+
+
+
 ### Key User Extensibility Enablement
 
 Using SaaS solutions, you can provide key user extensibility for system-internal use \(contract C1\) and use in key user apps. This allows customers who use the solution to extend it to their specific requirements.
@@ -100,7 +114,17 @@ Released APIs, such as BAdIs or predefined custom fields, must only be changed c
 
 
 
-### Multitenancy
+<a name="loiofa5af4ecdf90496b8eec54fe0e22150c__section_gzv_yvx_ffc"/>
+
+## Using Released API
+
+You can use the object-level API state to release APIs for use in cloud development, without targeting a specific software component. With software component relations on the other hand, you can also provide access permissions, without stability requirements. In any case, such dependencies between software component should always be declared – especially in the case of add-on components. See [Software Component Relations](https://help.sap.com/docs/btp/sap-business-technology-platform-internal/software-component-dependencies?version=Cloud#software-component-relations).
+
+
+
+<a name="loiofa5af4ecdf90496b8eec54fe0e22150c__section_kzr_hxx_ffc"/>
+
+## Multitenancy
 
 With the ABAP environment, you can build multitenancy-enabled SaaS solutions. To do so, the add-on implementation has to follow certain guidelines. See [Multitenancy Development Guideline](multitenancy-development-guideline-9d994c8.md).
 

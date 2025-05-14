@@ -12,6 +12,8 @@ You can configure the cluster parameters in the Kyma environment.
 
 To configure the cluster parameters, you can use your preferred interface, the SAP BTP cockpit or the SAP BTP command line interface.
 
+To check which parameters are available for configuration in a particular plan, see [Available Plans in the Kyma Environment](available-plans-in-the-kyma-environment-befe01d.md).
+
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
 
@@ -29,8 +31,6 @@ These are the configurable cluster parameters:
 -   [Networking](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Networking)
 -   [OpenID Connect \(OIDC\)](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
 -   [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region)
-
-To see which parameters are available for configuration in a particular plan, go to [Available Plans in the Kyma Environment](available-plans-in-the-kyma-environment-befe01d.md).
 
 
 
@@ -122,7 +122,7 @@ Specifies the provider-specific virtual machine type.
 
 Provisioning
 
-Updating
+Updating <sup>[1](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__AWNP_footnote)</sup>
 
 </td>
 <td valign="top">
@@ -155,6 +155,8 @@ High availability is not supported in the `azure_lite` plan.
 <td valign="top">
 
 Provisioning
+
+Updating <sup>[1](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__AWNP_footnote)</sup>
 
 </td>
 <td valign="top">
@@ -229,11 +231,30 @@ See [Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environme
 </tr>
 </table>
 
+> ### Note:  
+> <sup>1</sup> You can only use this parameter to update your Kyma runtime by creating a new additional worker node pool. You cannot use it to update an existing additional worker node pool.
+
 See the example configuration:
 
-```
-   "additionalWorkerNodePools": [      {         "name": "worker-1",         "machineType": "Standard_D2s_v5",         "haZones": true,         "autoScalerMin": 3,         "autoScalerMax": 20      },      {         "name": "worker-2",         "machineType": "Standard_D4s_v5",         "haZones": false,         "autoScalerMin": 1,         "autoScalerMax": 1      }   ]
-```
+> ### Sample Code:  
+> ```
+>    "additionalWorkerNodePools": [
+>       {
+>          "name": "worker-1",
+>          "machineType": "Standard_D2s_v5",
+>          "haZones": true,
+>          "autoScalerMin": 3,
+>          "autoScalerMax": 20
+>       },
+>       {
+>          "name": "worker-2",
+>          "machineType": "Standard_D4s_v5",
+>          "haZones": false,
+>          "autoScalerMin": 1,
+>          "autoScalerMax": 1
+>       }
+>    ]
+> ```
 
 See also [Assigning Workloads to Worker Node Pools](assigning-workloads-to-worker-node-pools-1bf21c1.md).
 
@@ -245,9 +266,14 @@ See also [Assigning Workloads to Worker Node Pools](assigning-workloads-to-worke
 
 The *Administrators* \(`administrators`\) parameter is an array of strings. It is a provisioning and updating parameter, which specifies the list of runtime administrators. Complete the list with the administrators' email addresses as shown in the following example:
 
-```
-"administrators": [        "example_1@mail.com",        "example_2@mail.com",        "example_3@mail.com"    ]
-```
+> ### Sample Code:  
+> ```
+> "administrators": [
+>         "example_1@mail.com",
+>         "example_2@mail.com",
+>         "example_3@mail.com"
+>     ]
+> ```
 
 
 
@@ -362,9 +388,10 @@ Within the *Additional Worker Node Pools* array, you can set it to `1`. See [Add
 
 See the default JSON input:
 
-```
-"autoScalerMax": 20
-```
+> ### Sample Code:  
+> ```
+> "autoScalerMax": 20
+> ```
 
 
 
@@ -479,9 +506,10 @@ Within the *Additional Worker Node Pools* array, you can set it to `1`. See [Add
 
 See an example of the JSON input:
 
-```
-"autoScalerMin": 3
-```
+> ### Sample Code:  
+> ```
+> "autoScalerMin": 3
+> ```
 
 
 
@@ -1111,9 +1139,10 @@ Updating
 
 See an example input for the *Machine Type* parameter:
 
-```
-"machineType": "m5.xlarge"
-```
+> ### Sample Code:  
+> ```
+> "machineType": "m5.xlarge"
+> ```
 
 
 
@@ -1686,25 +1715,46 @@ Provisioning
 
 You have the default Kyma modules provisioned in your cluster if you do not provide the `modules` object in the JSON payload, or if you use the following input:
 
-```
-"modules": {     "default": true } 
-```
+> ### Sample Code:  
+> ```
+> "modules": { 
+>     "default": true 
+> } 
+> ```
 
 See an example of JSON input for a custom list of Kyma modules:
 
-```
-"modules": {    "list": [        {            "name": "btp-operator"        },        {            "name": "keda",            "customResourcePolicy": "CreateAndDelete",            "channel": "fast"        }    ]}
-```
+> ### Sample Code:  
+> ```
+> "modules": {
+>     "list": [
+>         {
+>             "name": "btp-operator"
+>         },
+>         {
+>             "name": "keda",
+>             "customResourcePolicy": "CreateAndDelete",
+>             "channel": "fast"
+>         }
+>     ]
+> }
+> ```
 
 Applying the following values results in Kyma runtime provisioning without any Kyma modules.
 
-```
-"modules": {    "list": []}
-```
+> ### Sample Code:  
+> ```
+> "modules": {
+>     "list": []
+> }
+> ```
 
-```
-"modules": {    "default": false}
-```
+> ### Sample Code:  
+> ```
+> "modules": {
+>     "default": false
+> }
+> ```
 
 
 
@@ -1851,9 +1901,14 @@ Also, the range for Services must not overlap with those used for nodes or Pods.
 
 See the default JSON input for the *Networking* object:
 
-```
-"networking": {        "nodes": "10.250.0.0/22"        "pods": "10.96.0.0/13"        "services": "10.104.0.0/13"    }
-```
+> ### Sample Code:  
+> ```
+> "networking": {
+>         "nodes": "10.250.0.0/16"
+>         "pods": "10.96.0.0/13"
+>         "services": "10.104.0.0/13"
+>     }
+> ```
 
 
 
@@ -2099,9 +2154,17 @@ To skip any prefixing, provide the value "-" \(dash character without additional
 
 The following example shows the default configuration of the *OIDC* parameter. To revert your changes to the default settings, copy and paste the following values:
 
-```
- "oidc": {        "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",        "groupsClaim": "groups",        "issuerURL": "https://kyma.accounts.ondemand.com",        "signingAlgs": ["RS256"],        "usernameClaim": "sub",        "usernamePrefix": "-"    }
-```
+> ### Sample Code:  
+> ```
+>  "oidc": {
+>         "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
+>         "groupsClaim": "groups",
+>         "issuerURL": "https://kyma.accounts.ondemand.com",
+>         "signingAlgs": ["RS256"],
+>         "usernameClaim": "sub",
+>         "usernamePrefix": "-"
+>     }
+> ```
 
 
 
@@ -2629,9 +2692,10 @@ Canada \(Toronto\)
 
 Here is an example of the JSON input for the *Region* parameter:
 
-```
-"region": "us-east-1"
-```
+> ### Sample Code:  
+> ```
+> "region": "us-east-1"
+> ```
 
 **Related Information**  
 

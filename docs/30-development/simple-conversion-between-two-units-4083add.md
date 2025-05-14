@@ -345,3 +345,11 @@ UNIT\_OUT is not maintained
 > ENDCLASS.
 > ```
 
+
+
+<a name="loio4083add554614debb3766af36604cc80__section_xb5_2rh_s2c"/>
+
+## Related Information
+
+For information about the built-in function `UNIT_CONVERSION` on CDS view level, see [Handling of Amounts and Quantities](https://help.sap.com/docs/abap-cloud/abap-data-models/handling-amounts-and-quantities-in-abap-cds) in the ABAP Data Models Guide, and [CDS DDL - CDS View Entity, Unit and Currency Conversion Functions](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/abencds_conv_func_unit_curr_v2.html) in the ABAP Keyword Documentation.
+

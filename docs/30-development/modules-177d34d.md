@@ -210,7 +210,7 @@ CF application with Tomcat runtime of `sap_java_buildpack`
 <tr>
 <td valign="top">
 
-`java.tomee7`
+`java.tomee`
 
 </td>
 <td valign="top">
@@ -220,12 +220,12 @@ CF application with Tomcat runtime of `sap_java_buildpack`
 </td>
 <td valign="top">
 
-`tomee7`
+None
 
 </td>
 <td valign="top">
 
-CF application with TomEE 7 runtime of `sap_java_buildpack`
+CF application with Automatic runtime detection by `sap_java_buildpack`
 
 </td>
 </tr>

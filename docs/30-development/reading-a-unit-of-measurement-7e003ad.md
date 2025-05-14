@@ -343,6 +343,142 @@ Long description of a unit of measurement
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ISCOMMERCIAL
+
+</td>
+<td valign="top">
+
+Flag for commercial measurement units
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ISVALUEBASE
+
+</td>
+<td valign="top">
+
+Value-based commitment indicator
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ISGRPBYFAM
+
+</td>
+<td valign="top">
+
+Measurement units grouped by family
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+TEMPERATURE
+
+</td>
+<td valign="top">
+
+Temperature value
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+TEMPERATUREUNIT
+
+</td>
+<td valign="top">
+
+Temperature unit
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+PRESSURE
+
+</td>
+<td valign="top">
+
+Pressure value
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+PRESSUREUNIT
+
+</td>
+<td valign="top">
+
+Pressure unit
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+LANGUAGE
+
+</td>
+<td valign="top">
+
+Language key
+
+</td>
+</tr>
 </table>
 
 > ### Note:  

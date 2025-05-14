@@ -1523,6 +1523,7 @@ Create role based, multi-channel sites to access business apps and content.
 -   Australia \(Sydney\)
 -   KSA \(Dammam\)
 -   Japan \(Tokyo\)
+-   Brazil \(São Paulo\)
 
 
 
@@ -2103,6 +2104,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
+-   US West \(Oregon\)
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   South Korea \(Seoul\)
@@ -8538,6 +8540,7 @@ Simplify access to applications by establishing a central entry point.
 -   Australia \(Sydney\)
 -   KSA \(Dammam\)
 -   Japan \(Tokyo\)
+-   Brazil \(São Paulo\)
 
 
 

@@ -178,7 +178,7 @@ There are several options to customize attribute mappings in SAP Cloud Identity 
 
 The following table provides the information needed for mapping the attributes.
 
-The subject name identifier attribute is used by SAP BTP to uniquely identify the user in Neo subaccounts. In the Cloud Foundry environment, the email address is used as the user identifier for the global account, directory, and multi-environment subaccount.
+The subject name identifier attribute is used by SAP BTP to uniquely identify the user in Neo subaccounts. The email address is used as the user identifier for the global account, directory, multi-environment subaccount, and the Cloud Foundry environment.
 
 For more information, see [Configure the Subject Name Identifier Sent to the Application](https://help.sap.com/viewer/6d6d63354d1242d185ab4830fc04feb1/Cloud/en-US/1d020e3a3ba34c43a71fde70bfa6419a.html) in the documentation of SAP Cloud Identity Services.
 
@@ -215,17 +215,17 @@ Default value: ***User ID***
 <tr>
 <td valign="top">
 
-`mail` 
+`email` 
 
 </td>
 <td valign="top">
 
-E-mail address of the user.
+Email address of the user.
 
 > ### Note:  
 > User identifier for all the account levels \(global account, directory, multi-environment subaccount\), and for the Cloud Foundry environment.
 
-The e-mail addresses of all the users in the SAP Cloud Identity Services tenant must be unique.
+The email addresses of all the users in the SAP Cloud Identity Services tenant must be unique.
 
 For more information, see the [prerequisites](establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md#loioc36898473d704e07a33268c9f9d29515__prereq_avv_mp1_5tb) for establishing trust and federation of custom identity providers for platform users.
 

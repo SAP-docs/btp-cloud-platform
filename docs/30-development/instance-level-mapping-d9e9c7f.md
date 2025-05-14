@@ -19,7 +19,7 @@ You can map a Kubernetes service instance to an SAP Service Manager instance in 
 
 ## Context
 
-To have multiple service instances from different subaccounts associated with one namespace, you must store access credentials for each subaccount in a custom Secret in the `kyma-system` namespace. To create a service instance with the custom Secret, you must use the `btpAccessCredentialsSecret` field in the `spec` of the service instance. In it, you pass the Secret from the `kyma-system` namespace to create your service instance. You can use different Secrets for different service instances.
+To have multiple service instances from different subaccounts associated with one namespace, you must store access credentials for each subaccount in a custom Secret in the `kyma-system` namespace. To create a service instance with a custom Secret, you must use the `btpAccessCredentialsSecret` field in the `spec` of the service instance. In it, you pass the Secret from the `kyma-system` namespace to create your service instance. You can use different Secrets for different service instances.
 
 <a name="task_an3_twx_bdc"/>
 
@@ -122,17 +122,17 @@ Kyma dashboard is a web-based UI providing a graphical overview of your cluster 
 
 -   Use kubectl.
 
-    1.  Create your service instance with:
+    1.  Create your service instance with the following:
 
-        -   The `btpAccessCredentialsSecret` field in the `spec` pointing to the custom pointing to the custom Secret you have created.
+        -   The `btpAccessCredentialsSecret` field in the `spec` pointing to the custom Secret you have created.
 
-        -   other parameters as needed
+        -   Other parameters as needed
 
 
         > ### Caution:  
         > Once you set a Secret name in the service instance, you cannot change it in the future.
 
-        See an example of a `ServiceInstance` CR:
+        See an example of a `ServiceInstance` custom resource \(CR\):
 
         ```
         kubectl create -f - <<EOF
@@ -156,7 +156,14 @@ Kyma dashboard is a web-based UI providing a graphical overview of your cluster 
 
         You see the status ***Created*** and the message that your service instance has been created successfully. You also see your Secret name in the `btpAccessCredentialsSecret` field of the `spec`.
 
-    3.  To verify that you've correctly added the access credentials of the SAP Service Manager instance in your service instance, go to the custom resource \(CR\) `status` section, and make sure the subaccount ID to which the instance belongs is provided in the `subaccountID` field. The field must not be empty.
+    3.  To verify that you've correctly added the access credentials of the SAP Service Manager instance in your service instance, go to the CR `status` section, and make sure the subaccount ID to which the instance belongs is provided in the `subaccountID` field. The field must not be empty.
 
 
+
+**Related Information**  
+
+
+[Working with Multiple Subaccounts](working-with-multiple-subaccounts-862dd6a.md "With the SAP BTP Operator module, you can create configurations for several subaccounts in a single Kyma cluster.")
+
+[Namespace-Level Mapping](namespace-level-mapping-63ad410.md "You can map a Kubernetes namespace to an SAP Service Manager instance in a given subaccount. The Service Manager instance is then used to provision all service instances in that namespace.")
 

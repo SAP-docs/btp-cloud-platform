@@ -27,74 +27,12 @@ Set up your ABAP cloud project to connect to the ABAP system.
 
 2.  To establish a service instance connection, you have the following options:
 
-    1.  **\[Default\] Service key provided by Cloud Foundry environment:** 
+    1.  Insert the URL from the SAP Fiori launchpad of your system.
 
-        In the *New ABAP Cloud Project* wizard, on the *System Connection to SAP BTP ABAP Environment* page, select the *Use Cloud Foundry Environment* radio button, and choose *Next*.
-
-        On the *Connection Settings* page, select *Europe \(Frankfurt\)* as your region, enter your email address and password, and confirm with *Next*.
-
-        On the *Connection Settings to SAP BTP Cloud Foundry Environment* page, select your service instance details.
-
-    2.  **Service key in JSON format**:
-
-        In the *New ABAP Cloud Project* wizard, on the *System Connection to SAP BTP ABAP Environment* page, select the *Service Key* radio button, and choose *Next*.
-
-        On the *System Connection Using a Service Key* page, paste your existing service key from the clipboard into the *Service Key in JSON Format* text box, or choose *Import* to import a text file containing your service key.
-
-        > ### Note:  
-        > If you're an SAP Universal ID user, you can only use this option to establish a service instance connection.
+    2.  If you still have a service key available, you can extract the URL from it by clicking the link shown in the description of the window you're in: *Do you have a service key? Extract the URL from the service key.* In this case, a new window opens up where you can paste in your service key. Next, choose *Copy to Clipboard*. Now, you're in the *Connect to an ABAP Service Instance* window again and you can paste in the service instance URL. Choose *Copy logon URL to clipboard* and paste the URL into your browser to log on to the system.
 
 
-3.  Select *Next*.
-
-4.  To log on to the service instance on the *System Connection Using a Service Key* page, you have the following options:
-
-    1.  **Using the integrated browser**: Enter your email address and password.
-
-        > ### Note:  
-        > Authentication is performed in the integrated browser. Single Sign On is not supported. Tools, such as password managers, are not supported for this logon option.
-
-    2.  **Using the default browser**: Select the *Log on with Browser* button.
-
-    3.  **Using another browser**: Choose the *Copy Logon URL* button.
-
-        The URL is copied to the clipboard of your computer.
-
-
-5.  To connect to your service instance, select *Log On*.
-
-    On the *Service Instance Connection* page, the following connection settings are displayed:
-
-    -   **Service Instance URL**: URL of the server instance where the ABAP system is operated
-
-    -   **Email**: ID of the user who is authorized in the configured identity provider for accessing the ABAP system
-
-    -   **User ID**: ID of the user who is assigned to the email
-
-    -   **SAP System ID**: Name of the ABAP system
-
-    -   **Client**: ID of the logon client
-
-    -   **Language**: Abbreviation of the logon language
-
-        > ### Note:  
-        > Currently, English is the only logon language.
-
-
-6.  Select *Next*.
-
-    The *Project Name and Favorite Packages* page is opened.
-
-7.  \[Optional:\] If you want to change the name of the project, enter a new name in the *Project Name* field.
-
-    > ### Note:  
-    > When you create the project, the `ZLOCAL` ABAP package is added by default to your *Favorite Packages*. This ABAP package including all subpackages contains all local objects from every user of the ABAP system.
-    > 
-    > To add further ABAP packages to your *Favorite Packages*, choose *Add...* and enter the name of the package in the corresponding input field. Note that this package must be available in the system.
-    > 
-    > To group your projects, you can add working sets. To do so, choose *New...* in the *Working sets* section and select the relevant projects.
-
-8.  To create your ABAP cloud project, select *Finish*.
+3.  To create your ABAP cloud project, select *Finish*.
 
 
 
@@ -108,9 +46,9 @@ You have created an ABAP cloud project that is added to the *Project Explorer*.
 > ### Note:  
 > To verify your result, expand the first level of the project structure. Make sure that the following nodes are included:
 > 
-> -   *Favorite Packages*: Contains the local packages and the packages that you have added to your Favorites.
+> -   *Favorite Packages*: Contains the local packages and the packages that you have added to your favorites.
 > 
-> -   *Released Objects*: Contains all released SAP objects that are available to \(re\)use.
+> -   *Released Objects*: Contains all released SAP objects that are available to use or reuse.
 
 **Related Information**  
 

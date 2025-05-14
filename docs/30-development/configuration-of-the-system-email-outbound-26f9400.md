@@ -16,7 +16,7 @@ In addition, you can set a default sender address.
 
 **Activating the Email Outbound Check**
 
-Use class `CL_BCS_MAIL_SYSTEM_CONFIG` and method `SET_ADDRESS_CHECK_ACTIVE()` to activate the email outbound check. The importing parameter `ABAP_TRUE` activates the check,`ABAP_FALSE` deactivates it. The functionality is inactive per default.
+Use class `CL_BCS_MAIL_SYSTEM_CONFIG` and method `SET_ADDRESS_CHECK_ACTIVE()` to activate the email outbound check. The importing parameter `ABAP_TRUE` activates the check,`ABAP_FALSE` deactivates it. The functionality is active per default.
 
 **Configuring the Email Outbound Allow Tables**
 
@@ -26,12 +26,23 @@ The configuration must be done as system customizing. It's not allowed to set th
 
 **Configuring the Default Sender**
 
-In addition to the allowed domains, you can define a default sender. This default sender will be used as sender at anytime when no sender has been defined for an outgoing email. Please keep in mind that the default sender must be a valid email address. If no default sender is maintained and no sender is set in the outgoing email, the sender will be set to `do.not.reply@(system-default-domain)`.
+In addition to the allowed domains, you can define a default sender. This default sender will be used as sender at anytime when no sender has been defined for an outgoing email. Please keep in mind that the default sender must be a valid email address. If no default sender is maintained and no sender is set in the outgoing email, the sender will be set to `do.not.reply@(system-default-domain)`. The default sender will only be used if the Email Outbound Check is set to active. Otherwise, no email sender will be set per default and the email might fail with an error.
 
 > ### Note:  
 > You can define only one default sender per system.
 
-**Application Programming Interface \(API\)**
+**Configuration with Upload Business Configuration**
+
+You can configure the following entities for the **Upload Business Configuration** app:
+
+-   SMAIL\_VM\_DF\_ADDR
+
+-   SMAIL\_VM\_RCV\_DOM
+
+-   SMAIL\_VM\_SND\_DOM
+
+
+**Configuration with Application Programming Interface \(API\)**
 
 To maintain the allowed domains and the default sender, further methods are provided to read or delete the current table data:
 

@@ -67,7 +67,7 @@ SAP BTP, Kyma runtime runs on a Kubernetes cluster and wraps the SAP BTP Operato
 
 ### BTP Manager
 
-BTP Manager is an operator based on the [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) framework. It extends Kubernetes API by providing [BtpOperator Custom Resource Definition \(CRD\)](https://github.com/kyma-project/btp-manager/blob/main/config/crd/bases/operator.kyma-project.io_btpoperators.yaml).
+BTP Manager is an operator based on the [Kubebuilder](https://github.com/kubernetes-sigs/kubebuilder) framework. It extends the Kubernetes API by providing the [BtpOperator Custom Resource Definition \(CRD\)](https://github.com/kyma-project/btp-manager/blob/main/config/crd/bases/operator.kyma-project.io_btpoperators.yaml).
 
 BTP Manager performs the following operations:
 
@@ -86,7 +86,7 @@ The SAP BTP service operator is an open-source component that allows you to conn
 
 ### SAP Service Manager
 
-[SAP Service Manager](https://help.sap.com/docs/service-manager/sap-service-manager/sap-service-manager?locale=en-US&version=Cloud) is the central registry for service brokers and platforms in SAP BTP, which enables you to:
+[SAP Service Manager](https://help.sap.com/docs/service-manager/sap-service-manager/sap-service-manager?locale=en-US&version=Cloud) is the central registry for service brokers and platforms in SAP BTP, which enables you to do the following:
 
 -   Consume platform services in any connected runtime environment.
 

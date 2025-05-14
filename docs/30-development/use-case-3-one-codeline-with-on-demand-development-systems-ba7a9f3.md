@@ -19,9 +19,10 @@ The user base and authorizations have to be set up each time the development sys
 
 Not testing with a transported version of the solution always comes with the risk of forgetting to transport an object. This can be avoided by testing in the development system on the release branch.
 
-A much more production-like test can only be ensured in a non-development system, where the objects of the solution are initially created and changed by pulls, and where there is no authorization automatism for testing, see tester role in [Required Business Roles](required-business-roles-01c96ed.md).
-
-We thus strongly recommend developing with [Use Case 1: One Codeline in a 3-System Landscape](use-case-1-one-codeline-in-a-3-system-landscape-2276142.md) instead of use case 3. The quality assurance system might be de-/commissioned on demand then.
+> ### Note:  
+> A much more production-like test can only be ensured in a non-development system, where the objects of the solution are initially created and changed by pulls, and where there is no authorization automatism for testing, see tester role in [Required Business Roles](required-business-roles-01c96ed.md).
+> 
+> Using API compatibility checks will not be possible with this use case without a permanent system. For the ATC check required API snapshots are not transported and would be deleted during system deprovisioning. For more information, see [Checking the Compatibility of Released APIs](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/checking-compatibility-of-released-apis). We thus strongly recommend developing with [Use Case 1: One Codeline in a 3-System Landscape](use-case-1-one-codeline-in-a-3-system-landscape-2276142.md) instead of use case 3. The quality assurance system might be de-/commissioned on demand then.
 
 
 
@@ -34,6 +35,7 @@ We thus strongly recommend developing with [Use Case 1: One Codeline in a 3-Syst
 -   A \(temporary\) development system is set up
 -   The production system is set up
 -   Both systems are based on the main branch
+-   Software Component Relations are defined for dependencies between leading- and reuse software components
 
 
 <table>
@@ -190,7 +192,9 @@ Developer
 </td>
 <td valign="top">
 
-Develop new functional requirements or correct existing functionalities. All required changes are collected in Workbench transport requests
+Develop new functional requirements or correct existing functionalities. All required changes are collected in Workbench transport requests.
+
+[During development ATC checks are running](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release) and exemptions requested for false-positive findings [Requesting ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/requesting-atc-exemptions). Make sure to maintain new dependencies between software components in software component relations [\(Editing Software Component Relations\)](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/editing-software-component-relations).
 
 </td>
 <td valign="top">
@@ -244,14 +248,41 @@ Tester
 </td>
 <td valign="top">
 
-Test the change and report the test results
+Test the change and report the test results. [During testing ATC checks are running.](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-development?version=sap_btp)
 
 </td>
 <td valign="top">
 
-ABAP Development Tools for Eclipse with and custom SAP Fiori apps as well as external test tools
+ABAP Development Tools for Eclipse with and custom SAP Fiori apps as well as external test tools. See [Automate the Software Lifecycle Management Process](https://help.sap.com/docs/btp/sap-business-technology-platform/automate-software-lifecycle-management-process?version=Cloud) Process.
 
 External documentation tool
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+7
+
+</td>
+<td valign="top">
+
+DEV
+
+</td>
+<td valign="top">
+
+Quality Manager
+
+</td>
+<td valign="top">
+
+[Approve or reject ATC exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/approving-and-rejecting-atc-exemptions)
+
+</td>
+<td valign="top">
+
+ABAP Development Tools for Eclipse: ATC Exemptions
 
 </td>
 </tr>
@@ -273,7 +304,7 @@ Release Manager
 </td>
 <td valign="top">
 
-If changes are required, repeat steps 5-6
+If changes are required, repeat steps 5-7
 
 </td>
 <td valign="top">
@@ -285,7 +316,7 @@ If changes are required, repeat steps 5-6
 <tr>
 <td valign="top">
 
-7
+8
 
 </td>
 <td valign="top">
@@ -312,7 +343,7 @@ External documentation tool
 <tr>
 <td valign="top">
 
-8
+9
 
 </td>
 <td valign="top">
@@ -327,7 +358,7 @@ Release Manager
 </td>
 <td valign="top">
 
-Release the transport request\(s\)
+Release the transport request\(s\). [During transport release ATC checks are running.](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release) 
 
 </td>
 <td valign="top">
@@ -339,7 +370,7 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 <tr>
 <td valign="top">
 
-9
+10
 
 </td>
 <td valign="top">
@@ -366,7 +397,7 @@ Create a release branch YYYY-<nn\> for each software component
 <tr>
 <td valign="top">
 
-10
+11
 
 </td>
 <td valign="top">
@@ -393,7 +424,7 @@ Check out the release branch YYYY-<nn\> of each software component
 <tr>
 <td valign="top">
 
-11
+12
 
 </td>
 <td valign="top">
@@ -567,12 +598,12 @@ Developer
 </td>
 <td valign="top">
 
-Develop features. All required changes are collected in Workbench transport requests.
+Develop features. All required changes are collected in Workbench transport requests. [Working with ATC during development](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-development) and exemptions requested for false-positive findings [Requesting ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/requesting-atc-exemptions). Make sure to maintain new dependencies between software components in software component relations \([Editing Software Component Relations](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/editing-software-component-relations)\).
 
 </td>
 <td valign="top">
 
-ADT for Eclipse
+ABAP Development Tools for Eclipse
 
 </td>
 </tr>
@@ -616,12 +647,12 @@ DEV
 </td>
 <td valign="top">
 
-Developer
+Release Manager
 
 </td>
 <td valign="top">
 
-Release all transport requests
+Release all transport requests. During transport release ATC checks are running [Working with ATC during transport release](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-development?version=sap_btp)
 
 </td>
 <td valign="top">
@@ -648,39 +679,12 @@ Tester
 </td>
 <td valign="top">
 
-Test new developments/fixes
+Test new developments/fixes. [During development ATC checks are running](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release)
 
 </td>
 <td valign="top">
 
-ADT for Eclipse and custom SAP Fiori apps as well as external test tools
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-If changes are required, repeat steps 3-5
-
-</td>
-<td valign="top">
-
- 
+ADT for Eclipse and custom SAP Fiori apps as well as external test tools. See [Automate the Software Lifecycle Management Process](https://help.sap.com/docs/btp/sap-business-technology-platform/automate-software-lifecycle-management-process?version=Cloud)
 
 </td>
 </tr>
@@ -688,6 +692,60 @@ If changes are required, repeat steps 3-5
 <td valign="top">
 
 7
+
+</td>
+<td valign="top">
+
+DEV
+
+</td>
+<td valign="top">
+
+Quality Manager
+
+</td>
+<td valign="top">
+
+[Approve or reject ATC exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/approving-and-rejecting-atc-exemptions)
+
+</td>
+<td valign="top">
+
+ABAP Development Tools for Eclipse: ATC Exemptions 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+If changes are required, repeat steps 4-7
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+8
 
 </td>
 <td valign="top">
@@ -714,7 +772,7 @@ Manage Software Components app
 <tr>
 <td valign="top">
 
-8
+9
 
 </td>
 <td valign="top">

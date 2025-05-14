@@ -74,7 +74,7 @@ To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to d
 
 [Kyma Dashboard](../10-concepts/kyma-dashboard-482ae2f.md "Use Kyma dashboard to access various features and functionalities of SAP BTP, Kyma runtime.")
 
-[Kyma CLI](../10-concepts/kyma-cli-292454b.md "Kyma CLI is an essential tool for application developers who want to get started quickly and efficiently with SAP BTP, Kyma runtime. Designed to streamline workflows, it simplifies complex tasks, enabling developers to deploy and manage applications easily")
+[Kyma CLI](../10-concepts/kyma-cli-292454b.md "Kyma CLI is an essential tool for application developers who want to get started quickly and efficiently with SAP BTP, Kyma runtime. Designed to streamline workflows, it simplifies complex tasks, enabling developers to deploy and manage applications easily.")
 
 <a name="task_o3l_vg1_cfc"/>
 
@@ -123,5 +123,5 @@ To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to d
 
 [Kyma Dashboard](../10-concepts/kyma-dashboard-482ae2f.md "Use Kyma dashboard to access various features and functionalities of SAP BTP, Kyma runtime.")
 
-[Kyma CLI](../10-concepts/kyma-cli-292454b.md "Kyma CLI is an essential tool for application developers who want to get started quickly and efficiently with SAP BTP, Kyma runtime. Designed to streamline workflows, it simplifies complex tasks, enabling developers to deploy and manage applications easily")
+[Kyma CLI](../10-concepts/kyma-cli-292454b.md "Kyma CLI is an essential tool for application developers who want to get started quickly and efficiently with SAP BTP, Kyma runtime. Designed to streamline workflows, it simplifies complex tasks, enabling developers to deploy and manage applications easily.")
 

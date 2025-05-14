@@ -184,3 +184,11 @@ Kyma dashboard is a web-based UI providing a graphical overview of your cluster 
     You see the same Secret name as in the `spec.secretName` field of the `ServiceBinding` CR.
 
 
+
+
+<a name="task_tjn_z25_s2c__result_v15_rq4_hfc"/>
+
+## Results
+
+You can use a given service in your Kyma cluster.
+

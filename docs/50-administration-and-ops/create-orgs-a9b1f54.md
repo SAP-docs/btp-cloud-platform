@@ -23,9 +23,7 @@ To enable Cloud Foundry in your subaccount, you must create an org in order to u
 
     If you decide to enter an environment instance name of your choice, make sure that it's CLI-friendly. A CLI-friendly name is a string of up to 32 characters: alphanumeric \(A-Z, a-z, 0-9\), periods, underscores, and hyphens. Having a CLI-friendly name allows you to use it in btp CLI commands.
 
-4.  If the region you’re working in has multiple landscapes, the *Landscape* option is displayed. Choose the landscape in which to create the org.
-
-5.  Choose *Create*.
+4.  Choose *Create*.
 
 
 **Related Information**  

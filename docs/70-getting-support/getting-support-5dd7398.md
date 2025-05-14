@@ -99,8 +99,6 @@ Sometimes you might need to create a support user to troubleshoot issues in your
 
 [Users and Authorizations for SAP One Support Launchpad](https://support.sap.com/en/my-support/users.html)
 
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
-
 [Gather Support Information](gather-support-information-6daa475.md "The Eclipse tools come with a wizard for gathering support information in case you need help with a feature or operation (during deploying/debugging applications, logging, configurations, and so on).")
 
 [Platform Updates and Notifications](platform-updates-and-notifications-99070c7.md "")

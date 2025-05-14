@@ -27,7 +27,7 @@ Tasks/Usage
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="8">
+<td valign="top" rowspan="9">
 
 Provider
 
@@ -62,6 +62,7 @@ The add-on administrator is responsible for everything related to the add-on pro
 
 -   Checking out maintenance branch in correction system COR and quality assurance system QAS using the *Manage Software Components* app.
 
+-   Creating API snapshots using the Manage API Snapshots app to allow running compatibility checks for released objects.
 
 
 
@@ -113,6 +114,28 @@ Developer users use ABAP Development Tools \(ADT\) to create backend service art
 
 -   Supporting and troubleshooting customer issues via provider support access in the Landscape Portal. See [Landscape Portal](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/6aa0a773510e4c82b167fcca4c755327.html).
 
+-   Creates software component relations to declare access permissions and dependencies between software components. See [Software Component Relations](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/software-component-relations).
+-   Releases APIs based on consistency and stability requirements and defines the visibility for use in different ABAP language versions. See [Released APIs](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/released-apis).
+-   Runs ATC checks \([Checking Quality of ABAP Code with ATC](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/checking-quality-of-abap-code-with-atc)\) and requests ATC exemptions for false-positive findings \([Requesting Exemptions for ATC Findings](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/requesting-exemptions-for-atc-findings)\)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Quality Manager
+
+</td>
+<td valign="top">
+
+Evaluates requested ATC exemptions in ABAP development tools for Eclipse.
+
+</td>
+<td valign="top">
+
+-   [Approving or rejecting ATC exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/approving-and-rejecting-atc-exemptions)
 
 
 
@@ -193,7 +216,7 @@ The SaaS solution operator is responsible for creating the account model on the 
     -   Tester users in TST/QAS systems
 
 
--   Add-on update of existing systems in the Update Product Version app. See[Deploy Product](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/c4da7bba8b5a46b9ae08986d9399046d.html).
+-   Add-on update of existing systems in the Update Product Version app. See [Deploy Product](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/c4da7bba8b5a46b9ae08986d9399046d.html).
 
 -   Monitoring of system/tenant provisioning and user onboarding. See [Operations Dashboard](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/66d17ae222254fd08ca2e5498fd41f60.html).
 
@@ -215,12 +238,12 @@ Jenkins Administrator
 </td>
 <td valign="top">
 
-A Jenkins CI/CD server is used as the infrastructure for automation purposes. Pipeline configuration, user management, credentials management etc. is handled by the Jenkins administrator. See [Continuous Integration and Delivery \(CI/CD\)](../10-concepts/continuous-integration-and-delivery-ci-cd-fe74df5.md).
+A Jenkins CI/CD server is used as the infrastructure for automation purposes. Pipeline configuration, user management, credentials management etc. is handled by the Jenkins administrator. See [Operations Dashboard](https://help.sap.com/docs/btp/sap-business-technology-platform/continuous-integration-and-delivery-ci-cd?version=Cloud)
 
 </td>
 <td valign="top">
 
--   Creating Jenkins instance via Cx server
+-   Creating Jenkins instance
 
 -   Maintaining Jenkins credentials for:
 
@@ -258,6 +281,7 @@ S-users are used by partners and customers to log on to SAP ONE Support Launchpa
 -   Activating new namespaces in already existing systems using Landscape Portal. See [Maintain Namespaces](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/59e9ddee17ee496fa14e2760c78bf9da.html).
 -   Creating technical communication user. See SAP note [2532813](https://me.sap.com/notes/2532813).
 
+-   test
 
 
 

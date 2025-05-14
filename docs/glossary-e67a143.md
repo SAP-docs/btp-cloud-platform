@@ -65,6 +65,18 @@ A physically separate location with its own power supply, network, and cooling. 
 <tr>
 <td valign="top">
 
+block-hours
+
+</td>
+<td valign="top">
+
+An hour regarded in terms of the run time of a single compute block. For example, a single compute block running for 10 hours would give 10 block-hours while 2 compute blocks running for the same period would give 20-block hours.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [boosters](30-development/boosters-fb1b561.md)
 
 </td>
@@ -149,7 +161,7 @@ Cloud Connector serves as the link between on-demand applications in SAP BTP and
 <tr>
 <td valign="top">
 
-[cloud management tools](10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md)
+cloud management tools
 
 </td>
 <td valign="top">

@@ -309,10 +309,14 @@ Run ABAP Test Cockpit checks in DEV and/or TST systems.
 
 See [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.sap.com/2020/08/14/abap-test-cockpit-in-the-cloud-what-is-already-possible/) and [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md).
 
+Request exemptions for false-positives and approve or reject the same.
+
 </td>
 <td valign="top">
 
-Developer
+Developer runs ATC checks and requests exemptions.
+
+Quality manager approves or rejects exemptions
 
 </td>
 </tr>
@@ -358,6 +362,8 @@ Build your first add-on version. See [Build the First Add-On Version](build-2504
 <td valign="top">
 
 Create a maintenance branch.
+
+Create an API snapshot.
 
 Configure the addon.yml file.
 
@@ -785,7 +791,7 @@ Create a new patch version, support package version, or release/product version.
 
 -   Developer to implement update and double-maintenance
 -   Test user to verify changes in test systems
--   Add-on administrator to check out maintenance branch, import software components into test systems, configure addon.yml file
+-   Add-on administrator to check out maintenance branch, to create API snapshots and to set the same as check-relevant, to import software components into test systems, and to configure the addon.yml file
 
 
 

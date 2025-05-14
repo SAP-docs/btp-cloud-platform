@@ -36,7 +36,9 @@ The commands are ordered in groups and you need to specify the object on which y
 
     To get help on a particular group, use `btp help GROUP`, for example `btp hep accounts`. This will display all objects and related actions available in that group.
 
--   PARAMETERS are passed with most commands. With `btp login`, for example, you don't have to pass parameters up front, but you'll be prompted to enter them. The same applies to the `btp target` command. And `btp logout` does not need parameters as it will log out the current user from the global account. Some commands have one positional parameter, which is entered directly after the command. All further parameters have a key and can be optional. The command help specifies the optional parameters as such. For example, in `btp assign security/role-collection "Global Account Administrator" --to-user example@mail.com --of-idp my-idp`, "Global Account Administrator" is the positional parameter, and the other two parameters have keys.
+-   PARAMETERS are passed with most commands. With `btp login`, for example, you don't have to pass parameters up front, but you'll be prompted to enter them. The same applies to the `btp target` command. And `btp logout` does not need parameters, as it will log out the current user from the global account. Some commands have one positional parameter, which is entered directly after the command. All further parameters have a key and can be optional. The command help specifies the optional parameters as such. For example, in `btp assign security/role-collection "Global Account Administrator" --to-user example@mail.com --of-idp my-idp`, "Global Account Administrator" is the positional parameter, and the other two parameters have keys.
+
+    You may encounter issues with certain parameter values that start with a `-`, as they can be mistaken for parameter names instead of values. It is recommended to use a `=` to separate parameters and values when a value begins with `-`. For example, if your value for parameter `--user` is`-username-,` please use `--user="-username-"`.
 
 
 

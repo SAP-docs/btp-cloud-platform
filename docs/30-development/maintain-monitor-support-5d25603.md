@@ -24,8 +24,8 @@ Once everything is implemented, built, and the maintenance delivery is deployed,
 ## Prerequisites
 
 -   To set up the maintenance system landscape, you need the relevant entitlements in the global account for development. See [Entitlements and Quotas](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/00aa2c23479d42568b18882b1ca90d79.html).
--   • When using a maintenance system landscape, you require business users with authorization to use the Manage Software Components app and developer users using ABAP Development Tools must be available in the systems. See [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md) and [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
--   To configure new add-on versions, you need the existing pipeline configuration for an add-on build pipeline. These can be the pipeline templates in the Build Product Version app or a manual configuration. See [Build Product Version](https://help.sap.com/docs/btp/sap-business-technology-platform/build-product-version?version=Cloud)and [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
+-   When using a maintenance system landscape, you require business users with authorization to use the Manage Software Components app and developer users using ABAP Development Tools must be available in the systems. See [Manage Software Components](../50-administration-and-ops/manage-software-components-3dcf76a.md) and [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
+-   To configure new add-on versions, you need the existing pipeline configuration for an add-on build pipeline. These can be the pipeline templates in the Build Product Version app or a manual configuration. See [Build Product Version](https://help.sap.com/docs/btp/sap-business-technology-platform/build-product-version?version=Cloud) and [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 -   If you have configured the add-on build pipeline manually, you need a Jenkins server where you can execute it.
 -   To use the Landscape Portal, you need a subscription to the Landscape Portal application and a user assigned to role collection `LandscapePortalAdminRoleCollection`.
 
@@ -155,6 +155,15 @@ As an add-on administrator, you can provide different kinds of updates. The deci
 > ### Tip:  
 > Use the [Check Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/4de24e56f52d4ca4ae8971aae6861f8e.html) app in the Landscape Portal to find out which product version has already been built.
 
+> ### Note:  
+> If you use gCTS for delivery, the process of creating an update for SaaS solutions is grouped into urgent corrections \(patch version\) and new releases \(release version\). See [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-2-one-development-and-correction-codeline-in-5-system-landscape?version=Cloud) and [Delivery via Add-On or gCTS](https://help.sap.com/docs/btp/sap-business-technology-platform/delivery-via-add-on-or-gcts?version=Cloud).
+> 
+> For delivering an emergency patch via gCTS, see section *Urgent Corrections* in [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-2-one-development-and-correction-codeline-in-5-system-landscape?version=Cloud).
+> 
+> For delivering a new major version via gCTS instead of using add-ons, see section *For Go Live/Development after Go Live \(Including Deferrable Corrections\)* in [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-2-one-development-and-correction-codeline-in-5-system-landscape?version=Cloud).
+> 
+> For general information regarding gCTS delivery, see [Delivery via Add-On or gCTS](https://help.sap.com/docs/btp/sap-business-technology-platform/delivery-via-add-on-or-gcts?version=Cloud).
+
 **Create new patch version \(emergency patch\)**
 
 Patch versions are used to deliver unplanned and most likely urgent corrections that are required to keep the application up and running. These changes could be required for a service consumption model of an OData Client Proxy in case of changes to the structure of the underlying OData service. See [Consuming an OData Service](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/consume-odata-service).
@@ -167,7 +176,12 @@ Bug fixes are delivered as a new patch version of a software component and are i
 To deliver a new patch version, see the following steps:
 
 -   **Develop**
-    -   As an add-on admin, check out the maintenance branch, which is the branch that is created for bug fixes and maintenance deliveries. See [Work with Branches](../50-administration-and-ops/work-with-branches-6b2f0bf.md).
+    -   As an add-on admin, check out the maintenance branch, which is the branch that is created for bug fixes and maintenance deliveries in correction system COR and quality assurance system QAS. See [Work with Branches](../50-administration-and-ops/work-with-branches-6b2f0bf.md).
+
+    -   In case of released APIs: If not already done, create and generate a new API snapshot for the latest support package or release version, e.g. v.1.0.0, in quality assurance system QAS and correction system COR. Set the API snapshot to check-relevant if not already enabled. See [Manage API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-api-snapshots?version=Cloud).
+
+        > ### Note:  
+        > While creating new patch versions, the maintenance branch is usually checked out for the first time in correction system COR and quality assurance system QAS and thus the corresponding snapshot must be created locally. See [Released APIs and API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#released-apis-and-api-snapshots).
 
     -   Implement the bug fix in the ABAP correction system
 
@@ -225,6 +239,12 @@ To deliver a new support package stack, see the following steps:
 
     As an add-on admin, create a new maintenance branch for each new support package level of a software component. These maintenance branches are used for developing bug fixes and maintaining deliveries. This assures that these bug fixes can be implemented in the correction code line to not block ongoing development on the main branch.
 
+-   **Create API Snapshot**
+-   In case of released APIs, create and generate a new API snapshot for each new support package level of a software component, e.g. v1.1.0 in test system TST and the development system DEV. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks. Refer to [Manage API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-api-snapshots?version=Cloud).
+
+    > ### Note:  
+    > Currently API snapshots need to be generated locally per system. Therefore, be careful to not release new APIs between the cutoff and snapshot creation. See [Released APIs and API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#released-apis-and-api-snapshots).
+
 
 **Create new product version**
 
@@ -262,27 +282,23 @@ To deliver a new release version, see the following steps:
 
     As an add-on admin, create a new maintenance branch for each new release version of a software component. These maintenance branches are used for developing bug fixes and maintaining deliveries. This assures that these bug fixes can be implemented in the correction code line to not block ongoing development on the main branch.
 
+-   **Create API Snapshot**
+
+    In case of released APIs, create and generate a new API snapshot for each new release version of a software component, e.g. v2.0.0 in test system TST and the development system DEV. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks. See [Manage API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-api-snapshots?version=Cloud).
+
+    > ### Note:  
+    > Currently API snapshots need to be generated locally per system. Therefore, be careful to not release new APIs between the cutoff and snapshot creation. See [Released APIs and API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#released-apis-and-api-snapshots).
+
 -   **Configure new product version**
 
     As an add-on admin, you can use the Build Product Version app in the Landscape Portal to create new release versions:
 
-    -   Make sure that the pipeline template for Release Delivery is configured. If you want to validate the add-on build beforehand, configure the template for Test Release Delivery as well. See [Configure Pipeline Template](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/5919ca97b3d54c758cf56dfb0887c306.html).
+    1.  Make sure that the pipeline template for Release Delivery is configured. If you want to validate the add-on build beforehand, configure the template for *Test Release Delivery* as well. See [Configure Pipeline Template](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/5919ca97b3d54c758cf56dfb0887c306.html).
 
-
--   Choose the relevant add-on product and create a new product version of type Release Delivery. See [Create a New Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d4c9f0877f1640bebe1f6fbe267bf9af.html).
+    2.  Choose the relevant add-on product and create a new product version of type *Release Delivery*. See [Create a New Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d4c9f0877f1640bebe1f6fbe267bf9af.html).
 
 
 If you are configuring the add-on build pipeline manually, adjust your add-on descriptor file to build the new patch version. See [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#addonyml).
-
-**gCTS Delivery**
-
-If you use gCTS for delivery, the process of creating an update for SaaS solutions is grouped into urgent corrections \(patch version\) and new releases \(release version\). See [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-2-one-development-and-correction-codeline-in-5-system-landscape?version=Cloud) and [Delivery via Add-On or gCTS](https://help.sap.com/docs/btp/sap-business-technology-platform/delivery-via-add-on-or-gcts?version=Cloud).
-
-For delivering an emergency patch via gCTS, see section Urgent Corrections in [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-2-one-development-and-correction-codeline-in-5-system-landscape?version=Cloud)
-
-For delivering a new major version via gCTS instead of using add-ons, see section For Go Live/Development after Go Live \(Including Deferrable Corrections\) in [Use Case 2: One Development and Correction Codeline in a 5-System Landscape](https://help.sap.com/docs/btp/sap-business-technology-platform/use-case-2-one-development-and-correction-codeline-in-5-system-landscape?version=Cloud).
-
-For general information regarding gCTS delivery, see [Delivery via Add-On or gCTS](https://help.sap.com/docs/btp/sap-business-technology-platform/delivery-via-add-on-or-gcts?version=Cloud).
 
 <a name="loio7f6988a9a9f94845825d8c7ff66990fb"/>
 
@@ -292,14 +308,14 @@ For general information regarding gCTS delivery, see [Delivery via Add-On or gCT
 
 ![](images/Pipeline_add-on_build_d36cfe1.png)
 
-Similar to the build of the initial add-on version, as an add-on administrator, you need to trigger the execution of the configured ABAP environment pipeline for an add-on build. You can do this using the Build Product Version button in the corresponding app. After a successful build, the new add-on version is technically available for deployment to the ABAP environment. See [Create a New Produt Version](https://help.sap.com/docs/btp/sap-business-technology-platform/create-new-product-version?version=Cloud). If you are configuring the add-on build pipeline manually, then you need to trigger its execution in your Jenkins server. For in-depth information about the ABAP environment pipeline, check out [ABAP Environment Pipeline](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#abap-environment-pipeline).
-
-*gCTS Delivery*
-
-If you are using gCTS instead of add-ons for delivering software components into production systems, an add-on build is not required.
+Similar to the build of the initial add-on version, as an add-on administrator, you need to trigger the execution of the configured ABAP environment pipeline for an add-on build. You can do this using the Build Product Version button in the corresponding app. After a successful build, the new add-on version is technically available for deployment to the ABAP environment. See [Build Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/0c40cc527b15450c9211c3cff0188296.html). If you are configuring the add-on build pipeline manually, then you need to trigger its execution in your Jenkins server. For in-depth information about the ABAP environment pipeline, check out [ABAP Environment Pipeline](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#abap-environment-pipeline).
 
 > ### Note:  
+> If you are using gCTS instead of add-ons for delivering software components into production systems, an add-on build is not required.
+> 
 > Please ensure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See [Test in the ABAP Environment SAP Fiori Launchpad](test-023cf9d.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](test-023cf9d.md#loiof0b71a1c959842258772c27d292c43b0).
+> 
+> During add-on build a new semantic version API snapshot will automatically be created for each add-on software component. In the assembly system BLD semantic version snapshots are automatically created and set to check-relevant during add-on build. Do not perform manual actions on API snapshots in these systems.
 
 <a name="loio90ada4e99f684deba48664fed04acc12"/>
 
@@ -307,7 +323,7 @@ If you are using gCTS instead of add-ons for delivering software components into
 
 ### Check Add-on Build Result
 
-Use the *Check Product Version* app in Landscape Portal to check whether the product version, its components, and respective packages are ready for delivery. See[Check Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/4de24e56f52d4ca4ae8971aae6861f8e.html).
+Use the *Check Product Version* app in Landscape Portal to check whether the product version, its components, and respective packages are ready for deployment. See [Check Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/4de24e56f52d4ca4ae8971aae6861f8e.html).
 
 <a name="loio0a80d4c5c079435e9aca4eb9e6841de9"/>
 

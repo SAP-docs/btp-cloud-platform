@@ -50,7 +50,7 @@ Displays information about metadata buffer updates.
 </td>
 <td valign="top">
 
-`DELETE`
+`DELETION`
 
 </td>
 <td valign="top">

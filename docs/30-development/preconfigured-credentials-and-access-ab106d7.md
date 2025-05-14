@@ -20,7 +20,7 @@ When you create a Kyma instance in the SAP BTP cockpit, the following events hap
 
 4.  The `sap-btp-manager` Secret is created and managed in the `kyma-system` namespace.
 
-5.  By default, the SAP BTP Operator module is installed together with:
+5.  By default, the SAP BTP Operator module is installed together with the following:
 
     -   The `sap-btp-manager` Secret.
 
@@ -52,13 +52,13 @@ When the SAP BTP Operator module is added to your cluster by default, the `sap-b
 
 ![](images/Module_Credentials_6af5090.png)
 
-The cluster ID represents and identifies Kyma service instance created in a particular subaccount. You can view the cluster ID in Kyma dashboard:
+The cluster ID represents and identifies a Kyma service instance created in a particular subaccount. In Kyma dashboard, you can view the cluster ID in the following resources:
 
--   In the `sap-btp-manager` Secret.
+-   The `sap-btp-manager` Secret.
 
--   In the `sap-btp-service-operator` Secret.
+-   The `sap-btp-service-operator` Secret.
 
--   In the `sap-btp-operator-config` ConfigMap.
+-   The `sap-btp-operator-config` ConfigMap.
 
 
 
@@ -148,4 +148,9 @@ If any non-deleted service instances in your Kyma cluster use the credentials fr
 However, if all existing service instances in your Kyma cluster use your custom SAP Service Manager credentials, the non-deleted service instances do not block the cluster's deletion. See [Customizing the Default Credentials and Access](customizing-the-default-credentials-and-access-15f22d5.md).
 
 If you have not deleted service instances and bindings connected to your expired free tier service, you can still find the service binding credentials in the SAP Service Manager instance details in the SAP BTP cockpit. Use them to delete the leftover service instances and bindings.
+
+**Related Information**  
+
+
+[Customizing the Default Credentials and Access](customizing-the-default-credentials-and-access-15f22d5.md "You can customize the sap-btp-manager Secret and manage your own default configuration of the SAP BTP Operator module.")
 

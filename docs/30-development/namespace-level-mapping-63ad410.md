@@ -90,3 +90,10 @@ To connect a namespace to a specific subaccount, maintain the access credentials
 2.  To verify that you've correctly added the access credentials of the SAP Service Manager instance in your service instance, go to the custom resource \(CR\) `status` section, and make sure the subaccount ID to which the instance belongs is provided in the `subaccountID` field. The field must not be empty.
 
 
+**Related Information**  
+
+
+[Working with Multiple Subaccounts](working-with-multiple-subaccounts-862dd6a.md "With the SAP BTP Operator module, you can create configurations for several subaccounts in a single Kyma cluster.")
+
+[Instance-Level Mapping](instance-level-mapping-d9e9c7f.md "You can map a Kubernetes service instance to an SAP Service Manager instance in a given subaccount. The Service Manager instance is then used to provision that service instance.")
+

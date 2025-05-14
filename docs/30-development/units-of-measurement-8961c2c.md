@@ -103,5 +103,7 @@ Units of Measurement
 
 [Maintaining Units of Measurement](maintaining-units-of-measurement-238be94.md "Class CL_UOM_MAINTENANCE provides methods for maintaining units of measurement.")
 
+[Retrieving Standard Units of Measurement](retrieving-standard-units-of-measurement-5225632.md "")
+
 [Conversion Functions for Units of Measurement](conversion-functions-for-units-of-measurement-73109c6.md "Class CL_UOM_CONVERSION provides methods for simple conversion functions for units of measurement.")
 

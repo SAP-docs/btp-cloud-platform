@@ -46,7 +46,7 @@ With the Kyma runtime, you can create microservices in the language of your choi
 
 ## Kyma Dashboard and kubectl
 
-The Kyma runtime comes with a central administration dashboard \(Kyma dashboard\), which allows you to deploy microservices, create Functions, and manage their configurations. You can also use it to connect SAP BTP services to your cluster and manage them using SAP BTP Service Operator, create instances of these services, and use them in your microservices or Functions.
+The Kyma runtime comes with a central administration dashboard \(Kyma dashboard\), which allows you to deploy microservices, create Functions, and manage their configurations. You can also use it to connect SAP BTP services to your cluster and manage them using the SAP BTP Operator module, create instances of these services, and use them in your microservices or Functions.
 
 For those who prefer to work with command-line tools, the Kyma runtime also offers the Kubernetes command-line tool, kubectl.
 

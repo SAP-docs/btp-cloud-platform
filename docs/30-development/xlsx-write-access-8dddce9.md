@@ -63,7 +63,7 @@ The first way how you can write data into a worksheet is by selecting a collecti
 
 ### Row streams
 
-Row streams are best used when the structure of the data that should be written is statically known. The primary use case is to write the rows of an internal table into a corresponding portion of the worksheet \(as identified by a selection\). The following operations are offered for row streams:
+Row streams are best used when the structure of the data that should be written is statically known. The primary use case is to write the rows of an internal table into a corresponding portion of the worksheet \(as identified by a selection\). The internal table used to hold the data stream must only contain elementary components. The following operations are offered for row streams:
 
 -   Write From: The write from operation takes a reference to an internal table as the input whose rows will be written to the selected rows in the worksheet \(upon running the operation\)
 
@@ -275,35 +275,101 @@ If an attempt is made to write an ABAP field of any other type to a cell of a wo
 
 ## Cell Styling
 
-Cells in an XSLX document ca be styled in various ways. To change the background color of a cell, do the following:
+XCO XLSX offers various ways to style a cell in an XSLX document.
+
+
+
+### Background Color
+
+To change the background color of a cell, do the following:
 
 > ### Sample Code:  
 > ```abap
+> 
+> " Get cell reference
 > DATA(lo_cursor) = lo_worksheet->cursor(
 >   io_column = xco_cp_xlsx=>coordinate->for_alphabetic_value( 'B' )
 >   io_row    = xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
 > ).
-> DATA(lo_cell) = lo_cursor->get_cell( ).
-> DATA(lo_fill_color_yellow) = xco_cp_xlsx=>style->fill( )->set_background_color( xco_cp_xlsx=>color->standard->yellow ).
-> lo_cell->apply_styles( VALUE #( ( lo_fill_color_yellow ) ) ).
+>  
+> " Create fill style and apply to target cell
+> DATA(lo_fill_color) = xco_cp_xlsx=>style->fill(
+>     )->set_background_color( xco_cp_xlsx=>color->standard->yellow ).
+> lo_cursor->get_cell( )->apply_styles( VALUE #( ( lo_fill_color ) ) ).
 > ```
+
+
+
+### Protection Configuration
 
 You can also protect cells from modifications by locking the entire worksheet. Single cells can then be unlocked to allow selective modifications. See the following example:
 
 > ### Sample Code:  
 > ```abap
+> " Protect a worksheet
 > lo_worksheet->protect( ).
-> DATA(lo_protection_unlock_cell) = xco_cp_xlsx=>style->protection( )->set_locked( abap_false ).
-> lo_cell->apply_styles( VALUE #( ( lo_protection_unlock_cell ) ) ).
+>  
+> " Get cell reference
+> DATA(lo_cursor) = lo_worksheet->cursor(
+>   io_column = xco_cp_xlsx=>coordinate->for_alphabetic_value( 'B' )
+>   io_row    = xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
+> ).
+>  
+> " Create and apply unlock style to target cell
+> DATA(lo_protection_unlock_cell) = xco_cp_xlsx=>style->protection(
+>     )->set_locked( abap_false ).
+> lo_cursor->get_cell( )->apply_styles( VALUE #( ( lo_protection_unlock_cell ) ) ).
 > ```
+
+
+
+### Data Validation
 
 To show a drop-down list of values for a cell, set the data validation. Add the values that should be shown on the list by calling `add_source` with a string that contains a single value or a comma-separated list of values. See the following example:
 
 > ### Sample Code:  
 > ```abap
-> DATA(lo_data_validation) = xco_cp_xlsx=>data_validation_type->if_xco_xlsx_dat_val_type_f~list( )->add_source( '1'
+> " Get cell reference
+> DATA(lo_cursor) = lo_worksheet->cursor(
+>   io_column = xco_cp_xlsx=>coordinate->for_alphabetic_value( 'B' )
+>   io_row    = xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
+> ).
+>  
+> " Define validation list with multiple value sources
+> DATA(lo_data_validation) = xco_cp_xlsx=>data_validation_type->if_xco_xlsx_dat_val_type_f~list(
+>   )->add_source( '1'
 >   )->add_source( '2'
 >   )->add_source( '3,4,5' ).
-> lo_cell->data_validation->set_type( lo_data_validation ).
+>  
+> " Apply validation to target cell
+> lo_cursor->get_cell( )->data_validation->set_type( lo_data_validation ).
 > ```
+
+
+
+### Font Customization
+
+You can change the font in various ways as depicted in the following example:
+
+```abap
+" Get cell reference
+DATA(lo_cursor) = lo_worksheet->cursor(
+  io_column = xco_cp_xlsx=>coordinate->for_alphabetic_value( 'B' )
+  io_row    = xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
+).
+ 
+" Configure multiple font attributes
+DATA(lo_font) = xco_cp_xlsx=>style->font( ).
+lo_font->set_color( xco_cp_xlsx=>color->standard->orange
+  )->set_type( xco_cp_xlsx=>font_type->arial
+  )->set_size( 16
+  )->set_bold(
+  )->set_italic(
+  )->set_strikethrough(
+  )->set_superscript(
+  )->set_underline_type( xco_cp_xlsx=>underline_type->single ).
+ 
+" Apply font style to target cell
+lo_cursor->get_cell( )->apply_styles( VALUE #( ( lo_font ) ) ).
+```
 

@@ -124,23 +124,25 @@ To check these versions, proceed as follows:
 Let's say that the latest version of SAP Java Buildpack 2 is **2.24.0**. Then, the output of the `cf buildpacks` command would be:
 
 ```
-buildpack           position   enabled   locked   filename
 
-sap_java_buildpack_jakarta           1         true      false    sap_java_buildpack_jakarta-2.23.0.zip
-sap_java_buildpack_jakarta_2_23      2         true      false    sap_java_buildpack_jakarta-2.23.0.zip
-sap_java_buildpack_jakarta_2_22      3         true      false    sap_java_buildpack_jakarta-2.22.0.zip
-sap_java_buildpack_jakarta_2_21      4         true      false    sap_java_buildpack_jakarta-2.21.0.zip
+buildpack                        position    enabled     locked    filename
+
+sap_java_buildpack_jakarta           1         true      false     sap_java_buildpack_jakarta-v2.23.0.zip
+sap_java_buildpack_jakarta_2_23      2         true      false     sap_java_buildpack_jakarta-v2.23.0.zip
+sap_java_buildpack_jakarta_2_22      3         true      false     sap_java_buildpack_jakarta-v2.22.0.zip
+sap_java_buildpack_jakarta_2_21      4         true      false     sap_java_buildpack_jakarta-v2.21.0.zip
 ```
 
 When SAP Java Buildpack 2 is updated on the SAP BTP, Cloud Foundry environment from version **2.23.0** to **2.24.0**, the list will change to:
 
 ```
-buildpack           position   enabled   locked   filename
 
-sap_java_buildpack_jakarta           1         true      false    sap_java_buildpack_jakarta-2.24.0.zip
-sap_java_buildpack_jakarta_2_24      2         true      false    sap_java_buildpack_jakarta-2.23.0.zip
-sap_java_buildpack_jakarta_2_23      3         true      false    sap_java_buildpack_jakarta-2.22.0.zip
-sap_java_buildpack_jakarta_2_22      4         true      false    sap_java_buildpack_jakarta-2.21.0.zip
+buildpack                        position    enabled     locked    filename
+
+sap_java_buildpack_jakarta           1         true      false     sap_java_buildpack_jakarta-v2.24.0.zip
+sap_java_buildpack_jakarta_2_24      2         true      false     sap_java_buildpack_jakarta-v2.24.0.zip
+sap_java_buildpack_jakarta_2_23      3         true      false     sap_java_buildpack_jakarta-v2.23.0.zip
+sap_java_buildpack_jakarta_2_22      4         true      false     sap_java_buildpack_jakarta-v2.22.0.zip
 ```
 
 This means that *sap\_java\_buildpack\_jakarta\_2\_21* will no longer be available for applications.

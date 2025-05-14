@@ -16,7 +16,7 @@ This page explains the relationship between the service plans in the SAP Discove
 
 ### Overview
 
-The diagram below shows how the service plans listed in the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-foundry-runtime?region=all&tab=service_plan) correspond to the plans you choose in the [SAP BTP cockpit](https://cockpit.btp.cloud.sap), depending on the commercial model of your enterprise global account. For more information about the commercial models offered by SAP, see [Commercial Models](commercial-models-263d400.md).
+The diagram below shows how the service plans listed in the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-foundry-runtime?region=all&tab=service_plan) correspond to the plans you choose in the SAP BTP cockpit, depending on the commercial model of your enterprise global account. For more information about the commercial models offered by SAP, see [Commercial Models](commercial-models-263d400.md).
 
 ![A diagram depicting the relationship between service plans in the SAP Discovery Center, service plans in the SAP BTP cockpit, environment plans in the SAP BTP cockpit, and the metric GB Memory. Consumption-based commercial model, line 1 of 2: Service Plan (SAP Discovery Center) - Standard; Service Plan (SAP BTP Cockpit) - not applicable; Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB Memory; SKU - 8008837. Consumption-based commercial model, line 2 of 2: Service Plan (SAP Discovery Center) - Free; Service Plan (SAP BTP Cockpit) - free (Environment); Environment Plan (SAP BTP Cockpit) - free; Metrics - GB Memory; SKU - 8011138. Subscription-based commercial model, line 1 of 1: Service Plan (SAP Discovery Center) - Standard; Service Plan (SAP BTP Cockpit) - MEMORY, the plan is associated with a standalone service Cloud Foundry Runtime (technical name: APPLICATION_RUNTIME); Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB Memory; SKU - 8008837.](images/SAP_BTP_Cloud_Foundry_Runtime_Commercial_Information_Plans_-_2024_V2_67db7c4.png)
 
@@ -40,10 +40,14 @@ The plan that the global account administrator can assign to a subaccount or a d
 > ### Tip:  
 > Open image in new tab for the full-screen version.
 
-![A screenshot of the Entitlements screen in the SAP BTP cockpit, showing the assignment of a service plan to a subaccount.](images/English_-_Entitlements_-_SAP_BTP_Cloud_Foundry_Runtime_94337c9.png "Screenshot: Assigning a service plan to a subaccount in SAP BTP
-                                    cockpit [Show/Hide]")
+![A screenshot of the Entitlements screen in the SAP BTP cockpit, showing the assignment of a service plan to a subaccount.](images/English_-_Entitlements_-_SAP_BTP_Cloud_Foundry_Runtime_94337c9.png "Screenshot: Assigning a service plan to a subaccount in
+										SAP BTP
+									cockpit [Show/Hide]")
 
 For more information about the procedure, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md) or [Configure Entitlements and Quotas for Directories](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-37f8871.md).
+
+> ### Note:  
+> The greyed out parts of the diagram indicate service plans that are automatically assigned to all subaccounts by default.
 
 
 
@@ -61,8 +65,9 @@ The plan that the subaccount administrator can select on the *Overview* page of 
 > ### Tip:  
 > Open image in new tab for the full-screen version.
 
-![A screenshot of the Overview screen of a subaccount in the SAP BTP cockpit, showing the enablement of an environment plan.](images/English_-_Enable_Cloud_Foundry_-_SAP_BTP_Cloud_Foundry_Runtime_0377151.png "Screenshot: Selecting an environment plan for the subaccount in SAP BTP
-                                    cockpit [Show/Hide]")
+![A screenshot of the Overview screen of a subaccount in the SAP BTP cockpit, showing the enablement of an environment plan.](images/English_-_Enable_Cloud_Foundry_-_SAP_BTP_Cloud_Foundry_Runtime_0377151.png "Screenshot: Selecting an environment plan for the subaccount
+									in SAP BTP
+									cockpit [Show/Hide]")
 
 
 
@@ -271,9 +276,41 @@ standard
 
 This is a **paid** plan for productive use. In the subscription-based commercial model, you pay for runtime memory quota in advance.
 
-The runtime memory quota purchased with your subscription must be entitled to subaccounts through the service plan MEMORY. This service plan is associated with the service Cloud Foundry Runtime \(`APPLICATION_RUNTIME`\), which is specific to the subscription-based commercial model.
+The runtime memory quota purchased with your subscription must be assigned to subaccounts through the service plan MEMORY. This service plan is associated with the service Cloud Foundry Runtime \(`APPLICATION_RUNTIME`\).
 
-The plan **standard** is available for all subaccounts by default and can be enabled by a subaccount administrator. The runtime memory quota can be entitled to the subaccount only by a global account administrator \(or a directory administrator\). These steps are independent, but both of them are required to run applications in the Cloud Foundry environment.
+The plan **standard** is assigned to all subaccounts by default and can be enabled by a subaccount administrator. The runtime memory quota can be assigned to the subaccount only by a global account administrator \(or a directory administrator\). These steps are independent, but both of them are required to run applications in the Cloud Foundry environment.
+
+</td>
+</tr>
+<tr>
+<td valign="top" align="center">
+
+\-
+
+</td>
+<td valign="top">
+
+Cloud Foundry Environment \(`cloudfoundry`\)
+
+</td>
+<td valign="top">
+
+build-runtime
+
+</td>
+<td valign="top">
+
+build-runtime
+
+</td>
+<td valign="top">
+
+This plan is only for using the SAP BTP, Cloud Foundry runtime as part of SAP Build. For more information, see [What Is SAP Build](https://help.sap.com/docs/build-service/build-service-guide/what-is-sap-build) and [Service Plans and Metering](https://help.sap.com/docs/build-service/build-service-guide/service-plans-and-metering).
+
+> ### Note:  
+> The plan is not depicted on the diagram in the **Overview** section.
+
+
 
 </td>
 </tr>
@@ -324,12 +361,17 @@ The table below provides details about the metrics for SAP BTP, Cloud Foundry ru
 <tr>
 <th valign="top" align="center">
 
-Service
+Metric
 
 </th>
 <th valign="top" align="center">
 
-Metric
+Service \(SAP BTP Cockpit\)
+
+</th>
+<th valign="top" align="center">
+
+Metric \(SAP BTP Cockpit\)
 
 </th>
 <th valign="top" align="center">
@@ -346,6 +388,11 @@ Additional Information
 <tr>
 <td valign="top">
 
+GB Memory
+
+</td>
+<td valign="top">
+
 Cloud Foundry Runtime
 
 </td>
@@ -354,7 +401,7 @@ Cloud Foundry Runtime
 GB Memory
 
 </td>
-<td valign="top" rowspan="2">
+<td valign="top" rowspan="3">
 
 Temporary memory bank where computers store data that needs to be retrieved and processed quickly.
 
@@ -363,10 +410,37 @@ The memory represents the size of the data that can be processed and CPU represe
 </td>
 <td valign="top">
 
-For billing purposes, the metric GB Memory is calculated as the total hourly usage of Cloud Foundry runtime memory across all spaces in the global account over a calendar month, divided by 730 hours and rounded up to the next full GB. For an example of such calculation, see [Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting?version=Cloud#consumption-monitoring).
+For billing purposes, the GB Memory metric for the Cloud Foundry Runtime service is calculated as the total hourly usage of Cloud Foundry runtime memory across all spaces in the global account over a calendar month, divided by 730 hours and rounded up to the next full GB. For an example of such calculation, see [Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting?version=Cloud#consumption-monitoring).
 
 > ### Note:  
 > In the Cloud Foundry environment, applications get a guaranteed CPU share of ¼ core per GB of runtime memory quota reserved for an application instance. For more information, see [SAP BTP-Specific Configurations](sap-btp-specific-configurations-9809fa4.md).
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
+Capacity Units
+
+</td>
+<td valign="top">
+
+SAP Build
+
+</td>
+<td valign="top">
+
+GB Memory
+
+</td>
+<td valign="top">
+
+In SAP Build, the usage of SAP BTP, Cloud Foundry runtime is measured in capacity units. The GB Memory metric for the SAP Build service in the SAP BTP cockpit is intended only for monitoring the approximate usage of SAP BTP, Cloud Foundry runtime in GB when it's consumed as part of SAP Build. For more information, see [What Is SAP Build](https://help.sap.com/docs/build-service/build-service-guide/what-is-sap-build?version=Cloud).
+
+> ### Note:  
+> The metric is not depicted on the diagram in [Service](service-plans-and-metering-for-cloud-foundry-runtime-8d41fa4.md#loio8d41fa40e47b45bf90d38e393a989c4c__service).
 
 
 
@@ -385,7 +459,7 @@ CF Runtime
 </td>
 <td valign="top">
 
-The metric CF Runtime is intended for monitoring the usage of SAP BTP, Cloud Foundry runtime when it's used as part of SAP Build Code. For more information, see [What Is SAP Build Code](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/504854f457cc4fbf9f79136dbc773618.html).
+In SAP Build Code, the usage of SAP BTP, Cloud Foundry runtime is measured in capacity units. The CF Runtime metric for the SAP Build Code service in the SAP BTP cockpit is intended only for monitoring the approximate usage of SAP BTP, Cloud Foundry runtime in GB when it's consumed as part of SAP Build Code. For more information, see [What Is SAP Build Code](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/504854f457cc4fbf9f79136dbc773618.html) and [SAP Build Code Capacity Unit Calculator](https://build-code-calculator.cfapps.eu10-004.hana.ondemand.com/).
 
 > ### Note:  
 > The metric is not depicted on the diagram in [Service](service-plans-and-metering-for-cloud-foundry-runtime-8d41fa4.md#loio8d41fa40e47b45bf90d38e393a989c4c__service).
@@ -417,6 +491,9 @@ There are two application settings that define how much runtime memory an applic
 -   Number of running application instances \(default: 1\)
 
 
+> ### Note:  
+> The total amount of runtime memory that an application uses when all of its instances are running is displayed on the application's *Overview* page under *All Instances Memory*.
+
 You can specify custom values for these settings when deploying an application in the Cloud Foundry environment. You can also change them for an application that has already been deployed without having to redeploy it.
 
 
@@ -435,9 +512,9 @@ You can specify custom values for these settings when deploying an application i
     -   Using the SAP BTP cockpit: [Deploy an Application](../50-administration-and-ops/deploy-an-application-09fdb9b.md)
     -   Using the Cloud Foundry CLI: [https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html](https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html)
 
--   **Option 2:** In the SAP BTP cockpit, choose *Deploy Application*, deselect *Use Manifest* and specify the following:
+-   **Option 2:** In the SAP BTP cockpit, choose *Deploy Application*, select *Custom Settings* and specify the following:
 
-    -   *Instance Memory \(MB\)*: runtime memory quota per application instance
+    -   *Memory per Instance \(MB\)*: runtime memory quota per application instance
     -   *Number of Instances*: number of application instances
 
     For more information about the procedure, see [Deploy an Application](../50-administration-and-ops/deploy-an-application-09fdb9b.md).
@@ -456,7 +533,7 @@ You can specify custom values for these settings when deploying an application i
 
 -   **Option 1:** In the SAP BTP cockpit, on the *Overview* page of the application you can:
 
-    -   Change the runtime memory quota per application instance under *Change Instance Details* \> *Instance Memory \(MB\)*
+    -   Change the runtime memory quota per application instance under *Change Instance Details* \> *Memory per Instance \(MB\)*
     -   Change the number of application instances as described in [Manage Application Instances](../50-administration-and-ops/manage-application-instances-75836f1.md)
 
 -   **Option 2:** In the Cloud Foundry CLI, you can use the command `cf scale` with the following flags:

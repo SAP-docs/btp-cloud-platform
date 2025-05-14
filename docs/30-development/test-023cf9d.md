@@ -18,7 +18,7 @@ If the solution is successfully tested and works correctly, you can proceed with
 
 -   For testing in SAP Fiori launchpad in your ABAP environment, you need a business user in the test system that has the required authorizations to use the *Manage Software Components* app as well as authorizations that are required as a test user.
 -   For testing in the ABAP Test Cockpit, you need a developer user using ABAP Development Tools. See [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
--   \(Optional\) For running ATC checks as part of the ABAP environment pipeline, you have to create a pipeline in a Jenkins CI/CD server that is provisioned using the Cx Server tool. See [Jenkins](https://www.jenkins.io/) and [Cx Server](https://www.project-piper.io/infrastructure/overview/#cx-server-recommended).
+-   \(Optional\) For running ATC checks as part of the ABAP environment pipeline, you have to create a pipeline in a Jenkins CI/CD server. See [Jenkins](https://www.jenkins.io/) and [Custom Jenkins Setup](https://www.project-piper.io/infrastructure/customjenkins/).
 
 <a name="loio8c5b4d76a05b4bed8df01937f4d8d487"/>
 
@@ -26,21 +26,31 @@ If the solution is successfully tested and works correctly, you can proceed with
 
 ## Test in the ABAP Environment SAP Fiori Launchpad
 
-**Import Software Components**
+
+
+
+
+### Import Software Components
 
 Before testing new developments in a software component in the test system, as an add-on admin, you have to import the latest changes from the remote repository. After you have cloned a software component into the test system TST, you can import the latest changes by pulling the software component in the *Manage Software Components* app. See [Pull Software Components](../50-administration-and-ops/pull-software-components-90b9b9d.md).
 
-**Create and Assign Business Roles**
+
+
+### Create and Assign Business Roles
 
 Before creating and assigning business roles, you have to make sure that business users are already available. They can be created manually or automatically. See [User Provisioning](user-provisioning-ef52a68.md).
 
 To test the developed business services, as a test user, create business roles from the role templates in the test system and assign them to your user. See [Maintain Business Roles](../50-administration-and-ops/maintain-business-roles-8980ad0.md).
 
-**Create Launchpad Space and Pages for Business Roles**
+
+
+### Create Launchpad Space and Pages for Business Roles
 
 To enable navigation to custom UIs via tiles, enable launchpad spaces and pages. Add spaces to the relevant business roles and add the needed SAP Fiori launchpad tiles to those spaces. Finally, enable spaces for business users in the system launchpad settings. See [How to Create Spaces and Pages for a Business Role](../50-administration-and-ops/how-to-create-spaces-and-pages-for-a-business-role-18cdb97.md).
 
-**Create Communication Arrangements**
+
+
+### Create Communication Arrangements
 
 To test inbound and outbound communication, create communication arrangements in the test system TST based on the implemented communication scenarios. See [How to Create a Communication Arrangement](../50-administration-and-ops/how-to-create-a-communication-arrangement-a0771f6.md).
 
@@ -51,13 +61,15 @@ You can integrate the test system TST with on-premise systems. See [Integrating 
 
 In the subaccount of test system TST, the subaccount for testing, you can assign the Cloud Connector administrator role collection to the Cloud Connector administrator user to operate the data transmission tunnels used by the Cloud Connector.
 
-**Create Business Configuration**
+
+
+### Create Business Configuration
 
 As a test user, you can adjust business configuration objects in the *Maintain Business Configurations* app to change and influence the system behavior. See [Custom Business Configurations App](../50-administration-and-ops/custom-business-configurations-app-76384d8.md).
 
 
 
-**Configure Key User Extensibility**
+### Configure Key User Extensibility
 
 Key user extensibility that is enabled in the SaaS solution can be configured and consumed in test systems.
 
@@ -77,17 +89,21 @@ As a test user in a Test Tenant \(client \>= 200\), you configure key user exten
 
 ## Test in the ABAP Test Cockpit
 
+
+
+
+
+### Manual Testing During Development
+
 With the ABAP Test Cockpit, you can run a set of checks \(check variants\) on software component or package level. See [Checking Quality of ABAP Code with ATC](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/4ec5711c6e391014adc9fffe4e204223.html) and [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.sap.com/2020/08/14/abap-test-cockpit-in-the-cloud-what-is-already-possible/).
 
 To fix and revalidate ABAP Test Cockpit findings, as a developer user, you can run ABAP Test Cockpit checks on developed software components explicitly via ABAP Development Tools in the DEV system. See [Launching ATC Check Run from the Project Explorer](https://help.sap.com/docs/btp/sap-abap-development-user-guide/launching-atc-check-run-from-project-explorer?version=Cloud) and [Launching ATC Check Run Explicitly](https://help.sap.com/docs/btp/sap-abap-development-user-guide/launching-atc-check-run-explicitly?version=Cloud).
 
 If transport blocking in case of ABAP Test Cockpit findings is configured \(see [Set Up Add-On Development](https://help.sap.com/docs/btp/sap-business-technology-platform/prepare?version=Cloud#set-up-add-on-development)\), ABAP Test Cockpit checks are executed implicitly. See [Launching ATC Check Implicitly](https://help.sap.com/docs/btp/sap-abap-development-user-guide/launching-atc-check-implicitly?version=Cloud).
 
-**ATC Exemptions**
 
-If you can't clear an ABAP Test Cockpit finding by correcting the underlying problem, you can still clear it by requesting an exemption. Exemptions are created as part of a specific software component. See [Working with ATC Exemptions](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-atc-exemptions?version=Cloud).
 
-**Continuous Testing using ABAP Environment Pipeline**
+### Continuous Testing Using ABAp Environment Pipeline
 
 > ### Tip:  
 > For in-depth information about the ABAP environment pipeline used for continuous testing, see [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).

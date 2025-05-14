@@ -70,7 +70,7 @@ Different actions require different roles as well. In the process description, t
 
 -   Release Manager
 
-    -   Performs tasks that are executed centrally for a release, such as software component creation and import, making the release decision, approving corrections, creating and releasing transports etc.
+    -   Performs tasks that are executed centrally for a release, such as software component creation and import, making the release decision, approving corrections, creating and releasing transports, creating API Snapshots etc.
     -   Needs authorization for business catalogs
 
 
@@ -122,7 +122,7 @@ Different actions require different roles as well. In the process description, t
     </td>
     <td valign="top">
     
-    Releasing transport requests in ABAP Development Tools for Eclipse
+    Releasing transport requests in ABAP development tools for Eclipse
     
     </td>
     </tr>
@@ -139,7 +139,7 @@ Different actions require different roles as well. In the process description, t
     </td>
     <td valign="top">
     
-    Show development objects in transport organizer in ABAP Development Tool
+    Show development objects in transport organizer in ABAP development tools for Eclipse
     
     </td>
     </tr>
@@ -194,10 +194,32 @@ Different actions require different roles as well. In the process description, t
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    SAP\_CORE\_BC\_ARS\_PC
+    
+    </td>
+    <td valign="top">
+    
+    Lifecycle Management
+    
+    </td>
+    <td valign="top">
+    
+    Creating API Snapshots using the*Manage API Snapshots* app to allow running API compability checks for released objects.
+    
+    </td>
+    </tr>
     </table>
     
 -   Developer
     -   Develops the code and performs tests
+        -   Creates software component relations to declare access permissions and dependencies between software components. For more information, see [Software Component Relations](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/software-component-relations).
+        -   Releases APIs based on consistency and stability requirements and defines the visibility for use in different ABAP language versions. For more information, see [Released APIs](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/released-apis).
+        -   Runs ATC Checks \([Checking Quality of ABAP Code with ATC](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/checking-quality-of-abap-code-with-atc)\) and [requests ATC exemptions for false-positive findings](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/requesting-exemptions-for-atc-findings).
+
+
     -   Needs authorization for business catalogs
 
 
@@ -256,6 +278,49 @@ Different actions require different roles as well. In the process description, t
         </table>
         
 
+-   Quality Manager
+
+    -   Approves or rejects ATC Exemptions
+    -   Needs authorization for business catalogs
+
+
+    <table>
+    <tr>
+    <th valign="top">
+
+    Catalog ID
+    
+    </th>
+    <th valign="top">
+
+    Catalog Description
+    
+    </th>
+    <th valign="top">
+
+    Needed for
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    AP\_A4C\_BC\_DEV\_CHKE\_APR\_PC
+    
+    </td>
+    <td valign="top">
+    
+    Quality Management - ABAP Test Cockpit Exemption Approval
+    
+    </td>
+    <td valign="top">
+    
+    [Approving or rejecting ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/approving-and-rejecting-atc-exemptions)
+    
+    </td>
+    </tr>
+    </table>
+    
 -   Tester
     -   Tests the software
 

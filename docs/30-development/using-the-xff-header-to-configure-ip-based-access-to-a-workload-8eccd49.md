@@ -19,7 +19,11 @@ Expose your workload and configure IP-based access using the X-Forwarded-For \(X
     > Because the default Kyma domain is a wildcard domain, which uses a simple TLS Gateway, it is recommended that you set up your custom domain for use in a production environment.
 
     > ### Tip:  
-    > To learn what the default domain of your Kyma cluster is, run `kubectl get gateway -n kyma-system kyma-gateway -o jsonpath='{.spec.servers[0].hosts}`
+    > To learn what the default domain of your Kyma cluster is, run the following command:
+    > 
+    > ```
+    > kubectl get gateway -n kyma-system kyma-gateway -o jsonpath='{.spec.servers[0].hosts}'
+    > ```
 
 
 

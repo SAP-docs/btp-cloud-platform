@@ -8,9 +8,9 @@ ABAP development tools for Eclipse is SAP’s state-of-the-art integrated develo
 
 ## Features
 
-ABAP development tools for Eclipse enables you to perform ABAP-based development tasks, when you want to build, to extend, and to run ABAP applications based on SAP products, such as SAP S/4HANA and SAP S/4HANA Cloud, private edition for classic ABAP development as well as SAP BTP ABAP environment and SAP S/4HANA Cloud for Cloud development.
+ABAP development tools for Eclipse enables you to perform ABAP-based development tasks when you want to build, extend, and run ABAP applications based on SAP products, such as SAP S/4HANA and SAP S/4HANA Cloud Private Edition for classic ABAP development as well as SAP BTP ABAP environment and SAP S/4HANA Cloud Public Edition for Cloud development.
 
-ABAP development tools for Eclipse supports ABAP developers with the following possibilities:
+It supports ABAP developers with the following possibilities:
 
 -   Highly flexible, customizable Eclipse UI for ABAP development tools
 
@@ -27,7 +27,7 @@ ABAP development tools for Eclipse supports ABAP developers with the following p
 -   Built-in extensibility of the IDE using the established Eclipse plug-in technology
 
 
-In particular, ABAP development tools for Eclipse is a modern development toolset where ABAP developers can use, for example the following features:
+In particular, ABAP development tools for Eclipse is a modern development toolset where ABAP developers can use, among others, the following features:
 
 -   Syntax check
 
@@ -43,18 +43,26 @@ In particular, ABAP development tools for Eclipse is a modern development toolse
 
 -   Quick fixes
 
--   and many more
-
 
 
 
 <a name="loio54dd7126d5b74efeb7a21f6b0bfe5f1a__section_k2h_hhy_gxb"/>
 
-## Tools User Guides
+## Help Content
 
-The [ABAP Development Tools: User Guide](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide?version=sap_btp) describes the functionality and usage of the possibilities. It focuses on use cases for creating, editing, testing, debugging, and profiling development objects.
+The [ABAP Development Tools for Eclipse guide](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide?version=sap_cross_product_abap) describes the following features and functionalities of ADT:
 
-The [ABAP CDS Development Tools: User Guide](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/about-abap-cds-development-tools-user-guide?version=sap_btp) describes the functionality and usage of tools for ABAP Core Data Services \(CDS\) in the ABAP environment. It focuses on use cases for creating, editing, testing, and analyzing ABAP CDS entities.
+-   Joule for developers, ABAP AI capabilities supports you in the end-to-end development using generative AI and can be integrated into ABAP development tools for Eclipse. It's currently only available for customers using SAP BTP ABAP environment or SAP S/4HANA Cloud Public Edition. To leverage Joule for developers, ABAP AI capabilities, you need to purchase an additional license. See [Getting Started](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/prerequisites-and-required-authorizations).
+-   Within the ABAP core development scenario: In particular, it focuses on use cases for creating, editing, testing, debugging, and profiling development objects like ABAP classes, ABAP Dictionary objects, function modules and so forth.
+
+-   For Core Data Services \(CDS\) in ABAP development for SAP HANA scenarios: In particular, it focuses on use cases for creating, editing, testing, and analyzing **ABAP CDS entities** like data definitions and so forth.
+
+-   When developing all types of SAP Fiori applications as well as publishing Web APIs in the context of the ABAP RESTful Application Programming Model \(RAP\)
+
+-   When creating lifecycle-stable and cloud-ready business apps, services, and extensions in the context of the [ABAP Cloud development model](https://help.sap.com/docs/abap-cloud/abap-cloud/abap-cloud-in-nutshell)
+
+-   For the integration of native SAP HANA objects \(in the context of SAP HANA repository content\) within the ABAP layer
+
 
 
 
@@ -88,5 +96,5 @@ To install ABAP development tools for Eclipse, follow the [Installation Guide](h
 
 ## Support
 
-The use of ABAP development tools for Eclipse is subject to the terms and conditions of your license agreement with SAP which is directly related to the SAP shipment channel from whichABAP development tools for Eclipse was initially downloaded and installed.
+The use of ABAP development tools for Eclipse is subject to the terms and conditions of your license agreement with SAP which is directly related to the SAP shipment channel from which ABAP development tools for Eclipse was initially downloaded and installed.
 

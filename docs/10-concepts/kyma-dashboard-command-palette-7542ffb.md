@@ -16,7 +16,7 @@ You can use the command palette to perform the following actions:
 
     ![](images/Command_Palette_Quick_Navigation_9efa6cf.png)
 
--   To see all navigation options and the resources' aliases, enter enter the question mark sign `(?)`. For example, if you want to see your namespaces, it's enough to type `ns`.
+-   To see all navigation options and the resources' aliases, enter the question mark sign `(?)`. For example, if you want to see your namespaces, it's enough to type `ns`.
 
     ![](images/Namespaces_navigation_e12775a.png)
 

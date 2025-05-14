@@ -2,14 +2,16 @@
 
 # Use Case 2: One Development and Correction Codeline in a 5-System Landscape
 
-You can apply this setup if you have permanent/infinite development activities for large applications with many developers, where development cannot be paused to implement an urgent correction. Corrections need to run in parallel to development and on a released state. You need to separate testing from development to ensure the solutions also runs in a non-development system before being delivered to production. ![](images/One_Development_and_Correction_Codeline_in_a_5-ABAP-System_Landscape_cabc7ee.png)
+You can apply this setup if you have permanent/infinite development activities for large applications with many developers, where development cannot be paused to implement an urgent correction. Software component branches are provided remotely in a Git repository branch and checked out locally in such systems. In case of released APIs in the involved software components, API snapshots are generated locally after release decisions. Corrections need to run in parallel to development and on a released state. You need to separate testing from development to ensure the solutions also runs in a non-development system before being delivered to production.
+
+![](images/GlobalCustomerAcc2_a30444d.png)
 
 General considerations:
 
 -   Systems COR and QAS have the same software state as production system PRD, unless a new change is tested and released. This means transport requests are released in the DEV system only if development is completed and if it is planned to import the changes to the production system.
 -   Releases are planned and communicated to development in advance:
     -   Upon cut-off date, development is finished. All development that is released at this time must be tested and be of good quality. From then on, you have to fix defects in the COR system and maintain them in parallel in the DEV system.
-    -   Upon release date, all defects must be fixed. If you make the decision during testing in the QAS system that a complete functionality is not delivered, developers must delete, revert, or disable the functionality in the COR system and release the corresponding transport requests. You cannot remove objects from the release branch, e.g. by deselecting transport requests. To revert objects to an older transported state, use the compare editor of the Eclipse *History* view. If the withdrawal of the functionality shall be performed in the DEV system as well it is considered as a correction and you have to perform double maintenance of corrections into the DEV system. The released software state from the COR system is imported into the production system\(s\) PRD.
+    -   Upon release date, all defects must be fixed. If you make the decision during testing in the QAS system that a complete functionality is not delivered, developers must delete, revert, or disable the functionality in the COR system and release the corresponding transport requests. You cannot remove objects from the release branch, e.g. by deselecting transport requests. To revert objects to an older transported state, use the compare editor of the Eclipse *History* view. If the withdrawal of the functionality should be performed in the DEV system as well, it is considered as a correction and you have to perform double maintenance of corrections into the DEV system. The released software state from the COR system is imported into the production system\(s\) PRD.
 
 -   System COR is usually locked for development. First, this means developers cannot do changes by default and there are two approaches how to handle this:
 
@@ -108,6 +110,8 @@ The Go Live process is characterized by creating different systems only when nee
 
 -   Development system DEV and test system TST are on the main branch
 -   Correction system COR, quality assurance system QAS, and production system PRD are on release branch YYYY-<nn\>
+-   Software component relations are defined for dependencies between leading- and reuse software components in the YYYY-<nn\> release
+-   In case of released APIs: In the development system DEV, test system TST, correction system COR and quality assurance system QAS, a check-relevant API snapshot named YYYY-<nn\> was generated manually with all released APIs extracted
 
 This process can also be used for deferrable corrections, which do not need to reach production before the next development release. These corrections are handled like normal development.
 
@@ -197,7 +201,7 @@ Developer
 </td>
 <td valign="top">
 
-Develop a new functionality or a deferrable correction. All changes are collected in Workbench transport requests
+Develop a new functionality or a deferrable correction. All changes are collected in Workbench transport requests. During Development ATC checks are running \([Working with ATC During Development](https://help.sap.com/docs/btp/sap-abap-development-user-guide/working-with-atc-during-development?version=Cloud)\) and exemptions requested for false-positive findings \([Requesting ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/requesting-atc-exemptions)\). Make sure to maintain new dependencies between software components in software component relations, see [Editing Software Component Relations](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/editing-software-component-relations).
 
 </td>
 <td valign="top">
@@ -236,7 +240,7 @@ Maintain business configuration. All changes are collected in customizing transp
 <tr>
 <td valign="top">
 
-2 a
+2
 
 </td>
 <td valign="top">
@@ -246,24 +250,24 @@ DEV
 </td>
 <td valign="top">
 
-Developer
+Quality Manager
 
 </td>
 <td valign="top">
 
-Once development is finished, release the transport request\(s\). The changes are now in the main branch
+[Approve or reject ATC exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/approving-and-rejecting-atc-exemptions) 
 
 </td>
 <td valign="top">
 
-ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing Transports* app
+ABAP Development Tools for Eclipse: ATC Exemptions
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-2 b
+3
 
 </td>
 <td valign="top">
@@ -278,21 +282,19 @@ Release Manager
 </td>
 <td valign="top">
 
-The released API has to be part of development and the development has to be finished.
-
-Snaphots are pulled after development after the API objects are released. The snapshot has to be set to check-relevant. Then, the ATC compatibility check should run.
+Once development is finished, release the transport request\(s\). During transport release, ATC checks are running, see [Working with ATC During Transport Release](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release). The changes are now in the main branch
 
 </td>
 <td valign="top">
 
-*Manage API Snapshots* app
+ABAP Development Tools for Eclipse: Transport Organizer or Export Customizing Transports app
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-3
+4
 
 </td>
 <td valign="top">
@@ -319,7 +321,7 @@ Pull the software component\(s\) into system TST
 <tr>
 <td valign="top">
 
-4
+5
 
 </td>
 <td valign="top">
@@ -334,12 +336,12 @@ Tester
 </td>
 <td valign="top">
 
-Test the change and report the test result
+Test the change and report the test result. [During Testing ATC checks are running](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/manage-api-snapshots?version=Cloud).
 
 </td>
 <td valign="top">
 
-ABAP Development Tools for Eclipse and custom SAP Fiori apps as well as external test tools
+ABAP Development Tools for Eclipse and custom SAP Fiori apps as well as external test tools. Refer to [Automate the Software Lifecycle Management Process](https://help.sap.com/docs/btp/sap-business-technology-platform/automate-software-lifecycle-management-process?version=Cloud) 
 
 External documentation tool
 
@@ -363,7 +365,7 @@ External documentation tool
 </td>
 <td valign="top">
 
-If changes are required, repeat steps 1-4
+If changes are required, repeat steps 1-5
 
 </td>
 <td valign="top">
@@ -375,7 +377,39 @@ If changes are required, repeat steps 1-4
 <tr>
 <td valign="top">
 
-5
+6
+
+</td>
+<td valign="top">
+
+TST/DEV
+
+</td>
+<td valign="top">
+
+Release Manager
+
+</td>
+<td valign="top">
+
+Before Cutoff: In case of Released APIs, Create and generate a new API snapshot YYYY-<nn+1\> for the new release. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks.
+
+> ### Caution:  
+> Currently API snapshots need to be generated locally per system. Please be careful to not release new APIs between the release decision and snapshot creation.
+
+
+
+</td>
+<td valign="top">
+
+[Manage API Snapshots app](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/manage-api-snapshots?version=Cloud) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+7
 
 </td>
 <td valign="top">
@@ -402,7 +436,7 @@ Cutoff: at cutoff date, create a release branch YYYY-<nn+1\> for each software c
 <tr>
 <td valign="top">
 
-6
+8
 
 </td>
 <td valign="top">
@@ -429,7 +463,7 @@ Check out the release branch YYYY-<nn+1\> of each software component \(at Go Liv
 <tr>
 <td valign="top">
 
-7
+9
 
 </td>
 <td valign="top">
@@ -444,12 +478,12 @@ Tester
 </td>
 <td valign="top">
 
-Test the release candidate and report the test result
+Test the release candidate and report the test result. [During testing ATC checks are running.](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release) 
 
 </td>
 <td valign="top">
 
-ABAP Development Tools for Eclipse with ADT and custom SAP Fiori apps as well as external test tools
+ABAP Development Tools for Eclipse with ADT and custom SAP Fiori apps as well as external test tools. Refer to [Automate the Software Lifecycle Management Process](https://help.sap.com/docs/btp/sap-business-technology-platform/automate-software-lifecycle-management-process?version=Cloud).
 
 External documentation tool
 
@@ -458,7 +492,7 @@ External documentation tool
 <tr>
 <td valign="top">
 
-8
+10
 
 </td>
 <td valign="top">
@@ -485,7 +519,7 @@ Check out the branch YYYY-<nn+1\> of each software component \(at Go Live: YYYY-
 <tr>
 <td valign="top" rowspan="2">
 
-9
+11
 
 </td>
 <td valign="top" rowspan="2">
@@ -524,7 +558,7 @@ If required, create a customizing transport request and create tasks for the rel
 <tr>
 <td valign="top">
 
-10a
+12a
 
 </td>
 <td valign="top">
@@ -539,7 +573,7 @@ Developer
 </td>
 <td valign="top">
 
-Implement development-related corrections
+Implement development-related corrections. [During testing ATC checks are running.](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release) and exemptions requested for false-positive findings \([Requesting ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/requesting-atc-exemptions)\).
 
 </td>
 <td valign="top">
@@ -551,7 +585,7 @@ ABAP Development Tools for Eclipse
 <tr>
 <td valign="top">
 
-10b
+12b
 
 </td>
 <td valign="top">
@@ -578,7 +612,7 @@ Implement corrections to business configuration content
 <tr>
 <td valign="top">
 
-11
+13
 
 </td>
 <td valign="top">
@@ -588,12 +622,41 @@ COR
 </td>
 <td valign="top">
 
-Developer
+Quality Manager
 
 </td>
 <td valign="top">
 
-Release the development transport request\(s\). The changes are now in the release candidate.
+[Approve or reject ATC exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/approving-and-rejecting-atc-exemptions) 
+
+</td>
+<td valign="top">
+
+ABAP Development
+
+Tools for Eclipse: ATC Exemptions
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+14
+
+</td>
+<td valign="top">
+
+COR
+
+</td>
+<td valign="top">
+
+Release Manager
+
+</td>
+<td valign="top">
+
+Release the development transport request\(s\). [During testing ATC checks are running](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release). The changes are now in the release candidate.
 
 </td>
 <td valign="top">
@@ -605,7 +668,7 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 <tr>
 <td valign="top">
 
-12
+15
 
 </td>
 <td valign="top">
@@ -632,7 +695,7 @@ Pull the software component\(s\) to get the correction into the already checked 
 <tr>
 <td valign="top">
 
-13
+16
 
 </td>
 <td valign="top">
@@ -647,12 +710,12 @@ Tester
 </td>
 <td valign="top">
 
-Test the change and report the test result
+Test the change and report the test result. [During testing ATC checks are running.](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release)
 
 </td>
 <td valign="top">
 
-ABAP Development Tools for Eclipse and custom SAP Fiori apps as well as external test tools
+ABAP Development Tools for Eclipse and custom SAP Fiori apps as well as external test tools. Refer to [Automate the Software Lifecycle Management Process](https://help.sap.com/docs/btp/sap-business-technology-platform/automate-software-lifecycle-management-process?version=Cloud)
 
 External documentation tool
 
@@ -676,7 +739,7 @@ External documentation tool
 </td>
 <td valign="top">
 
-If changes are required, repeat steps 11-13
+If changes are required, repeat steps 12 -16
 
 </td>
 <td valign="top">
@@ -688,7 +751,7 @@ If changes are required, repeat steps 11-13
 <tr>
 <td valign="top">
 
-14
+17
 
 </td>
 <td valign="top">
@@ -715,7 +778,39 @@ External documentation tool
 <tr>
 <td valign="top">
 
-15
+18
+
+</td>
+<td valign="top">
+
+QAS/COR
+
+</td>
+<td valign="top">
+
+Release Manager
+
+</td>
+<td valign="top">
+
+In case of Released APIs: Generate the API snapshot YYYY-<nn+1\> for the new release in the correction code line. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks.
+
+> ### Caution:  
+> Currently API snapshots need to be generated locally per system. Please be careful to not release new APIs between the release decision and snapshot creation.
+
+
+
+</td>
+<td valign="top">
+
+[Manage API Snapshots app](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/manage-api-snapshots?version=Cloud)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+19
 
 </td>
 <td valign="top">
@@ -742,7 +837,7 @@ Check out the release branch YYYY-<nn+1\> of each software component \(at GoLive
 <tr>
 <td valign="top" rowspan="2">
 
-16
+20
 
 </td>
 <td valign="top">
@@ -786,7 +881,7 @@ If required, create a customizing transport request for the double maintenance o
 <tr>
 <td valign="top">
 
-17a
+21a
 
 </td>
 <td valign="top">
@@ -801,7 +896,7 @@ Developer
 </td>
 <td valign="top">
 
-Perform double maintenance of your development-related corrections in the main branch
+Perform double maintenance of your development-related corrections in the main branch. During Development ATC checks are running [During testing ATC checks are running.](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release) and exemptions requested for false-positive findings \([Requesting ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/requesting-atc-exemptions)\).
 
 </td>
 <td valign="top">
@@ -813,7 +908,7 @@ ABAP Development Tools for Eclipse
 <tr>
 <td valign="top">
 
-17b
+21b
 
 </td>
 <td valign="top">
@@ -828,7 +923,7 @@ Business Configuration Expert
 </td>
 <td valign="top">
 
-Perform double maintenance of your business configuration corrections in the main branch
+Perform double maintenance of your business configuration corrections in the main branch.
 
 </td>
 <td valign="top">
@@ -840,7 +935,34 @@ Perform double maintenance of your business configuration corrections in the mai
 <tr>
 <td valign="top">
 
-17c
+21c
+
+</td>
+<td valign="top">
+
+DEV
+
+</td>
+<td valign="top">
+
+Quality Manager
+
+</td>
+<td valign="top">
+
+[Approve or reject ATC exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/approving-and-rejecting-atc-exemptions)
+
+</td>
+<td valign="top">
+
+ABAP Development Tools for Eclipse: ATC Exemptions
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+21d
 
 </td>
 <td valign="top">
@@ -855,7 +977,7 @@ Release Manager
 </td>
 <td valign="top">
 
-Release the transport request\(s\). The corrections are now implemented both in the main branch and in the current release branch.
+Release the transport request\(s\). [During transport release ATC checks are running](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release). The corrections are now implemented both in the main branch and in the current release branch.
 
 </td>
 <td valign="top">
@@ -867,7 +989,7 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 <tr>
 <td valign="top">
 
-18
+22
 
 </td>
 <td valign="top">
@@ -916,6 +1038,7 @@ If issues during the test phase of YYYY-<nn+1\> cannot be fixed in a reasonable 
 
 -   Correction system COR, quality assurance system QAS, and production system PRD are on release branch YYYY-<nn\>
 
+-   In case of released APIs: In the development system DEV, test system TST, correction system COR and quality assurance system QAS a check-relevant API snapshot named YYYY-<nn\> is generated with all released APIs extracted
 
 This process is a subset of the previous development process and can be applied to corrections that are too urgent to release with the next development release.
 
@@ -1005,7 +1128,7 @@ Developer
 </td>
 <td valign="top">
 
-Create a Workbench transport request and implement the correction
+Create a Workbench transport request and implement the correction. [During Development ATC checks are running](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/requesting-atc-exemptions) and exemptions requested for false-positive findings \([Requesting ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/requesting-atc-exemptions)\).
 
 </td>
 <td valign="top">
@@ -1054,12 +1177,39 @@ COR
 </td>
 <td valign="top">
 
+Quality Manager
+
+</td>
+<td valign="top">
+
+[Approve or reject ATC exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/approving-and-rejecting-atc-exemptions) 
+
+</td>
+<td valign="top">
+
+ABAP Development Tools for Eclipse: ATC Exemptions
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+4
+
+</td>
+<td valign="top">
+
+COR
+
+</td>
+<td valign="top">
+
 Release Manager
 
 </td>
 <td valign="top">
 
-Release the transport request\(s\). The changes are now in the release candidate
+Release the transport request\(s\). [During transport release ATC checks are running](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release) The changes are now in the release candidate
 
 </td>
 <td valign="top">
@@ -1071,7 +1221,7 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 <tr>
 <td valign="top">
 
-4
+5
 
 </td>
 <td valign="top">
@@ -1091,14 +1241,14 @@ Pull the already checked out branch YYYY-<nn+1\> of each software component into
 </td>
 <td valign="top">
 
-*Manage Software Components* app or external tool calling the pull service of communication scenario `Test Integration`
+*Manage Software Components* app or external tool calling the pull service of communication scenario [Test Integration \(SAP\_COM\_0510\)](https://help.sap.com/docs/btp/sap-business-technology-platform/test-integration-sap-com-0510?version=Cloud) 
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-5
+6
 
 </td>
 <td valign="top">
@@ -1113,12 +1263,12 @@ Tester
 </td>
 <td valign="top">
 
-Test the change and report the test result
+Test the change and report the test result. [During transport release ATC checks are running](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release).
 
 </td>
 <td valign="top">
 
-ABAP Development Tools for Eclipse and custom SAP Fiori apps as well as external test tools
+ABAP Development Tools for Eclipse and custom SAP Fiori apps as well as external test tools, see [Automate the Software Lifecycle Management Process](https://help.sap.com/docs/btp/sap-business-technology-platform/automate-software-lifecycle-management-process?version=Cloud).
 
 External documentation tool
 
@@ -1142,7 +1292,7 @@ External documentation tool
 </td>
 <td valign="top">
 
-If changes are required, repeat steps 2-5
+If changes are required, repeat steps 2-6
 
 </td>
 <td valign="top">
@@ -1154,7 +1304,7 @@ If changes are required, repeat steps 2-5
 <tr>
 <td valign="top">
 
-6
+7
 
 </td>
 <td valign="top">
@@ -1181,7 +1331,7 @@ External documentation tool
 <tr>
 <td valign="top">
 
-7
+8
 
 </td>
 <td valign="top">
@@ -1206,9 +1356,9 @@ Pull the already checked out release branch YYYY-<nn+1\> of each software compon
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
-8
+9
 
 </td>
 <td valign="top">
@@ -1216,7 +1366,7 @@ Pull the already checked out release branch YYYY-<nn+1\> of each software compon
 COR
 
 </td>
-<td valign="top" rowspan="2">
+<td valign="top">
 
 Release Manager
 
@@ -1235,7 +1385,17 @@ Disable the respective development users for development in system COR
 <tr>
 <td valign="top">
 
+10
+
+</td>
+<td valign="top">
+
 DEV
+
+</td>
+<td valign="top">
+
+Release Manager
 
 </td>
 <td valign="top">
@@ -1245,14 +1405,14 @@ If required, create a customizing transport request for the double maintenance o
 </td>
 <td valign="top">
 
-*Export Customizing Transports* app
+*Export Customizing Transports*
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-9a
+11a
 
 </td>
 <td valign="top">
@@ -1267,7 +1427,7 @@ Developer
 </td>
 <td valign="top">
 
-Perform double maintenance of your development-related corrections in the main branch
+Perform double maintenance of your development-related corrections in the main branch. [During transport release ATC checks are running](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release) and exemptions requested for false-positive findings \([Requesting ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/requesting-atc-exemptions)\).
 
 </td>
 <td valign="top">
@@ -1279,7 +1439,7 @@ ABAP Development Tools for Eclipse
 <tr>
 <td valign="top">
 
-9b
+11b
 
 </td>
 <td valign="top">
@@ -1306,7 +1466,34 @@ Perform double maintenance of your business configuration corrections in the mai
 <tr>
 <td valign="top">
 
-9c
+11c
+
+</td>
+<td valign="top">
+
+DEV
+
+</td>
+<td valign="top">
+
+Quality Manager
+
+</td>
+<td valign="top">
+
+[Approve or reject ATC exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/approving-and-rejecting-atc-exemptions) 
+
+</td>
+<td valign="top">
+
+ABAP Development Tools for Eclipse: ATC Exemptions
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+11d
 
 </td>
 <td valign="top">
@@ -1321,7 +1508,7 @@ Release Manager
 </td>
 <td valign="top">
 
-Release the transport request\(s\). The corrections are now implemented both in the main branch and in the current release branch.
+Release the transport request\(s\). [During transport release ATC checks are running](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-during-transport-release). The corrections are now implemented both in the main branch and in the current release branch.
 
 </td>
 <td valign="top">
@@ -1333,7 +1520,7 @@ ABAP Development Tools for Eclipse: Transport Organizer or *Export Customizing T
 <tr>
 <td valign="top">
 
-10
+12
 
 </td>
 <td valign="top">

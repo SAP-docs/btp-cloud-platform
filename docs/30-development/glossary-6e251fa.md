@@ -143,6 +143,30 @@ ABAP Test Cockpit checks can be executed using `abapEnvironmentRunATCCheck`. The
 <tr>
 <td valign="top">
 
+API Snapshot
+
+</td>
+<td valign="top">
+
+To be able to run API compatibility checks for your released objects using the ATC check `API_COMPATIBILITY`, you need to create API snapshots for your applications components beforehand. See [Creating API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-api-snapshots?version=Cloud)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+API \(Relase\) State
+
+</td>
+<td valign="top">
+
+The API release state of a development object defines whether the object can be used for stable custom development. For some release contracts the visibility in certain ABAP language versions can be set. See [Released APIs](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/released-apis?version=sap_btp).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Branch
 
 </td>
@@ -235,18 +259,6 @@ Correction codeline
 <td valign="top">
 
 Corrections need to run in parallel to development and on a released state. This is performed in the correction codeline and on a maintenance branch.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Cx server
-
-</td>
-<td valign="top">
-
-Cx server is a life-cycle management tool to bootstrap a preconfigured Jenkins instance within minutes on your own \(virtual\) server, that uses Docker images. To avoid manual startup of the Docker image with all the required parameters and sidecar images, this command line tool automates the bootstrapping. See [Cx Server](https://sap.github.io/jenkins-library/infrastructure/overview/#cx-server-recommended).
 
 </td>
 </tr>
@@ -479,6 +491,18 @@ Software component
 <td valign="top">
 
 In ABAP environment systems, you develop within software components \(also called repositories\). The add-ons being built in this scenario are made up by one or multiple software components combined to an add-on product. See [Software Components](software-components-58480f4.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Software Component Relation
+
+</td>
+<td valign="top">
+
+Software component relations define access permissions and dependencies between software components. For more information, see [Software Component Relations](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/software-component-relations)
 
 </td>
 </tr>

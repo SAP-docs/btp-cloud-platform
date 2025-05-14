@@ -4,13 +4,21 @@
 
 Get an overview of all available user guides for ABAP development tools for Eclipse.
 
-**[ABAP Development Tools for Eclipse: User Guide](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide?version=sap_btp)**
+**[ABAP Development Tools for Eclipse](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide?version=sap_btp)**
 
-This guide describes the functionality and usage of the possibilities within the ABAP development tools for Eclipse. It focuses on use cases for creating, editing, testing, debugging, and profiling development objects.
+This guide describes the tool set and functionality of [ABAP development tools for Eclipse](https://help.sap.com/docs/ABAP_DEVELOPMENT_TOOLS_FOR_ECLIPSE) \(ADT\):
 
-**[ABAP CDS Development Tools: User Guide](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/about-abap-cds-development-tools-user-guide?version=sap_btp)**
+-   Joule for developers, ABAP AI capabilities supports you in the end-to-end development using generative AI and can be integrated into ABAP development tools for Eclipse. It's currently only available for customers using SAP BTP ABAP environment or SAP S/4HANA Cloud Public Edition. To leverage Joule for developers, ABAP AI capabilities, you need to purchase an additional license. See[Getting Started](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/prerequisites-and-required-authorizations) .
+-   Within the ABAP core development scenario: In particular, it focuses on use cases for creating, editing, testing, debugging, and profiling development objects like ABAP classes, ABAP Dictionary objects, function modules and so forth
 
-This guide describes the functionality and usage of tools for Core Data Services \(CDS\) in the ABAP environment. It focuses on use cases for creating, editing, testing, and analyzing ABAP CDS entities.
+-   for Core Data Services \(CDS\) in ABAP development for SAP HANA scenarios: In particular, it focuses on use cases for creating, editing, testing, and analyzing ABAP CDS entities like data definitions and so forth.
+
+-   When developing all types of SAP Fiori applications as well as publishing Web APIs in the context of the ABAP RESTful Application Programming Model \(RAP\)
+
+-   When creating lifecycle-stable and cloud-ready business apps, services, and extensions in the context of the [ABAP Cloud development model](https://help.sap.com/docs/abap-cloud/abap-cloud/abap-cloud-in-nutshell)
+
+-   For the integration of native SAP HANA objects \(in the context of SAP HANA repository content\) within the ABAP layer
+
 
 **[Generative AI in ABAP Cloud](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/generative-ai-in-abap-cloud?locale=en-US)**
 
