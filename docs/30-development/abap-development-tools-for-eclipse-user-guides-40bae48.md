@@ -13,7 +13,7 @@ This guide describes the tool set and functionality of [ABAP development tools f
 
 -   for Core Data Services \(CDS\) in ABAP development for SAP HANA scenarios: In particular, it focuses on use cases for creating, editing, testing, and analyzing ABAP CDS entities like data definitions and so forth.
 
--   When developing all types of SAP Fiori applications as well as publishing Web APIs in the context of the ABAP RESTful Application Programming Model \(RAP\)
+-   When developing all types of SAP Fiori applications as well as publishing Web APIs in the context of the Joule for developers, ABAP AI capabilities \(RAP\)
 
 -   When creating lifecycle-stable and cloud-ready business apps, services, and extensions in the context of the [ABAP Cloud development model](https://help.sap.com/docs/abap-cloud/abap-cloud/abap-cloud-in-nutshell)
 

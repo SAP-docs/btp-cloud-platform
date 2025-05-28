@@ -21,7 +21,7 @@ When you work with Joule, you could have questions about the things you see in t
 
 ### I'm seeing an error message
 
--   Try resetting the conversation with Joule by clicking the reset arrow button.
+-   Try restarting the conversation with Joule by clicking the *New Conversation* button in the Joule menu.
 -   Rephrasing your query may help Joule better understand what you want it to do.
 
 
@@ -31,7 +31,15 @@ When you work with Joule, you could have questions about the things you see in t
 ### Joule has stopped responding
 
 -   If Joule does not respond to your prompt, try asking again or asking "are you still there?"
--   Try resetting the conversation with Joule by clicking the reset arrow button.
+-   Try restarting the conversation with Joule by clicking the *New Conversation* button in the Joule menu.
+
+
+
+
+
+### I'm getting an Identity Provider error message
+
+-   If you're seeing an error message about the Identity Provider configuration, try enabling third-party cookies in your browser.
 
 
 
@@ -39,5 +47,5 @@ When you work with Joule, you could have questions about the things you see in t
 
 ## Get Support
 
-If you need more help, please see [Getting Support](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/5dd739823b824b539eee47b7860a00be.html?locale=en-US&state=PRODUCTION&version=Cloud). Please use ticket component **BC-CP-CPT-AI** when contacting support. It may be helpful to include screen shots of your interactions with Joule in the cockpit.
+If you need more help, see [Getting Support](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/5dd739823b824b539eee47b7860a00be.html?locale=en-US&state=PRODUCTION&version=Cloud). Please use ticket component **BC-CP-CPT-AI** when contacting support. It may be helpful to include screen shots of your interactions with Joule in the cockpit.
 

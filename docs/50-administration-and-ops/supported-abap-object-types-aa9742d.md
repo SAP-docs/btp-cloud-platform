@@ -79,6 +79,40 @@ Objects from AIF content
 <tr>
 <td valign="top">
 
+AIFN
+
+</td>
+<td valign="top">
+
+Namespace
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+AIFR
+
+</td>
+<td valign="top">
+
+Recipient
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 AOBJ
 
 </td>
@@ -515,6 +549,23 @@ Data Flow
 <td valign="top">
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DOBJ
+
+</td>
+<td valign="top">
+
+Data Destruction Object
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

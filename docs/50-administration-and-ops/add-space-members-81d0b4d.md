@@ -79,7 +79,7 @@ You also have the following options:
 **Related Information**  
 
 
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
+[Cloud Management Tools](../10-concepts/cloud-management-tools-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
 [Add Org Members Using the Cockpit](add-org-members-a4eeaf1.md "In the SAP BTP cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 

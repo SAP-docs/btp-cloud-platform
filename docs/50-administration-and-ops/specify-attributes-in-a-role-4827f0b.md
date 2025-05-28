@@ -113,7 +113,7 @@ You have maintained the attributes of the users in your identity provider.
 
 [Subscribe to Multitenant Applications Using the Cockpit](subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md "Subscribe to multitenant applications from the Subscriptions page in the SAP BTP cockpit.")
 
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
+[Cloud Management Tools](../10-concepts/cloud-management-tools-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
 [Attributes](attributes-713f52a.md "Attributes use information that is specific to the user, for example the user's country. If the application developer in the Cloud Foundry environment of SAP BTP has created a country attribute to a role, this restricts the data a business user can see based on this attribute.")
 

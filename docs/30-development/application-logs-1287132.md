@@ -444,7 +444,7 @@ If you have set up pipeline health monitoring, check the alerts and reports in a
 
 -   **Throughput**: Each Fluent Bit Pod \(each running on a dedicated Node\) can process up to 10 MB/s of logs for a single `LogPipeline`. With multiple pipelines, the throughput per pipeline is reduced. The used logging backend or performance characteristics of the output plugin might limit the throughput earlier.
 
--   **Max Amount of Pipelines**: The maximum amount of LogPipeline resources is 5.
+-   **Multiple LogPipeline Support**: The maximum amount of LogPipeline resources is 5.
 
 
 

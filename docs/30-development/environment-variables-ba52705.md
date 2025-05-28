@@ -348,11 +348,11 @@ The default value for `DYNAMIC_IDENTITY_PROVIDER` is `false`.
 
 If configured, the application router sends additional HTTP headers in its responses to a client request. You can set the additional HTTP headers in the *<httpHeaders\>* environment variable. The following example configuration shows how to configure the application router to send two additional headers in the responses to the client requests from the application *<myApp\>*:
 
-<code>cf set-env <i class="varname">&lt;myApp&gt;</i> httpHeaders "[ { \"X-Frame-Options\": \"ALLOW-FROM http://acme.com\" }, { \"Test-Additional-Header\": \"1\" } ]"</code>
+<code>cf set-env <i class="varname">&lt;myApp&gt;</i> httpHeaders "[ { \"X-Frame-Options\": \"ALLOW-FROM http://example.com\" }, { \"Test-Additional-Header\": \"1\" } ]"</code>
 
 or
 
-<code>cf set-env <i class="varname">&lt;myApp&gt;</i> httpHeaders '[{ "X-Frame-Options": "ALLOW-FROM http://acme.com" }, { "Test-Additional-Header": "1" }]'</code>
+<code>cf set-env <i class="varname">&lt;myApp&gt;</i> httpHeaders '[{ "X-Frame-Options": "ALLOW-FROM http://example.com" }, { "Test-Additional-Header": "1" }]'</code>
 
 > ### Tip:  
 > To ensure better security of your application set the `Content-Security-Policy` header. This is a response header which informs browsers \(capable of interpreting it\) about the trusted sources from which an application expects to load resources. This mechanism allows the client to detect and block malicious scripts injected into the application. A value can be set via the *<httpHeaders\>* environment variable in the additional headers configuration. The value represents a security policy which contains directive-value pairs. The value of a directive is an allowlist of trusted sources.
@@ -649,7 +649,7 @@ The following example shows a simple configuration for the *<destinations\>* env
 > [
 >  {
 >    "name" : "ui5",
->    "url" : "https://sapui5.acme.com",
+>    "url" : "https://sapui5.example.com",
 >    "proxyHost" : "proxy",
 >    "proxyPort" : "8080",
 >    "forwardAuthToken" : false,
@@ -668,7 +668,7 @@ It is also possible to include the destinations in the `manifest.yml` file, as i
 >   path: web 
 >   env: destinations: > 
 >        [
->         {"name":"ui5", "url":"https://sapui5.acme.com"} 
+>         {"name":"ui5", "url":"https://sapui5.example.com"} 
 >        ]
 > ```
 
@@ -831,7 +831,7 @@ Yes
 </td>
 <td valign="top">
 
-A valid host name, for example, `acme.com.hostname`, or a domain name defined with an asterisk \(\*\) `*.acme.com`.
+A valid host name, for example, `example.com.hostname`, or a domain name defined with an asterisk \(\*\) `*.example.com`.
 
 </td>
 </tr>
@@ -862,7 +862,7 @@ Port string or number containing a valid port.
 > ### Note:  
 > Matching is done against the properties provided. For example, if only the host name is provided, the allowlist service matches all schemata and protocols.
 
-<code>xs set-env <i class="varname">&lt;myApp1&gt;</i> CJ_PROTECT_WHITELIST {<i class="varname">&lt;*.acme.com&gt;</i>}</code>
+<code>xs set-env <i class="varname">&lt;myApp1&gt;</i> CJ_PROTECT_WHITELIST {<i class="varname">&lt;*.example.com&gt;</i>}</code>
 
 
 
@@ -875,7 +875,7 @@ When the application router receives an upgrade request, it verifies that the `o
 > ### Note:  
 > The structure of the *<WS\_ALLOWED\_ORIGINS\>* variable is the same as the variable *<CJ\_PROTECT\_WHITELIST\>*.
 
-<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> WS_ALLOWED_ORIGINS</code> \{*<\*.acme.com\>*\}
+<code>cf set-env <i class="varname">&lt;myApp1&gt;</i> WS_ALLOWED_ORIGINS</code> \{*<\*.example.com\>*\}
 
 
 
@@ -996,7 +996,7 @@ Cross-origin resource sharing \(CORS\) is a mechanism that allows restricted res
       ],
       "allowedOrigin": [
         {
-          "host": "host.acme.com",
+          "host": "host.example.com",
           "protocol": "https",
           "port": 345
         }
@@ -1083,7 +1083,7 @@ Yes
 </td>
 <td valign="top">
 
-A comma-separated list of objects each of which contains a host name, port and protocol that are allowed by the server, for example: `[{"host": "www.acme.com"}]` or `[{"host": ".acme.com"}]`.
+A comma-separated list of objects each of which contains a host name, port and protocol that are allowed by the server, for example: `[{"host": "www.example.com"}]` or `[{"host": ".example.com"}]`.
 
 > ### Note:  
 > Matching is case-sensitive. In addition, if no port or protocol is specified, the default is `"*"`.

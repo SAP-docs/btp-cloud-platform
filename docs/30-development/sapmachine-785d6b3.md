@@ -10,6 +10,8 @@ SapMachine works with the following application containers:
 
 -   [TomEE 7](tomee-7-79c039a.md)
 
+-   [TomEE 10](tomee-10-66e808e.md)
+
 -   [Tomcat 9](tomcat-9-ddfc101.md)
 
 -   [Tomcat 10](tomcat-10-97d0e34.md)
@@ -69,7 +71,7 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 11.+ }'
 ```
 
-To make the buildpack download a particular published JRE version \(for example, 11.0.13\), specify it the following way:
+To make the buildpack download a particular published JRE version \(for example, 11.0.27\), specify it the following way:
 
 ```
 ---
@@ -78,7 +80,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 11.0.13 }'
+    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 11.0.27 }'
   ...
 ```
 
@@ -101,7 +103,7 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 17.+ }'
 ```
 
-To make the buildpack download a particular published JRE version \(for example, 17.0.10\), specify it the following way:
+To make the buildpack download a particular published JRE version \(for example, 17.0.15\), specify it the following way:
 
 ```
 ---
@@ -110,7 +112,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 17.0.10 }'
+    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 17.0.15 }'
   ...
 ```
 
@@ -133,7 +135,7 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 21.+ }'
 ```
 
-To make the buildpack download a particular published JRE version \(for example, 21.0.2\), specify it the following way:
+To make the buildpack download a particular published JRE version \(for example, 21.0.7\), specify it the following way:
 
 ```
 ---
@@ -142,7 +144,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 21.0.2 }'
+    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 21.0.7 }'
   ...
 ```
 
@@ -175,7 +177,7 @@ To specify an online JDK version \(11, 17, or 21\), use environment variable JBP
 
 ### SapMachine 11
 
-To make the buildpack download a particular published JDK version \(for example, 11.0.22\), specify it the following way:
+To make the buildpack download a particular published JDK version \(for example, 11.0.27\), specify it the following way:
 
 ```
 ---
@@ -184,7 +186,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 11.0.22 }'
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 11.0.27 }'
   ...
 ```
 
@@ -213,7 +215,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.0.10 }'
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.0.15 }'
   ...
 ```
 
@@ -242,7 +244,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 21.0.2 }'
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 21.0.7 }'
   ...
 ```
 

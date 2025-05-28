@@ -245,7 +245,7 @@ without group/mission:
 
 -   [Add SAP BTP ABAP environment App to Portal Site](https://developers.sap.com/tutorials/abap-environment-portal-site-bas.html)
 
--   [Developing and extending SAP Fiori Elements Apps](https://open.sap.com/courses/fiori-ea1)
+-   [Developing and extending SAP Fiori Elements App](https://learning.sap.com/courses/developing-and-extending-sap-fiori-elements-apps)
 
 -   [RAP Feature Showcase App](https://github.com/SAP-samples/abap-platform-fiori-feature-showcase)
 
@@ -258,7 +258,7 @@ without group/mission:
 
 -   [Develop SAP Fiori App & Deploy to Cloud Foundry Using SAP-managed App Router](https://developers.sap.com/tutorials/abap-environment-deploy-cf.html)
 
--   [Add Cloud Foundry to Portal Side](https://developers.sap.com/tutorials/abap-environment-portal-site-vscode.html)
+-   [Add Cloud Foundry to Portal Site](https://developers.sap.com/tutorials/abap-environment-portal-site-vscode.html)
 
 -   [Set SAP BTP ABAP Environment as a ContentProvider for SAP Build Workzone, standard edition](https://developers.sap.com/tutorials/abap-environment-lp-service-content-provider.html)
 

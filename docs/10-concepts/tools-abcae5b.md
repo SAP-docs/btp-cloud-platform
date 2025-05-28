@@ -4,7 +4,7 @@
 
 SAP BTP includes many tools to help you develop and manage applications, and connect them to your on-premise systems.
 
-The availability of tools can depend on the cloud management tools feature set that you are running on. For more information, see [Cloud Management Tools — Feature Set Overview](cloud-management-tools-feature-set-overview-caf4e4e.md).
+For more information, see [Tools](tools-abcae5b.md).
 
 
 <table>

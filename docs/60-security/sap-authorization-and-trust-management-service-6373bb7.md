@@ -83,6 +83,23 @@ Java, SAP Cloud SDK
 <tr>
 <td valign="top">
 
+Learn how to build a cloud-native Node.js application that features secured service-to-service communication. The application shows you two different ways of securing service-to-service-communication \(by propagating a business user or using a technical user\).
+
+</td>
+<td valign="top">
+
+Node.js
+
+</td>
+<td valign="top">
+
+[GitHub](https://github.com/SAP-samples/cloud-nodejs-oflm#readme) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Learn how to secure microservices in SAP BTP using `spring-xsuaa` and Spring security. Furthermore, learn how to test the secured application using the`java-security-test` utilities.
 
 </td>
@@ -127,26 +144,9 @@ J2EE, SAP Java Buildpack
 </td>
 <td valign="top">
 
-[GitHub \(SAP Java Buildpack version <= 1.26.0\)](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/sap-java-buildpack-api-usage)
-
 [GitHub \(SAP Java Buildpack version \>=1.26.1\)](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/java-security-usage)
 
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Learn how to build a cloud-native Node.js application that features secured service-to-service communication. The application shows you two different ways of securing service-to-service-communication \(by propagating a business user or using a technical user\).
-
-</td>
-<td valign="top">
-
-Node.js
-
-</td>
-<td valign="top">
-
-[GitHub](https://github.com/SAP-samples/cloud-nodejs-oflm#readme) 
+[GitHub \(SAP Java Buildpack version <= 1.26.0\)](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/samples/sap-java-buildpack-api-usage)
 
 </td>
 </tr>
@@ -170,23 +170,6 @@ Java
 <tr>
 <td valign="top">
 
-Learn in this reference application how the service fits into a complete architecture of microservices that interact with each other propagating user information.
-
-</td>
-<td valign="top">
-
-Java
-
-</td>
-<td valign="top">
-
-[GitHub](https://github.com/SAP-samples/cloud-espm-cloud-native#security-implementation) 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Learn how to validate OAuth tokens using a Python library. Use this library to add authentication in your Python application.
 
 > ### Note:  
@@ -203,6 +186,23 @@ Python
 <td valign="top">
 
 [GitHub](https://github.com/SAP/cloud-pysec) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Learn in this reference application how the service fits into a complete architecture of microservices that interact with each other propagating user information.
+
+</td>
+<td valign="top">
+
+Java
+
+</td>
+<td valign="top">
+
+[GitHub](https://github.com/SAP-samples/cloud-espm-cloud-native#security-implementation) 
 
 </td>
 </tr>
@@ -439,5 +439,5 @@ The following sections contain the process of adding authentication and authoriz
 **Related Information**  
 
 
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
+[Cloud Management Tools](../10-concepts/cloud-management-tools-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 

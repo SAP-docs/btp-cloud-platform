@@ -189,9 +189,9 @@ Updating
 </td>
 <td valign="top">
 
-With high availability disabled, you can set it to `1`. With high availability enabled, you must set it to at least `3`.
+With high availability disabled, you can set it to `0`. With high availability enabled, you must set it to at least `3`.
 
-You can also set it to `1` in `azure_lite` because the plan does not support high availability.
+You can also set it to `0` in `azure_lite` because the plan does not support high availability.
 
 See [Auto Scaler Min](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Min).
 
@@ -465,7 +465,7 @@ Updating
 
 Number between 3 and the current value set in *Auto Scaler Max*.
 
-Within the *Additional Worker Node Pools* array, with high availability disabled, you can set it to `1`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
+Within the *Additional Worker Node Pools* array, with high availability disabled, you can set it to `0`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
 
 </td>
 </tr>
@@ -498,7 +498,7 @@ Updating
 
 Number between 2 and the current value set in *Auto Scaler Max*.
 
-Within the *Additional Worker Node Pools* array, you can set it to `1`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
+Within the *Additional Worker Node Pools* array, you can set it to `0`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
 
 </td>
 </tr>

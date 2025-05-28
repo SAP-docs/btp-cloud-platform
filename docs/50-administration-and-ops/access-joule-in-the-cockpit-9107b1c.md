@@ -36,5 +36,5 @@ Because you're already logged into the SAP BTP cockpit, Joule recognizes you and
 
 [Best Practices for Joule in the Cockpit](best-practices-for-joule-in-the-cockpit-20b5e3e.md "Let Joule help you find answers to questions about managing your accounts in SAP BTP cockpit.")
 
-[Using Joule](https://help.sap.com/docs/joule/serviceguide/using-joule?version=CLOUD)
+[Using Joule](https://help.sap.com/docs/joule/serviceguide/using-joule?version=CLOUD "https://help.sap.com/docs/JOULE/3fdd7b321eb24d1b9d40605dce822e84/a777dd1adfe64e6685bb6ae4c310fe18.html?version=CLOUD")
 

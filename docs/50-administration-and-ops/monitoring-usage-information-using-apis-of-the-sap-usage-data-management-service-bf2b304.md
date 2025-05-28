@@ -143,5 +143,3 @@ Get monthly cost reporting data for all subaccounts for the Cloud Platform Enter
 
 [SAP Usage Data Management Service - Service Plans](sap-usage-data-management-service-service-plans-c94c85e.md "Describes the plans available for the SAP Usage Data Management service for SAP BTP.")
 
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
-

@@ -30,12 +30,9 @@ Cloud Connector
 </td>
 <td valign="top">
 
-You can connect a Cloud Connector with a multi-environment subaccount of SAP BTP.
+You can connect a Cloud Connector with multi-environment and Neo subaccounts of SAP BTP.
 
 For more information, see [Use a Custom IDP for Subaccount Configuration](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/202261235a204db5ba0b35bbaa6d40ff.html "Enable custom identity provider (IDP) authentication to configure a Cloud Foundry subaccount in the Cloud Connector by using a one-time passcode.") :arrow_upper_right:.
-
-> ### Restriction:  
-> Currently, Cloud Connector can be connected to an SAP BTP subaccount only with users from the default identity provider.
 
 > ### Note:  
 > In addition to the initial connection from Cloud Connector to SAP BTP, the regular rotation of the client certificate that is used for the ongoing connection, is also affected.
@@ -253,7 +250,12 @@ SAP Web IDE
 </td>
 <td valign="top">
 
-SAP Web IDE running in a multi-environment subaccount of SAP BTP only supports users from SAP ID service.
+SAP Web IDE supports identity providers with the following restrictions.
+
+-   When you log on with the WebIDE web-based user interface, you authenticate with the identity provider for business users.
+
+-   When you deploy applications to the Cloud Foundry or Neo environment from SAP Web IDE, you can authenticate with the identity provider for platform users.
+
 
 For more information, see [User Authentication and Authorization](https://help.sap.com/docs/SAP_Web_IDE/825270ffffe74d9f988a0f0066ad59f0/94f7eb83215c470ca2bc5e1eead2de5f.html).
 

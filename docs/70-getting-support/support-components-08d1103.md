@@ -2016,7 +2016,7 @@ Simplify the complex connectivity, scalability, and management of IoT.
 </td>
 <td valign="top">
 
-Use machine learning to automate your document information extraction processes.
+Automate your document information extraction processes - SAP Authorization and Trust Management service version.
 
 </td>
 <td valign="top">
@@ -10930,6 +10930,9 @@ Apply machine learning to predict and classify data records.
 -   Europe \(Frankfurt\) EU Access
 -   Australia \(Sydney\)
 -   US East \(VA\)
+-   Japan \(Tokyo\)
+-   Singapore
+-   Brazil \(São Paulo\)
 
 
 
@@ -11040,6 +11043,8 @@ Apply machine learning to predict and classify data records.
 
 -   Europe \(Frankfurt\)
 -   US Central \(IA\)
+-   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
 
 
 

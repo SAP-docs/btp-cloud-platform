@@ -10,8 +10,6 @@ Learn how to access the SAP BTP cockpit.
 
 Navigate to [https://cockpit.btp.cloud.sap](https://cockpit.btp.cloud.sap) to access the cockpit. Depending on your geographic location, this URL redirects you to the closest regional cockpit URL.
 
-For more information, see [Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md).
-
 > ### Tip:  
 > Use the `idp` URL parameter to choose which identity provider with which you want to log on.
 > 

@@ -224,7 +224,7 @@ eu-central-1
 </td>
 <td valign="top">
 
-18.197.217.237, 18.198.153.44, 18.157.206.182, 52.57.94.154, 3.74.95.163, 18.156.20.40, 3.70.85.193, 3.76.177.92, 18.196.196.117,3.127.41.81, 3.69.221.68, 3.67.230.143, 3.74.106.119, 18.199.199.153, 3.78.46.180
+18.197.217.237, 18.198.153.44, 18.157.206.182, 52.57.94.154, 3.74.95.163, 18.156.20.40, 3.70.85.193, 3.76.177.92, 18.196.196.117,3.127.41.81, 3.69.221.68, 63.177.166.147, 3.67.230.143, 3.74.106.119, 18.199.199.153, 3.78.46.180, 3.71.168.30, 18.192.255.16
 
 </td>
 <td valign="top">
@@ -1157,6 +1157,53 @@ jp30.hana.ondemand.com
 <td valign="top">
 
 [https://apac.cockpit.btp.cloud.sap/](https://apac.cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+jp31
+
+</td>
+<td valign="top">
+
+Japan \(Tokio\)
+
+</td>
+<td valign="top">
+
+cf-jp31
+
+</td>
+<td valign="top">
+
+asia-northeast1
+
+</td>
+<td valign="top">
+
+34.146.45.152, 34.84.224.174, 35.221.114.117, 34.84.69.15, 34.84.239.245, 34.146.166.32
+
+</td>
+<td valign="top">
+
+api.cf.jp31.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+jp31.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://apac.cockpit.btp.cloud.sap/cockpit](https://apac.cockpit.btp.cloud.sap/cockpit)
 
 </td>
 </tr>

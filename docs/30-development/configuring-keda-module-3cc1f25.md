@@ -1,6 +1,6 @@
 <!-- loio3cc1f25be90f45aa974a11a53cf18430 -->
 
-# Keda Module Configuration
+# Configuring Keda Module
 
 Learn how to configure the Keda module using the Keda CustomResourceDefinition \(CRD\). See how to configure the `logging.level` attribute or the resource consumption.
 
@@ -10,7 +10,7 @@ Learn how to configure the Keda module using the Keda CustomResourceDefinition \
 
 ## Procedure
 
--   You can change the logging level of the KEDA workloads. To change `logging.level`, choose one of the accepted values:
+-   To change `logging.level` of the KEDA workloads, choose one of the accepted values:
 
     -   `debug` - is the most detailed option. Useful for a developer during debugging.
 
@@ -63,6 +63,23 @@ Learn how to configure the Keda module using the Keda CustomResourceDefinition \
           requests:
             cpu: "50m"
             memory: "800Mi"
+    
+    ```
+
+-   To define custom annotations for Keda workloads, enter your preferred values for `operator`, `metricServer` and `admissionWebhook`. For example:
+
+    ```
+    spec:
+      podAnnotations:
+       operator:
+         metrics.dynatrace.com/scrape: 'true'
+         metrics.dynatrace.com/path: '/metrics'
+       metricServer:
+         metrics.dynatrace.com/scrape: 'true'
+         metrics.dynatrace.com/path: '/metrics'
+       admissionWebhook:
+         metrics.dynatrace.com/scrape: 'true'
+         metrics.dynatrace.com/path: '/metrics'
     
     ```
 

@@ -274,7 +274,6 @@ When working with labels, consider the following aspects:
 -   [Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md)
 -   [Change Subaccount Details](../50-administration-and-ops/change-subaccount-details-567d4a8.md)
 -   [Create a Directory](../50-administration-and-ops/create-a-directory-b8ef1c4.md)
--   [Cloud Management Tools — Feature Set Overview](cloud-management-tools-feature-set-overview-caf4e4e.md)
 -   [Commands in the btp CLI](../50-administration-and-ops/commands-in-the-btp-cli-a03a555.md)
 -   [Account Administration Using APIs of the SAP Cloud Management Service](../50-administration-and-ops/account-administration-using-apis-of-the-sap-cloud-management-service-17b6a17.md)
 -   [Managing Service Resources Using the APIs of the SAP Service Manager](../50-administration-and-ops/managing-service-resources-using-the-apis-of-the-sap-service-manager-ee4f871.md)

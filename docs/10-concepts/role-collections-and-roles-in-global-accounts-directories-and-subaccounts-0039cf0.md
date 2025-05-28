@@ -687,6 +687,72 @@ Application Identifier
 <tr>
 <td valign="top">
 
+Application Subscriptions Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Application\_Subscriptions\_Viewer 
+
+</td>
+<td valign="top">
+
+cis-local!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Destination Administrator 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Application\_Destination\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Destination Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Application\_Destination\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Cloud Connector Administrator 
 
 </td>
@@ -753,6 +819,226 @@ destination-xsappname!*<suffix\>*
 <tr>
 <td valign="top">
 
+Destination Administrator Instance 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Administrator\_Instance 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Certificate Administrator 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Certificate\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Certificate Instance Administrator 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Certificate\_Instance\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Certificate Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Certificate\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Configuration Administrator 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Configuration\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Configuration Instance Administrator 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Configuration\_Instance\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Configuration Instance Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Configuration\_Instance\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Configuration Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Configuration\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Subaccount Trust Administrator 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Subaccount\_Trust\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Subaccount Trust Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Subaccount\_Trust\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Destination Viewer 
 
 </td>
@@ -764,6 +1050,28 @@ Subaccount
 <td valign="top">
 
 Destination\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Viewer Instance 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Viewer\_Instance 
 
 </td>
 <td valign="top">
@@ -929,44 +1237,22 @@ service-manager!*<suffix\>*
 <tr>
 <td valign="top">
 
-System Landscape Administrator 
+Service Instances Viewer 
 
 </td>
 <td valign="top">
 
-Global account
+Subaccount
 
 </td>
 <td valign="top">
 
-GlobalAccount\_System\_Landscape\_Administrator 
+Service\_Instances\_Viewer 
 
 </td>
 <td valign="top">
 
-cmp!*<suffix\>*  
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-System Landscape Viewer 
-
-</td>
-<td valign="top">
-
-Global account
-
-</td>
-<td valign="top">
-
-GlobalAccount\_System\_Landscape\_Viewer 
-
-</td>
-<td valign="top">
-
-extension-service-cmp!*<suffix\>*  
+service-manager!*<suffix\>* 
 
 </td>
 </tr>
@@ -995,7 +1281,7 @@ cis-local!*<suffix\>*
 <tr>
 <td valign="top">
 
-Subaccount Viewer 
+Subaccount Service Admin 
 
 </td>
 <td valign="top">
@@ -1005,12 +1291,12 @@ Subaccount
 </td>
 <td valign="top">
 
-Subaccount\_Viewer 
+Subaccount\_Service\_Admin 
 
 </td>
 <td valign="top">
 
-cis-local!*<suffix\>* 
+service-manager!*<suffix\>* 
 
 </td>
 </tr>
@@ -1055,6 +1341,94 @@ Subaccount\_Service\_Auditor
 <td valign="top">
 
 service-manager!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Subaccount Service Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Subaccount\_Service\_Viewer 
+
+</td>
+<td valign="top">
+
+service-manager!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Subaccount Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Subaccount\_Viewer 
+
+</td>
+<td valign="top">
+
+cis-local!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System Landscape Administrator 
+
+</td>
+<td valign="top">
+
+Global account
+
+</td>
+<td valign="top">
+
+GlobalAccount\_System\_Landscape\_Administrator 
+
+</td>
+<td valign="top">
+
+cmp!*<suffix\>*  
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+System Landscape Viewer 
+
+</td>
+<td valign="top">
+
+Global account
+
+</td>
+<td valign="top">
+
+GlobalAccount\_System\_Landscape\_Viewer 
+
+</td>
+<td valign="top">
+
+extension-service-cmp!*<suffix\>*  
 
 </td>
 </tr>

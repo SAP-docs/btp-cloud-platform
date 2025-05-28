@@ -10,8 +10,6 @@ Learn about the administrative tasks that Joule can perform for you in the SAP B
 You can ask Joule to assist you with administrative scenarios related to accounts and users. If Joule recognizes the task as a supported capability, it walks you through the steps to complete the task.
 
 > ### Note:  
-> Joule is currently only available for English-language inputs and conversations.
-> 
 > Joule doesn't support administrative actions in the Neo environment.
 
 You can ask Joule what it can do for you, either by typing the question directly or selecting the quick start button.

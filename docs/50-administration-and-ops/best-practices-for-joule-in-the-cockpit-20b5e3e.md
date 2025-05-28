@@ -18,12 +18,13 @@ Joule is your AI copilot in the SAP BTP Cockpit. You can leverage Joule's genera
 **New to Joule?**Here are some tips to help you get started:
 
 -   To see **what Joule can do for you**, just ask! For example, you can type, What can you do for me?
--   You can **reset the conversation** at any time by clicking the reset button in the middle of the chat window.
+-   You can **start a new the conversation** at any time by clicking the *New Conversation* button in the Joule menu.
 -   You can **hide the Joule chat window** by clicking the X and pick up right where you left off by selecting the Joule icon in the cockpit tool header.
--   **Conversations expire after 15 minutes**. When this happens, Joule will notify you and give you the option to start a new conversation.
+-   **Conversations expire after 8 hours**. When this happens, Joule will notify you and give you the option to start a new conversation.
 -   Joule responds best to **single requests**. For example, if you want to see the users in your global account and also in a specific subaccount, send these requests as two separate queries.
--   Providing additional **context** may also help Joule provide a better answer. For example, if you want to see users of a specific subaccount, Joule may need more context and ask for the subaccount ID.
--   Want to **give feedback** about your experience with Joule in the BTP cockpit? Simply type or select the quick start button give feedback.
+-   You may find that **clicking on a suggested action or option** will provide better results than typing.
+-   Providing additional **context** may also help Joule provide a better answer. For example, if you want to see users of a specific subaccount, Joule may need more context and ask for the subaccount ID or name.
+-   Want to give feedback about your experience with Joule in the BTP cockpit? Simply type or select the quick start button *give feedback*.
 
 **Related Information**  
 

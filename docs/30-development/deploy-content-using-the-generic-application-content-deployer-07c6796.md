@@ -31,50 +31,75 @@ You can deploy your content to the HTML5 Application Repository using the GACD \
 
 ## Procedure
 
-1.  Create a nested `content.zip` file that contains a zip file for each HTML5 application.
-
-    Example of a nested content.zip file
-
-    > ### Sample Code:  
-    > ```
-    > content.zip
-    >     app1.zip
-    >        manifest.json
-    >        xs-app.json
-    >        …..
-    >     app2.zip
-    >     …..
-    > 
-    > ```
-
-2.  Create an MTA development descriptor \(mta.yaml file\).
+1.  Create an MTA development descriptor \(mta.yaml file\).
 
     See [Defining Multitarget Application Development Descriptors](defining-multitarget-application-development-descriptors-c2d31e7.md).
 
-3.  In the MTA development descriptor \(mta.yaml file\), define the deployer module:
+2.  In the MTA development descriptor \(mta.yaml file\), define the deployer module:
+
+    This is an example for an MTA that contain a folder for an application "app1" and an application "app2":
 
     > ### Sample Code:  
     > ```
     > ID: testdeployer
     > _schema-version: '3.1'
     > modules:
-    >  - name: ui_deployer
-    >    type: com.sap.application.content
-    >    path: deployer/ 
-    >    requires:
-    >     - name: uideployer_html5_repo_host
-    >       parameters:
-    >         content-target: true
+    > # GACD Deployer Module
+    >  name: html5-apps-content
+    >   type: com.sap.application.content
+    >   path: .
+    >   requires:
+    >     - name: html5-apps-html5-repo-host
+    >     parameters:
+    >       content-target: true
+    >   build-parameters:
+    >     build-result: resources
+    >     requires:
+    >     - name: app1
+    >       artifacts:
+    >       - app1.zip
+    >       target-path: resources/
+    >     - name: app2
+    >       artifacts:
+    >       - app2.zip
+    >       target-path: resources/
+    > 
+    > # HTML5 Modules
+    > - name: app1
+    >   type: html5
+    >   path: app1
+    >   build-parameters:
+    >     build-result: dist
+    >     builder: custom
+    >     commands:
+    >     - npm install
+    >     - npm run build:cf
+    >     supported-platforms: []
+    > 
+    > - name: app2
+    >   type: html5
+    >   path: app2
+    >   build-parameters:
+    >     build-result: dist
+    >     builder: custom
+    >     commands:
+    >     - npm install
+    >     - npm run build:cf
+    >     supported-platforms: []
+    > 
     > resources:
-    >  - name: uideployer_html5_repo_host
-    >    parameters:
-    >       service-plan: app-host
-    >       service: html5-apps-repo
-    >    type: org.cloudfoundry.managed-service
-    > version: 0.0.1
+    > # HTML5 Application Repository service instance
+    > - name: html5-apps-html5-repo-host
+    >   type: org.cloudfoundry.managed-service
+    >   parameters:
+    >     service: html5-apps-repo
+    >     service-name: html5-apps-html5-repo-host-service
+    >     service-plan: app-host
+    > 
+    > 
     > ```
 
-4.  To create an MTA archive \(mtar file\), build your content with the[MTA Build Tool \(MBT\)](https://sap.github.io/cloud-mta-build-tool/).
+3.  To create an MTA archive \(mtar file\), build your content with the[MTA Build Tool \(MBT\)](https://sap.github.io/cloud-mta-build-tool/).
 
     Run the following command:
 
@@ -85,7 +110,7 @@ You can deploy your content to the HTML5 Application Repository using the GACD \
 
     For more information on MBT build options, see: [How to build an MTA archive from the project sources](https://sap.github.io/cloud-mta-build-tool/usage/#how-to-build-an-mta-archive-from-the-project-sources)
 
-5.  Deploy the MTA archive \(mtar file\) using the CLI command cf deploy.
+4.  Deploy the MTA archive \(mtar file\) using the CLI command cf deploy.
 
     Run the following command:
 

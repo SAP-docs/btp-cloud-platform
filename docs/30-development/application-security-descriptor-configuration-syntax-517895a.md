@@ -1003,10 +1003,6 @@ The `xsenableasyncservice` element controls whether the `cf create-service` and 
 > "xsenableasyncservice":"true"
 > ```
 
-Syntax
-
-`"xsenableasyncservice":"false"`
-
 
 <table>
 <tr>
@@ -1024,7 +1020,7 @@ Description
 <tr>
 <td valign="top">
 
-`false` \(default\)
+`false` 
 
 </td>
 <td valign="top">
@@ -1036,7 +1032,7 @@ Cloud Foundry command line interface commands are executed synchronously.
 <tr>
 <td valign="top">
 
-`true` 
+`true` \(default\)
 
 </td>
 <td valign="top">

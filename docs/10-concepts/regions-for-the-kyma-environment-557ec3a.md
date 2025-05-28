@@ -197,6 +197,8 @@ US East \(VA\)
 
 `azure_lite`
 
+`build-runtime-azure`
+
 </td>
 </tr>
 <tr>
@@ -232,6 +234,8 @@ Europe \(Netherlands\)
 `azure`
 
 `azure_lite`
+
+`build-runtime-azure`
 
 </td>
 </tr>
@@ -409,6 +413,8 @@ US East \(VA\)
 
 `trial`
 
+`build-runtime-aws`
+
 </td>
 </tr>
 <tr>
@@ -444,6 +450,8 @@ Europe \(Frankfurt\)
 `aws`
 
 `trial`
+
+`build-runtime-aws`
 
 </td>
 </tr>
@@ -635,7 +643,9 @@ Australia \(Sydney\)
 </td>
 <td valign="top">
 
-`aws` 
+`aws`
+
+`build-runtime-aws`
 
 </td>
 </tr>
@@ -731,7 +741,9 @@ US Central \(IA\)
 </td>
 <td valign="top">
 
-`gcp` 
+`gcp`
+
+`build-runtime-gcp`
 
 </td>
 </tr>
@@ -763,7 +775,9 @@ Europe \(Frankfurt\)
 </td>
 <td valign="top">
 
-`gcp` 
+`gcp`
+
+`build-runtime-gcp`
 
 </td>
 </tr>
@@ -827,7 +841,9 @@ India \(Mumbai\)
 </td>
 <td valign="top">
 
-`gcp` 
+`gcp`
+
+`build-runtime-gcp`
 
 </td>
 </tr>
@@ -1135,6 +1151,8 @@ Microsoft Azure
 
 `azure_lite`
 
+`build-runtime-azure`
+
 </td>
 <td valign="top">
 
@@ -1288,6 +1306,8 @@ Amazon Web Services
 <td valign="top" rowspan="11">
 
 `aws`
+
+`build-runtime-aws`
 
 </td>
 <td valign="top">
@@ -1471,6 +1491,8 @@ Google Cloud
 <td valign="top" rowspan="13">
 
 `gcp`
+
+`build-runtime-gcp`
 
 </td>
 <td valign="top">

@@ -2,7 +2,12 @@
 
 # Bring Your Own Git
 
-Up until this point, the ABAP repositories in SAP BTP ABAP environment were managed by the Manage Software Components Fiori app, which was the only interface where users could see the status of their remote repository. Bring Your Own Git \(BYOG\) allows users to connect their own Git repositories with the Manage Software Components app. In doing so, the user has a better overview of their own code, branches, and commits. However, the user is not allowed to make code changes in their remote Git repository and import these changes into the local SAP BTP ABAP environment system instance, as this might violate any guidelines for ABAP cloud development. See [Supported ABAP Object Types](https://help.sap.com/docs/btp/sap-business-technology-platform/supported-abap-object-types?version=Cloud)
+Up until this point, the ABAP repositories in SAP BTP ABAP environment were managed by the Manage Software Components Fiori app, which was the only interface where users could see the status of their remote repository. Bring Your Own Git \(BYOG\) allows users to connect their own Git repositories with the Manage Software Components app. In doing so, the user has a better overview of their own code, branches, and commits.
+
+> ### Caution:  
+> However, the user is not allowed to make code changes in their remote Git repository and import these changes into the local SAP BTP ABAP environment system instance, as this might violate any guidelines for ABAP cloud development.
+
+See [Supported ABAP Object Types](https://help.sap.com/docs/btp/sap-business-technology-platform/supported-abap-object-types?version=Cloud) 
 
 
 

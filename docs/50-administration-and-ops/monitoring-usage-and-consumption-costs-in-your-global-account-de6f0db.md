@@ -103,6 +103,7 @@ Note the following:
 -   Cloud-credit usage and cost information is displayed only for the current cloud credits period. The total contract duration is split into cloud credit periods \(typically one year each\) and the total cloud credits are divided between these periods.
 -   Your cloud credit balance is calculated each month by deducting the corresponding costs of all SAP BTP services for the previous month.
 -   If your global account has received a cloud-credit refund at any time during the current cloud credits period, you may see a difference between your total usage/costs and the monthly usage/costs in the chart.
+-   If you've previously over-consumed your available cloud credits and then purchased additional credits, you may see a shift in your monthly cloud credits cost/usage graph from overage to within limits. This change indicates that the extra credits have balanced out any previous overages, and it is an expected part of managing your cloud credits usage.
 
 
 
@@ -790,8 +791,6 @@ Yes
 [View Directory Usage Analytics](view-directory-usage-analytics-a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.")
 
 [Labels](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.")
-
-[Cloud Management Tools — Feature Set Overview](../10-concepts/cloud-management-tools-feature-set-overview-caf4e4e.md "Cloud management tools represent the group of technologies designed for managing SAP BTP.")
 
 [Monitoring Usage Information Using APIs of the SAP Usage Data Management Service](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 

@@ -81,17 +81,13 @@ The APIs of Kyma modules and third-party modules' may vary from the least stable
 
 ## Development Tutorials
 
-To help you get started with the development process, go through the following tutorials that show how to [develop a full-stack application](https://developers.sap.com/mission.cp-kyma-full-stack.html) in the Kyma runtime. You'll create a sample containerized microservice, learn how to expose it via API, and trigger it with events. Additionally, you create Functions as well as instances of external services that you can use in your microservices and Functions.
+To help you get started with the development process, go through the following missions that show how to develop applications in the Kyma runtime.
 
--   [Deploy MSSQL in the Kyma Environment](https://developers.sap.com/tutorials/cp-kyma-mssql-deployment.html)
+-   [Build an Application in SAP BTP, Kyma Runtime](https://developers.sap.com/mission.cp-kyma-build-app.html)
 
--   [Deploy a Go MSSQL API Endpoint in the Kyma Environment](https://developers.sap.com/tutorials/cp-kyma-api-mssql-golang.html)
+-   [Develop a Full-Stack Application in SAP BTP, Kyma Runtime](https://developers.sap.com/mission.cp-kyma-full-stack.html)
 
--   [Deploy the SAPUI5 Frontend in the Kyma Environment](https://developers.sap.com/tutorials/cp-kyma-frontend-ui5-mssql.html)
-
--   [Trigger a Microservice with an Event](https://developers.sap.com/tutorials/cp-kyma-microservice-trigger.html)
-
--   [Use Redis in the Kyma Environment to Store and Retrieve Data](https://developers.sap.com/tutorials/cp-kyma-redis-function.html)
+-   [Deploy a Full-Stack CAP Application in SAP BTP, Kyma Runtime Following SAP BTP Developer’s Guide](https://developers.sap.com/group.deploy-full-stack-cap-kyma-runtime.html)
 
 
 

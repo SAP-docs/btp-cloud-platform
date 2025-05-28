@@ -5,7 +5,7 @@
 The following table contains all the released ABAP object types that can be imported into your ABAP environment tenant.
 
 > ### Note:  
-> If you try to import or export objects that are not supported, you receive a warning during the transport operation. The objects that are not released are skipped and not transported. The avoid this, you have to manually copy the ABAP objects to the target system. Note that you have to create these objects using the same name in the target system, unless they already exist. Afterwards, you either have to manually copy the code or reconfigure the objects identically in the target system.
+> If you try to import or export objects that are not supported, you receive a warning during the transport operation. The objects that are not released are skipped and not transported. To avoid this, you have to manually copy the ABAP objects to the target system. Note that you have to create these objects using the same name in the target system, unless they already exist. Afterwards, you either have to manually copy the code or reconfigure the objects identically in the target system.
 
 
 <table>

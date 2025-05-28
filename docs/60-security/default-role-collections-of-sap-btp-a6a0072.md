@@ -820,5 +820,464 @@ Role for directory members with read-only authorizations for core commercializat
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Application Subscriptions Viewer 
+
+</td>
+<td valign="top">
+
+Application\_Subscriptions\_Viewer 
+
+</td>
+<td valign="top">
+
+cis-local!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Read-only access to an application's subscriptions.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Application Destination Administrator 
+
+</td>
+<td valign="top">
+
+Application\_Destination\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Manage destination configurations, certificates and signing keys for SAML assertions issued by the Destination service. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Application Destination Viewer 
+
+</td>
+<td valign="top">
+
+Application\_Destination\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View destination configurations, certificates and signing keys for SAML assertions issued by the Destination service. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Administrator Instance 
+
+</td>
+<td valign="top">
+
+Destination\_Administrator\_Instance 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Manage destination configurations, certificates and signing keys for SAML assertions issued by the Destination service on instance level. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Certificate Administrator 
+
+</td>
+<td valign="top">
+
+Destination\_Certificate\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Manage destination certificates. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Certificate Instance Administrator 
+
+</td>
+<td valign="top">
+
+Destination\_Certificate\_Instance\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Manage destination certificates on instance level. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Certificate Viewer 
+
+</td>
+<td valign="top">
+
+Destination\_Certificate\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View destination certificates. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Configuration Administrator 
+
+</td>
+<td valign="top">
+
+Destination\_Configuration\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Manage destination configurations. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Configuration Instance Administrator 
+
+</td>
+<td valign="top">
+
+Destination\_Configuration\_Instance\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Manage destination configurations on instance level. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Configuration Instance Viewer 
+
+</td>
+<td valign="top">
+
+Destination\_Configuration\_Instance\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View destination configurations on instance level. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Configuration Viewer 
+
+</td>
+<td valign="top">
+
+Destination\_Configuration\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View destination configurations. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Subaccount Trust Administrator 
+
+</td>
+<td valign="top">
+
+Destination\_Subaccount\_Trust\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Manage destination subaccount trust via the Destination editor in the cloud cockpit. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Subaccount Trust Viewer 
+
+</td>
+<td valign="top">
+
+Destination\_Subaccount\_Trust\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View destination subaccount trust via the Destination editor in the cloud cockpit. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Viewer Instance 
+
+</td>
+<td valign="top">
+
+Destination\_Viewer\_Instance 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View destination configurations, certificates and signing keys for SAML assertions issued by the Destination service on instance level. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Service Instances Viewer 
+
+</td>
+<td valign="top">
+
+Service\_Instances\_Viewer 
+
+</td>
+<td valign="top">
+
+service-manager!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Read-only access to Service Manager instances, bindings, plans, and offerings. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Subaccount Service Admin 
+
+</td>
+<td valign="top">
+
+Subaccount\_Service\_Admin 
+
+</td>
+<td valign="top">
+
+service-manager!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Administrative access to service brokers and environments on a subaccount level. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Subaccount Service Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount\_Service\_Viewer 
+
+</td>
+<td valign="top">
+
+service-manager!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Read-only access to service brokers and environments on a subaccount level. 
+
+</td>
+</tr>
 </table>
 

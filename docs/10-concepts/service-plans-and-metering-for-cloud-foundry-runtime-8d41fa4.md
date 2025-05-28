@@ -6,8 +6,6 @@ This page explains the relationship between the service plans in the SAP Discove
 
 
 
-
-
 <a name="loio8d41fa40e47b45bf90d38e393a989c4c__service"/>
 
 ## Service
@@ -33,21 +31,18 @@ Service Plan \(SAP BTP Cockpit\)
 </b></dt>
 <dd>
 
-The plan that the global account administrator can assign to a subaccount or a directory on the *Entitlements* page by choosing *Edit* \> *Add Service Plans*.  
+The plan that the global account administrator can assign to a subaccount or a directory on the *Entitlements* \> *Entity Assignments* page by choosing *Edit* \> *Add Service Plans*.  
   
 **Screenshot: Assigning a service plan to a subaccount in SAP BTP cockpit \[Show/Hide\]**
 
 > ### Tip:  
 > Open image in new tab for the full-screen version.
 
-![A screenshot of the Entitlements screen in the SAP BTP cockpit, showing the assignment of a service plan to a subaccount.](images/English_-_Entitlements_-_SAP_BTP_Cloud_Foundry_Runtime_94337c9.png "Screenshot: Assigning a service plan to a subaccount in
+![A screenshot of the Entity Assignments page in the SAP BTP cockpit, showing the assignment of a service plan to a subaccount.](images/English_Entity_Assignments_Cloud_Foundry_Runtime_26e96c8.png "Screenshot: Assigning a service plan to a subaccount in
 										SAP BTP
 									cockpit [Show/Hide]")
 
-For more information about the procedure, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md) or [Configure Entitlements and Quotas for Directories](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-37f8871.md).
-
-> ### Note:  
-> The greyed out parts of the diagram indicate service plans that are automatically assigned to all subaccounts by default.
+For general information about the procedure, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md) or [Configure Entitlements and Quotas for Directories](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-37f8871.md).
 
 
 
@@ -65,13 +60,13 @@ The plan that the subaccount administrator can select on the *Overview* page of 
 > ### Tip:  
 > Open image in new tab for the full-screen version.
 
-![A screenshot of the Overview screen of a subaccount in the SAP BTP cockpit, showing the enablement of an environment plan.](images/English_-_Enable_Cloud_Foundry_-_SAP_BTP_Cloud_Foundry_Runtime_0377151.png "Screenshot: Selecting an environment plan for the subaccount
+![A screenshot of the Overview page of a subaccount in the SAP BTP cockpit, showing the enablement of an environment plan.](images/English_-_Enable_Cloud_Foundry_-_SAP_BTP_Cloud_Foundry_Runtime_0377151.png "Screenshot: Selecting an environment plan for the subaccount
 									in SAP BTP
 									cockpit [Show/Hide]")
 
 
 
-For more information about the procedure, see [Create Orgs](../50-administration-and-ops/create-orgs-a9b1f54.md).
+For general information about the procedure, see [Create Orgs](../50-administration-and-ops/create-orgs-a9b1f54.md).
 
 > ### Note:  
 > An environment plan is a service plan associated with an environment. For more information about services and service plans, see [Entitlements and Quotas](entitlements-and-quotas-00aa2c2.md).
@@ -99,17 +94,17 @@ Service Plan \(SAP Discovery Center\)
 </th>
 <th valign="top" align="center">
 
-Service \(SAP BTP Cockpit: *Entitlements*\)
+Service \(SAP BTP Cockpit: *Entity Assignments*\)
 
 </th>
 <th valign="top" align="center">
 
-Service Plan \(SAP BTP Cockpit: *Entitlements*\)
+Service Plan \(SAP BTP Cockpit: *Entity Assignments*\)
 
 </th>
 <th valign="top" align="center">
 
-Environment Plan \(SAP BTP Cockpit: *Enable Cloud Foundry*\)
+Environment Plan \(SAP BTP Cockpit: *Enable Cloud Foundry*\)
 
 </th>
 <th valign="top" align="center">
@@ -158,12 +153,12 @@ Free
 </td>
 <td valign="top">
 
-Cloud Foundry Environment \(`cloudfoundry`\)
+Cloud Foundry Environment \(`cloudfoundry`\)
 
 </td>
 <td valign="top">
 
-free \(Environment\)
+free \(Environment\)
 
 </td>
 <td valign="top">
@@ -194,7 +189,7 @@ See [SAP Build Code](https://discovery-center.cloud.sap/serviceCatalog/sap-build
 </td>
 <td valign="top">
 
-Cloud Foundry Environment \(`cloudfoundry`\)
+Cloud Foundry Environment \(`cloudfoundry`\)
 
 </td>
 <td valign="top">
@@ -232,17 +227,17 @@ Service Plan \(SAP Discovery Center\)
 </th>
 <th valign="top" align="center">
 
-Service \(SAP BTP Cockpit: *Entitlements*\)
+Service \(SAP BTP Cockpit: *Entity Assignments*\)
 
 </th>
 <th valign="top" align="center">
 
-Service Plan \(SAP BTP Cockpit: *Entitlements*\)
+Service Plan \(SAP BTP Cockpit: *Entity Assignments*\)
 
 </th>
 <th valign="top" align="center">
 
-Environment Plan \(SAP BTP Cockpit: *Enable Cloud Foundry*\)
+Environment Plan \(SAP BTP Cockpit: *Enable Cloud Foundry*\)
 
 </th>
 <th valign="top" align="center">
@@ -259,7 +254,7 @@ Standard
 </td>
 <td valign="top">
 
-Cloud Foundry Runtime \(`APPLICATION_RUNTIME`\)
+Cloud Foundry Runtime \(`APPLICATION_RUNTIME`\)
 
 </td>
 <td valign="top">
@@ -290,7 +285,7 @@ The plan **standard** is assigned to all subaccounts by default and can be enabl
 </td>
 <td valign="top">
 
-Cloud Foundry Environment \(`cloudfoundry`\)
+Cloud Foundry Environment \(`cloudfoundry`\)
 
 </td>
 <td valign="top">
@@ -322,7 +317,7 @@ See [SAP Build Code](https://discovery-center.cloud.sap/serviceCatalog/sap-build
 </td>
 <td valign="top">
 
-Cloud Foundry Environment \(`cloudfoundry`\)
+Cloud Foundry Environment \(`cloudfoundry`\)
 
 </td>
 <td valign="top">
@@ -388,17 +383,17 @@ Additional Information
 <tr>
 <td valign="top">
 
-GB Memory
+GB Memory
 
 </td>
 <td valign="top">
 
-Cloud Foundry Runtime
+Cloud Foundry Runtime
 
 </td>
 <td valign="top">
 
-GB Memory
+GB Memory
 
 </td>
 <td valign="top" rowspan="3">
@@ -413,7 +408,7 @@ The memory represents the size of the data that can be processed and CPU represe
 For billing purposes, the GB Memory metric for the Cloud Foundry Runtime service is calculated as the total hourly usage of Cloud Foundry runtime memory across all spaces in the global account over a calendar month, divided by 730 hours and rounded up to the next full GB. For an example of such calculation, see [Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting?version=Cloud#consumption-monitoring).
 
 > ### Note:  
-> In the Cloud Foundry environment, applications get a guaranteed CPU share of ¼ core per GB of runtime memory quota reserved for an application instance. For more information, see [SAP BTP-Specific Configurations](sap-btp-specific-configurations-9809fa4.md).
+> In the Cloud Foundry environment, applications get a guaranteed CPU share of ¼ core per GB of runtime memory reserved for an application instance. For more information, see [SAP BTP-Specific Configurations](sap-btp-specific-configurations-9809fa4.md).
 
 
 
@@ -422,17 +417,17 @@ For billing purposes, the GB Memory metric for the Cloud Foundry Runtime service
 <tr>
 <td valign="top" rowspan="2">
 
-Capacity Units
+Capacity Units
 
 </td>
 <td valign="top">
 
-SAP Build
+SAP Build
 
 </td>
 <td valign="top">
 
-GB Memory
+GB Memory
 
 </td>
 <td valign="top">
@@ -449,12 +444,12 @@ In SAP Build, the usage of SAP BTP, Cloud Foundry runtime is measured in capacit
 <tr>
 <td valign="top">
 
-SAP Build Code
+SAP Build Code
 
 </td>
 <td valign="top">
 
-CF Runtime
+CF Runtime
 
 </td>
 <td valign="top">

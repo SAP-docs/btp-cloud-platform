@@ -70,20 +70,20 @@ Kyma dashboard is a web-based UI providing a graphical overview of your cluster 
 1.  To create a `ServiceInstance` custom resource \(CR\), replace the placeholders and run the following command:
 
     ```
-        kubectl create -f - <<EOF 
-        apiVersion: services.cloud.sap.com/v1
-        kind: ServiceInstance
-        metadata:
-            name: {SERVICE_INSTANCE_NAME}
-            namespace: {NAMESPACE} 
-        spec:
-            serviceOfferingName: {SERVICE_OFFERING_NAME}
-            servicePlanName: {SERVICE_PLAN_NAME}
-            externalName: {SERVICE_INSTANCE_NAME}
-            parameters:
-              key1: val1
-              key2: val2
-        EOF
+    kubectl create -f - <<EOF 
+    apiVersion: services.cloud.sap.com/v1
+    kind: ServiceInstance
+    metadata:
+        name: {SERVICE_INSTANCE_NAME}
+        namespace: {NAMESPACE} 
+    spec:
+        serviceOfferingName: {SERVICE_OFFERING_NAME}
+        servicePlanName: {SERVICE_PLAN_NAME}
+        externalName: {SERVICE_INSTANCE_NAME}
+        parameters:
+          key1: val1
+          key2: val2
+    EOF
     ```
 
 2.  To check the service's status in your cluster, run:

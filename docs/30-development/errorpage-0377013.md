@@ -78,17 +78,54 @@ File path relative to the working directory of the application router.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`path` 
+
+</td>
+<td valign="top">
+
+String
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+URL path relative to the HTML application root folder
+
+</td>
+</tr>
 </table>
 
-In the following code example, errors with status code “400”, “401” and “402” will show the content of `./custom-err-4xx.html`; errors with the status code “501” will display the content of `./http_resources/custom-err-501.html`.
+Here is an example:
 
 > ### Sample Code:  
 > ```
 > { "errorPage" : [
 >     {"status": [400,401,402], "file": "./custom-err-40x.html"},
 >     {"status": 501, "file": "./http_resources/custom-err-501.html"}
+>     {"status": 403, "path": "/forbidden.html"}
 >   ]
 > }
+> ```
+
+In this code example, errors with status code “400”, “401” and “402” will show the content of `./custom-err-4xx.html`. Errors with the status code “501” will display the content of `./http_resources/custom-err-501.html` For errors with status code 403, the user is redirected to "/forbidden.html".
+
+To avoid errors when redirecting to an error page that is stored in the HTML5 Application Repository service, define a route without authentication to the error page. For example:
+
+> ### Sample Code:  
+> ```
+> {
+>   "source": "^/forbidden.html$",
+>   "service": "html5-apps-repo-rt",
+>   "authenticationType": "none"
+> }
+> 
 > ```
 
 > ### Note:  
