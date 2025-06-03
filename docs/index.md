@@ -1074,6 +1074,7 @@
                 -   [Creating Service Instances and Service Bindings](30-development/creating-service-instances-and-service-bindings-17bd304.md#loio17bd304aeab34294a4ca34fa9564147c)
                     -   [Creating a Service Instance](30-development/creating-service-instances-and-service-bindings-17bd304.md#loio3ca9284699c44180b12e7be513bdac06)
                     -   [Creating a Service Binding](30-development/creating-service-instances-and-service-bindings-17bd304.md#loioab5ca11be3bf4c029982332fe7092f74)
+                -   [Updating Service Instances](30-development/updating-service-instances-dbf7960.md)
                 -   [Deleting Service Bindings and Service Instances](30-development/deleting-service-bindings-and-service-instances-5deca69.md)
                 -   [Working with Multiple Subaccounts](30-development/working-with-multiple-subaccounts-862dd6a.md)
                     -   [Instance-Level Mapping](30-development/instance-level-mapping-d9e9c7f.md)

@@ -30,7 +30,7 @@ Because you're already logged into the SAP BTP cockpit, Joule recognizes you and
 **Related Information**  
 
 
-[Supported Browsers](https://help.sap.com/docs/joule/serviceguide/supported-browsers?version=CLOUD)
+[Supported Browsers](https://help.sap.com/docs/JOULE/3fdd7b321eb24d1b9d40605dce822e84/e22a6f347993497283cdd35b3ad6cda4.html?locale=en-US)
 
 [Supported Administrative Tasks with Joule in the Cockpit](supported-administrative-tasks-with-joule-in-the-cockpit-88b02d5.md "Learn about the administrative tasks that Joule can perform for you in the SAP BTP cockpit.")
 
