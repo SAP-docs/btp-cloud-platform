@@ -1,8 +1,8 @@
 <!-- loiobfe3098930cc4c8c8bac69422c082b84 -->
 
-# Analyzing Expensive Outbound Communication Using the Technical Monitoring Cockpit
+# Analyzing Expensive Outbound Communication Using the System Outbound Communication App
 
-With the technical monitoring cockpit, you can analyze expensive outbound communication in detail.
+With the *System Outbound Communication* app, you can analyze expensive outbound communication in detail.
 
 
 
@@ -22,7 +22,7 @@ You have set up a profile to capture request statistics relating to outbound com
 
 3.  Choose the *Analyze Request Statistics* button.
 
-    The *Captured Request Statistics* screen in the technical monitoring cockpit opens. On this screen, you can find all workloads that were captured using your profile in the *Capture Request Statistics* app. You can now investigate in more detail which service requests were responsible for expensive outbound communication and what details their ABAP statistics records contain, such as the related outbound HTTP, RFC, or Web service calls.
+    On the *Captured Request Statistics* screen, you can find all workloads that were captured using your profile in the *Capture Request Statistics* app. You can now investigate in more detail which service requests were responsible for expensive outbound communication and what details their ABAP statistics records contain, such as the related outbound HTTP, RFC, or Web service calls.
 
 
 **Related Information**  

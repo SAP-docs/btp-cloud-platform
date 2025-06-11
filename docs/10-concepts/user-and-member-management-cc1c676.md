@@ -12,6 +12,11 @@ On SAP BTP, user management takes place at all levels from global account to env
 
 A user account corresponds to a particular user in an identity provider. The user is always stored in an external identity provider, such as a custom tenant of SAP Cloud Identity Services - Identity Authentication or the default identity provider.
 
+> ### Recommendation:  
+> We strongly recommend that you configure your custom tenant of SAP Cloud Identity Services as the identity provider and connect SAP Cloud Identity Services to your own corporate identity provider.
+> 
+> For more information, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md).
+
 **User accounts** enable users to log on to SAP BTP, access subaccounts, and to use applications according to the permissions granted to them.
 
 > ### Note:  

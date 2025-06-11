@@ -131,34 +131,41 @@ You can enter content definitions inline in the MTA descriptor as part of module
 
 > ### Sample Code:  
 > ```
-> modules: 
-> - name: destination-content 
->   type: com.sap.application.content 
->   requires: 
->   - name: destination-service 
->     parameters: 
->       content-target: true 
->   - name: foo-api 
->   - name: bar-api 
->   parameters: 
->     content: 
->       subaccount: 
->         destinations: 
->         - Name: foo-api 
->           URL: ~{foo-api/url} 
->           forwardAuthToken: true 
->         - Name: bar-api 
->           URL: ~{bar-api/url} 
->           forwardAuthToken: true 
->   <...> 
->   resources: 
-> - name: destination-service 
->   type: org.cloudfoundry.managed-service 
->   parameters: 
->     service: destination 
+> modules:
+> - name: destination-content-deployer
+>   type: com.sap.application.content
+>   parameters:
+>     content:
+>       subaccount:
+>         existing_destinations_policy: update
+>         destinations:
+>         - Name: workflow-destination
+>           ServiceInstanceName: workflow-service
+>   requires:
+>   - name: destination-service
+>     parameters:
+>       content-target: true
+>   - name: workflow-service
+> 
+> 
+> resources:
+> - name: destination-service
+>   type: org.cloudfoundry.managed-service
+>   parameters:
+>     service: destination
+>     service-name: destination-service
 >     service-plan: lite
 > 
+> 
+> - name: workflow-service
+>   type: org.cloudfoundry.managed-service
+>   parameters:
+>     service: workflow
+>     service-plan: standard
 > ```
+
+> ### Note:  
+> For more information about destination creation with MTA, see [Create Destinations Using the MTA Descriptor](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/8aeea65eb9d64267b554f64a3db8a349.html?locale=en-US).
 
 
 

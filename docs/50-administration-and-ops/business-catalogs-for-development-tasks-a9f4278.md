@@ -46,7 +46,7 @@ SAP\_A4C\_BC\_DEV\_AIQ\_PC
 </td>
 <td valign="top">
 
-ADT Development
+Using Joule for ABAP
 
 </td>
 <td valign="top">
@@ -70,7 +70,7 @@ SAP\_A4C\_BC\_DEV\_PC
 </td>
 <td valign="top">
 
-Using Joule for ABAP
+ADT Development
 
 </td>
 <td valign="top">

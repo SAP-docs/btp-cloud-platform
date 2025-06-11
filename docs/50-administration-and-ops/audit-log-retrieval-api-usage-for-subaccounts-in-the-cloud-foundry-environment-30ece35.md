@@ -5,9 +5,7 @@
 The audit log retrieval API allows you to retrieve the audit logs for your SAP BTP Cloud Foundry environment subaccount.
 
 > ### Note:  
-> After the audit logs are generated and sent to the Audit Log service, the logs are not immediately accessible for retrieval.
-
-Retrieving of audit logs via the Audit Log Retrieval API is limited to the size of the audit logs generated for the subaccount. The audit log results are provided as a collection of JSON entities. The possible request rate is now limited to:
+> After the audit logs are generated and sent to the Audit Log service, the logs are not immediately accessible for retrieval.Retrieving of audit logs via the Audit Log Retrieval API is limited to the size of the audit logs generated for the subaccount. The audit log results are provided as a collection of JSON entities. The possible request rate is now limited to:
 
 -   4 requests per second per auth-token/tenant on CF-EU11, CF-EU30, CF-US20, CF-US21, CF-JP10, CF-JP20, CF-BR10. There is also a burst queue that can temporarily allow up to 20 requests per second.
 
@@ -105,7 +103,6 @@ To execute the procedure, you need to have the `Space Developer` role for the co
     `cf service-key <SERVICE_INSTANCE> <SERVICE_KEY>`
 
 6.  Extract data from the service key.
-
     -   For mTLS scenario:
 
         -   Extract the values for `uaa.clientid` and `uaa.certurl` of the key of the service instance for access token creation.
@@ -117,17 +114,18 @@ To execute the procedure, you need to have the `Space Developer` role for the co
         > To extract of the values and avoid errors while copying or removing characters, you can use the `sed` and `jq` tools:
         > 
         > ```
-        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .uaa.certurl
-        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .uaa.clientid
-        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .url
+        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .credentials.uaa.certurl
+        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .credentials.uaa.clientid
+        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .credentials.url
         > # the following two commands save the output to .pem files on the location, where the command is executed
-        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .uaa.certificate > mtls-certificate.pem
-        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .uaa.key > mtls-private-key.pem
+        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .credentials.uaa.certificate > mtls-certificate.pem
+        > cf service-key <SERVICE_INSTANCE> <SERVICE_KEY> | sed '/Getting key/d' | jq --raw-output .credentials.uaa.key > mtls-private-key.pem
         > ```
 
     -   For non-mTLS scenario:
 
-    Extract values for `uaa.url`, `uaa.clientid` and `uaa.clientsecret` of the key of the service instance for access token creation. Extract the `url` to be used for later request to retrieve audit logs.
+        Extract values for `uaa.url`, `uaa.clientid` and `uaa.clientsecret` of the key of the service instance for access token creation. Extract the `url` to be used for later request to retrieve audit logs.
+
 
 
 

@@ -10,7 +10,7 @@ You want to know more about the ABAP system workload.
 
 ## Context
 
-Using the *System Workload* screen, you benefit from a seamless connection between an overview of your system workload and single ABAP statistics records \(main records and subrecords\) down to SQL statements and their prepared plan. This gives you an excellent starting point for further performance analysis on SAP HANA level in the case of high database response times, which is true especially in the example below. Of course, you might also find records with a high ABAP CPU time where you don't need to further investigate the execution of SQL statements. In that case, a performance analysis on SAP HANA level would not be needed.
+Using the *System Workload* app, you benefit from a seamless connection between an overview of your system workload and single ABAP statistics records \(main records and subrecords\) down to SQL statements and their prepared plan. This gives you an excellent starting point for further performance analysis on SAP HANA level in the case of high database response times, which is true especially in the example below. Of course, you might also find records with a high ABAP CPU time where you don't need to further investigate the execution of SQL statements. In that case, a performance analysis on SAP HANA level would not be needed.
 
 In the following example, let's analyze the usage of an application built according to the ABAP RESTful Application Programming Model \(RAP\). We're going to use the well-known demo application for flight booking, which is often used as a reference scenario in SAP contexts.
 
@@ -20,9 +20,7 @@ In the following example, let's analyze the usage of an application built accord
 
 ## Procedure
 
-1.  On the SAP Fiori launchpad of your ABAP environment, search for *System Workload*.
-
-    The technical monitoring cockpit opens with the *System Workload* screen.
+1.  On the SAP Fiori launchpad of your ABAP environment, search for the *System Workload* app and open it.
 
 2.  Let's assume you're interested in the behavior of the OData V2 services and set a filter on *Request Entry Type* for *OData V2*.
 

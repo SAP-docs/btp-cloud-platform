@@ -8,15 +8,13 @@ Get an overview of the system outbound communication over time.
 
 ## Context
 
-In the technical monitoring cockpit, the top 10 communication scenarios by calling time are shown, which helps you identify obvious expensive outbound communication. The focus is on outbound communication of type RFC, HTTP, and Web service.
+In the *System Outbound Communication* app, the top 10 communication scenarios by calling time are shown, which helps you identify obvious expensive outbound communication. The focus is on outbound communication of type RFC, HTTP, and Web service.
 
 
 
 ## Procedure
 
-1.  On the SAP Fiori launchpad of your ABAP environment, search for *Application System Overview*.
-
-    The technical monitoring cockpit opens.
+1.  On the SAP Fiori launchpad of your ABAP environment, search for the *Application System Overview* app and open it.
 
 2.  On the dashboard shown, choose the *System Outbound Communication* tile.
 

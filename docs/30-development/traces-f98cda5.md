@@ -509,7 +509,7 @@ If you have set up pipeline health monitoring, check the alerts and reports in a
 
 -   **No Guaranteed Delivery**: The used buffers are volatile. If the OTel Collector instance crashes, trace data can be lost.
 
--   **Multiple TracePipeline Support**: The maximum amount of `TracePipeline` resources is 3.
+-   **Multiple TracePipeline Support**: The maximum amount of `TracePipeline` resources is 5.
 
 -   **System Span Filtering**: System-related spans reported by Istio are filtered out without the opt-out option, for example:
 

@@ -22,7 +22,7 @@ If you're familiar with on-premise products from SAP and know the SAP GUI transa
 
 ## Procedure
 
-1.  Take an SQL trace of your ABAP application using ABAP development tools \(ADT\):
+1.  Take an SQL trace of your ABAP application using ABAP development tools for Eclipse \(ADT\):
 
     1.  Right-click on your ABAP project on the project explorer and choose *SQL Trace* from the context menu.
 
@@ -32,7 +32,7 @@ If you're familiar with on-premise products from SAP and know the SAP GUI transa
 
     4.  Deactivate the trace again and choose *View Trace Directory*.
 
-        This opens the *SQL Trace Analysis* screen of the technical monitoring cockpit.
+        This opens the *SQL Trace Analysis* app.
 
         ![](images/SQL_Trace_Directory_a274f4d.png)
 
@@ -41,7 +41,7 @@ If you're familiar with on-premise products from SAP and know the SAP GUI transa
 
     The default view shows you all SQL traces taken by your ABAP user in the last 24 hours.
 
-    The UI philosophy of the *SQL Trace Analysis* screen is: With each move to a tab page to the right, you get more information about what you've selected on the previous tab pages to the left.
+    The concept of the *SQL Trace Analysis* app is: With each move to a tab page to the right, you get more information about what you've selected on the previous tab pages to the left.
 
 3.  Choose the trace that you want to look at and change to the *Trace Records* tab page.
 

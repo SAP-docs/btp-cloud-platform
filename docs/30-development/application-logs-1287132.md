@@ -407,7 +407,39 @@ The record **after** applying the JSON parser:
 
 
 
-### Log Time Fields
+### Further Enrichment
+
+Additionally, the agent enriches every log record with the `cluster_identifier` attribute by setting the APIServer URL of the underlying Kubernetes cluster:
+
+```
+{
+   "cluster_identifier": "<APIServer URL>"
+   ...
+}
+```
+
+For `LogPipeline` resources that use an HTTP output, the following attributes are enriched for optimized integration with SAP Cloud Logging:
+
+```
+{
+  "@timestamp": "<value of attribute 'time'>",
+  "date": "<agent time in iso8601>",
+  "kubernetes": {
+    "app_name": "<value of Pod label 'app.kubernetes.io/name' or 'app'>"
+    ...
+  },
+  ...
+}
+```
+
+The enriched timestamp attributes have the following meaning:
+
+-   `time`: The time when the container runtime captured the log on `stdout/stderr`, which is very close to the time when the log originated in the application.
+
+-   `date`: The time when the log agent processed the log, which is later than the value in `time`.
+
+-   `@timestamp`: Contains the same value as `time`, optimized for SAP Cloud Logging integration.
+
 
 SAP Cloud Logging uses a dedicated attribute called `@timestamp` to represent the time of a log record. When processing a log, SAP Cloud Logging first checks whether the record contains a date field with a valid value in either Unix time \(integer format\) or ISO 8601 format. If the date field is missing or contains an invalid value, SAP Cloud Logging generates the `@timestamp` attribute based on the time the log record was received. This generated timestamp is usually later than the original log time and is not helpful in most scenarios.
 

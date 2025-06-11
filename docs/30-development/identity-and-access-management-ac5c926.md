@@ -405,3 +405,77 @@ Allows you to read and modify attributes of business users
 > 
 > ```
 
+
+
+<a name="loioac5c9267caed492094c43eb86bf76fbb__section_itn_yv4_mfc"/>
+
+## Authority Checks for Business Users
+
+
+<table>
+<tr>
+<th valign="top">
+
+Class/Method
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+CL\_AUTH\_FACTORY
+
+</td>
+<td valign="top">
+
+The entry point for using the API functions.
+
+It can be used as a factory class for the instantiation of the class for the authority checks.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+GET\_AUTH\_CHECK\_INSTANCE
+
+</td>
+<td valign="top">
+
+This method provides an instance of the class cl\_auth\_check\_for\_bu for a specific business partner. The required business partner GUID needs to be provided in the method call as current parameter. This instance can then be used for an authority check for the related business user.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CL\_AUTH\_CHECK\_FOR\_BU
+
+</td>
+<td valign="top">
+
+This class provides the option of performing an authority check on another business user for whom the class was instantiated.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+CHECK
+
+</td>
+<td valign="top">
+
+This method performs an authority check against the business user represented by the business partner GUID which was provided during instance generation.
+
+</td>
+</tr>
+</table>
+
+For more information, see the Knowledge Transfer Document in the package*SUSR\_BU*.
+

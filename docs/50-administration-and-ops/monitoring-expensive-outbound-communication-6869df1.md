@@ -2,7 +2,7 @@
 
 # Monitoring Expensive Outbound Communication
 
-The *Capture Request Statistics* app and the technical monitoring cockpit, optionally in combination with SAP Cloud ALM, help you to identify service requests that cause expensive outbound communication \(RFC, HTTP, and Web service calls\).
+The *Capture Request Statistics* and the *System Outbound Communcation* apps, optionally in combination with SAP Cloud ALM, help you to identify service requests that cause expensive outbound communication \(RFC, HTTP, and Web service calls\).
 
 
 
@@ -38,5 +38,5 @@ In these cases, a combined use of the technical monitoring cockpit, the *Capture
 
 2.  To collect ABAP statistics records relating to expensive outbound communication, for example, for a specific communication arrangement or for particularly long calling times, define a profile in the *Capture Request Statistics* app. Make sure that the *Health Monitoring* checkbox is selected in your profile \(see [Capturing Request Statistics Relating to Expensive Outbound Communication](capturing-request-statistics-relating-to-expensive-outbound-communication-f33b3d2.md)\).
 3.  In Health Monitoring in SAP Cloud ALM, use the metric *Captured Request Statistics* to find out whether service requests exceed a defined threshold in their calling time \(see [Getting Alerted About Expensive Outbound Communication Using SAP Cloud ALM](getting-alerted-about-expensive-outbound-communication-using-sap-cloud-alm-e925544.md) \). You can also use the settings in SAP Cloud ALM to get alerted with an e-mail notification.
-4.  After you have received a notification, use the *Captured Request Statistics* screen in the technical monitoring cockpit to analyze the captured request statistics for outbound communication \(see [Analyzing Expensive Outbound Communication Using the Technical Monitoring Cockpit](analyzing-expensive-outbound-communication-using-the-technical-monitoring-cockpit-bfe3098.md)\).
+4.  After you have received a notification, use the *Analyze Request Statistics* button in the *Capture Request Statistics* app which leads you to the *Captured Request Statistics* screen where you can analyze the captured data for outbound communication \(see [Analyzing Expensive Outbound Communication Using the System Outbound Communication App](analyzing-expensive-outbound-communication-using-the-system-outbound-communication-app-bfe3098.md)\).
 

@@ -10,7 +10,10 @@ To grant authorizations to people from the default identity provider in your sub
 
 If the person in question already has a user account on `sap.com` Web sites, then that person already has a user in the default identity provider. Add this user to your accounts, if you know this person's e-mail address.
 
-Consider using a custom identity provider to integrate your own identity and access management solution.
+> ### Recommendation:  
+> We strongly recommend that you configure your custom tenant of SAP Cloud Identity Services as the identity provider and connect SAP Cloud Identity Services to your own corporate identity provider.
+> 
+> For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 
 > ### Note:  
 > For technical users, create the user in your custom identity provider. In your custom identity provider, you control the access policies of these users independently from the policies we set for the default identity provider. Our default identity provider is meant for **human** users, who interact with SAP and our solutions.

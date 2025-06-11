@@ -23,9 +23,9 @@ Specify how many and which of the free dialog processes are used for parallel ta
 > ### Note:  
 > Keep in mind that two of the free dialog processes on a server are always retained by the system for dialog requests.
 
--   If you set the parameter `P_LOCAL_SERVER` to the value *'X'*, only processes of the current server are used. By default, the dialog processes of all servers of the current SAP system are used.
+-   If you set parameter `P_LOCAL_SERVER` to value *'X'*, only processes of the current server are used. By default, the dialog processes of all servers of the current SAP system are used.
 
--   With parameter `P_PERCENTAGE`, you can set the maximum percentage of free dialog processes to be used. If nothing is specified here, a value of 50 percent is used.
+-   With parameter `P_PERCENTAGE`, you can specify the share of dialog work processes that are reserved and available for the processing of asynchronous RFC tasks \(aRFC\) only. Keep in mind that this number does not correspond to the number of all generally available dialog work processes. If nothing is specified here, a value of 50 percent is used.
 
 Transporting the data into a free dialog process may take some time. Therefore, it's not efficient to parallelize very short-running operations. The time limit is around 200 milliseconds.
 

@@ -20,3 +20,24 @@ You can also provide custom tags when creating a service instance. To inform the
 > ### Note:  
 > Some service tags are inserted by default, for example, `xsuaa`, for the XS User Account and Authentication \(UAA\) service.
 
+
+
+<a name="loio3e36d133d9f342d4a3a6fde235783ccc__section_tht_232_mfc"/>
+
+## Updating Service Tags
+
+Updating service tags is, by default, **not fail-safe** because the update does not result in a call to the service broker and can also be used with user-provided service instances. You can control this behavior by using the `fail-on-service-update` parameter.
+
+Possible values for the parameter are:
+
+-   **null** \(default value\): If the update fails, the deployment will also fail.
+-   **true**: If the update of the service tags fails, the deployment will also fail.
+-   **false**: The update becomes permissive - even if the call to update the service tags fails, the deployment will still continue.
+
+> ### Example:  
+> ```
+> parameters:
+>   fail-on-service-update:
+>     tags: true
+> ```
+

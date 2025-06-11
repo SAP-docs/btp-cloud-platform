@@ -207,7 +207,7 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
 
     You can also provide an ATC check variant as additional parameter. This is used instead of the default check variant of your ATC configuration, regardless of whether an ATC configuration was explicitly provided via parameter or not.
 
-    You can specify arbitrary object sets. See also [Object Sets](https://help.sap.com/docs/btp/sap-abap-development-user-guide/objects-sets) and [XML Representations of Object Sets](https://help.sap.com/docs/btp/sap-abap-development-user-guide/xml-representations-of-object-sets) for more details.
+    You can specify arbitrary object sets. See also [Object Sets](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/object-sets) and [XML Representations of Object Sets](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/xml-representations-of-object-sets) for more details.
 
     ```
     <?xml version="1.0" encoding="UTF-8"?>

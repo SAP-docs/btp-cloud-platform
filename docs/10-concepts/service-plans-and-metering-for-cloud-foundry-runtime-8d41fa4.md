@@ -1,5 +1,7 @@
 <!-- loio8d41fa40e47b45bf90d38e393a989c4c -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Service Plans and Metering for Cloud Foundry Runtime
 
 This page explains the relationship between the service plans in the SAP Discovery Center and those in the SAP BTP cockpit, and provides information to help you understand how the service is billed.
@@ -16,11 +18,41 @@ This page explains the relationship between the service plans in the SAP Discove
 
 The diagram below shows how the service plans listed in the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-foundry-runtime?region=all&tab=service_plan) correspond to the plans you choose in the SAP BTP cockpit, depending on the commercial model of your enterprise global account. For more information about the commercial models offered by SAP, see [Commercial Models](commercial-models-263d400.md).
 
-![A diagram depicting the relationship between service plans in the SAP Discovery Center, service plans in the SAP BTP cockpit, environment plans in the SAP BTP cockpit, and the metric GB Memory. Consumption-based commercial model, line 1 of 2: Service Plan (SAP Discovery Center) - Standard; Service Plan (SAP BTP Cockpit) - not applicable; Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB Memory; SKU - 8008837. Consumption-based commercial model, line 2 of 2: Service Plan (SAP Discovery Center) - Free; Service Plan (SAP BTP Cockpit) - free (Environment); Environment Plan (SAP BTP Cockpit) - free; Metrics - GB Memory; SKU - 8011138. Subscription-based commercial model, line 1 of 1: Service Plan (SAP Discovery Center) - Standard; Service Plan (SAP BTP Cockpit) - MEMORY, the plan is associated with a standalone service Cloud Foundry Runtime (technical name: APPLICATION_RUNTIME); Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB Memory; SKU - 8008837.](images/SAP_BTP_Cloud_Foundry_Runtime_Commercial_Information_Plans_-_2024_V2_67db7c4.png)
+> ### Note:  
+> The entitlement management for plans that are greyed out on the diagram is currently unavailable in certain regions, such as China \(Shanghai\) and Government Cloud \(US\). We're planning to gradually make this functionality available in all regions at a later point in time.
 
+This image is interactive. Hover over rectangles in the diagram to see the description. Choose the highlighted areas for more information.
 
+![A diagram depicting the relationship between service plans in the
+									SAP Discovery Center,
+								service plans in the SAP BTP
+								cockpit, environment plans in the SAP BTP
+								cockpit, and the metric GB Memory.
+								Consumption-based
+								commercial model, line 1 of 2: Service Plan (SAP
+									Discovery Center) - Standard;
+								Service Plan (SAP BTP Cockpit) - box 1: standard - Default, box 2: MEMORY Default: 200 GB, the MEMORY plan is
+								associated with a standalone service Cloud
+									Foundry Runtime (technical name:
+									APPLICATION_RUNTIME);
+								Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB
+									Memory; SKU - 8008837.
+								Consumption-based commercial model, line 2 of 2: Service Plan (SAP Discovery Center) - Free; Service Plan (SAP BTP
+								Cockpit) - free (Environment); Environment
+								Plan (SAP BTP Cockpit) - free; Metrics - GB Memory; SKU - 8011138. Subscription-based commercial
+								model, line 1 of 1: Service Plan (SAP Discovery
+									Center) - Standard; Service Plan
+									(SAP BTP Cockpit) - box 1: standard- Default, box 2: MEMORY - Mandatory, the MEMORY plan is associated with a
+								standalone service Cloud Foundry Runtime
+								(technical name:
+									APPLICATION_RUNTIME);
+								Environment Plan (SAP BTP Cockpit) - standard; Metrics - GB
+									Memory; SKU -
+									8008837.](images/SAP_BTP_Cloud_Foundry_Runtime_Commercial_Information_Page_Graphic_2025_V4_fd48b9f.png)
 
-### <sub>Diagram captions: Service plans and environment plans in SAP BTP cockpit \[Show/Hide\]</sub>
+  
+  
+**Diagram captions: Service plans and environment plans in SAP BTP cockpit \[Show/Hide\]**
 
 
 <dl>
@@ -31,18 +63,19 @@ Service Plan \(SAP BTP Cockpit\)
 </b></dt>
 <dd>
 
-The plan that the global account administrator can assign to a subaccount or a directory on the *Entitlements* \> *Entity Assignments* page by choosing *Edit* \> *Add Service Plans*.  
-  
-**Screenshot: Assigning a service plan to a subaccount in SAP BTP cockpit \[Show/Hide\]**
+The plan that the global account administrator can assign to a subaccount or a directory on the *Entitlements* \> *Entity Assignments* page by choosing *Edit* \> *Add Service Plans*.
 
 > ### Tip:  
-> Open image in new tab for the full-screen version.
+> Choose <span class="SAP-icons-V5"></span> Zoom In for the full-sized version of the screenshot.
 
-![A screenshot of the Entity Assignments page in the SAP BTP cockpit, showing the assignment of a service plan to a subaccount.](images/English_Entity_Assignments_Cloud_Foundry_Runtime_26e96c8.png "Screenshot: Assigning a service plan to a subaccount in
-										SAP BTP
-									cockpit [Show/Hide]")
+![A screenshot of the Entity Assignments page in the SAP BTP cockpit, showing the assignment of a service plan to a subaccount.](images/English_Entity_Assignments_Cloud_Foundry_Runtime_26e96c8.png)
+
+Screenshot: Assigning a service plan to a subaccount in SAP BTP cockpit
 
 For general information about the procedure, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md) or [Configure Entitlements and Quotas for Directories](../50-administration-and-ops/configure-entitlements-and-quotas-for-directories-37f8871.md).
+
+> ### Note:  
+> The greyed out parts of the diagram indicate service plans that are automatically assigned to all subaccounts by default.
 
 
 
@@ -53,18 +86,16 @@ Environment Plan \(SAP BTP Cockpit\)
 </b></dt>
 <dd>
 
-The plan that the subaccount administrator can select on the *Overview* page of a subaccount when choosing *Enable Cloud Foundry*.  
-  
-**Screenshot: Selecting an environment plan for the subaccount in SAP BTP cockpit \[Show/Hide\]**
+The plan that the subaccount administrator can select on the *Overview* page of a subaccount when choosing *Enable Cloud Foundry*.
 
 > ### Tip:  
-> Open image in new tab for the full-screen version.
+> Choose <span class="SAP-icons-V5"></span> Zoom In for the full-sized version of the screenshot.
 
-![A screenshot of the Overview page of a subaccount in the SAP BTP cockpit, showing the enablement of an environment plan.](images/English_-_Enable_Cloud_Foundry_-_SAP_BTP_Cloud_Foundry_Runtime_0377151.png "Screenshot: Selecting an environment plan for the subaccount
-									in SAP BTP
-									cockpit [Show/Hide]")
+![A screenshot of the Overview page of a subaccount in the SAP BTP cockpit, showing the enablement of an environment plan.](images/English_-_Enable_Cloud_Foundry_-_SAP_BTP_Cloud_Foundry_Runtime_0377151.png)
 
 
+
+Screenshot: Selecting an environment plan for the subaccount in SAP BTP cockpit
 
 For general information about the procedure, see [Create Orgs](../50-administration-and-ops/create-orgs-a9b1f54.md).
 
@@ -114,34 +145,59 @@ Explanation
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="2">
 
 Standard
 
 </td>
-<td valign="top" align="center">
+<td valign="top">
 
-\-
-
-</td>
-<td valign="top" align="center">
-
-\-
+Cloud Foundry Environment \(`cloudfoundry`\)
 
 </td>
 <td valign="top">
 
 standard
 
+> ### Note:  
+> The entitlement management for this plan is currently unavailable in certain regions, such as China \(Shanghai\) and Government Cloud \(US\). We're planning to gradually make this functionality available in all regions at a later point in time.
+
+
+
+</td>
+<td valign="top" rowspan="2">
+
+standard
+
+</td>
+<td valign="top" rowspan="2">
+
+The plans `standard` and `MEMORY` are used together to allow you to deploy and run applications in the Cloud Foundry environment.
+
+-   `standard`: this plan allows you to create a Cloud Foundry org in a subaccount. **By itself**, the action of creating a Cloud Foundry org is free. However, when you run applications in it, you pay for the runtime memory that they use.
+
+-   `MEMORY`: this plan is used to assign runtime memory quota to a subaccount. The runtime memory can then be consumed by applications that run in the Cloud Foundry org created with the plan `standard`. The usage of runtime memory by applications is **billable** according to the commercial model of your enterprise global account.
+
+In the consumption-based commercial model, a default runtime memory quota of 200 GB is automatically assigned to all subaccounts, and the billing is based on the actual runtime memory usage. For more information, see [Service Specifics](service-plans-and-metering-for-cloud-foundry-runtime-8d41fa4.md#loio8d41fa40e47b45bf90d38e393a989c4c__service_specifics).
+
+For information on how to set up the plan, see [Standard Plan for Cloud Foundry Runtime (Consumption-Based)](https://help.sap.com/viewer/4287333baaa6413a8ece0a8ed1196af4/Cloud/en-US/16a6f68b98074b93a4f331e576f2d955.html "Learn how to set up the standard plan for SAP BTP, Cloud Foundry runtime in the consumption-based commercial model.") :arrow_upper_right:.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cloud Foundry Runtime \(`APPLICATION_RUNTIME`\)
+
 </td>
 <td valign="top">
 
-This is a **paid** plan for productive use. In the consumption-based commercial model, you are charged based on how much runtime memory has been consumed by your applications running in the Cloud Foundry environment. For details, see [Service Specifics](service-plans-and-metering-for-cloud-foundry-runtime-8d41fa4.md#loio8d41fa40e47b45bf90d38e393a989c4c__service_specifics).
+MEMORY
 
-> ### Caution:  
-> With this plan, you get a technical quota of 200 GB of runtime memory per Cloud Foundry org. This doesn't mean that you can use the runtime memory for free. The technical quota represents a **limit** on how much runtime memory all the spaces in the org can use at any given time. To increase this limit, create a case on the [SAP Support Portal](https://support.sap.com) using the component `BC-NEO-CIS`.
+> ### Note:  
+> The entitlement management for this plan is currently unavailable in certain regions, such as China \(Shanghai\) and Government Cloud \(US\). We're planning to gradually make this functionality available in all regions at a later point in time.
 
-The plan is available for all subaccounts by default and can be enabled by a subaccount administrator.
+
 
 </td>
 </tr>
@@ -170,9 +226,9 @@ free
 
 This is a **free tier** plan that allows you to try out and evaluate the service. For more information, see [Using Free Service Plans](using-free-service-plans-524e108.md).
 
-With this plan, you get a free quota of runtime memory for your Cloud Foundry org. The amount of such free quotas per global enterprise account is limited.
+When you create a Cloud Foundry org with the free plan, you also get a limited free quota of runtime memory for it. The amount of such orgs that can be created in an enterprise global account is limited.
 
-The plan must be assigned to the subaccount by a global account administrator \(or a directory administrator\), before it can be enabled by a subaccount administrator.
+For information on how to set up the plan, see [Free Plan for Cloud Foundry Runtime](https://help.sap.com/viewer/4287333baaa6413a8ece0a8ed1196af4/Cloud/en-US/5f4a816f349f46a9b792df000be32117.html "Learn how to set up the free tier plan available for SAP BTP, Cloud Foundry runtime in an enterprise global account that uses the consumption-based commercial model.") :arrow_upper_right:.
 
 > ### Note:  
 > Only community support is available for free tier service plans and these are not subject to SLAs. Use of free tier service plans is subject to additional terms and conditions as provided in the [Business Technology Platform Supplemental Terms and Conditions](https://www.sap.com/about/trust-center/agreements/cloud/cloud-services.html?sort=latest_desc&search=Supplement%20Business%20Technology%20Platform&tag=language%3Aenglish&pdf-asset=c8e624f5-bc7e-0010-bca6-c68f7e60039b&page=1).
@@ -247,11 +303,46 @@ Explanation
 </th>
 </tr>
 <tr>
-<td valign="top">
+<td valign="top" rowspan="2">
 
 Standard
 
 </td>
+<td valign="top">
+
+Cloud Foundry Environment \(`cloudfoundry`\)
+
+</td>
+<td valign="top">
+
+standard
+
+> ### Note:  
+> The entitlement management for this plan is currently unavailable in certain regions, such as China \(Shanghai\) and Government Cloud \(US\). We're planning to gradually make this functionality available in all regions at a later point in time.
+
+
+
+</td>
+<td valign="top" rowspan="2">
+
+standard
+
+</td>
+<td valign="top" rowspan="2">
+
+The plans `standard` and `MEMORY` are used together to allow you to deploy and run applications in the Cloud Foundry environment.
+
+-   `standard`: this plan allows you to create a Cloud Foundry org in a subaccount. **By itself**, the action of creating a Cloud Foundry org is free. However, when you run applications in it, you pay for the runtime memory that they use.
+
+-   `MEMORY`: this plan is used to assign runtime memory quota to a subaccount. The runtime memory can then be consumed by applications that run in the Cloud Foundry org created with the plan `standard`. The usage of runtime memory by applications is **billable** according to the commercial model of your enterprise global account.
+
+In the subscription-based commercial model, a predefined amount of runtime memory is paid for in advance and then gets used. For more information, see [Service Specifics](service-plans-and-metering-for-cloud-foundry-runtime-8d41fa4.md#loio8d41fa40e47b45bf90d38e393a989c4c__service_specifics).
+
+For information on how to set up the plan, see [Standard Plan for Cloud Foundry Runtime (Subscription-Based)](https://help.sap.com/viewer/4287333baaa6413a8ece0a8ed1196af4/Cloud/en-US/cb9b264c786c4ce094370f077806b574.html "Learn how to set up the standard plan for SAP BTP, Cloud Foundry runtime in an enterprise global account that uses the subscription-based commercial model.") :arrow_upper_right:.
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 Cloud Foundry Runtime \(`APPLICATION_RUNTIME`\)
@@ -260,20 +351,6 @@ Cloud Foundry Runtime \(`APPLICATION_RUNTIME`\)
 <td valign="top">
 
 MEMORY 
-
-</td>
-<td valign="top">
-
-standard
-
-</td>
-<td valign="top">
-
-This is a **paid** plan for productive use. In the subscription-based commercial model, you pay for runtime memory quota in advance.
-
-The runtime memory quota purchased with your subscription must be assigned to subaccounts through the service plan MEMORY. This service plan is associated with the service Cloud Foundry Runtime \(`APPLICATION_RUNTIME`\).
-
-The plan **standard** is assigned to all subaccounts by default and can be enabled by a subaccount administrator. The runtime memory quota can be assigned to the subaccount only by a global account administrator \(or a directory administrator\). These steps are independent, but both of them are required to run applications in the Cloud Foundry environment.
 
 </td>
 </tr>
@@ -349,7 +426,7 @@ This plan is only for using the SAP BTP, Cloud Foundry runtime as part of SAP Bu
 
 ## Metrics
 
-The table below provides details about the metrics for SAP BTP, Cloud Foundry runtime. It includes the names of services, with which the metrics are associated on the pages *Usage* \(accessed from the global account level\) and *Usage Analytics* \(accessed from the subaccount level\) in the SAP BTP cockpit.
+The table below provides details about the metrics for SAP BTP, Cloud Foundry runtime. It includes the names of services, with which the metrics are associated on the pages *Usage* or *Costs and Usage* \(accessed from the global account level\) and *Usage Analytics* \(accessed from the subaccount level\) in the SAP BTP cockpit.
 
 
 <table>

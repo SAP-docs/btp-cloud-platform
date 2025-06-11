@@ -133,6 +133,11 @@ In the above example:
     > > 
     > > ```
 
+    Updating managed service instances is fail-safe by default in certain scenarios, specifically when the service broker is involved. This behavior exists for legacy compatibility with service brokers that did not support plan updates in the Cloud Controller v2 API. If this fail-safe behavior is not desired, you can control it by using the `fail-on-service-update` parameter. For more information, see [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters), [Updating Service Plans](services-6ef40df.md#loio6ef40dfc2ef14bb08c28cd53b4de4c0b__section_sgc_322_mfc), [Updating Service Instance Parameters](service-instance-parameters-a36df26.md#loioa36df26b36484129b482ae20c3eb8004__section_ap5_lrd_mfc), [Updating Service Tags](service-tags-3e36d13.md#loio3e36d133d9f342d4a3a6fde235783ccc__section_tht_232_mfc).
+
+    > ### Note:  
+    > The **`optional`** parameter takes precedence over the **`fail-on-service-update`** parameter. If `optional: true` is specified, it overrides the behavior of the `fail-on-service-update` setting.
+
 -   `org.cloudfoundry.existing-service`
 
     То indicate that the \(named\) service exists, without managing its lifecycle, you define the service name by using the `org.cloudfoundry.existing-service` resource type with the following parameters:
@@ -983,7 +988,7 @@ Write
 </td>
 <td valign="top">
 
-Defines service creation parameters. More information in [Service Creation Parameters](service-creation-parameters-a36df26.md).
+Defines service creation parameters. More information in [Service Instance Parameters](service-instance-parameters-a36df26.md).
 
 </td>
 <td valign="top">
@@ -993,48 +998,7 @@ n/a
 </td>
 <td valign="top">
 
-See [Service Creation Parameters](service-creation-parameters-a36df26.md).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`syslog-drain-url`
-
-</td>
-<td valign="top">
-
-Write
-
-</td>
-<td valign="top">
-
-The URL to which logs for bound applications are streamed.
-
-> ### Note:  
-> This feature only works for user-provided services.
-
-
-
-</td>
-<td valign="top">
-
-n/a
-
-</td>
-<td valign="top">
-
-```
-resources: 
-  - name: service-name 
-    type: org.cloudfoundry.user-provided-service 
-    parameters: 
-      syslog-drain-url: syslog://example.log-aggregator.com
-
-```
-
-
+See [Service Instance Parameters](service-instance-parameters-a36df26.md).
 
 </td>
 </tr>
@@ -1123,6 +1087,51 @@ Generated as described in the description.
 <td valign="top">
 
 `xs_-deploy-service-database` \(if the service name is “`xs@-deploy-service-database`”\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`fail-on-service-update`
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+When this parameter is set to true, the deployment will fail on every service update failure. By default, service updates are fail-safe for asynchronous calls \(Cloud Foundry API calls that result in a call to the service broker\).
+
+When the parameter is set to false, deployments will not fail on service update failures, as the updates will be made fail-safe even for calls that do not result in a call to the respective service broker.
+
+For more information, see:
+
+-   [Updating Service Plans](services-6ef40df.md#loio6ef40dfc2ef14bb08c28cd53b4de4c0b__section_sgc_322_mfc)
+-   [Updating Service Instance Parameters](service-instance-parameters-a36df26.md#loioa36df26b36484129b482ae20c3eb8004__section_ap5_lrd_mfc)
+-   [Updating Service Tags](service-tags-3e36d13.md#loio3e36d133d9f342d4a3a6fde235783ccc__section_tht_232_mfc)
+
+
+
+</td>
+<td valign="top">
+
+n/a \(fails only on asynchronous calls\)
+
+</td>
+<td valign="top">
+
+```
+fail-on-service-update:
+  parameters: true
+  plan: true
+  tags: true
+
+```
+
+
 
 </td>
 </tr>
@@ -1354,6 +1363,47 @@ In the example above, `skip-service-updates` modifies the update strategy as fol
 -   allows users to specify which configurations should not be updated
 
 Note that these 3 key-value pairs can be in any order.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`syslog-drain-url`
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+The URL to which logs for bound applications are streamed.
+
+> ### Note:  
+> This feature only works for user-provided services.
+
+
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+```
+resources: 
+  - name: service-name 
+    type: org.cloudfoundry.user-provided-service 
+    parameters: 
+      syslog-drain-url: syslog://example.log-aggregator.com
+
+```
+
+
 
 </td>
 </tr>

@@ -31,6 +31,11 @@ Joule in the BTP cockpit can also assist you with administrative tasks related t
 -   List Cloud Foundry instances or spaces
 -   See the Cloud Foundry org or space users
 
+Joule can also **navigate** you to select pages within the cockpit:
+
+-   Go to the subaccount users page in order to export subaccount users
+-   Navigate to Cloud Foundry spaces
+
 **Related Information**  
 
 

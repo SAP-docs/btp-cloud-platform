@@ -44,10 +44,10 @@ You have captured request statistics relating to outbound communication using th
 
 ## Results
 
-You can now go to the technical monitoring cockpit to analyze the expensive outbound communication in more detail.
+You can now go to the *System Outbound Communication* app to analyze the expensive outbound communication in more detail.
 
 **Related Information**  
 
 
-[Analyzing Expensive Outbound Communication Using the Technical Monitoring Cockpit](analyzing-expensive-outbound-communication-using-the-technical-monitoring-cockpit-bfe3098.md "With the technical monitoring cockpit, you can analyze expensive outbound communication in detail.")
+[Analyzing Expensive Outbound Communication Using the System Outbound Communication App](analyzing-expensive-outbound-communication-using-the-system-outbound-communication-app-bfe3098.md "With the System Outbound Communication app, you can analyze expensive outbound communication in detail.")
 

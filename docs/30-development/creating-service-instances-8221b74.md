@@ -11,6 +11,6 @@ Usethe SAP BTP cockpit or the Cloud Foundry Command Line Interface to create ser
 
 You can also create service instances by declaring them as part of your multitarget application \(MTA\). To learn how to do that, have a look at the service creation parameters.
 
--   [Service Creation Parameters](service-creation-parameters-a36df26.md)
+-   [Service Instance Parameters](service-instance-parameters-a36df26.md)
 
 

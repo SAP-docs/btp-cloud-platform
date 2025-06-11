@@ -1254,7 +1254,7 @@ If you have set up pipeline health monitoring, check the alerts and reports in a
 
 -   **No Guaranteed Delivery**: The used buffers are volatile. If the gateway or agent instances crash, metric data can be lost.
 
--   **Multiple MetricPipeline Support**: The maximum amount of `MetricPipeline` resources is 3.
+-   **Multiple MetricPipeline Support**: The maximum amount of `MetricPipeline` resources is 5.
 
 
 

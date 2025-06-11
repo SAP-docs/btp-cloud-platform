@@ -26,6 +26,13 @@ Each service has one or more **service plans** available. A service plan is the 
 
 An **entitlement** is your right to provision and consume a resource. In other words, entitlements are **the service plans** that you're entitled to use.
 
+The entitlements that are available in your enterprise account are determined by the commercial model used by your global account:
+
+-   In the consumption-based commercial model, your organization buys an entitlement to all current and future SAP BTP services eligible under this model. During your contract period, you have full flexibility to switch services on and off and change between them as your business needs. For more information, see [What Is the Consumption-Based Commercial Model?](what-is-the-consumption-based-commercial-model-7047eb4.md).
+
+-   In the subscription-based commercial model, your organization is authorized to use only the services you have subscribed to, as per your commercial agreement. To access additional services at an extra cost, you can modify your contract through your sales representative or account executive. For more information, see [What Is the Subscription-Based Commercial Model?](what-is-the-subscription-based-commercial-model-239b6e0.md).
+
+
 
 
 <a name="loio00aa2c23479d42568b18882b1ca90d79__section_fpq_pyd_klb"/>

@@ -178,7 +178,7 @@ The pipeline contains several stages and currently supports two relevant scenari
 
 A pipeline definition, containing all configuration, and a running CI/CD server are required to execute the ABAP environment pipeline. You can consume the different scenarios by enabling different pipeline stages in the configuration. For more information on how to configure the ABAP environment steps and stages, see [Configuration](https://www.project-piper.io/pipelines/abapEnvironment/configuration/) and [ABAP Environment Pipeline](https://www.project-piper.io/pipelines/abapEnvironment/introduction/).
 
-The Landscape Portal offers the option to configure and execute the add-on build scenario using the [Build Product Version app](https://help.sap.com/docs/btp/sap-business-technology-platform-internal/build-product-version?state=DRAFT&version=Internal), without the need for external repositories or Jenkins servers.
+The Landscape Portal offers the option to configure and execute the add-on build scenario using the [Build Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/0c40cc527b15450c9211c3cff0188296.html) app, without the need for external repositories or Jenkins servers.
 
 > ### Note:  
 > The *Continuous Testing* scenario is currently not supported by the Landscape Portal. This means that a running Jenkins server is required, even when using the Build Product Version app. See [Add-On or gCTS](https://help.sap.com/docs/btp/sap-business-technology-platform/delivery-via-add-on-or-gcts?version=Cloud).
@@ -231,7 +231,7 @@ The ABAP environment pipeline is executed in a Jenkins server that is connec
 
 The ABAP environment pipeline can automate the build and assembly process of ABAP add-ons. From creating the delivery packages in the assembly system to publishing the add-on release, all steps are part of this pipeline.
 
-This scenario can be run in the Landscape Portal using the [Build Product Version app](https://help.sap.com/docs/btp/sap-business-technology-platform/build-product-version?version=Cloud), or it can be configured manually and run on a local Jenkins server. In both cases, the same pipeline stages will be executed.
+This scenario can be run in the Landscape Portal using the [Build Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/0c40cc527b15450c9211c3cff0188296.html) app, or it can be configured manually and run on a local Jenkins server. In both cases, the same pipeline stages will be executed.
 
 See [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/).
 
@@ -251,7 +251,7 @@ The communication with remote components is enabled via communication scenario S
 
 By default, the system is created from scratch for each new add-on version. You can choose to reuse a permanent BLD system instead of provisioning a new one each time. This has the advantage of reducing the pipeline execution time, as system provisioning is one of the most time-consuming tasks. See [Build Add-Ons on a Permanent ABAP Environment System](https://github.com/SAP-samples/abap-platform-ci-cd-samples/tree/addon-build-static).
 
-To reduce costs, it is recommended that you shut down the permanent system when no builds are scheduled. See [Manage System Hibernation](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-system-hibernation?version=Cloud). Please note that hibernated systems still incur costs.
+To reduce costs, it is recommended that you shut down the permanent system when no builds are scheduled. See [Manage System Hibernation](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/cf4fa759888745889152bfba5e1e7833.html). Please note that hibernated systems still incur costs.
 
 You can decide in detail whether to use a permanent or transient assembly system based on following criteria:
 

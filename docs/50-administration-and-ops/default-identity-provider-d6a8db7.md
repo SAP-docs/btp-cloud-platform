@@ -4,6 +4,11 @@
 
 SAP ID service is the default identity provider for both platform users and business users \(in applications\) at SAP BTP. You can start using it without further configuration.
 
+> ### Recommendation:  
+> We strongly recommend that you configure your custom tenant of SAP Cloud Identity Services as the identity provider and connect SAP Cloud Identity Services to your own corporate identity provider.
+> 
+> For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
+
 > ### Note:  
 > For China \(Shanghai\) region, a different default identity provider is used.
 > 

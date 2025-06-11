@@ -1179,7 +1179,7 @@ provides:
 </tr>
 </table>
 
-As an alternative, you can also externalize such configurations in a file. See [Service Creation Parameters](service-creation-parameters-a36df26.md).
+As an alternative, you can also externalize such configurations in a file. See [Service Instance Parameters](service-instance-parameters-a36df26.md).
 
 
 

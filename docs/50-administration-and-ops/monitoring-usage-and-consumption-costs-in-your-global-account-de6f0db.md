@@ -38,7 +38,7 @@ To monitor and track costs and usage in your global account, open the global acc
 
 <a name="loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c"/>
 
-## Understanding the Cost and Usage Views
+## Understanding the Views in the Costs and Usage Page
 
 
 
@@ -97,6 +97,11 @@ This card is displayed only if your global account uses either the SAP BTPEA or 
 Use the *Usage* and *Costs* buttons in this card to switch the view between usage and cost information.
 
 In this card, you'll see warnings if you're approaching or exceeded your cloud credit limit for the current cloud credits period. Any overages are billed at list price, so make sure to contact SAP if you need more cloud credits.
+
+> ### Tip:  
+> To allow you to better manage your global account spending and plan for future consumption, turn on the *Show forecast* option. When turned on, you can view a projection of your anticipated cloud-credit costs and usage for the next 6 months or the end of current contract period, whichever is shorter.
+> 
+> For more information about this option, see [Estimated and Forecasted Data](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_gqh_qtp_tcc).
 
 Note the following:
 
@@ -178,9 +183,9 @@ You can then save this URL as a bookmark in your browser, or you can share it wi
 
 
 
-### Billing and Usage Views
+### Billing, Usage, and Budget Views
 
-Below the filter and search area, are the *Billing* and *Usage* views, represented by tabs:
+Below the filter and search area, you can find the *Billing*, *Usage*, and *Budgets* views, represented by tabs:
 
 
 <table>
@@ -216,6 +221,20 @@ Shows the data representing your actual non-aggregated monthly usage for service
 This view applies to both the consumption-based and subscription-based commercial models.
 
 For more information about this view, see [Using the Usage View](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_vff_dr3_m1c).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Budgets \(beta\)** 
+
+</td>
+<td valign="top">
+
+In this view, you can set up budget limits for your global account so that you can better manage your global account spending and also plan for future consumption. Here you can also opt to have automatic email alerts sent to all global account administrators to notify them when spending exceeds defined budget thresholds.
+
+For more information, see [Managing Budgets in Your Global Account](managing-budgets-in-your-global-account-e115d5f.md#loioe115d5fbe1454f58aabeb3b4b1e7a847).
 
 </td>
 </tr>
@@ -390,7 +409,7 @@ Here are some useful tips for working in this perspective:
     > In the cost breakdown chart, the 8 costliest service plans in your global account over the last 12 months are displayed. Click *Show More* below the chart legend to expand the chart and to view the cost breakdown of additional plans.
 
 
-See other useful tips, such as table sorting, filtering, and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
+See other useful tips, such as table sorting, filtering, and searching, in the [Understanding the Views in the Costs and Usage Page](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
 
 </td>
 </tr>
@@ -435,7 +454,7 @@ Here are some useful tips for working in this perspective:
     > In the cost breakdown chart, the 8 costliest subaccounts in your global account over the last 12 months are displayed. If your global account has more than 8 subaccounts, click *Show More* below the chart legend to expand the chart and to view the cost breakdown of additional subaccounts.
 
 
-See other useful tips, such as table sorting and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
+See other useful tips, such as table sorting and searching, in the [Understanding the Views in the Costs and Usage Page](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
 
 </td>
 </tr>
@@ -557,7 +576,42 @@ The top 8 subaccounts that use the selected plan the most are displayed initiall
 </table>
 
 > ### Tip:  
-> See other useful tips, such as table sorting, filtering, and searching, in the [Understanding the Cost and Usage Views](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
+> See other useful tips, such as table sorting, filtering, and searching, in the [Understanding the Views in the Costs and Usage Page](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.
+
+
+
+<a name="loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_ftl_cdm_gfc"/>
+
+## Using the Budgets View
+
+For detailed information about using this view to help you manage your global account spending and to plan for future consumption, see [Managing Budgets in Your Global Account](managing-budgets-in-your-global-account-e115d5f.md#loioe115d5fbe1454f58aabeb3b4b1e7a847).
+
+
+
+<a name="loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_gqh_qtp_tcc"/>
+
+## Estimated and Forecasted Data
+
+In addition to actual usage that you've already been charged for, the **Costs and Usage** page also shows estimated and forecasted values in the cloud credits usage and cost charts:
+
+-   **Estimated Data:** The estimated values reflect your accrued service usage during the period between the last balance statement and the current date.
+
+    The values are estimated because they are based on resource usage values before computation for billing and might change after the next balance statement is issued. The estimated values are not forecast values.
+
+-   **Forecasted Data:**In the SAP BTP Enterprise Agreement and Cloud Platform Enterprise Agreement cards, we provide a *Show forecast* option that allows you to display a forecast of your cloud-credit costs and usage for the next 6 months or until the end of current contract period, whichever is shorter.
+
+    The forecast is based on certain assumptions and the historical data taken from your global account. To make a reliable forecast, you need to have consistent data from the recent past covering at least 9 months. If the available historical data in your global account doesn't allow for a reliable prediction, you won't be able to turn on the forecasting option.
+
+    The forecast does not include the costs and usage of the current month \(since this estimated data only\), nor does it take into consideration any changes to future usage patterns or costs. Additionally, you cannot turn on the forecasting when you're in the last month of the current cloud credits period.
+
+    > ### Note:  
+    > The forecast data provided by our software is intended for informational purposes only; however, it can you help to anticipate and plan for future usage needs and to budget accordingly.
+    > 
+    > SAP is not responsible for and cannot guarantee the accuracy or reliability of the forecast data, and it should not be considered as financial, legal, professional or any other advice. It is your responsibility to independently review and validate the forecast information before making any decisions or taking any actions based on it.
+
+    > ### Note:  
+    > This is a beta feature. Beta features aren't part of the officially delivered scope that SAP guarantees for future releases. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
+
 
 
 
@@ -777,6 +831,8 @@ Yes
 
 **Related Information**  
 
+
+[Managing Budgets in Your Global Account](managing-budgets-in-your-global-account-e115d5f.md#loioe115d5fbe1454f58aabeb3b4b1e7a847 "Budgets allow you to better control your global account spending and plan for future consumption by setting up budget limits for your global account in SAP BTP.")
 
 [Commercial Models](../10-concepts/commercial-models-263d400.md "SAP BTP offers two different commercial models for enterprise accounts.")
 

@@ -202,7 +202,7 @@
 -   [Create Service Binding for Bonus Plan Scenario with SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-s4hanacloud-binding.html)
 
 
-wihtout group/mission:
+without group/mission:
 
 -   [Call an External API and Parse the Response in SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-external-api.html)
 

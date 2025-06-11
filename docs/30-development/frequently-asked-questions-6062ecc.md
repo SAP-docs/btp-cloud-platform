@@ -130,5 +130,5 @@ If you want one MTA to “own” the lifecycle of the service and another to use
 
 ### How to define service instance and bindings parameters?
 
-For more information, see [Service Binding Parameters](service-binding-parameters-c7b09b7.md) as well as [Service Creation Parameters](service-creation-parameters-a36df26.md).
+For more information, see [Service Binding Parameters](service-binding-parameters-c7b09b7.md) as well as [Service Instance Parameters](service-instance-parameters-a36df26.md).
 

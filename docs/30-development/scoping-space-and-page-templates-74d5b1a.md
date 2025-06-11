@@ -6,7 +6,7 @@ The scoping of space and page templates refers to the process of defining the vi
 
 Space and page templates are not visible in the [Manage Launchpad Spaces](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-spaces?version=Cloud) and [Manage Launchpad Pages](https://help.sap.com/docs/btp/user-interface-configurations/manage-launchpad-pages?version=Cloud) apps in the development system by default. Meaning, they cannot be assigned or used within a business role. The space and page templates need to be scoped.
 
-To use the space and page templates in the development system you must implement your own scoping using the scoping API \(Application Programming Interface\) `DL APS BC SCOPE CHANGE API`. It's recommended to use a console application to set the space and page template in scope.
+To use the space and page templates in the development system you must implement your own scoping using the scoping API \(Application Programming Interface\) `CL APS BC SCOPE CHANGE API`. It's recommended to use a console application to set the space and page template in scope.
 
 > ### Note:  
 > Please be aware that the API in the following example is not available for SAP trial accounts.
