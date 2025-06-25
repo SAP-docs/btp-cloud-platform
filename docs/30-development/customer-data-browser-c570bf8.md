@@ -41,17 +41,17 @@ If you need support or experience issues, please report an incident under compon
 **Related Information**  
 
 
-[Application Overview](application-overview-2c8f2bd.md "")
+[Customer Data Browser Objects](customer-data-browser-objects-2c8f2bd.md "")
 
 [Read Access Logging](read-access-logging-1fcb706.md "")
 
 [Security Audit Log](security-audit-log-d2167ac.md "")
 
-[Getting Started](getting-started-dce4f9a.md "")
+[Accessing the App](accessing-the-app-dce4f9a.md "")
 
-[Restrictions and App Behavior](restrictions-and-app-behavior-15fb03d.md "")
+[Data Visibility Based on Restrictions](data-visibility-based-on-restrictions-15fb03d.md "")
 
-[Using the App](using-the-app-c222a96.md "")
+[Working wtih the App](working-wtih-the-app-c222a96.md "")
 
 [FAQs](faqs-6566530.md "")
 

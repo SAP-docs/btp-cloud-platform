@@ -40,6 +40,7 @@ Unsupported Features
 -   Sharing Service Instances \(not all services support instance sharing\). See [https://docs.cloudfoundry.org/devguide/services/sharing-instances.html](https://docs.cloudfoundry.org/devguide/services/sharing-instances.html).
 -   HTTP/2. See [https://docs.cloudfoundry.org/adminguide/supporting-http2.html\#application](https://docs.cloudfoundry.org/adminguide/supporting-http2.html#application).
 -   Streaming Logs to Log Management Services. See [https://docs.cloudfoundry.org/devguide/services/log-management.html](https://docs.cloudfoundry.org/devguide/services/log-management.html).
+-   Configuring per-route options. See [https://docs.cloudfoundry.org/devguide/custom-per-route-options.html](https://docs.cloudfoundry.org/devguide/custom-per-route-options.html)
 
 
 

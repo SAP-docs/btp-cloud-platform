@@ -13,5 +13,7 @@ For more information about security audit logs, see: [Security Audit Log](https:
 
 [Customer Data Browser](customer-data-browser-c570bf8.md)
 
-[Getting Started](getting-started-dce4f9a.md "")
+[Accessing the App](accessing-the-app-dce4f9a.md "")
+
+[Data Visibility Based on Restrictions](data-visibility-based-on-restrictions-15fb03d.md "")
 

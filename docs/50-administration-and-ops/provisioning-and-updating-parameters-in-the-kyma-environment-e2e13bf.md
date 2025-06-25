@@ -31,6 +31,7 @@ These are the configurable cluster parameters:
 -   [Networking](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Networking)
 -   [OpenID Connect \(OIDC\)](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
 -   [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region)
+-   [Shoot and Seed Same Region](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
 
 
 
@@ -2174,6 +2175,11 @@ The following example shows the default configuration of the *OIDC* parameter. T
 
 *Region\** \(`region`\) is a mandatory string parameter, which defines a region where your cluster runs.
 
+> ### Note:  
+> The region marked with "<sup>3</sup>" has a `Seed` and supports the *Shoot and Seed Same Region* feature.
+> 
+> For more information, see [Shoot and Seed Same Region](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed).
+
 **Region Parameter**
 
 
@@ -2223,12 +2229,12 @@ Provisioning
 </td>
 <td valign="top">
 
-`eu-central-1`
+`eu-central-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)
+Europe \(Frankfurt\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2271,12 +2277,12 @@ Brazil \(São Paulo\)
 <tr>
 <td valign="top">
 
-`us-east-1`
+`us-east-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US East \(VA\)
+US East \(VA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2295,12 +2301,12 @@ Japan \(Tokyo\)
 <tr>
 <td valign="top">
 
-`ap-northeast-2`
+`ap-northeast-2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-South Korea \(Seoul\)
+South Korea \(Seoul\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2319,36 +2325,36 @@ India \(Mumbai\)
 <tr>
 <td valign="top">
 
-`ap-southeast-1`
+`ap-southeast-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Singapore
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`ap-southeast-2`
-
-</td>
-<td valign="top">
-
-Australia \(Sydney\)
+Singapore<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`us-west-2`
+`ap-southeast-2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US West \(Oregon\)
+Australia \(Sydney\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`us-west-2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+
+</td>
+<td valign="top">
+
+US West \(Oregon\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2371,12 +2377,12 @@ Provisioning
 </td>
 <td valign="top">
 
-`europe-west3`
+`europe-west3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)
+Europe \(Frankfurt\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2395,24 +2401,24 @@ Europe \(Netherlands\)
 <tr>
 <td valign="top">
 
-`asia-south1`
+`asia-south1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-India \(Mumbai\)
+India \(Mumbai\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`us-central1`
+`us-central1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US Central \(IA\)
+US Central \(IA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2431,12 +2437,12 @@ Japan \(Osaka\)
 <tr>
 <td valign="top">
 
-`me-central2`
+`me-central2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-KSA \(Dammam\)
+KSA \(Dammam\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2547,12 +2553,12 @@ Provisioning
 </td>
 <td valign="top">
 
-`eastus`
+`eastus`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US East \(VA\)
+US East \(VA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2571,12 +2577,12 @@ US Central \(IA\)
 <tr>
 <td valign="top">
 
-`westus2`
+`westus2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US West \(WA\)
+US West \(WA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2607,12 +2613,12 @@ North EU \(Ireland\)
 <tr>
 <td valign="top">
 
-`westeurope`
+`westeurope`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Europe \(Netherlands\)
+Europe \(Netherlands\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2643,24 +2649,24 @@ Singapore
 <tr>
 <td valign="top">
 
-`australiaeast`
+`australiaeast`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Australia \(Sydney\)
+Australia \(Sydney\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`switzerlandnorth`
+`switzerlandnorth`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Switzerland \(Zurich\)
+Switzerland \(Zurich\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2695,6 +2701,27 @@ Here is an example of the JSON input for the *Region* parameter:
 > ### Sample Code:  
 > ```
 > "region": "us-east-1"
+> ```
+
+
+
+<a name="loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed"/>
+
+## Shoot and Seed Same Region
+
+*Shoot and Seed Same Region* \(technical name: `ShootAndSeedSameRegion`\) is a provisioning parameter. It is a boolean that enables you to decide if your `Shoot` and `Seed` should be in the same region.
+
+If you set it to `true`, your `Shoot` is matched with a `Seed` in the same region, which ensures the location of the control plane in the same region where your cluster's worker nodes are deployed. This setting gives you control of where your sensitive data is stored. If there's no `Seed` available in the specified region, you receive an error message with the list of regions where you can have both the `Seed` and the `Shoot`.
+
+If you set the parameter to `false` or leave the field empty, your control plane can sometimes be deployed in a different region than the worker nodes.
+
+To learn which regions have a `Seed` and support the *Shoot and Seed Same Region* feature, see the [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region) section.
+
+See an example of the JSON input:
+
+> ### Sample Code:  
+> ```
+> "shootAndSeedSameRegion": true
 > ```
 
 **Related Information**  

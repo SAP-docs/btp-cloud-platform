@@ -1,6 +1,6 @@
 <!-- loiodce4f9ac42d043ffbe50dbabc30d7a33 -->
 
-# Getting Started
+# Accessing the App
 
 Customer Data Browser is a self-service application that you can use to view data that belongs to specific CDS views and database tables that are allowed for user access by SAP or by the customer.
 
@@ -120,29 +120,96 @@ Maintain Business Roles
 
 ## Role Purpose
 
-The roles are used for the following purposes:
+For each role, the table below shows information about access, purpose and assignments.
 
--   `SAP_BR_ADMINISTRATOR` \(Administrator\): With this role, you can maintain authorization restrictions using the[https://help.sap.com/docs/SAP\_S4HANA\_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/365b0d6fe67d4cecbfe11cc8344264cc.html](https://help.sap.com/docs/SAP_S4HANA_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/365b0d6fe67d4cecbfe11cc8344264cc.html) app.
-
-    For more information about maintaining restrictions for Customer Data Browser, see [How to Define Authorizations Based on Restrictions](../50-administration-and-ops/how-to-define-authorizations-based-on-restrictions-c926d69.md).
-
-    For more information about restriction fields for Customer Data Browser, see [Restrictions and App Behavior](restrictions-and-app-behavior-15fb03d.md).
-
--   `SAP_BR_ADMINISTRATOR_DANA` \(Administrator – Data Analysis\): With this role, you can access Customer Data Browser application.
+****
 
 
+<table>
+<tr>
+<th valign="top">
 
-<a name="loiodce4f9ac42d043ffbe50dbabc30d7a33__section_sby_vcd_cqb"/>
+User Role
 
-## Role Assignment Recommendations
+</th>
+<th valign="top">
 
--   Assign the `SAP_BR_ADMINISTRATOR_DANA` role to a business user who does not have the `SAP_BR_ADMINISTRATOR` role.
--   Make sure that the user with the `SAP_BR_ADMINISTRATOR_DANA` role is assigned to a single copy of the `SAP_BR_ADMINISTRATOR_DANA` role. Assigning the user to multiple copies of the `SAP_BR_ADMINISTRATOR_DANA` role may cause authorization issues when you access the Customer Data Browser app.
+Purpose
+
+</th>
+<th valign="top">
+
+Access
+
+</th>
+<th valign="top">
+
+Recommendations
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Administrator
+
+`SAP_BR_ADMINISTRATOR`
+
+</td>
+<td valign="top">
+
+With this role, you can maintain authorization restrictions using the [Maintain Business Roles](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53e36b5493804bcdb3f6f14de8b487dd/8980ad05330b4585ab96a8e09cef4688.html?locale=en-US) app.For more information about maintaining restrictions for Customer Data Browser, see [How to Define Authorizations Based on Restrictions](../50-administration-and-ops/how-to-define-authorizations-based-on-restrictions-c926d69.md). .
+
+</td>
+<td valign="top">
+
+Access the Maintain Business Roles app in the Fiori Apps Library using the Fiori ID: F1492.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Administrator – Data Analysis
+
+SAP\_BR\_ADMINISTRATOR
+
+</td>
+<td valign="top">
+
+With this role, you can access the Customer Data Browser application.
+
+</td>
+<td valign="top">
+
+Access the Customer Data Browser application in the Fiori apps Library using the Fiori ID: F5746.
+
+</td>
+<td valign="top">
+
+-   Assign the`SAP_BR_ADMINISTRATOR_DANA` role to a business user who does not have the`SAP_BR_ADMINISTRATOR` role.
+
+-   Make sure that the user with the`SAP_BR_ADMINISTRATOR_DANA` role is assigned to a single copy of the`SAP_BR_ADMINISTRATOR_DANA` role.
+
+
+> ### Note:  
+> Assigning the user to multiple copies of the`SAP_BR_ADMINISTRATOR_DANA` role may cause authorization issues when you access the Customer Data Browser app.
+
+
+
+</td>
+</tr>
+</table>
 
 **Related Information**  
 
 
 [Customer Data Browser](customer-data-browser-c570bf8.md)
 
-[Restrictions and App Behavior](restrictions-and-app-behavior-15fb03d.md "")
+[Data Visibility Based on Restrictions](data-visibility-based-on-restrictions-15fb03d.md "")
 

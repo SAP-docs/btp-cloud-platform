@@ -62,5 +62,7 @@ Planned downtimes and outage communication are sent through e-mail to the initia
 
 [Regions](../10-concepts/regions-350356d.md "You can deploy applications in different regions. Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.")
 
-[Release Schedule for SAP BTP, Kyma Runtime Environment](https://me.sap.com/notes/3459911)
+[Release Schedule for cross and foundational services of SAP BTP, Cloud Foundry environment](https://me.sap.com/notes/3435435)
+
+[Release Schedule for SAP BTP, Kyma Runtime](https://me.sap.com/notes/3459911)
 

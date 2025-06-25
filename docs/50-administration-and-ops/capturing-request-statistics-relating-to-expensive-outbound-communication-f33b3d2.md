@@ -173,8 +173,6 @@ With the checkbox *Health Monitoring* selected, you can also automatically expor
     </tr>
     </table>
     
-    ![](images/Capture_Expensive_Outbound_Communication_d27be64.png)
-
 6.  Choose *Create* to save the filter and go back to the header data.
 
     Optionally, you can define more filters for additional communication arrangements.

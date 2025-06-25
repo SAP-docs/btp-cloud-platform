@@ -15,6 +15,9 @@ Learn how to expose a workload and secure it with a JSON Web Token \(JWT\). To g
 -   You have installed [curl](https://curl.se/).
 -   You have a deployed workload.
 
+    > ### Note:  
+    > To expose a workload using APIRule in version `v2`, the workload must be a part of the Istio service mesh. See [Enabling Istio Sidecar Proxy Injection](enabling-istio-sidecar-proxy-injection-b3c6f1d.md).
+
 -   You have an SAP Cloud Identity Services - Identity Authentication tenant and you have created an OpenID Connect Application in your Identity Authentication tenant. See [Create OpenID Connect Application for JWT Bearer Flow](https://help.sap.com/docs/identity-authentication/identity-authentication/configure-apps-create-openid-connect-application-for-jwt-bearer-flow?version=Cloud).
 
 -   You have configured a Secret for API Authentication and saved the values of Client ID and Client Secret. See [Configure Secrets for API Authentication](https://help.sap.com/docs/identity-authentication/identity-authentication/dev-configure-secrets-for-api-authentication?version=Cloud).

@@ -14,7 +14,7 @@ This buildpack supports Java 8, 11, and 17, as well as the following runtimes:
 
 
 > ### Caution:  
-> Bear in mind that SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment on **June 30, 2025**!
+> Bear in mind that SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment on **October 1, 2025**!
 > 
 > For more information, see: [Release Notes - April 3, 2025](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP+Java+Buildpack&Valid_as_Of=2025-04-01:2025-04-05&locale=en-US&version=Cloud)
 

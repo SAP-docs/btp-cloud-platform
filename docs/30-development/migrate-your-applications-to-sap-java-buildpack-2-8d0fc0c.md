@@ -14,7 +14,7 @@ SAP Java Buildpack 2 has been generally available \(GA\) since **March 2024**. I
 
 SAP Java Buildpack 1, on the other hand, supports older versions of Java \(8, 11\), Tomcat 9, and an SAP-patched version of TomEE 7 \(which reached EoL in March 2021\). SapMachine 11 has also reached EoL – in December 2024.
 
-Our goal is to focus our efforts on delivering highly-requested new features, reducing technical debt, and boosting product quality and security. As a result, SAP Java Buildpack 1 has been deprecated and technical support for it will be provided until **June 30, 2025**.
+Our goal is to focus our efforts on delivering highly-requested new features, reducing technical debt, and boosting product quality and security. As a result, SAP Java Buildpack 1 has been deprecated and technical support for it will be provided until **October 1, 2025**.
 
 For more information, see [SAP Java Buildpack 2: Jakarta-Based, Fresh and New!](https://community.sap.com/t5/technology-blogs-by-sap/sap-java-buildpack-2-jakarta-based-fresh-and-new/ba-p/13619580)
 
@@ -161,7 +161,7 @@ For more information, see [MTA Module Types](https://help.sap.com/docs/btp/sap-b
 
 ## Timeline
 
-We plan to support SAP Java Buildpack 1 until **June 30, 2025** when it will be removed from SAP BTP, Cloud Foundry environment. Applications that haven't been migrated to SAP Java Buildpack 2 by then might continue to run but will get an error when being restaged or redeployed.
+We plan to support SAP Java Buildpack 1 until **October 1, 2025** when it will be removed from SAP BTP, Cloud Foundry environment. Applications that haven't been migrated to SAP Java Buildpack 2 by then might continue to run but will get an error when being restaged or redeployed.
 
 In Q4 of 2024, we stopped adding new features to SAP Java Buildpack 1, and only provided security updates and bug fixes.
 

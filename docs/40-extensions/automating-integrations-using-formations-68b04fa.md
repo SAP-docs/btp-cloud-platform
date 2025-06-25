@@ -1,5 +1,7 @@
 <!-- loio68b04fa73aa740cb96ed380a85a4761a -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Automating Integrations Using Formations
 
 You can use the automated integration that allows you to include various SAP systems into a formation and thus combine diverse SAP solutions into an extended business scenario.
@@ -111,6 +113,21 @@ If you want to reconfigure the systems in a formation from scratch without exclu
 > 
 > To restore a deleted formation, first you must create it anew, and then, include all of its systems again, one by one.
 
+
+
+<a name="loio68b04fa73aa740cb96ed380a85a4761a__postreq_lly_n2t_pfc"/>
+
+## Next Steps
+
+Once the formation is ready, you might need to configure additionally some of the systems that are part of this formation. You get the configuration details from the formation and then you go to the respective system and add these details. Such a system is the SAP S/4HANA Cloud Private Edition. To get the configuration details, you have to:
+
+1.  In the *Formations* page, select the formation you are working with.
+2.  Choose the system that needs additional configuration to open its details. In this example, this is the SAP S/4HANA Cloud Private Edition system.
+3.  Go to the *Configuration for System... Provided By* section and in the *Actions* column, choose <span class="SAP-icons-V5"></span> \(Syntax\).
+4.  You get the configuration details in a visual or in a JSON format. Copy the details that you need.
+
+Depending on the system type, use the details you've copied to configure the system.
+
 **Related Information**  
 
 
@@ -133,6 +150,8 @@ If you want to reconfigure the systems in a formation from scratch without exclu
 [Enabling Events Exchange Between SAP Cloud Systems](enabling-events-exchange-between-sap-cloud-systems-1592246.md "")
 
 [Enabling Integration with SAP Master Data Integration](enabling-integration-with-sap-master-data-integration-9743f20.md "")
+
+[Enabling SAP Business Data Cloud](enabling-sap-business-data-cloud-78c9fd9.md "")
 
 [Setting Up System Landscape for Kyma](setting-up-system-landscape-for-kyma-9154051.md "")
 

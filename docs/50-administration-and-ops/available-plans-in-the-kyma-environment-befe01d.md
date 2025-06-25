@@ -443,6 +443,30 @@ Provisioning
 <tr>
 <td valign="top">
 
+*Shoot and Seed Same Region*
+
+btp CLI parameter: `ShootAndSeedSameRegion`
+
+</td>
+<td valign="top">
+
+Allows you to have both the control plane and worker nodes in the same region.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Shoot and Seed Same Region](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Machine Type*
 
 btp CLI parameter: `machineType`
@@ -728,6 +752,30 @@ Provisioning
 <td valign="top">
 
 [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Shoot and Seed Same Region*
+
+btp CLI parameter: `ShootAndSeedSameRegion`
+
+</td>
+<td valign="top">
+
+Allows you to have both the control plane and worker nodes in the same region.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Shoot and Seed Same Region](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
 
 </td>
 </tr>

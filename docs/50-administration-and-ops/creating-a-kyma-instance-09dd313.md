@@ -71,9 +71,9 @@ You have created a Kyma environment instance. You can see its details, such as t
 -   To view the details of your Kyma instance, choose it from the list under *Instances and Subscriptions*.
 
 -   To manage your Kyma instance, go to *Instances and Subscriptions*. Choose the action you want to perform from the instance's actions menu.
--   To manage access to the Kyma environment and Kyma dashboard, assign roles as needed. See [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md)
+-   To manage access to the Kyma environment and Kyma dashboard, assign roles as needed. See [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md).
 
--   To use a variety of functionalities, such as telemetry and eventing, or to use SAP BTP services, add the respective [Kyma modules](../10-concepts/kyma-modules-0dda141.md).
+-   To use a variety of functionalities, such as telemetry and eventing, or to use SAP BTP services, add the respective Kyma modules. See [Kyma Modules](../10-concepts/kyma-modules-0dda141.md).
 
 
 > ### Tip:  

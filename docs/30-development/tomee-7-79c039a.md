@@ -105,7 +105,7 @@ For a full list of specification versions, see: [Apache TomEE 7](https://tomee.a
 </table>
 
 > ### Restriction:  
-> TomEE 7 does not support **.ear** deployments.
+> TomEE 7 does **not** support `.ear` deployments.
 
 
 

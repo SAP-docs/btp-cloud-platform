@@ -1,6 +1,6 @@
 <!-- loio2c8f2bda05324eda92fa4aa080eaf7a2 -->
 
-# Application Overview
+# Customer Data Browser Objects
 
 Customer Data Browser is a self-service application that you can use to view data that belongs to CDS views and database tables allowed for user access by SAP or by the customer.
 

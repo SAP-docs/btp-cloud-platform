@@ -18,9 +18,6 @@ This page explains the relationship between the service plans in the SAP Discove
 
 The diagram below shows how the service plans listed in the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/cloud-foundry-runtime?region=all&tab=service_plan) correspond to the plans you choose in the SAP BTP cockpit, depending on the commercial model of your enterprise global account. For more information about the commercial models offered by SAP, see [Commercial Models](commercial-models-263d400.md).
 
-> ### Note:  
-> The entitlement management for plans that are greyed out on the diagram is currently unavailable in certain regions, such as China \(Shanghai\) and Government Cloud \(US\). We're planning to gradually make this functionality available in all regions at a later point in time.
-
 This image is interactive. Hover over rectangles in the diagram to see the description. Choose the highlighted areas for more information.
 
 ![A diagram depicting the relationship between service plans in the
@@ -159,11 +156,6 @@ Cloud Foundry Environment \(`cloudfoundry`\)
 
 standard
 
-> ### Note:  
-> The entitlement management for this plan is currently unavailable in certain regions, such as China \(Shanghai\) and Government Cloud \(US\). We're planning to gradually make this functionality available in all regions at a later point in time.
-
-
-
 </td>
 <td valign="top" rowspan="2">
 
@@ -193,11 +185,6 @@ Cloud Foundry Runtime \(`APPLICATION_RUNTIME`\)
 <td valign="top">
 
 MEMORY
-
-> ### Note:  
-> The entitlement management for this plan is currently unavailable in certain regions, such as China \(Shanghai\) and Government Cloud \(US\). We're planning to gradually make this functionality available in all regions at a later point in time.
-
-
 
 </td>
 </tr>
@@ -316,11 +303,6 @@ Cloud Foundry Environment \(`cloudfoundry`\)
 <td valign="top">
 
 standard
-
-> ### Note:  
-> The entitlement management for this plan is currently unavailable in certain regions, such as China \(Shanghai\) and Government Cloud \(US\). We're planning to gradually make this functionality available in all regions at a later point in time.
-
-
 
 </td>
 <td valign="top" rowspan="2">

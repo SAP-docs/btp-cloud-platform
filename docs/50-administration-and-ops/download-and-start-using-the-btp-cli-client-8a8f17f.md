@@ -137,7 +137,15 @@ There are various ways of downloading the client for each operating system, as e
         curl https://cli.btp.cloud.sap/btpcli-uninstall.sh | zsh
         ```
 
-    -   Option 2: **Manually install the latest Apple macOS \(amd64 and arm64\) version**
+    -   Option 2: **Homebrew Package Manager**
+
+        You can use [Homebrew](https://formulae.brew.sh/cask/btp#default) open source package management software to download the latest version of the btp CLI. Homebrew downloads the client from [SAP Development Tools](https://tools.hana.ondemand.com). In your terminal, run:
+
+        ```
+        brew install --cask btp
+        ```
+
+    -   Option 3: **Manually install the latest Apple macOS \(amd64 and arm64\) version**
 
         1.  Download the latest Apple macOS client \([amd64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-amd64-latest.tar.gz) or [arm64](https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-latest.tar.gz)\) from SAP Development Tools.
 
@@ -213,7 +221,15 @@ There are various ways of downloading the client for each operating system, as e
         curl https://cli.btp.cloud.sap/btpcli-uninstall.sh | bash
         ```
 
-    -   Option 2: **Manually install the latest Linux \(amd64 and arm64\) version**
+    -   Option 2: **Homebrew Package Manager**
+
+        You can use [Homebrew](https://formulae.brew.sh/cask/btp#default) open source package management software to download the latest version of the btp CLI. Homebrew downloads the client from [SAP Development Tools](https://tools.hana.ondemand.com). In your terminal, run:
+
+        ```
+        brew install --cask btp
+        ```
+
+    -   Option 3: **Manually install the latest Linux \(amd64 and arm64\) version**
 
         1.  Download the latest Linux client \([amd64](https://tools.hana.ondemand.com/additional/btp-cli-linux-amd64-latest.tar.gz) or [arm64](https://tools.hana.ondemand.com/additional/btp-cli-linux-arm64-latest.tar.gz)\) from SAP Development Tools.
 
