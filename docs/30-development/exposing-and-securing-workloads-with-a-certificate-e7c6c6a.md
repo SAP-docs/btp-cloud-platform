@@ -19,7 +19,7 @@ Learn how to expose and secure a workload with mutual authentication using a TLS
     > To expose a workload using APIRule in version `v2`, the workload must be a part of the Istio service mesh. See [Enabling Istio Sidecar Proxy Injection](enabling-istio-sidecar-proxy-injection-b3c6f1d.md).
 
 -   You have [set up your custom domain](https://kyma-project.io/#/api-gateway/user/tutorials/01-10-setup-custom-domain-for-workload).
--   You have set up an mTLS Gateway. See  <?sap-ot O2O class="- topic/xref " href="de2755f7b9d243b69af817836697955c.xml" text="" desc="" xtrc="xref:8" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e7c6c6a2b47744dbaa405b422e454303.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+-   You have set up an mTLS Gateway. See [Setting Up an mTLS Gateway](https://kyma-project.io/#/api-gateway/user/tutorials/01-30-set-up-mtls-gateway).
 
 
 

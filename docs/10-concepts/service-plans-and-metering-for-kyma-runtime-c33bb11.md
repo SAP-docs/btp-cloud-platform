@@ -174,7 +174,9 @@ However, as Kyma supports flexible scaling, cost per hour may vary because it de
 
 The workload calculation takes the number of virtual CPU \(vCPU\) and provides the number of CU per hour. To better understand the relationship between vCPU and nodes, note that one node is sized with 2 vCPUs.
 
-**Calculation for CPU**
+The Calculation for vCPU table presents data for general-purpose machine types.
+
+**Calculation for vCPU**
 
 
 <table>

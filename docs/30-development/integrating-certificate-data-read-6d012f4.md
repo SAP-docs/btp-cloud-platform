@@ -12,6 +12,14 @@ You can use this communication scenario to read certificate data.
 
 The communication scenario SAP\_COM\_0A13 allows you to read certificate data, such as client certificates and certificate trust lists.
 
+**Authentication Methods**
+
+This communication scenario can be configured with the following inbound authentication methods:
+
+-   *Basic Authentication* \(user and password\)
+
+-   *X.509* \(certificates\)
+
 
 
 <a name="loio6d012f4fe6af4440ab530e7bce06ed7c__CertificateData_steps"/>

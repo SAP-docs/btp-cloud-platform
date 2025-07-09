@@ -6,9 +6,6 @@
 
 Launch Joule directly from the SAP BTP cockpit.
 
-> ### Note:  
-> Joulegeneral availability is currently being rolled out in stages to global accounts during the second quarter of 2025. If Joule is available for your global account, the Global Account Administrator will first need to enable Joule in the Global Account settings by accepting the legal Terms and Conditions for Generative AI. Only then will the Joule icon appear in the cockpit tool header.
-
 Joule is accessed directly from the cockpit when you click the diamond icon <span class="SAP-icons-V5"></span> in the cockpit toolbar. When the chat window opens, you can ask Joule to perform one of the supported capabilities or you can ask Joule a question about SAP BTP.
 
 
@@ -17,7 +14,7 @@ Joule is accessed directly from the cockpit when you click the diamond icon <spa
 
 ## Authentication
 
-Joule in the BTP cockpit only supports SAP-managed IAS tenants \(P-/S-users\) for authentication at this time.
+Joule in the BTP cockpit only supports SAP-managed IAS tenants \(P-/S-users\) for authentication at this time. Ensure that you are accessing the cockpit using the SAP default identity provider.
 
 
 

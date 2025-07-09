@@ -366,7 +366,7 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-`https://login.cf.sap.hana.ondemand.com`
+`https://login.cf.eu10-004.hana.ondemand.com`
 
 </td>
 </tr>
@@ -398,7 +398,7 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-`https://api.cf.sap.hana.ondemand.com`
+`https://api.cf.eu10-004.hana.ondemand.com`
 
 </td>
 </tr>
@@ -420,7 +420,7 @@ Yes
 </td>
 <td valign="top">
 
-The default domain \(configured in the Cloud Foundry environment\)
+The default domain of the target organization \(configured in the Cloud Foundry environment\)
 
 </td>
 <td valign="top">
@@ -430,9 +430,39 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-`accra6024`
+`cfapps.eu10-004.hana.ondemand.com`
 
-`cfapps.acme.com`
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`region-primary-domain`
+
+</td>
+<td valign="top">
+
+All
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+The primary domain of a region. For more information, refer to the **Domain** column in [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md). When a region has multiple CF API endpoints, it will point to the primary domain \(the first one\).
+
+</td>
+<td valign="top">
+
+Generated as described in the description.
+
+</td>
+<td valign="top">
+
+`eu10.hana.ondemand.com` 
 
 </td>
 </tr>

@@ -6,6 +6,9 @@ The Custom Domain CLI plugin provides functions for creating private keys and ce
 
 To use the functionality of the Custom Domain plugin, use the extended Cloud Foundry commands in the command-line interface.
 
+> ### Note:  
+> However, we recommend using the UI over the CLI because the Custom Domain Manager supports TLS configurations and extension landscapes. For more information, see [Custom Domain Manager](https://help.sap.com/docs/custom-domain/custom-domain-manager/what-is-custom-domain?version=Cloud).
+
 **Related Information**  
 
 

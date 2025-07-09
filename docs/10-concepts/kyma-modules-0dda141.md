@@ -28,7 +28,7 @@ You can decide which modules are needed for your workload, although some feature
 
 ## Default Kyma Modules
 
-When you create Kyma runtime in SAP BTP cockpit, it is provisioned with the default modules added. The default modules are not mandatory. If you don't need them, you can delete them in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters). See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+When you create Kyma runtime in SAP BTP cockpit, it is provisioned with the default modules added. The default modules are not mandatory. If you don't need them, you can delete them in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters).
 
 **Default Kyma Modules**
 
@@ -56,7 +56,7 @@ Documentation
 <tr>
 <td valign="top">
 
-*Istio*
+Istio
 
 `istio`
 
@@ -75,7 +75,7 @@ Istio is a service mesh with Kyma-specific configuration.
 <tr>
 <td valign="top">
 
-*API Gateway*
+API Gateway
 
 `api-gateway`
 
@@ -87,14 +87,14 @@ API Gateway provides functionalities that allow you to expose and secure APIs.
 </td>
 <td valign="top">
 
-[kyma-project.io: API Gateway module](https://kyma-project.io/#/api-gateway/user/README)
+[API Gateway Module](../30-development/api-gateway-module-f323ab1.md)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-*SAP BTP Operator*
+SAP BTP Operator
 
 `btp-operator`
 
@@ -122,7 +122,7 @@ Within the SAP BTP Operator module, BTP Manager installs the SAP BTP service ope
 
 ## Optional Kyma Modules
 
-When you create Kyma runtime in SAP BTP cockpit, the following modules are not added by default, but you can choose to add and delete them anytime in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters). See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+When you create Kyma runtime in SAP BTP cockpit, the following modules are not added by default, but you can choose to add and delete them anytime in [Kyma dashboard](https://dashboard.kyma.cloud.sap/clusters).
 
 **Optional Kyma Modules**
 
@@ -150,7 +150,7 @@ Documentation
 <tr>
 <td valign="top">
 
-*Application Connector*
+Application Connector
 
 `application-connector`
 
@@ -172,7 +172,7 @@ Application Connector allows you to connect with external solutions. No matter i
 <tr>
 <td valign="top">
 
-*Cloud Manager*
+Cloud Manager
 
 `cloud-manager`
 
@@ -194,7 +194,7 @@ Cloud Manager brings cloud provider products and resources into the Kyma cluster
 <tr>
 <td valign="top">
 
-*Eventing*
+Eventing
 
 `eventing`
 
@@ -219,7 +219,7 @@ At the moment, the SAP Event Mesh default plan and NATS are supported. If you ch
 <tr>
 <td valign="top">
 
-*Keda*
+Keda
 
 `keda`
 
@@ -240,7 +240,7 @@ The Keda module comes with Keda Manager, an extension to Kyma that allows you to
 <tr>
 <td valign="top">
 
-*NATS*
+NATS
 
 `nats`
 
@@ -262,7 +262,7 @@ NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend
 <tr>
 <td valign="top">
 
-*Serverless*
+Serverless
 
 `serverless`
 
@@ -286,7 +286,7 @@ With the Serverless module, you can define simple code snippets \(Functions\) wi
 <tr>
 <td valign="top">
 
-*Telemetry*
+Telemetry
 
 `telemetry`
 
@@ -342,7 +342,7 @@ Documentation
 <tr>
 <td valign="top">
 
-*Transparent Proxy*
+Transparent Proxy
 
 `transparent-proxy`
 
@@ -363,14 +363,14 @@ Use the transparent proxy for Kubernetes to connect workloads in a Kubernetes cl
 <tr>
 <td valign="top">
 
-*Connectivity Proxy*
+Connectivity Proxy
 
 `connectivity-proxy`
 
 </td>
 <td valign="top">
 
-Use the connectivity proxy for Kubernetes to connect workloads in a Kubernetes cluster to on-premise systems, exposed via the Cloud Connector.
+Use the connectivity proxy for Kubernetes to connect workloads in a Kubernetes cluster to on-premise systems, exposed via the Cloud Connector
 
 </td>
 <td valign="top">
@@ -382,4 +382,9 @@ Use the connectivity proxy for Kubernetes to connect workloads in a Kubernetes c
 </table>
 
 
+
+**Related Information**  
+
+
+[Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, delete it to save resources.")
 

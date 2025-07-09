@@ -10,11 +10,11 @@ To use an SAP BTP service in your Kyma cluster, create its service instance and 
 
 ## Prerequisites
 
--   The [SAP BTP Operator module](sap-btp-operator-module-50347ea.md) is added.
+-   You have the SAP BTP Operator module added.
 
     For instructions on adding modules, see [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
--   For CLI interactions: [kubectl](https://kubernetes.io/docs/tasks/tools/) v1.17 or higher.
+-   For CLI interactions: [kubectl](https://kubernetes.io/docs/tasks/tools/) configured to communicate with your Kyma instance. See [Access a Kyma Instance Using kubectl](access-a-kyma-instance-using-kubectl-3e25944.md).
 
 -   For an enterprise account, you have added quotas to the services you purchased in your subaccount. Otherwise, only default free-of-charge services are listed in the service marketplace. Quotas are automatically assigned to the resources available in trial accounts.
 

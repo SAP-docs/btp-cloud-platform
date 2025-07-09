@@ -761,6 +761,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
+-   China \(North 3\)\*\*
 
 
 
@@ -3411,6 +3412,7 @@ Develop, debug, test, and deploy SAP business applications.
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
+-   China \(North 3\)\*\*
 
 
 
@@ -7156,6 +7158,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
+-   China \(North 3\)\*\*
 
 
 
@@ -8790,7 +8793,7 @@ Create role based, multi-channel sites to access business apps and content.
 </td>
 <td valign="top">
 
--   EP-CPP-NEO-LS
+-   EP-CPP-NEO-SFC
 
 
 
@@ -8949,6 +8952,7 @@ Create role based, multi-channel sites to access business apps and content.
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
+-   China \(North 3\)\*\*
 
 
 
@@ -10421,6 +10425,7 @@ Add UI adaptation to your UI5 applications.
 -   Japan \(Tokyo\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
+-   China \(North 3\)\*\*
 -   Canada Central \(Toronto\)
 
 
@@ -11035,6 +11040,7 @@ Simplify access to applications by establishing a central entry point.
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
+-   China \(North 3\)\*\*
 
 
 
@@ -14750,6 +14756,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
+-   China \(North 3\)\*\*
 
 
 
@@ -14897,7 +14904,7 @@ Revamp your user experience with SAP Fiori on SAP Cloud Platform.
 </td>
 <td valign="top">
 
--   EP-CPP-NEO-OPS
+-   EP-CPP-NEO-SFC
 
 
 

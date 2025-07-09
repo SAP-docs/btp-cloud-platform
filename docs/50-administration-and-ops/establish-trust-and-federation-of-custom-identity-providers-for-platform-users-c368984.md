@@ -10,7 +10,7 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 
 ## Prerequisites
 
--   You've a tenant of SAP Cloud Identity Services.
+-   You have a tenant of SAP Cloud Identity Services.
 
     > ### Note:  
     > For the custom identity provider for platform users, you can have up to three SAP Cloud Identity Services tenants per global account. Multiple global accounts can share the same SAP Cloud Identity Services tenant.
@@ -48,7 +48,7 @@ Platform users perform technical development, deployment, and administration tas
 > 
 > For more information about establishing trust for business users, see [Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](establish-trust-and-federation-between-sap-authorization-and-trust-management-service-a-161f8f0.md).
 
-You must establish a trust relationship with a custom identity provider in your global account in SAP BTP. The following procedure guides you through the trust configuration in your custom identity provider.
+Establish a trust relationship with a custom identity provider in your global account in SAP BTP. The following procedure guides you through the trust configuration with your custom identity provider.
 
 
 
@@ -69,7 +69,7 @@ You must establish a trust relationship with a custom identity provider in your 
 5.  Enter a name and a description of the new trust configuration. If possible, set the origin key. The origin key always ends with *\-platform*. Continue with *Next*.
 
     > ### Note:  
-    > The origin key is a technical identifier of an identity provider for platform users. Administrators need it when managing users. Platform users from the identity provider need the origin key when signing in with certain tools, such as the Cloud Foundry command line interface or service dashboards.
+    > The origin key is a technical identifier of an identity provider for platform users. Administrators need it when managing users. Platform users from the identity provider need the origin key when signing in with certain tools, such as the Cloud Foundry command-line interface or service dashboards.
     > 
     > You can only set the origin key once for the whole landscape. You can't change the origin key later.
     > 
@@ -82,7 +82,7 @@ You must establish a trust relationship with a custom identity provider in your 
     > ### Remember:  
     > If the OIDC issuer was changed in the trust configuration, the trust breaks, but the global account automatically repairs the trust after 24 hours.
     > 
-    > To adapt the trust configuration on SAP BTP side, use the `btp update security/trust` command of the SAP BTP command line interface together with the `--refresh` parameter. This parameter immediately refreshes the trust configuration to reflect changes in the SAP Cloud Identity Services tenant, for example the issuer value. For more information, see [Managing Trust from SAP BTP to an SAP Cloud Identity Services Tenant](managing-trust-from-sap-btp-to-an-sap-cloud-identity-services-tenant-6140107.md).
+    > To update the trust configuration on the SAP BTP side, open the details of the trust configuration and choose *Refresh*. This button immediately refreshes the trust configuration to reflect changes in the SAP Cloud Identity Services tenant, for example the issuer value.
 
 
 
@@ -113,7 +113,7 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
     For more information, see [Working with Users](working-with-users-2c91f88.md).
 
     > ### Note:  
-    > For subaccounts in the Neo environment, the identity provider will be offered in the value help only if a user in that identity provider has created at least one Neo subaccount in the corresponding global account and Neo region.
+    > For subaccounts in the Neo environment, the identity provider is offered in the value help only if a user in that identity provider has created at least one Neo subaccount in the corresponding global account and Neo region.
     > 
     > > ### Tip:  
     > > If the identity provider isn't available in the value help for Neo subaccount members, log on to the global account with a user from that identity provider and create a new Neo subaccount. If it's not needed otherwise, you can delete it.
@@ -125,7 +125,7 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
 
     For more information, see [Log On with a Custom Identity Provider to the SAP BTP Cockpit](log-on-with-a-custom-identity-provider-to-the-sap-btp-cockpit-0bef982.md).
 
--   If you want to impose, for example, two-factor authentication for platform users, you must configure [two-factor authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in **all** the SAP Cloud Identity Services applications involved. Multifactor authentication is just used as an example.
+-   If you want to impose, for example, two-factor authentication for platform users, you must configure [two-factor authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in **all** the SAP Cloud Identity Services applications involved. Multifactor authentication is used as an example.
 
     For more information, see [Multi-Factor Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in the documentation for the SAP Cloud Identity Services service. Keep all settings for SAP Cloud Identity Services applications the same.
 
@@ -139,7 +139,7 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
 
     For more information, see [Corporate Identity Provider](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html) in the documentation for SAP Cloud Identity Services.
 
--   Work in the SAP BTP command line interface \(btp CLI\).
+-   Work in the SAP BTP command-line interface \(btp CLI\).
 
     To log on to a global account, you need to provide the hostname of the tenant \(for example, *ar9ibaxhm*\) with the `--idp` parameter. See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
 
@@ -149,7 +149,7 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
 
     As an administrator, you want to determine which of the SAP Cloud Identity Services tenants' domains SAP BTP should use for platform user logon. For this reason, you specify a custom domain for an SAP Cloud Identity Services tenant. You can use the `btp update security/trust` command and specify the domain in the `--domain` parameter.
 
--   Work in the Cloud Foundry command line interface \(CF CLI\).
+-   Work in the Cloud Foundry command-line interface \(CF CLI\).
 
     For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](log-on-with-a-custom-identity-provider-to-the-cloud-foundry-environment-using-the-cloud-d477618.md).
 

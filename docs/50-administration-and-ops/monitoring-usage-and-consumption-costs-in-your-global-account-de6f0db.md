@@ -74,7 +74,7 @@ What Information is Displayed
 </td>
 <td valign="top">
 
-The *Global Account Info* card on the left displays general info about your global account.
+The *Global Account Info* card on the left displays general info about your global account and provides links to useful information.
 
 </td>
 </tr>

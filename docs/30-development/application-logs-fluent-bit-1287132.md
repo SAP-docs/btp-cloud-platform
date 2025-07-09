@@ -1,8 +1,8 @@
 <!-- loio12871325f46f48f6b4340c8ef47bdc66 -->
 
-# Application Logs
+# Application Logs \(Fluent Bit\)
 
-With application logs, you can debug an application and derive the internal state of an application. When logs are emitted with the correct severity level and context, they're essential for observing an application.
+With application logs, you can debug an application and derive the internal state of an application. The Telemetry module supports observing your applications with logs of the correct severity level and context, also using FluentBit.
 
 
 
@@ -12,9 +12,7 @@ With application logs, you can debug an application and derive the internal stat
 
 The Telemetry module provides the [Fluent Bit](https://fluentbit.io/) log agent for the collection and shipment of application logs of any container running in the Kyma runtime.
 
-You can configure the log agent with external systems using runtime configuration with a dedicated Kubernetes API \([CRD](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#customresourcedefinitions)\) named `LogPipeline`. With the `LogPipeline`’s HTTP output, you can natively integrate with vendors that support this output, or with any vendor using a [Fluentd integration](https://medium.com/hepsiburadatech/fluent-logging-architecture-fluent-bit-fluentd-elasticsearch-ca4a898e28aa).
-
-The feature is optional, if you don’t want to use the Logs feature, simply don’t set up a `LogPipeline`.
+You can configure the log agent with external systems using runtime configuration with a dedicated Kubernetes API \([CRD](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/#customresourcedefinitions)\) named `LogPipeline`. With the `LogPipeline`’s HTTP output, you can natively integrate with vendors that support this output, or with any vendor using a [Fluentd integration](https://medium.com/hepsiburadatech/fluent-logging-architecture-fluent-bit-fluentd-elasticsearch-ca4a898e28aa). The Log feature is optional. If you don’t want to use it, simply don’t set up a `LogPipeline`.
 
 
 
@@ -455,7 +453,7 @@ Fluent Bit HTTP output uses an additional filter to improve log time precision. 
 
 The Telemetry module ensures that the log agent instances are operational and healthy at any time, for example, with buffering and retries. However, there may be situations when the instances drop logs, or cannot handle the log load.
 
-To detect and fix such situations, check the pipeline status and check out [Troubleshooting](application-logs-1287132.md#loio12871325f46f48f6b4340c8ef47bdc66__section_kyma_logs_troubleshooting).
+To detect and fix such situations, check the pipeline status and check out [Troubleshooting](application-logs-fluent-bit-1287132.md#loio12871325f46f48f6b4340c8ef47bdc66__section_kyma_logs_troubleshooting).
 
 If you have set up pipeline health monitoring, check the alerts and reports in an integrated backend like SAP Cloud Logging. For details, see [Setting up a MetricPipeline](metrics-44ac6c5.md#loio44ac6c5afef0464480fa18acb7483972__section_kyma_metrics_metricpipeline_setup), step *Monitor Pipeline Health*, as well as [Integrate with SAP Cloud Logging](integrate-with-sap-cloud-logging-eac5771.md).
 

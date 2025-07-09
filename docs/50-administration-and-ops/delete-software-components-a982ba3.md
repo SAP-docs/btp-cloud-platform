@@ -216,7 +216,7 @@ This step should be performed once all deletions on other system instances have 
 ### Resulting behavior in service instances where the deleted software component is still imported
 
 1.  No further Git actions, including pull, switch branch and others, are possible.
-2.  Changes to SAP objects of the deleted sotware component can no longer be released.
+2.  Changes to ABAP objects of the deleted sotware component can no longer be released.
 3.  Non-released requests, in which object changes have already been recorded before the software component was deleted, must be handled specially.
 
     For example, you can delete the recorded object changes from the transport request. Alternatively, the transport layer of the transport request can be deleted.

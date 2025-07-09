@@ -4,9 +4,6 @@
 
 When you work with Joule, you could have questions about the things you see in the chat conversation. A list of common questions and answers are provided here.
 
-> ### Note:  
-> Joule general availability is currently being rolled out in stages to global accounts during the second quarter of 2025. If Joule is available for your global account, the Global Account Administrator will first need to enable Joule in the Global Account settings by accepting the legal Terms and Conditions for Generative AI. Only then will the Joule appear in the cockpit tool header.
-
 
 
 
@@ -19,9 +16,17 @@ When you work with Joule, you could have questions about the things you see in t
 
 
 
+### I'm unable to add users to a subaccount
+
+-   Make sure you are asking Joule to add one new user at a time to the subaccount.
+
+
+
+
+
 ### I'm seeing an error message
 
--   Try restarting the conversation with Joule by clicking the *New Conversation* button in the Joule menu.
+-   Try restarting the conversation with Joule by selecting the *New Conversation* button in the Joule menu.
 -   Rephrasing your query may help Joule better understand what you want it to do.
 
 
@@ -31,7 +36,7 @@ When you work with Joule, you could have questions about the things you see in t
 ### Joule has stopped responding
 
 -   If Joule does not respond to your prompt, try asking again or asking "are you still there?"
--   Try restarting the conversation with Joule by clicking the *New Conversation* button in the Joule menu.
+-   Try restarting the conversation with Joule by selecting the *New Conversation* button in the Joule menu.
 
 
 

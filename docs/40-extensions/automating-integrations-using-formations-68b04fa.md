@@ -151,7 +151,7 @@ Depending on the system type, use the details you've copied to configure the sys
 
 [Enabling Integration with SAP Master Data Integration](enabling-integration-with-sap-master-data-integration-9743f20.md "")
 
-[Enabling SAP Business Data Cloud](enabling-sap-business-data-cloud-78c9fd9.md "")
+ <?sap-ot O2O class="- topic/link " href="78c9fd9cb71d47dc8807f0366e9fa80d.xml" text="" desc="" xtrc="link:12" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/68b04fa73aa740cb96ed380a85a4761a.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Setting Up System Landscape for Kyma](setting-up-system-landscape-for-kyma-9154051.md "")
 

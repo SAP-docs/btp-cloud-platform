@@ -6,7 +6,7 @@ Environments constitute the actual platform-as-a-service offering of SAP BTP tha
 
 
 
-Each environment comes equipped with specific tools, technologies, and runtimes that you need to build applications. So a multi-environment subaccount \(for Kyma, ABAP, and Cloud Foundry environments\) is your single address to host a variety of applications and offer diverse development options. One advantage of using different environments in one subaccount is that you only need to manage users, authorizations, and entitlements once per subaccount, and thus grant more flexibility to your developers.
+Each environment comes equipped with specific tools, technologies, and runtimes that you need to build applications. So a multi-environment subaccount is your single address to host a variety of applications and offer diverse development options. One advantage of using different environments in one subaccount is that you only need to manage users, authorizations, and entitlements once per subaccount, and thus grant more flexibility to your developers.
 
 > ### Note:  
 > The multi-environment subaccount functionality is not applicable for the Neo environment.

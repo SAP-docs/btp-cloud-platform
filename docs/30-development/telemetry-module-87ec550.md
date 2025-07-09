@@ -89,7 +89,7 @@ For more information, see [Telemetry Gateways](telemetry-gateways-61567b7.md).
 
 The log agent is based on a [Fluent Bit](https://fluentbit.io/) installation running as a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/). It reads all containers’ logs in the runtime and ships them according to a `LogPipeline` configuration.
 
-For more information, see [Application Logs](application-logs-1287132.md).
+For more information, see [Application Logs \(Fluent Bit\)](application-logs-fluent-bit-1287132.md).
 
 
 

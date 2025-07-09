@@ -1917,7 +1917,11 @@ See the default JSON input for the *Networking* object:
 
 ## OpenID Connect \(OIDC\)
 
-The *OpenID Connect* \(`oidc`\) object allows you to provide OIDC configuration. If you do not provide the `oidc` object or any custom values in the provisioning request, the default OIDC configuration is used. If you do not provide the `oidc` object in the update request or leave all object’s properties empty, the saved OIDC configuration remains unchanged.
+
+
+### OIDC Configured as a Single `oidc` Object
+
+The *OpenID Connect* \(`oidc`\) configured as a single object allows you to provide OIDC configuration. If you do not provide the `oidc` object or any custom values in the provisioning request, the default OIDC configuration is used. If you do not provide the `oidc` object in the update request or leave all object’s properties empty, the saved OIDC configuration remains unchanged.
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
@@ -2015,7 +2019,7 @@ n/a
 </td>
 <td valign="top">
 
-n/a
+Only HTTPS scheme is accepted.
 
 </td>
 </tr>
@@ -2081,7 +2085,7 @@ n/a
 </td>
 <td valign="top">
 
-Only HTTPS scheme is accepted.
+n/a
 
 </td>
 </tr>
@@ -2142,18 +2146,18 @@ Updating
 </td>
 <td valign="top">
 
-If not provided, username claims other than an email address are prefixed by the issuer URL to avoid clashes.
+`-`
 
 </td>
 <td valign="top">
 
-To skip any prefixing, provide the value "-" \(dash character without additional characters\).
+To skip any prefixing, provide the value `-` \(dash character without additional characters\).
 
 </td>
 </tr>
 </table>
 
-The following example shows the default configuration of the *OIDC* parameter. To revert your changes to the default settings, copy and paste the following values:
+The following example shows the default configuration of a single `oidc` object. To revert your changes to the default settings, copy and paste the following values:
 
 > ### Sample Code:  
 > ```
@@ -2161,9 +2165,11 @@ The following example shows the default configuration of the *OIDC* parameter. T
 >         "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
 >         "groupsClaim": "groups",
 >         "issuerURL": "https://kyma.accounts.ondemand.com",
+>         "groupsPrefix": "-"
 >         "signingAlgs": ["RS256"],
 >         "usernameClaim": "sub",
->         "usernamePrefix": "-"
+>         "usernamePrefix": "-",
+>         "requiredClaims": ["-"]
 >     }
 > ```
 
@@ -2711,7 +2717,7 @@ Here is an example of the JSON input for the *Region* parameter:
 
 *Shoot and Seed Same Region* \(technical name: `ShootAndSeedSameRegion`\) is a provisioning parameter. It is a boolean that enables you to decide if your `Shoot` and `Seed` should be in the same region.
 
-If you set it to `true`, your `Shoot` is matched with a `Seed` in the same region, which ensures the location of the control plane in the same region where your cluster's worker nodes are deployed. This setting gives you control of where your sensitive data is stored. If there's no `Seed` available in the specified region, you receive an error message with the list of regions where you can have both the `Seed` and the `Shoot`.
+If you set it to `true`, your `Shoot` is matched with a `Seed` in the same region, which ensures the location of the control plane in the same region where your cluster's worker nodes are deployed. With this setting, you can control where your sensitive data is stored. If there's no `Seed` available in the specified region, a message offers you a list of regions where you can have both the `Seed` and the `Shoot`.
 
 If you set the parameter to `false` or leave the field empty, your control plane can sometimes be deployed in a different region than the worker nodes.
 

@@ -37,9 +37,9 @@ Consider the following restrictions and tips before you start.
 > 
 > -   Your SAP Cloud Identity Services tenant can be changed only when no SAP Cloud Identity Services-based subscriptions \(for example, SAP Build Work Zone using authentication with SAP Cloud Identity Services, SAP Build Apps, or SAP Integration Suite, advanced event mesh\) exist.
 > 
-> -   If you have an SAML trust configuration for a certain tenant already, you can't add an OIDC trust configuration to the same tenant in addition. Rather migrate the SAML trust configuration to OIDC \(see [Migration from SAML Trust to OpenID Connect Trust with SAP Cloud Identity Services](migration-from-saml-trust-to-openid-connect-trust-with-sap-cloud-identity-services-d097ce2.md)\).
+> -   If you have an SAML trust configuration for a certain tenant already, you can't add an OIDC trust configuration to the same tenant in addition. Instead, migrate the SAML trust configuration to OIDC \(see [Migration from SAML Trust to OpenID Connect Trust with SAP Cloud Identity Services](migration-from-saml-trust-to-openid-connect-trust-with-sap-cloud-identity-services-d097ce2.md)\).
 > 
->     Consider the upper limits for trust configrations in the subaccount. See [Limits for the Subaccount](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_ddk_bhf_fzb).
+>     Consider the upper limits for trust configurations in the subaccount. See [Limits for the Subaccount](../60-security/limits-for-technical-artifacts-of-the-sap-authorization-and-trust-management-service-6d3ef52.md#loio6d3ef5260f4a4232ad43542ab1441694__section_ddk_bhf_fzb).
 
 > ### Tip:  
 > -   We recommend that you use SAP Cloud Identity Services as identity provider and connect a potential corporate identity provider there. If you don't have a tenant yet, check [Getting a Tenant](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/93160ebd2dcb40e98aadcbb9a970f2b9.html#getting-a-tenant).
@@ -88,7 +88,7 @@ Consider the following restrictions and tips before you start.
 You've configured trust in your tenant of the SAP Cloud Identity Services, which is your identity provider. SAP Cloud Identity Services creates an application with the prefix *SAP BTP subaccount* and the display name of your subaccount in the administration console for SAP Cloud Identity Services.
 
 > ### Example:  
-> If your subaccount was named *My Subaccount*, the resulting application in SAP Cloud Identity Services would be *SAP BTP subaccount My Subaccount*.
+> If your subaccount is named *My Subaccount*, the resulting application in SAP Cloud Identity Services would be *SAP BTP subaccount My Subaccount*.
 > 
 > Older applications start with *XSUAA\_*.
 
@@ -96,7 +96,7 @@ You've configured trust in your tenant of the SAP Cloud Identity Services, which
 > To troubleshoot problems with tokens from SAP Cloud Identity Services, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/b6c42b53518b46de8b4dffd8c4c52ed7.html?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
 > ### Restriction:  
-> If the OIDC issuer is changed in the trust configuration, the trust breaks. To adapt the trust configuration on SAP BTP side, use the `btp update security/trust` command of the SAP BTP command line interface together with the `--refresh` parameter. This parameter refreshes the trust configuration to reflect changes in the SAP Cloud Identity Services tenant, for example the issuer value. For more information, see [Managing Trust from SAP BTP to an SAP Cloud Identity Services Tenant](managing-trust-from-sap-btp-to-an-sap-cloud-identity-services-tenant-6140107.md).
+> If the OIDC issuer is changed in the trust configuration, the trust breaks. To update the trust configuration on the SAP BTP side, open the details of the trust configuration and choose *Refresh*. This button refreshes the trust configuration to reflect changes in the SAP Cloud Identity Services tenant, for example the issuer value.
 
 
 

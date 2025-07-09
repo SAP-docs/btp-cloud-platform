@@ -12,7 +12,7 @@ The SAP Cloud Management service \(technical name: `cis`\) provides the Provisio
 
 -   Your subaccount must have entitlements for SAP BTP, Kyma runtime and the SAP Cloud Management service for SAP BTP. See [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 -   Command line interface \(CLI\) tools:
-    -   [kubectl](https://kubernetes.io/docs/reference/kubectl/)
+    -   [kubectl](https://kubernetes.io/docs/reference/kubectl/) configured to communicate with your Kyma instance \(see [Access a Kyma Instance Using kubectl](../30-development/access-a-kyma-instance-using-kubectl-3e25944.md)\)
     -   [jq](https://jqlang.github.io/jq/)
     -   [curl](https://curl.se/)
     -   SAP BTP command line interface \(btp CLI\). See [Download and Start Using the btp CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506).

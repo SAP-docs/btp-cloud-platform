@@ -12,6 +12,14 @@ You can use this communication scenario to read communication arrangement data.
 
 This communication scenario allows you to read communication arrangements, read assigned inbound users, outbound users, inbound services and outbound services.
 
+**Authentication Methods**
+
+This communication scenario can be configured with the following inbound authentication methods:
+
+-   *Basic Authentication* \(user and password\)
+
+-   *X.509* \(certificates\)
+
 
 
 <a name="loio6d14c640dc1f4bebab6a49e9497cc861__Communication_Arrangement_Integration_steps"/>

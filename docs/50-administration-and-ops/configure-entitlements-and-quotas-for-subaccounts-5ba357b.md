@@ -37,7 +37,7 @@ Distribute the entitlements that are available in your global account by adding 
 You can distribute assignments and quotas across subaccounts within a global account from these places in the cockpit:
 
 -   The *Entitlements* \> *Entity Assignments* page at the global account level \(visible only to global account administrators\).
--   The *Entitlements* \> *Entity Assignments* page at the directory level by first navigating into the directory from the *Account Explorer*. This applies only subaccounts that resides in the path of a directory that is configured to manage entitlements.
+-   The *Entitlements* \> *Entity Assignments* page at the directory level by first navigating into the directory from the *Account Explorer*. This applies only to subaccounts that reside in the path of a directory that is configured to manage entitlements.
 -   The *Entitlements* page at the subaccount level \(visible to all subaccount members, but editable only by global account administrators\) by first navigating into the subaccount from the *Account Explorer*.
 
 For more information, see [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).

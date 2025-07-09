@@ -4,9 +4,6 @@
 
 Learn about the administrative tasks that Joule can perform for you in the SAP BTP cockpit.
 
-> ### Note:  
-> Joulegeneral availability is currently being rolled out in stages to global accounts during the second quarter of 2025. If Joule is available for your global account, the Global Account Administrator will first need to enable Joule in the Global Account settings by accepting the legal Terms and Conditions for Generative AI. Only then will the Joule icon appear in the cockpit tool header.
-
 You can ask Joule to assist you with administrative scenarios related to accounts and users. If Joule recognizes the task as a supported capability, it walks you through the steps to complete the task.
 
 > ### Note:  
@@ -14,16 +11,17 @@ You can ask Joule to assist you with administrative scenarios related to account
 
 You can ask Joule what it can do for you, either by typing the question directly or selecting the quick start button.
 
-For example, Joule can provide you with **information about your global accounts or subaccounts**:
+Joule can help with **user management**:
 
--   List your global accounts or subaccounts and see details
--   See available regions
-
-You can ask Joule to provide you with **information about users**:
-
+-   Add a new user to a subaccount
 -   Get details for global account or subaccount users
 -   View users and their permissions
 -   List role collections for your global account or subaccount
+
+Joule can provide you with **information about your global accounts or subaccounts**:
+
+-   List your global accounts or subaccounts and see details
+-   See available regions
 
 Joule in the BTP cockpit can also assist you with administrative tasks related to **Cloud Foundry**:
 
@@ -35,6 +33,9 @@ Joule can also **navigate** you to select pages within the cockpit:
 
 -   Go to the subaccount users page in order to export subaccount users
 -   Navigate to Cloud Foundry spaces
+-   Go to the location in the cockpit where various information is displayed
+-   Navigate to trust configuration for a global account or a subaccount
+-   Take you to service instances in a Cloud Foundry space
 
 **Related Information**  
 

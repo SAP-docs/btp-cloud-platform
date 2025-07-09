@@ -312,6 +312,7 @@ In addition to the features that are not supported by the Cloud Foundry environm
 
 -   Metadata. See [https://docs.cloudfoundry.org/adminguide/metadata.html](https://docs.cloudfoundry.org/adminguide/metadata.html).
 
+-   Per-route options. See [https://docs.cloudfoundry.org/devguide/custom-per-route-options.html](https://docs.cloudfoundry.org/devguide/custom-per-route-options.html).
 
 > ### Note:  
 > These features might be implemented in the future. For the latest information, follow the release notes regarding Multitarget Applications for Cloud Foundry in [What’s New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Multitarget+Applications+for+Cloud+Foundry&locale=en-US&version=Cloud).

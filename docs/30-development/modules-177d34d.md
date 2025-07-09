@@ -171,7 +171,7 @@ CF application with automatic buildpack detection
 </td>
 <td valign="top">
 
-`buildpack` \(`sap_java_buildpack`\)
+`buildpack` \(`sap_java_buildpack_jakarta`\)
 
 </td>
 <td valign="top">
@@ -181,7 +181,7 @@ None
 </td>
 <td valign="top">
 
-CF application with Automatic runtime detection by `sap_java_buildpack`
+CF application with Automatic runtime detection by `sap_java_buildpack_jakarta`
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ CF application with Automatic runtime detection by `sap_java_buildpack`
 </td>
 <td valign="top">
 
-`buildpack` \(`sap_java_buildpack`\)
+`buildpack` \(`sap_java_buildpack_jakarta`\)
 
 </td>
 <td valign="top">
@@ -203,7 +203,7 @@ None
 </td>
 <td valign="top">
 
-CF application with Tomcat runtime of `sap_java_buildpack`
+CF application with Tomcat runtime of `sap_java_buildpack_jakarta`
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ CF application with Tomcat runtime of `sap_java_buildpack`
 </td>
 <td valign="top">
 
-`buildpack` \(`sap_java_buildpack`\)
+`buildpack` \(`sap_java_buildpack_jakarta`\)
 
 </td>
 <td valign="top">
@@ -225,7 +225,7 @@ None
 </td>
 <td valign="top">
 
-CF application with Automatic runtime detection by `sap_java_buildpack`
+CF application with Automatic runtime detection by `sap_java_buildpack_jakarta`
 
 </td>
 </tr>

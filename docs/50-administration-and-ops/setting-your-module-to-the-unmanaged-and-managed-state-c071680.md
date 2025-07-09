@@ -4,6 +4,9 @@
 
 In some cases, for example, for testing, you may need to modify your module beyond what is supported by its configuration. By default, when a module is in the managed state, Kyma Control Plane governs its Kubernetes resources, reverting any manual changes during the next reconciliation loop. To modify Kubernetes objects directly without them being reverted, you must set the module to the unmanaged state. In this state, reconciliation is disabled, ensuring your manual changes are preserved.
 
+> ### Caution:  
+> Unmanaged modules aren't subject to the Service Level Agreement \(SLA\). Additionally, setting a module back to the managed state does not guarantee its version is correctly updated.
+
 <a name="task_qmd_tk1_cfc"/>
 
 <!-- task\_qmd\_tk1\_cfc -->

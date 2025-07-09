@@ -45,7 +45,7 @@ Access and manage your global account's budgets in SAP BTP cockpit. Monitor spen
 
 ## Prerequisites
 
--   Your global account uses either the SAP BTP Enterprise Agreement \(SAP BTPEA\) or Cloud Platform Enterprise Agreement \(CPEA\) flavor of the consumption-based commercial model, or it combines one of these consumption-based flavors with the subscription-based commercial model.
+-   Your global account uses the SAP BTP Enterprise Agreement \(SAP BTPEA\), Cloud Platform Enterprise Agreement \(CPEA\), or Pay-As-You-Go for SAP BTP flavor of the consumption-based commercial model, or it combines one of these consumption-based flavors with the subscription-based commercial model.
 
     Note that the use of the consumption-based commercial model is subject to its availability in your country or region.
 
