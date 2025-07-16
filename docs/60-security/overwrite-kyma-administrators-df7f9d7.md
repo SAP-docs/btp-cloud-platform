@@ -22,7 +22,7 @@ In some cases, you may need to overwrite usernames of the current administrators
 To overwrite the names for the `cluster-admin` role, update the Kyma instance and provide a new value for the *administrators* field.
 
 > ### Caution:  
-> This procedure overwrites current administrators and shouldn't be used to add new ones. Treat it as an emergency self-service procedure in case of lost access. To provide access to new users, the `cluster-admin` should create a RoleBinding and/or a ClusterRoleBinding in the runtime. See [RoleBinidng and ClusterRoleBinding](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#rolebinding-and-clusterrolebinding) in the official Kubernetes documentation.
+> This procedure overwrites current administrators and shouldn't be used to add new ones. Treat it as an emergency self-service procedure in case of lost access. To provide access to new users, the `cluster-admin` should create a RoleBinding and/or a ClusterRoleBinding in the runtime. See [RoleBinding and ClusterRoleBinding](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#rolebinding-and-clusterrolebinding) in the official Kubernetes documentation.
 
 
 
