@@ -2,7 +2,7 @@
 
 # Telemetry Module
 
-Learn more about the Telemetry Module. Use it to enable observability for your application.
+Learn more about the Telemetry module. Use it to enable observability for your application.
 
 
 
@@ -36,11 +36,11 @@ The Telemetry module focuses exactly on the aspects of instrumentation, collecti
 
 To support telemetry for your applications, the Telemetry module provides the following features:
 
--   Tooling for collection, filtering, and shipment: Based on the [Open Telemetry Collector](https://opentelemetry.io/docs/collector/) and [Fluent Bit](https://fluentbit.io/), you can configure basic pipelines to filter and ship telemetry data.
+-   Tooling for collection, filtering, and shipment: Based on the [Open Telemetry Collector](https://opentelemetry.io/docs/collector/), you can configure basic pipelines to filter and ship telemetry data.
 
--   Integration in a vendor-neutral way to a vendor-specific observability system \(traces and metrics only\): Based on the [OpenTelemetry protocol \(OTLP\)](https://opentelemetry.io/docs/specs/otel/protocol/), you can integrate backend systems.
+-   Integration in a vendor-neutral way to a vendor-specific observability system: Based on the [OpenTelemetry protocol \(OTLP\)](https://opentelemetry.io/docs/specs/otel/protocol/), you can integrate backend systems.
 
--   Guidance for the instrumentation \(traces and metrics only\): Based on [Open Telemetry](https://opentelemetry.io/), you get community samples on how to instrument your code using the [Open Telemetry SDKs](https://opentelemetry.io/docs/languages/) in nearly every programming language.
+-   Guidance for the instrumentation: Based on [Open Telemetry](https://opentelemetry.io/), you get community samples on how to instrument your code using the [Open Telemetry SDKs](https://opentelemetry.io/docs/languages/) in nearly every programming language.
 
 -   Enriching telemetry data by automatically adding common attributes. This is done in compliance with established semantic conventions, ensuring that the enriched data adheres to industry best practices and is more meaningful for analysis. For details, see [Data Enrichment](telemetry-gateways-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_telemetry_data_enrichment).
 
@@ -79,33 +79,29 @@ For more information, see [Telemetry Manager](telemetry-manager-04d79d5.md).
 
 ### Gateways
 
-The Traces and Metrics features share the common approach of providing a gateway based on the [OTel Collector](https://opentelemetry.io/docs/collector/). It acts as a central point in the cluster to push data in the OTLP format. From here, the data is enriched and filtered and then dispatched as defined in the individual pipeline resources.
+The log, trace, and metrics features provide gateways based on an [OTel Collector](https://opentelemetry.io/docs/collector/) [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/). The gateways act as central endpoints in the cluster to which your applications push data in the [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/) format. From here, the data is enriched and filtered, and then dispatched configured in your pipeline resources.
 
 For more information, see [Telemetry Gateways](telemetry-gateways-61567b7.md).
 
 
 
-### Log Agent
+### Log Gateway and Agent
 
-The log agent is based on a [Fluent Bit](https://fluentbit.io/) installation running as a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/). It reads all containers’ logs in the runtime and ships them according to a `LogPipeline` configuration.
+In addition to the log gateway, you can also use the log agent based on a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/), which collects logs of any container printing logs to stdout/stderr. For more information, see  <?sap-ot O2O class="- topic/xref " href="cc6da5c211f94470b061675e1cd7ab55.xml" text="" desc="" xtrc="xref:16" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/87ec55072f394ac48d91c8c723e26e3b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
-For more information, see [Application Logs \(Fluent Bit\)](application-logs-fluent-bit-1287132.md).
+As an alternative to the OTLP-based log feature, you can choose using a log agent based on a [Fluent Bit](https://fluentbit.io/) installation running as a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/). It reads all containers’ logs in the runtime and ships them according to your `LogPipeline` configuration. For more information, see [Application Logs \(Fluent Bit\)](application-logs-fluent-bit-1287132.md).
 
 
 
 ### Trace Gateway
 
-The trace gateway is based on an [OTel Collector](https://opentelemetry.io/docs/collector/) [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/). The gateway provides an [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/)-based endpoint to which applications can push the trace signals. According to a `TracePipeline` configuration, the gateway processes and ships the trace data to a target system.
-
-For more information, see [Traces](traces-f98cda5.md) and [Telemetry Gateways](telemetry-gateways-61567b7.md).
+The trace gateway provides an [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/)-based endpoint to which applications can push the trace signals. Kyma modules like Istio or Serverless contribute traces transparently. For more information, see [Traces](traces-f98cda5.md).
 
 
 
-### Metric Gateway/Agent
+### Metric Gateway and Agent
 
-The metric gateway and agent are based on an [OTel Collector](https://opentelemetry.io/docs/collector/) [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) and a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/). The gateway provides an [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/)-based endpoint to which applications can push the metric signals. The agent scrapes annotated Prometheus-based workloads. According to a `MetricPipeline` configuration, the gateway processes and ships the metric data to a target system.
-
-For more information, see [Metrics](metrics-44ac6c5.md) and [Telemetry Gateways](telemetry-gateways-61567b7.md).
+In addition to the metric gateway, you can also use the metric agent based on a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/), which scrapes annotated Prometheus-based workloads. For more information, see [Metrics](metrics-44ac6c5.md).
 
 
 

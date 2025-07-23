@@ -193,15 +193,6 @@
 -   [Implement Custom Entity and Query Implementation Class](https://developers.sap.com/tutorials/abap-environment-a4c-create-custom-entity.html)
 
 
-*Mission:* [Connect to SAP S/4HANA Cloud with SAP BTP ABAP Environment](https://developers.sap.com/mission.abap-env-connect-s4hana.html)
-
--   [Create Communication System to Connect to SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-s4hanacloud.html)
-
--   [Create Service Consumption Model for Business Partner and Sales Order Item Cube](https://developers.sap.com/tutorials/abap-environment-s4hanacloud-service-consumption.html)
-
--   [Create Service Binding for Bonus Plan Scenario with SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-s4hanacloud-binding.html)
-
-
 without group/mission:
 
 -   [Call an External API and Parse the Response in SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-external-api.html)

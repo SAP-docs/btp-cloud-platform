@@ -2,7 +2,7 @@
 
 # Using Space Events
 
-The *Events* page at space level in the SAP BTP cockpit shows the order in which actions are performed in a space.
+The *Space Events* page at space level in the SAP BTP cockpit shows the order in which actions are performed in a space.
 
 
 
@@ -12,7 +12,7 @@ The *Events* page at space level in the SAP BTP cockpit shows the order in which
 
 A space event is created when you perform an action in the space.
 
-For example, if you trigger the creation of a new route, the `audit.route.create` space event is logged. The route is the target resource of this action. In this example, you are the *Actor*, while the route is the *Actee*.
+For example, if you trigger the creation of a new route, the `audit.route.create` space event is logged. The route is the target resource of this action. In this example, you are the *Actor*, while the route is the *Target*.
 
 
 
@@ -38,4 +38,15 @@ You can use space events to:
 Depending on the resource that is the target of the action, a space event can be specific to an application, service, route, organization, among others.
 
 To get the full list of all space event types, see [https://docs.cloudfoundry.org/running/managing-cf/audit-events.html\#types](https://docs.cloudfoundry.org/running/managing-cf/audit-events.html#types).
+
+
+
+<a name="loio748a4293d49d4757814035d51ea0dce5__section_lqf_ycn_xfc"/>
+
+## Searching for a Specific Space Event
+
+You can search for a specific space event by actor or target.
+
+> ### Note:  
+> Not all search results are loaded immediately. To add more results to your search, choose **Load More**. Each **Load More** action adds up to 200 space events to your search results.
 

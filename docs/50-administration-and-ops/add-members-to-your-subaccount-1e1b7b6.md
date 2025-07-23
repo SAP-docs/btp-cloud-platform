@@ -12,10 +12,6 @@ Add members to your subaccount to enable users to access resources available the
 
 ## Prerequisites
 
--   You’re managing a multi-environment subaccount.
-
-    For more information about adding members to Neo subaccounts, see [Add Members to Your Neo Subaccount](https://help.sap.com/docs/btp/sap-btp-neo-environment/add-members-to-your-neo-subaccount?version=Cloud).
-
 -   You must be a subaccount administrator to add other subaccount members.
 
 -   The users exist in a trusted identity provider.
@@ -24,6 +20,9 @@ Add members to your subaccount to enable users to access resources available the
 
     For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 
+
+> ### Note:  
+> This procedure explains how to add users to multi-environment subaccounts. To add members to Neo subaccounts, see [Add Members to Your Neo Subaccount](https://help.sap.com/docs/btp/sap-btp-neo-environment/add-members-to-your-neo-subaccount?version=Cloud).
 
 
 

@@ -30,7 +30,7 @@ To monitor and track costs and usage in your global account, open the global acc
 > ### Note:  
 > The *Costs and Usage* page is available only if your global account uses the consumption-based commercial model.
 > 
-> If your global account uses the subscription-based consumption-based model exclusively, then you must access the *Usage* page instead.
+> If your global account uses the subscription-based commercial model exclusively, then you must access the *Usage* page instead.
 > 
 > The *Usage* page is similar to the *Costs and Usage* page, except you cannot see any data relating to costs or cloud credits since your eligible services are already prepaid and you aren't charged per usage. See [Using the Usage View](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_vff_dr3_m1c).
 

@@ -16,7 +16,7 @@ The Telemetry module includes Telemetry Manager, a Kubernetes [operator](https:/
 
 2.  Watch for the user-created Kubernetes resources `LogPipeline`, `TracePipeline`, and `MetricPipeline`. In these resources, you specify what data of a signal type to collect and where to ship it.
 
-3.  Manage the lifecycle of the self monitor and the user-configured agents and gateways. For example, only if you defined a LogPipeline resource, the Fluent Bit DaemonSet is deployed as log agent.
+3.  Manage the lifecycle of the self monitor and the user-configured agents and gateways. For example, only if you defined a `LogPipeline` resource, the Fluent Bit DaemonSet is deployed as log agent.
 
 
 ![](images/Telemetry_Manager_196e666.svg)

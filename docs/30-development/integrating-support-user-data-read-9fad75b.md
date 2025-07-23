@@ -12,14 +12,6 @@ You can use this communication scenario to read support user data.
 
 The communication scenario SAP\_COM\_0347 allows you to read support user request logs.
 
-**Authentication Methods**
-
-This communication scenario can be configured with the following inbound authentication methods:
-
--   *Basic Authentication* \(user and password\)
-
--   *X.509* \(certificates\)
-
 
 
 <a name="loio9fad75b62392453dbf1adf9550ebac7f__SupportUserIntegration_steps"/>

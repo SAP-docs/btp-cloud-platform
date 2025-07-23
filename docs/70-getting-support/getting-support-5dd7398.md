@@ -2,7 +2,7 @@
 
 # Getting Support
 
-To get assistance, use the available support channels provided by SAP for Me.
+To get help, use the available support channels provided by SAP for Me.
 
 
 
@@ -37,7 +37,7 @@ Before you report a case, ensure the following:
 
 ### Check Tools Versions
 
-Make sure that you've the latest versions of the tools you're using \(recommended\), or at least the versions you're using are still supported. For more information, see [SAP Development Tools](https://tools.hana.ondemand.com/).
+Make sure that you have the latest versions of the tools you're using \(recommended\), or at least the versions you're using are still supported. For more information, see [SAP Development Tools](https://tools.hana.ondemand.com/).
 
 > ### Note:  
 > Trial users can ask for support by posting a question in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html). However, they should first check for answers in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html) and [Guided Answers](https://ga.support.sap.com/dtp/viewer/#/tree/2065/actions/26547).

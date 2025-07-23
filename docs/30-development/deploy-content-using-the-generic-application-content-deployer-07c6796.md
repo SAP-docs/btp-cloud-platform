@@ -49,6 +49,7 @@ You can deploy your content to the HTML5 Application Repository using the GACD \
     >   type: com.sap.application.content
     >   path: .
     >   requires:
+    >     - name: html5-apps-xsuaa
     >     - name: html5-apps-html5-repo-host
     >     parameters:
     >       content-target: true
@@ -95,6 +96,14 @@ You can deploy your content to the HTML5 Application Repository using the GACD \
     >     service: html5-apps-repo
     >     service-name: html5-apps-html5-repo-host-service
     >     service-plan: app-host
+    > # SAP Authorization and Trust Management service (technical name: xsuaa)
+    > - name: html5-apps-xsuaa
+    >   type: org.cloudfoundry.managed-service
+    >   parameters:
+    >     path: ./xs-security.json
+    >     service: xsuaa
+    >     service-name: html5-apps-xsuaa
+    >     service-plan: application
     > 
     > 
     > ```

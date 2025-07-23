@@ -33,7 +33,7 @@ To manage Cloud Foundry, i.e. for managing service instances and members in orgs
 ## Procedure
 
 > ### Tip:  
-> In the btp CLI, you can view the command help of each command to get information about how to use the command, its syntax, and input parameters. See [Get Help](../50-administration-and-ops/get-help-f8fd1e5.md).
+> In the btp CLI, you can view the command help of each command to get information about how to use the command, its syntax, and input parameters. See [Get Help for btp CLI](../50-administration-and-ops/get-help-for-btp-cli-f8fd1e5.md).
 
 
 <table>

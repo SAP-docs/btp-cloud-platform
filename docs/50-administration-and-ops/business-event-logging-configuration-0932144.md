@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-To configure business event logging, create a business role and assign the catalog `SAP_BCR_CA_IC_LND_BEL_BCO_PC` to the role. For instructions, refer to [How to Create a New Business Role](how-to-create-a-new-business-role-f65e51a.md). You can also create a business role using the template `SAP_BR_BPC_EXPERT`. For instructions, refer to [How to Create a Business Role from a Template](how-to-create-a-business-role-from-a-template-ec310a8.md) .
+To configure business event logging, create a business role and assign the catalog `SAP_CA_BC_IC_LND_BEL_BCO_PC` to the role. For instructions, refer to [How to Create a New Business Role](how-to-create-a-new-business-role-f65e51a.md). You can also create a business role using the template `SAP_BR_BPC_EXPERT`. For instructions, refer to [How to Create a Business Role from a Template](how-to-create-a-business-role-from-a-template-ec310a8.md) .
 
 
 

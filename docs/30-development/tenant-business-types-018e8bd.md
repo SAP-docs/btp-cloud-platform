@@ -54,7 +54,7 @@ Production System
 </td>
 <td valign="top">
 
-**Patner Development Tenant**
+**Partner Development Tenant**
 
 </td>
 <td valign="top">

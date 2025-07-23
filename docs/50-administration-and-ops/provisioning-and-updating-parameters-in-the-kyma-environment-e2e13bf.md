@@ -1917,10 +1917,6 @@ See the default JSON input for the *Networking* object:
 
 ## OpenID Connect \(OIDC\)
 
-
-
-### OIDC Configured as a Single `oidc` Object
-
 The *OpenID Connect* \(`oidc`\) configured as a single object allows you to provide OIDC configuration. If you do not provide the `oidc` object or any custom values in the provisioning request, the default OIDC configuration is used. If you do not provide the `oidc` object in the update request or leave all object’s properties empty, the saved OIDC configuration remains unchanged.
 
 > ### Remember:  
@@ -2383,12 +2379,12 @@ Provisioning
 </td>
 <td valign="top">
 
-`europe-west3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`europe-west3`
 
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Europe \(Frankfurt\)
 
 </td>
 </tr>
@@ -2443,12 +2439,12 @@ Japan \(Osaka\)
 <tr>
 <td valign="top">
 
-`me-central2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`me-central2`
 
 </td>
 <td valign="top">
 
-KSA \(Dammam\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+KSA \(Dammam\)
 
 </td>
 </tr>

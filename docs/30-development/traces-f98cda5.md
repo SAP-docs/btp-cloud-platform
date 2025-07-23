@@ -503,7 +503,7 @@ If you have set up pipeline health monitoring, check the alerts and reports in a
 
 ## Limitations
 
--   **Throughput**: Assuming an average span with 40 attributes with 64 characters, the maximum throughput is 4200 span/sec ~= 15.000.000 spans/hour. If this limit is exceded, spans are refused. To increase the maximum throughput, manually scale out the gateway by increasing the number of replicas.
+-   **Throughput**: Assuming an average span with 40 attributes with 64 characters, the maximum throughput is 4200 span/sec ~= 15.000.000 spans/hour. If this limit is exceeded, spans are refused. To increase the maximum throughput, manually scale out the gateway by increasing the number of replicas for the trace gateway. For details, see [Module Configuration and Status](telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_configuration).
 
 -   **Unavailability of Output**: For up to 5 minutes, a retry for data is attempted when the destination is unavailable. After that, data is dropped.
 

@@ -1058,7 +1058,7 @@ spec:
 
 By default, `otlp` input is enabled.
 
-To drop the push-based OTLP metrics that are received by the Metric gateway, define a `MetricPipeline` that has the `otlp` section disabled as an input:
+To drop the push-based OTLP metrics that are received by the metric gateway, define a `MetricPipeline` that has the `otlp` section disabled as an input:
 
 ```
 apiVersion: telemetry.kyma-project.io/v1alpha1
@@ -1242,7 +1242,7 @@ If you have set up pipeline health monitoring, check the alerts and reports in a
 
 ## Limitations
 
--   **Throughput**: Assuming an average metric with 20 metric data points and 10 labels, the default metric **gateway** setup has a maximum throughput of 34K metric data points/sec. If more data is sent to the gateway, it is refused. To increase the maximum throughput, manually scale out the gateway by increasing the number of replicas for the Metric gateway.
+-   **Throughput**: Assuming an average metric with 20 metric data points and 10 labels, the default metric **gateway** setup has a maximum throughput of 34K metric data points/sec. If more data is sent to the gateway, it is refused. To increase the maximum throughput, manually scale out the gateway by increasing the number of replicas for the metric gateway. See [Module Configuration and Status](telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_configuration).
 
     The metric **agent** setup has a maximum throughput of 14K metric data points/sec per instance. If more data must be ingested, it is refused. If a metric data endpoint emits more than 50.000 metric data points per scrape loop, the metric agent refuses all the data.
 
@@ -1400,5 +1400,5 @@ spec:
 
 **Cause**: Gateway cannot receive metrics at the given rate.
 
-**Solution**: Manually scale out the gateway by increasing the number of replicas for the Metric gateway. See [Module Configuration and Status](telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_configuration).
+**Solution**: Manually scale out the gateway by increasing the number of replicas for the metric gateway. See [Module Configuration and Status](telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_configuration).
 

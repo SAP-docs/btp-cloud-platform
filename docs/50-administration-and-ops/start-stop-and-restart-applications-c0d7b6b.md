@@ -91,7 +91,7 @@ The first start of the application occurs when you deploy the app, if enough quo
 
 
     > ### Note:  
-    > The Cloud Foundry restage action cannot be peformed from the cockpit. If you'd like to restage your application, you must use the CF CLI.
+    > The Cloud Foundry restage action cannot be performed from the cockpit. If you'd like to restage your application, you must use the CF CLI.
     > 
     > To learn more about restarting and restaging applications in Cloud Foundry, see [https://docs.cloudfoundry.org/devguide/deploy-apps/start-restart-restage.html](https://docs.cloudfoundry.org/devguide/deploy-apps/start-restart-restage.html).
 

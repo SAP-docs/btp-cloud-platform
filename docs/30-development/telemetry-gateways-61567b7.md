@@ -10,7 +10,7 @@ The Telemetry gateways in Kyma take care of data enrichment, filtering, and disp
 
 ## Features
 
-Both, the traces and the metrics feature, are based on a gateway, which is provisioned as soon as you define any pipeline resource. All telemetry data of the related domain passes the gateway, so it acts as a central point and provides the following benefits:
+The traces, metrics, and \(OTLP-based\) logs features are based on a gateway, which is provisioned as soon as you define any pipeline resource. All telemetry data of the related domain passes the gateway, so it acts as a central point and provides the following benefits:
 
 -   [Data Enrichment](telemetry-gateways-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_telemetry_data_enrichment) to achieve a certain data quality
 
@@ -105,6 +105,29 @@ The Telemetry gateways automatically enrich your data by adding the following at
 
     -   Cluster name
 
+
+-   **k8s.pod.label.<label\_key\>** attributes: In addition to the predefined enrichments, the Telemetry gateways support user-defined enrichments of telemetry data based on Pod labels \(see [Telemetry CRD](https://kyma-project.io/#/telemetry-manager/user/resources/01-telemetry)\). By configuring specific label keys or label key prefixes to include in the enrichment process, you can capture custom application metadata that may be relevant for filtering, grouping, or correlation purposes. All matching Pod labels are added to the telemetry data as resource attributes, using the label key format `k8s.pod.label.<label_key>`.
+
+    The following example configuration enriches the telemetry data with Pod labels that match the specified keys or key prefixes:
+
+    -   `k8s.pod.label.app.kubernetes.io/name`: The value of the exact label key `app.kubernetes.io/name` from the Pod.
+
+    -   `k8s.pod.label.app.kubernetes.io.*`: All labels that start with the prefix *app.kubernetes.io* from the Pod, where *<\*\>* is replaced by the actual label key.
+
+
+    ```
+    apiVersion: operator.kyma-project.io/v1alpha1
+    kind: Telemetry
+    metadata:
+    name: default
+    namespace: kyma-system
+    spec:
+    enrichments:
+      extractPodLabels:
+      - key: "<myExactLabelKey>" # for example, "app.kubernetes.io/name"
+      - keyPrefix: "<myLabelPrefix>" # for example, "app.kubernetes.io"
+    
+    ```
 
 -   **Cloud provider** attributes: If data is available, the gateway automatically adds [cloud provider](https://opentelemetry.io/docs/specs/semconv/resource/cloud/) attributes to the telemetry data.
 

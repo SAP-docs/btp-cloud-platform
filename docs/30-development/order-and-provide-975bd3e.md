@@ -10,7 +10,7 @@ After the initial add-on version has been built, you must deploy and provide it 
 
 ## Deploy
 
-In order to offer a multitenant application based on an ABAP add-on product, a multi-target application \(MTA\) is developed and deployed to the Cloud Foundry environment on SAP BTP. The MTA integrates the different services required for this scenario, such as the ABAP Solution service, responsible for provisioning ABAP systems, tenants, and users on demand. For more in-depth information, see [Multitenant Applications](https://help.sap.com/docs/btp/sap-business-technology-platform/entitlements-and-quotas?version=Cloud&q=entitlements%20and%20quotas).
+In order to offer a multitenant application based on an ABAP add-on product, a multi-target application \(MTA\) is developed and deployed to the Cloud Foundry environment on SAP BTP. The MTA integrates the different services required for this scenario, such as the ABAP Solution service, responsible for provisioning ABAP systems, tenants, and users on demand. For more in-depth information, see [Multitenant Applications](order-and-provide-975bd3e.md#loio195031ff8f484b51af16fe392ec2ae6e).
 
 Once you’ve configured your multitenant application, you can deploy it once for testing purposes in the global account for development. After testing the subscription process during this development phase, the multitenant application can be deployed to the global account for production. See [System Landscape/Account Model](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts#system-landscape%252Faccount-model).
 
@@ -32,7 +32,7 @@ Prerequisites
 
 • To configure the sizing of a SaaS solution, you have to determine the expected load per region by using the Technical Monitoring Cockpit. See [Technical Monitoring Cockpit \(Cloud Version\)](https://help.sap.com/docs/btp/technical-monitoring-cockpit-cloud-version/technical-monitoring-cockpit-cloud-version).
 
-• To implement and deploy a multitenant application for a SaaS solution, you have to assign the necessary entitlements in the provider subaccount, for example for the ABAP Solution service. See [Multitenant Applications](https://help.sap.com/docs/btp/sap-business-technology-platform/entitlements-and-quotas?version=Cloud&q=entitlements%20and%20quotas) and [Entitlements and Quotas](https://help.sap.com/docs/btp/sap-business-technology-platform/entitlements-and-quotas?version=Cloud&q=entitlements%20and%20quotas).
+• To implement and deploy a multitenant application for a SaaS solution, you have to assign the necessary entitlements in the provider subaccount, for example for the ABAP Solution service. See [Multitenant Applications](order-and-provide-975bd3e.md#loio195031ff8f484b51af16fe392ec2ae6e) and [Entitlements and Quotas](https://help.sap.com/docs/btp/sap-business-technology-platform/entitlements-and-quotas?version=Cloud&q=entitlements%20and%20quotas).
 
 <a name="loio1782f253e102484dac378887b3d6d769"/>
 
@@ -268,7 +268,7 @@ Parameters are defined at the beginning of the mta.yaml file, so that the actual
 
 ### MTA Extension Descriptors
 
-The parameters defined in the MTA can be adapted for the corresponding landscape using MTA extension descriptor files. These files extend the original MTA descriptor file \(mta.yaml\) and provide certain deployment specific configurations/parameters/valuest. The descriptor files have the file extension \*.mtaext and are used during the deployment using CF CLI with MultiApps plugin, see [MultiApps CF CLI Plugin](https://github.com/cloudfoundry-incubator/multiapps-cli-plugin).
+The parameters defined in the MTA can be adapted for the corresponding landscape using MTA extension descriptor files. These files extend the original MTA descriptor file \(mta.yaml\) and provide certain deployment specific configurations/parameters/values. The descriptor files have the file extension \*.mtaext and are used during the deployment using CF CLI with MultiApps plugin, see [MultiApps CF CLI Plugin](https://github.com/cloudfoundry-incubator/multiapps-cli-plugin).
 
 For more information on MTA extension descriptors, see: [Defining MTA Extension Descriptors.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/50df803465324d36851c79fd07e8972c.html) 
 
@@ -1225,7 +1225,7 @@ A destination called ASP\_CC needs to be created for ABAP Solution Service to be
     </td>
     <td valign="top">
     
-    http:// uaa.<landscape-host\>/oauth/token
+    https:// uaa.<landscape-host\>/oauth/token
 
     > ### Example:  
     > https://uaa.cf.eu10.hana.ondemand.com/oauth/token
