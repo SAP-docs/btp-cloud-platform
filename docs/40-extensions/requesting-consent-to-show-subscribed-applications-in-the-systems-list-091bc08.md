@@ -6,7 +6,7 @@ SAP Partners develop multitenant applications and sell subscriptions to their cu
 
 Customers do not have access to the subscription in their global accounts in SAP BTP. However, they might need to use the subscription to the application they've purchased from the SAP Partner in a formation and to integrate it with other systems. To do that, customers need to have this subscription listed as a system in the *System Landscape* \> *Systems* page.
 
-To have this system listed in the Systems page, customers need to make a request to the SAP Partner in the *System Landscape* \> *Consent Requests* page. The SAP Partner sees the request and then approves or rejects it. When the request has been approved, the customers see the system of this application listed in the *Systems* page of their global accounts in SAP BTP.
+To have this system listed in the *Systems* page, customers need to make a request to the SAP Partner in the *System Landscape* \> *Consent Requests* page. The SAP Partner sees the request and then approves or rejects it. When the request has been approved, the customers see the system of this application listed in the *Systems* page of their global accounts in SAP BTP.
 
 
 

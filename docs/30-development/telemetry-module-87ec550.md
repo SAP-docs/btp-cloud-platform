@@ -65,7 +65,7 @@ Supported integration scenarios are neutral to the vendor of the target system.
 
 ## Architecture
 
-![](images/Telemetry_Architecture_ff3f9de.svg)
+![](images/Telemetry_Architecture_ff3f9de.png)
 
 
 
@@ -83,25 +83,20 @@ The log, trace, and metrics features provide gateways based on an [OTel Collecto
 
 For more information, see [Telemetry Gateways](telemetry-gateways-61567b7.md).
 
+-   **Log Gateway and Agent**
 
+    In addition to the log gateway, you can also use the log agent based on a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/), which collects logs of any container printing logs to `stdout/stderr`. For more information, see [Application Logs](application-logs-7a5b627.md).
 
-### Log Gateway and Agent
+    As an alternative to the OTLP-based log feature, you can choose using a log agent based on a [Fluent Bit](https://fluentbit.io/) installation running as a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/). It reads all containers’ logs in the runtime and ships them according to your `LogPipeline` configuration. For more information, see [Application Logs \(Fluent Bit\)](application-logs-fluent-bit-1287132.md).
 
-In addition to the log gateway, you can also use the log agent based on a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/), which collects logs of any container printing logs to stdout/stderr. For more information, see  <?sap-ot O2O class="- topic/xref " href="cc6da5c211f94470b061675e1cd7ab55.xml" text="" desc="" xtrc="xref:16" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/87ec55072f394ac48d91c8c723e26e3b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+-   **Trace Gateway**
 
-As an alternative to the OTLP-based log feature, you can choose using a log agent based on a [Fluent Bit](https://fluentbit.io/) installation running as a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/). It reads all containers’ logs in the runtime and ships them according to your `LogPipeline` configuration. For more information, see [Application Logs \(Fluent Bit\)](application-logs-fluent-bit-1287132.md).
+    The trace gateway provides an [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/)-based endpoint to which applications can push the trace signals. Kyma modules like Istio or Serverless contribute traces transparently. For more information, see [Traces](traces-f98cda5.md).
 
+-   **Metric Gateway and Agent**
 
+    In addition to the metric gateway, you can also use the metric agent based on a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/), which scrapes annotated Prometheus-based workloads. For more information, see [Metrics](metrics-44ac6c5.md).
 
-### Trace Gateway
-
-The trace gateway provides an [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/)-based endpoint to which applications can push the trace signals. Kyma modules like Istio or Serverless contribute traces transparently. For more information, see [Traces](traces-f98cda5.md).
-
-
-
-### Metric Gateway and Agent
-
-In addition to the metric gateway, you can also use the metric agent based on a [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/), which scrapes annotated Prometheus-based workloads. For more information, see [Metrics](metrics-44ac6c5.md).
 
 
 

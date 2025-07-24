@@ -1961,7 +1961,6 @@
             -   [Create Trust Between the Subaccounts](60-security/principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loio5ff035ce421c4d6c80f0cff028c7df1a)
             -   [Create an OAuth Client](60-security/principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loiofb9a98644f674d7481e179f97ae26c72)
             -   [Create a Destination](60-security/principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loio3b8d026b714240ff89ae73cf250af799)
-        -   [Configure Principal Propagation from BTP Applications to On-Premise Systems Using Corporate IdP Tokens](60-security/configure-principal-propagation-from-btp-applications-to-on-premise-systems-using-corpora-1503442.md)
     -   [Data Protection and Privacy](60-security/data-protection-and-privacy-7e513d3.md)
         -   [Glossary for Data Protection and Privacy](60-security/glossary-for-data-protection-and-privacy-a57e0ab.md)
         -   [Change Logging and Read-Access Logging](60-security/change-logging-and-read-access-logging-93fac8d.md)
