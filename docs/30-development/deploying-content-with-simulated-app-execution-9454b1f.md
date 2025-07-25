@@ -114,29 +114,29 @@ Below you can find the modelling for supporting the content deployment scenario 
 >     type: com.sap.portal.site-content 
 >     path: site-content/ 
 >     parameters: 
->       buildpack: nodejs_buildpack // Predefined parameter 
->       no-route: true // Predefined parameter - avoid route mapping to the content app. It will not serve any HTTP requests 
->       memory: 256M // Predefined parameter – used memory 
->       execute-app: true // Predefined parameter – flag that marks the app to be used for simulated app execution 
->       success-marker: STDOUT:Deployment of site content to .* done.* // Predefined parameter – marker for success 
->       failure-marker: STDERR:Deployment of site content to .* failed.* // Predefined parameter – marker for failure 
->       stop-app: true // Predefined parameter – flag that specifies if the app will be stopped after the actual deployment 
->       check-deploy-id: true // Predefined parameter – flag that specifies that certain and unique id will be checked for that content deployment 
+>       buildpack: nodejs_buildpack # Predefined parameter 
+>       no-route: true # Predefined parameter - avoid route mapping to the content app. It will not serve any HTTP requests 
+>       memory: 256M # Predefined parameter – used memory 
+>       execute-app: true # Predefined parameter – flag that marks the app to be used for simulated app execution 
+>       success-marker: STDOUT:Deployment of site content to .* done.* # Predefined parameter – marker for success 
+>       failure-marker: STDERR:Deployment of site content to .* failed.* # Predefined parameter – marker for failure 
+>       stop-app: true # Predefined parameter – flag that specifies if the app will be stopped after the actual deployment 
+>       check-deploy-id: true # Predefined parameter – flag that specifies that certain and unique id will be checked for that content deployment 
 >       dependency-type: hard 
->       health-check-type: none // Predefined parameter – skips the CF health-check, so content app will not implement specific endpoint 
+>       health-check-type: none # Predefined parameter – skips the CF health-check, so content app will not implement specific endpoint 
 >     requires: 
 >        - name: sap-portal-services-client 
 >        - name: portal-uaa 
 >  
 >  
 > resources: 
->     - name: sap-portal-services-client // Provides content endpoint for the actual content deployment. Content endpoint could be different based on the account 
+>     - name: sap-portal-services-client # Provides content endpoint for the actual content deployment. Content endpoint could be different based on the account 
 >     type: com.sap.portal.site-content 
 >     parameters: 
 >       config: 
 >         siteId : 1234 
 >  
->   - name: portal-uaa // Used for secure communication between content app and content endpoint 
+>   - name: portal-uaa # Used for secure communication between content app and content endpoint 
 >     type: com.sap.xs.uaa-space 
 >     parameters: 
 >       config-path: security/xs-security.json

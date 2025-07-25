@@ -1,10 +1,10 @@
 <!-- loiof8fd1e5bbf9649e1936d32fb9614677b -->
 
-# Get Help
+# Get Help for btp CLI
 
 There is extensive help in the btp CLI about every command. You can get help with the `help` action or the `--help` option.
 
-There are several ways to call help in the btp CLI, and there is help on all levels, from a basic entry page thats explains the syntax to very detailed command-specific help that explains the usage of a command and its parameters in detail.
+There are several ways to call help in the btp CLI, and there is help on all levels, from a basic entry page that explains the syntax to very detailed command-specific help that explains the usage of a command and its parameters in detail.
 
 The easiest way to get help is probably the `help` action \(for basic help, use `btp help`, as shown in the examples below. But you can also place `--help` at the end or beginning of a command call, for example, `btp list help`, `btp --help list`, and `btp list --help` are interchangeable.
 

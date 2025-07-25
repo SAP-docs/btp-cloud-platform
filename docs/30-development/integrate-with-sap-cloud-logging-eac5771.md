@@ -12,16 +12,23 @@ Learn how to configure the Telemetry module to ingest application and access log
 
 -   Kyma as the target deployment environment.
 
--   The Telemetry module is added. For details, see [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   Make sure the following Kyma modules are added. For details, see [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c)
 
--   If you want to use Istio access logs, make sure that the Istio module is added.
+    -   Telemetry module
 
--   An instance of [SAP Cloud Logging](https://help.sap.com/docs/cloud-logging?locale=en-US&version=Cloud) with OpenTelemetry enabled to ingest distributed traces.
+    -   SAP BTP Operator module \(default module\)
+
+    -   If you want to collect Istio access logs: Istio module \(default module\)
+
+
+-   An instance of [SAP Cloud Logging](https://help.sap.com/docs/cloud-logging?locale=en-US&version=Cloud) with OpenTelemetry enabled to ingest distributed traces. For details, see [Ingest via OpenTelemetry API Endpoint](https://help.sap.com/docs/SAP_CLOUD_LOGGING/d82d23dc499c44079e1e779c1d3a5191/fdc78af7c69246bc87315d90a061b321.html?locale=en-US).
 
     > ### Tip:  
     > Create the instance with the SAP BTP service operator \(see [Create an SAP Cloud Logging Instance through SAP BTP Service Operator](https://help.sap.com/docs/cloud-logging/cloud-logging/create-sap-cloud-logging-instance-through-sap-btp-service-operator?locale=en-US&version=Cloud)\), because it takes care of creation and rotation of the required Secret. However, you can choose any other method of creating the instance and the Secret, as long as the parameter for OTLP ingestion is enabled in the instance. For details, see [Configuration Parameters](https://help.sap.com/docs/cloud-logging/cloud-logging/configuration-parameters?locale=en-US&version=Cloud).
 
--   A Secret in the respective namespace in the Kyma cluster, holding the credentials and endpoints for the instance. In the following example, the Secret is named “sap-cloud-logging” and the namespace “sap-cloud-logging-integration”, as illustrated in the [secret-example.yaml](https://github.com/kyma-project/telemetry-manager/blob/main/docs/user/integration/sap-cloud-logging/secret-example.yaml).
+-   A Secret in the respective namespace in the Kyma cluster, holding the credentials and endpoints for the instance. It’s recommended that you rotate your Secret \(see [SAP BTP Security Recommendation BTP-CLS-0003](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations?seclist-index=BTP-CLS-0003&version=Cloud)\).
+
+    In the following example, the Secret is named “sap-cloud-logging” and the namespace “sap-cloud-logging-integration”, as illustrated in the [secret-example.yaml](https://github.com/kyma-project/telemetry-manager/blob/main/docs/user/integration/sap-cloud-logging/secret-example.yaml).
 
 -   Kubernetes CLI \(kubectl\) \(see [Install the Kubernetes Command Line Tool](https://developers.sap.com/tutorials/cp-kyma-download-cli.html)\).
 
@@ -38,9 +45,9 @@ SAP Cloud Logging is an instance-based and environment-agnostic observability se
 
 ![](images/Kyma_SAP_Cloud_Logging_Integration_c99a164.svg)
 
-<a name="task_th5_cxv_xbc"/>
+<a name="task_ship_logs_to_CLS"/>
 
-<!-- task\_th5\_cxv\_xbc -->
+<!-- task\_ship\_logs\_to\_CLS -->
 
 ## Ship Logs to SAP Cloud Logging
 
@@ -48,7 +55,7 @@ You can set up shipment of applications and access logs to SAP Cloud Logging. Th
 
 
 
-<a name="task_th5_cxv_xbc__steps_drj_4xv_xbc"/>
+<a name="task_ship_logs_to_CLS__steps_drj_4xv_xbc"/>
 
 ## Procedure
 
@@ -148,9 +155,9 @@ By default, Istio sidecar injection and Istio access logs are disabled in Kyma. 
 6.  Wait for the `LogPipeline` to be in the *Running* state. To check the state, run: `kubectl get logpipelines`.
 
 
-<a name="task_ejt_bzv_xbc"/>
+<a name="task_ship_traces_to_CLS"/>
 
-<!-- task\_ejt\_bzv\_xbc -->
+<!-- task\_ship\_traces\_to\_CLS -->
 
 ## Ship Distributed Traces to SAP Cloud Logging
 
@@ -158,7 +165,7 @@ You can set up ingestion of distributed traces from applications and the Istio s
 
 
 
-<a name="task_ejt_bzv_xbc__steps_x1d_szv_xbc"/>
+<a name="task_ship_traces_to_CLS__steps_x1d_szv_xbc"/>
 
 ## Procedure
 
@@ -216,9 +223,9 @@ You can set up ingestion of distributed traces from applications and the Istio s
 3.  Wait for the `TracePipeline` to be in the *Running* state. To check the state, run: `kubectl get tracepipelines`.
 
 
-<a name="task_swp_g1w_xbc"/>
+<a name="task_ship_metrics_to_CLS"/>
 
-<!-- task\_swp\_g1w\_xbc -->
+<!-- task\_ship\_metrics\_to\_CLS -->
 
 ## Ship Metrics to SAP Cloud Logging
 
@@ -226,7 +233,7 @@ You can set up ingestion of metrics from applications and the Istio service mesh
 
 
 
-<a name="task_swp_g1w_xbc__steps_ylh_m1w_xbc"/>
+<a name="task_ship_metrics_to_CLS__steps_ylh_m1w_xbc"/>
 
 ## Procedure
 
@@ -279,9 +286,9 @@ You can set up ingestion of metrics from applications and the Istio service mesh
 3.  Wait for the `MetricPipeline` to be in the *Running* state. To check the state, run: `kubectl get metricpipelines`.
 
 
-<a name="task_pny_z1w_xbc"/>
+<a name="task_set_up_kyma_dashboard_integration"/>
 
-<!-- task\_pny\_z1w\_xbc -->
+<!-- task\_set\_up\_kyma\_dashboard\_integration -->
 
 ## Set Up Kyma Dashboard Integration
 
@@ -289,7 +296,7 @@ For easier access from the Kyma dashboard, add links to the navigation under *SA
 
 
 
-<a name="task_pny_z1w_xbc__steps_jw2_hbw_xbc"/>
+<a name="task_set_up_kyma_dashboard_integration__steps_jw2_hbw_xbc"/>
 
 ## Procedure
 
@@ -302,9 +309,9 @@ For easier access from the Kyma dashboard, add links to the navigation under *SA
 2.  If your Secret has a different name or namespace, then download the file first and adjust the namespace and name accordingly in the `dataSources` section of the file.
 
 
-<a name="task_c2k_rbw_xbc"/>
+<a name="task_use_CLS_alerts"/>
 
-<!-- task\_c2k\_rbw\_xbc -->
+<!-- task\_use\_CLS\_alerts -->
 
 ## Use SAP Cloud Logging Alerts
 
@@ -312,7 +319,7 @@ Learn how to define and import recommended alerts for SAP Cloud Logging. The fol
 
 
 
-<a name="task_c2k_rbw_xbc__steps_wfs_1cw_xbc"/>
+<a name="task_use_CLS_alerts__steps_wfs_1cw_xbc"/>
 
 ## Procedure
 
@@ -454,9 +461,9 @@ Learn how to define and import recommended alerts for SAP Cloud Logging. The fol
 6.  Verify that the new monitor definition is listed among the SAP Cloud Logging alerts.
 
 
-<a name="task_uw4_r2w_xbc"/>
+<a name="task_use_CLS_dashboards"/>
 
-<!-- task\_uw4\_r2w\_xbc -->
+<!-- task\_use\_CLS\_dashboards -->
 
 ## Use SAP Cloud Logging Dashboards
 
@@ -464,7 +471,7 @@ You can view logs, traces, and metrics in SAP Cloud Logging dashboards:
 
 
 
-<a name="task_uw4_r2w_xbc__steps-unordered_t2w_ffw_xbc"/>
+<a name="task_use_CLS_dashboards__steps-unordered_t2w_ffw_xbc"/>
 
 ## Procedure
 

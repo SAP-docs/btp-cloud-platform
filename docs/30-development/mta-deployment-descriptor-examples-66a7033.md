@@ -318,9 +318,9 @@ A more complex example, which shows an MTA deployment description with the follo
 
 -   A database model
 -   An SAP UI5 application \(hello world\)
--   An application written in node.js
+-   An application written in Node.js
 
-The UI5 application “hello-world” uses the environment variable *<ui5\_library\>* as a logical reference to some version of UI5 on a public Website.
+The UI5 application “hello-world” uses the environment variable *<ui5\_library\>* as a logical reference to some version of UI5 on a public website.
 
 > ### Sample Code:  
 > ```

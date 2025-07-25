@@ -4,7 +4,7 @@
 
 
 
-You can use this app to upload the primary and secondary signing certificates you have maintained within the SAP Cloud Identity Services. Please note that Base64 ASCII encoding is required for this.
+You can use this app to upload the primary and secondary signing certificates you have maintained within the Cloud Identity Services. Please note that Base64 ASCII encoding is required for this.
 
 
 

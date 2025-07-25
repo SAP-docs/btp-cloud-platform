@@ -590,10 +590,9 @@ The following example configures all Istio proxies with the `kyma-logs` extensio
 >   name: mesh-default
 >   namespace: istio-system
 > spec:
->   tracing:
+>   accessLogging:
 >   - providers:
->     - name: "kyma-logs"
-> 
+>     - name: kyma-logs
 > ```
 
 

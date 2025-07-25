@@ -95,21 +95,21 @@ Below you can find the modeling for supporting the content deployment scenario f
 > - name: module-db 
 >     type: com.sap.xs.hdi 
 >     parameters: 
->       buildpack: nodejs_buildpack //Predefined parameter 
->       no-route: true  // Predefined parameter - skipping route mapping to the app 
->       no-start: true // Predefined parameter - skipping start of the app because only tasks are important in the scenario 
->       memory: 256M // Predefined parameter 
->       tasks: // Predefined parameter – all details below define the CF tasks 
+>       buildpack: nodejs_buildpack # Predefined parameter 
+>       no-route: true  # Predefined parameter - skipping route mapping to the app 
+>       no-start: true # Predefined parameter - skipping start of the app because only tasks are important in the scenario 
+>       memory: 256M # Predefined parameter 
+>       tasks: # Predefined parameter – all details below define the CF tasks 
 >         - name: deploy 
 >           memory: 256M 
->           command: npm start // Shell script that will be used for triggering actual content deployment 
+>           command: npm start # Shell script that will be used for triggering actual content deployment 
 >     properties: 
->       EXIT: 1 // Predefined property – instructs the HDI deployer to exit when done 
+>       EXIT: 1 # Predefined property – instructs the HDI deployer to exit when done 
 >     requires: 
 >       - name: hdi-service 
 >  
 > resources: 
->   - name: hdi-service // Provides content endpoint for the actual content deployment. Content endpoint could be different based on the used database 
+>   - name: hdi-service # Provides content endpoint for the actual content deployment. Content endpoint could be different based on the used database 
 >     type: com.sap.xs.hdi-container
 > 
 > ```

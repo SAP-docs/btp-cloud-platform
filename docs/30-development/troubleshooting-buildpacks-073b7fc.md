@@ -1,8 +1,8 @@
 <!-- loio073b7fc511f04459aa4effee8017ad75 -->
 
-# Troubleshooting
+# Troubleshooting \(Buildpacks\)
 
-While using the buildpacks, you might encounter issues or have questions regarding specific settings, limitations, or other aspects.
+While using the Cloud Foundry buildpacks, you might encounter issues or have questions regarding specific settings, limitations, or other aspects.
 
 The following troubleshooting pages are related to the relevant development languages and buildpacks:
 
@@ -20,7 +20,7 @@ If you cannot find a solution to your problem among these pages, you can create 
 
 When creating an incident, please provide the following information, which will help the support team to investigate and resolve your issue faster:
 
-1.  Type of buildpack – **Java**, **Python**, or **Node.js**
+1.  Type of buildpack – **SAP Java Buildpack**, **Python**, or **Node.js**
 
 2.  Environment – **Cloud Foundry** or **XSA**
 
@@ -50,13 +50,69 @@ When creating an incident, please provide the following information, which will 
     > ### Note:  
     > If possible, collect logs shortly after failure.
 
-8.  Specific files per buildpack \(language\), respectively:
-
-    -   Java: **`manifest.yml`** or **`MTA`** \(if applicable\)
-
-    -   Node.js: **`manifest.yml` and **`package.json`**** 
-
-    -   Python: **`manifest.yml`**, **`runtime.txt`**, and **`requirements.txt`**
+8.  Specific files per buildpack \(language\):
 
 
+    <table>
+    <tr>
+    <th valign="top">
+
+    Buildpack
+    
+    </th>
+    <th valign="top">
+
+    File
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    SAP Java Buildpack
+    
+    </td>
+    <td valign="top">
+    
+    -   `manifest.yml`
+    -   `MTA` \(if applicable\)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Node.js
+    
+    </td>
+    <td valign="top">
+    
+    -   `manifest.yml`
+    -   `package.json`
+    -   `MTA` \(if applicable\)
+
+
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    Python
+    
+    </td>
+    <td valign="top">
+    
+    -   `manifest.yml`
+    -   `runtime.txt`
+    -   `requirements.txt`
+
+
+    
+    </td>
+    </tr>
+    </table>
+    
 

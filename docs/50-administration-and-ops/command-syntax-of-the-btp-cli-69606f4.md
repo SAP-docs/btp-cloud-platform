@@ -23,7 +23,7 @@ The commands are ordered in groups and you need to specify the object on which y
 
 -   ACTION is the verb. Depending on the GROUP/OBJECT combination, different verbs are available, such as `get`, `list`,`create`, `delete`, `assign`, `unassign`, `add`, `remove`. For a complete list, use `btp help`. To find out which commands are available for a specific action, use `btp help ACTION`, for example, `btp help list`.
 
--   Special ACTION: the `help` ACTION. You can always place `help` at the beginning of a command and still add further parts of the command, such as the ACTION or GROUP or GROUP/OBJECT combination for which you want to call help. See [Get Help](get-help-f8fd1e5.md).
+-   Special ACTION: the `help` ACTION. You can always place `help` at the beginning of a command and still add further parts of the command, such as the ACTION or GROUP or GROUP/OBJECT combination for which you want to call help. See [Get Help for btp CLI](get-help-for-btp-cli-f8fd1e5.md).
 
 -   The GROUP/OBJECT combination specifies the entity that the action is carried out on. For example, all commands related to users and their authorizations belong to the **security** group, in which **objects** such as role, role-collection, and user are available. There are currently three groups:
 

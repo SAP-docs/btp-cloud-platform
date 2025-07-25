@@ -26,12 +26,9 @@ You can use the *Application Job Templates* app to create a job template for a s
 
 6.  Click *Save Job Template*. Now, you can view each parameter of your selected templates in the *Parameter Section* and edit the values according to your needs.
 
-7.  If you are done editing, you can now choose whether to check your parameters, or display, save, or cancel your job template. When clicking *Save* to save your job template, you can choose to save and reload the page to be able to view the values you've entered previously by selecting *Save and Reload*. Mind that this may trigger a longer reload of new values. If you want to get back to the main page and continue working, choose *Save and Back*.
+7.  If you are done editing, you can now choose whether to check your parameters, or display, save, or cancel your job template.
 
     > ### Note:  
     > If you want to schedule multistep templates with the *Application Jobs* app, you'll need the appropriate authorizations for all steps.
-
-    > ### Note:  
-    > You can choose to skip a single execution of a periodic job chain. To do so, select *Skip*.
 
 

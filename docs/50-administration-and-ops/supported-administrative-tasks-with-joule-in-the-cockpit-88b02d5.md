@@ -35,7 +35,7 @@ Joule can also **navigate** you to select pages within the cockpit:
 -   Navigate to Cloud Foundry spaces
 -   Go to the location in the cockpit where various information is displayed
 -   Navigate to trust configuration for a global account or a subaccount
--   Take you to service instances in a Cloud Foundry space
+-   Take you to Service Instances, Service Marketplace, Security Groups, or Routes in a Cloud Foundry space
 
 **Related Information**  
 

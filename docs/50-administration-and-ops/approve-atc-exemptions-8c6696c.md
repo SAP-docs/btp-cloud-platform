@@ -42,9 +42,6 @@ With this app you can:
 > ### Note:  
 > Use transaction `SATC_EXPORT_XMPT` to download exemptions from an on-premise ATC system. For customers that are on a release between 7.52 and 7.58 with software component SAP\_BASIS, apply SAP Note [3480722](https://me.sap.com/notes/3480722) first to install this functionality.
 
-> ### Remember:  
-> The Approve ATC Exemptions app only supports exemptions when the SAP BTP ABAP environment acts as the central check system and when exemptions are requested via the ATC developer scenario \(see [Configuring the ATC Developer Scenario](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/using-sap-btp-system-as-atc-central-check-system)\). Exemptions of type `CHKE` are not supported. To learn more about how to approve or reject `CHKE` exemptions in ABAP development tools for Eclipse, see [Approving and Rejecting ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/approving-and-rejecting-atc-exemptions).
-
 
 
 <a name="loio8c6696cf2e0f4c3090c27a206ae6da2a__section_xpr_2yr_pcc"/>

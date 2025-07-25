@@ -133,6 +133,8 @@ In the above example:
     > > 
     > > ```
 
+    **Updating managed service instances:**
+
     Updating managed service instances is fail-safe by default in certain scenarios, specifically when the service broker is involved. This behavior exists for legacy compatibility with service brokers that did not support plan updates in the Cloud Controller v2 API. If this fail-safe behavior is not desired, you can control it by using the `fail-on-service-update` parameter. For more information, see [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters), [Updating Service Plans](services-6ef40df.md#loio6ef40dfc2ef14bb08c28cd53b4de4c0b__section_sgc_322_mfc), [Updating Service Instance Parameters](service-instance-parameters-a36df26.md#loioa36df26b36484129b482ae20c3eb8004__section_ap5_lrd_mfc), [Updating Service Tags](service-tags-3e36d13.md#loio3e36d133d9f342d4a3a6fde235783ccc__section_tht_232_mfc).
 
     > ### Note:  

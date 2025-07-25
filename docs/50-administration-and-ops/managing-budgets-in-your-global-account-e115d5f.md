@@ -287,6 +287,8 @@ Editing a budget allows you to make changes to the budget's settings.
 
 > ### Note:  
 > When you make changes to an existing budget, previously sent alerts may not accurately reflect the new budget settings.
+> 
+> Any changes you make to budget amount will trigger alerts from the current month onward, not retroactively.
 
 
 
@@ -428,7 +430,7 @@ For more information, see:
 
 -   These alert types are independent of one another, you can use either one or both.
 
--   When you enable a threshold, alerts are not sent for previous months.
+-   When you enable a threshold or change the budget amount in an existing budget, alerts will be triggered from the current month onward, not retroactively for previous months.
 
 -   The automated mail and budget events are sent only once when a budget threshold is exceeded. We do not send a daily recurring email or event while the budget remains in excess.
 

@@ -101,7 +101,7 @@ To check these versions, proceed as follows:
 1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 
     ```
-    cf api https://api.cf.eu10.hana.ondemand.com
+    cf login -a https://api.cf.eu10.hana.ondemand.com
     ```
 
 2.  Then run:

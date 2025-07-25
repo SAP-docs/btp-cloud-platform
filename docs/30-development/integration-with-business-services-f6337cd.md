@@ -229,6 +229,27 @@ If you provide this information, the application router propagates this attribut
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`IASDependencyName`
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+The name of the dependency configured between the Identity Authentication application of the application router and the Identity Authentication application of the business service. The dependency enables the application router to consume the API of the business service.
+
+If the login process uses Identity Authentication and the business service binding contains an IASDependencyName configuration, the application router uses the dependency name to perform an Identity Authentication token exchange. It then forwards the Identity Authentication token to the business service backend. In cases of multitenancy, configure the dependency between the subscribed Identity Authentication application of the application router and the subscribed Identity Authentication application of the business service. For more details, see [Integrating Applications in \[SAP Cloud Identity Services](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/integrating-applications).
+
+If you use IASDependencyName here, you can't use the `HTML5.ForwardAuthToken` parameter in the configuration of the destination service \(see[Application Routes and Destinations](application-routes-and-destinations-3cc788e.md) \).
+
+</td>
+</tr>
 </table>
 
 The value of the `endpoints` is an object containing the following properties:

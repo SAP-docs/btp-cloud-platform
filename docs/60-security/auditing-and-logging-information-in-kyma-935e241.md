@@ -15,7 +15,7 @@ Audit logs are records that provide evidence of events, actions, or operations. 
 -   Security and system events that include administrative activities, potential threats, and evidence in the case of a breach.
 -   Changes introduced to the system, applications, and components.
 
-Kyma runtime collects audit logs for configuration changes to the runtime setup itself and Kubernetes resources managed by the Kubernetes API server of the runtime. Usually, those logs contain the user account \(technical account or email address\) and the client IP address of the subject who triggered the changes. No other personal data is stored in the audit logs. On average, the logs store the data for 90 days. If you want to store any other personal data, be cautious and bear in mind the recommendations provided in [Data Protection and Privacy](data-protection-and-privacy-7e513d3.md).
+Kyma runtime collects audit logs for configuration changes to the runtime setup itself and Kubernetes resources managed by the Kubernetes API server of the runtime. Usually, those logs contain the user account \(technical account or email address\) and the client IP address of the subject who triggered the changes. No other personal data is stored in the audit logs. The logs store the data for 90 days. If you want to store any other personal data, be cautious and bear in mind the recommendations provided in [Data Protection and Privacy](data-protection-and-privacy-7e513d3.md).
 
 
 

@@ -2175,6 +2175,43 @@ The name of the user required for authentication by the XS controller at the ser
 <tr>
 <td valign="top">
 
+`skip-deploy`
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Use this parameter to skip the deployment of a specified module even if it is present in the descriptor. If you add this parameter for an already deployed module, this module will be deleted in the next operation.
+
+</td>
+<td valign="top">
+
+`false`
+
+</td>
+<td valign="top">
+
+> ### Sample Code:  
+> ```
+> modules:
+>   - name: foo
+>     type: application
+>     parameters:
+>       skip-deploy: true
+> 
+> ```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `stack`
 
 </td>

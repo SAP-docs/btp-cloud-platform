@@ -1,6 +1,6 @@
 <!-- loioe92aa7859bc94a07a764f49c0437ead3 -->
 
-# Get Updates
+# Get Updates for the btp CLI
 
 Updating the btp CLI client is essentially replacing the old executable file with a newer version.
 
