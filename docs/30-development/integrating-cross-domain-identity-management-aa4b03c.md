@@ -12,6 +12,14 @@ You can use this communication scenario to maintain data via SCIM.
 
 The communication scenario SAP\_COM\_0465 allows you to maintain data via SCIM \(System for Cross-domain Identity Management\).
 
+**Authentication Methods**
+
+This communication scenario can be configured with the following inbound authentication methods:
+
+-   *Basic Authentication* \(user and password\)
+
+-   *X.509* \(certificates\)
+
 
 
 <a name="loioaa4b03ced9dc481fafdf74c2f82976bc__SCIM_steps"/>
@@ -35,4 +43,6 @@ The communication scenario SAP\_COM\_0465 allows you to maintain data via SCIM \
 [Communication Management](../50-administration-and-ops/communication-management-2e84a10.md "The communication management apps allow you to integrate your system or solution with other systems to enable data exchange.")
 
 [SCIM Interface for IAM](scim-interface-for-iam-3e7de5f.md "")
+
+[User Management \(System for Cross-domain Identity Management \(SCIM\)\)](https://api.sap.com/api/CE_APS_IAM_API_SCIM/overview)
 

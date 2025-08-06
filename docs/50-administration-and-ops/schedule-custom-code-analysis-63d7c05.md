@@ -26,7 +26,7 @@ With this app you can schedule ABAP Test Cockpit \(ATC\) mass runs for your cust
 
 ## Access Information
 
-For more information how to provide access to users and how to implement this app, see [Enable Usage of the Custom Code Migration App](enable-usage-of-the-custom-code-migration-app-34f67ed.md).
+For more information how to provide access to users and how to implement this app, see [Enable Usage of the Analyze Custom Code App](enable-usage-of-the-analyze-custom-code-app-34f67ed.md).
 
 
 

@@ -129,8 +129,6 @@ To create a communication system perform the following steps:
 
 [Communication Systems](communication-systems-15663c1.md "You can use this app to create communication systems. Communication systems are created to enable the communication among different systems.")
 
- <?sap-ot O2O class="- topic/link " href="fab3fd449cf74c6384622b98831e989e.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/c2234acd55774ebcbedb66744199273e.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-
 [How to Create Communication Users](how-to-create-communication-users-0377ade.md "")
 
 [Manual Configuration - OpenID Connect \(OIDC\) Provider](manual-configuration-openid-connect-oidc-provider-fa5e4a6.md "")

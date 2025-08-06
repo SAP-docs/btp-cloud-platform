@@ -37,7 +37,15 @@ If you need support or experience issues, please report an incident under compon
 **Related Information**  
 
 
+[Install Additional Software \(SAP BTP ABAP Environment\)](https://help.sap.com/docs/btp/sap-business-technology-platform/install-additional-software?version=Cloud)
+
 [Install Additional Software \(SAP S/4HANA Cloud\)](https://help.sap.com/docs/SAP_S4HANA_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/c5018d7883d04429bb43baad408ee333.html)
 
-[Install Additional Software \(SAP BTP ABAP Environment\)](https://help.sap.com/docs/btp/sap-business-technology-platform/install-additional-software?version=Cloud)
+[Integrating SAP BTP ABAP Environment and Local Printers](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/integrating-sap-btp-abap-environment-and-local-printers?version=Cloud)
+
+[Integrating SAP S/4HANA and Local Printers](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/1e39bb68bbda4c48af4a79d35f5837e0.html)
+
+[Printing \(SAP BTP ABAP Environment\)](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/printing?version=Cloud)
+
+[Printing \(SAP S/4HANA Cloud\)](https://help.sap.com/docs/SAP_S4HANA_CLOUD/6aa39f1ac05441e5a23f484f31e477e7/754b6cdbb0d545918a7387c1ccaa7811.html)
 

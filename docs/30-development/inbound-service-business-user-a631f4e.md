@@ -2642,6 +2642,28 @@ Enter the`PersonUUID` that corresponds with the `PersonExternalID`
 
 
 
+<a name="loioa631f4ead22743598f1d14474384beb3__section_fkh_5tc_k2c"/>
+
+## API Monitoring and Error Handling
+
+To monitor messages transferred by this service, you need to assign the following recipient to the users:
+
+**Namespace**: `/IAM` 
+
+**Recipient Name**: `IAM_SOAP_RECIPIENTS` \(Identity and Access Management - SOAP Service Recipients\)
+
+**Assign Recipients and Monitor Messages**
+
+To assign recipients to users, use the *Assign Recipients to Users* app from the *Communication Management – Message Monitoring Configuration* \(`SAP_CA_BC_COM_CONF_PC`\) business catalog. For more information, see [Assign Recipients to Users](../50-administration-and-ops/assign-recipients-to-users-576fa8d.md):
+
+To monitor messages, use the *Message Dashboard* app from the *Communication Management - Message Monitoring and Error Handling* \(`SAP_CA_BC_COM_ERR_PC`\) business catalog. For more information, see [Message Dashboard](../50-administration-and-ops/message-dashboard-cebfdfc.md) and [Message Monitoring](../50-administration-and-ops/message-monitoring-c4ef916.md).
+
+To view and filter error logs related to SOAP and OData web services, use the *Communication Management - Technical Message Monitoring* \(`SAP_CA_BC_COM_TECH_ERR_PC`\) business catalog.
+
+The business role template *Configuration Expert – Business Network Integration* \(`SAP_BR_CONF_EXPERT_BUS_NET_INT`\) contains both of these business catalogs.
+
+
+
 <a name="loioa631f4ead22743598f1d14474384beb3__section_x5f_w45_qcb"/>
 
 ## Constraints

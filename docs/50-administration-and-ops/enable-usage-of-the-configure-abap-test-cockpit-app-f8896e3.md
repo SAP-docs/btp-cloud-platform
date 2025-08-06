@@ -1,6 +1,8 @@
 <!-- loiof8896e34c39a4a13a1bbab90ea84b1ff -->
 
-# Enable Usage of the ABAP Test Cockpit Configurator App
+# Enable Usage of the Configure ABAP Test Cockpit App
+
+This is the enablement topic for the Configure ABAP Test Cockpit Fiori app.
 
 
 
@@ -32,5 +34,5 @@
     \(See also: [How to Maintain Business Users](how-to-maintain-business-users-db1d0b4.md).\)
 
 
-When you log on to SAP Fiori launchpad with the assigned business user, the tile`ABAP Test Cockpit Configurator` will be available.
+When you log on to SAP Fiori launchpad with the assigned business user, the tile *Configure ABAP Test Cockpit* will be available.
 

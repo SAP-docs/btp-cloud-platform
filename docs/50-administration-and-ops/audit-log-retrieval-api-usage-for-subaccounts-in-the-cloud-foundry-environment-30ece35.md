@@ -68,11 +68,11 @@ To execute the procedure, you need to have the `Space Developer` role for the co
 
     -   For non-mTLS authentication, use
 
+        `cf create-service auditlog-management default <SERVICE_INSTANCE>`
 
-    `cf create-service auditlog-management default <SERVICE_INSTANCE>`
+        > ### Note:  
+        > If there's a previously created auditlog-management service instance without the security parameters for mTLS, we recommend you to delete that instance and create a new instance with mTLS authentication using the parameters from the previous \(recommended\) scenario.
 
-    > ### Note:  
-    > If there's a previously created auditlog-management service instance without the security parameters for mTLS, we recommend you to delete that instance and create a new instance with mTLS authentication using the parameters from the previous \(recommended\) scenario.
 
 4.  Create a key for the service instance:
 
@@ -96,7 +96,8 @@ To execute the procedure, you need to have the `Space Developer` role for the co
 
     -   For service instances without mTLS, use:
 
-    `cf create-service-key <SERVICE_INSTANCE> <SERVICE_KEY>`
+        `cf create-service-key <SERVICE_INSTANCE> <SERVICE_KEY>`
+
 
 5.  List the key of the service instance:
 

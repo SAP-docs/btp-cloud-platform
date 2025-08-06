@@ -27,7 +27,7 @@ You use business roles to control the access to your applications. To create a b
 
 ## Procedure
 
-1.  Select the tile of the Maintain Business Roles app on the SAP Fiori Launchpad to open the app. On the initial screen, select *New*.
+1.  Select the tile of the *Maintain Business Roles* app on the SAP Fiori launchpad to open the app. On the initial screen, select *New*.
 
 2.  Add general role details, such as business role name, ID and description.
 

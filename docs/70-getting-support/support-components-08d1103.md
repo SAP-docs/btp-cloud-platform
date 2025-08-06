@@ -5770,64 +5770,6 @@ Monitor Java, SAP HANA XS and HTML5 applications, and databases.
 <tr>
 <td valign="top">
 
-[SAP Document AI](https://help.sap.com/docs/document-information-extraction/document-information-extraction/enabling-service-in-cloud-foundry-environment) 
-
-</td>
-<td valign="top">
-
-Automate your document information extraction processes.
-
-</td>
-<td valign="top">
-
--   CA-ML-BDP
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
--   Japan \(Tokyo\)
--   US East \(VA\)
--   Australia \(Sydney\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [Object Store](https://help.sap.com/viewer/product/ObjectStore/Cloud/en-US) 
 
 </td>
@@ -7753,6 +7695,64 @@ Access data in SAP Business Suite using OData services.
 <tr>
 <td valign="top">
 
+[SAP Document AI](https://help.sap.com/docs/document-information-extraction/document-information-extraction/enabling-service-in-cloud-foundry-environment) 
+
+</td>
+<td valign="top">
+
+Automate your document information extraction processes.
+
+</td>
+<td valign="top">
+
+-   CA-ML-BDP
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
+-   Japan \(Tokyo\)
+-   US East \(VA\)
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Business Entity Recognition](https://help.sap.com/ber) 
 
 </td>
@@ -8144,183 +8144,6 @@ Translate UI texts and get suggestions for UI texts during development.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Europe \(Frankfurt\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Consume an object-relational database with PostgreSQL.
-
-</td>
-<td valign="top">
-
--   BC-NEO-BS-POSTGRES
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   AWS
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
--   US East \(VA\)
--   Brazil \(São Paulo\)
--   Japan \(Tokyo\)
--   Australia \(Sydney\)
--   Singapore
--   South Korea \(Seoul\)
--   Canada \(Montreal\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Consume an object-relational database with PostgreSQL.
-
-</td>
-<td valign="top">
-
--   BC-NEO-BS-POSTGRES
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   Azure
-
-
-
-</td>
-<td valign="top">
-
--   Europe \(Netherlands\)
--   US West \(WA\)
--   US East \(VA\)
--   Australia \(Sydney\)
--   Singapore
--   Japan \(Tokyo\)
-
-
-
-</td>
-<td valign="top">
-
--   Yes
-
-
-
-</td>
-<td valign="top">
-
--   Available
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[PostgreSQL](https://help.sap.com/viewer/product/PostgreSQL/Cloud/en-US) 
-
-</td>
-<td valign="top">
-
-Consume an object-relational database with PostgreSQL.
-
-</td>
-<td valign="top">
-
--   BC-NEO-BS-POSTGRES
-
-
-
-</td>
-<td valign="top">
-
--   Cloud Foundry
-
-
-
-</td>
-<td valign="top">
-
--   GCP
-
-
-
-</td>
-<td valign="top">
-
--   US Central \(IA\)
--   Europe \(Frankfurt\)
--   Israel \(Tel Aviv\)
 
 
 

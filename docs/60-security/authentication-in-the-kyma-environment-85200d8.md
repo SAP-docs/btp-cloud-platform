@@ -27,5 +27,5 @@ Learn how to [Get Your Tenant](https://help.sap.com/docs/cloud-identity-services
 
 Alternatively, you can choose any other service compliant with OpenID Connect.
 
-Having an SAP Cloud Identity Services tenant, you can configure it as the custom identity provider of your Kyma cluster. See [Configure a Custom Identity Provider for Kyma](configure-a-custom-identity-provider-for-kyma-67bcc6e.md).
+Having an SAP Cloud Identity Services tenant, you can configure it as the custom identity provider of your Kyma cluster. See [Configuring a Custom Identity Provider for Kyma](configuring-a-custom-identity-provider-for-kyma-67bcc6e.md).
 

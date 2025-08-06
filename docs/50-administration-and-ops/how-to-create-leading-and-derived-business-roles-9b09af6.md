@@ -16,11 +16,11 @@ If you need to create several business roles with common characteristics, you ca
 
 ## Procedure
 
-1.  Open the business role you want to define as master business role and click *Edit*.
+1.  Open the business role you want to define as leading business role and click *Edit*.
 
 2.  Select the *Is Leading Business Role* checkbox and click *Save*. The business role now has a *LEADING BUSINESS ROLE* label.
 
-3.  Go back to the list view, select this master business role and click *Create Derived Business Role*.
+3.  Go back to the list view, select this leading business role and click *Create Derived Business Role*.
 
 4.  The system suggests a business role ID you can enhance.
 

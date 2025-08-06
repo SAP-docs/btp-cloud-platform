@@ -12,6 +12,14 @@ You can use this communication scenario to read business user logon details.
 
 The communication scenario SAP\_COM\_0889 allows you to read business user logon details, such as user name, validity, assigned business roles, read business users, read assigned business catalogs, business roles and application jobs, or filter for specific combinations.
 
+**Authentication Methods**
+
+This communication scenario can be configured with the following inbound authentication methods:
+
+-   *Basic Authentication* \(user and password\)
+
+-   *X.509* \(certificates\)
+
 
 
 <a name="loiob94978f5f709491499384d5266b30079__BusinessUserLogonDetails_steps"/>

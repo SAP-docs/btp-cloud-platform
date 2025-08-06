@@ -443,9 +443,9 @@ Provisioning
 <tr>
 <td valign="top">
 
-*Shoot and Seed Same Region*
+*Colocate Control Plane*
 
-btp CLI parameter: `ShootAndSeedSameRegion`
+btp CLI parameter: `colocateControlPlane`
 
 </td>
 <td valign="top">
@@ -460,7 +460,7 @@ Provisioning
 </td>
 <td valign="top">
 
-[Shoot and Seed Same Region](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
+[Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
 
 </td>
 </tr>
@@ -758,9 +758,9 @@ Provisioning
 <tr>
 <td valign="top">
 
-*Shoot and Seed Same Region*
+*Colocate Control Plane*
 
-btp CLI parameter: `ShootAndSeedSameRegion`
+btp CLI parameter: `colocateControlPlane`
 
 </td>
 <td valign="top">
@@ -775,7 +775,7 @@ Provisioning
 </td>
 <td valign="top">
 
-[Shoot and Seed Same Region](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
+[Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
 
 </td>
 </tr>

@@ -8,7 +8,7 @@
 
 ## Context
 
-You can use the mass change wizard to change multiple business roles at once. This is helpful, for example, if you have switched from using custom spaces to predefined spaces or if you start using spaces. In that case, you can select all affected business roles and choose *Assign Predefined Spaces*. The system then automatically assigns predefined spaces to all of the business roles in question. If you choose *Remove Launchpad Spaces Already Assigned*, the custom spaces that were previously assigned to the business roles are automatically removed.
+You can use the mass change wizard to change multiple business roles at once. This is helpful, for example, if you have switched from using custom spaces to predefined spaces or if you start using spaces. In that case, you can select all affected business roles and choose *Assign Space Templates*. The system then automatically assigns predefined spaces to all of the business roles in question. If you choose *Remove Launchpad Spaces Already Assigned*, the custom spaces that were previously assigned to the business roles are automatically removed.
 
 > ### Note:  
 > Please note that SAP-defined business roles can only be modified for business user assignment in the initial setup. Apart from this, they can be updated by SAP only. We recommend that you create your own business roles from templates so that you can modify them as required.
@@ -103,12 +103,12 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <tr>
     <td valign="top">
     
-    **Assign Predefined Spaces**
+    **Assign Space Templates**
     
     </td>
     <td valign="top">
     
-    Assign predefined spaces your business roles
+    Assign space templates to your business roles
 
     You see the results and can filter for error or success statuses in the *Mass Change Overview*.
 

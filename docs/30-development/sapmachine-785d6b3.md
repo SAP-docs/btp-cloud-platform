@@ -71,7 +71,7 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 11.+ }'
 ```
 
-In some cases, it can be helpful to pin a particular published version of SapMachine JRE 11. To make the buildpack download this JRE version \(for example, 11.0.27\), specify it the following way:
+In some cases, it can be helpful to pin a particular published version of SapMachine JRE 11. To make the buildpack download this JRE version \(for example, 11.0.28\), specify it the following way:
 
 ```
 ---
@@ -80,7 +80,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 11.0.27 }'
+    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 11.0.28 }'
   ...
 ```
 
@@ -105,7 +105,7 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 17.+ }'
 ```
 
-In some cases, it can be helpful to pin a particular published version of SapMachine JRE 17. To make the buildpack download this JRE version \(for example, 17.0.15\), specify it the following way:
+In some cases, it can be helpful to pin a particular published version of SapMachine JRE 17. To make the buildpack download this JRE version \(for example, 17.0.16\), specify it the following way:
 
 ```
 ---
@@ -114,7 +114,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 17.0.15 }'
+    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 17.0.16 }'
   ...
 ```
 
@@ -139,7 +139,7 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 21.+ }'
 ```
 
-In some cases, it can be helpful to pin a particular published version of SapMachine JRE 21. To make the buildpack download this JRE version \(for example, 21.0.7\), specify it the following way:
+In some cases, it can be helpful to pin a particular published version of SapMachine JRE 21. To make the buildpack download this JRE version \(for example, 21.0.8\), specify it the following way:
 
 ```
 ---
@@ -148,7 +148,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 21.0.7 }'
+    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 21.0.8 }'
   ...
 ```
 
@@ -195,7 +195,7 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 11.+ }'
 ```
 
-In some cases, it can be helpful to pin a particular published version of SapMachine JDK 11. To make the buildpack download this JDK version \(for example, 11.0.27\), specify it the following way:
+In some cases, it can be helpful to pin a particular published version of SapMachine JDK 11. To make the buildpack download this JDK version \(for example, 11.0.28\), specify it the following way:
 
 ```
 ---
@@ -204,7 +204,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 11.0.27 }'
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 11.0.28 }'
   ...
 ```
 
@@ -226,7 +226,7 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.+ }'
 ```
 
-In some cases, it can be helpful to pin a particular published version of SapMachine JDK 17. To make the buildpack download this JDK version \(for example, 17.0.15\), specify it the following way:
+In some cases, it can be helpful to pin a particular published version of SapMachine JDK 17. To make the buildpack download this JDK version \(for example, 17.0.16\), specify it the following way:
 
 ```
 ---
@@ -235,7 +235,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.0.15 }'
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.0.16 }'
   ...
 ```
 
@@ -257,7 +257,7 @@ applications:
     JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 21.+ }'
 ```
 
-In some cases, it can be helpful to pin a particular published version of SapMachine JDK 21. To make the buildpack download this JDK version \(for example, 21.0.7\), specify it the following way:
+In some cases, it can be helpful to pin a particular published version of SapMachine JDK 21. To make the buildpack download this JDK version \(for example, 21.0.8\), specify it the following way:
 
 ```
 ---
@@ -266,7 +266,7 @@ applications:
   ...
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 21.0.7 }'
+    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 21.0.8 }'
   ...
 ```
 

@@ -136,7 +136,7 @@ ABAP Test Cockpit
 </td>
 <td valign="top">
 
-ABAP Test Cockpit checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in checkstyle format. With the use of a pipeline extension, you can configure quality gates. See [ATC](https://www.project-piper.io/pipelines/abapEnvironment/stages/test/#atc) and [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md).
+ABAP Test Cockpit checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in checkstyle format. With the use of a pipeline extension, you can configure quality gates. See [ATC](https://www.project-piper.io/pipelines/abapEnvironment/stages/test/#atc) and [Configure ABAP Test Cockpit](../50-administration-and-ops/configure-abap-test-cockpit-22c26ff.md).
 
 </td>
 </tr>

@@ -1,6 +1,6 @@
 <!-- loio36a90bb2f1a04122ac1f1214c77765d4 -->
 
-# Install the Java CLI Plugin in the Cloud Foundry Environment
+# Install the Java Plugin in the Cloud Foundry Environment
 
 The Java plugin provides convenience utilities to work with Java applications deployed on Cloud Foundry.
 
@@ -41,7 +41,7 @@ You have installed the Cloud Foundry command line interface \(cf CLI\). See: [Do
 4.  Install the latest Java plugin version. Run:
 
     ```
-    cf install-plugin -r CF_Community java
+    cf install-plugin -r CF-Community java
     ```
 
     > ### Tip:  

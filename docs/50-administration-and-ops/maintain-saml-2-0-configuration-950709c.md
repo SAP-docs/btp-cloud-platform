@@ -4,7 +4,7 @@
 
 
 
-You can use this app to upload the primary and secondary signing certificates you have maintained within the Cloud Identity Services. Please note that Base64 ASCII encoding is required for this.
+You can use this app to upload the primary and secondary signing certificates you have maintained within the SAP Cloud Identity Services. Please note that Base64 ASCII encoding is required for this.
 
 
 
@@ -43,4 +43,9 @@ This app provides the following key features:
 ## Component for Customer Incidents
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-COM`.
+
+**Related Information**  
+
+
+[Tenant SAML 2.0 Configurations](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/tenant-saml-2-0-configuration?state=DRAFT&version=Dev)
 

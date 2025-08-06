@@ -1,6 +1,6 @@
 <!-- loio34f67edd5f3e4c1eb00ad1943f551fb8 -->
 
-# Enable Usage of the Custom Code Migration App
+# Enable Usage of the Analyze Custom Code App
 
 
 
@@ -23,7 +23,7 @@
 
 ### Maintain Business Role
 
-To enable business users to access the Custom Code Migration app, create the `Project Manager – IT` business role and assign one or more business user\(s\) to it. Please note that, in order to use the feature of adding findings to the baseline, you'll also need the `Quality Manager – Software Development` business role. To create these roles, proceed as follow \(taking `Project Manager – IT` as an example\):
+To enable business users to access the Analyze Custom Code aka Custom Code Migration app, create the `Quality Manager – Software Development` business role and assign one or more business user\(s\) to it. If you only intend to use the Custom Code Migration app, you can also use the `Project Manager – IT` business role. To create these roles, proceed as follow \(taking `Project Manager – IT` as an example\):
 
 1.  From the SAP Fiori launchpad of your ABAP environment, open the *Maintain Business Role* tile.
 
@@ -77,7 +77,7 @@ To set up the connection from the ABAP system in the ABAP environment to your on
     10. Confirm with *Save*.
 
 
-5.  Under *Additional Properties*, fill out the fields *Object Provider* and *System Group*. An object provider defines the RFC connection to be used for analysis in a remote SAP system and must be assigned to a system group. This is the name you then select as your *Object Provider to Remote System* for your custom code migration project in the Custom Code Migration app. Enter a name for each field. This name can be defined by you and can be 20 characters long \(25 for system groups\). The object provider will be created on the spot. The system group will either be created right then as well or, if it already exists, the object provider will be grouped within the system group that already groups together other systems and object providers in the SAP BTP system.
+5.  Under *Additional Properties*, fill out the fields *Object Provider* and *System Group*. An object provider defines the RFC connection to be used for analysis in a remote SAP system and must be assigned to a system group. This is the name you then select as your *Object Provider to Remote System* for your custom code migration project in the Analyze Custom Code app. Enter a name for each field. This name can be defined by you and can be 20 characters long \(25 for system groups\). The object provider will be created on the spot. The system group will either be created right then as well or, if it already exists, the object provider will be grouped within the system group that already groups together other systems and object providers in the SAP BTP system.
 
     > ### Note:  
     > A system group subsumes multiple SAP systems \(typically, the productive system, the test system\(s\), and the development system\(s\)\), which all represent a part of a system landscape of one and the same SAP release. If you're using an existing system group, your new object provider will be grouped with the existing object providers in this system group.
@@ -89,7 +89,7 @@ To set up the connection from the ABAP system in the ABAP environment to your on
 8.  Choose *Save* to save the communication arrangement. A message should now pop up at the bottom of the screen informing you that the activation was successful.
 
 
-You can now select the communication arrangement in the *Object Provider to Remote System* field in the `Custom Code Migration` app to establish the connection to your on-premise system.
+You can now select the communication arrangement in the *Object Provider to Remote System* field in the Analyze Custom Code app to establish the connection to your on-premise system.
 
 
 

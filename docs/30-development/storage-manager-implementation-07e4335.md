@@ -229,48 +229,48 @@ As a precondition for data archiving, you need to create a class which implement
     </tr>
     </table>
     
--   After the method <code><i>IF_ARCH_STORAGE_MANAGER~STORE_FILE</i> </code> has been called by the ADK write API, the stored file is verified by the SAP system. If the verification fails, the method <code><i>IF_ARCH_STORAGE_MANAGER~FILE_VERIFICATION_FAIL</i> </code> is called by the ADK write API to inform the Storage Manager that the archive file is considered invalid and will be deleted from the SAP system.
+-   After the method <code><i>IF_ARCH_STORAGE_MANAGER~STORE_FILE</i></code> has been called by the ADK write API, the stored file is verified by the SAP system. If the verification fails, the method <code><i>IF_ARCH_STORAGE_MANAGER~FILE_VERIFICATION_FAIL</i></code> is called by the ADK write API to inform the storage manager that the archive file is considered invalid and will be deleted from the SAP system.
 
 
-    <table>
-    <tr>
-    <th valign="top">
 
-    Parameter
-    
-    </th>
-    <th valign="top">
+<table>
+<tr>
+<th valign="top">
 
-    Description
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    Importing: <code><i>IV_ARCHIVE_KEY</i></code>
-    
-    </td>
-    <td valign="top">
-    
-    Key of the invalid archive file
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    Importing: <code><i>IV_DOCUMENT_ID</i></code>
-    
-    </td>
-    <td valign="top">
-    
-    Document identifier
-    
-    </td>
-    </tr>
-    </table>
-    
+Parameter
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Importing: <code><i>IV_ARCHIVE_KEY</i></code> 
+
+</td>
+<td valign="top">
+
+Key of the invalid archive file
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Importing: <code><i>IV_DOCUMENT_ID</i></code> 
+
+</td>
+<td valign="top">
+
+Document identifier
+
+</td>
+</tr>
+</table>
 
 > ### Note:  
 > If any errors appear during any of the operations of the storage manager, please use the exception class `CX_ARCH_STORAGE_MANAGER`.

@@ -23,11 +23,13 @@ For further assistance with creating and deploying an application into SAP Fiori
 
 ## 1. Generating and Deploying Your Application
 
-> ### Prerequisites:  
+> ### Note:  
+> **Prerequisites** 
+> 
 > -   You have created a development package in ABAP development tools for Eclipse. See [Creating ABAP Packages](https://help.sap.com/docs/btp/sap-abap-development-user-guide/creating-abap-packages?version=Cloud).
 > -   You have exposed a RAP business service as an OData UI service. See [Using Service Binding Editor for OData V2 Service](https://help.sap.com/docs/btp/sap-abap-cds-development-user-guide/using-service-binding-editor-for-odata-v2-service?version=Cloud).
 > -   Business catalog `SAP_A4C_BC_DEV_UID_PC` is assigned to your user, which allows you to discover available OData UI services and deploy your application.
-> -   Business catalog `SAP_CORE_BC_EXT_TST` is assigned to your user, which allows you to preview your application. See [Business Catalog for Key User Tasks](https://help.sap.com/docs/btp/sap-business-technology-platform/business-catalog-for-key-user-tasks?version=Cloud).
+> -   Business catalog `SAP_CORE_BC_EXT_TST` is assigned to your user, which allows you to preview your application. See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
 > -   You have an open transport request.
 
 ![](images/bild1SAP_BAS_UI_Dev_b3af0ae.png)
@@ -67,8 +69,8 @@ For further assistance with creating and deploying an application into SAP Fiori
 
 ## 2. Creating and Publishing Your Identity and Access Management \(IAM\) App
 
-> ### Prerequisite:  
-> Business catalog `SAP_A4C_BC_DEV_PC` is assigned to your user, which is required for development with ABAP Development Tools. See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
+> ### Note:  
+> **Prerequisites**: Business catalog `SAP_A4C_BC_DEV_PC` is assigned to your user, which is required for development with ABAP development tools for Eclipse. See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
 
 ![](images/DevelopSAPFioriPic1_19a2ef5.png)
 

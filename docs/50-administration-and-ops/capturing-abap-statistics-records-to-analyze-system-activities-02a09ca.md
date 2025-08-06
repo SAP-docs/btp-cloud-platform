@@ -32,5 +32,5 @@ You typically use ABAP statistics records in the following scenarios:
 **Related Information**  
 
 
-[ABAP Statistics Records](https://help.sap.com/viewer/b273a660af4e4948a49a316ea2438f24/Cloud/en-US/583c0987c19b49d190e14aa909adb5b1.html "With an ABAP statistics record, you can get information about a request such as the response time, the request entry name, and so on.") :arrow_upper_right:
+[ABAP Statistics Records](https://help.sap.com/viewer/b273a660af4e4948a49a316ea2438f24/Cloud/en-US/583c0987c19b49d190e14aa909adb5b1.html "With an ABAP statistics record, you can get information about a request such as the response time, the request entry name, and so on. ABAP statistics records are the data basis of the screens of the System Workload app.") :arrow_upper_right:
 

@@ -38,12 +38,19 @@ The restriction type you're currently working on is displayed under focus.
 
 **Detail Area**
 
-The detail area consists of the following three tabs:
+The detail area consists of the following four tabs:
 
--   Values
+-   *Values*
 
--   Description \(if available\)
--   Business Catalogs
+-   *Description* \(if available\)
+-   *Business Catalogs*
+
+    Here you can see which business catalogs the restrictions come from.
+
+-   *IAM Apps*
+
+    Here you can see which IAM apps the restrictions come from.
+
 
 You can carry out the following activities in the detail view:
 

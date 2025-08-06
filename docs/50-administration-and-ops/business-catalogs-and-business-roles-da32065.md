@@ -251,7 +251,7 @@ ABAP Test Cockpit
 </td>
 <td valign="top">
 
-[ABAP Test Cockpit Configurator](abap-test-cockpit-configurator-22c26ff.md) 
+[Configure ABAP Test Cockpit](configure-abap-test-cockpit-22c26ff.md) 
 
 </td>
 <td valign="top">
@@ -633,7 +633,7 @@ Health Monitoring
 
 `SAP_CORE_BC_TMC`
 
-*Technical Monitoring Cockpit Infrastructure* 
+*Technical Monitoring* 
 
 </td>
 </tr>
@@ -1501,7 +1501,7 @@ Custom Code Migration
 </td>
 <td valign="top">
 
-[Custom Code Migration](custom-code-migration-651ef65.md) 
+[Custom Code Analysis](custom-code-analysis-651ef65.md) 
 
 </td>
 <td valign="top">
@@ -2058,6 +2058,66 @@ Technical Monitoring
 <td valign="top">
 
 [HANA Thread Samples](hana-thread-samples-f581339.md)
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+`SAP_BR_DEVELOPER`
+
+*Developer*
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_TMC`
+
+*Technical Monitoring*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Technical Monitoring
+
+</td>
+<td valign="top">
+
+[HANA Memory Analysis](hana-memory-analysis-a5fcfb0.md)
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+`SAP_BR_DEVELOPER`
+
+*Developer*
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_TMC`
+
+*Technical Monitoring*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Technical Monitoring
+
+</td>
+<td valign="top">
+
+[SQL Statement Analysis](sql-statement-analysis-f2dd9ae.md)
 
 </td>
 <td valign="top">

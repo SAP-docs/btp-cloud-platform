@@ -2,9 +2,9 @@
 
 # Managing Change Document Objects
 
-To maintain a change document object during design time, the `ABAP Development Tools` UI editor for change document objects can be used. For more information, see [Working with Change Document Objects](https://help.sap.com/docs/SAP_S4HANA_CLOUD/25cf71e63940453397a32dc2b7676947/0cbc42d5cfbe47f283f544faf84f0cad.html).
+To maintain a change document object during design time, the `ABAP Development Tools` UI editor for change document objects should be used. For more information, see [Working with Change Document Objects](https://help.sap.com/docs/SAP_S4HANA_CLOUD/25cf71e63940453397a32dc2b7676947/0cbc42d5cfbe47f283f544faf84f0cad.html).
 
-Use class `CL_CHDO_OBJECT_TOOLS_REL` to maintain change document objects.
+You can use class `CL_CHDO_OBJECT_TOOLS_REL` if you want or have to maintain change document objects programmatically.
 
 For more information, see
 

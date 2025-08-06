@@ -281,23 +281,15 @@ For security reasons, don't use very long validity period for the mTLS credentia
 
 ### Endpoints
 
-The endpoints exposed for the *premium* service plan for the 4 types of audit log categories are the following, where the base URL can be obtained from the service key/service binding:
+The endpoints exposed for the *premium* service plan for the 4 types of audit log categories are the following, where the `<url from the key/binding>` you obtained in the previous step **Obtain Credentials for Authentication and Authorization**:
 
--   AWS IAAS Provider
-    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/security-events
-    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/configuration-changes
-    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/data-accesses
-    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/data-modifications
+-   <url from the key/binding\>/audit-log/oauth2/v2/security-events
 
--   SAP Converged Cloud
-    -   https://api.auditlog.<cf-domain\>/audit-log/premium/v2/security-events
+-   <url from the key/binding\>/audit-log/oauth2/v2/configuration-changes
 
-    -   https://api.auditlog.<cf-domain\>/audit-log/premium/v2/configuration-changes
+-   <url from the key/binding\>/audit-log/oauth2/v2/data-accesses
 
-    -   https://api.auditlog.<cf-domain\>/audit-log/premium/v2/data-accesses
-
-    -   https://api.auditlog.<cf-domain\>/audit-log/premium/v2/data-modifications
-
+-   <url from the key/binding\>/audit-log/oauth2/v2/data-modifications
 
 
 

@@ -48,7 +48,7 @@ Collecting Istio access logs can help indicate the core concepts of monitoring \
 
 [Authentication in the Kyma Environment](authentication-in-the-kyma-environment-85200d8.md "To authenticate in the Kyma environment, you can either use the default identity provider (IdP) or set up a custom identity provider.")
 
-[Configure a Custom Identity Provider for Kyma](configure-a-custom-identity-provider-for-kyma-67bcc6e.md "Enable the Kyma environment with a custom identity provider (IdP).")
+[Configuring a Custom Identity Provider for Kyma](configuring-a-custom-identity-provider-for-kyma-67bcc6e.md "Enable the Kyma environment with a custom identity provider (IdP).")
 
 [Assign Roles in the Kyma Environment](assign-roles-in-the-kyma-environment-148ae38.md "Kyma uses roles to manage access within the cluster, which give the assigned users the permissions suitable for their purposes.")
 

@@ -55,5 +55,5 @@ In SAP Cloud Identity Services - Identity Authentication in Neo subaccounts, the
 
 [Establish Trust and Federation of Custom Identity Providers for Platform Users](../50-administration-and-ops/establish-trust-and-federation-of-custom-identity-providers-for-platform-users-c368984.md "You want to use a custom identity provider for the platform users of SAP BTP in different environments and at the different account levels: global account, directory, and subaccount. By default, platform users in multi-environment subaccounts are users in the default identity provider.")
 
-[Configure a Custom Identity Provider for Kyma](../60-security/configure-a-custom-identity-provider-for-kyma-67bcc6e.md "Enable the Kyma environment with a custom identity provider (IdP).")
+[Configuring a Custom Identity Provider for Kyma](../60-security/configuring-a-custom-identity-provider-for-kyma-67bcc6e.md "Enable the Kyma environment with a custom identity provider (IdP).")
 

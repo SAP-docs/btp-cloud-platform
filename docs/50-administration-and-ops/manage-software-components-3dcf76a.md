@@ -57,7 +57,7 @@ In addition, the app supports the integration with Git.
 **Related Information**  
 
 
- <?sap-ot O2O class="- topic/link " href="8a501fa4fe354edfa67015eec1c4af73.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/3dcf76a072c9450eb46b99db947dab46.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+[Display Software Components](display-software-components-d7eb658.md "")
 
 [Create Software Components](create-software-components-67e2f2e.md "")
 

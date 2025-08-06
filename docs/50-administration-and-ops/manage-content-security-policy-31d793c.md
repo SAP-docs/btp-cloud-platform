@@ -54,5 +54,5 @@ You can use this app to:
 
 ## Component for Customer Incidents
 
-If you need support or experience issues, please report an incident under component <code><code>BC-SRV-APS-COM</code></code>.
+If you need support or experience issues, please report an incident under component <code><code>BC-MID-ICF</code></code>.
 

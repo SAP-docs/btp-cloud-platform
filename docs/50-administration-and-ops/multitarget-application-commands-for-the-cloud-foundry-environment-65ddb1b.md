@@ -10,13 +10,7 @@ A list of additional commands to deploy multitarget applications \(MTA\) to the 
 > The expiration time for all MTA operations in Cloud Foundry is 3 days. If an operation is still active when time limit is reached, it is automatically aborted.
 
 > ### Caution:  
-> Due to the missing shared domains in certain regions, as China \(Shanghai\), the URL of the SAP Cloud Deployment service should be specified by each multitarget application developer who uses MultiApps CF CLI plugin older that 3.0.0. If you are using MultiApps CF CLI plugin newer than 3.0.0, you do not need additional settings. You can do this by using the environment variable `MULTIAPPS_CONTROLLER_URL`, or the `-u` option specified in the commands listed below.
-> 
-> The URL of the deploy-service that needs to be set is in the following format: `deploy-service.cf.<domain>` The domain is derived from the Cloud Foundry API endpoint that you can find in the SAP BTP Cockpit in the Overview of your subaccount. For more information, see Deploying Applications in[Regions](../10-concepts/regions-350356d.md) and [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
-> 
-> If you are using the `-u` option, make sure you have the MultiApps CLI Plugin version 2.1.3 or higher
-> 
-> If you are using region CN40 with API Endpoint api.cf.cn40.platform.sapcloud.cn, you need to specify the URL as follows: `export MULTIAPPS_CONTROLLER_URL=deploy-service.cf.cn40.platform.sapcloud.cn`
+> If you are using a version of the MultiApps CF CLI plugin that is older than 3.0.0, you need to make some additional configuration for deployments in regions China \(Shanghai\) and China \(North 3\). See [MTA Deployment in Regions China \(Shanghai\) and China \(North 3\)](../30-development/mta-deployment-in-regions-china-shanghai-and-china-north-3-f463c3d.md).
 
 **Commands for the Cloud Foundry Environment Overview**
 
@@ -209,10 +203,7 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
 
 -   **Deployment using a URL to the MTA archive**
 
-    You have the option to deploy or synchronize an MTA, the source of which is contained at a URL address.When you use this command, the request prompts the backend to download the archive and then dеploy it:
-
-    > ### Caution:  
-    > This option is currently experimental.
+    You have the option to deploy or synchronize an MTA, the source of which is contained at a URL address. When you use this command, the request prompts the backend to download the archive and then dеploy it:
 
     ```
     <write MTA archive URL to STDOUT> | cf deploy [-e EXT_DESCRIPTOR[,...]] 
@@ -225,12 +216,16 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     [--apps-upload-timeout TIMEOUT] [--apps-task-execution-timeout TIMEOUT]
     ```
 
-    > ### Caution:  
-    > There is no possibility for you to check if there are running ongoing operations on the MTA that you want to deploy using a URL.
-
     > ### Note:  
     > -   The URL to the MTA archive must include the *<https://\>* prefix.
-    > -   You can use an locally present extension descriptor along with this deployment method.
+    > -   You can use a locally present extension descriptor along with this deployment method.
+
+    > ### Restriction:  
+    > The feature has the following limitations:
+    > 
+    > -   There is no possibility for you to check if there are any ongoing operations on the MTA that you want to deploy using a URL.
+    > -   The remote URL must have a standard PKI certificate. It is not possible to use self-signed certificates.
+    > -   The URL cannot point to a protected GitHub URL, as GitHub does not support Basic authentication.
 
 -   **Deployment from your current directory**
 
@@ -246,7 +241,7 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
     ```
 
 
-In additon to deployment, you can also interact with an active MTA deploy operation, for example, by performing an action:
+In addition to deployment, you can also interact with an active MTA deploy operation, for example, by performing an action:
 
 ```
 cf deploy  [-i <OPERATION_ID>] [-a <ACTION>] 
@@ -256,7 +251,7 @@ cf deploy  [-i <OPERATION_ID>] [-a <ACTION>]
 
 ### Arguments
 
-The Cloud Deployment service uses the content of the mtad.yaml descriptor, and based its contained info assembles an MTA archive in that directory before deploying it.
+Based on the contents of the `mtad.yaml` descriptor, the Cloud Deployment service assembles an MTA archive in that directory before deploying it.
 
 **Command Arguments Overview**
 

@@ -246,7 +246,7 @@ For more information, see [Managing Budgets in Your Global Account](managing-bud
 
 ![](images/Costs_and_Usage_-_Billing_View_8ab0cc8.png "Simplified graphic of the Billing view of the Costs and Usage page")
 
-The *Costs and Usage* page uses the same terminology that is used in your monthly balance statement, which facilitates better contract-to-billing traceability and verification for cost controllers. Get your latest balance statement from [SAP for Me](https://me.sap.com/).
+The *Costs and Usage* page uses the same terms that are printed in your monthly balance statement, which facilitates better contract-to-billing traceability and verification for cost controllers. Get your latest balance statement from [SAP for Me](https://me.sap.com/).
 
 > ### Remember:  
 > -   The monthly balance statement, which is provided separately, contains legally binding information regarding your monthly costs. Details about costs on the *Costs and Usage* page in the cockpit are provided for informational purposes only. Any discrepancy between the information displayed in the cockpit and the information in your balance statement will be resolved in favor of the balance statement.
@@ -345,6 +345,27 @@ Adjust the width of table columns
 <td valign="top">
 
 Drag the column separators to the left or right.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Manage the custom labels of your directories and subaccounts
+
+</td>
+<td valign="top">
+
+Choose either the *Add Labels* or the *Edit Labels* option in the <span class="SAP-icons-V5"></span> \(Actions\) context menu of any listed directory or subaccount in either the *Billing* or *Usage* tab.
+
+In the *View by Account* perspective of the *Billing* tab, these context menu options are available in the main table, while in the *View by Service* perspective, you need to open the detailed view of a service plan.
+
+Existing labels of directories and subaccounts are listed under the *Labels* columns in the *Billing* or *Usage* tabs. You can hide this column if you have no use for it.
+
+> ### Remember:  
+> You can also add, remove, and edit the labels of your directories and subaccounts on the *Account Explorer* page. Adding custom labels to your directories and subaccounts is optional, but they can help you narrow down cost results by focusing on specific labels in the *Search* fields.
+
+For more information about labels, see [Labels](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e).
 
 </td>
 </tr>

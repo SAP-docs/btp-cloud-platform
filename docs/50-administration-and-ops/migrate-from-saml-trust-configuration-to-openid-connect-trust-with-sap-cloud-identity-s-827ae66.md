@@ -20,6 +20,9 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
     For more information, see [Migration from SAML Trust to OpenID Connect Trust with SAP Cloud Identity Services](migration-from-saml-trust-to-openid-connect-trust-with-sap-cloud-identity-services-d097ce2.md).
 
 
+> ### Note:  
+> To help troubleshoot issues with SAML identity providers, you can use the network trace of your browser. For more information, see [2461862](https://me.sap.com/notes/2461862).
+
 
 
 ## Procedure
@@ -48,7 +51,9 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
     You receive a list of all SAP Cloud Identity Services tenants that are available in this subaccount. It's a good idea to copy the name of the SAP Cloud Identity Services tenant that you want to migrate.
 
-6.  Migrate your trust configuration using the following command:
+6.  Check that your SAML trust configuration was migrated to a trust configuration with the OpenID Connect protocol. Go to your subaccount in the SAP BTP cockpit and choose *Security* \> *Trust Configuration*.
+
+7.  Migrate your trust configuration using the following command:
 
     `btp migrate security/trust ORIGIN --idp TENANT`
 
@@ -56,8 +61,6 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
     > `btp migrate security/trust my-origin-key --idp myidp.accounts.ondemand.com`
 
     The btp CLI returns that the trust configuration is active and that the protocol is OIDC.
-
-7.  Check that your SAML trust configuration was migrated to a trust configuration with the OpenID Connect protocol. Go to your subaccount in the SAP BTP cockpit and choose *Security* \> *Trust Configuration*.
 
 
 

@@ -23,7 +23,7 @@ Description
 <tr>
 <td valign="top">
 
-C\_BUSEVTLOGEVENTDEX\_2
+C\_BUSEVTLOGEVENTDEX\_3
 
 </td>
 <td valign="top">
@@ -47,12 +47,24 @@ This CDS view provides a subset of event payload details.
 <tr>
 <td valign="top">
 
-C\_BUEVLGEVTFULLPAYLOADJSONDEX
+C\_BUEVLGEVTFULLPYLDJSONDEX\_2
 
 </td>
 <td valign="top">
 
 This CDS view provides full business event data \(payload\) in JSON format.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+C\_BUSEVTLOGACTIVITYDEX
+
+</td>
+<td valign="top">
+
+This CDS view provides activities.
 
 </td>
 </tr>

@@ -145,7 +145,7 @@ This step should be performed as a last step once all local deletions on other s
 
 
 
-### Local and Remote Deletion - Customer-managed Software Components
+### Local and Remote Deletion - Customer-managed Software Components \(Bring Your Own Git\)
 
 ****
 
@@ -164,7 +164,7 @@ This step should be performed as a last step once all local deletions on other s
 </td>
 <td valign="top">
 
-**Local and Remote Deletion**
+**Remote Deletion**
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ Only the local representation of the software component is deleted. Local means 
 </td>
 <td valign="top">
 
-The remote deletion of the software component is performed if the checkbox *Unregister Repository* was selected. This option will unregister the linked git repository from the *Manage Software Components* app, in addition to deleting the software component locally. If this option is selected, the linked Git repository can't be used in relation to the software component again, and it can't be linked with new software components. This action is irreversible.
+You can delete the software component remotely if you select *Unregister*. This option appears only for components that are not cloned. The linked Git repository will be unregistered from the Manage Software Components app. You cannot use the linked Git repository with the software component again, nor can you link it with new software components. This action is irreversible.
 
 > ### Note:  
 > Make sure to first delete the software component locally on all system instances where it's cloned.
@@ -205,7 +205,7 @@ You can re-clone the software component again.
 </td>
 <td valign="top">
 
-This step should be performed once all deletions on other system instances have been performed and only intended for cases when the remote Git repository is no longer needed.
+The remote Git repository cannot be used again or linked with a new software component.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ This step should be performed once all deletions on other system instances have 
 ### Resulting behavior in service instances where the deleted software component is still imported
 
 1.  No further Git actions, including pull, switch branch and others, are possible.
-2.  Changes to ABAP objects of the deleted sotware component can no longer be released.
+2.  Changes to ABAP objects of the deleted software component can no longer be released.
 3.  Non-released requests, in which object changes have already been recorded before the software component was deleted, must be handled specially.
 
     For example, you can delete the recorded object changes from the transport request. Alternatively, the transport layer of the transport request can be deleted.
@@ -228,7 +228,7 @@ This step should be performed once all deletions on other system instances have 
 
 ## Result
 
-The selected software component is deleted centrally if the checkbox *remote deletion* was selected. Otherwise it is only a local deletion, affecting the current system instance.
+The selected software component is deleted centrally if the checkbox *remote deletion* for SAP-managed or the *unregister* option for customer-managed components was selected. Otherwise it is only a local deletion, affecting the current system instance.
 
 > ### Caution:  
 > Here, centrally means the repository visible throughout the global account is deleted.

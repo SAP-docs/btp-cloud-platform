@@ -10,16 +10,16 @@ Get an overview about how to create an OData UI service based on a released busi
 
 ## Prerequisites
 
--   If you are using SAP Business Application Studio...
+-   If you are using SAP Business Application Studio:
     -   You have set up SAP Business Application Studio. See [Setup of UI Development in SAP Business Application Studio](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/setup-of-ui-development-in-sap-business-application-studio-optional?version=Cloud) 
-    -   You have established trust by setting up a custom Identity service. See [Setup of a Custom Identity Service](https://help.sap.com/docs/btp/sap-business-technology-platform/setup-of-custom-identity-service?version=Cloud).
+    -   You have established trust by setting up a custom identity service. See [Setup of a Custom Identity Service](https://help.sap.com/docs/btp/sap-business-technology-platform/setup-of-custom-identity-service?version=Cloud).
 
--   If you are using Visual Studio Code
+-   If you are using Visual Studio Code:
     -   You have installed and set up Visual Studio Code including the SAP Fiori tools extensions. See [Visual Studio Code](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/17efa217f7f34a9eba53d7b209ca4280.html)
     -   To establish a connection with your ABAP environment system, you either have to be a space developer in the ABAP environment instance or have access to a service key in the ABAP environment instance. See [Add Space Members Using the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/add-space-members-using-cockpit?version=Cloud) and [Creating Service Keys in the ABAP service instance](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-service-keys?version=Cloud).
     -   You have established trust by setting up a custom Identity service. See [Setup of a Custom Identity Service](https://help.sap.com/docs/btp/sap-business-technology-platform/setup-of-custom-identity-service?version=Cloud).
 
--   If you are using ABAP development tools for Eclipse...
+-   If you are using ABAP development tools for Eclipse:
     -   You have installed and set up ABAP development tools for Eclipse. See[Download the Eclipse IDE and add the ABAP development Tools \(ADT\) Plugin](https://developers.sap.com/tutorials/abap-install-adt..html) .
 
 
@@ -29,7 +29,9 @@ Get an overview about how to create an OData UI service based on a released busi
 
 ## 1. Explore Business Object Interfaces and CDS Views suitable for UI Consumption
 
-> ### Prerequisites:  
+> ### Note:  
+> **Prerequisites**:
+> 
 > -   Business Catalog SAP\_A4C\_BC\_DEV\_OBJ\_DIS\_PC, which allows you to discover released objects. See [Business Catalogs for Development Tasks](https://help.sap.com/docs/btp/sap-business-technology-platform/business-catalogs-for-development-tasks?version=Cloud).
 
 
@@ -61,7 +63,9 @@ Get an overview about how to create an OData UI service based on a released busi
 
 ## 2. Creating and publishing an OData UI service based on BO interface or CDS View
 
-> ### Prerequisites:  
+> ### Note:  
+> **Prerequisites**:
+> 
 > -   Business Catalog SAP\_A4C\_BC\_DEV\_PC is assigned to your user, which allows you to create and publish OData UI services. See [Business Catalogs for Development Tasks](https://help.sap.com/docs/btp/sap-business-technology-platform/business-catalogs-for-development-tasks?version=Cloud).
 
 

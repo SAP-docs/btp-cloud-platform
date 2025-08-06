@@ -94,4 +94,7 @@ Before migrating your trust configuration, check which user data are sent today,
     
     For more information, see [Corporate Identity Providers](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html) in the documentation of SAP Cloud Identity Services.
 
+    > ### Note:  
+    > To help troubleshoot issues with SAML identity providers, you can use the network trace of your browser. For more information, see [2461862](https://me.sap.com/notes/2461862).
+
 

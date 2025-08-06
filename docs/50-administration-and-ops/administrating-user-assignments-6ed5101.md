@@ -2,13 +2,13 @@
 
 # Administrating User Assignments
 
-The user assignment describes the relevant roles that a user requires to access SAP BTP ABAP environment using the `Custom Code Migration` app.
+The user assignment describes the relevant roles that a user requires to access SAP BTP ABAP environment using the Analyze Custom Code app.
 
 
 
 ## Context
 
-You want to enable business users to access the `Custom Code Migration` app.
+You want to enable business users to access the Analyze Custom Code app.
 
 For more information see, [How to Create a Business Role from a Template](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/ec310a8b669a45ca898dc4dd91d97de2.html).
 
@@ -33,9 +33,9 @@ For more information see, [How to Create a Business Role from a Template](https:
 
 6.  The checkbox *Create and Assign Spaces Based on SAP-Delivered Spaces* provides you with the following two options:
 
-    1.  **Mark**the checkbox to create a new space for the `Custom Code Migration` app in your subaccount. Define and enter a *New Space ID*.
+    1.  **Mark**the checkbox to create a new space for the Analyze Custom Code app in your subaccount. Define and enter a *New Space ID*.
 
-    2.  **Unmark** the checkbox to use an existing space for the CCM app. Consequently, you must allocate the `Custom Code Migration` app to the existing space and page in your subaccount. For more information, see [Working with Predefined Spaces and Pages](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/2a8b991e64f84721ab6eb26398de7998.html).
+    2.  **Unmark** the checkbox to use an existing space for the Analyze Custom Code app. Consequently, you must allocate the Analyze Custom Code app to the existing space and page in your subaccount. For more information, see [Working with Predefined Spaces and Pages](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/2a8b991e64f84721ab6eb26398de7998.html).
 
 
 7.  Confirm the creation with *OK*.
@@ -59,5 +59,5 @@ For more information see, [How to Create a Business Role from a Template](https:
 
 ## Results
 
-The business role is created and added. The assigned users now have access to the `Custom Code Migration` app.
+The business role is created and added. The assigned users now have access to the Analyze Custom Code app.
 

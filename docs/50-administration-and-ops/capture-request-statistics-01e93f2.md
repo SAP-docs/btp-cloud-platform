@@ -16,7 +16,7 @@ This app provides the following key features:
 
 
 
--   Creation of capture profiles that define which request statistics are collected and when
+-   Creation of capture profiles that define which request statistics are captured when, and whether they are stored locally or are exported
 
 -   Display of profiles for capturing request statistics defined by SAP
 

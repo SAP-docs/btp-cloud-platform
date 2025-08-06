@@ -12,6 +12,14 @@ You can use this communication scenario to read communication user data.
 
 This communication scenario allows you to read communication user data, such as read communication users, read assigned certificates, communication systems and communication arrangements.
 
+**Authentication Methods**
+
+This communication scenario can be configured with the following inbound authentication methods:
+
+-   *Basic Authentication* \(user and password\)
+
+-   *X.509* \(certificates\)
+
 
 
 <a name="loio664ea90a398d4cc091cc8c878a7ae1cc__Communication_User_Integration_steps"/>

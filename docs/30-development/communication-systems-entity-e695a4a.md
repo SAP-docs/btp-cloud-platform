@@ -310,6 +310,40 @@ Optional
 <tr>
 <td valign="top">
 
+CipherSuites
+
+</td>
+<td valign="top">
+
+Cipher suites
+
+</td>
+<td valign="top">
+
+Optional
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+IsCipherSuiteDefault
+
+</td>
+<td valign="top">
+
+Default system for cipher suites
+
+</td>
+<td valign="top">
+
+Optional
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 OAuth2IdentityProviderActive
 
 </td>

@@ -22,6 +22,9 @@ To cancel a job, please select the job to be removed and choose *Cancel* from th
 > ### Note:  
 > Please note that the jobs with the status *Finished* cannot be canceled because they have already been run.
 
+> ### Note:  
+> You can choose to skip a single execution of a periodic job chain. To do so, select *Skip*. A skipped job can be restored by clicking *Restore*.
+
 **Related Information**  
 
 

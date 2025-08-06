@@ -18,7 +18,7 @@ You can use this app to:
 
 -   Create business role groups and assign the required business roles to them
 
--   Reassign/remove business roles to/from business role groups
+-   Reassign or remove business roles to or from business role groups
 
     Note: You can also use drag and drop to move business roles from one group to another.
 
@@ -35,7 +35,7 @@ You can use this app to:
 
 ## Prerequisites
 
-The following restriction types \(in the following business catalogs\) are required for maintaining business role groups and business user groups:
+The following restriction types \(in the following business catalogs\) are required for maintaining or displaying business role groups and business user groups:
 
 
 <table>

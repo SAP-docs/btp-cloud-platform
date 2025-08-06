@@ -53,7 +53,7 @@ This view represents the following objects:
 
 ## Purpose
 
-This CDS view is used to access business event header data via key user extensibility.
+This CDS view is used to extract business event header data for C2-released “external” events, and direct APIs.
 
 This CDS view provides the data to answer the following business questions:
 
@@ -96,7 +96,7 @@ Description
 </td>
 <td valign="top">
 
-Event operation, for example: Created, Deleted, Changed, and so on.
+
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ Provides the event's namespace. This can either be a Standard or Custom
 
 ## Examples
 
-Example of events include:
+An example of events include:
 
 BusinessPartner
 
@@ -207,5 +207,5 @@ BusinessPartner
 
 -   Business partner changed
 
-For more information on other events, refer to SAP Business Accelerator Hub.
+For more information on other events, refer to the SAP Business Accelerator Hub.
 

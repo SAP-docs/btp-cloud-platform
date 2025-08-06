@@ -4,7 +4,7 @@
 
 # Dependency Analysis
 
-In this topic, you will learn more about dependency analysis in the Custom Code Migration app.
+In this topic, you will learn more about dependency analysis in the Analyze Custom Code app.
 
 
 
@@ -12,10 +12,10 @@ In this topic, you will learn more about dependency analysis in the Custom Code 
 
 ## Purpose
 
-You can utilize dependency analysis to identify dependencies from your custom code to the SAP standard and thus which part of your custom code can be transformed to the SAP BTP, ABAP Environment. To do this, you can use the *Scoping* app within the Custom Code Migration app. This app provides you with a set of measures that analyze how likely it is for you to be able to transform your code to the SAP BTP, ABAP environment.
+You can utilize dependency analysis to identify dependencies from your custom code to the SAP standard and thus which part of your custom code can be transformed to the SAP BTP ABAP environment. To do this, you can use the *Scoping* app within the Analyze Custom Code app. This app provides you with a set of measures that analyze how likely it is for you to be able to transform your code to the SAP BTP ABAP environment.
 
 > ### Note:  
-> Please be aware that as of the SAP BTP, ABAP environment 2411 release, you now need to initiate scope calculation manually after project creation. Scope calculation no longer starts automatically at project creation.
+> Please be aware that as of the SAP BTP ABAP environment 2411 release, you now need to initiate scope calculation manually after project creation. Scope calculation no longer starts automatically at project creation.
 
 This is how you start a dependency analysis in the Scoping app:
 
@@ -184,7 +184,7 @@ You can then also save your individual settings as your own view. This way, you 
 **Related Information**  
 
 
-[Custom Code Migration](custom-code-migration-651ef65.md)
+[Custom Code Analysis](custom-code-analysis-651ef65.md)
 
-[Complexity Analysis](complexity-analysis-548c8d0.md "In this topic, you will learn more about complexity analysis in the Custom Code Migration app.")
+[Complexity Analysis](complexity-analysis-548c8d0.md "In this topic, you will learn more about complexity analysis in the Analyze Custom Code app.")
 

@@ -18,7 +18,7 @@ Once you’ve completed these development activities, the solution is ready to b
 
 -   For ABAP development, you need a developer user using ABAP development tools for Eclipse. See [Getting Started as a Developer in the ABAP Environment](../20-getting-started/getting-started-as-a-developer-in-the-abap-environment-4b896c9.md).
 -   For UI development, you need a developer user using SAP Business Application Studio. See [Develop an SAP Fiori Application UI and Deploy it to ABAP Using SAP Business Application Studio](develop-an-sap-fiori-application-ui-and-deploy-it-to-abap-using-sap-business-application-eaaeba4.md).
--   For custom code migration, you need a business user that is assigned the business role based on business role template `SAP_BR_IT_PROJECT_MANAGER`, and a communication arrangement instance for `SAP_COM_0464`. See [Custom Code Migration](../50-administration-and-ops/custom-code-migration-651ef65.md).
+-   For custom code migration, you need a business user that is assigned the business role based on business role template `SAP_BR_IT_PROJECT_MANAGER`, and a communication arrangement instance for `SAP_COM_0464`. See [Custom Code Analysis](../50-administration-and-ops/custom-code-analysis-651ef65.md).
 
 <a name="loiofa5af4ecdf90496b8eec54fe0e22150c"/>
 
@@ -155,7 +155,7 @@ As described in [Scoping Space and Page Templates](scoping-space-and-page-templa
 
 ## \(Optional\) Code Migration from On-Premise
 
-Optionally, you can migrate existing custom ABAP code for add-on development purposes. This custom code migration process analyzes your existing code for cloud-readiness. See [How to Check your Custom ABAP Code for SAP BTP ABAP Environment](https://blogs.sap.com/2018/10/02/how-to-check-your-custom-abap-code-for-sap-cloud-platform-abap-environment/) and [Custom Code Migration](../50-administration-and-ops/custom-code-migration-651ef65.md).
+Optionally, you can migrate existing custom ABAP code for add-on development purposes. This custom code migration process analyzes your existing code for cloud-readiness. See [How to Check your Custom ABAP Code for SAP BTP ABAP Environment](https://blogs.sap.com/2018/10/02/how-to-check-your-custom-abap-code-for-sap-cloud-platform-abap-environment/) and [Custom Code Analysis](../50-administration-and-ops/custom-code-analysis-651ef65.md).
 
 After adapting the code and making necessary changes, you can migrate the code via abapGit. See [How to Bring your ABAP Custom Code to SAP BTP ABAP Environment](https://blogs.sap.com/2019/11/11/how-to-bring-your-abap-custom-code-to-sap-cloud-platform-abap-environment/).
 

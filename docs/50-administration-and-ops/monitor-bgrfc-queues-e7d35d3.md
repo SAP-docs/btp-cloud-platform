@@ -42,8 +42,3 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-COM`.
 
-**Related Information**  
-
-
- <?sap-ot O2O class="- topic/link " href="8684914726774fe6aaec983d6d95d545.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e7d35d304517471c9f6d951ea526cd7e.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-
