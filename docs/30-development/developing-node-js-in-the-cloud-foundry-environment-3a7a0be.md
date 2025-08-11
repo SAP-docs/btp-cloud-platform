@@ -123,23 +123,8 @@ To use this buildpack, specify its name when deploying a Node.js application to 
 The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports the following versions:
 
 -   Node.js **20**
--   Node.js **22**
-
-    > ### Restriction:  
-    > Bear in mind that the following listed SAP libraries don't support Node.js 22 yet. Thus, if an application running on Node.js 22 depends on any of them, it will fail during deployment or redeployment:
-    > 
-    > -   `sap/xsenv`
-    > 
-    > -   `sap/textbundle`
-    > 
-    > -   `sap/xss-secure`
-    > 
-    > -   `sap/e2e-trace`
-    > 
-    > -   `sap/audit-logging`
-    > 
-    > -   `sap/instance-manager`
-
+-   Node.js **22** 
+-   Node.js **24** 
 
 
 
