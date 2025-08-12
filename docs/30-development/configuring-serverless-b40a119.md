@@ -1,8 +1,23 @@
-<!-- loio4a0ae14c2b8b4598998539d6ed25a7e5 -->
+<!-- loiob40a11952da84394b430118082754e6c -->
 
-# Serverless Configuration
+# Configuring Serverless
 
-The Serverless module has its own operator \(Serverless Operator\). It watches the Serverless custom resource \(CR\) and reconfigures \(reconciles\) the Serverless workloads.
+By default, the Serverless module comes with the default configuration. You can change the configuration using the Serverless CustomResourceDefinition \(CRD\), which manages Serverless custom resource \(CR\).
+
+
+
+<a name="loiob40a11952da84394b430118082754e6c__prereq_sdh_3wq_rfc"/>
+
+## Prerequisites
+
+-   You have the Serverless module added. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+
+-   You have access to Kyma dashboard. Alternatively, to use CLI instructions, you must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl).
+
+
+
+
+## Context
 
 The Serverless CR is an API to configure the Serverless module. You can use it to perform the following actions:
 
@@ -36,6 +51,10 @@ The Serverless CR is an API to configure the Serverless module. You can use it t
 
 -   Override the default log format.
 
+-   Enable network policies
+
+-   Enable buildless mode of Serverless
+
 
 The default configuration of the Serverless module is the following:
 
@@ -54,18 +73,31 @@ spec:
 
 
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_mwx_swv_4dc"/>
+## Procedure
 
-## Configure Docker Registry
+1.  Go to Kyma dashboard. The URL is in the Overview section of your subaccount.
 
-By default, Serverless uses PersistentVolume \(PV\) as the internal registry to store Docker images for Functions. The default storage size of a single volume is 20 GB. This internal registry is suitable for local development.
+2.  Choose *Modify Modules*, and in the *View* tab, choose *serverless*.
 
-> ### Remember:  
-> If you use Serverless for production purposes, it is recommended that you use an external registry, such as Docker Hub, Artifact Registry, or Azure Container Registry \(ACR\).
+3.  Go to *Edit*, and provide your configuration changes. You can use the *Form* or *YAML* tab.
 
-Follow these steps to use the external Docker registry in Serverless:
 
-1.  Create a Secret in the `kyma-system` namespace with the required data \(`username`, `password`, `serverAddress`, and `registryAddress`\):
+<a name="task_obs_wwq_rfc"/>
+
+<!-- task\_obs\_wwq\_rfc -->
+
+## Configuring Docker Registry
+
+By default, Serverless uses PersistentVolume \(PV\) as the internal registry to store Docker images for Functions. The default storage size of a single volume is 20 GB. This internal registry is suitable for local development. Follow these steps to use the external Docker registry in Serverless:
+
+
+
+## Procedure
+
+1.  > ### Caution:  
+    > If you use Serverless for production purposes, it is recommended that you use an external registry, such as Docker Hub, Artifact Registry, or Azure Container Registry \(ACR\).
+
+    Create a Secret in the `kyma-system` namespace with the required data \(`username`, `password`, `serverAddress`, and `registryAddress`\):
 
     ```
     kubectl create secret generic my-registry-config \
@@ -130,11 +162,11 @@ Follow these steps to use the external Docker registry in Serverless:
     The URL of the currently used Docker registry is visible in the Serverless CR status.
 
 
+<a name="concept_f2n_rzq_rfc"/>
 
+<!-- concept\_f2n\_rzq\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_n4h_y3w_4dc"/>
-
-## Configure Trace Endpoint
+## Configuring Trace Endpoint
 
 By default, the Serverless operator checks if there is a trace endpoint available. If available, the detected trace endpoint is used as the trace collector URL in Functions. If no trace endpoint is detected, Functions are configured with no trace collector endpoint. You can configure a custom trace endpoint so that Function traces are sent to any tracing backend you choose. The currently used trace endpoint is visible in the Serverless CR status.
 
@@ -144,11 +176,11 @@ spec:
     endpoint: http://jaeger-collector.observability.svc.cluster.local:4318/v1/traces
 ```
 
+<a name="concept_nz5_h1r_rfc"/>
 
+<!-- concept\_nz5\_h1r\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_mkc_cjw_4dc"/>
-
-## Configure Eventing Endpoint
+## Configuring Eventing Endpoint
 
 You can configure a custom Eventing endpoint to publish events sent from your Functions. The currently used trace endpoint is visible in the Serverless CR status. By default`http://eventing-publisher-proxy.kyma-system.svc.cluster.local/publish` is used.
 
@@ -158,11 +190,11 @@ spec:
     endpoint: http://eventing-publisher-proxy.kyma-system.svc.cluster.local/publish
 ```
 
+<a name="concept_dyx_41r_rfc"/>
 
+<!-- concept\_dyx\_41r\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_bdm_hjw_4dc"/>
-
-## Configure Target CPU Utilization Percentage
+## Configuring Target CPU Utilization Percentage
 
 You can set a custom target threshold for CPU utilization. The default value is set to `50%`.
 
@@ -174,11 +206,11 @@ You can set a custom target threshold for CPU utilization. The default value is 
 > ### Caution:  
 > The `spec.targetCPUUtilizationPercentage` field is deprecated and will be removed in a future version of Serverless, where automatic HPA creation will be disabled.
 
+<a name="concept_b1t_v1r_rfc"/>
 
+<!-- concept\_b1t\_v1r\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_lz5_4jw_4dc"/>
-
-## Configure the Function Requeue Duration
+## Configuring the Function Requeue Duration
 
 By default, the Function associated with the default configuration will be requeued every 5 minutes.
 
@@ -187,11 +219,11 @@ By default, the Function associated with the default configuration will be reque
       functionRequeueDuration: 5m
 ```
 
+<a name="concept_afc_cbr_rfc"/>
 
+<!-- concept\_afc\_cbr\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_mlm_qjw_4dc"/>
-
-## Configure the Function Build Executor Arguments
+## Configuring the Function Build Executor Arguments
 
 Use this label to choose the [arguments](https://github.com/GoogleContainerTools/kaniko?tab=readme-ov-file#additional-flags) passed to the Function build executor, for example:
 
@@ -205,7 +237,7 @@ Use this label to choose the [arguments](https://github.com/GoogleContainerTools
 
 -   `--cache=true` - enables caching for the executor
 
--   `--compressed-caching=false` - prevents tar compression for cached layers. This increases the runtime of the build, but decreases the memory usage, especially for large builds.
+-   `--compressed-caching=false` - prevents tar compression for cached layers. This increases the runtime of the build, but decreases the memory usage, especially for large builds
 
 -   `--use-new-run` - improves performance by avoiding the full filesystem snapshots
 
@@ -218,11 +250,11 @@ Use this label to choose the [arguments](https://github.com/GoogleContainerTools
 > ### Caution:  
 > The `spec.functionBuildExecutorArgs` field is deprecated and will be removed in a future version of Serverless where Functions won't require building images.
 
+<a name="concept_qyr_scr_rfc"/>
 
+<!-- concept\_qyr\_scr\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_jjj_mkw_4dc"/>
-
-## Configure the Function Build Max Simultaneous Jobs
+## Configuring the Function Build Max Simultaneous Jobs
 
 You can set a custom maximum number of simultaneous jobs which can run at the same time. The default value is set to `5`.
 
@@ -234,11 +266,11 @@ You can set a custom maximum number of simultaneous jobs which can run at the sa
 > ### Caution:  
 > The `spec.functionBuildMaxSimultaneousJobs` field is deprecated and will be removed in a future version of Serverless where Functions won't require building images.
 
+<a name="concept_qtd_zcr_rfc"/>
 
+<!-- concept\_qtd\_zcr\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_rh5_hlw_4dc"/>
-
-## Configure the healthz Liveness Timeout
+## Configuring the healthz Liveness Timeout
 
 By default, Function is considered unhealthy if the liveness health check endpoint does not respond within 10 seconds.
 
@@ -247,11 +279,11 @@ By default, Function is considered unhealthy if the liveness health check endpoi
       healthzLivenessTimeout: "10s"
 ```
 
+<a name="concept_n1v_2dr_rfc"/>
 
+<!-- concept\_n1v\_2dr\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_uxr_klw_4dc"/>
-
-## Configure the Default Build Job Preset
+## Configuring the Default Build Job Preset
 
 You can configure the default build Job preset to be used.
 
@@ -263,11 +295,11 @@ You can configure the default build Job preset to be used.
 > ### Caution:  
 > The `spec.defaultBuildJobPreset` field is deprecated and will be removed in a future version of Serverless where Functions won't require building images.
 
+<a name="concept_w4q_mdr_rfc"/>
 
+<!-- concept\_w4q\_mdr\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_egc_plw_4dc"/>
-
-## Configure the Default Runtime Pod Preset
+## Configuring the Default Runtime Pod Preset
 
 You can configure the default runtime Pod preset to be used.
 
@@ -278,11 +310,11 @@ You can configure the default runtime Pod preset to be used.
 
 For more information on presets, [see Available Presets](https://kyma-project.io/#/serverless-manager/user/technical-reference/07-80-available-presets).
 
+<a name="concept_dml_sdr_rfc"/>
 
+<!-- concept\_dml\_sdr\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_h3m_nqj_w2c"/>
-
-## Configure the Log Level
+## Configuring the Log Level
 
 You can configure the desired log level to be used.
 
@@ -292,17 +324,48 @@ You can configure the desired log level to be used.
 
 ```
 
+<a name="concept_h3q_wdr_rfc"/>
 
+<!-- concept\_h3q\_wdr\_rfc -->
 
-<a name="loio4a0ae14c2b8b4598998539d6ed25a7e5__section_ovm_rqj_w2c"/>
-
-## Configure the Log Format
+## Configuring the Log Format
 
 You can configure the desired log format to be used.
 
 ```
    spec:
       logFormat: "yaml"
+
+```
+
+<a name="concept_pmj_b2r_rfc"/>
+
+<!-- concept\_pmj\_b2r\_rfc -->
+
+## Enabling Network Policies
+
+You can enable built-in network policies to ensure that the necessary communication channels required by Serverless workloads remain functional, even on Kubernetes clusters where strict "deny-all" network policies are enforced. This allows Serverless components to operate correctly by permitting essential traffic while maintaining a secure cluster environment.
+
+```
+   spec:
+
+      enableNetworkPolicies: true
+```
+
+<a name="concept_ulf_k2g_ggc"/>
+
+<!-- concept\_ulf\_k2g\_ggc -->
+
+## Enabling Buildless Mode
+
+You can enable buildless mode in Serverless to skip the image build step for Functions, accelerating prototype development by eliminating the need to build and push custom Function images.
+
+> ### Caution:  
+> Buildless mode is a feature flag that can be enabled through an annotation. Before enabling the feature, see [Serverless Buildless Mode](serverless-buildless-mode-dc25fff.md).
+
+```
+ annotations:
+   serverless.kyma-project.io/buildless-mode: "enabled"
 
 ```
 

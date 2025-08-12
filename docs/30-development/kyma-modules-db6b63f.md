@@ -275,7 +275,7 @@ With the Serverless module, you can define simple code snippets \(Functions\) wi
 <td valign="top">
 
 -   [Serverless Module](serverless-module-eb84ff5.md)
--   [Serverless Configuration](serverless-configuration-4a0ae14.md)
+-    <?sap-ot O2O class="- topic/xref " href="4a0ae14c2b8b4598998539d6ed25a7e5.xml" text="" desc="" xtrc="xref:27" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/db6b63f8a36543d985dd0dfa641273bb.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 -   [Deploy Workloads in the Kyma Environment to Extend SAP Systems](deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md)
 -   [GitHub repository: Serverless](https://github.com/kyma-project/serverless-manager)
 

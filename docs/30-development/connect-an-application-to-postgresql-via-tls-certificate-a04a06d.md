@@ -1,6 +1,6 @@
 <!-- loioa04a06d65a164153919ca202d2a57e34 -->
 
-# Connect an Application to PostgreSQL via SSL Certificate
+# Connect an Application to PostgreSQL via TLS Certificate
 
 
 
@@ -14,19 +14,19 @@ You need to have a Java application running on SAP BTP, Cloud Foundry environmen
 
 ## Context
 
-Provide extra security for your Java application when connecting it to PostgreSQL by using a Secure Sockets Layer \(SSL\) certificate.
+Provide extra security for your Java application when connecting it to PostgreSQL by using a Transport Layer Security \(TLS\) certificate.
 
 
 
 ## Procedure
 
-1.  Create a service instance of *PostgreSQL, Hyperscaler Option*. For example, use plan **standard** and instance name **mytestdb**. Run:
+1.  Create a service instance of *PostgreSQL, Hyperscaler Option*. For example, use plan **standard** and instance name **mydb**. Run:
 
     ```
-    cf create-service postgresql-db standard mytestdb
+    cf create-service postgresql-db standard mydb
     ```
 
-2.  Bind the new service instance to your application. To do that, add **mydb123** in the `manifest.yml` file of your application:
+2.  Bind the new service instance to your application. To do that, add **mydb** in the `manifest.yml` file of your application:
 
     ```
     
@@ -37,7 +37,7 @@ Provide extra security for your Java application when connecting it to PostgreSQ
       buildpacks:
       - sap_java_buildpack_jakarta
       services:
-      - mydb123
+      - mydb
     ...
       env:
         TARGET_RUNTIME: tomcat
@@ -54,7 +54,7 @@ Provide extra security for your Java application when connecting it to PostgreSQ
       buildpacks:
       - sap_java_buildpack_jakarta
       services:
-      - mydb123
+      - mydb
     ...
       env:
         USE_CERTS_WITH_POSTGRES: verify-ca
@@ -69,7 +69,7 @@ Provide extra security for your Java application when connecting it to PostgreSQ
     cf push myapp
     ```
 
-5.  Check if the following certificates are available in the PostgreSQL part of your VCAP\_SERVICES, related to the **`mydb123`** service instance:
+5.  Check if the following certificates are available in the PostgreSQL part of your VCAP\_SERVICES, related to the **`mydb`** service instance:
 
     -   `sslcert`
     -   `sslkey`
@@ -88,6 +88,6 @@ Provide extra security for your Java application when connecting it to PostgreSQ
     -   **`root.crt`**
 
     > ### Tip:  
-    > Since you're using GCP, all these certificates are installed by default. If you're using a different IaaS provider \(AWS, Azure\), you need to add the missing ones, if any.
+    > If you're using GCP, all these certificates are installed by default. If you're using a different IaaS provider, you need to add the missing ones, if any.
 
 
