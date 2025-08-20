@@ -1,8 +1,8 @@
 <!-- loio6e194f8e919a40bab7e39cd992677cb7 -->
 
-# Principal Propagation from the Neo Environment to the Multi-Cloud Foundation
+# Principal Propagation from the Neo to the Cloud Foundry Environment
 
-Enable an application in your subaccount in the Neo environment to access another application in a multi-environment subaccount \(for the multi-cloud foundation\) without user login \(and user interaction\) in the second application. For this scenario to work, the two subaccounts need to be in mutual trust, and in trust with the same SAP Cloud Identity Services tenant. The second application will propagate its logged-in user to the first application using an OAuth2SAMLBearer destination.
+Enable an application in your subaccount in the Neo environment to access another application in a subaccount in the Cloud Foundry environment without user login \(and user interaction\) in the second application. For this scenario to work, the two subaccounts need to be in mutual trust, and in trust with the same SAP Cloud Identity Services tenant. The second application will propagate its logged-in user to the first application using an OAuth2SAMLBearer destination.
 
 
 
@@ -21,12 +21,12 @@ The graphic below illustrates the overall setup of the scenario.
 -   You have a custom local service provider configuration \(signing keys and certificates, etc.\) in your subaccount in the Neo environment. See [Configure the Local Service Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiodcdfe339f94947bc96508daa686cc56d "Your SAP BTP subaccount is the local service provider in the SAML communication. Configure signing keys, certificates, and other trust settings.") :arrow_upper_right:.
 -   Both accounts have a trust configuration to the same SAP Cloud Identity Services tenant. See:
     -   [Identity Authentication Tenant as an Application Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/d3df5b457d0c43fca117da0dc14e2f0d.html "You can register a tenant for Identity Authentication service as an identity provider for your subaccount.") :arrow_upper_right: \(for the Neo environment\)
-    -   [Manually Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](../50-administration-and-ops/manually-establish-trust-and-federation-between-sap-authorization-and-trust-management-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3) \(for the multi-cloud foundation\)
+    -   [Manually Establish Trust and Federation Between SAP Authorization and Trust Management Service and SAP Cloud Identity Services](../50-administration-and-ops/manually-establish-trust-and-federation-between-sap-authorization-and-trust-management-7c6aa87.md#loio7c6aa87459764b179aeccadccd4f91f3) \(for the Cloud Foundry environment\)
 
 -   You have developed and deployed both applications, each in the corresponding subaccount.
 
 > ### Note:  
-> All configuration steps described in this tutorial are done using the SAP BTP cockpit.
+> All configuration steps described in this tutorial are done using the cloud cockpit.
 
 
 
@@ -34,7 +34,7 @@ The graphic below illustrates the overall setup of the scenario.
 
 ## Requirements to the Application in the Neo Environment
 
-The application is running on a Java Web Tomcat 9 runtime.
+The application is running on a Java Web Tomcat 8 runtime.
 
 In the source code, the application needs to reference the destination that we are about to create as a later step. The sample source code below illustrates a complete servlet working with the destination with name `pptest`.
 
@@ -156,9 +156,9 @@ public class NeoToCF extends HttpServlet {
 
 <a name="loio6e194f8e919a40bab7e39cd992677cb7__section_p54_mz2_gcb"/>
 
-## Requirements to the Application in the Multi-Cloud Foundation
+## Requirements to the Application in the Cloud Foundry Environment
 
-In the multi-cloud foundation, you need an application following the XSA security model \(protected with SAML, UAA service binding using JWT token needed, roles configured in the *xs-security.json*\).
+In the Cloud Foundry environment, you need an application following the XSA security model \(protected with SAML, UAA service binding using JWT token needed, roles configured in the *xs-security.json*\).
 
 See:
 

@@ -358,7 +358,7 @@ Manage the custom labels of your directories and subaccounts
 
 Choose either the *Add Labels* or the *Edit Labels* option in the <span class="SAP-icons-V5"></span> \(Actions\) context menu of any listed directory or subaccount in either the *Billing* or *Usage* tab.
 
-In the *View by Account* perspective of the *Billing* tab, these context menu options are available in the main table, while in the *View by Service* perspective, you need to open the detailed view of a service plan.
+In the *View by Account* perspective of the *Billing* tab, these context menu options are available in the main table, while in the *View by Service* perspective, you need to open the details view of a service plan.
 
 Existing labels of directories and subaccounts are listed under the *Labels* columns in the *Billing* or *Usage* tabs. You can hide this column if you have no use for it.
 
@@ -404,10 +404,10 @@ Here are some useful tips for working in this perspective:
 
 -   To drill down and display more details about a particular service, click on an entry in the table or its <span class="SAP-icons-V5"></span> \(View Details\) button. When you drill down, a new pane opens and you can see, for example, exactly which subaccounts consume the selected service and the subtotal of charges and usage per directory and subaccount.
 
-    In this detailed view, subaccounts are displayed in the context of their account hierarchy. If you want to hide their directories and display the subaccounts as a flat list, choose the *Show subaccounts only* checkbox.
+    In this details view, subaccounts are displayed in the context of their account hierarchy. If you want to hide their directories and display the subaccounts as a flat list, choose the *Show subaccounts only* checkbox.
 
     > ### Tip:  
-    > In this detailed view, you can use the <span class="SAP-icons-V5"></span> \(Switch\) button for any subaccount to quickly open the *View by Account* perspective with the specific subaccount selected and displaying the plans it consumes.
+    > In this details view, you can use the <span class="SAP-icons-V5"></span> \(Switch\) button for any subaccount to quickly open the *View by Account* perspective with the specific subaccount selected and displaying the plans it consumes.
     > 
     > You can also click :gear: to display and hide columns.
 
@@ -449,7 +449,7 @@ Here are some useful tips for working in this perspective:
 -   To drill down and display more details about a particular subaccount or directory, click on an entry in the table or its <span class="SAP-icons-V5"></span> \(View Details\) button. When you drill down, a new pane opens and you can see, for example, exactly which plans are consumed by the selected subaccount or directory and the subtotal of the charges and usage per plan.
 
     > ### Tip:  
-    > In this detailed view, you can use the <span class="SAP-icons-V5"></span> \(Switch\) button to quickly open the *View by Services* perspective with the specific plan selected and displaying the subaccounts that consume it.
+    > In this details view, you can use the <span class="SAP-icons-V5"></span> \(Switch\) button to quickly open the *View by Services* perspective with the specific plan selected and displaying the subaccounts that consume it.
     > 
     > You can also click :gear: to display and hide columns.
 
@@ -528,10 +528,10 @@ Drill down and display more details about a particular service
 
 Click on an entry in the table or its <span class="SAP-icons-V5"></span> \(View Details\) button. When you drill down, a new pane opens and you can see, for example, which subaccounts are consuming the selected service and the subtotal of usage per directory and subaccount.
 
-In this detailed view, subaccounts are displayed in the context of their account hierarchy. If you want to hide their directories and display the subaccounts as a flat list, choose the *Show subaccounts only* checkbox.
+In this details view, subaccounts are displayed in the context of their account hierarchy. If you want to hide their directories and display the subaccounts as a flat list, choose the *Show subaccounts only* checkbox.
 
 > ### Tip:  
-> In this detailed view, you can click :gear: to display and hide columns.
+> In this details view, you can click :gear: to display and hide columns.
 
 
 

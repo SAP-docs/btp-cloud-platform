@@ -108,7 +108,7 @@ As shown in the above snippets, a callback class can be provided that allows pro
 If the process expects a intermediate message event, this can be raised via the following code.
 
 > ### Sample Code:  
-> Raise an intermediate message event
+> Raise an intermediate message event \(deprecated\)
 > 
 > ```abap
 > TYPES: BEGIN OF ty_example_context,

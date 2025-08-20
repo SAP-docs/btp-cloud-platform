@@ -2260,7 +2260,65 @@ To skip any prefixing, provide the value `-` \(dash character without additional
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Encoded JWKS Array*
+
+btp CLI parameter: `encodedJwksArray`
+
+type: string
+
+</td>
+<td valign="top">
+
+The JSON Web Key Set \(JWKS\) array encoded in base64.
+
+Use it when your OIDC metadata discovery endpoint is inaccessible from the public internet.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Base64 encoded string.
+
+To remove a previously set value, leave the input empty.
+
+</td>
+</tr>
 </table>
+
+The following example shows the default configuration of a list of `oidc` objects. To revert your changes to the default settings, copy and paste the following values:
+
+> ### Sample Code:  
+> ```
+> "oidc": {
+>   "list": [
+>     {
+>       "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
+>       "groupsClaim": "groups",
+>       "issuerURL": "https://kyma.accounts.ondemand.com",
+>       "groupsPrefix": "-"
+>       "signingAlgs": ["RS256"],
+>       "usernameClaim": "sub",
+>       "usernamePrefix": "-",
+>       "requiredClaims": [],
+>       "encodedJwksArray": ""
+>     }
+>   ]
+> }
+> ```
 
 
 
@@ -2577,27 +2635,64 @@ To skip any prefixing, provide the value `-` \(dash character without additional
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Encoded JWKS Array*
+
+btp CLI parameter: `encodedJwksArray`
+
+type: string
+
+</td>
+<td valign="top">
+
+The JSON Web Key Set \(JWKS\) array encoded in base64.
+
+Use it when your OIDC metadata discovery endpoint is inaccessible from the public internet.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Base64 encoded string.
+
+To remove a previously set value, provide only the value `-` \(dash character without additional characters\).
+
+</td>
+</tr>
 </table>
 
-The following example shows the default configuration of a list of `oidc` objects. To revert your changes to the default settings, copy and paste the following values:
+The following example shows the default configuration of an `oidc` object. To revert your changes to the default settings, copy and paste the following values:
 
-> ### Sample Code:  
-> ```
-> "oidc": {
->   "list": [
->     {
->       "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
->       "groupsClaim": "groups",
->       "issuerURL": "https://kyma.accounts.ondemand.com",
->       "groupsPrefix": "-"
->       "signingAlgs": ["RS256"],
->       "usernameClaim": "sub",
->       "usernamePrefix": "-",
->       "requiredClaims": []
->     }
->   ]
-> }
-> ```
+```
+{
+  ...
+  "oidc" : {
+    "clientID" : "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
+    "issuerURL" : "https://kyma.accounts.ondemand.com",
+    "groupsClaim" : "groups",
+    "groupsPrefix" : "-",
+    "signingAlgs" : ["RS256"],
+    "usernamePrefix" : "-",
+    "usernameClaim" : "sub",
+    "requiredClaims" : ["-"],
+    "encodedJwksArray": "-"
+  }
+  ...
+}
+```
 
 
 

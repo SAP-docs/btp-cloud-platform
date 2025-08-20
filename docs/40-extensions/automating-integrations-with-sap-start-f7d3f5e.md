@@ -11,7 +11,7 @@
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-SAP Build Work Zone, standard edition is a predefined central entry point for accessing SAP cloud business solutions that are integrated with it, such as SAP S/4HANA Cloud
+SAP Build Work Zone, standard edition is a predefined central entry point for accessing SAP cloud business solutions that are integrated with it, such as SAP S/4HANA Cloud.
 
 To set up SAP Build Work Zone, standard edition with SAP S/4HANA Cloud on SAP BTP you need to have all the necessary systems included in a formation of type *Integration with SAP Start* in the *System Landscape* \> *Systems* page of the SAP BTP cockpit.
 
@@ -26,7 +26,7 @@ To set up SAP Build Work Zone, standard edition with SAP S/4HANA Cloud on SAP BT
 
 When creating *Integration with SAP Start* formations, keep in mind the following rules:
 
--   SAP Build Work Zone systems can be included in at most one *Integration with SAP Start* formation.
+-   SAP Build Work Zone system can be included in at most one *Integration with SAP Start* formation.
 
 -   At most one SAP Build Work Zone system can be included in an *Integration with SAP Start* formation.
 

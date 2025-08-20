@@ -19,7 +19,15 @@ Optional module attributes include:
 -   `description` - non-translatable, free-text string; the string is not meant to be presented on application user interfaces \(UI\)
 -   `properties` - a structured set of name-value pairs; if a module, which requires the resource, represents a CF application, the resource properties are injected into the environment of the application
 -   `parameters` - reserved variables that affect the behavior of the MTA-aware tools, such as the deployer
--   `deployed-after` - the attribute is used to create an order, in which modules should be processed. If a module has this attribute, it will be processed after the other modules in a higher position are processed. The attribute value is a structured set of a list comprised of other module names of the same MTA.
+-   `deployed-after` - the attribute is used to specify the order in which modules should be processed. Its value is a list comprised of the names of other modules within the same MTA. When this attribute is assigned to a module, it indicates that the module should be processed after the listed modules have been processed.
+
+    > ### Note:  
+    > When using the `deployed-after` parameter in [Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md), keep in mind that it cannot be used to alter the deployment order of the modules even though its name suggests otherwise. Instead, it can be used to specify the following:
+    > 
+    > -   In the first phase of the blue-green deployment, the `deployed-after` attribute is used to determine the order in which all idle applications are created.
+    > -   In the final phase of the blue-green deployment, the `deployed-after` attribute is used to determine the order in which all idle applications are restarted.
+    > -   It does not affect the testing phase, where both the live and idle versions of the applications are running in parallel.
+
 -   `requires` - specifies the names of `requires` sections provided in `resource` that have been declared for the same MTA. Tools check if all required names are provided within the MTA.
 -   `provides` - specifies the names of `provides` sections, each containing configuration data; the data provided can be `required` by other `modules` in the same MTA
 
@@ -587,7 +595,7 @@ To choose a `binary_buildpack`, define it by using the following:
 Module parameters have platform-specific semantics. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example, `${default-host}`.
 
 > ### Tip:  
-> It is also possible to declare metadata for parameters and properties defined in the MTA deployment description; the mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional: false`\) or can be modified `overwritable: true`.
+> It is also possible to declare metadata for parameters and properties defined in the MTA deployment descriptor. The mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional: false`\) or can be modified `overwritable: true`. See [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md).
 
 The following parameters are supported:
 
@@ -602,6 +610,11 @@ The following parameters are supported:
 <th valign="top">
 
 Parameter
+
+</th>
+<th valign="top">
+
+Scope
 
 </th>
 <th valign="top">
@@ -628,12 +641,69 @@ Example
 <tr>
 <td valign="top">
 
+`app-features`
+
+</td>
+<td valign="top">
+
+Module
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Allows enabling, disabling, and querying specific features for individual applications. These features typically control behaviors or capabilities related to application execution.
+
+All parameters in the map are passed directly to the CF API. This mechanism ensures that all future app features will be automatically supported through MTA deployment.
+
+For more information about the supported features, see [Supported app features](https://v3-apidocs.cloudfoundry.org/index.html#supported-app-features).
+
+> ### Note:  
+> If you want to configure SSH enablement, use this parameter instead of the deprecated `enable-ssh` parameter.
+
+
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+```
+modules:
+- name: foo
+  type: application
+  parameters:
+    app-features:
+      file-based-vcap-services: true
+      ssh: true
+
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `app-name`
 
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -658,6 +728,11 @@ The name of the application in the Cloud Foundry environment to be deployed for 
 <td valign="top">
 
 `apply-namespace`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -698,7 +773,12 @@ modules:
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -725,7 +805,12 @@ Empty, or as specified in the deploy service configuration
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -752,7 +837,12 @@ Empty, or as specified in the deploy service configuration
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -779,7 +869,12 @@ Empty, or as specified in the deploy service configuration
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -802,6 +897,11 @@ Specifies whether \[true|false\] a service broker should be registered for the a
 <td valign="top">
 
 `default-app-name`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -831,6 +931,11 @@ The module name with or without a namespace prefix
 <td valign="top">
 
 `default-host`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -876,6 +981,11 @@ Generated as described in the description
 </td>
 <td valign="top">
 
+Module
+
+</td>
+<td valign="top">
+
 Yes
 
 </td>
@@ -903,7 +1013,12 @@ The number of application instances that are started during the deployment
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -930,7 +1045,12 @@ The module name with or without a namespace prefix
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -957,7 +1077,12 @@ Valid for blue-green deployment. The value of this parameter is the default doma
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -984,7 +1109,12 @@ Generated as described in the description
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -1011,7 +1141,12 @@ Generated as described in the description
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 <td valign="top">
@@ -1034,6 +1169,11 @@ Generated as described in the description
 <td valign="top">
 
 `default-uri`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -1070,6 +1210,11 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
+Module
+
+</td>
+<td valign="top">
+
 Yes
 
 </td>
@@ -1102,7 +1247,12 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1131,7 +1281,12 @@ soft
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1154,6 +1309,11 @@ The disk space that will be available to the application. This parameter require
 <td valign="top">
 
 `docker`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -1199,7 +1359,12 @@ n/a
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1226,7 +1391,12 @@ The domain on which the application is available later
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1249,6 +1419,11 @@ The domains on which the application is available later. The resulting applicati
 <td valign="top">
 
 `default-domain`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -1280,12 +1455,22 @@ The value of this parameter is the default domain for the current organization.
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
 
 Enables use of SSH within an application. Supported for the Diego container runtime environment only.
+
+> ### Note:  
+> This parameter is deprecated. To enable SSH within an application, use the `app-features` parameter instead.
+
+
 
 </td>
 <td valign="top">
@@ -1309,7 +1494,12 @@ n/a
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1345,7 +1535,12 @@ Enables or disables the parallel binding or unbinding of services during deploym
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1374,7 +1569,12 @@ If `health-check-type` is set to `http`, the default value is `/`, otherwise the
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1401,7 +1601,12 @@ n/a
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1428,7 +1633,12 @@ n/a
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1459,7 +1669,12 @@ The application health check type
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1490,7 +1705,12 @@ If you want to create a wildcard hostname, use an asterisk in quotes \("\*"\).
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1530,7 +1750,12 @@ modules:
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1567,7 +1792,12 @@ modules:
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1604,7 +1834,12 @@ modules:
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1646,7 +1881,12 @@ modules:
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1688,7 +1928,12 @@ modules:
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1726,7 +1971,12 @@ modules:
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1753,7 +2003,12 @@ The number of application instances that will be started during the deployment
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1784,6 +2039,11 @@ Defines the application attributes which will be kept after the deployment or bl
 <td valign="top">
 
 `keep-existing-routes`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -1838,7 +2098,12 @@ When specified on global level, under the `parameters` section of the descriptor
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1861,6 +2126,11 @@ The memory limit for all instances of an application. This parameter requires a 
 <td valign="top">
 
 `no-route`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -1892,7 +2162,12 @@ false
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1920,6 +2195,11 @@ Depends on the command line option `--no-start`
 <td valign="top">
 
 `restart-on-env-change`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -1976,7 +2256,12 @@ Specifies whether an application should be restarted if an environment variable 
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -2016,7 +2301,12 @@ A parameter that lists multiple HTTP routes. For more information, see [Routes](
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -2043,7 +2333,12 @@ n/a
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -2072,7 +2367,12 @@ The name of the service broker in the Cloud Foundry environment to be created an
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -2099,7 +2399,12 @@ The password used for authentication by the XS controller at the service broker 
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -2126,7 +2431,12 @@ Makes the service plans of the broker visible only within the targeted space.
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -2153,7 +2463,12 @@ Specifies the value of the service broker universal resource locator \(URL\) to 
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -2180,7 +2495,12 @@ The name of the user required for authentication by the XS controller at the ser
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -2217,7 +2537,12 @@ Use this parameter to skip the deployment of a specified module even if it is pr
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -2250,6 +2575,11 @@ n/a
 <td valign="top">
 
 `stage-timeout`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -2291,6 +2621,11 @@ modules:
 </td>
 <td valign="top">
 
+Module
+
+</td>
+<td valign="top">
+
 Write
 
 </td>
@@ -2324,6 +2659,11 @@ modules:
 <td valign="top">
 
 `task-execution-timeout`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -2365,7 +2705,12 @@ modules:
 </td>
 <td valign="top">
 
- 
+Module
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -2396,61 +2741,12 @@ env:
 <tr>
 <td valign="top">
 
-`tcp`
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-Specifies whether the application should have `TCP` type routes.
-
-</td>
-<td valign="top">
-
-`false`
-
-</td>
-<td valign="top">
-
-`tcp:true`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`tcps`
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
-Specifies whether the application should have `TCPS` type routes.
-
-</td>
-<td valign="top">
-
-`false`
-
-</td>
-<td valign="top">
-
-`tcps:true`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `upload-timeout`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">
@@ -2488,6 +2784,11 @@ modules:
 <td valign="top">
 
 `timestamp`
+
+</td>
+<td valign="top">
+
+Module
 
 </td>
 <td valign="top">

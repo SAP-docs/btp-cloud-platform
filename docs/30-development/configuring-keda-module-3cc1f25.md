@@ -39,7 +39,7 @@ By default, the Keda module comes with the default configuration. You can change
               level: "debug"
         ```
 
-    -   To enable the [Istio sidecar injection](istio-sidecar-proxies-ca84edb.md) for `operator` and `metricServer`, set the value of `enabledSidecarInjection` to `true`. For example:
+    -   To enable the [Istio sidecar injection](istio-service-mesh-ca84edb.md) for `operator` and `metricServer`, set the value of `enabledSidecarInjection` to `true`. For example:
 
         ```
         spec:

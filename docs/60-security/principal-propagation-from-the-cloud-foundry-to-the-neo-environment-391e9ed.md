@@ -1,8 +1,8 @@
 <!-- loio391e9ed92ff448e0b4bacac69f853516 -->
 
-# Principal Propagation from the Multi-Cloud Foundation to the Neo Environment
+# Principal Propagation from the Cloud Foundry to the Neo Environment
 
-Enable an application in your multi-environment subaccount \(for the multi-cloud foundation\) to access an OAuth-protected application in a subaccount in the Neo environment without user login \(and user interaction\) in the second application. For this scenario to work, the two subaccounts need to be in mutual trust, and in trust with the same identity provider. The first application will propagate its logged-in user to the second application using an OAuth2SAMLBearer destination.
+Enable an application in your subaccount in the Cloud Foundry environment to access an OAuth-protected application in a subaccount in the Neo environment without user login \(and user interaction\) in the second application. For this scenario to work, the two subaccounts need to be in mutual trust, and in trust with the same identity provider. The first application will propagate its logged-in user to the second application using an OAuth2SAMLBearer destination.
 
 
 
@@ -21,10 +21,10 @@ The graphic below illustrates the overall setup of the scenario.
 -   You have a *custom* local service provider configuration \(this means in *cloud cockpit* \> *Security* \> *Trust* \> *Local Service Provider* \> ** you have chosen *Configuration Type* \> *Custom*\) in your subaccount in the Neo environment. See [Configure the Local Service Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiodcdfe339f94947bc96508daa686cc56d "Your SAP BTP subaccount is the local service provider in the SAML communication. Configure signing keys, certificates, and other trust settings.") :arrow_upper_right:.
 -   Both accounts have a trust configuration to the same identity provider. See:
     -   [Configure Trust to the SAML Identity Provider](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/dc618538d97610148155d97dcd123c24.html#loiob6cfc4bb4bff4ace90afc71b0962fcb5 "") :arrow_upper_right: \(for the Neo environment\)
-    -   [Establish Trust with Any SAML 2.0 Identity Provider in a Subaccount](../50-administration-and-ops/establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio8a213ea1a8664e6b96c0593e71339e0e) \(for the multi-cloud foundation\)
+    -   [Establish Trust with Any SAML 2.0 Identity Provider in a Subaccount](../50-administration-and-ops/establish-trust-and-federation-with-uaa-using-any-saml-identity-provider-2ce3938.md#loio8a213ea1a8664e6b96c0593e71339e0e) \(for the Cloud Foundry environment\)
 
 -   The application in the Neo environment is protected using OAuth 2.0. See [OAuth 2.0 Service](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/e526ca3998954d62833ffd5a19ec4523.html "Use OAuth 2.0 service on SAP BTP to protect applications in the Neo environment using the OAuth 2.0 protocol.") :arrow_upper_right:.
--   The application in the multi-environment subaccount is bound to an instance of the following services:
+-   The application in the Cloud Foundry environment is bound to an instance of the following services:
     -   *Destination Service*. See [Create and Bind a Destination Service Instance](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/9fdad3cad92e4b63b73d5772014b380e.html).
     -   *xsuaa*
 
@@ -39,9 +39,9 @@ The graphic below illustrates the overall setup of the scenario.
 
 ## Contents
 
--   [Create Trust Between the Subaccounts](principal-propagation-from-the-multi-cloud-foundation-to-the-neo-environment-391e9ed.md#loio5ff035ce421c4d6c80f0cff028c7df1a)
--   [Create an OAuth Client](principal-propagation-from-the-multi-cloud-foundation-to-the-neo-environment-391e9ed.md#loiofb9a98644f674d7481e179f97ae26c72)
--   [Create a Destination](principal-propagation-from-the-multi-cloud-foundation-to-the-neo-environment-391e9ed.md#loio3b8d026b714240ff89ae73cf250af799)
+-   [Create Trust Between the Subaccounts](principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loio5ff035ce421c4d6c80f0cff028c7df1a)
+-   [Create an OAuth Client](principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loiofb9a98644f674d7481e179f97ae26c72)
+-   [Create a Destination](principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loio3b8d026b714240ff89ae73cf250af799)
 
 <a name="loio5ff035ce421c4d6c80f0cff028c7df1a"/>
 
@@ -57,16 +57,16 @@ Exchange keys and certificates between the subaccounts, and configure trust betw
 
 1.  In the cloud cockpit, log on with the Administrator user.
 
-2.  Save locally the identifying X509 certificate of the multi-environment subaccount.
+2.  Save locally the identifying X509 certificate of the subaccount in the Cloud Foundry environment.
 
-    1.  In SAP BTP cockpit, navigate to the multi-environment subaccount.
+    1.  In SAP BTP cockpit, navigate to the subaccount in the Cloud Foundry environment.
 
     2.  Navigate to *Connectivity* \> *Destinations*.
 
     3.  Choose *Download Trust* and save the X509 certificate identifying this subaccount.
 
 
-3.  In the subaccount in the Neo environment, create trust to the multi-environment subaccount.
+3.  In the subaccount in the Neo environment, create trust to the subaccount in the Cloud Foundry environment.
 
     1.  Navigate to the subaccount in the Neo environment.
 
@@ -76,10 +76,10 @@ Exchange keys and certificates between the subaccounts, and configure trust betw
 
         -   In the *Name* field, enter the following:
 
-            `<your cloud domain host>/<multi-environment subaccount ID>`
+            `<your Cloud Foundry domain host>/<Cloud Foundry subaccount ID>`
 
             > ### Tip:  
-            > You can view the **cloud domain host** in *cockpit* \> *<your global account\>* \> *<your subaccount\>* \> *<your space\>* \> *Routes*.
+            > You can view the **Cloud Foundry domain host** in *cockpit* \> *<your global account\>* \> *<your subaccount\>* \> *<your space\>* \> *Routes*.
 
             ![](images/CF_Domain_8747d4c.png)
 
@@ -88,7 +88,7 @@ Exchange keys and certificates between the subaccounts, and configure trust betw
 
             ![](images/CF_Subaccount_Overview_396929b.png)
 
-        -   In the *Signing Certificate* field, enter the X509 certificate of the multi-environment subaccount.
+        -   In the *Signing Certificate* field, enter the X509 certificate of the Cloud Foundry account.
 
             > ### Note:  
             > Make sure you remove the `BEGIN CERTIFICATE` and `END CERTIFICATE` parts.
@@ -113,7 +113,7 @@ You need an OAuth client to get an access token for the OAuth-protected resource
 
 ## Context
 
-For more information about working with OAuth clients, see [Create an OAuth Client](principal-propagation-from-the-multi-cloud-foundation-to-the-neo-environment-391e9ed.md#loiofb9a98644f674d7481e179f97ae26c72).
+For more information about working with OAuth clients, see [Create an OAuth Client](principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loiofb9a98644f674d7481e179f97ae26c72).
 
 
 
@@ -158,7 +158,7 @@ Connect the two subaccounts by describing the connection properties in a destina
 
 ## Procedure
 
-1.  Choose the multi-environment subaccount, and navigate to *Connectivity* \> *Destinations*.
+1.  Choose the subaccount in the Cloud Foundry environment, and navigate to *Connectivity* \> *Destinations*.
 
 2.  Choose *New Destination*.
 

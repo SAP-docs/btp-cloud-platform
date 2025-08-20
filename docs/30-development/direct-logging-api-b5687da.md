@@ -8,7 +8,7 @@
 
 ## Context
 
-You can use the class-based**Direct Logging API** to write to the business event log without creating a Business Event. For example, you can use this API to add entries for past business events to the business event log.
+You can use the class-based**Direct Logging API** to write to the Business Event Log without creating a Business Event. This would result in adding entries for past business events to the business event log.
 
 For an entry in the Business Event Log, the attribute ‘source of data’ will indicate whether the entry was created via Business Event or via the Direct Logging API.
 
@@ -18,7 +18,7 @@ For an entry in the Business Event Log, the attribute ‘source of data’ will 
 
 ## Creating an instance to log business event
 
-To write business events to the business event log, you require an instance of class CL\_BEL\_DIRECT\_LOGGING. To create this instance, the class CL\_BEL\_DIRECT\_LOGGING provides the following methods:
+If you want to write past business events to the business event log, you require an instance of class CL\_BEL\_DIRECT\_LOGGING. To create this instance, the class CL\_BEL\_DIRECT\_LOGGING provides the following methods:
 
 **Methods**
 
@@ -66,7 +66,7 @@ The Class `CL_BEL_DIRECT_LOGGING` can be consumed via the interface `IF_BEL_DIRE
 
 ![](images/Interface_BEL_a96a2d7.png)
 
-The API is invoked via the `LOG_BUSINESS_EVENT` method of interface `IF_BEL_DIRECT_LOGGING`. The method takes input as different events and returns the results in terms of return code and an internal table containing processing results of each event.
+The API is invoked via the `LOG_BUSINESS_EVENT`method of interface `IF_BEL_DIRECT_LOGGING`. The method takes input as different events and returns the results in terms of return code and an internal table containing processing results of each event.
 
 
 
@@ -131,7 +131,7 @@ The method has the following parameters:
     </td>
     <td valign="top">
     
-    An ID uniquely identifying the transaction in which the business event was run. Business events with the same IDs are considered to have been run at the same time and by default the transaction\_ID will be automatically filled with the ID of the current kernel transaction.
+    An ID uniquely identifying the transaction in which the business event was run. Business events with the same IDs are considered to have been run at the same time and by default the transaction\_IDS will be automatically filled with the ID of the current kernel transaction.
 
     > ### Note:  
     > If you want to use the direct event API to add single or multiple events with past timestamp to the business event log, then we recommend that you provide the transaction ID manually. Ensure that you provide a unique ID for each event. For example: Use the same ID that you have used for the event id.
@@ -160,7 +160,7 @@ The method has the following parameters:
     </td>
     <td valign="top">
     
-    Timestamp at which the event was created. Although it is an optional parameter, we recommend that you provide it. By default, it would be filled with the current timestamp. The timestamp can be in the past.
+    The timestamp at which the event was created. Although it is an optional parameter, we recommend that you provide it. By default, it would be filled with the current timestamp. The timestamp can be in the past.
     
     </td>
     </tr>
@@ -181,32 +181,11 @@ The method has the following parameters:
 
     In the event type string, the Object is **SalesOrder**, the Event Operation is **Changed**, and the Event Version is **v1**.
 
-    For a given business event, the EVENT\_TYPE from the event binding can be found in the events section on the SAP Business Accelerator Hub.
+    For a given Business Event, the EVENT\_TYPE can be found in the events section on the SAP Business Accelerator Hub.
 
     ![](images/event_type_abap_paas_8c94138.png)
 
     When you copy the string, ensure that you copy from "sap" and replace the forward slash \(/\) with a period \(.\).
-
-    For an internal business event, the EVENT\_TYPE must be formed in the following format:
-
-    **<BO Interface Name\>.<Sap Object Type\>.<Operation\>**
-
-    The above entities can be found in the *Business Object Interfaces* section under *On-Stack Extensibility* on the SAP Business Accelerator Hub.
-
-    For example:
-
-    `I_SalesOrderTP.SalesOrder.Changed`
-
-    -   *Business Object Interface*: I\_SalesOrderTP
-
-    -   *SAP Object Type*: SalesOrder
-
-    -   *Operation*: The name of the operation in the business object interface and can include a version. If the operation includes a version, then the format is:
-
-        **<Business Object Interface\>.<Sap Object Type\>.<Operation\>\_<Version\>**
-
-
-
     
     </td>
     </tr>
@@ -222,7 +201,7 @@ The method has the following parameters:
 
     For a given business event, the EVENT\_DATA structure and data types can be found in the events section on the SAP Business Accelerator Hub.
 
-    An example of event\_data is given below:
+    An example of Event\_data is given below:
 
     ![](images/event_data_abap_paas_bbde66e.png)
 

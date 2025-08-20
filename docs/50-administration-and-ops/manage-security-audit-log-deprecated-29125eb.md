@@ -46,8 +46,3 @@ For information on what business role and business catalog need to be assigned t
 
 If you need support or experience issues, please report an incident under component `BC-SEC-SAL`.
 
-**Related Information**  
-
-
-[Manage Security Audit Log](manage-security-audit-log-50a4b4f.md "")
-

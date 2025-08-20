@@ -21,6 +21,7 @@ If the *Audit Log Service* of plan *premium* is not visible from the account coc
 -   To add entitlements on subaccount level, navigate to the subaccount via the account cockpit and choose *Entitlements* \> *Configurate Entitlements*
 
 -   To add entitlements on global account level via the account cockpit, navigate to the account cockpit global account view and choose *Entitlements* \> *Service Assignments*
+-   To add entitlements for a global account via the SAP BTP Control Center, choose the global account and go to *Edit* \> *Assign Services*. To select the Auditlog Service checkbox choose *Next* \> *Set Entitlements* \> *Select Auditlog Service* and ensure that there is quota for the “premium” plan of the service in the desired region\(s\).
 
 
 
@@ -281,15 +282,23 @@ For security reasons, don't use very long validity period for the mTLS credentia
 
 ### Endpoints
 
-The endpoints exposed for the *premium* service plan for the 4 types of audit log categories are the following, where the `<url from the key/binding>` you obtained in the previous step **Obtain Credentials for Authentication and Authorization**:
+The endpoints exposed for the *premium* service plan for the 4 types of audit log categories are the following, where the base URL can be obtained from the service key/service binding:
 
--   <url from the key/binding\>/audit-log/oauth2/v2/security-events
+-   AWS IAAS Provider
+    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/security-events
+    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/configuration-changes
+    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/data-accesses
+    -   https://api.auditlog.<cf-domain\>:6081/audit-log/oauth2/v2/data-modifications
 
--   <url from the key/binding\>/audit-log/oauth2/v2/configuration-changes
+-   SAP Converged Cloud
+    -   https://api.auditlog.<cf-domain\>/audit-log/premium/v2/security-events
 
--   <url from the key/binding\>/audit-log/oauth2/v2/data-accesses
+    -   https://api.auditlog.<cf-domain\>/audit-log/premium/v2/configuration-changes
 
--   <url from the key/binding\>/audit-log/oauth2/v2/data-modifications
+    -   https://api.auditlog.<cf-domain\>/audit-log/premium/v2/data-accesses
+
+    -   https://api.auditlog.<cf-domain\>/audit-log/premium/v2/data-modifications
+
 
 
 

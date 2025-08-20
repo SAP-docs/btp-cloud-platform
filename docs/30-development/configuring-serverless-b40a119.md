@@ -51,9 +51,9 @@ The Serverless CR is an API to configure the Serverless module. You can use it t
 
 -   Override the default log format.
 
--   Enable network policies
+-   Enable network policies.
 
--   Enable buildless mode of Serverless
+-   Enable buildless mode of Serverless.
 
 
 The default configuration of the Serverless module is the following:
@@ -361,7 +361,7 @@ You can enable built-in network policies to ensure that the necessary communicat
 You can enable buildless mode in Serverless to skip the image build step for Functions, accelerating prototype development by eliminating the need to build and push custom Function images.
 
 > ### Caution:  
-> Buildless mode is a feature flag that can be enabled through an annotation. Before enabling the feature, see [Serverless Buildless Mode](serverless-buildless-mode-dc25fff.md).
+> Buildless mode is a feature flag that you can enable through an annotation. Before enabling the feature, see [Serverless Buildless Mode](serverless-buildless-mode-dc25fff.md).
 
 ```
  annotations:

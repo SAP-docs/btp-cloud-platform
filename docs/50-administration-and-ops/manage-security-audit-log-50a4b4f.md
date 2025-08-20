@@ -20,7 +20,7 @@ You can use this app to:
 
 
 
-Mark the parameter you want to change and switch to *Edit* mode. Select the option for *Parameter Status* \(active or inactive\) and for *Parameter Value* \(Keep, Replace, or Clear Value\) and save your settings.
+Mark the parameter you want to change and switch to *Edit* mode. Select the option for *Parameter Status* \(active or inactive\) and for *Parameter Value*. Save your settings.
 
 
 

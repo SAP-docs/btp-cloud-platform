@@ -118,7 +118,7 @@ The SAP BTP, Cloud Foundry environment provides one recent version of **`python_
 1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 
     ```
-    cf login -a https://api.cf.eu10.hana.ondemand.com
+    cf api https://api.cf.eu10.hana.ondemand.com
     ```
 
 2.  Then run:
@@ -182,7 +182,7 @@ The `python_buildpack` supports the following versions:
 
 You can also decide to deploy your application with a particular buildpack version from the community [python-buildpack](https://github.com/cloudfoundry/python-buildpack) repository. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-python-applications-b5e1c82.md#loiob5e1c8244e594f53936b6406905c7937__specify_python_bp_version)
 
-> ### Note:  
+> ### Remember:  
 > SAP does **not** recommend use of deprecated Python versions, as support and security fixes are no longer provided for them.
 
 

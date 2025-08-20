@@ -56,4 +56,6 @@ The following technical configurations are specific to SAP BTP and differ from t
 
 -   Cloud Foundry Audit Events have a retention period of 14 days. For more information on Audit Events, see [https://docs.cloudfoundry.org/running/managing-cf/audit-events.html](https://docs.cloudfoundry.org/running/managing-cf/audit-events.html).
 
+-   To ensure the stable and fair operation of our platform, we enforce rate limiting on container network bandwidth. Specific thresholds are not disclosed to prevent abuse. These limits are carefully set to fully support all expected customer workload.
+
 

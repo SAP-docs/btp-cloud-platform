@@ -46,7 +46,7 @@ The SAP BTP, Cloud Foundry environment provides one recent version of **`nodejs_
 1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 
     ```
-    cf login -a https://api.cf.eu10.hana.ondemand.com
+    cf api https://api.cf.eu10.hana.ondemand.com
     ```
 
 2.  Then run:
@@ -122,8 +122,9 @@ To use this buildpack, specify its name when deploying a Node.js application to 
 
 The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports the following versions:
 
+-   Node.js **18** – this version is reaching end of life on April 30, 2025. See section **Deprecated Versions** below.
 -   Node.js **20**
--   Node.js **22** 
+-   Node.js **22**
 -   Node.js **24** 
 
 
@@ -136,7 +137,7 @@ The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports th
 
 ### Node.js 18
 
-Node.js 18 reached end of life on **April 30, 2025** according to the [Node.js Roadmap](https://github.com/nodejs/Release). It's still available on the latest SAP BTP, Cloud Foundry landscapes but will be removed very soon. When this version disappears, deployment and redeployment of applications running on Node.js 18 will fail.
+Node.js 18 is reaching end of life on **April 30, 2025** according to the [Node.js Roadmap](https://github.com/nodejs/Release). It will stay available for a short time after that, and then will be removed from the SAP BTP, Cloud Foundry environment. When this version disappears, deployment and redeployment of Cloud Foundry applications running on Node.js 18 will fail.
 
 **Action:** We strongly recommend that you migrate your applications to Node.js 20 or 22 as soon as possible.
 
@@ -168,6 +169,17 @@ modules:
 
 To learn more, see [MTA Module Types](https://help.sap.com/docs/btp/sap-business-technology-platform/modules#mta-module-types).
 
+
+
+### Node.js 16
+
+Node.js 16 reached end of life on **September 11, 2023** and was removed from the Cloud Foundry community in [version 1.8.15](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.15). This means that deployment and redeployment of applications running on Node.js 16 will **fail**. For more information, see: [Node.js Roadmap](https://github.com/nodejs/Release)
+
+> ### Note:  
+> Applications using XSJS are strongly impacted as the [@sap/fibers](https://www.npmjs.com/package/@sap/fibers) library \(on which [@sap/xsjs](https://www.npmjs.com/package/@sap/xsjs) depends\) is **not supported** on Node.js 16 and later versions. To learn more, see: [Migrating Applications from XSJS to Async-XSJS](migrating-applications-from-xsjs-to-async-xsjs-40ded9d.md)
+
+In exceptional cases \(if you didn't manage to migrate to Node.js 18 or 20 in time\), to avoid application failures during redeployment, you can pin the last buildpack version that contains Node.js 16, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack) community. To learn how, see: [Specify a buildpack version in manifest.yml](tips-and-tricks-for-node-js-applications-3a5fe88.md#loio3a5fe887f6e64abb827494baac352059__specify_node_bp_version) 
+
 > ### Remember:  
 > SAP does **not** recommend use of deprecated Node.js versions, as support and security fixes are no longer provided for them.
 
@@ -196,7 +208,7 @@ If you encounter an issue while using the Node.js buildpack, you can:
 
 -   Search for your problem in the [Node.js troubleshooting page](node-js-buildpack-1462ff0.md).
 
--   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-buildpacks-073b7fc.md) 
+-   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 
 
 

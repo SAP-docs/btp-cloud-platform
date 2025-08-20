@@ -12,14 +12,8 @@ This section provides information on troubleshooting-related activities for the 
 > To help you troubleshoot your issue, we also recommend increasing the log verbosity of your application and application router. We provide a [script](https://github.com/SAP/cloud-security-xsuaa-integration/tree/master/troubleshooting/logcollector) to help you. If for some reason you can't use this script, increase the log verbosity manually, see related link.
 > 
 > To troubleshoot problems with tokens from SAP Cloud Identity Services, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/b6c42b53518b46de8b4dffd8c4c52ed7.html?version=Cloud) in the documentation for SAP Cloud Identity Services.
-> 
-> For SAML identity providers, you can use the network trace of your browser. For more information, see [2461862](https://me.sap.com/notes/2461862).
-> 
-> To troubleshoot problems with the btp CLI, use the `btp --verbose` option to get more details about each step. For more information, see [verbose mode](https://help.sap.com/docs/btp/sap-business-technology-platform/troubleshooting-and-support?state=DRAFT&locale=en-US#i'd-like-to-see-a-more-detailed-output-(verbose-mode)).
-> 
-> To troubleshoot problems with the Cloud Foundry CLI, use the `-v` option to get more details about each step. For more information, see *global options* in the [Cloud Foundry CLI Reference Guide](https://cli.cloudfoundry.org/en-US/v6/).
 
-Check the following individual troubleshooting topics for your error message. If you can't find your problem, create an incident in the component `BC-CP-CF-SEC-IAM`. For more information, see the related link.
+Our troubleshooting information can be found in [Troubleshooting for the SAP Authorization and Trust Management service in the Cloud Foundry environment](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290). Check the individual troubleshooting topics for your error message. If you can't find your problem, create an incident in the component `BC-CP-CF-SEC-IAM`. For more information, see the related link.
 
 -   [The Security Tab Is Missing in the Subaccount](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:34793)
 

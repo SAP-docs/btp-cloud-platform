@@ -96,7 +96,7 @@ To check these versions, proceed as follows:
 1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 
     ```
-    cf login -a https://api.cf.eu10.hana.ondemand.com
+    cf api https://api.cf.eu10.hana.ondemand.com
     ```
 
 2.  Then run:
@@ -242,6 +242,6 @@ If you encounter an issue while using SAP Java Buildpack 2, you can:
 
 -   Search for your problem in our [Troubleshooting](sap-java-buildpack-ee609aa.md) section.
 
--   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-buildpacks-073b7fc.md) 
+-   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 
 

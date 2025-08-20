@@ -33,15 +33,6 @@
 -   [Write an ABAP Unit Test for the RAP Business Object](https://developers.sap.com/tutorials/abap-environment-rap100-unit-testing.html)
 
 
-*Group:*[Create and Expose CDS Views \(Unmanaged Scenarios\)](https://developers.sap.com/group.abap-env-cds.html)
-
--   [Create a Simple Database Table for ABAP Environment](https://developers.sap.com/tutorials/abap-environment-create-table.html)
-
--   [Create and Expose Core Data Services Based on a Database Table](https://developers.sap.com/tutorials/abap-environment-create-cds-view.html)
-
--   [Add Transactional Behavior to Your Core Data Services](https://developers.sap.com/tutorials/abap-environment-transactional-enablement.html)
-
-
 *Group:*[Create an ABAP Core Data Services \(CDS\) View in SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-create-cds-mde.html)
 
 -   [Enhance an ABAP Core Data Services \(CDS\) View in SAP Business Technology Platform \(BTP\) ABAP Environment](https://developers.sap.com/tutorials/abap-environment-enhance-cds-view.html)
@@ -117,9 +108,9 @@
 
 ## Lifecycle Management and CI/CD
 
--   [Transfer Your ABAP Source Code With SAP Cloud Platform ABAP Environment via abapGit](https://developers.sap.com/tutorials/abap-environment-abapgit-transfer.html)
+-   [Push Your ABAP Source Code With SAP Cloud Platform ABAP Environment via abapGit](https://developers.sap.com/tutorials/abap-environment-abapgit-transfer.html)
 
--   [Create Branches with SAP BTP ABAP Environment](https://developers.sap.com/tutorials/abap-environment-branch.html)
+-   [Transport ABAP Objects Using git-based Change and Transport System \(gCTS\)](https://developers.sap.com/tutorials/abap-environment-branch.html)
 
 -   [Use Checkout Functionality of Branches to Switch Between Different Versions of Code](https://developers.sap.com/tutorials/abap-environment-checkout.html)
 
@@ -127,8 +118,7 @@
 
 -   [Use abapGit to Transfer ABAP Source Code to the Cloud](https://developers.sap.com/tutorials/abap-environment-abapgit.html)
 
--   [Connect ABAP On-Premise to a Central Check System for Custom Code Migration Using ABAP Test Cockpit \(ATC\)](https://developers.sap.com/tutorials/abap-environment-atc-run.html)
-
+-   [Transport a Software Component Between two Systems Using Any Git Repository \(BYOG\)](https://developers.sap.com/tutorials/abap-environment-gcts-byog.html)
 
 
 
@@ -167,8 +157,6 @@
 -   [Maintain a Communication Arrangement for Inbound Communication](https://developers.sap.com/tutorials/abap-environment-communication-arrangement.html)
 
 
-*Mission:* [Get Data From an On-Premise System Using a Remote Function Call \(RFC\)](https://developers.sap.com/mission.abap-env-connect-onpremise.html)
-
 -   [Get Data from an On-Premise System Using a Remote Function Call \(RFC\) Scenario](https://developers.sap.com/tutorials/abap-env-rfc-scenario.html)
 
 -   [Remote Function Call \(RFC\) - Connect to Your On-Premise System from SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-env-rfc.html)
@@ -182,11 +170,7 @@
 -   [RFC: Enhance the Handler Class With Filtering](https://developers.sap.com/tutorials/abap-environment-enhance-bapi-invoke.html)
 
 
-*Mission:* [Get Data from a Remote System Using an OData Service](https://developers.sap.com/mission.abap-env-connect-2-environments.html)
-
--   [Enable Connection From a Remote Instance of SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-a4c-inbound-communication.html)
-
--   [Prepare Consuming System and Create Service Consumption Model](https://developers.sap.com/tutorials/abap-environment-create-service-consumption-model.html)
+-   [Publish an OData Service for Remote Consumption as an API](https://developers.sap.com/tutorials/abap-environment-a4c-inbound-communication.html)
 
 -   [Create Remote Client Proxy and ABAP Console App](https://developers.sap.com/tutorials/abap-environment-a4c-create-proxy.html)
 
@@ -197,9 +181,7 @@ without group/mission:
 
 -   [Call an External API and Parse the Response in SAP BTP ABAPEnvironment](https://developers.sap.com/tutorials/abap-environment-external-api.html)
 
--   [Create RFC Proxy Class](https://developers.sap.com/tutorials/abap-environment-generation-rfc-proxy.html)
-
--   [Connect ABAP On-Premise to a Central Check System for Custom Code Migration Using ABAP Test Cockpit \(ATC\)](https://developers.sap.com/tutorials/abap-environment-atc-run.html)
+-   [Generate RFC Proxy Class](https://developers.sap.com/tutorials/abap-environment-generation-rfc-proxy.html)
 
 -   [Using ODBC driver for SQL Service](https://developers.sap.com/tutorials/abap-environment-abap-sql.html)
 
@@ -212,10 +194,9 @@ without group/mission:
 
 ## Tools, User, Identity Management
 
--   [Create an SAP Cloud Platform ABAP Environment Trial User](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
-
-
 without group/mission:
+
+-   [Create an SAP Cloud Platform ABAP Environment Trial User](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html)
 
 -   [Install ABAP Development Tools \(ADT\) and abapGit Plugin](https://developers.sap.com/tutorials/abap-install-adt.html)
 
@@ -258,6 +239,14 @@ without group/mission:
 
 
 
+<a name="loio5de837488d6e431da008ae374a405919__section_d5x_pdy_fgc"/>
+
+## Custom Code Analysis
+
+[Connect ABAP On-Premise to a Central Check System for Custom Code Migration Using ABAP Test Cockpit](https://developers.sap.com/tutorials/abap-environment-atc-run.html)
+
+
+
 <a name="loio5de837488d6e431da008ae374a405919__section_czq_yk4_hyb"/>
 
 ## SAP S/4HANA Cloud, ABAP Environment
@@ -269,10 +258,6 @@ without group/mission:
 -   [Create Value Help, Enhance the Behaviour Definition and Behaviour Implementation of the Shopping Cart Business Object](https://developers.sap.com/tutorials/abap-s4hanacloud-purchasereq-enhance-shop.html)
 
 -   [Integrate released Purchase Requisition API into Online Shop Business Object](https://developers.sap.com/mission.abap-env-intermediate.html)
-
--   [Develop a Custom UI with SAP S/HANA Cloud ABAP Environment](https://developers.sap.com/tutorials/abap-s4hanacloud-procurement-purchasereq-shop-ui.html)
-
--   [Integrate List Report into Fiori Launchpad](https://developers.sap.com/tutorials/abap-s4hanacloud-procurement-purchasereq-flp.html)
 
 
 

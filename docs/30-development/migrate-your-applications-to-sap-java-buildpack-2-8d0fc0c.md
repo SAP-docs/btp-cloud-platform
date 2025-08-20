@@ -2,7 +2,7 @@
 
 # Migrate your Applications to SAP Java Buildpack 2
 
-SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment in July 2025.
+SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment in October 2025.
 
 
 
@@ -32,7 +32,7 @@ To check which buildpack your Java applications are currently using, proceed as 
 1.  Log in to Cloud Foundry by choosing your SAP BTP region. For example, if your region is **eu10**, run:
 
     ```
-    cf login -a https://api.cf.eu10.hana.ondemand.com
+    cf api https://api.cf.eu10.hana.ondemand.com
     ```
 
 2.  Enter your credentials and choose your Cloud Foundry subaccount and space.

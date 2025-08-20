@@ -2,7 +2,7 @@
 
 # Istio Version
 
-Learn which version of Istio the Istio module contains and how to enable compatibility mode with the previous minor version of Istio.
+To track the changes introduced in the upstream Istio, learn which version of Istio the Istio module installs. To revert certain changes in Istio's behavior when you encounter compatibility issues with its new version, consider enabling compatibility mode.
 
 The version of Istio depends on the version of the Istio module that you use. If a new version of the Istio module introduces a new version of Istio, an upgrade of the module causes an automatic upgrade of Istio. To learn which version of Istio is installed by the newest version of the Istio module, follow [What's New notes](https://help.sap.com/whats-new/f0d108472a9347d99053658d05ae23e2?Component=Kyma+Runtime&locale=en-US&state=DRAFT&q=Istio+module:).
 

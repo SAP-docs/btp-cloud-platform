@@ -51,7 +51,8 @@ When configuring your OIDC setup, you have the following options:
               "signingAlgs" : ["RS256"],
               "usernamePrefix" : "-",
               "usernameClaim" : "sub",
-              "requiredClaims" : ["first-claim=value", "second-claim=value"]
+              "requiredClaims" : ["first-claim=value", "second-claim=value"],
+              "encodedJwksArray": ""
             }
           ]
         }
@@ -74,7 +75,8 @@ When configuring your OIDC setup, you have the following options:
             "signingAlgs" : ["RS256"],
             "usernamePrefix" : "-",
             "usernameClaim" : "sub",
-            "requiredClaims" : ["first-claim=value", "second-claim=value"]
+            "requiredClaims" : ["first-claim=value", "second-claim=value"],
+            "encodedJwksArray": ""
           }
         ]
       }
@@ -115,7 +117,8 @@ When updating your OIDC configuration, you have the following options:
        "usernameClaim": "sub",
        "usernamePrefix": "-",
        "signingAlgs": ["RS256"],
-       "requiredClaims": ["first-claim=value", "second-claim=value"]
+       "requiredClaims": ["first-claim=value", "second-claim=value"],
+       "encodedJwksArray": ""
       },
       {
        "clientID": "second-custom-client-id",
@@ -125,7 +128,8 @@ When updating your OIDC configuration, you have the following options:
        "usernameClaim": "sub",
        "usernamePrefix": "acme-",
        "signingAlgs": ["RS256"],
-       "requiredClaims": ["example-claim=value"]
+       "requiredClaims": ["example-claim=value"],
+       "encodedJwksArray": ""
       }
     ]
     ```
@@ -151,7 +155,8 @@ When updating your OIDC configuration, you have the following options:
            "signingAlgs": ["RS256"],
            "usernameClaim": "sub",
            "usernamePrefix": "-",
-           "requiredClaims": []
+           "requiredClaims": [],
+           "encodedJwksArray": ""
           },
           {
            "clientID": "updated-client-id",
@@ -160,7 +165,8 @@ When updating your OIDC configuration, you have the following options:
            "groupsPrefix": "-",
            "usernameClaim": "sub",
            "usernamePrefix": "acme-",
-           "signingAlgs": ["RS256"]
+           "signingAlgs": ["RS256"],
+           "encodedJwksArray": ""
           }
         ]
        }
@@ -180,7 +186,8 @@ When updating your OIDC configuration, you have the following options:
        "usernameClaim": "sub",
        "usernamePrefix": "-",
        "signingAlgs": ["RS256"],
-       "requiredClaims": []
+       "requiredClaims": [],
+       "encodedJwksArray": ""
       },
       {
        "clientID": "updated-client-id",
@@ -190,7 +197,8 @@ When updating your OIDC configuration, you have the following options:
        "usernameClaim": "sub",
        "usernamePrefix": "acme-",
        "signingAlgs": ["RS256"],
-       "requiredClaims": []
+       "requiredClaims": [],
+       "encodedJwksArray": ""
       }
     ]
     ```
@@ -241,7 +249,8 @@ When configuring your OIDC setup, you have the following options:
           "signingAlgs" : [],
           "usernamePrefix" : "",
           "usernameClaim" : "",
-          "requiredClaims" : []
+          "requiredClaims" : ["-"],
+          "encodedJwksArray": "-"
         }
       }
     }
@@ -260,7 +269,8 @@ When configuring your OIDC setup, you have the following options:
         "signingAlgs" : ["RS256"],
         "usernamePrefix" : "-",
         "usernameClaim" : "sub",
-        "requiredClaims" : []
+        "requiredClaims" : ["-"],
+        "encodedJwksArray": "-"
       }
       ...
     }
@@ -297,7 +307,8 @@ When updating your OIDC configuration, you have the following options:
       "usernameClaim": "sub",
       "usernamePrefix": "-",
       "signingAlgs": ["RS256"],
-      "requiredClaims": []
+      "requiredClaims": ["-"],
+      "encodedJwksArray": "-"
     }
     ```
 
@@ -320,7 +331,8 @@ When updating your OIDC configuration, you have the following options:
         "signingAlgs": [],
         "usernamePrefix": "",
         "usernameClaim": "",
-        "requiredClaims": []
+        "requiredClaims": ["-"],
+        "encodedJwksArray": "-"
        }
       }
     }
@@ -337,7 +349,8 @@ When updating your OIDC configuration, you have the following options:
       "usernameClaim": "sub",
       "usernamePrefix": "-",
       "signingAlgs": ["RS256"],
-      "requiredClaims": []
+      "requiredClaims": ["-"],
+      "encodedJwksArray": "-"
     }
     ```
 
@@ -391,7 +404,8 @@ If you do not include an `oidc` parameter in the provisioning request at all, th
         "signingAlgs" : ["RS256"],
         "usernamePrefix" : "-",
         "usernameClaim" : "sub",
-        "requiredClaims" : []
+        "requiredClaims" : ["-"],
+        "encodedJwksArray": "-"
       }
       ...
     }

@@ -21,7 +21,7 @@ See [Supported ABAP Object Types](https://help.sap.com/docs/btp/sap-business-tec
 
 -   Your repository is publicly accessible on the internet. Repositories hosted on a private company network are currently not supported.
 
--   You have administrative authorizations to push, pull and clone from the repository. Credentials must include a user name and a password or token.
+-   You have administrative authorizations to push, pull and clone from the repository. Credentials must include a username and a password or token.
 
 -   The developer users have administrative authorizations to the **Manage Software Components** app.
 
@@ -40,7 +40,7 @@ See [Supported ABAP Object Types](https://help.sap.com/docs/btp/sap-business-tec
 
 -   Changing the URL of the remote repository after it has been linked to a software component is not allowed. After changing the URL, the repository can no longer be used.
 
--   It is important to distinguish between the user \(pusher\), whose credentials are entered during the clone process, and any other ABAP users \(committers\) that develop and release objects to be pushed to the remote repository. Although the committer will be noted in the commit history, the release and later the push will technically be performed using the credentials of the pusher. Therefore, it is recommended that the pusher does have push, pull and clone authorizations.
+-   It is important to distinguish between the user \(pusher\), whose credentials are entered during the clone process, and any other ABAP users \(committers\) that develop and release objects to be pushed to the remote repository. Although the committer will be noted in the commit history, the release and later the push will technically be performed using the credentials of the pusher. Therefore, it is recommended thtat the pusher does have push, pull and clone authorizations.
 
 
 
@@ -70,7 +70,7 @@ In the Manage Software Components app, create a new software component and enter
 > ### Note:  
 > When specifying the repository URL, please note that it must be case-insensitive and unique. This prevents multiple software components from being linked to a single or identical Git repository.
 
-Select the correct Git provider for your repository. The currently supported providers are GitHub, GitLab, Azure and Bitbucket. Choose **'Git \(others\)'** if none of the other options apply. This selection is important for the correct repository configuration and cannot be changed at a later stage.
+Select the correct Git Provider for your repository. The currently supported providers are GitHub, GitLab, Azure and Bitbucket. Choose **'Git \(others\)'** if none of the other options apply. This selection is important for the correct repository configuration and cannot be changed at a later stage.
 
 Add a name for your software component and choose the component type as development. Afterwards, click on *Create*. The software component is linked to the remote repository and is now ready to be cloned into the system.
 
@@ -80,7 +80,7 @@ Add a name for your software component and choose the component type as developm
 
 To clone the software component, click on the *Clone* button on the top right corner. A dialog will pop up:
 
-Enter your user credentials that you would normally use to clone the repository, respectively a user name and a password or token.
+Enter your user credentials that you would normally use to clone the repository, respectively a username and a password or token.
 
 > ### Note:  
 > Remember to enter the credentials of a user that has administrative rights to the repository and has authorizations to push and pull changes directly into the repository.
@@ -102,7 +102,7 @@ After the clone is finished, notice that there will be a new commit *Modify repo
 
 ### Creating Branches
 
-To create a branch, you should do so using the native interface \(e.g., Git interface\) of your Git provider linked to your repository.
+To create a branch, you should do so using the native interface \(e.g., Git interface\) of your git provider linked to your repository.
 
 In the Manage Software Components app simply refresh the branch table to see the new branch. You can proceed as usual with the checkout.
 
@@ -113,7 +113,11 @@ In the Manage Software Components app simply refresh the branch table to see the
 
 ### Deleting a Software Component
 
-Deleting a software component in the Manage Software Components app with the default settings will only delete the local representation of the software component in the ABAP system instance. To delete the component locally, simply proceed by clicking Delete. Releasing transport requests will no longer be possible. Selecting the *Unregister* option will unlink the remote repository from the software component and delete the software component completely from your global account. Unlinking the repository from the software component should only be done in the cases where the software component is no longer needed. The repository cannot be used again or linked anew with another software component. This action is irreversible, therefore ensure to first delete the software component on all system instances where it is cloned. Your remote Git repository will not be deleted in any case.
+Deleting a software component in the *Manage Software Components* app with the default settings will only delete the local representation of the software component in the ABAP system instance. Releasing transport requests will no longer be possible.
+
+Selecting the *Unregister Repository* option will additionally unlink the remote repository from the software component and delete the software component completely from your global account.
+
+Deleting the software component is an irreversible action. To delete the component, simply proceed by clicking *Delete* in the dialog. The remote Git repository will not be deleted, but it cannot be used again and be linked to new software components. This action is irreversible, therefore ensure to first delete the software component on all system instances where it is cloned.
 
 
 

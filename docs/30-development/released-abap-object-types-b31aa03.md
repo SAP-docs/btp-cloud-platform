@@ -444,18 +444,6 @@ Number Range Object
 <tr>
 <td valign="top">
 
-NTTY
-
-</td>
-<td valign="top">
-
-Note Type
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 RONT
 
 </td>

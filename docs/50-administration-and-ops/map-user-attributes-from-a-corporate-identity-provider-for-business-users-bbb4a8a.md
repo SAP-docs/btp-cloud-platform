@@ -131,9 +131,6 @@ For more information about identity federation, see [Configure Identity Federati
     > ### Example:  
     > If your corporate identity provider sends users' last names as the `sn` attribute, add the corporate identity provider as source to the `last_name` attribute with the value `sn`.
 
-    > ### Note:  
-    > To check which groups SAP Cloud Identity Services actually sends, use the troubleshooting logs for OpenID Connect. For more information, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/identity-authentication/identity-authentication/logging-openid-connect-tokens?version=Cloud) in the documentation for SAP Cloud Identity Services.
-
     **Customized Last Name Attribute Configuration in SAP Cloud Identity Services**
 
 
