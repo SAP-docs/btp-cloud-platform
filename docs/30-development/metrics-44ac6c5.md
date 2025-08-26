@@ -26,6 +26,8 @@ You can configure the metric gateway with external systems using runtime configu
 
 -   If you want to use Prometheus-based metrics, you must have instrumented your application using a library like the [Prometheus client library](https://prometheus.io/docs/instrumenting/clientlibs/), with a port in your workload exposed serving as a Prometheus metrics endpoint.
 
+-   If you want to scrape the metric endpoint with Istio, your Service `port` definition must define the app protocol. For details, see [Setting up a MetricPipeline](metrics-44ac6c5.md#loio44ac6c5afef0464480fa18acb7483972__section_kyma_metrics_metricpipeline_setup), step *Activate Prometheus-Based Metrics*.
+
 -   For the instrumentation, you typically use an SDK, namely the [Prometheus client libraries](https://prometheus.io/docs/instrumenting/clientlibs/) or the [Open Telemetry SDKs](https://opentelemetry.io/docs/languages/). Both libraries provide extensions to activate language-specific auto-instrumentation like for Node.js, and an API to implement custom instrumentation.
 
 
@@ -35,7 +37,7 @@ You can configure the metric gateway with external systems using runtime configu
 
 ## Architecture
 
-In the Telemetry module, a central in-cluster Deployment of an [OTel Collector](https://opentelemetry.io/docs/collector/) acts as a gateway. The gateway exposes endpoints for the [OpenTelemetry Protocol \(OTLP\)](https://opentelemetry.io/docs/specs/otlp/) for GRPC and HTTP-based communication using the dedicated `telemetry-otlp-metrics` service, to which all Kyma modules and users’ applications send the metrics data.
+In the Telemetry module, a central in-cluster Deployment of an [OTel Collector](https://opentelemetry.io/docs/collector/) acts as a gateway. The gateway exposes endpoints for the [OpenTelemetry Protocol \(OTLP\)](https://opentelemetry.io/docs/specs/otlp/) for gRPC and HTTP-based communication using the dedicated `telemetry-otlp-metrics` service, to which all Kyma modules and users’ applications send the metrics data.
 
 Optionally, the Telemetry module provides a DaemonSet of an OTel Collector acting as an agent. This agent can pull metrics of a workload and the Istio sidecar in the [Prometheus pull-based format](https://prometheus.io/docs/instrumenting/exposition_formats/) and can provide runtime-specific metrics for the workload.
 
@@ -81,7 +83,7 @@ The `MetricPipeline` resource is watched by Telemetry Manager, which is responsi
 
 ### Metric Gateway
 
-In a Kyma cluster, the metric gateway is the central component to which all components can send their individual metrics. The gateway collects, enriches, and dispatches the data to the configured backend. For more information, see [Telemetry Gateways](telemetry-gateways-61567b7.md).
+In a Kyma cluster, the metric gateway is the central component to which all applications can send their individual metrics. The gateway collects, enriches, and dispatches the data to the configured backend. For more information, see [Telemetry Gateways](telemetry-gateways-61567b7.md).
 
 
 
@@ -107,12 +109,12 @@ This configures the underlying OTel Collector with a pipeline for metrics and op
 
 The following push URLs are set up:
 
--   GRPC: `http://telemetry-otlp-metrics.kyma-system:4317`
+-   gRPC: `http://telemetry-otlp-metrics.kyma-system:4317`
 -   HTTP: `http://telemetry-otlp-metrics.kyma-system:4318`
 
-The default protocol for shipping the data to a backend is GRPC, but you can choose HTTP instead. Depending on the configured protocol, an `otlp` or an `otlphttp` exporter is used. Ensure that the correct port is configured as part of the endpoint.
+The default protocol for shipping the data to a backend is gRPC, but you can choose HTTP instead. Depending on the configured protocol, an `otlp` or an `otlphttp` exporter is used. Ensure that the correct port is configured as part of the endpoint.
 
--   For GRPC, use:
+-   For gRPC, use:
 
     ```
     apiVersion: telemetry.kyma-project.io/v1alpha1
@@ -646,7 +648,9 @@ Contains a programmatic identifier indicating the reason for the condition's las
 </tr>
 </table>
 
-To set up alerting, use an alert rule. In the following example, the alert is triggered if metrics are not delivered to the backend:
+To set up alerting, use an alert rule.
+
+In the following example, the alert is triggered if metrics are not delivered to the backend:
 
 ```
 min by (k8s_resource_name) ((kyma_resource_status_conditions{type="TelemetryFlowHealthy",k8s_resource_kind="metricpipelines"})) == 0

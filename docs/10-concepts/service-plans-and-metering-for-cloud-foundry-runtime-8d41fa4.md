@@ -227,6 +227,38 @@ For information on how to set up the plan, see [Free Plan for Cloud Foundry Runt
 <tr>
 <td valign="top">
 
+\-
+
+</td>
+<td valign="top">
+
+Cloud Foundry Environment \(`cloudfoundry`\)
+
+</td>
+<td valign="top">
+
+build-runtime
+
+</td>
+<td valign="top">
+
+build-runtime
+
+</td>
+<td valign="top">
+
+This plan is only for using the SAP BTP, Cloud Foundry runtime as part of SAP Build. For more information, see [What Is SAP Build](https://help.sap.com/docs/build-service/build-service-guide/what-is-sap-build) and [Service Plans and Metering](https://help.sap.com/docs/build-service/build-service-guide/service-plans-and-metering).
+
+> ### Note:  
+> The plan is not depicted on the diagram in the **Overview** section.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 See [SAP Build Code](https://discovery-center.cloud.sap/serviceCatalog/sap-build-code?region=all&tab=service_plan)
 
 </td>

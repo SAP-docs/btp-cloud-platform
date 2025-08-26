@@ -145,7 +145,7 @@ Capacity Unit
 
 Number of units consumed by the usage of the services as outlined in the solution-specific product supplement.
 
-For SAP BTP, Kyma runtime, CUs are calculated for **workload** and for **storage**.
+For SAP BTP, Kyma runtime, CUs are calculated for **nodes** and for **storage**.
 
 </td>
 </tr>
@@ -164,15 +164,15 @@ For SAP BTP, Kyma runtime, CUs are calculated for **workload** and for **storage
 
 ### Formula
 
-The formula is a mapping between consumed workload/storage and the respective CUs. The details are provided in the following tables.
+The formula is a mapping between consumed nodes/storage and the respective CUs. The details are provided in the following tables.
 
 However, as Kyma supports flexible scaling, cost per hour may vary because it depends on the size of the nodes that were used.
 
 
 
-### Underlying Metrics
+### Underlying Metrics: Nodes
 
-The workload calculation takes the number of virtual CPU \(vCPU\) and provides the number of CU per hour. To better understand the relationship between vCPU and nodes, note that one node is sized with 2 vCPUs.
+The nodes calculation takes the number of virtual CPUs \(vCPUs\) and provides the number of CUs per hour. To better understand the relationship between vCPUs and nodes, note that one node is sized with 2 vCPUs.
 
 The Calculation for vCPU table presents data for general-purpose machine types.
 
@@ -183,12 +183,12 @@ The Calculation for vCPU table presents data for general-purpose machine types.
 <tr>
 <th valign="top">
 
-Number of vCPU
+Number of vCPUs
 
 </th>
 <th valign="top">
 
-Number of CU per Hour
+Number of CUs per Hour
 
 </th>
 </tr>
@@ -266,7 +266,11 @@ Number of CU per Hour
 </tr>
 </table>
 
-You can also calculate CU for different storage types: PersistentVolume and VolumeSnapshotContent resources.
+
+
+### Underlying Metrics: Storage
+
+You can calculate CUs for different storage types: PersistentVolume and VolumeSnapshotContent resources. SAP BTP, Kyma runtime is provisioned with 32 GB of storage dedicated to operational data at no additional cost. However, certain Kyma modules may require extra storage. In such cases, they create additional volumes, which incur charges for the extra storage used. Note that for PersistentVolume resources, storage is provided in blocks of 32 GB, so if you use 33 GB, you're charged for 64 GB \(2 blocks of 32 GB\). For VolumeSnapshotContent resources, you pay based on the actual amount of storage used.
 
 **Calculation for Storage**
 
@@ -280,7 +284,7 @@ Amount of Storage
 </th>
 <th valign="top">
 
-Number of CU per Hour
+Number of CUs per Hour
 
 </th>
 </tr>
@@ -314,8 +318,6 @@ Number of CU per Hour
 
     This implies that as you started using Kyma, you deployed more applications that used storage of various sizes, such as 4 GB or 8 GB.
 
-    Note that storage is provided in blocks of 32 GB, so if you used 33 GB, you would be charged for 2 \* 32 GB, that is 64 GB.
-
 
 
 
@@ -329,7 +331,7 @@ Number of CU per Hour
 
 Using the Cloud Manager module and enabling Redis or NFS storage or both, introduces additional costs.
 
--   The cost of NFS storage introduces factor 3 to the calculation.
+-   The cost of NFS storage introduces factor 3 to the calculation. Note that NFS storage is provided in blocks of 32 GB, so if you use 33 GB, you're charged for 64 GB \(2 blocks of 32 GB\).
 
     **Calculation for NFS Storage**
 
@@ -343,7 +345,7 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     </th>
     <th valign="top">
 
-    Number of CU per Hour
+    Number of CUs per Hour
     
     </th>
     </tr>
@@ -388,7 +390,7 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
     </th>
     <th valign="top">
 
-    Number of CU per Hour
+    Number of CUs per Hour
     
     </th>
     </tr>
@@ -731,7 +733,7 @@ Find the Kyma price calculator at [https://kyma-project.github.io/price-calculat
 3.  If needed, adjust the conversion rate.
 
 
-Note that the result is an estimate, and the consumption report may vary depending on the actual hours and size of the Kyma cluster \(workload and storage\) that was running in 30 days.
+Note that the result is an estimate, and the consumption report may vary depending on the actual hours and size of the Kyma cluster \(nodes and storage\) that was running in 30 days.
 
 
 
@@ -757,5 +759,5 @@ For more information, see [SAP Business Technology Platform Service Description 
 
 As soon as you instantiate a Kyma cluster, the basic cost for the empty cluster incurs.
 
-Cost may then vary depending on the actual workloads and storage you consume.
+Cost may then vary depending on the actual nodes and storage you consume.
 
