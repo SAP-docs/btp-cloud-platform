@@ -8,22 +8,27 @@
 
 ## Prerequisites
 
-You need to have a Java application created in the SAP BTP, Cloud Foundry environment.
+You have a Java application created and deployed in an enterprise \(productive\) SAP BTP subaccount, in the SAP BTP, Cloud Foundry environment.
+
+> ### Note:  
+> This scenario is not applicable for SAP BTP trial accounts.
 
 
 
 ## Context
 
-Provide extra security for your Java application when connecting it to PostgreSQL by using a Transport Layer Security \(TLS\) certificate.
+Use TLS certificates to provide extra security for your Java applications when connecting them to a PostgreSQL database.
+
+The certificate names described below start with "ssl", which is correct as Transport Layer Security \(TLS\) is the advanced security successor of Secure Sockets Layer \(SSL\).
 
 
 
 ## Procedure
 
-1.  Create a service instance of *PostgreSQL, Hyperscaler Option*. For example, use plan **standard** and instance name **mydb**. Run:
+1.  Create a service instance of *PostgreSQL, Hyperscaler Option* with plan **`development`**. For example, let's create a service instance with name **mydb**. Run:
 
     ```
-    cf create-service postgresql-db standard mydb
+    cf create-service postgresql-db development mydb
     ```
 
 2.  Bind the new service instance to your application. To do that, add **mydb** in the `manifest.yml` file of your application:
@@ -63,19 +68,34 @@ Provide extra security for your Java application when connecting it to PostgreSQ
 
     To learn about all possible values, see [PostgreSQL: Protection Provided in Different Modes](https://www.postgresql.org/docs/17/libpq-ssl.html#LIBPQ-SSL-PROTECTION).
 
-4.  Deploy your application. Run:
+4.  Before deploying your Java application, build your project again. Run:
+
+    ```
+    mvn clean install
+    ```
+
+5.  Deploy your application. Run:
 
     ```
     cf push myapp
     ```
 
-5.  Run the following command:
+6.  Check the contents of VCAP\_SERVICES. Run:
 
     ```
     cf env myapp
     ```
 
-    **Output:**
+    From the output, go to the "**`postgresql-db`**" part of the VCAP\_SERVICES section and check which of the following SSL certificates are available:
+
+    -   `sslcert`
+
+    -   `sslkey`
+
+    -   `sslrootcert`
+
+
+    **Example Output:**
 
     ```
     
@@ -97,28 +117,28 @@ Provide extra security for your Java application when connecting it to PostgreSQ
     
     ```
 
-6.  In the "**`postgresql-db`**" part of the VCAP\_SERVICES section, check which of the following SSL certificates are available:
+    In this example, certificates **`sslcert`** and **`sslrootcert`** are displayed.
 
-    -   `sslcert`
+7.  Check the contents of directory `./postgresql`. To do that:
 
-    -   `sslkey`
+    1.  Run: **`cf ssh myapp`**
+    2.  Display a detailed directory listing. Run: **`ll`** 
+    3.  List the contents of the `.postgresql` directory. Run: **`cd .postgresql`**
 
-    -   `sslrootcert`
-
-
-    In the exemplary output above, certificates **`sslcert`** and **`sslrootcert`** are displayed.
-
-7.  Check if the corresponding certificate names are available in directory `~./postgresql` directory:
+8.  Check which of the corresponding certificate names are listed in the `.postgresql` directory:
 
     -   **`postgresql.crt`**
     -   **`postgresql.key`**
     -   **`root.crt`**
 
     > ### Restriction:  
-    > All these certificates are installed by default if you're using GCP.
+    > If you're using GCP, all these certificates are installed by default.
     > 
-    > If you're using a different IaaS provider, only the **`root.crt`** certificate will be available.
+    > If you're using a different IaaS provider \(for example, AWS\), only the **`root.crt`** certificate will be available.
 
-    See also: [Using Secure Socket Layer \(SSL\) Encryption for PostgreSQL DB Instances](https://help.sap.com/docs/postgresql-on-sap-btp/postgresql-on-sap-btp-hyperscaler-option/using-secure-socket-layer-ssl-encryption-for-postgresql-db-instances)
 
+**Related Information**  
+
+
+[Using Secure Socket Layer \(SSL\) Encryption for PostgreSQL DB Instances](https://help.sap.com/docs/postgresql-on-sap-btp/postgresql-on-sap-btp-hyperscaler-option/using-secure-socket-layer-ssl-encryption-for-postgresql-db-instances?version=Cloud)
 
