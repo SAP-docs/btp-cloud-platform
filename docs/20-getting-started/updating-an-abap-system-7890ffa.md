@@ -62,12 +62,12 @@ Your ABAP environment instance is being updated. This might take a while.
 
 ## Change the Service Plan of Your Service Instance
 
-Once you've reached the limits of the free plan, you can upgrade the free service plan to a paid plan.
+You can update the service plan from one ABAP environment service plan to another. For example: once you've reached the limits of the free plan, you can upgrade the free service plan to a paid plan \(standard plan or build-runtime plan\). You could also update your standard plan to a build-runtime plan if you have a SAP Build subscription that includes quota for the ABAP environment service.
 
 > ### Note:  
 > To update the ABAP environment to a paid service plan, you first need to configure entitlements and quotas for the ABAP environment. You need at least the following entitlements assigned to your subaccount:
 > 
-> -   service plan: standard
+> -   service plan: standard or build-runtime \(service ABAP Environment\)
 > 
 > -   quota plans:
 > 
@@ -86,12 +86,12 @@ Once you've reached the limits of the free plan, you can upgrade the free servic
 
 2.  Find the instance of the service and click <span class="SAP-icons-V5"></span> \(Actions\) and *Update*.
 
-3.  In the *Update Instance* dialog, change the plan to a paid service plan.
+3.  In the *Update Instance* dialog, change the plan to a new service plan. The following changes are possible:
 
-4.  To switch from a `standard` or `free` service plan to a `build-runtime` service plan, make sure you have the entitlement for the service plan `build-runtime` \(service `ABAP Environment`\) and choose *build-runtime* in the *Update Instance* dialog.
+    -   From free to standard
+    -   From free to build-runtime
+    -   From standard to build-runtime
 
-5.  Click *Update Instance* to save your changes.
-
-6.  You can now use the service without the limitations of the free service plan.
+4.  Click *Update Instance* to save your changes.
 
 

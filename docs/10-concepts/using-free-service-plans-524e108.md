@@ -95,7 +95,7 @@ Once you've reached the limits of the free plan, you can upgrade the free servic
 > ### Note:  
 > To update the ABAP environment to a paid service plan, you first need to configure entitlements and quotas for the ABAP environment. You need at least the following entitlements assigned to your subaccount:
 > 
-> -   service plan: *standard*
+> -   service plan: *standard* or build-runtime \(service ABAP Environment\)
 > 
 > -   quota plans:
 > 

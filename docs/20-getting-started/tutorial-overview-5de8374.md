@@ -259,6 +259,8 @@ without group/mission:
 
 -   [Integrate released Purchase Requisition API into Online Shop Business Object](https://developers.sap.com/mission.abap-env-intermediate.html)
 
+-   [Integrate List Report into SAP Fiori Launchpad](https://developers.sap.com/tutorials/abap-s4hanacloud-procurement-purchasereq-flp.html?locale=en-US)
+-   [Create a SAP Fiori App and Deploy it to SAP S/4HANA Cloud, ABAP Environment](https://developers.sap.com/tutorials/abap-s4hanacloud-procurement-purchasereq-shop-ui.html)
 
 
 

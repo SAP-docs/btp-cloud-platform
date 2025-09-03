@@ -43,6 +43,30 @@ Communication Management
 </td>
 <td valign="top">
 
+[Configure Channel Binding](https://help.sap.com/docs/btp/sap-business-technology-platform/maintain-outbound-event-topics?state=DRAFT&q=Configure+channel+binding)
+
+</td>
+<td valign="top">
+
+`SAP_BR_ADMINISTRATOR`
+
+*Administrator*
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_XBE` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Communication Management
+
+</td>
+<td valign="top">
+
 [Monitoring Events](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/monitoring-events-1b9c0fa990f44fd5b1438523a6bc814c?version=Cloud&q=Event+Monitor)
 
 </td>

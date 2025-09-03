@@ -81,12 +81,12 @@ The following procedure outlines the steps you need to perform to enable the exc
 
     2.  In the *Formation Type* dropdown menu, select *Eventing Between SAP Cloud Systems*.
 
-    3.  Select the systems that you want to include in the formation. One of these systems must be of type *SAP Event Broker*.
+    3.  Select the systems that you want to include in the formation. One of these systems must be of type *SAP Cloud Application Event Hub*.
 
         > ### Note:  
         > Systems can only be added to one formation of type *Eventing Between SAP Cloud Systems* in a global account.
         > 
-        > Also, a formation of type *Eventing Between SAP Cloud Systems* can contain only one system of type *SAP Event Broker*.
+        > Also, a formation of type *Eventing Between SAP Cloud Systems* can contain only one system of type *SAP Cloud Application Event Hub*.
 
     4.  Review your selections and create the formation.
 

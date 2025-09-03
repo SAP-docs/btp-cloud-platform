@@ -658,7 +658,9 @@ Write
 
 Allows enabling, disabling, and querying specific features for individual applications. These features typically control behaviors or capabilities related to application execution.
 
-All parameters in the map are passed directly to the CF API. This mechanism ensures that all future app features will be automatically supported through MTA deployment.
+The parameter accepts a map as a value. All parameters in the map are passed directly to the CF API. This mechanism ensures that all future app features will be automatically supported through MTA deployment.
+
+The parameter is especially useful when many services are bound to an application, and all credentials inside the `VCAP_SERVICES` environment variable exceed the maximum size of 130 KB \(see [Cloud Foundry environment variables](https://docs.cloudfoundry.org/devguide/deploy-apps/environment-variable.html)\). In this case, the application cannot be staged successfully. To solve that issue, you can switch to the "file-based VCAP services" method by enabling the respective app feature, and adapt your application coding accordingly to use a file instead of the `VCAP_SERVICES` environment variable. See [Delivering service credentials to an app](https://docs.cloudfoundry.org/devguide/services/application-binding.html#bind).
 
 For more information about the supported features, see [Supported app features](https://v3-apidocs.cloudfoundry.org/index.html#supported-app-features).
 

@@ -4,7 +4,7 @@
 
 When an application consumes a service instance of the SAP Authorization and Trust Management service \(XSUAA\), the application identifies itself to the service instance with a client ID and a secret. The client ID and secret are the credentials with which an application authenticates itself to the service instance.
 
-The system creates these credentials either when you bind the application to the service instance or when you create a service key for the service instance.
+The SAP Authorization and Trust Management service \(XSUAA\) creates these credentials either when you bind the application to the service instance or when you create a service key for the service instance.
 
 The service instance can use multiple secrets in the ***application*** plan.
 

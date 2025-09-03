@@ -1134,6 +1134,30 @@ To filter metrics by namespaces, define a `MetricPipeline` that has the `namespa
     
     ```
 
+-   The following example collects metrics from all namespaces **including system namespaces**:
+
+    ```
+    apiVersion: telemetry.kyma-project.io/v1alpha1
+    kind: MetricPipeline
+    metadata:
+      name: backend
+    spec:
+      input:
+        istio:
+          enabled: true
+          namespaces: {}
+        prometheus:
+          enabled: true
+          namespaces: {}
+        runtime:
+          enabled: true
+          namespaces: {}
+      output:
+        otlp:
+          endpoint:
+            value: https://backend.example.com:4317
+    ```
+
 
 > ### Note:  
 > The default settings depend on the input:

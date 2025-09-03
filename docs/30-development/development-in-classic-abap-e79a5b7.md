@@ -105,7 +105,7 @@ As shown in the above snippets, a callback class can be provided that allows pro
 
 ## Raising an intermediate message event for a SAP Build Process Automation process instance
 
-If the process expects a intermediate message event, this can be raised via the following code.
+If the process expects a intermediate message event \(IME\), this can be raised via the following code.
 
 > ### Sample Code:  
 > Raise an intermediate message event \(deprecated\)
@@ -133,6 +133,33 @@ If the process expects a intermediate message event, this can be raised via the 
 > COMMIT WORK.
 > ```
 
+This approach works only for **old** workflow management process definitions being deployed from SAP Business Application Studio.
+
+For SAP Build Process Automation processes, you nee to trigger a intermediate message event by executing the corresponding API trigger, which can be done through the API as follows \(from SAP\_CLOUD 2511 / OP 2027 onwards\).
+
+> ### Sample Code:  
+> Raise an intermediate message event
+
+```abap
+
+CONSTANTS: lc_cp_workflow_def_id TYPE if_swf_cpwf_api=>cpwf_def_id      VALUE '<Your Workflow Definition ID>',
+              lc_api_trigger_uid    TYPE if_swf_cpwf_api=>cpwf_trigger_uid VALUE '<Your API Trigger UID>'.
+
+" Get a Instance for the CPWF Integration API
+   DATA(lo_cpwf_api) = cl_swf_cpwf_api_factory...=>get_api_instance( ... ).
+
+" actually raise the event
+   lo_cpwf_api->api_trigger(
+     EXPORTING
+       iv_cpwf_handle   = lv_cpwf_handle  " the BTP process instance handle
+       iv_event_def_id  = lc_api_trigger_uid
+   ).
+ 
+   COMMIT WORK.
+```
+
+Open your process in the SAP Build Process Automation Control Tower and check the list of triggers. View the trigger details to find the API trigger UID.
+
 
 
 <a name="loioe79a5b768e7a4d94b7aad204653475c6__section_wyg_3kg_42c"/>
@@ -146,9 +173,9 @@ For example, you can query the current lifecycle status of processes.
 > ### Sample Code:  
 > Read Workflow Instances
 > 
-> ```abap
+> ```
 > " Get a Instance for the CPWF Integration API
-> DATA(lo_cpwf_api) = cl_swf_cpwf_api_factory_a4c...=>get_api_instance( ... ).
+> DATA(lo_cpwf_api) = cl_swf_cpwf_api_factory...=>get_api_instance( ... ).
 > DATA(lo_wf_inst) = lo_cpwf_api->if_swf_cpwf_capi~get_workflow_instances_api( ).
 >  
 > DATA(lt_workflow_instance) = lo_wf_inst->query_instances(
@@ -157,7 +184,7 @@ For example, you can query the current lifecycle status of processes.
 > ).
 > ```
 
-or retrieve the current context:
+Or retrieve the current context:
 
 > ### Sample Code:  
 > Read Workflow Instance Context
@@ -170,7 +197,8 @@ or retrieve the current context:
 >        END OF ty_context.     
 >  
 > " Get a Instance for the CPWF Integration API
-> DATA(lo_cpwf_api) = cl_swf_cpwf_api_factory_a4c...=>get_api_instance( ... ).  DATA(lo_cp_json) = lo_cpwf_api->get_json_converter( ).
+> DATA(lo_cpwf_api) = cl_swf_cpwf_api_factory...=>get_api_instance( ... ). 
+> DATA(lo_cp_json) = lo_cpwf_api->get_json_converter( ).
 > DATA(lo_wf_inst_ctxt) = lo_cpwf_api->if_swf_cpwf_capi~get_wf_instance_context_api( ).
 >   
 > DATA ls_context TYPE ty_context.
@@ -185,7 +213,7 @@ As shown in the code there is also a JSON converter available to simplify the pr
 
 ## Restricting the retrieved process context
 
-To allow retrieving only relevant parts of the process context the APIs `IF_SWF_CPWF_API` →get\_workflow\_context and `IF_SWF_CPWF_CAPI_WF_INST_CTXT`-\>get\_instance\_context allow to provide an additional parameter `IV_CONTEXT_PATH`, that accepts any JSON path expression \(see SBPA API description\). This expression is forwarded to the Workflow API of SAP Build Process Automation. The JSON path expression is evaluated by the SBPA Workflow Service API, which returns then only the corresponding substructure of the context.
+To allow retrieving only relevant parts of the process context the APIs `IF_SWF_CPWF_API` →get\_workflow\_context and `IF_SWF_CPWF_CAPI_WF_INST_CTXT`-\>get\_instance\_context allow to provide an additional parameter `IV_CONTEXT_PATH`, that accepts any JSON path expression \(see SBPA API description\). This expression is forwarded to the Workflow API of SAP Build Process Automation. The JSON path expression is evaluated by the SAP Build Process Automation Workflow Service API, which returns then only the corresponding substructure of the context.
 
 The following examples show how the `IV_CONTEXT_PATH` parameter can be used.
 
@@ -281,4 +309,24 @@ The following examples show how the `IV_CONTEXT_PATH` parameter can be used.
 > 
 > "here"
 > ```
+
+
+
+<a name="loioe79a5b768e7a4d94b7aad204653475c6__section_vvf_dlb_kgc"/>
+
+## **API Enhancements \(2508 Cloud / 2025 OP\)**
+
+
+
+<a name="loioe79a5b768e7a4d94b7aad204653475c6__section_y4q_tmy_kgc"/>
+
+## API Enhancements \(2511 Cloud / 2027 OP\)
+
+-   Two new methods are available for executing specific triggers:
+
+    -   `API_TRIGGER`
+    -   `API_TRIGGER_BY_ID`
+
+    These methods replace the previous `API_RAISE_EVENT`used for triggering intermediate message events.
+
 

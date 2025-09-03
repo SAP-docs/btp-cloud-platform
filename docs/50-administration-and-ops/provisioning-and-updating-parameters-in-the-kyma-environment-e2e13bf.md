@@ -123,7 +123,7 @@ Specifies the provider-specific virtual machine type.
 
 Provisioning
 
-Updating <sup>[1](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__AWNP_footnote)</sup>
+Updating [1](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__MT_update_footnote)
 
 </td>
 <td valign="top">
@@ -157,7 +157,7 @@ High availability is not supported in the `azure_lite` plan.
 
 Provisioning
 
-Updating <sup>[1](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__AWNP_footnote)</sup>
+Updating [2](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__HA_update_footnote)
 
 </td>
 <td valign="top">
@@ -233,7 +233,12 @@ See [Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environme
 </table>
 
 > ### Note:  
-> <sup>1</sup> You can only use this parameter to update your Kyma runtime by creating a new additional worker node pool. You cannot use it to update an existing additional worker node pool.
+> <sup>1</sup> You can update your virtual machine type only within the general-purpose machine types. You cannot perform updates on compute-intensive machine types.
+> 
+> For details, see [Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type).
+
+> ### Note:  
+> <sup>2</sup> You can only use this parameter to update your Kyma runtime by creating a new additional worker node pool. You cannot use it to update an existing additional worker node pool.
 
 See the example configuration:
 
@@ -608,6 +613,8 @@ See an example of the JSON input:
 ## Machine Type
 
 The *Machine Type* \(`machineType`\) parameter is a string, which specifies the provider-specific virtual machine type.
+
+The following table lists general-purpose machine types available for use in the mandatory Kyma worker node pool and in your additional worker node pools.
 
 **Machine Type Parameter**
 
@@ -1172,6 +1179,8 @@ See an example input for the *Machine Type* parameter:
 
 
 ### Machine Type in Additional Worker Node Pools
+
+In your additional worker node pools, you can use the general-purpose virtual machines listed in the [Machine Type Parameter](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__table_wd5_ppv_xzb) table and the following compute-intensive machine types.
 
 > ### Note:  
 > The virtual machines in the following table are only available for use in [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
@@ -2703,7 +2712,7 @@ The following example shows the default configuration of an `oidc` object. To re
 *Region\** \(`region`\) is a mandatory string parameter, which defines a region where your cluster runs.
 
 > ### Note:  
-> The region marked with "<sup>3</sup>" supports the *Colocate Control Plane* feature.
+> The region marked with "<sup>4</sup>" supports the *Colocate Control Plane* feature.
 > 
 > For more information, see [Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed).
 
@@ -2761,7 +2770,7 @@ Provisioning
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Europe \(Frankfurt\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2809,7 +2818,7 @@ Brazil \(São Paulo\)
 </td>
 <td valign="top">
 
-US East \(VA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US East \(VA\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2833,7 +2842,7 @@ Japan \(Tokyo\)
 </td>
 <td valign="top">
 
-South Korea \(Seoul\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+South Korea \(Seoul\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2869,7 +2878,7 @@ Singapore<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e
 </td>
 <td valign="top">
 
-Australia \(Sydney\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Australia \(Sydney\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2881,7 +2890,7 @@ Australia \(Sydney\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-en
 </td>
 <td valign="top">
 
-US West \(Oregon\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US West \(Oregon\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2933,7 +2942,7 @@ Europe \(Netherlands\)
 </td>
 <td valign="top">
 
-India \(Mumbai\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+India \(Mumbai\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2945,7 +2954,7 @@ India \(Mumbai\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-enviro
 </td>
 <td valign="top">
 
-US Central \(IA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US Central \(IA\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3085,7 +3094,7 @@ Provisioning
 </td>
 <td valign="top">
 
-US East \(VA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US East \(VA\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3109,7 +3118,7 @@ US Central \(IA\)
 </td>
 <td valign="top">
 
-US West \(WA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US West \(WA\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3145,7 +3154,7 @@ North EU \(Ireland\)
 </td>
 <td valign="top">
 
-Europe \(Netherlands\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Europe \(Netherlands\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3181,7 +3190,7 @@ Singapore
 </td>
 <td valign="top">
 
-Australia \(Sydney\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Australia \(Sydney\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3193,7 +3202,7 @@ Australia \(Sydney\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-en
 </td>
 <td valign="top">
 
-Switzerland \(Zurich\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Switzerland \(Zurich\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
