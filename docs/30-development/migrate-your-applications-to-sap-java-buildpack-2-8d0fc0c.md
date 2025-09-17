@@ -2,7 +2,7 @@
 
 # Migrate your Applications to SAP Java Buildpack 2
 
-SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment in October 2025.
+SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment on December 31, 2025.
 
 
 
@@ -161,11 +161,9 @@ For more information, see [MTA Module Types](https://help.sap.com/docs/btp/sap-b
 
 ## Timeline
 
-We plan to support SAP Java Buildpack 1 until **October 1, 2025** when it will be removed from SAP BTP, Cloud Foundry environment. Applications that haven't been migrated to SAP Java Buildpack 2 by then might continue to run but will get an error when being restaged or redeployed.
+We plan to support SAP Java Buildpack 1 until **December 31, 2025** when it will be removed from SAP BTP, Cloud Foundry environment. Applications that haven't been migrated to SAP Java Buildpack 2 by then might continue to run but will get an error when being restaged or redeployed.
 
-In Q4 of 2024, we stopped adding new features to SAP Java Buildpack 1, and only provided security updates and bug fixes.
-
-In H1 of 2025, new releases for SAP Java Buildpack 1 will be made only for critical security updates and bug fixes.
+In 2025, new releases for SAP Java Buildpack 1 will be made only for critical security updates and bug fixes.
 
 **Related Information**  
 

@@ -216,6 +216,18 @@ Package
 <tr>
 <td valign="top">
 
+DESD
+
+</td>
+<td valign="top">
+
+Logical External Schema
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DOMA
 
 </td>
@@ -228,12 +240,48 @@ Domain
 <tr>
 <td valign="top">
 
+DRAS
+
+</td>
+<td valign="top">
+
+CDS Aspects
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DRTY
 
 </td>
 <td valign="top">
 
 Dictionary: CDS Type Definitions
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DSFD
+
+</td>
+<td valign="top">
+
+CDS Scalar Function Definition
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+DSFI
+
+</td>
+<td valign="top">
+
+CDS Scalar Function Implementation Reference
 
 </td>
 </tr>
@@ -426,6 +474,18 @@ NONT
 <td valign="top">
 
 SAP Object Node Type
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NTTY
+
+</td>
+<td valign="top">
+
+Note Type
 
 </td>
 </tr>

@@ -597,7 +597,7 @@ Ask the business service owner to define `"public": true` in the app manifest.js
 
 
 
-### 404: Application does not exist
+### 404: Resource not found
 
 
 <table>
@@ -621,7 +621,7 @@ Issue
 </td>
 <td valign="top">
 
-The HTML5 application repository fails to serve content. The application log states: "Application xyz does not exist" is printed to the console.
+The HTML5 application repository does not serve content. The application log displays the following message: "Application xyz does not exist."
 
 </td>
 </tr>
@@ -633,11 +633,18 @@ Cause
 </td>
 <td valign="top">
 
-The application name provided in URL is not correct or the request URL doesn’t provide the application key:
+This issue can have different causes:
 
-Application names are stored in HTML5 application repository without using full stops as separators in the URL. If *manifest.json app.id* equals *country.list*, then the application name is *countrylist* and the same application name should be used in URL.
+-   Cause 1: The application name in the URL is incorrect.
 
-A request to the application router must provide the application key in the URL because the application router uses the application key to fetch the xs-app.json file of the HTML5 application from the HTML5 Application Repository. The application key can consist of the business service prefix, application name, and application version. \(Only the application name is mandatory.\).
+    Application names in the HTML5 application repository do not use periods \(“.”\) as separators in the URL. For example: if the `app.id` in the `manifest.json` file is <code>country<b>.</b>list</code>, the application name is `countrylist`. Use this name in the URL.
+
+-   Cause 2: The request URL does not include the application key.
+
+    A request to the application router must include the application key in the URL. The application router uses the application key to fetch the xs-app.json file of the HTML5 application from the HTML5 application repository. The application key can include the business service prefix, application name, and application version. \(Only the application name is required.\)
+
+
+
 
 </td>
 </tr>
@@ -649,13 +656,14 @@ Solution
 </td>
 <td valign="top">
 
-First check the application name. For the request URL, use the application name without full stops as separators.
+1.  Check the application name. In the request URL, use the application name without periods as separators.
 
-If the application name is correct, check if the request URL to the application router contains the application key. If it doesn’t contain the application key, check how you configured the backend application data retrieval in your HTML5 application:
+2.  If the application name is correct, check if the request URL to the application router includes the application key. If the URL does not include the application key, review how you configured the backend application data retrieval in your HTML5 application:
 
--   If you use SAP Fiori tools such as BAS, in the `manifest.json` file of the application, check the `dataSources.uri` property. The value for `dataSources.uri` must not start with a slash\("`/`"\). For example, the value `northwind/V2/ Northwind.svc` this is correct, but <code><b>/</b>northwind/V2/ Northwind.svc/</code> is wrong because it would create an absolute path from which the browser cannot concatenate the application key for the request. If there is a slash, remove it.
+    -   If you use SAP Fiori tools, such as SAP Business Application Studio, check the `dataSources.uri`property in the `manifest.json` file. The value for `dataSources.uri` property must **not** start with a slash \("/"\). For example: `northwind/V2/Northwind.svc` is correct, but <code><b>/</b>northwind/V2/Northwind.svc</code> is incorrect. A leading slash creates an absolute path, which prevents the browser from concatenating the application key for the request. If there is a leading slash, remove it.
 
--   • If you use a JQueryAjax call for the request, make sure that the URL that is provided to the JQueryAjax call is a relative path and does not start with a slash \("`/`"\).
+    -   If you use a JQueryAjax call for the request, make sure the URL provided to the JQueryAjax call is a relative path and does not start with a slash \("/"\).
+
 
 
 

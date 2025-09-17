@@ -208,9 +208,9 @@ To check the latest news and updates about the Python buildpack, go to its [buil
 
 If you encounter an issue while using the Python buildpack, you can:
 
--   Search for your problem in our Guided Answers: [Python Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51231/?version=current)
+-   Search for your problem in our [Troubleshooting](python-buildpack-caaf1dc.md) section.
 
--   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51220/?version=current) 
+-   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 
 
 

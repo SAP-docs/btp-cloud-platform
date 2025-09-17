@@ -122,7 +122,7 @@ To use this buildpack, specify its name when deploying a Node.js application to 
 
 The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports the following versions:
 
--   Node.js **18** – this version is reaching end of life on April 30, 2025. See section **Deprecated Versions** below.
+-   Node.js **18** – this version has reached end of life on April 30, 2025. See section **Deprecated Versions**.
 -   Node.js **20**
 -   Node.js **22**
 -   Node.js **24** 
@@ -137,7 +137,7 @@ The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports th
 
 ### Node.js 18
 
-Node.js 18 is reaching end of life on **April 30, 2025** according to the [Node.js Roadmap](https://github.com/nodejs/Release). It will stay available for a short time after that, and then will be removed from the SAP BTP, Cloud Foundry environment. When this version disappears, deployment and redeployment of Cloud Foundry applications running on Node.js 18 will fail.
+Node.js 18 has reached end of life on **April 30, 2025** according to the [Node.js Roadmap](https://github.com/nodejs/Release). It's still available but will soon be removed from the SAP BTP, Cloud Foundry environment. When this version disappears, deployment and redeployment of Cloud Foundry applications running on Node.js 18 will fail.
 
 **Action:** We strongly recommend that you migrate your applications to Node.js 20 or 22 as soon as possible.
 
@@ -206,7 +206,7 @@ To check the latest news and updates about the Node.js buildpack, go to its rele
 
 If you encounter an issue while using the Node.js buildpack, you can:
 
--   Search for your problem in the [Node.js troubleshooting page](node-js-buildpack-1462ff0.md).
+-   Search for your problem in our [Troubleshooting](node-js-buildpack-1462ff0.md) section.
 
 -   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 

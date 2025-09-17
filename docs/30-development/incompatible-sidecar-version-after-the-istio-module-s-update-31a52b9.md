@@ -51,8 +51,6 @@ You must manually restart such workloads to ensure proper functionality with the
     The method for restarting resources varies depending on your specific use case. For standalone resources, one approach is to modify the configuration of the running Pod to initiate a restart and then revert it back to the previous configuration. Since restart issues might also be application-specific, it’s recommended that you check your application’s logs for more insights.
 
 
-When you re-add the Istio module, its reconciliation is reinitiated. The Istio CR returns to the ***Ready*** state within a few seconds.
-
 
 
 ### Use kubectl.

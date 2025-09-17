@@ -28,15 +28,11 @@ Your development, including transportation, is organized and managed in so-calle
 > 
 > -   You can use the same ABAP systems regarding development, testing, and production \(your system landscape\) for all your software components. Lifecycle processes for software components can even be independent from each other, as long as there are no development dependencies. If, however, there are dependencies between software components, define those dependencies in software component relations, so that they become transparent \(for example in the relation explorer in ABAP development tools\). See [Software Component Relations](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/software-component-relations).
 > -   gCTS only supports certain object types. For a complete list of the restricted object types, see SAP note [2888887](https://me.sap.com/notes/2888887).
-> -   SAP-managed gCTS repositories are stored in the AWS data center in Europe, specifically **Frankfurt EU Access**, regardless of the chosen hyperscaler or the data center where the ABAP environment instance is created. If you prefer not to store repositories in Frankfurt, you can use the Bring Your Own Git \(BYOG\) feature to connect an external Git repository in a different region or cloud provider. For more information, see [Bring Your Own Git](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-configure-your-git-repository?version=Cloud).
+> -   gCTS repositories are currently always stored on the AWS data center **Europe - Frankfurt EU Access**, independent of the chosen hyperscaler and the data center where the ABAP environment instance was created.
 
 You create your software components in the development system:
 
 -   The software component `ZLOCAL` is available by default. It serves a similar role like `$TMP` in an on-premise system.
-
-    > ### Note:  
-    > As of release 2508, for sub packages created in software component ZLOCAL, workbench requests are no longer required.
-
 -   Create your software components with the SAP Fiori app [Manage Software Components](https://help.sap.com/docs/btp/sap-business-technology-platform/software-component-lifecycle-management?version=Cloud) \(business catalog `Lifecycle Management - Software Components SAP_A4C_BC_MSCL_PC`\). Afterwards, pull the software component into the ABAP system to start developing in it.
 -   You can use an ABAP namespace in the ABAP environment. If you have registered a namespace at SAP, it is automatically provided during provisioning. For more information on namespaces, see SAP note [105132](https://me.sap.com/notes/105132) on how to reserve a namespace and ONE Support Launchpad [Namespace Application](https://launchpad.support.sap.com/#/namespaces). A developer key and repair key are created and assigned automatically by the ABAP system. In the namespace application, you can search for your key assignments by filtering the installation number \(`CLOUDSYSTM`\).
 -   If you want to transport business configuration content across ABAP systems, create a software component. You have to decide which type you want to use for transporting business configuration:

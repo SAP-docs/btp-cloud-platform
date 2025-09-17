@@ -167,23 +167,6 @@ This is the ID of the application job user.
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-sap-language
-
-</td>
-<td valign="top">
-
-Optional
-
-</td>
-<td valign="top">
-
-This is the SAP language code. You can set the language that you want the job to run with by stating, for example, `sap-language=JA` \(with `JA` meaning "Japanese"\). If you don’t set a language explicitely, the job will run with the language of the communication user.
-
-</td>
-</tr>
 </table>
 
 

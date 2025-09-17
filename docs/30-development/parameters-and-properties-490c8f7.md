@@ -469,6 +469,38 @@ Generated as described in the description.
 <tr>
 <td valign="top">
 
+`region-domain`
+
+</td>
+<td valign="top">
+
+All
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+The domain of the current region. For more information, refer to the **Domain** column in [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md). When a region has multiple CF API endpoints, it will point to the domain of the respective endpoint used for the deployment.
+
+</td>
+<td valign="top">
+
+Generated as described in the description.
+
+</td>
+<td valign="top">
+
+`eu10-004.hana.ondemand.com` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `deploy-url`
 
 </td>

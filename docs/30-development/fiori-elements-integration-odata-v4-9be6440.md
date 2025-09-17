@@ -35,7 +35,7 @@ To implement the reusable component in a Fiori Elements app, you first have to a
     > 
     > ```
 
-3.  Next, **create a view extension** by adding a custom section to your object page using the **Guided Development** tool or by manually adjusting the `manifest.json file`:
+3.  Next, **create a view extension** by adding a custom section to your object page using the **Guided Development** tool or by manually adjusting the`manifest.json file`:
     -   Right-click on your projects root folder and click **Open Guided Development**
     -   Choose the guide **Add a custom section to an object page using extensions**
 

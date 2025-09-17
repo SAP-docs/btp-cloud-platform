@@ -2,7 +2,7 @@
 
 # Default Istio Configuration
 
-Within the Istio module, Istio Operator provides baseline values for the Istio installation, which you can override in the Istio custom resource \(CR\).
+Within the Istio module, Istio Operator provides baseline values for the Istio installation. To adjust these settings according to your needs, you can override them in the Istio custom resource \(CR\).
 
 
 

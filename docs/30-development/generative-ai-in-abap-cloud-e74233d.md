@@ -19,7 +19,7 @@ Generative AI in ABAP Cloud is designed to support you with the following use ca
     The [Generative AI in ABAP Cloud](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/generative-ai-in-abap-cloud) guide provides information on the different use cases for generative AI in ABAP Cloud.
 
     > ### Note:  
-    > To leverage Joule's capabilities, you need to purchase an additional license: For SAP BTP ABAP environment and SAP S/4HANA Cloud Public Edition, see SAP Note [3571857](https://me.sap.com/notes/3571857) .
+    > To leverage Joule's capabilities, you need to purchase an additional license: For SAP BTP ABAP environment, SAP S/4HANA Cloud Public Edition, and SAP S/4HANA Cloud Private Edition, see SAP Note [3571857](https://me.sap.com/notes/3571857) .
 
 
 

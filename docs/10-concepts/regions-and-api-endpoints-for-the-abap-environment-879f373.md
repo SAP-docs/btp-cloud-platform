@@ -58,6 +58,53 @@ Cockpit Logon
 <tr>
 <td valign="top">
 
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+eu01
+
+</td>
+<td valign="top">
+
+Germany \(Frankfurt\)
+
+</td>
+<td valign="top">
+
+cf-eu01
+
+</td>
+<td valign="top">
+
+eu-de-2
+
+</td>
+<td valign="top">
+
+130.214.190.0/26, 130.214.228.32/27, 130.214.164.0/26
+
+</td>
+<td valign="top">
+
+api.cf.eu01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+eu01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://eu-access.cockpit.btp.cloud.sap/](https://eu-access.cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Amazon Web Services
 
 </td>

@@ -10,8 +10,20 @@ Learn how to configure [oauth2-proxy](https://github.com/oauth2-proxy/manifests/
 
 ## Prerequisites
 
--   You have the Istio module added. If you use a Kyma domain to expose a workload, also the API Gateway module must be added. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
--   You have installed [Helm](https://helm.sh/docs/intro/install/).
+-   You have the Istio module added.
+-   You have set up your custom domain. See [Set Up a Custom Domain for Exposing a Workload](https://kyma-project.io/#/api-gateway/user/tutorials/01-10-setup-custom-domain-for-workload). Alternatively, you can use the default domain of your Kyma cluster and the default Gateway `kyma-system/kyma-gateway`. To use a Kyma domain to expose a workload, the API Gateway module must be added.
+
+    > ### Note:  
+    > Because the default Kyma domain is a wildcard domain, which uses a simple TLS Gateway, it is recommended that you set up your custom domain for use in a production environment.
+
+    > ### Tip:  
+    > To learn what the default domain of your Kyma cluster is, run the following command:
+    > 
+    > ```
+    > kubectl get gateway -n kyma-system kyma-gateway -o jsonpath='{.spec.servers[0].hosts}'
+    > ```
+
+-   You must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl), [curl](https://curl.se/), and [Helm](https://helm.sh/docs/intro/install/).
 -   You have a deployed workload.
 
 

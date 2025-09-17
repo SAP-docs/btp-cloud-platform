@@ -310,23 +310,3 @@ The following examples show how the `IV_CONTEXT_PATH` parameter can be used.
 > "here"
 > ```
 
-
-
-<a name="loioe79a5b768e7a4d94b7aad204653475c6__section_vvf_dlb_kgc"/>
-
-## **API Enhancements \(2508 Cloud / 2025 OP\)**
-
-
-
-<a name="loioe79a5b768e7a4d94b7aad204653475c6__section_y4q_tmy_kgc"/>
-
-## API Enhancements \(2511 Cloud / 2027 OP\)
-
--   Two new methods are available for executing specific triggers:
-
-    -   `API_TRIGGER`
-    -   `API_TRIGGER_BY_ID`
-
-    These methods replace the previous `API_RAISE_EVENT`used for triggering intermediate message events.
-
-

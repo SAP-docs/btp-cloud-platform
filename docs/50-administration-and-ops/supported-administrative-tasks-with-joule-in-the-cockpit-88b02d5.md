@@ -26,8 +26,9 @@ Joule can provide you with **information about your global accounts or subaccoun
 Joule in the BTP cockpit can also assist you with administrative tasks related to **Cloud Foundry**:
 
 -   View available Cloud Foundry environments
--   List Cloud Foundry instances or spaces
+-   List Cloud Foundry instances, spaces, or applications
 -   See the Cloud Foundry org or space users
+-   Add a user to a Cloud Foundry org or space
 
 Joule can also **navigate** you to select pages within the cockpit:
 

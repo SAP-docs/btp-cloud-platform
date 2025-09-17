@@ -57,7 +57,9 @@ You create subaccounts in your global account. Once you create a new subaccount,
 5.  Enter a subdomain for your subaccount. This will become part of the URL for accessing applications that you subscribe to from this subaccount.
 
     > ### Note:  
-    > The subdomain can contain up to 63 characters such as letters, digits and hyphens \(not allowed in the beginning or at the end\), and must be unique across all subaccounts in the same region. Uppercase and lowercase letters can be used, however that alone does not qualify as a means to differentiate subdomains \(e.g. `SUBDOMAIN` and `subdomain` are considered to be the same\).
+    > After selecting a multi-environment region, an auto-generated subdomain is entered for you in the *Subdomain* field. You can modify this subdomain to suit your preferences, provided it adheres to the naming guidelines.
+    > 
+    > The subdomain name can contain up to 63 characters such as letters, digits and hyphens \(not allowed in the beginning or at the end\), and must be unique across all subaccounts in the same region. Uppercase and lowercase letters can be used, however that alone does not qualify as a means to differentiate subdomains \(e.g. `SUBDOMAIN` and `subdomain` are considered to be the same\).
 
 6.  Choose the desired region for your subaccount.
 
