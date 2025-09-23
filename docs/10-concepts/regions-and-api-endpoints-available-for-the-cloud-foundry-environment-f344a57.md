@@ -1813,6 +1813,58 @@ cn40.platform.sapcloud.cn
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+eu01
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\) - EU Access Only
+
+</td>
+<td valign="top">
+
+cf-eu01
+
+</td>
+<td valign="top">
+
+eu-de-2
+
+</td>
+<td valign="top">
+
+130.214.199.0/25, 130.214.252.0/25
+
+</td>
+<td valign="top">
+
+130.214.199.128/28, 130.214.252.224/28
+
+</td>
+<td valign="top">
+
+api.cf.eu01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+eu01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
 </table>
 
 **Regions for Trial Accounts**

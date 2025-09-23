@@ -386,13 +386,6 @@ The parameters for charged usage can include the amount of data processed, the n
 > ### Tip:  
 > This view is available only if your global account uses a consumption-based commercial model.
 
-> ### Remember:  
-> You may notice fractional amounts on the subaccount level for certain metrics, such as user counts, tenants, documents, API calls, or connections.
-> 
-> This is because billing aggregates usage at the global account level by counting distinct instances of these metrics. While at the subaccount level, costs are allocated using a proportional distribution based on the actual instances reported by each subaccount, which ensures fairness but may result in fractional values.
-> 
-> In other words, billing is always calculated at the global account level, while usage is measured at the subaccount level. So, for example, if the number of distinct users across 2 subaccounts is 3, and one of those users is active in both subaccounts and the remaining 2 users are each active only in a separate subaccount, the system will proportionally allocate that user's cost between them. This proportional allocation ultimately leads to fractional values at the subaccount level, which in this case would be 1.5 users per subaccount.
-
 In the *Billing* view, you can switch between the *View by Service* and *View by Account* perspectives:
 
 
