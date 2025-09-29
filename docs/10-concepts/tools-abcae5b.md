@@ -37,20 +37,6 @@ Used for account administration in SAP BTP.
 <tr>
 <td valign="top">
 
-[ABAP Development Tools for Eclipse](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/eclipse-tool-for-abap-environment) 
-
-</td>
-<td valign="top">
-
-The ABAP Development Tools for Eclipse enables you to perform ABAP-based development tasks, when you want to build, to extend, and to run ABAP Cloud applications. It supports features like syntax check, code completion, syntax highlighting, pretty printing, navigation, search, quick fixes.
-
-Used for programming in ABAP.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
 
 </td>

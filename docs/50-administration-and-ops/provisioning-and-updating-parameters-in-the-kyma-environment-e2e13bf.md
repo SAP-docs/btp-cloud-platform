@@ -593,7 +593,7 @@ Short string of up to 32 characters that contains only alphanumeric characters \
 
 *Colocate Control Plane* \(technical name: `colocateControlPlane`\) is a provisioning parameter. It is a boolean that enables you to decide if your control plane and worker nodes should be in the same region.
 
-If you set it to `true`, it ensures the location of the control plane in the same region where your cluster's worker nodes are deployed. With this setting, you can control where your sensitive data is stored. If the control plane cannot be colocated in the selected region, the provisioning process fails. The error message lists the regions supporting the control plane colocation.
+If you set it to `true`, it ensures the location of the control plane in the same region where your cluster's worker nodes are deployed. With this setting, you can control where your sensitive data is stored. If the control plane cannot be colocated in the selected region, the provisioning process fails. The error message offers you a list of regions supporting the control plane colocation.
 
 If you set the parameter to `false` or leave the field empty, your control plane can sometimes be deployed in a different region than the worker nodes.
 
@@ -2765,7 +2765,7 @@ Provisioning
 </td>
 <td valign="top">
 
-`eu-central-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`eu-central-1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -2813,7 +2813,7 @@ Brazil \(São Paulo\)
 <tr>
 <td valign="top">
 
-`us-east-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`us-east-1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -2837,7 +2837,7 @@ Japan \(Tokyo\)
 <tr>
 <td valign="top">
 
-`ap-northeast-2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`ap-northeast-2`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -2861,19 +2861,19 @@ India \(Mumbai\)
 <tr>
 <td valign="top">
 
-`ap-southeast-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`ap-southeast-1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Singapore<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Singapore<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`ap-southeast-2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`ap-southeast-2`[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)
 
 </td>
 <td valign="top">
@@ -2885,7 +2885,7 @@ Australia \(Sydney\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-en
 <tr>
 <td valign="top">
 
-`us-west-2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`us-west-2`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -2937,7 +2937,7 @@ Europe \(Netherlands\)
 <tr>
 <td valign="top">
 
-`asia-south1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`asia-south1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -2949,7 +2949,7 @@ India \(Mumbai\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-enviro
 <tr>
 <td valign="top">
 
-`us-central1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`us-central1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -3089,7 +3089,7 @@ Provisioning
 </td>
 <td valign="top">
 
-`eastus`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`eastus`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -3113,7 +3113,7 @@ US Central \(IA\)
 <tr>
 <td valign="top">
 
-`westus2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`westus2`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -3149,7 +3149,7 @@ North EU \(Ireland\)
 <tr>
 <td valign="top">
 
-`westeurope`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`westeurope`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -3185,7 +3185,7 @@ Singapore
 <tr>
 <td valign="top">
 
-`australiaeast`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`australiaeast`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -3197,7 +3197,7 @@ Australia \(Sydney\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-en
 <tr>
 <td valign="top">
 
-`switzerlandnorth`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`switzerlandnorth`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
