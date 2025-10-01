@@ -134,7 +134,7 @@ For more information, see [Managing Signing Keys for Access Tokens](managing-sig
     > 
     > -   [Managed Certificate Collections](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-security-guide/managed-certificate-collections) in the *SAP HANA Cloud, SAP HANA Database Security Guide*
     > 
-    > -   [Configure a CA Certificate](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/configure-ca-certificate-for-principal-propagation?version=Cloud) in the *SAP BTP Connectivity* documentation
+    > -   [Configure Trusted Entities in the Cloud Connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/set-up-trust-for-principal-propagation#loioa4ee70f0274248f8bbc7594179ef948d__configure_trust) in the *SAP BTP Connectivity* documentation
     > 
     > 
     > Plan for possible service interruption when you add your first signing key.

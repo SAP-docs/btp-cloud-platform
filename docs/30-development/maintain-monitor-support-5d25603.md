@@ -262,7 +262,8 @@ If you are configuring the add-on build pipeline manually, adjust your add-on de
 Release versions are used to deliver new major, planned functional enhancements. Typically, they include multiple new implemented features. For example, multiple new apps could be introduced with such a major release.
 
 > ### Note:  
-> Only with new release deliveries, you can change the software component version bundle in a new release.
+> -   You can change the software component version bundle only with new release deliveries.
+> -   For all deliveries of an add-on product version, the languages must remain the same. To add languages, create a new add-on product version.
 
 To deliver a new release version, see the following steps:
 

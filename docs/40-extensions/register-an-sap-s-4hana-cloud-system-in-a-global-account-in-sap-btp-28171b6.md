@@ -118,9 +118,19 @@ The registration process has the following states displayed in the cockpit:
 
         -   *Eventing Between SAP Cloud Systems*: to allow the automatic enablement of the `SAP_COM_0892` communication scenario in SAP S/4HANA Cloud.
 
+        -   *Integration with SAP Start*: to allow the automatic enablement of the `SAP_COM_0647` communication scenario in SAP S/4HANA Cloud.
+
         -   *Integration with SAP Ariba Buying*: to allow the automatic enablement of the `SAP_COM_0545` and `SAP_COM_0A00` communication scenarios in SAP S/4HANA Cloud.
 
-        -   *Integration with SAP Start*: to allow the automatic enablement of the `SAP_COM_0647` communication scenario in SAP S/4HANA Cloud.
+        -   *Integration with SAP Master Data Integration*: to allow the automatic enablement of the `SAP_COM_0008`, `SAP_COM_0091`, `SAP_COM_0659`, and `SAP_COM_0594` communication scenarios in SAP S/4HANA Cloud.
+
+        -   *Integration with SAP Ariba Central Invoice Management*: to allow the automatic enablement of the `SAP_COM_0897`, `SAP_COM_0516`, `SAP_COM_0531`, `SAP_COM_0008`, `SAP_COM_0091`, `SAP_COM_0659`, and `SAP_COM_0594` communication scenarios in SAP S/4HANA Cloud.
+
+        -   *Integration with SAP Subscription Billing*: to allow the automatic enablement of the `SAP_COM_0642`, `SAP_COM_0845`, `SAP_COM_0861`, `SAP_COM_0095`, `SAP_COM_0008`, `SAP_COM_0009`, `SAP_COM_0092`, `SAP_COM_0884`, `SAP_COM_0892`, and `SAP_COM_0165` communication scenarios in SAP S/4HANA Cloud.
+
+        -   *Integration with SAP Advanced Financial Closing*: to allow the automatic enablement of the `SAP_COM_0566` communication scenario in SAP S/4HANA Cloud.
+
+        -   *Integration with SAP Master Data Governance*: to allow the automatic enablement of the `SAP_COM_0659` communication scenario in SAP S/4HANA Cloud.
 
 
     5.  Choose *Get Token*.

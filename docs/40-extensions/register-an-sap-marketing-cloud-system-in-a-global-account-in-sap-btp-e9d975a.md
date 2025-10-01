@@ -106,13 +106,11 @@ The registration process has the following states displayed in the cockpit:
 
     3.  Choose *Add*.
 
-    4.  In the *Communication Scenario Groups* dropdown menu, select *All Communication Scenarios* to create any of the communication scenarios in SAP Marketing Cloud.
-
-    5.  Choose *Get Token*.
+    4.  Choose *Get Token*.
 
         The system generates the registration token.
 
-    6.  Copy the registration token and send it to the tenant administrator for the respective SAP Marketing Cloud system. You need it for configuring the integration on the extended SAP Marketing Cloud system side.
+    5.  Copy the registration token and send it to the tenant administrator for the respective SAP Marketing Cloud system. You need it for configuring the integration on the extended SAP Marketing Cloud system side.
 
         You can also get the registration token later, once the system appears in the list on the *Systems* page.
 
@@ -121,7 +119,7 @@ The registration process has the following states displayed in the cockpit:
         > ### Note:  
         > A registration token can be used only once, for registering a single SAP Marketing Cloud system.
 
-    7.  Close the wizard.
+    6.  Close the wizard.
 
         The SAP Marketing Cloud system appears in the list of systems on the *Systems* page. Its *Status* field is empty because the registration process is not yet completed.
 

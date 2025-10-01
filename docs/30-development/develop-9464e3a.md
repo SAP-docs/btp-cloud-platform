@@ -78,7 +78,16 @@ Business configuration plays a major role in SaaS solutions. It refers to a pred
 
 To maintain these configuration options, you have to create dedicated apps using the ABAP RESTful Application Programming Model. See [Create a Business Configuration App for Factory Calendar Using the ABAP RESTful Application Programming Model](https://developers.sap.com/mission.abap-dev-factory-calendar.html).
 
-Using the business configurations API, you can register business configurations. These business configurations are then displayed in the list of all maintainable business configurations in the SAP Fiori App Maintain Business Configurations, if the user has the necessary authorizations for the service of the business configuration. See [Business Configuration Maintenance Object Cloud Platform API](business-configuration-maintenance-object-cloud-platform-api-508d406.md).
+Using the business configurations API, you can register business configurations. These business configurations are then displayed in the list of all maintainable business configurations in the SAP Fiori app Maintain Business Configurations, if the user has the necessary authorizations for the service of the business configuration. See [Business Configuration Maintenance Object Cloud Platform API](business-configuration-maintenance-object-cloud-platform-api-508d406.md).
+
+
+
+### Translation
+
+To translate your custom developments into other languages, you can use the [Maintain Translations](https://help.sap.com/docs/btp/sap-business-technology-platform/maintain-translations?version=Cloud) app.
+
+> ### Note:  
+> To add additional languages, you need to create a new add-on product version.
 
 
 

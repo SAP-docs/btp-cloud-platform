@@ -133,7 +133,7 @@ If you have multi-target applications \(MTA\), you need to adjust all modules wi
 -   `java.tomee`
 
 
-Since MTA deployment descriptors currently use `sap_java_buildpack` as a default buildpack, you need to set the `buildpack` module parameter to **`sap_java_buildpack_jakarta`**. For example:
+MTA deployment descriptors are now using `sap_java_buildpack_jakarta` as a default buildpack. However, if you have MTA applications with older configuration \(using `sap_java_buildpack`\), you need to set the `buildpack` module parameter to **`sap_java_buildpack_jakarta`**, like this:
 
 ```
 

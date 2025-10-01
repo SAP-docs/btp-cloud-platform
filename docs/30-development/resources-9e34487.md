@@ -925,7 +925,7 @@ Scope
 </th>
 <th valign="top">
 
-Read-Only \(System\)
+Read-Only / Write
 
 </th>
 <th valign="top">
@@ -1030,7 +1030,7 @@ Resource
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -1067,7 +1067,7 @@ Resource
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -1101,7 +1101,7 @@ Resource
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">

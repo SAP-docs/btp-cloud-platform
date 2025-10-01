@@ -271,7 +271,7 @@ Depending on the deployment strategy you use, the `phases` values are:
 
 The table below contains the parameters of the supported module hook types:
 
-**Module hooks of type task**
+**Module-Hooks-Specific Parameters**
 
 
 <table>
@@ -283,7 +283,12 @@ Parameter
 </th>
 <th valign="top">
 
-Is It Mandatory?
+Scope
+
+</th>
+<th valign="top">
+
+Read-Only / Write
 
 </th>
 <th valign="top">
@@ -305,22 +310,27 @@ Example
 <tr>
 <td valign="top">
 
-`name`
+`name` 
 
 </td>
 <td valign="top">
 
-No
+Module Hook
 
 </td>
 <td valign="top">
 
-Defines the name of the Cloud Foundry task that should be executed.
+Write
 
 </td>
 <td valign="top">
 
-The name of the hook.
+Defines the name of the Cloud Foundry task that should be executed
+
+</td>
+<td valign="top">
+
+The name of the hook
 
 </td>
 <td valign="top">
@@ -334,15 +344,25 @@ The name of the hook.
 
 `command`
 
+> ### Note:  
+> This is a mandatory parameter.
+
+
+
 </td>
 <td valign="top">
 
-Yes
+Module Hook
 
 </td>
 <td valign="top">
 
-Defines the actual command that is executed as a Cloud Foundry task.
+Write
+
+</td>
+<td valign="top">
+
+Defines the actual command that is executed as a Cloud Foundry task
 
 </td>
 <td valign="top">
@@ -352,29 +372,34 @@ Defines the actual command that is executed as a Cloud Foundry task.
 </td>
 <td valign="top">
 
-`command: "bin/rails db:migrate"`
+`command: "bin/rails db:migrate"` 
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
-`memory`
-
-</td>
-<td valign="top" rowspan="2">
-
-No
+`memory` 
 
 </td>
-<td valign="top" rowspan="2">
+<td valign="top">
 
-Defines the memory that is available to the Cloud Foundry task.
+Module Hook
 
 </td>
-<td valign="top" rowspan="2">
+<td valign="top">
 
-Landscape specific value that is equal to the default application memory.
+Write
+
+</td>
+<td valign="top">
+
+Defines the memory that is available to the Cloud Foundry task
+
+</td>
+<td valign="top">
+
+Landscape-specific value that is equal to the default application memory
 
 > ### Remember:  
 > Do not rely on the default value, as it will probably be much higher than you need and may not fit into the limitations of your quota.
@@ -386,34 +411,34 @@ Landscape specific value that is equal to the default application memory.
 
 `memory: 256M`
 
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `memory: 1G`
 
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="2">
+<td valign="top">
 
-`disk-quota`
-
-</td>
-<td valign="top" rowspan="2">
-
-No
+`disk-quota` 
 
 </td>
-<td valign="top" rowspan="2">
+<td valign="top">
 
-Defines the disk space that is available to the Cloud Foundry task.
+Module Hook
 
 </td>
-<td valign="top" rowspan="2">
+<td valign="top">
 
-Landscape specific value that is equal to the default application disk quota.
+Write
+
+</td>
+<td valign="top">
+
+Defines the disk space that is available to the Cloud Foundry task
+
+</td>
+<td valign="top">
+
+Landscape-specific value that is equal to the default application disk quota
 
 > ### Remember:  
 > Do not rely on the default value, as it will probably be much higher than you need and may not fit into the limitations of your quota.
@@ -424,11 +449,6 @@ Landscape specific value that is equal to the default application disk quota.
 <td valign="top">
 
 `disk-quota: 256M`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
 
 `disk-quota: 1G`
 

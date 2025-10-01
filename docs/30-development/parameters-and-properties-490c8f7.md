@@ -2,7 +2,7 @@
 
 # Parameters and Properties
 
-This section contains information about the parameters and properties of a Multitarget Application \(MTA\).
+This section contains information about the parameters and properties of a multitarget application \(MTA\).
 
 The values of parameters and properties can be specified at design time, in the MTA development description \(`mta.yaml`\) or in the MTA deployment descriptor \(`mtad.yaml`\). In some cases, it is better to declare certain values depending on the deployment, for example, in an extension descriptor file \(`myDeployExtension.mtaext`\).
 
@@ -22,7 +22,7 @@ The values of properties and parameters are used during the deployment or at run
 > Both parameters and properties may have literal values, such as strings, integers, etc. This also applies to deeply nested structured values, such as arrays or maps.
 
 > ### Tip:  
-> -   You can declare metadata for parameters and properties defined in the MTA deployment description; the mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional; false`\) or can be modified `overwritable: true`.
+> -   You can declare metadata for parameters and properties defined in the MTA deployment descriptor. The mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional: false`\) or can be modified `overwritable: true`. For more information, see [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md).
 > -   Descriptors can contain so-called placeholders \(also known as substitution variables\), which can be used as sub-strings within property and parameter values. Placeholder names are enclosed by the dollar sign \(`$`\) and curly brackets \(`{}`\). For example: `${host}` and `${domain}`. For each parameter “`P`”, there is a corresponding placeholder `${P}`. The value of *<P\>* can be defined either by a descriptor used for deployment, or by the deploy service itself. Placeholders can also be used without any corresponding parameters; in this scenario, their value cannot be overridden in a descriptor. Such placeholders are read-only.
 
 
@@ -35,34 +35,32 @@ Parameters are reserved variables that affect the behavior of the MTA-aware tool
 
 Parameters might be used on various levels in the MTA descriptor - top-level, module level, resource level, and dependency level. Based on the parameter applicability it might be used in combination in several places, for example, both on resource and module levels.
 
-Parameters can be “Read-Only” \(also known as “System”\) or “Read-Write” \(default value can be overwritten\). All parameter values can be referenced as part of other property or parameter value strings. The value of a “Read-Only” parameter cannot be changed in descriptors. Only its value can be referenced using the placeholder notation. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example `${org}`
+> ### Example:  
+> The example below shows the parameter \``memory`\` on a module level which defines the amount of memory used by the Cloud Foundry application represented by the module \``node-hello-world`\` during application runtime.
+> 
+> > ### Sample Code:  
+> > ```
+> > modules:
+> >   - name: node-hello-world
+> >     type: javascript.nodejs
+> >     path: web/
+> >     parameters:
+> >        memory: 128M 
+> > ```
+
+Parameters can be “Read-Only” \(also known as “System”\) or “Write” \(default value can be overwritten\). All parameter values can be referenced as part of other property or parameter value strings. The value of a “Read-Only” parameter cannot be changed in descriptors. Only its value can be referenced using the placeholder notation. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example `${org}`.
 
 SAP Cloud Deployment service supports a list of parameters and their \(default\) values:
 
 -   [Module-Specific Parameters](modules-177d34d.md#loio177d34d45e3d4fd99f4eeeffc5814cf1__section_moduleSpecificParameters)
 -   [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters)
 -   [Module Hooks - Specific Parameters](module-hooks-b9245ba.md#loiob9245ba90aa14681a416065df8e8c593__section_byz_kcf_wjb)
--   Generic parameters \(table below\) that can have the following scopes:
-    -   Top-level - can be defined on top level.
-    -   All - can be consumed everywhere throughout the document.
+-   Top-Level Parameters \(see table below\) - Top-level parameters are generally applicable parameters that cover various scenarios and can be used in different parts of the MTA descriptors. They can be grouped into to categories - "Read-Only" and "Write":
+-   -   Top-level "Write" parameters are designed to impact the behavior of the whole MTA deployment or many parts of it. It is wise to use them in order to avoid duplication. Their values can be defined and controlled by the customer. These parameters can be referenced throughout the whole document.
+-   Top-level "Read-Only" parameters are commonly used parameters that can only be referenced in different parts of the MTA descriptors.
 
 
-> ### Note:  
-> Generic Parameters table contains parameters that might be used on top-level or on all levels. Other supported parameters are distributed in the dedicated pages, for example, module-specific parameters.
-
-The example below shows the parameter \``memory`\` on a module level which defines the amount of memory used by the Cloud Foundry application represented by the module \``node-hello-world`\` during application runtime.
-
-> ### Sample Code:  
-> ```
-> modules:
->   - name: node-hello-world
->     type: javascript.nodejs
->     path: web/
->     parameters:
->        memory: 128M 
-> ```
-
--   **Generic Parameters**
+-   **Top-Level Parameters**
 
 
 <table>
@@ -79,7 +77,7 @@ Scope
 </th>
 <th valign="top">
 
-Read-Only \(System\)
+Read-Only / Write
 
 </th>
 <th valign="top">
@@ -116,7 +114,7 @@ apply-namespace:
 </td>
 <td valign="top">
 
-Global
+Top-Level
 
 </td>
 <td valign="top">
@@ -166,7 +164,7 @@ parameters:
 </td>
 <td valign="top">
 
-Global
+Top-Level
 
 </td>
 <td valign="top">
@@ -211,7 +209,7 @@ parameters:
 </td>
 <td valign="top">
 
-Global
+Top-Level
 
 </td>
 <td valign="top">
@@ -256,7 +254,7 @@ parameters:
 </td>
 <td valign="top">
 
-Global
+Top-Level
 
 </td>
 <td valign="top">
@@ -301,7 +299,7 @@ parameters:
 </td>
 <td valign="top">
 
-Global
+Top-Level
 
 </td>
 <td valign="top">
@@ -346,12 +344,12 @@ parameters:
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -378,12 +376,12 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -410,49 +408,17 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
 
-The default domain of the target organization \(configured in the Cloud Foundry environment\)
-
-</td>
-<td valign="top">
-
-Generated as described in the description.
-
-</td>
-<td valign="top">
-
-`cfapps.eu10-004.hana.ondemand.com`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`region-primary-domain`
-
-</td>
-<td valign="top">
-
-All
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-The primary domain of a region. For more information, refer to the **Domain** column in [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md). When a region has multiple CF API endpoints, it will point to the primary domain \(the first one\).
+The default domain of the target organization \(configured in the Cloud Foundry environment\). The value is coming from CF API endpoint [Get default domain](https://v3-apidocs.cloudfoundry.org/index.html#get-default-domain), and normally, it depends on the shared domains in the current organization.
 
 </td>
 <td valign="top">
@@ -462,7 +428,13 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-`eu10.hana.ondemand.com` 
+> ### Example:  
+> If MTA deployment is done in a target org/space with CF API endpoint that is equal to `api.eu10-004.hana.ondemand.com`, the value of `default-domain` would be `cfapps.eu10-004.hana.ondemand.com`.
+
+> ### Example:  
+> If MTA deployment is done in a target org/space with CF API endpoint that is equal to `api.eu10.hana.ondemand.com`, the value of `default-domain` would be `cfapps.eu10.hana.ondemand.com`.
+
+
 
 </td>
 </tr>
@@ -474,17 +446,22 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
 
 The domain of the current region. For more information, refer to the **Domain** column in [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md). When a region has multiple CF API endpoints, it will point to the domain of the respective endpoint used for the deployment.
+
+> ### Note:  
+> The parameters `region-primary-domain` and `region-domain` are equal when used in most of the regions. They are different when MTA deployments are done in a target org/space in different CF APIs in one region.
+
+
 
 </td>
 <td valign="top">
@@ -494,7 +471,56 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-`eu10-004.hana.ondemand.com` 
+> ### Example:  
+> If MTA deployment is done in a target org/space with CF API endpoint that is equal to `api.eu10.hana.ondemand.com`, the value of `region-domain` would be `eu10.hana.ondemand.com`.
+
+> ### Example:  
+> If MTA deployment is done in a target org/space with CF API endpoint that is equal to `api.eu10-004.hana.ondemand.com`, the value of `region-domain` would be `eu10-004.hana.ondemand.com`.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`region-primary-domain`
+
+</td>
+<td valign="top">
+
+Top-Level
+
+</td>
+<td valign="top">
+
+Read-Only
+
+</td>
+<td valign="top">
+
+The primary domain of a region. For more information, refer to the **Domain** column in [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md). When a region has multiple CF API endpoints, it will point to the primary domain \(the first one\).
+
+> ### Note:  
+> The parameters `region-primary-domain` and `region-domain` are equal when used in most of the regions. They are different when MTA deployments are done in a target org/space in different CF APIs in one region.
+
+
+
+</td>
+<td valign="top">
+
+Generated as described in the description.
+
+</td>
+<td valign="top">
+
+> ### Example:  
+> If MTA deployment is done in a target org/space with CF API endpoint that is equal to `api.eu10.hana.ondemand.com`, the value of `region-primary-domain` would be `eu10.hana.ondemand.com`.
+
+> ### Example:  
+> If MTA deployment is done in a target org/space with CF API endpoint that is equal to `api.eu10-004.hana.ondemand.com`, the value of `region-primary-domain` would be `eu10.hana.ondemand.com`.
+
+
 
 </td>
 </tr>
@@ -506,12 +532,12 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -533,17 +559,54 @@ Generated as described in the description.
 <tr>
 <td valign="top">
 
+`enable-parallel-deployments`
+
+</td>
+<td valign="top">
+
+Top-Level
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Defines if parallel deployment of modules is enabled. When enabled, modules without explicitly set `deployed-after` parameter are deployed in parallel. For more information, see [Parallel Module Deployment](parallel-module-deployment-0384158.md).
+
+</td>
+<td valign="top">
+
+no
+
+</td>
+<td valign="top">
+
+```
+parameters:
+  enable-parallel-deployments: true
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `generated-password`
 
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -570,12 +633,12 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -602,7 +665,7 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-Global
+Top-Level
 
 </td>
 <td valign="top">
@@ -614,10 +677,10 @@ Write
 
 When specified on module level, it indicates if the existing routes of the module's corresponding application should be kept even if they are not defined within the deployment and/or extension descriptors.
 
-When specified on global level, under the `parameters` section of the descriptor, it indicates if the existing routes of all applications within that MTA should be kept.
+When specified on top level, under the `parameters` section of the descriptor, it indicates if the existing routes of all applications within that MTA should be kept.
 
 > ### Note:  
-> -   The module-level variant of the parameter has priority over the global parameter.
+> -   The module-level variant of the parameter has priority over the top-level parameter.
 > -   This parameter is typically used when users want to keep the routes they have mapped manually by using the `cf map-route` command. We discourage this approach, as manual operations could lead to inconsistent deployment results and difficult troubleshooting. We recommend you to define all routes in the deployment and/or extension descriptors, which allows for their automatic management.
 
 
@@ -657,12 +720,12 @@ modules:
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -689,12 +752,12 @@ The current name of the target organization
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -721,12 +784,12 @@ The protocol used by the Cloud Foundry environment.
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -753,12 +816,12 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -785,12 +848,12 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -817,12 +880,12 @@ CF
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -849,12 +912,12 @@ N/A
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -876,12 +939,12 @@ N/A
 <tr>
 <td valign="top">
 
-`mta-version`
+`mta-version` 
 
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
@@ -908,12 +971,12 @@ N/A
 <tr>
 <td valign="top">
 
-`mta-id`
+`mta-id` 
 
 </td>
 <td valign="top">
 
-All
+Top-Level
 
 </td>
 <td valign="top">
@@ -933,7 +996,7 @@ N/A
 </td>
 <td valign="top">
 
-`1.0.0`
+`com.sap.sample`
 
 </td>
 </tr>
@@ -959,7 +1022,7 @@ Scope
 </th>
 <th valign="top">
 
-Read-Only \(System\)
+Read-Only / Write
 
 </th>
 <th valign="top">
@@ -986,7 +1049,7 @@ Example
 </td>
 <td valign="top">
 
-required dependency
+Module-Required Dependency
 
 </td>
 <td valign="top">
@@ -1028,7 +1091,7 @@ modules:
 </td>
 <td valign="top">
 
-required dependency
+Module-Required Dependency
 
 </td>
 <td valign="top">
@@ -1076,7 +1139,7 @@ modules:
 </td>
 <td valign="top">
 
-required dependency
+Module-Required Dependency
 
 </td>
 <td valign="top">
@@ -1124,7 +1187,7 @@ modules:
 </td>
 <td valign="top">
 
-required dependency
+Module-Required Dependency
 
 </td>
 <td valign="top">
@@ -1156,7 +1219,7 @@ The name of the service key.
 </td>
 <td valign="top">
 
-provided dependency
+Module-Provided Dependency
 
 </td>
 <td valign="top">
@@ -1206,7 +1269,7 @@ visibility:
 </td>
 <td valign="top">
 
-provided dependency
+Module-Provided Dependency
 
 </td>
 <td valign="top">

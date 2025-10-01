@@ -12,7 +12,7 @@ A troubleshooting guide for HTML5 application repository.
 
 
 
-### 400: Application metadata already exists when uploading HTML5 applications
+### 400: Application Metadata Already Exists When Uploading HTML5 Applications
 
 
 <table>
@@ -36,7 +36,7 @@ Issue
 </td>
 <td valign="top">
 
-HTML5 Application Deployment fails with error "Application metadata for application xyz already exists."
+The HTML5 application deployment fails with the error "Application metadata for application xyz already exists."
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ Cause
 </td>
 <td valign="top">
 
-There is already an app-host service instance that contains a manifest.json with app.id = xyz in this space it is not possible to have multiple app-hosts containing the same app.id.
+There is already an `app-host` service instance that contains a `manifest.json` file with `app.id = xyz` in this space. It is not possible to have multiple `app-host` instances containing the same `app.id`.
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ Solution
 </td>
 <td valign="top">
 
-Delete or do not deploy the old app-host instance or use another app.id in the resources folder for a new app-host.
+Delete or do not deploy the old `app-host` instance or use another `app.id` in the resources folder for a new `app-host` instance.
 
 </td>
 </tr>
@@ -68,7 +68,7 @@ Delete or do not deploy the old app-host instance or use another app.id in the r
 
 
 
-### 400: Failed to run the application router after subscription; route not found
+### 400: Failed to Run the Application Router After Subscription; Route Not Found
 
 
 <table>
@@ -92,7 +92,7 @@ Issue
 </td>
 <td valign="top">
 
-After subscribing to the application router using the <subdomain\>-<myapprouter\>.<scp domain\> format, the calling the application router fails with error "route not found".
+After subscribing to the application router using the <subdomain\>-<myapprouter\>.<scp domain\> format, calling the application router fails with the error "route not found".
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ Cause
 </td>
 <td valign="top">
 
-In order to support subscriptions out of the box, a route with format \*.<custom-domain\> should be created and mapped to the application router. The \* host represents a wildcard that is replaced by the actual subscriber subdomain during runtime.
+To support subscriptions out of the box, a route with format \*.<custom-domain\> should be created and mapped to the application router. The \* host represents a wildcard that is replaced by the actual subscriber subdomain during runtime.
 
 Without a custom domain, this type of route \(wildcard host\) cannot be created; only a fixed host can be used. Without a custom domain, the route format is <subdomain\>-<myapprouter\>.<scp domain\>. It means that you have to create a route with the expected subdomain for each new subscriber.
 
@@ -126,7 +126,7 @@ In development setups, if you don't have a custom domain before subscription, th
 
 
 
-### 400: Uploading application content failed
+### 400: Uploading Application Content Failed
 
 
 <table>
@@ -193,7 +193,7 @@ Check if one of the causes is your issue. For example, check the size of your ht
 
 
 
-### 403: App-host is being modified by another process
+### 403: app-host Modified by Another Process
 
 
 <table>
@@ -249,7 +249,7 @@ Try again after the first HTML5 application repository deployer has completed it
 
 
 
-### 409: App-host deploy or redeploy remains in progress
+### 409: app-host Deploy or Redeploy Remains in Progress
 
 
 <table>
@@ -311,7 +311,7 @@ cf html5-delete --content <app-host-id> [...]
 
 
 
-### Failed to upload content; exceeded maximum file length
+### Failed to Upload Content; Maximum File Length Exeeded
 
 
 <table>
@@ -367,7 +367,7 @@ Increase the app-host size limit using the update service. For example: `cf upda
 
 
 
-### Timeout while uploading content
+### Timeout While Uploading Content
 
 
 <table>
@@ -423,7 +423,7 @@ Set `health-check-type` to `none` in the manifest.yaml of the HTML5 Application 
 
 
 
-### Uploading application content failed; application size exceeds the maximum size limit of 100 MB
+### Uploading Application Content Failed; Application Size Exceeds the Maximum Size Limit of 100 MB
 
 
 <table>
@@ -471,7 +471,7 @@ Solution
 </td>
 <td valign="top">
 
-Deploy an application that is less than 100 MB or remove some of your applications and move them to another app-host. .
+Deploy an application that is less than 100 MB or remove some of your applications and move them to another app-host.
 
 </td>
 </tr>
@@ -485,7 +485,7 @@ Deploy an application that is less than 100 MB or remove some of your applicatio
 
 
 
-### 400: Failed to retrieve xs-app.json; invalid app-host ID
+### 400: Failed to Retrieve xs-app.json; Invalid app-host ID
 
 
 <table>
@@ -541,7 +541,7 @@ Ask the business service owner to define`"public" : true` in the app manifest.js
 
 
 
-### 403: Failed to retrieve xs-app.json; unauthorized
+### 403: Failed to Retrieve xs-app.json; Unauthorized
 
 
 <table>
@@ -597,7 +597,7 @@ Ask the business service owner to define `"public": true` in the app manifest.js
 
 
 
-### 404: Resource not found
+### 404: Resource Not Found - Backend Data Resource Not Found
 
 
 <table>
@@ -621,7 +621,7 @@ Issue
 </td>
 <td valign="top">
 
-The HTML5 application repository does not serve content. The application log displays the following message: "Application xyz does not exist."
+A backend endpoint cannot be found. Your browser displays the message: “404 resource not found.”
 
 </td>
 </tr>
@@ -633,18 +633,7 @@ Cause
 </td>
 <td valign="top">
 
-This issue can have different causes:
-
--   Cause 1: The application name in the URL is incorrect.
-
-    Application names in the HTML5 application repository do not use periods \(“.”\) as separators in the URL. For example: if the `app.id` in the `manifest.json` file is <code>country<b>.</b>list</code>, the application name is `countrylist`. Use this name in the URL.
-
--   Cause 2: The request URL does not include the application key.
-
-    A request to the application router must include the application key in the URL. The application router uses the application key to fetch the xs-app.json file of the HTML5 application from the HTML5 application repository. The application key can include the business service prefix, application name, and application version. \(Only the application name is required.\)
-
-
-
+The UI sends a request with a non-relative URL. As a result, the application key section in the URL is dropped. Without the application key, the application router cannot retrieve the xs-app.json file for the HTML5 application. Instead, it uses the central xs-app.json file.
 
 </td>
 </tr>
@@ -656,14 +645,11 @@ Solution
 </td>
 <td valign="top">
 
-1.  Check the application name. In the request URL, use the application name without periods as separators.
+Check if the request URL to the application router includes the application key. If the URL does not include the application key, review how you configured backend application data retrieval in your HTML5 application. Make sure you send a relative URL to the application router:
 
-2.  If the application name is correct, check if the request URL to the application router includes the application key. If the URL does not include the application key, review how you configured the backend application data retrieval in your HTML5 application:
+-   If you use SAP Fiori tools, such as SAP Business Application Studio, check the `dataSources.uri` property in the `manifest.json` file. The value for `dataSources.uri` property must **not** start with a slash \("/"\). For example: `northwind/V2/Northwind.svc` is correct, but <code><b>/</b>northwind/V2/Northwind.svc</code> is incorrect. A leading slash creates an absolute path, which prevents the browser from adding the application key to the request URL. If there is a leading slash, remove it.
 
-    -   If you use SAP Fiori tools, such as SAP Business Application Studio, check the `dataSources.uri`property in the `manifest.json` file. The value for `dataSources.uri` property must **not** start with a slash \("/"\). For example: `northwind/V2/Northwind.svc` is correct, but <code><b>/</b>northwind/V2/Northwind.svc</code> is incorrect. A leading slash creates an absolute path, which prevents the browser from concatenating the application key for the request. If there is a leading slash, remove it.
-
-    -   If you use a JQueryAjax call for the request, make sure the URL provided to the JQueryAjax call is a relative path and does not start with a slash \("/"\).
-
+-   If you use a JQueryAjax call for the request, make sure the URL provided to the JQueryAjax call is a relative path and does not start with a slash \("/"\).
 
 
 
@@ -674,7 +660,65 @@ Solution
 
 
 
-### 404: Calls to service endpoints specified in an application's xs-app.json fails
+### 404: Resource Not Found - Static Application Content Is Not Retrieved
+
+
+<table>
+<tr>
+<th valign="top">
+
+Term
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Issue
+
+</td>
+<td valign="top">
+
+The application router cannot retrieve the static application content. Your browser displays the message: “404 resource not found.”
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Cause
+
+</td>
+<td valign="top">
+
+The application name in the request URL used to consume the application content is incorrect. Often, the application name includes periods \(“.”\) as separators, which is not allowed.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Solution
+
+</td>
+<td valign="top">
+
+Check the URL you use to consume the application content. Make sure you provide the correct application name in the URL.
+
+Application names in this URL must **not** contain periods \(“.”\) as separators. For example: If the `app.id` in the `manifest.json` file is `country.list`, use `countrylist` as the application name in the URL
+
+</td>
+</tr>
+</table>
+
+
+
+### 404: Calls to Service Endpoints Specified in an Application's xs-app.json File Fails
 
 
 <table>
@@ -730,7 +774,7 @@ Move the route leading to the html5-apps-repo-rt to be the last entry in the xs-
 
 
 
-### 500: Failed to retrieve xs-app.json
+### 500: Failed to Retrieve xs-app.json File
 
 
 <table>
@@ -786,7 +830,7 @@ Wait until HTML5 application repository is restarted.
 
 
 
-### 500: Failed to use dynamic destination
+### 500: Failed to Use Dynamic Destination
 
 
 <table>
@@ -842,7 +886,7 @@ In the additional properties section of the destination section of the SAP BTP c
 
 
 
-### 500: Missing xs-app.json in HTML5 application repository when reading an HTML5 application file from the application router
+### 500: Missing xs-app.json File in HTML5 Application Repository When Reading an HTML5 application File from the Application Router
 
 
 <table>
@@ -898,7 +942,7 @@ Redeploy the HTML5 Application with xs-app.json file or ask the business service
 
 
 
-### Bearer token invalid
+### Bearer Token Invalid
 
 
 <table>
@@ -967,7 +1011,7 @@ Solution
 
 
 
-### Caching issue in browser
+### Caching Issue in Browser
 
 
 <table>
@@ -1039,7 +1083,7 @@ Check that the main page is not configured to be cached by the browser in your x
 
 
 
-### Running application router after subscribing to it fails
+### Running the Application Router After Subscribing to it Fails
 
 
 <table>

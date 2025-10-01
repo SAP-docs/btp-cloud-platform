@@ -106,7 +106,24 @@ The registration process has the following states displayed in the cockpit:
 
     3.  Choose *Add*.
 
-    4.  In the *Communication Scenario Groups* dropdown menu, select *All Communication Scenarios* to create any of the communication scenarios in SAP Integrated Business Planning.
+    4.  In the *Communication Scenario Groups* dropdown menu, select one of the following options:
+
+        -   *All Communication Scenarios*: to create any of the communication scenarios in SAP Integrated Business Planning.
+
+        -   *Eventing Between SAP Cloud Systems*: to allow the automatic enablement of the `SAP_COM_0892` communication scenario in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Start*: to allow the automatic enablement of the `SAP_COM_0647` communication scenario in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Ariba Buying*: to allow the automatic enablement of the `SAP_COM_0545` and `SAP_COM_0A00` communication scenarios in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Master Data Integration*: to allow the automatic enablement of the `SAP_COM_0008`, `SAP_COM_0091`, `SAP_COM_0659`, and `SAP_COM_0594` communication scenarios in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Ariba Central Invoice Management*: to allow the automatic enablement of the `SAP_COM_0897`, `SAP_COM_0516`, `SAP_COM_0531`, `SAP_COM_0008`, `SAP_COM_0091`, `SAP_COM_0659`, and `SAP_COM_0594` communication scenarios in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Subscription Billing*: to allow the automatic enablement of the `SAP_COM_0642`, `SAP_COM_0845`, `SAP_COM_0861`, `SAP_COM_0095`, `SAP_COM_0008`, `SAP_COM_0009`, `SAP_COM_0092`, `SAP_COM_0884`, `SAP_COM_0892`, and `SAP_COM_0165` communication scenarios in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Advanced Financial Closing*: to allow the automatic enablement of the `SAP_COM_0566` communication scenario in SAP Integrated Business Planning.
+
 
     5.  Choose *Get Token*.
 

@@ -4,11 +4,15 @@
 
 # Updating an ABAP System
 
-Learn how to update your ABAP environment instance.
+Learn how to update your ABAP environment instance or change its service plan.
 
 
 
 ## Context
+
+
+
+### Update the Properties of Your ABAP environment Instance
 
 After you have created an ABAP environment instance, you can change the following properties:
 
@@ -41,26 +45,7 @@ To **change the initial admin**, you have to use the *Maintain Employees* SAP Fi
 
 
 
-## Procedure
-
-1.  In the SAP BTP cockpit, choose your Cloud Foundry subaccount and navigate to the space, in which you have created your ABAP environment instance. See [Navigate in the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/0874895f1f78459f9517da55a11ffebd.html).
-2.  From the navigation area, choose *Services* \> *Instances and Subscriptions*.
-
-    You see a list of all instances that have been created.
-
-3.  Select your *ABAP environment* instance and choose *Update* by clicking on <span class="SAP-icons-V5"></span> \(Actions\) at the end of the row. If you'd like to check the values that are currently configured first, please select *View Parameters* instead.
-4.  In the *Update Instance* wizard, you can update the parameters listed above. See [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md). The currently configured values are prefilled in the *Update Wizard*, so you can keep the values that you don’t want to change as they are.
-5.  Choose *Update Instance* to save your changes.
-
-
-
-Your ABAP environment instance is being updated. This might take a while.
-
-
-
-<a name="loio7890ffa8a7274ac1852b37ede5b773d1__section_jzz_lfc_hgc"/>
-
-## Change the Service Plan of Your Service Instance
+### Change the Service Plan of Your ABAP environment Instance
 
 You can update the service plan from one ABAP environment service plan to another. For example: once you've reached the limits of the free plan, you can upgrade the free service plan to a paid plan \(standard plan or build-runtime plan\). You could also update your standard plan to a build-runtime plan if you have a SAP Build subscription that includes quota for the ABAP environment service.
 
@@ -79,19 +64,34 @@ You can update the service plan from one ABAP environment service plan to anothe
 > 
 > For more information, see [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md).
 
-> ### Note:  
+> ### Restriction:  
 > It's not possible to switch from a paid plan to a free plan.
 
-1.  In your subaccount, navigate to the *Instances and Subscriptions* page.
 
-2.  Find the instance of the service and click <span class="SAP-icons-V5"></span> \(Actions\) and *Update*.
 
-3.  In the *Update Instance* dialog, change the plan to a new service plan. The following changes are possible:
+## Procedure
 
-    -   From free to standard
-    -   From free to build-runtime
-    -   From standard to build-runtime
+1.  In the SAP BTP cockpit, choose your Cloud Foundry subaccount and navigate to the space in which you have created your ABAP environment instance. See [Navigate in the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/0874895f1f78459f9517da55a11ffebd.html).
+2.  Make sure that you have the Space Developer role in the service instance's space:
+    -   Go to *Space Members* and check if your user is listed there
+    -   If you're not listed as a member, add yourself as a *Space Developer*. For more information, see [Add Space Members](https://help.sap.com/docs/btp/sap-business-technology-platform/add-space-members-using-cockpit?version=Cloud)
 
-4.  Click *Update Instance* to save your changes.
+3.  From the navigation area, choose *Services* \> *Instances*.
 
+    You see a list of all instances that have been created.
+
+4.  Select your *ABAP environment* instance and choose *Update* by clicking on <span class="SAP-icons-V5"></span> \(Actions\) at the end of the row. If you'd like to check the values that are currently configured first, please select *View Parameters* instead.
+5.  In the *Update Instance* wizard, you can either
+    -   update the parameters listed above. See [Increasing the Quota for the ABAP Environment](increasing-the-quota-for-the-abap-environment-c40cb18.md). The currently configured values are prefilled in the *Update Wizard*, so you can keep the values that you don’t want to change as they are
+    -   or change the plan to a new service plan. The following changes are possible:
+        -   From free to standard
+        -   From free to build-runtime
+        -   From standard to build-runtime
+
+
+6.  Choose *Update Instance* to save your changes.
+
+
+
+Your ABAP environment instance is being updated. This might take a while.
 

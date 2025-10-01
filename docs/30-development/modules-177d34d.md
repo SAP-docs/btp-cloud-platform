@@ -619,7 +619,7 @@ Scope
 </th>
 <th valign="top">
 
-Read-Only \(System\)
+Read-Only / Write
 
 </th>
 <th valign="top">
@@ -908,7 +908,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -942,7 +942,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -988,7 +988,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -1020,7 +1020,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -1052,7 +1052,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -1084,7 +1084,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -1116,7 +1116,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -1148,7 +1148,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -1180,7 +1180,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -1217,7 +1217,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">
@@ -1414,38 +1414,6 @@ The domains on which the application is available later. The resulting applicati
 <td valign="top">
 
 `domains: - ${default-domain}.acme.com - test-${default-domain}.acme.com`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`default-domain`
-
-</td>
-<td valign="top">
-
-Module
-
-</td>
-<td valign="top">
-
-Yes
-
-</td>
-<td valign="top">
-
-The value of this parameter is the default domain for the current organization.
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 </tr>
@@ -2057,10 +2025,10 @@ Write
 
 When specified on module level, it indicates if the existing routes of the module's corresponding application should be kept even if they are not defined within the deployment and/or extension descriptors.
 
-When specified on global level, under the `parameters` section of the descriptor, it indicates if the existing routes of all applications within that MTA should be kept.
+When specified on top level, under the `parameters` section of the descriptor, it indicates if the existing routes of all applications within that MTA should be kept.
 
 > ### Note:  
-> -   The module-level variant of the parameter has priority over the global parameter.
+> -   The module-level variant of the parameter has priority over the top-level parameter.
 > -   This parameter is typically used when users want to keep the routes they have mapped manually by using the `cf map-route` command. We discourage this approach, as manual operations could lead to inconsistent deployment results and difficult troubleshooting. We recommend you to define all routes in the deployment and/or extension descriptors, which allows for their automatic management.
 
 
@@ -2190,6 +2158,144 @@ Depends on the command line option `--no-start`
 <td valign="top">
 
 `no-start: true`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`readiness-health-check-http-endpoint`
+
+</td>
+<td valign="top">
+
+Module
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+The endpoint called to determine if the app is ready. The parameter can be applied if the `readiness-health-check-http-endpoint` parameter is set to `http`. The controller will make a `GET` request to this endpoint, and the application will be considered healthy if the response is 200 OK.
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+> ### Sample Code:  
+> ```
+> readiness-health-check-type: http
+> readiness-health-check-http-endpoint: /health
+> ```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`readiness-health-check-type`
+
+</td>
+<td valign="top">
+
+Module
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+The type of health check to be performed on the module: `http`, `port`, or `process`
+
+</td>
+<td valign="top">
+
+`process`
+
+</td>
+<td valign="top">
+
+`readiness-health-check-type: port`
+
+`readiness-health-check-type: http`
+
+`readiness-health-check-type: process`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`readiness-health-check-invocation-timeout`
+
+</td>
+<td valign="top">
+
+Module
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+The timeout in seconds for individual readiness health check requests. The parameter can be used for the `http` and `port` health check types.
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+`readiness-health-check-invocation-timeout: 20` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`readiness-health-check-interval`
+
+</td>
+<td valign="top">
+
+Module
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+The amount of time in seconds between individual readiness health check requests
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+`readiness-health-check-interval: 20` 
 
 </td>
 </tr>
@@ -2795,7 +2901,7 @@ Module
 </td>
 <td valign="top">
 
-Yes
+Read-Only
 
 </td>
 <td valign="top">

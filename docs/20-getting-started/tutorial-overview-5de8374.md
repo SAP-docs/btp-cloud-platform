@@ -255,9 +255,9 @@ without group/mission:
 
 -   [Create a Shopping Cart Business Object](https://developers.sap.com/tutorials/abap-s4hanacloud-procurement-purchasereq-shop.html)
 
--   [Create Value Help, Enhance the Behaviour Definition and Behaviour Implementation of the Shopping Cart Business Object](https://developers.sap.com/tutorials/abap-s4hanacloud-purchasereq-enhance-shop.html)
+-   [Create Value Help, Enhance the Behavior Definition and Behavior Implementation of the Shopping Cart Business Object](https://developers.sap.com/tutorials/abap-s4hanacloud-purchasereq-enhance-shop.html)
 
--   [Integrate released Purchase Requisition API into Online Shop Business Object](https://developers.sap.com/mission.abap-env-intermediate.html)
+-   [Integrate released Purchase Requisition API into Online Shop Business Object](https://developers.sap.com/tutorials/abap-s4hanacloud-purchasereq-integrate-api.html)
 
 
 
