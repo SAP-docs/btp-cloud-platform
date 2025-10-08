@@ -9881,6 +9881,7 @@ Add UI adaptation to your UI5 applications.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   UAE \(Dubai\)
 
 
 
@@ -9944,6 +9945,7 @@ Add UI adaptation to your UI5 applications.
 -   Europe \(Frankfurt\) EU Access
 -   Brazil \(São Paulo\)
 -   US West \(Oregon\)
+-   Europe \(Milan\)
 
 
 
@@ -10764,6 +10766,7 @@ Manage transports of development artifacts and application-specific content.
 </td>
 <td valign="top">
 
+-   UAE \(Dubai\)
 -   Europe \(Frankfurt\) EUA only
 
 
@@ -10820,6 +10823,7 @@ Manage transports of development artifacts and application-specific content.
 
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
+-   Europe \(Milan\)
 -   US East \(VA\)
 -   US West \(Oregon\)
 -   Australia \(Sydney\)

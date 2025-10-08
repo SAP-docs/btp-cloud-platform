@@ -1924,6 +1924,7 @@
         -   [Managing Kyma Runtime Using the Provisioning Service API](50-administration-and-ops/managing-kyma-runtime-using-the-provisioning-service-api-f4afb1a.md)
         -   [Available Plans in the Kyma Environment](50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md)
             -   [Updating Kyma Environment Plans](50-administration-and-ops/updating-kyma-environment-plans-64fa95a.md)
+            -   [Assigning Kyma Instances to IaaS Provider Accounts](50-administration-and-ops/assigning-kyma-instances-to-iaas-provider-accounts-ead08cd.md)
         -   [Provisioning and Updating Parameters in the Kyma Environment](50-administration-and-ops/provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md)
         -   [Adding and Deleting a Kyma Module](50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c)
         -   [Setting Your Module to the Unmanaged and Managed State](50-administration-and-ops/setting-your-module-to-the-unmanaged-and-managed-state-c071680.md#loioc07168072c8340ecbb392260cf52c165)

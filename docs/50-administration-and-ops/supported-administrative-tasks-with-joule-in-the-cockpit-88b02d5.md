@@ -33,8 +33,9 @@ Joule in the BTP cockpit can also assist you with administrative tasks related t
 Joule can also **navigate** you to select pages within the cockpit:
 
 -   Go to the location in the cockpit where various information is displayed
--   Navigate to trust configuration for a global account or a subaccount
--   Go to the subaccount users page in order to export subaccount users
+-   Take you to the service entitlements in your global account or a subaccount
+-   Navigate to trust configuration for your global account or a subaccount
+-   Assist you in exporting subaccount users by guiding you to the subaccount users page
 -   Navigate to Cloud Foundry spaces
 -   Take you to Applications, Events, Service Instances, Service Marketplace, Security Groups, or Routes in a Cloud Foundry space
 -   Go to a HANA Cloud instance in a subaccount
