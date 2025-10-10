@@ -23,7 +23,7 @@ To use an SAP BTP service in your Kyma cluster, create its service instance and 
 -   You know the service offering name and service plan<sup>[1](creating-service-instances-and-service-bindings-17bd304.md#loio17bd304aeab34294a4ca34fa9564147c__note_xtk_1w1_t2c)</sup> name for the SAP BTP service you want to connect to your Kyma cluster.
 
     > ### Tip:  
-    > <sup>1</sup>To find the service offering and service plan names, go to the SAP BTP cockpit, and then to *Services* \> *Service Marketplace*. Click on the service tile and find its *name* and *Plan*.
+    > <sup>1</sup> To find the service offering and service plan names, go to the SAP BTP cockpit, and then to *Services* \> *Service Marketplace*. Click on the service tile and find its *name* and *Plan*.
 
 
 <a name="loio3ca9284699c44180b12e7be513bdac06"/>

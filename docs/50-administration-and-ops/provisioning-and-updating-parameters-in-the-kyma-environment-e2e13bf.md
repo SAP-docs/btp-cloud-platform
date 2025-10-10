@@ -2318,7 +2318,7 @@ The following example shows the default configuration of a list of `oidc` object
 >       "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
 >       "groupsClaim": "groups",
 >       "issuerURL": "https://kyma.accounts.ondemand.com",
->       "groupsPrefix": "-"
+>       "groupsPrefix": "-",
 >       "signingAlgs": ["RS256"],
 >       "usernameClaim": "sub",
 >       "usernamePrefix": "-",
