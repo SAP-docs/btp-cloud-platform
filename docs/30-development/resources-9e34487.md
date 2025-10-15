@@ -962,7 +962,7 @@ Write
 </td>
 <td valign="top">
 
-Applies namespace to the service name. If the namespace value is not provided in the CLI options, it is not applied. For more information, see [Fine-Grained Configuration](experimental-namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
+Applies namespace to the service name. If the namespace value is not provided in the CLI options, it is not applied. For more information, see [Fine-Grained Configuration](namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
 
 </td>
 <td valign="top">

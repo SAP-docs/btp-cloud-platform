@@ -1,11 +1,10 @@
 <!-- loiob28fd77836d44bde8c404618bf0f1228 -->
 
-# \(Experimental\) Namespaces
+# Namespaces
 
 Use this feature to prevent conflicts for applications deriving from the same MTA, but with different version, features, and configuration.
 
 > ### Restriction:  
-> -   This feature is experimental. We advise you first try it out in a non-productive environment.
 > -   The namespace can only be passed as an argument to the deployment call, and cannot be modelled directly in the descriptor.
 > -   The namespace cannot be longer than 36 characters.
 
@@ -87,9 +86,9 @@ The priority for `apply-namespace` parameters in descending order is the followi
     >         
     > ```
 
-3.  **Global-Level Parameters**
+3.  **Top-Level Parameters**
 
-    If neither command-line options nor module-level parameter are provided, the global parameters are used. Global parameters are applicable for all applications.
+    If neither command-line options nor module-level parameter are provided, the top-level parameters are used. Top-level parameters apply to all applications.
 
     > ### Sample Code:  
     > ```
@@ -157,9 +156,9 @@ To deploy several entities of a multitarget application using namespaces, follow
 
         This command deploys the MTA archive 'MyMTA.mtar' and applies the namespace 'foo' to the application names, service names, and application routes.
 
-    -   Set global parameters in the deployment descriptor:
+    -   Set top-level parameters in the deployment descriptor:
 
-        If you don't have operation parameters or module-level and resource-level parameters, you can set the global parameters in the deployment descriptor to `true`. This approach produces the same result as using the `cf deploy` command with the namespace options.
+        If you don't have operation parameters or module-level and resource-level parameters, you can set the top-level parameters in the deployment descriptor to `true`. This approach produces the same result as using the `cf deploy` command with the namespace options.
 
 
     Both methods ensure that the namespace is applied consistently across application names, service names, and application routes during the deployment process.

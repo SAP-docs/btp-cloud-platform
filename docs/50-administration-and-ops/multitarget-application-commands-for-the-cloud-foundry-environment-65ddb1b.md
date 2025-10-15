@@ -7,7 +7,7 @@ A list of additional commands to deploy multitarget applications \(MTA\) to the 
 
 
 > ### Note:  
-> The expiration time for all MTA operations in Cloud Foundry is 3 days. If an operation is still active when time limit is reached, it is automatically aborted.
+> The expiration time for all MTA operations in Cloud Foundry is 3 days. If an operation is still active when the time limit is reached, it is automatically aborted.
 
 > ### Caution:  
 > If you are using a version of the MultiApps CF CLI plugin that is older than 3.0.0, you need to make some additional configuration for deployments in regions China \(Shanghai\) and China \(North 3\). See [MTA Deployment in Regions China \(Shanghai\) and China \(North 3\)](../30-development/mta-deployment-in-regions-china-shanghai-and-china-north-3-f463c3d.md).
@@ -172,7 +172,7 @@ Purge all configuration entries and subscriptions, which are no longer valid.
 </table>
 
 > ### Note:  
-> By default, large multitarget applications are not uploaded as a single unit, but are split up into smaller chunks of 45 MBs that are uploaded separately. Configure the chunk size as described in [Configuration](https://github.com/cloudfoundry-incubator/multiapps-cli-plugin#configuration).
+> By default, large multitarget applications are not uploaded as a single unit, but are split up into smaller chunks of 45 MB that are uploaded separately. Configure the chunk size as described in [Configuration](https://github.com/cloudfoundry-incubator/multiapps-cli-plugin#configuration).
 
 
 
@@ -203,7 +203,7 @@ Deploy a new MTA or synchronize changes to an existing one. You have the followi
 
 -   **Deployment using a URL to the MTA archive**
 
-    You have the option to deploy or synchronize an MTA, the source of which is contained at a URL address. When you use this command, the request prompts the backend to download the archive and then dеploy it:
+    You have the option to deploy or synchronize an MTA, the source of which is contained at a URL address. When you use this command, the request prompts the backend to download the archive and then deploy it:
 
     ```
     <write MTA archive URL to STDOUT> | cf deploy [-e EXT_DESCRIPTOR[,...]] 
@@ -277,7 +277,7 @@ Description
 </td>
 <td valign="top">
 
-The path to \(and name of\) the archive or the directory containing the Multitarget Application to deploy; the application archive must have the format \(and file extension\) `mtar`, for example, `MTApp1.mtar`. If the value of this argument is a directory, the checks if an mtad.yaml file exists in that directory, and based on it assembles an MTA archive before deploying it. If no argument exists, the current directory is used.
+The path to \(and name of\) the archive or the directory containing the Multitarget Application to deploy. The application archive must have the format \(and file extension\) `mtar`, for example, `MTApp1.mtar`. If the value of this argument is a directory, the deploy-service checks if an mtad.yaml file exists in that directory, and assembles an MTA archive based on the file before deploying it. If no argument exists, the current directory is used.
 
 </td>
 </tr>
@@ -301,7 +301,7 @@ The Cloud Deployment service also accepts a path to a directory where an `mtad.y
 </td>
 <td valign="top">
 
-Retry the operation specified number of times in case a non-content error \(default 3\).
+Retry the operation а specified number of times in case a non-content error \(default 3\).
 
 </td>
 </tr>
@@ -347,7 +347,7 @@ Define one or more extensions to the deployment descriptors; multiple extension 
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point that is to be used for the deployment operation.
+Specify the URL for the deploy-service endpoint that is to be used for the deployment operation.
 
 </td>
 </tr>
@@ -395,7 +395,7 @@ Specify the ID of the deploy operation that you want to perform an action on.
 </td>
 <td valign="top">
 
-Specify the action to perform on the deploy operation, for example, “abort”, “retry”, or “monitor”, or “resume”.
+Specify the action to perform on the deploy operation, for example, “abort”, “retry”, “monitor”, or “resume”.
 
 </td>
 </tr>
@@ -419,7 +419,7 @@ Force deployment without requiring any confirmation about aborting any conflicti
 </td>
 <td valign="top">
 
-Do not start application after deployment.
+Do not start the application after deployment.
 
 </td>
 </tr>
@@ -555,7 +555,7 @@ Keep the files used for deployment.
 </td>
 <td valign="top">
 
-Do not restart subscribed applications that are updated during the deployment.
+Do not restart the subscribed applications that are updated during the deployment.
 
 </td>
 </tr>
@@ -579,7 +579,7 @@ Perform the deployment, even if required administrator permissions are missing f
 </td>
 <td valign="top">
 
-If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.
+If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA, and you will not be asked if you want to abort it.
 
 </td>
 </tr>
@@ -659,7 +659,7 @@ Deploy all resources.
 </td>
 <td valign="top">
 
-Announce to the platform a special deployment approach, for example when performing a “blue-green” or an “incremental-blue-green” deployment. See [Blue-Green Deployment Strategy](../30-development/blue-green-deployment-strategy-7c83810.md) and [\(Experimental\) Incremental Blue-Green Deployment Strategy](../30-development/experimental-incremental-blue-green-deployment-strategy-2e4dfed.md).
+Announce to the platform a special deployment approach, for example when performing a “blue-green” or an “incremental-blue-green” deployment. See [Blue-Green Deployment Strategy](../30-development/blue-green-deployment-strategy-7c83810.md) and [Incremental Blue-Green Deployment Strategy](../30-development/incremental-blue-green-deployment-strategy-2e4dfed.md).
 
 Using this option, you will not be asked to manually confirm the deletion of the older version of the MTA applications. This means that the deployment process is performed without any interruptions and you are not prompted to confirm the switch of routes to the new version of the MTA applications.
 
@@ -687,15 +687,10 @@ When using the *\--strategy* option for “blue-green” or “incremental-blue-
 
 <code><i>--namespace</i></code>
 
-> ### Note:  
-> This option is currently experimental.
-
-
-
 </td>
 <td valign="top">
 
-Namespace for the MTA. They are also applied to the application and service names. For more information, see [\(Experimental\) Namespaces](../30-development/experimental-namespaces-b28fd77.md).
+Namespace for the MTA. They are also applied to the application and service names. For more information, see [Namespaces](../30-development/namespaces-b28fd77.md).
 
 </td>
 </tr>
@@ -703,11 +698,6 @@ Namespace for the MTA. They are also applied to the application and service name
 <td valign="top">
 
 <code><i>--apply-namespace-app-names true/false</i></code>
-
-> ### Note:  
-> This option is currently experimental.
-
-
 
 </td>
 <td valign="top">
@@ -726,11 +716,6 @@ Apply namespace to application names. If the namespace value is not provided in 
 
 <code><i>--apply-namespace-service-names true/false</i></code>
 
-> ### Note:  
-> This option is currently experimental.
-
-
-
 </td>
 <td valign="top">
 
@@ -747,11 +732,6 @@ Apply namespace to service names. If the namespace value is not provided in the 
 <td valign="top">
 
 <code><i>--apply-namespace-app-routes true/false</i></code>
-
-> ### Note:  
-> This option is currently experimental.
-
-
 
 </td>
 <td valign="top">
@@ -770,11 +750,6 @@ Apply namespace to application routes. If the namespace value is not provided in
 
 <code><i>--apply-namespace-as-suffix true/false</i></code>
 
-> ### Note:  
-> This option is currently experimental.
-
-
-
 </td>
 <td valign="top">
 
@@ -792,24 +767,19 @@ Apply namespace as suffix. If the namespace value is not provided in the CLI opt
 
 <code><i>--skip-idle-start</i></code>
 
-> ### Note:  
-> This option is currently experimental.
-
-
-
 </td>
 <td valign="top">
 
-When using the *\--strategy* option for “blue-green”, you can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood this option includes *\--skip-testing-phase*.
+When using the *\--strategy* option for “blue-green”, you can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood, this option includes *\--skip-testing-phase*.
 
 </td>
 </tr>
 </table>
 
 > ### Note:  
-> -   If any of the options `-m`, `--all-modules`, `-r`, `--all-resource` is used, only the specified modules and resources will be deployed. Otherwise, everything will be deployed by default.
-> -   If the options for the module deploying \( `-m`, `--all-modules`\) are used, the modules need to contain a `path` element on an MTA module level, which points to the content of the module. In case the module has some `requires` dependency section to a resource that needs a configuration file, then the `requires` section should have a `path` parameter, which points to the configuration file.
-> -   If the options for the resource deploying \(`-r`, `--all-resource`\) are used, then any resources that have some configuration files need to contain a `path` parameter in their parameters section, which points to the configuration file.
+> -   If any of the options `-m`, `--all-modules`, `-r`, `--all-resources` is used, only the specified modules and resources will be deployed. Otherwise, everything will be deployed by default.
+> -   If the options for module deployment \(`-m`, `--all-modules`\) are used, the modules need to contain a `path` element on module level, which points to the content of the module. If the module has some `requires` dependency section to a resource that needs a configuration file, then the `requires` section should have a `path` parameter, which points to the configuration file.
+> -   If the options for the resource deployment \(`-r`, `--all-resources`\) are used, then any resources that have some configuration files need to contain a `path` parameter in their `parameters` section, which points to the configuration file.
 > -   The `path` element or parameter value should be relative to the MTA directory.
 > 
 > An example of an MTA deployment descriptor, containing all variants of the `path` elements and parameters can be found at [Defining Multitarget Application Deployment Descriptors for Cloud Foundry](../30-development/defining-multitarget-application-deployment-descriptors-for-cloud-foundry-f48880b.md).
@@ -823,7 +793,7 @@ When using the *\--strategy* option for “blue-green”, you can choose to skip
 Deploy a new Multitarget Application \(MTA\) using “blue-green” \(zero-downtime\) deployment.
 
 > ### Note:  
-> You can also perform this deployment type using the <code><i>deploy</i></code> command by using the experimental <code><i>--strategy blue-green</i></code> flag. See above for details.
+> You can also perform this deployment type using the <code><i>deploy</i></code> command by using the <code><i>--strategy blue-green</i></code> flag. See above for details.
 
 “Blue-green” deployment is a release technique that reduces application downtime and the resulting risk by running two identical target deployment environments called “blue” and “green”. Only one of the two target environments is “live” at any point in time and it is much easier to roll back to a previous version after a failed \(or undesired\) deployment.
 
@@ -881,7 +851,7 @@ or
 </td>
 <td valign="top">
 
-The path to \(and name of\) the archive or the path to the directory containing the Multitarget Application to deploy. The application archive must have the format \(and file extension\) `mtar`, for example, `MTApp1.mtar`; the specified directory can be specified as a path \(for example, `myApp/` or `.` \(current directory\).
+The path to \(and name of\) the archive or the path to the directory containing the Multitarget Application to deploy. The application archive must have the format \(and file extension\) `mtar`, for example, `MTApp1.mtar`. The directory can be specified as a path \(for example, `myApp/` or `.` \(current directory\)\).
 
 </td>
 </tr>
@@ -893,7 +863,7 @@ The path to \(and name of\) the archive or the path to the directory containing 
 </td>
 <td valign="top">
 
-Retry the operation specified number of times in case a non-content error \(default 3\).
+Retry the operation а specified number of times in case a non-content error \(default 3\).
 
 </td>
 </tr>
@@ -939,7 +909,7 @@ Define one or more extensions to the deployment descriptors; multiple extension 
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point that is to be used for the deployment operation.
+Specify the URL for the deploy-service endpoint that is to be used for the deployment operation.
 
 </td>
 </tr>
@@ -987,7 +957,7 @@ Specify the ID of the deploy operation that you want to perform an action on.
 </td>
 <td valign="top">
 
-Specify the action to perform on the deploy operation, for example, “abort”, “retry”, or “monitor”, or “resume”.
+Specify the action to perform on the deploy operation, for example, “abort”, “retry”, “monitor”, or “resume”.
 
 </td>
 </tr>
@@ -1131,14 +1101,14 @@ Perform the deployment, even if required administrator permissions are missing f
 </td>
 <td valign="top">
 
-If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*.
+If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA, and you will not be asked if you want to abort it.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-<code><i>-m &lt;module name&gt;. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.</i></code>
+<code><i>-m &lt;module name&gt;</i></code>
 
 </td>
 <td valign="top">
@@ -1208,29 +1178,234 @@ Deploy all resources.
 
 *\--skip-idle-start*
 
-> ### Note:  
-> This option is currently experimental.
-
-
-
 </td>
 <td valign="top">
 
-You can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood this option includes *\--no-confirm*.
+You can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood, this option includes *\--no-confirm*.
 
 </td>
 </tr>
 </table>
 
 > ### Note:  
-> -   If any of the options `-m`, `--all-modules`, `-r`, `--all-resource` is used, only the specified modules and resources will be deployed. Otherwise, everything will be deployed by default.
+> -   If any of the options `-m`, `--all-modules`, `-r`, `--all-resources` is used, only the specified modules and resources will be deployed. Otherwise, everything will be deployed by default.
 > -   If the options for the module deploying \( `-m`, `--all-modules`\) are used, the modules need to contain a `path` element on an MTA module level, which points to the content of the module. In case the module has some `requires` dependency section to a resource that needs a configuration file, then the `requires` section should have a `path` parameter, which points to the configuration file.
-> -   If the options for the resource deploying \(`-r`, `--all-resource`\) are used, then any resources that have some configuration files need to contain a `path` parameter in their parameters section, which points to the configuration file.
+> -   If the options for the resource deploying \(`-r`, `--all-resources`\) are used, then any resources that have some configuration files need to contain a `path` parameter in their parameters section, which points to the configuration file.
 > -   The `path` element or parameter value should be relative to the MTA directory.
 > 
 > See the complete procedure in section [Legacy Blue-Green Deployment](../30-development/legacy-blue-green-deployment-764308c.md).
 > 
 > An example of an MTA deployment descriptor, containing all variants of the `path` elements and parameters can be found at [Defining Multitarget Application Deployment Descriptors for Cloud Foundry](../30-development/defining-multitarget-application-deployment-descriptors-for-cloud-foundry-f48880b.md).
+
+
+
+<a name="loio65ddb1b51a0642148c6b468a759a8a2e__section_ff3_hl1_zdc"/>
+
+## rollback-mta
+
+Roll back to a previously deployed multitarget application \(MTA\) version with zero downtime.
+
+> ### Note:  
+> The rollback of multitarget applications is currently experimental. We advise you first try it out in a non-productive environment.
+
+> ### Note:  
+> If you plan to use the backup and rollback features, make sure you have the MultiApps CLI Plugin version 3.5.0 or higher.
+
+Rollback of MTA aims to quickly switch the productive traffic from the current MTA version to a previously deployed MTA version. For more information, see [\(Experimental\) Rollback of Multitarget Applications](../30-development/experimental-rollback-of-multitarget-applications-d612be9.md).
+
+
+
+### Usage
+
+Roll back your MTA to a previously deployed version:
+
+```
+cf rollback-mta MTA_ID [-t TIMEOUT] [-f] [--retries RETRIES] 
+[--namespace NAMESPACE] [--do-not-fail-on-missing-permissions] [--abort-on-error] 
+[--apps-start-timeout TIMEOUT] [--apps-stage-timeout TIMEOUT] [--apps-upload-timeout TIMEOUT] 
+[--apps-task-execution-timeout TIMEOUT]
+```
+
+
+
+### Options
+
+**Command Options Overview**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Option
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--process-user-provided-services</i></code>
+
+</td>
+<td valign="top">
+
+Enable processing of user-provided services during rollback.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--namespace</i> </code>
+
+</td>
+<td valign="top">
+
+Namespace for the MTA. It is also applied to the application and service names. For more information, see [Namespaces](../30-development/namespaces-b28fd77.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>-u</i> <i class="varname">&lt;URL&gt;</i></code>
+
+</td>
+<td valign="top">
+
+Specify the URL for the deploy-service endpoint that is to be used for the deployment operation.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>-t</i> <i class="varname">&lt;TIMEOUT&gt;</i> </code>
+
+</td>
+<td valign="top">
+
+Specify the maximum amount of time \(in seconds\) that the service must wait for before starting the deployed application.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--apps-stage-timeout</i> <i class="varname">&lt;TIMEOUT&gt;</i> </code>
+
+</td>
+<td valign="top">
+
+Define how long, in seconds, your application can take during staging before the MTA operation times out. See [Application-Specific Timeouts](../30-development/applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc).
+
+> ### Note:  
+> This applies to all applications.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--apps-start-timeout</i> <i class="varname">&lt;TIMEOUT&gt;</i> </code>
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take to start before the MTA operation times out. See [Application-Specific Timeouts](../30-development/applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc).
+
+> ### Note:  
+> This applies to all applications.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--apps-task-execution-timeout</i> <i class="varname">&lt;TIMEOUT&gt;</i></code>
+
+</td>
+<td valign="top">
+
+Defines how long, in seconds, your application can take to execute a task before the MTA operation times out. See [Application-Specific Timeouts](../30-development/applications-0540211.md#loio05402110821742479725338cc8d7fe8c__section_qlj_kky_ncc).
+
+> ### Note:  
+> This applies to all applications.
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>-i</i> <i class="varname">&lt;OPERATION_ID&gt;</i></code>
+
+</td>
+<td valign="top">
+
+Specify the ID of the deploy operation that you want to perform an action on.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>-a</i> <i class="varname">&lt;ACTION&gt;</i></code>
+
+</td>
+<td valign="top">
+
+Specify the action to perform on the deploy operation, for example, “abort”, “retry”,  “monitor”, or “resume”.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>-f</i></code>
+
+</td>
+<td valign="top">
+
+Force deploy without requiring any confirmation for aborting any conflicting processes.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--do-not-fail-on-missing-permissions</i></code> 
+
+</td>
+<td valign="top">
+
+Perform the deployment, even if required administrator permissions are missing for some operations \(for example, the creation of service brokers\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--abort-on-error</i></code>
+
+</td>
+<td valign="top">
+
+If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option `-a retry`.
+
+</td>
+</tr>
+</table>
 
 
 
@@ -1300,7 +1475,7 @@ The ID of the MTA you want to undeploy
 </td>
 <td valign="top">
 
-Retry the operation specified number of times in case a non-content error \(default 3\).
+Retry the operation а specified number of times in case a non-content error \(default 3\).
 
 </td>
 </tr>
@@ -1334,7 +1509,7 @@ Description
 </td>
 <td valign="top">
 
-Specify the URL for the service end-point that is to be used for the undeployment operation.
+Specify the URL for the service endpoint that is to be used for the undeployment operation.
 
 </td>
 </tr>
@@ -1346,7 +1521,7 @@ Specify the URL for the service end-point that is to be used for the undeploymen
 </td>
 <td valign="top">
 
-Specify the ID of the undeploy operation that you want to perform an action on.
+Specify the ID of the undeploy operation on which you want to perform an action.
 
 </td>
 </tr>
@@ -1406,7 +1581,7 @@ Delete discontinued service brokers.
 </td>
 <td valign="top">
 
-Do not restart subscribed applications that are updated during the deployment.
+Do not restart subscribed applications that are updated during the undeployment.
 
 </td>
 </tr>
@@ -1418,7 +1593,7 @@ Do not restart subscribed applications that are updated during the deployment.
 </td>
 <td valign="top">
 
-Perform the deployment, even if required administrator permissions are missing for some operations \(for example, the creation of service brokers\).
+Perform the undeployment, even if required administrator permissions are missing for some operations \(for example, the creation of service brokers\).
 
 </td>
 </tr>
@@ -1430,7 +1605,7 @@ Perform the deployment, even if required administrator permissions are missing f
 </td>
 <td valign="top">
 
-If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA and ask you if you want to abort it.
+If an operation fails, the corresponding process is automatically aborted and cannot be retried using the option *\-a retry*. However, if you run a new operation for the same MTA, you will not receive an error message that there is an ongoing process for the MTA, and you will not be asked if you want to abort it.
 
 </td>
 </tr>
@@ -1527,7 +1702,7 @@ Description
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA.
+Specify the URL for the deploy-service endpoint to use to obtain details of the selected MTA.
 
 </td>
 </tr>
@@ -1577,7 +1752,7 @@ Description
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service endpoint to use to obtain details of the selected MTA.
+Specify the URL for the deploy-service endpoint to use to obtain details of the selected MTA.
 
 </td>
 </tr>
@@ -1627,7 +1802,7 @@ Description
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA operations.
+Specify the URL for the deploy-service endpoint to use to obtain details of the selected MTA operations.
 
 </td>
 </tr>
@@ -1723,7 +1898,7 @@ Description
 </td>
 <td valign="top">
 
-Specify the URL for the deployment-service end-point to use to obtain details of the selected MTA operations.
+Specify the URL for the deploy-service endpoint to use to obtain details of the selected MTA operations.
 
 </td>
 </tr>
@@ -1799,7 +1974,7 @@ cf purge-mta-config
 [-u <URL>]
 ```
 
-Invalid configuration entries are often produced when the application that is providing configuration entries is deleted by the user without using the deploy-service, for example, the `cf delete` command . In this case, the configuration remains in the deploy-service database even though the corresponding application is no longer available. This could lead to a failure during subsequent attempts to resolve the configuration entries.
+Invalid configuration entries are often produced when the application that is providing configuration entries is deleted by the user without using the deploy-service, for example, the `cf delete` command. In this case, the configuration remains in the deploy-service database even though the corresponding application is no longer available. This could lead to a failure during subsequent attempts to resolve the configuration entries.
 
 
 
@@ -1829,7 +2004,7 @@ Description
 </td>
 <td valign="top">
 
-The URL of the deploy service
+The URL of the deploy-service
 
 </td>
 </tr>
@@ -1838,9 +2013,9 @@ The URL of the deploy service
 **Related Information**  
 
 
-[MultiApps CLI plugin](https://github.com/cloudfoundry-incubator/multiapps-cli-plugin)
+[MultiApps CLI Plugin](https://github.com/cloudfoundry-incubator/multiapps-cli-plugin)
 
-[Cloud Foundry multitarget аpplication еxamples repository](https://github.com/SAP-samples/cf-mta-examples)
+[Cloud Foundry MTA Examples Repository](https://github.com/SAP-samples/cf-mta-examples)
 
 [Deploy an MTA archive referenced by a remote URL](https://github.com/SAP-samples/cf-mta-examples/tree/master/deploy-with-url)
 

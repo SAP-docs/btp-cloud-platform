@@ -103,5 +103,5 @@ To bind an application to a route with a namespace, use the `routes` and `apply-
 
 If you don't explicitly set the `apply-namespace` parameter for a specific route, its value will be determined by the application's `apply-namespace` parameter. This means that if the application has a namespace defined, that namespace will also be applied to the bound route. Conversely, if the application does not have a namespace, the route will not have one either.
 
-For more information, see [Fine-Grained Configuration](experimental-namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
+For more information, see [Fine-Grained Configuration](namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
 

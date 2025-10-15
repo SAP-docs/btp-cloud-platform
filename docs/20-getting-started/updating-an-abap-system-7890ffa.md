@@ -30,18 +30,99 @@ After you have created an ABAP environment instance, you can change the followin
 
 
 > ### Note:  
-> The updates of these properties are done without any downtime, or - in case of updating the HANA memory or disk size - with near zero downtime \(meaning that the database is not accessible for a few seconds only\).
+> The updates are done with zero downtime, except for the HANA database resizing, which is performed with near zero downtime. This means that the database is inaccessible for only a few seconds.
 
-To **change the initial admin**, you have to use the *Maintain Employees* SAP Fiori app. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
+> ### Tip:  
+> To **change the initial admin**, you have to use the *Maintain Employees* SAP Fiori app. See [Maintain Employees](../50-administration-and-ops/maintain-employees-e882b0f.md).
 
 > ### Restriction:  
-> A downsizing of the HANA Cloud memory size is only possible down to the minimum amount of memory required for a stable performance of the HANA Cloud database. Before the memory size is decreased, an SQL query \(as described on [SAP HANA Database Downsizing](https://help.sap.com/docs/hana-cloud/sap-hana-cloud-administration-guide/sap-hana-database-downsizing)\) is automatically run on the database to make sure the downsizing is possible based on the already consumed memory.
+> The following restrictions apply when resizing the HANA Cloud database:
 > 
-> The HANA Cloud memory size cannot be decreased while a system is stopped. To decrease the HANA Cloud memory size of a stopped instance, the instance has to be started via the `Landscape Portal` first.
+> -   Memory downsizing is limited to the minimum amount of memory required for a stable performance of the database. Before the memory size is decreased, an automatic SQL query \(as described in [SAP HANA Database Downsizing](https://help.sap.com/docs/hana-cloud/sap-hana-cloud-administration-guide/sap-hana-database-downsizing)\) verifies that sufficient memory is available before downsizing.
 > 
-> The HANA Cloud disk size can currently only be increased, and not decreased.
+> -   The memory size cannot be decreased while a system is stopped. To decrease the memory size of a stopped instance, the instance has to be started via the `Landscape Portal` first.
 > 
-> Both the HANA Cloud memory and the disk size can only be resized once every 24 hours.
+> -   The disk size can only be increased, not decreased.
+> 
+> -   Both memory and disk size can only be resized once every 24 hours.
+
+
+
+### Interdependencies Between HANA Cloud Memory and Disk Sizes
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+ 
+
+</th>
+<th valign="top">
+
+When increasing memory
+
+</th>
+<th valign="top">
+
+When decreasing memory
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+**Disk size = auto**
+
+</td>
+<td valign="top">
+
+If the current disk size is below the new minimum, it's automatically increased.
+
+</td>
+<td valign="top" rowspan="2">
+
+The disk size stays at its current value, even if it exceeds the new maximum disk size.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Disk size unchanged \(fixed value\)**
+
+</td>
+<td valign="top">
+
+The disk size must be at least equal to the new minimum disk size.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Disk size increased**
+
+</td>
+<td valign="top" colspan="2">
+
+The new disk size must be within the new minimum-maximum range.
+
+</td>
+</tr>
+</table>
+
+> ### Note:  
+> The minimum and maximum disk sizes \(`size_of_persistence_disk`\) are defined by the memory size \(`size_of_persistence`\) as follows:
+> 
+> -   `min(size_of_persistence_disk) = 40 * size_of_persistence + 40`
+> 
+> -   `max(size_of_persistence_disk) = 240 * size_of_persistence + 40`
+> 
+> 
+> Each GB above the \(new\) minimum disk size consumes 0.002 HANA compute units \(HCU\) of your quota.
 
 
 

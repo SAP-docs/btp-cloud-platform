@@ -98,9 +98,9 @@ The timeout parameters follow the following descending order of priority:
     >         task-execution-timeout:120 
     > ```
 
-3.  **Global-Level Parameters:** 
+3.  **Top-Level Parameters:** 
 
-    If neither a command-line option nor a module-level parameter are provided, the global parameters are used. Global parameters are applicable to all applications.
+    If neither a command-line option nor a module-level parameter are provided, the top-level parameters are used. Top-level parameters are applicable to all applications.
 
     > ### Example:  
     > ```

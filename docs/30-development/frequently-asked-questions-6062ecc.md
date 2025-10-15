@@ -2,6 +2,8 @@
 
 # Frequently Asked Questions
 
+Find the answers to the most frequently asked questions about MTA deployment in the Cloud Foundry environment.
+
 
 
 

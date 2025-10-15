@@ -211,7 +211,7 @@ To learn how to configure your application to use SapMachine JRE and JDK, see: [
 
 ## Components
 
-SAP Java Buildpack 2 provides the following components in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack_jakarta`\):
+SAP Java Buildpack 2 provides the following components in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack`\):
 
 -   Runtimes – [Tomcat 10](tomcat-10-97d0e34.md), [TomEE 10](tomee-10-66e808e.md), and [Java Main](java-main-8a1786a.md)
 

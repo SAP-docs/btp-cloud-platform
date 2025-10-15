@@ -1,8 +1,8 @@
 <!-- loio2e4dfeded960446da4aa1c0b734fc81b -->
 
-# \(Experimental\) Incremental Blue-Green Deployment Strategy
+# Incremental Blue-Green Deployment Strategy
 
-Use the incremental blue-green deployment strategy to save resources by incrementally deploying the new version of your Multitarget application.
+Use the incremental blue-green deployment strategy to save resources by incrementally deploying the new version of your multitarget application.
 
 
 
@@ -191,9 +191,9 @@ For more detailed information and example results of the incremental blue-green 
 **Related Information**  
 
 
-[Blue-Green Deployment Strategy](blue-green-deployment-strategy-7c83810.md "Use the current blue-green deployment of Multitarget applications.")
+[Blue-Green Deployment Strategy](blue-green-deployment-strategy-7c83810.md "Use the current blue-green deployment of multitarget applications.")
 
-[Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md "Use the legacy blue-green deployment strategy of Multitarget applications.")
+[Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md "Use the legacy blue-green deployment strategy of multitarget applications.")
 
 [Multitarget Application Commands for the Cloud Foundry Environment](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md "A list of additional commands to deploy multitarget applications (MTA) to the Cloud Foundry environment.")
 

@@ -126,7 +126,7 @@ Write
 
 Applies namespace to application names \(app-names\), service names \(service-names\), application routes \(app-routes\) as suffix or prefix \(as-suffix\). If the namespace value is not provided in the CLI options, it is not applied.
 
-See [Fine-Grained Configuration](experimental-namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
+See [Fine-Grained Configuration](namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
 
 > ### Note:  
 > This applies to all applications.

@@ -488,5 +488,5 @@ You can also extend module hooks through the extension descriptor. To do so, add
 
 [Defining MTA Extension Descriptors](defining-mta-extension-descriptors-50df803.md)
 
-[Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md "Use the legacy blue-green deployment strategy of Multitarget applications.")
+[Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md "Use the legacy blue-green deployment strategy of multitarget applications.")
 
