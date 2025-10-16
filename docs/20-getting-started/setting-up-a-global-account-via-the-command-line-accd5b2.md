@@ -378,7 +378,7 @@ Subaccount admin
 
 Run this command in the btp CLI:
 
-<code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;my-subaccount-id&gt;</i> --display-name <i class="varname">&lt;my-environment&gt;</i> --environment <i class="varname">&lt;cloudfoundry&gt;</i> --plan standard --parameters "{\"instance_name\":\"myOrg\"}"</code>
+<code>btp create accounts/environment-instance --subaccount <i class="varname">&lt;my-subaccount-id&gt;</i> --display-name <i class="varname">&lt;my-environment&gt;</i> --environment cloudfoundry --service cloudfoundry --plan standard --parameters "{\"instance_name\":\"myOrg\"}"</code>
 
 </td>
 <td valign="top">
