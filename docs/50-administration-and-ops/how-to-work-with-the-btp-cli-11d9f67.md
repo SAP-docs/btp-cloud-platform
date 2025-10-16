@@ -108,7 +108,7 @@ Displays client and server versions, target, and context. Note that this option 
 </td>
 <td valign="top">
 
-Displays help. See [Get Help for btp CLI](get-help-for-btp-cli-f8fd1e5.md).
+Displays help. See [Get Help](get-help-f8fd1e5.md).
 
 </td>
 </tr>

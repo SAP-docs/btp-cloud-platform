@@ -12,6 +12,14 @@ You can use this communication scenario to read Content Security Policy \(CSP\) 
 
 This communication scenario allows you to read Content Security Policy \(CSP\) data, such as read Content Security Policy statuses, or read trusted sites.
 
+**Authentication Methods**
+
+This communication scenario can be configured with the following inbound authentication methods:
+
+-   *Basic Authentication* \(user and password\)
+
+-   *X.509* \(certificates\)
+
 
 
 <a name="loiof51f6164ee1d489f91f165d61007f342__CSP_Integration_steps"/>

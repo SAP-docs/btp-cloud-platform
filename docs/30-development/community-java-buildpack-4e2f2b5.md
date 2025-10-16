@@ -15,7 +15,7 @@ The SAP BTP, Cloud Foundry environment provides one recent version of **`java_bu
 1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 
     ```
-    cf login -a https://api.cf.eu10.hana.ondemand.com
+    cf api https://api.cf.eu10.hana.ondemand.com
     ```
 
 2.  Then run:

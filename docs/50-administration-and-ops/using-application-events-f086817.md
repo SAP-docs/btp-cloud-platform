@@ -2,7 +2,7 @@
 
 # Using Application Events
 
-The *Events* page at application level in the SAP BTP cockpit shows the order in which actions are performed on an application. You can use these events to debug your application and analyze its state.
+The *Application Events* page at application level in the SAP BTP cockpit shows the order in which actions are performed on an application. You can use these events to debug your application and analyze its state.
 
 
 
@@ -58,7 +58,19 @@ Actor
 </td>
 <td valign="top">
 
-Shows who has triggered the event. It can be either you or Cloud Foundry.
+Shows who triggered the event. It can be either you or Cloud Foundry.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Target
+
+</td>
+<td valign="top">
+
+Shows where the event was triggered. Provides the name of the application.
 
 </td>
 </tr>

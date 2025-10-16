@@ -2,11 +2,18 @@
 
 # Business Event Logging
 
-Business Event Logging enables you to log business events that are raised by SAP S/4HANA applications when business processes run in the local system. Business event is a message that is sent to notify a consumer that an object has changed. These events are listed in the SAP Business Accelerator Hub. Events are triggered during the execution of business activities. For example, you can find events such as **created**, **changed**, and **deleted** for `Sales Order`.
+Business Event Logging enables you to log business events that are raised by activities of SAP S/4HANA applications or business users. Business events are messages that are sent to notify a consumer that an object has changed.
 
-You can activate Business Event Logging using configuration activities for each object, such as Sales Order, Outbound Delivery, and so on. Business event is a message that is sent to notify a consumer that an object has changed.
+The events triggered during the execution of business activities can be:
 
-The business event logs give you insights into the way processes run in the local system and how objects change. You can get an overview of all the logged business events, the number of events triggered, the types of business events triggered, and information on changes to fields.
+-   Business events for remote consumption: C2-released events \(external\)
+-   Business events for local consumption: C1-released events \(internal\)
+
+For example, you can find events such as **created**, **changed**, and **deleted** for Sales Order. The RAP-based events are listed in the SAP Business Accelerator Hub.
+
+You can activate Business Event Logging using configuration activities for each object, such as Sales Order, Outbound Delivery, and so on.
+
+The business event logs give you insights into the way processes run in the local system and how objects change. You can get an overview of all the logged business events, the number of events triggered, the types of events triggered, and information on changes to fields. Events of the same type occurring in the same session are grouped into activities.
 
 This graphic displays the components of Business Event Logging:
 

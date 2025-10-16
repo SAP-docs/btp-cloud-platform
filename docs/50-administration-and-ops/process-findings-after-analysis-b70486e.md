@@ -10,7 +10,7 @@ Find out how you can process your findings after custom code analysis.
 
 ## Purpose
 
-In case you've been wondering what the next steps would be after custom code analysis and what to do with your findings in the Custom Code Migration app, this topic is for you. Here, you will learn about your options for after custom code analysis.
+In case you've been wondering what the next steps would be after custom code analysis and what to do with your findings in the Analyze Custom Code app, this topic is for you. Here, you will learn about your options for after custom code analysis.
 
 1.  **ABAP Test Cockpit \(ATC\) Baseline**
 

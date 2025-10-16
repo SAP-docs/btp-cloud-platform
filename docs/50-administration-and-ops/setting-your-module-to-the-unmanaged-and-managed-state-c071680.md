@@ -32,13 +32,10 @@ In some cases, for example, for testing, you may need to modify your module beyo
 
 -   Use Kyma CLI
 
-    > ### Caution:  
-    > The `alpha` group commands are still in development, which means their functions and API may be modified over time. We encourage you to explore them, but keep in mind that changes may occur.
-
     -   To set a module to the unmanaged state, use the following command:
 
         ```
-        kyma alpha module unmanage {MODULE-NAME}
+        kyma module unmanage {MODULE-NAME}
         ```
 
 
@@ -81,13 +78,10 @@ In some cases, for example, for testing, you may need to modify your module beyo
 
 -   Use Kyma CLI
 
-    > ### Caution:  
-    > The `alpha` group commands are still in development, which means their functions and API may be modified over time. We encourage you to explore them, but keep in mind that changes may occur.
-
     -   To set a module to the managed state, use the following command:
 
         ```
-        kyma alpha module manage {MODULE-NAME}
+        kyma module manage {MODULE-NAME}
         ```
 
 

@@ -73,6 +73,17 @@ The registration process has the following states displayed in the cockpit:
 > 
 > If you want to start using another global account, you will have to register your SAP Marketing Cloud systems again.
 
+> ### Note:  
+> You can have the same SAP Marketing Cloud system registered in two global accounts:
+> 
+> -   If the two global accounts belong to the same Customer ID, then the SAP Marketing Cloud system will be auto discovered in both global accounts.
+> 
+>     In this case, if you register the SAP Marketing Cloud system in one of the global accounts, it will appear registered in the other global account as well. If the communications scenario group with which the SAP Marketing Cloud system has been registered in the first global account works for the use case in the second global account, then you can use the same system in a formation in the second global account as well.
+> 
+>     If the use case in the second global account requires a different communication scenario group, you have to add the SAP Marketing Cloud system manually in this global account and register it with the necessary communication scenario group.
+> 
+> -   If the two global accounts belong to different Customer IDs, the SAP Marketing Cloud system will be auto discovered in one of the global account and need to be added manually in the other. Then, you register the system for each of the global accounts.
+
 
 
 <a name="loioe9d975a45c954501bbe59e39dfb468c0__steps_iw4_jxw_2pb"/>
@@ -95,13 +106,11 @@ The registration process has the following states displayed in the cockpit:
 
     3.  Choose *Add*.
 
-    4.  In the *Communication Scenario Groups* dropdown menu, select *All Communication Scenarios* to create any of the communication scenarios in SAP Marketing Cloud.
-
-    5.  Choose *Get Token*.
+    4.  Choose *Get Token*.
 
         The system generates the registration token.
 
-    6.  Copy the registration token and send it to the tenant administrator for the respective SAP Marketing Cloud system. You need it for configuring the integration on the extended SAP Marketing Cloud system side.
+    5.  Copy the registration token and send it to the tenant administrator for the respective SAP Marketing Cloud system. You need it for configuring the integration on the extended SAP Marketing Cloud system side.
 
         You can also get the registration token later, once the system appears in the list on the *Systems* page.
 
@@ -110,7 +119,7 @@ The registration process has the following states displayed in the cockpit:
         > ### Note:  
         > A registration token can be used only once, for registering a single SAP Marketing Cloud system.
 
-    7.  Close the wizard.
+    6.  Close the wizard.
 
         The SAP Marketing Cloud system appears in the list of systems on the *Systems* page. Its *Status* field is empty because the registration process is not yet completed.
 

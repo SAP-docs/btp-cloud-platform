@@ -250,7 +250,7 @@ Case Management
 </td>
 <td valign="top">
 
-In the event of cases, make reasonable effort to support end users and manage their cases, to explore self-help tools to find already documented solutions, and to liaise with SAP support in the event of new problems to ensure timely processing of cases affecting the resources in the customer account.
+In the event of cases, make a reasonable effort to support end users and manage their cases, to explore self-help tools to find already documented solutions, and to liaise with SAP support in the event of new problems to ensure timely processing of cases affecting the resources in the customer account.
 
 </td>
 <td valign="top">
@@ -335,7 +335,7 @@ Backup & Restore
 </td>
 <td valign="top">
 
-Restore previously backed-up data to recover to a consistent state. Note: For some database services, there is a self-service for the restore process. Verify the completeness of the restored data based on log files created during the recovery and smoke tests to verify the system’s consistency.
+Restore previously backed-up data to recover to a consistent state. Note: For some database services, there's a self-service for the restore process. Verify the completeness of the restored data based on log files created during the recovery and smoke tests to verify the system’s consistency.
 
 </td>
 <td valign="top">
@@ -466,6 +466,46 @@ SAP
 <tr>
 <td valign="top">
 
+Malware Management
+
+</td>
+<td valign="top">
+
+Ensure that platform components like buildpacks, stemcells, container images are free of malware. However, you as a customer are responsible for your own application code and dependencies.
+
+</td>
+<td valign="top">
+
+-   SAP
+-   Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Vulnerabilities Management
+
+</td>
+<td valign="top">
+
+Check the OS patches, stemcells, buildpacks, and runtime. However, you as a customer are responsible for the application-level dependencies and libraries.
+
+</td>
+<td valign="top">
+
+-   SAP
+-   Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Application Management
 
 </td>
@@ -517,6 +557,26 @@ Customer
 <tr>
 <td valign="top">
 
+Application Management
+
+</td>
+<td valign="top">
+
+Ensure hardened container defaults, no root access, and isolation. However, you as a customer are responsible for secure application configuration and secrets.
+
+</td>
+<td valign="top">
+
+-   SAP
+-   Customer
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Network Management
 
 </td>
@@ -562,6 +622,26 @@ Create and manage own Web domain for the application in the subaccount to ensure
 <td valign="top">
 
 Customer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Network Management
+
+</td>
+<td valign="top">
+
+Provide and manage routing, default SAP Web domains, and isolation segments. However, you as a customer are responsible for any optional custom domains.
+
+</td>
+<td valign="top">
+
+-   SAP
+-   Customer
+
+
 
 </td>
 </tr>

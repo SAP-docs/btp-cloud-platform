@@ -2,7 +2,9 @@
 
 # MTA Operation Failure
 
-There might be different reasons for an MTA deployment failure. Retrying the last failed step\(s\) of an operation is the first basic step you can take to recover from a failed deployment. This approach is useful for temporary issues with the underlying infrastructure but not helpful for configuration or functional problems.
+Find information on how to troubleshoot a failed MTA deployment.
+
+There might be different reasons for an MTA deployment failure. Retrying the last failed steps of an operation is the first basic step you can take to recover from a failed deployment. This approach is useful for temporary issues with the underlying infrastructure but not helpful for configuration or functional problems.
 
 To do this, enter the following command:
 
@@ -11,7 +13,7 @@ To do this, enter the following command:
 > ### Example:  
 > `cf undeploy -i cbe58aeb-0c40-4a3e-972d-82a499815745 -a retry`
 
-If retrying the last failed step\(s\) does not solve the problem, you can either try redeploying your MTA or troubleshoot the problem on your own.
+If retrying the last failed steps does not solve the problem, you can either try redeploying your MTA or troubleshoot the problem on your own.
 
 To redeploy your MTA, proceed as follows:
 
@@ -23,12 +25,12 @@ To redeploy your MTA, proceed as follows:
     > `cf deploy -i cbe58aeb-0c40-4a3e-972d-82a499815745 -a abort`
 
     > ### Note:  
-    > This action will not roll back all applied changes to the previous stable version. It will allow the next deployments of that MTA to proceed without confirmation and the current process will end without any possibilities to retry it from the failed step-on.
+    > This action doesn't roll back all applied changes to the previous stable version. It allows the next deployments of that MTA to proceed without confirmation. The current process ends without any possibility to retry from the failed step.
 
-2.  Start a new deployment. See [Deploying to SAP BTP](https://help.sap.com/docs/btp/sap-business-technology-platform/multitarget-application-commands-for-cloud-foundry-environment?version=Cloud).
+2.  Start a new deployment.
 
 
-To troubleshoot the problem on your own, check the list of possible problems that may occur during the Multitarget Application deployment. If the problem cannot be categorized into any of the sections below, you need to [create an incident](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__create_incident).
+To troubleshoot the problem on your own, check the list of possible problems that may occur during the multitarget application deployment. If the problem cannot be categorized into any of the sections below, you need to [create an incident](troubleshooting-3530af7.md#loio3530af7ff2b449fbbc591dd3e2c0d151__create_incident).
 
 
 
@@ -36,13 +38,13 @@ To troubleshoot the problem on your own, check the list of possible problems tha
 
 ### Service Create Failure
 
-If the service create fails, an error message with the following format will be displayed:
+If the creation of the service fails, an error message with the following format will be displayed:
 
 ```
 ...Error creating service "<service-name>" from offering "<service-offering>" and plan "<service-plan>": <cause-of-failure>
 ```
 
-Such an error usually occurs due to a problem with the service provisioning infrastructure or the declared service creation parameters. To check if the issue is within the service provisioning infrastructure or the configuration outside the MTA, try creating the service using any of the listed methods in [Creating Service Instances](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-service-instances?locale=en-US&version=Cloud)
+Such an error usually occurs due to a problem with the service provisioning infrastructure or the declared service creation parameters. To check if the issue is within the service provisioning infrastructure or the configuration outside the MTA, try creating the service using any of the listed methods in [Creating Service Instances](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-service-instances?locale=en-US&version=Cloud).
 
 > ### Note:  
 > If any `create` parameters are used, make sure that they are the same as those that are used in the MTA. Note that the service creation parameters within the MTA may be located in different places, and their combination is required. For more information, see [Service Creation Parameters](https://help.sap.com/docs/btp/sap-business-technology-platform/service-creation-parameters?locale=en-US&version=Cloud).
@@ -65,7 +67,7 @@ Depending on the result, proceed in one of the following ways:
 
 ### Service Update Failure
 
-If the service update fails, an error message with the following format will be displayed:
+If the update of the service fails, an error message with the following format will be displayed:
 
 ```
 Error updating service "<service-name>" from offering "<service-offering>" and plan "<service-plan>": <cause-of-failure>
@@ -94,7 +96,7 @@ Depending on the result, proceed in one of the following ways:
 
 ### Service Delete Failure
 
-If the service delete fails, an error message with the following format will be displayed:
+If the deletion of the service fails, an error message with the following format will be displayed:
 
 ```
 Error deleting service "<service-name>" from offering "<service-offering>" and plan "<service-plan>": <cause-of-failure>

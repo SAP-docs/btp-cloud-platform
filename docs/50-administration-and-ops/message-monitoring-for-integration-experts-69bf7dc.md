@@ -39,6 +39,8 @@ You can use this app to:
 
 -   Define data links and dynamic data links for log messages without a predefined link.
 
+-   Display the original payload of a message in the message's data content.
+
 
 
 

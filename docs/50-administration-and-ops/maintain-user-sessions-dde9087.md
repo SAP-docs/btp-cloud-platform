@@ -4,7 +4,7 @@
 
 
 
-With this feature you can view all sessions containing locks in the current system. You can also display further information, such as associated business users. If required, you can delete a session, for example if it is blocking an app.
+With this app you can view all sessions containing locks in the current system. You can also display further information, such as associated business users. If required, you can delete a session, for example if it is blocking an app.
 
 > ### Caution:  
 > Please note that it is not possible to delete sessions that are related to drafts.

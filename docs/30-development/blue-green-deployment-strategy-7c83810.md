@@ -2,7 +2,7 @@
 
 # Blue-Green Deployment Strategy
 
-Use the current blue-green deployment of Multitarget applications.
+Use the current blue-green deployment of multitarget applications.
 
 
 
@@ -39,6 +39,9 @@ If you have already executed successful deployments using the [Legacy Blue-Green
 
 1.  Deploy your updated MTA in idle state by executing the command `cf deploy <your-mta-archive-v2> --strategy blue-green`.
 
+    > ### Note:  
+    > If you want to have the opportunity to perform a rollback after the blue-green deployment, you need to back up your MTA by adding the command line option `--backup-previous-version`. For more information, see [\(Experimental\) Rollback of Multitarget Applications](experimental-rollback-of-multitarget-applications-d612be9.md).
+
     The first action is that all MTA services are updated.
 
     This creates:
@@ -48,7 +51,7 @@ If you have already executed successful deployments using the [Legacy Blue-Green
         > ### Note:  
         > The new application version is launched on all instances defined in the MTA deployment descriptor. During the testing phase or when the deployment is paused for user verification, the application temporarily requires double the usual resources \(instances\). This is because both the old and the new versions of the application are running concurrently. If the testing phase is skipped or if the deployment continues without delay, the resource usage will be optimized sooner.
         > 
-        > If you are looking for a more resource-efficient deployment approach, see [\(Experimental\) Incremental Blue-Green Deployment Strategy](experimental-incremental-blue-green-deployment-strategy-2e4dfed.md). However, keep in mind that this approach requires more time than the standard blue-green deployment strategy.
+        > If you are looking for a more resource-efficient deployment approach, see [Incremental Blue-Green Deployment Strategy](incremental-blue-green-deployment-strategy-2e4dfed.md). However, keep in mind that this approach requires more time than the standard blue-green deployment strategy.
 
     -   temporary routes to the idle applications
 
@@ -103,11 +106,11 @@ For more detailed information and example results of the blue-green deployment p
 **Related Information**  
 
 
-[Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md "Use the blue-green deployment technique by running two identical production environments, allowing seamless updates without downtime for Cloud Foundry Multitarget applications.")
+[Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md "Use the blue-green deployment technique by running two identical production environments, allowing seamless updates without downtime for Cloud Foundry multitarget applications.")
 
-[Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md "Use the legacy blue-green deployment strategy of Multitarget applications.")
+[Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md "Use the legacy blue-green deployment strategy of multitarget applications.")
 
-[\(Experimental\) Incremental Blue-Green Deployment Strategy](experimental-incremental-blue-green-deployment-strategy-2e4dfed.md "Use the incremental blue-green deployment strategy to save resources by incrementally deploying the new version of your Multitarget application.")
+[Incremental Blue-Green Deployment Strategy](incremental-blue-green-deployment-strategy-2e4dfed.md "Use the incremental blue-green deployment strategy to save resources by incrementally deploying the new version of your multitarget application.")
 
 [Multitarget Application Commands for the Cloud Foundry Environment](../50-administration-and-ops/multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md "A list of additional commands to deploy multitarget applications (MTA) to the Cloud Foundry environment.")
 

@@ -443,9 +443,9 @@ Provisioning
 <tr>
 <td valign="top">
 
-*Shoot and Seed Same Region*
+*Colocate Control Plane*
 
-btp CLI parameter: `ShootAndSeedSameRegion`
+btp CLI parameter: `colocateControlPlane`
 
 </td>
 <td valign="top">
@@ -460,7 +460,7 @@ Provisioning
 </td>
 <td valign="top">
 
-[Shoot and Seed Same Region](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
+[Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
 
 </td>
 </tr>
@@ -676,7 +676,9 @@ Updating
 
 ## Build Runtime: Amazon Web Services, Google Cloud, and Microsoft Azure
 
-The technical names of these enterprise plans are `build-runtime-aws`, `build-runtime-azure`, and `build-runtime-gcp`. Use them to integrate Kyma's functionalities within SAP Build. See the [SAP Build documentation](https://help.sap.com/docs/build-service/build-service-guide/what-is-sap-build?version=Cloud).
+The technical names of these enterprise plans are `build-runtime-aws`, `build-runtime-gcp`, and `build-runtime-azure`. Use them to integrate Kyma's functionalities within SAP Build. See the [SAP Build documentation](https://help.sap.com/docs/build-service/build-service-guide/what-is-sap-build?version=Cloud).
+
+You can also use the Build Runtime plans within the [*Pay-As-You-Go for SAP BTP for cloud test, demo, and development*](https://partneredge.sap.com/en/profile/create-profile.html) commercial model. For details, see [Service Plans and Metering](https://help.sap.com/docs/build-service/build-service-guide/service-plans-and-metering?locale=en-US&version=Cloud).
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
@@ -758,9 +760,9 @@ Provisioning
 <tr>
 <td valign="top">
 
-*Shoot and Seed Same Region*
+*Colocate Control Plane*
 
-btp CLI parameter: `ShootAndSeedSameRegion`
+btp CLI parameter: `colocateControlPlane`
 
 </td>
 <td valign="top">
@@ -775,7 +777,7 @@ Provisioning
 </td>
 <td valign="top">
 
-[Shoot and Seed Same Region](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
+[Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
 
 </td>
 </tr>
@@ -991,7 +993,7 @@ Updating
 
 ## Kyma Test Demo and Development \(Azure Lite\)
 
-The technical name of the plan is `azure_lite`. The Kyma Test Demo and Development plan is offered to Partners, whithin the [*Pay-As-You-Go for SAP BTP for cloud test, demo, and development*](https://partneredge.sap.com/en/profile/create-profile.html) commercial model. You can use this plan for testing, development, and demo purposes. In the SAP BTP cockpit, the plan is called "Kyma Runtime Partner TDD".
+The technical name of the plan is `azure_lite`. The Kyma Test Demo and Development plan is offered to Partners, within the [*Pay-As-You-Go for SAP BTP for cloud test, demo, and development*](https://partneredge.sap.com/en/profile/create-profile.html) commercial model. You can use this plan for testing, development, and demo purposes. In the SAP BTP cockpit, the plan is called "Kyma Runtime Partner TDD".
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.

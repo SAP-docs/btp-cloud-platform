@@ -47,3 +47,5 @@ SAP systems connected to a Kyma environment expose APIs and events. To extend th
 
 [Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/kyma-runtime)
 
+[What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?version=Cloud)
+

@@ -24,7 +24,9 @@ If you need further assistance with creating and deploying an application, check
 
 ## 1. Generating and Deploying Your Application
 
-> ### Prerequisites:  
+> ### Note:  
+> **Prerequisites**:
+> 
 > -   You have created a development package in ABAP Development Tools for Eclipse. See [Creating ABAP Packages](https://help.sap.com/docs/btp/sap-abap-development-user-guide/creating-abap-packages?version=Cloud).
 > -   You have exposed a RAP business service as an OData service. See [Using Service Binding Editor for OData Service](https://help.sap.com/docs/abap-cloud/abap-cds-tools-user-guide/using-service-binding-editor-for-odata-v4-service?version=sap_btp). In case no suitable service is available yet, you may create one based on a released BO interface or CDS View. See[Develop an OData UI Service Against a Released BO Interface or CS View](https://help.sap.com/docs/btp/sap-business-technology-platform-internal/develop-odata-ui-service-against-released-bo-interface-or-cds-view?version=Cloud).
 > -   Business catalog `SAP_A4C_BC_DEV_UID_PC` is assigned to your user, which allows you to discover available services and deploy your application.
@@ -70,7 +72,9 @@ If you need further assistance with creating and deploying an application, check
 
 ## 2. Creating and Publishing Your Identity and Access Management \(IAM\) App
 
-> ### Prerequisite:  
+> ### Note:  
+> **Prerequisites**:
+> 
 > Business catalog `SAP_A4C_BC_DEV_PC` is assigned to your user, which is required for development with ABAP Development Tools. See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
 
 ![](images/DevelopSAPFioriPic1_19a2ef5.png)

@@ -31,7 +31,7 @@ For all tasks on global account and subaccount level, you can use the **the btp 
 ## Procedure
 
 > ### Tip:  
-> In the btp CLI, you can view the command help of each command to get information about how to use the command, its syntax, and input parameters. See [Get Help for btp CLI](../50-administration-and-ops/get-help-for-btp-cli-f8fd1e5.md).
+> In the btp CLI, you can view the command help of each command to get information about how to use the command, its syntax, and input parameters. See [Get Help](../50-administration-and-ops/get-help-f8fd1e5.md).
 
 
 <table>

@@ -2,7 +2,7 @@
 
 # Troubleshooting
 
-This topic contains information that is essential for troubleshooting issues.
+This topic contains information that is essential for troubleshooting issues when deploying multitarget applications in the Cloud Foundry environment.
 
 
 

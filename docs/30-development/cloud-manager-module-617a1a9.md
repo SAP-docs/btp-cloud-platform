@@ -24,7 +24,7 @@ The Cloud Manager module manages access to cloud providers' chosen resources and
 The Cloud Manager module is available on Kyma clusters running on Amazon Web Services, Google Cloud, and Microsoft Azure.
 
 > ### Restriction:  
-> Cloud Manager supports the NFS and VPC peering features of Amazon Web Services and Google Cloud only.
+> Cloud Manager supports the NFS feature of Amazon Web Services and Google Cloud only.
 
 
 

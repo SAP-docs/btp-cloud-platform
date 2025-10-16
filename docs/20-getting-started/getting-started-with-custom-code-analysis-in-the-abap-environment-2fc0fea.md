@@ -8,15 +8,15 @@ You want to use the SAP BTP ABAP environment to analyze your custom code remotel
 
 The following list covers all possible use cases and will guide you to the respective documentation chapters providing more details on each use case.
 
-1.  **ABAP Test Cockpit Configurator:** Use this app to maintain ATC configurations using the SAP Fiori launchpad.
+1.  **Configure ABAP Test Cockpit:** Use this app to maintain ATC configurations using the SAP Fiori launchpad.
 
     For more information on this app, see [ABAP Test Cockpit Configurator](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/abap-test-cockpit-configurator).
 
     To learn how to enable the app, see [Enable Usage of the ABAP Test Cockpit Configurator App](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/enable-usage-of-abap-test-cockpit-configurator-app).
 
-2.  **Custom Code Analysis:** If you want to check your custom code in your on-premise system remotely using the SAP BTP ABAP environment as the central check system, you need to set up the Custom Code Migration app on the SAP Fiori launchpad.
+2.  **Custom Code Analysis:** If you want to check your custom code in your on-premise system remotely using the SAP BTP ABAP environment as the central check system, you need to set up the Analyze Custom Code app on the SAP Fiori launchpad.
 
-    To enable the Custom Code Migration app, see [Enable Usage of the Custom Code Migration App](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/enable-usage-of-custom-code-migration-app).
+    To enable the Analyze Custom Code app, see [Enable Usage of the Custom Code Migration App](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/enable-usage-of-custom-code-migration-app).
 
     To learn all about custom code migration, see the [Custom Code Migration Guide for SAP S/4HANA 2023](https://help.sap.com/doc/9dcbc5e47ba54a5cbb509afaa49dd5a1/2023.000/en-US/CustomCodeMigration_EndToEnd.pdf).
 
@@ -32,13 +32,13 @@ The following list covers all possible use cases and will guide you to the respe
 
     For more information on the Approve ATC Exemptions app, see [Approve ATC Exemptions](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/approve-atc-exemptions).
 
-5.  **Schedule Custom Code Analysis:** The Schedule Custom Code Analysis app enables you to schedule projects created in the Custom Code Migration app as application jobs. With this functionality, the analyses can be performed once or periodically.
+5.  **Schedule Custom Code Analysis:** The Schedule Custom Code Analysis app enables you to schedule projects created in the Analyze Custom Code app as application jobs. With this functionality, the analyses can be performed once or periodically.
 
     To learn more about the app and how to enable it, see [Schedule Custom Code Analysis](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/schedule-custom-code-analysis).
 
-6.  **Maintain the Baseline:** In the Custom Code Migration app, it is now possible to maintain the ATC baseline. This means that you can add/remove custom code project check results to/from the baseline​ and choose whether you would like to exempt your findings, suppress your findings or reduce their priority. After adding findings to the baseline, they won't appear in the subsequent check results of the custom code project.
+6.  **Maintain the Baseline:** In the Analyze Custom Code app, it is now possible to maintain the ATC baseline. This means that you can add/remove custom code project check results to/from the baseline​ and choose whether you would like to exempt your findings, suppress your findings or reduce their priority. After adding findings to the baseline, they won't appear in the subsequent check results of the custom code project.
 
-    To learn more about the baseline functionality in the Custom Code Migration app, see [Custom Code Migration](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/custom-code-migration).
+    To learn more about the baseline functionality in the Analyze Custom Code app, see [Custom Code Migration](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/custom-code-migration).
 
 
 **Related Information**  
@@ -46,5 +46,5 @@ The following list covers all possible use cases and will guide you to the respe
 
 [SAP BTP ABAP environment](https://help.sap.com/docs/sap-btp-abap-environment)
 
-[Custom Code Analysis](../50-administration-and-ops/custom-code-analysis-15d0a1a.md "")
+[Custom Code Analysis](../50-administration-and-ops/performing-a-custom-code-analysis-15d0a1a.md "")
 

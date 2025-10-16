@@ -296,17 +296,31 @@ For easier access from the Kyma dashboard, add links to the navigation under *SA
 
 
 
+<a name="task_set_up_kyma_dashboard_integration__context_a1p_htz_3gc"/>
+
+## Context
+
+Depending on the output you use in your `LogPipeline`, apply the `ConfigMap`. If your Secret has a different name or namespace, then download the file first and adjust the namespace and name accordingly in the `dataSources` section of the file.
+
+
+
 <a name="task_set_up_kyma_dashboard_integration__steps_jw2_hbw_xbc"/>
 
 ## Procedure
 
-1.  Apply the `ConfigMap`:
+-   For OTLP, run:
 
     ```
     kubectl apply -f https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/kyma-dashboard-configmap.yaml
+    
     ```
 
-2.  If your Secret has a different name or namespace, then download the file first and adjust the namespace and name accordingly in the `dataSources` section of the file.
+-   For HTTP, run:
+
+    ```
+    kubectl apply -f https://raw.githubusercontent.com/kyma-project/telemetry-manager/main/docs/user/integration/sap-cloud-logging/kyma-dashboard-http-configmap.yaml
+    
+    ```
 
 
 <a name="task_use_CLS_alerts"/>

@@ -2,7 +2,7 @@
 
 # Legacy Blue-Green Deployment
 
-Use the legacy blue-green deployment strategy of Multitarget applications.
+Use the legacy blue-green deployment strategy of multitarget applications.
 
 
 
@@ -27,6 +27,9 @@ Use the legacy blue-green deployment strategy of Multitarget applications.
 ## Procedure
 
 1.  Deploy your updated MTA \(the green version\) by executing the `cf bg-deploy <your-mta-archive-v2>` command.
+
+    > ### Note:  
+    > If you want to have the opportunity to perform a rollback after the blue-green deployment, you need to back up your MTA by adding the command line option `--backup-previous-version`. For more information, see [\(Experimental\) Rollback of Multitarget Applications](experimental-rollback-of-multitarget-applications-d612be9.md).
 
     The first action is that all MTA services are updated.
 
@@ -88,9 +91,9 @@ For more detailed information and example results of the legacy blue-green deplo
 **Related Information**  
 
 
-[Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md "Use the blue-green deployment technique by running two identical production environments, allowing seamless updates without downtime for Cloud Foundry Multitarget applications.")
+[Blue-Green Deployment of Multitarget Applications](blue-green-deployment-of-multitarget-applications-772ab72.md "Use the blue-green deployment technique by running two identical production environments, allowing seamless updates without downtime for Cloud Foundry multitarget applications.")
 
-[Blue-Green Deployment Strategy](blue-green-deployment-strategy-7c83810.md "Use the current blue-green deployment of Multitarget applications.")
+[Blue-Green Deployment Strategy](blue-green-deployment-strategy-7c83810.md "Use the current blue-green deployment of multitarget applications.")
 
-[\(Experimental\) Incremental Blue-Green Deployment Strategy](experimental-incremental-blue-green-deployment-strategy-2e4dfed.md "Use the incremental blue-green deployment strategy to save resources by incrementally deploying the new version of your Multitarget application.")
+[Incremental Blue-Green Deployment Strategy](incremental-blue-green-deployment-strategy-2e4dfed.md "Use the incremental blue-green deployment strategy to save resources by incrementally deploying the new version of your multitarget application.")
 

@@ -136,7 +136,7 @@ Custom Code Migration Integration \(SAP\_COM\_0464\).
 </td>
 <td valign="top">
 
-[Enable Usage of the Custom Code Migration App](enable-usage-of-the-custom-code-migration-app-34f67ed.md)
+[Enable Usage of the Analyze Custom Code App](enable-usage-of-the-analyze-custom-code-app-34f67ed.md)
 
 </td>
 </tr>

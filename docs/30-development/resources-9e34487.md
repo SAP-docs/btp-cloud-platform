@@ -133,8 +133,6 @@ In the above example:
     > > 
     > > ```
 
-    **Updating managed service instances:**
-
     Updating managed service instances is fail-safe by default in certain scenarios, specifically when the service broker is involved. This behavior exists for legacy compatibility with service brokers that did not support plan updates in the Cloud Controller v2 API. If this fail-safe behavior is not desired, you can control it by using the `fail-on-service-update` parameter. For more information, see [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters), [Updating Service Plans](services-6ef40df.md#loio6ef40dfc2ef14bb08c28cd53b4de4c0b__section_sgc_322_mfc), [Updating Service Instance Parameters](service-instance-parameters-a36df26.md#loioa36df26b36484129b482ae20c3eb8004__section_ap5_lrd_mfc), [Updating Service Tags](service-tags-3e36d13.md#loio3e36d133d9f342d4a3a6fde235783ccc__section_tht_232_mfc).
 
     > ### Note:  
@@ -922,7 +920,12 @@ Parameter
 </th>
 <th valign="top">
 
-Read-Only \(System\)
+Scope
+
+</th>
+<th valign="top">
+
+Read-Only / Write
 
 </th>
 <th valign="top">
@@ -949,12 +952,17 @@ Example
 </td>
 <td valign="top">
 
+Resource
+
+</td>
+<td valign="top">
+
 Write
 
 </td>
 <td valign="top">
 
-Applies namespace to the service name. If the namespace value is not provided in the CLI options, it is not applied. For more information, see [Fine-Grained Configuration](experimental-namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
+Applies namespace to the service name. If the namespace value is not provided in the CLI options, it is not applied. For more information, see [Fine-Grained Configuration](namespaces-b28fd77.md#loiob28fd77836d44bde8c404618bf0f1228__section_hmf_khn_xcc).
 
 </td>
 <td valign="top">
@@ -981,6 +989,11 @@ resources:
 <td valign="top">
 
 `config`
+
+</td>
+<td valign="top">
+
+Resource
 
 </td>
 <td valign="top">
@@ -1012,7 +1025,12 @@ See [Service Instance Parameters](service-instance-parameters-a36df26.md).
 </td>
 <td valign="top">
 
-Yes
+Resource
+
+</td>
+<td valign="top">
+
+Read-Only
 
 </td>
 <td valign="top">
@@ -1044,7 +1062,12 @@ Generated as described in the description.
 </td>
 <td valign="top">
 
-Yes
+Resource
+
+</td>
+<td valign="top">
+
+Read-Only
 
 </td>
 <td valign="top">
@@ -1073,7 +1096,12 @@ The resource name with or without a name-space prefix
 </td>
 <td valign="top">
 
-Yes
+Resource
+
+</td>
+<td valign="top">
+
+Read-Only
 
 </td>
 <td valign="top">
@@ -1096,6 +1124,11 @@ Generated as described in the description.
 <td valign="top">
 
 `fail-on-service-update`
+
+</td>
+<td valign="top">
+
+Resource
 
 </td>
 <td valign="top">
@@ -1145,7 +1178,12 @@ fail-on-service-update:
 </td>
 <td valign="top">
 
- 
+Resource
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1168,6 +1206,11 @@ Empty, or as specified in resource-type
 <td valign="top">
 
 `service-key-name`
+
+</td>
+<td valign="top">
+
+Resource
 
 </td>
 <td valign="top">
@@ -1199,7 +1242,12 @@ The name of the resource.
 </td>
 <td valign="top">
 
- 
+Resource
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1233,7 +1281,12 @@ The name of the service in the Cloud Foundry environment to be created for this 
 </td>
 <td valign="top">
 
- 
+Resource
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1256,6 +1309,11 @@ Empty, or as specified in resource-type
 <td valign="top">
 
 `service-tags`
+
+</td>
+<td valign="top">
+
+Resource
 
 </td>
 <td valign="top">
@@ -1295,7 +1353,12 @@ resources:
 </td>
 <td valign="top">
 
- 
+Resource
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1332,7 +1395,12 @@ resources:
 </td>
 <td valign="top">
 
- 
+Resource
+
+</td>
+<td valign="top">
+
+Write
 
 </td>
 <td valign="top">
@@ -1372,6 +1440,11 @@ Note that these 3 key-value pairs can be in any order.
 <td valign="top">
 
 `syslog-drain-url`
+
+</td>
+<td valign="top">
+
+Resource
 
 </td>
 <td valign="top">

@@ -26,7 +26,7 @@ All users can log on to the SAP BTP cockpit with a custom identity provider.
 Use the *Open* link in the *SAP BTP Cockpit* column. It contains a URL for the user to log on with the custom identity provider.
 
 > ### Example:  
-> *https://emea.cockpit.btp.cloud.sap/cockpit/?idp=cidppuxhm.accounts.ondemand.com*
+> *https://emea.cockpit.btp.cloud.sap/cockpit/?idp=mytenant.accounts.ondemand.com*
 
 
 

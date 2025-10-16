@@ -4,7 +4,7 @@
 
 # Enable Joule in the Cockpit
 
-Enable Joule in the SAP BTP Cockpit to access Generative AI capabilities.
+Enable Joule in SAP BTP cockpit to access Generative AI capabilities.
 
 
 
@@ -12,14 +12,17 @@ Enable Joule in the SAP BTP Cockpit to access Generative AI capabilities.
 
 ## Prerequisites
 
--   You have the Administrator role for the global account for which you'd like to enable Joule in the BTP cockpit.
+-   You have the Administrator role for the global account for which you'd like to enable Joule in the cockpit.
 -   Joule is available for your global account \(P-/S-users\). Make sure you are accessing the cockpit from the SAP default identity provider.
+
+> ### Note:  
+> This version of Joule is provided free of charge in non-trial BTP Global Accounts and is limited to supporting BTP administration capabilities only within SAP BTP cockpit.
 
 
 
 ## Procedure
 
-1.  Open the global account for which you'd like to enable Joule in the BTP cockpit.
+1.  Open the global account for which you'd like to enable Joule in SAP BTP cockpit.
 
 2.  Navigate to the global account settings by selecting :gear:.
 

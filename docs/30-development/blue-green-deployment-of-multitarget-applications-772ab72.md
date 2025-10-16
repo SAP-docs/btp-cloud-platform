@@ -2,18 +2,18 @@
 
 # Blue-Green Deployment of Multitarget Applications
 
-Use the blue-green deployment technique by running two identical production environments, allowing seamless updates without downtime for Cloud Foundry Multitarget applications.
+Use the blue-green deployment technique by running two identical production environments, allowing seamless updates without downtime for Cloud Foundry multitarget applications.
 
 > ### Restriction:  
 > Blue-green deployment is supported only for Cloud Foundry applications. It is not supported for bound services, such as service instances and their configuration, workflow content, and HTML5 repository content, among others. Live and idle applications are bound to the same service instances.
 
 By using the blue-green deployment technique, you can update the system without downtime and with reduced risk. During the process, you can perform tests and validation of the new application version using productive data. A classical blue-green deployment of stateless applications, which are modeled as an MTA, is supported.
 
-In the context of Multitarget applications, you have the following options for using blue-green deployment:
+In the context of multitarget applications, you have the following options for using blue-green deployment:
 
 -   [Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md) - where the production environments are called “blue” and “green”
 -   [Blue-Green Deployment Strategy](blue-green-deployment-strategy-7c83810.md) - where the production environments are called “live” and “idle”
--   [\(Experimental\) Incremental Blue-Green Deployment Strategy](experimental-incremental-blue-green-deployment-strategy-2e4dfed.md) - an alternative to the standard blue-green deployment strategy, where the "idle" application is incrementally scaled up to the desired instance count while the "live" application instances are gradually stopped
+-   [Incremental Blue-Green Deployment Strategy](incremental-blue-green-deployment-strategy-2e4dfed.md) - an alternative to the standard blue-green deployment strategy, where the "idle" application is incrementally scaled up to the desired instance count while the "live" application instances are gradually stopped
 
 **Related Information**  
 

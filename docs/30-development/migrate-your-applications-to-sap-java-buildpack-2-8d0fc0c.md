@@ -2,7 +2,7 @@
 
 # Migrate your Applications to SAP Java Buildpack 2
 
-SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment in July 2025.
+SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment on December 31, 2025.
 
 
 
@@ -32,7 +32,7 @@ To check which buildpack your Java applications are currently using, proceed as 
 1.  Log in to Cloud Foundry by choosing your SAP BTP region. For example, if your region is **eu10**, run:
 
     ```
-    cf login -a https://api.cf.eu10.hana.ondemand.com
+    cf api https://api.cf.eu10.hana.ondemand.com
     ```
 
 2.  Enter your credentials and choose your Cloud Foundry subaccount and space.
@@ -133,7 +133,7 @@ If you have multi-target applications \(MTA\), you need to adjust all modules wi
 -   `java.tomee`
 
 
-Since MTA deployment descriptors currently use `sap_java_buildpack` as a default buildpack, you need to set the `buildpack` module parameter to **`sap_java_buildpack_jakarta`**. For example:
+MTA deployment descriptors are now using `sap_java_buildpack_jakarta` as a default buildpack. However, if you have MTA applications with older configuration \(using `sap_java_buildpack`\), you need to set the `buildpack` module parameter to **`sap_java_buildpack_jakarta`**, like this:
 
 ```
 
@@ -161,11 +161,9 @@ For more information, see [MTA Module Types](https://help.sap.com/docs/btp/sap-b
 
 ## Timeline
 
-We plan to support SAP Java Buildpack 1 until **October 1, 2025** when it will be removed from SAP BTP, Cloud Foundry environment. Applications that haven't been migrated to SAP Java Buildpack 2 by then might continue to run but will get an error when being restaged or redeployed.
+We plan to support SAP Java Buildpack 1 until **December 31, 2025** when it will be removed from SAP BTP, Cloud Foundry environment. Applications that haven't been migrated to SAP Java Buildpack 2 by then might continue to run but will get an error when being restaged or redeployed.
 
-In Q4 of 2024, we stopped adding new features to SAP Java Buildpack 1, and only provided security updates and bug fixes.
-
-In H1 of 2025, new releases for SAP Java Buildpack 1 will be made only for critical security updates and bug fixes.
+In 2025, new releases for SAP Java Buildpack 1 will be made only for critical security updates and bug fixes.
 
 **Related Information**  
 

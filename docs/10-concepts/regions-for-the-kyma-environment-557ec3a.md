@@ -7,7 +7,7 @@ To work with the Kyma environment, you need to specify the region for both your 
 
 
 > ### Note:  
-> In the Kyma environment, IP addresses for NAT Gateway that handles the egress traffic are configured dynamically. This means that you cannot identify the IP address of NAT Gateway in advance. However, once the IP address is assigned, it remains unchanged throughout the cluster's lifecycle.
+> You can see the IP addresses for NAT Gateway that handles the egress traffic as values of the `cloud.natGatewayIps` parameter in the `kyma-info` ConfigMap in your Kyma instance. To check the NAT IPs, run `kubectl --namespace kyma-system get configmap kyma-info -o json | jq -r '.data["cloud.natGatewayIps"]'`.
 
 
 

@@ -33,4 +33,6 @@ Rather than disappearing, deprecated business catalogs are identified as being o
 
     **Example:** A business catalog is deprecated with a Cloud 2202 release. The business catalog will then be deleted with the Cloud 2208 release.
 
+3.  Ensure that also the assignments of custom catalog extensions are changed.
+
 

@@ -14,9 +14,13 @@ This buildpack supports Java 8, 11, and 17, as well as the following runtimes:
 
 
 > ### Caution:  
-> Bear in mind that SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment on **October 1, 2025**!
+> Bear in mind that SAP Java Buildpack 1 has been deprecated and is going to be **removed** from SAP BTP, Cloud Foundry environment on **December 31, 2025**!
 > 
-> For more information, see: [Release Notes - April 3, 2025](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP+Java+Buildpack&Valid_as_Of=2025-04-01:2025-04-05&locale=en-US&version=Cloud)
+> For more information, see:
+> 
+> -   [Release Notes - April 3, 2025](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP+Java+Buildpack&Valid_as_Of=2025-04-01:2025-04-05&locale=en-US&version=Cloud)
+> -   [Release Notes – October 1, 2025](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP+Java+Buildpack&Valid_as_Of=2025-09-28:2025-10-03)
+> -   [Release Notes – December 31, 2025](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP+Java+Buildpack&Valid_as_Of=2025-10-01:2025-12-31)
 
 
 
@@ -101,7 +105,7 @@ To check these versions, proceed as follows:
 1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 
     ```
-    cf login -a https://api.cf.eu10.hana.ondemand.com
+    cf api https://api.cf.eu10.hana.ondemand.com
     ```
 
 2.  Then run:
@@ -126,31 +130,31 @@ To check these versions, proceed as follows:
 
 **Example:**
 
-Let's say that the latest version of SAP Java Buildpack 1 is **1.80.0**. Then, the output of the `cf buildpacks` command would be:
+Let's say that the latest version of SAP Java Buildpack 1 is **1.114.0**. Then, the output of the `cf buildpacks` command would be:
 
 ```
 
 buildpack                position    enabled     locked    filename
 
-sap_java_buildpack           1         true      false     sap_java_buildpack-v1.80.0.zip
-sap_java_buildpack_1_80      2         true      false     sap_java_buildpack-v1.80.0.zip
-sap_java_buildpack_1_79      3         true      false     sap_java_buildpack-v1.79.0.zip
-sap_java_buildpack_1_78      4         true      false     sap_java_buildpack-v1.78.0.zip
+sap_java_buildpack           1         true      false     sap_java_buildpack-v1.114.0.zip
+sap_java_buildpack_1_114     2         true      false     sap_java_buildpack-v1.114.0.zip
+sap_java_buildpack_1_113     3         true      false     sap_java_buildpack-v1.113.0.zip
+sap_java_buildpack_1_112     4         true      false     sap_java_buildpack-v1.112.0.zip
 ```
 
-When SAP Java Buildpack 1 is updated on the SAP BTP, Cloud Foundry environment from version **1.80.0** to **1.81.0**, the list will change to:
+When SAP Java Buildpack 1 is updated on the SAP BTP, Cloud Foundry environment from version **1.114.0** to **1.115.0**, the list will change to:
 
 ```
 
 buildpack                position    enabled     locked    filename
 
-sap_java_buildpack           1         true      false     sap_java_buildpack-v1.81.0.zip
-sap_java_buildpack_1_81      2         true      false     sap_java_buildpack-v1.81.0.zip
-sap_java_buildpack_1_80      3         true      false     sap_java_buildpack-v1.80.0.zip
-sap_java_buildpack_1_79      4         true      false     sap_java_buildpack-v1.79.0.zip
+sap_java_buildpack           1         true      false     sap_java_buildpack-v1.115.0.zip
+sap_java_buildpack_1_115     2         true      false     sap_java_buildpack-v1.115.0.zip
+sap_java_buildpack_1_114     3         true      false     sap_java_buildpack-v1.114.0.zip
+sap_java_buildpack_1_113     4         true      false     sap_java_buildpack-v1.113.0.zip
 ```
 
-This means that *sap\_java\_buildpack\_1\_78* will no longer be available for applications.
+This means that *sap\_java\_buildpack\_1\_112* will no longer be available for applications.
 
 > ### Note:  
 > No fixes will be provided to older versions of the buildpack. Fixes, including security ones, will be part of the latest version.
@@ -162,7 +166,7 @@ This means that *sap\_java\_buildpack\_1\_78* will no longer be available for ap
 To use *sap\_java\_buildpack\_<version\_suffix\>*, specify its name when pushing an application to SAP BTP, Cloud Foundry environment:
 
 ```
-cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_<version_suffix>
+cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_1_115
 ```
 
 Alternatively, you can specify the buildpack in the `manifest.yml` file.
@@ -177,7 +181,7 @@ applications:
   path: ./target/myapp.war
   instances: 1
   buildpacks:
-  - sap_java_buildpack_1_80
+  - sap_java_buildpack_1_115
 ```
 
 You can do the same in the `mtad.yml` of your **mtar** archive:
@@ -193,7 +197,7 @@ modules:
     parameters:
       ...
       memory: 512M
-      buildpack: sap_java_buildpack_1_80
+      buildpack: sap_java_buildpack_1_115
 ...
 ```
 
@@ -248,9 +252,9 @@ To see the latest news and updates about SAP Java Buildpack 1, regularly check t
 
 If you encounter an issue while using SAP Java Buildpack 1, you can:
 
--   Search for your problem in our Guided Answers: [SAP Java Buildpack](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51219/?version=current)
+-   Search for your problem in our [Troubleshooting](sap-java-buildpack-ee609aa.md) section.
 
--   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](https://ga.support.sap.com/dtp/viewer/#/tree/3254/actions/51226:51220/?version=current) 
+-   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 
 
 See also:

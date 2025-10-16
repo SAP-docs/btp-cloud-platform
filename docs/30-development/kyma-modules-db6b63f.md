@@ -275,7 +275,7 @@ With the Serverless module, you can define simple code snippets \(Functions\) wi
 <td valign="top">
 
 -   [Serverless Module](serverless-module-eb84ff5.md)
--   [Serverless Configuration](serverless-configuration-4a0ae14.md)
+-   [Configuring Serverless](configuring-serverless-b40a119.md)
 -   [Deploy Workloads in the Kyma Environment to Extend SAP Systems](deploy-workloads-in-the-kyma-environment-to-extend-sap-systems-fe4ba5b.md)
 -   [GitHub repository: Serverless](https://github.com/kyma-project/serverless-manager)
 

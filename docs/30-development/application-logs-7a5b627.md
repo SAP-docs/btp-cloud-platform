@@ -97,7 +97,7 @@ In the following steps, you can see how to construct and deploy a typical `LogPi
 
 To ship logs to a new OTLP output, create a resource of the kind `Logipeline` and save the file \(named, for example, `logpipeline.yaml`\).
 
-This configures the underlying OTel Collector with a pipeline for logs and opens a push endpoint that is accessible with the `telemetry-otlp-logs` service. For details, see [Usage](telemetry-gateways-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_usage). The following push URLs are set up:
+This configures the underlying OTel Collector with a pipeline for logs and opens a push endpoint that is accessible with the `telemetry-otlp-logs` service. For details, see [Push Endpoints](telemetry-gateways-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_usage). The following push URLs are set up:
 
 -   GRPC: `http://telemetry-otlp-logs.kyma-system:4317`
 

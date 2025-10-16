@@ -32,7 +32,7 @@ Business users are replicated from your central HR system. You can change user d
 
         For *User Name*, enter a name or ID that is identical with the login name of the same user in the on-premise identity provider.
 
-        The name the user enters to log on to the SAP Fiori launchpad. The user name can only contain uppercase letters, numbers, and underscores. It must have a maximum length of 40 characters and must not start with an underscore, or with SAP.
+        The name the user enters to log on to the SAP Fiori launchpad. The user name can only contain uppercase letters, numbers, underscores, periods and hyphens. It must have a maximum length of 40 characters and must not start with an underscore, or with SAP.
 
 
 

@@ -4,7 +4,7 @@
 
 # Analyzing the Findings
 
-When you create a custom code analysis project, the custom code analysis is performed automatically. The `Custom Code Migration` app then provides you with an analytical representation of the findings.
+When you create a custom code analysis project, the custom code analysis is performed automatically. The Analyze Custom Code app then provides you with an analytical representation of the findings.
 
 
 
@@ -16,7 +16,7 @@ When you create a custom code analysis project, the custom code analysis is perf
 
 2.  Choose *Analyze Findings* to get a detailed analysis.
 
-3.  In the *Custom Code Migration - Analysis - Findings* view, you can specify various filters, such as:
+3.  In the *Analyze Custom Code - Analysis - Findings* view, you can specify various filters, such as:
 
     -   *Quick Fix Availability*: Analyze which findings can be solved by a Quick Fix and which findings have to be solved manually.
 

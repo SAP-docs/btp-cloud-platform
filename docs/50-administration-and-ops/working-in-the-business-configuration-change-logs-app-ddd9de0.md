@@ -33,7 +33,7 @@ Find out how to display the change log of your business configuration tables.
 1.  Open the *Business Configuration Change Logs* app.
 2.  Use the search bar to find a configuration table. You can search based on the table name or a specified date range.
 3.  Select a configuration table to see its change log details.
-4.  You can filter the change log details based on criteria such as field label, changed date, changed by, and more.
+4.  You can filter the change log details based on criteria such as field name, changed date, changed by, and more.
 
 
 
@@ -41,7 +41,7 @@ Find out how to display the change log of your business configuration tables.
 
 ## Download Change Logs
 
-Find out how to download and view the change logs of your business configuration tables.
+Find out how to display the change log of your business configuration tables.
 
 
 
@@ -50,12 +50,12 @@ Find out how to download and view the change logs of your business configuration
 1.  Open the *Business Configuration Change Logs* app.
 2.  Select the button *Download Change Logs*. Once selected you will be navigated to the *Business Configuration Change Logs Overview* app.
 3.  Select *Create* to schedule a job.
-4.  The *Job Template* `Business Configuration Change Logs Overview` is automatically selected. Select*Step 2* to continue.
-5.  You can either start the job immediately by selecting it or select a specific start date and time. Select *Step 3* to continue.
-6.  In the *Parameters* section select a start date and time and an end date and time. All the change logs given in this time window will be downloaded.
-7.  To download the change logs for specific users, provide their *Username* to filter the results. If no username is provided, all change logs from every user will be downloaded.
-8.  The *Only Actual Changes* option allows to download logs that contain only the records that have been changed e.g. inserted, updated, deleted etc. This option excludes logs for unchanged records
-9.  Once all the Parameters are entered, select *Schedule* to start the job immediately or at the provided time given at *Step 4*.
+4.  Select a *Job Template* and a *Job Name*, then select *Step 2*.
+5.  You can either start the job immediately by selecting it or select a specific start date and time. Select *Step 3* to continue
+6.  In the *Parameters* section select an *Evaluation Begin Date*, *Evaluation Begin Time*, *Evaluation End Date* and an *Evaluation End Time*. All the change logs given in this time window will be downloaded.
+7.  To download the change logs for a specific user, provide their *Username*. When no username is provided, all change logs from every user will be downloaded
+8.  The *Exclude Text Tables* option allows to filter out the change logs for the text tables.
+9.  Once all the Parameters are entered, select *Schedule* to start the job immediately or at the provided time given at *Step 5*.
 
 
 

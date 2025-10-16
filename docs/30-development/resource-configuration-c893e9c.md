@@ -36,11 +36,11 @@ filepath2:
 
 Depending on the SAP Java Buidlpack version \(1 or 2\), the `filepath1` must start with either **tomcat**, **tomee**, or **tomee7** to match the used application container, and should contain a subpath to a resource.
 
--   When changing parametrized values inside application files, the file path should look like this:
+-   When changing parameterized values inside application files, the file path should look like this:
 
     `<application_container>/webapps/ROOT/<path_to_file_relative_to_application_root>`
 
--   When changing parametrized values in the configuration of an application container, the file path should look like this:
+-   When changing parameterized values in the configuration of an application container, the file path should look like this:
 
     `<application_container>/conf/<path_to_config_file>`
 

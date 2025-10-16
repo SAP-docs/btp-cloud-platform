@@ -29,13 +29,10 @@ To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to d
 
 -   Use Kyma CLI
 
-    > ### Caution:  
-    > The `alpha` group commands are still in development, which means their functions and API may be modified over time. We encourage you to explore them, but keep in mind that changes may occur.
-
     1.  Check the list of modules that are available to be added:
 
         ```
-        kyma alpha module catalog
+        kyma module catalog
         ```
 
     2.  Add a new module:
@@ -43,20 +40,20 @@ To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to d
         -   To add a new module with the default configuration, use the following command:
 
             ```
-            kyma alpha module add {MODULE-NAME} --default-cr
+            kyma module add {MODULE-NAME} --default-cr
             ```
 
         -   To add a module with your specific configuration, create a YAML file containing your module custom resource \(CR\) settings, and use the`--cr-path={CR-FILEPATH}` flag:
 
             ```
-            kyma alpha module add {MODULE-NAME} --cr-path={CR-FILEPATH}
+            kyma module add {MODULE-NAME} --cr-path={CR-FILEPATH}
             
             ```
 
         -   To add a module with the specified release channel, use the `-c {CHANNEL-NAME}` flag:
 
             ```
-            kyma alpha module add {MODULE-NAME} -c {CHANNEL-NAME} --default-cr
+            kyma module add {MODULE-NAME} -c {CHANNEL-NAME} --default-cr
             
             ```
 
@@ -64,7 +61,7 @@ To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to d
         To see if your module is added, run the following command.
 
         ```
-        kyma alpha module list
+        kyma module list
         ```
 
 
@@ -95,19 +92,16 @@ To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to d
 
 -   Use Kyma CLI
 
-    > ### Caution:  
-    > The `alpha` group commands are still in development, which means their functions and API may be modified over time. We encourage you to explore them, but keep in mind that changes may occur.
-
     1.  Check the list of installed modules:
 
         ```
-        kyma alpha module list
+        kyma module list
         ```
 
     2.  To delete your module, use the following command:
 
         ```
-        kyma alpha module delete {MODULE-NAME}
+        kyma module delete {MODULE-NAME}
         ```
 
         You should see the following message:

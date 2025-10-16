@@ -457,5 +457,5 @@ Function runtime Pods can be scaled horizontally from zero up to the limits of t
 
 ## In-Cluster Docker Registry
 
-Serverless comes with an in-cluster Docker registry for the Function images. For more information on the Docker registry configuration, see [Serverless Configuration](serverless-configuration-4a0ae14.md).
+Serverless comes with an in-cluster Docker registry for the Function images. For more information on the Docker registry configuration, see [Configuring Docker Registry](configuring-serverless-b40a119.md#loiob40a11952da84394b430118082754e6c__task_obs_wwq_rfc).
 

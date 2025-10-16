@@ -83,5 +83,5 @@ To open the message box, choose *More Details*.
 
 [Troubleshoot Applications](troubleshoot-applications-2ae6772.md "You can use application events and logs to troubleshoot your application in the SAP BTP cockpit.")
 
-[Using Application Events](using-application-events-f086817.md "The Events page at application level in the SAP BTP cockpit shows the order in which actions are performed on an application. You can use these events to debug your application and analyze its state.")
+[Using Application Events](using-application-events-f086817.md "The Application Events page at application level in the SAP BTP cockpit shows the order in which actions are performed on an application. You can use these events to debug your application and analyze its state.")
 

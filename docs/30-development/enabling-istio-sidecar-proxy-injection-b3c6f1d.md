@@ -17,7 +17,7 @@ To include your workloads into the Istio service mesh, enable the Istio sidecar 
 ## Prerequisites
 
 -   You have the Istio module added. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
--   To use CLI instructions, you must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl). Alternatively, you can use Kyma dashboard.
+-   You have access to Kyma dashboard. Alternatively, to use CLI instructions, you must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl).
 
 
 

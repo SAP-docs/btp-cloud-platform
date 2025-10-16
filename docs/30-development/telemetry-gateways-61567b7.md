@@ -12,9 +12,9 @@ The Telemetry gateways in Kyma take care of data enrichment, filtering, and disp
 
 The traces, metrics, and \(OTLP-based\) logs features are based on a gateway, which is provisioned as soon as you define any pipeline resource. All telemetry data of the related domain passes the gateway, so it acts as a central point and provides the following benefits:
 
--   [Data Enrichment](telemetry-gateways-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_telemetry_data_enrichment) to achieve a certain data quality
+-   Enriching your data to achieve a certain data quality \(see [Data Enrichment](telemetry-gateways-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_telemetry_data_enrichment)\)
 
--   Filtering to apply namespace filtering and remove noisy system data \(individually for logs, traces, and metrics\)
+-   Filtering by namespace and to remove noisy system data \(individually for logs, traces, and metrics\)
 
 -   Dispatching to the configured backends \(individually for logs, traces, and metrics\)
 
@@ -38,28 +38,31 @@ The Telemetry module focuses on full configurability of backends integrated by O
 
 <a name="loio61567b79e6db41cd81de5f58ec077201__section_usage"/>
 
-## Usage
+## Push Endpoints
 
-You can set up a pipeline with a backend that subsequently instantiates a gateway. For details, see [Traces](traces-f98cda5.md) and [Metrics](metrics-44ac6c5.md). To see whether you've set up your gateways and their push endpoints successfully, check the status of the default Telemetry resource:
+The gateway for each signal type is provisioned when you create the respective pipeline resource specifying a backend. For details, see [Application Logs](application-logs-7a5b627.md), [Traces](traces-f98cda5.md), and [Metrics](metrics-44ac6c5.md).
 
-```
-kubectl -n kyma-system get telemetries.operator.kyma-project.io default -oyaml
-```
+For every signal type, there's a dedicated endpoint to which you can push data using [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/). OTLP supports gRPC and HTTP-based communication, with an individual port for each protocol on every endpoint. Use port `4317` for gRPC and `4318` for HTTP.
+
+To see whether you've set up your gateways and their push endpoints successfully, check the status of the default `Telemetry` resource:
+
+`kubectl -n kyma-system get telemetries.operator.kyma-project.io default -oyaml`
 
 In the status of the returned resource, you see the pipeline health as well as the available push endpoints:
 
 ```
-  endpoints:
-    metrics:
-      grpc: http://telemetry-otlp-metrics.kyma-system:4317
-      http: http://telemetry-otlp-metrics.kyma-system:4318
+endpoints:
+    logs:
+      grpc: http://telemetry-otlp-logs.kyma-system:4317
+      http: http://telemetry-otlp-logs.kyma-system:4318
     traces:
       grpc: http://telemetry-otlp-traces.kyma-system:4317
       http: http://telemetry-otlp-traces.kyma-system:4318
+    metrics:
+      grpc: http://telemetry-otlp-metrics.kyma-system:4317
+      http: http://telemetry-otlp-metrics.kyma-system:4318
 
 ```
-
-For every signal type, there's a dedicated endpoint to which you can push data using [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/). OTLP supports GRPC and HTTP-based communication, each having its individual port on every endpoint. Use port `4317` for GRPC and `4318` for HTTP.
 
 ![](images/Kyma_Gateways_e40856d.png)
 
@@ -67,8 +70,10 @@ Applications that support OTLP typically use the [OTel SDK](https://opentelemetr
 
 You can either configure the endpoints hardcoded in the SDK setup, or you use standard [environment variables](https://opentelemetry.io/docs/languages/sdk-configuration/otlp-exporter/#otel_exporter_otlp_traces_endpoint) configuring the OTel exporter, for example:
 
--   Traces GRPC: `export OTEL_EXPORTER_OTLP_TRACES_ENDPOINT="http://telemetry-otlp-traces.kyma-system:4317"` 
--   Traces HTTP: `export OTEL_EXPORTER_OTLP_TRACES_ENDPOINT="http://telemetry-otlp-traces.kyma-system:4318/v1/traces"` 
+-   Logs GRPC: `export OTEL_EXPORTER_OTLP_LOGS_ENDPOINT="http://telemetry-otlp-logs.kyma-system:4317"`
+-   Logs HTTP: `export OTEL_EXPORTER_OTLP_LOGS_ENDPOINT="http://telemetry-otlp-logs.kyma-system:4318/v1/traces"`
+-   Traces GRPC: `export OTEL_EXPORTER_OTLP_TRACES_ENDPOINT="http://telemetry-otlp-traces.kyma-system:4317"`
+-   Traces HTTP: `export OTEL_EXPORTER_OTLP_TRACES_ENDPOINT="http://telemetry-otlp-traces.kyma-system:4318/v1/traces"`
 -   Metrics GRPC: `export OTEL_EXPORTER_OTLP_METRICS_ENDPOINT="http://telemetry-otlp-metrics.kyma-system:4317"` 
 -   Metrics HTTP: `export OTEL_EXPORTER_OTLP_METRICS_ENDPOINT="http://telemetry-otlp-metrics.kyma-system:4318/v1/metrics"` 
 
@@ -80,7 +85,7 @@ You can either configure the endpoints hardcoded in the SDK setup, or you use st
 
 The Telemetry gateways automatically enrich your data by adding the following attributes:
 
--   **service.name**: The logical name of the service that emits the telemetry data. The gateway ensures that this attribute always has a valid value.
+-   **`service.name`**: The logical name of the service that emits the telemetry data. The gateway ensures that this attribute always has a valid value.
 
     If not provided by the user, or if its value follows the pattern `unknown_service:<process.executable.name>` as described in the [specification](https://opentelemetry.io/docs/specs/semconv/resource/#service), then it is generated from Kubernetes metadata. The gateway determines the service name based on the following hierarchy of labels and names:
 
@@ -92,27 +97,35 @@ The Telemetry gateways automatically enrich your data by adding the following at
 
     4.  Pod name
 
-    5.  If none of the above is available, the value is `unknown_service`
+    5.  If none of the above is available, the value is *unknown\_service*
 
 
--   **k8s.\*** attributes: These attributes encapsulate various pieces of Kubernetes metadata associated with the Pod, including, but not limited to:
+-   **`k8s.*`** attributes: These attributes encapsulate various pieces of Kubernetes metadata associated with the Pod, including, but not limited to:
 
-    -   Pod name
+    -   `k8s.pod.name`: The Kubernetes Pod name of the Pod that emitted the data.
 
-    -   Deployment/DaemonSet/StatefulSet/Job name
+    -   `k8s.pod.uid`: The Kubernetes Pod id of the Pod that emitted the data.
 
-    -   Namespace
+    -   `k8s.<workload kind>.name`: The Kubernetes workload name to which the emitting Pod belongs. Workload is either Deployment, DaemonSet, StatefulSet, Job or CronJob.
 
-    -   Cluster name
+    -   `k8s.namespace.name`: The Kubernetes namespace name with which the emitting Pod is associated.
+
+    -   `k8s.cluster.name`: A logical identifier of the cluster, which, by default, is the API Server URL. To set a custom name, configure the `enrichments.cluster.name` field in the Telemetry CRD.
+
+    -   `k8s.cluster.uid`: A unique identifier of the cluster, realized by the UID of the `kube-system` namespace.
+
+    -   `k8s.node.name`: The Kubernetes node name to which the emitting Pod is scheduled.
+
+    -   `k8s.node.uid`: The Kubernetes Node id to which the emitting Pod belongs.
 
 
--   **k8s.pod.label.<label\_key\>** attributes: In addition to the predefined enrichments, the Telemetry gateways support user-defined enrichments of telemetry data based on Pod labels \(see [Telemetry CRD](https://kyma-project.io/#/telemetry-manager/user/resources/01-telemetry)\). By configuring specific label keys or label key prefixes to include in the enrichment process, you can capture custom application metadata that may be relevant for filtering, grouping, or correlation purposes. All matching Pod labels are added to the telemetry data as resource attributes, using the label key format `k8s.pod.label.<label_key>`.
+-   **`k8s.pod.label.<label_key>`** attributes: In addition to the predefined enrichments, the Telemetry gateways support user-defined enrichments of telemetry data based on Pod labels \(see [Telemetry CRD](https://kyma-project.io/#/telemetry-manager/user/resources/01-telemetry)\). By configuring specific label keys or label key prefixes to include in the enrichment process, you can capture custom application metadata that may be relevant for filtering, grouping, or correlation purposes. All matching Pod labels are added to the telemetry data as resource attributes, using the label key format `k8s.pod.label.<label_key>`.
 
     The following example configuration enriches the telemetry data with Pod labels that match the specified keys or key prefixes:
 
     -   `k8s.pod.label.app.kubernetes.io/name`: The value of the exact label key `app.kubernetes.io/name` from the Pod.
 
-    -   `k8s.pod.label.app.kubernetes.io.*`: All labels that start with the prefix *app.kubernetes.io* from the Pod, where *<\*\>* is replaced by the actual label key.
+    -   `k8s.pod.label.app.kubernetes.io.*`: All labels that start with the prefix *app.kubernetes.io* from the Pod, where `*` is replaced by the actual label key.
 
 
     ```
@@ -129,7 +142,7 @@ The Telemetry gateways automatically enrich your data by adding the following at
     
     ```
 
--   **Cloud provider** attributes: If data is available, the gateway automatically adds [cloud provider](https://opentelemetry.io/docs/specs/semconv/resource/cloud/) attributes to the telemetry data.
+-   **Cloud provider** attributes: If data is available, the gateway automatically adds [cloud provider](https://opentelemetry.io/docs/specs/semconv/resource/cloud/) attributes to the telemetry data:
 
     -   `cloud.provider`: Cloud provider name
     -   `cloud.region`: Region where the Node runs \(from Node label `topology.kubernetes.io/region`\)

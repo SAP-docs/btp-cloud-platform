@@ -24,6 +24,7 @@ These are the configurable cluster parameters:
 -   [Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Max)
 -   [Auto Scaler Min](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Min)
 -   [Cluster Name\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Cluster_Name)
+-   [Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
 -   [Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type)
     -   [Machine Type in Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__Additional_machine_types)
 
@@ -31,7 +32,6 @@ These are the configurable cluster parameters:
 -   [Networking](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Networking)
 -   [OpenID Connect \(OIDC\)](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
 -   [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region)
--   [Shoot and Seed Same Region](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
 
 
 
@@ -123,7 +123,7 @@ Specifies the provider-specific virtual machine type.
 
 Provisioning
 
-Updating <sup>[1](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__AWNP_footnote)</sup>
+Updating [1](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__MT_update_footnote)
 
 </td>
 <td valign="top">
@@ -157,7 +157,7 @@ High availability is not supported in the `azure_lite` plan.
 
 Provisioning
 
-Updating <sup>[1](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__AWNP_footnote)</sup>
+Updating [2](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__HA_update_footnote)
 
 </td>
 <td valign="top">
@@ -233,7 +233,12 @@ See [Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environme
 </table>
 
 > ### Note:  
-> <sup>1</sup> You can only use this parameter to update your Kyma runtime by creating a new additional worker node pool. You cannot use it to update an existing additional worker node pool.
+> <sup>1</sup> You can update your virtual machine type only within the general-purpose machine types. You cannot perform updates on compute-intensive machine types.
+> 
+> For details, see [Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type).
+
+> ### Note:  
+> <sup>2</sup> You can only use this parameter to update your Kyma runtime by creating a new additional worker node pool. You cannot use it to update an existing additional worker node pool.
 
 See the example configuration:
 
@@ -283,6 +288,9 @@ The *Administrators* \(`administrators`\) parameter is an array of strings. It i
 ## Auto Scaler Max
 
 The *Auto Scaler Max* \(`autoScalerMax`\) is an integer parameter, which specifies the maximum number of virtual machines you can create.
+
+> ### Remember:  
+> > Cluster autoscaling is not subject to the Service Level Agreement \(SLA\). Successful autoscaling is not guaranteed. The mechanism may fail or take longer than expected due to constraints of the underlying cloud providers.
 
 **Auto Scaler Max Parameter**
 
@@ -579,11 +587,34 @@ Short string of up to 32 characters that contains only alphanumeric characters \
 
 
 
+<a name="loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed"/>
+
+## Colocate Control Plane
+
+*Colocate Control Plane* \(technical name: `colocateControlPlane`\) is a provisioning parameter. It is a boolean that enables you to decide if your control plane and worker nodes should be in the same region.
+
+If you set it to `true`, it ensures the location of the control plane in the same region where your cluster's worker nodes are deployed. With this setting, you can control where your sensitive data is stored. If the control plane cannot be colocated in the selected region, the provisioning process fails. The error message offers you a list of regions supporting the control plane colocation.
+
+If you set the parameter to `false` or leave the field empty, your control plane can sometimes be deployed in a different region than the worker nodes.
+
+To learn which regions support the control plane colocation, see the [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region) section.
+
+See an example of the JSON input:
+
+> ### Sample Code:  
+> ```
+> "colocateControlPlane": true
+> ```
+
+
+
 <a name="loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type"/>
 
 ## Machine Type
 
 The *Machine Type* \(`machineType`\) parameter is a string, which specifies the provider-specific virtual machine type.
+
+The following table lists general-purpose machine types available for use in the mandatory Kyma worker node pool and in your additional worker node pools.
 
 **Machine Type Parameter**
 
@@ -1148,6 +1179,8 @@ See an example input for the *Machine Type* parameter:
 
 
 ### Machine Type in Additional Worker Node Pools
+
+In your additional worker node pools, you can use the general-purpose virtual machines listed in the [Machine Type Parameter](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__table_wd5_ppv_xzb) table and the following compute-intensive machine types.
 
 > ### Note:  
 > The virtual machines in the following table are only available for use in [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
@@ -1917,12 +1950,398 @@ See the default JSON input for the *Networking* object:
 
 ## OpenID Connect \(OIDC\)
 
-The *OpenID Connect* \(`oidc`\) configured as a single object allows you to provide OIDC configuration. If you do not provide the `oidc` object or any custom values in the provisioning request, the default OIDC configuration is used. If you do not provide the `oidc` object in the update request or leave all object’s properties empty, the saved OIDC configuration remains unchanged.
+The *OpenID Connect* \(OIDC\) property can be configured in the following ways:
+
+-   As a list of `oidc` objects
+-   As a single `oidc` object
+
+
+
+### OIDC Configured as a List of `oidc` Objects
+
+The OpenID Connect \(`oidc`\) property is a list of `oidc` objects. You can use it to configure one or several `oidc` objects.
+
+For more information on the configuration options, see [Custom OpenID Connect Configuration](custom-openid-connect-configuration-97fc95d.md).
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
 
-**OIDC Parameters**
+**OIDC Parameters for a List of oidc Objects**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Nested Parameter
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+<th valign="top">
+
+Supported Operation
+
+</th>
+<th valign="top">
+
+Default Value
+
+</th>
+<th valign="top">
+
+Allowed Input
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Client ID\**
+
+btp CLI parameter: `clientID`
+
+type: string
+
+</td>
+<td valign="top">
+
+The client ID for the OpenID Connect client.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Issuer URL\**
+
+btp CLI parameter: issuerURL
+
+type: string
+
+</td>
+<td valign="top">
+
+Provides the URL of the OpenID issuer.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Only HTTPS scheme is accepted.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Groups Claim\**
+
+btp CLI parameter: `groupsClaim`
+
+type: string
+
+</td>
+<td valign="top">
+
+If provided, specifies the name of a custom OIDC claim for specifying user groups.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Groups Prefix\**
+
+btp CLI parameter: `groupsPrefix`
+
+type:string
+
+</td>
+<td valign="top">
+
+If specified, causes claims mapping to group names to be prefixed with the provided value.
+
+If not provided, the prefix defaults to `-` \(dash character without additional characters\), and disables prefixing.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+For example, the value `oidc:` results in groups like `oidc:engineering` and `oidc:marketing`.
+
+To skip any prefixing, provide the value `-` \(dash character without additional characters\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Username Claim\**
+
+btp CLI parameter: `usernameClaim`
+
+type: string
+
+</td>
+<td valign="top">
+
+Provides the OpenID claim to use as the user name.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Required Claims*
+
+btp CLI parameter: `requiredClaims`
+
+type: array
+
+</td>
+<td valign="top">
+
+Describes a required claim in the ID Token.
+
+If set, the claim is verified to be present in the ID Token with the matching value.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+List of key=value pairs.
+
+To remove a previously set value, leave the array empty.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Signing Algs\**
+
+btp CLI parameter: `signingAlgs`
+
+type: array
+
+</td>
+<td valign="top">
+
+Provides the OIDC signing algorithms for Kyma runtime.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Comma-separated list of allowed JOSE asymmetric signing algorithms, for example, `RS256`, `ES256`.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Username Prefix\**
+
+btp CLI parameter: `usernamePrefix`
+
+type: string
+
+</td>
+<td valign="top">
+
+Provides an OIDC username prefix for Kyma runtime.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+To skip any prefixing, provide the value `-` \(dash character without additional characters\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Encoded JWKS Array*
+
+btp CLI parameter: `encodedJwksArray`
+
+type: string
+
+</td>
+<td valign="top">
+
+The JSON Web Key Set \(JWKS\) array encoded in base64.
+
+Use it when your OIDC metadata discovery endpoint is inaccessible from the public internet.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Base64 encoded string.
+
+To remove a previously set value, leave the input empty.
+
+</td>
+</tr>
+</table>
+
+The following example shows the default configuration of a list of `oidc` objects. To revert your changes to the default settings, copy and paste the following values:
+
+> ### Sample Code:  
+> ```
+> "oidc": {
+>   "list": [
+>     {
+>       "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
+>       "groupsClaim": "groups",
+>       "issuerURL": "https://kyma.accounts.ondemand.com",
+>       "groupsPrefix": "-",
+>       "signingAlgs": ["RS256"],
+>       "usernameClaim": "sub",
+>       "usernamePrefix": "-",
+>       "requiredClaims": [],
+>       "encodedJwksArray": ""
+>     }
+>   ]
+> }
+> ```
+
+
+
+### OIDC Configured as a Single `oidc` Object
+
+> ### Note:  
+> This approach is not recommended. Use it only to maintain backward compatibility with existing automations.
+
+For more information on the configuration options, see [Custom OpenID Connect Configuration](custom-openid-connect-configuration-97fc95d.md).
+
+> ### Remember:  
+> The parameters marked with an asterisk "\*" are mandatory.
+
+**OIDC Parameters for a Single oidc Object**
 
 
 <table>
@@ -2055,6 +2474,43 @@ n/a
 <tr>
 <td valign="top">
 
+*Groups Prefix*
+
+btp CLI parameter: `groupsPrefix`
+
+type:string
+
+</td>
+<td valign="top">
+
+If specified, causes claims mapping to group names to be prefixed with the provided value.
+
+If not provided, the prefix defaults to `-` \(dash character without additional characters\), and disables prefixing.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+`-`
+
+</td>
+<td valign="top">
+
+For example, the value `oidc:` results in groups like `oidc:engineering` and `oidc:marketing`.
+
+To skip any prefixing, provide the value `-` \(dash character without additional characters\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *Username Claim*
 
 btp CLI parameter: `usernameClaim`
@@ -2082,6 +2538,43 @@ n/a
 <td valign="top">
 
 n/a
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Required Claims*
+
+btp CLI parameter: `requiredClaims`
+
+type: array
+
+</td>
+<td valign="top">
+
+Describes a required claim in the ID Token.
+
+If set, the claim is verified to be present in the ID Token with the matching value.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+List of key=value pairs.
+
+To remove a previously set value, provide only the value `-` \(dash character without additional characters\).
 
 </td>
 </tr>
@@ -2151,23 +2644,64 @@ To skip any prefixing, provide the value `-` \(dash character without additional
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Encoded JWKS Array*
+
+btp CLI parameter: `encodedJwksArray`
+
+type: string
+
+</td>
+<td valign="top">
+
+The JSON Web Key Set \(JWKS\) array encoded in base64.
+
+Use it when your OIDC metadata discovery endpoint is inaccessible from the public internet.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+Base64 encoded string.
+
+To remove a previously set value, provide only the value `-` \(dash character without additional characters\).
+
+</td>
+</tr>
 </table>
 
-The following example shows the default configuration of a single `oidc` object. To revert your changes to the default settings, copy and paste the following values:
+The following example shows the default configuration of an `oidc` object. To revert your changes to the default settings, copy and paste the following values:
 
-> ### Sample Code:  
-> ```
->  "oidc": {
->         "clientID": "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
->         "groupsClaim": "groups",
->         "issuerURL": "https://kyma.accounts.ondemand.com",
->         "groupsPrefix": "-"
->         "signingAlgs": ["RS256"],
->         "usernameClaim": "sub",
->         "usernamePrefix": "-",
->         "requiredClaims": ["-"]
->     }
-> ```
+```
+{
+  ...
+  "oidc" : {
+    "clientID" : "12b13a26-d993-4d0c-aa08-5f5852bbdff6",
+    "issuerURL" : "https://kyma.accounts.ondemand.com",
+    "groupsClaim" : "groups",
+    "groupsPrefix" : "-",
+    "signingAlgs" : ["RS256"],
+    "usernamePrefix" : "-",
+    "usernameClaim" : "sub",
+    "requiredClaims" : ["-"],
+    "encodedJwksArray": "-"
+  }
+  ...
+}
+```
 
 
 
@@ -2178,9 +2712,9 @@ The following example shows the default configuration of a single `oidc` object.
 *Region\** \(`region`\) is a mandatory string parameter, which defines a region where your cluster runs.
 
 > ### Note:  
-> The region marked with "<sup>3</sup>" has a `Seed` and supports the *Shoot and Seed Same Region* feature.
+> The region marked with "<sup>4</sup>" supports the *Colocate Control Plane* feature.
 > 
-> For more information, see [Shoot and Seed Same Region](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed).
+> For more information, see [Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed).
 
 **Region Parameter**
 
@@ -2231,12 +2765,12 @@ Provisioning
 </td>
 <td valign="top">
 
-`eu-central-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`eu-central-1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Europe \(Frankfurt\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2279,12 +2813,12 @@ Brazil \(São Paulo\)
 <tr>
 <td valign="top">
 
-`us-east-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`us-east-1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US East \(VA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US East \(VA\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2303,12 +2837,12 @@ Japan \(Tokyo\)
 <tr>
 <td valign="top">
 
-`ap-northeast-2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`ap-northeast-2`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-South Korea \(Seoul\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+South Korea \(Seoul\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2327,36 +2861,36 @@ India \(Mumbai\)
 <tr>
 <td valign="top">
 
-`ap-southeast-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`ap-southeast-1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Singapore<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`ap-southeast-2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
-
-</td>
-<td valign="top">
-
-Australia \(Sydney\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Singapore<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`us-west-2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`ap-southeast-2`[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)
 
 </td>
 <td valign="top">
 
-US West \(Oregon\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Australia \(Sydney\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`us-west-2`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+
+</td>
+<td valign="top">
+
+US West \(Oregon\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2403,24 +2937,24 @@ Europe \(Netherlands\)
 <tr>
 <td valign="top">
 
-`asia-south1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`asia-south1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-India \(Mumbai\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+India \(Mumbai\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`us-central1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`us-central1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US Central \(IA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US Central \(IA\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2555,12 +3089,12 @@ Provisioning
 </td>
 <td valign="top">
 
-`eastus`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`eastus`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US East \(VA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US East \(VA\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2579,12 +3113,12 @@ US Central \(IA\)
 <tr>
 <td valign="top">
 
-`westus2`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`westus2`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US West \(WA\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US West \(WA\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2615,12 +3149,12 @@ North EU \(Ireland\)
 <tr>
 <td valign="top">
 
-`westeurope`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`westeurope`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Europe \(Netherlands\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Europe \(Netherlands\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2651,24 +3185,24 @@ Singapore
 <tr>
 <td valign="top">
 
-`australiaeast`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`australiaeast`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Australia \(Sydney\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Australia \(Sydney\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`switzerlandnorth`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`switzerlandnorth`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Switzerland \(Zurich\)<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Switzerland \(Zurich\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -2703,27 +3237,6 @@ Here is an example of the JSON input for the *Region* parameter:
 > ### Sample Code:  
 > ```
 > "region": "us-east-1"
-> ```
-
-
-
-<a name="loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed"/>
-
-## Shoot and Seed Same Region
-
-*Shoot and Seed Same Region* \(technical name: `ShootAndSeedSameRegion`\) is a provisioning parameter. It is a boolean that enables you to decide if your `Shoot` and `Seed` should be in the same region.
-
-If you set it to `true`, your `Shoot` is matched with a `Seed` in the same region, which ensures the location of the control plane in the same region where your cluster's worker nodes are deployed. With this setting, you can control where your sensitive data is stored. If there's no `Seed` available in the specified region, a message offers you a list of regions where you can have both the `Seed` and the `Shoot`.
-
-If you set the parameter to `false` or leave the field empty, your control plane can sometimes be deployed in a different region than the worker nodes.
-
-To learn which regions have a `Seed` and support the *Shoot and Seed Same Region* feature, see the [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region) section.
-
-See an example of the JSON input:
-
-> ### Sample Code:  
-> ```
-> "shootAndSeedSameRegion": true
 > ```
 
 **Related Information**  

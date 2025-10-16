@@ -128,9 +128,31 @@ Contains the following attributes and values:
 
     -   customer\_managed
 
-    -   sap\_managed
-    -   sap\_managed\_internal
     -   provider\_managed
+
+-   CipherSuites
+
+    -   TLS\_1\_0\_to\_1\_2
+
+    -   TLS\_1\_0\_to\_1\_3
+    -   TLS\_1\_2\_only
+
+    -   TLS\_1\_2\_to\_1\_3
+
+
+    Please note that these values can also be empty.
+
+-   IsCipherSuiteDefault
+
+    -   TLS\_1\_0\_to\_1\_2
+
+    -   TLS\_1\_0\_to\_1\_3
+    -   TLS\_1\_2\_only
+
+    -   TLS\_1\_2\_to\_1\_3
+
+
+    Please note that these values can also be empty.
 
 -   OAuth2IdentityProviderUserLogonType
     -   user\_uuid

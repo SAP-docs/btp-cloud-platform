@@ -63,6 +63,11 @@ Once the new default client certificate is available, follow these steps:
 > ### Note:  
 > Switch to the new certificate as soon as possible. This ensures that if any issues arise, there will be time to troubleshoot within the 30-day overlap of the certificate validity periods.
 
+> ### Note:  
+> When exporting the **Client Default** certificate from the **Maintain Client Certificates** app, only the low-level client certificate is included; the certificate chain \(**Intermediate CA** and **Root CA** certificates\) is missing. To maintain trust relationships, you must separately obtain the Root CA certificate from the [SAP Cloud Root CA Certificate](https://support.sap.com/en/offerings-programs/support-services/trust-center-services.html?anchorId=section_952537478) and upload it to your external system.
+> 
+> Ensure the **Root CA** certificate is trusted in your external system to prevent trust issues during the client certificate renewal process.
+
 
 
 <a name="loiof7a5543ecf8d47a4b8224f3b3aaed867__section_qt5_rzz_xcc"/>

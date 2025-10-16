@@ -20,7 +20,7 @@ In order to grant access and authorizations to the *Application Job Templates* a
 
 1.  Create a new business role assigning the business catalog `SAP_CORE_BC_APJ_TPL` to it. For more information, see *Maintain Business Roles* linked below.
 
-2.  Next, select *Maintain Restrictions* to provide *Write*, *Read*, or *No Access* to templates using the restriction type `APPLICATION JOB TEMPLATE LAYER`.
+2.  **\(Optional\)** If you want to grant read or write access to templates of other users, select *Maintain Restrictions* to provide *Write*, *Read*, or *No Access* using the restriction type `APPLICATION JOB TEMPLATE LAYER`.
 
 3.  Go back to *Save* your template.
 

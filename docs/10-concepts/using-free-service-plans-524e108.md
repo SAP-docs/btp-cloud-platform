@@ -95,7 +95,7 @@ Once you've reached the limits of the free plan, you can upgrade the free servic
 > ### Note:  
 > To update the ABAP environment to a paid service plan, you first need to configure entitlements and quotas for the ABAP environment. You need at least the following entitlements assigned to your subaccount:
 > 
-> -   service plan: *standard*
+> -   service plan: *standard* or build-runtime \(service ABAP Environment\)
 > 
 > -   quota plans:
 > 
@@ -110,13 +110,18 @@ Once you've reached the limits of the free plan, you can upgrade the free servic
 > ### Note:  
 > It's not possible to switch from a paid plan to a free plan.
 
-1.  In your subaccount, navigate to the *Instances and Subscriptions* page.
+1.  If the service instance has been created in the Cloud Foundry environment, make sure that you have the Space Developer role for the space of the service instance \(otherwise, ignore this step\).
+    1.  In your Cloud Foundry subaccount, navigate to the space, in which you have created your service instance.
+    2.  Navigate to *Space Members* and check if your user is listed there.
+    3.  If your user is not listed there, add your user and assign it the Space Developer role. For more information, see [**Add Space Members**.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/81d0b4dcfbc84016b6b3c1465d4272f4.html?locale=en-US&state=PRODUCTION&version=Cloud)
 
-2.  Find the instance of the service and click <span class="SAP-icons-V5"></span> \(Actions\) and *Update*.
+2.  In your subaccount, navigate to the *Instances and Subscriptions* page.
 
-3.  In the *Update Instance* dialog, change the plan to a paid service plan.
+3.  Find the instance of the service and click <span class="SAP-icons-V5"></span> \(Actions\) and *Update*.
 
-4.  Click *Update Instance* to save your changes.
+4.  In the *Update Instance* dialog, change the plan to a paid service plan.
+
+5.  Click *Update Instance* to save your changes.
 
 
 You can now use the service without the limitations of the free service plan.

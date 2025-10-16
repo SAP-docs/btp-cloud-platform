@@ -54,7 +54,7 @@ Version
 </td>
 <td valign="top">
 
-`0001` 
+`0002` 
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Read Access Log in RAW format
 </td>
 <td valign="top">
 
-[Retrieving Security Audit Log](retrieving-security-audit-log-ce39470.md) 
+[Read Access Logging](read-access-logging-5688c3a.md) 
 
 </td>
 </tr>
@@ -142,5 +142,5 @@ Service name: ***SRAL\_API\_RAW\_LOG***
 
 Communication scenario: ***SAP\_COM\_0915***
 
-This service enables you to retrieve the Read Access Log data. This service enables you to retrieve the raw Read Access Logs. You can use the log data to integrate them into your Security and Event Management solution \(SIEM\) to detect security relevant event situations.
+This service enables you to retrieve the raw Read Access Logs. You can use the log data to integrate them into your Security and Event Management solution \(SIEM\) to detect security relevant event situations.
 

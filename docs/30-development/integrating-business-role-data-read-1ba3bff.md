@@ -12,6 +12,14 @@ You can use this communication scenario to read business role data.
 
 The communication scenario SAP\_COM\_0A04 allows you to read business role data, such as business role ID or description, read business roles, read assigned business users, launchpad spaces and business catalogs, or filter for specific combinations.
 
+**Authentication Methods**
+
+This communication scenario can be configured with the following inbound authentication methods:
+
+-   *Basic Authentication* \(user and password\)
+
+-   *X.509* \(certificates\)
+
 
 
 <a name="loio1ba3bffe9f1844c4a76e487a715028ac__BusinessRoleReadIntegration_steps"/>

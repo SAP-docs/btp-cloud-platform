@@ -26,7 +26,7 @@ To be able to see the app, make sure that the target user is assigned to a busin
 
     -   *Change Job Owner* to change the owner of your application job
 
-    -   *Change Job User* to change the business user of your application job
+    -   *Change Job User* to change the user of your application job
 
     -   *Change Job Owner and User* to change both the owner and the user of your application job
 

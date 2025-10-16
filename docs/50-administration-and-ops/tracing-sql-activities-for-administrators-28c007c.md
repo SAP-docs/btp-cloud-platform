@@ -108,7 +108,7 @@ To run an SQL trace, you create a profile of type *SQL Trace* and activate it \(
     > 
     > For *CDS View or Table*, you can enter up to **five** *include equal to* and up to five *exclude equal to* conditions. Such a combination results in a hit if one of the *include* and one of the *exclude equal to* conditions match. It's possible to use a wildcard \(\*\).
     > 
-    > For *Program Name*, *RFC Function Name*, and *Transaction Name*, you cannot set multiple conditions, but only one per profile.
+    > For *Program Name*, *RFC Function Name*, and *Transaction Name*, you can only set one condition per profile.
 
 7.  Choose *Create*.
 

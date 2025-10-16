@@ -359,6 +359,35 @@ Yes
 <tr>
 <td valign="top">
 
+Change Management
+
+</td>
+<td valign="top">
+
+Ensure that any custom configurations are correct.
+
+Note: If you, as a customer, introduce any wrong or expired configurations or credentials that cause errors or warnings, you’re then responsible for fixing them.
+
+</td>
+<td valign="top">
+
+Customer
+
+</td>
+<td valign="top">
+
+Customer
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Case Management
 
 </td>
@@ -391,7 +420,7 @@ Case Management
 </td>
 <td valign="top">
 
-In the event of cases, make reasonable effort to support end users and manage their cases, to explore self-help tools to find already documented solutions, and to liaise with SAP support in the event of new problems to ensure timely processing of cases affecting the resources in the customer account.
+In the event of cases, make a reasonable effort to support end users and manage their cases, to explore self-help tools to find already documented solutions, and to liaise with SAP support in the event of new problems to ensure timely processing of cases affecting the resources in the customer account.
 
 </td>
 <td valign="top">
@@ -655,10 +684,7 @@ User Access Management
 
 Manage users, permissions, and security configurations within the subaccount.
 
-</td>
-<td valign="top">
-
-Customer
+For Kyma runtime, manage users, permissions, and security configurations also in the Kyma runtime.
 
 </td>
 <td valign="top">
@@ -668,7 +694,12 @@ Customer
 </td>
 <td valign="top">
 
-No
+Customer
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>
@@ -680,7 +711,9 @@ System Monitoring
 </td>
 <td valign="top">
 
-Ensure availability of the customer system according to the Service Level Agreements as agreed in the contractual agreement between SAP and the customer, by active monitoring, prompt issue detection, and case prevention.
+For Cloud Foundry runtime, ensure availability of the customer system according to the Service Level Agreements as agreed in the contractual agreement between SAP and the customer, by active monitoring, prompt issue detection, and case prevention.
+
+For Kyma runtime, ensure availability of the Kyma runtime according to the Service Level Agreements as agreed in the contractual agreement between SAP and the customer, by active monitoring, prompt issue detection, and case prevention.
 
 </td>
 <td valign="top">
@@ -695,7 +728,7 @@ SAP
 </td>
 <td valign="top">
 
-No
+Yes
 
 </td>
 </tr>
@@ -734,9 +767,9 @@ Malware Management
 </td>
 <td valign="top">
 
-Ensure that the infrastructure and platform services are free of viruses, spam, spyware, and other malicious software. If malware is detected, an auto-notification is generated, which is assessed and resolved by SAP.
+Ensure that the infrastructure and platform services are free of viruses, spam, spyware, and other malicious software.
 
-If your custom application in the Kyma runtime has vulnerabilities, you as a customer are responsible to fix them, to build a new Docker image, and to update the application.
+For Cloud Foundry runtime, if malware is detected, an auto-notification is generated, which is assessed and resolved by SAP.
 
 </td>
 <td valign="top">
@@ -746,10 +779,71 @@ SAP
 </td>
 <td valign="top">
 
+SAP
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Malware Management
+
+</td>
+<td valign="top">
+
+Ensure that all resources like functions and images are free of viruses, spam, spyware, and other malicious software.
+
+For Cloud Foundry runtime, SAP ensures that platform components like buildpacks, stemcells, container images are free of malware. However, you as a customer are responsible for your own application code and dependencies.
+
+</td>
+<td valign="top">
+
 -   SAP
 -   Customer
 
 
+
+</td>
+<td valign="top">
+
+Customer
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Vulnerabilities Management
+
+</td>
+<td valign="top">
+
+Check regularly for vulnerabilities in your custom applications. If you find such, ensure they're mitigated in time.
+
+For Cloud Foundry runtime, SAP checks the OS patches, stemcells, buildpacks, and runtime. However, you as a customer are responsible for the application-level dependencies and libraries.
+
+</td>
+<td valign="top">
+
+-   SAP
+-   Customer
+
+
+
+</td>
+<td valign="top">
+
+Customer
 
 </td>
 <td valign="top">
@@ -768,10 +862,7 @@ Application Management
 
 Design, develop, deploy, configure, maintain, and operate the application within the subaccount. This includes maintaining a staged environment for application delivery \(if required\), application resource management, and managing application availability and performance.
 
-</td>
-<td valign="top">
-
-Customer
+For Kyma runtime, design, develop, deploy, configure, maintain, and operate the application also within the Kyma runtime.
 
 </td>
 <td valign="top">
@@ -781,7 +872,12 @@ Customer
 </td>
 <td valign="top">
 
-No
+Customer
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>
@@ -836,6 +932,40 @@ Customer
 <td valign="top">
 
 No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Management
+
+</td>
+<td valign="top">
+
+Ensure your application configurations are hardened according to best practices.
+
+For Cloud Foundry runtime, SAP provides hardened container defaults, no root access, and isolation. However, you as a customer are responsible for secure application configuration and secrets.
+
+For Kyma runtime, see [Kubernetes Pod Security Recommendations](https://help.sap.com/docs/btp/sap-business-technology-platform/kubernetes-pod-security-recommendations).
+
+</td>
+<td valign="top">
+
+-   SAP
+-   Customer
+
+
+
+</td>
+<td valign="top">
+
+Customer
+
+</td>
+<td valign="top">
+
+Yes
 
 </td>
 </tr>
@@ -901,9 +1031,7 @@ Network Management
 </td>
 <td valign="top">
 
-Create and manage a custom Web domain for the application in the subaccount to ensure data isolation.
-
-In the Kyma runtime, if you as a customer bring your own domain to expose workloads, you're then responsible. However, if you use the default SAP domain, SAP's responsible.
+Create and manage own Web domain for the application in the subaccount to ensure data isolation.
 
 </td>
 <td valign="top">
@@ -913,10 +1041,39 @@ Customer
 </td>
 <td valign="top">
 
+Customer
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Network Management
+
+</td>
+<td valign="top">
+
+Create and manage the default SAP Web domain for the application in the subaccount to ensure data isolation.
+
+For Cloud Foundry runtime, SAP provides routing, domains, and isolation segments. However, you as a customer are responsible for any optional custom domains.
+
+</td>
+<td valign="top">
+
 -   SAP
 -   Customer
 
 
+
+</td>
+<td valign="top">
+
+SAP
 
 </td>
 <td valign="top">

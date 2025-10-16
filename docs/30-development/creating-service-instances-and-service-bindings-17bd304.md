@@ -20,10 +20,10 @@ To use an SAP BTP service in your Kyma cluster, create its service instance and 
 
     For more information, see [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-entitlements-and-quotas-for-subaccounts?&version=Cloud).
 
--   You know the service offering name and service plan name for the SAP BTP service you want to connect to your Kyma cluster.
+-   You know the service offering name and service plan<sup>[1](creating-service-instances-and-service-bindings-17bd304.md#loio17bd304aeab34294a4ca34fa9564147c__note_xtk_1w1_t2c)</sup> name for the SAP BTP service you want to connect to your Kyma cluster.
 
     > ### Tip:  
-    > To find the service and service plan names, in the SAP BTP cockpit, go to *Services* \> *Service Marketplace*. Click on the service tile and find its *name* and *Plan*.
+    > <sup>1</sup> To find the service offering and service plan names, go to the SAP BTP cockpit, and then to *Services* \> *Service Marketplace*. Click on the service tile and find its *name* and *Plan*.
 
 
 <a name="loio3ca9284699c44180b12e7be513bdac06"/>
@@ -50,7 +50,7 @@ Kyma dashboard is a web-based UI providing a graphical overview of your cluster 
 
 2.  Go to *Service Management* \> *Service Instances*, and choose *Create*.
 
-3.  Provide the required service details in *Form*. Alternatively, you can switch to the *YAML* tab, and edit or upload your file.
+3.  Provide the required service details<sup>[1](creating-service-instances-and-service-bindings-17bd304.md#loio17bd304aeab34294a4ca34fa9564147c__note_xtk_1w1_t2c)</sup> in the *Form*. Alternatively, you can switch to the *YAML* tab, and edit or upload your file.
 
 4.  Choose *Create*.
 
@@ -67,7 +67,7 @@ Kyma dashboard is a web-based UI providing a graphical overview of your cluster 
 
 ## Procedure
 
-1.  To create a `ServiceInstance` custom resource \(CR\), replace the placeholders and run the following command:
+1.  To create a `ServiceInstance` custom resource \(CR\), replace the placeholders<sup>[1](creating-service-instances-and-service-bindings-17bd304.md#loio17bd304aeab34294a4ca34fa9564147c__note_xtk_1w1_t2c)</sup> and run the following command:
 
     ```
     kubectl create -f - <<EOF 

@@ -21,7 +21,7 @@ In the SAP BTP cockpit, you can bind applications in the Cloud Foundry environme
 
 ## Context
 
-On the *Service Bindings* page in the cockpit, you bind an application to a service using the *Bind Service Instance* wizard. To start the wizard, you choose *Bind Service*.
+On the *Service Bindings* page in the cockpit, you bind an application to a service using the *Bind Service Instance* wizard. To start the wizard, you choose *Bind Service Instance*.
 
 The first step, *Choose Service Instance*, provides a table with all services instances you can select and bind to your application.
 
@@ -47,7 +47,7 @@ Here is a detailed description of both procedures:
 
 3.  Choose *Service Bindings*.
 
-4.  Choose *Bind Service*. This action starts the *Bind Service Instance* wizard.
+4.  Choose *Bind Service Instance*. This action starts the *Bind Service Instance* wizard.
 
 5.  Find the service instance in the table and choose *Bind*.
 
@@ -75,7 +75,7 @@ Here is a detailed description of both procedures:
 
 3.  Choose *Service Bindings*.
 
-4.  Choose *Bind Service*. This action starts the *Bind Service Instance* wizard.
+4.  Choose *Bind Service Instance*. This action starts the *Bind Service Instance* wizard.
 
 5.  Choose *Create Service Instance*.
 

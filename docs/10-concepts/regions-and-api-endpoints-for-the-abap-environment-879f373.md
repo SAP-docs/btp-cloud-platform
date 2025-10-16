@@ -58,6 +58,53 @@ Cockpit Logon
 <tr>
 <td valign="top">
 
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+eu01
+
+</td>
+<td valign="top">
+
+Germany \(Frankfurt\)
+
+</td>
+<td valign="top">
+
+cf-eu01
+
+</td>
+<td valign="top">
+
+eu-de-2
+
+</td>
+<td valign="top">
+
+130.214.190.0/26, 130.214.228.32/27, 130.214.164.0/26
+
+</td>
+<td valign="top">
+
+api.cf.eu01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+eu01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://eu-access.cockpit.btp.cloud.sap/](https://eu-access.cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Amazon Web Services
 
 </td>
@@ -1074,6 +1121,53 @@ Google Cloud
 </td>
 <td valign="top">
 
+il30
+
+</td>
+<td valign="top">
+
+Israel \(Tel Aviv\)
+
+</td>
+<td valign="top">
+
+cf-il30
+
+</td>
+<td valign="top">
+
+me-west1
+
+</td>
+<td valign="top">
+
+34.165.172.174, 34.165.28.224, 34.165.26.44, 34.165.46.220, 34.165.133.5, 34.165.21.8
+
+</td>
+<td valign="top">
+
+api.cf.il30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+il30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://emea.cockpit.btp.cloud.sap/](https://emea.cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
 in30
 
 </td>
@@ -1204,6 +1298,100 @@ jp31.hana.ondemand.com
 <td valign="top">
 
 [https://apac.cockpit.btp.cloud.sap/cockpit](https://apac.cockpit.btp.cloud.sap/cockpit)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+sa30
+
+</td>
+<td valign="top">
+
+KSA \(Dammam - KSA Regulated Customers\)
+
+</td>
+<td valign="top">
+
+cf-sa30
+
+</td>
+<td valign="top">
+
+me-central2
+
+</td>
+<td valign="top">
+
+34.166.122.101, 34.166.13.193, 34.166.133.79, 34.166.95.100, 34.166.102.25, 34.166.180.181
+
+</td>
+<td valign="top">
+
+api.cf.sa30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+sa30.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://emea.cockpit.btp.cloud.sap/](https://emea.cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+sa31
+
+</td>
+<td valign="top">
+
+KSA \(Dammam - KSA Non-Regulated Customers\)
+
+</td>
+<td valign="top">
+
+cf-sa31
+
+</td>
+<td valign="top">
+
+me-central2
+
+</td>
+<td valign="top">
+
+34.166.162.172, 34.166.125.210, 34.166.181.228, 34.166.70.80, 34.166.99.127, 34.166.92.192
+
+</td>
+<td valign="top">
+
+api.cf.sa31.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+sa31.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://emea.cockpit.btp.cloud.sap/](https://emea.cockpit.btp.cloud.sap/)
 
 </td>
 </tr>

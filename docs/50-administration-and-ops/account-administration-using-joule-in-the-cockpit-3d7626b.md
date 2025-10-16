@@ -7,6 +7,9 @@ Learn about the administrative tasks that SAP's generative AI copilot, Joule, ca
 > ### Note:  
 > A Global Account Administrator must enable Joule in the Global Account settings by accepting the legal Terms and Conditions for Generative AI. Only then will the Joule icon appear in the cockpit tool header. Check out [Enable Joule in the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/enable-joule-in-sap-btp-cockpit?version=Cloud) to learn more.
 
+> ### Note:  
+> This version of Joule is provided free of charge in non-trial BTP Global Accounts and is limited to supporting BTP administration capabilities only within SAP BTP cockpit.
+
 Joule makes it easy to quickly access information about your accounts and users in the cockpit.
 
 -   Ask Joule to perform an administrative action for you from a set of pre-defined capabilities.

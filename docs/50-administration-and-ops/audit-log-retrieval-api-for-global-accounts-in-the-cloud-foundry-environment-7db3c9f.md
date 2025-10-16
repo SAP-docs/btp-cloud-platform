@@ -31,10 +31,10 @@ The API returns a HTTP 429 response code when the limit is exceeded.
 
 You do the following procedure through Cloud Foundry Environment, which is part of a subaccount. To enable Audit Log Retrieval API for Global Account , you must perform the following prerequisite steps as a global account administrator:
 
-1.  You need to have one or more subaccounts in the Central region<sup>\(1\)</sup>. Create one if needed.
+1.  You need to have one or more subaccounts in the Central region. Create one if needed.
 
     > ### Note:  
-    > ALL space developer users can access the service instance in the subaccount where it's entitled. To restrict access to your global account audit logs we recommend, you create a new subaccount in the Central regions<sup>\(1\)</sup> and add only users eligible to read global account audit logs to it.
+    > All space developer users can access the service instance in the subaccount where it's entitled. To restrict access to your global account audit logs we recommend you to create a new subaccount in the Central regions and add only users eligible to read global account audit logs to it.
 
 2.  Follow the steps to entitle one or more of your subaccounts with the **Central plan** of service Auditlog Management:
     1.  Navigate to your global account.

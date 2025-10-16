@@ -18,7 +18,7 @@ You can use this app to:
 
 -   Create business user groups and assign the required business users to them
 
--   Reassign/remove business users to/from business user groups
+-   Reassign or remove business users to or from business user groups
 
     Note: You can also use drag and drop to move business users from one group to another.
 
@@ -35,7 +35,7 @@ You can use this app to:
 
 ## Prerequisites
 
-The following restriction types \(in the following business catalogs\) are required for maintaining business role groups and business user groups:
+The following restriction types \(in the following business catalogs\) are required for maintaining or displaying business role groups and business user groups:
 
 
 <table>
@@ -73,6 +73,8 @@ SAP\_CORE\_BC\_IAM\_UM
 
 *Business User*\(CLASS\)
 
+*Business Role* \(S\_BRL\)
+
 </td>
 </tr>
 <tr>
@@ -84,6 +86,8 @@ SAP\_CORE\_BC\_IAM\_RA
 <td valign="top">
 
 *Business Role* \(S\_BRL\)
+
+*Business Role User Assignment* \(S\_BRL\_ASG\)
 
 *Business User* \(CLASS\)
 
@@ -97,7 +101,7 @@ SAP\_CORE\_BC\_IAM\_RM\_DISP\_PC
 </td>
 <td valign="top">
 
-*Business Role* \(ROLE\_GROUP\)
+*Business Role* \(S\_BRL\)
 
 </td>
 </tr>

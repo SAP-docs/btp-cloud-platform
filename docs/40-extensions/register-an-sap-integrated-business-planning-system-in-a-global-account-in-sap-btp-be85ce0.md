@@ -73,6 +73,17 @@ The registration process has the following states displayed in the cockpit:
 > 
 > If you want to start using another global account, you will have to register your SAP Integrated Business Planning systems again.
 
+> ### Note:  
+> You can have the same SAP Integrated Business Planning system registered in two global accounts:
+> 
+> -   If the two global accounts belong to the same Customer ID, then the SAP Integrated Business Planning system will be auto discovered in both global accounts.
+> 
+>     In this case, if you register the SAP Integrated Business Planning system in one of the global accounts, it will appear registered in the other global account as well. If the communications scenario group with which the SAP Integrated Business Planning system has been registered in the first global account works for the use case in the second global account, then you can use the same system in a formation in the second global account as well.
+> 
+>     If the use case in the second global account requires a different communication scenario group, you have to add the SAP Integrated Business Planning system manually in this global account and register it with the necessary communication scenario group.
+> 
+> -   If the two global accounts belong to different Customer IDs, the SAP Integrated Business Planning system will be auto discovered in one of the global account and need to be added manually in the other. Then, you register the system for each of the global accounts.
+
 
 
 <a name="loiobe85ce07823844848183a63c1bb15d17__steps_iw4_jxw_2pb"/>
@@ -95,7 +106,24 @@ The registration process has the following states displayed in the cockpit:
 
     3.  Choose *Add*.
 
-    4.  In the *Communication Scenario Groups* dropdown menu, select *All Communication Scenarios* to create any of the communication scenarios in SAP Integrated Business Planning.
+    4.  In the *Communication Scenario Groups* dropdown menu, select one of the following options:
+
+        -   *All Communication Scenarios*: to create any of the communication scenarios in SAP Integrated Business Planning.
+
+        -   *Eventing Between SAP Cloud Systems*: to allow the automatic enablement of the `SAP_COM_0892` communication scenario in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Start*: to allow the automatic enablement of the `SAP_COM_0647` communication scenario in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Ariba Buying*: to allow the automatic enablement of the `SAP_COM_0545` and `SAP_COM_0A00` communication scenarios in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Master Data Integration*: to allow the automatic enablement of the `SAP_COM_0008`, `SAP_COM_0091`, `SAP_COM_0659`, and `SAP_COM_0594` communication scenarios in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Ariba Central Invoice Management*: to allow the automatic enablement of the `SAP_COM_0897`, `SAP_COM_0516`, `SAP_COM_0531`, `SAP_COM_0008`, `SAP_COM_0091`, `SAP_COM_0659`, and `SAP_COM_0594` communication scenarios in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Subscription Billing*: to allow the automatic enablement of the `SAP_COM_0642`, `SAP_COM_0845`, `SAP_COM_0861`, `SAP_COM_0095`, `SAP_COM_0008`, `SAP_COM_0009`, `SAP_COM_0092`, `SAP_COM_0884`, `SAP_COM_0892`, and `SAP_COM_0165` communication scenarios in SAP Integrated Business Planning.
+
+        -   *Integration with SAP Advanced Financial Closing*: to allow the automatic enablement of the `SAP_COM_0566` communication scenario in SAP Integrated Business Planning.
+
 
     5.  Choose *Get Token*.
 

@@ -12,6 +12,14 @@ You can use this communication scenario to read protection allowlist data.
 
 This communication scenario allows you to read protection allowlist data, such as read clickjacking protection data, read trusted network zones, read trusted CSS Style Sheets, read Cross-Origin Resource Sharing.
 
+**Authentication Methods**
+
+This communication scenario can be configured with the following inbound authentication methods:
+
+-   *Basic Authentication* \(user and password\)
+
+-   *X.509* \(certificates\)
+
 
 
 <a name="loiod0489ef9f9344a86b33f79719e6de9a3__ProtectionAllowlist_steps"/>

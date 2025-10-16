@@ -258,11 +258,9 @@ None
 **Related Information**  
 
 
-[Identity Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/d17a116432d24470930ebea41977a888.html?version=Cloud)
+[What Are Cloud Identity Services?](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/what-is-identity-authentication?locale=en-US)
 
-[What Is Identity Authentication?](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/27882717f44b445fa287936c6f43dc1f.html?version=Cloud)
+[User Guide](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/user-guide?locale=en-US)
 
-[User Guide](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/d4c3811a58c44982bce09e9fdcbb5c64.html?version=Cloud)
-
-[Corporate Identity Providers](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html?version=Cloud)
+[Corporate Identity Providers](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/corporate-identity-providers?locale=en-US)
 

@@ -21,6 +21,7 @@ If the *Audit Log Service* of plan *premium* is not visible from the account coc
 -   To add entitlements on subaccount level, navigate to the subaccount via the account cockpit and choose *Entitlements* \> *Configurate Entitlements*
 
 -   To add entitlements on global account level via the account cockpit, navigate to the account cockpit global account view and choose *Entitlements* \> *Service Assignments*
+-   To add entitlements for a global account via the SAP BTP Control Center, choose the global account and go to *Edit* \> *Assign Services*. To select the Auditlog Service checkbox choose *Next* \> *Set Entitlements* \> *Select Auditlog Service* and ensure that there is quota for the “premium” plan of the service in the desired region\(s\).
 
 
 

@@ -373,3 +373,55 @@ lo_font->set_color( xco_cp_xlsx=>color->standard->orange
 lo_cursor->get_cell( )->apply_styles( VALUE #( ( lo_font ) ) ).
 ```
 
+
+
+### Text Alignment Customization
+
+You can customize the text alignment, as shown in the following example:
+
+```abap
+" Get cell reference
+DATA(lo_cursor) = lo_worksheet->cursor(
+  io_column = xco_cp_xlsx=>coordinate->for_alphabetic_value( 'B' )
+  io_row    = xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
+).
+ 
+" Configure alignment properties
+DATA(lo_alignment) = xco_cp_xlsx=>style->alignment( ).
+ 
+lo_alignment->set_horizontal_alignment( xco_cp_xlsx=>horizontal_alignment->right ).
+lo_alignment->set_indent( 2 ).
+lo_alignment->set_vertical_alignment( xco_cp_xlsx=>vertical_alignment->center ).
+lo_alignment->set_wrap_text( ).
+ 
+" Apply alignment to target cell
+lo_cursor->get_cell( )->apply_styles( VALUE #( ( lo_alignment ) ) ).
+```
+
+
+
+<a name="loio8dddce9fd9954e72a09d2b39d22db995__section_r13_wq5_2fc"/>
+
+## Worksheet Customizing
+
+You can customize your worksheet with tab coloring, cell merging operations, and much more. The method `merge_cells` applies cell merging to the worksheet using a specified rectangular pattern that must represent a valid worksheet range \(such as `A1:C5`\). Only contiguous rectangular areas are allowed. The method `unmerge_cells` splits previously merged cells back into individual cells within the given pattern, which only affects merged ranges that are fully contained within the given pattern. An example:
+
+```abap
+" Set tab color
+lo_worksheet->set_tab_color( xco_cp_xlsx=>color->standard->yellow ).
+ 
+" Merge and unmerge cells
+DATA(lo_pattern) = xco_cp_xlsx_selection=>pattern_builder->simple_from_to(
+  )->from_column( xco_cp_xlsx=>coordinate->for_alphabetic_value( 'A' )
+  )->from_row( xco_cp_xlsx=>coordinate->for_numeric_value( 1 )
+  )->to_column( xco_cp_xlsx=>coordinate->for_alphabetic_value( 'C' )
+  )->to_row( xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
+  )->get_pattern( ).
+ 
+lo_worksheet->merge_cells( lo_pattern ).
+lo_worksheet->unmerge_cells( lo_pattern ).
+ 
+" Protect
+lo_worksheet->protect( ).
+```
+

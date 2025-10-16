@@ -48,6 +48,15 @@ When you work with Joule, you could have questions about the things you see in t
 
 
 
+
+
+### Joule is in the wrong language
+
+-   If you recently changed the language settings in the cockpit user menu and Joule is still in the previously set language, simply write something to Joule or select *New Conversation* to update the language in Joule.
+-   To learn more about Joule and languages, check out [Joule Multi Language Support](https://help.sap.com/docs/JOULE/ad500071326a4c81b2a9c512e99c7807/8d44120a69844638ad160569b8bdd60e.html?locale=en-US&state=PRODUCTION&version=CLOUD).
+
+
+
 <a name="loioe2d8e2c0ad914564bd02f8b0d2c526c7__section_bdn_ghm_52c"/>
 
 ## Get Support

@@ -47,6 +47,23 @@ You use the read access log for evaluation purposes. In it, all log entries as w
     > ### Note:  
     > You can use the button *Download* at the top left of the search result table to save your search results in an Excel file.
 
+    **Search Operators: “is” vs. “covers”.**
+
+    In many search functions within *SRALMANAGER* and *SRALMONITOR*, two comparison operators are available:
+
+    -   *“is”*: Used for an **exact match**. The entered value must exactly match the stored value.
+
+        > ### Example:  
+        > Searching for Status is `"Open"` will return only entries with the exact status `Open`.
+
+    -   *“covers”*: Used for a **pattern-based search** with **wildcards**. The most common wildcard is `"*"`, which represents any sequence of characters.
+
+        > ### Example:  
+        > Searching for Name covers `"Error"` will return all entries whose name starts with `Error*`, such as `Error123,` `Error - Timeout`, etc.
+
+
+    These operators allow for flexible data filtering depending on the desired level of precision.
+
 4.  Select a log entry to display detailed information at the bottom.
 
     On the *Details* tab, all fields are displayed with their log domain and, if logged, the field values. On the *Access Environment* tab, you find more information about the underlying object that was logged.

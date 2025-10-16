@@ -6,8 +6,8 @@ Exchange user ID information between systems or environments in SAP BTP.
 
 **In This Section**
 
--   [Principal Propagation from the Cloud Foundry to the Neo Environment](principal-propagation-from-the-cloud-foundry-to-the-neo-environment-391e9ed.md#loio391e9ed92ff448e0b4bacac69f853516)
--   [Principal Propagation from the Neo to the Cloud Foundry Environment](principal-propagation-from-the-neo-to-the-cloud-foundry-environment-6e194f8.md#loio6e194f8e919a40bab7e39cd992677cb7)
+-   [Principal Propagation from the Multi-Cloud Foundation to the Neo Environment](principal-propagation-from-the-multi-cloud-foundation-to-the-neo-environment-391e9ed.md#loio391e9ed92ff448e0b4bacac69f853516)
+-   [Principal Propagation from the Neo Environment to the Multi-Cloud Foundation](principal-propagation-from-the-neo-environment-to-the-multi-cloud-foundation-6e194f8.md#loio6e194f8e919a40bab7e39cd992677cb7)
 
 **Other Principal Propagation Scenarios**
 

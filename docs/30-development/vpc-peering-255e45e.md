@@ -4,9 +4,6 @@
 
 VPC Peering in the Cloud Manager module enables peering with remote VPC networks of the same cloud provider.
 
-> ### Restriction:  
-> Cloud Manager supports the VPC peering feature of Amazon Web Services and Google Cloud only.
-
 The Cloud Manager module enables managed Virtual Private Cloud \(VPC\) peering functionality that allows you to peer the Kyma VPC network with a remote VPC network. Virtual network peering is possible only between networks of the same cloud providers. VPC peering in Kyma is fully automated. It means that Cloud Manager configures the peering on both Kyma's and cloud provider's side.
 
 
@@ -21,11 +18,13 @@ The Cloud Manager module supports the VPC Peering feature of the following cloud
 
 -   Amazon Web Services [VPC peering](https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html)
 -   Google Cloud [VPC Network Peering](https://cloud.google.com/vpc/docs/vpc-peering)
+-   Microsoft Azure [Virtual network peering](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)
 
 You can configure Cloud Manager's VPC peering using a dedicated custom resource \(CR\) corresponding with the cloud provider for your Kyma cluster, namely:
 
 -   AwsVpcPeering CR
 -   GcpVpcPeering CR
+-   AzureVpcPeering CR
 
 For more information, see [VPC Peering Resources](cloud-manager-resources-2389f6f.md#loio2389f6fb57f6469aba747129e7959d24__section_qjc_pmw_mdc).
 
@@ -41,6 +40,7 @@ Before you initiate VPC peering from a Kyma cluster, you must perform the follow
 -   Tag the remote network with the Kyma shoot name. For more information, see the following tutorials:
     -   [Allow SAP BTP, Kyma Runtime to Peer with Your Remote Network](https://github.com/kyma-project/cloud-manager/blob/main/docs/user/tutorials/01-30-10-aws-vpc-peering.md#allow-sap-btp-kyma-runtime-to-peer-with-your-network) in Creating Virtual Private Cloud Peering in Amazon Web Services.
     -   [Allow SAP BTP, Kyma Runtime to Peer with Your Remote Network](https://github.com/kyma-project/cloud-manager/blob/main/docs/user/tutorials/01-30-20-gcp-vpc-peering.md#allow-sap-btp-kyma-runtime-to-peer-with-your-network) in Creating Virtual Private Cloud Peering in Google Cloud.
+    -   [Allow SAP BTP, Kyma Runtime to Peer with Your Remote Network](https://github.com/kyma-project/cloud-manager/blob/main/docs/user/tutorials/01-30-30-azure-vpc-peering.md#allow-sap-btp-kyma-runtime-to-peer-with-your-remote-network) in Creating Virtual Private Cloud Peering in Microsoft Azure.
 
 
 
@@ -58,6 +58,8 @@ When you delete a VPC peering CR, the VPC peering connection in the Kyma cloud p
 ### Limitations
 
 The limit on the number of VPC peering CRs per Kyma cluster depends on the quotas for each cloud provider.
+
+For Microsoft Azure, changes to the address space are not synced between the Kyma and remote VPC networks. If you resize the remote VPC network address space, routes are out of sync. In this case, you must delete the existing AzureVpcPeering CR and create a new one.
 
 **Related Information**  
 

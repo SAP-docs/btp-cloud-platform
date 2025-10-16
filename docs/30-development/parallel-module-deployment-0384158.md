@@ -54,7 +54,7 @@ In the example above, the `deployed-after` attributes guarantee that the `ui` mo
 > ### Note:  
 > The `deployed-after` parameter is supported from major schema version 3 onwards.
 
-In the example above, we have also specified the global MTA parameter `enable-parallel-deployments` with a value `true`. It activates the parallel deployment of MTA modules that do not have any deployment order dependencies between each other. If the parameter is missing or its value is `false`, the module deployment will be sequential.
+In the example above, we have also specified the top-level MTA parameter `enable-parallel-deployments` with value `true`. It activates the parallel deployment of MTA modules that do not have any deployment order dependencies between each other. If the parameter is missing or its value is `false`, the module deployment will be sequential.
 
 > ### Note:  
 > The `enable-parallel-deployments` parameter has influence only on modules deployment, see section [Sequential Resource Processing](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/b93db81b7df441d985896ac9eed65142.html) for the resources process.
@@ -78,5 +78,5 @@ Due to a modelling error, the user can introduce direct or transitive circular d
 
 The previous deployment order algorithm was based on the `requires` module-level attribute, which contains a list of module names or provided dependencies from other modules. Since it is also the way to model configuration dependencies, this mechanism was not explicit enough to model a deployment order .
 
-There are many applications that are still depending on the old deployment order algorithm. To support them until they adapt to the new modeling, the new deployment order is introduced in a backward compatible manner. This means that if there are no `deployed-after` module-level elements in the MTA descriptor and the global MTA parameter `enable-parallel-deployments` is set to `false` or is missing, the old ordering algorithm is enabled by default.
+There are many applications that are still depending on the old deployment order algorithm. To support them until they adapt to the new modeling, the new deployment order is introduced in a backward compatible manner. This means that if there are no `deployed-after` module-level elements in the MTA descriptor and the top-level MTA parameter `enable-parallel-deployments` is set to `false` or is missing, the old ordering algorithm is enabled by default.
 

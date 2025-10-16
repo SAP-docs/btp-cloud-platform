@@ -236,6 +236,25 @@ Customer
 <tr>
 <td valign="top">
 
+Change Management
+
+</td>
+<td valign="top">
+
+Ensure that any custom configurations of modules are correct.
+
+Note: If you, as a customer, introduce any wrong or expired configurations or credentials that cause errors or warnings, you’re then responsible for fixing them.
+
+</td>
+<td valign="top">
+
+Customer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Case Management
 
 </td>
@@ -258,7 +277,7 @@ Case Management
 </td>
 <td valign="top">
 
-In the event of cases, make reasonable effort to support end users and manage their cases, to explore self-help tools to find already documented solutions, and to liaise with SAP support in the event of new problems to ensure timely processing of cases affecting the resources in the customer account.
+In the event of cases, make a reasonable effort to support end users and manage their cases, to explore self-help tools to find already documented solutions, and to liaise with SAP support in the event of new problems to ensure timely processing of cases affecting the resources in the customer account.
 
 </td>
 <td valign="top">
@@ -348,7 +367,7 @@ Backup & Restore
 </td>
 <td valign="top">
 
-Restore previously backed-up data to recover to a consistent state. Note: For some database services, there is a self-service for the restore process. Verify the completeness of the restored data based on log files created during the recovery and smoke tests to verify the system’s consistency.
+Restore previously backed-up data to recover to a consistent state. Note: For some database services, there's a self-service for the restore process. Verify the completeness of the restored data based on log files created during the recovery and smoke tests to verify the system’s consistency.
 
 Note: If you as a customer deploy your custom databases, you're then responsible. See [Volume Backup for Customer Data](https://help.sap.com/docs/btp/sap-business-technology-platform/kyma-environment-backup?version=Cloud#volume-backup-for-customer-data).
 
@@ -430,7 +449,7 @@ User Access Management
 </td>
 <td valign="top">
 
-Manage users, permissions, and security configurations within the subaccount.
+Manage users, permissions, and security configurations within the subaccount and the Kyma runtime.
 
 </td>
 <td valign="top">
@@ -447,7 +466,7 @@ System Monitoring
 </td>
 <td valign="top">
 
-Ensure availability of the customer system according to the Service Level Agreements as agreed in the contractual agreement between SAP and the customer, by active monitoring, prompt issue detection, and case prevention.
+Ensure availability of the Kyma runtime according to the Service Level Agreements as agreed in the contractual agreement between SAP and the customer, by active monitoring, prompt issue detection, and case prevention.
 
 </td>
 <td valign="top">
@@ -481,17 +500,46 @@ Malware Management
 </td>
 <td valign="top">
 
-Ensure that the infrastructure and platform services are free of viruses, spam, spyware, and other malicious software. If malware is detected, an auto-notification is generated, which is assessed and resolved by SAP.
-
-Note: If your custom application has vulnerabilities, you as a customer are responsible to fix them, to build a new Docker image, and to update the application.
+Ensure that the infrastructure and platform services are free of viruses, spam, spyware, and other malicious software.
 
 </td>
 <td valign="top">
 
--   SAP
--   Customer
+SAP
 
+</td>
+</tr>
+<tr>
+<td valign="top">
 
+Malware Management
+
+</td>
+<td valign="top">
+
+Ensure that all resources like functions and images are free of viruses, spam, spyware, and other malicious software.
+
+</td>
+<td valign="top">
+
+Customer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Vulnerabilities Management
+
+</td>
+<td valign="top">
+
+Check regularly for vulnerabilities in your custom applications. If you find such, ensure they are mitigated in time.
+
+</td>
+<td valign="top">
+
+Customer
 
 </td>
 </tr>
@@ -503,7 +551,7 @@ Application Management
 </td>
 <td valign="top">
 
-Design, develop, deploy, configure, maintain, and operate the application within the subaccount. This includes maintaining a staged environment for application delivery \(if required\), application resource management, and managing application availability and performance.
+Design, develop, deploy, configure, maintain, and operate the application within the subaccount and the Kyma runtime. This includes maintaining a staged environment for application delivery \(if required\), application resource management, and managing application availability and performance.
 
 </td>
 <td valign="top">
@@ -538,6 +586,23 @@ Application Management
 <td valign="top">
 
 Regularly adopt the latest versions of the tools for lifecycle management and operations offered at the [SAP Development Tools site](https://tools.hana.ondemand.com/).
+
+</td>
+<td valign="top">
+
+Customer
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Application Management
+
+</td>
+<td valign="top">
+
+Ensure your application configurations are hardened according to best practices. See [Kubernetes Pod Security Recommendations](https://help.sap.com/docs/btp/sap-business-technology-platform/kubernetes-pod-security-recommendations).
 
 </td>
 <td valign="top">
@@ -588,7 +653,7 @@ Network Management
 </td>
 <td valign="top">
 
-Create and manage a custom Web domain for the application in the subaccount to ensure data isolation.
+Create and manage own Web domain for the application in the subaccount to ensure data isolation.
 
 </td>
 <td valign="top">

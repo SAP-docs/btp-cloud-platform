@@ -4,10 +4,10 @@
 
 Let Joule help you find answers to questions about managing your accounts in SAP BTP cockpit.
 
-Joule is your AI copilot in the SAP BTP Cockpit. You can leverage Joule's generative AI capabilities to help you retrieve information about your accounts and their users. Joule can also answer questions about the cockpit and SAP BTP. Just type a question in the Joule chat using natural language and let Joule scan the product documentation on the SAP Help Portal for answers. Joule summarizes the relevant SAP Help Portal information. This summary is then displayed along with the top help results. If you select a link result, you're taken directly to the topic on the SAP Help Portal.
+Joule is your AI copilot in SAP BTP Cockpit. You can leverage Joule's generative AI capabilities to help you retrieve information about your accounts and their users. Joule can also answer questions about the cockpit and SAP BTP. Just type a question in the Joule chat using natural language and let Joule scan the product documentation on the SAP Help Portal for answers. Joule summarizes the relevant SAP Help Portal information. This summary is then displayed along with the top help results. If you select a link result, you're taken directly to the topic on the SAP Help Portal.
 
 > ### Note:  
-> Joule is an addition to in-app help content, guided tours, embedded learning content, and customer-specific enablement content in SAP Companion.
+> Joule is an addition to in-app help content, guided tours, and embedded learning content.
 
 **New to Joule?**Here are some tips to help you get started:
 

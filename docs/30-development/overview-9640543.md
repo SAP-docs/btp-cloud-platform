@@ -307,7 +307,7 @@ Test in the ABAP Test Cockpit. See [Test in the ABAP Test Cockpit](test-023cf9d.
 
 Run ABAP Test Cockpit checks in DEV and/or TST systems.
 
-See [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.sap.com/2020/08/14/abap-test-cockpit-in-the-cloud-what-is-already-possible/) and [ABAP Test Cockpit Configurator](../50-administration-and-ops/abap-test-cockpit-configurator-22c26ff.md).
+See [ABAP Test Cockpit in the Cloud – What is already possible](https://blogs.sap.com/2020/08/14/abap-test-cockpit-in-the-cloud-what-is-already-possible/) and [Configure ABAP Test Cockpit](../50-administration-and-ops/configure-abap-test-cockpit-22c26ff.md).
 
 Request exemptions for false-positives and approve or reject the same.
 

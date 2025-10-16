@@ -9,8 +9,3 @@ Warden is automatically enabled in the namespaces managed by Kyma, which can be 
 > ### Caution:  
 > When you enable third-party Kubernetes tools that mutate workloads \(for example, Dynatrace that adds init containers\), you must exclude the Kyma-managed namespaces, which are protected by Warden, from the tool config. Otherwise, Warden blocks unknown images. Mind that disrupting the Kyma-managed namespaces may lead to an inability to uphold the Service Level Agreement \(SLA\).
 
-**Related Information**  
-
-
-[GitHub repository: Warden](https://github.com/kyma-project/warden)
-

@@ -844,6 +844,23 @@ Event Binding
 <tr>
 <td valign="top">
 
+EVTO
+
+</td>
+<td valign="top">
+
+RAP Event Object
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 FUGR
 
 </td>
@@ -1569,6 +1586,23 @@ Process variants
 <td valign="top">
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RVBC
+
+</td>
+<td valign="top">
+
+Review Booklet Configuration Model
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

@@ -4,7 +4,7 @@
 
 # Complexity Analysis
 
-In this topic, you will learn more about complexity analysis in the Custom Code Migration app.
+In this topic, you will learn more about complexity analysis in the Analyze Custom Code app.
 
 
 
@@ -12,7 +12,7 @@ In this topic, you will learn more about complexity analysis in the Custom Code 
 
 ## Purpose
 
-Sometimes, your ABAP code can contain complex objects that very often also experience the most frequent changes. With the Custom Code Migration app it is possible to identify the most complex objects via complexity analysis and help you decide whether you want to redesign and therefore simplify them.
+Sometimes, your ABAP code can contain complex objects that very often also experience the most frequent changes. With the Analyze Custom Code app it is possible to identify the most complex objects via complexity analysis and help you decide whether you want to redesign and therefore simplify them.
 
 > ### Note:  
 > Please be aware that, in this topic, the focus is on reducing the complexity of packages only. Nevertheless, generally, what applies to packages also applies to request entry points.

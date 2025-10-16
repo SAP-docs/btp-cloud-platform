@@ -36,6 +36,17 @@ The registration process is based on a registration token that is used for the p
 > 
 > If you want to start using another global account, you will have to register your SAP S/4HANA Cloud systems again.
 
+> ### Note:  
+> You can have the same SAP S/4HANA Cloud system registered in two global accounts:
+> 
+> -   If the two global accounts belong to the same Customer ID, then the SAP S/4HANA Cloud system will be auto discovered in both global accounts.
+> 
+>     In this case, if you register the SAP S/4HANA Cloud system in one of the global accounts, it will appear registered in the other global account as well. If the communications scenario group with which the SAP S/4HANA Cloud system has been registered in the first global account works for the use case in the second global account, then you can use the same system in a formation in the second global account as well.
+> 
+>     If the use case in the second global account requires a different communication scenario group, you have to add the SAP S/4HANA Cloud system manually in this global account and register it with the necessary communication scenario group.
+> 
+> -   If the two global accounts belong to different Customer IDs, the SAP S/4HANA Cloud system will be auto discovered in one of the global account and need to be added manually in the other. Then, you register the system for each of the global accounts.
+
 The registration process has the following states displayed in the cockpit:
 
 -   No status displayed in the *Status* column - the registration token for an SAP system has been created but the registration on the respective SAP solution system side has not been performed or completed.
@@ -107,9 +118,19 @@ The registration process has the following states displayed in the cockpit:
 
         -   *Eventing Between SAP Cloud Systems*: to allow the automatic enablement of the `SAP_COM_0892` communication scenario in SAP S/4HANA Cloud.
 
+        -   *Integration with SAP Start*: to allow the automatic enablement of the `SAP_COM_0647` communication scenario in SAP S/4HANA Cloud.
+
         -   *Integration with SAP Ariba Buying*: to allow the automatic enablement of the `SAP_COM_0545` and `SAP_COM_0A00` communication scenarios in SAP S/4HANA Cloud.
 
-        -   *Integration with SAP Start*: to allow the automatic enablement of the `SAP_COM_0647` communication scenario in SAP S/4HANA Cloud.
+        -   *Integration with SAP Master Data Integration*: to allow the automatic enablement of the `SAP_COM_0008`, `SAP_COM_0091`, `SAP_COM_0659`, and `SAP_COM_0594` communication scenarios in SAP S/4HANA Cloud.
+
+        -   *Integration with SAP Ariba Central Invoice Management*: to allow the automatic enablement of the `SAP_COM_0897`, `SAP_COM_0516`, `SAP_COM_0531`, `SAP_COM_0008`, `SAP_COM_0091`, `SAP_COM_0659`, and `SAP_COM_0594` communication scenarios in SAP S/4HANA Cloud.
+
+        -   *Integration with SAP Subscription Billing*: to allow the automatic enablement of the `SAP_COM_0642`, `SAP_COM_0845`, `SAP_COM_0861`, `SAP_COM_0095`, `SAP_COM_0008`, `SAP_COM_0009`, `SAP_COM_0092`, `SAP_COM_0884`, `SAP_COM_0892`, and `SAP_COM_0165` communication scenarios in SAP S/4HANA Cloud.
+
+        -   *Integration with SAP Advanced Financial Closing*: to allow the automatic enablement of the `SAP_COM_0566` communication scenario in SAP S/4HANA Cloud.
+
+        -   *Integration with SAP Master Data Governance*: to allow the automatic enablement of the `SAP_COM_0659` communication scenario in SAP S/4HANA Cloud.
 
 
     5.  Choose *Get Token*.

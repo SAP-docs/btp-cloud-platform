@@ -14,6 +14,55 @@ You’ve built a developer extension and would now like to translate it into oth
 
 
 
+## Prerequisites
+
+The following business catalogs are required:
+
+**Business Catalogs**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Primary
+
+</th>
+<th valign="top">
+
+Secondary
+
+</th>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
+`SAP_A4C_BC_DEV_TRA_PC`
+
+\(for the *Maintain Translations* app\)
+
+</td>
+<td valign="top">
+
+`SAP_A4C_BC_TRN_MNG_PC`
+
+\(required to create transport requests\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`SAP_A4C_BC_TRN_REL_PC`
+
+\(required to release transport requests\)
+
+</td>
+</tr>
+</table>
+
+
+
 ![](images/Image_Map_Maintain_Translations_410d1cf.png)
 
 
