@@ -495,6 +495,38 @@ Enterprise account
 </td>
 <td valign="top">
 
+eu13
+
+</td>
+<td valign="top">
+
+Amazon Web Services
+
+</td>
+<td valign="top">
+
+cf-eu13
+
+</td>
+<td valign="top">
+
+Europe \(Milan\)
+
+</td>
+<td valign="top">
+
+`aws` 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
 br10
 
 </td>
@@ -1298,12 +1330,12 @@ Canada \(Toronto\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="14">
+<td valign="top" rowspan="15">
 
 Amazon Web Services
 
 </td>
-<td valign="top" rowspan="11">
+<td valign="top" rowspan="12">
 
 `aws`
 
@@ -1330,6 +1362,18 @@ Europe \(Frankfurt\)
 <td valign="top">
 
 Europe \(London\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`eu-south-1`
+
+</td>
+<td valign="top">
+
+Europe \(Milan\)
 
 </td>
 </tr>

@@ -4,6 +4,9 @@
 
 Quickly get started with a trial account.
 
+> ### Restriction:  
+> The trial offering for SAP BTP, Cloud Foundry runtime is temporarily limited. New SAP BTP trial accounts are currently provisioned with no runtime memory quota, making it impossible to deploy applications. Trial accounts created before October 15, 2025 aren’t affected. For more information, see [the announcement blog post](https://community.sap.com/t5/technology-blog-posts-by-sap/btp-trial-update-cf-runtime-availability/ba-p/14247240) and follow the updates on SAP Community.
+
 
 
 <a name="loioe50ab7b423f04a8db301d7678946626e__section_ncd_t5k_wbb"/>

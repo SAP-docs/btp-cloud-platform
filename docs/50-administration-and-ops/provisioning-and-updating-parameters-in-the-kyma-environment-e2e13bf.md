@@ -2743,7 +2743,7 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="11">
+<td valign="top" rowspan="12">
 
 Standard: Amazon Web Services
 
@@ -2758,7 +2758,7 @@ Build Runtime: Amazon Web Services
 technical name: `build-runtime-aws`
 
 </td>
-<td valign="top" rowspan="11">
+<td valign="top" rowspan="12">
 
 Provisioning
 
@@ -2783,6 +2783,18 @@ Europe \(Frankfurt\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-en
 <td valign="top">
 
 Europe \(London\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`eu-south-1`
+
+</td>
+<td valign="top">
+
+Europe \(Milan\)
 
 </td>
 </tr>

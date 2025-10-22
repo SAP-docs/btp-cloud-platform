@@ -33,7 +33,7 @@ You can assign roles to a group of users only if you use a custom identity provi
 
 2.  In Kyma dashboard, select or create the namespace in which you want to assign roles.
 
-3.  To create a role binding, go to *Configuration* \> *Role Bindings* \> *\+ Create Role Binding*. Fill in the required fields:
+3.  To create a role binding, go to *Configuration* \> *Role Bindings* \> *Create*. Fill in the required fields:
 
     1.  As *Name*, insert the name of your binding.
 

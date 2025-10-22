@@ -383,6 +383,17 @@ Use the connectivity proxy for Kubernetes to connect workloads in a Kubernetes c
 
 
 
+<a name="copydb6b63f8a36543d985dd0dfa641273bb__section_ltd_fr5_zgc"/>
+
+## Community Modules
+
+Community modules are modules provided by the Kyma community. Use them to enhance your Kyma experience with additional features and capabilities. You can install community modules alongside managed modules. Unlike managed modules, community modules aren’t automatically updated or maintained. For more information, see [kyma-project.io: Community Modules](https://kyma-project.io/#/community-modules/user/README).
+
+> ### Caution:  
+> Community modules aren't subject to the Service Level Agreement \(SLA\).
+
+
+
 **Related Information**  
 
 

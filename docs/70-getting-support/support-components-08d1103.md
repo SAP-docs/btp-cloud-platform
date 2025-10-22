@@ -2598,6 +2598,7 @@ Build and run mobile apps for B2E and B2B use cases.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   UAE \(Dubai\)
 
 
 
@@ -2661,6 +2662,7 @@ Build and run mobile apps for B2E and B2B use cases.
 -   South Korea \(Seoul\)
 -   Europe \(Frankfurt\) EU Access
 -   US West \(Oregon\)
+-   Europe \(Milan\)
 
 
 
@@ -2893,9 +2895,9 @@ Calculate prices for configurable- and non-configurable products
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 -   Singapore
--   Europe \(Frankfurt\) EU Access
 
 
 
@@ -2973,6 +2975,63 @@ Calculate prices for configurable- and non-configurable products
 <tr>
 <td valign="top">
 
+[Pricing service](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+</td>
+<td valign="top">
+
+Calculate prices for configurable- and non-configurable products
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
+-   Australia \(Sydney\)
+-   India \(Mumbai\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Administration Service](https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing) 
 
 </td>
@@ -3005,9 +3064,9 @@ Administer the configuration and pricing services
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 -   Singapore
--   Europe \(Frankfurt\) EU Access
 
 
 
@@ -3063,6 +3122,63 @@ Administer the configuration and pricing services
 
 -   Europe \(Netherlands\)
 -   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Administration Service](https://help.sap.com/docs/variant-configuration-and-pricing/administration-guide-for-sap-variant-configuration-and-pricing) 
+
+</td>
+<td valign="top">
+
+Administer the configuration and pricing services
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
+-   Australia \(Sydney\)
+-   India \(Mumbai\)
 
 
 
@@ -5257,6 +5373,7 @@ Simplify access to applications by establishing a central entry point.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   UAE \(Dubai\)
 
 
 
@@ -5320,6 +5437,7 @@ Simplify access to applications by establishing a central entry point.
 -   Europe \(Frankfurt\) EU Access
 -   South Korea \(Seoul\)
 -   US West \(Oregon\)
+-   Europe \(Milan\)
 
 
 
@@ -7154,9 +7272,9 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 <td valign="top">
 
 -   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 -   Singapore
--   Europe \(Frankfurt\) EU Access
 
 
 
@@ -7212,6 +7330,63 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 
 -   Europe \(Netherlands\)
 -   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Variant Configuration](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+</td>
+<td valign="top">
+
+Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
+-   Australia \(Sydney\)
+-   India \(Mumbai\)
 
 
 
@@ -7628,6 +7803,7 @@ Build and run mobile apps for B2C use cases.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   UAE \(Dubai\)
 
 
 
@@ -7691,6 +7867,7 @@ Build and run mobile apps for B2C use cases.
 -   South Korea \(Seoul\)
 -   Europe \(Frankfurt\) EU Access
 -   US West \(Oregon\)
+-   Europe \(Milan\)
 
 
 
@@ -13693,6 +13870,7 @@ Create role based, multi-channel sites to access business apps and content.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   UAE \(Dubai\)
 
 
 
@@ -13756,6 +13934,7 @@ Create role based, multi-channel sites to access business apps and content.
 -   Europe \(Frankfurt\) EU Access
 -   South Korea \(Seoul\)
 -   US West \(Oregon\)
+-   Europe \(Milan\)
 
 
 

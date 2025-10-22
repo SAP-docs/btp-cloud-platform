@@ -2022,8 +2022,6 @@
             -   [Assign Roles in the Kyma Environment](60-security/assign-roles-in-the-kyma-environment-148ae38.md)
                 -   [Overwrite Kyma Administrators](60-security/overwrite-kyma-administrators-df7f9d7.md)
             -   [Auditing and Logging Information in Kyma](60-security/auditing-and-logging-information-in-kyma-935e241.md)
-            -   [Deprecation Trial for Google's Third-Party Cookies](60-security/deprecation-trial-for-google-s-third-party-cookies-d3eb18d.md)
-                -   [Apply Third-Party Cookie Deprecation Trial Tokens for Kyma Runtime Workloads](60-security/apply-third-party-cookie-deprecation-trial-tokens-for-kyma-runtime-workloads-479a43e.md)
             -   [Verify Image Signatures in the Kyma Environment](60-security/verify-image-signatures-in-the-kyma-environment-4c78f58.md)
 -   [Getting Support](70-getting-support/getting-support-5dd7398.md)
     -   [Providing Details for SAP HANA Service Database Problems](70-getting-support/providing-details-for-sap-hana-service-database-problems-75cde53.md)

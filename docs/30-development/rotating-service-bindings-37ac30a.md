@@ -144,7 +144,7 @@ Rotating the service binding has the following results:
 
 -   The Secret is updated with the latest credentials.
 
--   The old credentials are kept in a newly-created Secret named `original-secret-name(variable)-guid(variable)`. This temporary Secret is kept until the configured deletion time \(TTL\).
+-   The old credentials are kept in a newly-created Secret named `{ORIGINAL_SECRET_NAME}-{GUID}`. This temporary Secret is marked with the *services.cloud.sap.com/stale* label and kept until the configured deletion time \(TTL\).
 
     To see the timestamp of the last service binding rotation, go to the `status.lastCredentialsRotationTime` field.
 
@@ -155,5 +155,5 @@ Rotating the service binding has the following results:
 
 ## Limitations
 
-You cannot enable automatic credential rotation for a backup service binding \(named: `original-binding-name(variable)-guid(variable)`\) marked with the *services.cloud.sap.com/stale* label. This backup service binding is created during the credentials rotation process to facilitate the process.
+You cannot enable automatic credential rotation for a backup service binding \(named: `{ORIGINAL_BINDING_NAME}-{GUID}`\) marked with the *services.cloud.sap.com/stale* label. This backup service binding is created during the credentials rotation process to facilitate the process.
 

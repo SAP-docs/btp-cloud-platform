@@ -54,5 +54,5 @@ Collecting Istio access logs can help indicate the core concepts of monitoring \
 
 [Auditing and Logging Information in Kyma](auditing-and-logging-information-in-kyma-935e241.md "Kyma runtime collects audit and application logs.")
 
-[Deprecation Trial for Google's Third-Party Cookies](deprecation-trial-for-google-s-third-party-cookies-d3eb18d.md)
+ <?sap-ot O2O class="- topic/link " href="d3eb18db88504e348a0096c5a20b3659.xml" text="" desc="" xtrc="link:7" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/a22ef28e21984788b12120254efa2996.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
