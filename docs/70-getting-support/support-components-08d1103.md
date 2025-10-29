@@ -8671,6 +8671,60 @@ Cloud Offering with End-to-End visibility on Business Processes
 </td>
 <td valign="top">
 
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   UAE \(Dubai\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Process Visibility](https://help.sap.com/viewer/product/VISIBILITY_SERVICE/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Cloud Offering with End-to-End visibility on Business Processes
+
+</td>
+<td valign="top">
+
+-   LOD-BPM-VIS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 -   AWS
 
 
@@ -9420,6 +9474,60 @@ Enrich cloud offerings with decision modeling, management, and execution service
 <td valign="top">
 
 -   
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Business Rules](https://help.sap.com/viewer/product/BUSINESS_RULES/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Enrich cloud offerings with decision modeling, management, and execution service.
+
+</td>
+<td valign="top">
+
+-   LOD-BPM-RUL
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   UAE \(Dubai\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
 
 
 </td>
@@ -11414,6 +11522,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Canada \(Montreal\)
 -   Europe \(Frankfurt\)
 -   Europe \(Frankfurt\) EU Access
+-   Europe \(Milan\)
 -   US East \(VA\)
 -   US West \(Oregon\)
 -   Japan \(Tokyo\)

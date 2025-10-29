@@ -476,7 +476,7 @@ Here are some useful tips for working in this perspective:
     > ### Tip:  
     > In the cost breakdown chart, the 8 costliest subaccounts in your global account over the last 12 months are displayed. If your global account has more than 8 subaccounts, click *Show More* below the chart legend to expand the chart and to view the cost breakdown of additional subaccounts.
 
--   **\[INTERNAL: T2508B\]**To open the SAP Price List for a specific service used in a directory or subaccount, first open the details view of the directory or subaccount, then locate the service, and choose *Open in SAP Price List* from the service's <span class="SAP-icons-V5"></span> \(Actions\) context menu.
+-   To open the SAP Price List for a specific service used in a directory or subaccount, first open the details view of the directory or subaccount, then locate the service, and choose *Open in SAP Price List* from the service's <span class="SAP-icons-V5"></span> \(Actions\) context menu.
 
 
 See other useful tips, such as table sorting and searching, in the [Understanding the Views in the Costs and Usage Page](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md#loiode6f0db8919f4e6f97e54bc4ddaf2ab8__section_u3v_vd3_m1c) section.

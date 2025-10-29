@@ -89,6 +89,8 @@ Singapore
 
 `trial`
 
+`build-runtime-azure`
+
 </td>
 </tr>
 <tr>
@@ -125,6 +127,8 @@ US West \(WA\)
 
 `azure_lite`
 
+`build-runtime-azure`
+
 </td>
 </tr>
 <tr>
@@ -160,6 +164,8 @@ Japan \(Tokyo\)
 `azure`
 
 `azure_lite`
+
+`build-runtime-azure`
 
 </td>
 </tr>
@@ -273,6 +279,8 @@ Australia \(Sydney\)
 
 `azure_lite`
 
+`build-runtime-azure`
+
 </td>
 </tr>
 <tr>
@@ -308,6 +316,8 @@ Brazil \(São Paulo\)
 `azure`
 
 `azure_lite`
+
+`build-runtime-azure`
 
 </td>
 </tr>
@@ -547,7 +557,9 @@ Brazil \(São Paulo\)
 </td>
 <td valign="top">
 
-`aws` 
+`aws`
+
+`build-runtime-aws`
 
 </td>
 </tr>
@@ -579,7 +591,9 @@ Japan \(Tokyo\)
 </td>
 <td valign="top">
 
-`aws` 
+`aws`
+
+`build-runtime-aws`
 
 </td>
 </tr>
@@ -611,7 +625,9 @@ Canada \(Montreal\)
 </td>
 <td valign="top">
 
-`aws` 
+`aws`
+
+`build-runtime-aws`
 
 </td>
 </tr>
@@ -709,7 +725,9 @@ Singapore
 </td>
 <td valign="top">
 
-`aws` 
+`aws`
+
+`build-runtime-aws`
 
 </td>
 </tr>
@@ -1099,7 +1117,9 @@ Australia \(Sydney\)
 </td>
 <td valign="top">
 
-`gcp` 
+`gcp`
+
+`build-runtime-gcp`
 
 </td>
 </tr>

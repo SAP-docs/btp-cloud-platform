@@ -280,6 +280,18 @@ If `true`, the certificates and key of the authentication service are added to t
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+URL.headers.<header-name\>
+
+</td>
+<td valign="top">
+
+If you provide this property, the application router propagates the specified attribute as a header in the destination.The application router retrieves the list of headers from the destination API. Existing request headers are not overwritten.
+
+</td>
+</tr>
 </table>
 
 -   If a destination with the same name is defined both in the environment destination and the destination service, the destination configuration loads the settings from the environment.

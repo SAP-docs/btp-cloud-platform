@@ -2,7 +2,7 @@
 
 # SAP Business Technology Platform
 
-SAP Business Technology Platform \(SAP BTP\) is an integrated offering comprised of the following technology portfolios: application development; process automation; integration; data, analytics, and enterprise planning; artificial intelligence. The platform offers users the ability to turn data into business value, compose end-to-end business processes, connect entire IT landscapes, and personalize, build and extend SAP applications. This reduces the overall total cost of ownership maintaining SAP landscapes and third-party software across end-to-end business processes.
+SAP Business Technology Platform \(SAP BTP\) is an offering that integrates the following technology portfolios: application development; process automation; integration; data, analytics, and enterprise planning; artificial intelligence. The platform allows users to turn data into business value, compose end-to-end business processes, connect entire IT landscapes, and personalize, build, and extend SAP applications. This reduces the overall total cost of ownership by maintaining SAP landscapes and third-party software across end-to-end business processes.
 
 
 
@@ -10,11 +10,11 @@ SAP Business Technology Platform \(SAP BTP\) is an integrated offering comprised
 
 ## SAP BTP in the Intelligent Enterprise
 
-Nowadays, companies need access to live data to make informed decisions in real time and apply advanced technologies and best practices within agile, integrated business processes. That’s why a key part of SAP’s strategy is integrating end-to-end processes – whether the solutions are from SAP, from partners, or from third parties.
+Companies need access to live data to make informed decisions in real time and apply advanced technologies and best practices within agile, integrated business processes. That’s why a key part of SAP’s strategy is integrating end-to-end processes – whether the solutions are from SAP, from partners, or from third parties.
 
 At SAP, we drive integration across our solution portfolio, including the following business scenarios: lead to cash, source to pay, design to operate, and hire to retire.
 
-The SAP Business Technology Platform provides integration capabilities to ensure connected end-to-end business processes across SAP and third-party applications. The following key aspects, called Suite Qualities, facilitate a consistent experience across applications:
+SAP Business Technology Platform provides integration capabilities to ensure connected end-to-end business processes across SAP and third-party applications. The following key aspects, called Suite Qualities, facilitate a consistent experience across applications:
 
 -   Seamless User Experience: SAP Fiori can be used to gain a common look and feel of many SAP solutions, which improves user experience and reduces interruptions.
 
@@ -24,11 +24,11 @@ The SAP Business Technology Platform provides integration capabilities to ensure
 
     See: [SAP Cloud Identity Services](https://help.sap.com/docs/SAP_CLOUD_IDENTITY?version=Cloud) on SAP BTP.
 
--   Aligned Domain Models, APIs and Events: Master Data Integration is a cloud service for master data integration. It provides a consistent view on master data across a hybrid landscape. You can use APIs for process integration among SAP solutions, SAP, and third parties, or by adopting an event-based integration strategy – all based on predefined integration content available on SAP API Business Hub.
+-   Aligned Domain Models, APIs, and Events: Master Data Integration is a cloud service for master data integration. It provides a consistent view on master data across a hybrid landscape. You can use APIs for process integration among SAP solutions, SAP, and third parties, or by adopting an event-based integration strategy – all based on predefined integration content available on SAP API Business Hub.
 
     See: [SAP One Domain Model](https://api.sap.com/sap-one-domain-model), [SAP Master Data Integration service](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration?region=all), [SAP Integration Suite](https://www.sap.com/products/technology-platform/integration-suite.html) on SAP BTP
 
--   Embedded Analytics across Solutions: The analytical insights in various SAP solutions helps you make informed decisions. Embedded analytics from SAP Analytics Cloud are available e.g., in SAP S/4HANA and SAP SuccessFactors.
+-   Embedded Analytics across Solutions: The analytical insights in various SAP solutions helps you make informed decisions. Embedded analytics from SAP Analytics Cloud are available, for example, in SAP S/4HANA and SAP SuccessFactors.
 
     See: [SAP Analytics Cloud](https://www.sap.com/products/technology-platform/cloud-analytics.html) on SAP BTP.
 
@@ -36,7 +36,7 @@ The SAP Business Technology Platform provides integration capabilities to ensure
 
     See: [SAP Task Center](https://help.sap.com/docs/TASK_CENTER) on SAP BTP, [SAP Mobile Start](https://help.sap.com/docs/SAP_MOBILE_START). For full workflow modeling and visibility capabilities leverage, see: [SAP Process Automation](https://www.sap.com/products/technology-platform/process-automation.html?campaigncode=crm-ya22-int-1517065&source=ppc-de-google_ads-search-71700000093393983-58700007789267837-btp_btp-x-x-x&dfa=1&gclid=EAIaIQobChMIosu48pm--AIVjOR3Ch2ybga1EAAYASAAEgLwcfD_BwE&gclsrc=aw.ds) on SAP BTP
 
--   Coordinated Lifecycle Management: Harmonized provisioning, setup and operations, and monitoring solutions allow you to optimize implementation projects and reduce manual integration configuration effort. Automated provisioning and guided integration setup are available for selected scenarios in lead to cash, source to pay, recruit to retire, and design to operate.
+-   Coordinated Lifecycle Management: You can optimize implementation projects and reduce configuration effort because everything is harmonized: provisioning; setup and operations; and monitoring solutions. Automated provisioning and guided integration setup are available for selected scenarios in lead to cash, source to pay, recruit to retire, and design to operate.
 
     See: [SAP for Me](https://me.sap.com/), [SAP CALM](https://support.sap.com/en/alm/sap-cloud-alm.html)
 

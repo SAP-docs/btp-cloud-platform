@@ -1247,7 +1247,9 @@ Updating
 </td>
 <td valign="top" rowspan="7">
 
-All Amazon Web Services regions. See [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region).
+All Amazon Web Services regions except for `eu-south-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_2_note)</sup>.
+
+See [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region).
 
 </td>
 </tr>

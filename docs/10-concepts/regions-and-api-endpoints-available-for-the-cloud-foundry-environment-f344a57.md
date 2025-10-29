@@ -5,9 +5,14 @@
 
 
 > ### Note:  
-> If you are using the Cloud Connector for on-premise connections between SAP BTP applications and your local network, and you restrict network access by allowlisting IP addresses in your local firewall rules, you must add connectivity-specific IPs to these rules for the respective SAP BTP region\(s\).
+> If you are using the Cloud Connector and/or the Destination service for connections between your SAP BTP applications and your local network or another \(web-based\) target system, and you restrict access by allowlisting IP addresses in your firewall rules, you must add connectivity-specific IPs to these rules for the respective SAP BTP region\(s\).
 > 
-> For more information, see [Prerequisites: Network](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/prerequisites#network) \(Cloud Connector documentation\).
+> For the Destination service, both the egress and ingress IPs \(NAT and LB IPs\) may be relevant.
+> 
+> For more information, see:
+> 
+> -   [Prerequisites: Network](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/prerequisites#network) \(Cloud Connector\)
+> -   [Configure Destination Service IPs in Firewall Rules](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/destination-service-nat-ips) \(Destination service\)
 
 **Regions for Enterprise Accounts**
 
@@ -1105,6 +1110,58 @@ Amazon Web Services
 </td>
 <td valign="top">
 
+eu13
+
+</td>
+<td valign="top">
+
+Europe \(Milan\)
+
+</td>
+<td valign="top">
+
+cf-us13
+
+</td>
+<td valign="top">
+
+eu-south-1
+
+</td>
+<td valign="top">
+
+15.161.87.249, 15.161.194.156, 18.99.209.0/27, 35.152.224.143
+
+</td>
+<td valign="top">
+
+15.161.2.170, 18.102.32.205, 18.102.85.10
+
+</td>
+<td valign="top">
+
+api.cf.eu13.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+eu13.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Amazon Web Services
+
+</td>
+<td valign="top">
+
 us10
 
 </td>
@@ -1127,7 +1184,7 @@ us-east-1
 
 **cf-us10:**
 
-52.200.16.71, 52.23.123.125, 52.202.170.155, 18.210.47.160, 18.211.235.11, 54.156.172.106, 34.234.191.59, 34.192.134.47, 18.204.173.15, 3.213.197.54, 184.73.43.82, 52.20.242.182, 3.216.16.207, 34.225.190.250, 52.2.110.230, 54.234.93.200, 35.153.88.132, 52.204.111.138, 3.88.250.160, 54.221.30.91, 52.71.83.110, 52.200.165.163, 54.208.119.130, 34.202.136.35, 34.192.100.96, 54.85.65.82, 54.205.71.200,18.97.43.224/27
+52.200.16.71, 52.23.123.125, 52.202.170.155, 18.97.43.224/27
 
 **cf-us10-001:**
 
@@ -1142,7 +1199,7 @@ us-east-1
 
 **cf-us10:**
 
-52.4.101.240, 52.23.1.211, 52.23.189.23, 18.213.242.208, 3.214.110.153, 34.205.56.51
+18.213.242.208, 3.214.110.153, 34.205.56.51
 
 **cf-us10-001:**
 

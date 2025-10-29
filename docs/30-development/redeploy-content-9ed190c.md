@@ -8,7 +8,7 @@ After making changes to the static content files of HTML5 applications, you can 
 
 
 
-## Deploying two Versions to the Repository
+## Deploying More Than One Version to the Repository
 
 -   Application **app1** with version 1.0.0 has been deployed to the repository. This app matches a back-end application with version 3.0.0
 
@@ -16,20 +16,25 @@ After making changes to the static content files of HTML5 applications, you can 
 
 -   As customers may still have a backend with version 3.0.0, **app1** with version 1.0.0 cannot be dropped. On the repository, both versions shall be available so the customer can decide which one to use depending on their back-end version.
 
-    > ### Sample Code:  
-    > ```
-    > myAppsDeployer
-    >   + node_modules
-    >   - resources
-    >     - app1
-    >       index.html
-    >       manifest.json
-    >       xs-app.json
-    >     - app2
-    >       ...
-    >   package.json
-    >   manifest.yaml
-    > 
-    > ```
 
+This example shows how to deploy two versions of an application with the HTML5 Application Deployer. You can use a similar structure when you deploy MTA applications with the Generic Application Content Deployer \(GACD\): /
+
+> ### Sample Code:  
+> ```
+> 
+> myAppsDeployer
+>   + node_modules
+>   - resources
+>     - app1-old-backend
+>       index.html
+>       manifest.json (app.id: 1.0.0)
+>       xs-app.json
+>     - app1-new-backend
+>       index.html      
+>       manifest.json (app.id: 2.0.0)      
+>       xs-app.json
+>   package.json
+>   manifest.yaml
+> 
+> ```
 

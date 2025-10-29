@@ -28,7 +28,7 @@ Use your SAP Cloud Identity Services tenant as an identity provider or a proxy t
 ## Context
 
 > ### Note:  
-> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+> The content in this section is not relevant for Government Cloud \(US\) regions.
 
 Consider the following restrictions and tips before you start.
 
