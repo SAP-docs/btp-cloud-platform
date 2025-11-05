@@ -266,10 +266,17 @@ applications:
 ```
 
 **NOTE:** To stay secure, you need to update this version string on your own. For this reason, SAP does **not** recommend this approach.
+
+
 **Related Information**  
 
+[https://sapmachine.io/](https://sapmachine.io/ "The SapMachine Website with downloads and documentation.")
 
-[https://sapmachine.io/](https://sapmachine.io/)
+[Java Main](java-main-8a1786a.md "Find out how you can create a Java application that starts its own runtime. This allows the usage of frameworks and Java runtimes, such as Spring Boot, Jetty, Undertow, or Netty.")
+
+[SAP Java Buildpack 2](sap-java-buildpack-2-1cf206b.md "Find information about SAP Java Buildpack 2 which is a Cloud Foundry buildpack for running SapMachine-based applications.")
+
+[Debug an Application Running on SapMachine](debug-an-application-running-on-sapmachine-f7fa9f3.md "Find out possibilties how to debug a Java web application running on a Cloud Foundry container that uses SapMachine.")
 
 [Runtimes and Containers](runtimes-and-containers-83d2416.md "Find out which application runtimes and containers you can use, depending on the Java buildpack your application is using.")
 
