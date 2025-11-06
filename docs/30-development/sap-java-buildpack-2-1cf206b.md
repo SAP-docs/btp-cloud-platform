@@ -4,7 +4,7 @@
 
 SAP Java Buildpack 2 is a Cloud Foundry buildpack for running SapMachine-based applications.
 
-This buildpack supports Java 17 and 21, as well as the following runtimes:
+This buildpack supports Java 17, 21 and 25, as well as the following runtimes:
 
 -   [TomEE 10](tomee-10-66e808e.md)
 
@@ -202,6 +202,7 @@ SAP Java Buildpack 2 \(`sap_java_buildpack_jakarta`\) supports the following Jav
 
 -   Java **17** – default version. You can obtain it by using SapMachine 17 \(*it provides a JRE with Java 17*\)
 -   Java **21** – you can obtain it by using SapMachine 21 \(*it provides a JRE with Java 21*\)
+-   Java **25** – you can obtain it by using SapMachine 25 \(*it provides a JRE with Java 25*\)
 
 To learn how to configure your application to use SapMachine JRE and JDK, see: [SapMachine](sapmachine-785d6b3.md)
 
