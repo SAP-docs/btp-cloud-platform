@@ -8,36 +8,6 @@ If you can't find a solution to your problem, create an incident to component **
 
 
 
-<a name="loio1462ff0fa7f04839a96c51d968d15b34__section_np5_node_bbb"/>
-
-## Node.js 16 has reached end of life
-
-
-
-### Problem
-
-Node.js 16 reached end of life on **September 11, 2023** \(instead of April 2024, as originally planned\), and shortly after was removed from the [community buildpack](https://github.com/cloudfoundry/nodejs-buildpack). This means that, after this date, deployment and redeployment of applications running on Node.js 16 would fail. For more information, see:
-
--   [Node.js Roadmap](https://github.com/nodejs/Release)
-
--   [Bringing forward the End-of-Life Date for Node.js 16](https://nodejs.org/en/blog/announcements/nodejs16-eol)
-
-
-
-
-### Solution
-
-To avoid such issues, please migrate to Node.js 18 or higher as soon as possible!
-
-In exceptional cases \(if you haven’t managed to switch to Node.js 18 or 20 yet\), to avoid application failures during redeployment, you can pin the last buildpack version that contains Node.js 16, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack/releases) community. To learn how to do this, see: [Specify a buildpack version in manifest.yml](https://help.sap.com/docs/btp/sap-business-technology-platform/tips-and-tricks-for-node-js-applications?version=Cloud#specify-a-buildpack-version-in-manifest-yml)
-
-Nevertheless, this approach can only be used as a temporary solution, until you complete migration to a later version of Node.js!
-
-> ### Remember:  
-> SAP does **not** recommend use of deprecated Node.js versions, as support and security fixes are no longer provided for them.
-
-
-
 <a name="loio1462ff0fa7f04839a96c51d968d15b34__section_np5_node_ccc"/>
 
 ## XSJS application stopped working after upgrade to Node v.16
@@ -99,6 +69,36 @@ We recommend migration to Node.js 18 or 20, and respectively migration to Async-
 In exceptional cases \(if you haven’t managed to complete the migration to Async-XSJS\), to avoid application failures during redeployment, you can pin the last buildpack version that contains Node.js 14, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack/releases) community. To learn how to do this, see: [Specify a buildpack version in manifest.yml](https://help.sap.com/docs/btp/sap-business-technology-platform/tips-and-tricks-for-node-js-applications?version=Cloud#specify-a-buildpack-version-in-manifest-yml)
 
 Nevertheless, this approach can only be used as a temporary solution, until you complete the migration!
+
+> ### Remember:  
+> SAP does **not** recommend use of deprecated Node.js versions, as support and security fixes are no longer provided for them.
+
+
+
+<a name="loio1462ff0fa7f04839a96c51d968d15b34__section_np5_node_bbb"/>
+
+## Node.js 16 has reached end of life
+
+
+
+### Problem
+
+Node.js 16 reached end of life on **September 11, 2023** \(instead of April 2024, as originally planned\), and shortly after was removed from the [community buildpack](https://github.com/cloudfoundry/nodejs-buildpack). This means that, after this date, deployment and redeployment of applications running on Node.js 16 would fail. For more information, see:
+
+-   [Node.js Roadmap](https://github.com/nodejs/Release)
+
+-   [Bringing forward the End-of-Life Date for Node.js 16](https://nodejs.org/en/blog/announcements/nodejs16-eol)
+
+
+
+
+### Solution
+
+To avoid such issues, please migrate to Node.js 18 or higher as soon as possible!
+
+In exceptional cases \(if you haven’t managed to switch to Node.js 18 or 20 yet\), to avoid application failures during redeployment, you can pin the last buildpack version that contains Node.js 16, as provided by the [nodejs-buildpack](https://github.com/cloudfoundry/nodejs-buildpack/releases) community. To learn how to do this, see: [Specify a buildpack version in manifest.yml](https://help.sap.com/docs/btp/sap-business-technology-platform/tips-and-tricks-for-node-js-applications?version=Cloud#specify-a-buildpack-version-in-manifest-yml)
+
+Nevertheless, this approach can only be used as a temporary solution, until you complete migration to a later version of Node.js!
 
 > ### Remember:  
 > SAP does **not** recommend use of deprecated Node.js versions, as support and security fixes are no longer provided for them.

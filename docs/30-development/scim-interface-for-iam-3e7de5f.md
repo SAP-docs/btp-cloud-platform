@@ -70,37 +70,6 @@ Example
 > 
 > ```
 
-**Extension name:***urn:ietf:params:scim:schemas:extension:sap.odm:2.0:User*
-
-The following singular attributes are defined:
-
--   *workAssignment*: Contains employee information
-
-    -   *id*: Business partner ID
-
-    -   *startDate*: Valid From date of an employee
-
-    -   *endDate*: Valid To date of an employee
-
-    -   *primary*: Employee is primary
-
-
-
-> ### Sample Code:  
-> ```
-> "urn:ietf:params:scim:schemas:extension:sap.odm:2.0:User" : {
->         "workAssignment" : [
->           {
->             "id" : "0000000001",
->             "startDate" : "2000-01-01T00:00:00Z",
->             "endDate" : "9999-12-31T23:59:59Z",
->             "primary" : true
->           }
->         ]
->       }
-> 
-> ```
-
 **Extension name: *urn:ietf:params:scim:schemas:extension:sap:2.0:Group***
 
 The following singular attributes are defined:
@@ -233,6 +202,24 @@ Business role or business user group ID
 </td>
 </tr>
 </table>
+
+
+
+<a name="loio3e7de5f45e65496e87bf4534e477a70d__section_vw2_spn_qfc"/>
+
+## Monitoring SCIM Interface Content in the SAP Application Interface Framework \(AIF\)
+
+To view messages and errors related to SCIM, call up AIF and enter the following data:
+
+*Namespace*: `/IAM`
+
+*Interface Name*: `SCIM`
+
+*Interface Version*: `1`
+
+We recommend that you use the body of the payload from the *Message Dashboards* app because it is easier to read and export the body in this app. For more information, see [Message Dashboard](https://help.sap.com/docs/SAP_S4HANA_CLOUD/a630d57fc5004c6383e7a81efee7a8bb/cebfdfcd97834e5fb7468df801457034.html).
+
+For more information about AIF, see [SAP Application Interface Framework](https://help.sap.com/docs/SAP_APPLICATION_INTERFACE_FRAMEWORK/1cefaed5b7a3471cb08564e54d5ba866/5a3eacf824e74542abbd2271238dc70b.html).
 
 **Related Information**  
 

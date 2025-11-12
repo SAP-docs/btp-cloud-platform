@@ -52,7 +52,7 @@ The additional tables must also meet the following requirements:
 
 The text tables must also meet the following requirements:
 
--   have a language key field with type `LANG`
+-   have a language key field with type `ABAP.LANG`
 
 -   have a foreign key of type`#TEXT_KEY` that fully matches the primary key of one of the other tables
 
@@ -125,10 +125,11 @@ Select to include a Deprecate and Invalidate action in the generated app. The ta
 
 Select this option to include a *Validation* for the *Prepare* draft action in the generated app, which checks the consistency of field inputs with:
 
--   domains with fixed values
+-   regular type checks for all fields of the entity and, if possible, the fixed value and foreign key checks specified in the ABAP Dictionary.
 
--   foreign keys where `@AbapCatalog.foreignKey.screenCheck : true`
+-   foreign key checks are performed if the annotation `@AbapCatalog.foreignKey.screenCheck : true` is used and the check table is not part of the RAP business object. The foreign key table must be the table itself in which the foreign key relation is defined, `SY` or `SYST`.
 
+-   the end of character-like key fields is checked for invalid characters like vertical or horizontal tab
 
 
 
@@ -177,7 +178,7 @@ Enter the name of the maintenance object.
 
 ### Transport Object
 
-You can specify the name of a transport object. If specified, a transport object of type `Individual Transaction` is generated. Configuration changes are recorded under this transport object instead of as a `TABU`.
+You must specify the name of a transport object. A transport object of type `Individual Transaction` is generated. Configuration changes are recorded under this transport object instead of as a `TABU`.
 
 
 
@@ -298,7 +299,7 @@ If you execute the wizard in the context of the table /DMO/STATUSCLASS, the text
 
 Due to the foreign key definition, you can also add the Status Code and Status Code Text table manually.
 
-![](images/CUBCO_Start_c254f49.png)
+![](images/ABAP_Repository_Objects_Wizard_501117a.png)
 
 The resulting table maintenance application then looks like this:
 

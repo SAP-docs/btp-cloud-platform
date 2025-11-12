@@ -82,7 +82,7 @@ To set up the connection from the ABAP system in the ABAP environment to your on
     > ### Note:  
     > A system group subsumes multiple SAP systems \(typically, the productive system, the test system\(s\), and the development system\(s\)\), which all represent a part of a system landscape of one and the same SAP release. If you're using an existing system group, your new object provider will be grouped with the existing object providers in this system group.
 
-6.  Under *Outbound Services* \> *Retrieve Custom Code*, ensure that the *Service Status* is set to *Active*.
+6.  Under *Outbound Services* \> *Retrieve Custom Code*, ensure that the *Service Status* is set to *Active*. Optionally, you can test the connection from the SAP BTP ABAP environment system to the checked system by choosing the *Check Connection* button.
 
 7.  Under *Outbound Services* \> *Display Custom Code*, ensure that the *Service Status* for displaying custom code via UI link is set to *Active*. You may also need to enter a value for *Port* if the system number is not 00.
 

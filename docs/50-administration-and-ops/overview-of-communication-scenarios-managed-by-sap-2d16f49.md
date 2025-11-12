@@ -304,7 +304,7 @@ ABAP Test Cockpit - Test Integration \(SAP\_COM\_0901\)
 </td>
 <td valign="top">
 
-[Running ABAP Test Cockpit \(ATC\) Check Runs](../30-development/running-abap-test-cockpit-atc-check-runs-d8cec78.md)
+[Running ATC Check Runs](../30-development/running-atc-check-runs-d8cec78.md)
 
 </td>
 </tr>

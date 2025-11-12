@@ -10,7 +10,7 @@ Find out how to use the *Custom Business Configurations* app.
 
 ## Purpose
 
-The *Custom Business Configurations* app serves as an entry point to the[Business Configuration Maintenance Object](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/business-configuration-maintenance-object?version=Cloud) provided by the custom applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior. For more information, see also[Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/creating-business-configuration-apps-with-abap-restful-application-programming-model-and-custom-business-configurations-app?version=Cloud).
+The *Custom Business Configurations* app serves as an entry point to the [Business Configuration Maintenance Object](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/business-configuration-maintenance-object?version=Cloud) provided by the custom applications or partners. You can use the app to adjust these configuration objects to change and influence the system behavior. For more information, see also [Creating Business Configuration Apps with ABAP RESTful Application Programming Model and Custom Business Configurations App](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/creating-business-configuration-apps-with-abap-restful-application-programming-model-and-custom-business-configurations-app?version=Cloud).
 
 
 
@@ -65,7 +65,12 @@ Navigation to the active page of Plant 201: `#BusinessConfiguration-maintain?Tec
 
 ## Display Change Logs
 
-The change logs of a business configuration maintenance object can be accessed through the app via [Maintain Customer-Owned Configuration Objects](https://help.sap.com/docs/SAP_S4HANA_CLOUD/b249d650b15e4b3d9fc2077ee921abd0/889b6167fa3042d988b4bb100e1453a7.html).
+For a selected business configuration, the action *Display Change Logs* is available in the header section if:
+
+-   at least one database table of the *RAP BO* of the*Business Configuration Maintenance Object Table Logging* is active.
+-   the *Business Configuration Change Logs* app is configured as a valid navigation target for the user.
+
+With this action, you can navigate to the [Business Configuration Change Logs](https://help.sap.com/docs/btp/sap-business-technology-platform/business-configuration-change-logs?version=Cloud) app.
 
 
 
@@ -73,7 +78,7 @@ The change logs of a business configuration maintenance object can be accessed t
 
 ## Show Documentation
 
-For a selected business configuration, the action *Show Documentation* is available in the header section if a knowledge transfer document exists for the business configuration maintenance object. With this action the content of the knowledge transfer document is displayed. For more information, see [Documentation of Business Configuration Maintenance Objects](https://help.sap.com/docs/abap-cloud/abap-rap/developing-ready-to-run-business-object?version=sap_btp).
+For a selected business configuration, the action *Show Documentation* is available in the header section if a knowledge transfer document exists for the business configuration maintenance object. With this action the content of the knowledge transfer document is displayed. For more information, see [Documentation of Business Configuration Maintenance Objects](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/documentation-of-business-configuration-maintenance-objects?version=sap_btp).
 
 To provide context-sensitive in-app help you can use [SAP Companion](https://experience.sap.com/fiori-design-web/web-assistant/).
 

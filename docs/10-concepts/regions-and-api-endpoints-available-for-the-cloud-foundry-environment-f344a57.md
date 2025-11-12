@@ -1120,7 +1120,7 @@ Europe \(Milan\)
 </td>
 <td valign="top">
 
-cf-us13
+cf-eu13
 
 </td>
 <td valign="top">
@@ -1922,6 +1922,58 @@ eu01.hana.ondemand.com
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+ae01
+
+</td>
+<td valign="top">
+
+UAE \(Dubai\)
+
+</td>
+<td valign="top">
+
+cf-ae01
+
+</td>
+<td valign="top">
+
+ap-ae-1
+
+</td>
+<td valign="top">
+
+130.214.81.0/25, 130.214.83.128/25
+
+</td>
+<td valign="top">
+
+130.214.81.128/26, 130.214.83.0/26
+
+</td>
+<td valign="top">
+
+api.cf.ae01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ae01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
 </table>
 
 **Regions for Trial Accounts**
@@ -2013,7 +2065,7 @@ us-east-1
 </td>
 <td valign="top">
 
-52.23.189.23, 52.4.101.240, 52.23.1.211
+18.213.242.208, 3.214.110.153, 34.205.56.51
 
 </td>
 <td valign="top">

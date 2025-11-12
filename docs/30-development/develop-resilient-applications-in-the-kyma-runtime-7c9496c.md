@@ -37,7 +37,7 @@ The [Istio Module](istio-module-26ffe00.md) and Istio traffic management feature
 
 -   Istio's circuit breaker and retry features to prevent service overloads and recover from service failures.
 
--   Distributed tracing with [Istio's observability features](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/f98cda5d058e48ff808ade541a64a6ad.html?locale=en-US#subsection_traces_istio) to monitor the flow of requests across microservices and identify performance and error issues by shipping logs to SAP Cloud Logging \(for details, see [Integrate with SAP Cloud Logging](integrate-with-sap-cloud-logging-eac5771.md)\).
+-   Distributed tracing with [Istio's observability features](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/f98cda5d058e48ff808ade541a64a6ad.html?locale=en-US#subsection_traces_istio) to monitor the flow of requests across microservices and identify performance and error issues by shipping logs to SAP Cloud Logging \(for details, see [Integrate With SAP Cloud Logging](integrate-with-sap-cloud-logging-eac5771.md)\).
 
 -   The [Eventing module](https://kyma-project.io/#/eventing-manager/user/README) for asynchronous communication patterns, such as messaging queues, to decouple services and reduce dependencies. See how to [Configure SAP Event Mesh for Kyma Eventing](configure-sap-event-mesh-for-kyma-eventing-407d126.md).
 

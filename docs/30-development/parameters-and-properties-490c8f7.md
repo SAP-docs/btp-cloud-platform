@@ -1476,27 +1476,33 @@ The following example shows the dependency declaration referencing a dynamic par
 > ### Sample Code:  
 > ```
 > _schema-version: 3
-> ID: dynamic-service-guid-consumer
+> ID: dynamic-service-guid-provider
 > version: 1.0.0
 > 
 > modules:
->   - name: app-consumer
->     type: staticfile
->     path: content.zip
->     requires:
->       - name: db-config
+>  - name: app-provider
+>    type: staticfile
+>    path: appBits.zip
+>    provides:
+>       - name: db-guid
+>         public: true
+>         parameters:
+>            visibility:     
+>            - org: ${org}      
+>              space: ${space}  
 >         properties:
->           reference_instance: ~{db-instanceid}
+>             db-instanceid: ~{hana-service/my-db-service-guid} 
+>    requires: 
+>      - name: hana-service
 > 
-> resources:
->   - name: db-config
->     type: configuration
+> resources: 
+>   - name: hana-service
+>     type: org.cloudfoundry.managed-service
 >     parameters:
->       provider-id: "dynamic-service-guid-provider:db-guid"
->       version: ">=1.0.0"
->       target:
->         org: ${org}
->         space: ${space}
+>       service: hana
+>       service-plan: schema
+>     properties: 
+>       my-db-service-guid: ${service-guid}
 > ```
 
 The following example shows the dependency declaration in the deployment descriptor of the “consumer” MTA:

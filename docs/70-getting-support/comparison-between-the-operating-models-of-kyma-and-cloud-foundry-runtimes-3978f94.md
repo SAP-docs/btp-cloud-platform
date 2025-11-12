@@ -1060,7 +1060,7 @@ Network Management
 
 Create and manage the default SAP Web domain for the application in the subaccount to ensure data isolation.
 
-For Cloud Foundry runtime, SAP provides routing, domains, and isolation segments. However, you as a customer are responsible for any optional custom domains.
+For Cloud Foundry runtime, SAP provides routing, domains, and isolation segments. However, you as a customer remain responsible for managing your own custom domains.
 
 </td>
 <td valign="top">

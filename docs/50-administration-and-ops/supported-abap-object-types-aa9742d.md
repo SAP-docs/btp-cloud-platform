@@ -453,6 +453,23 @@ Class
 <tr>
 <td valign="top">
 
+CSNM
+
+</td>
+<td valign="top">
+
+Core Schema Notation Model
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 CTRT
 
 </td>
@@ -1926,6 +1943,23 @@ MIME Object
 <td valign="top">
 
 Yes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SMTG
+
+</td>
+<td valign="top">
+
+OM: Email Template
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

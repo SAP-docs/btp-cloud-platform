@@ -10,7 +10,7 @@
 
 [Authorization control in RAP](https://help.sap.com/docs/abap-cloud/abap-rap/authorization-control?version=sap_btp) protects your business configuration object against unauthorized access to customizing data.
 
-It's recommend to use the authorization `S_TABU_NAM` together with the CDS root entity name of the business object as table name to perform the read and modify operation. However, you can also check against the physical table names or use a different authorization object instead.
+It's recommend to use the authorization `S_TABU_NAM` together with the CDS root entity name of the business object as table name to perform the read and modify operation. However, you can also check against the physical table names or use a different authorization object instead. Follow [this blog](https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-implement-additional-authorization-objects-for-the-rap-bo-of-a/ba-p/13710852) on how to implement additional authorization objects.
 
 
 
@@ -20,7 +20,7 @@ It's recommend to use the authorization `S_TABU_NAM` together with the CDS root 
 
 The advantage of using the CDS root entity name is that if the business object is extended by a new table you don't need to adjust the authorization check.
 
-See also `Provide Authorization` on how to create the IAM app and add the authorization object.
+See also[Provide Authorization](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/business-configuration-maintenance-object?version=Development#provide-authorizations-for-a-business-configuration) on how to create the IAM app and add the authorization object.
 
 
 
@@ -28,7 +28,7 @@ See also `Provide Authorization` on how to create the IAM app and add the author
 
 The business configuration CDS root entity name is `/ITAPC1/I_Status`.
 
-The data control language \(DCL\) can be dfined as follows:
+The data control language \(DCL\) can be defined as follows:
 
 > ### Sample Code:  
 > ```

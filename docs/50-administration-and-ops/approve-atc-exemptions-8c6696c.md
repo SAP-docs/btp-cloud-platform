@@ -38,6 +38,8 @@ With this app you can:
 
 -   Replicate exemptions from an on-premise system to SAP BTP.
 
+-   Subscribe/unsubscribe to e-mail notifications informing you that a developer has requested a new ATC exemption.
+
 
 > ### Note:  
 > Use transaction `SATC_EXPORT_XMPT` to download exemptions from an on-premise ATC system. For customers that are on a release between 7.52 and 7.58 with software component SAP\_BASIS, apply SAP Note [3480722](https://me.sap.com/notes/3480722) first to install this functionality.

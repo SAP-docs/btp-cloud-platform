@@ -216,7 +216,7 @@ SAP Java Buildpack 2 provides the following components in the application contai
 
 -   Runtimes – [Tomcat 10](tomcat-10-97d0e34.md), [TomEE 10](tomee-10-66e808e.md), and [Java Main](java-main-8a1786a.md)
 
--   [SapMachine](sapmachine-785d6b3.md)
+-   [SapMachine](sapmachine-785d6b3.md) – version 17, 21, 25
 
 -   [Memory Calculator V2](memory-calculator-v2-8eef959.md)
 

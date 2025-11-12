@@ -6,7 +6,7 @@
 
 ## Purpose
 
-As of releases S/4HANA Cloud Public Edition 2508, SAP BTP ABAP environment 2508 and S/4HANA Cloud Private Edition/S/4HANA 2025, the Custom Code Migration app is split into two tiles. There's the **Analyze Custom Code** app for the custom code analysis use case and the **Custom Code Migration** app for the migration to S/4HANA use case. If you have the `Quality Manager – Software Development` business role, you'll find the Analyze Custom Code app on the Firori launchpad. If you have the `Project Manager – IT` business role, you'll find the Custom Code Migration app.
+As of releases SAP S/4HANA Cloud Public Edition 2508, SAP BTP ABAP environment 2508 and SAP S/4HANA Cloud Private Edition and SAP S/4HANA 2025, the Custom Code Migration app is split into two tiles. There's the **Analyze Custom Code** app for the custom code analysis use case and the **Custom Code Migration** app for the migration to S/4HANA use case. If you have the `Quality Manager – Software Development` business role, you'll find the Analyze Custom Code app on the Firori launchpad. If you have the `Project Manager – IT` business role, you'll find the Custom Code Migration app.
 
 These apps enable you to create three different kinds of projects:
 

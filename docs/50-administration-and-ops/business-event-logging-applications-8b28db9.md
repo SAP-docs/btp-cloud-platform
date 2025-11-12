@@ -27,7 +27,7 @@ All users can use the following applications in the ABAP environment for Busines
 
 -   `Display Business Event Logs` app to view all the events logged in the SAP S/4HANA system.
 -   `Display Business Events by Objects` app to view all the sequences of business events in the context of the instances of object components.
--   `Display Changes to Objects` app to view all changes for an Object.
+-   `Display Changes to Objects` app to view all changes for an object.
 
 
 

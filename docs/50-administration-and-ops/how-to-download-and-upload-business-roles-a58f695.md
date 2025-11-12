@@ -32,4 +32,7 @@ You can download one or more business roles from the source system and then uplo
     > ### Note:  
     > Some business catalogs with tenant-specific functions might not be in scope in all target tenants. For example, the business catalog *Extensibility - Transport Management - Export \(SAP\_CORE\_BC\_SL\_EXP\)* provides authorizations for exporting key user extensibility. As you can't export key user extensibility transports from the production system \(but only import them\), the business catalog may not be available in your production system.
 
+    > ### Note:  
+    > It is not possible to upload business roles to earlier versions.
+
 

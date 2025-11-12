@@ -94,6 +94,11 @@ The software component contains objects locally and possible changes are committ
 **Local and Remote Deletion**
 
 </td>
+<td valign="top">
+
+**Safe Deletion**
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -111,6 +116,17 @@ Only the local representation of the software component is deleted. Local means 
 When deleting local and remote representations, local means only the current system instance is deleted.
 
 *The software component will be remotely deleted. As a consequence, no actions can be performed anymore. Please make sure to first delete the software component locally on all system instances where it's cloned. The component can't be deleted from the other systems after it's remotely erased. This action can't be undone.*
+
+</td>
+<td valign="top">
+
+The Safe Remote Deletion feature ensures that:
+
+-   No repository or branch is deleted while still in active use.
+-   All systems maintain consistent software component and branch states.
+-   You can manage repositories safely without risking data inconsistency or broken links.
+
+
 
 </td>
 </tr>
@@ -140,12 +156,17 @@ This step should be performed as a last step once all local deletions on other s
 
 
 </td>
+<td valign="top">
+
+This utility prevents the remote deletion of a software component if it is still cloned on any local system.
+
+</td>
 </tr>
 </table>
 
 
 
-### Local and Remote Deletion - Customer-managed Software Components
+### Local and Remote Deletion - Customer-managed Software Components \(Bring Your Own Git\)
 
 ****
 
@@ -164,7 +185,7 @@ This step should be performed as a last step once all local deletions on other s
 </td>
 <td valign="top">
 
-**Local and Remote Deletion**
+**Remote Deletion**
 
 </td>
 </tr>
@@ -181,7 +202,7 @@ Only the local representation of the software component is deleted. Local means 
 </td>
 <td valign="top">
 
-The remote deletion of the software component is performed if the checkbox *Unregister Repository* was selected. This option will unregister the linked git repository from the *Manage Software Components* app, in addition to deleting the software component locally. If this option is selected, the linked Git repository can't be used in relation to the software component again, and it can't be linked with new software components. This action is irreversible.
+You can delete the software component remotely if you select *Unregister*. This option appears only for components that are not cloned. The linked Git repository will be unregistered from the Manage Software Components app. You cannot use the linked Git repository with the software component again, nor can you link it with new software components. This action is irreversible.
 
 > ### Note:  
 > Make sure to first delete the software component locally on all system instances where it's cloned.
@@ -205,7 +226,7 @@ You can re-clone the software component again.
 </td>
 <td valign="top">
 
-This step should be performed once all deletions on other system instances have been performed and only intended for cases when the remote Git repository is no longer needed.
+The remote Git repository cannot be used again or linked with a new software component.
 
 </td>
 </tr>
@@ -216,7 +237,7 @@ This step should be performed once all deletions on other system instances have 
 ### Resulting behavior in service instances where the deleted software component is still imported
 
 1.  No further Git actions, including pull, switch branch and others, are possible.
-2.  Changes to ABAP objects of the deleted sotware component can no longer be released.
+2.  Changes to ABAP objects of the deleted software component can no longer be released.
 3.  Non-released requests, in which object changes have already been recorded before the software component was deleted, must be handled specially.
 
     For example, you can delete the recorded object changes from the transport request. Alternatively, the transport layer of the transport request can be deleted.
@@ -228,7 +249,7 @@ This step should be performed once all deletions on other system instances have 
 
 ## Result
 
-The selected software component is deleted centrally if the checkbox *remote deletion* was selected. Otherwise it is only a local deletion, affecting the current system instance.
+The selected software component is deleted centrally if the checkbox *remote deletion* for SAP-managed or the *unregister* option for customer-managed components was selected. Otherwise it is only a local deletion, affecting the current system instance.
 
 > ### Caution:  
 > Here, centrally means the repository visible throughout the global account is deleted.
@@ -243,4 +264,51 @@ If this software component has already been cloned to a service instance, object
 
 > ### Note:  
 > Currently, you can't restore software components that have been deleted. Use new software component names instead of reusing previously deleted software components or software component names.
+
+
+
+## Safe Deletion
+
+
+
+### Overview
+
+The Safe Remote Deletion feature in the Manage Software Components app is designed to ensure system integrity by preventing the accidental deletion of active repositories or branches. This feature protects against the creation of ghost software components \(SC\): local clones that become disconnected from their remote repositories and lose pull and push capabilities.
+
+> ### Caution:  
+> Currently, this feature is available only for SAP managed software components.
+
+
+
+### Behavior Demonstration
+
+*Repository Deletion Scenario*
+
+1.  Create a new software component in the Manage Software Components Fiori app.
+    1.  Navigate to *Manage Software Components* in your Fiori launchpad.
+    2.  Click on the *Create* button.
+    3.  Fill out all the necessary information.
+
+2.  Clone the software component into two different systems.
+    1.  Click on *Clone* for the newly created software component.
+    2.  Fill out the required information, such as the branch to be checked out, the repository role and rollback mechanism.
+    3.  Clone the software component on another system instance in the same global account as well.
+
+3.  Attempt to delete the remote software component from one system.
+    1.  Click on the *Delete* button.
+    2.  Select the checkbox: *Delete remote repository*.
+    3.  Enter the name of the software component.
+    4.  Select the checkbox: "I understand the consequences".
+    5.  In the end click on *Delete*.
+
+
+The deletion will be triggered asynchronously in the background. Search for the software component and open it. Under the tab *History*, you will now be able to see the running deletion process as shown in the picture below.
+
+![](images/history1_d39971a.png)
+
+After a few minutes, refresh the table and you will see *Error* as the status. To see more details, click onto the action, where you will be able to navigate to the *Execution Log* for more detailed error messages.
+
+*Expected Result:*
+
+The deletion fails because the software component is still cloned in another system.
 

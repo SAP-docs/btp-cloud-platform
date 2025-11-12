@@ -87,6 +87,8 @@ Consider the following restrictions and tips before you start.
 
 You've configured trust in your tenant of the SAP Cloud Identity Services, which is your identity provider. SAP Cloud Identity Services creates an application with the prefix *SAP BTP subaccount* and the display name of your subaccount in the administration console for SAP Cloud Identity Services. Some attributes of the application are managed by SAP, such as the application type, and are read-only.
 
+SAP BTP automatically creates applications in SAP Cloud Identity Services for subscriptions to BTP applications and service instances of the Identity service of SAP BTP. Newly created applications in SAP Cloud Identity Services are automatically set as child applications of the application that represents the relevant SAP BTP subaccount. Child applications inherit configurations such as the subject name identifier, authentication configuration, and branding from the parent application representing the subaccount.
+
 > ### Example:  
 > If your subaccount is named *My Subaccount*, the resulting application in SAP Cloud Identity Services would be *SAP BTP subaccount My Subaccount*.
 > 

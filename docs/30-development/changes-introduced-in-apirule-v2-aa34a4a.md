@@ -95,7 +95,7 @@ If you use Cloud Identity Services, you can find the issuer URL in the OIDC well
 
 The APIRule CR in version `v2` does not support Oathkeeper OAuth2 handlers. Instead, it introduces the `extAuth` field, which you can use to configure an external authorizer.
 
-**Required action**: Migrate your Oathkeeper-based OAuth2 handlers to use an external authorizer. To learn how to do this, see [Migrating APIRule v1beta1 of type oauth2\_introspection to version v2](migrating-apirule-v1beta1-of-type-oauth2-introspection-to-version-v2-394d18a.md) and [Configuration of the extAuth Access Strategy](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/v2alpha1/04-15-api-rule-access-strategies).
+**Required action**: Migrate your Oathkeeper-based OAuth2 handlers to use an external authorizer. To learn how to do this, see [Migrating APIRule v1beta1 of type oauth2\_introspection to version v2](migrating-apirule-v1beta1-of-type-oauth2-introspection-to-version-v2-394d18a.md) and [Configuration of the extAuth Access Strategy](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-15-api-rule-access-strategies).
 
 
 
@@ -105,7 +105,7 @@ The APIRule CR in version `v2` does not support Oathkeeper OAuth2 handlers. Inst
 
 The APIRule CR in version `v2` does not support Oathkeeper mutators. Request mutators are replaced with request modifiers defined in the `spec.rule.request` section of the APIRule CR. This section contains the request modification rules applied before the request is forwarded to the target workload. Token mutators are not supported in APIRule `v2`. For that, you must define your own `extAuth` configuration.
 
-**Required action**: Migrate your rules that rely on Oathkeeper mutators to use request modifiers or an external authorizer. For more information, see [Configuration of the extAuth Access Strategy](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/v2alpha1/04-15-api-rule-access-strategies).
+**Required action**: Migrate your rules that rely on Oathkeeper mutators to use request modifiers or an external authorizer. For more information, see [Configuration of the extAuth Access Strategy](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-15-api-rule-access-strategies).
 
 
 
@@ -115,5 +115,5 @@ The APIRule CR in version `v2` does not support Oathkeeper mutators. Request mut
 
 The APIRule CR in version `v2` does not support the usage of Opaque tokens. Instead, it introduces the `extAuth` field, which you can use to configure an external authorizer.
 
-**Required action**: Migrate your rules that use Opaque tokens to use an external authorizer. For more information, see [Configuration of the extAuth Access Strategy](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/v2alpha1/04-15-api-rule-access-strategies).
+**Required action**: Migrate your rules that use Opaque tokens to use an external authorizer. For more information, see [Configuration of the extAuth Access Strategy](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-15-api-rule-access-strategies).
 

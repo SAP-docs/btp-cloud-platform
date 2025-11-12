@@ -17,8 +17,11 @@ With this app, you can display object instances with their events grouped by act
 You can use this app to view:
 
 -   Instances of object components containing business events
--   Sequence of business events logged for an instance of object component
--   Processing variants, number of events for each instance of object component, and the processing cycle time
+
+-   Sequence of activities logged for an instance of object component. The sequence corresponds to a processing variant.
+
+-   Number of events for each instance of object component, and the processing cycle time
+
 
 
 

@@ -89,6 +89,20 @@ Select the business roles you want to change and click *Mass Change*. The *Mass 
     <tr>
     <td valign="top">
     
+    **IAM App Activation**
+    
+    </td>
+    <td valign="top">
+    
+    Activate IAM Apps
+
+    Deactivate IAM Apps
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
     **Launchpad Space Assignment**
     
     </td>

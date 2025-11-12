@@ -69,3 +69,40 @@ You need to modify your Java applications to run on Apache TomEE 7 instead. To d
     [XS Advanced Model: Memory Size Options](https://help.sap.com/docs/SAP_HANA_PLATFORM/4505d0bdaf4948449b7f7379d24d0f0d/5c253fd9539340369478809b3977be72.html)
 
 
+
+
+## Application running on SAP Java Buildpack 1 fails after restage or redeploy
+
+
+
+### Problem
+
+You have a working Java application, which runs on **`sap_java_buildpack`** \(SAP Java Buildpack 1\). After restage or redeploy, it fails and is no longer working. In the logs, you see the following error message:
+
+```
+
+For application '<app_name>': Specified unknown buildpack name: "sap_java_buildpack"
+FAILED
+```
+
+
+
+### Reason
+
+As [previously announced](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP+Java+Buildpack&Valid_as_Of=2025-12-25:2025-12-31), **`sap_java_buildpack`** has been deprecated. It was removed from SAP BTP, Cloud Foundry environment on October 30, 2025.
+
+
+
+### Solution
+
+To keep your Java applications up and running, you need to migrate to SAP Java Buildpack 2 as soon as possible. To learn how, see: [Migrate your Applications to SAP Java Buildpack 2](migrate-your-applications-to-sap-java-buildpack-2-8d0fc0c.md)
+
+In exceptional cases \(if you haven’t managed to migrate yet\), you can keep using SAP Java Buildpack 1 **till the end of 2025**. To do that:
+
+1.  Open your *manifest.yml* or *mtad.yaml* file.
+2.  Replace `sap_java_buildpack` with **`sap_java_buildpack_to_be_removed`**.
+3.  Restage or redeploy your application.
+
+> ### Note:  
+> This is just a temporary solution – please migrate to SAP Java Buildpack 2 as soon as you can!
+

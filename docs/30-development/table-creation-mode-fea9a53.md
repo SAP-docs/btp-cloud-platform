@@ -4,7 +4,7 @@
 
 If a new entry is added to a table, the *Custom Business Configurations* navigates to the object page of the new entry by default. This can be changed so that a `navigation is not triggered`.
 
-This configuration is done with the *Table Creation Mode* attribute in the *Table Settings* section of the [definition](https://help.sap.com/docs/abap-cloud/abap-rap/developing-ready-to-run-business-object?version=sap_btp).
+This configuration is done with the *Table Creation Mode* attribute in the *Table Settings* section of the [definition](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/editing-business-configuration-maintenance-objects?version=sap_btp).
 
 In the following example the business object consists of five entities:
 

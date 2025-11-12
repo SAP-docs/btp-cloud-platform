@@ -87,7 +87,7 @@ The*SAP Internal Support* access category is used for system access to SAP inter
 **Related Information**  
 
 
-[SAP Support User Request Log](sap-support-user-request-log-934a027.md "")
+[SAP Support User Request Log](sap-support-user-request-log-934a027.md "The SAP Support User Request Log is part of the Display Technical Users app.")
 
 [Access Levels](access-levels-3cdb582.md "Authorizations of SAP support users")
 

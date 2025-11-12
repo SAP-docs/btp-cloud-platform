@@ -82,6 +82,8 @@ To clone the software component, click on the *Clone* button on the top right co
 
 Enter your user credentials that you would normally use to clone the repository, respectively a username and a password or token.
 
+The option to use a token without a user name in the *Repository Credentials* dialog is only available for cloning a software component in Github.
+
 > ### Note:  
 > Remember to enter the credentials of a user that has administrative rights to the repository and has authorizations to push and pull changes directly into the repository.
 
@@ -113,11 +115,7 @@ In the Manage Software Components app simply refresh the branch table to see the
 
 ### Deleting a Software Component
 
-Deleting a software component in the *Manage Software Components* app with the default settings will only delete the local representation of the software component in the ABAP system instance. Releasing transport requests will no longer be possible.
-
-Selecting the *Unregister Repository* option will additionally unlink the remote repository from the software component and delete the software component completely from your global account.
-
-Deleting the software component is an irreversible action. To delete the component, simply proceed by clicking *Delete* in the dialog. The remote Git repository will not be deleted, but it cannot be used again and be linked to new software components. This action is irreversible, therefore ensure to first delete the software component on all system instances where it is cloned.
+Deleting a software component in the Manage Software Components app with the default settings will only delete the local representation of the software component in the ABAP system instance. To delete the component locally, simply proceed by clicking *Delete*. Releasing transport requests will no longer be possible. Selecting the *Unregister* option will unlink the remote repository from the software component and delete the software component completely from your global account. Unlinking the repository from the software component should only be done in the cases where the software component is no longer needed. The repository cannot be used again or linked anew with another software component. This action is irreversible, therefore ensure to first delete the software component on all system instances where it is cloned. Your remote Git repository will not be deleted in any case.
 
 
 

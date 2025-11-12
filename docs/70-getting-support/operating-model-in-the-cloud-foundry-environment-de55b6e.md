@@ -471,7 +471,9 @@ Malware Management
 </td>
 <td valign="top">
 
-Ensure that platform components like buildpacks, stemcells, container images are free of malware. However, you as a customer are responsible for your own application code and dependencies.
+Ensure that platform components like buildpacks, stemcells, container images are free of malware.
+
+However, you as a customer are responsible for your own application code and dependencies.
 
 </td>
 <td valign="top">
@@ -491,7 +493,9 @@ Vulnerabilities Management
 </td>
 <td valign="top">
 
-Check the OS patches, stemcells, buildpacks, and runtime. However, you as a customer are responsible for the application-level dependencies and libraries.
+Check the OS patches, stemcells, buildpacks, and runtime.
+
+However, you as a customer are responsible for the application-level dependencies and libraries.
 
 </td>
 <td valign="top">
@@ -562,7 +566,9 @@ Application Management
 </td>
 <td valign="top">
 
-Ensure hardened container defaults, no root access, and isolation. However, you as a customer are responsible for secure application configuration and secrets.
+Ensure hardened container defaults, no root access, and isolation.
+
+However, you as a customer are responsible for secure application configuration and secrets.
 
 </td>
 <td valign="top">
@@ -633,7 +639,9 @@ Network Management
 </td>
 <td valign="top">
 
-Provide and manage routing, default SAP Web domains, and isolation segments. However, you as a customer are responsible for any optional custom domains.
+Provide and manage routing, default SAP Web domains, and isolation segments.
+
+However, you as a customer remain responsible for managing your own custom domains.
 
 </td>
 <td valign="top">

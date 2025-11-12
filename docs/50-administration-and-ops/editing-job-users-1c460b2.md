@@ -38,7 +38,7 @@ To be able to see the app, make sure that the target user is assigned to a busin
 3.  If you've decided to change the owner or the user of your application job, or if you want to change both, a dialog opens. Enter the new job owner and user by selecting them from the value help. Mind that in case of a job user change, you can only select users that have the appropriate start authorization for a job. Job owners don't need this authorization, but they need the restriction type `Create Application Jobs for Other Users` instead. For more information, see **Maintaining Authorizations** of the *Application Jobs* documentation. App-specific authorizations are not checked. You can choose to only display these users by filtering for *Only Valid*.
 
     > ### Note:  
-    > If a job owner is a communication user, the owner can't be changed, since the connection to the corresponding communication arrangement of the type `SAP_COM_0064` would be broken.
+    > If a job owner is a communication user, the owner can't be changed, since the connection to the corresponding communication arrangement of the type `SAP_COM_0326` would be broken.
 
 4.  You can change multiple application job owners and users at the same time. To do this, select all users you want to change and choose *Change Job Owner and User*. If the job owner differs from the job user, the job owner must have the appropriate authorization given by the restriction type `Create Application Jobs for Other Users` of business catalog `SAP_CORE_BC_APJ_JCE`.
 

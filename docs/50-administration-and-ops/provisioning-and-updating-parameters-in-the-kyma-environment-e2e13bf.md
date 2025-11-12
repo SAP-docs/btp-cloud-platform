@@ -1247,9 +1247,29 @@ Updating
 </td>
 <td valign="top" rowspan="7">
 
-All Amazon Web Services regions except for `eu-south-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_2_note)</sup>.
+`eu-central-1`
 
-See [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region).
+`eu-west-2`
+
+`eu-south-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_2_note)</sup>
+
+`ca-central-1`
+
+`sa-east-1`
+
+`us-east-1`
+
+`ap-northeast-1`
+
+`ap-northeast-2`
+
+`ap-south-1`
+
+`ap-southeast-1`
+
+`ap-southeast-2`
+
+`us-west-2`
 
 </td>
 </tr>
@@ -1540,6 +1560,9 @@ All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters
 </td>
 </tr>
 </table>
+
+> ### Note:  
+> <sup>3</sup> This region offers fewer than three availability zones.
 
 
 

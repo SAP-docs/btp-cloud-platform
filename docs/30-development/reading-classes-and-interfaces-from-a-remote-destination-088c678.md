@@ -2,7 +2,7 @@
 
 # Reading Classes and Interfaces from a Remote Destination
 
-Besides the default and local origin, the Read APIs for both classes and interfaces offer the option to read the content of classes and interfaces from remote systems. Remote systems are identified via an IF\_RFC\_DEST for which objects can be obtained via CL\_RFC\_DESTINATION\_PROVIDER. Origins for classes and interfaces are obtained via XCO\_CP\_ABAP\_OBJECTS=\>ORIGIN which provides a common basis for both classes and interfaces. To obtain a remote origin, the following code can be used:
+Besides the default and local origin, the Read APIs for both classes and interfaces offer the option to read the content of classes and interfaces from remote systems. Currently, only reading from On-Pemise systems is supported. Reading from SAP Public Cloud systems is not yet available. Remote systems are identified via an IF\_RFC\_DEST for which objects can be obtained via CL\_RFC\_DESTINATION\_PROVIDER. Origins for classes and interfaces are obtained via XCO\_CP\_ABAP\_OBJECTS=\>ORIGIN which provides a common basis for both classes and interfaces. To obtain a remote origin, the following code can be used:
 
 > ### Sample Code:  
 > ```abap

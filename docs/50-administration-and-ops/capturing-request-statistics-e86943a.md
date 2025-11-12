@@ -296,7 +296,8 @@ You can view the locally stored data from all profiles in the technical monitori
     </tr>
     </table>
     
-    Note that the *Export* section is empty and cannot be filled if the relevant communication arrangements don't exist.
+    > ### Note:  
+    > The *Export* section is empty and cannot be filled if the relevant communication arrangements don't exist.
 
 9.  To start capturing request statistics during the time period that’s defined in the profile, choose *Activate*.
 

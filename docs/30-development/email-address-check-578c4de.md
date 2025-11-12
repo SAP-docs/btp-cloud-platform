@@ -2,13 +2,13 @@
 
 # Email Address Check
 
-The class CL\_MAIL\_ADDRESS implements the interface IF\_MAIL\_ADDRESS and allows the user to check if it contains a syntactic valid email address in the input string according to the standard RFC 5322.
+The class `CL_MAIL_ADDRESS` implements the interface `IF_MAIL_ADDRESS` and allows the user to check if it contains a syntactic valid email address in the input string according to the standard RFC 5322.
 
 
 
 <a name="loio578c4de3c21a4f6a9c9658d2fce72290__section_qhl_2sw_wvb"/>
 
-## Create an Email Address instance
+## Create an E-Mail Address instance
 
 ****
 

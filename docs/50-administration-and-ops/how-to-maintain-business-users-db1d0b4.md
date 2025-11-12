@@ -215,8 +215,12 @@ Business users are replicated from your central HR system. You can change user d
     > In the app, you are provided with a `CSV` template that you can download and use for filling in the user role assignments. When uploading the `CSV` file, you can decide if you want to add the role assignments to a user, or if you want to overwrite them completely.
     > 
     > You can find the CSV template as follows: Click the *Upload* button, then click *Upload User Role Assignments* in the menu that appears. This opens a dialog box containing the *Download CSV Template* link that you can use to download the template.
-
-    The user ID is optional. Only if the user name is not unique, the user ID has to be maintained.
+    > 
+    > The *Upload* button is only visible if your business user is assigned to the following IAM app:
+    > 
+    > *Assign Business Users to Business Roles* \(F1303\_22\_TRAN\)
+    > 
+    > The user ID is optional. Only if the user name is not unique, the user ID has to be maintained.
 
 
 **Downloading User Lists**
@@ -234,95 +238,93 @@ Business users are replicated from your central HR system. You can change user d
 
 
 
-Changing the Default Settings for a Business User
+**Changing the Default Settings for a Business User**
 
-To change the default settings for a business user, select it for editing and adjust the values as required.
+-   To change the default settings for a business user, select it for editing and adjust the values as required. If you create a new business user, the following fields in the *User Data* area and the *Regional Settings* area are automatically filled with default values. You can adjust them if necessary.
 
-If you create a new business user, the following fields in the *User Data* area and the *Regional Settings* area are automatically filled with default values. You can adjust them if necessary.
-
-**Default Values**
+    **Default Values**
 
 
-<table>
-<tr>
-<th valign="top">
+    <table>
+    <tr>
+    <th valign="top">
 
-Field
+    Field
+    
+    </th>
+    <th valign="top">
 
-</th>
-<th valign="top">
+    Default Value
+    
+    </th>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Valid From*
+    
+    </td>
+    <td valign="top">
+    
+    01/01/1901
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Valid To*
+    
+    </td>
+    <td valign="top">
+    
+    12/31/9999
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Decimal Format*
+    
+    </td>
+    <td valign="top" rowspan="5">
+    
+    This default value is derived from the standard setting that is valid in the country of the workplace address. If the workplace address is not maintained, the value is derived from the business user’s private address.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Date Format*
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Time Format*
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Time Zone*
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    *Language*
+    
+    </td>
+    </tr>
+    </table>
+    
 
-Default Value
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-*Valid From*
-
-</td>
-<td valign="top">
-
-01/01/1901
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Valid To*
-
-</td>
-<td valign="top">
-
-12/31/9999
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Decimal Format*
-
-</td>
-<td valign="top" rowspan="5">
-
-This default value is derived from the standard setting that is valid in the country of the workplace address. If the workplace address is not maintained, the value is derived from the business user’s private address.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Date Format*
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Time Format*
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Time Zone*
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Language*
-
-</td>
-</tr>
-</table>
-
--   
 **Related Information**  
 
 

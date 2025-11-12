@@ -400,6 +400,73 @@ lo_cursor->get_cell( )->apply_styles( VALUE #( ( lo_alignment ) ) ).
 
 
 
+### Cell Border Customization
+
+You can customize the borders of individual cells, with each border side \(top, bottom, left, right\) having its own style and color. You can also apply an outline to a range of cells. You can customize borders for a single cell like this:
+
+> ### Sample Code:  
+> ```abap
+> " Get cell reference
+> DATA(lo_cursor) = lo_worksheet->cursor(
+>   io_column = xco_cp_xlsx=>coordinate->for_alphabetic_value( 'B' )
+>   io_row    = xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
+> ).
+> 
+> " Configure border properties
+> DATA(lo_border) = xco_cp_xlsx=>style->border( ).
+> 
+> " You can set individual border side.
+> lo_border->set_top(
+>   io_style = xco_cp_xlsx=>border_style->dashed
+>   io_color = xco_cp_xlsx=>color->standard->blue
+> ).
+> 
+> lo_border->set_bottom(
+>   io_style = xco_cp_xlsx=>border_style->thick
+>   io_color = xco_cp_xlsx=>color->standard->blue
+> ).
+> 
+> lo_border->set_left(
+>   io_style = xco_cp_xlsx=>border_style->double
+>   io_color = xco_cp_xlsx=>color->standard->blue
+> ).
+> 
+> lo_border->set_right(
+>   io_style = xco_cp_xlsx=>border_style->medium
+>   io_color = xco_cp_xlsx=>color->standard->blue
+> ).
+> 
+> " You can also set the cell outline.
+> lo_border->set_outline(
+>   io_style = xco_cp_xlsx=>border_style->medium
+>   io_color = xco_cp_xlsx=>color->standard->blue
+> ).
+> 
+> " Apply alignment to target cell
+> lo_cursor->get_cell( )->apply_styles( VALUE #( ( lo_border ) ) ).
+> ```
+
+You can apply an outline to a range of cells like this:
+
+> ### Sample Code:  
+> ```abap
+> " Get cells pattern reference
+> DATA(lo_pattern) = xco_cp_xlsx_selection=>pattern_builder->simple_from_to(
+>   )->from_column( xco_cp_xlsx=>coordinate->for_alphabetic_value( 'A' )
+>   )->from_row( xco_cp_xlsx=>coordinate->for_numeric_value( 1 )
+>   )->to_column( xco_cp_xlsx=>coordinate->for_alphabetic_value( 'C' )
+>   )->to_row( xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
+>   )->get_pattern( ).
+> 
+> lo_worksheet->set_outline(
+>   io_pattern = lo_pattern
+>   io_style   = xco_cp_xlsx=>border_style->thick
+>   io_color   = xco_cp_xlsx=>color->standard->purple
+> ).
+> ```
+
+
+
 <a name="loio8dddce9fd9954e72a09d2b39d22db995__section_r13_wq5_2fc"/>
 
 ## Worksheet Customizing
@@ -409,19 +476,30 @@ You can customize your worksheet with tab coloring, cell merging operations, and
 ```abap
 " Set tab color
 lo_worksheet->set_tab_color( xco_cp_xlsx=>color->standard->yellow ).
- 
-" Merge and unmerge cells
+  
+" Get cells pattern reference
 DATA(lo_pattern) = xco_cp_xlsx_selection=>pattern_builder->simple_from_to(
   )->from_column( xco_cp_xlsx=>coordinate->for_alphabetic_value( 'A' )
   )->from_row( xco_cp_xlsx=>coordinate->for_numeric_value( 1 )
   )->to_column( xco_cp_xlsx=>coordinate->for_alphabetic_value( 'C' )
   )->to_row( xco_cp_xlsx=>coordinate->for_numeric_value( 2 )
   )->get_pattern( ).
- 
+  
+" Merge and unmerge cells
 lo_worksheet->merge_cells( lo_pattern ).
 lo_worksheet->unmerge_cells( lo_pattern ).
  
+" Set the outline of cells range
+lo_worksheet->set_outline(
+  io_style = xco_cp_xlsx=>border_style->medium
+  io_color = xco_cp_xlsx=>color->standard->blue
+).
+  
 " Protect
 lo_worksheet->protect( ).
+ 
+" Show or remove Gridline
+lo_worksheet->show_gridlines( abap_true ).
+lo_worksheet->show_gridlines( abap_false ).
 ```
 

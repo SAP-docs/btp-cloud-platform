@@ -8,7 +8,7 @@ This service enables you to:
 
 -   Read and write communication systems
 
--   Read and write assigned inbound users, outbound users and communication arrangements
+-   Read and write assigned inbound users, outbound users, communication arrangements as well as channels for Event Exchange Infrastructure and OpenID Connect configurations
 
 
 This service is published on the SAP Business Accelerator Hub. For more information about APIs, see the *Related Information* section.
@@ -231,6 +231,89 @@ Optional
 <tr>
 <td valign="top">
 
+Event Channels
+
+</td>
+<td valign="top">
+
+Contains Event Exchange Infrastructure channel information
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Optional
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+OpenIDConnectProviders
+
+</td>
+<td valign="top">
+
+Contains OpenID Connect configurations
+
+</td>
+<td valign="top">
+
+Contains the following attributes and values:
+
+-   UserMapping
+    -   global\_user\_id
+
+    -   email
+    -   user\_name
+
+-   UserMappingClaim
+    -   sub\_claim
+
+    -   email\_claim\_verified
+
+    -   email\_claim\_unverified
+
+    -   oid\_claim
+
+    -   user\_name\_claim
+
+    -   custom\_claim
+
+
+-   AudienceEvaluationMode
+    -   own\_client\_id\_only
+
+    -   own\_and\_selected\_other\_client\_ids
+
+        > ### Note:  
+        > Please note that an *OpenIDConnetAudiences* entity is required for creating or changing this value.
+
+    -   own\_and\_all\_other\_client\_ids
+
+
+-   IsImportWebKeysActive
+
+    > ### Note:  
+    > If this value is false, you must specify at least one *OpenIDConnectWebKey* entity. If this value is true, the *WebKeysURL* value or the *Provider* value is used to import the data of the*OpenIDConnectWebKeys* entities.
+
+
+
+
+</td>
+<td valign="top">
+
+Optional
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 OutboundUsers
 
 </td>
@@ -313,4 +396,8 @@ Optional
 [**APIs on SAP Business Accelerator Hub**](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/1e60f14bdc224c2c975c8fa8bcfd7f3f.html?version=latest)
 
 [Communication Management](../50-administration-and-ops/communication-management-2e84a10.md "The communication management apps allow you to integrate your system or solution with other systems to enable data exchange.")
+
+[Creating Communication Arrangements for SAP Event Mesh](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/creating-communication-arrangements)
+
+[Supported Protocols and Authentication Methods](https://help.sap.com/docs/abap-cloud/abap-integration-connectivity/supported-protocols-and-authentication-methods?q=OpenID)
 

@@ -791,6 +791,60 @@ Develop, debug, test, and deploy SAP business applications.
 </td>
 <td valign="top">
 
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\) EUA only
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Develop, debug, test, and deploy SAP business applications.
+
+</td>
+<td valign="top">
+
+-   CA-BAS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 -   AWS
 
 
@@ -808,6 +862,7 @@ Develop, debug, test, and deploy SAP business applications.
 -   Europe \(Frankfurt\) EU Access
 -   South Korea \(Seoul\)
 -   US West \(Oregon\)
+-   Europe \(Milan\)
 
 
 
@@ -8742,6 +8797,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   Europe \(Frankfurt\) EU Access
 -   Canada \(Montreal\)
 -   US West \(Oregon\)
+-   Europe \(Milan\)
 
 
 
@@ -9583,6 +9639,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   Europe \(Frankfurt\) EU Access
 -   Canada \(Montreal\)
 -   US West \(Oregon\)
+-   Europe \(Milan\)
 
 
 

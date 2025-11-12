@@ -29,3 +29,35 @@ You can do the following adjustments to the selected software component:
     Use this option to update your Git user credentials that were saved when the software component was cloned. This option is enabled only for Bring Your Own Git components that have already been linked to a Git repository. For more information on that, see [Bring Your Own Git](bring-your-own-git-994c961.md).
 
 
+
+
+## Repository Role: Target
+
+Software components configured with the role *Target* are now protected from changes and cannot be recorded on transports. This feature is designed to prevent inadvertent modifications to components, ensuring their integrity and stability.
+
+1.  *Detailed Goal Description*
+    -   Importance: Protecting components from unauthorized or accidental modifications is crucial in maintaining system stability and reliability.
+    -   Benefits for Users: This feature ensures that objects associated with *Target* role software components remain unchanged, reducing the risk of potential errors and preserving the intended configuration.
+
+2.  *Behavior Demonstration*
+    -   The following steps demonstrate the behavior of software components with the *Target* role:
+
+    1.  Clone a software component \(SC\) configured with the role *Target*.
+
+        ![](images/cloneSC_876869f.png)
+
+    2.  Open an object \(e.g., a class\) within the software components package using ABAP development tools for Eclipse.
+    3.  Attempt to modify the object.
+    4.  An error window should appear, blocking the modification and providing a reason for the restriction.
+
+        ![](images/RepoTargetError_c67b251.png)
+
+
+3.  *Summary*
+
+    The *Target* role feature safeguards software components from accidental changes by locking their objects against modification. Implemented to enhance system integrity, this feature is essential in environments where stability and consistency are of utmost importance.
+
+    > ### Tip:  
+    > If you need to modify the contents of a software component, clone it in the *Source* role instead.
+
+

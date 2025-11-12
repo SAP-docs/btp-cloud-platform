@@ -74,6 +74,8 @@ Custom Inbound Service App
 
 This application type is only created in the development system and is only required for authorization purposes to allow the developers to test the inbound services locally.
 
+The included objects only exist in the development system and authorize developers to call the OData services with the developer users for testing purposes via the following business catalog: *SAP\_CORE\_BC\_EXT\_TST - Extensibility - Custom Apps and Services*.
+
 </td>
 </tr>
 <tr>

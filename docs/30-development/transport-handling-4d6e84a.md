@@ -18,13 +18,22 @@ With the factory class *MBC\_CP\_API* you can instantiate a transport API to val
 
 > ### Sample Code:  
 > ```
-> DATA(api) = mbc_cp_api=>rap_table_cts( table_entity_relations = VALUE #( ( entity = '/ITAPC1/I_Status'table = '/ITAPC1/STATUS' )
->                                                                                  ( entity = '/ITAPC1/I_StatusText' table = '/ITAPC1/STATUST' ) ) ).
+> DATA(api) = mbc_cp_api=>rap_tdat_cts(
+>                tdat_name = '/ITAPC1/CODE' 
+>                table_entity_relations = VALUE #( ( entity = '/ITAPC1/I_Status' table = '/ITAPC1/STATUS' )
+>                                                  ( entity = '/ITAPC1/I_StatusText' table = '/ITAPC1/STATUST' ) ) 
+>               ).
 > ```
 
 In the behavior implementation define an [Additional Save Implementation](https://help.sap.com/doc/abapdocu_cp_index_htm/CLOUD/en-US/index.htm?file=abenbdl_saving.htm) in the header directly after the keyword managed. In the `save_modified` method you can record the changes on the transport request with the method `record_changes` of this API. Check the ABAP Doc of `record_changes` for more information and example implementation.
 
 For each entity of the RAP BO define a [Validation](https://help.sap.com/docs/abap-cloud/abap-rap/validations?version=sap_btp) on save for create, update and delete. In the validation implementation call the method `validate_changes` of the API. Check the ABAP Doc of validate\_changes for more information and example implementation.
+
+
+
+### No Transport
+
+When using the [ADT Wizard](transport-handling-4d6e84a.md) to generate a business configuration maintenance object, you can choose *No Transport* as *Transport Selection* for an app <sub>without</sub> a transport option. Suitable for configurations that need adjustments in the production client. For more information read this [blog post](https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-create-a-rap-bo-to-change-the-content-of-a-customizing-table-in-the/ba-p/13723087).
 
 
 

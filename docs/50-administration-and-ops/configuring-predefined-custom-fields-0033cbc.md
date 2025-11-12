@@ -50,6 +50,8 @@ This process enables you to configure custom fields that were predefined by your
 
     Your configured custom fields will now appear in your applications and their UIs.
 
+6.  There are applications that use remote OData services to fetch data. However, there might be extension fields which are not mapped in the standard service consumption model. You can also enable remote OData services and maintain the mapping between the internal field name and the field name in the remote OData service. To do this, you can either use an existing field or create a new one at the specific extension point. Find the available service consumption model entities in the *Services* section and enable the respective one. This navigates to the field mapping page, where you can maintain the entity data model field name. That field name corresponds to the OData extension field name on the remote service side. Finally, save and publish the field.
+
 
 **Related Information**  
 

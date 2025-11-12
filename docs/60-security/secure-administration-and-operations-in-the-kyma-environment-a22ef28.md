@@ -37,7 +37,7 @@ Kyma uses Kubernetes Role-Based Access Control \(RBAC\) and assures during provi
 
 ## Istio Access Logs
 
-Collecting Istio access logs can help indicate the core concepts of monitoring \(latency, traffic, errors, and saturation\) and capture critical aspects of system behavior. By [Configuring Istio Access Logs](../30-development/configuring-istio-access-logs-d3f20b6.md) you monitor and analyze the traffic in your Kyma cluster. Then, send the logs to a central platform, for example, a Security Information and Event Management \(SIEM\) system, for threat detection and incident response.
+Collecting Istio access logs can help indicate the core concepts of monitoring \(latency, traffic, errors, and saturation\) and capture critical aspects of system behavior. By [Configure Observability for the Istio Service Mesh](../30-development/configure-observability-for-the-istio-service-mesh-d3f20b6.md) you monitor and analyze the traffic in your Kyma cluster. Then, send the logs to a central platform, for example, a Security Information and Event Management \(SIEM\) system, for threat detection and incident response.
 
 **Related Information**  
 
@@ -53,6 +53,4 @@ Collecting Istio access logs can help indicate the core concepts of monitoring \
 [Assign Roles in the Kyma Environment](assign-roles-in-the-kyma-environment-148ae38.md "Kyma uses roles to manage access within the cluster, which give the assigned users the permissions suitable for their purposes.")
 
 [Auditing and Logging Information in Kyma](auditing-and-logging-information-in-kyma-935e241.md "Kyma runtime collects audit and application logs.")
-
- <?sap-ot O2O class="- topic/link " href="d3eb18db88504e348a0096c5a20b3659.xml" text="" desc="" xtrc="link:7" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/a22ef28e21984788b12120254efa2996.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

@@ -20,33 +20,37 @@ Select the text sources that you want to have translated.
 2.  Scroll down to *Text Sources* and click *Add*.
 3.  Here you can select which text source types to add. The following text source types are supported:
 
-    -   Domains
+    -   Application Job Catalog Entries
 
-    -   Data Elements
-
-    -   Data Definitions \(View Entities, Projection Views, Abstract Entities and Custom Entities\)
-
-    -   Message Classes
-
-    -   Metadata Extensions
+    -   Application Job Templates
 
     -   Application Log Objects
 
     -   Business Configuration Objects
 
-    -   Text Pools
-
-    -   Text Tables
-
-    -   IAM Business Catalogs
-
     -   CDS Type Definitions
+
+    -   Data Definitions \(View Entities, Projection Views, Abstract Entities and Custom Entities\)
+
+    -   Data Elements
+
+    -   Domains
 
     -   Fiori Launchpad App Descriptor Items
 
     -   Fiori Launchpad Page Templates
 
     -   Fiori Launchpad Space Templates
+
+    -   IAM Business Catalogs
+
+    -   Message Classes
+
+    -   Metadata Extensions
+
+    -   Text Pools
+
+    -   Text Tables
 
 
     It’s also possible to specify a package from which all supported translatable elements will be pulled into the translation project. Please note that translatable elements in sub packages are not included.
@@ -57,9 +61,9 @@ Select the text sources that you want to have translated.
     > Text sources that can be translated by a translation project need to reside in the same software component as the translation project.
 
     > ### Note:  
-    > -   If you want to test the translated texts of IAM business catalogs directly in the Fiori launchpad of the development system, you have to publish the IAM business catalog once again locally in ADT.
+    > -   If you want to test the translated texts of IAM business catalogs directly in the SAP Fiori launchpad of the development system, you have to publish the IAM business catalog once again locally in ADT.
     > 
-    > -   If you want to test the translated texts of data definitions or metadata extensions directly in the development system with a Fiori app built on top of these objects, you should first reactivate the objects in ADT to ensure that all caches will be invalidated.
+    > -   If you want to test the translated texts of data definitions or metadata extensions directly in the development system with a SAP Fiori app built on top of these objects, you should first reactivate the objects in ADT to ensure that all caches will be invalidated.
 
 
 

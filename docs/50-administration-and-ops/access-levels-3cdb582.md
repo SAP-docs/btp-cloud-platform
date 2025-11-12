@@ -149,7 +149,7 @@ The *SUPPORT\_SYSTEM\_ADMIN* access level grants unrestricted administrative acc
 **Related Information**  
 
 
-[SAP Support User Request Log](sap-support-user-request-log-934a027.md "")
+[SAP Support User Request Log](sap-support-user-request-log-934a027.md "The SAP Support User Request Log is part of the Display Technical Users app.")
 
 [Access Categories](access-categories-7dbdd05.md "")
 

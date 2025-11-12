@@ -6,7 +6,7 @@ Identity and Access Management \(IAM\) enables you to control user access to app
 
 
 
-The main elements of IAM are business catalogs, business roles, and business users. The IAM apps secure the access to your solution based on these elements. For more information about how these elements interrelate, refer to [Business Roles, Business Catalogs, App Authorization Variants, Restrictions](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53e36b5493804bcdb3f6f14de8b487dd/d45c96e6d9e2426187920bffb3287f45.html).
+The main elements of IAM are business catalogs, business roles, and business users.
 
 Access to business apps is controlled by a role-based authorization management. That means you assign business roles to users and these business roles provide access to certain business tasks.
 
@@ -71,8 +71,4 @@ For more information, see sections *Maintain Business Users* and *Business Catal
 [Display Restriction Types](display-restriction-types-9203905.md "You can use this app to display restriction types and their validity.")
 
 [Maintain Business Roles](maintain-business-roles-8980ad0.md)
-
- <?sap-ot O2O class="- topic/link " href="d45c96e6d9e2426187920bffb3287f45.xml" text="" desc="" xtrc="link:13" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/f25f9108740442c3804370f2d88a9bdd.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
-
-[SAP Fiori Apps Reference Library - User Guide](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/5a8c8240cd43410ea3e3ea6cb901dab7.html)
 

@@ -31,28 +31,20 @@ Depending on your use case, you can choose between different CI/CD pipelines to 
 
 SAP Continuous Integration and Delivery lets you configure and run predefined pipelines for the development of the following applications:
 
--   [SAP Cloud Application Programming Model](https://help.sap.com/docs/btp/sap-business-technology-platform/cloud-application-programming-model?locale=en-US&version=Cloud)
+-   [Configure a Cloud Foundry Environment Job](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-cloud-application-programming-model-job-in-job-editor?version=Cloud&language=en-US)
 
-    Configure a CI/CD pipeline for the development of applications that follow the SAP Cloud Application Programming Model in the Cloud Foundry runtime.
+    Create an SAP Continuous Integration and Delivery job for SAP Fiori and SAP Cloud Application Programming Model projects in the Cloud Foundry environment.
 
--   [Configure an SAP Fiori in the Cloud Foundry Environment](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-cloud-application-programming-model-job-in-job-editor?version=Cloud&language=en-US)
+-   [Configure an SAP Fiori for the ABAP Platform Job](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-for-abap-platform-job-in-job-editor?version=Cloud&language=en-US)
 
-    Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications in the Cloud Foundry runtime.
+    Create an SAP Continuous Integration and Delivery job for SAP Fiori projects for the ABAP platform.
 
--   [Configure an SAP Fiori for the ABAP Platform](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-fiori-for-abap-platform-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)
+-   [Configure an SAP Integration Suite Artifacts Job](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-integration-suite-artifacts-job-in-job-editor?version=Cloud&language=en-US) 
 
-    Configure a CI/CD pipeline for the development of SAPUI5/SAP Fiori applications for the ABAP platform.
-
--   [Configure an SAP Integration Suite Artifacts](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-sap-integration-suite-artifacts-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment) 
-
-    Configure a CI/CD pipeline for the development of SAP Cloud Integration artifacts in the Cloud Foundry runtime.
-
--   [Configure a Container-Based Applications](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/configure-container-based-applications-job-in-job-editor?version=Cloud&language=en-US&q=SAP%20Fiori%20in%20the%20Cloud%20Foundry%20Environment)
-
-    Configure a CI/CD pipeline for the development of container-based applications.
+    Create an SAP Continuous Integration and Delivery job for SAP Integration Suite artifacts.
 
 
-To learn more about the CI/CD pipelines supported by SAP Continuous Integration and Delivery and the stages each pipeline can comprise, see [Supported Pipelines](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/supported-pipelines?version=Cloud).
+To learn more about the CI/CD pipelines supported by SAP Continuous Integration and Delivery and the stages each pipeline can comprise, see [Configuring Jobs](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery/supported-pipelines?version=Cloud).
 
 
 
@@ -99,6 +91,10 @@ See [Terraforming Kyma Runtimes](https://help.sap.com/docs/btp/btp-developers-gu
 ## Learn and Get Certified
 
 Depending on your learning goals and level of expertise, you can choose from the following offerings:
+
+-   **[Exploring DevOps with SAP BTP](https://learning.sap.com/courses/exploring-devops-with-sap-btp)**
+
+    Learn how to efficiently apply DevOps practices to your development projects on SAP BTP.
 
 -   **[Efficient DevOps with SAP](https://open.sap.com/courses/devops1)**
 

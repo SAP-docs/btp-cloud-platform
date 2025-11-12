@@ -34,7 +34,7 @@ Also, with Istio sidecar proxy injected, you can perform [request authentication
 
 ### Observability
 
-Istio sidecar proxies enhance tracing capabilities by performing global tracing and forwarding the data to a tracing backend using the [OTLP protocol](https://opentelemetry.io/docs/reference/specification/protocol/). When you integrate your application into the Istio service mesh, you can easily access advanced observability features without needing to implement complex instrumentation within the application. See [Kyma Modules With Tracing Capabilities](traces-f98cda5.md#loiof98cda5d058e48ff808ade541a64a6ad__section_kyma_modules_with_tracing_capabilities).
+Istio sidecar proxies enhance tracing capabilities by performing global tracing and forwarding the data to a tracing backend using the [OTLP protocol](https://opentelemetry.io/docs/reference/specification/protocol/). When you integrate your application into the Istio service mesh, you can easily access advanced observability features without needing to implement complex instrumentation within the application. See [Configure Observability for the Istio Service Mesh](configure-observability-for-the-istio-service-mesh-d3f20b6.md).
 
 
 

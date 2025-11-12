@@ -105,7 +105,30 @@ As shown in the above snippets, a callback class can be provided that allows pro
 
 ## Raising an intermediate message event for a SAP Build Process Automation process instance
 
-If the process expects a intermediate message event \(IME\), this can be raised via the following code.
+If the process expects a intermediate message event \(IME\), this can be raised via the following code. If the SAP Build Process Automation process expects an intermediate message event \(IME\) this can be raised by executing the corresponding API trigger, which can be done via the following code.
+
+> ### Sample Code:  
+> Raise an intermediate message event
+
+```abap
+
+CONSTANTS: lc_cp_workflow_def_id TYPE if_swf_cpwf_api=>cpwf_def_id      VALUE '<Your Workflow Definition ID>',
+              lc_api_trigger_uid    TYPE if_swf_cpwf_api=>cpwf_trigger_uid VALUE '<Your API Trigger UID>'.
+
+" Get a Instance for the CPWF Integration API
+   DATA(lo_cpwf_api) = cl_swf_cpwf_api_factory...=>get_api_instance( ... ).
+
+" actually raise the event
+   lo_cpwf_api->api_trigger(
+     EXPORTING
+       iv_cpwf_handle   = lv_cpwf_handle  " the BTP process instance handle
+       iv_event_def_id  = lc_api_trigger_uid
+   ).
+ 
+   COMMIT WORK.
+```
+
+In older releases the API trigger may not yet be supported by the API. Here intermediate message event can be raised via the following code.
 
 > ### Sample Code:  
 > Raise an intermediate message event \(deprecated\)
@@ -133,32 +156,8 @@ If the process expects a intermediate message event \(IME\), this can be raised 
 > COMMIT WORK.
 > ```
 
-This approach works only for **old** workflow management process definitions being deployed from SAP Business Application Studio.
-
-For SAP Build Process Automation processes, you nee to trigger a intermediate message event by executing the corresponding API trigger, which can be done through the API as follows \(from SAP\_CLOUD 2511 / OP 2027 onwards\).
-
-> ### Sample Code:  
-> Raise an intermediate message event
-
-```abap
-
-CONSTANTS: lc_cp_workflow_def_id TYPE if_swf_cpwf_api=>cpwf_def_id      VALUE '<Your Workflow Definition ID>',
-              lc_api_trigger_uid    TYPE if_swf_cpwf_api=>cpwf_trigger_uid VALUE '<Your API Trigger UID>'.
-
-" Get a Instance for the CPWF Integration API
-   DATA(lo_cpwf_api) = cl_swf_cpwf_api_factory...=>get_api_instance( ... ).
-
-" actually raise the event
-   lo_cpwf_api->api_trigger(
-     EXPORTING
-       iv_cpwf_handle   = lv_cpwf_handle  " the BTP process instance handle
-       iv_event_def_id  = lc_api_trigger_uid
-   ).
- 
-   COMMIT WORK.
-```
-
-Open your process in the SAP Build Process Automation Control Tower and check the list of triggers. View the trigger details to find the API trigger UID.
+> ### Note:  
+> This approach works only for "old" workflow management process definitions being deployed from Business Application Studio \(BAS\)
 
 
 

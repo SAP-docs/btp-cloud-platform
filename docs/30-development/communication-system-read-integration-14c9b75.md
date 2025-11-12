@@ -10,6 +10,7 @@ This service enables you to:
 
 -   Read assigned inbound users, outbound users and communication arrangements
 
+-   Read change documents about changes of communication systems and their sub entities
 
 This service is published on the SAP Business Accelerator Hub. For more information about APIs, see the *Related Information* section.
 
@@ -131,6 +132,28 @@ For more information, see the *Related Information* section.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+CommSysChangeDocuments
+
+</td>
+<td valign="top">
+
+Contains change document data for communication systems
+
+</td>
+<td valign="top">
+
+Optional
+
+</td>
+<td valign="top">
+
+For more information, see the *Related Information* section.
+
+</td>
+</tr>
 </table>
 
 
@@ -152,4 +175,6 @@ For more information, see the *Related Information* section.
 [**APIs on SAP Business Accelerator Hub**](https://help.sap.com/docs/SAP_S4HANA_CLOUD/0f69f8fb28ac4bf48d2b57b9637e81fa/1e60f14bdc224c2c975c8fa8bcfd7f3f.html?version=latest)
 
 [Communication Management](../50-administration-and-ops/communication-management-2e84a10.md "The communication management apps allow you to integrate your system or solution with other systems to enable data exchange.")
+
+[Communication Systems Change Documents - Entity](communication-systems-change-documents-entity-0154240.md "")
 

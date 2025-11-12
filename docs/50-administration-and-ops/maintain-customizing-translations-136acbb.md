@@ -14,6 +14,55 @@ You’ve built a customizing extension and would now like to translate it into o
 
 
 
+## Prerequisites
+
+The following business catalogs are required:
+
+**Business Catalogs**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Primary
+
+</th>
+<th valign="top">
+
+Secondary
+
+</th>
+</tr>
+<tr>
+<td valign="top" rowspan="2">
+
+`SAP_CORE_BC_BCT_TRA_PC`
+
+\(for the *Maintain Customizing Translations* app\)
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_BCT_TRN_MNG_PC`
+
+\(required to create customizing transport requests\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`SAP_CORE_BC_BCT_TRN_REL_PC`
+
+\(required to release customizing transport requests\)
+
+</td>
+</tr>
+</table>
+
+
+
 <a name="loio136acbbe40e74b80906e2e486e49c747__section_hyy_jjl_q5b"/>
 
 ## Key Features

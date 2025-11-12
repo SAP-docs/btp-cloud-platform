@@ -2,84 +2,85 @@
 
 # Requesting Consent for a System
 
-For some systems, you might need to ask for additional authorizations so that:
-
--   You can use these systems in formations.
-
-    You have the system added in the *Systems* page, but to include it in a dedicated formation, you need to request a consent. See [Integrating SAP Solutions](integrating-sap-solutions-3414bbc.md).
-
--   You have an application you are subscribed to added to the *Systems* page.
-
-    SAP Partners develop multitenant applications and sell subscriptions to their customers. These applications are deployed to the global account in SAP BTP of the SAP Partner. When customers buy a subscription to such an application, the SAP partner has a dedicated subaccount for each customer and creates a subscription to the application in every subaccount for every customer. Then, the SAP Partner takes the respective URL from *Services* \> *Instances and Subscriptions* of every subscription and sends it to the respective customer.
-
-    Customers do not have access to the subscription in their global accounts in SAP BTP. However, they might need to use the subscription to the application they've purchased from the SAP Partner in a formation and to integrate it with other systems. To do that, customers need to have this subscription listed as a system in the *System Landscape* \> *Systems* page.
-
-    To have this system listed in the *Systems* page, customers need to make a request to the SAP Partner in the *System Landscape* \> *Consent Requests* page. The SAP Partner sees the request and then approves or rejects it. When the request has been approved, the customers see the system of this application listed in the *Systems* page of their global accounts in SAP BTP.
+A consent request helps you get additional authorization to a specific system. There are different use cases for which you need to request consent and depending on these use cases you specify a consent scope.
 
 
 
+<a name="loio091bc0872f2f4666b8395fcf5eb5411c__section_npb_mbt_bhc"/>
 
-<a name="loio091bc0872f2f4666b8395fcf5eb5411c__section_qkl_354_22c"/>
+## Consent Scopes
 
-## Request Consent
+Consent scopes define the purpose of the consent request, that is the reason why you need additional authorization to a specific system. You specify one or more scopes when you request consent.
 
-You request consent for a system in one of the following cases:
-
--   As a customer of a partner application, after subscribing to this application, you have received a URL so you can use the application. To have a system corresponding to your application subscription in the *Systems* page of your global account in SAP BTP, you have to request a consent by providing the URL of the application.
-
-    Wait for the SAP Partner to approve or reject your request. Once it is approved, you will have a system corresponding to your application subscription in the *Systems* page. After that, you will be able to integrate this system with services and systems using a formation.
-
--   As a user of SAP BTP, you have a system listed in the *System* page but you need additional authorizations to include this system in a formation. In this case, you provide the system ID and namespace in the consent request.
+**Consent Scopes**
 
 
-When you request consent for a system, you specify a scope, that is what is the purpose of the requested authorizations. These are the scopes you can choose from:
+<table>
+<tr>
+<th valign="top">
 
--   Integration
+Consent Scope
 
-    Use this scope when you have the system in the *Systems* page and you need additional authorizations to include it in a formation.
+</th>
+<th valign="top">
 
--   System Sharing
+Description
 
-    Use this scope when you are subscribed to an application and you want this application to appear as a system added to the *Systems* page.
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+System Sharing
+
+</td>
+<td valign="top">
+
+Use this scope when you are subscribed to an application and you want this application to appear as a system added to the *Systems* page.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Integration
+
+</td>
+<td valign="top">
+
+Use this scope when you have the system in the **Systems** page and you need additional authorizations to include it in a formation.
+
+</td>
+</tr>
+</table>
 
 
-To request consent for a system, you have to:
 
-1.  Log in to the SAP BTP cockpit and navigate to *System Landscape* \> *Consent Requests*.
-2.  In *My Consent Requests* tab, choose *Request Consent*.
-3.  In the *Request Consent By* dropdown menu, select one of the following:
-    -   *System URL*
+## Customers Subscribed to an Application
 
-        In the *URL* field, enter the URL of the application you are subscribed to.
+SAP partners develop multitenant applications and sell subscriptions to their customers. These applications are deployed to the global account in SAP BTP of the SAP partner. When customers buy a subscription to such an application, the SAP partner has a dedicated subaccount for each customer and creates a subscription to the application in every subaccount for every customer. Then, the SAP partner takes the respective URL from *Services* \> *Instances and Subscriptions* of every subscription and sends it to the respective customer.
 
-        > ### Note:  
-        > If the URL is not unique, you might get an error. If you subscribe to an application provided by an SAP Partner and you have only a URL, you have to get back to the SAP Partner and ask for the system ID and namespace of the application and use the *System ID and Namespace* option.
+As an administrator of a customer, you do not have access to the subscription in your global account in SAP BTP. However, you need to use the subscription to the application your company has purchased from the SAP partner in a formation. To do that, you need to have this subscription listed as a system in the *System Landscape* \> *Systems* page.
 
-    -   *System ID and Namespace*
+To have this system listed in the *Systems* page, you need to make a request to the SAP partner in the *System Landscape* \> *Consent Requests* page. Use the consent scope *System Sharing*. See [Request Consent](request-consent-038c3bb.md).
 
-        1.  In the *System ID* field, enter the ID of the system you want to include in a formation.
-        2.  In the *System Namespace* field, enter the namespace of the system you want to include in a formation.
+![](images/Consent_Request_Use_Case_Customers_and_Partner_App_1_2da33c2.png)
 
-        You get the system ID and namespace from the system details in the *Systems* page. To open the details, choose *System Landscape* \> *Systems* and then choose the system for which you are requesting consent.
+The SAP partner sees the request and then approves or rejects it. When the request has been approved, you see the system of this application listed in the *Systems* page of your global account in SAP BTP. See [Approve or Reject a Consent Request](approve-or-reject-a-consent-request-66429f1.md).
 
-
-4.  In the *Scope\(s\)* dropdown menu, select the scope that you need.
-5.  Choose *Request*.
+![](images/Consent_Request_Use_Case_Customers_with_Partner_App_2_3db5ec1.png)
 
 
 
-<a name="loio091bc0872f2f4666b8395fcf5eb5411c__section_o4n_k54_22c"/>
+## Permission to Include a System in a Formation
 
-## Approve or Reject Consent
+You are an administrator of a global account in SAP BTP and you have system C added in the *Systems* page. You want to include system C in a dedicated formation, but this system requires additional authorization so you need to request a consent. Use the consent scope *Integration*. See [Request Consent](request-consent-038c3bb.md).
 
-You approve or reject consent for a system in one of the following cases:
+![](images/Consent_Request_Formation_Use_Case_1_0b1fd44.png)
 
--   As an SAP Partner, you develop multitenant applications, deploy them to SAP BTP and sell subscriptions to your customers. When customers have subscribed to your application, they may want to request a consent from you so they have a respective system in their *Systems* page in their global accounts.
+After the administrator responsible for the system type approves the request, you can include system C in formation D. See [Approve or Reject a Consent Request](approve-or-reject-a-consent-request-66429f1.md).
 
--   As a system administrator giving additional authorizations so the system can be included in a formation.
+![](images/Consent_Request_Formation_Use_Case_2_a43b3d6.png)
 
-To approve or reject such a request, you have to:
-
-1.  Log in to the SAP BTP cockpit and navigate to *System Landscape* \> *Consent Requests*.
-2.  In the *Incoming Consent Requests* tab, choose *Approve* or *Reject* for each request.
+See [Integrating SAP Solutions](integrating-sap-solutions-3414bbc.md).
 

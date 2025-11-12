@@ -35,8 +35,3 @@ This app provides a view on the *Application Jobs* app. Therefore, its key featu
 
 If you need support or experience issues, please report an incident under component `BC-OP-MON`.
 
-**Related Information**  
-
-
-[Application Jobs](application-jobs-37e7a01.md)
-

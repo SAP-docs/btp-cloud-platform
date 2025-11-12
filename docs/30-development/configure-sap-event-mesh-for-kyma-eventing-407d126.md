@@ -2,7 +2,7 @@
 
 # Configure SAP Event Mesh for Kyma Eventing
 
-If you want to use SAP Event Mesh as backend for Kyma Eventing, you must first set up the credentials.
+If you want to use SAP Event Mesh as backend for the Eventing module, you must first set up the credentials.
 
 
 
@@ -10,9 +10,7 @@ If you want to use SAP Event Mesh as backend for Kyma Eventing, you must first s
 
 ## Prerequisites
 
--   The Kyma Eventing module is added to your cluster. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
-
--   The Kyma SAP BTP Operator module is added to your cluster.
+-   You have the Eventing module and the SAP BTP Operator module in your Kyma cluster \(see [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c)\).
 
 -   You are using an enterprise account.
 
@@ -95,10 +93,10 @@ You have set up SAP Event Mesh for Kyma Eventing.
 
 ## Next Steps
 
-Choose SAP Event Mesh as your backend for Kyma Eventing.
+Choose SAP Event Mesh as your backend for the Eventing module.
 
 **Related Information**  
 
 
-[Choose a Backend for Kyma Eventing](choose-a-backend-for-kyma-eventing-08dfcdc.md "The event service in Kyma runtime supports two backends: NATS and SAP Event Mesh. Learn how to set up your preferred eventing backend.")
+[Choose an Eventing Backend](choose-an-eventing-backend-08dfcdc.md "The Eventing module supports two backends: NATS and SAP Event Mesh. Learn how to set up your preferred eventing backend.")
 

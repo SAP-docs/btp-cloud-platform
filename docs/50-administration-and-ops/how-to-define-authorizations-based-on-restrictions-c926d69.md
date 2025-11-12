@@ -11,11 +11,12 @@
 The authorization concept for business roles is based on the concept of granting authorizations \(as opposed to denying them\). By adding business catalogs to a business role and assigning the business role to a business user, you can control which applications the business user is authorized to carry out. As a next step, you define how the customer data can be accessed. You do this by adding authorization values to the restriction fields. Restriction fields are organized in restriction types. Restriction types that contain general organizational restriction fields can be found in the top section called *General*. These restriction types contain only one restriction field. The settings you make for the single restriction types sum up to the authorization that is granted to the business role and therefore to the assigned business users.
 
 > ### Caution:  
-> Please note that assigning multiple business roles to a business user increases the risk of overriding existing authorizations.
+> Assigning multiple business roles to a business user increases the risk of overriding existing authorizations.
 
-For example, you have created the business roles 1 and 2 that both include the business catalog A. In business role 1, you restricted the access rights for sales organization to A. In business role 2, you allowed to work with data for all sales organizations. The business user to whom you assign both roles will then have full access to the data for all sales organizations.
-
-This overriding effect can also be caused if one restriction type is used in different assigned business roles of different business catalogs.
+> ### Example:  
+> You have created the business roles 1 and 2 that both include the business catalog A. In business role 1, you restricted the access rights for sales organization to A. In business role 2, you allowed to work with data for all sales organizations. The business user to whom you assign both roles will then have full access to the data for all sales organizations.
+> 
+> This overriding effect can also be caused if one restriction type is used in different assigned business roles of different business catalogs.
 
 Using the *Maintain Business Roles* app, you have the following options for maintaining restrictions:
 
@@ -39,7 +40,7 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
     You can select or enter single values \(pre-defined by SAP or customer-specific configuration\) and ranges.
 
-    For more information, see *Display Restriction Types* \(Related Information\).
+    For more information, refer to *Display Restriction Types* \(Related Information\).
 
     > ### Note:  
     > When you set an access category to *Restricted* you can define the data access for each restriction type and restriction field according to your process requirements. You can do this on*Read*, *Write* and *Value Help* level.
@@ -66,7 +67,7 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
     In the *Values* section, you can define the instance-based restrictions for the desired restriction fields used for value helps.
 
-    For more information about the *Values* area, please refer to the *Write* section above.
+    For more information about the *Values* area, refer to the *Write* section above.
 
 -   Every authorization you define in the *Read* access category is inherited to the *Value Help* access category.
 
@@ -80,7 +81,7 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
 *Leading Restriction*
 
--   In this section, we will describe how you can reduce the maintenance effort of restriction fields that are used in multiple restriction types of an access category.
+-   You can reduce the maintenance effort of restriction fields that are used in multiple restriction types of an access category.
 
 -   Restriction types that contain general organizational restriction fields can be found in the top section called *General*. These restriction types contain only one restriction field.
 
@@ -90,16 +91,19 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
     That means the value in this field is automatically inherited to other restriction types the field is used in as well.
 
-    You want to, for example, define that the values for the country templates for Austria and Switzerland are applied in all restriction types the *Company Code* field is used in. So you select the values `AU01` \(for Austria\) and `CH01` \(for Switzerland\) and switch *Leading Restriction* on. Then these values are automatically inherited to all occurrences of the *Company Code* field.
+    > ### Example:  
+    > If you want to ensure that the values for the country/region templates for Austria and Switzerland apply to all restriction types where the *Company Code* field is used, you can select the values `AU01` for Austria and `CH01` for Switzerland. Then, switch *Leading Restriction* on. These values are automatically inherited to all occurrences of the *Company Code* field.
 
 
 *Default Values from Business Catalogs*
 
-Business catalogs can contain default values. In rare cases, these might overwrite the values defined by you in the Restrictions and Values section. The system then displays a message listing the default values that are added from the business catalog. To avoid this, you then need to remove the respective business catalog from the business role. The respective symbol that is visible in the *Restrictions Overview* looks like this:
+-   Business catalogs can contain default values. In rare cases, these might overwrite the values defined by you in the *Restrictions* and *Values* section. The system then displays a message listing the default values that are added from the business catalog. To avoid this, you then need to remove the respective business catalog from the business role.
 
-![](images/icon_8050056.gif)
+    The respective symbol that is visible in the *Restrictions Overview* looks like this:
 
--   
+    ![](images/icon_8050056.gif)
+
+
 **Related Information**  
 
 
@@ -107,7 +111,7 @@ Business catalogs can contain default values. In rare cases, these might overwri
 
  <?sap-ot O2O class="- topic/link " href="03540a86736543c4b94070d08df40744.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/c926d691d7144f7dba16f8e12ad81d28.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
-[Maintain Restrictions in Business Role](https://launchpad.support.sap.com/#/notes/2598733)
+[Maintain Restrictions in Business Role](https://me.sap.com/notes/2598733)
 
 [Maintain Restrictions UI](maintain-restrictions-ui-28f133f.md "")
 

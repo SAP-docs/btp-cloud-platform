@@ -601,7 +601,7 @@ Up to 20000 Mi \(for PVC for internal Docker registry\)
 
 ## Telemetry
 
-Resource consumption depends on the APIs \(pipelines\) you are using. For details, see [Module Lifecycle](../30-development/telemetry-manager-04d79d5.md#loio04d79d5517204da68029f43b9f052396__section_telemetry_module_lifecycle).
+Resource consumption depends on the APIs \(pipelines\) you are using. For details, see [Telemetry Pipeline API](../30-development/telemetry-pipeline-api-1617ebe.md).
 
 Using the Telemetry module without activating any pipelines results in the Telemetry Manager running with the following footprint:
 

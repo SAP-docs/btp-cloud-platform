@@ -14,7 +14,7 @@ The Kyma Serverless module is a "code-as-a-service" tool designed to accelerate 
 
 With the Serverless module, you can build, run, and manage serverless applications in Kubernetes. These applications are called Functions, and they are based on the [Function custom resource \(CR\)](https://kyma-project.io/#/serverless-manager/user/resources/06-10-function-cr) objects. They contain simple code snippets that implement a specific business logic. For example, you can define that you want to use a Function as a proxy that saves all incoming event details to an external database.
 
-A Function can be triggered by other workloads in the cluster \(in-cluster events\) or business events coming from external sources. You can subscribe to them using a [Subscription CR](https://kyma-project.io/#/eventing-manager/user/resources/evnt-cr-subscription). You can expose your Function to an external endpoint \(HTTPS\). With an [APIRule CR](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-10-apirule-custom-resource), you can define who can reach the endpoint and what operations they can perform on it.
+A Function can be triggered by other workloads in the cluster \(in-cluster events\) or business events coming from external sources. You can subscribe to them using a [Subscription CR](https://kyma-project.io/#/eventing-manager/user/resources/subscription-cr). You can expose your Function to an external endpoint \(HTTPS\). With an [APIRule CR](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-10-apirule-custom-resource), you can define who can reach the endpoint and what operations they can perform on it.
 
 
 
