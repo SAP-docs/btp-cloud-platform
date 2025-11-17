@@ -23,24 +23,12 @@ Technology
 <tr>
 <td valign="top">
 
-[Build a Business Application Using CAP for Node.js](https://developers.sap.com/mission.cp-starter-extensions-cap.html)
+[Build a Business Application Using CAP for Node.js](https://developers.sap.com/mission.cap-java-app.html)
 
 </td>
 <td valign="top">
 
-SAP Cloud Application Programming Model \(CDS and Node.js\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-[Develop a Simple Hello World Application Using SAPUI5](https://sapui5.hana.ondemand.com/#docs/guide/592f36fd077b45349a67dcb3efb46ab1.html)
-
-</td>
-<td valign="top">
-
-SAPUI5
+SAP Cloud Application Programming Model \(CDS and Java\)
 
 </td>
 </tr>
@@ -59,12 +47,12 @@ Java
 <tr>
 <td valign="top">
 
-[Create an Application with Cloud Foundry Python Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html)
+[Build a Business Application Using CAP for Node.js](https://developers.sap.com/mission.cp-starter-extensions-cap.html)
 
 </td>
 <td valign="top">
 
-Python
+SAP Cloud Application Programming Model \(CDS and Node.js\)
 
 </td>
 </tr>
@@ -77,6 +65,31 @@ Python
 <td valign="top">
 
 Node.js
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+[Develop a Simple Hello World Application Using SAPUI5](https://sapui5.hana.ondemand.com/#docs/guide/592f36fd077b45349a67dcb3efb46ab1.html)
+
+</td>
+<td valign="top">
+
+SAPUI5
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Create an Application with Cloud Foundry Python Buildpack](https://developers.sap.com/tutorials/btp-cf-buildpacks-python-create.html)
+
+</td>
+<td valign="top">
+
+Python
 
 </td>
 </tr>
