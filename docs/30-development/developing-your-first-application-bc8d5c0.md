@@ -23,7 +23,7 @@ Technology
 <tr>
 <td valign="top">
 
-[Build a Business Application Using CAP for Node.js](https://developers.sap.com/mission.cap-java-app.html)
+[Build a Business Application Using CAP for Java](https://developers.sap.com/mission.cap-java-app.html)
 
 </td>
 <td valign="top">
