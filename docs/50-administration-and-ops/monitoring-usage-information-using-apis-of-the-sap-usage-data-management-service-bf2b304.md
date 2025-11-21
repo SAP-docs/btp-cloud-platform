@@ -62,7 +62,7 @@ Get the cloud credit data history for a global account.
 </td>
 <td valign="top">
 
-`/cloudCreditDetails`
+`/cloudCreditsDetails`
 
 </td>
 </tr>

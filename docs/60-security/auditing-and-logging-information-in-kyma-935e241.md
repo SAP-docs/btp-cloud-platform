@@ -233,3 +233,5 @@ Kyma runtime collects application logs provided by the Kyma system components. T
 
 [Access Kyma Application Logs](../50-administration-and-ops/access-kyma-application-logs-25180f4.md "Get insights into your applications, microservices, and Functions by viewing the respective logs. To check out real-time logs immediately, use the Kubernetes functionalities - either in Kyma dashboard, or with kubectl.")
 
+[Collecting Logs](../30-development/collecting-logs-7a5b627.md "With the Telemetry module, you can observe and debug your applications by collecting, processing, and exporting logs. To begin collecting logs, you create a LogPipeline resource. It automatically collects OTLP logs and application logs from the stdout/stderr channel. You can also activate Istio log collection.")
+

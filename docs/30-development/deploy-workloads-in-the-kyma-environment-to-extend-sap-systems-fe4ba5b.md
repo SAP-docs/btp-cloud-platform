@@ -52,7 +52,7 @@ Follow these steps to get familiar with workloads and learn how to use them.
 
 1.  Connect the SAP system you want to extend \([Extending SAP Solutions Using Automated Configurations](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/346864df64f24011b49abee07bbd79af.html)\).
 
-2.  Choose a namespace in your cluster and create a simple Function \([Create an Inline Function](https://kyma-project.io/#/serverless-manager/user/tutorials/01-10-create-inline-function)\) or a microservice \([Create a Workload](https://kyma-project.io/#/api-gateway/user/tutorials/01-00-create-workload)\).
+2.  Choose a namespace in your cluster and create a simple Function \([Create an Inline Function](https://kyma-project.io/external-content/serverless/docs/user/tutorials/01-10-create-inline-function)\) or a microservice.
 
 3.  If you want to expose your workload outside the cluster, read [Expose a Workload](https://kyma-project.io/#/api-gateway/user/tutorials/01-40-expose-workload/01-40-expose-workload-apigateway).
 
@@ -78,5 +78,5 @@ Follow these steps to get familiar with workloads and learn how to use them.
 **Related Information**  
 
 
-[Kyma: Serverless](https://kyma-project.io/#/serverless-manager/user/README)
+[Serverless Module](serverless-module-eb84ff5.md "Learn more about the Serverless module. Use it to run lightweight Functions in a cost-efficient and scalable way using JavaScript and Node.js.")
 

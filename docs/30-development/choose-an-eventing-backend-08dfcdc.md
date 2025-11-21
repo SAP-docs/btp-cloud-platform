@@ -59,18 +59,8 @@ If you want to choose another backend, edit the `Eventing` resource again, selec
 
 You can no longer return to an empty eventing backend.
 
-
-
-<a name="loio08dfcdcaf4ff4914b70c8173731a9188__postreq_i2m_jms_5zb"/>
-
-## Next Steps
-
-Learn more about the [Eventing Module](https://kyma-project.io/#/eventing-manager/user/README).
-
 **Related Information**  
 
-
-[Configure SAP Event Mesh for Kyma Eventing](configure-sap-event-mesh-for-kyma-eventing-407d126.md "If you want to use SAP Event Mesh as backend for the Eventing module, you must first set up the credentials.")
 
 [SAP Event Mesh](https://help.sap.com/viewer/product/SAP_EM/Cloud/en-US)
 

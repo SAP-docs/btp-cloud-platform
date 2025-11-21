@@ -208,8 +208,7 @@ At the moment, the SAP Event Mesh default plan and NATS are supported. If you ch
 </td>
 <td valign="top">
 
--   [Configure SAP Event Mesh for Kyma Eventing](../30-development/configure-sap-event-mesh-for-kyma-eventing-407d126.md)
--   [kyma-project.io: Eventing module](https://kyma-project.io/#/eventing-manager/user/README)
+-   [Eventing Module](../30-development/eventing-module-07b2d1d.md)
 -   [GitHub repository: Eventing](https://github.com/kyma-project/eventing-manager) 
 
 
@@ -252,7 +251,7 @@ NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend
 </td>
 <td valign="top">
 
--   [kyma-project.io: NATS module](https://kyma-project.io/#/nats-manager/user/README)
+-   [NATS Module](../30-development/nats-module-2c504f5.md)
 -   [GitHub repository: NATS](https://github.com/kyma-project/nats-manager)
 
 

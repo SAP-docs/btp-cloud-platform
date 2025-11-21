@@ -2654,6 +2654,7 @@ Build and run mobile apps for B2E and B2B use cases.
 
 -   Europe \(Frankfurt\) EUA only
 -   UAE \(Dubai\)
+-   Europe \(Rot\)
 
 
 
@@ -5429,6 +5430,7 @@ Simplify access to applications by establishing a central entry point.
 
 -   Europe \(Frankfurt\) EUA only
 -   UAE \(Dubai\)
+-   Europe \(Rot\)
 
 
 
@@ -7859,6 +7861,7 @@ Build and run mobile apps for B2C use cases.
 
 -   Europe \(Frankfurt\) EUA only
 -   UAE \(Dubai\)
+-   Europe \(Rot\)
 
 
 
@@ -10224,6 +10227,7 @@ Add UI adaptation to your UI5 applications.
 
 -   Europe \(Frankfurt\) EUA only
 -   UAE \(Dubai\)
+-   Europe \(Rot\)
 
 
 
@@ -11110,6 +11114,7 @@ Manage transports of development artifacts and application-specific content.
 
 -   UAE \(Dubai\)
 -   Europe \(Frankfurt\) EUA only
+-   Europe \(Rot\)
 
 
 
@@ -14037,6 +14042,7 @@ Create role based, multi-channel sites to access business apps and content.
 
 -   Europe \(Frankfurt\) EUA only
 -   UAE \(Dubai\)
+-   Europe \(Rot\)
 
 
 
