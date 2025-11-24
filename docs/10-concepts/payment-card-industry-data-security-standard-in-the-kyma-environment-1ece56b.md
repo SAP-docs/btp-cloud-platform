@@ -12,5 +12,5 @@ Payment Card Industry Data Security Standard \(PCI DSS\) ensures businesses prot
 
 Kyma, as a PCI service provider, defines the scope of responsibilities. Some responsibilities belong to Kyma, some to you as a customer, and some are shared.
 
-To view the Responsibility Matrix, request access using the support procedure. To get support, report a case in SAP for Me using the Kyma support component: BC-CP-XF-KYMA. For more information, see  <?sap-ot O2O class="- topic/xref " href="948d2ff28da847739fda67cd8cd1f1d4.xml" text="" desc="" xtrc="xref:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/1ece56b2b5854a91a2c8f32c1db17fb8.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+To view the Responsibility Matrix, request access using the support procedure. To get support, report a case in SAP for Me using the Kyma support component: BC-CP-XF-KYMA. For more information, see [Getting Support](https://help.sap.com/docs/btp/sap-business-technology-platform/btp-getting-support?version=Cloud).
 

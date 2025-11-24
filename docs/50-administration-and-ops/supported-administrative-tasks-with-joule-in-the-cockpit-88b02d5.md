@@ -17,11 +17,13 @@ Joule can help with **user management**:
 -   Get details for global account or subaccount users
 -   View users and their permissions
 -   List role collections for your global account or subaccount
+-   Assist you in exporting subaccount users by guiding you to the subaccount users page
 
 Joule can provide you with **information about your global accounts or subaccounts**:
 
 -   List your global accounts or subaccounts and see details
--   See available regions
+-   See available regions in a global account
+-   Check for services entitlements
 
 Joule in the BTP cockpit can also assist you with administrative tasks related to **Cloud Foundry**:
 
@@ -32,13 +34,11 @@ Joule in the BTP cockpit can also assist you with administrative tasks related t
 
 Joule can also **navigate** you to select pages within the cockpit:
 
--   Go to the location in the cockpit where various information is displayed
--   Take you to the service entitlements in your global account or a subaccount
--   Navigate to trust configuration for your global account or a subaccount
--   Assist you in exporting subaccount users by guiding you to the subaccount users page
--   Navigate to Cloud Foundry spaces
--   Take you to Applications, Events, Service Instances, Service Marketplace, Security Groups, or Routes in a Cloud Foundry space
--   Go to a HANA Cloud instance in a subaccount
+-   Service entitlements in your global account or a subaccount
+-   Trust configuration for your global account or a subaccount
+-   Cloud Foundry spaces
+-   Applications, Events, Service Instances, Service Marketplace, Security Groups, or Routes in a Cloud Foundry space
+-   HANA Cloud instance in a subaccount
 
 **Related Information**  
 
