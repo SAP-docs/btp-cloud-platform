@@ -37,7 +37,7 @@ Telemetry signals flow through the following stages:
 The Telemetry module focuses on the collection, processing, and shipment stages of the observability workflow. It offers a vendor-neutral approach based on [OpenTelemetry](https://opentelemetry.io/) and doesn't force you into a specific backend. This means you can integrate with your existing observability platforms or choose from a wide range of available backends that best suit your operational needs.
 
 > ### Tip:  
-> Build your first telemetry pipeline with the hands-on lesson [Collecting Application Logs and Shipping them to SAP Cloud Logging](https://learning.sap.com/learning-journeys/developing-applications-in-sap-btp-kyma-runtime/collecting-application-logs-and-shipping-to-sap-cloud-logging).
+> Build your first telemetry pipeline with the hands-on lesson [Collecting Application Logs and Shipping them to SAP Cloud Logging](https://learning.sap.com/courses/developing-applications-in-sap-btp-kyma-runtime/collecting-application-logs-and-shipping-to-sap-cloud-logging).
 
 
 
@@ -57,6 +57,8 @@ To support telemetry for your applications, the Telemetry module provides the fo
     > For testing or development, in-cluster solutions may be suitable. For examples such as Dynatrace \(or to learn how to collect data from applications based on the OpenTelemetry Demo App\), see [Integration Guides](https://kyma-project.io/#/telemetry-manager/user/integration/README).
 
 -   **Seamless Istio Integration**: The Telemetry module seamlessly integrates with the Istio module when both are present in your cluster. For details, see [Istio Integration](istio-integration-d31499b.md).
+
+-   **Custom Filtering and Processing**: You can drop any unnecessary Telemetry data right when it's collected \(see [Filter Logs](filter-logs-58445a0.md), [Filter Traces](filter-traces-6a03a1b.md), and [Filter Metrics](filter-metrics-6bd4bfd.md)\). For advanced data manipulation, such as redacting sensitive information or creating complex filters, you can use the OpenTelemetry Transformation Language \(see  <?sap-ot O2O class="- topic/xref " href="4c645988c8224424a470bdc6257b27ff.xml" text="" desc="" xtrc="xref:16" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/87ec55072f394ac48d91c8c723e26e3b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> \).
 
 -   **Automatic Data Enrichment**: The Telemetry module adds resource attributes as metadata, following OTel semantic conventions. This makes your data more consistent, meaningful, and ready for analysis in your observability backend. For details, see [Automatic Data Enrichment](automatic-data-enrichment-6a13459.md).
 
@@ -117,5 +119,5 @@ To define how to collect, process, and ship a specific signal, use the pipeline 
 
 ## Resource Consumption
 
-To learn more about the resources used by the Telemetry module, see [Telemetry](../50-administration-and-ops/kyma-modules-sizing-3a92490.md#loio3a924906857b4f01969cb684ccd25309__section_telemetry).
+To learn more about the resources used by the Telemetry module, see [Kyma Modules' Sizing](../50-administration-and-ops/kyma-modules-sizing-3a92490.md).
 

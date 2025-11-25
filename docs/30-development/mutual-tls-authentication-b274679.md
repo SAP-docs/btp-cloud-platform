@@ -1,0 +1,81 @@
+<!-- loiob2746795de5543aca2eefa9de2424256 -->
+
+# Mutual TLS Authentication
+
+Learn what mutual TLS \(mTLS\) is and understand the flow of mTLS authentication in Kyma.
+
+
+
+<a name="loiob2746795de5543aca2eefa9de2424256__section_ggx_vkz_5gc"/>
+
+## Benefits of Using mTLS
+
+mTLS is a security protocol that ensures that both the client and the server authenticate each other. This two-way authentication ensures a higher level of security compared to simple TLS, where only the client checks the server's identity.
+
+TLS brings the following benefits:
+
+-   It reduces the risk of a man-in-the-middle attacks, which occur when an attacker intercepts communication between two parties without their knowledge. The encryption ensures that even if someone retrieves the data, they cannot decrypt or modify it.
+-   The client is able to verify that the server is actually who they claim to be. For example, when opening SAP Help Portal \(the server\) your browser \(the client\) ensures that the certificate that the website presents is valid, confirming you are accessing the official website managed by SAP.
+
+Additionally, with mTLS, the server is able to verify that the client is actually who they claim to be. For example, if you open an internal company website \(the client\), the application \(the server\) might request your certificate and only continue the session after it confirms your identity.
+
+
+
+<a name="loiob2746795de5543aca2eefa9de2424256__section_ej2_zpn_wgc"/>
+
+## Technical Foundations of mTLS
+
+Both TLS and mTLS protocols are based on the concept of asymmetric encryption. Asymmetric encryption involves the use of two keys:
+
+-   The private key, which is kept secret
+-   The public key, which is publicly available
+
+For example, imagine a server that has both a private and a public key. A client encrypts a message using the server's public key and then sends it to the server. Only the server, with its corresponding private key, can decrypt this message. This demonstrates the server's identity because only the genuine owner of the private key could perform the decryption.
+
+In practice, however, it's not possible to collect, manage, and verify the authenticity of many public keys presented by each application you interact with. To resolve the problem, communication protocols use the public-key infrastructure, in which one or more third-parties, known as certificate authorities \(CAs\), certify ownership of key pairs by issuing digital certificates. A digital certificate includes such information as:
+
+-   The public key
+-   The details on the owner of the certificate
+-   A signature of the authority that confirms that the certificate's contents are valid
+-   The certificate's validity period
+
+Certificates are usually issued in a hierarchical structure known as a chain of trust. This chain starts with a root Certificate Authority \(CA\), which is explicitly trusted \(for example, by being included in your operating system or browser\). The root CA can sign intermediate CA certificates, and those intermediate CAs can, in turn, sign additional intermediate or end-entity \(leaf\) certificates. If you trust the root CA and each certificate in the chain is properly signed by its issuer, you can trust the end-entity certificate at the bottom of the chain.
+
+
+
+<a name="loiob2746795de5543aca2eefa9de2424256__section_fqy_1qn_wgc"/>
+
+## The mTLS Authentication Flow
+
+When the communication is two-way, like in the case of mTLS, the following prerequisites must be met:
+
+-   **Private keys**: Both the client and the server are required to have their respective private keys. The keys are kept in secret.
+-   **Signed certificates**: Both the client and the server are required to present signed certificates.
+-   **Root CAs**: Both the client and the server must trust the validity of the certificate presented by the other party.
+    -   The client must have the server's root CA certificate installed.
+    -   The server must have the client's root CA certificate installed.
+
+-   **Intermediate CAs**:
+    -   The server's intermediate CAs must be on the server to ensure the server sends the entire trust chain to the client \(except for the server's root CA, which the client must have installed on their side\). If the server does not have the intermediate CAs installed, some clients may not trust the server's certificate.
+    -   Similarly, the client must have its intermediate CA certificates installed \(excluding the root CA, which should be installed on the server's side\).
+
+
+![](images/mTLS_Authentication_in_Kyma_aa15065.png)
+
+When a client attempts to connect to a server, the following steps take place:
+
+1.  The client initiates the connection and generates a random number for the server to sign. The client's hello message also includes such information as the supported TLS versions and the supported cipher suites.
+2.  The server uses its private key, kept in secret, to sign the random number generated by the client.
+3.  The server presents its certificate, generates a random number for the client to sign, and sends the signed random number. The server's hello message also contains the selected TLS version and cipher suite.
+4.  The client uses its private key, kept in secret, to sign the random number generated by the server.
+5.  The client validates the server's certificate against trusted CAs. It also checks if the random number signed by the server can be decrypted using the server's public key stored in the server's certificate. If both these checks are successful, it considers the server's identity valid.
+6.  The client presents its own certificate and sends the random number signed with its private key. At this point, the client finishes the mTLS handshake.
+7.  The server validates if the client's certificate is issued by one of the certificate authorities it trusts. It also checks if the random number signed by the client can be decrypted using the client's public key stored in the client's certificate.
+8.  If both these checks are successful, the server considers the client's identity valid and finishes the mTLS handshake.
+9.  The authenticated bidirectional mTLS connection is established.
+
+**Related Information**  
+
+
+[Configure mTLS Authentication](configure-mtls-authentication-e7c6c6a.md "Learn how to configure mutual TLS (mTLS) in SAP BTP, Kyma runtime using Gardener-managed Let's Encrypt server certificates and client certificates that you supply.")
+
