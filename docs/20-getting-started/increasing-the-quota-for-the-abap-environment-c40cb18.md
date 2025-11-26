@@ -57,5 +57,5 @@ After you have assigned an entitlement for the three plans with respective quota
 **Related Information**  
 
 
-[ABAP Compute Units](../50-administration-and-ops/abap-compute-units-7d1caa8.md "When you order an ABAP environment in SAP BTP, the ABAP system size is specified in ABAP compute units (ACUs). One ABAP compute unit comprises the total ABAP memory usable by applications, the ABAP work process time per minute, and the ABAP CPU time per minute.")
+[ABAP Compute Units](../50-administration-and-ops/abap-compute-units-7d1caa8.md "ABAP Compute Units (ACUs) represent the runtime size in an SAP BTP ABAP environment. Each ABAP Compute Unit comprises 16 GB of memory and approximately four virtual CPUs (vCPUs).")
 

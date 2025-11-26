@@ -11,6 +11,8 @@ Defines all route objects, for example: `source`, `target`, and, `destination`.
 -   [Route Configuration Examples](routes-666eb55.md#loio666eb55032d849beabb906b18712509b__section_routes_code_examples)
 
 
+For more information about Basic authentication options, see SAP Note 3015211.
+
 
 
 **Application Router: Routes Properties**
@@ -274,15 +276,30 @@ No
 </td>
 <td valign="top">
 
-The value can be `ias`, `xsuaa`, `basic`, or `none`.
+Specifies the authentication method for the route. You can use these values:
 
-The default `authenticationType` depends on the authentication service binding: If the application router is bound to the Identity Authentication service, the default `authenticationType` is `ias`. Otherwise, the default value is `xsuaa`.
+-   `ias`: Uses the Identity Authentication service \(IAS\). Users are redirected to an IAS login.
 
-If you use the value `xsuaa` or `ias`, the specified authentication server \(Identity Authentication or User Account and Authentication\) handles the authentication and the user is redirected to the login form of Identity Authentication or User Account and Authentication.
+-   `xsuaa`: Uses the SAP Authorization and Trust Management service \(XSUAA\). Users are redirected to an XSUAA login.
 
-The `basic` authenticationType works with SAP S/4 HANA users, SAP ID service, and Identity Authentication service. For more information, see the SAP Note 3015211 - BASIC authentication options for SAP BTP Cloud Foundry applications.
+-   `basic`: Uses HTTP Basic authentication. This option supports SAP HANA users, the SAP ID service, and the Identity Authentication service \(IAS\).
 
-If the value `none` is used, no authentication is required for this route.
+-   `none`: No authentication is required for the route.
+
+
+If you do not define the `authenticationType`, the application router selects the authentication method based on its service bindings:
+
+-   If bound only to the Identity Authentication service \(IAS\), it uses `ias`.
+
+-   If bound only to the SAP Authorization and Trust Management service \(XSUAA\), it uses `xsuaa`.
+
+-   If the application router is bound to both IAS and XSUAA, it automatically determines which authentication service to use by calling the SAP BTP security endpoint., In this case, IAS is preferred if both services are available in the current subaccount.
+
+    > ### Note:  
+    > This automatic detection requires an additional call to the SAP BTP security endpoint, which may impact response time.
+
+
+For more information about Basic authentication options, see SAP Note 3015211.
 
 </td>
 </tr>

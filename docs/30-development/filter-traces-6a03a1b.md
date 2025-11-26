@@ -4,6 +4,9 @@
 
 `TracePipeline` resources have no `input` specification. You can configure Istio trace collection by applying the Istio `Telemetry` resource to specific namespaces.
 
+> ### Tip:  
+> The following settings filter data before it reaches the `TracePipeline`. For advanced, content-based filtering and transformation, use the OpenTelemetry Transformation Language \(OTTL\). For details, see [Transform and Filter with OTTL](transform-and-filter-with-ottl-4c64598.md).
+
 
 
 <a name="loio6a03a1b94c5e412187903db1ded7b787__section_configure_namespaces_workloads"/>

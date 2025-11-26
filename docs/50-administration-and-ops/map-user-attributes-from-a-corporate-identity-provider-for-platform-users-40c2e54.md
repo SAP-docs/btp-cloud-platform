@@ -48,6 +48,8 @@ There are several options to customize attribute mappings in SAP Cloud Identity 
     > 
     > For example, you have so many groups being added to your token and you're running into size limits. You can disable the standard groups configuration and add a regular expression to include only those groups, which begin with BTP. So, to the *groups* attribute, you add a source of type `Expression` with the value `${companyGroups:regex[BTP.*]}`.
     > 
+    > For more information, see [Configuring Attributes Based on Flexible Expressions](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/configure-default-attributes-sent-to-application?version=Cloud).
+    > 
     > To check which groups SAP Cloud Identity Services actually sends, use the troubleshooting logs for OpenID Connect. For more information, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/identity-authentication/identity-authentication/logging-openid-connect-tokens?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
     > ### Note:  

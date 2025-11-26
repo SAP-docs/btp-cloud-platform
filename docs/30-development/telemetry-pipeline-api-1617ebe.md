@@ -12,7 +12,7 @@ To collect and export telemetry data from your Kyma cluster, you define one or m
 
 You define Telemetry pipelines using three dedicated Kubernetes CRDs that extend the Kubernetes API: `LogPipeline`, `TracePipeline`, and `MetricPipeline`.
 
-A pipeline defines how the data flows from the original data sources through the respective inputs and a series of processing steps to the backend you defined as output:
+A pipeline defines how the data flows from the original data sources through the respective inputs and a series of processing steps to the backend you defined as output.
 
 ![](images/Telemetry_Pipeline_Structure_fe37708.png)
 
@@ -72,7 +72,9 @@ Additionally, you can apply specific `input` configurations for each signal type
 
 ## Filtering and Processing
 
-You can control the volume and focus of your telemetry data by filtering it based on Kubernetes resources like namespaces, containers, and workloads. For details, see [Filtering and Processing Data](filtering-and-processing-data-c86a5c6.md).
+You can control the volume and focus of your incoming telemetry data by filtering it based on Kubernetes resources like namespaces, containers, and workloads. For details, see [Filter Logs](filter-logs-58445a0.md), [Filter Traces](filter-traces-6a03a1b.md), and [Filter Metrics](filter-metrics-6bd4bfd.md).
+
+Furthermore, you can transform and filter the received data by defining custom rules with the OpenTelemetry Transformation Language \(OTTL\). For details, see [Transform and Filter with OTTL](transform-and-filter-with-ottl-4c64598.md).
 
 All pipelines automatically enrich telemetry data with Kubernetes resource attributes, such as Pod name, namespace, and labels. With this context information, you can easily identify the source of telemetry data in your backend. For details, see [Automatic Data Enrichment](automatic-data-enrichment-6a13459.md).
 

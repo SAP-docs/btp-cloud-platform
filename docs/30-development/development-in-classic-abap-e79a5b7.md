@@ -105,7 +105,7 @@ As shown in the above snippets, a callback class can be provided that allows pro
 
 ## Raising an intermediate message event for a SAP Build Process Automation process instance
 
-If the process expects a intermediate message event \(IME\), this can be raised via the following code. If the SAP Build Process Automation process expects an intermediate message event \(IME\) this can be raised by executing the corresponding API trigger, which can be done via the following code.
+If SAP Build Process Automationis waiting for an intermediate message event \(IME\), you can trigger that message by calling the corresponding API, using the following code.
 
 > ### Sample Code:  
 > Raise an intermediate message event
@@ -128,7 +128,7 @@ CONSTANTS: lc_cp_workflow_def_id TYPE if_swf_cpwf_api=>cpwf_def_id      VALUE '<
    COMMIT WORK.
 ```
 
-In older releases the API trigger may not yet be supported by the API. Here intermediate message event can be raised via the following code.
+In older releases the API trigger may not yet be supported by the API. Here intermediate message event can be raised through the following code.
 
 > ### Sample Code:  
 > Raise an intermediate message event \(deprecated\)
@@ -157,7 +157,7 @@ In older releases the API trigger may not yet be supported by the API. Here inte
 > ```
 
 > ### Note:  
-> This approach works only for "old" workflow management process definitions being deployed from Business Application Studio \(BAS\)
+> This approach works only for "old" workflow management process definitions being deployed from SAP Business Application Studio.
 
 
 
@@ -165,7 +165,7 @@ In older releases the API trigger may not yet be supported by the API. Here inte
 
 ## Retrieving the current state of SAP Build Process Automation process instances
 
-It is also possible to synchronously retrieve data about the processes. It can be accessed via the interface `IF_SWF_CPWF_API`, which extends the core API IF\_SWF\_CPWF\_CAPI.
+It is also possible to synchronously retrieve data about the processes. It can be accessed through the interface `IF_SWF_CPWF_API`, which extends the core API IF\_SWF\_CPWF\_CAPI.
 
 For example, you can query the current lifecycle status of processes.
 
@@ -212,7 +212,7 @@ As shown in the code there is also a JSON converter available to simplify the pr
 
 ## Restricting the retrieved process context
 
-To allow retrieving only relevant parts of the process context the APIs `IF_SWF_CPWF_API` →get\_workflow\_context and `IF_SWF_CPWF_CAPI_WF_INST_CTXT`-\>get\_instance\_context allow to provide an additional parameter `IV_CONTEXT_PATH`, that accepts any JSON path expression \(see SBPA API description\). This expression is forwarded to the Workflow API of SAP Build Process Automation. The JSON path expression is evaluated by the SAP Build Process Automation Workflow Service API, which returns then only the corresponding substructure of the context.
+To retrieve only the relevant parts of the process context, the APIs `IF_SWF_CPWF_API=> GET_WORKFLOW_CONTEXT` and `IF_SWF_CPWF_CAPI_WF_INST_CTXT=> GET_INSTANCE_CONTEXT` now support a new parameter `IV_CONTEXT_PATH`. The parameter accepts any JSON path expression. This JSON path expression is forwarded to the workflow API of SAP Build Process Automation. The SAP Build Process Automation Workflow Service API uses the expression to returns then only the specific section of the context instead of the entire data.
 
 The following examples show how the `IV_CONTEXT_PATH` parameter can be used.
 

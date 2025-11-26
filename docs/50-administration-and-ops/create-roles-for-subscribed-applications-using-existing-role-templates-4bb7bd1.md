@@ -53,7 +53,7 @@ You can use existing role templates to create new roles. An SAP BTP cockpit wiza
 **Related Information**  
 
 
-[Configure Application Roles and Assign Roles to Users](configure-application-roles-and-assign-roles-to-users-56a7153.md "View, create, and modify application roles and then assign users to these roles using the SAP BTP cockpit.")
+ <?sap-ot O2O class="- topic/link " href="56a71531fc154717bf221f9e293ba215.xml" text="" desc="" xtrc="link:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/4bb7bd1804a8437287abff56f4956814.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 
 [Attributes](attributes-713f52a.md "Attributes use information that is specific to the user, for example the user's country. If the application developer in the Cloud Foundry environment of SAP BTP has created a country attribute to a role, this restricts the data a business user can see based on this attribute.")
 

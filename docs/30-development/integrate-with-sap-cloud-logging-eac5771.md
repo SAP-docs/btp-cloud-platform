@@ -357,7 +357,7 @@ You can set up ingestion of metrics from applications and the Istio service mesh
 
 ## Set Up Kyma Dashboard Integration
 
-To add direct links from Kyma dashboard to *SAP Cloud Logging*, apply the `ConfigMap` that corresponds to your chosen log shipping method.
+To add direct links from Kyma dashboard to SAP Cloud Logging, apply the `ConfigMap` that corresponds to your chosen log shipping method.
 
 
 

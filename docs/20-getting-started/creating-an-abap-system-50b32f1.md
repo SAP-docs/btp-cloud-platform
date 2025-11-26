@@ -146,9 +146,11 @@ For more information about creating service instances, see [Create Service Insta
     </td>
     <td valign="top">
     
-    The **Total ABAP runtime size** refers to the runtime size of the ABAP environment service instance. This is the sum of the runtime size of all ABAP application servers of an ABAP environment service instance. The size is specified in number of ABAP compute units that should be used from the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The supported number of abap\_compute\_unit is 1, 2, 4, 6, 8, 16, 24, or 32. For more information, see [ABAP Compute Units](../50-administration-and-ops/abap-compute-units-7d1caa8.md).
+    The **Total ABAP runtime size** refers to the runtime size of the ABAP environment service instance. This is the sum of the runtime size of all ABAP application servers of an ABAP environment service instance. The size is specified in number of ABAP compute units that should be used from the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The supported number of abap\_compute\_unit is 1, 2, 4, 6, 8, 16, 24, 32 or 64. The Total ABAP runtime size has to be less or equal to twice the size of the HANA Cloud memory size \(size\_of\_runtime ≤ 2 \* size\_of\_persistence\).
 
-    The total ABAP runtime size should be a whole-number multiple, ranging from 2 to 16 times the size of the ABAP runtime size per application server. This is because each ABAP environment instance contains between 2 and 16 application servers, all of the same size. For example, if the `application_server_size` is 2, the `size_of_runtime` should be at least 4 ACUs. Conversely, if the `application_server_size` is 0.5, the `size_of_runtime` shouldn't exceed 8 ACUs. Another example: if the `application_server_size` is 2, setting the `size_of_runtime` to 5 won't work. This is because a total runtime size of 5 ACUs can't be split into three application servers with 2 ACUs each.
+    For more information, see [ABAP Compute Units](../50-administration-and-ops/abap-compute-units-7d1caa8.md).
+
+    The total ABAP runtime size should be a whole-number multiple, ranging from 2 to 32 times the size of the ABAP runtime size per application server. This is because each ABAP environment instance contains between 2 and 32 application servers, all of the same size. For example, if the `application_server_size` is 2, the `size_of_runtime` should be at least 4 ACUs. Conversely, if the `application_server_size` is 0.5, the `size_of_runtime` shouldn't exceed 8 ACUs. Another example: if the `application_server_size` is 2, setting the `size_of_runtime` to 5 won't work. This is because a total runtime size of 5 ACUs can't be split into three application servers with 2 ACUs each.
     
     </td>
     </tr>
@@ -166,7 +168,7 @@ For more information about creating service instances, see [Create Service Insta
 
     A higher value results in fewer, but larger, application servers. Conversely, a lower number results in more, but smaller, application servers for the same total ABAP runtime size. If 'auto' is chosen, then 0.5 ACU is assigned per application server if `size_of_runtime` is < 4 for systems without elastic scaling, or `size_of_runtime` < 8 for systems with elastic scaling. Otherwise, 2 ACUs are assigned per application server.
 
-    Every ABAP environment instance has between 2 and 16 application servers of the same size each. Therefore, the possible value for the ABAP runtime size per application server depends on the total ABAP runtime size. For instance,`application_server_size` = 2 can only be set if the `size_of_runtime` is at least 4 ACUs. On the other hand, `application_server_size` = 0.5 can only be set if the `size_of_runtime` isn't higher than 8 ACUs.
+    Every ABAP environment instance has between 2 and 32 application servers of the same size each. Therefore, the possible value for the ABAP runtime size per application server depends on the total ABAP runtime size. For instance,`application_server_size` = 2 can only be set if the `size_of_runtime` is at least 4 ACUs. On the other hand, `application_server_size` = 0.5 can only be set if the `size_of_runtime` isn't higher than 8 ACUs.
 
     To decide what value to choose, consider the following:
 
@@ -175,7 +177,7 @@ For more information about creating service instances, see [Create Service Insta
     -   Larger servers allow slightly more user sessions per ACU. This might be more efficient in systems with very high ACU consumption. They're also a precondition for some exceptional use cases, such as ATC checks for very large ABAP programs.
 
 
-
+    For more information, see [ABAP Compute Units](https://help.sap.com/docs/btp/sap-business-technology-platform/abap-compute-units?version=Cloud).
     
     </td>
     </tr>

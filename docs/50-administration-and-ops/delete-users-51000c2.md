@@ -34,6 +34,8 @@ Keep in mind that you also delete the user's role collection assignments.
 > When you delete a user at the subaccount level, ensure that you delete the user at the Cloud Foundry level too. Otherwise, if the Cloud Foundry user logs on again, the system automatically creates the corresponding user at the subaccount level.
 > 
 > So ensure that you delete the shadow users on all levels.
+> 
+> For more information, see [About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md).
 
 > ### Caution:  
 > You cannot undo the deletion of a user.

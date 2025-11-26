@@ -2,7 +2,7 @@
 
 # Log Custom Change Documents
 
-RAP-based custom change documents is logged as business events when the business object associated with the change document is activated for logging in the Activate Business Event Logging configuration.
+Change documents defined in custom RAP business objects are automatically logged as business events when the corresponding business is activated for logging in the Activate Business Event Logging configuration.
 
-To enable change documents for a managed RAP business object, see [Enabling Change Documents Integration](https://help.sap.com/docs/abap-cloud/abap-rap/enabling-rap-change-documents-integration).
+For information on defining change documents for a managed RAP business object as a customer, see [Enabling Change Documents Integration](https://help.sap.com/docs/abap-cloud/abap-rap/enabling-rap-change-documents-integration).
 

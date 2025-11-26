@@ -100,7 +100,7 @@ To find frequently asked questions about the consumption-based commercial model,
 
 [What Is the Subscription-Based Commercial Model?](what-is-the-subscription-based-commercial-model-239b6e0.md "Your organization receives a fixed price and period (typically a 1 to 3-year period) for access to your subscribed SAP BTP services.")
 
-[Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.")
+[Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.")
 
 [View Subaccount Usage Analytics](../50-administration-and-ops/view-subaccount-usage-analytics-8f4d9db.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your subaccount.")
 

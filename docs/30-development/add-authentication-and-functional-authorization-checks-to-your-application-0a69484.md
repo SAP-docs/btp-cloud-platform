@@ -117,7 +117,7 @@ You declare your application security descriptor with JSON syntax and store it i
     > 
     > // Scope check
     > function checkReadScope(req, res, next) {
-    >     if (req.authInfo.checkLocalScope('read')) {
+    >     if (req.authInfo.checkLocalScope('display')) {
     >         return next();
     >     } else {
     >         console.log('Missing the expected scope');

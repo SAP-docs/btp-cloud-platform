@@ -10,6 +10,9 @@ Filter logs from the OTLP, application, and Istio input to control which data yo
 
 ## Overview
 
+> ### Tip:  
+> The following settings filter data by source. For advanced, content-based filtering and transformation, use the OpenTelemetry Transformation Language \(OTTL\). For details, see [Transform and Filter with OTTL](transform-and-filter-with-ottl-4c64598.md).
+
 
 <table>
 <tr>
@@ -130,9 +133,13 @@ Apply the Istio `Telemetry` resource to specific namespaces
 
 ## Filter OTLP Logs by Namespaces
 
-You can filter incoming OTLP logs by namespace. By default, all system namespaces are included. The `include` and `exclude` filters are mutually exclusive.
+You can filter incoming OTLP logs by namespace. By default, all system namespaces are included.
 
--   To collect metrics from specific namespaces, use the `include` filter:
+These filters only apply to logs that have an associated namespace. The pipeline always collects any logs that do not have a namespace.
+
+The `include` and `exclude` filters are mutually exclusive.
+
+-   To collect OTLP logs from specific namespaces, use the `include` filter:
 
     > ### Sample Code:  
     > ```

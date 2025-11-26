@@ -9,7 +9,7 @@ Add the developer user as business user to the ABAP instance.
 You have created an employee record for the new developer user \(see [Creating an Employee Record for a New Developer](creating-an-employee-record-for-a-new-developer-a66fdc5.md)\).
 
 > ### Caution:  
-> The `SAP_BR_ADMINISTRATOR` role is pre-defined by SAP and only intended for the initial set-up of a system. Please create your own business roles based on the required business role template.
+> The `SAP_BR_DEVELOPER` role is pre-defined by SAP and only intended for the initial set-up of a system. Please create your own business roles based on the required business role template.
 
 For information about creating a business role based on a development-related business catalog, see [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
 

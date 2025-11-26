@@ -8,9 +8,6 @@ Budgets allow you to better control your global account spending and plan for fu
 
 Automatic email alerts notify global account administrators when spending exceeds defined thresholds, allowing for timely intervention. You can also leverage the SAP Alert Notification service for SAP BTP to create custom alerts according to your specific monitoring needs.
 
-> ### Note:  
-> This is a beta feature. Beta features aren't part of the officially delivered scope that SAP guarantees for future releases. For more information, see [Important Disclaimers and Legal Information](https://help.sap.com/viewer/disclaimer).
-
 > ### Tip:  
 > Remember to periodically review your budget settings and thresholds to ensure proactive financial management.
 
@@ -441,7 +438,7 @@ For more information, see:
 **Related Information**  
 
 
-[Monitoring Usage and Consumption Costs in Your Global Account](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill into subaccounts and service plans for detailed information.")
+[Monitoring Usage and Consumption Costs in Your Global Account](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.")
 
 [SAP Alert Notification Service for SAP BTP](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/what-is-sap-alert-notification-service-for-sap-btp?version=Cloud)
 

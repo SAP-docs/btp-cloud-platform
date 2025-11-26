@@ -27,7 +27,7 @@ You can use existing role templates to create new roles. An SAP BTP cockpit wiza
 
 2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\).
 
-3.  If your role comes with a subscribed application, continue as described in [Configure Application Roles and Assign Roles to Users](configure-application-roles-and-assign-roles-to-users-56a7153.md).
+3.  If your role comes with a subscribed application, continue as described in  <?sap-ot O2O class="- topic/xref " href="56a71531fc154717bf221f9e293ba215.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/88bfea8cbcd64de88ddc318ade6e3cbb.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 4.  Choose *Security* in the navigation pane.
 

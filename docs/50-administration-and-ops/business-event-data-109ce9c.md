@@ -26,7 +26,7 @@ This CDS view is designed to provide a comprehensive representation of business 
 
 This CDS view provides the data to answer the following business questions:
 
--   What is the complete JSON payload associated with each business event?
+-   What is the complete business data associated with each business event?
 
 
 

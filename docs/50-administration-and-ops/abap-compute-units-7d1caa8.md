@@ -2,13 +2,18 @@
 
 # ABAP Compute Units
 
-When you order an ABAP environment in SAP BTP, the ABAP system size is specified in ABAP compute units \(ACUs\). One ABAP compute unit comprises the total ABAP memory usable by applications, the ABAP work process time per minute, and the ABAP CPU time per minute.
+ABAP Compute Units \(ACUs\) represent the runtime size in an SAP BTP ABAP environment. Each ABAP Compute Unit comprises 16 GB of memory and approximately four virtual CPUs \(vCPUs\).
 
-When you create an ABAP system, you must decide on the system size in ABAP compute units. One ABAP compute unit represents 16 GB.
+For availability reasons, we recommend using more instances instead of larger ones. However, large servers are more efficient when usage is constantly high, such as in multi-tenancy systems. Multi-tenancy systems consume more resources for runtime \(ACU\) and persistence \(HANA Compute Units, HCUs\).
 
-The system consists of at least 2 application servers of the size of 8 GB each.
+The minimum number of ACUs and HCUs depends on the number of tenants. For every 100 tenants, at least one ACU and two HCUs are required.
 
-When you order 4 ACUs or more, the system consists of at least 2 application servers of the size of 32 GB each.
+The maximum number of ACUs is limited by:
 
-The memory limit for a single session is 4 GB, independent of the application server size.
+-   Twice the number of HCUs
+
+-   32 times the size of application servers \(0.5 or 2 ACUs\)
+
+
+The memory limit for a single session is 4 GB, regardless of the application server size.
 

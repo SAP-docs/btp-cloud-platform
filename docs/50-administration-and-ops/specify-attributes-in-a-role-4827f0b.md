@@ -25,7 +25,7 @@ You have maintained the attributes of the users in your identity provider.
 
     For more information, see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md).
 
-3.  Choose your space in *Cloud Foundry* \> *Spaces* or, in the case of subscriptions, see [Configure Application Roles and Assign Roles to Users](configure-application-roles-and-assign-roles-to-users-56a7153.md).
+3.  Choose your space in *Cloud Foundry* \> *Spaces* or, in the case of subscriptions, see  <?sap-ot O2O class="- topic/xref " href="56a71531fc154717bf221f9e293ba215.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/4827f0bbe27d459fad8342896d4e569b.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 4.  Choose the application.
 

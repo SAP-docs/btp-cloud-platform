@@ -97,7 +97,7 @@ The priority for `apply-namespace` parameters in descending order is the followi
     >   apply-namespace:
     >     app-names: true
     >     service-names: false
-    >     app-route: true
+    >     app-routes: true
     >         
     > ```
 

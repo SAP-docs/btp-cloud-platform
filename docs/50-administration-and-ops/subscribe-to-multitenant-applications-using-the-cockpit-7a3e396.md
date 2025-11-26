@@ -14,7 +14,7 @@ Subscribe to multitenant applications from the *Subscriptions* page in the SAP B
 
 -   If you're subscribing to an application provided by SAP:
 
-    -   If your global account uses the subscription-based commercial model, then you must have purchased SaaS licenses for the applications you want to consume. See [https://cloudplatform.sap.com/pricing.html](https://cloudplatform.sap.com/pricing.html). You can also contact us on [SAP BTP](https://cloudplatform.sap.com/index.html) or via an SAP sales representative.
+    -   If your global account uses the subscription-based commercial model, then you must have purchased Software-as-a-Service \(SaaS\) licenses for the applications you want to consume. See [https://cloudplatform.sap.com/pricing.html](https://cloudplatform.sap.com/pricing.html). You can also contact us on [SAP BTP](https://cloudplatform.sap.com/index.html) or via an SAP sales representative.
 
         > ### Note:  
         > If your global account is licensed with the consumption-based commercial model, then you are eligible to subscribe to any multitenant application that is available to this model.
@@ -130,9 +130,9 @@ The instructions provided here apply whether you are an SAP customer subscribing
 
 ## Next Steps
 
-1.  Configure user access to the application.
+1.  To make sure that the users can access the application, assign the relevant role collections. This refers to applications using XSUAA. However, some applications need authorizations managed by the SAP Cloud Identity Services.
 
-    See [Configure Application Roles and Assign Roles to Users](configure-application-roles-and-assign-roles-to-users-56a7153.md).
+    See [Assigning Role Collections to Users or User Groups](assigning-role-collections-to-users-or-user-groups-31532c7.md).
 
 2.  If the application consumer isn't the subaccount owner or administrator, provide the consumer-specific URL of the application to the consumer or the users of the application.
 

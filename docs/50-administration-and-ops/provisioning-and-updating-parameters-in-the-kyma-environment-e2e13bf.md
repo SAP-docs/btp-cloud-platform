@@ -571,6 +571,13 @@ type: string
 
 Provisioning
 
+Updating
+
+> ### Note:  
+> For updates, the *Cluster Name* parameter is optional.
+
+
+
 </td>
 <td valign="top">
 
@@ -579,11 +586,13 @@ Automatically generated as your Subaccount’s Subdomain.
 </td>
 <td valign="top">
 
-Short string of up to 32 characters that contains only alphanumeric characters \(A-Z, a-z, 0–9\), periods, underscores, and hyphens. It must not contain whitespace characters.
+Short string of up to 64 characters that contains only alphanumeric characters \(A-Z, a-z, 0–9\), and hyphens. It must not contain whitespace characters.
 
 </td>
 </tr>
 </table>
+
+For more information, see  <?sap-ot O2O class="- topic/xref " href="ca82a7c76af2412ba01d244a6631a20f.xml" text="" desc="" xtrc="xref:29" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e2e13bfaa2f54a4fb179f0f1f840353a.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
 
 
 

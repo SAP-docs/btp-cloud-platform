@@ -26,7 +26,7 @@ This CDS view is designed to provide a comprehensive overview of business event 
 
 This CDS view provides the data to answer the following business questions:
 
--   What activities are logged in the system?
+-   What activities were logged in the system?
 
 
 

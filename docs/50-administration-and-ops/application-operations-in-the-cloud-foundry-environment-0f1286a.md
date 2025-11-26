@@ -10,7 +10,11 @@ Learn more about the different application operations that you can perform in th
 
 -   [Start, Stop, and Restart Applications](start-stop-and-restart-applications-c0d7b6b.md)
 
+-   [Restage an Application](restage-an-application-26255c4.md)
+
 -   [Manage Application Instances](manage-application-instances-75836f1.md)
+
+-   [Bind an Application to a Service](bind-an-application-to-a-service-6eb987f.md)
 
 -   [Troubleshoot Applications](troubleshoot-applications-2ae6772.md)
 
