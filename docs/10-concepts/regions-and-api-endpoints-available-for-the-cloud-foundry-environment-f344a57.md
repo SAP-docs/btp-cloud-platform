@@ -1974,6 +1974,58 @@ ae01.hana.ondemand.com
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+eu02
+
+</td>
+<td valign="top">
+
+Europe \(Rot\) - SAP EU Access
+
+</td>
+<td valign="top">
+
+cf-eu02
+
+</td>
+<td valign="top">
+
+eu-de-1
+
+</td>
+<td valign="top">
+
+130.214.61.128/25, 130.214.159.0/25
+
+</td>
+<td valign="top">
+
+130.214.61.0/26, 130.214.159.128/26
+
+</td>
+<td valign="top">
+
+api.cf.eu02.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+eu02.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
 </table>
 
 **Regions for Trial Accounts**

@@ -26,7 +26,7 @@ Read about each method to decide which one to use.
 
 The `jwt` access strategy allows you to secure your workload with HTTPS using Istio JWT configuration. It offers a secure and efficient method for protecting your services and interacting with them using JSON Web Tokens \(JWTs\). This approach is highly recommended if you aim to secure your workloads without the need to implement custom authentication and authorization logic.
 
-See [Exposing and Securing Workloads with a JWT](exposing-and-securing-workloads-with-a-jwt-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd).
+See [Expose and Secure a Workload with a JWT Using SAP Cloud Identity Services](expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd).
 
 
 

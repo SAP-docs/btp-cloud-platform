@@ -27,16 +27,14 @@ You can use existing role templates to create new roles. An SAP BTP cockpit wiza
 
 2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\).
 
-3.  If your role comes with a subscribed application, continue as described in  <?sap-ot O2O class="- topic/xref " href="56a71531fc154717bf221f9e293ba215.xml" text="" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/88bfea8cbcd64de88ddc318ade6e3cbb.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+3.  Choose *Security* in the navigation pane.
 
-4.  Choose *Security* in the navigation pane.
-
-5.  Choose *Roles*.
+4.  Choose *Roles*.
 
     Here you see a complete list of all existing roles sorted by application name. It also contains the role template, role names, and role description. On the right side, you find the action buttons.
 
-6.  Choose the :wastebasket: \(Delete\) action button in the row of the role that you want to delete. If the role has been added to a role collection, it's also deleted from the role collection.
+5.  Choose the :wastebasket: \(Delete\) action button in the row of the role that you want to delete. If the role has been added to a role collection, it's also deleted from the role collection.
 
-7.  Confirm that you want to delete the role.
+6.  Confirm that you want to delete the role.
 
 
