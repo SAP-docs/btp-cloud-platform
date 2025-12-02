@@ -1869,6 +1869,42 @@ Allowed Input
 <tr>
 <td valign="top">
 
+*Enable dual stack*
+
+btp CLI parameter: `dualStack`
+
+type: boolean
+
+</td>
+<td valign="top">
+
+Enable dual-stack networking \(IPv4 and IPv6\).
+
+> ### Caution:  
+> The Istio module does not support the dual-stack mode.
+
+For more information, see [Kyma Runtime with Dual-Stack Support](kyma-runtime-with-dual-stack-support-c9811ea.md).
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+*false* 
+
+</td>
+<td valign="top">
+
+*true* or *false*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 *CIDR range for Nodes\**
 
 btp CLI parameter: `nodes`
