@@ -378,6 +378,26 @@ Use the connectivity proxy for Kubernetes to connect workloads in a Kubernetes c
 
 </td>
 </tr>
+
+<tr>
+<td valign="top">
+
+Zero Trust Identity Service (ZTIS) Agent
+
+`ztis-agent`
+
+</td>
+<td valign="top">
+
+The ZTIS Agent enables workloads in a Kubernetes cluster to securely communicate with services that trust the SAP Cloud Root CA without the need for static credentials. The Zero Trust Identity Service (ZTIS) bootstraps and issues identities to services across heterogeneous environments.
+
+</td>
+<td valign="top">
+
+[ZTIS Agent in the Kyma Environment](https://pages.github.tools.sap/pse/pse-docs/docs/identity-k8s/references/ztis-agent-kyma-module/)
+
+</td>
+</tr>
 </table>
 
 
