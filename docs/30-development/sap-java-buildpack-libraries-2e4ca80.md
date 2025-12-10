@@ -1,6 +1,6 @@
 <!-- loio2e4ca80e1bd44c33a53e7e068a615932 -->
 
-# SAP Java Buildpack Libraries
+# SAP Java Buildpack: Libraries
 
 On this page you can find changelogs about the latest updates made in the main five libraries of SAP Java Buildpack 1 and 2, provided on Maven Repository.
 

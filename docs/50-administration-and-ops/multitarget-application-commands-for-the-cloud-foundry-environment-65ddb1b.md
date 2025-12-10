@@ -46,7 +46,7 @@ Description
 </td>
 <td valign="top">
 
-Deploy a new Multitarget Application \(MTA\) or synchronize changes to an existing MTA.
+Deploy a new multitarget application \(MTA\) or synchronize changes to an existing MTA.
 
 </td>
 </tr>
@@ -63,7 +63,24 @@ Deploy a new Multitarget Application \(MTA\) or synchronize changes to an existi
 </td>
 <td valign="top">
 
-Deploy a Multitarget Application using “blue-green” \(zero-downtime\) deployment.
+Deploy a multitarget application using “blue-green” \(zero-downtime\) deployment.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[`rollback-mta`](multitarget-application-commands-for-the-cloud-foundry-environment-65ddb1b.md#loio65ddb1b51a0642148c6b468a759a8a2e__section_ff3_hl1_zdc)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Roll back to a previously deployed multitarget application \(MTA\) version with zero downtime.
 
 </td>
 </tr>
@@ -80,7 +97,7 @@ Deploy a Multitarget Application using “blue-green” \(zero-downtime\) deploy
 </td>
 <td valign="top">
 
-Undeploy a Multitarget Application \(MTA\).
+Undeploy a multitarget application \(MTA\).
 
 </td>
 </tr>
@@ -97,7 +114,7 @@ Undeploy a Multitarget Application \(MTA\).
 </td>
 <td valign="top">
 
-Display information about a deployed Multitarget Application \(MTA\).
+Display information about a deployed multitarget application \(MTA\).
 
 </td>
 </tr>
@@ -114,7 +131,7 @@ Display information about a deployed Multitarget Application \(MTA\).
 </td>
 <td valign="top">
 
-List all deployed Multitarget Applications \(MTA\).
+List all deployed multitarget applications \(MTA\).
 
 </td>
 </tr>
@@ -131,7 +148,7 @@ List all deployed Multitarget Applications \(MTA\).
 </td>
 <td valign="top">
 
-List all active operations for Multitarget Applications.
+List all active operations for multitarget applications.
 
 </td>
 </tr>
@@ -148,7 +165,7 @@ List all active operations for Multitarget Applications.
 </td>
 <td valign="top">
 
-Download the log files for one or more operations concerning Multitarget Applications.
+Download the log files for one or more operations concerning multitarget applications.
 
 </td>
 </tr>

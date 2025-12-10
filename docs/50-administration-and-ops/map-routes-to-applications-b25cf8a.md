@@ -23,6 +23,9 @@ Once a route has been created, you must map it to an application to make this ap
 
 1.  Navigate to the *Routes* page in your Cloud Foundry space in the cockpit.
 
+    > ### Note:  
+    > You can also map routes from the *Application Overview* page. To unmap routes, use the *Application Overview* page. The *Routes* page does not support unmapping routes.
+
 2.  For the route that you wish to map to an application, choose :link: from the *Actions* column and select the application you want to map it to.
 
 

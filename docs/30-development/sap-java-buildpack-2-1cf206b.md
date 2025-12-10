@@ -241,7 +241,7 @@ To see the latest news and updates about SAP Java Buildpack 2, regularly check t
 
 If you encounter an issue while using SAP Java Buildpack 2, you can:
 
--   Search for your problem in our [Troubleshooting](sap-java-buildpack-ee609aa.md) section.
+-   Search for your problem in our [Troubleshooting](sap-java-buildpack-troubleshooting-ee609aa.md) section.
 
 -   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 

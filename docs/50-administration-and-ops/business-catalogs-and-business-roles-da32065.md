@@ -126,7 +126,7 @@ Extensibility
 </td>
 <td valign="top">
 
-[Custom Logic \(Deprecated\)](custom-logic-deprecated-05880c7.md) 
+[Configure Predefined Custom Fields](configure-predefined-custom-fields-0eaa01c.md) 
 
 </td>
 <td valign="top">
@@ -136,7 +136,43 @@ Extensibility
 </td>
 <td valign="top">
 
-`SAP_BR_ADMINISTRATOR`
+SAP\_BR\_EXTENSIBILITY\_SPEC
+
+*Administrator*
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_EXT_PCF_PC`
+
+*Extensibility - Predefined Custom Fields* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Extensibility
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+[Custom Logic](custom-logic-8277dc1.md) 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+`SAP_BR_EXTENSIBILITY_SPEC`
 
 *Administrator*
 
@@ -162,7 +198,7 @@ Extensibility
 </td>
 <td valign="top">
 
-[Configure Predefined Custom Fields](configure-predefined-custom-fields-0eaa01c.md) 
+[Adapting SAP Fiori UIs at Runtime - Key User Adaptation](https://help.sap.com/docs/btp/sap-fiori-launchpad-for-sap-btp-abap-environment/adapting-sap-fiori-uis-at-runtime-key-user-adaptation?version=Cloud) 
 
 </td>
 <td valign="top">
@@ -172,16 +208,52 @@ Extensibility
 </td>
 <td valign="top">
 
-`SAP_BR_ADMINISTRATOR`
+SAP\_BR\_EXTENSIBILITY\_SPEC
 
 *Administrator*
 
 </td>
 <td valign="top">
 
-`SAP_CORE_BC_EXT_PCF_PC`
+`SAP_CORE_BC_EXT_FLX_CUS_PC`
 
-*Extensibility - Predefined Custom Fields* 
+*Extensibility - Key User Adaptation Customizing*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Extensibility
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+Simplified BRF+ Workbench: [API for Consumption of Business Rules](../30-development/api-for-consumption-of-business-rules-69da3f8.md) 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+SAP\_BR\_EXTENSIBILITY\_SPEC
+
+*Administrator*
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_EXT_FDT`
+
+*Extensibility - Business Rules* 
 
 </td>
 </tr>

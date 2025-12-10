@@ -32,7 +32,7 @@ If you've already created your Kyma environment, you can also apply the custom I
 
 ## Procedure
 
-1.  Go to *Services* \> *Service Marketplace* and [Creating a Kyma Instance](../50-administration-and-ops/creating-a-kyma-instance-09dd313.md).
+1.  Go to *Services* \> *Service Marketplace* and [Creating Kyma Instances](../50-administration-and-ops/creating-kyma-instances-09dd313.md).
 
 2.  In the *Additional Parameters* view, go to *Oidc:*, choose *List*, and fill in the following fields:
 

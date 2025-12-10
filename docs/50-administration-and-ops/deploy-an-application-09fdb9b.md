@@ -63,7 +63,7 @@ The file containing your new application is uploaded and your application is dep
 > ### Note:  
 > If an application is displayed as *Started* according to the *Requested State* column, it doesn't automatically mean that the application is started. This is the desired state, but there might be an issue with an application instance. For any warning alerts, check the *Instances* column.
 > 
-> To get more detailed information about the current state of your application instances, navigate to the *Overview* page of the application.
+> To get more detailed information about the current state of your application instances, navigate to the *Application Overview* page.
 
 **Related Information**  
 

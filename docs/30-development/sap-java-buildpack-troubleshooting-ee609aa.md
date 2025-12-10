@@ -1,10 +1,12 @@
 <!-- loioee609aa3c1b44987af1ce7148fedf4e6 -->
 
-# SAP Java Buildpack
+# SAP Java Buildpack: Troubleshooting
 
 This page provides solutions on known issues related to SAP Java Buildpack 1 and 2.
 
 If you can't find a solution to your problem, create an incident to component **`BC-CP-CF-BLDP`**.
+
+To learn how to start, see: [Troubleshooting](troubleshooting-073b7fc.md)
 
 
 

@@ -10,7 +10,7 @@
 
 -   Before creating an SAP SuccessFactors Extensibility service instance in the Kyma environment, see [Create a Service Instance to Consume the SAP SuccessFactors HXM Suite OData API](create-a-service-instance-to-consume-the-sap-successfactors-hxm-suite-odata-api-46c5ea1.md).
 
--   Have the Kyma environment enabled for the subaccount you are using. See [Creating a Kyma Instance](../50-administration-and-ops/creating-a-kyma-instance-09dd313.md).
+-   Have the Kyma environment enabled for the subaccount you are using. See [Creating Kyma Instances](../50-administration-and-ops/creating-kyma-instances-09dd313.md).
 
 -   Configure the roles in the Kyma environment. See [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md).
 

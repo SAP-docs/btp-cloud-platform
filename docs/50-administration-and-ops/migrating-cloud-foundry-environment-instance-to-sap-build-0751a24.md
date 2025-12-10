@@ -4,7 +4,7 @@
 
 # Migrating Cloud Foundry Environment Instance to SAP Build
 
-Update your Cloud Foundry environment instance to migrate it to the build runtime plan.
+Update your Cloud Foundry environment instance to migrate it to the `build-runtime` plan.
 
 
 
@@ -75,7 +75,9 @@ Here are the possible options for migrating your Cloud Foundry environment insta
 For more information, see [What Is SAP Build](https://help.sap.com/docs/build-service/build-service-guide/what-is-sap-build?version=Cloud).
 
 > ### Note:  
-> When you migrate to the `build-runtime` plan, 400 GB of runtime memory are automatically assigned to your subaccount. This value overwrites any original runtime memory assignment and can't be changed.
+> When you migrate to the `build-runtime` plan, 400 GB of runtime memory is automatically assigned to your subaccount. This value overwrites any original runtime memory assignment and can't be changed.
+> 
+> The 400 GB of runtime memory is a technical quota that represents an upper limit on the runtime memory consumption. You're billed based on the runtime memory you actually consume, not for the full 400 GB technical quota.
 
 
 

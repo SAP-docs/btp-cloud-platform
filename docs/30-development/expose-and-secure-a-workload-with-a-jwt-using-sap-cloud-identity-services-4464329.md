@@ -10,7 +10,10 @@ This procedure explains how to expose a workload on a custom domain and secure i
 
 ## Prerequisites
 
--   You have an SAP BTP, Kyma runtime instance with the Istio and API Gateway modules added. The Istio and API Gateway modules are added to your Kyma cluster by default.
+-   You have an SAP BTP, Kyma runtime instance with the Istio and API Gateway modules added. These modules are added to your Kyma cluster by default.
+
+    To check the list of added modules, choose *Modify Modules* in Kyma dashboard's *Cluster Details* section.
+
 -   You have an SAP Cloud Identity Services tenant. See [Initial Setup](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/initial-setup?locale=en-US&version=Cloud&q=open+id+connect).
 
 
@@ -412,7 +415,7 @@ To configure JWT authentication, expose your workload using APIRule custom resou
 
 ## Procedure
 
--   Kyma dashboard
+-   Use Kyma dashboard.
 
     1.  Go to *Discovery and Network → API Rules* and choose *Create*.
 
@@ -559,9 +562,9 @@ To configure JWT authentication, expose your workload using APIRule custom resou
         ```
 
 
--   kubectl
+-   Use kubectl.
 
-    To expose and secure your Service, create the APIRule custom resource. For each path you want to secure with a JWT, add a rule with the `jwt` field and specify the `issuer` and `jwksUri`.
+    To expose and secure your Service, create the APIRule CR. For each path you want to secure with a JWT, add a rule with the `jwt` field and specify the `issuer` and `jwksUri`.
 
     ```
     rules:

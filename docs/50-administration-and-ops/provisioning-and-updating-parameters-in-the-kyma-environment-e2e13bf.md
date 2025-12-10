@@ -10,7 +10,7 @@ You can configure the cluster parameters in the Kyma environment.
 
 ## Overview
 
-To configure the cluster parameters, you can use your preferred interface, the SAP BTP cockpit or the SAP BTP command line interface.
+To configure the cluster parameters, you can use your preferred interface, the SAP BTP cockpit, or the SAP BTP command line interface.
 
 To check which parameters are available for configuration in a particular plan, see [Available Plans in the Kyma Environment](available-plans-in-the-kyma-environment-befe01d.md).
 
@@ -123,7 +123,7 @@ Specifies the provider-specific virtual machine type.
 
 Provisioning
 
-Updating [1](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__MT_update_footnote)
+Updating <sup>[1](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__MT_update_footnote)</sup>
 
 </td>
 <td valign="top">
@@ -157,7 +157,7 @@ High availability is not supported in the `azure_lite` plan.
 
 Provisioning
 
-Updating [2](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__HA_update_footnote)
+Updating <sup>[2](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__HA_update_footnote)</sup>
 
 </td>
 <td valign="top">
@@ -289,7 +289,7 @@ The *Administrators* \(`administrators`\) parameter is an array of strings. It i
 
 The *Auto Scaler Max* \(`autoScalerMax`\) is an integer parameter, which specifies the maximum number of virtual machines you can create.
 
-> ### Remember:  
+> ### Caution:  
 > > Cluster autoscaling is not subject to the Service Level Agreement \(SLA\). Successful autoscaling is not guaranteed. The mechanism may fail or take longer than expected due to constraints of the underlying cloud providers.
 
 **Auto Scaler Max Parameter**
@@ -1878,7 +1878,7 @@ type: boolean
 </td>
 <td valign="top">
 
-Enable dual-stack networking \(IPv4 and IPv6\).
+Enables dual-stack networking \(IPv4 and IPv6\).
 
 > ### Caution:  
 > The Istio module does not support the dual-stack mode.
@@ -2029,7 +2029,7 @@ The *OpenID Connect* \(OIDC\) property can be configured in the following ways:
 
 ### OIDC Configured as a List of `oidc` Objects
 
-The OpenID Connect \(`oidc`\) property is a list of `oidc` objects. You can use it to configure one or several `oidc` objects.
+The*OpenID Connect* property is a list of `oidc` objects. You can use it to configure one or several `oidc` objects.
 
 For more information on the configuration options, see [Custom OpenID Connect Configuration](custom-openid-connect-configuration-97fc95d.md).
 

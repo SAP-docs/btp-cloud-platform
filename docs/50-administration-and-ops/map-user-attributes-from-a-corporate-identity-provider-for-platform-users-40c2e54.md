@@ -118,7 +118,7 @@ There are several options to customize attribute mappings in SAP Cloud Identity 
     </td>
     <td valign="top">
     
-    `Groups` 
+    `All Groups` 
     
     </td>
     </tr>

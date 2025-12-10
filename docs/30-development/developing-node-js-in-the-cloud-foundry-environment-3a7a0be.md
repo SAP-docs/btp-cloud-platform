@@ -206,7 +206,7 @@ To check the latest news and updates about the Node.js buildpack, go to its rele
 
 If you encounter an issue while using the Node.js buildpack, you can:
 
--   Search for your problem in our [Troubleshooting](node-js-buildpack-1462ff0.md) section.
+-   Search for your problem in our [Troubleshooting](node-js-buildpack-troubleshooting-1462ff0.md) section.
 
 -   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 

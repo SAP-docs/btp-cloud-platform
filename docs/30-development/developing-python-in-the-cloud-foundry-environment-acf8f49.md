@@ -208,7 +208,7 @@ To check the latest news and updates about the Python buildpack, go to its [buil
 
 If you encounter an issue while using the Python buildpack, you can:
 
--   Search for your problem in our [Troubleshooting](python-buildpack-caaf1dc.md) section.
+-   Search for your problem in our [Troubleshooting](python-buildpack-troubleshooting-caaf1dc.md) section.
 
 -   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 

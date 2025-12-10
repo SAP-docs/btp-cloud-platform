@@ -60,7 +60,7 @@ Once you have developed, deployed, configured, and registered your multitenant a
 
 3.  Set up application roles and assign users.
 
-    See  <?sap-ot O2O class="- topic/xref " href="56a71531fc154717bf221f9e293ba215.xml" text="" desc="" xtrc="xref:5" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/7a013f1d89f34a0084ea3d9a8bb2adbd.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+    See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
 
 

@@ -23,7 +23,7 @@ The dual-stack feature is only available for newly created Kyma instances. Exist
 
 ## Procedure
 
-Create a service instance of type `LoadBalancer` in your Kyma cluster. In the service manifest, , add the `ipFamilyPolicy` field with the value *RequireDualStack*, and add the value *IPv6* in the `ipFamilies` field.
+Create a service instance of type `LoadBalancer` in your Kyma cluster. In the service manifest, add the `ipFamilyPolicy` field with the value *RequireDualStack*, and add the value *IPv6* in the `ipFamilies` field.
 
 ```
 apiVersion: v1

@@ -118,7 +118,7 @@ For setting up an mTLS Gateway, you can either use your custom domain or the def
     </td>
     <td valign="top">
     
-    `mtls.my-own-domain.example.co`
+    `mtls.my-own-domain.example.com`
     
     </td>
     <td valign="top">
@@ -135,7 +135,7 @@ For setting up an mTLS Gateway, you can either use your custom domain or the def
     </td>
     <td valign="top">
     
-    `*.mtls.my-own-domain.example.co`
+    `*.mtls.my-own-domain.example.com`
     
     </td>
     <td valign="top">
@@ -152,7 +152,7 @@ For setting up an mTLS Gateway, you can either use your custom domain or the def
     </td>
     <td valign="top">
     
-    `httpbin.mtls.my-own-domain.example.co`
+    `httpbin.mtls.my-own-domain.example.com`
     
     </td>
     <td valign="top">

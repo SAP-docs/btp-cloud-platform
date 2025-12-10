@@ -402,7 +402,7 @@ cn20.platform.sapcloud.cn
 </td>
 <td valign="top">
 
-[Open Cockpit](https://cockpit.cn40.platform.sapcloud.cn/cockpit)
+[Open Cockpit](https://cockpit.cn20.platform.sapcloud.cn/cockpit)
 
 </td>
 </tr>

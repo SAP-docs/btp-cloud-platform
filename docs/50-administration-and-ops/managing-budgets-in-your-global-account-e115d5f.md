@@ -415,7 +415,7 @@ Subscribe to the budget events \(`BudgetAlertThresholdExceeded`\) using your own
 For more information, see:
 
 -   [SAP Alert Notification for SAP BTP](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/what-is-sap-alert-notification-service-for-sap-btp?version=Cloud)
--   [Budget Threshold Exceedance Event \(Beta\)](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/budget-threshold-exceedance-beta?version=Cloud)
+-   [Budget Threshold Exceedance Event](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/budget-threshold-exceedance?version=Cloud)
 
 
 
@@ -442,5 +442,5 @@ For more information, see:
 
 [SAP Alert Notification Service for SAP BTP](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/what-is-sap-alert-notification-service-for-sap-btp?version=Cloud)
 
-[Budget Threshold Exceedance Event \(Beta\)](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/budget-threshold-exceedance-beta?version=Cloud)
+[Budget Threshold Exceedance Event](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/budget-threshold-exceedance?version=Cloud)
 

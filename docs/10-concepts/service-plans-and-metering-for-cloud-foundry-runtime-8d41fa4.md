@@ -617,10 +617,10 @@ You can specify custom values for these settings when deploying an application i
 
 ### How to change runtime memory quota and number of instances for already deployed applications
 
--   **Option 1:** In the SAP BTP cockpit, on the *Overview* page of the application you can:
+-   **Option 1:** In the SAP BTP cockpit, on the *Application Overview* page you can:
 
-    -   Change the runtime memory quota per application instance under *Change Instance Details* \> *Memory per Instance \(MB\)*
-    -   Change the number of application instances as described in [Manage Application Instances](../50-administration-and-ops/manage-application-instances-75836f1.md)
+    -   Change the runtime memory quota per application instance under *Instances Configuration* \> *Change Configuration* \> *Memory per Instance \(MB\)*
+    -   Change the number of application instances under *Instances Configuration* \> *Change Configuration* \> *App Instances* \(or as described in [Manage Application Instances](../50-administration-and-ops/manage-application-instances-75836f1.md)\)
 
 -   **Option 2:** In the Cloud Foundry CLI, you can use the command `cf scale` with the following flags:
 

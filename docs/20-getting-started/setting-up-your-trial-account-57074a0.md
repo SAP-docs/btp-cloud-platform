@@ -190,7 +190,7 @@ After you’ve successfully added the entitlements, you can enable your trial Ky
 
 1.  Navigate to your subaccount.
 
-2.  Create your Kyma environment. For details, see [Creating a Kyma Instance](../50-administration-and-ops/creating-a-kyma-instance-09dd313.md).
+2.  Create your Kyma environment. For details, see [Creating Kyma Instances](../50-administration-and-ops/creating-kyma-instances-09dd313.md).
 
 3.  Provide the name of your cluster and, optionally, a description.
 
@@ -221,7 +221,7 @@ After your trial Kyma environment has expired, you must disable it to remove all
 
 1.  Navigate to your subaccount.
 
-2.  In the *Kyma Environment* section of your subaccount overview, click *Disable Kyma*.
+2.  In the *Kyma Environment* section of your subaccount overview, click *Delete Kyma Instance*.
 
     > ### Note:  
     > On deletion of the expired cluster, we attempt to delete the Service Instances that you created with the cluster. If we cannot do that, you have to [remove the Service Instances yourself](https://help.sap.com/docs/SERVICEMANAGEMENT/09cc82baadc542a688176dce601398de/99016f83ce8e4d049316b61b5cadf1fc.html) before you disable such a *Kyma Environment*.

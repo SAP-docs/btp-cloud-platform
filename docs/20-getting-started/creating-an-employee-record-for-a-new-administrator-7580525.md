@@ -20,7 +20,7 @@ You have logged on to the administration launchpad of the ABAP environment as ad
 
 2.  Choose *Create*.
 
-3.  Enter the data for the new administrator, including employee ID, name, and e-mail address.
+3.  Enter the data for the new administrator, including employee ID, name, and e-mail address. For more information, see [Creating an ABAP System](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-abap-system?version=Cloud).
 
     The entered e-mail is important because it is the default approach to authorization and represents the mapping between the user in the identity provider and in the ABAP environment.
 

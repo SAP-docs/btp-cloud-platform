@@ -38,7 +38,7 @@ The `extAuth` access strategy allows you to provide your custom authorization an
 
 To use the `extAuth` access strategy, you must first define the authorization provider in the Istio configuration, most commonly in the Istio custom resource \(CR\). Once you define the provider in the Istio configuration, you can reference it in the APIRule CR, specifying which endpoints and methods should be protected by this provider.
 
-See [Exposing and Securing Workloads with extAuth](exposing-and-securing-workloads-with-extauth-4dea5d5.md).
+See [Expose and Secure a Workload with OAuth2 Proxy External Authorizer \(Client Credentials Flow\)](expose-and-secure-a-workload-with-oauth2-proxy-external-authorizer-client-credentials-flo-4dea5d5.md).
 
 
 

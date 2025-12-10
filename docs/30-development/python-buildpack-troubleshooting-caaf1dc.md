@@ -1,10 +1,12 @@
 <!-- loiocaaf1dc34c494ebd9ab005d362e9f016 -->
 
-# Python Buildpack
+# Python Buildpack: Troubleshooting
 
 This page provides solutions on known issues related to the Python buildpack.
 
 If you can't find a solution to your problem, create an incident to component **`BC-CP-CF-BLDP`**.
+
+To learn how to start, see: [Troubleshooting](troubleshooting-073b7fc.md)
 
 
 

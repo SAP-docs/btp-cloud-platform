@@ -23,7 +23,7 @@ The API access plan only uses binding secrets.
 
 ## Procedure
 
-1.  Modify the application security descriptor \(`xs-security.json` service use the instance\) to support both instance secrets and binding secrets.
+1.  Modify the application security descriptor \(`xs-security.json`\) to support both instance secrets and binding secrets.
 
     Edit the OAuth client configuration of the `xs-security.json` as follows:
 
