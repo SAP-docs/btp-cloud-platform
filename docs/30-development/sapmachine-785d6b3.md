@@ -209,7 +209,7 @@ applications:
 ```
 
 > ### Note:  
-> SapMachine JDK is **not bundled** within the buildpack. Therefore, if you want to use SapMachine JDK 11 \(deprecated\) or SapMachine JDK 17, 21 or 25, you have to download it from the [GitHub project](https://sap.github.io/SapMachine/) as an online component.
+> SapMachine JDK is **not bundled** within the buildpack. Therefore, if you want to use SapMachine JDK 11 \(deprecated\) or SapMachine JDK 17, 21 or 25, you have to download it from the [GitHub project](https://sapmachine.io/) as an online component.
 > 
 > However, you can use the [jdk.compiler](https://docs.oracle.com/en/java/javase/11/docs/api/jdk.compiler/module-summary.html) module, which is **provided** by the buildpack as part of the customized SapMachine JRE, v. 17, 21 and 25. To learn more, see section [Activation Using JRE](sapmachine-785d6b3.md#loio785d6b390b834bee818e242160f87df5__section_jre).
 
