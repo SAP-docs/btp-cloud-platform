@@ -9,8 +9,8 @@ Some services support additional configuration parameters with the bind request.
 
 The SAP Cloud Deployment service supports the following methods for the specification of service-binding parameters:
 
--   Method 1 - In-line parameters into MTA descriptors \(deployment or extension descriptors\)
--   Method 2 - JSON file with external configuration, containing the required service-configuration parameters
+-   Method A - In-line parameters into MTA descriptors \(deployment or extension descriptors\)
+-   Method B - JSON file with external configuration, containing the required service-configuration parameters
 -   A combination of the first two methods, as described in the table below
 
 > ### Note:  
@@ -25,12 +25,12 @@ In the MTA deployment descriptor, the `requires` dependency between a module and
 <tr>
 <th valign="top">
 
-Method 1
+Method A
 
 </th>
 <th valign="top">
 
-Method 2
+Method B
 
 </th>
 <th valign="top">
@@ -135,9 +135,9 @@ Combination of the two methods
 > ### Note:  
 > The examples are only illustrative for service-binding parameters. Each service offering supports its own set of parameters.
 
-Method 1 shows how to define the service-binding parameters in the MTA deployment descriptor \(`mtad.yaml`\). If you use this method, all parameters under the special `config` parameter are used for the service-bind request. This parameter is optional.
+Method A shows how to define the service-binding parameters in the MTA deployment descriptor \(`mtad.yaml`\). If you use this method, all parameters under the special `config` parameter are used for the service-bind request. This parameter is optional.
 
-Method 2 shows how to define the service-binding parameters for a service-bind request in a JSON file. Using this method, there are dependencies on entries in other configuration files. For example, when using the JSON method, an additional entry must be included in the `MANIFEST.MF` file. This new entry has to define the path to the JSON file that contains the parameters and the name of the resource for which the parameters should be used.
+Method B shows how to define the service-binding parameters for a service-bind request in a JSON file. Using this method, there are dependencies on entries in other configuration files. For example, when using the JSON method, an additional entry must be included in the `MANIFEST.MF` file. This new entry has to define the path to the JSON file that contains the parameters and the name of the resource for which the parameters should be used.
 
 Note that when you use the combination of the two methods, the parameters defined in the descriptor have higher priority than the ones defined in the JSON file.
 

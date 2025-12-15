@@ -61,5 +61,5 @@ Your Kyma instance is updated with the new administrators' usernames.
 **Related Information**  
 
 
-[Provisioning and Updating Parameters in the Kyma Environment](../50-administration-and-ops/provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md "You can configure the cluster parameters in the Kyma environment.")
+[Provisioning and Updating Parameters in the Kyma Environment](../50-administration-and-ops/provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md "When creating a Kyma cluster, you can configure various parameters to adjust it to your specific needs.")
 

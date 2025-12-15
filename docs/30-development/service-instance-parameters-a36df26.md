@@ -135,6 +135,8 @@ Using method A, all parameters under the special `config` parameter are used for
 
 Using method B, there are dependencies on further configuration entries in other configuration files. For example, if you use this JSON method, an additional entry must be included in the `MANIFEST.MF` file which defines the path to the JSON file containing the parameters as well as the name of the resource for which the parameters should be used.
 
+Note that when you use the combination of the two methods, the parameters defined in the descriptor have higher priority than the ones defined in the JSON file.
+
 
 
 <a name="loioa36df26b36484129b482ae20c3eb8004__section_ap5_lrd_mfc"/>
