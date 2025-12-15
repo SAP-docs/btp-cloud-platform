@@ -88,9 +88,6 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
 -   A trial account includes 4 GB of memory for applications.
 
-    > ### Restriction:  
-    > The trial offering for SAP BTP, Cloud Foundry runtime is temporarily limited. New SAP BTP trial accounts are currently provisioned with no runtime memory quota, making it impossible to deploy applications. Trial accounts created before October 15, 2025 aren’t affected. For more information, see [the announcement blog post](https://community.sap.com/t5/technology-blog-posts-by-sap/btp-trial-update-cf-runtime-availability/ba-p/14247240) and follow the updates on SAP Community.
-
 -   You can use 8 GB of instance memory.
 
 -   There are 10 total routes and 40 total services available.

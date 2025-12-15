@@ -6264,6 +6264,61 @@ SAP HANA spatial services provides a set of APIs for location-based services.
 
 -   Europe \(Frankfurt\)
 -   US East \(VA\)
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP HANA spatial services](https://help.sap.com/viewer/product/SAP_HANA_SPATIAL_SERVICES/latest/) 
+
+</td>
+<td valign="top">
+
+SAP HANA spatial services provides a set of APIs for location-based services.
+
+</td>
+<td valign="top">
+
+-   BC-CP-CF-HSS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
 
 
 

@@ -19,7 +19,7 @@ Kyma implements a dedicated application runtime to deploy highly scalable, robus
 
 Every Kyma environment consists of:
 
--   A Kubernetes cluster based on project "Gardener" on a cloud provider and region \(data center\) of your choice. To find out the available regions and providers, see [Regions for the Kyma Environment](regions-for-the-kyma-environment-557ec3a.md).
+-   One or more Kubernetes clusters based on project "Gardener" on a cloud provider and region \(data center\) of your choice. To find out the available regions and providers, see [Regions for the Kyma Environment](regions-for-the-kyma-environment-557ec3a.md).
 -   A set of Kyma modules picked by a user in the release channel of their choice installed on the provisioned cluster.
 
 ![](images/SKR_stack_6b4e9b8.png)
@@ -30,7 +30,7 @@ Every Kyma environment consists of:
 
 ## Integration
 
-Every Kyma environment runs on a single Kubernetes cluster created for a specific subaccount. The configuration of the Kyma environment enables you to connect it to a multitude of SAP systems. This way, you can build various formations that aggregate the SAP systems and environment according to your business use cases.
+Kyma environment runs on one or more Kubernetes clusters created in a specific subaccount. The configuration of the Kyma environment enables you to connect it to a multitude of SAP systems. This way, you can build various formations that aggregate the SAP systems and environment according to your business use cases.
 
 SAP systems connected to a Kyma environment expose APIs and events. To extend the existing logic of these SAP services, you can build serverless applications called “Functions”, and trigger them to react to particular events or calls to your application's API. You can also use the Kyma environment to deploy microservices or even build full-stack applications.
 

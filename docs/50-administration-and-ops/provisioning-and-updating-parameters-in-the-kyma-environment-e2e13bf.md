@@ -2,7 +2,7 @@
 
 # Provisioning and Updating Parameters in the Kyma Environment
 
-You can configure the cluster parameters in the Kyma environment.
+When creating a Kyma cluster, you can configure various parameters to adjust it to your specific needs.
 
 
 
@@ -16,22 +16,6 @@ To check which parameters are available for configuration in a particular plan, 
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
-
-These are the configurable cluster parameters:
-
--   [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools)
--   [Administrators](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Administrators)
--   [Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Max)
--   [Auto Scaler Min](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Min)
--   [Cluster Name\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Cluster_Name)
--   [Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
--   [Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type)
-    -   [Machine Type in Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__Additional_machine_types)
-
--   [Modules](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Modules)
--   [Networking](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Networking)
--   [OpenID Connect \(OIDC\)](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
--   [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region)
 
 
 
@@ -1664,6 +1648,34 @@ Provisioning
 <td valign="top">
 
 \[ \] \(empty array\)
+
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+*Default Module Channel*
+
+btp CLI parameter: `channel`
+
+type: string
+
+</td>
+<td valign="top" colspan="2">
+
+Specifies your preferred release channel, regular or fast, for the whole default or custom list of modules.
+
+If needed, you can override this setting for individual modules in your custom list of modules.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+Taken from the `runtimeConfiguration` setting, where the Kyma resource spec channel is specified per plan.
 
 </td>
 </tr>
@@ -3323,6 +3335,8 @@ Here is an example of the JSON input for the *Region* parameter:
 
 **Related Information**  
 
+
+[Creating Kyma Instances](creating-kyma-instances-09dd313.md "Set up a Kubernetes cluster with SAP BTP, Kyma runtime and use it to build applications and extensions to your SAP and third-party solutions. You can create one or multiple Kyma clusters in a single SAP BTP subaccount.")
 
 [Available Plans in the Kyma Environment](available-plans-in-the-kyma-environment-befe01d.md "Depending on your global account type, you have access to a different plan that specifies the cluster parameters for the Kyma environment.")
 

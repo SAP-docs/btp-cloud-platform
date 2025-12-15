@@ -493,7 +493,9 @@ Europe \(Frankfurt\) EU Access
 </td>
 <td valign="top">
 
-`aws` 
+`aws`
+
+`build-runtime-aws`
 
 </td>
 </tr>
@@ -1787,5 +1789,5 @@ For more details on the Load Balancers and their features, check out the officia
 
 [Available Plans in the Kyma Environment](../50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md "Depending on your global account type, you have access to a different plan that specifies the cluster parameters for the Kyma environment.")
 
-[Provisioning and Updating Parameters in the Kyma Environment](../50-administration-and-ops/provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md "You can configure the cluster parameters in the Kyma environment.")
+[Provisioning and Updating Parameters in the Kyma Environment](../50-administration-and-ops/provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md "When creating a Kyma cluster, you can configure various parameters to adjust it to your specific needs.")
 

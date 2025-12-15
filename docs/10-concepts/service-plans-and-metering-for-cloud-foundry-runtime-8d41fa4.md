@@ -578,7 +578,7 @@ There are two application settings that define how much runtime memory an applic
 
 
 > ### Note:  
-> The total amount of runtime memory that an application uses when all of its instances are running is displayed on the application's *Overview* page under *All Instances Memory*.
+> The total amount of runtime memory used by the application is displayed on the *Application Overview* page under *Current Application Memory Usage*.
 
 You can specify custom values for these settings when deploying an application in the Cloud Foundry environment. You can also change them for an application that has already been deployed without having to redeploy it.
 
