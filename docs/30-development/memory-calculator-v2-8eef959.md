@@ -78,7 +78,7 @@ Default structures of the relevant configuration files:
 > # Configuration for JRE repository
 > ---
 > 
-> repository_root: "https://sapmachine.io/assets/cf/jre/{platform}/{architecture}"
+> repository_root: "https://sap.github.io/SapMachine/assets/cf/jre/{platform}/{architecture}"
 > version: 21.+
 > use_offline_repository: true
 > repository_root_offline: "{default.repository.root}/sap_machine_jre/{platform}/{architecture}"
@@ -111,7 +111,7 @@ Default structures of the relevant configuration files:
 > # Configuration for JDK repository
 > ---
 > 
-> repository_root: "https://sapmachine.io/assets/cf/jdk/{platform}/{architecture}"
+> repository_root: "https://sap.github.io/SapMachine/assets/cf/jdk/{platform}/{architecture}"
 > version: 21.+
 > repository_root_offline: "{default.repository.root}/sap_machine_jre/{platform}/{architecture}"
 > memory_calculator_v2:

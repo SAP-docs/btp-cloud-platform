@@ -390,6 +390,8 @@ Manage transports of development artifacts and application-specific content.
 -   UAE \(Dubai\)
 -   Europe \(Frankfurt\) EUA only
 -   Europe \(Rot\)
+-   US West \(Colorado\)
+-   Japan \(Tokyo\)
 
 
 
@@ -1452,6 +1454,8 @@ Simplify access to applications by establishing a central entry point.
 -   Europe \(Frankfurt\) EUA only
 -   UAE \(Dubai\)
 -   Europe \(Rot\)
+-   US West \(Colorado\)
+-   Australia \(Sydney\)
 
 
 
@@ -7465,8 +7469,11 @@ Add UI adaptation to your UI5 applications.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   Australia \(Sydney\)
 -   UAE \(Dubai\)
+-   US West \(Colorado\)
 -   Europe \(Rot\)
+-   Japan \(Tokyo\)
 
 
 
@@ -8135,8 +8142,11 @@ Build and run mobile apps for B2C use cases.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   Australia \(Sydney\)
 -   UAE \(Dubai\)
+-   US West \(Colorado\)
 -   Europe \(Rot\)
+-   Japan \(Tokyo\)
 
 
 
@@ -12489,6 +12499,8 @@ Create role based, multi-channel sites to access business apps and content.
 -   Europe \(Frankfurt\) EUA only
 -   UAE \(Dubai\)
 -   Europe \(Rot\)
+-   US West \(Colorado\)
+-   Australia \(Sydney\)
 
 
 
@@ -14788,8 +14800,11 @@ Build and run mobile apps for B2E and B2B use cases.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   Australia \(Sydney\)
 -   UAE \(Dubai\)
+-   US West \(Colorado\)
 -   Europe \(Rot\)
+-   Japan \(Tokyo\)
 
 
 

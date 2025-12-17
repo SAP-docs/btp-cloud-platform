@@ -43,7 +43,7 @@ When you return to Joule, it will first appear in the previous language. Joule w
 
 [Supported Administrative Tasks with Joule in the Cockpit](supported-administrative-tasks-with-joule-in-the-cockpit-88b02d5.md "Learn about the administrative tasks that Joule can perform for you in the SAP BTP cockpit.")
 
-[Best Practices for Joule in the Cockpit](best-practices-for-joule-in-the-cockpit-20b5e3e.md "Let Joule help you find answers to questions about managing your accounts in SAP BTP cockpit.")
+[Best Practices for Joule in the Cockpit](best-practices-for-joule-in-the-cockpit-20b5e3e.md "Get the most our of Joule in SAP BTP Cockpit.")
 
 [Using Joule](https://help.sap.com/docs/joule/serviceguide/using-joule?version=CLOUD "https://help.sap.com/docs/JOULE/3fdd7b321eb24d1b9d40605dce822e84/a777dd1adfe64e6685bb6ae4c310fe18.html?version=CLOUD")
 

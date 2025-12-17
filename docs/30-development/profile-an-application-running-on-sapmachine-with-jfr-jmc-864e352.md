@@ -10,7 +10,7 @@ You can use Java Flight Recorder \([JFR](https://docs.oracle.com/en/java/java-co
 
 ## Prerequisites
 
--   You have downloaded and installed a JDK Mission Control console. To do that, go to [SapMachine](https://sapmachine.io/) → *Download* → *JMC 9*, select your operating system, and then choose *Download*.
+-   You have downloaded and installed a JDK Mission Control console. To do that, go to [SapMachine](https://sap.github.io/SapMachine/) → *Download* → *JMC 9*, select your operating system, and then choose *Download*.
 
 -   You have installed the Cloud Foundry command line interface. See: [Download and Install the cf CLI](https://help.sap.com/docs/btp/sap-business-technology-platform/download-and-install-cloud-foundry-command-line-interface?version=Cloud)
 

@@ -43,7 +43,7 @@ Joule can also **navigate** you to select pages within the cockpit:
 **Related Information**  
 
 
-[Best Practices for Joule in the Cockpit](best-practices-for-joule-in-the-cockpit-20b5e3e.md "Let Joule help you find answers to questions about managing your accounts in SAP BTP cockpit.")
+[Best Practices for Joule in the Cockpit](best-practices-for-joule-in-the-cockpit-20b5e3e.md "Get the most our of Joule in SAP BTP Cockpit.")
 
 [Troubleshooting Joule in the Cockpit](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/e2d8e2c0ad914564bd02f8b0d2c526c7.html?locale=en-US&state=PRODUCTION&version=CLOUD)
 
