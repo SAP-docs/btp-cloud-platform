@@ -353,9 +353,7 @@ Use the transparent proxy for Kubernetes to connect workloads in a Kubernetes cl
 </td>
 <td valign="top">
 
--   [Transparent Proxy in the Kyma Environment](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/transparent-proxy-in-kyma-environment?version=Cloud)
-
-
+[Transparent Proxy in the Kyma Environment](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/transparent-proxy-in-kyma-environment?version=Cloud)
 
 </td>
 </tr>
