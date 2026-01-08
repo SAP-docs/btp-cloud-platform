@@ -27,7 +27,6 @@ To use this buildpack, specify its name when deploying a Jakarta-based applicati
     cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_jakarta
     ```
 
-
 -   Specify it in the **`manifest.yml`** file of your application by using the `buildpacks` attribute:
 
     ```
@@ -49,7 +48,7 @@ To use this buildpack, specify its name when deploying a Jakarta-based applicati
     cf push <app_name>
     ```
 
--   Specify it in the **`mtad.yaml`** deployment descriptor file \(for multi-target applications\) by using the `buildpack` attribute:
+-   \(MTA only\) For multi-target applications, specify it in the **`mtad.yaml`** deployment descriptor file by using the `buildpack` attribute:
 
     ```
     
@@ -73,6 +72,7 @@ To use this buildpack, specify its name when deploying a Jakarta-based applicati
     cf push <app_name>
     ```
 
+-   c
 
 
 

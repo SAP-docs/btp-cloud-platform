@@ -1059,6 +1059,7 @@
                 -   [APIRule Migration](30-development/apirule-migration-f8df238.md)
                     -   [Changes Introduced in APIRule v2](30-development/changes-introduced-in-apirule-v2-aa34a4a.md)
                     -   [Retrieving the Complete spec of an APIRule in Version v1beta1](30-development/retrieving-the-complete-spec-of-an-apirule-in-version-v1beta1-fefeb7f.md)
+                    -   [Migrate Multiple APIRules Targeting the Same Workload from v1beta1 to v2](30-development/migrate-multiple-apirules-targeting-the-same-workload-from-v1beta1-to-v2-b897dd3.md)
                     -   [Migrating APIRule v1beta1 of Type jwt to Version v2](30-development/migrating-apirule-v1beta1-of-type-jwt-to-version-v2-bcaec91.md)
                     -   [Migrating APIRule v1beta1 of Type noop, allow, or no\_auth to Version v2](30-development/migrating-apirule-v1beta1-of-type-noop-allow-or-no-auth-to-version-v2-2b19ef5.md)
                     -   [Migrating APIRule v1beta1 of type oauth2\_introspection to version v2](30-development/migrating-apirule-v1beta1-of-type-oauth2-introspection-to-version-v2-394d18a.md)

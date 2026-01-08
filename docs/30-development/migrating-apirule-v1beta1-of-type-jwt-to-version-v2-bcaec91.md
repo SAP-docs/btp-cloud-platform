@@ -27,6 +27,9 @@ APIRule in version `v1beta1` is deprecated and scheduled for removal. Once the A
 
 This example demonstrates a migration from an APIRule `v1beta1` with the `jwt` handler to an APIRule `v2` with the `jwt` handler. The example uses an HTTPBin service, exposing the `/anything` and `/.*` endpoints. The HTTPBin service is deployed in its own namespace, with Istio enabled, ensuring the workload is part of the Istio service mesh.
 
+> ### Note:  
+> If multiple APIRules target the same workload, you must perform an additional migration step to avoid traffic disruption. This step involves creating an additional, temporary AuthorizationPolicy before applying the first migrated APIRule `v2`. For detailed instructions, refer to the [Migrate Multiple APIRules Targeting the Same Workload from `v1beta1` to `v2`](https://kyma-project.io/external-content/api-gateway/docs/user/apirule-migration/01-90-migrate-multiple-apirules-targeting-same-workload.html) documentation before proceeding.
+
 
 
 ## Procedure
@@ -196,6 +199,9 @@ This example demonstrates a migration from an APIRule `v1beta1` with the `jwt` h
 5.  To retain the CORS configuration from the APIRule `v1beta1`, update the APIRule in version `v2` to include the same CORS settings.
 
     For preflight requests to work correctly, you must explicitly add the `"OPTIONS"` method to the `rules.methods` field of your APIRule `v2`. For guidance, see the [sample APIRule CRs](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-10-apirule-custom-resource?id=sample-custom-resource).
+
+    > ### Remember:  
+    > If you migrated multiple APIRules that target the same workload, and you applied an additional AuthorizationPolicy to avoid traffic disruption during migration, delete it. For instructions, see the last point of the procedure [Migrate Multiple APIRules Targeting the Same Workload from v1beta1 to v2](migrate-multiple-apirules-targeting-the-same-workload-from-v1beta1-to-v2-b897dd3.md).
 
 
 

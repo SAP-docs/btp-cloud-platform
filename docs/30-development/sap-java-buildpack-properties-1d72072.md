@@ -2,7 +2,7 @@
 
 # SAP Java Buildpack: Properties
 
-On this page you can find all the available properties, parameters, and variables to use in SAP Java Buildpack. You can filter by name, value, a word, or even part of a word.
+On this page you can find all the available properties, parameters, and environment variables to use in SAP Java Buildpack. You can filter by name, value, a word, or even part of a word.
 
 
 
@@ -250,77 +250,11 @@ env:
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-<new\_property\>
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-<new\_property\>
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-<new\_property\>
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-</tr>
 </table>
 
 
 
-## Variables
+## Environment Variables
 
 ****
 
@@ -339,7 +273,7 @@ Description
 </th>
 <th valign="top">
 
-Value
+Values
 
 </th>
 <th valign="top">
@@ -351,26 +285,95 @@ Example
 <tr>
 <td valign="top">
 
+VCAP\_SERVICES
+
+</td>
+<td valign="top">
+
+When you bind a service instance to your app and then restart the app, Cloud Foundry adds connection details to the VCAP\_SERVICES environment variable.
+
+See: [VCAP\_SERVICES](https://docs.cloudfoundry.org/devguide/deploy-apps/environment-variable.html#VCAP-SERVICES)
+
+</td>
+<td valign="top">
+
+See column **Example** 
+
+</td>
+<td valign="top">
+
+```
+
+$ cf env my-app
+
+Getting env variables for app my-app in org my-org / space my-space as
+admin...
+OK
+
+System-Provided:
+
+{
+ "VCAP_APPLICATION": {
+  "application_id": "abcd-1234-0000-aaaa789-eeeeeeeeee",
+  "application_name": "my-app",
+  "application_uris": [
+    "my-app.example.com"
+  ],
+  "application_version": "xyzxyz-3333-1234567890-aaaaaaaaaa",
+  "cf_api": "https://api.example.com",
+  "limits": {
+    "disk": 1024,
+    "memory": 256
+  },
+  "name": "my-app",
+  "organization_id": "...",
+  "organization_name": "my-org",
+  "space_id": "...",
+  "space_name": "my-space",
+  "uris": [
+    "my-app.example.com"
+  ]
+ }
+}
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 VCAP\_SERVICES\_FILE\_PATH
 
 </td>
 <td valign="top">
 
-The path to the file containing the service binding information in JSON format. It must be enabled by an application feature flag.
+It sets the path to the file containing the service binding information in JSON format. It must be enabled by an application feature flag.
+
+See: [VCAP\_SERVICES\_FILE\_PATH \(experimental\)](https://docs.cloudfoundry.org/devguide/deploy-apps/environment-variable.html#VCAP-SERVICES-FILE-PATH)
 
 </td>
 <td valign="top">
 
- 
+See column **Example** 
 
 </td>
 <td valign="top">
 
-```
+-   Set the variable:
 
-env:
-  VCAP_SERVICES_FILE_PATH=/etc/cf-service-bindings/vcap_services
-```
+    ```
+    
+    VCAP_SERVICES_FILE_PATH=/etc/cf-service-bindings/vcap_services
+    ```
+
+-   To view the binding data, run:
+
+    ```
+    cf ssh <app_name> -c 'cat $VCAP_SERVICES_FILE_PATH'
+    ```
+
 
 
 
@@ -554,12 +557,18 @@ SET\_LOGGING\_LEVEL
 </td>
 <td valign="top">
 
- 
+It sets the log level of a logging location. You can do this before or during application deploy. You can set this variable in three ways:
+
+-   In the **`manifest.yml`** file.
+-   In a **`logback.xml`** file in directory `src/main/resources`.
+-   In an **`application.properties`** file in directory `/src/main/resources/`.
+
+See: [Logging and Tracing](logging-and-tracing-7eb922a.md)
 
 </td>
 <td valign="top">
 
- 
+Default log level: **INFO** 
 
 </td>
 <td valign="top">

@@ -13,54 +13,7 @@ This section provides information on troubleshooting-related activities for the 
 > 
 > To troubleshoot problems with tokens from SAP Cloud Identity Services, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/b6c42b53518b46de8b4dffd8c4c52ed7.html?version=Cloud) in the documentation for SAP Cloud Identity Services.
 
-Our troubleshooting information can be found in [Troubleshooting for the SAP Authorization and Trust Management service in the Cloud Foundry environment](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290). Check the individual troubleshooting topics for your error message. If you can't find your problem, create an incident in the component `BC-CP-CF-SEC-IAM`. For more information, see the related link.
-
--   [The Security Tab Is Missing in the Subaccount](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:34793)
-
--   [Access Is Denied or Forbidden](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:28291)
-
--   [Identity Provider Could Not Process Authentication Request](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:28292)
-
--   [Logon Screen Shows "SAP HANA XS Advanced"](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:28293)
-
--   [Requested Route Does Not Exist](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:34795)
-
--   [Subdomain Does Not Map to a Valid Identity Zone](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:34797)
-
--   [No Client with Requested ID](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:34801)
-
--   [Login Issues](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:35340)
-
--   [Cannot Add Role Templates to Predefined Role Collections](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:35574)
-
--   [502 Error: Call to /oauth/token Was Not Successful](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:40211)
-
--   [Unexpected AuthnResponse : Existing authentication - <User\>](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:48205)
-
--   [AuthnRequest expired - ID: <RequestId\> Destination: <IdPDestination\>](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:48362)
-
--   [InResponseToField of Response doesn‘t correspond to the sent message](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:48369)
-
--   [Response issue time is either too old or with date in the future. Sync IdP to match skew <skew\>](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:48396)
-
--   [Trust establishment issues](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:52538)
-
--   [Token retrieval fails with status code 401](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:52819)
-
--   [Cockpit displays HTTP status 500 error on logon with custom IdP user](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:53448)
-
--   [IAS application reference isn't created in your IAS tenant](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:53486)
-
--   [User base doesn't appear in existing Neo subaccounts](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:53495)
-
--   [User from corporate IdP can't log on to Neo subaccount](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:53598)
-
--   [409 error code on deleting a custom identity provider](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:56635)
-
--   [Share Authorization and Trust Management service instances](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:56637)
-
--   [Invalid "redirect\_uri"](https://ga.support.sap.com/dtp/viewer/index.html#/tree/2212/actions/28290:57351)
-
+Our troubleshooting information can be found in [Troubleshooting for SAP Authorization and Trust Management Service](troubleshooting-for-sap-authorization-and-trust-management-service-c33d777.md). Check the individual troubleshooting topics for your error message. If you can't find your problem, create an incident in the component `BC-CP-CF-SEC-IAM`. For more information, see [Monitoring and Troubleshooting](monitoring-and-troubleshooting-1b3e89e.md).
 
 **Related Information**  
 

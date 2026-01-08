@@ -391,6 +391,7 @@ Manage transports of development artifacts and application-specific content.
 -   Europe \(Frankfurt\) EUA only
 -   Europe \(Rot\)
 -   US West \(Colorado\)
+-   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 
 
@@ -2981,7 +2982,11 @@ Cloud Offering with End-to-End visibility on Business Processes
 </td>
 <td valign="top">
 
+-   Europe \(Frankfurt\) EUA only
+-   Europe \(Rot\)
 -   UAE \(Dubai\)
+-   Australia \(Sydney\)
+-   US West \(Colorado\)
 
 
 
@@ -4869,7 +4874,11 @@ Enrich cloud offerings with decision modeling, management, and execution service
 </td>
 <td valign="top">
 
+-   Europe \(Frankfurt\) EUA only
+-   Europe \(Rot\)
 -   UAE \(Dubai\)
+-   Australia \(Sydney\)
+-   US West \(Colorado\)
 
 
 
@@ -6624,6 +6633,64 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 </td>
 <td valign="top">
 
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\) EUA only
+-   Europe \(Rot\)
+-   UAE \(Dubai\)
+-   Australia \(Sydney\)
+-   US West \(Colorado\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[Workflow Management](https://help.sap.com/viewer/product/WORKFLOW_MANAGEMENT/Cloud/en-US) 
+
+</td>
+<td valign="top">
+
+Digitize workflows, manage decisions and gain end-to-end process visibility.
+
+</td>
+<td valign="top">
+
+-   LOD-BPM-PFS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 -   AWS
 
 
@@ -6641,6 +6708,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   Europe \(Frankfurt\) EU Access
 -   Canada \(Montreal\)
 -   US West \(Oregon\)
+-   Europe \(Milan\)
 
 
 
@@ -10346,6 +10414,175 @@ Put raw sensor data into business context and leverage it in analytical or trans
 <tr>
 <td valign="top">
 
+[SAP Variant Configuration and Pricing](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+</td>
+<td valign="top">
+
+Configure and price your SAP ERP or SAP S/4HANA products interactively in the cloud
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   Europe \(Frankfurt\) EU Access
+-   US East \(VA\)
+-   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Variant Configuration and Pricing](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+</td>
+<td valign="top">
+
+Configure and price your SAP ERP or SAP S/4HANA products interactively in the cloud
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   Australia \(Sydney\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Variant Configuration and Pricing](https://help.sap.com/viewer/p/SAP_VARIANT_CONFIGURATION_AND_PRICING) 
+
+</td>
+<td valign="top">
+
+Configure and price your SAP ERP or SAP S/4HANA products interactively in the cloud
+
+</td>
+<td valign="top">
+
+-   LOD-CPS
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
+-   Australia \(Sydney\)
+-   India \(Mumbai\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [SAP Translation Hub](https://help.sap.com/viewer/product/SAP_TRANSLATION_HUB/Cloud/en-US) 
 
 </td>
@@ -13433,6 +13670,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   Japan \(Tokyo\)
 
 
 

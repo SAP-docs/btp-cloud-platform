@@ -193,6 +193,9 @@ This example demonstrates a migration from an APIRule `v1beta1` with `noop`, `al
 
     For preflight requests to work correctly, you must explicitly add the `"OPTIONS"` method to the `rules.methods` field of your APIRule `v2`. For guidance, see the [sample APIRule CRs](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-10-apirule-custom-resource?id=sample-custom-resource).
 
+    > ### Remember:  
+    > If you migrated multiple APIRules that target the same workload, and you applied an additional AuthorizationPolicy to avoid traffic disruption during migration, delete it. For instructions, see the last point of the procedure [Migrate Multiple APIRules Targeting the Same Workload from v1beta1 to v2](migrate-multiple-apirules-targeting-the-same-workload-from-v1beta1-to-v2-b897dd3.md).
+
 
 
 

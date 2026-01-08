@@ -2040,6 +2040,110 @@ eu02.hana.ondemand.com
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+us02
+
+</td>
+<td valign="top">
+
+US West \(Colorado\)
+
+</td>
+<td valign="top">
+
+cf-us02
+
+</td>
+<td valign="top">
+
+na-us-2
+
+</td>
+<td valign="top">
+
+130.214.2.0/25, 130.214.185.128/25
+
+</td>
+<td valign="top">
+
+130.214.2.128/26, 130.214.185.0/26
+
+</td>
+<td valign="top">
+
+api.cf.us02.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+us02.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+ap01
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+cf-ap01
+
+</td>
+<td valign="top">
+
+ap-au-1
+
+</td>
+<td valign="top">
+
+130.214.42.0/25, 130.214.151.128/25
+
+</td>
+<td valign="top">
+
+130.214.42.128/26, 130.214.151.0/26
+
+</td>
+<td valign="top">
+
+api.cf.ap01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ap01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
 </table>
 
 **Regions for Trial Accounts**

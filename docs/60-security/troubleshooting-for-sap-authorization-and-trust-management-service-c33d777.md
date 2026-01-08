@@ -4,6 +4,8 @@
 
 This section contains troubleshooting information for the Cloud Foundry environment of SAP Business Technology Platform. It provides assistance with issues concerning platform security functions such as business user authentication, authentication of applications, authorization management, trust management, and other security functions.
 
+If you need support or experience issues, please report an incident under component `BC-CP-CF-SEC-IAM`.
+
 [The Security Tab is Missing in the Subaccount](the-security-tab-is-missing-in-the-subaccount-5c92cbc.md)
 
 [Access Is Denied or Forbidden](access-is-denied-or-forbidden-13ce7bb.md)
@@ -49,4 +51,12 @@ This section contains troubleshooting information for the Cloud Foundry environm
 [Invalid "redirect\_uri"](invalid-redirect-uri-936599f.md)
 
 [400 Error: Call to /oauth/token Was Not Successful](400-error-call-to-oauth-token-was-not-successful-8f5ad63.md)
+
+[Missing Administrator Access to SAP Business Technology Platform](missing-administrator-access-to-sap-business-technology-platform-d3245d4.md)
+
+[Unexpected User in Subaccount](unexpected-user-in-subaccount-38958e5.md)
+
+[There Was an Error When Authenticating Against the External Identity Provider](there-was-an-error-when-authenticating-against-the-external-identity-provider-65c62c9.md)
+
+[Common Authorization Issues in SAP Integration Suite](common-authorization-issues-in-sap-integration-suite-3775ac2.md)
 
