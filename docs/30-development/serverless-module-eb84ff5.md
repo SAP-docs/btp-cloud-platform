@@ -12,7 +12,7 @@ Learn more about the Serverless module. Use it to run lightweight Functions in a
 
 The Kyma Serverless module is a "code-as-a-service" tool designed to accelerate the process of prototyping applications by removing the technical overhead necessary to obtain the first testable versions. It allows developers to focus on the coding and easily run it in the context of the SAP BTP without dealing with Kubernetes orchestration or containerization complexities. The fact that no Kubernetes knowledge is required to use it makes Serverless a useful tool for beginners who want to experiment with loosely coupled microservice architecture on Kubernetes or for business consultants who need to provide extension logic for an existing Kubernetes-based system with minimal overhead.
 
-With the Serverless module, you can build, run, and manage serverless applications in Kubernetes. These applications are called Functions, and they are based on the [Function custom resource \(CR\)](https://kyma-project.io/#/serverless-manager/user/resources/06-10-function-cr) objects. They contain simple code snippets that implement a specific business logic. For example, you can define that you want to use a Function as a proxy that saves all incoming event details to an external database.
+With the Serverless module, you can build, run, and manage serverless applications in Kubernetes. These applications are called Functions, and they are based on the [Function](https://kyma-project.io/external-content/serverless/docs/user/resources/06-10-function-cr.html) custom resource \(CR\) objects. They contain simple code snippets that implement a specific business logic. For example, you can define that you want to use a Function as a proxy that saves all incoming event details to an external database.
 
 A Function can be triggered by other workloads in the cluster \(in-cluster events\) or business events coming from external sources. You can subscribe to them using a [Subscription CR](https://kyma-project.io/#/eventing-manager/user/resources/subscription-cr). You can expose your Function to an external endpoint \(HTTPS\). With an [APIRule CR](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-10-apirule-custom-resource), you can define who can reach the endpoint and what operations they can perform on it.
 
@@ -33,8 +33,6 @@ The Serverless module provides the following features:
 -   Reduced implementation and operation effort
 
 -   Function management with Kubernetes resources like [Deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/), [Services](https://kubernetes.io/docs/concepts/services-networking/service/), and [HorizontalPodAutoscalers](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
-
--   Docker image creation with [Kubernetes Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/job/)
 
 
 
@@ -66,9 +64,9 @@ When you add the Serverless module, Serverless Operator takes care of installati
 
 The API of the Serverless module is based on Kubernetes CustomResourceDefinitions \(CRDs\), which extend the Kubernetes API with custom additions. To inspect the specification of the Serverless module API, see:
 
--   [Function CRD](https://kyma-project.io/#/serverless-manager/user/resources/06-10-function-cr)
+-   [Function CRD](https://kyma-project.io/external-content/serverless/docs/user/resources/06-10-function-cr.html)
 
--   [Serverless CRD](https://kyma-project.io/#/serverless-manager/user/resources/06-20-serverless-cr)
+-   [Serverless CRD](https://kyma-project.io/external-content/serverless/docs/user/resources/06-20-serverless-cr.html)
 
 
 
@@ -94,9 +92,9 @@ To learn more about the resources used by the Serverless module, see [Serverless
 
 [Function Security](../60-security/function-security-43590d2.md)
 
-[kyma-project.io: Serverless module tutorials](https://kyma-project.io/#/serverless-manager/user/tutorials/README)
+[kyma-project.io: Serverless module tutorials](https://kyma-project.io/external-content/serverless/docs/user/tutorials/README.html)
 
-[kyma-project.io: Serverless module technical reference](https://kyma-project.io/#/serverless-manager/user/technical-reference/README)
+[kyma-project.io: Serverless module technical reference](https://kyma-project.io/external-content/serverless/docs/user/technical-reference/README.html)
 
-[kyma-project.io: Serverless module troubleshooting guides](https://kyma-project.io/#/serverless-manager/user/troubleshooting-guides/README)
+[kyma-project.io: Serverless module troubleshooting guides](https://kyma-project.io/external-content/serverless/docs/user/troubleshooting-guides/README.html)
 

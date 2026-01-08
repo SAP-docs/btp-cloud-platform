@@ -43,7 +43,7 @@ The Application Connector module provides the following features:
 
 -   Full integration of BTP's UCL service, which implements the SAP BTP Extensibility concept. This allows for the automated integration of external systems registered in the UCL service.
 
--   Dispatching of incoming requests from external systems to Kyma workloads \(for example, a [Kyma Serverless Function](https://kyma-project.io/#/serverless-manager/user/README)\) by using an Istio Gateway with mTLS and the [Kyma Eventing module](https://kyma-project.io/#/eventing-manager/user/README).
+-   Dispatching of incoming requests from external systems to Kyma workloads \(for example, a [Kyma Serverless Function](https://kyma-project.io/external-content/serverless/docs/user/README.html)\) by using an Istio Gateway with mTLS and the [Kyma Eventing module](https://kyma-project.io/#/eventing-manager/user/README).
 
 -   Proxying outgoing requests to external APIs and transparently covering security requirements like encryption and authentication \(like OAuth 2.0 + mTLS, Basic Auth, and Client Certificates\).
 

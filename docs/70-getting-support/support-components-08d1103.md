@@ -1457,6 +1457,7 @@ Simplify access to applications by establishing a central entry point.
 -   Europe \(Rot\)
 -   US West \(Colorado\)
 -   Australia \(Sydney\)
+-   Japan \(Tokyo\)
 
 
 
@@ -12738,6 +12739,7 @@ Create role based, multi-channel sites to access business apps and content.
 -   Europe \(Rot\)
 -   US West \(Colorado\)
 -   Australia \(Sydney\)
+-   Japan \(Tokyo\)
 
 
 
@@ -13670,6 +13672,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   Europe \(Rot\)
 -   Japan \(Tokyo\)
 
 

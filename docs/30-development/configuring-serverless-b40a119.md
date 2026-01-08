@@ -35,6 +35,8 @@ The Serverless CR is an API to configure the Serverless module. You can use it t
 
 -   Configuring the log format.
 
+-   Disabling buildless mode.
+
 
 The default configuration of the Serverless module is the following:
 
@@ -128,7 +130,7 @@ You can configure the default runtime Pod preset to be used.
       defaultRuntimePodPreset: "M"
 ```
 
-For more information on presets, [see Available Presets](https://kyma-project.io/#/serverless-manager/user/technical-reference/07-80-available-presets).
+For more information on presets, [see Available Presets](https://kyma-project.io/external-content/serverless/docs/user/technical-reference/07-80-available-presets.html).
 
 <a name="concept_dml_sdr_rfc"/>
 
@@ -157,4 +159,48 @@ You can configure the desired log format to be used.
       logFormat: "yaml"
 
 ```
+
+<a name="task_s5c_3nf_shc"/>
+
+<!-- task\_s5c\_3nf\_shc -->
+
+## Disabling Buildless
+
+Serverless buildless mode is enabled by default. To use the legacy image-building Serverless functionality, disable buildless mode through an annotation.
+
+
+
+## Prerequisites
+
+You have [kubectl](https://kubernetes.io/docs/reference/kubectl/) installed.
+
+
+
+## Procedure
+
+1.  > ### Caution:  
+    > The legacy image-building mode is deprecated and will be removed in a future version of Serverless. This functionality is scheduled for removal and will no longer be available in upcoming releases.
+
+    Edit the Serverless CR:
+
+    `kubectl edit -n kyma-system serverlesses.operator.kyma-project.io default`
+
+2.  In the `metadata` section, add `annotations`, and add the `serverless.kyma-project.io/buildless-mode: "disabled"` key-value pair in it, and save the changes.
+
+    ```
+       apiVersion: operator.kyma-project.io/v1alpha1
+    kind: Serverless
+    metadata:
+      name: default
+      namespace: kyma-system
+      annotations:
+        serverless.kyma-project.io/buildless-mode: "disabled"
+    spec:
+      dockerRegistry:
+        enableInternal: true
+    
+    ```
+
+    You have disabled Serverless buildless mode.
+
 

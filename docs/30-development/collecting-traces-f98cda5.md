@@ -71,7 +71,7 @@ You can adjust the `TracePipeline` using runtime configuration with the availabl
 
 -   If you use Istio, activate Istio tracing. For details, see [Configure Istio Tracing](configure-istio-tracing-3f504d8.md). You can adjust which percentage of the trace data is collected.
 
--   The Serverless module integrates the [OpenTelemetry SDK](https://opentelemetry.io/docs/specs/otel/metrics/sdk/) by default. It automatically propagates the trace context for chained calls and reports custom spans for incoming and outgoing requests. You can add more spans within your Function's source code. For details, see [Customize Function Traces](https://kyma-project.io/#/serverless-manager/user/tutorials/01-100-customize-function-traces).
+-   The Serverless module integrates the [OpenTelemetry SDK](https://opentelemetry.io/docs/specs/otel/metrics/sdk/) by default. It automatically propagates the trace context for chained calls and reports custom spans for incoming and outgoing requests. You can add more spans within your Function's source code. For details, see [Customize Function Traces](https://kyma-project.io/external-content/serverless/docs/user/tutorials/01-100-customize-function-traces.html).
 
 -   The Eventing module uses the [CloudEvents](https://cloudevents.io/) protocol, which natively supports [W3C Trace Context](https://www.w3.org/TR/trace-context/) propagation. It ensures that the trace context is passed along but doesn't enrich a trace with more advanced span data.
 
