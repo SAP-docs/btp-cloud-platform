@@ -58,7 +58,7 @@ Ensure the port in your endpoint URL is correct for the chosen protocol.
 
 ## Set Up Authentication
 
-For each pipeline, add authentication details \(like user names, passwords, certificates, or tokens\) to connect securely to your observability backend. You can use mutual TLS \(mTLS\), custom headers, or Basic Authentication.
+For each pipeline, add authentication details \(like user names, passwords, certificates, or tokens\) to connect securely to your observability backend. You can use mutual TLS \(mTLS\), custom headers, OAuth2, or Basic Authentication.
 
 While you can choose to add your authentication details from plain text, it’s recommended to store these sensitive details in a Kubernetes `Secret` and reference the Secret's keys in your pipeline configuration. When you rotate the `Secret` and update its values, Telemetry Manager detects the changes and applies the new `Secret` to your setup.
 
@@ -105,6 +105,43 @@ While you can choose to add your authentication details from plain text, it’s 
                   namespace: default
                   key: token
     ```
+
+-   To use OAuth2 for authentication, configure the `authentication.oauth2` section.
+
+    ```
+      ...
+      output:
+        otlp:
+          endpoint:
+            valueFrom:
+              secretKeyRef:
+                  name: backend
+                  namespace: default
+                  key: endpoint
+          authentication:
+            oauth2:
+              clientId:
+                valueFrom:
+                  secretKeyRef:
+                    name: backend
+                    namespace: default
+                    key: clientId
+              clientSecret:
+                valueFrom:
+                  secretKeyRef:
+                    name: backend
+                    namespace: default
+                    key: clientSecret
+              tokenUrl:
+                valueFrom:
+                  secretKeyRef:
+                    name: backend
+                    namespace: default
+                    key: tokenUrl
+    ```
+
+    > ### Note:  
+    > If you want to use OAuth2 with gRPC, you must configure TLS for your backend connection as well.
 
 -   To use a username and password for authentication, configure the `authentication.basic` section.
 
