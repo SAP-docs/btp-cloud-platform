@@ -49,9 +49,6 @@ spec: {}
 
 ```
 
-> ### Caution:  
-> The `spec.dockerRegistry` field is deprecated and will be removed in a future version of Serverless where Functions won't require building images.
-
 
 
 ## Procedure
@@ -164,7 +161,7 @@ You can configure the desired log format to be used.
 
 <!-- task\_s5c\_3nf\_shc -->
 
-## Disabling Buildless
+## Disabling Buildless Mode
 
 Serverless buildless mode is enabled by default. To use the legacy image-building Serverless functionality, disable buildless mode through an annotation.
 
@@ -174,14 +171,14 @@ Serverless buildless mode is enabled by default. To use the legacy image-buildin
 
 You have [kubectl](https://kubernetes.io/docs/reference/kubectl/) installed.
 
+> ### Caution:  
+> The legacy image-building mode is deprecated and will be removed in a future version of Serverless. This functionality is scheduled for removal and will no longer be available in upcoming releases.
+
 
 
 ## Procedure
 
-1.  > ### Caution:  
-    > The legacy image-building mode is deprecated and will be removed in a future version of Serverless. This functionality is scheduled for removal and will no longer be available in upcoming releases.
-
-    Edit the Serverless CR:
+1.  Edit the Serverless CR:
 
     `kubectl edit -n kyma-system serverlesses.operator.kyma-project.io default`
 
@@ -195,9 +192,7 @@ You have [kubectl](https://kubernetes.io/docs/reference/kubectl/) installed.
       namespace: kyma-system
       annotations:
         serverless.kyma-project.io/buildless-mode: "disabled"
-    spec:
-      dockerRegistry:
-        enableInternal: true
+    spec: {}
     
     ```
 

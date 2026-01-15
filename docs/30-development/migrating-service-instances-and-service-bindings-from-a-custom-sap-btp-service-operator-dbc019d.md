@@ -12,9 +12,7 @@ Learn how to migrate service instances and service bindings from your custom SAP
 
 -   You have a new Kyma cluster deployed without any service instances in it.
 
--   You have the SAP BTP Operator module added.
-
-    For instructions on adding modules, see [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have the SAP BTP Operator module in your cluster. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 -   For CLI interactions: [kubectl](https://kubernetes.io/docs/tasks/tools/) configured to communicate with your Kyma instance. See [Access a Kyma Instance Using kubectl](access-a-kyma-instance-using-kubectl-3e25944.md).
 
@@ -37,7 +35,7 @@ If you have service instances and service bindings created outside the Kyma envi
 
 ## Procedure
 
-1.  To connect kubectl to the cluster with with your custom SAP BTP service operator, set either the `KUBECONFIG` environment variable or the cluster context with the `kubectl config use-context` command.
+1.  To connect kubectl to the cluster with your custom SAP BTP service operator, set either the `KUBECONFIG` environment variable or the cluster context with the `kubectl config use-context` command.
 
 2.  Find the `sap-btp-service-operator` Secret by running the `kubectl get secrets -A` command.
 

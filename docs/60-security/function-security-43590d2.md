@@ -14,15 +14,6 @@ To eliminate potential security risks when using Functions, bear in mind these f
 
 -   Kyma does not define any authorization policies that would restrict Functions' access to other resources within the namespace. If you deploy a Function in a given namespace, it can freely access all events and APIs of services within this namespace.
 
--   The Kyma Serverless components can run with the PodSecurity Admission Controller support within the restricted Pod security level when using an external registry. When the Internal Docker Registry is enabled, the Internal Registry DaemonSet requires elevated privileges to function correctly, exceeding the limitations of both the restricted and baseline levels.
-
--   All administrators and regular users who have access to a specific namespace in a cluster can also access:
-
-    -   Source code of all Functions within this namespace
-
-    -   Internal Docker registry that contains Function images
-
-    -   Secrets allowing the build Job to pull and push images from and to the Docker registry \(in non-system namespaces\)
-
+-   All administrators and regular users who have access to a specific namespace in a cluster can also access the source code of all Functions within this namespace.
 
 

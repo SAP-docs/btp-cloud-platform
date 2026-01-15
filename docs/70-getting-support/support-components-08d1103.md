@@ -13673,7 +13673,10 @@ Configure and run predefined pipelines for continuous integration and delivery.
 
 -   Europe \(Frankfurt\) EUA only
 -   Europe \(Rot\)
+-   US West \(Colorado\)
+-   Australia \(Sydney\)
 -   Japan \(Tokyo\)
+-   UAE \(Dubai\)
 
 
 
