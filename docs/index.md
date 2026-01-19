@@ -2047,6 +2047,7 @@
         -   [Kyma Security Concepts](60-security/kyma-security-concepts-dbf4503.md)
             -   [Security Vulnerability Management in the Kyma Environment](60-security/security-vulnerability-management-in-the-kyma-environment-b1b0a64.md)
             -   [Distributed Denial-of-Service Protection in Kyma](60-security/distributed-denial-of-service-protection-in-kyma-5e13d59.md)
+            -   [SAP's Access to Your Kyma Environment](60-security/sap-s-access-to-your-kyma-environment-2a0a510.md)
         -   [Secure Development in the Kyma Environment](60-security/secure-development-in-the-kyma-environment-ff51a32.md)
             -   [Kubernetes Pod Security Recommendations](60-security/kubernetes-pod-security-recommendations-f8cb6e5.md)
             -   [Function Security](60-security/function-security-43590d2.md)

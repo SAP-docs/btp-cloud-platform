@@ -518,6 +518,7 @@ Manage transports of development artifacts and application-specific content.
 -   Canada Central \(Toronto\)
 -   Japan \(Tokyo\)
 -   Switzerland \(Zurich\) EU Access
+-   UK South \(London\)
 
 
 
@@ -3411,6 +3412,7 @@ Develop, debug, test, and deploy SAP business applications.
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
 -   China \(North 3\)\*\*
+-   UK South \(London\)
 
 
 

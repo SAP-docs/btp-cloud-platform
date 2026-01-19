@@ -10,7 +10,10 @@ Interact directly with your NATS server deployment in Kyma using the NATS comman
 
 ## Prerequisites
 
+-   You have the NATS module in your cluster. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+
 -   You have installed kubectl and [NATS CLI](https://github.com/nats-io/natscli).
+
 
 
 

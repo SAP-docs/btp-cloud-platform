@@ -52,7 +52,7 @@ Double-check why you need injection in `kube-system`. Commonly, you can isolate 
 
 ## Dynakube Kyma Exclusion
 
-This policy validates that Dynatrace Dynakube custom resources include namespace-exclusion rules so that Kyma-managed namespaces \(for example, `kyma-system`, `istio-system`, or namespaces with label `operator.kyma-project.io/managed-by=kyma`\) are excluded from automatic instrumentation.
+This policy validates that Dynatrace Dynakube custom resources include namespace-exclusion rules so that Kyma-managed namespaces \(for example, `kyma-system`, `istio-system`, `sap-transp-proxy-system`, `ztis-agent-system`, or namespaces with label `operator.kyma-project.io/managed-by=kyma`\) are excluded from automatic instrumentation.
 
 If the required exclusions are missing, the admission policy denies the resource.
 

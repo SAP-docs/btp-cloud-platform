@@ -10,11 +10,11 @@ Access the Kyma environment and start creating extensions for SAP systems.
 
 ## Prerequisites
 
--   You have added the Application Connector and Serverless modules. To learn how to do it, see [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have the Application Connector and Serverless modules in your cluster. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
--   If you want to expose and secure your workload, the default Istio and API Gateway modules must be added.
+-   If you want to expose and secure your workload, you must have the default Istio and API Gateway modules in your cluster.
 
--   If you want your workload to react to events, the Eventing module must be added.
+-   If you want your workload to react to events, you must have the Eventing module in your cluster.
 
 -   If you want to use [CloudEvents](https://cloudevents.io/), make sure that your ecosystem supports it.
 
@@ -52,27 +52,27 @@ Follow these steps to get familiar with workloads and learn how to use them.
 
 1.  Connect the SAP system you want to extend \([Extending SAP Solutions Using Automated Configurations](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/346864df64f24011b49abee07bbd79af.html)\).
 
-2.  Choose a namespace in your cluster and create a simple Function \([Create an Inline Function](https://kyma-project.io/external-content/serverless/docs/user/tutorials/01-10-create-inline-function)\) or a microservice.
+2.  Choose a namespace in your cluster and create a simple Function \([Create and Modify an Inline Function](https://kyma-project.io/external-content/serverless/docs/user/tutorials/01-10-create-inline-function)\) or a microservice.
 
-3.  If you want to expose your workload outside the cluster, read [Expose a Workload](https://kyma-project.io/#/api-gateway/user/tutorials/01-40-expose-workload/01-40-expose-workload-apigateway).
+3.  If you want to expose your workload outside the cluster, read [Securing Workloads](securing-workloads-19e332b.md).
 
-    > ### Note:  
-    > For more details on the available security options in Kyma, see [APIRule Access Strategies](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-15-api-rule-access-strategies).
+4.  If you want your workload to react to events, read [Subscribe to Multiple Event Types](subscribe-to-multiple-event-types-2c26713.md) .
 
-4.  If you want your workload to react to events, read [Trigger the Workload with an Event](https://kyma-project.io/#/eventing-manager/user/tutorials/evnt-02-subs-with-multiple-filters?id=trigger-the-workload-with-an-event).
-
-    To subscribe to events with Kyma, you must create a [Subscription](https://kyma-project.io/#/eventing-manager/user/tutorials/evnt-02-subs-with-multiple-filters?id=create-subscription-subscribing-to-multiple-event-types) including the following parameters:
+    To subscribe to events with Kyma, you must create a Subscription custom resource \(CR\) including the following parameters:
 
     -   *Application name*: The name of the external Application connected to Kyma runtime. Typically, it starts with `mp-*`. This name can be found in the UI under *Integration* \> *Applications*. It must be bound to the namespace.
     -   *Event name*: The event name depends on your CX solution:
-        -   [SAP Commerce Cloud](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fhelp.sap.com%2Fdocs%2FSAP_COMMERCE%2Fd0224eca81e249cb821f2cdf45a82ace%2F81d15ea98eaa451594dac05a9d3f06b5.html%3Flocale%3Den-US) - for custom events, check the configuration of your [Destination Target](https://help.sap.com/viewer/d0224eca81e249cb821f2cdf45a82ace/2105/en-US/3e882f46581a46f0ba9518a90d268c56.html) for the Kyma runtime
-        -   [SAP Field Service Management](https://help.sap.com/viewer/fsm_integration/Cloud/en-US/kyma-connector.html)
+        -   [SAP Commerce Cloud](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fhelp.sap.com%2Fdocs%2FSAP_COMMERCE%2Fd0224eca81e249cb821f2cdf45a82ace%2F81d15ea98eaa451594dac05a9d3f06b5.html%3Flocale%3Den-US) - for custom events, check the configuration of your [Destination Target](https://help.sap.com/docs/SAP_COMMERCE/d0224eca81e249cb821f2cdf45a82ace/3e882f46581a46f0ba9518a90d268c56.html) for the Kyma runtime
         -   [SAP Sales Cloud / SAP Service Cloud](https://help.sap.com/viewer/d5fec61c279741048109d851d4d3d1ad/LATEST/en-US/f9d56b2aeb3f42ddb8770fd31d4a115f.html) - you can check the event specification in *Event Notification Monitoring*.
 
     -   **Event version**: **v1** for legacy events or **v2** for CloudEvents
 
     > ### Caution:  
-    > Your workload must be error-free, otherwise event loss could occur. If you're facing problems, check the Kyma [Troubleshooting documentation](https://kyma-project.io/#/04-operation-guides/troubleshooting/).
+    > Your workload must be error-free, otherwise event loss could occur. If you're facing problems, check:
+    > 
+    > -   [Troubleshooting for the API Gateway Module](troubleshooting-for-the-api-gateway-module-fd9415c.md)
+    > -   [Troubleshooting for the Eventing Module](troubleshooting-for-the-eventing-module-3936cbd.md)
+    > -   [Troubleshooting for the Serverless Module](https://kyma-project.io/external-content/serverless/docs/user/troubleshooting-guides/README.html)
 
 
 **Related Information**  
