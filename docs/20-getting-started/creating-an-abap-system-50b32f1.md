@@ -264,6 +264,32 @@ For more information about creating service instances, see [Create Service Insta
     
     </td>
     </tr>
+    <tr>
+    <td valign="top">
+    
+    Customer-Managed Keys
+
+    \(`customer_managed_keys`\)
+    
+    </td>
+    <td valign="top">
+    
+    The **customer-managed keys** parameter defines whether or not to integrate the ABAP environment instance and its SAP HANA Cloud database with the SAP Key Management Service \(KMS\). The enablement of this integration allows you to manage the encryption keys via SAP KMS.
+
+    The integration with SAP KMS is established on the level of the SAP BTP subaccount where the ABAP environment instance is created.
+
+    For more information, see [Integration with SAP Key Management Service](integration-with-sap-key-management-service-ad46b26.md).
+
+    > ### Caution:  
+    > Once the integration is enabled, it can't be disabled anymore.
+
+    > ### Restriction:  
+    > The customer-managed keys parameter is available in the **standard** and **build-runtime** service plans only. It's not available in the **free** and **saas-oem** service plans.
+
+
+    
+    </td>
+    </tr>
     </table>
     
     > ### Note:  

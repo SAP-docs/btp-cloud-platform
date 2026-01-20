@@ -323,6 +323,18 @@ SAP Cloud Integration for data services
 <tr>
 <td valign="top">
 
+SAP Cloud Management service for SAP BTP
+
+</td>
+<td valign="top">
+
+[Auditing and Logging Information](auditing-and-logging-information-44b00a8.md) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Cloud Portal service
 
 </td>

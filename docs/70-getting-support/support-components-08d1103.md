@@ -390,6 +390,7 @@ Manage transports of development artifacts and application-specific content.
 -   UAE \(Dubai\)
 -   Europe \(Frankfurt\) EUA only
 -   Europe \(Rot\)
+-   US \(Sterling\)
 -   US West \(Colorado\)
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
@@ -511,6 +512,7 @@ Manage transports of development artifacts and application-specific content.
 <td valign="top">
 
 -   Europe \(Netherlands\)
+-   Europe \(Frankfurt\)
 -   US West \(WA\)
 -   US East \(VA\)
 -   Australia \(Sydney\)
@@ -3412,6 +3414,7 @@ Develop, debug, test, and deploy SAP business applications.
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
 -   China \(North 3\)\*\*
+-   Europe \(Frankfurt\)
 -   UK South \(London\)
 
 
@@ -7545,6 +7548,7 @@ Add UI adaptation to your UI5 applications.
 -   US West \(Colorado\)
 -   Europe \(Rot\)
 -   Japan \(Tokyo\)
+-   US \(Sterling\)
 
 
 
@@ -13679,6 +13683,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   UAE \(Dubai\)
+-   US \(Sterling\)
 
 
 
@@ -13804,6 +13809,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
 -   Singapore
+-   UK South \(London\)
 
 
 

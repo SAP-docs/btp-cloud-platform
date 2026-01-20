@@ -72,7 +72,6 @@ To use this buildpack, specify its name when deploying a Jakarta-based applicati
     cf push <app_name>
     ```
 
--   c
 
 
 

@@ -14,7 +14,7 @@ The following sections contain the process of adding authentication and authoriz
 
 ## Using the SAP Authorization and Trust Management service or the SAP Cloud Identity Services
 
-SAP BTP is currently replacing the authorization management done by the SAP Authorization and Trust Management service, with an integrated solution with the SAP Cloud Identity Services - Authorization Management service. This service is integrated into the SAP Cloud Identity Services, which will offer authentication, authorization, user provisioning and management in one place.
+SAP BTP is currently replacing the authorization management done by the SAP Authorization and Trust Management service, with an integrated solution with the SAP Cloud Identity Services – Authorization Management. This service is integrated into the SAP Cloud Identity Services, which offers authentication, authorization, user provisioning and management in one place.
 
 Currently, there are still use cases where the usage of the old model with the SAP Authorization and Trust Management service is simpler when it comes to the technical setup, especially in the administration for business users.
 

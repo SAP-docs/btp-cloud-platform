@@ -28,6 +28,8 @@ After you have created an ABAP environment instance, you can change the followin
 
 -   HANA Cloud Disk Size \(size\_of\_persistence\_disk\)
 
+-   Customer-Managed Keys \(customer\_managed\_keys\). For more information, see [Integration with SAP Key Management Service](integration-with-sap-key-management-service-ad46b26.md)
+
 
 > ### Note:  
 > The updates are done with zero downtime, except for the HANA database resizing, which is performed with near zero downtime. This means that the database is inaccessible for only a few seconds.

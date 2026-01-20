@@ -130,9 +130,11 @@ The instructions provided here apply whether you are an SAP customer subscribing
 
 ## Next Steps
 
-1.  To make sure that the users can access the application, assign the relevant role collections. This refers to applications using XSUAA. However, some applications need authorizations managed by the SAP Cloud Identity Services.
+1.  To make sure that the users can access the application, assign the relevant authorizations. Most applications manage authorizations using role collections in the SAP Authorization and Trust Management service. Other applications use authorization policies in SAP Cloud Identity Services.
 
-    See [Assigning Role Collections to Users or User Groups](assigning-role-collections-to-users-or-user-groups-31532c7.md).
+    For role collections, see [Assigning Role Collections to Users or User Groups](assigning-role-collections-to-users-or-user-groups-31532c7.md).
+
+    For authorization policies, see [Assign Authorization Policies](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/assign-authorization-policies?locale=en-US&version=LATEST).
 
 2.  If the application consumer isn't the subaccount owner or administrator, provide the consumer-specific URL of the application to the consumer or the users of the application.
 

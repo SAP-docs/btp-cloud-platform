@@ -180,7 +180,7 @@ CF command line interface or SAP BTP cockpit
 </table>
 
 > ### Note:  
-> For more information about the different steps in setting up authorization artificats as an application developer, refer to the associated procedures in this section.
+> For more information about the different steps in setting up authorization artifacts as an application developer, refer to the associated procedures in this section.
 > 
 > [Add Authentication and Functional Authorization Checks to Your Application](add-authentication-and-functional-authorization-checks-to-your-application-0a69484.md)
 > 

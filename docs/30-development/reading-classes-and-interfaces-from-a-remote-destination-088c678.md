@@ -2,7 +2,7 @@
 
 # Reading Classes and Interfaces from a Remote Destination
 
-Besides the default and local origin, the Read APIs for both classes and interfaces offer the option to read the content of classes and interfaces from remote systems. Currently, only reading from On-Pemise systems is supported. Reading from SAP Public Cloud systems is not yet available. Remote systems are identified via an IF\_RFC\_DEST for which objects can be obtained via CL\_RFC\_DESTINATION\_PROVIDER. Origins for classes and interfaces are obtained via XCO\_CP\_ABAP\_OBJECTS=\>ORIGIN which provides a common basis for both classes and interfaces. To obtain a remote origin, the following code can be used:
+Besides the default and local origin, the Read APIs for both classes and interfaces offer the option to read the content of classes and interfaces from remote systems. Currently, only reading from On-Premise systems is supported. Reading from SAP Public Cloud systems is not yet available. Remote systems are identified via an`IF_RFC_DEST` for which objects can be obtained via `CL_RFC_DESTINATION_PROVIDER`. Origins for classes and interfaces are obtained via `XCO_CP_ABAP_OBJECTS=>ORIGIN` which provides a common basis for both classes and interfaces. To obtain a remote origin, the following code can be used:
 
 > ### Sample Code:  
 > ```abap
@@ -20,7 +20,7 @@ Besides the default and local origin, the Read APIs for both classes and interfa
 > 
 > Note that the user used for the system identified by the RFC destination needs to have the following authorizations in order to support the remote reading of classes and interfaces:
 > 
-> -   S\_RFC with RFC\_TYPE = Function module, RFC\_NAME = SEO\_CLASS\_TYPEINFO\_GET\_RFC, SEO\_INTERFACE\_TYPEINFO\_GET\_RFC and ACTVT = Execute
+> -   S\_RFC with RFC\_TYPE = Function module, RFC\_NAME = `SEO_CLASS_TYPEINFO_GET_RFC`, `SEO_INTERFACE_TYPEINFO_GET_RFC` and ACTVT = Execute
 > 
 > 
 > or alternatively for the complete function group, meaning
