@@ -363,6 +363,9 @@ While the high availability is guaranteed for Kubernetes and native Kyma compone
 > ### Note:  
 > To indicate that your Kyma runtime is used for production, select *Used for production* in your subaccount details. This setting allows SAP BTP, Kyma runtime operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).
 
+> ### Tip:  
+> After your Kyma instance is created, you can switch from standard enterprise plans to build runtime plans within the same cloud provider. However, you can't switch from build runtime plans to the standard plans. For more information, see [Updating Kyma Environment Plans](updating-kyma-environment-plans-64fa95a.md).
+
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
 
@@ -678,7 +681,9 @@ Updating
 
 The technical names of these enterprise plans are `build-runtime-aws`, `build-runtime-gcp`, and `build-runtime-azure`. Use them to integrate Kyma's functionalities within SAP Build. See the [SAP Build documentation](https://help.sap.com/docs/build-service/build-service-guide/what-is-sap-build?version=Cloud).
 
-You can also use the Build Runtime plans within the [*Pay-As-You-Go for SAP BTP for cloud test, demo, and development*](https://partneredge.sap.com/en/profile/create-profile.html) commercial model. For details, see [Service Plans and Metering](https://help.sap.com/docs/build-service/build-service-guide/service-plans-and-metering?locale=en-US&version=Cloud).
+You can switch from the standard enterprise plans to build runtime plans within the same cloud provider. For more information, see [Updating Kyma Environment Plans](updating-kyma-environment-plans-64fa95a.md).
+
+You can also use the build runtime plans within the [*Pay-As-You-Go for SAP BTP for cloud test, demo, and development*](https://partneredge.sap.com/en/profile/create-profile.html) commercial model. For details, see [Service Plans and Metering](https://help.sap.com/docs/build-service/build-service-guide/service-plans-and-metering?locale=en-US&version=Cloud).
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.

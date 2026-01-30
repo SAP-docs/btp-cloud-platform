@@ -3161,7 +3161,7 @@ North America \(Virginia\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="13">
 
 Standard: Microsoft Azure
 
@@ -3176,7 +3176,7 @@ Build Runtime: Microsoft Azure
 technical name: `build-runtime-azure`
 
 </td>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="13">
 
 Provisioning
 
@@ -3225,6 +3225,18 @@ US West \(WA\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environm
 <td valign="top">
 
 UK South \(London\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`germanywestcentral`
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
 
 </td>
 </tr>

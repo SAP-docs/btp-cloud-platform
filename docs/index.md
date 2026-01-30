@@ -26,6 +26,7 @@
             -   [Kyma Dashboard](10-concepts/kyma-dashboard-482ae2f.md)
                 -   [Kyma Dashboard Command Palette](10-concepts/kyma-dashboard-command-palette-7542ffb.md)
             -   [Kyma CLI](10-concepts/kyma-cli-292454b.md)
+            -   [Availability Zones in the Kyma Environment](10-concepts/availability-zones-in-the-kyma-environment-a649bd9.md)
             -   [Payment Card Industry Data Security Standard in the Kyma Environment](10-concepts/payment-card-industry-data-security-standard-in-the-kyma-environment-1ece56b.md)
             -   [Kyma Runtime: Basic Concepts](10-concepts/kyma-runtime-basic-concepts-4a0dd09.md)
             -   [Service Plans and Metering for Kyma Runtime](10-concepts/service-plans-and-metering-for-kyma-runtime-c33bb11.md)

@@ -28,7 +28,7 @@ To manage a Kyma instance automatically, create a Kyma service binding. The Kyma
 
 ## Procedure
 
-1.  Provision the SAP Cloud Management service instance with the `local` plan and create a binding to get the credentials for the Provisioning Service API. To do that, you can use:
+1.  Provision the SAP Cloud Management service instance with the `local` plan and create a binding to get the credentials for the Provisioning Service API. To do that, you can use one of the following methods:
 
     -   SAP BTP cockpit, as described in [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
 
@@ -86,7 +86,7 @@ To manage a Kyma instance automatically, create a Kyma service binding. The Kyma
     export USER_ID={USER_ID}
     ```
 
-6.  Provision the Kyma runtime and save the instance ID in the `INSTANCE_ID` environment variable.
+6.  Provision the Kyma runtime instance and save the instance ID in the `INSTANCE_ID` environment variable.
 
     ```
     INSTANCE_ID=$(curl -s -X POST "$PROVISIONING_SERVICE_URL/provisioning/v1/environments" -H "accept: application/json" -H "Authorization: bearer $TOKEN" -H "Content-Type: application/json" -d "{\"environmentType\":\"$ENVIRONMENT_TYPE\",\"parameters\":{\"name\":\"$NAME\",\"region\":\"$REGION\"},\"planName\":\"$PLAN\",\"serviceName\":\"$SERVICE_NAME\",\"user\":\"$USER_ID\"}" | jq -r '.id')
@@ -121,7 +121,7 @@ To manage a Kyma instance automatically, create a Kyma service binding. The Kyma
     export KUBECONFIG=kubeconfig.yaml
     ```
 
-11. Verify the connection to the cluster. Run a kubectl command to get Pods:
+11. Verify the connection to the cluster. Run a kubectl command to get Pods.
 
     ```
     kubectl get pods

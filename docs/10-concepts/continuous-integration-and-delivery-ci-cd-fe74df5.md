@@ -17,7 +17,7 @@ The following graphic shows the basic flow for continuous integration and delive
   
 **Continuous Integration Basic Flow**
 
-![](images/ci-basic-flow-copy_b835ff9.png "Continuous Integration Basic Flow")
+![Circular diagram showing the continuous integration and delivery workflow steps and the respective actor: developer - pushed code changes; SCM system - triggers; CI server - sends feedback.](images/ci-basic-flow-copy_b835ff9.png "Continuous Integration Basic Flow")
 
 For more information about the continuous integration and continuous delivery concepts, see [What Are Continuous Integration and Continuous Delivery?](https://help.sap.com/viewer/8cacec64ed854b2a88e9a0973e0f97a2/Cloud/en-US/5ba483a2c97b4ad5ab0148f4a6c5a9ee.html).
 

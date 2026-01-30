@@ -56,7 +56,7 @@ Follow these steps to get familiar with workloads and learn how to use them.
 
 3.  If you want to expose your workload outside the cluster, read [Securing Workloads](securing-workloads-19e332b.md).
 
-4.  If you want your workload to react to events, read [Subscribe to Multiple Event Types](subscribe-to-multiple-event-types-2c26713.md) .
+4.  If you want your workload to react to events, read [Subscribe to Multiple Event Types](subscribe-to-multiple-event-types-2c26713.md).
 
     To subscribe to events with Kyma, you must create a Subscription custom resource \(CR\) including the following parameters:
 
@@ -77,6 +77,10 @@ Follow these steps to get familiar with workloads and learn how to use them.
 
 **Related Information**  
 
+
+[API Gateway Module](api-gateway-module-f323ab1.md "Use the API Gateway module to expose and secure APIs.")
+
+[Eventing Module](eventing-module-07b2d1d.md "Use the Eventing module to set up event-driven communication between applications in your Kyma cluster using a publish-subscribe model.")
 
 [Serverless Module](serverless-module-eb84ff5.md "Learn more about the Serverless module. Use it to run lightweight Functions in a cost-efficient and scalable way using JavaScript and Node.js.")
 

@@ -93,7 +93,7 @@ cf-eu20
 </td>
 <td valign="top">
 
-West Europe
+westeurope
 
 </td>
 <td valign="top">
@@ -152,6 +152,58 @@ eu20.hana.ondemand.com
 eu20-001.hana.ondemand.com
 
 **cf-eu20-002:**eu20-002.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+eu22
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+</td>
+<td valign="top">
+
+cf-eu22
+
+</td>
+<td valign="top">
+
+germanywestcentral
+
+</td>
+<td valign="top">
+
+4.182.249.47, 20.52.249.79, 20.218.136.116
+
+</td>
+<td valign="top">
+
+9.141.129.192
+
+</td>
+<td valign="top">
+
+api.cf.eu22.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+eu22.hana.ondemand.com
 
 </td>
 <td valign="top">
@@ -417,6 +469,58 @@ cn20.platform.sapcloud.cn
 <td valign="top">
 
 [Open Cockpit](https://cockpit.cn20.platform.sapcloud.cn/cockpit)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+uk20
+
+</td>
+<td valign="top">
+
+UK South \(London\)
+
+</td>
+<td valign="top">
+
+cf-uk20
+
+</td>
+<td valign="top">
+
+uksouth
+
+</td>
+<td valign="top">
+
+20.0.136.123, 20.39.216.30, 20.117.187.163
+
+</td>
+<td valign="top">
+
+131.145.59.204
+
+</td>
+<td valign="top">
+
+api.cf.uk20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+uk20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
 
 </td>
 </tr>
@@ -1892,58 +1996,6 @@ SAP Cloud Infrastructure
 </td>
 <td valign="top">
 
-eu01
-
-</td>
-<td valign="top">
-
-Europe \(Frankfurt\) - EU Access Only
-
-</td>
-<td valign="top">
-
-cf-eu01
-
-</td>
-<td valign="top">
-
-eu-de-2
-
-</td>
-<td valign="top">
-
-130.214.199.0/25, 130.214.252.0/25
-
-</td>
-<td valign="top">
-
-130.214.199.128/28, 130.214.252.224/28
-
-</td>
-<td valign="top">
-
-api.cf.eu01.hana.ondemand.com
-
-</td>
-<td valign="top">
-
-eu01.hana.ondemand.com
-
-</td>
-<td valign="top">
-
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Cloud Infrastructure
-
-</td>
-<td valign="top">
-
 ae01
 
 </td>
@@ -1980,6 +2032,110 @@ api.cf.ae01.hana.ondemand.com
 <td valign="top">
 
 ae01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+ap01
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+cf-ap01
+
+</td>
+<td valign="top">
+
+ap-au-1
+
+</td>
+<td valign="top">
+
+130.214.42.0/25, 130.214.151.128/25
+
+</td>
+<td valign="top">
+
+130.214.42.128/26, 130.214.151.0/26
+
+</td>
+<td valign="top">
+
+api.cf.ap01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ap01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+eu01
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\) - EU Access Only
+
+</td>
+<td valign="top">
+
+cf-eu01
+
+</td>
+<td valign="top">
+
+eu-de-2
+
+</td>
+<td valign="top">
+
+130.214.199.0/25, 130.214.252.0/25
+
+</td>
+<td valign="top">
+
+130.214.199.128/28, 130.214.252.224/28
+
+</td>
+<td valign="top">
+
+api.cf.eu01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+eu01.hana.ondemand.com
 
 </td>
 <td valign="top">
@@ -2100,6 +2256,58 @@ SAP Cloud Infrastructure
 </td>
 <td valign="top">
 
+us01
+
+</td>
+<td valign="top">
+
+US \(Sterling\)
+
+</td>
+<td valign="top">
+
+cf-us01
+
+</td>
+<td valign="top">
+
+na-us-1
+
+</td>
+<td valign="top">
+
+130.214.4.0/25, 130.214.46.128/25
+
+</td>
+<td valign="top">
+
+130.214.4.128/26, 130.214.46.0/26
+
+</td>
+<td valign="top">
+
+api.cf.us01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+us01.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
 us02
 
 </td>
@@ -2136,58 +2344,6 @@ api.cf.us02.hana.ondemand.com
 <td valign="top">
 
 us02.hana.ondemand.com
-
-</td>
-<td valign="top">
-
-[Open Cockpit](https://cockpit.btp.cloud.sap/)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP Cloud Infrastructure
-
-</td>
-<td valign="top">
-
-ap01
-
-</td>
-<td valign="top">
-
-Australia \(Sydney\)
-
-</td>
-<td valign="top">
-
-cf-ap01
-
-</td>
-<td valign="top">
-
-ap-au-1
-
-</td>
-<td valign="top">
-
-130.214.42.0/25, 130.214.151.128/25
-
-</td>
-<td valign="top">
-
-130.214.42.128/26, 130.214.151.0/26
-
-</td>
-<td valign="top">
-
-api.cf.ap01.hana.ondemand.com
-
-</td>
-<td valign="top">
-
-ap01.hana.ondemand.com
 
 </td>
 <td valign="top">

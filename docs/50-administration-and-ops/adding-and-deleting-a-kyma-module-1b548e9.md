@@ -4,11 +4,24 @@
 
 To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, delete it to save resources.
 
+
+
+## Context
+
+> ### Tip:  
+> -   To see which modules you have in your cluster, go to Kyma dashboard and under *Cluster Overview*, choose *Modify Modules*.
+> 
+> -   If you prefer Kyma CLI, run `kyma module list`.
+
 <a name="task_ux4_wxz_bfc"/>
 
 <!-- task\_ux4\_wxz\_bfc -->
 
 ## Adding a Kyma Module
+
+
+
+## Context
 
 
 
