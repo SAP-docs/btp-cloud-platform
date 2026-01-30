@@ -77,5 +77,5 @@ When a client attempts to connect to a server, the following steps take place:
 **Related Information**  
 
 
-[Configure mTLS Authentication](configure-mtls-authentication-e7c6c6a.md "Learn how to configure mutual TLS (mTLS) in SAP BTP, Kyma runtime using Gardener-managed Let's Encrypt server certificates and client certificates that you supply.")
+[Configure an mTLS Gateway](configure-an-mtls-gateway-e7c6c6a.md "Learn how to configure mutual TLS (mTLS) in SAP BTP, Kyma runtime using Gardener-managed Let's Encrypt server certificates and client certificates that you supply.")
 

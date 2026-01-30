@@ -10,10 +10,7 @@ This procedure explains how to expose a workload on a custom domain and secure i
 
 ## Prerequisites
 
--   You have an SAP BTP, Kyma runtime instance with the Istio and API Gateway modules added. These modules are added to your Kyma cluster by default.
-
-    To check the list of added modules, choose *Modify Modules* in Kyma dashboard's *Cluster Details* section.
-
+-   You have the Istio and API Gateway modules in your cluster. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 -   You have an SAP Cloud Identity Services tenant. See [Initial Setup](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/initial-setup?locale=en-US&version=Cloud&q=open+id+connect).
 
 
@@ -30,10 +27,10 @@ If the validation is successful, the request proceeds to the Service behind the 
 
 Follow these steps:
 
-1.  [Configure a TLS Gateway for Your Custom Domain](expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd__task_zn2_ngt_3hc)
-2.  [Create and Configure an OpenID Connect Application](expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd__task_igm_nht_3hc)
-3.  [Get a JWT](expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd__task_oxs_q3t_3hc)
-4.  [Configure JWT Authentication in Kyma](expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd__task_rrf_1jt_3hc)
+1.  [Configure a TLS Gateway for Your Custom Domain](expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd__task_zn2_ngt_3hc).
+2.  [Create and Configure an OpenID Connect Application](expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd__task_igm_nht_3hc).
+3.  [Get a JWT](expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd__task_oxs_q3t_3hc).
+4.  [Configure JWT Authentication in Kyma](expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd__task_rrf_1jt_3hc).
 
 <a name="task_zn2_ngt_3hc"/>
 
@@ -316,44 +313,11 @@ You need an identity provider to issue JWTs. Create an OpenID Connect applicatio
 
 1.  Sign in to the administration console for SAP Cloud Identity Services. See [Access Admin Console](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/accessing-administration-console?locale=en-US&version=Cloud).
 
-2.  Create an OpenID Connect Application.
+2.  [Create OpenID Connect Application](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/create-openid-connect-application-299ae2f07a6646768cbc881c4d368dac?locale=en-US&version=Cloud).
 
-    1.  Go to *Application Resources → Application*.
+3.  [Configure OpenID Connect Application for Client Credentials Flow](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/client-cred-configure-openid-connect-application-for-client-credentials-flow?locale=en-US&version=Cloud).
 
-    2.  Choose *Create*, provide the application name, and select the OpenID Connect radio-button.
-
-        For more configuration options, see [Create OpenID Connect Application](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/create-openid-connect-application-299ae2f07a6646768cbc881c4d368dac?locale=en-US&version=Cloud).
-
-    3.  Choose *\+ Create*.
-
-
-3.  Configure OpenID Connect Application for the Client Credentials flow.
-
-    1.  In the *Trust → Single Sign-On* section of your created application, choose *OpenID Connect Configuration*.
-
-    2.  Provide the name..
-
-    3.  In the *Grant types* section, check *Client Credentials*.
-
-        For more configuration options, see [Configure OpenID Connect Application for Client Credentials Flow](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/client-cred-configure-openid-connect-application-for-client-credentials-flow?locale=en-US&version=Cloud).
-
-    4.  Choose *Save*.
-
-
-4.  Configure a secret for API authentication.
-
-    1.  In the *Application API → Client Authentication* section of your created application, choose *OpenID Connect Configuration*.
-
-    2.  In the *Secret* section, choose *Add*.
-
-    3.  Choose the OpenID scope and provide other configuration as needed.
-
-        For more configuration options, see [Configure Secrets for API Authentication](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/dev-configure-secrets-for-api-authentication?version=Cloud&locale=en-US).
-
-    4.  Choose *Save*.
-
-
-    Your client ID and secret appear in a pop-up window. Save the secret, as you cannot retrieve it again after closing this window.
+4.  [Configure Secrets for API Authentication](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/dev-configure-secrets-for-api-authentication?version=Cloud&locale=en-US).
 
 
 <a name="task_oxs_q3t_3hc"/>

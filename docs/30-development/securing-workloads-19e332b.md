@@ -75,5 +75,5 @@ After you have set up an mTLS Gateway, you can use a certificate to enforce mutu
 
 To secure your workload with a certificate, you must create an Istio AuthorizationPolicy and VirtualService instead of the APIRule CR.
 
-See [Configure mTLS Authentication](configure-mtls-authentication-e7c6c6a.md).
+See [Configure an mTLS Gateway](configure-an-mtls-gateway-e7c6c6a.md).
 

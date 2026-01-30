@@ -45,7 +45,7 @@ For example, the issue occurs when you delete Istio, but there are still `Virtua
 
 ### Use Kyma dashboard.
 
-1.  In the *Cluster Details* section, select *Modify Modules*.
+1.  In the *Cluster Overview* section, select *Modify Modules*.
 2.  Select the Istio module.
 3.  Choose *Edit*.
 4.  Switch to the *YAML* section.

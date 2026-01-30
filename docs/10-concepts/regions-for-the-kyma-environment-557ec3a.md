@@ -255,6 +255,82 @@ Partner Test, Demo, and Development account
 </td>
 <td valign="top">
 
+eu22
+
+</td>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+cf-eu22
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+</td>
+<td valign="top">
+
+`azure`
+
+`azure_lite`
+
+`build-runtime-azure`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+Partner Test, Demo, and Development account
+
+</td>
+<td valign="top">
+
+uk20
+
+</td>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+cf-uk20
+
+</td>
+<td valign="top">
+
+UK South \(London\)
+
+</td>
+<td valign="top">
+
+`azure`
+
+`azure_lite`
+
+`build-runtime-azure`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+Partner Test, Demo, and Development account
+
+</td>
+<td valign="top">
+
 ap20
 
 </td>
@@ -1194,12 +1270,12 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="13">
 
 Microsoft Azure
 
 </td>
-<td valign="top" rowspan="12">
+<td valign="top" rowspan="13">
 
 `azure`
 
@@ -1270,24 +1346,24 @@ UK South \(London\)
 <tr>
 <td valign="top">
 
-`japaneast`
+`germanywestcentral`
 
 </td>
 <td valign="top">
 
-Japan \(Tokyo\)
+Europe \(Frankfurt\)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`southeastasia`
+`switzerlandnorth`
 
 </td>
 <td valign="top">
 
-Singapore
+Switzerland \(Zurich\)
 
 </td>
 </tr>
@@ -1306,6 +1382,18 @@ Europe \(Netherlands\)
 <tr>
 <td valign="top">
 
+`southeastasia`
+
+</td>
+<td valign="top">
+
+Singapore
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `australiaeast`
 
 </td>
@@ -1318,12 +1406,12 @@ Australia \(Sydney\)
 <tr>
 <td valign="top">
 
-`switzerlandnorth`
+`japaneast`
 
 </td>
 <td valign="top">
 
-Switzerland \(Zurich\)
+Japan \(Tokyo\)
 
 </td>
 </tr>

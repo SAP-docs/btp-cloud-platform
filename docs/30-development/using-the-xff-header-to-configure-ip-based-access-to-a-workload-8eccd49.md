@@ -44,7 +44,7 @@ To use the XFF header, you must configure the corresponding settings in the Isti
 
 -   Use Kyma dashboard.
 
-    1.  Go to *Cluster Details* and choose *Modify Modules*.
+    1.  Go to *Cluster Overview* and choose *Modify Modules*.
 
     2.  Select the Istio module and choose *Edit*.
 

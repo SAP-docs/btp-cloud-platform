@@ -1,34 +1,8 @@
 <!-- loioe7c6c6a2b47744dbaa405b422e454303 -->
 
-# Configure mTLS Authentication
+# Configure an mTLS Gateway
 
 Learn how to configure mutual TLS \(mTLS\) in SAP BTP, Kyma runtime using Gardener-managed Let's Encrypt server certificates and client certificates that you supply.
-
-
-
-<a name="loioe7c6c6a2b47744dbaa405b422e454303__prereq_f1d_vrf_jhc"/>
-
-## Prerequisites
-
--   You have an SAP BTP, Kyma runtime instance with Istio and API Gateway modules added. The Istio and API Gateway modules are added to your Kyma cluster by default.
--   For setting up the mTLS Gateway, you must prepare the domain name available in the public DNS zone. You can use one of the following approaches:
-    -   Use your custom domain.
-
-        To use a custom domain, you must own the DNS zone and supply credentials for a provider supported by Gardener so the ACME DNS challenge can be completed. For this, you must first register this DNS provider in your Kyma runtime cluster and create a DNS entry resource.
-
-    -   Use the default domain of your Kyma cluster.
-
-        When you create an SAP BTP, Kyma runtime instance, your cluster receives a default wildcard domain that provides the endpoint for the Kubernetes API server. This is the primary access point for all cluster management operations, used by kubectl and other tools.
-
-        By default, the default Ingress Gateway `kyma-gateway` is configured under this domain. To learn what the domain is, you can check the APIServer URL in your subaccount overview, or get the domain name from the default simple TLS Gateway:
-
-        ```
-        kubectl get gateway -n kyma-system kyma-gateway -o jsonpath='{.spec.servers[0].hosts[0]}'
-        ```
-
-        You can request any subdomain of the assigned default domain and use it to create a TLS or mTLS Gateway, as long as it is not used by another resource. For example, if your default domain is `*.c12345.kyma.ondemand.com` you can use such subdomains as `example.c12345.kyma.ondemand.com`, `*.example.c12345.kyma.ondemand.com`, and more. If you use the Kyma runtime default domain, Gardener’s issuer can issue certificates for subdomains of that domain without additional DNS delegation.
-
-
 
 
 
@@ -41,13 +15,21 @@ In this procedure, you generate certificates using the following approach:
 -   Gardener’s Certificate custom resource \(CR\) requests a publicly trusted server certificate from Let’s Encrypt and creates a Secret that stores the certificate and private key. Therefore, the clients must trust Let's Encrypt, which is the CA that signs the server's certificate. Most modern HTTP clients already trust Let's Encrypt.
 -   Client certificates are self-signed. For production use, it's advised to use certificates issued by a trusted CA instead.
 
-For setting up an mTLS Gateway, you can either use your custom domain or the default domain of your Kyma cluster. See [Custom Domain Scenario](configure-mtls-authentication-e7c6c6a.md#loioe7c6c6a2b47744dbaa405b422e454303__h5l_rnt_wgc) or [Kyma Default Domain Scenario](configure-mtls-authentication-e7c6c6a.md#loioe7c6c6a2b47744dbaa405b422e454303__task_m2p_3zl_dhc).
+For setting up the mTLS Gateway, you must prepare the domain name available in the public DNS zone. You can either use a custom domain \(see [Custom Domain Scenario](configure-an-mtls-gateway-e7c6c6a.md#loioe7c6c6a2b47744dbaa405b422e454303__h5l_rnt_wgc)\) or the default domain of your Kyma cluster \(see [Default Domain Scenario](configure-an-mtls-gateway-e7c6c6a.md#loioe7c6c6a2b47744dbaa405b422e454303__task_m2p_3zl_dhc). For more information on the domain names and Gateways, see [Istio Gateways](https://help.sap.com/docs/btp/sap-business-technology-platform-internal/configuring-istio-gateways?locale=en-US&state=DRAFT&version=Internal).
 
 <a name="h5l_rnt_wgc"/>
 
 <!-- h5l\_rnt\_wgc -->
 
 ## Custom Domain Scenario
+
+
+
+## Prerequisites
+
+-   The Istio and API Gateway modules are added to your Kyma cluster by default. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
+-   You have the domain name available in the public DNS zone.
+-   Your DNS provider is supported by Gardener. For the list of supported providers, see [External DNS Management Guidelines](https://github.com/gardener/external-dns-management/blob/master/README.md#external-dns-management).
 
 
 
@@ -454,6 +436,12 @@ For setting up an mTLS Gateway, you can either use your custom domain or the def
 <!-- task\_m2p\_3zl\_dhc -->
 
 ## Default Kyma Domain Scenario
+
+
+
+## Prerequisites
+
+-   The Istio and API Gateway modules are added to your Kyma cluster by default. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
 
 

@@ -149,7 +149,7 @@ Updating
 
 ## Free
 
-The technical name of the plan is `free`. Using the free service plans for Kyma allows you to try out services in global accounts without any additional cost for 30 days. However, the free model account has certain limitations.
+The technical name of the plan is `free`. With the free service plans for Kyma, you can try out services in global accounts without any additional cost for 30 days. However, the free model account has certain limitations.
 
 -   The free plan offers you a one-node cluster and is only available on AWS.
 
@@ -354,11 +354,7 @@ Updating
 
 ## Standard: Amazon Web Services, Google Cloud, and Microsoft Azure
 
-The technical names of the standard enterprise plans are `aws`, `gcp`, and `azure`. They offer highly available Kubernetes clusters, where the Kubernetes and Kyma configurations are optimized for production use cases. The Kubernetes worker nodes are deployed in three availability zones of the respective [cloud region](../10-concepts/regions-for-the-kyma-environment-557ec3a.md), and thus can provide zone level failure tolerance for Kyma and applications deployed on Kyma runtime.
-
-The [Kubernetes control plane](https://kubernetes.io/docs/reference/glossary/?all=true#term-control-plane) is also hosted in three availability zones of the respective region.
-
-While the high availability is guaranteed for Kubernetes and native Kyma components, by default, it's not guaranteed for the customer's own applications. To guarantee high availability for your applications deployed on Kyma, you must manually configure these applications.
+The technical names of the standard enterprise plans are `aws`, `gcp`, and `azure`. Within these plans, Kyma offers the high availability feature. For more information, see [Availability Zones in the Kyma Environment](../10-concepts/availability-zones-in-the-kyma-environment-a649bd9.md).
 
 > ### Note:  
 > To indicate that your Kyma runtime is used for production, select *Used for production* in your subaccount details. This setting allows SAP BTP, Kyma runtime operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).

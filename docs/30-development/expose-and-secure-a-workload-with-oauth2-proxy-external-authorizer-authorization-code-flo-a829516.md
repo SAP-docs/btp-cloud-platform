@@ -10,10 +10,7 @@ Learn how to expose and secure a workload using the [OAuth2 Proxy](https://oauth
 
 ## Prerequisites
 
--   You have an SAP BTP, Kyma runtime instance with the Istio and API Gateway modules added. These modules are added to your Kyma cluster by default.
-
-    To check the list of added modules, choose *Modify Modules* in Kyma dashboard's *Cluster Details* section.
-
+-   You have the Istio and API Gateway modules in your cluster. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 -   You have an SAP Cloud Identity Services tenant. See [Initial Setup](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/initial-setup?locale=en-US&version=Cloud&q=open+id+connect).
 -   You have installed [Helm](https://helm.sh/docs/intro/install).
 
@@ -178,7 +175,7 @@ You can either use Kyma dashboard or kubectl.
 
 -   Use kubectl.
 
-    To expose and secure your Service, create the APIRule custom resource. In the rules section, define the **extAuth** field and add the `oauth2-proxy` authorizer.
+    To expose and secure your Service, create the APIRule CR. In the rules section, define the **extAuth** field and add the `oauth2-proxy` authorizer.
 
     ```
     ...
