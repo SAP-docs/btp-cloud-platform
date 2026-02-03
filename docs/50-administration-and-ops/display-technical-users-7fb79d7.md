@@ -2,7 +2,7 @@
 
 # Display Technical Users
 
-This app shows all technical users that exist in the system. To call the app, log on to your SAP Fiori launchpad and go to *Identity and Access Management* \> *Display Technical Users*.
+This app shows all technical users that exist in the system.
 
 
 
@@ -21,7 +21,7 @@ In the *Technical User* tab, you can display technical users that can be service
 
 In the *SAP Support User Request Log* tab, you can display more information about when and why SAP support users accessed your customer system in the past 12 months. For each support user, the relevant incident ID, access level, access category, customer user, request date and validity date is displayed when you click on the required entry in the *Users* list. SAP support user IDs are pseudonymized to respect the data subject rights of SAP employees according to GDPR.
 
-For more information about access levels and access categories, see the *Related Information* section.
+
 
 
 
@@ -140,12 +140,12 @@ SAP uses support users to provide customers with support if issues occur in the 
 <tr>
 <th valign="top">
 
- 
+Group
 
 </th>
 <th valign="top">
 
- 
+Explanation
 
 </th>
 </tr>
@@ -258,7 +258,7 @@ If you need support or experience issues, please report an incident under compon
 **Related Information**  
 
 
-[Business Catalogs for Identity and Access Management Apps](business-catalogs-for-identity-and-access-management-apps-9bbbfc7.md "Get an overview of available business role catalogs and their restrictions.")
+[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Get an overview of available business catalogs and their restrictions.")
 
 [Maintain Communication Users](maintain-communication-users-eef80dd.md "You can use this app to create and edit communication users. Communication users are used by solutions to authenticate themselves to be able to post data.")
 

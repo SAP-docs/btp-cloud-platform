@@ -56,5 +56,5 @@ For more information about change activation, see *Phase-In/Phase Out Status* in
 
 [Manage Business Role Changes After Upgrade](manage-business-role-changes-after-upgrade-2e2f201.md)
 
-[How to Handle Deprecated Business Catalogs](how-to-handle-deprecated-business-catalogs-b727290.md "If you want to check how many deprecated business catalogs you still have in use, or you want to change assignments from the old, deprecated business catalogs to the new, active catalogs quickly and easily, proceed as follows:")
+[How to Manage Deprecated Business Catalogs](how-to-manage-deprecated-business-catalogs-b727290.md "Deprecated business catalogs are deleted from the systems around 12 months after the deprecation announcement. Review upcoming changes and define the resulting IAM requirements together with authorization coordinators (key users or domain experts) from the line of businesses.")
 

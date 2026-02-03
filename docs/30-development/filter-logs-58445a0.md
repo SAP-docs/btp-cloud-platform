@@ -87,7 +87,7 @@ Namespace, Container\*
 </td>
 <td valign="top">
 
-Set the `system` attribute to `true`
+Add `namespaces: {}` to the input's configuration
 
 </td>
 <td valign="top">
@@ -179,7 +179,7 @@ You can control which namespaces to collect logs from using `include`, `exclude`
     ```
       ...
       input:
-        application:
+        runtime:
           namespaces:
             include:
               - namespaceA
@@ -191,7 +191,7 @@ You can control which namespaces to collect logs from using `include`, `exclude`
     ```
       ...
       input:
-        application:
+        runtime:
           namespaces:
             exclude:
               - namespaceC
@@ -204,15 +204,14 @@ You can control which namespaces to collect logs from using `include`, `exclude`
 
 ## Collect Application Logs From System Namespaces
 
-By default, application logs from `kube-system`, `istio-system`, and `kyma-system` are excluded. To override this and collect logs from them, set the `system` attribute to *true*:
+By default, application logs from `kube-system`, `istio-system`, and `kyma-system` are excluded. To override this and collect logs from them, set the `namespaces` attribute to an empty object::
 
 ```
   ...
   input:
-    application:
+    runtime:
       enabled: true
-        namespaces:
-          system: true
+      namespaces: {}
 ```
 
 
@@ -228,7 +227,7 @@ The following pipeline collects input from all namespaces excluding `kyma-system
 ```
 ...
   input:
-    application:
+    runtime:
       enabled: true
       namespaces:
         exclude:

@@ -97,7 +97,7 @@ SAP\_A4C\_BC\_DEV\_SUP\_PC
 Troubleshooting tools such as logs, traces, and the debugger.
 
 > ### Note:  
-> To enable debugging authorization, set the access category Write, Read, Value Help to *Unrestricted*. Upon creation of the business role, the value is set by default to *No Access*. See [How to Define Authorizations Based on Restrictions](how-to-define-authorizations-based-on-restrictions-c926d69.md).
+> To enable the read-only debugging authorization, set the access category Write, Read, Value Help to *No Access* and the access category Read, Value Help to *Unrestricted* access. To enable debugging with value change in customer code, set the access category Write, Read, Value Help to *Unrestricted*. See [How to Define Authorizations Based on Restrictions](how-to-define-authorizations-based-on-restrictions-c926d69.md).
 
 
 

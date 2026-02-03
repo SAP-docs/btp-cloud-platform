@@ -4,7 +4,7 @@
 
 
 
-You can use this app to create and edit business roles, add business catalogs to the roles, and maintain access restrictions. If the assigned business catalogs support IAM apps, the corresponding apps are assigned too.
+You can use this app to create and edit business roles, add business catalogs to the roles, and maintain access restrictions. If the assigned business catalogs support IAM apps, the corresponding apps are assigned too. You can also directly assign IAM apps \(for example app authorization variants\) to the business role if you require more flexible authorization assignment.
 
 With the *Maintain Business Roles* app you define business roles by assigning business catalogs and, if necessary, define value help, read and write access by maintaining the allowed values for fields. You use business roles to control the access to your applications. The predefined catalogs contain the actual authorizations via the assigned IAM apps that allow users to access apps and allow to define instance-based restrictions where necessary. Business catalogs bundle authorizations for a specific business area via the assigned IAM apps. Once you have created a business role, you can assign it to multiple business users who perform similar business tasks.
 
@@ -28,7 +28,12 @@ You can use this app to:
 
 -   Display the *Restrictions Overview*
 
--   Activate or deactivate IAM apps \(for example app authorization variants\)
+-   Activate or deactivate IAM apps that are assigned via business catalogs
+-   Add or remove IAM apps that are directly assigned
+
+    > ### Note:  
+    > Direct IAM app assignment is only possible for IAM apps of the *App Authorization Variant* type.
+
 -   Copy business roles
 
 -   Delete business roles

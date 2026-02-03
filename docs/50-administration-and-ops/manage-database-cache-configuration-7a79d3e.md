@@ -39,5 +39,5 @@ a\) You can use this app to:
 
 ## Component for Customer Incidents
 
-If you need support or experience issues, please report an incident under component `BC-DWB-DIC`.
+If you need support or experience issues, please report an incident under component `BC-DWB-DIC-ADM`.
 

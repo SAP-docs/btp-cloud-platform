@@ -32,6 +32,8 @@ You can use this app to:
 
 -   Display component: check under which component you can create an incident if required.
 
+-   Check whether a business catalog supports IAM apps using the *Supports IAM Apps* filter.
+
 
 
 

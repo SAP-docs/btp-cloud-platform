@@ -44,7 +44,7 @@ With the default configuration, the trace gateway collects push-based OTLP trace
 For a minimal setup, you only need to create a `TracePipeline` that specifies your backend destination \(see [Integrate With Your OTLP Backend](integrate-with-your-otlp-backend-e726417.md)\):
 
 ```
-apiVersion: telemetry.kyma-project.io/v1alpha1
+apiVersion: telemetry.kyma-project.io/v1beta1
 kind: TracePipeline
 metadata:
   name: backend

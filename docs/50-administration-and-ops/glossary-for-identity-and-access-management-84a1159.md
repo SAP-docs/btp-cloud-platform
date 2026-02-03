@@ -49,6 +49,18 @@ A business role provides users with authorizations to access apps.
 <tr>
 <td valign="top">
 
+Business catalog
+
+</td>
+<td valign="top">
+
+Business catalogs grant access to an app, a set of apps, or individual aspects of an app.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Business role template
 
 </td>

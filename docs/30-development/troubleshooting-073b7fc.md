@@ -16,12 +16,21 @@ If you cannot find a solution to your problem among these pages, you can create 
 
 ## Create a Support Incident
 
-1.  Log in to [SAP Support Portal](https://support.sap.com/en/index.html).
-2.  Choose *Get Support*. The *Services and Support* dashboard opens in your personal *SAP for Me* platform.
-3.  Choose *Report New Issue* and select the relevant customer name.
-4.  For *Component*, enter: `BC-CP-CF-BLDP`
-5.  Fill in the mandatory fields.
-6.  Explain your problem. See section **Initial Problem-Related Data**.
+1.  Open [SAP for Me](https://me.sap.com/home) and log on.
+2.  Open the *Services & Support* dashboard.
+3.  \(Optional\) You can use the *Knowledge Search* tab to look for existing solutions. They come from different knowledge sources, such as:
+
+    -   SAP Notes & KBAs
+    -   SAP Support Portal
+    -   SAP Community
+    -   SAP Help Portal
+    -   Guided Answers
+
+4.  In the *Overview* tab, choose *Get Support* to create an incident \(issue\).
+5.  Select the relevant customer name.
+6.  For *Component*, enter: `BC-CP-CF-BLDP`
+7.  Fill in the mandatory fields.
+8.  Explain your problem. See section **Initial Problem-Related Data**.
 
 
 
@@ -70,4 +79,6 @@ When creating an incident, please provide the following information, which will 
     -   Python: **`manifest.yml`**, **`runtime.txt`**, and **`requirements.txt`**
 
 
+
+See also: [Get Support Application](https://support.sap.com/content/s4m/help/support/cases/create.html)
 

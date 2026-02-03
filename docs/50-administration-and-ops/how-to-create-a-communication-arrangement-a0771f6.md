@@ -43,6 +43,9 @@ To create a communication arrangement, proceed as follows:
 
 5.  If the communication scenario provides inbound services, you have to select the desired communication user and authentication method from the assigned communication system. The defined communication user then has the authorization to call these services. In the *Inbound Services* section, the URLs to the service endpoints are displayed. Depending on the underlying scenario, maintain the required inbound parameters.
 
+    > ### Note:  
+    > The inbound section of the communication arrangement provides the correct URLs for API consumption. Depending on the protocol and scenario, the host name or path might differ. Always use the URLs provided in this section when configuring the calling service. For security reasons, we have different URLs for each user type.
+
 6.  If the communication scenario provides outbound services, you have to select the desired outbound user and authentication method from the assigned communication system. In the *Outbound Services* section, the URL path and port need to be defined. Depending on the underlying scenario, maintain the required outbound parameters and job execution details.
 
     > ### Note:  
@@ -55,9 +58,6 @@ To create a communication arrangement, proceed as follows:
     > -   *Remote Database Name*: The database in the remote system containing the objects to be accessed. Usually you can leave the field empty unless the remote system hosts multiple databases.
 
 7.  Save the arrangement.
-
-    > ### Note:  
-    > The inbound section of the communication arrangement provides the correct URLs for API consumption. Depending on the protocol and scenario, the host name or path might differ. Always use the URLs provided in this section when configuring the calling service.
 
 
 **Related Information**  

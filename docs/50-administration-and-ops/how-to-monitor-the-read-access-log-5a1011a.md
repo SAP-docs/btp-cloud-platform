@@ -10,18 +10,6 @@ You use the read access log for evaluation purposes. In it, all log entries as w
 
 -   *Expanded Database* \(default\)
 -   *Expanded Archive*
--   *Raw Database*
-
-    Only contains the Read Access Logging data of the current client.
-
--   *Raw Archive*
-
-    Archive of the raw database.
-
--   *Raw Archive with Index*
-
-    Indexed archive of the raw database.
-
 
 
 

@@ -12,9 +12,12 @@ To use the OpenTelemetry Protocol \(OTLP\) for sending logs, you must migrate yo
 
 -   You have an active Kyma cluster with the Telemetry module added.
 
+-   Your observability backend has an OTLP ingestion endpoint.
+
 -   You have one or more `LogPipeline` resources that use the `http` output.
 
--   Your observability backend has an OTLP ingestion endpoint.
+    > ### Recommendation:  
+    > If your LogPipeline still uses the `v1alpha1` API, migrate it to `v1beta1`. For details, see [Migrate Telemetry Pipelines to v1beta1](migrate-telemetry-pipelines-to-v1beta1-6ffa6c2.md).
 
 
 
@@ -24,6 +27,80 @@ To use the OpenTelemetry Protocol \(OTLP\) for sending logs, you must migrate yo
 When you want to migrate to the `otlp` output, create a new `LogPipeline`. To prevent data loss, run it in parallel with your existing pipeline. After verifying that the new pipeline works correctly, you can delete the old one.
 
 You can't modify an existing `LogPipeline` to change its output type. You must create a new resource.
+
+In the following sample `LogPipeline`, see the fields that you must change or remove for the migration:
+
+```
+apiVersion: telemetry.kyma-project.io/v1beta1
+kind: LogPipeline
+metadata:
+  name: my-http-pipeline
+spec:
+  input:
+    runtime:             # OTLP supports the runtime input, but you must replace the dropLabels and keepAnnotation flags
+      dropLabels: true       # Configure label enrichment centrally
+      keepAnnotations: true  # No longer supported
+        ...
+  output:
+    http:                    # Switch to OTLP
+      endpoint:
+        value: "my-backend:4317"
+    
+```
+
+See how the deprecated fields map to their new OTLP-based counterparts:
+
+
+<table>
+<tr>
+<th valign="top">
+
+**Deprecated Field**
+
+</th>
+<th valign="top">
+
+Migration Action
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`spec.output.http`
+
+</td>
+<td valign="top">
+
+Replace with `spec.output.otlp`.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`spec.input.runtime.dropLabels`
+
+</td>
+<td valign="top">
+
+Configure label enrichment in the central Telemetry resource instead.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`spec.input.runtime.keepAnnotations`
+
+</td>
+<td valign="top">
+
+Remove this functionality. It is not supported with the OTLP output.
+
+</td>
+</tr>
+</table>
 
 
 
@@ -41,7 +118,7 @@ You can't modify an existing `LogPipeline` to change its output type. You must c
 
 
     ```
-    apiVersion: telemetry.kyma-project.io/v1alpha1
+    apiVersion: telemetry.kyma-project.io/v1beta1
     kind: LogPipeline
     metadata:
       name: <my-otlp-pipeline>

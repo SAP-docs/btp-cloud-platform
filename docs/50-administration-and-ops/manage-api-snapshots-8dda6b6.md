@@ -4,7 +4,7 @@
 
 
 
-With this app you can create API snapshots of your components. An API snapshot is a snapshot of the external interface of all released objects within a software component. This snapshot should be taken when the released objects within the software component must be kept stable. API snapshots allow you to run compatibility checks for your released objects using the ATC check`API_COMPATIBILITY`.
+With this app you can create API snapshots of your software components. An API snapshot is a snapshot of the external interface of all released objects within a software component. This snapshot should be taken when the released objects within the software component must be kept stable. API snapshots allow you to run compatibility checks for your released objects using the ATC check *API Release: Compatibility of Released APIs* \(`API_COMPATIBILITY`\).
 
 
 
@@ -14,17 +14,21 @@ You can use this app to:
 
 
 
--   Create API snapshots to be able to use them in compatibility checks
+-   Create API snapshots to be able to use them in the compatibility check
 
--   Regenerate failed APIs
+-   Set the check-relevance of API snapshots
 
--   Set APIs for check relevance to check their content
+-   Regenerate the snapshots of selected APIs
 
--   Overwrite your API snapshots to recreate already existing snapshots
+-   Regenerate the snapshots of all failed APIs
+
+-   Regenerate already existing API snapshots completely
+
+-   Download and upload API snapshots
 
 -   Display the changes made to your API snapshots
 
--   Display extracted APIs
+-   Display the included APIs
 
 
 

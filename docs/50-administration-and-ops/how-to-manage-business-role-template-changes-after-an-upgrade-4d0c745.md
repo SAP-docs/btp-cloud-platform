@@ -32,5 +32,5 @@ To get an overview of changes in the business role template area since the last 
 **Related Information**  
 
 
-[Business Role Templates](business-role-templates-223dfd3.md "You can use this app to you get an overview of the business role templates delivered by SAP.")
+[Business Role Templates](business-role-templates-223dfd3.md "The app provides a summary of business role templates delivered by SAP and helps determine if adaptations are needed after an upgrade.")
 

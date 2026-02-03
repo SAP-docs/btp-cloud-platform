@@ -43,7 +43,7 @@ The log collection feature is optional. If you don't create a `LogPipeline`, the
 For a minimal setup, you only need to create a `LogPipeline` that specifies your backend destination \(see [Integrate With Your OTLP Backend](integrate-with-your-otlp-backend-e726417.md)\):
 
 ```
-apiVersion: telemetry.kyma-project.io/v1alpha1
+apiVersion: telemetry.kyma-project.io/v1beta1
 kind: LogPipeline
 metadata:
   name: backend

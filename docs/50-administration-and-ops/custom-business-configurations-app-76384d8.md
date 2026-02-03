@@ -88,7 +88,7 @@ To provide context-sensitive in-app help you can use [SAP Companion](https://exp
 
 ## Grouping
 
-In the table view settings dialog you can group the business configuration maintenance objects by their attribute `Configuration Group`. This allows the list to be structured in a simple hierarchical manner. If this attribute is not maintained for a cusiness configuration maintenance object, it will be part of a generic group with the header *Not assigned*.
+In the table view settings dialog you can group the business configuration maintenance objects by their attribute `Configuration Group`. This allows the list to be structured in a simple hierarchical manner. If this attribute is not maintained for a business configuration maintenance object, it will be part of a generic group with the header *Not assigned*.
 
 
 

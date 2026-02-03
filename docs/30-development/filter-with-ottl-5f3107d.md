@@ -48,7 +48,7 @@ You can filter out `DEBUG` and `INFO` logs to reduce noise and storage costs:
 # In your LogPipeline spec
 spec:
   input:
-    application:
+    runtime:
       enabled: true
   output:
     otlp:

@@ -17,42 +17,33 @@ You use business roles to control the access to your applications. To create a b
 
 
 
-### Process Steps
-
-![](images/Create_Business_Role_5abe629.png)
-
-
-
 <a name="loiof65e51a7203443efb58fe535c3d13e5f__HowToCreateBusinessRoleFromScratch_steps"/>
 
 ## Procedure
 
-1.  Select the tile of the *Maintain Business Roles* app on the SAP Fiori launchpad to open the app. On the initial screen, select *New*.
+1.  Open the *Maintain Business Roles* app.
 
-2.  Add general role details, such as business role name, ID and description.
+2.  Choose *New*.
 
-3.  On the *Assigned Business Catalogs* tab, select *Add* to add the required business catalogs. Select the catalogs according to the business activities that the users with this role need to perform. Select *Apply*.
+3.  Add general role details, such as business role name, ID and description.
+
+4.  On the *Assigned Business Catalogs* tab, select *Add* to add the required business catalogs. Select the catalogs according to the business activities that the users with this role need to perform. Select *Apply*.
 
     > ### Note:  
     > Some business catalogs require additional dependent catalogs to be assigned to enable access to associated master data information \(for example, for business partners or customers\). These additionally required catalogs ensure access to all business objects used with the SAP Fiori apps of the main catalog. When you select the business catalogs you want to add to the business role and click *Add*, a list of dependent business catalogs is displayed. You can then select all the dependencies you want to add.
 
-4.  By default, the value help and read access for each business catalog is set to unrestricted and there is no write access. If you want to change these restrictions, select *Maintain Restrictions*.
+5.  By default, the value help and read access for each business catalog is set to unrestricted and there is no write access. If you want to change these restrictions, select *Maintain Restrictions*.
 
-5.  Maintain instance-based restrictions for all required business objects \(following the requirements of your local authorization concept\).
+6.  Maintain instance-based restrictions for all required business objects \(following the requirements of your local authorization concept\).
 
-6.  If required, click *Manage Launchpad Space* to create a new space or use an existing space. For more information, see the *Related information* section below.
+7.  If required, click *Manage Launchpad Space* to create a new space or use an existing space. For more information, see the *Related information* section below.
 
-    > ### Note:  
-    > The group-based home page is deprecated. It will be removed in a future version. For new systems \(starting with SAP S/4HANA Cloud 2302\), the group-based home page is no longer available. It will be replaced with the spaces and pages mode. Therefore, a warning message is shown. It appears when you save a business role without an assigned space. It reminds you that you need to assign a space to make the tiles visible for the users when you have already switched to the spaces and pages mode.
-    > 
-    > For more information, see SAP Note [2970113](https://me.sap.com/notes/2970113).
+8.  On the *Assigned Business Users* tab, you can assign the business users to your new business role. These users will receive the authorizations as defined in the business role.
 
-7.  On the *Assigned Business Users* tab, you can assign the business users to your new business role. These users will receive the authorizations as defined in the business role.
-
-8.  Save the business role to activate it.
+9.  To activate the business role, save it.
 
     > ### Note:  
-    > If you go back to the business roles overview **without saving** the business role, the business role will automatically be saved in a draft status. You can access it again and edit it from the business roles overview.
+    > If you go back to the business roles overview **without saving** the business role, the business role will automatically be saved in a draft status. You can access it again and edit it from the business roles overview. Before saving the role, consider double-checking the following document [Best Practices for Business Roles](best-practices-for-business-roles-98f69bc.md).
 
 
 **Related Information**  

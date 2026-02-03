@@ -359,8 +359,7 @@ The technical names of the standard enterprise plans are `aws`, `gcp`, and `azur
 > ### Note:  
 > To indicate that your Kyma runtime is used for production, select *Used for production* in your subaccount details. This setting allows SAP BTP, Kyma runtime operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).
 
-> ### Tip:  
-> After your Kyma instance is created, you can switch from standard enterprise plans to build runtime plans within the same cloud provider. However, you can't switch from build runtime plans to the standard plans. For more information, see [Updating Kyma Environment Plans](updating-kyma-environment-plans-64fa95a.md).
+After your Kyma instance is created, you can switch from standard enterprise plans to build runtime plans within the same cloud provider. However, you can't switch from build runtime plans to the standard plans. For more information, see [Updating Kyma Environment Plans](updating-kyma-environment-plans-64fa95a.md).
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.

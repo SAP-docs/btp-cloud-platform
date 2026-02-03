@@ -105,7 +105,7 @@ Development - Data Preview - Released Objects \(`SAP_A4C_BC_DEV_DAT_PRV_PC`\)
 This business catalog enables you to use the data preview in ABAP development tools for Eclipse for objects that are released for language version 5:
 
 -   SAP-delivered CDS views
--   CDS Views that are released for usage outside of their own software component
+-   CDS views that are released for usage outside of their own software component
 -   Data of CDS views that can be viewed with or without application of the DCL
 
 
@@ -134,7 +134,9 @@ Development - Analysis and Support \(`SAP_A4C_BC_DEV_SUP_PC`\)
 
 This business catalog gives you access to troubleshooting tools such as logs, traces, and the debugger.
 
-Business user assigned to the business role `Development` or any kind of source code changes are not permitted. Nevertheless, business users can execute the class runner in a test or productive system, unless this is not restricted by the administrator.
+To enable the read-only debugging authorization, set the access category Write, Read, Value Help to *No Access* and the access category Read, Value Help to *Unrestricted* access. To enable debugging with value change in customer code, set the access category Write, Read, Value Help to *Unrestricted*.
+
+Source code changes are not permitted with this catalog. Nevertheless, business users can run the class runner in a test or production system, unless this is restricted by the administrator.
 
 </td>
 </tr>

@@ -1,6 +1,6 @@
 <!-- loioaa4b03ced9dc481fafdf74c2f82976bc -->
 
-# Integrating Cross-domain Identity Management
+# Integrating System for Cross-Domain Identity Management \(SCIM\)
 
 You can use this communication scenario to maintain data via SCIM.
 

@@ -104,6 +104,11 @@ How to configure and use CTS+ to transport Cloud Foundry applications from one s
 > ### Recommendation:  
 > As a future-proof way forward, to be able to cover also more and more application-specific content with one central approach, SAP recommends SAP Cloud Transport Management.
 
+
+
+> ### Note:  
+> Limitations related to the integration with SAP Cloud Transport Management and the Enhanced Change and Transport System \(CTS+\) are listed in the section [Prerequisites and Restrictions](multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md#loiod04fc0e2ad894545aebfd7126384307c__section_ph2_r5h_1cb).
+
 **Related Information**  
 
 

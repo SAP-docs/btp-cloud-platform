@@ -14,15 +14,18 @@ You can use this app to:
 
 
 
--   View general information, such as the app ID or the transaction
+-   View general information, such as the IAM app ID or the transaction
 
--   View the app description
+-   View the IAM app description
 
--   Display the assigned business catalogs
+-   Display the business catalogs to which an IAM app is assigned
 
--   Display the assigned business roles
+-   Display the business roles to which an IAM app is assigned
 
--   For external apps: View the related authorizations including authorization objects, authorization instances and authorization fields.
+-   Identify successor IAM apps for deprecated or non-deprecated IAM apps
+
+-   For external apps, you can view the related authorizations. These include authorization objects, authorization instances, and authorization fields.
+
 
 
 

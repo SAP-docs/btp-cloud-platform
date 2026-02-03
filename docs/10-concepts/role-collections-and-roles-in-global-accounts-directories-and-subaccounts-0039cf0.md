@@ -82,6 +82,9 @@ Global Account Admin
 
 Role for global account members with read-write authorizations for core commercialization operations, such as updating global accounts, setting entitlements, and creating, updating, and deleting subaccounts.
 
+> ### Note:  
+> Users with this authorization don't automatically gain administrator authorizations in all subaccounts, but can grant themselves administrator-level access. You can opt out of this feature. For more information, see [Add Members to Your Subaccount](../50-administration-and-ops/add-members-to-your-subaccount-1e1b7b6.md).
+
 The *GlobalAccount\_Admin* role template contains this role. You find the role template in the SAP BTP Cockpit if you choose the *cis-central!*<suffix\>** application identifier.
 
 > ### Example:  

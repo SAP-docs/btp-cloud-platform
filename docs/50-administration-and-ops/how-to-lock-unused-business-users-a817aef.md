@@ -18,7 +18,7 @@ You can schedule a job to automatically lock business users who haven't logged o
 
 ## Procedure
 
-1.  Open the *Schedule Locks for Unused Business Users* app.
+1.  Open the *Schedule Lock for Unused Business Users* app.
 
 2.  Click *Create*.
 

@@ -84,7 +84,7 @@ Reading out the short description of a business configuration set can be done li
 > " using an explicitly obtained local origin (without caching).
 > DATA(lo_local_origin)       = xco_cp_business_cnfgrtn_set=>origin->local( ).
 >  
-> DATA(lv_short_description_) = lo_business_configuration_set->content( )->get_short_description( lo_local_origin ).
+> lv_short_description = lo_business_configuration_set->content( )->get_short_description( lo_local_origin ).
 > ```
 
 
@@ -143,7 +143,7 @@ Consider the following code sample which illustrates how to run a `POST` operati
 >  
 >     " Process exceptions from POST operation
 >     DATA(lo_xco_gen_post_exception) = CAST cx_xco_gen_post_exception( lo_xco_runtime_exception ).
->     DATA(lt_findings) = lo_xco_gen_post_exception->findings->get( ). 
+>     lt_findings = lo_xco_gen_post_exception->findings->get( ). 
 >  
 >   ELSE.
 >  
@@ -197,7 +197,7 @@ Consider the following code sample which illustrates how to run a `POST` operati
 >  
 >     " Process exceptions from POST operation
 >     DATA(lo_xco_gen_post_exception) = CAST cx_xco_gen_post_exception( lo_xco_runtime_exception ).
->     DATA(lt_findings) = lo_xco_gen_post_exception->findings->get( ). 
+>     lt_findings = lo_xco_gen_post_exception->findings->get( ). 
 >  
 >   ELSE.
 >  
@@ -315,7 +315,7 @@ The following code example illustrates selected changes and how they can be appl
 > lo_individual_transaction_obj4->for-insert->add_entity( '$TABLE8$'
 >   )->for-insert->add_records( REF #( lt_insert_table8_records[] ) ).      
 >  
-> “ After preparing the change specification, execute the PATCH operation
+> " After preparing the change specification, execute the PATCH operation
 > TRY.
 >  
 >   DATA(lo_result) = lo_patch_operation->execute( ).

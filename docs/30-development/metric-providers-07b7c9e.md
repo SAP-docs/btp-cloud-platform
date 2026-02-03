@@ -128,7 +128,7 @@ Interface for metric provider type definitions
 </tr>
 </table>
 
-These objects are all related to the ABAP repository object called metric provider. You use metric providers as well as these released objects in ABAP Development Tools when you want to create your own metrics for health monitoring of the ABAP system.
+These objects are all related to the ABAP repository object called metric provider. You use metric providers as well as these released objects in ABAP development tools in Eclipse when you want to create your own metrics for health monitoring of the ABAP system.
 
 **Related Information**  
 

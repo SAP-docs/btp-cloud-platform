@@ -13,7 +13,7 @@ Get an overview of how to create a business role for the administrator if you ha
 If you as an administrator haven't used the Fiori apps before, you have to create an administrator business role first. Otherwise the app tiles are not visible on the Fiori Launchpad. With this role, you can create all other business roles according to the needs of your company.
 
 > ### Caution:  
-> The SAP\_BR\_ADMINISTRATOR role is pre-defined by SAP and only intended for the initial set-up of a system. Please create your own business roles based on the required business role template for productive use.
+> The SAP\_BR\_ADMINISTRATOR role is pre-defined by SAP and only intended for the initial set-up of a system. Please create your own business roles based on the required business role template.
 
 To create a business role for the administrator, proceed as follows:
 

@@ -176,6 +176,85 @@ The message contains the texts:
 </td>
 </tr>
 <tr>
+<td valign="top" rowspan="3">
+
+Events related to the creation and management of environment instances
+
+\(`Provisioning` API\)
+
+</td>
+<td valign="top">
+
+Creation of an environment instance \(for example, Cloud Foundry\)
+
+</td>
+<td valign="top">
+
+The message contains the texts:
+
+-   `\"type\":\"CREATE\"`
+
+-   The `\"entity\"` attribute contains the text `.ServiceInstance\"`
+
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Update of an environment instance
+
+</td>
+<td valign="top">
+
+The message contains the texts:
+
+-   `\"type\":\"UPDATE\"`
+
+-   The `\"entity\"` attribute contains the text `.ServiceInstance\"`
+
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Deletion of an environment instance
+
+</td>
+<td valign="top">
+
+The message contains the texts:
+
+-   `\"type\":\"DELETE\"`
+
+-   The `\"entity\"` attribute contains the text `.ServiceInstance\"`
+
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="5">
 
 Events related to the management of product entitlements and assignments across your global account, directories, and subaccounts
@@ -192,7 +271,7 @@ Assignment of a service plan to a subaccount
 
 The message contains the texts:
 
--   `\"type\":\"CREATE\"` or`\"type\":\"UPDATE\"`
+-   `\"type\":\"CREATE\"` or `\"type\":\"UPDATE\"`
 
 -   The `"entityType"` attribute contains the text `ServicePlanAssignment`.
 

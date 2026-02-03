@@ -22,7 +22,7 @@ While each pipeline is tailored to a specific signal, they all share a common st
 
 > ### Sample Code:  
 > ```
-> apiVersion: telemetry.kyma-project.io/v1alpha1
+> apiVersion: telemetry.kyma-project.io/v1beta1
 > kind: <LogPipeline | TracePipeline | MetricPipeline>     # Choose pipeline kind depending on signal type
 > metadata:
 >   name: my-observability-backend
@@ -62,7 +62,7 @@ By default, the `otlp` input is enabled for all signal types, which provisions a
 
 Additionally, you can apply specific `input` configurations for each signal type:
 
--   `LogPipeline`: The `application` input is enabled by default. Additionally, you can collect Istio access logs through the default `otlp` input. For both inputs, you can restrict from which Kubernetes resources you want to collect signals. For details, see [Configure Application Logs](configure-application-logs-412866b.md) and [Configure Istio Access Logs](configure-istio-access-logs-808c167.md).
+-   `LogPipeline`: The `runtime` input is enabled by default. Additionally, you can collect Istio access logs through the default `otlp` input. For both inputs, you can restrict from which Kubernetes resources you want to collect signals. For details, see [Configure Application Logs](configure-application-logs-412866b.md) and [Configure Istio Access Logs](configure-istio-access-logs-808c167.md).
 -   `TracePipeline`: Tracing is a push-based model, so `otlp` is the only available input. The pipeline's OTLP endpoint receives span data pushed from your applications and Istio proxies. For Istio tracing, you can configure the sampling rate and apply individual settings to namespaces or workloads \(see [Configure Istio Tracing](configure-istio-tracing-3f504d8.md)\).
 -   `MetricPipeline`: You can select which metrics are collected by enabling inputs: `prometheus` \(for scraping annotated workloads\), `runtime` \(for Kubernetes resource metrics\), and `istio` \(for service mesh metrics\). You can filter all inputs by namespace. For details, see [Collect Prometheus Metrics](collect-prometheus-metrics-0afa66a.md), [Collect Istio Metrics](collect-istio-metrics-aa786e0.md), and [Collect Runtime Metrics](collect-runtime-metrics-2c9fb6e.md).
 

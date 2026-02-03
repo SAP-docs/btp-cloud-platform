@@ -26,9 +26,6 @@ To maintain holidays, log on to the SAP Fiori launchpad in the *SAP Business Tec
 > ### Note:  
 > To start the Fiori apps, you must have the `SAP_BR_BPC_EXPERT` business role containing the`SAP_CA_BC_IC_LND_CAL_CA1_PC` business catalog assigned.
 
-> ### Note:  
-> When the communication arrangement for the Factory Calendar Integration scenario \(SAP\_COM\_0834\) is active and configured [Integrating Factory Calendar](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/integrating-factory-calendar?locale=en-US&state=DRAFT&q=integrating+factory+calendar), the maintain Apps are switched to read only.
-
 > ### Caution:  
 > The following HANA SQL functions are currently not supported:
 > 

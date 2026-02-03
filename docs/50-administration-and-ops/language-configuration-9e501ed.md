@@ -4,21 +4,27 @@
 
 
 
-With this app you can configure the languages within a system.
+With this app you can configure the set of active languages that can be used by applications.
+
+> ### Note:  
+> *Active languages* refer to the set of languages available for user interaction within applications. By default, a fixed list of 41 languages is available via the value help for languages. This list can be customized using the *Language Configuration* app.
+
+> ### Note:  
+> *Logon Languages* refer to the set of languages available for logging into the system. This set is fixed and cannot be modified using the *Language Configuration* app.
 
 
 
 ## Key Features
 
-The available language set is divided into two parts, active languages and inactive languages:
+The available language set is divided into two parts: active languages and inactive languages.
 
 -   Active languages
 
-    This list defines those languages, which are currently available to be selected by the users.
+    This list defines the set of languages that are available in the system and offered for user selection.
 
 -   Inactive languages
 
-    This list defines the set of languages, which exist in the system but are currently not offered to the users.
+    This list defines the set of languages that are available in the system but are **not** offered for user selection.
 
 
 

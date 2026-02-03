@@ -47,3 +47,5 @@ If you need support or experience issues that relate to the UI, please report an
 
 [Trigger the Registration in the SAP S/4HANA Cloud Tenant](https://help.sap.com/docs/btp/sap-business-technology-platform/trigger-registration-in-sap-s-4hana-cloud-tenant?version=Cloud)
 
+[Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](https://help.sap.com/docs/btp/sap-business-technology-platform/register-sap-s-4hana-cloud-system-in-global-account-in-sap-btp?version=Cloud)
+

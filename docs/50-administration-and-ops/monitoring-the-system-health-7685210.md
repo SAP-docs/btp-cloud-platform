@@ -83,7 +83,7 @@ Overview of metrics on one single screen
 </tr>
 </table>
 
-In addition to metrics provided by SAP, you can also define your own metrics for health monitoring using ABAP Development Tools. You can make these metrics automatically available in SAP Cloud ALM or SAP Focused Run.
+In addition to metrics provided by SAP, you can also define your own metrics for health monitoring using ABAP development tools for Eclipse \(ADT\). You can make these metrics automatically available in SAP Cloud ALM or SAP Focused Run.
 
 **Related Information**  
 

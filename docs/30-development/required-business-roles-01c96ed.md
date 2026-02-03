@@ -305,7 +305,7 @@ Different actions require different roles as well. In the process description, t
     <tr>
     <td valign="top">
     
-    AP\_A4C\_BC\_DEV\_CHKE\_APR\_PC
+    SAP\_A4C\_BC\_DEV\_CHKE\_APR\_PC
     
     </td>
     <td valign="top">

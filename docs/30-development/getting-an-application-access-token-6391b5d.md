@@ -65,6 +65,9 @@ For more information, see [JSON Web Token \(JWT\)](https://jwt.io/).
 
 You use this token to manage the SAP SaaS Provisioning service APIs.
 
+> ### Restriction:  
+> Only the POST method is supported.
+
 
 
 ## **Request**

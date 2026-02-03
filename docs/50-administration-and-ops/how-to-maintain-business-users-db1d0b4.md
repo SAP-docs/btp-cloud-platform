@@ -8,13 +8,7 @@
 
 ## Context
 
-Business users are replicated from your central HR system. You can change user data \(for example, the user name\) and regional settings \(for example, the date and time format\).
-
-  
-  
-**How users get access to SAP Fiori apps**
-
-![](images/How_users_get_access_to_SAP_Fiori_apps_9ff1771.png "How users get access to SAP Fiori apps")
+You can change user data \(for example, the user name\) and regional settings \(for example, the date and time format\).
 
 
 
@@ -26,7 +20,7 @@ Business users are replicated from your central HR system. You can change user d
 
 -   To create a new business user, proceed as follows:
 
-    1.  Choose *Create* on the main screen of the app.
+    1.  Choose *New* on the main screen of the app.
 
     2.  Select the employee you want to create the user for, and fill in the required fields.
 

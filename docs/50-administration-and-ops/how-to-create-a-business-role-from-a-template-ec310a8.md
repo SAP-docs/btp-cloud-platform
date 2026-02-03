@@ -13,7 +13,10 @@ Get an overview of how to create a business role from a template.
 Instead of creating a business role from scratch, you can also create it from a business role template.
 
 > ### Note:  
-> A business role template is defined by SAP to make it easier for you to find the business catalogs that might be relevant for the corresponding role in your company. Usually, the business role templates have a very broad job profile to show all options. SAP does not recommend using them in their full scope because the business catalogs might conflict with the roles in your company. Instead, adjust them to the tasks of the role in your company by choosing only the relevant business catalogs. We also recommend that you only use business role templates for testing and not for generating productive roles.
+> A business role template is defined by SAP to make it easier for you to find the business catalogs that might be relevant for the corresponding role in your company. Usually, the business role templates have a very broad job profile to show all options. SAP does not recommend using them in their full scope because the business catalogs might conflict with the roles in your company. Instead, adjust them to the tasks of the role in your company by choosing only the relevant business catalogs.
+
+> ### Caution:  
+> Business role templates delivered by SAP are intentionally broad and meant for testing. Before productive use, business roles based on business role templates must be customized and restricted to actual company roles to comply with the principle of least privilege.
 
 If changes to the template were included in an upgrade, the *Business Role Templates* app informs you about these changes and how they affect your business roles. For more information, see *Business Role Templates* \(Related Information\).
 
@@ -52,7 +55,7 @@ When you create a role based on a template, as a default the read and value help
 **Related Information**  
 
 
-[Business Role Templates](business-role-templates-223dfd3.md "You can use this app to you get an overview of the business role templates delivered by SAP.")
+[Business Role Templates](business-role-templates-223dfd3.md "The app provides a summary of business role templates delivered by SAP and helps determine if adaptations are needed after an upgrade.")
 
 [Step by Step: Create a New Space and Page for a Business Role](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/ab05d9e086554a08af88d6482deb1bcb.html)
 

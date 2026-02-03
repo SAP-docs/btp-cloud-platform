@@ -2,7 +2,7 @@
 
 # Configure Application Logs
 
-To collect logs that your applications write to `stdout` and `stderr`, create a `LogPipeline`. The `application` input is enabled by default and uses an agent on each node to tail container log files. You can control which namespaces and containers to include or exclude.
+To collect logs that your applications write to `stdout` and `stderr`, create a `LogPipeline`. The `runtime` input is enabled by default and uses an agent on each node to tail container log files. You can control which namespaces and containers to include or exclude.
 
 
 
@@ -19,7 +19,7 @@ To collect logs that your applications write to `stdout` and `stderr`, create a 
 
 ## Context
 
-Use the `application` input section to restrict or specify which resources you want to include. You can define the namespaces to include in the input collection, exclude namespaces from the input collection, or choose that only system namespaces are included. For details, see [LogPipeline: Custom Resource Parameters](https://kyma-project.io/#/telemetry-manager/user/resources/02-logpipeline?id=custom-resource-parameters).
+Use the `runtime` input section to restrict or specify which resources you want to include. You can define the namespaces to include in the input collection, exclude namespaces from the input collection, or choose that only system namespaces are included. For details, see [LogPipeline: Custom Resource Parameters](https://kyma-project.io/#/telemetry-manager/user/resources/02-logpipeline?id=custom-resource-parameters).
 
 When you apply the `LogPipeline` resource to your Kubernetes cluster, a log agent is deployed and starts collecting the log data, transforms them to OTLP, and sends them to your backend. For details, see [Transformation to OTLP Logs](transformation-to-otlp-logs-d013ab9.md).
 
@@ -29,12 +29,12 @@ When you apply the `LogPipeline` resource to your Kubernetes cluster, a log agen
 
 ## Enable or Disable Log Collection
 
-The `application` input is enabled by default. To create a pipeline that only accepts logs pushed with OTLP, you can disable it.
+The `runtime` input is enabled by default. To create a pipeline that only accepts logs pushed with OTLP, you can disable it.
 
 ```
   ...
   input:
-    application:
+    runtime:
       enabled: false     # Default is true
 ```
 
@@ -56,7 +56,7 @@ To reduce data volume, you can disable this behavior. Set the parameter to `fals
 ```
 ...
   input:
-    application:
+    runtime:
       keepOriginalBody: false     # Default is true
 ```
 

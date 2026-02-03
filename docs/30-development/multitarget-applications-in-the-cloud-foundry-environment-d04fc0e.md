@@ -294,7 +294,14 @@ You have to consider the following limits for the MTA artifacts, which can be ha
 -   Maximum size of MTA module content: 1 GB
 -   Maximum size of MTA resource content: 1 MB
 -   Maximum size of MTA descriptors \(`mtad.yaml` and `MANIFEST.MF`\): 1 MB
--   Maximum size of deployments which use multiple MTA archives: 20GB. This restriction is applicable only in transport scenarios via cTMS or CTS+, where one transport request with multiple MTAs results in a single deployment process in SAP Cloud Deployment service.
+-   Limitations for transport scenarios via SAP Cloud Transport Management, where one transport import with multiple transport requests results into a single deployment process in SAP Cloud Deployment service with multiple MTAs:
+    -   The total size of all MTA archives in a single import request cannot exceed 20GB.
+    -   The maximum number of MTA archives used in a single import request cannot exceed 100.
+
+-   Limitations for transport scenarios via the Enhanced Change and Transport System \(CTS+\), where one transport import with multiple transport requests results into a single deployment process in SAP Cloud Deployment service with multiple MTAs:
+    -   The total size of all MTA archives in multiple transport requests per one import cannot exceed 4GB.
+    -   The maximum number of MTA archives used in a single import request cannot exceed 500.
+
 
 
 

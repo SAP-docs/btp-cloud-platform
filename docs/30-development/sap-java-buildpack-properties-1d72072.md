@@ -552,6 +552,38 @@ env:
 <tr>
 <td valign="top">
 
+MALLOC\_ARENA\_MAX
+
+</td>
+<td valign="top">
+
+It's used by the *glibc* memory allocator \(in the default `malloc()` function in Linux\). It controls the maximum number of memory arenas \(heaps\) that a process can create.
+
+An arena is a private memory pool used by threads to reduce lock contention when many threads allocate memory at the same time.
+
+</td>
+<td valign="top">
+
+Default value: **2**
+
+This is also the *recommended* value for SAP Java Buildpack.
+
+</td>
+<td valign="top">
+
+```
+
+env:
+  MALLOC_ARENA_MAX: 4
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SET\_LOGGING\_LEVEL
 
 </td>

@@ -4,7 +4,7 @@
 
 
 
-You can either apply [3548772](https://me.sap.com/notes/3548772) in the **checked system** to get all relevant authorizations for your RFC user or, alternatively, check the table below.
+You can either apply SAP Note [3548772](https://me.sap.com/notes/3548772) in the **checked system** to get all relevant authorizations for your RFC user or, alternatively, check the table below.
 
 ****
 
@@ -159,6 +159,14 @@ Value
 <td valign="top">
 
 `03` \(Display\)
+
+> ### Note:  
+> To launch **ABAP unit tests**, you need the following authorizations:
+> 
+> -   `S_DEVELOP` with ACTVT = 'EU' \(Automated Tests\) or ACTVT = '16' \(Execute\).
+> -   If a language version check is active in your system, you also need: `S_ABPLNGVS` with ABP\_LNG\_VS = '5' and ACTVT = 'EU' or ACTVT = '16'.
+
+
 
 </td>
 </tr>

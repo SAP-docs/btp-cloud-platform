@@ -34,6 +34,6 @@ When you're planning, for example, system capacities or facing performance issue
 
     ![](images/SUI_ABAP_Resource_Utilization_-_3_d026d7b.png)
 
-    For more information about the *System Workload* screen, see [System Workload](https://help.sap.com/viewer/tmc_cloud/178c9777ad174bf5a2710312f009745a.html).
+    For more information, see [System Workload](https://help.sap.com/viewer/tmc_cloud/178c9777ad174bf5a2710312f009745a.html).
 
 

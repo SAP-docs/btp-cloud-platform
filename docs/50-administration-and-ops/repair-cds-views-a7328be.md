@@ -4,7 +4,7 @@
 
 
 
-With this app you can view and repair the CDS views that are in inconsistent state.
+With this app you can view and repair the CDS views that are in inconsistent state and update entities of the logical external schemas.
 
 
 
@@ -20,6 +20,7 @@ You can use this app to:
 
 -   **Repair** the inconsistent views
 
+-   **Update** entities of the logical external schemas
 
 In addition, the app allows you to export the CDS views to spreadsheets.
 
@@ -38,5 +39,5 @@ In addition, the app allows you to export the CDS views to spreadsheets.
 
 ## Component for Customer Incidents
 
-If you need support or experience issues, please report an incident under component `BC-DWB-DIC`.
+If you need support or experience issues, please report an incident under component `BC-DWB-DIC-ADM`.
 

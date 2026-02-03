@@ -22,7 +22,7 @@ For more information, see [Creating Business Configuration Apps with ABAP RESTfu
 
 The wizard distinguishes between three types of tables:
 
--   The basis database table in which context the wizard is executed
+-   The basis database table where you run the wizard with
 
 -   \(Optional\) Additional tables with a foreign key relation of type `#KEY` to the basis database table
 
@@ -40,7 +40,7 @@ All tables must fulfill the following requirements:
 -   \(optional\) have a timestamp field with data element `ABP_LOCINST_LASTCHANGE_TSTMPL`. If the table doesn't contain this field, the concurrency control is not active
 
 
-The basis database table must also meet the following requirements:
+The basis databse table must also meet the following requirements:
 
 -   have a timestamp field with data element `ABP_LASTCHANGE_TSTMPL`. For more information, see [RAP Reuse Data Elements](https://help.sap.com/docs/SAP_S4HANA_CLOUD/e5522a8a7b174979913c99268bc03f1a/84bd58e2b9354be4a7a1c91cb687815c.html). If the table doesn't contain this field, the entire ETag is handled by CDS entity `I_CstmBizConfignLastChgd`
 
@@ -125,11 +125,11 @@ Select to include a Deprecate and Invalidate action in the generated app. The ta
 
 Select this option to include a *Validation* for the *Prepare* draft action in the generated app, which checks the consistency of field inputs with:
 
--   regular type checks for all fields of the entity and, if possible, the fixed value and foreign key checks specified in the ABAP Dictionary.
+-   regular type checks for all fields of the entity and, if possible, the fixed value and foreign key checks specified in the ABAP Dictionary
 
--   foreign key checks are performed if the annotation `@AbapCatalog.foreignKey.screenCheck : true` is used and the check table is not part of the RAP business object. The foreign key table must be the table itself in which the foreign key relation is defined, `SY` or `SYST`.
+-   Foreign key checks are performed if the annotation `@AbapCatalog.foreignKey.screenCheck : true` is used and the check table is not part of the RAP business object. The foreign key table must be the table itself in which the foreign key relation is defined, `SY` or `SYST`.
 
--   the end of character-like key fields is checked for invalid characters like vertical or horizontal tab
+-   The end of character-like key fields is checked for invalid characters like vertical or horizontal tab.
 
 
 
@@ -178,7 +178,7 @@ Enter the name of the maintenance object.
 
 ### Transport Object
 
-You must specify the name of a transport object. A transport object of type `Individual Transaction` is generated. Configuration changes are recorded under this transport object instead of as a `TABU`.
+You must specify the name of a transport object. A transport object of type `Individual Transaction` is generated. Configuration changes are recorded under this transport object.
 
 
 
@@ -299,7 +299,7 @@ If you execute the wizard in the context of the table /DMO/STATUSCLASS, the text
 
 Due to the foreign key definition, you can also add the Status Code and Status Code Text table manually.
 
-![](images/ABAP_Repository_Objects_Wizard_501117a.png)
+![](images/Generate_BC_Object_with_Object_Wizard_4c11fef.png)
 
 The resulting table maintenance application then looks like this:
 

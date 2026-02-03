@@ -28,6 +28,8 @@ Use the *Open* link in the *SAP BTP Cockpit* column. It contains a URL for the u
 > ### Example:  
 > *https://emea.cockpit.btp.cloud.sap/cockpit/?idp=mytenant.accounts.ondemand.com*
 
+Otherwise platform users access the cockpit without this URL parameter. For more information, see [Access the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/access-cockpit).
+
 
 
 <a name="loio0bef9822f5cc40e2b48303e51bec6b94__steps_cyc_rcf_fvb"/>

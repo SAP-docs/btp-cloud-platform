@@ -78,13 +78,13 @@ Choose one of the following methods to configure shipping for application and ac
 
         ```
         kubectl apply -f - <<EOF
-        apiVersion: telemetry.kyma-project.io/v1alpha1
+        apiVersion: telemetry.kyma-project.io/v1beta1
         kind: LogPipeline
         metadata:
           name: sap-cloud-logging
         spec:
           input:
-            application:
+            runtime:
               enabled: true
           output:
             otlp:
@@ -114,13 +114,13 @@ Choose one of the following methods to configure shipping for application and ac
 
         ```
         kubectl apply -f - <<EOF
-        apiVersion: telemetry.kyma-project.io/v1alpha1
+        apiVersion: telemetry.kyma-project.io/v1beta1
         kind: LogPipeline
         metadata:
           name: sap-cloud-logging-application-logs
         spec:
           input:
-            application:
+            runtime:
               containers:
                 exclude:
                   - istio-proxy
@@ -176,13 +176,13 @@ By default, Istio sidecar injection and Istio access logs are disabled in Kyma. 
 
             ```
             kubectl apply -f - <<EOF
-            apiVersion: telemetry.kyma-project.io/v1alpha1
+            apiVersion: telemetry.kyma-project.io/v1beta1
             kind: LogPipeline
             metadata:
               name: sap-cloud-logging-access-logs
             spec:
               input:
-                application:
+                runtime:
                   containers:
                     include:
                       - istio-proxy
@@ -241,7 +241,7 @@ You can set up ingestion of distributed traces from applications and the Istio s
 
     ```
     kubectl apply -f - <<EOF
-    apiVersion: telemetry.kyma-project.io/v1alpha1
+    apiVersion: telemetry.kyma-project.io/v1beta1
     kind: TracePipeline
     metadata:
       name: sap-cloud-logging
@@ -304,7 +304,7 @@ You can set up ingestion of metrics from applications and the Istio service mesh
 
     ```
     kubectl apply -f - <<EOF
-    apiVersion: telemetry.kyma-project.io/v1alpha1
+    apiVersion: telemetry.kyma-project.io/v1beta1
     kind: MetricPipeline
     metadata:
       name: sap-cloud-logging

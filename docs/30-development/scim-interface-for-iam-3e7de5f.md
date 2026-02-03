@@ -8,7 +8,7 @@ SCIM stands for System for Cross-domain Identity Management. It is an open stand
 
 
 
-You can use this interface provided by the communication scenario SAP\_COM\_0465 to maintain and retrieve business users in your Cloud system and assign business roles and business user groups to them.
+You can use this interface provided by the communication scenario `SAP_COM_0465` to maintain and retrieve business users in your Cloud system and assign business roles and business user groups to them.
 
 
 
@@ -46,6 +46,14 @@ The following singular attributes are defined:
     -   *active*: Global user ID currently actively in use
 
 
+-   *language*: Contains different languages
+    -   *correspondence*: The worker’s correspondence language
+
+-   *localeSettings*: Describes the local settings
+    -   *numericalRepresentation*: defines how numbers are represented
+    -   *date*: defines how dates are represented
+    -   *time*: defines how times are represented
+
 
 Example
 
@@ -66,6 +74,60 @@ Example
 >             "active" : false
 >           }
 >         ]
+>       }
+>         ],
+>         "language": {
+>           "correspondence": "EN"
+>         },
+>         "localeSettings": {
+>           "numericalRepresentation": "1.234.567,89",
+>           "date": "DD.MM.YYYY (Gregorian Date)",
+>           "time": "24 Hour Format (Example: 12:05:10)"
+>         }
+>       }
+> 
+> ```
+
+Extension name:*urn:ietf:params:scim:schemas:extension:sap.erp.worker:2.0:User*
+
+The following singular attributes are defined:
+
+-   *personalInformation*: Contains the personal information of a worker
+    -   *additionalLastName*: Contains the additional last name
+    -   *birthName*: Contains the birth name
+    -   *initials*: Contains the initials
+    -   *lastNamePrefix*: Contains the last name prefix
+    -   *lastNameSecondPrefix*: Contains the second prefix of the last name
+    -   *nameSupplement*: Contains the name supplement
+    -   *academicSecondTitle*: Contains the academic second title
+
+-   *validity*: Contains the validity of the worker
+    -   *startDate*: Contains the start date
+    -   *endDate*: Contains the end date
+
+-   *workplace*: Contains the work place
+    -   *functionalTitleName*: Contains the name of the functional title
+
+
+> ### Sample Code:  
+> ```
+> "urn:ietf:params:scim:schemas:extension:sap.erp.worker:2.0:User": {
+>         "personalInformation": {
+>           "additionalLastName": "Musterextra",
+>           "birthName": "Geburtsname",
+>           "initials": "MM",
+>           "lastNamePrefix": "von",
+>           "lastNameSecondPrefix": "von",
+>           "nameSupplement": "Graf",
+>           "academicSecondTitle": "Dr."
+>         },
+>         "validity": {
+>           "startDate": "2025-11-14T09:02:49.044Z",
+>           "endDate": "2025-11-14T09:02:49.044Z"
+>         },
+>         "workplace": {
+>           "functionalTitleName": "Functional Title Name"
+>         }
 >       }
 > 
 > ```
@@ -88,6 +150,11 @@ Example
 >  "supportedOperations": "membership"
 > }
 > ```
+
+
+
+> ### Note:  
+> For groups of the *userGroup* type, a user can have only one assignment at a time. If a user is assigned to a new group of the *userGroup* type, the previous assignment of the same type will be automatically removed, and the user will be exclusively assigned to the newly selected group.
 
 
 

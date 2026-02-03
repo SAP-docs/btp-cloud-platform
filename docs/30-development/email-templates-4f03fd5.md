@@ -2,9 +2,9 @@
 
 # Email Templates
 
-An email template is a development object that contains HTML or text content.
+An email template is a development object that serves as a predefined layout for generating and automatically sending emails from SAP applications.
 
-These templates can be populated with placeholders during the creation process, using the backend editor in the ABAP development tools for Eclipse. These placeholders are replaced with actual content during runtime when emails are sent out using the template. This allows for the mass sending of emails containing different, recipient-specific data.
+Email templates can be created using the editor in ABAP Development Tools \(ADT\) for Eclipse. During template creation, placeholders can be inserted to enable dynamic content, such as recipient names or other message-specific details. At runtime, when emails are generated from the template, these placeholders are automatically replaced with actual values. The placeholders correspond to fields in the referenced Core Data Services \(CDS\) view, and the actual values are determined based on the key values provided during execution. This approach enables the mass distribution of emails with personalized, recipient-specific information.
 
-The creation of these templates is only possible in the ADT editor. Each email template is of type `predefined templates`, which means they have been created as a development object and are transportable. They can be used for rendering emails as soon as they've been activated.
+Each email template is a transportable development object and can include both HTML and plain text content. Once activated, templates are ready to be used for rendering and sending emails.
 

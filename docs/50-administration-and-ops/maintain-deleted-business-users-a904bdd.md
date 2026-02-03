@@ -8,6 +8,12 @@ With this app you can display details of deleted business users, such as the ret
 
 
 
+## Prerequisites
+
+To access the app, you need to have the `SAP_CORE_BC_IAM_UMD` business catalog assigned to your user.
+
+
+
 ## Key Features
 
 You can use this app to:
@@ -20,9 +26,6 @@ You can use this app to:
 -   Change the re-creation status from *Allowed*to *Not Allowed*or the other way round.
 
 -   View system deletion checks to find out if a user can be permanently deleted or if it is still used or to check why blocked user data wasn't destroyed.
-
-    > ### Note:  
-    > To access the *Maintain Deleted Business Users* app, you need to assign the `SAP_CORE_BC_IAM_UMD` business catalog to the particular business role.
 
 
 

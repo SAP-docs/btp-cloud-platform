@@ -4,10 +4,16 @@
 
 
 
-With this app you can view all sessions containing locks in the current system. You can also display further information, such as associated business users. If required, you can delete a session, for example if it is blocking an app.
+With this app administrators can monitor and control users’ logon sessions in the system. You can filter by user ID or name, see when each session was last used, the session index, how many locks it holds, and the client/device IP address. From the list, admins can select sessions and delete/end them to free locks, resolve stuck processes, reclaim resources, and support security or troubleshooting activities.
 
 > ### Caution:  
-> Please note that it is not possible to delete sessions that are related to drafts.
+> If sessions are related to drafts they cannot be deleted.
+
+
+
+## Prerequisites
+
+To access the app, you need to have the `SAP_CORE_BC_CST_DP_MAS_PC` business catalog assigned to your user.
 
 
 
@@ -17,17 +23,13 @@ You can use this app to:
 
 
 
--   View details of the sessions, such as user IDs, user names, or number of locks
+-   View details of users’ logon sessions in the system, such as user IDs, user names, or number of locks, and client/device IP addresses.
 
--   Delete sessions if required
+-   Delete sessions if required.
 
+    > ### Caution:  
+    > The business user does not get a warning message when a session is deleted. Therefore, we recommend that you do this with caution.
 
-> ### Note:  
-> Please note that the business user does not get a warning message when a session is deleted. Therefore, we recommend that you do this with caution.
-
-The following business catalog is required to make this app visible:
-
-*System Management – Sessions* \(`SAP_CORE_BC_CST_DP_MAS_PC`\)
 
 
 

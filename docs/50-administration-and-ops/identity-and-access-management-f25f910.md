@@ -6,7 +6,7 @@ Identity and Access Management \(IAM\) enables you to control user access to app
 
 
 
-The main elements of IAM are business catalogs, business roles, and business users.
+The main elements of IAM are business catalogs, business roles, and business users. The IAM apps secure the access to your solution based on these elements. For more information about how these elements interrelate, refer to [Business Roles, Business Catalogs, App Authorization Variants, Restrictions](https://help.sap.com/docs/SAP_S4HANA_CLOUD/53e36b5493804bcdb3f6f14de8b487dd/d45c96e6d9e2426187920bffb3287f45.html).
 
 Access to business apps is controlled by a role-based authorization management. That means you assign business roles to users and these business roles provide access to certain business tasks.
 
@@ -38,7 +38,6 @@ If you need support or experience issues, please report an incident under compon
 
 To have access to these apps, your user needs to be assigned to a business role which contains one of the following business catalogs:
 
--   *Identity and Access Management* \(SAP\_CORE\_BC\_IAM\)
 -   *User Management* \(SAP\_CORE\_BC\_IAM\_UM\)
 -   *Role Management* \(SAP\_CORE\_BC\_IAM\_RM\)
 -   *Role Assignment* \(SAP\_CORE\_BC\_IAM\_RA\)
@@ -50,15 +49,15 @@ For more information, see sections *Maintain Business Users* and *Business Catal
 
 [Maintain Business Users](maintain-business-users-e40e710.md "You use this app to provide business users with access rights and to maintain business user settings.")
 
-[Display Technical Users](display-technical-users-7fb79d7.md "This app shows all technical users that exist in the system. To call the app, log on to your SAP Fiori launchpad and go to Identity and Access Management > Display Technical Users .")
+[Display Technical Users](display-technical-users-7fb79d7.md "This app shows all technical users that exist in the system.")
 
 [Business Catalogs](business-catalogs-dd0abf5.md "You use this app to display all available business catalogs.")
 
 [IAM Information System](iam-information-system-82d17cf.md "With this app you can get an overview of business users in your system and what roles and restrictions are assigned to them.")
 
-[Business Role Templates](business-role-templates-223dfd3.md "You can use this app to you get an overview of the business role templates delivered by SAP.")
+[Business Role Templates](business-role-templates-223dfd3.md "The app provides a summary of business role templates delivered by SAP and helps determine if adaptations are needed after an upgrade.")
 
-[Business Catalogs for Identity and Access Management Apps](business-catalogs-for-identity-and-access-management-apps-9bbbfc7.md "Get an overview of available business role catalogs and their restrictions.")
+[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Get an overview of available business catalogs and their restrictions.")
 
 [Maintain Deleted Business Users](maintain-deleted-business-users-a904bdd.md)
 
@@ -71,4 +70,8 @@ For more information, see sections *Maintain Business Users* and *Business Catal
 [Display Restriction Types](display-restriction-types-9203905.md "You can use this app to display restriction types and their validity.")
 
 [Maintain Business Roles](maintain-business-roles-8980ad0.md)
+
+[Business Roles, Business Catalogs, App Authorization Variants, Restrictions](business-roles-business-catalogs-app-authorization-variants-restrictions-d45c96e.md "")
+
+[SAP Fiori Apps Reference Library - User Guide](https://help.sap.com/docs/SAP%20Fiori%20Apps%20Reference%20Library/187a50cf8191418ab7b52505fcef1789/5a8c8240cd43410ea3e3ea6cb901dab7.html)
 

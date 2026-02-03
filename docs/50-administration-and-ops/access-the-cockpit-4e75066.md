@@ -17,3 +17,13 @@ Navigate to [https://cockpit.btp.cloud.sap](https://cockpit.btp.cloud.sap) to ac
 > 
 > For more information, see [Log On with a Custom Identity Provider to the SAP BTP Cockpit](log-on-with-a-custom-identity-provider-to-the-sap-btp-cockpit-0bef982.md).
 
+
+
+### Accessing the cockpit from China
+
+Users accessing SAP BTP cockpit from China must use a dedicated regional entry point.
+
+Use the following URL to access the cockpit: [https://cockpit.cn40.platform.sapcloud.cn](https://cockpit.cn40.platform.sapcloud.cn)
+
+You will receive an email from **ias-notification@sapcloudplatform.cndatacom.com** to activate your user before logging in.
+

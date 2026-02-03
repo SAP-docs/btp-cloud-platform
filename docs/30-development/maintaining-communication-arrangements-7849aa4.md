@@ -12,7 +12,7 @@ A communication arrangement describes a communication scenario with a remote sys
 
 To create these communication arrangements, you need the `Administrator` role.
 
-You have created a destination to your on-premise system in the *Cloud Connector* that is connected to your BTP subaccount.
+You have created a destination to your on-premise system in the *Cloud Connector* that is connected to your SAP BTP subaccount.
 
 
 
@@ -61,7 +61,7 @@ To do this, you need to use the communication arrangement `SAP_COM_0464` \(SAP C
     9.  Choose *Create* and then *Save* to save the communication system and to be navigated back to the Communication Arrangement creation page.
 
 
-6.  Under *Additional Properties*, fill out the fields *Object Provider* and *System Group* \(both freely selectable\). This is the name you then select as your *Object Provider to Remote System* for your custom code migration project in the `Custom Code Migration` app.
+6.  Under *Additional Properties*, fill out the fields *Object Provider* and *System Group* \(both freely selectable\). This is the name you then select as your *Object Provider to Remote System* for your custom code migration project in the `Analyze Custom Code` app.
 
 7.  Under *Outbound Services* \> *Retrieve Custom Code*, ensure that the *Service Status* is set to *Active*.
 
@@ -74,5 +74,5 @@ To do this, you need to use the communication arrangement `SAP_COM_0464` \(SAP C
 
 ## Results
 
-You can now select the communication arrangement in the *Object Provider to Remote System* field in the `Custom Code Migration` app to establish the connection to your on-premise system.
+You can now select the communication arrangement in the *Object Provider to Remote System* field in the `Analyze Custom Code` app to establish the connection to your on-premise system.
 

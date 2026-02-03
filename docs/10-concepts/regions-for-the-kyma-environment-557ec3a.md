@@ -279,8 +279,6 @@ Europe \(Frankfurt\)
 
 `azure_lite`
 
-`build-runtime-azure`
-
 </td>
 </tr>
 <tr>
@@ -316,8 +314,6 @@ UK South \(London\)
 `azure`
 
 `azure_lite`
-
-`build-runtime-azure`
 
 </td>
 </tr>

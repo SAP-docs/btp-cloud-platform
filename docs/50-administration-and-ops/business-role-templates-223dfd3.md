@@ -2,11 +2,14 @@
 
 # Business Role Templates
 
-You can use this app to you get an overview of the business role templates delivered by SAP.
+The app provides a summary of business role templates delivered by SAP and helps determine if adaptations are needed after an upgrade.
 
 
 
-With this app you can get an overview of the delivered business role templates, any changes included in upgrade, and whether you need to adapt your business roles to these changes. For example, after an upgrade, you can check if the business role templates have changed and are therefore different from the existing business role - a new business catalog might have been added or an existing catalog replaced by another. You can see which business roles were affected by the changes and adapt them if required.
+With this app you can get an overview of the business role templates delivered by SAP, any changes included in upgrade, and whether you need to adapt your business roles to these changes. For example, after an upgrade, you can check if the business role templates have changed and are therefore different from the existing business role - a new business catalog might have been added or an existing catalog replaced by another. You can see which business roles were affected by the changes and adapt them if required.
+
+> ### Caution:  
+> Business role templates delivered by SAP are intentionally broad and meant for testing. Before productive use, business roles based on business role templates must be customized and restricted to actual company roles to comply with the principle of least privilege.
 
 
 

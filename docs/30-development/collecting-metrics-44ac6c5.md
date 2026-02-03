@@ -43,7 +43,7 @@ Metric collection is optional. If you don't create a `MetricPipeline`, the metri
 For a minimal setup, you only need to create a `MetricPipeline` that specifies your backend destination \(see [Integrate With Your OTLP Backend](integrate-with-your-otlp-backend-e726417.md)\):
 
 ```
-apiVersion: telemetry.kyma-project.io/v1alpha1
+apiVersion: telemetry.kyma-project.io/v1beta1
 kind: MetricPipeline
 metadata:
   name: backend

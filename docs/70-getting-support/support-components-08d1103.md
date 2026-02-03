@@ -3314,6 +3314,7 @@ Create role based, multi-channel sites to access business apps and content.
 -   US West \(Colorado\)
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
+-   US \(Sterling\)
 
 
 
@@ -3441,6 +3442,8 @@ Create role based, multi-channel sites to access business apps and content.
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
 -   China \(North 3\)\*\*
+-   UK South \(London\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -4426,6 +4429,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   Europe \(Rot\)
 -   UAE \(Dubai\)
 -   Australia \(Sydney\)
+-   Japan \(Tokyo\)
 -   US West \(Colorado\)
 
 
@@ -5920,6 +5924,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   Europe \(Frankfurt\) EUA only
 -   Europe \(Rot\)
 -   UAE \(Dubai\)
+-   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   US West \(Colorado\)
 
@@ -12255,6 +12260,7 @@ Simplify access to applications by establishing a central entry point.
 -   US West \(Colorado\)
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
+-   US \(Sterling\)
 
 
 
@@ -12382,6 +12388,8 @@ Simplify access to applications by establishing a central entry point.
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
 -   China \(North 3\)\*\*
+-   UK South \(London\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -14206,6 +14214,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   Europe \(Rot\)
 -   UAE \(Dubai\)
 -   Australia \(Sydney\)
+-   Japan \(Tokyo\)
 -   US West \(Colorado\)
 
 
@@ -14637,6 +14646,8 @@ Add UI adaptation to your UI5 applications.
 -   Brazil \(São Paulo\)
 -   China \(North 3\)\*\*
 -   Canada Central \(Toronto\)
+-   UK South \(London\)
+-   Europe \(Frankfurt\)
 
 
 

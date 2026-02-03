@@ -6,7 +6,7 @@ With this app you can get an overview of business users in your system and what 
 
 
 
-With this app you can display information about the usage of business roles, business catalogs, business users and restrictions, and how they are related.
+With this app you can display information about the usage of business roles, IAM apps, business catalogs, business users and restrictions, and how they are related.
 
 If you want to look up more information about a business role, derived business role, business user, business catalog, business role template or restriction, you can jump directly to the respective app by clicking the entity.
 
@@ -22,9 +22,9 @@ You can use this app to:
 
 
 
--   Check the usage of the following entities and how they are related: Business role, derived business role, business role template, application, business user, business catalog, restriction, launchpad space, launchpad page.
+-   Check the usage of the following entities and how they are related: Business role, derived business role, business role template, IAM app, business user, business catalog, restriction, launchpad space, launchpad page.
 
--   Check, for example, which business roles are assigned to a business user, which business catalogs and restrictions are therefore assigned to the business user and to which applications a user has access. You can also download a list of business users and business catalogs.
+-   Check, for example, which business roles are assigned to a business user, which business catalogs and restrictions are therefore assigned to the business user and to which apps a user has access. You can also download a list of business users and business catalogs.
 
 -   Check, for example, which business roles and business catalogs are required to make a certain app visible for a business user on the SAP Fiori Launchpad.
 
