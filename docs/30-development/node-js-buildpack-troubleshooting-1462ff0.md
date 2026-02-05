@@ -56,7 +56,7 @@ XSJS applications use the [@sap/fibers](https://www.npmjs.com/package/@sap/fiber
 
 To keep your XSJS applications up and running on latest Node.js versions, you need to migrate them to the new XSJS layer with an asynchronous API. To learn how to do this, see:
 
--    <?sap-ot O2O class="- topic/xref " href="40ded9d449124946b9a36e3d43e4c982.xml" text="" desc="" xtrc="xref:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/1462ff0fa7f04839a96c51d968d15b34.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
+-   [Migrating Applications from XSJS to Async-XSJS](migrating-applications-from-xsjs-to-async-xsjs-40ded9d.md)
 
 -   [SAP HANA 2 - ASYNC XS JavaScript API Reference](https://help.sap.com/doc/215e6913c0e44223b2842f16c927ec6d/2.0.07/en-US/index.html)
 

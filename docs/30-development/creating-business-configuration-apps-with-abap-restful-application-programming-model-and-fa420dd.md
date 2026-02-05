@@ -6,7 +6,7 @@ As an ABAP Developer you can leverage the *ABAP RESTful Application Programming 
 
 For more information, see this [tutorial](https://developers.sap.com/group.abap-env-factory.html).
 
-![](images/4b00a83e7bb84eb89e11277139af3ac3.image)
+![](images/Develop_BC_Apps_with_RAP_and_CUBCO_4b00a83.png)
 
 The development of a business configuration maintenance Fiori UI requires developers to perform the following fundamental activities:
 

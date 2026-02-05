@@ -29,7 +29,7 @@ The Telemetry module now uses the stable *v1beta1* API for pipeline resources. I
 If you manage your Telemetry pipeline resources declaratively, you must manually adjust them; for example, in the following cases:
 
 -   You use GitOps, CI/CD, or tools like Argo CD to deploy your pipelines.
--   You store pipeline manifests in a Git repository that you re-apply.
+-   You store pipeline manifests in a Git repository that you reapply.
 -   You plan to create new pipelines and want to use the *v1beta1* API.
 
 This migration involves breaking changes: To align your pipeline manifests with the new version, you must update the `apiVersion`, rename several fields, and, for `LogPipeline` resources, adjust how you configure namespace selection. The migration from v1alpha1 to v1beta1 mostly affects `LogPipeline` and `MetricPipeline` resources. For `TracePipeline` resources, only the `apiVersion` changes.

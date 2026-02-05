@@ -229,6 +229,7 @@
                     -   [SAP Java Buildpack: Properties](30-development/sap-java-buildpack-properties-1d72072.md)
                     -   [SAP Java Buildpack: Troubleshooting](30-development/sap-java-buildpack-troubleshooting-ee609aa.md)
                 -   [Developing Node.js in the Cloud Foundry Environment](30-development/developing-node-js-in-the-cloud-foundry-environment-3a7a0be.md)
+                    -   [Migrating Applications from XSJS to Async-XSJS](30-development/migrating-applications-from-xsjs-to-async-xsjs-40ded9d.md)
                     -   [Tips and Tricks for Node.js Applications](30-development/tips-and-tricks-for-node-js-applications-3a5fe88.md)
                     -   [Node.js Buildpack: Troubleshooting](30-development/node-js-buildpack-troubleshooting-1462ff0.md)
                 -   [Developing Python in the Cloud Foundry Environment](30-development/developing-python-in-the-cloud-foundry-environment-acf8f49.md)
