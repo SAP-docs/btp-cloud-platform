@@ -363,7 +363,7 @@ Build your first add-on version. See [Build the First Add-On Version](build-2504
 
 Create a maintenance branch.
 
-Create an API snapshot.
+Download API snapshot from add-on build system to upload in other systems.
 
 Configure the addon.yml file.
 
@@ -372,7 +372,7 @@ Trigger the add-on product build/test/release.
 </td>
 <td valign="top">
 
-Add-on administrator to create maintenance branch, configure addon.yml file, and trigger build pipeline
+Add-on administrator: create maintenance branch, configure addon.yml file, and trigger build pipeline
 
 </td>
 </tr>
@@ -789,9 +789,9 @@ Create a new patch version, support package version, or release/product version.
 </td>
 <td valign="top">
 
--   Developer to implement update and double-maintenance
--   Test user to verify changes in test systems
--   Add-on administrator to check out maintenance branch, to create API snapshots and to set the same as check-relevant, to import software components into test systems, and to configure the addon.yml file
+-   Developer: implement update and double-maintenance
+-   Test user: verify changes in test systems
+-   Add-on administrator: check out maintenance branch, download API snapshots from the add-on build system as well as upload them to other systems, set the uploaded API snapshot as check-relevant, import software components into test systems, and configure the addon.yml file
 
 
 

@@ -62,7 +62,7 @@ The add-on administrator is responsible for everything related to the add-on pro
 
 -   Checking out maintenance branch in correction system COR and quality assurance system QAS using the *Manage Software Components* app.
 
--   Creating API snapshots using the Manage API Snapshots app to allow running compatibility checks for released objects.
+-   Using the Manage API Snapshots app: Downloading API snapshots from the add-on build system, uploading these snapshots to other systems, and setting the snapshots as check-relevant to allow running compatibility checks for released objects
 
 
 

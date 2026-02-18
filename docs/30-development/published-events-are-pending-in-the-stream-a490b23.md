@@ -26,15 +26,13 @@ Sometimes replicas can go out of sync with the other replicas. As a result, mess
 
 ## Solution
 
+
+
+### 1. Trigger Consumer Leader Reelection
+
 To fix the "broken" consumers with pending messages, trigger a leader reelection. You can do this either on the consumers that have pending messages, or if that fails, on the stream level.
 
 You need the latest version of [NATS CLI](https://github.com/nats-io/natscli) and access to the NATS server \(see [Accessing the NATS Server Using CLI](accessing-the-nats-server-using-cli-8eefbd5.md)\).
-
-
-
-### **Consumer Leader Reelection**
-
-First, find out which consumers have pending messages.
 
 1.  Port forward to a NATS replica.
 
@@ -84,33 +82,34 @@ First, find out which consumers have pending messages.
 
 
 
-### **Stream Leader Reelection**
+### 2. Stream Leader Reelection
 
 Sometimes triggering the leader reelection on the broken consumers doesn't work. In that case, you must restart the NATS Pods to trigger leader reelection on the stream level.
 
-1.  Command the stream to step down.
+Command the stream to step down.
 
-    ```
-    nats stream cluster step-down sap
-    ```
+```
+nats stream cluster step-down sap
+```
 
-2.  Check that your result looks like the following example:
+**Result:**
 
-    ```
-    11:08:22 Requesting leader step down of "eventing-nats-1"in a 3 peer RAFT group
-    11:08:23 New leader elected "eventing-nats-0"
-    
-    Information for Stream sap created 2022-10-24 15:47:19
-    
-                 Subjects: kyma.>
-                 Replicas: 3
-                  Storage: File
-    ```
+You should get a result similar to the following example:
+
+```
+11:08:22 Requesting leader step down of "eventing-nats-1"in a 3 peer RAFT group
+11:08:23 New leader elected "eventing-nats-0"
+
+Information for Stream sap created 2022-10-24 15:47:19
+
+             Subjects: kyma.>
+             Replicas: 3
+              Storage: File
+```
 
 
 
-
-### **Restart the NATS Pods**
+### 3. Restart the NATS Pods
 
 If none of the previous steps work, perform a restart of the NATS Pods.
 

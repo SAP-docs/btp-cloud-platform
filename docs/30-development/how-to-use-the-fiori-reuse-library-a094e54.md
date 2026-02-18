@@ -2,7 +2,7 @@
 
 # How to Use the Fiori Reuse Library
 
-You can use the *Reuse Library* to implement a reusable component that can display an application log.
+You can use the *Reuse Library* to implement a reusable component that can display the messages of a single application log.
 
 For more information on how to use the Fiori reuse library in a freestyle app, see [Freestyle App Integration](freestyle-app-integration-f0fdb1a.md).
 

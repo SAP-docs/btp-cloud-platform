@@ -178,10 +178,10 @@ To deliver a new patch version, see the following steps:
 -   **Develop**
     -   As an add-on admin, check out the maintenance branch, which is the branch that is created for bug fixes and maintenance deliveries in correction system COR and quality assurance system QAS. See [Work with Branches](../50-administration-and-ops/work-with-branches-6b2f0bf.md).
 
-    -   In case of released APIs: If not already done, create and generate a new API snapshot for the latest support package or release version, e.g. v.1.0.0, in quality assurance system QAS and correction system COR. Set the API snapshot to check-relevant if not already enabled. See [Manage API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-api-snapshots?version=Cloud).
+    -   In case of released APIs: If not already done, upload the API snapshot that was created for the latest support package or release version into quality assurance system QAS and correction system COR. Set the API snapshot to check-relevant if not already enabled. See [Manage API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-api-snapshots?version=Cloud).
 
         > ### Note:  
-        > While creating new patch versions, the maintenance branch is usually checked out for the first time in correction system COR and quality assurance system QAS and thus the corresponding snapshot must be created locally. See [Released APIs and API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#released-apis-and-api-snapshots).
+        > While creating new patch versions, the maintenance branch is usually checked out for the first time in correction system COR and quality assurance system QAS. Thus, the corresponding snapshot must uploaded and set to check-relevant. See [Released APIs and API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#released-apis-and-api-snapshots).
 
     -   Implement the bug fix in the ABAP correction system
 
@@ -239,23 +239,20 @@ To deliver a new support package stack, see the following steps:
 
     As an add-on admin, create a new maintenance branch for each new support package level of a software component. These maintenance branches are used for developing bug fixes and maintaining deliveries. This assures that these bug fixes can be implemented in the correction code line to not block ongoing development on the main branch.
 
--   **Create API Snapshot**
--   In case of released APIs, create and generate a new API snapshot for each new support package level of a software component, e.g. v1.1.0 in test system TST and the development system DEV. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks. Refer to [Manage API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-api-snapshots?version=Cloud).
+-   **Create new product version**
 
-    > ### Note:  
-    > Currently API snapshots need to be generated locally per system. Therefore, be careful to not release new APIs between the cutoff and snapshot creation. See [Released APIs and API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#released-apis-and-api-snapshots).
+    As an add-on admin, you can use the Build Product Version app in the Landscape Portal to create new support package stacks:
 
+    1.  Make sure that the pipeline template for Suport Package Stack is configured. If you want to validate the add-on build beforehand, configure the template for Test Support Package Stack as well. See [Configure a Pipeline Template](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/5919ca97b3d54c758cf56dfb0887c306.html).
+    2.  Choose the parent version that shall be patched and create a new product version of type Patch Delivery. See [Create a New Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d4c9f0877f1640bebe1f6fbe267bf9af.html).
 
-**Create new product version**
-
-As an add-on admin, you can use the Build Product Version app in the Landscape Portal to create new support package stacks:
-
-1.  Make sure that the pipeline template for Suport Package Stack is configured. If you want to validate the add-on build beforehand, configure the template for Test Support Package Stack as well. See [Configure a Pipeline Template](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/5919ca97b3d54c758cf56dfb0887c306.html).
-
-2.  Choose the parent version that shall be patched and create a new product version of type Patch Delivery. See [Create a New Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d4c9f0877f1640bebe1f6fbe267bf9af.html).
+    If you are configuring the add-on build pipeline manually, adjust your add-on descriptor file to build the new patch version. See [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#addonyml).
 
 
-If you are configuring the add-on build pipeline manually, adjust your add-on descriptor file to build the new patch version. See [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#addonyml).
+-   **Download API Snapshot for use in other systems**
+
+    In case of released APIs, download the API snapshot created for the new support package version from the add-on build system BLD. The snapshot is created automatically during the add-on build. Afterwards, upload the snapshot into the test system TST and the development System DEV. Set the new API snapshot as check-relevant so that it will be used as a reference for API compatibility checks.
+
 
 **Create new release version \(product version\)**
 
@@ -282,13 +279,6 @@ To deliver a new release version, see the following steps:
 
     As an add-on admin, create a new maintenance branch for each new release version of a software component. These maintenance branches are used for developing bug fixes and maintaining deliveries. This assures that these bug fixes can be implemented in the correction code line to not block ongoing development on the main branch.
 
--   **Create API Snapshot**
-
-    In case of released APIs, create and generate a new API snapshot for each new release version of a software component, e.g. v2.0.0 in test system TST and the development system DEV. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks. See [Manage API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-api-snapshots?version=Cloud).
-
-    > ### Note:  
-    > Currently API snapshots need to be generated locally per system. Therefore, be careful to not release new APIs between the cutoff and snapshot creation. See [Released APIs and API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/concepts?version=Cloud#released-apis-and-api-snapshots).
-
 -   **Configure new product version**
 
     As an add-on admin, you can use the Build Product Version app in the Landscape Portal to create new release versions:
@@ -296,6 +286,10 @@ To deliver a new release version, see the following steps:
     1.  Make sure that the pipeline template for Release Delivery is configured. If you want to validate the add-on build beforehand, configure the template for *Test Release Delivery* as well. See [Configure Pipeline Template](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/5919ca97b3d54c758cf56dfb0887c306.html).
 
     2.  Choose the relevant add-on product and create a new product version of type *Release Delivery*. See [Create a New Product Version](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d4c9f0877f1640bebe1f6fbe267bf9af.html).
+
+-   **Download API Snapshot for use in other systems**
+
+    In case of released APIs, download the API snapshot created for the new release version from the add-on build system BLD. The snapshot is created automatically during the add-on build. Afterwards, upload the snapshot into the test system TST and the development System DEV. Set the new API snapshot as check-relevant so that it will be used as a reference for API compatibility checks.
 
 
 If you are configuring the add-on build pipeline manually, adjust your add-on descriptor file to build the new patch version. See [Build and Publish Add-on Products on SAP BTP ABAP Environment](https://www.project-piper.io/scenarios/abapEnvironmentAddons/#addonyml).
@@ -315,7 +309,7 @@ Similar to the build of the initial add-on version, as an add-on administrator, 
 > 
 > Please ensure that the add-on product version to be published is properly tested before confirming the release decision. This includes testing in SAP Fiori launchpad and the ABAP Test Cockpit. See [Test in the ABAP Environment SAP Fiori Launchpad](test-023cf9d.md#loio8c5b4d76a05b4bed8df01937f4d8d487) and [Test in the ABAP Test Cockpit](test-023cf9d.md#loiof0b71a1c959842258772c27d292c43b0).
 > 
-> During add-on build a new semantic version API snapshot will automatically be created for each add-on software component. In the assembly system BLD semantic version snapshots are automatically created and set to check-relevant during add-on build. Do not perform manual actions on API snapshots in these systems.
+> During add-on build a new semantic version API snapshot will automatically be created for each add-on software component. In the assembly system BLD semantic version snapshots are automatically created and set to check-relevant during add-on build. Do not perform manual actions on API snapshots in these systems. You also have the option to download a created API snapshot for use in other systems. See [Downloading API snapshots](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/downloading-api-snapshots?version=Cloud).
 
 <a name="loio90ada4e99f684deba48664fed04acc12"/>
 

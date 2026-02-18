@@ -207,7 +207,7 @@ Different actions require different roles as well. In the process description, t
     </td>
     <td valign="top">
     
-    Creating API Snapshots using the*Manage API Snapshots* app to allow running API compability checks for released objects.
+    Creating API Snapshots using the *Manage API Snapshots* app to allow running API compability checks for released objects. As well as downloading and uploading the snapshots for a reuse across different systems.
     
     </td>
     </tr>

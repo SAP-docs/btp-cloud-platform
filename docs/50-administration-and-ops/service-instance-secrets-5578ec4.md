@@ -8,15 +8,12 @@ The SAP Authorization and Trust Management service \(XSUAA\) creates these crede
 
 The service instance can use multiple secrets in the ***application*** plan.
 
--   The secret is the same for all bindings of the service instance. The secret remains valid as long as the instance exists.
+-   The instance secret is the same for all bindings of the service instance. The secret remains valid as long as the instance exists.
 
     > ### Note:  
-    > Instance secrets are supported only in the Cloud Foundry environments with just one organization. For multiple organizations or other environments, binding secrets are the default secret type. For more information, see [Rotating Secrets](https://help.sap.com/docs/btp/sap-business-technology-platform/security-considerations-for-sap-authorization-and-trust-management-service#rotating-secrets).
+    > Starting with January, 19, 2026, the `instance-secret` credential type isn't supported anymore for new bindings and service keys. We recommend to remove old bindings with this credential type.
 
 -   The binding secret is the default secret type. Binding secrets must be enabled in the application security descriptor \(`xs-security.json`\) when you create the service instance. When you bind an application to a service instance or create a service key, you can pass a `parameters.json` to use a binding secret. The secret remains valid as long as the binding or the service key exists.
-
-    > ### Note:  
-    > The ***apiaccess*** plan only uses binding secrets. However, some old instances of the ***apiaccess*** plan still use the instance secret.
 
 -   X.509 secrets must be enabled in the application security descriptor \(`xs-security.json`\) when you create the service instance. When you bind an application to a service instance or create a service key, you can pass a `parameters.json` to use an X.509 secret. SAP Authorization and Trust Management service can generate an X.509 certificate for you or you can provide your own. The X.509 secret remains valid as long as the certificate itself is valid.
 
@@ -40,13 +37,13 @@ The following figure illustrates the XSUAA app and the binding information about
 
 The `credential-types` parameter of the OAuth client configuration in the application security descriptor \(`xs-security.json`\) determines which types of secrets that bindings support.
 
-In the following example, the service instance creates a binding secret for all new bindings. It allows the creation of X.509 secrets and still accepts instance secrets.
+In the following example, the service instance creates a binding secret for all new bindings. It allows the creation of X.509 secrets.
 
 > ### Example:  
 > > ### Sample Code:  
 > > ```
 > > "oauth2-configuration": {
-> >     "credential-types": ["binding-secret","x509","instance-secret"]
+> >     "credential-types": ["binding-secret","x509"]
 > > }
 > > ```
 

@@ -14,9 +14,9 @@ The following technical configurations are specific to SAP BTP and differ from t
 
 -   On SAP BTP, application SSH access is disabled by default. For more information on SSH, see [https://docs.cloudfoundry.org/devguide/deploy-apps/app-ssh-overview.html](https://docs.cloudfoundry.org/devguide/deploy-apps/app-ssh-overview.html).
 
--   SAP BTP supports the Cloud Foundry API version 3. The Cloud Foundry API v2 has been deprecated and is no longer supported. For more information, see [https://v3-apidocs.cloudfoundry.org/](https://v3-apidocs.cloudfoundry.org/).
+-   SAP BTP supports the Cloud Foundry API version 3. The Cloud Foundry API v2 is not available. For more information, see [https://v3-apidocs.cloudfoundry.org/](https://v3-apidocs.cloudfoundry.org/).
 
--   On SAP BTP, the Cloud Foundry API is protected by a rate limit against misuse. The limit is in the range of a few 10k requests per hour per user on average. The rate limit for the deprecated Cloud Foundry API v2 is in the range of one hundred requests per hour per user or less.
+-   On SAP BTP, the Cloud Foundry API is protected by a rate limit against misuse. The limit is in the range of a few 10k requests per hour per user on average.
 
 -   In addition to the general rate limit on the Cloud Foundry API, requests for certain API endpoints related to services face a separate limit on concurrent requests. The Cloud Foundry API responds with HTTP status code `429` if a rate limit is reached and provides a Retry-After Header suggesting when the client can attempt a retry. For more information, see [https://docs.cloudfoundry.org/running/rate-limit-cloud-controller-api.html\#Rate%20Limit%20Responses:%20Service%20Brokers](https://docs.cloudfoundry.org/running/rate-limit-cloud-controller-api.html#Rate%20Limit%20Responses:%20Service%20Brokers).
 
@@ -50,7 +50,7 @@ The following technical configurations are specific to SAP BTP and differ from t
 
 -   In global accounts that support the consumption-based commercial model you might see a quota limit for certain services. This is a technical limit only, not a business limit. If you need to increase this limit, report an incident to [SAP support](https://support.sap.com/en/index.html) for component BC-NEO-CIS.
 
--   In the SAP BTP, Cloud Foundry environment, the SAP HANA database supports up to 1000 simultaneous connections per database.
+-   In the SAP BTP, Cloud Foundry environment, the SAP HANA database supports a limited number of simultaneous connections per database. For more information, see [Connecting to the SAP HANA Database in SAP HANA Cloud](https://help.sap.com/docs/hana-cloud/sap-hana-cloud-getting-started-guide/connecting-to-sap-hana-database-in-sap-hana-cloud).
 
 -   In the SAP BTP, Cloud Foundry environment, each application can be mapped to approximately 1000 routes \(128 KB\). The total length of the routing information must not exceed this limit.
 

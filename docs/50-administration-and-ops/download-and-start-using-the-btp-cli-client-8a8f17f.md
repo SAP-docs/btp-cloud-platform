@@ -59,7 +59,15 @@ There are various ways of downloading the client for each operating system, as e
         Invoke-RestMethod 'https://cli.btp.cloud.sap/btpcli-uninstall.ps1' | Invoke-Expression
         ```
 
-    -   Option 2: **Manually install the latest Microsoft Windows \(amd64\) version**
+    -   Option 2: **Windows Package Manager**
+
+        You can use Windows Package Manager \([WinGet](https://github.com/microsoft/winget-pkgs/tree/master/manifests/s/SAP/btp)\) to download the latest version of the btp CLI. WinGet downloads the client from [SAP Development Tools](https://tools.hana.ondemand.com/). In your terminal, run:
+
+        ```
+        winget install SAP.btp --source winget
+        ```
+
+    -   Option 3: **Manually install the latest Microsoft Windows \(amd64\) version**
 
         1.  Download the latest [Microsoft Windows client](https://tools.hana.ondemand.com/additional/btp-cli-windows-amd64-latest.tar.gz) from SAP Development Tools.
 

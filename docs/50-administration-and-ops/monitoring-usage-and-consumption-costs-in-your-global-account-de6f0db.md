@@ -516,6 +516,13 @@ The parameters for charged usage can include the amount of data processed, the n
 > ### Tip:  
 > This tab is available only if your global account uses a consumption-based commercial model.
 
+> ### Remember:  
+> In certain instances, you may observe charged usage at the subaccount level that reflects **fractional** amounts for metrics that are usually presented as whole numbers, such as user counts, tenants, documents, API calls, or connections.
+> 
+> Although billing is always computed at the global account level, we display the cost allocation across your subaccounts based on their proportional actual usage. This top-down proportional calculation may result in fractional units that you see in the *Costs and Usage* page.
+> 
+> Keep in mind that your monthly balance statement is not impacted by the proportional cost distribution to your subaccounts.
+
 In the *Billing* tab, you can switch between the *View by Service* and *View by Account* views:
 
 

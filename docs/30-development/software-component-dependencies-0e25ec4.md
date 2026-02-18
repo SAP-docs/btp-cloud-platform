@@ -4,7 +4,7 @@
 
 
 
-![](images/SCDependencies_4f351e3.png)
+![](images/SCdependenciesBild1_db07d4a.png)
 
 The leading software component is the one that is dependent on objects in the reuse software component. To make sure that the software components are imported in the correct order, the reuse software component should be the first, whereas a leading software component would be the last in order.
 
@@ -26,7 +26,7 @@ To detect and prevent incompatible changes in released APIs, corresponding API f
 
 The ATC check `API_COMPATIBILITY` compares the current state of released APIs against this snapshot to find compatibility issues. An SAP default API snapshot will be created automatically whenever an API is released, but compatibility checks should be done against a check-relevant snapshot of the previous deliverable state of a software component. For the initial release of a software component no previous state exists, and therefore comparison against a snapshot is not possible.
 
-This means that API snapshots should be used as “image” of a finalized delivery: Instead of frequently regenerating already existing snapshots, generate a snapshot once at the end of a release cycle and try to keep existing released APIs stable across the whole release cycle. The assumption here is that the APIs already released in a software component usually do not change over the course of a release. You may use the Notes feature of the Manage API Snapshots app to document any changes to the snapshots. For more information, see [Manage API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-api-snapshots?version=Cloud).
+This means that API snapshots should be used as “image” of a finalized delivery: Instead of frequently regenerating already existing snapshots, generate a snapshot once at the end of a release cycle and try to keep existing released APIs stable across the whole release cycle. The assumption here is that the APIs already released in a software component usually do not change over the course of a release. You may use the Notes feature of the Manage API Snapshots app to document any changes to the snapshots. The system creates API snapshots locally on each system. You can download a snapshot to use it on another system. After you enable an uploaded snapshot for compatibility checks, set any existing SAP default snapshot of the affected software component to 'not check-relevant. For more information, see [Manage API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/manage-api-snapshots?version=Cloud).
 
 
 

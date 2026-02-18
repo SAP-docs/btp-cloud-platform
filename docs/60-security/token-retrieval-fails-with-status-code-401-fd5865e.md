@@ -56,8 +56,15 @@ Client authentication
 
 -   Verify that the used secret is valid and that the corresponding binding/service key still exists.
 -   Depending on the credential type of the used binding/service key, do one of the following:
-    -   `instance-secret`: Ensure that the service instance of the client allows `instance-secret` in its security descriptor \(within `credential-types`\).
     -   `binding-secret`: Ensure that the service instance of the client allows `binding-secret` in its security descriptor \(within `credential-types`\).
+
+    -   `instance-secret`:
+
+        If you are using `instance-secret` in its security descriptor \(within `credential-types`\), we recommend that you migrate to `binding-secret`. For more information, see [Migrate from Instance Secrets to Binding Secrets](../50-administration-and-ops/migrate-from-instance-secrets-to-binding-secrets-dcee867.md).
+
+        > ### Note:  
+        > Starting January, 19, 2026, the `instance-secret` credential type isn't supported anymore for new bindings and service keys.
+
 
 -   If the application to which the service instance belongs was subscribed to from another subaccount, ensure that the application or service is onboarded correctly via the SAP SaaS Provisioning service.
 -   If the secret contains the *\+* sign:

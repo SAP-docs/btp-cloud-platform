@@ -108,9 +108,12 @@ For development and maintenance processes, the steps mentioned below, that are s
 ![](images/jetztaber_1b2b0af.png)
 
 -   ABAP system COR and QAS have the same software state, unless a new change is tested and released. This means, transport requests are released in ABAP system DEV only if development is completed and it’s planned to import the changes to the production ABAP system.
--   Upon cutoff date, development is finished. All development that is released at this time must be tested and be of good quality. From then on, you must fix defects in the COR system and maintain them in parallel in the DEV system. In case of released APIs in the involved software components, API snapshots should be created at this point - in the test system TST as well as development system DEV. This is required for API compatibility checks to function properly. See [Checking the Compatibility of Released APIs.](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/checking-compatibility-of-released-apis)
+-   Upon cutoff date, development is finished. All development that is released at this time must be tested and be of good quality. From then on, you must fix defects in the COR system and maintain them in parallel in the DEV system. In case of released APIs in the involved software components, API snapshots should be created at this point. This is required for API compatibility checks to function properly. [Checking the Compatibility of Released APIs.](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/checking-compatibility-of-released-apis)
+
+    The API snapshots can be generated manually in system TST or they are generated automatically in an add-on build system. The snapshots should be downloaded and then be uploaded into the DEV system.
+
 -   Upon release date, all defects must be fixed. If, during testing in the QAS system, you make the decision that a complete functionality isn’t delivered, developers must delete, revert, or disable the functionality in the COR system and release the corresponding transport requests. You can't remove objects from the release branch, e.g. by deselecting transport requests. To revert objects to a previous transported state, use the Compare editor of the Eclipse History view. If you want to withdraw the functionality in the DEV system as well, it’s considered a correction and you have to perform double maintenance of corrections into the DEV system. See [Double Maintenance of Corrections into Development](double-maintenance-of-corrections-into-development-1241b14.md).
--   Once correction system COR and quality assurance system QAS are used for maintenance development, you can also create API snapshots for the latest release or support package version in these systems.
+-   Once correction system COR and quality assurance system QAS are used for maintenance development, you can also upload the API snapshots created for the latest release or support package version in these systems.
 -   Users in ABAP system COR are locked during ongoing development and only unlocked when a correction has to be implemented
 -   For the consumption as a SaaS solution, instead of importing a release branch into a productive system, software components are installed via add-on delivery packages into multitenancy-enabled production systems AMT provisioned via the ABAP Solution service. See [ABAP Solution Service](order-and-provide-975bd3e.md#loio1697387c02e74e66a55cf21a05678167).
 
@@ -282,7 +285,6 @@ Pros
 </td>
 <td valign="top">
 
--   API Snapshots are automatically created locally and remain in the system for continuous API compatibility checks
 -   If additional dependencies to objects outside the modeled product exist, they will be transparent as import errors
 
 
@@ -290,7 +292,7 @@ Pros
 </td>
 <td valign="top">
 
--   API Snapshots are automatically created locally and remain in the system for continuous API compatibility checks
+-   API Snapshots are automatically created locally, can be downloaded for use in other systems, and remain in the system for continuous API compatibility checks
 -   Reduced time consumed for add-on build as no new assembly system needs to be provisioned
 -   Local history of ABAP objects, transport piece lists, deliveries, transport logs etc. remains available in the system for trouble shooting and error analysis
 
@@ -306,7 +308,7 @@ Contras
 </td>
 <td valign="top">
 
--   API Snapshots are only created locally and thus are deleted once a system is deprovisioned → API compatibility checks cannot be used
+-   API Snapshots are only created locally and thus deleted once a system is deprovisioned. Therefore, API compatibility checks cannot be used. Snapshots can be downloaded for use in other systems, but only while the system exists.
 -   A new assembly system needs to be provisioned for each new add-on build, software components need to be cloned from scratch – resulting in longer runtime
 -   Local history of ABAP objects, transport piece lists, deliveries, transport logs etc. is not available after the assembly system is deprovisioned
 
@@ -596,6 +598,8 @@ Once you have released an object, we recommend not changing it incompatibly beca
 
 > ### Note:  
 > The `abapEnvironmentAssemblePackages` step in the *Build* stage of the ABAP environment pipeline, which is used to assemble delivery packages while following the add-on delivery approach, will automatically create a new API snapshot for each semantic version. The created snapshot will be searched for at the beginning of the build of the next version and will then be set as check-relevant. Finally, the `API_COMPATIBILITY` check will be used to look for any incompatible changes on the piece list of the delivery, comparing the latest state of the released APIs in a software component to the state of the API facades in the API snapshot. With this, there is no need to manually create API snapshots in an add-on assembly system. For more information, see [abapEnvironmentAssemblePackages](https://www.project-piper.io/steps/abapEnvironmentAssemblePackages/) and [Software Assembly Integration \(SAP\_COM\_0582\)](https://help.sap.com/docs/btp/sap-business-technology-platform/software-assembly-integration-sap-com-0582?version=Cloud).
+> 
+> You also have the option to download the API snapshot for use in other systems. See [Downloading API Snapshots](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/downloading-api-snapshots?version=Cloud).
 > 
 > Performing manual actions \(e.g. regenerate or delete\) on the API snapshots created in the build system is not recommended. Instead, use ATC exemptions to mitigate compatibility check findings that are false-positive or cannot be resolved in time. For more information, see [Working with ATC Exemptions](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/working-with-atc-exemptions). If your add-on build system is transient, the semantic version API snapshots won’t be carried over from system to system and the compatibility checks will be skipped.
 

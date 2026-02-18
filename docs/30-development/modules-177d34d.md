@@ -28,6 +28,9 @@ Optional module attributes include:
     > -   In the final phase of the blue-green deployment, the `deployed-after` attribute is used to determine the order in which all idle applications are restarted.
     > -   It does not affect the testing phase, where both the live and idle versions of the applications are running in parallel.
 
+    > ### Note:  
+    > When `bg-dependency-aware-stop-order` is enabled, the `deployed-after` attribute is used to determine the order in which all idle applications are restarted, helping prevent transient failures caused by dependencies being temporarily unavailable. For more information on `bg-dependency-aware-stop-order`, see the Top-Level Parameters table in [Parameters and Properties](parameters-and-properties-490c8f7.md).
+
 -   `requires` - specifies the names of `requires` sections provided in `resource` that have been declared for the same MTA. Tools check if all required names are provided within the MTA.
 -   `provides` - specifies the names of `provides` sections, each containing configuration data; the data provided can be `required` by other `modules` in the same MTA
 

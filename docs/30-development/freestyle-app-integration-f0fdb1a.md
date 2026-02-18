@@ -2,7 +2,7 @@
 
 # Freestyle App Integration
 
-You can implement the reusable component from the *Reuse Library* in a freestyle app in order to display an application log.
+You can implement the reusable component from the *Reuse Library* in a freestyle app in order to display the messages of a single application log.
 
 
 

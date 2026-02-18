@@ -10,7 +10,7 @@ When binding or creating a service key for an `xsuaa` service instance, you can 
 
 ## Prerequisites
 
--   In the application security descriptor file \(`xs-security.json`\), you've included the “credential-type” key with `"instance-secret"` and/or `"binding-secret"` when you created or updated the service instance. The `"hide-secret"` element is only taken into account if the credential type is `"instance-secret"` or `"binding-secret"`.
+-   In the application security descriptor file \(`xs-security.json`\), you've included the “credential-type” key with `"binding-secret"` when you created or updated the service instance. The `"hide-secret"` element is only taken into account if the credential type is `"binding-secret"`.
 
 
 > ### Note:  
@@ -25,14 +25,6 @@ For more information, see [Application Security Descriptor Configuration Syntax]
 ## Parameters for Suppressing Client Secrets
 
 The `cf create-binding` or `cf create-service-key` commands expect a valid `parameters.json` file containing the service-specific configuration parameters in the following format.
-
-> ### Sample Code:  
-> ```
-> {
->   "credential-type": "instance-secret",
->   "hide-secret": "true"
-> }
-> ```
 
 > ### Sample Code:  
 > ```

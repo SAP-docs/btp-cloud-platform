@@ -107,11 +107,11 @@ We support explicit wildcards, namely domain relaxing and arbitrary paths. For e
 
 ## Rotating Secrets
 
-By default, all bindings of a service instance of the SAP Authorization and Trust Management service share a single instance secret. \(Exception: Service instances with the apiaccess plan use a secret per binding by default.\) In the application security descriptor \(`xs-security.json`\), enable individual secrets for each binding of a service instance.
+Starting January 19, 2026, all bindings created by the SAP Authorization and Trust Management service use binding secret or x509. However, there may be instance secrets created before. Take care that you remove the old instance secrets because they can't be rotated \(see [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations?seclist-index=BTP-UAA-0003)\).
 
 
 
-We recommend this configuration so that you can rotate the secret of a binding without affecting the other bindings of the service instance. We also recommend that you rotate secrets regularly.
+We recommend to use the credential types `binding-secret` and/or `x509` so that you can rotate the secret of a binding without affecting the other bindings of the service instance. We also recommend that you rotate secrets regularly.
 
 For more information, see [Managing Secrets of the SAP Authorization and Trust Management Service](../50-administration-and-ops/managing-secrets-of-the-sap-authorization-and-trust-management-service-22f4a5c.md).
 

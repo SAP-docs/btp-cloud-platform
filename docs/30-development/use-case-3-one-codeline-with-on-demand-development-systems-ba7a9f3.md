@@ -9,7 +9,7 @@ You can apply this setup if you have:
 
 The ABAP system landscape consists of a permanent production system and an on-demand development system.
 
-![](images/Production_ABAP_system_and_an_on-demand_development_ABAP_system_d7688a6.png)
+![](images/UseCase3Pic_48b508b.png)
 
 The advantage of this setup is that you have to administer few systems and only pay for the development system during the development periods. The payment model according to the lifetime of a system requires an SAP BTP enterprise agreement contract.
 
@@ -22,7 +22,7 @@ Not testing with a transported version of the solution always comes with the ris
 > ### Note:  
 > A much more production-like test can only be ensured in a non-development system, where the objects of the solution are initially created and changed by pulls, and where there is no authorization automatism for testing, see tester role in [Required Business Roles](required-business-roles-01c96ed.md).
 > 
-> Using API compatibility checks will not be possible with this use case without a permanent system. For the ATC check required API snapshots are not transported and would be deleted during system deprovisioning. For more information, see [Checking the Compatibility of Released APIs](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/checking-compatibility-of-released-apis). We thus strongly recommend developing with [Use Case 1: One Codeline in a 3-System Landscape](use-case-1-one-codeline-in-a-3-system-landscape-2276142.md) instead of use case 3. The quality assurance system might be de-/commissioned on demand then.
+> API compatibility checks are difficult to use without a permanent system. The system doesn't transport API snapshots that require ATC checks and it deletes them during system deprovisioning.. For more information, see [Checking the Compatibility of Released APIs](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/checking-compatibility-of-released-apis). We thus strongly recommend developing with [Use Case 1: One Codeline in a 3-System Landscape](use-case-1-one-codeline-in-a-3-system-landscape-2276142.md) instead of use case 3. You can then commission or decommission the quality assurance system on demand. If you want to use API compatibility checks with use case 3, download API snapshots from system DEV as a backup. You can upload them whenever you create a new DEV system..
 
 
 
@@ -402,6 +402,33 @@ Create a release branch YYYY-<nn\> for each software component
 </td>
 <td valign="top">
 
+DEV
+
+</td>
+<td valign="top">
+
+Release Manager
+
+</td>
+<td valign="top">
+
+In case of released APIs: For released APIs, create a new API snapshot YYYY-nn for the new release in the DEV system. Set the new API snapshot as check-relevant so the system uses it as a reference for API compatibility checks. Then download the snapshot from the DEV system as a backup for when you provision a new DEV system.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+12
+
+</td>
+<td valign="top">
+
 PRD
 
 </td>
@@ -424,7 +451,7 @@ Check out the release branch YYYY-<nn\> of each software component
 <tr>
 <td valign="top">
 
-12
+13
 
 </td>
 <td valign="top">
@@ -583,7 +610,34 @@ Import main branch of each software component into the newly provisioned develop
 <tr>
 <td valign="top">
 
-4a
+4
+
+</td>
+<td valign="top">
+
+DEV
+
+</td>
+<td valign="top">
+
+Release Manager
+
+</td>
+<td valign="top">
+
+In case of Released APIs: Upload the API snapshot YYYY-nn for the latest release in the new Development system. Set the new API snapshot as the reference for API compatibility checks.
+
+</td>
+<td valign="top">
+
+*Manage API snapshots* app
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+5a
 
 </td>
 <td valign="top">
@@ -610,7 +664,7 @@ ABAP Development Tools for Eclipse
 <tr>
 <td valign="top">
 
-4b
+5b
 
 </td>
 <td valign="top">
@@ -637,7 +691,7 @@ Maintain business configuration. All changes are collected in customizing transp
 <tr>
 <td valign="top">
 
-5
+6
 
 </td>
 <td valign="top">
@@ -664,7 +718,7 @@ ADT for Eclipse: Transport Organizer or *Export Customizing Transports* app
 <tr>
 <td valign="top">
 
-6
+7
 
 </td>
 <td valign="top">
@@ -691,7 +745,7 @@ ADT for Eclipse and custom SAP Fiori apps as well as external test tools. See [A
 <tr>
 <td valign="top">
 
-7
+8
 
 </td>
 <td valign="top">
@@ -745,7 +799,7 @@ If changes are required, repeat steps 4-7
 <tr>
 <td valign="top">
 
-8
+9
 
 </td>
 <td valign="top">
@@ -772,7 +826,7 @@ Manage Software Components app
 <tr>
 <td valign="top">
 
-9
+10
 
 </td>
 <td valign="top">

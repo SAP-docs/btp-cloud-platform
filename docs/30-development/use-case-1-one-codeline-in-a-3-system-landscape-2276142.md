@@ -4,9 +4,9 @@
 
 You can apply this setup if you have occasional development activities for larger applications where testing needs to run in parallel to development or should take place in a non-development system to ensure the solution also runs in a non-development system. In this setup, you either need to be able to pause development for a fix that has to be delivered before the next release or you have to deliver fixes as part of the next possible release.
 
-This landscape consists of a development, quality assurance, and production system. Software component branches are provided remotely in a Git repository branch and checked out locally in such systems. In case of released APIs in the involved software components, API Snapshots are generated locally after release decisions.
+This landscape consists of a development, quality assurance, and production system. Software component branches are provided remotely in a Git repository branch and checked out locally in such systems. In case of released APIs in the involved software components, API Snapshots are generated locally after release decisions in the quality assurance system and dowloaded for use in the development system..
 
-![](images/GlobalCustomerAcc_7213bf8.png)
+![](images/usecase1pic1_3149bba.png)
 
 
 
@@ -24,7 +24,7 @@ The Go Live process is characterized by creating different systems only when nee
 -   Quality Assurance system QAS and production system PRD are based on the latest release branch YYYY-<nn\>. In case of a first release after the Go Live, YYYY-<nn\> is YYYY-01
 
 -   Software component relations are defined for dependencies between leading- and reuse software components in the YYYY-<nn\> release
--   In case of released APIs: In the quality assurance system QAS and development system DEV a check-relevant API snapshot named YYYY-<nn\> was generated manually with all released APIs extracted as per the current release
+-   In case of released APIs: In the quality assurance system QAS, a check-relevant API snapshot named YYYY-<nn\> was generated manually with all released APIs extracted as per the current release. Furthermore, the generated snapshot was downloaded from system QAS and uploaded to development system DEV. Finally the API snapshot was set to check-relevant in system DEV.
 
 System QAS has always the same software state as the PRD system, unless a new change is tested and released. This means, transport requests are released in development ABAP systems only if development is completed and it is planned to import the changes to the production system.
 
@@ -382,7 +382,7 @@ Check out the new release branch YYYY-<nn+1\>
 </td>
 <td valign="top">
 
-PRD
+QAS/DEV
 
 </td>
 <td valign="top">
@@ -392,7 +392,7 @@ Release Manager
 </td>
 <td valign="top">
 
-In case of Released APIs: Create and generate a new API snapshot YYYY-<nn+1\> for the new release. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks.
+In case of Released APIs: Create and generate a new API snapshot YYYY-<nn+1\> for the new release in system QAS. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks. Afterwards download the generated snapshot from system QAS and upload it to system DEV. Finally, set the snapshot as check-relevant in system DEV as well.
 
 </td>
 <td valign="top">

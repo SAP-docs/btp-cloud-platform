@@ -33,6 +33,30 @@ The ABAP environment pipeline enables continuous integration for the ABAP enviro
 <tr>
 <td valign="top">
 
+ABAP Solution \(Provider\)
+
+</td>
+<td valign="top">
+
+The ABAP Solution service maintains ABAP systems and tenants to provide an add-on product as a SaaS solution.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ABAP Test Cockpit
+
+</td>
+<td valign="top">
+
+ABAP Test Cockpit checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in checkstyle format. With the use of a pipeline extension, you can configure quality gates. See [ATC](https://www.project-piper.io/pipelines/abapEnvironment/stages/test/#atc) and [Configure ABAP Test Cockpit](../50-administration-and-ops/configure-abap-test-cockpit-22c26ff.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 ABAP System
 
 </td>
@@ -105,12 +129,24 @@ To install and maintain ABAP software, software product versions are used. A sof
 <tr>
 <td valign="top">
 
-ABAP Solution \(Provider\)
+API Snapshot
 
 </td>
 <td valign="top">
 
-The ABAP Solution service maintains ABAP systems and tenants to provide an add-on product as a SaaS solution.
+To be able to run API compatibility checks for your released objects using the ATC check `API_COMPATIBILITY`, you need to create API snapshots manually or download and upload them from your add-on build system. See [Creating API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-api-snapshots?version=Cloud)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+API \(Release\) State
+
+</td>
+<td valign="top">
+
+The API release state of a development object defines whether the object can be used for stable custom development. For some release contracts the visibility in certain ABAP language versions can be set. See [Released APIs](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/released-apis?version=sap_btp).
 
 </td>
 </tr>
@@ -125,42 +161,6 @@ Assembly System
 The ABAP system responsible for the add-on build.
 
 It is created during the pipeline and eventually deleted. All actions related to the ABAP source code are executed on this system, e.g. running checks with the ABAP Test Cockpit or the build of the software components.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-ABAP Test Cockpit
-
-</td>
-<td valign="top">
-
-ABAP Test Cockpit checks can be executed using `abapEnvironmentRunATCCheck`. The step can receive software components or packages configured in a YML file. The results are returned in checkstyle format. With the use of a pipeline extension, you can configure quality gates. See [ATC](https://www.project-piper.io/pipelines/abapEnvironment/stages/test/#atc) and [Configure ABAP Test Cockpit](../50-administration-and-ops/configure-abap-test-cockpit-22c26ff.md).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-API Snapshot
-
-</td>
-<td valign="top">
-
-To be able to run API compatibility checks for your released objects using the ATC check `API_COMPATIBILITY`, you need to create API snapshots for your applications components beforehand. See [Creating API Snapshots](https://help.sap.com/docs/btp/sap-business-technology-platform/creating-api-snapshots?version=Cloud)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-API \(Relase\) State
-
-</td>
-<td valign="top">
-
-The API release state of a development object defines whether the object can be used for stable custom development. For some release contracts the visibility in certain ABAP language versions can be set. See [Released APIs](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/released-apis?version=sap_btp).
 
 </td>
 </tr>

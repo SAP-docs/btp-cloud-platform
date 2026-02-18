@@ -18,21 +18,33 @@ Note that aside from use in CDS, the class additionally provides two methods to 
 
 ## Example
 
-To learn how to obtain and store exchange rates from an official source, see the detailed example at [https://github.com/SAP-samples/cloud-abap-exchange-rates](https://github.com/SAP-samples/cloud-abap-exchange-rates).
-
 
 
 > ### Sample Code:  
 > ```abap
->  @EndUserText.label: 'Price (in US American Dollars)'
->   currency_conversion(
->     client => client,
->     amount => amount,
->     round => '',
->     source_currency => currency,
->     target_currency => cast('USD' as abap.cuky),
->     exchange_rate_type => cast('M' as abap.char(4)),
->     exchange_rate_date => cast($session.system_date as abap.dats)
->                      ) as PriceInUSD
+>  @AccessControl.authorizationCheck: #NOT_REQUIRED
+> @EndUserText.label: 'Currency Conversion Example'
+> @Metadata.ignorePropagatedAnnotations: true
+> define view entity Z_CURR_CONV_EXAMPLE 
+> as select from /DMO/I_Supplement
+> {
+>   key SupplementID,
+>       @Semantics.amount.currencyCode: 'CurrencyCode'
+>       Price,
+>       CurrencyCode,
+>       @Semantics.amount.currencyCode: 'CurrencyUSD'
+>       currency_conversion(
+>                            amount => Price,
+>                            round => '',
+>                            source_currency => CurrencyCode,
+>                            target_currency => cast('USD' as abap.cuky),
+>                            exchange_rate_date => cast($session.system_date as abap.dats)
+>                          ) as PriceInUSD,
+>       cast('USD' as abap.cuky) as CurrencyUSD
+> }
+> 
 > ```
+
+> ### Note:  
+> You can find a more detailed working example in GitHub at [https://github.com/SAP-samples/cloud-abap-exchange-rates](https://github.com/SAP-samples/cloud-abap-exchange-rates) to learn how to obtain and store exchange rates from an official source.
 

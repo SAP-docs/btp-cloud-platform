@@ -3174,6 +3174,54 @@ Generated as described in the description.
 <tr>
 <td valign="top">
 
+`bg-dependency-aware-stop-order`
+
+> ### Note:  
+> This parameter is currently experimental.
+
+
+
+</td>
+<td valign="top">
+
+Top-Level
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Ensures that during the final phase of a blue-green deployment, idle applications are stopped and restarted in a dependency-aware order based on the dependencies defined in the `deployed-after` attribute. This prevents transient failures caused by short-lived unavailability of dependent modules. First, dependent modules are stopped, then their dependencies are restarted, and finally the dependent modules are updated and started.
+
+> ### Note:  
+> When both are specified, the command-line option `--dependency-aware-stop-order` overrides the `bg-dependency-aware-stop-order` descriptor parameter.
+
+
+
+</td>
+<td valign="top">
+
+false
+
+</td>
+<td valign="top">
+
+```
+
+parameters: 
+    bg-dependency-aware-stop-order: true
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `controller-url`
 
 </td>

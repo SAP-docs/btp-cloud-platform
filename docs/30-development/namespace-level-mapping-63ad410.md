@@ -23,7 +23,7 @@ You can map a Kubernetes namespace to an SAP Service Manager instance in a given
 
 ## Context
 
-To connect a namespace to a specific subaccount, maintain the access credentials to the subaccount in a Secret dedicated to a specific namespace. Create the `{NAMESPACE-NAME}-sap-btp-service-operator` Secret in the `kyma-system` namespace.
+To connect a namespace to a specific subaccount, maintain the access credentials to the subaccount in a Secret dedicated to a specific namespace. Create the `{NAMESPACE-NAME}-sap-btp-service-operator` Secret in the managed namespace, which is by default the `kyma-system` namespace.
 
 <a name="task_nnf_tdz_bdc"/>
 
@@ -45,7 +45,7 @@ To connect a namespace to a specific subaccount, maintain the access credentials
 
 4.  Create the `creds.json` file in your working directory and save the credentials there.
 
-5.  In the same working directory, call the `create-secret-file.sh` script with the `operator` option as the first parameter and `namespace-name-sap-btp-service-operator` Secret as the second parameter:
+5.  In the same working directory, call the `create-secret-file.sh` script with the `operator` option as the first parameter and `{namespace-name}-sap-btp-service-operator` Secret as the second parameter:
 
     ```
     curl https://raw.githubusercontent.com/kyma-project/btp-manager/main/hack/create-secret-file.sh | bash -s operator {NAMESPACE_NAME}-sap-btp-service-operator
@@ -60,7 +60,7 @@ To connect a namespace to a specific subaccount, maintain the access credentials
     metadata:
       name: {NAMESPACE_NAME}-sap-btp-service-operator
       namespace: kyma-system
-    data:
+    stringData:
       clientid: {CLIENT_ID}
       clientsecret: {CLIENT_SECRET}
       sm_url: {SM_URL}

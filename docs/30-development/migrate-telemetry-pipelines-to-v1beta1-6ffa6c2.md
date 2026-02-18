@@ -192,8 +192,10 @@ Rename the field.
 
 2.  For `LogPipeline` and `MetricPipeline` resources, update the OTLP input:
 
-    -   `spec.input.otlp.disabled` becomes `spec.input.otlp.enabled`.
-    -   You must also invert the boolean value \(for example, `disabled: false` becomes `enabled: true`\).
+    1.  Replace `spec.input.otlp.disabled` with `spec.input.otlp.enabled`.
+
+    2.  Invert the boolean value \(for example, `disabled: false` becomes `enabled: true`\).
+
 
 3.  For `LogPipeline` resources, replace `spec.input.application` with `spec.input.runtime`. To include system namespaces for application logs, also update the system namespace selection.
 
@@ -209,8 +211,10 @@ Rename the field.
 
 4.  For `LogPipeline` resources using the `http` output, update the following fields:
 
-    -   Replace `spec.output.http.tls.disabled` with `spec.output.http.tls.insecure`.
-    -   Replace `spec.output.http.tls.skipCertificateValidation` with `spec.output.http.tls.insecureSkipVerify`.
+    1.  Replace `spec.output.http.tls.disabled` with `spec.output.http.tls.insecure`.
+
+    2.  Replace `spec.output.http.tls.skipCertificateValidation` with `spec.output.http.tls.insecureSkipVerify`.
+
 
     > ### Recommendation:  
     > Consider switching to the `otlp` output \(see [Migrate Your LogPipeline From HTTP to OTLP](migrate-your-logpipeline-from-http-to-otlp-550a696.md)\). For OTLP, use the fields `spec.output.otlp.tls.insecure` and `spec.output.otlp.tls.insecureSkipVerify`.

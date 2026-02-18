@@ -12561,6 +12561,12 @@ Develop, debug, test, and deploy SAP business applications.
 <td valign="top">
 
 -   Europe \(Frankfurt\) EUA only
+-   UAE \(Dubai\)
+-   Europe \(Rot\)
+-   Japan \(Tokyo\)
+-   Australia \(Sydney\)
+-   US \(Sterling\)
+-   US West \(Colorado\)
 
 
 
@@ -12688,7 +12694,6 @@ Develop, debug, test, and deploy SAP business applications.
 -   Canada Central \(Toronto\)
 -   China \(North 3\)\*\*
 -   Europe \(Frankfurt\)
--   UK South \(London\)
 
 
 

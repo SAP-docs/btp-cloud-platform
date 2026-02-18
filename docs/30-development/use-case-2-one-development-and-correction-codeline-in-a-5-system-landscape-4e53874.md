@@ -2,9 +2,9 @@
 
 # Use Case 2: One Development and Correction Codeline in a 5-System Landscape
 
-You can apply this setup if you have permanent/infinite development activities for large applications with many developers, where development cannot be paused to implement an urgent correction. Software component branches are provided remotely in a Git repository branch and checked out locally in such systems. In case of released APIs in the involved software components, API snapshots are generated locally after release decisions. Corrections need to run in parallel to development and on a released state. You need to separate testing from development to ensure the solutions also runs in a non-development system before being delivered to production.
+You can apply this setup if you have permanent/infinite development activities for large applications with many developers, where development cannot be paused to implement an urgent correction. Software component branches are provided remotely in a Git repository branch and checked out locally in such systems. In case of released APIs in the involved software components, API snapshots are generated locally after release decisions in the test system and are then distributed to other systems using the download or upload option.. Corrections need to run in parallel to development and on a released state. You need to separate testing from development to ensure the solutions also runs in a non-development system before being delivered to production.
 
-![](images/GlobalCustomerAcc2_a30444d.png)
+![](images/usecase2pic_1253d62.png)
 
 General considerations:
 
@@ -108,10 +108,10 @@ The Go Live process is characterized by creating different systems only when nee
 
 **Starting Situation after Go Live:**
 
--   Development system DEV and test system TST are on the main branch
--   Correction system COR, quality assurance system QAS, and production system PRD are on release branch YYYY-<nn\>
--   Software component relations are defined for dependencies between leading- and reuse software components in the YYYY-<nn\> release
--   In case of released APIs: In the development system DEV, test system TST, correction system COR and quality assurance system QAS, a check-relevant API snapshot named YYYY-<nn\> was generated manually with all released APIs extracted
+-   Development system DEV and test system TST are on the main branch.
+-   Correction system COR, quality assurance system QAS, and production system PRD are on release branch YYYY-<nn\>.
+-   Software component relations are defined for dependencies between leading- and reuse software components in the YYYY-<nn\> release.
+-   In case of released APIs: In the test system TST, you manually generate a check-relevant API snapshot named YYYY-<nn\> that extracts all released APIs. You then download this snapshot and upload it to the remaining systems: DEV, COR, and QAS. Moreover, you need to set the uploaded snapshot to check-relevant in all these systems.
 
 This process can also be used for deferrable corrections, which do not need to reach production before the next development release. These corrections are handled like normal development.
 
@@ -392,12 +392,7 @@ Release Manager
 </td>
 <td valign="top">
 
-Before Cutoff: In case of Released APIs, Create and generate a new API snapshot YYYY-<nn+1\> for the new release. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks.
-
-> ### Caution:  
-> Currently API snapshots need to be generated locally per system. Please be careful to not release new APIs between the release decision and snapshot creation.
-
-
+Before Cutoff: In case of Released APIs, Create and generate a new API snapshot YYYY-<nn+1\> for the new release in system TST. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks. Finally, download the generated API snapshot, upload it to the DEV system and set it to check-relevant.
 
 </td>
 <td valign="top">
@@ -793,12 +788,7 @@ Release Manager
 </td>
 <td valign="top">
 
-In case of Released APIs: Generate the API snapshot YYYY-<nn+1\> for the new release in the correction code line. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks.
-
-> ### Caution:  
-> Currently API snapshots need to be generated locally per system. Please be careful to not release new APIs between the release decision and snapshot creation.
-
-
+In case of Released APIs: Upload the API snapshot YYYY-<nn+1\> for the new release in the system of the correction code line. Set the new API snapshot as check-relevant so that it will be used as reference for API compatibility checks.
 
 </td>
 <td valign="top">
@@ -1021,7 +1011,7 @@ Pull the software component\(s\) to get the correction into the already checked 
 
 ## Skipping a Release
 
-If issues during the test phase of YYYY-<nn+1\> cannot be fixed in a reasonable time frame until the next release date, you can skip that release, especially if you have a tight release schedule \(“continuous delivery” model\). In that case, you have to perform double maintenance for the unfinished corrections from YYYY-<nn+1\> in the main branch of the development ABAP system, release them, and create the new release branch YYYY-<nn+2\> derived from that main branch. That way, branch YYYY-<nn+2\> contains finished new development as well as the unfinished corrections from branch YYYY-<nn+1\>. Afterwards, you can bring system COR and QAS to branch YYYY-<nn+2\> and continue with that.
+If issues during the test phase of YYYY-<nn+1\> cannot be fixed in a reasonable time frame until the next release date, you can skip that release, especially if you have a tight release schedule \(“continuous delivery” model\). In that case, you have to perform double maintenance for the unfinished corrections from YYYY-<nn+1\> in the main branch of the development ABAP system, release them, and create the new release branch YYYY-<nn+2\> derived from that main branch. That way, branch YYYY-<nn+2\> contains finished new development as well as the unfinished corrections from branch YYYY-<nn+1\>. Before cutoff for the new release branch YYYY-<nn+2\>, perform the usual API snapshot handling steps. Afterwards, you can bring system COR and QAS to branch YYYY-<nn+2\> and continue with that.
 
 > ### Note:  
 > Branches cannot be deleted or marked as obsolete. Therefore, it’s important to use other tools to inform consumers about not using branch YYYY-<nn+1\>.
@@ -1038,7 +1028,7 @@ If issues during the test phase of YYYY-<nn+1\> cannot be fixed in a reasonable 
 
 -   Correction system COR, quality assurance system QAS, and production system PRD are on release branch YYYY-<nn\>
 
--   In case of released APIs: In the development system DEV, test system TST, correction system COR and quality assurance system QAS a check-relevant API snapshot named YYYY-<nn\> is generated with all released APIs extracted
+-   In case of released APIs: In the test system TST, you manually generate a check-relevant API snapshot named YYYY-<nn\> that extracts all released APIs. You then download this snapshot and upload it to the remaining systems: DEV, COR, and QAS. You set the uploaded snapshot to check-relevant in all these systems.
 
 This process is a subset of the previous development process and can be applied to corrections that are too urgent to release with the next development release.
 

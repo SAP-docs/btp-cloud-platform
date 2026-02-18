@@ -5,13 +5,13 @@
 The Telemetry gateways automatically enrich your data with OTel resource attributes, so you can easily identify the source of the data in your backend.
 
 > ### Tip:  
-> For custom enrichment, such as adding your own business-specific attributes, see [Transform with OTTL](transform-with-ottl-f7bed2c.md).
+> For custom enrichment, such as adding your own business-specific attributes, see [Transform and Filter with OTTL](transform-and-filter-with-ottl-4c64598.md).
 
 
 
 <a name="loio6a13459bcf164a05a2be2c2766c77e0b__section_enrichment_service_name"/>
 
-## Service Name
+## Service Attributes
 
 The service name is the logical name of the service that emits the telemetry data. The gateway ensures that this attribute always has a valid value.
 
@@ -29,6 +29,13 @@ The gateway determines the service name based on the following hierarchy of labe
 
 5.  If none of the above is available, the value is *unknown\_service*
 
+
+> ### Tip:  
+> The Telemetry module also supports enrichment with service attributes matching OTel conventions \(see [OTel: Service Attributes](https://opentelemetry.io/docs/specs/semconv/non-normative/k8s-attributes/#service-attributes)\), which enriches `service.namespace`, `service.name`, `service.version`, and `service.instance.id`.
+> 
+> If you'd like to use that, manually set the `telemetry.kyma-project.io/service-enrichment` annotation in the Telemetry CR to *otel*. If you want to return to the previous method, set the annotation back to *kyma-legacy*.
+> 
+> However, if you choose to use the OTel enrichment strategy, be aware of [these OTel-specific edge case limitations](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/k8sattributesprocessor/README.md#configuring-recommended-resource-attributes).
 
 
 
@@ -73,7 +80,7 @@ The following example configuration enriches the telemetry data with Pod labels 
 
 
 ```
-apiVersion: operator.kyma-project.io/v1alpha1
+apiVersion: operator.kyma-project.io/v1beta1
 kind: Telemetry
 metadata:
   name: default
