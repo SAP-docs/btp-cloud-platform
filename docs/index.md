@@ -2008,6 +2008,7 @@
         -   [Custom OpenID Connect Configuration](50-administration-and-ops/custom-openid-connect-configuration-97fc95d.md)
         -   [Admission Policies](50-administration-and-ops/admission-policies-2e02ddb.md)
         -   [Kyma Runtime with Dual-Stack Support](50-administration-and-ops/kyma-runtime-with-dual-stack-support-c9811ea.md)
+        -   [Ingress and Egress IP Addresses](50-administration-and-ops/ingress-and-egress-ip-addresses-4d6a98c.md)
 -   [Security](60-security/security-e129aa2.md)
     -   [SAP Authorization and Trust Management Service](60-security/sap-authorization-and-trust-management-service-6373bb7.md)
         -   [What Is the SAP Authorization and Trust Management Service?](60-security/what-is-the-sap-authorization-and-trust-management-service-649961f.md)

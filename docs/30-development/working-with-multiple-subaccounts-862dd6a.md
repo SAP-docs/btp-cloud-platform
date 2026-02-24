@@ -17,7 +17,7 @@ To apply the multitenancy feature, choose the method that suits your needs and a
 -   [Instance-level mapping](instance-level-mapping-d9e9c7f.md): Define a specific subaccount for each service instance, regardless of the namespace context.
 
 
-Regardless of the method, you must create Secrets in the managed namespace. By default, it is the `kyma-system` namespace.
+Regardless of the method, you must create Secrets in the managed namespace. By default, it is the `kyma-system` namespace. If you want to customize the managed namespace, follow the instructions in [Customizing the Default Credentials and Access](customizing-the-default-credentials-and-access-15f22d5.md).
 
 
 

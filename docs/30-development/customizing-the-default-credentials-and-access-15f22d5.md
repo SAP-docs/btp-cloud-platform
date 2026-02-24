@@ -35,7 +35,7 @@ To customize the `sap-btp-manager` Secret, modify the credentials in the followi
 -   Optionally, add the `credentials_namespace` parameter and provide the name of your existing custom namespace for Secrets with credentials to communicate with the SAP Service Manager.
 
     > ### Note:  
-    > Setting the `credentials_namespace` parameter changes the values of `MANAGEMENT_NAMESPACE` and `RELEASE_NAMESPACE` keys in the `sap-btp-operator-config` ConfigMap. The custom namespace replaces the default `kyma-system` namespace for `sap-btp-service-operator` and `sap-btp-operator-clusterid` Secrets. BTP Manager deletes the Secrets from the default `kyma-system` namespace and creates them in the custom namespace.
+    > Setting the `credentials_namespace` parameter changes the values of `MANAGEMENT_NAMESPACE` and `RELEASE_NAMESPACE` keys in the `sap-btp-operator-config` ConfigMap. The custom namespace replaces the default managed `kyma-system` namespace for `sap-btp-service-operator` and `sap-btp-operator-clusterid` Secrets. BTP Manager deletes the Secrets from the default `kyma-system` namespace and creates them in the custom namespace.
 
 
 See the following example:
@@ -73,4 +73,13 @@ The reconciliation of the Secret stops and your changes are not reverted.
 
 > ### Caution:  
 > If you delete the customized `sap-btp-manager` Secret or remove the `kyma-project.io/skip-reconciliation: 'true'` label from it, the reconciliation starts again, and the preconfigured default `sap-btp-manager` Secret is recreated for your Kyma instance within 24 hours. See [Preconfigured Credentials and Access](preconfigured-credentials-and-access-ab106d7.md).
+
+**Related Information**  
+
+
+[Working with Multiple Subaccounts](working-with-multiple-subaccounts-862dd6a.md "With the SAP BTP Operator module, you can create configurations for several subaccounts in a single Kyma cluster.")
+
+[Instance-Level Mapping](instance-level-mapping-d9e9c7f.md "You can map a Kubernetes service instance to an SAP Service Manager instance in a given subaccount. The Service Manager instance is then used to provision that service instance.")
+
+[Namespace-Level Mapping](namespace-level-mapping-63ad410.md "You can map a Kubernetes namespace to an SAP Service Manager instance in a given subaccount. The Service Manager instance is then used to provision all service instances in that namespace.")
 

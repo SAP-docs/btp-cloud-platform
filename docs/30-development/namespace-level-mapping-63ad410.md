@@ -101,3 +101,5 @@ To connect a namespace to a specific subaccount, maintain the access credentials
 
 [Instance-Level Mapping](instance-level-mapping-d9e9c7f.md "You can map a Kubernetes service instance to an SAP Service Manager instance in a given subaccount. The Service Manager instance is then used to provision that service instance.")
 
+[Customizing the Default Credentials and Access](customizing-the-default-credentials-and-access-15f22d5.md "You can customize the sap-btp-manager Secret and manage your own default configuration of the SAP BTP Operator module.")
+

@@ -171,3 +171,5 @@ Kyma dashboard is a web-based UI providing a graphical overview of your cluster 
 
 [Namespace-Level Mapping](namespace-level-mapping-63ad410.md "You can map a Kubernetes namespace to an SAP Service Manager instance in a given subaccount. The Service Manager instance is then used to provision all service instances in that namespace.")
 
+[Customizing the Default Credentials and Access](customizing-the-default-credentials-and-access-15f22d5.md "You can customize the sap-btp-manager Secret and manage your own default configuration of the SAP BTP Operator module.")
+

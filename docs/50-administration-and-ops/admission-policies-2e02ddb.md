@@ -69,3 +69,11 @@ If your Dynakube setup is missing required exclusions, an error message tells yo
 
 For configuration examples, see [Kyma: Dynatrace Setup](https://kyma-project.io/external-content/telemetry-manager/docs/user/integration/dynatrace/README.html#dynatrace-setup) and [Dynatrace: DynaKube parameters for Dynatrace Operator](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/reference/dynakube-parameters).
 
+
+
+## Enforce Kyma Workload Traffic
+
+This policy prevents the use of network policies with `default-deny-all` rules in the Kyma-managed namespaces. Such network policies block essential communication between Kyma components within a cluster, potentially leading to system failures.
+
+If you attempt to create or update a network policy that violates this rule, the action is blocked, and you receive a warning. In such a case, review your network policy configuration and ensure it includes specific allow rules instead of denying all traffic. For applications that require strict network isolation, consider using your own namespaces instead of the Kyma-managed namespaces.
+

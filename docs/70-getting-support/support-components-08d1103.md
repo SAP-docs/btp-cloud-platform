@@ -15029,6 +15029,7 @@ Configure and run predefined pipelines for continuous integration and delivery.
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   Europe \(Netherlands\)
+-   Europe \(Frankfurt\)
 -   US East \(VA\)
 -   Switzerland \(Zurich\) EU Access
 -   Brazil \(São Paulo\)
@@ -15884,6 +15885,18 @@ SAP Cloud Management Service
 <td valign="top">
 
 BC-NEO-CIS
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Central Disaster Recovery \(CDR\) services
+
+</td>
+<td valign="top">
+
+BC-CP-CDR
 
 </td>
 </tr>
