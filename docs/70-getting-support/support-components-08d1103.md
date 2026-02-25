@@ -15891,7 +15891,7 @@ BC-NEO-CIS
 <tr>
 <td valign="top">
 
-SAP Central Disaster Recovery \(CDR\) services
+SAP Central Disaster Recovery \(CDR\) Service
 
 </td>
 <td valign="top">

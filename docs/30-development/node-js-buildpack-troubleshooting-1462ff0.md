@@ -105,3 +105,69 @@ Nevertheless, this approach can only be used as a temporary solution, until you 
 > ### Remember:  
 > SAP does **not** recommend use of deprecated Node.js versions, as support and security fixes are no longer provided for them.
 
+
+
+<a name="loio1462ff0fa7f04839a96c51d968d15b34__section_node_ccc"/>
+
+## Application running on Node.js 18 fails after restage or redeploy
+
+
+
+### Problem
+
+You have a working Node.js application, which runs on Node.js 18. After restage or redeploy, it fails and is no longer working. In the logs, you see the following error messages:
+
+```
+
+npm WARN EBADENGINE   required: { node: '^20 || ^22 || ^14' },
+					
+npm WARN EBADENGINE   current: { node: 'v18.19.0', npm: '8.19.3' }
+					
+npm WARN EBADENGINE Unsupported engine {
+
+```
+
+
+
+### Reason
+
+Node.js 18 has reached end of life on **April 30, 2025** \(according to the [Node.js Roadmap](https://github.com/nodejs/Release)\), and was removed from the SAP BTP, Cloud Foundry environment with `nodejs_buildpack` version **v1.8.41**.
+
+
+
+### Solution
+
+To keep your Node.js applications up and running, please migrate to Node.js 20 or 22 as soon as possible.
+
+In exceptional cases \(if you haven’t managed to migrate to a latest Node.js version\), to avoid application failures you can pin the last buildpack version that contains Node.js 18, for example, [v1.8.39](https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.8.39). To learn how to do this, see: [Specify a buildpack version in manifest.yml](https://help.sap.com/docs/btp/sap-business-technology-platform/tips-and-tricks-for-node-js-applications?version=Cloud#specify-a-buildpack-version-in-manifest-yml)
+
+If you are using MTA deployment descriptors, in your *mtad.yaml* file you need to define module type **javascript.nodejs** and set parameter `buildpack` to **nodejs\_buildpack**. For example:
+
+```
+
+modules:
+- name: myapp
+  type: javascript.nodejs
+  parameters:
+    memory: 512M
+    buildpack: nodejs_buildpack
+```
+
+If you want to pin a particular buildpack version \(for example, **1.8.39**\), you can do it the following way:
+
+```
+
+modules:
+- name: myapp
+  type: javascript.nodejs
+  parameters:
+    memory: 512M
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.8.39
+
+```
+
+To learn more, see [MTA Module Types](https://help.sap.com/docs/btp/sap-business-technology-platform/modules#mta-module-types).
+
+> ### Note:  
+> This approach can only be used as a temporary solution, until you complete the migration.
+
