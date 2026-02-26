@@ -4431,6 +4431,7 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   US West \(Colorado\)
+-   US \(Sterling\)
 
 
 
@@ -4558,6 +4559,8 @@ Cloud Offering with End-to-End visibility on Business Processes
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
 -   China \(North 3\)\*\*
+-   UK South \(London\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -5927,6 +5930,7 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   Japan \(Tokyo\)
 -   Australia \(Sydney\)
 -   US West \(Colorado\)
+-   US \(Sterling\)
 
 
 
@@ -6054,6 +6058,8 @@ Digitize workflows, manage decisions and gain end-to-end process visibility.
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
 -   China \(North 3\)\*\*
+-   UK South \(London\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -14221,6 +14227,7 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   Australia \(Sydney\)
 -   Japan \(Tokyo\)
 -   US West \(Colorado\)
+-   US \(Sterling\)
 
 
 
@@ -14348,6 +14355,8 @@ Enrich cloud offerings with decision modeling, management, and execution service
 -   Brazil \(São Paulo\)
 -   Canada Central \(Toronto\)
 -   China \(North 3\)\*\*
+-   UK South \(London\)
+-   Europe \(Frankfurt\)
 
 
 
@@ -15891,7 +15900,7 @@ BC-NEO-CIS
 <tr>
 <td valign="top">
 
-SAP Central Disaster Recovery \(CDR\) Service
+SAP Central Disaster Recovery services
 
 </td>
 <td valign="top">

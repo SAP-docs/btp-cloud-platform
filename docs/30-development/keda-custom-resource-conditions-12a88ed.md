@@ -279,6 +279,38 @@ One instance of Keda is allowed
 </td>
 <td valign="top">
 
+Error
+
+</td>
+<td valign="top">
+
+DeploymentFailure
+
+</td>
+<td valign="top">
+
+true
+
+</td>
+<td valign="top">
+
+DeploymentReplicaFailure
+
+</td>
+<td valign="top">
+
+Workloads have the ReplicaFailure condition
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+9
+
+</td>
+<td valign="top">
+
 Deleting
 
 </td>
@@ -306,7 +338,7 @@ Deletion in progress
 <tr>
 <td valign="top">
 
-9
+10
 
 </td>
 <td valign="top">
@@ -338,7 +370,7 @@ Keda module deleted
 <tr>
 <td valign="top">
 
-10
+11
 
 </td>
 <td valign="top">
@@ -364,6 +396,38 @@ DeletionErr
 <td valign="top">
 
 Deletion failed
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+12
+
+</td>
+<td valign="top">
+
+Error
+
+</td>
+<td valign="top">
+
+Installed
+
+</td>
+<td valign="top">
+
+false
+
+</td>
+<td valign="top">
+
+ValidationErr
+
+</td>
+<td valign="top">
+
+Validation error
 
 </td>
 </tr>

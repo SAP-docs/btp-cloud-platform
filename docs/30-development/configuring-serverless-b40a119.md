@@ -21,9 +21,9 @@ By default, the Serverless module comes with the default configuration. You can 
 
 The Serverless CR is an API to configure the Serverless module. You can use it to perform the following actions:
 
--   Configuring trace endpoint.
+-   Configuring the trace endpoint.
 
--   Configuring Eventing endpoint.
+-   Configuring the Eventing endpoint.
 
 -   Configuring the Function requeue duration.
 
@@ -64,7 +64,7 @@ spec: {}
 
 <!-- concept\_f2n\_rzq\_rfc -->
 
-## Configuring Trace Endpoint
+## Configuring the Trace Endpoint
 
 By default, the Serverless operator checks if there is a trace endpoint available. If available, the detected trace endpoint is used as the trace collector URL in Functions. If no trace endpoint is detected, Functions are configured with no trace collector endpoint. You can configure a custom trace endpoint so that Function traces are sent to any tracing backend you choose. The currently used trace endpoint is visible in the Serverless CR status.
 
@@ -78,7 +78,7 @@ spec:
 
 <!-- concept\_nz5\_h1r\_rfc -->
 
-## Configuring Eventing Endpoint
+## Configuring the Eventing Endpoint
 
 You can configure a custom Eventing endpoint to publish events sent from your Functions. The currently used trace endpoint is visible in the Serverless CR status. By default`http://eventing-publisher-proxy.kyma-system.svc.cluster.local/publish` is used.
 
@@ -153,9 +153,11 @@ You can configure the desired log format to be used.
 
 ```
    spec:
-      logFormat: "yaml"
+      logFormat: "json"
 
 ```
+
+For more details, see [Configuring Serverless Logging](https://kyma-project.io/external-content/serverless/docs/user/00-70-configuring-logging.html).
 
 <a name="task_s5c_3nf_shc"/>
 

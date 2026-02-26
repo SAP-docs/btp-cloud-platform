@@ -31,6 +31,8 @@ By default, the Keda module comes with the default configuration. You can change
 
         -   `error` - shows error logs only. This means only log messages corresponding to errors and misconfigurations are visible in logs.
 
+        -   `warn` - shows warning logs only. This means only log messages corresponding to warnings and potential issues are visible in logs.
+
 
         ```
         spec:
@@ -38,6 +40,29 @@ By default, the Keda module comes with the default configuration. You can change
             operator:
               level: "debug"
         ```
+
+    -   To define the log output format, set the `logging.format` attribute to one of the following values:
+
+        -   `json` - outputs logs in JSON format, which is structured and machine-readable.
+
+        -   `console` - outputs logs in plain text format, which is human-readable.
+
+
+        ```
+        spec:
+         logging:
+           operator:
+             level: "info"
+             format: "json"
+           metricServer:
+             level: "info"
+             format: "json"
+           admissionWebhook:
+             level: "info"
+             format: "json"
+        ```
+
+        For more information about logging configuration, see [Keda logging configuration](https://kyma-project.io/external-content/keda-manager/docs/user/06-70-configuring-logging.html).
 
     -   To enable the [Istio sidecar injection](istio-service-mesh-ca84edb.md) for `operator` and `metricServer`, set the value of `enabledSidecarInjection` to `true`. For example:
 

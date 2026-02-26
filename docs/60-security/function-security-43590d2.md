@@ -4,7 +4,10 @@
 
 To eliminate potential security risks when using Functions, bear in mind these facts:
 
--   Kyma Serverless applies a strict securityContext configuration at the Pod and container level \(non-root execution, minimal capabilities, and other hardening defaults\), allowing Functions to run in namespaces where the restricted Pod security level is enforced.
+-   Kyma Serverless applies a strict securityContext configuration at the Pod and container level \(non-root execution, minimal capabilities, and other hardening defaults\), allowing Functions to run in namespaces where the restricted Pod security level is enforced. You can configure Functions' security context using `.spec.podSecurityContext` and `.spec.containerSecurityContext` fields. For more details, see [Custom Resource Parameters](https://kyma-project.io/external-content/serverless/docs/user/resources/06-10-function-cr.html#custom-resource-parameters).
+
+    > ### Caution:  
+    > Modifying the default security context can make Functions insecure. Use caution when changing `.spec.podSecurityContext` and `.spec.containerSecurityContext`, and review the [Pod Security Standards](https://kubernetes.io/docs/concepts/security/pod-security-standards/), especially before deploying to production.
 
 -   By default, JSON Web Tokens \(JWTs\) issued by an OpenID Connect-compliant identity provider do not provide the **scope** parameter for Functions. This means that if you expose your Function and secure it with a JWT, you can use the token to validate access to all Functions within the cluster as well as other JWT-protected services.
 

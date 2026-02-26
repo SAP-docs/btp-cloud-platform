@@ -96,5 +96,5 @@ To learn more about the resources used by the Serverless module, see [Serverless
 
 [kyma-project.io: Serverless module technical reference](https://kyma-project.io/external-content/serverless/docs/user/technical-reference/README.html)
 
-[kyma-project.io: Serverless module troubleshooting guides](https://kyma-project.io/external-content/serverless/docs/user/troubleshooting-guides/README.html)
+[Troubleshooting for the Serverless Module](troubleshooting-for-the-serverless-module-f88cfeb.md "Troubleshoot problems related to the Serverless module.")
 
