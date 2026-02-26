@@ -1034,6 +1034,7 @@
                     -   [Regular and Native Sidecar Containers](30-development/regular-and-native-sidecar-containers-b1e4cd0.md)
                     -   [Optimizing Sidecars](30-development/optimizing-sidecars-8f4471d.md)
                     -   [Istio Version](30-development/istio-version-db46fab.md)
+                    -   [Configure Istio Certificate Authority \(CA\) with Custom Certificates](30-development/configure-istio-certificate-authority-ca-with-custom-certificates-00b052c.md)
                 -   [Exposing Workloads Using Gateway API](30-development/exposing-workloads-using-gateway-api-0c0ec74.md)
                 -   [Exposing Workloads Using oauth2-proxy](30-development/exposing-workloads-using-oauth2-proxy-f2e9bf2.md)
                 -   [Exposing Workloads with Istio VirtualService](30-development/exposing-workloads-with-istio-virtualservice-f059c23.md)
