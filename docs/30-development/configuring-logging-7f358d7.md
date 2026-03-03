@@ -8,7 +8,7 @@ Learn how to configure logging for Keda Manager and the Keda module components.
 
 ## Prerequisites
 
-You have the [kubectl](https://kubernetes.io/docs/tasks/tools/) installed.
+You have [kubectl](https://kubernetes.io/docs/tasks/tools/) installed.
 
 <a name="concept_mlp_kgd_k3c"/>
 
@@ -37,11 +37,15 @@ The supported log formats are the following:
 
 Keda Manager \(`keda-manager`\) supports dynamic log-level reconfiguration using a ConfigMap. Changes take effect without requiring a Pod restart.
 
-```
-# Change log level only
-kubectl patch configmap keda-log-configmap -n kyma-system --type merge -p '{"data":{"log-config.yaml":"logLevel: debug"}}'
+To change the log level, run:
 
-# Change both level and format
+```
+kubectl patch configmap keda-log-configmap -n kyma-system --type merge -p '{"data":{"log-config.yaml":"logLevel: debug"}}'
+```
+
+To change the log level and format, run:
+
+```
 kubectl patch configmap keda-log-configmap -n kyma-system --type merge -p '{"data":{"log-config.yaml":"logLevel: debug\nlogFormat: json"}}'
 ```
 
@@ -108,19 +112,19 @@ spec:
 
 ## Verify the Changes
 
--   Run the following command to check the `keda-operator` logs.
+-   To check the `keda-operator` logs, run:
 
     ```
     kubectl logs -n kyma-system -l app=keda-operator
     ```
 
--   Run the following command to check the `keda-metrics-api-server` logs.
+-   To check the `keda-metrics-api-server` logs, run:
 
     ```
     kubectl logs -n kyma-system -l app=keda-operator-metrics-apiserver
     ```
 
--   Run the following command, to check the `keda-admission-webhooks` logs.
+-   To check the `keda-admission-webhooks` logs, run:
 
     ```
     kubectl logs -n kyma-system -l app=keda-admission-webhooks

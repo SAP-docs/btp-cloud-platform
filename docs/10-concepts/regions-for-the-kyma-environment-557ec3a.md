@@ -1229,6 +1229,230 @@ Singapore \(Jurong West\)
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+eu01
+
+</td>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+cf-eu01
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\) EU Access
+
+</td>
+<td valign="top">
+
+`sap-converged-cloud` available in the Germany \(Frankfurt\) \(`eu-de-2`\) region
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+eu02
+
+</td>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+cf-eu02
+
+</td>
+<td valign="top">
+
+Europe \(Rot\) EU Access
+
+</td>
+<td valign="top">
+
+`sap-converged-cloud` available in the Germany \(Rot\) \(`eu-de-1`\) region
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+ap01
+
+</td>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+cf-ap01
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+<td valign="top">
+
+`sap-converged-cloud` available in the Australia \(Sydney\) \(`ap-au-1`\) region
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+ae01
+
+</td>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+cf-ae01
+
+</td>
+<td valign="top">
+
+UAE \(Dubai\)
+
+</td>
+<td valign="top">
+
+`sap-converged-cloud` available in the UAE \(Dubai\) \(`ap-ae-1`\) region
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+us01
+
+</td>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+cf-us01
+
+</td>
+<td valign="top">
+
+US East \(Sterling\)
+
+</td>
+<td valign="top">
+
+`sap-converged-cloud` available in the US East \(Sterling\) \(`na-us-1`\) region
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+us02
+
+</td>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+cf-us02
+
+</td>
+<td valign="top">
+
+US West \(Colorado\)
+
+</td>
+<td valign="top">
+
+`sap-converged-cloud` available in the US West \(Colorado\) \(`na-us-2`\) region
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+jp01
+
+</td>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top">
+
+cf-jp01
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+</td>
+<td valign="top">
+
+`sap-converged-cloud` available in the Japan \(Tokyo\) \(`ap-jp-1`\) region
+
+</td>
+</tr>
 </table>
 
 
@@ -1800,6 +2024,100 @@ North America \(Virginia\)
 
 </td>
 </tr>
+<tr>
+<td valign="top" rowspan="7">
+
+SAP Cloud Infrastructure
+
+</td>
+<td valign="top" rowspan="7">
+
+`sap-converged-cloud`
+
+</td>
+<td valign="top">
+
+`eu-de-1`
+
+</td>
+<td valign="top">
+
+Germany \(Rot\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`eu-de-2`
+
+</td>
+<td valign="top">
+
+Germany \(Frankfurt\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`na-us-1`
+
+</td>
+<td valign="top">
+
+US East \(Sterling\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`na-us-2`
+
+</td>
+<td valign="top">
+
+US West \(Colorado\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ap-au-1`
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ap-jp-1`
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ap-ae-1`
+
+</td>
+<td valign="top">
+
+UAE \(Dubai\)
+
+</td>
+</tr>
 </table>
 
 
@@ -1864,7 +2182,7 @@ External passthrough Network Load Balancer
 </tr>
 </table>
 
-For more details on the Load Balancers and their features, check out the official documention of the respective IaaS provider.
+For more details on the Load Balancers and their features, check out the official documentation of the respective IaaS provider.
 
 **Related Information**  
 

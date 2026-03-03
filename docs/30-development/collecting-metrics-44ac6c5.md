@@ -96,7 +96,14 @@ You can adjust the `MetricPipeline` using runtime configuration with the availab
 
 -   **Throughput**: Assuming an average metric with 20 metric data points and 10 labels, the default metric **gateway** setup has a maximum throughput of 34K metric data points/sec. If more data is sent to the gateway, it is refused. To increase the maximum throughput, manually scale out the gateway by increasing the number of replicas for the metric gateway \(see [Telemetry CRD](https://kyma-project.io/#/telemetry-manager/user/resources/01-telemetry)\).
 
-    The metric **agent** setup has a maximum throughput of 14K metric data points/sec per instance. If more data must be ingested, it is refused. If a metric data endpoint emits more than 50.000 metric data points per scrape loop, the metric agent refuses all the data.
+-   **Scraping**: The metric **agent** enforces the following limits when scraping metrics from applications and Istio proxies:
+
+    -   Timeseries limit: 50000 timeseries per scrape
+
+    -   Request body size limit: 20 MB per scrape
+
+
+    If a scrape exceeds either limit, the metric agent drops the scrape and logs a warning message. To resolve this issue, try reducing the number of exported metrics.
 
 -   **Load Balancing With Istio**: To ensure availability, the metric gateway runs with multiple instances. If you want to increase the maximum throughput, use manual scaling and enter a higher number of instances.
 

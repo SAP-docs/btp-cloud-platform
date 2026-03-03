@@ -157,7 +157,7 @@ You can configure the desired log format to be used.
 
 ```
 
-For more details, see [Configuring Serverless Logging](https://kyma-project.io/external-content/serverless/docs/user/00-70-configuring-logging.html).
+For more details, see [Configuring Logging](configuring-logging-123c965.md).
 
 <a name="task_s5c_3nf_shc"/>
 

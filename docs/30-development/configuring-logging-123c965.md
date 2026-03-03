@@ -8,7 +8,7 @@ Learn how to configure logging for the Serverless components.
 
 ## Prerequisites
 
-You have the [kubectl](https://kubernetes.io/docs/tasks/tools/) installed.
+You have [kubectl](https://kubernetes.io/docs/tasks/tools/) installed.
 
 <a name="concept_bzl_4gl_k3c"/>
 

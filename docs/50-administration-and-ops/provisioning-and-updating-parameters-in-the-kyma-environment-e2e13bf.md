@@ -377,6 +377,39 @@ Within the *Additional Worker Node Pools* array, you can set it to `1`. See [Add
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+technical name: `sap-converged-cloud`
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+20
+
+</td>
+<td valign="top">
+
+300
+
+</td>
+<td valign="top">
+
+Number between 3 and 300, but greater than or equal to *Auto Scaler Min*.
+
+Within the *Additional Worker Node Pools* array, with high availability disabled, you can set it to `1`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
+
+</td>
+</tr>
 </table>
 
 See the default JSON input:
@@ -492,6 +525,39 @@ Updating
 Number between 2 and the current value set in *Auto Scaler Max*.
 
 Within the *Additional Worker Node Pools* array, you can set it to `0`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SAP Cloud Infrastructure
+
+technical name: `sap-converged-cloud`
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+3
+
+</td>
+<td valign="top">
+
+3
+
+</td>
+<td valign="top">
+
+Number between 3 and the current value set in *Auto Scaler Max*.
+
+Within the *Additional Worker Node Pools* array, with high availability disabled, you can set it to `0`. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
 
 </td>
 </tr>
@@ -1157,6 +1223,121 @@ Updating
 <td valign="top">
 
 4 vCPU, 16 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="8">
+
+SAP Cloud Infrastructure
+
+technical name: `sap-converged-cloud`
+
+</td>
+<td valign="top" rowspan="8">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top" rowspan="8">
+
+`g_c2_m8`
+
+</td>
+<td valign="top">
+
+`g_c2_m8`
+
+</td>
+<td valign="top">
+
+2 vCPU, 8 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`g_c4_m16`
+
+</td>
+<td valign="top">
+
+4 vCPU, 16 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`g_c6_m24`
+
+</td>
+<td valign="top">
+
+6 vCPU, 24 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`g_c8_m32`
+
+</td>
+<td valign="top">
+
+8 vCPU, 32 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`g_c12_m48`
+
+</td>
+<td valign="top">
+
+12 vCPU, 48 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`g_c16_m64`
+
+</td>
+<td valign="top">
+
+16 vCPU, 64 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`g_c32_m128`
+
+</td>
+<td valign="top">
+
+32 vCPU, 128 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`g_c64_m256`
+
+</td>
+<td valign="top">
+
+64 vCPU, 256 GB RAM
 
 </td>
 </tr>

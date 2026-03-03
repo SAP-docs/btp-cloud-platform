@@ -62,7 +62,7 @@ By default, the Keda module comes with the default configuration. You can change
              format: "json"
         ```
 
-        For more information about logging configuration, see [Keda logging configuration](https://kyma-project.io/external-content/keda-manager/docs/user/06-70-configuring-logging.html).
+        For more information about logging configuration, see [Keda logging configuration](https://help.sap.com/docs/btp/sap-business-technology-platform/configuring-logging?locale=en-US&version=Cloud).
 
     -   To enable the [Istio sidecar injection](istio-service-mesh-ca84edb.md) for `operator` and `metricServer`, set the value of `enabledSidecarInjection` to `true`. For example:
 

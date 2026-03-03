@@ -29,7 +29,7 @@ SAP BTP Operator searches for the credentials in the following order:
 2.  Managed namespace Secret assigned for a given namespace
 3.  Managed namespace default Secret
 
-![](images/Secrets_Precedence_3d4e301.svg)
+![Diagram showing SAP BTP Operator checking for Secrets in a specific order in the kyma-system namespace.](images/Secrets_Precedence_13b6465.png)
 
 
 
