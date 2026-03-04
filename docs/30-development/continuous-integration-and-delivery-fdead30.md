@@ -43,7 +43,7 @@ The following graphic shows the relation between Continuous Integration and Cont
 
 The Continuous Delivery process ensures that the most current version is successfully built, tested, and provided in a shippable format. Based on the release decision by the development team or delivery manager, it can be shipped to customers or deployed to production at any time.
 
-For more information about the concepts and principles of Continuous Integration and Continuous Delivery, see the [Continuous Integration and Delivery Introduction Guide](https://help.sap.com/viewer/Continuous-Integration-and-Delivery-Introduction-Guide/7fc38a80cda446ef856c01f748dbede8.html).
+For more information about the concepts and principles of Continuous Integration and Continuous Delivery, see the [SAP Continuous Integration and Delivery](https://help.sap.com/docs/continuous-integration-and-delivery/sap-continuous-integration-and-delivery).
 
 <a name="loio862ec834e72842a6b027d8d1518055dd"/>
 

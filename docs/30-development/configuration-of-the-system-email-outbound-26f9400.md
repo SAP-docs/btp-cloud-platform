@@ -16,7 +16,7 @@ In addition, you can set a default sender address.
 
 **Activating the Email Outbound Check**
 
-Use class `CL_BCS_MAIL_SYSTEM_CONFIG` and method `SET_ADDRESS_CHECK_ACTIVE()` to activate the email outbound check. The importing parameter `ABAP_TRUE` activates the check,`ABAP_FALSE` deactivates it. The functionality is active per default.
+Use class `CL_BCS_MAIL_SYSTEM_CONFIG` and method `SET_ADDRESS_CHECK_ACTIVE()` to activate the email outbound check. The importing parameter `ABAP_TRUE` activates the check,`ABAP_FALSE` deactivates it. The functionality is inactive per default.
 
 **Configuring the Email Outbound Allow Tables**
 

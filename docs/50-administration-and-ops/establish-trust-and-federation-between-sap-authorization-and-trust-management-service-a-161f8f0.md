@@ -58,7 +58,7 @@ Consider the following restrictions and tips before you start.
 
 2.  Choose *Establish Trust*.
 
-    The *Configure Tenant* wizard opens.
+    The *Choose Tenant* wizard opens.
 
 3.  Choose the SAP Cloud Identity Services tenant and choose *Next*.
 
@@ -66,17 +66,19 @@ Consider the following restrictions and tips before you start.
 
     For more information, see the preceding prerequisites.
 
-4.  Choose the domain configured with the SAP Cloud Identity Services tenant and continue with *Next*.
-
-5.  You can change the name and the description of the tenant, display and change the origin key.
+4.  You can change the name and the description of the tenant, display and change the origin key.
 
     The origin key can have 36 characters at maximum. Only use the following characters for the origin key of the trust configuration.
 
     `aA`–`zZ`, `0`–`9`, `-` \(hyphen\), `_` \(underscore\)
 
-6.  Provide a link text for user logon \(see [Using Multiple Identity Providers from the Same Subaccount](using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md)\). Continue with *Next*.
+5.  Choose the domain configured with the SAP Cloud Identity Services tenant and continue with *Next*. It's also possible to use `Default` as domain.
 
-7.  Review your configuration and confirm using *Finish*.
+6.  Provide a link text for user logon \(see [Using Multiple Identity Providers from the Same Subaccount](using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md)\).
+
+7.  8.  Continue with *Next*.
+
+9.  Review your configuration and confirm using *Finish*.
 
 
 

@@ -9,7 +9,7 @@ You can apply this setup if you have:
 
 The ABAP system landscape consists of a permanent production system and an on-demand development system.
 
-![](images/UseCase3Pic_48b508b.png)
+![](images/48b508b59b4b4646bede4ae98e033acb.image)
 
 The advantage of this setup is that you have to administer few systems and only pay for the development system during the development periods. The payment model according to the lifetime of a system requires an SAP BTP enterprise agreement contract.
 

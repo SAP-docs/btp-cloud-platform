@@ -1,12 +1,15 @@
-<!-- loio168dd7528a784595b16388403cddd1a2 -->
+<!-- loiob1fc24553a79405d93b2d0841c4ae9dc -->
 
-# Managing Security Settings
+# Working with Multi-Region Disaster Recovery Using the btp CLI
 
-Use the SAP BTP command line interface \(btp CLI\) to display and update the security settings for the subaccount.
+Use the SAP BTP command line interface \(btp CLI\) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.
 
-The security settings comprise configuration settings, such as information about signing keys, URLs for cross origin resource sharing or iframing, and about bindings.
+> ### Tip:  
+> You must be assigned to Central Disaster Recovery Administrator role by being added to Subaccount Administrator role collection in both subaccounts. Each subaccount can only be paired to one subaccount. You can create instance pairs and subscription pairs in paired subaccounts.
 
-For more information, see [Configure Trusted Domains for Multi-Environment Subaccounts](configure-trusted-domains-for-multi-environment-subaccounts-c5e9972.md) and [Configure Token Policy for SAP Authorization and Trust Management Service](configure-token-policy-for-sap-authorization-and-trust-management-service-40290a9.md).
+For more information about the Multi-Region Disaster Recovery, see[SAP BTP Multi-Region Guide](https://help.sap.com/docs/btp/sap-btp-multi-region-guide).
+
+****
 
 
 <table>
@@ -18,7 +21,7 @@ Task
 </th>
 <th valign="top">
 
-Run the command ...
+Run the command...
 
 </th>
 <th valign="top">
@@ -30,34 +33,51 @@ Command help
 <tr>
 <td valign="top">
 
-Show the security settings of a subaccount
+Pair a subaccount with another subaccount in the paired region
 
 </td>
 <td valign="top">
 
-`btp list security/settings`
+`btp create disaster-recovery/subaccount-pair`
 
 </td>
 <td valign="top">
 
-[btp list security/settings](https://help.sap.com/docs/BTP/btp-cli/btp-list-security-settings.html)
+[btp create disaster-recovery/subaccount-pair](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-create-disaster-recovery-subaccount-pair?version=Cloud)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Update the security settings of a subaccount
+Get a subaccount pair
 
 </td>
 <td valign="top">
 
-`btp update security/settings`
+`btp get disaster-recovery/subaccount-pair`
 
 </td>
 <td valign="top">
 
-[btp update security/settings](https://help.sap.com/docs/BTP/btp-cli/btp-update-security-settings.html)
+[btp get disaster-recovery/subaccount-pair](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-get-disaster-recovery-subaccount-pair?version=Cloud)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Unpair a subaccount with its paired subaccount
+
+</td>
+<td valign="top">
+
+`btp delete disaster-recovery/subaccount-pair`
+
+</td>
+<td valign="top">
+
+[btp delete disaster-recovery/subaccount-pair](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-delete-disaster-recovery-subaccount-pair?version=Cloud)
 
 </td>
 </tr>
@@ -82,9 +102,9 @@ Update the security settings of a subaccount
 
 [Managing Signing Keys for Access Tokens](managing-signing-keys-for-access-tokens-dfca1d3.md "Use the SAP BTP command line interface (btp CLI) to manage signing keys for access tokens in the subaccount.")
 
+[Managing Security Settings](managing-security-settings-168dd75.md "Use the SAP BTP command line interface (btp CLI) to display and update the security settings for the subaccount.")
+
 [Managing API Credentials for Calling REST APIs of SAP Authorization and Trust Management Service](managing-api-credentials-for-calling-rest-apis-of-sap-authorization-and-trust-managemen-ce43eb5.md "Use the SAP BTP command line interface (btp CLI) to manage API credentials, which enable you to access the REST APIs of the SAP Authorization and Trust Management service.")
 
 [Working with Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
-
-[Working with Multi-Region Disaster Recovery Using the btp CLI](working-with-multi-region-disaster-recovery-using-the-btp-cli-b1fc245.md "Use the SAP BTP command line interface (btp CLI) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.")
 

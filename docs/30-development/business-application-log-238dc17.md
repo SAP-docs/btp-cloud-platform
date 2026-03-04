@@ -2,7 +2,7 @@
 
 # Business Application Log
 
-The XCO BAL module provides APIs and abstractions that allow a smooth integration of logging into application logic based on the standard Business Application Log \(BAL\) and provide maximum synergy with the facilities offered by the XCO library in general.
+The XCO BAL module provides APIs and abstractions that allow a smooth integration of logging into application logic based on the standard Business Application Log \(BAL\). The module works seamlessly with other XCO library features.
 
 
 
@@ -25,13 +25,13 @@ Within the BAL module of the XCO Library, the following terminology is used:
 
 ## Persistence
 
-The first and one of the central abstractions within the XCO BAL module is that of the persistence given by the interface IF\_XCO\_CP\_BAL\_PERSISTENCE. A persistence decides where logs are created \(resp. loaded from\) and where the messages and exceptions are written to \(resp. read from\).
+The first and one of the central abstractions within the XCO BAL module is that of the persistence given by the interface `IF_XCO_CP_BAL_PERSISTENCE`. A persistence decides where logs are created \(or loaded from\) and where the messages and exceptions are written to \(or read from\).
 
 The following two flavors are offered:
 
 -   Memory: Logs are created only in memory and messages as well as exceptions are not written to the database
 
--   Database: Logs are created and loaded from the database and messages and exceptions are always saved to the database. Whenever a message or exception is added to the log a COMMIT WORK is performed on a secondary database connection
+-   Database: Logs are created and loaded from the database and messages and exceptions are always saved to the database. Whenever a message or exception is added to the log a `COMMIT WORK` is performed on a secondary database connection
 
 
 
@@ -40,12 +40,12 @@ The following two flavors are offered:
 
 ## Searching logs
 
-In a style like that of the XCO ABAP Repository Query APIs it is possible to easily locate existing logs based on filters for standard log attributes, like the object, subobject or external ID of a log:
+In a style like that of the XCO ABAP Repository Query APIs, it's possible to easily locate existing logs based on filters for standard log attributes, like the object, subobject or external ID of a log:
 
 > ### Sample Code:  
 > ```abap
 > DATA(lo_external_id_filter) = xco_cp_bal=>log_filter->external_id(
->   xco_cp_abap_sql=>constraint->equal( '%INVOICE%' )
+>   xco_cp_abap_sql=>constraint->contains_pattern( '*INVOICE*' )
 > ).
 > 
 > DATA(lt_logs) = xco_cp_bal=>for->database( )->logs->where( VALUE #(
@@ -53,7 +53,7 @@ In a style like that of the XCO ABAP Repository Query APIs it is possible to eas
 > ) )->get( ).
 > ```
 
-In this example, all logs in the database whose external ID contains the fragment INVOICE will be located.
+In this example, all logs in the database whose external ID contains the fragment `INVOICE` will be located.
 
 
 
@@ -61,7 +61,7 @@ In this example, all logs in the database whose external ID contains the fragmen
 
 ## Creating and loading logs
 
-Once the desired persistence has been selected via XCO\_CP\_BAL=\>FOR a log can be created like
+Once the desired persistence has been selected via `XCO_CP_BAL=>FOR`, a log can be created like
 
 > ### Sample Code:  
 > ```abap
@@ -72,7 +72,7 @@ Once the desired persistence has been selected via XCO\_CP\_BAL=\>FOR a log can 
 > ).
 > ```
 
-If a log shall not be created newly but already exists in the database it can be loaded like
+If a log already exists in the database, it can be loaded like
 
 > ### Sample Code:  
 > ```abap
@@ -87,11 +87,11 @@ for a given log handle.
 
 ## Profiles
 
-Associated with each IF\_XCO\_CP\_BAL\_LOG object is a profile \(IF\_XCO\_CP\_BAL\_PROFILE\) that influences how messages and exceptions are added to the log. For messages, a profile provides a default value for the level of detail that is used when messages are added to the log and no explicit level of detail is supplied.
+Associated with each `IF_XCO_CP_BAL_LOG` object is a profile \(`IF_XCO_CP_BAL_PROFILE`\) that influences how messages and exceptions are added to the log. For messages, a profile provides a default value for the level of detail that is used when messages are added to the log and no explicit level of detail is supplied.
 
 For exceptions, the XCO BAL module offers a rich set of extra information that can be added along with the exception message to achieve maximum information that can be used for detailed error analysis.
 
-The standard profile \(XCO\_CP\_BAL=\>PROFILE-\>STANDARD\) defines a default level of detail of 4 and includes all possible exception additions as well as an automatic recursive descent for exceptions, i.e. all the previous exceptions of an exception are added to the log as well.
+The standard profile \(`XCO_CP_BAL=>PROFILE->STANDARD`\) defines a default level of detail of 4 and includes all possible exception additions as well as an automatic recursive descent for exceptions, so all the previous exceptions of an exception are added to the log as well.
 
 
 
@@ -101,7 +101,7 @@ The standard profile \(XCO\_CP\_BAL=\>PROFILE-\>STANDARD\) defines a default lev
 
 
 
-Messages can be added to a log in number of ways. They can be added directly via an explicit SYMSG value like
+Messages can be added to a log in number of ways. They can be added directly via an explicit `SYMSG` value like
 
 > ### Sample Code:  
 > ```abap
@@ -124,7 +124,7 @@ Messages can be added to a log in number of ways. They can be added directly via
 > ).
 > ```
 
-or by resorting to the standard abstractions IF\_XCO\_NEWS and IF\_XCO\_TEXT from the XCO standard library:
+or by resorting to the standard abstractions `IF_XCO_NEWS` and `IF_XCO_TEXT` from the XCO standard library:
 
 > ### Sample Code:  
 > ```abap
@@ -137,7 +137,7 @@ or by resorting to the standard abstractions IF\_XCO\_NEWS and IF\_XCO\_TEXT fro
 > lo_log->add_text( xco_cp=>string( lv_string ) ).
 > ```
 
-Following the pattern which is also used when reading the content of an object of the ABAP Repository, it is easy to access all the messages contained in a log:
+Following the pattern which is also used when reading the content of an object of the ABAP repository, it's easy to access all the messages contained in a log:
 
 > ### Sample Code:  
 > ```abap
@@ -145,13 +145,13 @@ Following the pattern which is also used when reading the content of an object o
 > ```
 
 > ### Note:  
-> Note that in order to be able to read from a log, an authorization is required for authorization object S\_APPL\_LOG for the following authorization field values:
+> Note that in order to be able to read from a log, an authorization is required for authorization object `S_APPL_LOG` for the following authorization field values:
 > 
-> -   ALG\_OBJECT The object of the application log that is being read
-> -   ALG\_SUBOBJ The subobject of the application log that is being read
-> -   ACTVT: 03
+> -   `ALG_OBJECT`: The object of the application log that is being read
+> -   `ALG_SUBOBJ`: The subobject of the application log that is being read
+> -   `ACTVT`: 03
 
-Adding and getting exceptions is identical to how messages are added to and read from the log: Exceptions are added via the ADD\_EXCEPTION method and read via the EXCEPTIONS attribute of an IF\_XCO\_CP\_BAL\_LOG object.
+Adding and getting exceptions is identical to how messages are added to and read from the log: Exceptions are added via the `ADD_EXCEPTION` method and read via the `EXCEPTIONS` attribute of an `IF_XCO_CP_BAL_LOG` object.
 
-Note that when an exception is added to a log it will automatically be transformed into a message by the underlying Business Application Log if it provides a T100 message. Only when an exception does not provide a T100 message will it be available via the EXCEPTIONS read attribute of IF\_XCO\_CP\_BAL\_LOG.
+Note that when an exception is added to a log, it will automatically be transformed into a message by the underlying business application log if it provides a T100 message. Only when an exception doesn't provide a T100 message will it be available via the `EXCEPTIONS` read attribute of `IF_XCO_CP_BAL_LOG`.
 

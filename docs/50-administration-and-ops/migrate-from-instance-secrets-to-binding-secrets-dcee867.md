@@ -44,6 +44,11 @@ The API access plan only uses binding secrets.
 
     At this point, none of the applications consuming your service instance need the instance secret anymore.
 
+    > ### Remember:  
+    > Before continuing with the next step, verify whether instance secrets are currently in use to ensure a safe transition. Use the REST API endpoint <code><a href="https://api.sap.com/api/AuthorizationAPI/path/getAppById">GET /sap/rest/authorization/v2/apps/{id}</a></code> and check the response parameter `instanceSecretLastUsedAt`.
+    > 
+    > Why this matters: Removing the `instance-secret` credential type from your application's security descriptor invalidates all existing instance secret bindings and service keys.
+
 5.  Modify the application security descriptor \(`xs-security.json`\) to disable support for instance secrets.
 
     Edit the OAuth client configuration of the `xs-security.json` as follows:

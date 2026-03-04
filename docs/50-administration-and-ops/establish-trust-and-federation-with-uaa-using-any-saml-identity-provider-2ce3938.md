@@ -48,7 +48,7 @@ You want to establish a trust relationship with an SAML 2.0 identity provider in
 
 1.  Go to your subaccount\(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration* \> ** in the SAP BTP cockpit.
 
-2.  Choose *New SAML Trust Configuration*.
+2.  Choose *Add SAML Trust*.
 
 3.  Enter a name and a description that make it clear that the trust configuration refers to your identity provider.
 
@@ -65,7 +65,7 @@ You want to establish a trust relationship with an SAML 2.0 identity provider in
 
     Check whether the fields for the single sign-on URLs and the single logout URLs are filled.
 
-7.  Save your changes.
+7.  Choose *Add SAML Trust*.
 
 8.  To get the SAML metadata of your subaccount, choose the *Download SAML Metadata* button.
 

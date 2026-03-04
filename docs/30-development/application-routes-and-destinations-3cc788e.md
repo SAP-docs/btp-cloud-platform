@@ -283,6 +283,18 @@ If `true`, the certificates and key of the authentication service are added to t
 <tr>
 <td valign="top">
 
+HTML5.StrictConnectionMode
+
+</td>
+<td valign="top">
+
+If `true`, the application router uses strict HTTP agents with conservative connection pooling settings for this destination. These settings include shorter socket timeouts and FIFO \(First-In, First-Out\) scheduling. This option is recommended for mTLS and certificate-based authentication scenarios. The default value is `false`.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 URL.headers.<header-name\>
 
 </td>

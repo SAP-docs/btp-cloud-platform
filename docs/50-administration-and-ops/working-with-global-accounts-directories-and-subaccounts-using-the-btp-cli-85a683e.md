@@ -445,6 +445,8 @@ For more information, see [Subaccounts](../10-concepts/account-model-8ed4a70.md#
 
 [Working with Resources of the SAP Service Manager Using the btp CLI](working-with-resources-of-the-sap-service-manager-using-the-btp-cli-fe6a53b.md "Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.")
 
+[Working with Multi-Region Disaster Recovery Using the btp CLI](working-with-multi-region-disaster-recovery-using-the-btp-cli-b1fc245.md "Use the SAP BTP command line interface (btp CLI) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.")
+
 [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or a global account with the btp target command.")
 
 [Labels](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.")

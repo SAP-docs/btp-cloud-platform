@@ -708,6 +708,18 @@ Maintainable Business Configuration
 <tr>
 <td valign="top">
 
+SMTG
+
+</td>
+<td valign="top">
+
+OM: Email Template
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SOD1
 
 </td>

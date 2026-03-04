@@ -64,9 +64,7 @@ Establish a trust relationship with a custom identity provider in your global ac
 
 3.  Select an identity provider from the list of available tenants and choose *Next*.
 
-4.  Choose your desired domain of the tenant and continue with *Next*. For a good single sign-on experience, choose the same domain for all SAP BTP accounts and non SAP BTP applications that use this tenant.
-
-5.  Enter a name and a description of the new trust configuration. If possible, set the origin key. The origin key always ends with *\-platform*. Continue with *Next*.
+4.  Enter a name and a description of the new trust configuration. If possible, set the origin key. The origin key always ends with *\-platform*. Continue with *Next*.
 
     > ### Note:  
     > The origin key is a technical identifier of an identity provider for platform users. Administrators need it when managing users. Platform users from the identity provider need the origin key when signing in with certain tools, such as the Cloud Foundry command-line interface or service dashboards.
@@ -77,6 +75,8 @@ Establish a trust relationship with a custom identity provider in your global ac
     > 
     > `aA`–`zZ`, `0`–`9`, `-` \(hyphen\), `_` \(underscore\)
 
+5.  Choose your desired domain of the tenant and continue with *Next*. For a good single sign-on experience, choose the same domain for all SAP BTP accounts and non SAP BTP applications that use this tenant.
+
 6.  The wizard shows you a preview of your configuration. To complete your new trust configuration, choose *Finish*.
 
     > ### Remember:  
@@ -86,8 +86,6 @@ Establish a trust relationship with a custom identity provider in your global ac
 
 
 
-
-<a name="loioc36898473d704e07a33268c9f9d29515__result_brm_352_tmb"/>
 
 ## Results
 

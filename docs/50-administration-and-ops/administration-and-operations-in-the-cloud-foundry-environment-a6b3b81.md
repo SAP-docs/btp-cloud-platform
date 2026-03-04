@@ -33,3 +33,5 @@ Learn about the different account administration and application operation tasks
 
 [Development in the Cloud Foundry Environment](../30-development/development-in-the-cloud-foundry-environment-40a8f8f.md "Learn more about developing applications on the SAP BTP, Cloud Foundry environment.")
 
+[Tutorial Navigator: Learn How to Manage Your Cloud Foundry Environment in the SAP BTP Cockpit](https://developers.sap.com/group.btp-manage-cloud-foundry-cockpit.html)
+

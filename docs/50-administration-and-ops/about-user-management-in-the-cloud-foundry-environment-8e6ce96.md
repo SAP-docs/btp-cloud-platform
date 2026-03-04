@@ -36,6 +36,9 @@ For more information about shadow users, see [Working with Users](working-with-u
 
 For user management of Cloud Foundry organizations, use the provisioning connectors of SAP Cloud Identity Services - Identity Provisioning. For more information, see [SAP BTP Integration Scenario](https://help.sap.com/docs/cloud-identity/system-integration-guide/sap-btp-integration-scenario?version=Cloud).
 
+> ### Restriction:  
+> If user provisioning through the Cloud Foundry environment is active in SAP Cloud Identity Services - Identity Provisioning, you can provision a maximum of 1000 platform users.
+
 **Related Information**  
 
 

@@ -114,7 +114,7 @@ If the registration error persists, report a case in one of the following compon
 
 ### Result
 
-The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit. For systems of type SAP SuccessFactors, SAP S/4HANA Cloud and SAP systems from the SAP Customer Experience portfolio, a registration token for connecting the corresponding SAP solution with the global account in SAP BTP has been generated. Systems of type other than SAP SuccessFactors, SAP S/4HANA Cloud and SAP systems from the SAP Customer Experience portfolio, are automatically registrated, no additional configurations are required.
+The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit. For systems of type SAP SuccessFactors, SAP S/4HANA Cloud and SAP systems from the SAP Customer Experience portfolio, a registration token for connecting the corresponding SAP solution with the global account in SAP BTP has been generated. Systems of type other than SAP SuccessFactors, SAP S/4HANA Cloud and SAP systems from the SAP Customer Experience portfolio, are automatically registered, no additional configurations are required.
 
 > ### Note:  
 > Registration tokens have different validity periods that depend on the system type. For more information about token expiry, see the corresponding documentation at the *Related Links* section.

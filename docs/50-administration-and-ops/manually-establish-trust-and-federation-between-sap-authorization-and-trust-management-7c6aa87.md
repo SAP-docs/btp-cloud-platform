@@ -65,7 +65,7 @@ The following procedure describes how to establish trust with an SAP Cloud Ident
 
 1.  In the SAP BTP cockpit, go to your subaccount\(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration*.
 
-2.  Choose *New SAML Trust Configuration*.
+2.  Choose *Add SAML Trust*.
 
 3.  Enter a name and a description that make it clear to which identity provider that the trust configuration refers.
 
@@ -84,7 +84,7 @@ The following procedure describes how to establish trust with an SAP Cloud Ident
 
 7.  Provide a link text for user logon \(see [Using Multiple Identity Providers from the Same Subaccount](using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md)\).
 
-8.  Save your changes.
+8.  Choose *Add SAML Trust*.
 
 9.  To get the SAML metadata of your subaccount, choose *Download SAML Metadata*.
 

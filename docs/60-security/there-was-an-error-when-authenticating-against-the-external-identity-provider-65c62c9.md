@@ -44,7 +44,7 @@ To resolve the issue, use one of the following options:
 
     3.  Choose *Edit*.
 
-    4.  Activate *Create Shadow Users During Logon*.
+    4.  Activate *Create Shadow Users on User Logon*.
 
     5.  Choose *Save*.
 

@@ -741,6 +741,53 @@ Microsoft Azure
 </td>
 <td valign="top">
 
+ca20
+
+</td>
+<td valign="top">
+
+Canada Central \(Toronto\)
+
+</td>
+<td valign="top">
+
+cf-ca20
+
+</td>
+<td valign="top">
+
+canadacentral
+
+</td>
+<td valign="top">
+
+20.220.171.110, 20.220.27.242, 20.63.53.134
+
+</td>
+<td valign="top">
+
+api.cf.ca20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ca20.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://amer.cockpit.btp.cloud.sap/](https://amer.cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
 ch20
 
 </td>
@@ -823,6 +870,53 @@ cf-eu20-001: api.cf.eu20-001.hana.ondemand.com
 cf-eu20: eu20.hana.ondemand.com
 
 cf-eu20-001: eu20-001.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[https://emea.cockpit.btp.cloud.sap/](https://emea.cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+eu22
+
+</td>
+<td valign="top">
+
+Europe \(Frankfurt\)
+
+</td>
+<td valign="top">
+
+cf-eu22
+
+</td>
+<td valign="top">
+
+germanywestcentral
+
+</td>
+<td valign="top">
+
+20.170.115.175, 20.218.226.251, 20.218.140.233
+
+</td>
+<td valign="top">
+
+api.cf.eu22.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+eu22.hana.ondemand.com
 
 </td>
 <td valign="top">
