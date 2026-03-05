@@ -3517,6 +3517,107 @@ Canada \(Toronto\)
 
 </td>
 </tr>
+<tr>
+<td valign="top" rowspan="7">
+
+SAP Cloud Infrastructure
+
+technical name: `sap-converged-cloud`
+
+</td>
+<td valign="top" rowspan="7">
+
+Provisioning
+
+> ### Note:  
+> For the exact mapping between the BTP regions and the available IaaS regions, see [Subaccount Regions](https://help.sap.com/docs/btp/sap-business-technology-platform-internal/regions-for-kyma-environment?version=Internal&state=DRAFT#subaccount-regions).
+
+
+
+</td>
+<td valign="top">
+
+`eu-de-1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+
+</td>
+<td valign="top">
+
+Germany \(Rot\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`eu-de-2`
+
+</td>
+<td valign="top">
+
+Germany \(Frankfurt\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`na-us-1`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+
+</td>
+<td valign="top">
+
+US East \(Sterling\)<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`na-us-2`
+
+</td>
+<td valign="top">
+
+US West \(Colorado\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ap-au-1`
+
+</td>
+<td valign="top">
+
+Australia \(Sydney\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ap-jp-1`
+
+</td>
+<td valign="top">
+
+Japan \(Tokyo\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ap-ae-1`
+
+</td>
+<td valign="top">
+
+UAE \(Dubai\)
+
+</td>
+</tr>
 </table>
 
 Here is an example of the JSON input for the *Region* parameter:

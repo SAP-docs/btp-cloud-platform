@@ -6,7 +6,7 @@ You can apply this setup if you have occasional development activities for large
 
 This landscape consists of a development, quality assurance, and production system. Software component branches are provided remotely in a Git repository branch and checked out locally in such systems. In case of released APIs in the involved software components, API Snapshots are generated locally after release decisions in the quality assurance system and dowloaded for use in the development system..
 
-![](images/3149bba00ad74c469821277534d42a02.image)
+![](images/usecase1pic1_3149bba.png)
 
 
 

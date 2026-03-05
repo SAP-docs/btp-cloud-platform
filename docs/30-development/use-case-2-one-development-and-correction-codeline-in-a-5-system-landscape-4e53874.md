@@ -4,7 +4,7 @@
 
 You can apply this setup if you have permanent/infinite development activities for large applications with many developers, where development cannot be paused to implement an urgent correction. Software component branches are provided remotely in a Git repository branch and checked out locally in such systems. In case of released APIs in the involved software components, API snapshots are generated locally after release decisions in the test system and are then distributed to other systems using the download or upload option.. Corrections need to run in parallel to development and on a released state. You need to separate testing from development to ensure the solutions also runs in a non-development system before being delivered to production.
 
-![](images/1253d62674674b30a339d89060fa181a.image)
+![](images/usecase2pic_1253d62.png)
 
 General considerations:
 
