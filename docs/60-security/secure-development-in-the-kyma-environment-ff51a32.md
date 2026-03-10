@@ -31,20 +31,20 @@ To learn how to secure your Kubernetes Pods in Kyma, see [Kubernetes Pod Securit
 
 To securely expose workloads in SAP BTP, Kyma runtime, use the Istio and API Gateway modules. As a prerequisite, make sure that you have those two modules added to your Kyma cluster. Then, perform the following tasks:
 
--   [Set Up a Custom Domain for a Workload](https://kyma-project.io/#/api-gateway/user/tutorials/01-10-setup-custom-domain-for-workload)
+-   [Set Up a Custom Domain for a Workload](https://kyma-project.io/external-content/api-gateway/docs/user/00-05-domains-and-gateways.html#getting-started-with-istio-gateways)
 
 -   Disable the default gateway. See [Disable or Enable Kyma Gateway](https://kyma-project.io/#/api-gateway/user/custom-resources/apigateway/04-10-kyma-gateway?id=disable-or-enable-kyma-gateway).
 
 -   Set up your own API gateway with one of the following options:
 
-    -   [Set Up a TLS Gateway in Simple Mode](https://kyma-project.io/#/api-gateway/user/tutorials/01-20-set-up-tls-gateway)
+    -   [Configure a TLS Gateway](../30-development/configure-a-tls-gateway-87a874c.md)
 
-    -   [Set Up an mTLS Gateway and Expose Workloads Behind It](https://kyma-project.io/#/api-gateway/user/tutorials/01-30-set-up-mtls-gateway)
+    -   [Configure an mTLS Gateway](../30-development/configure-an-mtls-gateway-e7c6c6a.md)
 
 
 -   Create an [APIRule Custom Resource](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-10-apirule-custom-resource) to securely expose your workloads
 
-    -   [Expose and Secure a Workload with JWT](https://kyma-project.io/#/api-gateway/user/tutorials/01-50-expose-and-secure-a-workload/01-52-expose-and-secure-workload-jwt)
+    -   [Expose and Secure a Workload with a JWT Using SAP Cloud Identity Services](../30-development/expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd)
 
     -   [Expose and Secure a Workload with a Certificate](https://kyma-project.io/#/api-gateway/user/tutorials/01-50-expose-and-secure-a-workload/01-54-expose-and-secure-workload-with-certificate)
 
@@ -60,7 +60,7 @@ To securely expose workloads in SAP BTP, Kyma runtime, use the Istio and API Gat
 
 ### Serverless Module
 
-For more information, see [Security Considerations](https://kyma-project.io/#/serverless-manager/user/00-40-security-considerations) for the Serveless module.
+For more information, see [Function Security](https://kyma-project.io/external-content/serverless/docs/user/00-40-security-considerations.html) for the Serveless module.
 
 **Related Information**  
 
