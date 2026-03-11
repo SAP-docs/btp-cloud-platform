@@ -680,6 +680,60 @@ us21.hana.ondemand.com
 
 </td>
 </tr>
+
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+us22
+
+</td>
+<td valign="top">
+
+US East (VA)
+
+</td>
+<td valign="top">
+
+cf-us22
+
+</td>
+<td valign="top">
+
+East US
+
+</td>
+<td valign="top">
+
+20.81.240.101, 20.246.64.142, 130.213.217.237
+
+</td>
+<td valign="top">
+
+20.41.44.247
+
+</td>
+<td valign="top">
+
+api.cf.us22.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+us22.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+
 <tr>
 <td valign="top">
 
