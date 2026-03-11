@@ -1938,6 +1938,60 @@ ap30.hana.ondemand.com
 
 </td>
 </tr>
+
+<tr>
+<td valign="top">
+
+Google Cloud
+
+</td>
+<td valign="top">
+
+ap31
+
+</td>
+<td valign="top">
+
+Asia Pacific (Singapore)
+
+</td>
+<td valign="top">
+
+cf-ap31
+
+</td>
+<td valign="top">
+
+asia-southeast1
+
+</td>
+<td valign="top">
+
+34.87.16.137, 34.87.17.89, 34.87.32.88, 34.87.123.38, 34.87.133.33, 34.87.143.210, 34.87.151.3, 34.87.167.131, 34.87.179.17, 34.124.190.248, 34.124.239.68, 34.126.70.216, 34.126.85.80, 34.126.91.103, 34.126.128.47, 34.126.133.147, 34.126.152.73, 34.142.136.228, 34.142.144.143, 34.143.128.156, 34.143.144.90, 34.143.196.233, 34.143.200.104, 34.143.239.83, 35.198.252.249, 35.240.169.32, 35.240.211.134, 35.240.216.223, 35.247.174.164, 35.247.185.2
+
+</td>
+<td valign="top">
+
+35.198.192.195
+
+</td>
+<td valign="top">
+
+api.cf.ap31.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+ap31.hana.ondemand.com
+
+</td>
+<td valign="top">
+
+[Open Cockpit](https://cockpit.btp.cloud.sap/)
+
+</td>
+</tr>
+
 <tr>
 <td valign="top">
 
