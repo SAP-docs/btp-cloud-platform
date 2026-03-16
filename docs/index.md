@@ -1413,6 +1413,7 @@
                 -   [Enable Command Autocompletion](50-administration-and-ops/enable-command-autocompletion-46355fa.md)
                 -   [Set a Target for Subsequent Commands with btp target](50-administration-and-ops/set-a-target-for-subsequent-commands-with-btp-target-720645a.md)
                 -   [Change Configuration Settings](50-administration-and-ops/change-configuration-settings-dba4eb6.md)
+                -   [Theme Configuration for the btp CLI](50-administration-and-ops/theme-configuration-for-the-btp-cli-d95c08a.md)
                 -   [Change the Output Format to JSON](50-administration-and-ops/change-the-output-format-to-json-dcb85b7.md)
                 -   [Specify the Location of the Configuration File](50-administration-and-ops/specify-the-location-of-the-configuration-file-e57288d.md)
                 -   [Provide Feedback about the btp CLI](50-administration-and-ops/provide-feedback-about-the-btp-cli-5986820.md)

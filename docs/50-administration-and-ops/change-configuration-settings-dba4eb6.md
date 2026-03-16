@@ -21,7 +21,7 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
 1.  To change a setting, run:
 
     ```
-    btp [OPTIONS] set config [--format FORMAT] [--verbose BOOL] [--target.hierarchy BOOL]
+    btp [OPTIONS] set config [--format FORMAT] [--verbose BOOL] [--target.hierarchy BOOL] [--theme THEME]
     ```
 
 
@@ -73,6 +73,18 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
     <td valign="top">
     
     Single sign-on mode of `btp login`. Valid values: none \(default\), browser, manual. For example, if you want `btp login` to always open a browser for login at your identity provider, use `btp set config --login.sso browser`.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `--theme THEME`
+    
+    </td>
+    <td valign="top">
+    
+    Theme setting for the CLI. Use environment variable `NO_COLOR=true` to force the theme to 'none', regardless of this setting.
     
     </td>
     </tr>
