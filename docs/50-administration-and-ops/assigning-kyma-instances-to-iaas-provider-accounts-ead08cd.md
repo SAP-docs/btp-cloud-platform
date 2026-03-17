@@ -33,6 +33,12 @@ For example, once you create the first Kyma instance with the standard `aws` pla
 
 
 
+### Optimized Cluster Assignment for Amazon Web Services Accounts
+
+To optimize resource consumption and avoid exceeding Amazon Web Services limits in your global account, your Kyma instances are created in accounts that support up to 100 clusters. When an account reaches this limit, new Kyma instances are automatically assigned to a different Amazon Web Services account. When multiple Amazon Web Services accounts are available in your global account, new instances are placed in the account with the most clusters until that account reaches the limit.
+
+
+
 <a name="loioead08cdb6c20433f8d283e762fe81634__section_igw_lbz_wgc"/>
 
 ## IaaS Account Assignments After Subaccount Transfers to Another Global Account
