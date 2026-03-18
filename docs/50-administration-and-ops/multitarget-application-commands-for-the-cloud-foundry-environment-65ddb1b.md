@@ -787,7 +787,31 @@ Apply namespace as suffix. If the namespace value is not provided in the CLI opt
 </td>
 <td valign="top">
 
-When using the *\--strategy* option for “blue-green”, you can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood, this option includes *\--skip-testing-phase*.
+When using the <code><i>--strategy</i></code> option for “blue-green” deployment, you can choose to skip the starting of the newly deployed applications on idle routes. This means that the newly deployed applications will be mapped directly to live routes. Under the hood, this option includes <code><i>--skip-testing-phase</i></code> .
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--require-secure-parameters</i></code>
+
+</td>
+<td valign="top">
+
+Retrieves sensitive values from locally declared environment variables and ensures their secure handling during MTA deployment. For more information, see [Sensitive Data Handling During MTA Deployment](../30-development/sensitive-data-handling-during-mta-deployment-4c40fda.md).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<code><i>--disposable-user-provided-service</i></code>
+
+</td>
+<td valign="top">
+
+Determines that a disposable user-provided service with a randomly generated encryption key will be used for sensitive data encryption during MTA deployment. [Sensitive Data Handling During MTA Deployment](../30-development/sensitive-data-handling-during-mta-deployment-4c40fda.md).
 
 </td>
 </tr>

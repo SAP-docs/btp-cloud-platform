@@ -65,7 +65,7 @@ Allowed Input
 
 *Name\**
 
-`name`
+btp CLI parameter: `name`
 
 type: string
 
@@ -93,7 +93,7 @@ Short string of up to 15 characters that contains only alphanumeric lowercase ch
 
 *Machine Type\**
 
-`machineType`
+btp CLI parameter: `machineType`
 
 type: string
 
@@ -121,7 +121,7 @@ See [Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-
 
 *High Availability Zones\**
 
-`haZones`
+btp CLI parameter: `haZones`
 
 type: boolean
 
@@ -155,7 +155,7 @@ Updating <sup>[2](provisioning-and-updating-parameters-in-the-kyma-environment-e
 
 *Auto Scaler Min\**
 
-`autoScalerMin`
+btp CLI parameter: `autoScalerMin`
 
 type: integer
 
@@ -187,7 +187,7 @@ See [Auto Scaler Min](provisioning-and-updating-parameters-in-the-kyma-environme
 
 *Auto Scaler Max\**
 
-`autoScalerMax`
+btp CLI parameter: `autoScalerMax`
 
 type: integer
 
@@ -211,6 +211,34 @@ With high availability disabled, you can set it to `1`. With high availability e
 You can also set it to `1` in `azure_lite` because the plan does not support high availability.
 
 See [Auto Scaler Max](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Auto_Scaler_Max).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Taints*
+
+btp CLI parameter: `taints`
+
+type: list
+
+</td>
+<td valign="top">
+
+Specifies which workloads are scheduled to nodes in a given worker pool.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+See [Taints Configuration](taints-configuration-db28c29.md).
 
 </td>
 </tr>

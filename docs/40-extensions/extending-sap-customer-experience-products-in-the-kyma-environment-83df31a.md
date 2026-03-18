@@ -94,7 +94,7 @@ To do so, you pair the integration token with your SAP Customer Experience syste
 </td>
 <td valign="top">
 
-[Call a registered external service from Kyma](https://kyma-project.io/docs/kyma/latest/03-tutorials/00-application-connectivity/ac-05-call-registered-service-from-kyma)
+[Call a registered external service from Kyma](https://kyma-project.io/external-content/application-connector-manager/docs/user/tutorials/01-40-call-registered-service-from-kyma.html)
 
 </td>
 </tr>

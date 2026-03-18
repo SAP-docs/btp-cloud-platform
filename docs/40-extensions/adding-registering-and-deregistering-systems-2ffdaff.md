@@ -186,6 +186,8 @@ See [Mergе SAP Systems](merg-sap-systems-5592d86.md).
 
 [Register an SAP Integrated Business Planning System in a Global Account in SAP BTP](register-an-sap-integrated-business-planning-system-in-a-global-account-in-sap-btp-be85ce0.md "To connect an SAP Integrated Business Planning system with a global account in SAP BTP, you need to register the system in the corresponding global account.")
 
+[Register a Microsoft 365 Copilot for Joule System](register-a-microsoft-365-copilot-for-joule-system-f216895.md "")
+
 [Register a System of Type SAP BTP Application](register-a-system-of-type-sap-btp-application-134070f.md "")
 
 [Register a Third-Party System](register-a-third-party-system-5481d59.md "To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to add this system to the Systems page.")

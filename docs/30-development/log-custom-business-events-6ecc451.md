@@ -50,3 +50,12 @@ In case an event referring to a child node is exceptionally assigned to a root n
 > Status : Status }
 > ```
 
+> ### Note:  
+> For partners who implement the same scenario under a partner namespace, change documents can be logged as business events only if the event binding version is C2 released.
+
+
+
+## Reset Shared Memory
+
+Any new RAP object or changed object will be considered for logging only when the shared memory \(metadata buffer\) is reset. Business Event Logging resets the memory once everyday to ensure that the new or changed objects are considered for logging within the framework.
+

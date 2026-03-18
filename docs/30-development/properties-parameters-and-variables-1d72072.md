@@ -1,8 +1,8 @@
 <!-- loio1d7207244caa464a81653ade7dd96cff -->
 
-# SAP Java Buildpack: Properties
+# Properties, Parameters, and Variables
 
-On this page you can find all the available properties, parameters, and environment variables to use in SAP Java Buildpack. You can filter by name, value, a word, or even part of a word.
+On this page you can find the properties, parameters and environment variables to use in SAP Java Buildpack. You can filter by name, value, a word, or part of a word.
 
 
 
@@ -392,7 +392,7 @@ JBP\_CONFIG\_RESOURCE\_CONFIGURATION
 </td>
 <td valign="top">
 
- 
+See column **Example**
 
 </td>
 <td valign="top">
@@ -420,7 +420,7 @@ JBP\_CONFIG\_COMPONENTS
 </td>
 <td valign="top">
 
- 
+See column **Example**
 
 </td>
 <td valign="top">
@@ -448,7 +448,7 @@ JBP\_CONFIG\_SAP\_MACHINE\_JRE
 </td>
 <td valign="top">
 
- 
+See column **Example**
 
 </td>
 <td valign="top">
@@ -477,7 +477,7 @@ JBP\_CONFIG\_SAP\_MACHINE\_JDK
 </td>
 <td valign="top">
 
- 
+See column **Example**
 
 </td>
 <td valign="top">
@@ -506,7 +506,7 @@ JBP\_CONFIG\_JAVA\_OPTS
 </td>
 <td valign="top">
 
- 
+See column **Example**
 
 </td>
 <td valign="top">
@@ -534,7 +534,7 @@ JBP\_CONFIG\_SAPJVM
 </td>
 <td valign="top">
 
- 
+See column **Example**
 
 </td>
 <td valign="top">
@@ -609,6 +609,39 @@ Default log level: **INFO**
 
 env:
   SET_LOGGING_LEVEL: '{com.sap.sample.java.LogInfo: INFO, com.sap.sample.java.LogWarn: WARN}'
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+XSUAA\_SERVICE\_PLAN
+
+</td>
+<td valign="top">
+
+It specifies which service plan of the Authorization and Trust Management \(`xsuaa`\) service binding to use for token validation.
+
+> ### Note:  
+> XSUAA\_SERVICE\_PLAN is intended to be only used in a specific use case of token validation. Typically, you won't need or use this variable with your regular plans \(for example, *application*\).
+
+When this variable is set, the SAP Java Buildpack's authenticator searches through all `xsuaa` service bindings to find one with a matching `plan` property, and then uses this configuration for the token validation.
+
+</td>
+<td valign="top">
+
+See column **Example**
+
+</td>
+<td valign="top">
+
+```
+
+env:
+  XSUAA_SERVICE_PLAN: reference-instance
 ```
 
 

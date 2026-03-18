@@ -48,6 +48,9 @@ To modify an existing XSLX document, get a write access like this:
 > DATA(lo_write_access) = xco_cp_xlsx=>document->for_file_content( lv_file_content )->write_access( ).
 > ```
 
+> ### Caution:  
+> The existing file must only use the features listed on this page. If other Excel features are used in the file, this can lead to an error being raised. Even if no error is raised, the file retrieved via the method `get_file_content` might be corrupted.
+
 
 
 <a name="loio8dddce9fd9954e72a09d2b39d22db995__section_xlz_dmn_1vb"/>

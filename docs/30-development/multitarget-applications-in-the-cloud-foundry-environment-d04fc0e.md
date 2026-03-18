@@ -2,11 +2,11 @@
 
 # Multitarget Applications in the Cloud Foundry Environment
 
-A Multitarget application \(MTA\) is essentially a single application that consists of multiple parts. These parts are created using various technologies and share the same lifecycle.
+A multitarget application \(MTA\) is essentially a single application that consists of multiple parts. These parts are created using various technologies and share the same lifecycle.
 
 The MTA developers outline the intended outcomes using the MTA model. This model consists of MTA modules, MTA resources, and the interdependencies between them. Afterward, the SAP Cloud Deployment service validates it, orchestrates the necessary actions, and automates the MTA deployment. The outcome is the formation of Cloud Foundry applications, services, and the generation of SAP specific content. For more information about the Multitarget Application model, see the official specification documents [The Multitarget Application Model v.2](https://help.sap.com/doc/multitarget-application-modelv2/Cloud/en-US/The%20Multitarget%20Application%20Model.pdf) and [The Multitarget Application Model v.3](https://help.sap.com/doc/multitarget-application-modelv3/Cloud/en-US/The%20Multitarget%20Application%20M%D0%BEdel.pdf).
 
-You can create and deploy a Multitarget Application in the Cloud Foundry environment as described below by following different approaches that can yield the same result:
+You can create and deploy a multitarget application in the Cloud Foundry environment as described below by following different approaches that can yield the same result:
 
 -   Using SAP Web IDE Full-Stack as described in [Developing Multitarget Applications](https://help.sap.com/viewer/825270ffffe74d9f988a0f0066ad59f0/CF/en-US/a71bf8281254489ea8be6e323199b304.html) - both the development descriptor `mta.yaml` and the deployment descriptor `mtad.yaml` are created automatically. The `mta.yaml` is generated when you create the application project, and the `mtad.yaml` file is created when you build the project.
 
@@ -287,6 +287,16 @@ Archive containing a deployment descriptor, the module and resource binaries, an
 <a name="loiod04fc0e2ad894545aebfd7126384307c__section_ph2_r5h_1cb"/>
 
 ## Prerequisites and Restrictions
+
+
+
+### Prerequisites
+
+You need the **Space Developer** role to deploy multitarget applications in the Cloud Foundry environment. For more information, see [About Roles in the Cloud Foundry Environment](../50-administration-and-ops/about-roles-in-the-cloud-foundry-environment-0907638.md).
+
+
+
+### Restrictions
 
 You have to consider the following limits for the MTA artifacts, which can be handled by the SAP Cloud Deployment service:
 

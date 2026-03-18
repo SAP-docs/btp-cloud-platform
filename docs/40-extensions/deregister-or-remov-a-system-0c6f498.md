@@ -4,7 +4,7 @@
 
 # Deregister or Removе a System
 
-When you no longer need the system to be paired with your global account, you can deregister or remove it depending on its status.
+When you no longer need the system to be paired with your global account, you can deregister or remove.
 
 
 
@@ -14,7 +14,7 @@ When you no longer need the system to be paired with your global account, you ca
 
 -   You are a global account administrator, or you are a system landscape administrator of the global account where you want to deregister or remove your system. See [Working with Role Collections](../50-administration-and-ops/working-with-role-collections-393ea0b.md).
 
--   You have added your system as a record to the list on the **Systems** page. See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
+-   You have manually added your system as a record to the list on the **Systems** page. See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
 
 
 
@@ -24,16 +24,16 @@ When you no longer need the system to be paired with your global account, you ca
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-Deregistering an SAP or third-party system means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established, while removing a system means that this system is no longer part of the system landscape list. You can deregister or remove a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list.
+Deregistering an SAP systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio means that the connectivity between this system and the global account is disabled and extension scenarios cannot be established, while removing a system means that this system is no longer part of the systems list. You can deregister or remove a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the system landscape list. You can remove only manually added systems.
 
 The deregistration and the removal processes have the following states displayed in the cockpit:
 
--   *Deregistering* - a deregistration process has started. As a result, the connectivity between the SAP or third-party system and SAP BTP is disabled and extension scenarios cannot be established. The system remains in the system landscape list and you can register it again later on.
+-   *Deregistering* - a deregistration process has started. As a result, the connectivity between the SAP system of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud or SAP systems from the SAP Customer Experience portfolio and SAP BTP is disabled and extension scenarios cannot be established. The system remains in the systems list and you can register it again later on.
 
-    Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in.
+    Once a system of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio is registered, you can deregister it only after deleting its entitlement configurations and excluding it from the formations it takes part in.
 
 -   *Error while Deregistering* - the deregistration has failed. Try to deregister the system again. If the problem persists, you have to report a case in one of the components mentioned below.
--   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the SAP or third-party system is deregistered, and then, it is removed from the system landscape list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure.
+-   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the SAP systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio is deregistered, and then, it is removed from the systems list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure. This state also applies to other manually added SAP or third-party systems that you are removing.
 
     Once a system is registered, you can only remove it if you first deregister it.
 

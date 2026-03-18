@@ -41,7 +41,7 @@ To achieve better fault-tolerance, we deploy our services across multiple availa
 For more information on AZs, see:
 
 -   Cloud Foundry runtime: [Availability Zones in the Cloud Foundry Environment](availability-zones-in-the-cloud-foundry-environment-b6a7e11.md).
--   Kyma runtime: [Standard: Amazon Web Services, Google Cloud, and Microsoft Azure](https://help.sap.com/docs/btp/sap-business-technology-platform/available-plans-in-kyma-environment?&version=Cloud#standard-amazon-web-services-google-cloud-and-microsoft-azure).
+-   Kyma runtime: [Availability Zones in the Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/availability-zones-in-kyma-environment?locale=en-US&version=Cloud).
 
 In addition to what SAP BTP offers, you can follow the [Best Practices for Resilient Applications](resilience-high-availability-and-disaster-recovery-e3ac4f7.md#loioe3ac4f7c25a3442ca585950095eec599__section_n1c_dqk_ylb) to ensure high availability of your applications.
 

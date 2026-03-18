@@ -11,5 +11,5 @@ See: [Install the MultiApps CLI Plugin in the Cloud Foundry Environment](install
 **Related Information**  
 
 
-[Multitarget Applications in the Cloud Foundry Environment](../30-development/multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md "A Multitarget application (MTA) is essentially a single application that consists of multiple parts. These parts are created using various technologies and share the same lifecycle.")
+[Multitarget Applications in the Cloud Foundry Environment](../30-development/multitarget-applications-in-the-cloud-foundry-environment-d04fc0e.md "A multitarget application (MTA) is essentially a single application that consists of multiple parts. These parts are created using various technologies and share the same lifecycle.")
 

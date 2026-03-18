@@ -30,6 +30,8 @@ After you have created an ABAP environment instance, you can change the followin
 
 -   Customer-Managed Keys \(customer\_managed\_keys\). For more information, see [Integration with SAP Key Management Service](integration-with-sap-key-management-service-ad46b26.md)
 
+-   Multi-Availability Zones \(multi\_availability\_zones\). For more information, see [Resilience of an ABAP Environment System](resilience-of-an-abap-environment-system-25a6d53.md)
+
 
 > ### Note:  
 > The updates are done with zero downtime, except for the HANA database resizing, which is performed with near zero downtime. This means that the database is inaccessible for only a few seconds.

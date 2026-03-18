@@ -59,15 +59,15 @@ The following figure illustrates this scenario.
 
     -   For pure proxy scenarios:
 
-        Enrich the `forward_corp_idp_token` claim with the `id_token` value.
+        Add the token claim `forward_corp_idp_token` with the static value `id_token` in the configuration of the corporate identity provider.
 
         For more information, see [Enrich Token Claims Coming from Corporate IdP](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/enrich-token-claims-coming-from-corporate-idp?version=Cloud).
 
     -   For federation scenarios:
 
-        Add the `forward_corp_idp_token` claim with the `id_token` value as a custom attribute mapping on each relevant application in the SAP Cloud Identity Services tenant.
+        Add the token claim `forward_corp_idp_token` with the static value `id_token` to all relevant applications in the SAP Cloud Identity Services tenant.
 
-        For more information, see [Configuring User Attributes from a Corporate Identity Provider](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/configure-default-attributes-for-subscribed-applications?version=Cloud).
+        For more information, see [Configuring Attributes Based on Flexible Expressions](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/configure-default-attributes-sent-to-application).
 
 
 3.  Check if you need to configure a destination to connect your application to the Cloud Connector.

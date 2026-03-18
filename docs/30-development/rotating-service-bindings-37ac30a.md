@@ -117,7 +117,7 @@ The `credentialsRotationPolicy` is evaluated periodically during a [control loop
 
 ## Enabling Immediate Rotation
 
-To trigger an immediate rotation regardless of the configured rotation frequency, add the `services.cloud.sap.com/forceRotate: "true"` annotation to the`ServiceBinding` resource. The immediate rotation only works if automatic rotation is already enabled.
+To trigger an immediate rotation regardless of the configured rotation frequency, add the `services.cloud.sap.com/forceRotate: "true"` annotation to the `ServiceBinding` resource. The immediate rotation only works if automatic rotation is already enabled.
 
 The following example shows the configuration of a `ServiceBinding` resource for rotating credentials every 25 days \(600 hours\) and keeping the old `ServiceBinding` resource for 2 days \(48 hours\) before deleting it:
 
