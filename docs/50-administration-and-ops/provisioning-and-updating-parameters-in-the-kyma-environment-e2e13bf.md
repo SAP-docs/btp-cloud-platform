@@ -256,22 +256,36 @@ See the example configuration:
 
 > ### Sample Code:  
 > ```
->    "additionalWorkerNodePools": [
->       {
->          "name": "worker-1",
->          "machineType": "Standard_D2s_v5",
->          "haZones": true,
->          "autoScalerMin": 3,
->          "autoScalerMax": 20
->       },
->       {
->          "name": "worker-2",
->          "machineType": "Standard_D4s_v5",
->          "haZones": false,
->          "autoScalerMin": 1,
->          "autoScalerMax": 1
->       }
->    ]
+> {
+>   "additionalWorkerNodePools": [
+>     {
+>       "name": "worker-1",
+>       "machineType": "Standard_D2s_v5",
+>       "haZones": true,
+>       "autoScalerMin": 3,
+>       "autoScalerMax": 20
+>     },
+>     {
+>       "name": "worker-2",
+>       "machineType": "Standard_D4s_v5",
+>       "haZones": false,
+>       "autoScalerMin": 1,
+>       "autoScalerMax": 1,
+>       "taints": [
+>         {
+>           "key": "dedicated",
+>           "value": "gpu",
+>           "effect": "NoSchedule"
+>         },
+>         {
+>           "key": "dedicated",
+>           "value": "gpu",
+>           "effect": "NoExecute"
+>         }
+>       ]
+>     }
+>   ]
+> }
 > ```
 
 See also [Assigning Workloads to Worker Node Pools](assigning-workloads-to-worker-node-pools-1bf21c1.md).

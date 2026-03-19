@@ -54,7 +54,7 @@ Follow these steps to get familiar with workloads and learn how to use them.
 
 2.  Choose a namespace in your cluster and create a simple Function \([Create and Modify an Inline Function](https://kyma-project.io/external-content/serverless/docs/user/tutorials/01-10-create-inline-function)\) or a microservice.
 
-3.  If you want to expose your workload outside the cluster, read [Securing Workloads](securing-workloads-19e332b.md).
+3.  If you want to expose your workload outside the cluster, read [Expose and Secure Workloads](expose-and-secure-workloads-19e332b.md).
 
 4.  If you want your workload to react to events, read [Subscribe to Multiple Event Types](subscribe-to-multiple-event-types-2c26713.md).
 

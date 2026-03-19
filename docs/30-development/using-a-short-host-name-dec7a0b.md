@@ -2,87 +2,72 @@
 
 # Using a Short Host Name
 
-Learn how to expose a Service instance using a short host name instead of the full domain name.
+Simplify your APIRule configuration by using a short host name instead of a fully qualified domain name \(FQDN\).
 
 
 
-<a name="loiodec7a0b1573c474293d7e36412a4b9a8__prereq_adk_mv3_x2c"/>
+## What Is a Short Host Name?
 
-## Prerequisites
+A short host name is a single lowercase [RFC 1123](https://datatracker.ietf.org/doc/html/rfc1123) subdomain label without the domain suffix. For example, instead of specifying the FQDN `myapp.example.com` in APIRule, you use `myapp`. The domain `example.com` is automatically appended from the referenced Gateway resource.
 
--   You have the Istio and API Gateway modules added. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
--   You have installed [curl](https://curl.se/) and [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl). You have configured kubectl to communicate with your Kyma runtime instance. See [Access a Kyma Instance Using kubectl](access-a-kyma-instance-using-kubectl-3e25944.md).
--   You have a deployed workload.
-
-    > ### Note:  
-    > To expose a workload using APIRule in version `v2`, the workload must be a part of the Istio service mesh. See [Enabling Istio Sidecar Proxy Injection](enabling-istio-sidecar-proxy-injection-b3c6f1d.md).
-
--   You have [set up your custom domain](https://kyma-project.io/#/api-gateway/user/tutorials/01-10-setup-custom-domain-for-workload). Alternatively, you can use the default domain of your Kyma cluster and the default Gateway `kyma-system/kyma-gateway`.
-
-    > ### Note:  
-    > Because the default Kyma domain is a wildcard domain, which uses a simple TLS Gateway, it is recommended that you set up your custom domain for use in a production environment.
-
-    > ### Tip:  
-    > To learn what the default domain of your Kyma cluster is, run the following command:
-    > 
-    > ```
-    > kubectl get gateway -n kyma-system kyma-gateway -o jsonpath='{.spec.servers[0].hosts}
-    > ```
+Using a short host is especially useful when you move or recreate workloads in a new cluster. With a short host name, the APIRule does not hard-code the domain. Instead of updating every APIRule when the cluster’s domain changes, you only update the Gateway configuration once, and all APIRules that use short hosts start using the new domain automatically. This reduces the risk of mistakes and makes cluster migration easier.
 
 
 
+## Gateway Requirements
 
-<a name="loiodec7a0b1573c474293d7e36412a4b9a8__context_rbx_bxg_y2c"/>
+The referenced Gateway must meet these requirements:
 
-## Context
-
-Using a short host makes it simpler to apply an APIRule custom resource \(CR\) because the domain name is automatically retrieved from the referenced Gateway, and you don’t have to manually set it in each APIRule. This might be particularly useful when reconfiguring resources in a new cluster, as it reduces the risk of errors and streamlines the process.
-
+-   Define a single wildcard host across all [Server](https://istio.io/latest/docs/reference/config/networking/gateway/#Server) definitions.
+-   Use the wildcard prefix `*.` \(for example, `*.example.com`\).
 
 
-## Procedure
 
-1.  To expose your workload using a short host, create an APIRule CR and define only a subdomain in the `hosts` field. See the following example:
+## Example
 
-    ```
-    cat <<EOF | kubectl apply -f -
-    apiVersion: gateway.kyma-project.io/v2alpha1
-    kind: APIRule
-    metadata:
-      name: {APIRULE_NAME}
-      namespace: {APIRULE_NAMESPACE}
-    spec:
-      hosts:
-        - {SUBDOMAIN}
-      service:
-        name: {SERVICE_NAME}
-        namespace: {SERVICE_NAMESPACE}
-        port: {SERVICE_PORT}
-      gateway: {NAMESPACE/GATEWAY}
-      rules:
-        - path: /*
-          methods: ["GET"]
-          noAuth: true
-        - path: /post
-          methods: ["POST"]
-          noAuth: true
-    EOF
-    ```
+See an example Gateway resource:
 
-2.  Send a `GET` request to the exposed workload:
+```
+apiVersion: networking.istio.io/v1beta1
+kind: Gateway
+metadata:
+  name: kyma-gateway
+  namespace: kyma-system
+spec:
+  selector:
+    app: istio-ingressgateway
+  servers:
+  - hosts:
+    - "*.example.com"
+    port:
+      name: https
+      number: 443
+      protocol: HTTPS
+    tls:
+      mode: SIMPLE
+      credentialName: example-com-tls
+```
 
-    ```
-    curl -ik -X GET https://{SUBDOMAIN}.{DOMAIN_NAME}/ip
-    ```
+The following APIRule uses a short host name and references the Gateway `kyma-gateway`:
 
-    If successful, the call returns the `200 OK` response code.
+```
+apiVersion: gateway.kyma-project.io/v2
+kind: APIRule
+metadata:
+  name: httpbin-short
+  namespace: default
+spec:
+  hosts:
+    - myapp
+  service:
+    name: httpbin
+    port: 8000
+  gateway: kyma-system/kyma-gateway
+  rules:
+    - path: /headers
+      methods: ["GET"]
+      noAuth: true
+```
 
-3.  Send a `POST` request to the exposed workload:
-
-    ```
-    curl -ik -X POST https://{SUBDOMAIN}.{DOMAIN_NAME}/post -d "test data"
-    ```
-
-    If successful, the call returns the `200 OK` response code.
-
+You can call your Service at `myapp.example.com` even though the domain suffix is not explicitly specified in the APIRule. The domain suffix is retrieved from the referenced Gateway.
 

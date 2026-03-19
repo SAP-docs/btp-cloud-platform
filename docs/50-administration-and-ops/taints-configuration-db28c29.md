@@ -2,9 +2,12 @@
 
 # Taints Configuration
 
-Learn how to use taints to schedule your workloads to nodes in additional worker node pools.
+Learn how to use taints to effectively schedule your workloads to nodes in additional worker node pools.
 
 The [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools) \(`additionalWorkerNodePools`\) parameter supports an optional *Taints* list. Use it to control which workloads are scheduled to nodes in a given worker pool.
+
+> ### Note:  
+> Taints alone dictate scheduling restrictions on nodes, but these restrictions take effect only when combined with tolerations. While you configure taints on nodes, you set tolerations on your workloads \(Pods\) to allow them to run on tainted nodes. For more information on configuring tolerations, see [Taints and Tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/).
 
 
 
@@ -89,132 +92,93 @@ Defines what happens to workloads that do not tolerate the taint.
 </td>
 <td valign="top">
 
-`NoSchedule`, `PreferNoSchedule`, `NoExecute`
+`NoSchedule` \(excludes certain types of Pods from running on a specific set of nodes\)
+
+`PreferNoSchedule` \(discourages scheduling Pods on certain nodes, but allows it as a last resort, such as if no other nodes are available, to maintain availability or resource utilization\)
+
+`NoExecute` \(prevents any new workloads that cannot tolerate the taint from being scheduled onto a given node and evicts any existing Pods that already violate the taint and do not have the required toleration\)
 
 </td>
 </tr>
 </table>
 
-For each taint within a single worker node pool, the combination of the *key* and *effect* parameters must be unique. However, using the same *key* value with different *effect* values is allowed.
+For each taint within a single worker node pool, the combination of the `key` and `effect` parameters must be unique. However, you can use the same `key` value with different `effect` values.
 
 
 
 ## Provisioning a Cluster with Taints
 
-To provision a cluster with taints in an additional worker node pool, provide your values and run the following command:
+To provision a cluster with taints in an additional worker node pool, use a configuration similar to the following in your request:
 
 ```
-curl --request PUT "https://$BROKER_URL/oauth/v2/service_instances/$INSTANCE_ID?accepts_incomplete=true" \
-  --header 'X-Broker-API-Version: 2.14' \
-  --header 'Content-Type: application/json' \
-  --header "$AUTHORIZATION_HEADER" \
-  --data-raw "{
-    \"service_id\": \"47c9dcbf-ff30-448e-ab36-d3bad66ba281\",
-    \"plan_id\": \"4deee563-e5ec-4731-b9b1-53b42d855f0c\",
-    \"context\": {
-      \"globalaccount_id\": \"$GLOBAL_ACCOUNT_ID\"
-    },
-    \"parameters\": {
-      \"name\": \"$NAME\",
-      \"region\": \"$REGION\",
-      \"additionalWorkerNodePools\": [
+{
+  "additionalWorkerNodePools": [
+    {
+      ...
+      "taints": [
         {
-          \"name\": \"worker-1\",
-          \"machineType\": \"Standard_D2s_v5\",
-          \"haZones\": true,
-          \"autoScalerMin\": 3,
-          \"autoScalerMax\": 20,
-          \"taints\": [
-            {
-              \"key\": \"dedicated\",
-              \"value\": \"gpu\",
-              \"effect\": \"NoSchedule\"
-            },
-            {
-              \"key\": \"dedicated\",
-              \"value\": \"gpu\",
-              \"effect\": \"NoExecute\"
-            }
-          ]
+          "key": "dedicated",
+          "value": "gpu",
+          "effect": "NoSchedule"
+        },
+        {
+          "key": "dedicated",
+          "value": "gpu",
+          "effect": "NoExecute"
         }
       ]
     }
-  }"
+  ]
+}
 ```
 
 
 
 ## Updating Taints
 
-You can't preserve existing taints without explicitly providing them in the update request.
-
-To update or overwrite the existing taints for your worker node pool, provide a complete list of desired taints.
-
-For example:
+To update or overwrite the existing taints for your worker node pool, you must explicitly provide a complete list of desired taints, for example:
 
 ```
-curl --request PATCH "https://$BROKER_URL/oauth/v2/service_instances/$INSTANCE_ID?accepts_incomplete=true" \
-  --header 'X-Broker-API-Version: 2.14' \
-  --header 'Content-Type: application/json' \
-  --header "$AUTHORIZATION_HEADER" \
-  --data-raw "{
-    \"service_id\": \"47c9dcbf-ff30-448e-ab36-d3bad66ba281\",
-    \"plan_id\": \"4deee563-e5ec-4731-b9b1-53b42d855f0c\",
-    \"context\": {
-      \"globalaccount_id\": \"$GLOBAL_ACCOUNT_ID\"
-    },
-    \"parameters\": {
-      \"additionalWorkerNodePools\": [
+{
+  "additionalWorkerNodePools": [
+    {
+      ...
+      "taints": [
         {
-          \"name\": \"worker-1\",
-          \"machineType\": \"Standard_D2s_v5\",
-          \"haZones\": true,
-          \"autoScalerMin\": 3,
-          \"autoScalerMax\": 20,
-          \"taints\": [
-            {
-              \"key\": \"dedicated\",
-              \"value\": \"gpu\",
-              \"effect\": \"NoSchedule\"
-            }
-          ]
+          "key": "dedicated",
+          "value": "gpu",
+          "effect": "NoSchedule"
+        },
+        {
+          "key": "dedicated",
+          "value": "gpu",
+          "effect": "NoSchedule"
         }
       ]
     }
-  }"
+  ]
+}
 ```
 
 
 
 ## Removing Taints
 
-To remove existing taints for a worker node pool, either omit the `taints` field in the update request or set it to an empty list \(`[]`\).
-
-For example:
+To remove existing taints for a worker node pool, either omit the `taints` field in the update request or set it to an empty list \(`[]`\), for example:
 
 ```
-curl --request PATCH "https://$BROKER_URL/oauth/v2/service_instances/$INSTANCE_ID?accepts_incomplete=true" \
-  --header 'X-Broker-API-Version: 2.14' \
-  --header 'Content-Type: application/json' \
-  --header "$AUTHORIZATION_HEADER" \
-  --data-raw "{
-    \"service_id\": \"47c9dcbf-ff30-448e-ab36-d3bad66ba281\",
-    \"plan_id\": \"4deee563-e5ec-4731-b9b1-53b42d855f0c\",
-    \"context\": {
-      \"globalaccount_id\": \"$GLOBAL_ACCOUNT_ID\"
-    },
-    \"parameters\": {
-      \"additionalWorkerNodePools\": [
-        {
-          \"name\": \"worker-1\",
-          \"machineType\": \"Standard_D2s_v5\",
-          \"haZones\": true,
-          \"autoScalerMin\": 3,
-          \"autoScalerMax\": 20,
-          \"taints\": []
-        }
-      ]
+{
+  "additionalWorkerNodePools": [
+    {
+      ...
+      "taints": []
     }
-  }"
+  ]
+}
 ```
+
+**Related Information**  
+
+
+[Assigning Workloads to Worker Node Pools](assigning-workloads-to-worker-node-pools-1bf21c1.md "In addition to the mandatory worker node pool existing in each Kyma runtime, you can add and configure custom worker node pools. These additional worker nodes are reserved for running your workloads with special computing requirements on optimized machines. To ensure your workload runs on the right worker node pool, assign workloads to particular worker nodes.")
 

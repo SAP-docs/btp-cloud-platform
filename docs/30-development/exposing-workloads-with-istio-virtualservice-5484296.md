@@ -12,12 +12,13 @@ Learn how to expose a workload with Istio VirtualService.
 
 -   You have the Istio module added to your Kyma runtime instance.
 -   You have a deployed workload.
--   You have set up your custom domain and a custom TLS Gateway. See [Set Up a Custom Domain](https://kyma-project.io/#/api-gateway/user/tutorials/01-10-setup-custom-domain-for-workload) and [Set Up a TLS Gateway](https://kyma-project.io/#/api-gateway/user/tutorials/01-20-set-up-tls-gateway).
+-   To set up a custom Gateway, see [Configure a TLS Gateway](configure-a-tls-gateway-87a874c.md). Alternatively, you can use the default domain of your Kyma cluster and the default Gateway `kyma-system/kyma-gateway`.
 
-    Alternatively, you can use the default domain of your Kyma cluster and the default Gateway `kyma-system/kyma-gateway`. To use the default domain and Gateway, the API Gateway module must be added to your cluster.
+    > ### Caution:  
+    > Because the default Kyma domain is a wildcard domain, which uses a simple TLS Gateway, it is recommended that you set up your custom domain for use in a production environment.
 
     > ### Tip:  
-    > To get the default domain of your Kyma cluster, run the following command:
+    > To learn what the default domain of your Kyma cluster is, run the following command:
     > 
     > ```
     > kubectl get gateway -n kyma-system kyma-gateway -o jsonpath='{.spec.servers[0].hosts}'
