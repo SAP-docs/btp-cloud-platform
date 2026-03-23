@@ -400,17 +400,17 @@ Custom Alerts
 
 Whenever a budget's threshold value is exceeded, we also automatically send an event to the SAP Alert Notification service for SAP BTP.
 
-You can integrate with SAP Alert Notification Service to send custom alerts to your preferred recipients, communication channels, and monitoring solutions. This is a paid service. For pricing information, go to the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-alert-notification-service).
+You can integrate with SAP Alert Notification service to send custom alerts to your preferred recipients, communication channels, and monitoring solutions. This is a paid service. For pricing information, go to the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-alert-notification-service).
 
 > ### Note:  
-> If you turn off the *Send alerts automatically to global account admins* option, budget events are still sent to the SAP Alert Notification Service when an enabled threshold is exceeded.
+> If you turn off the *Send alerts automatically to global account admins* option, budget events are still sent to the SAP Alert Notification service when an enabled threshold is exceeded.
 
 
 
 </td>
 <td valign="top">
 
-Subscribe to the budget events \(`BudgetAlertThresholdExceeded`\) using your own SAP Alert Notification Service instance and configure the custom alerts, as needed.
+Subscribe to the budget events \(`BudgetAlertThresholdExceeded`\) using your own SAP Alert Notification service instance and configure the custom alerts, as needed.
 
 For more information, see:
 

@@ -12,7 +12,7 @@ There are a few configuration settings that you can set to customize how the btp
 
 These settings are saved to the configuration file, which governs how the btp CLI works. You can have more than one configuration file for working in different accounts at the same time by logging in with the `--config PATH` option and then also providing it with each command call. See [Specify the Location of the Configuration File](specify-the-location-of-the-configuration-file-e57288d.md).
 
-To find out where the configuration file is stored, use `btp --info`. Use the following commands to manage your configuration settings:
+To find out where the configuration file is stored, use `btp --info`.
 
 
 
@@ -20,12 +20,22 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
 
 1.  To change a setting, run:
 
-    ```
-    btp [OPTIONS] set config [--format FORMAT] [--verbose BOOL] [--target.hierarchy BOOL] [--theme THEME]
-    ```
+    `btp [OPTIONS] set config [--format FORMAT] [--verbose BOOL] [--login.sso MODE] [--login.securestore BOOL] [--login.showglobalaccounts BOOL] [--target.hierarchy BOOL] [--theme THEME]`
 
 
     <table>
+    <tr>
+    <td valign="top">
+    
+    **Parameter**
+    
+    </td>
+    <td valign="top">
+    
+    **Description**
+    
+    </td>
+    </tr>
     <tr>
     <td valign="top">
     
@@ -92,15 +102,11 @@ To find out where the configuration file is stored, use `btp --info`. Use the fo
     
 2.  To list the current settings, run:
 
-    ```
-    btp [OPTIONS] list config
-    ```
+    `btp [OPTIONS] list config`
 
 3.  To reset individual or all settings back to their default values, run:
 
-    ```
-    btp [OPTIONS] reset config [--format] [--verbose] [--target.hierarchy] [--all]
-    ```
+    `btp [OPTIONS] reset config [--format] [--verbose] [--login.sso] [--login.securestore] [--login.showglobalaccounts] [--target.hierarchy] [--theme] [--all]`
 
 
 **Related Information**  

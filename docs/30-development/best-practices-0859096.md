@@ -42,13 +42,13 @@ For more information, see [Multitarget Applications in the Cloud Foundry Environ
 
 <a name="loio0859096d340b45dfb39417a01870ad95__section_gtq_h24_ppb"/>
 
-## SAP Alert Notification Service
+## SAP Alert Notification service
 
 Applications running in the Cloud Foundry environment are constantly monitored through health checks. If an application doesn't respond, for example because it crashed, it fails the health check and is automatically restarted. Because the system restarts applications quickly to avoid major disruptions, it can be difficult to identify underlying problems. For more information about configuring Health Checks, see [https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html](https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html)
 
-To support the smooth operation of your applications and services, we recommend using the SAP Alert Notification Service. Using a standardized environment-agnostic model, the service collects any update from the application checks as well as crucial technical information from other services on SAP BTP. It also handles custom scenarios that only occur in your specific application and environment. Each piece of information is translated into a common event model.
+To support the smooth operation of your applications and services, we recommend using the SAP Alert Notification service. Using a standardized environment-agnostic model, the service collects any update from the application checks as well as crucial technical information from other services on SAP BTP. It also handles custom scenarios that only occur in your specific application and environment. Each piece of information is translated into a common event model.
 
-You can subscribe to events that are of interest to you and use a delivery channel of your choice, for example email or a custom webhook allowing you to send events to any REST API endpoint in the public internet. SAP Alert Notification Service also natively supports integration with external systems, such as Slack, Microsoft Teams, VictorOps, ServiceNow. For more information on events, see [SAP Alert Notification Service Events](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/latest/en-US/eaaa37e6ff62486ebb849507dc33abc6.html).
+You can subscribe to events that are of interest to you and use a delivery channel of your choice, for example email or a custom webhook allowing you to send events to any REST API endpoint in the public internet. SAP Alert Notification service also natively supports integration with external systems, such as Slack, Microsoft Teams, VictorOps, ServiceNow. For more information on events, see [SAP Alert Notification Service Events](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/latest/en-US/eaaa37e6ff62486ebb849507dc33abc6.html).
 
 **Related Information**  
 
