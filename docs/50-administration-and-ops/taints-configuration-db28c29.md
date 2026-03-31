@@ -148,11 +148,6 @@ To update or overwrite the existing taints for your worker node pool, you must e
           "key": "dedicated",
           "value": "gpu",
           "effect": "NoSchedule"
-        },
-        {
-          "key": "dedicated",
-          "value": "gpu",
-          "effect": "NoSchedule"
         }
       ]
     }

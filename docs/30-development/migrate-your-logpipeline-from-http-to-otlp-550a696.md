@@ -79,6 +79,18 @@ Replace with `spec.output.otlp`.
 <tr>
 <td valign="top">
 
+`spec.output.http.uri`
+
+</td>
+<td valign="top">
+
+OTLP uses a predefined index that you can't change. If you need a custom index, use reindexing \(see [OpenSearch: Reindex Data](https://docs.opensearch.org/latest/im-plugin/reindex-data/)\).
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `spec.input.runtime.dropLabels`
 
 </td>

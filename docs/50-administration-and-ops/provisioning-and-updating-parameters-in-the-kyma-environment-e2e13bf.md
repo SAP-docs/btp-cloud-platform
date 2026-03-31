@@ -10,12 +10,149 @@ When creating a Kyma cluster, you can configure various parameters to adjust it 
 
 ## Overview
 
-To configure the cluster parameters, you can use your preferred interface, the SAP BTP cockpit, or the SAP BTP command line interface.
+To configure the cluster parameters, you can use your preferred interface, the SAP BTP cockpit, or the SAP BTP command line interface \(btp CLI\).
 
 To check which parameters are available for configuration in a particular plan, see [Available Plans in the Kyma Environment](available-plans-in-the-kyma-environment-befe01d.md).
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
+
+
+
+## Access Control List
+
+*Access Control List* \(`accessControlList`\) specifies the IP ranges that can access the Kubernetes API. Internally, the list of IP ranges includes additional entries necessary for the continuous operation of your cluster.
+
+**Access Control List Parameter**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter
+
+</th>
+<th valign="top">
+
+Supported Operation
+
+</th>
+<th valign="top">
+
+Supported Plan
+
+</th>
+<th valign="top">
+
+Default Value
+
+</th>
+<th valign="top">
+
+Allowed Input
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Access Control List*
+
+btp CLI parameter: `accessControlList`
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+Standard: Amazon Web Services \(`aws`\) and Microsoft Azure \(`azure`\)
+
+Build Runtime: Amazon Web Services \(`build-runtime-aws)` and Microsoft Azure \(`build-runtime-azure`\)
+
+</td>
+<td valign="top">
+
+By default, the feature is disabled, and your cluster is created with no IP restrictions.
+
+</td>
+<td valign="top">
+
+See the Access Control List Nested Parameters table.
+
+</td>
+</tr>
+</table>
+
+> ### Remember:  
+> The parameters marked with an asterisk "\*" are mandatory.
+
+**Access Control List Nested Parameters**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Nested Parameter
+
+</th>
+<th valign="top">
+
+Default Value
+
+</th>
+<th valign="top">
+
+Allowed Input
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Allowed CIDRs\**
+
+btp CLI parameter: `allowedCIDRs`
+
+type: list of strings
+
+</td>
+<td valign="top">
+
+Empty list \(`[]`\)
+
+</td>
+<td valign="top">
+
+List of IP ranges or an empty list.
+
+</td>
+</tr>
+</table>
+
+To define your access control list, provide the `accessControlList` parameter with `allowedCIDRs` listing any correct IP ranges in the provisioning request. See the example configuration:
+
+```
+"accessControlList": {
+    "allowedCIDRs": ["1.2.3.0/24", "2.3.4.0/24"]
+    }
+```
+
+To modify the set of IP ranges after the cluster is provisioned, send an update request with the new set of IP ranges. If the update request does not contain the `accessControlList` parameter, the existing access control list remains unchanged.
+
+To remove your access control list, set `allowedCIDRs` to an empty list.
+
+```
+"accessControlList": {
+    "allowedCIDRs": []
+    }
+```
 
 
 
@@ -352,13 +489,19 @@ Allowed Input
 <tr>
 <td valign="top">
 
-Standard
+Standard:
 
-technical names: `aws`, `gcp`, `azure`
+-   `aws`
+-   `gcp`
+-   `azure`
 
-Build Runtime
+Build Runtime:
 
-technical names: `build-runtime-aws`, `build-runtime-gcp`, or `build-runtime-azure`
+-   `build-runtime-aws`
+-   `build-runtime-gcp`
+-   `build-runtime-azure` 
+
+
 
 </td>
 <td valign="top">
@@ -503,13 +646,19 @@ Allowed Input
 <tr>
 <td valign="top">
 
-Standard
+Standard:
 
-technical names: `aws`, `gcp`, `azure`
+-   `aws`
+-   `gcp`
+-   `azure`
 
-Build Runtime
+Build Runtime:
 
-technical names: `build-runtime-aws`, `build-runtime-gcp`, or `build-runtime-azure`
+-   `build-runtime-aws`
+-   `build-runtime-gcp`
+-   `build-runtime-azure` 
+
+
 
 </td>
 <td valign="top">
@@ -3384,7 +3533,7 @@ North America \(Virginia\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="13">
+<td valign="top" rowspan="14">
 
 Standard: Microsoft Azure
 
@@ -3399,7 +3548,7 @@ Build Runtime: Microsoft Azure
 technical name: `build-runtime-azure`
 
 </td>
-<td valign="top" rowspan="13">
+<td valign="top" rowspan="14">
 
 Provisioning
 

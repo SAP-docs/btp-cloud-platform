@@ -1143,6 +1143,7 @@
                 -   [Configuring Serverless](30-development/configuring-serverless-b40a119.md)
                 -   [Serverless Buildless Mode](30-development/serverless-buildless-mode-dc25fff.md)
                 -   [Configuring Logging](30-development/configuring-logging-123c965.md)
+                -   [Function Runtime Deprecation Schedule](30-development/function-runtime-deprecation-schedule-0f9bb43.md)
                 -   [Troubleshooting for the Serverless Module](30-development/troubleshooting-for-the-serverless-module-f88cfeb.md)
                     -   [Serverless Periodically Restarting](30-development/serverless-periodically-restarting-5b655d5.md)
                     -   [Function Fails to Start With Customized OpenTelemetry Dependencies](30-development/function-fails-to-start-with-customized-opentelemetry-dependencies-dbda6ba.md)
