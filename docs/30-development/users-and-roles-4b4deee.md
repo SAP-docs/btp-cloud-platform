@@ -85,7 +85,7 @@ The DevOps engineer is responsible for the configuration of the pipeline and imp
 
 -   Implementing pipeline extensions if necessary
 
--   Implementing a multitenant application. See [Multitenant Applications](order-and-provide-975bd3e.md#loio195031ff8f484b51af16fe392ec2ae6e).
+-   Implementing a multitenant application. See [Multitenant Applications](multitenant-applications-195031f.md).
 
 -   Deploy multitenant application to provider subaccount in global account for development
 -   Subscribe to multitenant application from consumer subaccount in global account for development
@@ -205,7 +205,7 @@ The SaaS solution operator is responsible for creating the account model on the 
 </td>
 <td valign="top">
 
--   Setting up global accounts for development and production including entitlements, subaccounts, Cloud Foundry org, spaces, services, and apps, as well as trust configuration and connectivity per subaccount. See [System Landscape/Account Model](concepts-9482e7e.md#loio4ca756395fc24e56a42b77632a6bd862).
+-   Setting up global accounts for development and production including entitlements, subaccounts, Cloud Foundry org, spaces, services, and apps, as well as trust configuration and connectivity per subaccount. See [System Landscape/Account Model](system-landscape-account-model-4ca7563.md).
 
 -   Consumer tenant onboarding: creating consumer subaccount and subscription. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html).
 
@@ -223,7 +223,7 @@ The SaaS solution operator is responsible for creating the account model on the 
 -   > ### Note:  
     > If you use gCTS for delivery to customer production systems instead of using add-ons, you are responsible for cloning software components and pulling the latest changes into the system using the *Manage Software Components* app.
     > 
-    > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+    > See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md).
 
 
 

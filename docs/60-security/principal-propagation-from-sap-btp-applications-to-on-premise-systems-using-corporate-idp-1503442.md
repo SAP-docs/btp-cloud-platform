@@ -69,6 +69,11 @@ The following figure illustrates this scenario.
 
         For more information, see [Configuring Attributes Based on Flexible Expressions](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/configure-default-attributes-sent-to-application).
 
+        > ### Tip:  
+        > Apply this setting at least to the application that represents the subaccount trust. Other applications from the subaccount that were added after January 13, 2026 are children of the application representing the subaccount trust and inherit this setting.
+        > 
+        > To find further applications from the subaccount that might have been added earlier, search for the applications by subaccount ID in SAP Cloud Identity Services. \(For finding the subaccount ID, see [here](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/find-your-subaccount-id-cloud-foundry-environment?version=Cloud).\) Add the same claim to the individual applications.
+
 
 3.  Check if you need to configure a destination to connect your application to the Cloud Connector.
 

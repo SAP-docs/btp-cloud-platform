@@ -35,12 +35,12 @@ User/Role
 <tr>
 <td valign="top" rowspan="7">
 
-[Prepare](prepare-4338854.md#loio4338854e3133407abb47d3a281dbd1e1)
+[Prepare](prepare-4338854.md)
 
 </td>
 <td valign="top">
 
-Register a namespace. See [Register a Namespace](prepare-4338854.md#loiocc5a3c6f78cf4889960c314dd09a5060).
+Register a namespace. See [Register a Namespace](register-a-namespace-cc5a3c6.md).
 
 </td>
 <td valign="top">
@@ -64,7 +64,7 @@ S-user
 <tr>
 <td valign="top">
 
-Set up a global account for development. See [Set Up a Global Account for Development](prepare-4338854.md#loio9f2150f2b15e414aacd46c1723ce48fb).
+Set up a global account for development. See [Set Up a Global Account for Development](set-up-a-global-account-for-development-9f2150f.md).
 
 </td>
 <td valign="top">
@@ -96,7 +96,7 @@ Operator
 <tr>
 <td valign="top">
 
-Set up a global account for production. See [Set Up a Global Account for Production](prepare-4338854.md#loio2e7b4b631e814de1b8fe3959af4105bc).
+Set up a global account for production. See [Set Up a Global Account for Production](set-up-a-global-account-for-production-2e7b4b6.md).
 
 </td>
 <td valign="top">
@@ -129,7 +129,7 @@ Operator
 <tr>
 <td valign="top">
 
-Create ABAP instance\(s\). See [Create ABAP Instances](prepare-4338854.md#loio17aa433273c24bd2b949c297513851fe).
+Create ABAP instance\(s\). See [Create ABAP Instances](create-abap-instances-17aa433.md).
 
 </td>
 <td valign="top">
@@ -158,7 +158,7 @@ Operator
 <tr>
 <td valign="top">
 
-Set up UI development. See [Set Up UI Development](prepare-4338854.md#loio3f03dfe2f21b471ab98abc6f208c3762).
+Set up UI development. See [Set Up UI Development](set-up-ui-development-3f03dfe.md).
 
 </td>
 <td valign="top">
@@ -175,7 +175,7 @@ Operator
 <tr>
 <td valign="top">
 
-Set up add-on development. [Set Up Add-On Development](prepare-4338854.md#loio89a353151e534380a03b2a572a227731).
+Set up add-on development. [Set Up Add-On Development](set-up-add-on-development-89a3531.md).
 
 </td>
 <td valign="top">
@@ -192,7 +192,7 @@ Add-on administrator
 <tr>
 <td valign="top">
 
-Transport from development to test system. See [Set Up Transport from Development to Test System](prepare-4338854.md#loiobf557544f90f4bc88911c4865ec78207).
+Transport from development to test system. See [Set Up Transport from Development to Test System](set-up-transport-from-development-to-test-system-bf55754.md).
 
 </td>
 <td valign="top">
@@ -202,7 +202,7 @@ Plan and set up the transport of software components from development to test sy
 [Tutorial: Transport a Software Component Between two Systems](https://developers.sap.com/tutorials/abap-environment-gcts.html)
 
 > ### Note:  
-> A CI/CD server that is running the ABAP Environment Pipeline is required. See [ABAP Environment Pipeline](concepts-9482e7e.md#loio2398b874f7c5445db188b780ff0cef89).
+> A CI/CD server that is running the ABAP Environment Pipeline is required. See [ABAP Environment Pipeline](abap-environment-pipeline-2398b87.md).
 
 
 
@@ -216,12 +216,12 @@ Add-on administrator
 <tr>
 <td valign="top" rowspan="3">
 
-[Develop](develop-9464e3a.md#loio9464e3af139d4e0581cb4e819886b0c8)
+[Develop](develop-9464e3a.md)
 
 </td>
 <td valign="top">
 
-ABAP development. See [ABAP Development](develop-9464e3a.md#loiofa5af4ecdf90496b8eec54fe0e22150c).
+ABAP development. See [ABAP Development](abap-development-fa5af4e.md).
 
 </td>
 <td valign="top">
@@ -240,7 +240,7 @@ Developer
 <tr>
 <td valign="top">
 
-UI development. See [UI Development](develop-9464e3a.md#loiof3be8246edc74be59c10779443f67793).
+UI development. See [UI Development](ui-development-f3be824.md).
 
 </td>
 <td valign="top">
@@ -257,7 +257,7 @@ Developer
 <tr>
 <td valign="top">
 
-\[Optional\] Code migration. See [\(Optional\) Code Migration from On-Premise](develop-9464e3a.md#loiof438645cb5664399a6b21f8d9bd3d004).
+\[Optional\] Code migration. See [\(Optional\) Code Migration from On-Premise](optional-code-migration-from-on-premise-f438645.md).
 
 </td>
 <td valign="top">
@@ -276,12 +276,12 @@ See [Blog: How to bring your ABAP custom to the ABAP Environment](https://blogs.
 <tr>
 <td valign="top" rowspan="2">
 
-[Test](test-023cf9d.md#loio023cf9d301b1479484e70b17cd5cf587)
+[Test](test-023cf9d.md)
 
 </td>
 <td valign="top">
 
-Test in cloud system. See [Test in the ABAP Environment SAP Fiori Launchpad](test-023cf9d.md#loio8c5b4d76a05b4bed8df01937f4d8d487).
+Test in cloud system. See [Test in the ABAP Environment SAP Fiori Launchpad](test-in-the-abap-environment-sap-fiori-launchpad-8c5b4d7.md).
 
 </td>
 <td valign="top">
@@ -300,7 +300,7 @@ Test user
 <tr>
 <td valign="top">
 
-Test in the ABAP Test Cockpit. See [Test in the ABAP Test Cockpit](test-023cf9d.md#loiof0b71a1c959842258772c27d292c43b0).
+Test in the ABAP Test Cockpit. See [Test in the ABAP Test Cockpit](test-in-the-abap-test-cockpit-f0b71a1.md).
 
 </td>
 <td valign="top">
@@ -323,12 +323,12 @@ Quality manager approves or rejects exemptions
 <tr>
 <td valign="top" rowspan="2">
 
-[Build](build-2504972.md#loio25049720bde447e395b3df0bc05e5a50)
+[Build](build-2504972.md)
 
 </td>
 <td valign="top">
 
-Prepare your add-on build. See [Set Up Add-On Build](build-2504972.md#loioccf0c1ef30ce4d6aa6e39bb583fb8ba1).
+Prepare your add-on build. See [Set Up Add-On Build](set-up-add-on-build-ccf0c1e.md).
 
 </td>
 <td valign="top">
@@ -356,7 +356,7 @@ Register the add-on product in the global account for development and production
 <tr>
 <td valign="top">
 
-Build your first add-on version. See [Build the First Add-On Version](build-2504972.md#loio96f9db9e6c784e5a89ede4d038daaa43).
+Build your first add-on version. See [Build the First Add-On Version](build-the-first-add-on-version-96f9db9.md).
 
 </td>
 <td valign="top">
@@ -411,12 +411,12 @@ User/Role
 <tr>
 <td valign="top" rowspan="5">
 
-[Deploy](order-and-provide-975bd3e.md#loio4e35eb027f284b7fa6219bc70561fb4e)
+[Deploy](deploy-4e35eb0.md)
 
 </td>
 <td valign="top">
 
-Configure the sizing of the SaaS application. See [Sizing](order-and-provide-975bd3e.md#loio1782f253e102484dac378887b3d6d769).
+Configure the sizing of the SaaS application. See [Sizing](sizing-1782f25.md).
 
 </td>
 <td valign="top">
@@ -442,7 +442,7 @@ DevOps engineer
 <tr>
 <td valign="top">
 
-Implement a multitenant application and deploy it to the provider subaccount in the global account for development. See [Multitenant Applications](order-and-provide-975bd3e.md#loio195031ff8f484b51af16fe392ec2ae6e).
+Implement a multitenant application and deploy it to the provider subaccount in the global account for development. See [Multitenant Applications](multitenant-applications-195031f.md).
 
 </td>
 <td valign="top">
@@ -512,12 +512,12 @@ DevOps engineer
 <tr>
 <td valign="top" rowspan="2">
 
-[Commercialize](order-and-provide-975bd3e.md#loio57c19c7c4dfa4c3cbb846c1ac57e2095)
+[Commercialize](commercialize-57c19c7.md)
 
 </td>
 <td valign="top">
 
-\[Optional\] SAP Store registration. See [\(Optional\) Register SaaS Solution in SAP Store](order-and-provide-975bd3e.md#loio607aa8614ea34ee7b366b01ad03bfc4c).
+\[Optional\] SAP Store registration. See [\(Optional\) Register SaaS Solution in SAP Store](optional-register-saas-solution-in-sap-store-607aa86.md).
 
 </td>
 <td valign="top">
@@ -536,7 +536,7 @@ See [https://store.sap.com/dcp/en/](https://store.sap.com/dcp/en/).
 <tr>
 <td valign="top">
 
-\[Optional\] Certification. See [\(Optional\) Certification](order-and-provide-975bd3e.md#loioace3b22147eb40d3989c5525491eb729).
+\[Optional\] Certification. See [\(Optional\) Certification](optional-certification-ace3b22.md).
 
 </td>
 <td valign="top">
@@ -555,12 +555,12 @@ See [Certification](https://www.sap.com/documents/2016/10/7cf3eaec-907c-0010-82c
 <tr>
 <td valign="top" rowspan="4">
 
-[Subscribe](order-and-provide-975bd3e.md#loioa24217a0d6fa434bbce97869dfb70dda)
+[Subscribe](subscribe-a24217a.md)
 
 </td>
 <td valign="top">
 
-Create a consumer subaccount. See [Create Consumer Subaccount](order-and-provide-975bd3e.md#loio8b92024cc5d44268bf4737551e4fa981).
+Create a consumer subaccount. See [Create Consumer Subaccount](create-consumer-subaccount-8b92024.md).
 
 </td>
 <td valign="top">
@@ -577,7 +577,7 @@ Operator
 <tr>
 <td valign="top">
 
-Subscribe to the SaaS solution. See [Subscribe to SaaS Solution](order-and-provide-975bd3e.md#loio477ea31394504182b2ea5ef9ce26802d).
+Subscribe to the SaaS solution. See [Subscribe to SaaS Solution](subscribe-to-saas-solution-477ea31.md).
 
 </td>
 <td valign="top">
@@ -594,7 +594,7 @@ Operator
 <tr>
 <td valign="top">
 
-Configure consumer subaccount. See [Configure Consumer Subaccount](order-and-provide-975bd3e.md#loio6301a275af664613a51147e3451386e6).
+Configure consumer subaccount. See [Configure Consumer Subaccount](configure-consumer-subaccount-6301a27.md).
 
 </td>
 <td valign="top">
@@ -616,7 +616,7 @@ Consumer subaccount administrator
 <tr>
 <td valign="top">
 
-Initial user onboarding. See [Initial User Onboarding](order-and-provide-975bd3e.md#loio4a9c5011922847ac91db165c78656149)
+Initial user onboarding. See [Initial User Onboarding](initial-user-onboarding-4a9c501.md)
 
 </td>
 <td valign="top">
@@ -665,7 +665,7 @@ User/Role
 <tr>
 <td valign="top" rowspan="3">
 
-[Configure and Implement a Customer Project](configure-and-implement-a-customer-project-363d2ea.md#loio363d2ea033b14ecfa5c67cf8d3e7cb01)
+[Configure and Implement a Customer Project](configure-and-implement-a-customer-project-363d2ea.md)
 
 </td>
 <td valign="top">
@@ -757,12 +757,12 @@ User/Role
 <tr>
 <td valign="top" rowspan="4">
 
-[Maintain](maintain-monitor-support-5d25603.md#loio9721f0fb92a84e2a95309acf445cb0a9)
+[Maintain](maintain-9721f0f.md)
 
 </td>
 <td valign="top">
 
-Set up your test and maintenance system landscape and processes. See [Set Up Maintenance System Landscape](maintain-monitor-support-5d25603.md#loio44035458f01e4142a18d44f9c0301e62).
+Set up your test and maintenance system landscape and processes. See [Set Up Maintenance System Landscape](set-up-maintenance-system-landscape-4403545.md).
 
 </td>
 <td valign="top">
@@ -779,7 +779,7 @@ Operator
 <tr>
 <td valign="top">
 
-Create an update. See [Create Add-On Update](maintain-monitor-support-5d25603.md#loioa35582346bff4914a5b4b0bcb776668c).
+Create an update. See [Create Add-On Update](create-add-on-update-a355823.md).
 
 </td>
 <td valign="top">
@@ -800,7 +800,7 @@ Create a new patch version, support package version, or release/product version.
 <tr>
 <td valign="top">
 
-Trigger the add-on product build. See [Trigger Add-On Build Pipeline](maintain-monitor-support-5d25603.md#loio7f6988a9a9f94845825d8c7ff66990fb).
+Trigger the add-on product build. See [Trigger Add-On Build Pipeline](trigger-add-on-build-pipeline-7f6988a.md).
 
 </td>
 <td valign="top">
@@ -817,7 +817,7 @@ Add-on administrator
 <tr>
 <td valign="top">
 
-Apply update for SaaS solution \(=add-on product\). See [Deploy Add-On Update](maintain-monitor-support-5d25603.md#loio0a80d4c5c079435e9aca4eb9e6841de9).
+Apply update for SaaS solution \(=add-on product\). See [Deploy Add-On Update](deploy-add-on-update-0a80d4c.md).
 
 </td>
 <td valign="top">
@@ -836,7 +836,7 @@ Operator
 <tr>
 <td valign="top">
 
-Troubleshoot and debug. See [Troubleshoot and Debug](maintain-monitor-support-5d25603.md#loio3687b52c5d3349f7956e93bf2f807e6c).
+Troubleshoot and debug. See [Troubleshoot and Debug](troubleshoot-and-debug-3687b52.md).
 
 </td>
 <td valign="top">

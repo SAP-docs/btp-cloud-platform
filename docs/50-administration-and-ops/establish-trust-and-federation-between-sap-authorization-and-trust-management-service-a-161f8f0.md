@@ -74,9 +74,11 @@ Consider the following restrictions and tips before you start.
 
 5.  Choose the domain configured with the SAP Cloud Identity Services tenant and continue with *Next*. It's also possible to use `Default` as domain.
 
-6.  Provide a link text for user logon \(see [Using Multiple Identity Providers from the Same Subaccount](using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md)\).
+6.  *Available for User Logon* is switched on. Provide a link text for user logon \(see [Using Multiple Identity Providers from the Same Subaccount](using-multiple-identity-providers-from-the-same-subaccount-b8c0aac.md)\).
 
-7.  8.  Continue with *Next*.
+7.  If unsure, keep the parameter *Create Shadow Users on User Logon* switched on. After logon, SAP BTP automatically creates a shadow user. Logon failures would occur if the shadow user doesn't exist. An administrator can then assign role collections to the shadow user.
+
+8.  If unsure, keep the parameter *Default for Noninteractive Logon* as suggested by the wizard \(only for logon to a command line interface\). If you switch on this parameter, it sets another identity provider as default for noninteractive logon \(for more information,see [`btp update security/settings`](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-update-security-settings#ariaid-title2). Continue with *Next*.
 
 9.  Review your configuration and confirm using *Finish*.
 

@@ -80,7 +80,7 @@ For more information about creating service instances, see [Create Service Insta
 
     A higher value results in fewer, but larger, application servers. Conversely, a lower number results in more, but smaller, application servers for the same total ABAP runtime size. If 'auto' is chosen, then 0.5 ACU is assigned per application server if `size_of_runtime` is < 4 for systems without elastic scaling, or `size_of_runtime` < 8 for systems with elastic scaling. Otherwise, 2 ACUs are assigned per application server.
 
-    Every ABAP environment instance has between 2 and 32 application servers of the same size each. Therefore, the possible value for the ABAP runtime size per application server depends on the total ABAP runtime size. For instance, `size_of_application_server` = 2 can only be set if the `size_of_runtime` is at least 4 ACUs. On the other hand, `size_of_application_server` = 0.5 can only be set if the `size_of_runtime` isn't higher than 8 ACUs.
+    Every ABAP environment instance has between 2 and 32 application servers of the same size each \(except for instances with a single application server, see the note below\). Therefore, the possible value for the ABAP runtime size per application server depends on the total ABAP runtime size. For instance, `size_of_application_server` = 2 can only be set if the `size_of_runtime` is at least 4 ACUs. On the other hand, `size_of_application_server` = 0.5 can only be set if the `size_of_runtime` isn't higher than 8 ACUs.
 
     To decide what value to choose, consider the following:
 
@@ -90,6 +90,11 @@ For more information about creating service instances, see [Create Service Insta
 
 
     For more information, see [ABAP Compute Units](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/abap-compute-units?version=Cloud).
+
+    > ### Caution:  
+    > Instances with a *Total ABAP Runtime Size* of 0.5 ACU always have only one application server with an *ABAP Runtime Size per Application Server* of 0.5 ACU. This is an exception to the standard setup in which every service instance runs with at least two application servers. While having instances with a total ABAP runtime size of 0.5 ACU lowers costs, it also increases the likelihood of short outages and shouldn't be used for production systems.
+
+
     
     </td>
     <td valign="top">
@@ -463,11 +468,16 @@ For more information about creating service instances, see [Create Service Insta
     </td>
     <td valign="top">
     
-    The **Total ABAP runtime size** refers to the runtime size of the ABAP environment service instance. This is the sum of the runtime size of all ABAP application servers of an ABAP environment service instance. The size is specified in number of ABAP compute units that should be used from the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The supported number of abap\_compute\_unit is 1, 1.5, 2, 3, 4, 4.5, 6, 8, 16, 24, 32 or 64. The Total ABAP runtime size has to be less or equal to twice the size of the SAP HANA Cloud memory size \(size\_of\_runtime ≤ 2 \* size\_of\_persistence\).
+    The **Total ABAP runtime size** refers to the runtime size of the ABAP environment service instance. This is the sum of the runtime size of all ABAP application servers of an ABAP environment service instance. The size is specified in number of ABAP compute units that should be used from the quota plan *abap\_compute\_unit*, with one ABAP compute unit representing 16 GB. The supported number of abap\_compute\_unit is 0.5, 1, 1.5, 2, 3, 4, 4.5, 6, 8, 16, 24, 32, or 64. The total ABAP runtime size has to be less or equal to twice the size of the SAP HANA Cloud memory size \(size\_of\_runtime ≤ 2 \* size\_of\_persistence\).
 
     For more information, see [ABAP Compute Units](../50-administration-and-ops/abap-compute-units-7d1caa8.md).
 
-    The total ABAP runtime size should be a whole-number multiple, ranging from 2 to 32 times the size of the ABAP runtime size per application server. This is because each ABAP environment instance contains between 2 and 32 application servers, all of the same size. For example, if the `size_of_application_server` is 2, the `size_of_runtime` should be at least 4 ACUs. Conversely, if the `size_of_application_server` is 0.5, the `size_of_runtime` shouldn't exceed 8 ACUs. Another example: if the `size_of_application_server` is 2, setting the `size_of_runtime` to 5 won't work. This is because a total runtime size of 5 ACUs can't be split into three application servers with 2 ACUs each.
+    The total ABAP runtime size should be a whole-number multiple, ranging from 2 to 32 times the size of the ABAP runtime size per application server. This is because each ABAP environment instance contains between 2 and 32 application servers, all of the same size \(except for instances with a single application server, see the note below\). For example, if the `size_of_application_server` is 2, the `size_of_runtime` should be at least 4 ACUs. Conversely, if the `size_of_application_server` is 0.5, the `size_of_runtime` shouldn't exceed 8 ACUs. Another example: if the `size_of_application_server` is 2, setting the `size_of_runtime` to 5 won't work. This is because a total runtime size of 5 ACUs can't be split into three application servers with 2 ACUs each.
+
+    > ### Caution:  
+    > Instances with a *Total ABAP Runtime Size* of 0.5 ACU always have only one application server with an *ABAP Runtime Size per Application Server* of 0.5 ACU. This is an exception to the standard setup in which every service instance runs with at least two application servers. While having instances with a total ABAP runtime size of 0.5 ACU lowers costs, it also increases the likelihood of short outages and shouldn't be used for production systems.
+
+
     
     </td>
     <td valign="top">
@@ -496,6 +506,6 @@ For more information about creating service instances, see [Create Service Insta
 10. Choose *Next* to review and verify your instance details.
 11. Choose *Create*.
 
-    The ABAP environment instance is being set up, which might take a while. Wait for an email that is sent when the setup is completed and the system up and running. The email is sent to the email address that you specified as admin email in the previous steps.
+    The ABAP environment instance is being set up, which might take up to 60 minutes. Wait for an email that is sent when the setup is completed and the system up and running. The email is sent to the email address that you specified as admin email in the previous steps.
 
 

@@ -806,6 +806,18 @@ Retrieves sensitive values from locally declared environment variables and ensur
 <tr>
 <td valign="top">
 
+<code><i>--dependency-aware-stop-order</i></code>
+
+</td>
+<td valign="top">
+
+When <code><i>--strategy</i></code> with "blue-green" or "incremental-blue-green" is used, <code><i>--dependency-aware-stop-order</i></code> ensures that during the final phase of the deployment, idle applications are stopped and restarted in a dependency-aware order based on the dependencies defined in the ***deployed-after*** attribute.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 <code><i>--disposable-user-provided-service</i></code>
 
 </td>

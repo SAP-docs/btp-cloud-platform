@@ -17,3 +17,5 @@ The maximum number of ACUs is limited by:
 
 The memory limit for a single session is 4 GB, regardless of the application server size.
 
+Large servers allow memory exemptions \(of up to 16 GB\) requested programmatically using `cl_ssi_rp_session_memory`.
+

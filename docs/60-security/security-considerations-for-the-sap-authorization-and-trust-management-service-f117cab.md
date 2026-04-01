@@ -225,18 +225,12 @@ To change token validity, use one of the following methods:
 
 ## Access to REST APIs
 
-The `apiaccess` plan provides administrator-level access to REST APIs of the SAP Authorization and Trust Management service. Ensure that only administrators have administrator access to Cloud Foundry spaces where service instances with this plan exist.
-
-To use this service plan, create a separate Cloud Foundry space in your subaccount. Only assign administrator users the *Space Manager* and *Space Developer* roles in this space as well as the *Org Manager* role in the parent Cloud Foundry org. Use this Cloud Foundry space to create the `apiaccess` plan service instance.
-
-Administrators are any SAP BTP cockpit users with the *User and Role Administrator* role. This role is part of the *Subaccount Administrator* role collection, but can be included in other role collections.
+To get access to the APIs of the SAP Authorization and Trust Management service, use the SAP BTP command-line interface \(btp CLI\) to create API credentials. You can create read-only or read-write API credentials that apply to the global account, directory, or subaccount.
 
 **Related Information**  
 
 
-[About Roles in the Cloud Foundry Environment](../50-administration-and-ops/about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
-
-[Default Role Collections of SAP BTP](default-role-collections-of-sap-btp-a6a0072.md "The following table displays the default role collections available with SAP BTP after initially deploying your accounts.")
+[Access to REST APIs](security-considerations-for-the-sap-authorization-and-trust-management-service-f117cab.md#loio0b406a94f4604a4f98bbe606ef92d50d "To get access to the APIs of the SAP Authorization and Trust Management service, use the SAP BTP command-line interface (btp CLI) to create API credentials. You can create read-only or read-write API credentials that apply to the global account, directory, or subaccount.")
 
 <a name="loio24c226d64f994d80879d5f2518c0d0ab"/>
 

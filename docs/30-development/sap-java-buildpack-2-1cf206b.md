@@ -199,8 +199,8 @@ modules:
 
 SAP Java Buildpack 2 \(`sap_java_buildpack_jakarta`\) supports the following Java versions:
 
--   Java **17** – default version. You can obtain it by using SapMachine 17 \(*it provides a JRE with Java 17*\)
--   Java **21** – you can obtain it by using SapMachine 21 \(*it provides a JRE with Java 21*\)
+-   Java **17** – you can obtain it by using SapMachine 17 \(*it provides a JRE with Java 17*\)
+-   Java **21** – **default version**. You can obtain it by using SapMachine 21 \(*it provides a JRE with Java 21*\)
 -   Java **25** – you can obtain it by using SapMachine 25 \(*it provides a JRE with Java 25*\)
 
 To learn how to configure your application to use SapMachine JRE and JDK, see: [SapMachine](sapmachine-785d6b3.md)

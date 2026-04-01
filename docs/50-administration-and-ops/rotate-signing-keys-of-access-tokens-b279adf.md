@@ -17,7 +17,7 @@ Components of SAP BTP use the digital signature of the access tokens to verify t
 We recommend that you use the automatic signing key rotation for access tokens. Before you activate it, make sure that your services and applications can handle automatic rotation of signing keys.
 
 > ### Restriction:  
-> Automatic signing key rotation isn't possible with SAP HANA Cloud with principal propagation and Cloud connector..
+> Automatic signing key rotation isn't possible with SAP HANA Cloud with principal propagation and Cloud connector lower than version 2.19.0 \(see [Set Up Trust](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/set-up-trust-for-principal-propagation)\).
 > 
 > For subaccounts created after January 19, 2026, automatic signing key rotation is enabled by default. If you use SAP HANA Cloud with principal propagation and Cloud connector, you must disable automatic signing key rotation.
 

@@ -23,6 +23,9 @@ To check which parameters are available for configuration in a particular plan, 
 
 *Access Control List* \(`accessControlList`\) specifies the IP ranges that can access the Kubernetes API. Internally, the list of IP ranges includes additional entries necessary for the continuous operation of your cluster.
 
+> ### Caution:  
+> Enabling *Access Control List* restricts access to Kyma dashboard. As a result, after the parameter is configured, you can interact with your cluster only through kubectl.
+
 **Access Control List Parameter**
 
 

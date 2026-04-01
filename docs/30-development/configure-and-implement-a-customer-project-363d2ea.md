@@ -16,7 +16,7 @@ Once you have configured and implemented the customer project, the SaaS solution
 > 
 > In the *Manage Software Components* app, select a software component and clone the branch of the software component with the product version, for example v1.0.0.
 > 
-> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md#loio438d7ebfdc4a41de82dcdb156f01857e).
+> See [Delivery via Add-On or gCTS](delivery-via-add-on-or-gcts-438d7eb.md).
 
 
 
@@ -24,7 +24,7 @@ Once you have configured and implemented the customer project, the SaaS solution
 
 ## Prerequisites
 
-To start with the customer project, you have to know the requirements of the customer, and need to have a consumer tenant subscription and a user for the initial consumer access. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html) and [Initial User Onboarding](order-and-provide-975bd3e.md#loio4a9c5011922847ac91db165c78656149).
+To start with the customer project, you have to know the requirements of the customer, and need to have a consumer tenant subscription and a user for the initial consumer access. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html) and [Initial User Onboarding](initial-user-onboarding-4a9c501.md).
 
 As the consumer subaccount administrator, access the SAP Fiori launchpad of the SaaS Solution subscription from the consumer subaccount account by navigating to *Services* \> *Instances and Subscriptions*.
 
@@ -82,7 +82,7 @@ See [Custom Business Configurations App](../50-administration-and-ops/custom-bus
 Key user extensibility that is enabled in the SaaS solution can be configured and consumed in consumer tenants.
 
 > ### Note:  
-> Key user extensibility provided in a SaaS solution can only be configured in tenants of particular types, for consumption purposes in customer systems, such as AMT, in tenants of type *Partner Customer Test* or *Partner Customer Production* depending on parameter `usage` in the configuration of the ABAP solution. See [ABAP Solution Service](order-and-provide-975bd3e.md#loio1697387c02e74e66a55cf21a05678167).
+> Key user extensibility provided in a SaaS solution can only be configured in tenants of particular types, for consumption purposes in customer systems, such as AMT, in tenants of type *Partner Customer Test* or *Partner Customer Production* depending on parameter `usage` in the configuration of the ABAP solution. See [ABAP Solution Service](abap-solution-service-1697387.md).
 > 
 > These tenant types are provisioned in non-development systems, such as customer system AMT, where development is not allowed \(`is_development_allowed = false`\). The tenants are created dependent on a subscription to the SaaS solution. See [**Subscribe to Multitenant Applications Using the Cockpit**](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/7a3e39622be14413b2a4df7c02ca1170.html).
 > 

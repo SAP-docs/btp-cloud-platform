@@ -62,7 +62,7 @@ You need to follow the steps below to define a communication arrangement for com
     1.  For the *Communication System*, choose *New*.
     2.  In the *New Communication System* dialog, enter the *System ID* and *System Name* of the checked system.
     3.  Activate the *Destination Service* toggle.
-    4.  Enter the name from Step 3 c.
+    4.  Enter the name from Step 6 c.
     5.  Choose *Create*.
 
 12. Under *Additional Properties*, select the *Object Provider* you've defined in the communication arrangement for `SAP_COM_0464`.
