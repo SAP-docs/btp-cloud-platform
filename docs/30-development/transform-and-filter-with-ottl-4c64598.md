@@ -65,20 +65,7 @@ You must specify the full path for every field. Short-hand references are not su
 
 
 
-### Trace Filtering Applies to Entire Spans
+### Limited OTTL Functions
 
-When you write a filter for a `TracePipeline`, the condition applies to the parent span. If the condition matches, the entire span is dropped, including all of its events.
-
-You cannot use filters to remove individual events within a span \(the [`spanevent` context](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottlspanevent/README.md)\).
-
-
-
-### Unsupported Metric Functions
-
-The metric-specific functions in the filter processor \([HasAttrKeyOnDatapoint](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/filterprocessor#hasattrkeyondatapoint) and [HasAttrOnDatapoint](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/filterprocessor#hasattrondatapoint)\) are not supported. But you can achieve the same results by using general-purpose OTTL functions:
-
--   To replace `HasAttrKeyOnDatapoint("my.key")`, use: `ContainsValue(Keys(datapoint.attributes), "my.key")`
-
--   To replace `HasAttrOnDatapoint("my.key", "my.value")`, use: `datapoint.attributes["my.key"] == "my.value"`
-
+You cannot use the OTTL function `IsRootSpan()` as a standalone function because the processor cannot infer the context from a function without path prefixes. If you need this condition, use `span.parent_span_id == SpanID(0x0000000000000000)` instead.
 

@@ -23,21 +23,6 @@ The pipeline drops any log, metric, or trace that matches **at least one** of th
 
 
 
-<a name="loio5f3107d111314d448e589b4e368e23fb__section_byp_rl2_fhc"/>
-
-## Predefined Contexts
-
-For each signal type, your OTTL conditions automatically operate on a predefined data context:
-
--   `LogPipeline`: Conditions act on individual log records \(context: `log`\). For the list of supported field paths in this context, see [OTel Log Context](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottllog/README.md).
-
--   `TracePipeline`: Conditions act on individual spans \(context: `span`\). For the list of supported field paths in this context, see [OTel Span Context](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottlspan/README.md).
-
--   `MetricPipeline`: Conditions act on individual metric data points \(context: `datapoint`\). For the list of supported field paths in this context, see [OTel DataPoint Context](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/pkg/ottl/contexts/ottldatapoint/README.md).
-
-
-
-
 <a name="loio5f3107d111314d448e589b4e368e23fb__section_ottel_drop_logs"/>
 
 ## Example: Drop Low-Severity Logs

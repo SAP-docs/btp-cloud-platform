@@ -64,6 +64,8 @@ To support telemetry for your applications, the Telemetry module provides the fo
 
 -   **Instrumentation Guidance**: To generate telemetry data, you must instrument your code. Based on [Open Telemetry](https://opentelemetry.io/) \(OTel\), you get community samples on how to instrument your code using the [Open Telemetry SDKs](https://opentelemetry.io/docs/languages/) in most programming languages.
 
+-   **Simplified Permission Management**: To manage access to Telemetry resources, you can use the module's aggregated ClusterRoles: `kyma-telemetry-view` grants read access and `kyma-telemetry-edit` grants write access to all Telemetry module resources.
+
 
 
 

@@ -1,4 +1,4 @@
-# SAP Business Technology Platform
+#  SAP Business Technology Platform 
 
 -   [SAP Business Technology Platform](sap-business-technology-platform-6a2c1ab.md)
 -   [Basic Platform Concepts](10-concepts/basic-platform-concepts-73beb06.md)
@@ -1118,7 +1118,7 @@
                 -   [Redis](30-development/redis-6127744.md)
                 -   [Cloud Manager Resources](30-development/cloud-manager-resources-2389f6f.md)
             -   [Application Connector Module](30-development/application-connector-module-4dadebe.md)
-                -   [Network Policies](30-development/network-policies-88a95d9.md)
+                -   [Enable and Disable Network Policies for the Application Connector Module](30-development/enable-and-disable-network-policies-for-the-application-connector-module-88a95d9.md)
             -   [Keda Module](30-development/keda-module-2f69be2.md)
                 -   [Configuring Keda Module](30-development/configuring-keda-module-3cc1f25.md)
                 -   [Configuring Logging](30-development/configuring-logging-7f358d7.md)
