@@ -31,7 +31,8 @@ In addition, you can use [Cloud Availability Center](https://support.sap.com/en/
 
 You can find information about the supported *Cloud Product* \> *Cloud Service* at [Supported Products](https://support.sap.com/en/my-support/systems-installations/cac.html/section.html#section).
 
-Note: The foundational components of the platform are included in *SAP Extension Suite – Development Efficiency* \> *Foundational Services for SAP BTP*.
+> ### Note:  
+> The foundational components of the platform are included in *SAP Extension Suite – Development Efficiency* \> *Foundational Services for SAP BTP*.
 
 To get notifications for updates and downtimes, create a subscription by specifying Cloud Product, Cloud Service, and Notification Type. For more information, see [Cloud System Notification Subscriptions User Guide](https://support.sap.com/content/dam/support/en_us/library/ssp/my-support/systems-installations/cac/csns_user_guide.pdf).
 
@@ -45,7 +46,7 @@ To get notifications for updates and downtimes, create a subscription by specify
 
 ## Announcements and Subscriptions \[China \(Shanghai\) Region\]
 
-You can follow the availability of the platform and the announcements about upcoming updates and downtimes at [https://status.cn40.platform.sapcloud.cn/](https://status.cn40.platform.sapcloud.cn/). Subscribe to the status page to get notifications for updates and downtimes.
+You can follow the availability of the platform and the announcements about upcoming updates and downtimes at [China \(Shanghai\) region status page](https://status.cn40.platform.sapcloud.cn/). Subscribe to the status page to get notifications for updates and downtimes.
 
 
 

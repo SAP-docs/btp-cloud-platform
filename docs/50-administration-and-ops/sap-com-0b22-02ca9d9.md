@@ -37,6 +37,7 @@ You need to follow the steps below to define a communication arrangement for com
     6.  Add the details of the on-premise system, *Host* and *Port*, and choose *Next*.
     7.  Provide the details on *Virtual Host* and *Port*, and choose *Save*.
     8.  Provide details on the resources you'd like to access.
+    9.  Download the ZIP file attached in SAP Note [2861842](https://me.sap.com/notes/2861842) and upload them in the *Resources Of \[Virtual Host\]* list by selecting *Import resources belonging to a scenario*.
 
 3.  Configure Principal Propagation. See [Configure Principal Propagation](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/configuring-principal-propagation?version=Cloud&ai=true).
 4.  Configure the ABAP system. See [Configure Identity Propagation for RFC](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector-configure-principal-propagation-for-rfc?version=Cloud&ai=true#loio33a2f37b0f1e4b6d869ab85c8427db1b__config_scc).

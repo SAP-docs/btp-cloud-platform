@@ -10,13 +10,13 @@ SAP Business Technology Platform \(SAP BTP\) is an offering that integrates the 
 
 ## SAP BTP in the Intelligent Enterprise
 
-Companies need access to live data to make informed decisions in real time and apply advanced technologies and best practices within agile, integrated business processes. That’s why a key part of SAP’s strategy is integrating end-to-end processes – whether the solutions are from SAP, from partners, or from third parties.
+Companies need access to live data to make informed decisions in real time. They also need to apply advanced technologies and best practices within agile, integrated business processes. That’s why a key part of SAP’s strategy is integrating end-to-end processes, whether the solutions come from SAP, partners, or third parties.
 
-At SAP, we drive integration across our solution portfolio, including the following business scenarios: lead to cash, source to pay, design to operate, and hire to retire.
+SAP drives integration across its solution portfolio in the following business scenarios: lead to cash, source to pay, design to operate, and hire to retire.
 
-SAP Business Technology Platform provides integration capabilities to ensure connected end-to-end business processes across SAP and third-party applications. The following key aspects, called Suite Qualities, facilitate a consistent experience across applications:
+SAP Business Technology Platform offers integration capabilities that connect end-to-end business processes across SAP and third-party applications. The following key aspects, known as Suite Qualities, provide a consistent experience across applications:
 
--   Seamless User Experience: SAP Fiori can be used to gain a common look and feel of many SAP solutions, which improves user experience and reduces interruptions.
+-   Seamless User Experience: SAP Fiori gives many SAP solutions a common look and feel. This improves user experience and reduces interruptions.
 
     See: [SAP Fiori](https://www.sap.com/products/technology-platform/fiori.html).
 
@@ -24,11 +24,11 @@ SAP Business Technology Platform provides integration capabilities to ensure con
 
     See: [SAP Cloud Identity Services](https://help.sap.com/docs/SAP_CLOUD_IDENTITY?version=Cloud) on SAP BTP.
 
--   Aligned Domain Models, APIs, and Events: Master Data Integration is a cloud service for master data integration. It provides a consistent view on master data across a hybrid landscape. You can use APIs for process integration among SAP solutions, SAP, and third parties, or by adopting an event-based integration strategy – all based on predefined integration content available on SAP API Business Hub.
+-   Aligned Domain Models, APIs, and Events: Master Data Integration is a cloud service for master data integration. It provides a consistent view of master data across a hybrid landscape. You can use APIs for process integration among SAP solutions, SAP, and third parties, or by adopting an event-based integration strategy – all based on predefined integration content available on SAP API Business Hub.
 
     See: [SAP One Domain Model](https://api.sap.com/sap-one-domain-model), [SAP Master Data Integration service](https://discovery-center.cloud.sap/serviceCatalog/master-data-integration?region=all), [SAP Integration Suite](https://www.sap.com/products/technology-platform/integration-suite.html) on SAP BTP
 
--   Embedded Analytics across Solutions: The analytical insights in various SAP solutions helps you make informed decisions. Embedded analytics from SAP Analytics Cloud are available, for example, in SAP S/4HANA and SAP SuccessFactors.
+-   Embedded Analytics across Solutions: The analytical insights in various SAP solutions help you make informed decisions. Embedded analytics from SAP Analytics Cloud are available, for example, in SAP S/4HANA and SAP SuccessFactors.
 
     See: [SAP Analytics Cloud](https://www.sap.com/products/technology-platform/cloud-analytics.html) on SAP BTP.
 
@@ -36,11 +36,11 @@ SAP Business Technology Platform provides integration capabilities to ensure con
 
     See: [SAP Task Center](https://help.sap.com/docs/TASK_CENTER) on SAP BTP, [SAP Mobile Start](https://help.sap.com/docs/SAP_MOBILE_START). For full workflow modeling and visibility capabilities leverage, see: [SAP Process Automation](https://www.sap.com/products/technology-platform/process-automation.html?campaigncode=crm-ya22-int-1517065&source=ppc-de-google_ads-search-71700000093393983-58700007789267837-btp_btp-x-x-x&dfa=1&gclid=EAIaIQobChMIosu48pm--AIVjOR3Ch2ybga1EAAYASAAEgLwcfD_BwE&gclsrc=aw.ds) on SAP BTP
 
--   Coordinated Lifecycle Management: You can optimize implementation projects and reduce configuration effort because everything is harmonized: provisioning; setup and operations; and monitoring solutions. Automated provisioning and guided integration setup are available for selected scenarios in lead to cash, source to pay, recruit to retire, and design to operate.
+-   Coordinated Lifecycle Management: You can optimize implementation projects and reduce configuration effort because provisioning, setup and operations, and monitoring solutions are harmonized. Automated provisioning and guided integration setup are available for selected scenarios in lead to cash, source to pay, recruit to retire, and design to operate.
 
     See: [SAP for Me](https://me.sap.com/), [SAP CALM](https://support.sap.com/en/alm/sap-cloud-alm.html)
 
--   End-to-End Process Blueprints: Process blueprints that follow the Industry Reference Architecture standard can help you reduce planning effort for implementation projects and also support architecture decisions.
+-   End-to-End Process Blueprints: Process blueprints that follow the Industry Reference Architecture standard can reduce planning effort for implementation projects. They also support architecture decisions.
 
     See: [SAP API Business Hub](https://api.sap.com/)
 

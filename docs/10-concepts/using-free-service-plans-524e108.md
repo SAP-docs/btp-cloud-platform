@@ -89,23 +89,13 @@ You can now start using this service.
 
 Once you've reached the limits of the free plan, you can upgrade the free service plan to a paid plan.
 
-> ### Note:  
-> The option to upgrade from free tier service plans to paid service plans is not yet available for all services and runtimes, such as Kyma. To use a paid service plan for Kyma runtime, you will need a new Kyma cluster. It is possible to have both - free and paid clusters - in parallel.
+To upgrade, first configure the required entitlements and quotas. Make sure the appropriate paid service plan and quotas are assigned to your subaccount.
 
 > ### Note:  
-> To update the ABAP environment to a paid service plan, you first need to configure entitlements and quotas for the ABAP environment. You need at least the following entitlements assigned to your subaccount:
-> 
-> -   service plan: *standard* or build-runtime \(service ABAP Environment\)
-> 
-> -   quota plans:
-> 
->     -   *1 abap\_compute\_unit*
-> 
->     -   *2 hana\_compute\_unit*
-> 
-> 
-> 
-> For more information, see [Increasing the Quota for the ABAP Environment](../20-getting-started/increasing-the-quota-for-the-abap-environment-c40cb18.md).
+> For subaccounts that are located under a directory that is configured to manage entitlements, the global account admin must first distribute the required quota to the managed directory. For more information, see [Configure Entitlements and Quotas for Subaccounts](../50-administration-and-ops/configure-entitlements-and-quotas-for-subaccounts-5ba357b.md).
+
+> ### Note:  
+> The option to upgrade from free tier service plans to paid service plans is not yet available for all services and runtimes, such as Kyma. To use a paid service plan for Kyma runtime, you will need a new Kyma cluster. It is possible to have both - free and paid clusters - in parallel.
 
 > ### Note:  
 > It's not possible to switch from a paid plan to a free plan.

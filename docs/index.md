@@ -1539,8 +1539,6 @@
             -   [Audit Log Write API for Customers](50-administration-and-ops/audit-log-write-api-for-customers-64e99bb.md)
                 -   [Categories of Audit Relevant Events](50-administration-and-ops/categories-of-audit-relevant-events-ff68859.md)
             -   [SAP Audit Log Viewer service for the Cloud Foundry Environment](50-administration-and-ops/sap-audit-log-viewer-service-for-the-cloud-foundry-environment-e3baa5f.md)
-                -   [Subscribe to SAP Audit Log Viewer service](50-administration-and-ops/subscribe-to-sap-audit-log-viewer-service-8ef9054.md)
-                -   [Access SAP Audit Log Viewer service](50-administration-and-ops/access-sap-audit-log-viewer-service-af26206.md)
                 -   [Accessibility Features in Audit Log Viewer](50-administration-and-ops/accessibility-features-in-audit-log-viewer-bf36fd1.md)
             -   [Audit Events Logged by the Services](50-administration-and-ops/audit-events-logged-by-the-services-84acdc9.md)
             -   [Checking Who Created an Application or a Service Instance](50-administration-and-ops/checking-who-created-an-application-or-a-service-instance-3dcbb16.md)
@@ -1869,7 +1867,6 @@
                     -   [Display Changes to Objects](50-administration-and-ops/display-changes-to-objects-ae9a3b1.md)
                 -   [Monitoring for Business Event Logging](50-administration-and-ops/monitoring-for-business-event-logging-9e7b1bf.md)
                     -   [Message Monitoring](50-administration-and-ops/message-monitoring-c0a8c25.md)
-                    -   [Application Log](50-administration-and-ops/application-log-fe20f1a.md)
                 -   CDS Views for Business Event Logging
                     -   Key User Extensibility
                         -   [Business Event Header Data \(v2\)](50-administration-and-ops/business-event-header-data-v2-1c38309.md)

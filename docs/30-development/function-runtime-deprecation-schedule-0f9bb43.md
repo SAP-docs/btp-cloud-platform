@@ -86,12 +86,12 @@ Python 3.12
 </td>
 <td valign="top">
 
-January 2027
+September 2026
 
 </td>
 <td valign="top">
 
-May 2027
+March 2027
 
 </td>
 </tr>

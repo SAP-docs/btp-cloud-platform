@@ -190,5 +190,5 @@ See [Mergе SAP Systems](merg-sap-systems-5592d86.md).
 
 [Register a System of Type SAP BTP Application](register-a-system-of-type-sap-btp-application-134070f.md "")
 
-[Register a Third-Party System](register-a-third-party-system-5481d59.md "To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to add this system to the Systems page.")
+[Register a Third-Party System](register-a-third-party-system-5481d59.md "To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to create a system type for this system and then to add a system of this new type to the Systems page.")
 

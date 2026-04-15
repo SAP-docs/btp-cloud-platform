@@ -17,42 +17,35 @@ To get help, use the available support channels provided by SAP for Me.
 
 Before you report a case, ensure the following:
 
+-   **Check Platform Status**
+
+    -   **Running on the AWS, Azure, or GCP regions:** visit [SAP Trust Center](https://www.sap.com/about/trust-center/cloud-service-status.html). You can check:
+
+        -   availability by service on *Cloud Status* tab page;
+
+        -   availability by region on the *Data Center* tab page.
 
 
-### Check Platform Status
+    -   **Running on the China \(Shanghai\) region:** check [China \(Shanghai\) region status page](https://status.cn40.platform.sapcloud.cn/).
 
--   **Running on the AWS, Azure, or GCP regions:** visit [SAP Trust Center](https://www.sap.com/about/trust-center/cloud-service-status.html). You can check:
-
-    -   availability by service on *Cloud Status* tab page;
-
-    -   availability by region on the *Data Center* tab page.
+    -   **Running on the Government Cloud \(US\) region:** planned downtimes and outage communication are sent through e-mail to the initial administrator of your global account.
 
 
--   **Running on the China \(Shanghai\) region:** check [https://status.cn40.platform.sapcloud.cn/](https://status.cn40.platform.sapcloud.cn/).
+-   **Check Tools Versions**
 
--   **Running on the Government Cloud \(US\) region:** planned downtimes and outage communication are sent through e-mail to the initial administrator of your global account.
+    Make sure that you have the latest versions of the tools you're using \(recommended\), or at least the versions you're using are still supported. For more information, see [SAP Development Tools](https://tools.hana.ondemand.com/).
 
+    > ### Note:  
+    > Trial users can ask for support by posting a question in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html). However, they should first check for answers in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html) and [Guided Answers](https://ga.support.sap.com/dtp/viewer/#/tree/2065/actions/26547).
 
+-   **Try Out Built-In Support Within SAP BTP Cockpit**
 
+    When using SAP BTP cockpit as an S-user, try Built-In Support to get customer help within the cockpit. See [Built-In Support](https://help.sap.com/docs/built-in-support).
 
-### Check Tools Versions
+-   **Learn the Best Practices and Offerings**
 
-Make sure that you have the latest versions of the tools you're using \(recommended\), or at least the versions you're using are still supported. For more information, see [SAP Development Tools](https://tools.hana.ondemand.com/).
+    Familiarize with the guidelines how to engage with support. See [Support from SAP Best Practices and Offerings](https://d.dam.sap.com/a/ewzMPHk/Support%20Best%20Practices%20Offerings.pdf?rc=10).
 
-> ### Note:  
-> Trial users can ask for support by posting a question in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html). However, they should first check for answers in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html) and [Guided Answers](https://ga.support.sap.com/dtp/viewer/#/tree/2065/actions/26547).
-
-
-
-### Try Out Built-In Support Within SAP BTP Cockpit
-
-When using SAP BTP cockpit as an S-user, try Built-In Support to get customer help within the cockpit. See [Built-In Support](https://help.sap.com/docs/built-in-support).
-
-
-
-### Learn the Best Practices and Offerings
-
-Familiarize with the guidelines how to engage with support. See [Support from SAP Best Practices & Offerings](https://d.dam.sap.com/a/ewzMPHk/Support%20Best%20Practices%20Offerings.pdf?rc=10).
 
 <a name="concept_tbg_yzt_mqb"/>
 

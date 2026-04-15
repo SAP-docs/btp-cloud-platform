@@ -44,7 +44,7 @@ To find out where the configuration file is stored, use `btp --info`.
     </td>
     <td valign="top">
     
-    The output format of commands. Valid values: text \(default\), json
+    The output format of commands. Valid values: text \(default\), json.
     
     </td>
     </tr>
@@ -56,7 +56,43 @@ To find out where the configuration file is stored, use `btp --info`.
     </td>
     <td valign="top">
     
-    If set to true, command output includes tracing information for support. Valid values: false \(default\), true
+    If set to true, command output includes tracing information for support. Valid values: false \(default\), true.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `--login.sso MODE`
+    
+    </td>
+    <td valign="top">
+    
+    Single sign-on mode of `btp login`. Valid values: none \(default\), browser, manual. For example, if you want `btp login` to always open a browser for login at your identity provider, use `btp set config --login.sso browser`.
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `--login.securestore BOOL`
+    
+    </td>
+    <td valign="top">
+    
+    If true, your login session will be stored in your OS secure store \(only macOS/Windows\).
+    
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    
+    `--login.showglobalaccounts BOOL`
+    
+    </td>
+    <td valign="top">
+    
+    If set to true, `btp login` will always prompt you to choose a global account.
     
     </td>
     </tr>
@@ -71,18 +107,6 @@ To find out where the configuration file is stored, use `btp --info`.
     If set to true, `btp target` displays the full hierarchy of all global accounts. Valid values: false \(default\), true
 
     See [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md).
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `--login.sso MODE`
-    
-    </td>
-    <td valign="top">
-    
-    Single sign-on mode of `btp login`. Valid values: none \(default\), browser, manual. For example, if you want `btp login` to always open a browser for login at your identity provider, use `btp set config --login.sso browser`.
     
     </td>
     </tr>

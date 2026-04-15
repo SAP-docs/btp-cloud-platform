@@ -2,7 +2,7 @@
 
 # Register a Third-Party System
 
-To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to add this system to the **Systems** page.
+To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to create a system type for this system and then to add a system of this new type to the **Systems** page.
 
 
 
@@ -21,7 +21,7 @@ You are a global account administrator, or you are a system landscape administra
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-You add a third-party system to the list in the *System Landscape* \> *Systems* page. At this point you provide all the required details for this system: its type, provider, URL, and system ID. For third-party systems, this completes the registration process and you have your third-party system registered with SAP BTP. Even though the third-party system is registered directly, no status is displayed.
+To add a third-party system to the list in the *System Landscape* \> *Systems* page, you need to create a system type for this third-party system. At this point you provide all the required details for this system type: its name, namespace, and provider. Then, you add systems of this new type. For third-party systems, this completes the registration process and you have your third-party system registered with SAP BTP. Even though the third-party system is registered directly, no status is displayed.
 
 When you have this system added in the *Systems* page, you can select it and open its system details. There, you specify in the consumption bundles the APIs, and the events. A consumption bundle organizes a set of related APIs and events into a single group for consumption purposes and expresses information about how the APIs and events that it contains can be accessed. All APIs and events that are part of the same consumption bundle need to be accessible through the same set of credentials.
 
@@ -41,32 +41,36 @@ When you have this system added in the *Systems* page, you can select it and ope
 
 1.  In the cockpit, navigate to your global account, and then choose *System Landscape* \> *Systems* .
 
-2.  On the *Systems* page, choose *Add System*.
+2.  Go to the *System Types* tab, and choose *Create System Type*.
 
-3.  In the *Add System* wizard:
+3.  In the *Create System Type* dialog:
 
-    1.  In the *Type* dropdown list, select *Other System Type*.
+    1.  In the *Name* field, enter the name of the system type you are creating. Later on, this name will appear in the *System Type* dropdown menu when you add a system of this type.
+
+        Use a user-friendly name and reflect as best as possible the commercial name of the product or system. For example, **Google Workspace**.
+
+    2.  In the *Namespace* field, specify the namespace of the system type. It must start with **customer.\***. For example, **customer.google.workspace**.
+
+    3.  In the *Provider* field, enter the actual organization that provides the given system type. For example, **Google**.
+
+    4.  Choose *Create*.
+
+
+4.  Go to the *Systems* tab, and choose *Add System*.
+
+5.  In the *Add System* wizard:
+
+    1.  In the *System Type* dropdown list, select the system type you have created for your third-party system.
 
     2.  Enter a name for the system you want to register.
 
         > ### Note:  
         > Use only printable ASCII characters.
 
-        > ### Tip:  
-        > We recommend that you indicate the type of the system when specifying the system name. For example, <code><i class="varname">&lt;mysystem&gt;</i>-google-workspace</code>.
-
-    3.  In the *System Type Name* field, enter the type of your system. This is a user-defined type of the system you want to add. For example, *Workspace*.
-
-    4.  In the *Provider* field, enter the provider of your system. For example, *Google*.
-
-    5.  In the *URL* field, enter the URL of your system.
-
-    6.  In the *System ID* field, enter the unique identifier of the added system that is used in its own domain.
-
-    7.  Choose *Add*.
+    3.  Choose *Add*.
 
 
-4.  \(Optional\) Find this system in the *Systems* list and open its system details. Choose *Add Consumption Bundle* and fill in the following properties:
+6.  \(Optional\) Find this system in the *Systems* list and open its system details. Choose *Add Consumption Bundle* and fill in the following properties:
 
     -   *Consumption Bundle Name*: add a meaningful name
 
@@ -94,7 +98,7 @@ When you have this system added in the *Systems* page, you can select it and ope
 
     Choose *Add*. Open the consumption bundle from the list.
 
-5.  \(Optional\) If you want to add APIs, choose *Add API* and fill in the following properties:
+7.  \(Optional\) If you want to add APIs, choose *Add API* and fill in the following properties:
 
     -   *API Name*: add a meaningful name.
 
@@ -107,7 +111,7 @@ When you have this system added in the *Systems* page, you can select it and ope
     -   *Type*: this is the type of the specification. The API specification type can be OpenAPI or OData.
 
 
-6.  \(Optional\) If you want to add events, choose *Add Event* and fill in the following properties:
+8.  \(Optional\) If you want to add events, choose *Add Event* and fill in the following properties:
 
     -   *Event Name*: add a meaningful name.
 

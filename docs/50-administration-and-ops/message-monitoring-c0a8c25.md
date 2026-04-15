@@ -30,8 +30,16 @@ To access Message Monitoring, create a business role and assign the role to a ca
 
     -   Namespace: /BEL
     -   Interface:
-        -   BEL\_IBD
-        -   BEL\_LG\_MGR
+        -   BEL\_EY\_TMP: Cleaning temporary tables of nodes
+        -   BEL\_HDR\_E: Processing empty header nodes
+        -   BEL\_LG\_MGR: Monitoring log manager
+        -   BEL\_REL\_IB: Monitoring association processing
+        -   BEL\_REL\_L1: BEL relationship processing
+        -   BEL\_REL\_L2: BEL relationship processing
+        -   BEL\_TMP\_CL: Cleaning up temporary nodes
+        -   BEL\_REL\_Q: Monitoring relationship inserts
+        -   BEL\_VAR\_DL: Deletion of unused variants
+        -   BEL\_VAR\_IN: Monitoring variant insert
 
 
     If you want to view only the error or success messages, choose *Error* or *Success*.

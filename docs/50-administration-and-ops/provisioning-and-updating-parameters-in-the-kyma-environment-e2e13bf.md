@@ -436,7 +436,65 @@ See also [Assigning Workloads to Worker Node Pools](assigning-workloads-to-worke
 
 ## Administrators
 
-The *Administrators* \(`administrators`\) parameter is an array of strings. It is a provisioning and updating parameter, which specifies the list of runtime administrators. Complete the list with the administrators' email addresses as shown in the following example:
+The *Administrators* parameter specifies the list of runtime administrators.
+
+**Administrators Parameter**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter
+
+</th>
+<th valign="top">
+
+Supported Operations
+
+</th>
+<th valign="top">
+
+Default Value
+
+</th>
+<th valign="top">
+
+Allowed Input
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Administrators*
+
+btp CLI name: `administrators`
+
+type: an array of strings
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+A list of administrators' email addresses.
+
+</td>
+</tr>
+</table>
+
+See an example of the JSON input:
 
 > ### Sample Code:  
 > ```
@@ -844,13 +902,69 @@ See also [Tracking Kubeconfig and Cluster Associations in Kyma](tracking-kubecon
 
 ## Colocate Control Plane
 
-*Colocate Control Plane* \(technical name: `colocateControlPlane`\) is a provisioning parameter. It is a boolean that enables you to decide if your control plane and worker nodes should be in the same region.
+With the *Colocate Control Plane* parameter, you can specify if your control plane and worker nodes should be in the same region.
 
 If you set it to `true`, it ensures the location of the control plane in the same region where your cluster's worker nodes are deployed. With this setting, you can control where your sensitive data is stored. If the control plane cannot be colocated in the selected region, the provisioning process fails. The error message offers you a list of regions supporting the control plane colocation.
 
 If you set the parameter to `false` or leave the field empty, your control plane can sometimes be deployed in a different region than the worker nodes.
 
 To learn which regions support the control plane colocation, see the [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region) section.
+
+**Colocate Control Plane Parameter**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter
+
+</th>
+<th valign="top">
+
+Supported Operations
+
+</th>
+<th valign="top">
+
+Default Value
+
+</th>
+<th valign="top">
+
+Allowed Input
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Colocate Control Plane*
+
+btp CLI name: `colocateControlPlan`
+
+type: boolean
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+*false*
+
+</td>
+<td valign="top">
+
+*true* \(control plane in the same region as cluster's worker nodes\)
+
+*false* \(control plane can be deployed in a different region than worker nodes\)
+
+</td>
+</tr>
+</table>
 
 See an example of the JSON input:
 
