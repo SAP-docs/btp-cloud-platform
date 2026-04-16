@@ -65,11 +65,18 @@ There are various reasons to use vendoring. For example, productive applications
 > ### Note:  
 > Bear in mind when using dependencies containing native code that you need to reinstall in the same environment as the Cloud Foundry container, or make sure that the package has built-in support for it.
 
-To ensure that prepackaged dependencies are pushed to the SAP BTP, Cloud Foundry environment and on-premise runtime, make sure that the **`node_modules`** directory isn’t listed in the `.cfignore` file. It’s also preferable that development dependencies are not deployed for productive deployments. To ensure that, run:
+To ensure that prepackaged dependencies are pushed to the SAP BTP, Cloud Foundry environment and on-premise runtime, make sure that the **`node_modules`** directory isn’t listed in the `.cfignore` file.
 
-```
+It’s also preferable that development dependencies are not deployed for productive deployments. To ensure that, run one of the following commands:
+
+-   ```
 npm prune --production
 ```
+
+-   ```
+npm prune --omit=dev
+```
+
 
 
 

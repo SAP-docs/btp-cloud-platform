@@ -30,7 +30,7 @@ From the *VM Explorer,* you can debug, monitor or profile your SAP JVM. For more
 
 ## Procedure
 
-1.  From the cf CLI, execute:
+1.  From the cf CLI, run:
 
     ```
     cf ssh app name -c "app/META-INF/.sap_java_buildpack/sapjvm/bin/jvmmond -port 50003 -J-Dcom.sap.jvm.tools.portRange=50004-50005 -J-Djava.rmi.server.hostname=127.0.0.1"
@@ -38,7 +38,7 @@ From the *VM Explorer,* you can debug, monitor or profile your SAP JVM. For more
 
     This starts the `jvmmond` service on your Cloud Foundry container. It is listening to port *50003*. This command also specifies a port range of 50004-50005 in case additional ports need to be opened.
 
-2.  To enable an SSH tunnel for these ports, execute:
+2.  To enable an SSH tunnel for these ports, run:
 
     ```
     cf ssh <app name> -N -T -L 50003:127.0.0.1:50003 -L 50004:127.0.0.1:50004 -L 50005:127.0.0.1:50005

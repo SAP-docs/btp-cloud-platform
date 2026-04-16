@@ -36,7 +36,7 @@ After enabling the debugging port, you need to open an SSH tunnel that connects 
 
 ## Procedure
 
-1.  To enable debugging or to check the debugging state of your JVM, run **`jvmmon`** in your Cloud Foundry container by executing:
+1.  To enable debugging or to check the debugging state of your JVM, run **`jvmmon`** in your Cloud Foundry container by running:
 
     ```
     cf ssh <app name> -c "app/META-INF/.sap_java_buildpack/sapjvm/bin/jvmmon"

@@ -36,7 +36,7 @@ To debug an application using [SapMachine](https://github.com/SAP/SapMachine), y
     You could also disable the default configuration by specifying it manually. Set the following option in the application `manifest.yml` file:
 
     ```
-    JBP_CONFIG_JAVA_OPTS: "[java_opts: '-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n]"
+    JBP_CONFIG_JAVA_OPTS: "[java_opts: '-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n']"
     ```
 
     You can change the default port **8000** in the command.

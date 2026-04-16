@@ -31,7 +31,7 @@ You can use Java Flight Recorder \([JFR](https://docs.oracle.com/en/java/java-co
 
 ## Context
 
-The commands below use [async-profiler](https://github.com/async-profiler/async-profiler/blob/master/README.md), which is a lightweight command-line tool that uses low memory resources. You can use it to execute *jcmd* commands without worrying about high memory consumption or potential Out-Of-Memory errors during profiling. The `async-profiler` tool is integrated in SapMachine, thus no need to download it.
+The commands below use [async-profiler](https://github.com/async-profiler/async-profiler/blob/master/README.md), which is a lightweight command-line tool that uses low memory resources. You can use it to run *jcmd* commands without worrying about high memory consumption or potential Out-Of-Memory errors during profiling. The `async-profiler` tool is integrated in SapMachine, thus no need to download it.
 
 To profile with JMC, you need to start the Management Agent on a RMI port and then open an SSH tunnel to connect to that port.
 
@@ -60,11 +60,16 @@ To profile with JMC, you need to start the Management Agent on a RMI port and th
         JBP_CONFIG_JAVA_OPTS: "[java_opts: '-Djava.rmi.server.hostname=127.0.0.1']"
     ```
 
-2.  Start the Management Agent by running `jcmd` in your Cloud Foundry container. Execute:
+2.  Start the Management Agent by running `jcmd` in your Cloud Foundry container. Run one of the following commands:
 
-    ```
-    cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/asprof jcmd $(pgrep java) ManagementAgent.start jmxremote.authenticate=false jmxremote.ssl=false jmxremote.port=5555 jmxremote.rmi.port=5555"
-    ```
+    -   ```
+cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/asprof jcmd $(pgrep java) ManagementAgent.start jmxremote.authenticate=false jmxremote.ssl=false jmxremote.port=5555 jmxremote.rmi.port=5555"
+```
+
+    -   ```
+cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/asprof jcmd 7 ManagementAgent.start jmxremote.authenticate=false jmxremote.ssl=false jmxremote.port=5555 jmxremote.rmi.port=5555"
+```
+
 
     Depending on what your SapMachine is using \(JRE or JDK\), specify the path accordingly \(**`sap_machine_jre`** or **`sap_machine_jdk`**\). To learn more, see: [SapMachine](sapmachine-785d6b3.md)
 
@@ -72,20 +77,19 @@ To profile with JMC, you need to start the Management Agent on a RMI port and th
 
     ```
     
-    7:
     Command executed successfully
     
     ```
 
     Management Agent is started and is listening to port **5555**.
 
-3.  \(Optional\) You can check the status of the Management Agent. Execute:
+3.  \(Optional\) You can check the status of the Management Agent. Run:
 
     ```
     cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/asprof jcmd $(pgrep java) ManagementAgent.status"
     ```
 
-4.  Enable an SSH tunnel for this port. Execute:
+4.  Enable an SSH tunnel for this port. Run:
 
     ```
     cf ssh myapp -N -T -L 5555:127.0.0.1:5555
@@ -128,7 +132,7 @@ To profile with JMC, you need to start the Management Agent on a RMI port and th
 
 11. Then go back to your command line and close the SSH tunnel by pressing [Ctrl\] + [C\].
 
-12. Stop the Management Agent. Execute:
+12. Stop the Management Agent. Run:
 
     ```
     cf ssh myapp -c "app/META-INF/.sap_java_buildpack/sap_machine_jre/bin/asprof jcmd $(pgrep java) ManagementAgent.stop"
