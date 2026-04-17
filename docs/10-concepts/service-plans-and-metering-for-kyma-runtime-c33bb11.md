@@ -176,6 +176,8 @@ The nodes calculation takes the number of virtual CPUs \(vCPUs\) and provides th
 
 The Calculation for vCPU table presents data for general-purpose machine types.
 
+Additionally, the calculation is used for compute-intensive machine types.
+
 **Calculation for vCPU**
 
 
