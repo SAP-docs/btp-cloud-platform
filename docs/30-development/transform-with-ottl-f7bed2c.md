@@ -92,7 +92,9 @@ spec:
   transform:
     # Try to parse the body as custom parser (default spring boot logback)
     # 2025-11-12T14:40:36.828Z  INFO 1 --- [demo] [           main] c.e.restservice.RestServiceApplication   : Started Application
-    - statements:
+    - conditions:
+        - log.body != nil
+      statements:
         - merge_maps(log.attributes, ExtractPatterns(log.body,"^(?P<timestamp>\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d+Z)\\s+(?P<level>[A-Z]+)\\s+(?P<pid>\\d+)\\s+---\\s+\\[(?P<mdc>[^\\]]+)\\]\\s+\\[\\s*(?P<thread>[^\\]]+)\\s*\\]\\s+(?P<logger>[^\\s:]+)\\s*:\\s*(?P<msg>.*)$"), "upsert")
 
     # Try to enrich core attributes if custom parsing was successful

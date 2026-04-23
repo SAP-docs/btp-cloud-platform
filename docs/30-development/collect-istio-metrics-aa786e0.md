@@ -37,6 +37,8 @@ With this, the metric agent starts collecting all Istio metrics from Istio sidec
 > To validate or debug your configuration, use diagnostic metrics.
 > 
 > To select metrics from specific namespaces, see [Filter Metrics](filter-metrics-6bd4bfd.md).
+> 
+> To change the scrape interval, see [Configure Collection Interval](collecting-metrics-44ac6c5.md#loio44ac6c5afef0464480fa18acb7483972__section_collection_interval).
 
 
 

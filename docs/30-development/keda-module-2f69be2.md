@@ -30,7 +30,7 @@ With the Keda module, you can have a custom event-driven autoscaling for Kuberne
 
 ## Architecture
 
-![](images/Keda_Architecture_Diagram_777dced.png)
+![Keda architecture diagram](images/Keda_Architecture_Diagram_bfa1325.png)
 
 1.  User configures the Keda custom resource \(CR\). With the CR you can determine the way the Keda module runs.
 

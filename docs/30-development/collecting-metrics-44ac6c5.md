@@ -87,6 +87,48 @@ You can adjust the `MetricPipeline` using runtime configuration with the availab
 
 -   Avoid redundancy by dropping push-based OTLP metrics that are sent directly to the metric gateway \(see [Route Specific Inputs to Different Backends](set-up-the-otlp-input-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_filter_input_for_backends)\).
 
+-   Reduce or increase metric collection frequency for all pull-based inputs or for a specific input type by changing the collection interval \(see [Configure Collection Interval](collecting-metrics-44ac6c5.md#loio44ac6c5afef0464480fa18acb7483972__section_collection_interval)\).
+
+
+
+
+<a name="loio44ac6c5afef0464480fa18acb7483972__section_collection_interval"/>
+
+## Configure Collection Interval
+
+By default, the metric agent scrapes all pull-based inputs \(Prometheus, Istio, and runtime\) every 30 seconds. You can change this interval in the Telemetry CR.
+
+To set a global collection interval that applies to all pull-based inputs, use the `metric.collectionInterval` field:
+
+```
+apiVersion: operator.kyma-project.io/v1beta1
+kind: Telemetry
+metadata:
+  name: default
+  namespace: kyma-system
+spec:
+  metric:
+    collectionInterval: 60s
+```
+
+To override the interval for a specific input type, use the input-specific `collectionInterval` field. The following example sets a global interval of 60s but overrides it to 15s for the Prometheus input:
+
+```
+apiVersion: operator.kyma-project.io/v1beta1
+kind: Telemetry
+metadata:
+  name: default
+  namespace: kyma-system
+spec:
+  metric:
+    collectionInterval: 60s
+    prometheus:
+      collectionInterval: 15s
+```
+
+The input-specific override takes precedence over the global `metric.collectionInterval`, which takes precedence over the default of 30s.
+
+For details on the available parameters, see [Telemetry Custom Resource](https://github.com/skhalash/telemetry-manager/blob/b41ef7f6da1be59a9ed974521a7a6785442611a6/docs/user/resources/01-telemetry.md).
 
 
 

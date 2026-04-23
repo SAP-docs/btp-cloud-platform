@@ -88,7 +88,7 @@ More resources that you might find interesting:
 
 ## Best Practices
 
-Get onboarded to SAP BTP. Learn about basic concepts and see our best practices for your development projects, from setting up the correct organizational structure to creating an account and security model, to developing and operating applications: [SAP BTP Administrator's Guide](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/9f2bb927464e4d1ba3d13b2d79ca9bd1.html "This guide is the starting point for setting up application lifecycle management for your specific use case, business, and IT landscape. It contains recommendations and best practices that give you an overview of what you should consider when planning development projects on SAP BTP – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications. It also includes links to step-by-step instructions when required.") :arrow_upper_right:.
+Get onboarded to SAP BTP. Learn about basic concepts and see our best practices for your development projects in setting up the correct organizational structure, creating an account and security model, and developing and operating applications: [SAP BTP Administrator's Guide](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/9f2bb927464e4d1ba3d13b2d79ca9bd1.html "This guide is the starting point for setting up application lifecycle management for your specific use case, business, and IT landscape. It contains recommendations and best practices that give you an overview of what you should consider when planning development projects on SAP BTP – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications. It also includes links to step-by-step instructions when required.") :arrow_upper_right:.
 
 
 
@@ -104,9 +104,9 @@ Get an overview on the availability of SAP BTP solutions and services according 
 
 ## Neo Environment
 
-To access the documentation for the Neo environment, see [SAP BTP, Neo environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US).
+For more information about the Neo environment, see [SAP BTP, Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US).
 
-To learn more about why and how to migrate your scenarios in the Neo environment, see [Migrating from the SAP BTP Neo Environment to the Multi-Cloud Foundation](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html).
+To learn more about why and how to migrate your scenarios in the Neo environment, see [Migrating from the Neo Environment to the Multi-Cloud Foundation](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html).
 
 
 
@@ -114,5 +114,5 @@ To learn more about why and how to migrate your scenarios in the Neo environment
 
 ## All SAP BTP Resources
 
-Access all of our resources on the product page: [SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/viewer/product/CP/Cloud/en-US?task=discover_task).
+You can find all of our resources on the product page: [SAP Business Technology Platform \(SAP BTP\)](https://help.sap.com/docs/BTP).
 

@@ -3558,7 +3558,7 @@ Singapore<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e
 <tr>
 <td valign="top">
 
-`ap-southeast-2`[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)
+`ap-southeast-2`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
@@ -3752,7 +3752,7 @@ North America \(Virginia\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="14">
+<td valign="top" rowspan="13">
 
 Standard: Microsoft Azure
 
@@ -3767,7 +3767,7 @@ Build Runtime: Microsoft Azure
 technical name: `build-runtime-azure`
 
 </td>
-<td valign="top" rowspan="14">
+<td valign="top" rowspan="13">
 
 Provisioning
 

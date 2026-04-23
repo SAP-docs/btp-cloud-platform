@@ -1095,7 +1095,6 @@
             -   [SAP BTP Operator Module](30-development/sap-btp-operator-module-50347ea.md)
                 -   [Preconfigured Credentials and Access](30-development/preconfigured-credentials-and-access-ab106d7.md)
                 -   [Customizing the Default Credentials and Access](30-development/customizing-the-default-credentials-and-access-15f22d5.md)
-                -   [Network Policies](30-development/network-policies-1eb05cf.md)
                 -   [Creating Service Instances and Service Bindings](30-development/creating-service-instances-and-service-bindings-17bd304.md#loio17bd304aeab34294a4ca34fa9564147c)
                     -   [Creating a Service Instance](30-development/creating-service-instances-and-service-bindings-17bd304.md#loio3ca9284699c44180b12e7be513bdac06)
                     -   [Creating a Service Binding](30-development/creating-service-instances-and-service-bindings-17bd304.md#loioab5ca11be3bf4c029982332fe7092f74)
