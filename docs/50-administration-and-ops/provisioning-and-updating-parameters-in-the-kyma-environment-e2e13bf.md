@@ -983,6 +983,11 @@ The *Machine Type* \(`machineType`\) parameter is a string, which specifies the 
 
 The following table lists general-purpose machine types available for use in the mandatory Kyma worker node pool and in your additional worker node pools.
 
+> ### Note:  
+> <sup>3</sup> The version-agnostic machine type name represents the underlying instance family that powers this machine type. The most optimized underlying instance families are assigned to the version-agnostic machine type names and can be updated to newer generations during maintenance windows without affecting your configurations.
+> 
+> It is recommended to choose the version-agnostic machine types to ensure smooth updates and to avoid disruptions during upgrades.
+
 **Machine Type Parameter**
 
 
@@ -1015,7 +1020,7 @@ Virtual Machine Size
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="14">
+<td valign="top" rowspan="21">
 
 Standard: Amazon Web Services
 
@@ -1026,18 +1031,102 @@ Build Runtime: Amazon Web Services
 technical name: `build-runtime-aws`
 
 </td>
-<td valign="top" rowspan="14">
+<td valign="top" rowspan="21">
 
 Provisioning
 
 Updating
 
 </td>
-<td valign="top" rowspan="14">
+<td valign="top" rowspan="21">
 
-`m6i.large`
+`mi.large`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup>
 
 </td>
+<td valign="top">
+
+`mi.large`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`m7i.large`\)
+
+</td>
+<td valign="top">
+
+2 vCPU, 8 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`mi.xlarge`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`m7i.xlarge`\)
+
+</td>
+<td valign="top">
+
+4 vCPU, 16 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`mi.2xlarge`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`m7i.2xlarge`\)
+
+</td>
+<td valign="top">
+
+8 vCPU, 32 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`mi.4xlarge`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`m7i.4xlarge`\)
+
+</td>
+<td valign="top">
+
+16 vCPU, 64 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`mi.8xlarge`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`m7i.8xlarge`\)
+
+</td>
+<td valign="top">
+
+32 vCPU, 128 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`mi.12xlarge`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`m7i.12xlarge`\)
+
+</td>
+<td valign="top">
+
+48 vCPU, 192 GB RAM
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`mi.16xlarge`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`m7i.16xlarge`\)
+
+</td>
+<td valign="top">
+
+64 vCPU, 256 GB RAM
+
+</td>
+</tr>
+<tr>
 <td valign="top">
 
 `m6i.large`
@@ -1667,6 +1756,11 @@ In your additional worker node pools, you can use the general-purpose virtual ma
 > ### Note:  
 > The virtual machines in the following table are only available for use in [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
 
+> ### Note:  
+> <sup>4</sup> The version-agnostic machine type name represents the underlying instance family that powers this machine type. The most optimized underlying instance families are assigned to the version-agnostic machine type names and can be updated to newer generations during maintenance windows without affecting your configurations.
+> 
+> It is recommended to choose the version-agnostic machine types to ensure smooth updates and to avoid disruptions during upgrades.
+
 **Machine Type in Additional Worker Node Pools**
 
 
@@ -1733,7 +1827,7 @@ Updating
 
 `eu-west-2`
 
-`eu-south-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_2_note)</sup>
+`eu-south-1`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_non_ha_regions)</sup>
 
 `ca-central-1`
 
@@ -1830,7 +1924,7 @@ Updating
 <tr>
 <td valign="top">
 
-`ri.large`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_mts)</sup>
+`ri.large`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_add_mts)</sup> \(`r8i.large`\)
 
 </td>
 <td valign="top">
@@ -1857,7 +1951,7 @@ Updating
 <tr>
 <td valign="top">
 
-`ri.xlarge` <sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_mts)</sup>
+`ri.xlarge` <sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_add_mts)</sup> \(`r8i.xlarge`\)
 
 </td>
 <td valign="top">
@@ -1869,7 +1963,7 @@ Updating
 <tr>
 <td valign="top">
 
-`ri.2xlarge`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_mts)</sup>
+`ri.2xlarge`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_add_mts)</sup> \(`r8i.2xlarge`\)
 
 </td>
 <td valign="top">
@@ -1881,7 +1975,7 @@ Updating
 <tr>
 <td valign="top">
 
-`ri.4xlarge` <sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_mts)</sup>
+`ri.4xlarge` <sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_add_mts)</sup> \(`r8i.4xlarge`\)
 
 </td>
 <td valign="top">
@@ -1893,7 +1987,7 @@ Updating
 <tr>
 <td valign="top">
 
-`ri.8xlarge`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_mts)</sup>
+`ri.8xlarge`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_add_mts)</sup> \(`r8i.8xlarge`\)
 
 </td>
 <td valign="top">
@@ -1905,7 +1999,7 @@ Updating
 <tr>
 <td valign="top">
 
-`ri.12xlarge` <sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_mts)</sup>
+`ri.12xlarge` <sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_add_mts)</sup> \(`r8i.12xlarge`\)
 
 </td>
 <td valign="top">
@@ -1917,7 +2011,7 @@ Updating
 <tr>
 <td valign="top">
 
-`ri.16xlarge`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_mts)</sup>
+`ri.16xlarge`<sup>[4](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_add_mts)</sup> \(`r8i.16xlarge`\)
 
 </td>
 <td valign="top">
@@ -2143,10 +2237,7 @@ All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters
 </table>
 
 > ### Note:  
-> <sup>3</sup> This region offers fewer than three availability zones.
-
-> ### Note:  
-> <sup>4</sup> This version-agnostic machine type name represents the underlying instance family that powers this machine type. SAP assigns the best-optimized underlying instance families to the version-agnostic machine type names, and can update them to newer generations during maintenance windows without affecting your configurations.
+> <sup>5</sup> This region offers fewer than three availability zones.
 
 
 
@@ -3385,7 +3476,7 @@ The following example shows the default configuration of an `oidc` object. To re
 *Region\** \(`region`\) is a mandatory string parameter, which defines a region where your cluster runs.
 
 > ### Note:  
-> The region marked with "<sup>5</sup>" supports the *Colocate Control Plane* feature.
+> The region marked with "<sup>6</sup>" supports the *Colocate Control Plane* feature.
 > 
 > For more information, see [Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed).
 
@@ -3438,12 +3529,12 @@ Provisioning
 </td>
 <td valign="top">
 
-`eu-central-1`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`eu-central-1`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Europe \(Frankfurt\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Europe \(Frankfurt\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3498,12 +3589,12 @@ Brazil \(São Paulo\)
 <tr>
 <td valign="top">
 
-`us-east-1`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`us-east-1`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US East \(VA\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US East \(VA\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3522,12 +3613,12 @@ Japan \(Tokyo\)
 <tr>
 <td valign="top">
 
-`ap-northeast-2`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`ap-northeast-2`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-South Korea \(Seoul\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+South Korea \(Seoul\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3546,36 +3637,36 @@ India \(Mumbai\)
 <tr>
 <td valign="top">
 
-`ap-southeast-1`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`ap-southeast-1`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Singapore<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`ap-southeast-2`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
-
-</td>
-<td valign="top">
-
-Australia \(Sydney\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Singapore<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`us-west-2`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`ap-southeast-2`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US West \(Oregon\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Australia \(Sydney\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`us-west-2`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+
+</td>
+<td valign="top">
+
+US West \(Oregon\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3622,24 +3713,24 @@ Europe \(Netherlands\)
 <tr>
 <td valign="top">
 
-`asia-south1`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`asia-south1`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-India \(Mumbai\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+India \(Mumbai\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`us-central1`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`us-central1`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US Central \(IA\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US Central \(IA\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3774,12 +3865,12 @@ Provisioning
 </td>
 <td valign="top">
 
-`eastus`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`eastus`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US East \(VA\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US East \(VA\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3798,12 +3889,12 @@ US Central \(IA\)
 <tr>
 <td valign="top">
 
-`westus2`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`westus2`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US West \(WA\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US West \(WA\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3846,12 +3937,12 @@ North EU \(Ireland\)
 <tr>
 <td valign="top">
 
-`westeurope`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`westeurope`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Europe \(Netherlands\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Europe \(Netherlands\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -3882,24 +3973,24 @@ Singapore
 <tr>
 <td valign="top">
 
-`australiaeast`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`australiaeast`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Australia \(Sydney\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Australia \(Sydney\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-`switzerlandnorth`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`switzerlandnorth`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Switzerland \(Zurich\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Switzerland \(Zurich\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
