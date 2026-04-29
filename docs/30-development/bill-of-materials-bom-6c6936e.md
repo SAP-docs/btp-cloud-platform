@@ -6,7 +6,10 @@ For Maven projects, the versions of SAP Java Buildpack dependencies and the APIs
 
 
 
-The BOM contains the dependencies you can rely on in a runtime environment provided by SAP Java Buildpack. It can also be used to control the versions of a project's dependencies without the need to manually maintain the version of each single artifact.
+The BOM contains the dependencies you can rely on in a runtime environment provided by SAP Java Buildpack. It can also be used to control the versions of a project's dependencies without the need to manually maintain the version of each and every artifact.
+
+> ### Remember:  
+> Any dependency not included in the BOM must be explicitly declared and bundled by the application.
 
 The BOMs of SAP Java Buildpack are provided through [Maven Central](https://central.sonatype.com/search?q=com.sap.cloud.sjb.cf).
 

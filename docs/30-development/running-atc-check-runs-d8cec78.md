@@ -228,6 +228,9 @@ For more information about the ABAP Test Cockpit, see [Checking Quality of ABAP 
     
     ```
 
+    > ### Note:  
+    > If you want to use the ATC REST service in BTP for an object provider, the function module `OSL_GET_REMOTE_OBJECTS` needs to be exposed in the cloud connector in addition to following SAP note [2861842](https://me.sap.com/notes/2861842/E).
+
     **Response**
 
     **Headers**

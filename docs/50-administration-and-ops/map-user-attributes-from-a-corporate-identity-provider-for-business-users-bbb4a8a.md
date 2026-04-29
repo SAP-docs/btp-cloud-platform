@@ -67,18 +67,6 @@ For more information about identity federation, see [Configure Identity Federati
     <tr>
     <td valign="top">
     
-    `email_verified`
-    
-    </td>
-    <td valign="top">
-    
-    `Email Verified`
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
     `family_name`
     
     </td>
@@ -130,169 +118,152 @@ For more information about identity federation, see [Configure Identity Federati
 
     > ### Example:  
     > If your corporate identity provider sends users' last names as the `sn` attribute, add the corporate identity provider as source to the `last_name` attribute with the value `sn`.
+    > 
+    > **Customized Last Name Attribute Configuration in SAP Cloud Identity Services**
+    > 
+    > 
+    > <table>
+    > <tr>
+    > <th valign="top">
+    > 
+    > Attribute Name
+    > 
+    > </th>
+    > <th valign="top">
+    > 
+    > Source
+    > 
+    > </th>
+    > <th valign="top">
+    > 
+    > Attribute Value
+    > 
+    > </th>
+    > </tr>
+    > <tr>
+    > <td valign="top">
+    > 
+    > `email` 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > Identity Directory
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > `Email` 
+    > 
+    > </td>
+    > </tr>
+    > <tr>
+    > <td valign="top">
+    > 
+    > `family_name` 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > Identity Directory
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > `Last Name` 
+    > 
+    > </td>
+    > </tr>
+    > <tr>
+    > <td valign="top">
+    > 
+    > `given_name` 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > Identity Directory
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > `First Name` 
+    > 
+    > </td>
+    > </tr>
+    > <tr>
+    > <td valign="top">
+    > 
+    > `groups` 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > Identity Directory
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > `Groups` 
+    > 
+    > </td>
+    > </tr>
+    > <tr>
+    > <td valign="top">
+    > 
+    > `last_name` 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > Corporate Identity Provider
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > > ### Example:  
+    > > `sn`
+    > 
+    > 
+    > 
+    > </td>
+    > </tr>
+    > <tr>
+    > <td valign="top">
+    > 
+    > `mail` 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > Identity Directory
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > `Email` 
+    > 
+    > </td>
+    > </tr>
+    > <tr>
+    > <td valign="top">
+    > 
+    > `user_uuid` 
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > Identity Directory
+    > 
+    > </td>
+    > <td valign="top">
+    > 
+    > `Global User ID` 
+    > 
+    > </td>
+    > </tr>
+    > </table>
 
-    **Customized Last Name Attribute Configuration in SAP Cloud Identity Services**
-
-
-    <table>
-    <tr>
-    <th valign="top">
-
-    Attribute Name
-    
-    </th>
-    <th valign="top">
-
-    Source
-    
-    </th>
-    <th valign="top">
-
-    Attribute Value
-    
-    </th>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `email` 
-    
-    </td>
-    <td valign="top">
-    
-    Identity Directory
-    
-    </td>
-    <td valign="top">
-    
-    `Email` 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `email_verified` 
-    
-    </td>
-    <td valign="top">
-    
-    Identity Directory
-    
-    </td>
-    <td valign="top">
-    
-    `Email Verified` 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `family_name` 
-    
-    </td>
-    <td valign="top">
-    
-    Identity Directory
-    
-    </td>
-    <td valign="top">
-    
-    `Last Name` 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `given_name` 
-    
-    </td>
-    <td valign="top">
-    
-    Identity Directory
-    
-    </td>
-    <td valign="top">
-    
-    `First Name` 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `groups` 
-    
-    </td>
-    <td valign="top">
-    
-    Identity Directory
-    
-    </td>
-    <td valign="top">
-    
-    `Groups` 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `last_name` 
-    
-    </td>
-    <td valign="top">
-    
-    Corporate Identity Provider
-    
-    </td>
-    <td valign="top">
-    
-    > ### Example:  
-    > `sn`
-
-
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `mail` 
-    
-    </td>
-    <td valign="top">
-    
-    Identity Directory
-    
-    </td>
-    <td valign="top">
-    
-    `Email` 
-    
-    </td>
-    </tr>
-    <tr>
-    <td valign="top">
-    
-    `user_uuid` 
-    
-    </td>
-    <td valign="top">
-    
-    Identity Directory
-    
-    </td>
-    <td valign="top">
-    
-    `Global User ID` 
-    
-    </td>
-    </tr>
-    </table>
-    
     For more information, see [User Attributes](https://help.sap.com/docs/identity-authentication/identity-authentication/user-attributes?version=Cloud) in the documentation of SAP Cloud Identity Services.
 
 
@@ -332,6 +303,23 @@ Description
 <tr>
 <td valign="top">
 
+NA
+
+</td>
+<td valign="top">
+
+`azp` 
+
+</td>
+<td valign="top">
+
+The authorized party identifies the client ID to which the ID token was issued.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `mail` 
 
 </td>
@@ -345,23 +333,6 @@ Description
 E-mail address of the subject. By default, this value is used for the subject name identifier.
 
 See the table *Default Configurations of the Subaccount in SAP Cloud Identity Services* following this table.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`mailVerified` 
-
-</td>
-<td valign="top">
-
-`email_verified` 
-
-</td>
-<td valign="top">
-
-Indicates whether the subject has confirmed their e-mail address. Your identity provider might require users to verify their e-mail address.
 
 </td>
 </tr>
@@ -413,6 +384,23 @@ First name of the subject.
 <td valign="top">
 
 Any groups the subject is assigned to in the identity provider.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+NA
+
+</td>
+<td valign="top">
+
+`sap_id_type` 
+
+</td>
+<td valign="top">
+
+An SAP claim that identifies the type of token.
 
 </td>
 </tr>

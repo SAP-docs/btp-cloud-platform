@@ -49,7 +49,16 @@ To modify an existing XSLX document, get a write access like this:
 > ```
 
 > ### Caution:  
-> The existing file must only use the features listed on this page. If other Excel features are used in the file, this can lead to an error being raised. Even if no error is raised, the file retrieved via the method `get_file_content` might be corrupted.
+> Write access can also be used to update existing XLSX documents. The original documents must meet one of the following prerequisites:
+> 
+> -   The XLSX file was originally created using the XLSX Write APIs
+> 
+>     or
+> 
+> -   The XLSX file was created manually or with other tools, but its content and functional scope are fully compatible with the features supported by the XCO XLSX Write APIs \(this means that the file could also be created using these APIs\)
+> 
+> 
+> If these conditions are not fulfilled, the behavior of the update operation is undefined and correct processing can't be guaranteed. In such cases, errors may occur during processing, and the resulting XLSX documents may show unexpected behavior. Certain features, formatting, or functionalities may be altered, impaired, or lost.
 
 
 

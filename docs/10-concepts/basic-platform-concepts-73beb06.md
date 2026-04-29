@@ -77,7 +77,7 @@ SAP BTP provides the following environments:
 
     The Neo environment lets you develop HTML5, Java, and SAP HANA extended application services \(SAP HANA XS\) applications. You can also use the UI Development Toolkit for HTML5 \(SAPUI5\) to develop rich user interfaces for modern web-based business applications.
 
-    > ### Remember:  
+    > ### Caution:  
     > SAP Business Technology Platform, Neo environment will sunset on **December 31, 2028**, subject to terms of customer or partner contracts.
     > 
     > For more information, see SAP Note [3351844](https://me.sap.com/notes/3351844).

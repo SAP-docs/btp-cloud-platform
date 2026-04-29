@@ -36,6 +36,8 @@ The XCO Generation APIs are the part of the XCO library that allows the programm
 
 -   RONT \(SAP Object Types\)
 
+-   SCP1 \(Business Configuration Sets\)
+
 -   SRVB \(Service Bindings\)
 
 -   SRVD \(Service Definitions\)
@@ -110,6 +112,33 @@ X
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+X
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+BGQC
+
+</td>
+<td valign="top">
+
+X
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+X
 
 </td>
 <td valign="top">
@@ -510,6 +539,33 @@ X
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+X
+
+</td>
+<td valign="top">
+
+X
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+SCP1
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+X
 
 </td>
 <td valign="top">

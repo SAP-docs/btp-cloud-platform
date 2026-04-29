@@ -1080,7 +1080,6 @@ Configure and price your SAP ERP or SAP S/4HANA products interactively in the cl
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 -   Singapore
 
@@ -1137,6 +1136,7 @@ Configure and price your SAP ERP or SAP S/4HANA products interactively in the cl
 <td valign="top">
 
 -   Europe \(Netherlands\)
+-   US West \(WA\)
 -   Australia \(Sydney\)
 
 
@@ -1195,6 +1195,8 @@ Configure and price your SAP ERP or SAP S/4HANA products interactively in the cl
 -   US Central \(IA\)
 -   Australia \(Sydney\)
 -   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
+-   KSA \(Dammam\)
 
 
 
@@ -1751,7 +1753,6 @@ Calculate prices for configurable- and non-configurable products
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 -   Singapore
 
@@ -1808,6 +1809,7 @@ Calculate prices for configurable- and non-configurable products
 <td valign="top">
 
 -   Europe \(Netherlands\)
+-   US West \(WA\)
 -   Australia \(Sydney\)
 
 
@@ -1866,6 +1868,8 @@ Calculate prices for configurable- and non-configurable products
 -   US Central \(IA\)
 -   Australia \(Sydney\)
 -   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
+-   KSA \(Dammam\)
 
 
 
@@ -12278,7 +12282,6 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 -   Singapore
 
@@ -12335,6 +12338,7 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 <td valign="top">
 
 -   Europe \(Netherlands\)
+-   US West \(WA\)
 -   Australia \(Sydney\)
 
 
@@ -12393,6 +12397,8 @@ Configure your SAP ERP or SAP S/4HANA products interactively in the cloud
 -   US Central \(IA\)
 -   Australia \(Sydney\)
 -   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
+-   KSA \(Dammam\)
 
 
 
@@ -14616,7 +14622,6 @@ Administer the configuration and pricing services
 <td valign="top">
 
 -   Europe \(Frankfurt\)
--   Europe \(Frankfurt\) EU Access
 -   US East \(VA\)
 -   Singapore
 
@@ -14673,6 +14678,7 @@ Administer the configuration and pricing services
 <td valign="top">
 
 -   Europe \(Netherlands\)
+-   US West \(WA\)
 -   Australia \(Sydney\)
 
 
@@ -14731,6 +14737,8 @@ Administer the configuration and pricing services
 -   US Central \(IA\)
 -   Australia \(Sydney\)
 -   India \(Mumbai\)
+-   KSA \(Dammam\) public sector
+-   KSA \(Dammam\)
 
 
 

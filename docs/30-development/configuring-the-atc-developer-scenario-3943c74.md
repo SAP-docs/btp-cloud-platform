@@ -64,7 +64,7 @@ To enable the ATC Developer Scenario, you've to define communication arrangement
     > ### Note:  
     > In order to setup your RFC connection, you first need to open a **service channel** \(on-premise to cloud connection\) in your respective Cloud Connector. See [Configure a Service Channel for RFC](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/configure-service-channel-for-rfc?version=Cloud) to learn how to create one.
 
-    1.  Choose connection type "3" \(ABAP Connection\) to connect to your cloud system via [Cloud Connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector?version=Cloud). Connection type "W" \(WebSocket RFC\) isn't yet supported for the developer scenario
+    1.  Choose connection type "3" \(ABAP Connection\) or connection type "W" \(WebSocket RFC\) to connect to your cloud system via [Cloud Connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/cloud-connector?version=Cloud).
 
     2.  In the *Technical Settings* tab, enter the host of your Cloud Connector as *Target Host*. As instance number, choose the instance number that you have defined for your service channel.
 

@@ -1744,7 +1744,7 @@ See an example input for the *Machine Type* parameter:
 
 > ### Sample Code:  
 > ```
-> "machineType": "m5.xlarge"
+> "machineType": "mi.large"
 > ```
 
 

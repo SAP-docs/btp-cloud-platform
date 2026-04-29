@@ -2,14 +2,14 @@
 
 # Defining Multitarget Application Development Descriptors
 
-Multitarget Applications are defined in a development descriptor required for design-time purposes.
+Multitarget applications are defined in a development descriptor required for design-time purposes.
 
-The development descriptor \(`mta.yaml`\) defines the elements and dependencies of a Multitarget Application \(MTA\) compliant with the Cloud Foundry environment.
+The development descriptor \(`mta.yaml`\) defines the elements and dependencies of a Multitarget application \(MTA\) compliant with the Cloud Foundry environment.
 
 > ### Note:  
-> The MTA development descriptor \(`mta.yaml`\) is used to generate the deployment descriptor \(`mtad.yaml`\), which is required for deploying an MTA to the target runtime. If you use command-line tools to deploy an MTA, you do not need an `mta.yaml` file. However, in these cases you have to manually create the `mtad.yaml` file.
+> The MTA development descriptor \(`mta.yaml`\) is used to generate the deployment descriptor \(`mtad.yaml`\), which is required for deploying an MTA to the target runtime. If you use command-line tools to deploy an MTA, you do not need an `mta.yaml` file. However, in these cases you have to manually create the deployment descriptor \(`mtad.yaml`\) file.
 
-For more information about the MTA development descriptor, see [Defining Multitarget Application Deployment Descriptors for Cloud Foundry](https://help.sap.com/docs/btp/sap-business-technology-platform/defining-multitarget-application-deployment-descriptors-for-cloud-foundry).
+For more information about the MTA deployment descriptor, see [Defining Multitarget Application Deployment Descriptors for Cloud Foundry](https://help.sap.com/docs/btp/sap-business-technology-platform/defining-multitarget-application-deployment-descriptors-for-cloud-foundry).
 
 **Related Information**  
 
