@@ -33,7 +33,7 @@ For a quick check, you can inspect the `status` of a pipeline resource directly.
 
     -   For `TracePipeline`: <code>kubectl get tracepipeline <i class="varname">&lt;your-pipeline-name&gt;</i></code>
 
-    -   For `MetricPipeline`: <code>kubectl get tracepipeline <i class="varname">&lt;your-pipeline-name&gt;</i></code>
+    -   For `MetricPipeline`: <code>kubectl get metricpipeline <i class="varname">&lt;your-pipeline-name&gt;</i></code>
 
 
 2.  Review the output. A healthy pipeline shows ***True*** for all status conditions.
@@ -44,7 +44,7 @@ For a quick check, you can inspect the `status` of a pipeline resource directly.
     > backend   True                      True              True       
     > ```
 
-3.  If any condition is ***False***, investigate problem and fix it.
+3.  If any condition is ***False***, investigate the problem and fix it.
 
 
 To understand the meaning of each status condition, see the detailed reference for each pipeline type:
@@ -62,7 +62,7 @@ To understand the meaning of each status condition, see the detailed reference f
 
 ## Set Up Health Monitoring and Alerts
 
-For production environments, set up continuous monitoring by exporting the health metrics to your observability backend, where you can create dashboards and configure alerts using alert rules. For an example, see [Integrate With SAP Cloud Logging](integrate-with-sap-cloud-logging-eac5771.md)
+For production environments, set up continuous monitoring by exporting the health metrics to your observability backend, where you can create dashboards and configure alerts. For an example, see [Integrate With SAP Cloud Logging](integrate-with-sap-cloud-logging-eac5771.md).
 
 > ### Caution:  
 > Do not scrape the metrics endpoint of the OpenTelemetry Collector instances. These metrics are an internal implementation detail and are subject to breaking changes when the underlying Collector is updated. For stable health monitoring, rely on the status conditions of your `LogPipeline`, `MetricPipeline`, or `TracePipeline` custom resources.
@@ -83,30 +83,129 @@ The Telemetry module emits the following metrics for health monitoring:
 
     -   `metric.attributes.reason`: A programmatic identifier indicating the reason for the condition's last transition
 
+    -   `metric.attributes.name`: The name of the resource
+
+    -   `metric.attributes.namespace`: The namespace of the resource
+
+    -   `metric.attributes.group`: The API group of the resource
+
+    -   `metric.attributes.version`: The API version of the resource
+
+    -   `metric.attributes.kind`: The kind of the resource
+
 
 -   `kyma.resource.status.state`: Represents the overall state of the main `Telemetry` resource.
 
     Values: ***1*** \(“Ready”\) or ***0*** \(“Not Ready”\)
 
-    Specific attributes: `state`: The value of the `status.state` field
+    Specific attributes:
 
--   Additionally, the following attributes are attached to all health metrics to identify the source resource:
+    -   `metric.attributes.state`: The value of the `status.state` field
 
-    -   `k8s.resource.group`: The group of the resource
+    -   `metric.attributes.name`: The name of the resource
 
-    -   `k8s.resource.version`: The version of the resource
+    -   `metric.attributes.namespace`: The namespace of the resource
 
-    -   `k8s.resource.kind`: The kind of the resource
+    -   `metric.attributes.group`: The API group of the resource
 
-    -   `k8s.resource.name`: The name of the resource
+    -   `metric.attributes.version`: The API version of the resource
+
+    -   `metric.attributes.kind`: The kind of the resource
 
 
 
 To create an alert, define a rule that triggers on a specific metric value. For example, to create an alert that fires if a pipeline's `TelemetryFlowHealthy` condition becomes “False” \(indicating data flow issues\), use the following PromQL query:
 
 ```
-min by (k8s_resource_name) ((kyma_resource_status_conditions{type="TelemetryFlowHealthy",k8s_resource_kind="metricpipelines"})) == 0
+min by (name) ((kyma_resource_status_conditions{type="TelemetryFlowHealthy", kind="metricpipelines"})) == 0
 ```
 
 If there are issues with one of the pipelines, see [Troubleshooting for the Telemetry Module](troubleshooting-for-the-telemetry-module-b86d7cb.md).
+
+
+
+<a name="loiob56ed5c62e984f63b89668ba1072c03e__section_deprecated_attributes"/>
+
+## Deprecated Attributes
+
+> ### Caution:  
+> The following resource attributes are deprecated and will be removed in a future release. Update your dashboards and alert rules to use the replacement `metric.attributes.*` attributes.
+
+****
+
+
+<table>
+<tr>
+<th valign="top">
+
+Deprecated Resource Attribute
+
+</th>
+<th valign="top">
+
+Replacement Metric Attribute
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+`k8s.resource.name`
+
+</td>
+<td valign="top">
+
+`metric.attributes.name`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`k8s.resource.namespace.name`
+
+</td>
+<td valign="top">
+
+`metric.attributes.namespace`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`k8s.resource.group`
+
+</td>
+<td valign="top">
+
+`metric.attributes.group`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`k8s.resource.version`
+
+</td>
+<td valign="top">
+
+`metric.attributes.version`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`k8s.resource.kind`
+
+</td>
+<td valign="top">
+
+`metric.attributes.kind`
+
+</td>
+</tr>
+</table>
 

@@ -29,13 +29,11 @@ The Serverless CR is an API to configure the Serverless module. You can use it t
 
 -   Configuring the healthz liveness timeout.
 
--   Configuring the default runtime Pod preset
+-   Configuring the default runtime Pod preset.
 
 -   Configuring the log level.
 
 -   Configuring the log format.
-
--   Disabling buildless mode.
 
 
 The default configuration of the Serverless module is the following:
@@ -158,46 +156,4 @@ You can configure the desired log format to be used.
 ```
 
 For more details, see [Configuring Logging](configuring-logging-123c965.md).
-
-<a name="task_s5c_3nf_shc"/>
-
-<!-- task\_s5c\_3nf\_shc -->
-
-## Disabling Buildless Mode
-
-Serverless buildless mode is enabled by default. To use the legacy image-building Serverless functionality, disable buildless mode through an annotation.
-
-
-
-## Prerequisites
-
-You have [kubectl](https://kubernetes.io/docs/reference/kubectl/) installed.
-
-> ### Caution:  
-> The legacy image-building mode is deprecated and will be removed in a future version of Serverless. This functionality is scheduled for removal and will no longer be available in upcoming releases.
-
-
-
-## Procedure
-
-1.  Edit the Serverless CR:
-
-    `kubectl edit -n kyma-system serverlesses.operator.kyma-project.io default`
-
-2.  In the `metadata` section, add `annotations`, and add the `serverless.kyma-project.io/buildless-mode: "disabled"` key-value pair in it, and save the changes.
-
-    ```
-       apiVersion: operator.kyma-project.io/v1alpha1
-    kind: Serverless
-    metadata:
-      name: default
-      namespace: kyma-system
-      annotations:
-        serverless.kyma-project.io/buildless-mode: "disabled"
-    spec: {}
-    
-    ```
-
-    You have disabled Serverless buildless mode.
-
 

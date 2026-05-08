@@ -1152,7 +1152,7 @@
                 -   [Troubleshooting for the Serverless Module](30-development/troubleshooting-for-the-serverless-module-f88cfeb.md)
                     -   [Serverless Periodically Restarting](30-development/serverless-periodically-restarting-5b655d5.md)
                     -   [Function Fails to Start With Customized OpenTelemetry Dependencies](30-development/function-fails-to-start-with-customized-opentelemetry-dependencies-dbda6ba.md)
-                    -   [New Function Replica is Not Starting](30-development/new-function-replica-is-not-starting-467dc7e.md)
+                    -   [Git Source Certificate Signed by Unknown Authority](30-development/git-source-certificate-signed-by-unknown-authority-425cdc9.md)
             -   [Telemetry Module](30-development/telemetry-module-87ec550.md)
                 -   [Telemetry Pipeline API](30-development/telemetry-pipeline-api-1617ebe.md)
                     -   [Migrate Telemetry Pipelines to v1beta1](30-development/migrate-telemetry-pipelines-to-v1beta1-6ffa6c2.md)
