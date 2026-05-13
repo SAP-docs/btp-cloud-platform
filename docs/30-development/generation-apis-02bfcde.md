@@ -6,6 +6,8 @@ The XCO Generation APIs are the part of the XCO library that allows the programm
 
 -   BDEF \(Behavior Definitions\)
 
+-   BGQC \(Background Processing Context\)
+
 -   CLAS \(Classes\)
 
 -   DCLS \(Access Controls\)

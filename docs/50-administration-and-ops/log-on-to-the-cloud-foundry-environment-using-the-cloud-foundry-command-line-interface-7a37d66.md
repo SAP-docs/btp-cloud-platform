@@ -48,13 +48,9 @@ Use the Cloud Foundry Command Line Interface \(cf CLI\) to log on to the Cloud F
     ```
 
     > ### Note:  
-    > -   To log on with SAP Universal ID, use the option `--sso`. You need a browser in the logon process.
+    > -   Log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you have multiple user accounts with the same email address, log on with your user ID \(S-user or P-user\) instead of your email address.
     > 
-    >     For more information, see [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
-    > 
-    >     Otherwise log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you have multiple user accounts with the same email address, log on with your user ID \(S-user or P-user\) instead of your email address.
-    > 
-    >     If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
+    >     If you've forgotten your password, reset your password.
     > 
     >     For more information, see SAP Note [3085908](https://me.sap.com/notes/3085908).
     > 

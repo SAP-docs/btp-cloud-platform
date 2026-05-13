@@ -35,7 +35,7 @@ All tables must fulfill the following requirements:
 
 -   have delivery class C
 
--   allow data maintenance
+-   data maintenance must be allowed or restricted
 
 -   \(optional\) have a timestamp field with data element `ABP_LOCINST_LASTCHANGE_TSTMPL`. If the table doesn't contain this field, the concurrency control is not active
 

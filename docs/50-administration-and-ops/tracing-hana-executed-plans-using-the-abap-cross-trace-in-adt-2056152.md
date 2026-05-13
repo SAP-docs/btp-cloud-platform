@@ -2,9 +2,9 @@
 
 # Tracing HANA Executed Plans Using the ABAP Cross Trace in ADT
 
-As an ABAP developer working with SAP Fiori apps, you can use the ABAP Cross Trace to capture HANA executed plans of SQL statements run by the app you're tracing.
+Analyze the SQL statement execution in your system to identify potential bottlenecks or performance issues.
 
-In the ABAP Cross Trace in ABAP development tools for Eclipse \(ADT\), capture executed plans for SQL statement executions as PlanViz \(PLV\) files using the integrated HANA Plan Trace feature. You can then download and view the PLV files in the SQL Analyzer Tool for SAP HANA.
+To do so, in the ABAP cross trace in ABAP development tools for Eclipse \(ADT\), you can capture PlanViz \(PLV\) files for SQL statement executions using the integrated HANA Plan Trace feature and download and view the PLV files in the SQL analyzer tool for SAP HANA.
 
 
 

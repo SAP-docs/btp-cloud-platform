@@ -28,6 +28,14 @@ Find out how to display the change log of your business configuration tables.
 
 
 
+### Access Information
+
+To access the option, you need to have the following business catalog assigned to your user: `SAP_CORE_BC_BCT_LOG_DIS_PC`
+
+This business catalog is available in the business role template `SAP_BR_BPC_EXPERT`.
+
+
+
 ### Procedure
 
 1.  Open the *Business Configuration Change Logs* app.
@@ -42,6 +50,14 @@ Find out how to display the change log of your business configuration tables.
 ## Download Change Logs
 
 Find out how to display the change log of your business configuration tables.
+
+
+
+### Access Information
+
+To access this option, you need to have the business catalog `SAP_CORE_BC_BCT_LOG_DIS_PC` assigned to your user
+
+This business catalog is available in the business role template: `SAP_BR_BPC_EXPERT`.
 
 
 

@@ -43,6 +43,15 @@ In addition, the app supports the integration with Git.
 
 
 
+### 
+
+> ### Note:  
+> Do not restrict the business catalog or role when a custom role is created.
+> 
+> Context: You can create custom business roles and assign the business catalog of the Manage Software Components app as well as restrict the role to a read-only access. However, the Manage Software Compoents app requires write privileges \(unrestricted access\).
+
+
+
 <a name="loio3dcf76a072c9450eb46b99db947dab46__section_i4n_bgc_p2b"/>
 
 ## Supported Device Types

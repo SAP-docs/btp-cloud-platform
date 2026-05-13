@@ -10,7 +10,7 @@ To do this, you can use the `Capture Request Statistics` app and trace these pla
 
 ## Prerequisites
 
-You need the `SAP_CORE_BC_TMC` business catalog, which is part of the `SAP_BR_ADMINISTRATOR` and `SAP_BR_DEVELOPER` business role template.
+You need the `SAP_CORE_BC_TMC_MON_PC` business catalog, which is part of the `SAP_BR_ADMINISTRATOR` business role template.
 
 
 

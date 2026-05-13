@@ -6,7 +6,7 @@
 
 
 
-With this app you can schedule and monitor application jobs that collect metric providers that have been created in ABAP development tools in Eclipse \(ADT\) using ABAP for Cloud Development. After you’ve scheduled your application job and set up the communication to SAP Cloud ALM, your metrics will also be available in SAP Cloud ALM Health Monitoring.
+With this app you can schedule and monitor application jobs that collect metric providers that have been created in ABAP Development Tools \(ADT\) using ABAP for Cloud Development. After you’ve scheduled your application job and set up the communication to SAP Cloud ALM, your metrics will also be available in SAP Cloud ALM Health Monitoring.
 
 
 
@@ -34,4 +34,9 @@ This app provides a view on the *Application Jobs* app. Therefore, its key featu
 ## Component for Customer Incidents
 
 If you need support or experience issues, please report an incident under component `BC-OP-MON`.
+
+**Related Information**  
+
+
+[Application Jobs](application-jobs-37e7a01.md)
 

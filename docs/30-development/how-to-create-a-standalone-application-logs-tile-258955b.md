@@ -177,7 +177,7 @@ After the adaptation project is generated, verify that the parameters were actua
 
 **Create an IAM App**
 
-After your app was deployed successfully to an SAP BTP ABAP environment system, you should see the BSP application and the SAP Fiori launchpad app descriptor item under your package.
+After your app was deployed successfully to an SAP system, you should see the BSP application and the SAP Fiori launchpad app descriptor item under your package.
 
 Now, you need to create a new IAM app by selecting *New* \> *Other Repository Object* \> *IAM App*.
 

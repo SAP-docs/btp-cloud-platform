@@ -56,7 +56,7 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
     If you don’t want to grant access to a restriction field on purpose, you can choose the status *Not maintained*.
 
--   Every authorization you define in the *Write* access category is inherited to the *Read* and *Value Help* access category.
+-   Every authorization you define in the *Write* access category is inherited by the *Read* and *Value Help* access category if these categories are not explicitly set to *Unrestricted* access.
 
 
 **Read**
@@ -69,7 +69,7 @@ Using the *Maintain Business Roles* app, you have the following options for main
 
     For more information about the *Values* area, refer to the *Write* section above.
 
--   Every authorization you define in the *Read* access category is inherited to the *Value Help* access category.
+-   Every authorization you define in the *Read* access category is inherited by the *Value Help* access category if this category is not explicitly set to *Unrestricted* access.
 
 
 **Value Help** 

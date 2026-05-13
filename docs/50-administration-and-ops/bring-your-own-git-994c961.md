@@ -45,6 +45,13 @@ See [Supported ABAP Object Types](https://help.sap.com/docs/btp/sap-business-tec
 
 
 
+### 
+
+> ### Note:  
+> If you are the actual owner of the repositories and credentials used for your BYOG scenario, please acknowledge the following task. It is necessary for you to update or rotate the used credentials regularly on a two to four week basis. This is an important step to increase security, minimize risk and prevent possible credential misuse. You can do this by navigating to the *Settings* button in the Manage Software Components app. This is not applicable for SAP-managed repositories \(non-BYOG\).
+
+
+
 <a name="loio994c961dd666413e801df6c62cb727fc__section_cjt_44t_c1c"/>
 
 ## Procedure

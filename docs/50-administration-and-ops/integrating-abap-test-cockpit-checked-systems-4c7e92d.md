@@ -8,12 +8,16 @@ Learn how to integrate ABAP Test Cockpit \(ATC\) checked systems and how to enab
 
 **SAP\_COM\_0B22:** This communication arrangement describes the configuration steps that have to be carried out to enable the Code Explain functionality in the Analyze Custom Code/Custom Code Migration app on the SAP Fiori launchpad.
 
+**SAP\_COM\_0A68:** This communication scenario provides the integration of SAP Solution Manager with an ATC central check system running on SAP BTP ABAP environment to perform Retrofit checks via ChaRM \(Change Request Management\).
+
 **Related Information**  
 
 
 [SAP\_COM\_0464](sap-com-0464-34e52b1.md "Learn how to establish a connection between the Analyze Custom Code/Custom Code Migration app running in an SAP BTP ABAP environment, with the customer's SAP S/4HANA or SAP S/4HANA Cloud Private Edition ABAP system.")
 
 [SAP\_COM\_0B22](sap-com-0b22-02ca9d9.md "This document describes the configuration steps that have to be carried out by customers to enable the Code Explain functionality in the Analyze Custom Code/Custom Code Migration app on the SAP Fiori launchpad.")
+
+[SAP\_COM\_0A68](sap-com-0a68-15337ad.md "You, as a Solution Manager administrator, want to use ATC on an SAP BTP ABAP environment system as your central check system to perform Retrofit checks via ChaRM.")
 
 [Custom Code Analysis](custom-code-analysis-651ef65.md)
 

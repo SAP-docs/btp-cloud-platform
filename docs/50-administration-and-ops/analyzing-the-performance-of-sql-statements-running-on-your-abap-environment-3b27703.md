@@ -6,7 +6,7 @@ Learn how to use SQL statement and trace analysis in the ABAP environment.
 
 Data retrieval and modification through SQL statements are the main functions of the SAP HANA database in your ABAP environment. When you develop new applications or operate them productively, you need to analyze the performance of SQL statements executed by your applications on the database.
 
-When analyzing statement performance, you typically encounter one of the following scenarios:
+When analyzing statement performance, you typically encounter these scenarios:
 
 -   You’re focused solely on the performance of SQL statements within your application. You don't need to consider other SQL activities on your database.
 

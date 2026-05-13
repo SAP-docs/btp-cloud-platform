@@ -293,7 +293,7 @@ For more information about creating service instances, see [Create Service Insta
     </td>
     <td valign="top">
     
-    The **development system** checkbox is checked by default. By using this setting, you can control the changeability of development objects in the system. If you want to protect all your customer-related software components and ABAP namespaces against manual changes via ABAP development tools for Eclipse, uncheck the box. This setting is used for test and productive systems, where changes must be imported only. For information about which business catalogs are available in development systems only, see [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
+    The **development system** checkbox is checked by default. By using this setting, you can control the changeability of development objects in the system. If you want to protect all your customer-related software components and ABAP namespaces against manual changes via ABAP development tools for Eclipse, uncheck the box. This setting is used for test and productive systems, where changes must be imported only. For information about which business catalogs are available in development systems only, see [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md). This setting determines the automatic selection of the respective system upgrade approach by SAP. Non-development systems are automatically chosen for the downtime-optimized release upgrade and hotfix import procedures. Please refer to this blog post for further information: [Downtime-Optimized Upgrades and Hotfix Collection Imports for Production](https://community.sap.com/t5/technology-blog-posts-by-sap/sap-btp-abap-environment-downtime-optimized-upgrades-and-hotfix-collection/ba-p/13986913).
     
     </td>
     <td valign="top">
@@ -410,7 +410,7 @@ For more information about creating service instances, see [Create Service Insta
     **admin user name** \(see above\).
 
     > ### Caution:  
-    > Currently, it's only possible to change the login attribute **when creating a new ABAP system**. To change the settings **afterwards**, please create a service ticket.
+    > Currently, it's only possible to change the login attribute **when creating a new ABAP system**. To change the settings **afterwards**, please open a ticket on component `BC-CP-ABA-INT`.
 
 
     

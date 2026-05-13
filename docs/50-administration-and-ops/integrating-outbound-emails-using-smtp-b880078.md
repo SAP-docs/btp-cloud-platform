@@ -49,8 +49,9 @@ Afterwards, create a communication arrangement for the `SAP_COM_0548` communicat
 
 1.  Log in to your system and follow the steps as described in [How to Create a Communication Arrangement](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-arrangement?version=Cloud&locale=en-US).
 2.  Enter the previously created Communication System.
-3.  If you are using OAuth 2.0 as authentication method, use the scope address from the email provider in the field **Additional Scopes**. This could be something like https://outlook.office365.com/.default.
-4.  Save your communication arrangement by clicking **Save** on the bottom right.
+3.  If you are using OAuth 2.0 for the outbound configuration, use the authorized user from the email provider as additional property.
+4.  If you are using OAuth 2.0 as authentication method, use the scope address from the email provider in the field **Additional Scopes**. This could be something like https://outlook.office365.com/.default.
+5.  Save your communication arrangement by clicking **Save** on the bottom right.
 
 
 

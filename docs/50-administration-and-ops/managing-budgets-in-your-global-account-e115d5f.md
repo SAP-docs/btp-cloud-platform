@@ -79,7 +79,7 @@ Access and manage your global account's budgets in SAP BTP cockpit. Monitor spen
 
 <!-- loioc5cffe4fd7c44160b6266d5924f451aa -->
 
-## Understanding Budget Settings
+## Understanding the Budget Settings
 
 
 
@@ -140,7 +140,7 @@ Time Period
 
 Includes the budget start date and optional end date.
 
-A budget without an end date never expires. Note however, that you are allowed up to 10 active budgets per global account.
+A budget without an end date never expires. Note however, that you are allowed up to 30 active budgets per global account.
 
 </td>
 </tr>
@@ -223,7 +223,7 @@ For more information, see [Setting Up Budget Threshold Alerts](managing-budgets-
 
 Creating a budget allows you to monitor and manage spending in your global account. You can create a budget from scratch or from an existing budget that is active or has expired.
 
-Each global account is allowed up to 10 active budgets. Active budgets have an end date in the future or no end date. Budgets expire automatically when the current date surpasses the end date of the budget.
+Each global account is allowed up to 30 active budgets. Active budgets have an end date in the future or no end date. Budgets expire automatically when the current date surpasses the end date of the budget.
 
 
 
@@ -236,7 +236,7 @@ Each global account is allowed up to 10 active budgets. Active budgets have an e
 
 2.  Configure the budget's settings.
 
-    For detailed information about each of the budget settings, see [Understanding Budget Settings](managing-budgets-in-your-global-account-e115d5f.md#loioc5cffe4fd7c44160b6266d5924f451aa).
+    For detailed information about each of the budget settings, see [Understanding the Budget Settings](managing-budgets-in-your-global-account-e115d5f.md#loioc5cffe4fd7c44160b6266d5924f451aa).
 
     1.  Enter the budget name and an optional description.
 
@@ -270,7 +270,7 @@ Viewing a budget provides detailed information about the budget's configuration 
 
 In the *Budgets* tab, click on a budget to display more details.
 
-For detailed information about each of the budget settings, see [Understanding Budget Settings](managing-budgets-in-your-global-account-e115d5f.md#loioc5cffe4fd7c44160b6266d5924f451aa).
+For detailed information about each of the budget settings, see [Understanding the Budget Settings](managing-budgets-in-your-global-account-e115d5f.md#loioc5cffe4fd7c44160b6266d5924f451aa).
 
 Use the *History* chart below the *Scopes* section to view the costs or charged usage in your global account over the past 12 months. The budget amount and threshold values are overlaid on the chart data, including budget exceedance information, if relevant.
 
@@ -299,7 +299,7 @@ Editing a budget allows you to make changes to the budget's settings.
 
     Note that you cannot change the start date and budget type of an existing budget.
 
-    For detailed information about each of the budget settings, see [Understanding Budget Settings](managing-budgets-in-your-global-account-e115d5f.md#loioc5cffe4fd7c44160b6266d5924f451aa).
+    For detailed information about each of the budget settings, see [Understanding the Budget Settings](managing-budgets-in-your-global-account-e115d5f.md#loioc5cffe4fd7c44160b6266d5924f451aa).
 
 4.  Review your configuration and then click *Update*.
 

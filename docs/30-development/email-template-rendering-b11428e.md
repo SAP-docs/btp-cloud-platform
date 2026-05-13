@@ -8,7 +8,7 @@ Send mails using the Simple Message Transfer Protocol \(SMTP\) and render the ma
 
 ## Prerequisites
 
-You must create a predelivered email template using the Email Template editor in ADT or copy an existing predelivered Email Template in the Fiori app *Maintain Email Templates*. Both methods provide an Email Template object which can be used for the rendering
+You must create an email template using a valid CDS view as data source with the ADT editor. You must also set up the SMTP configuration.
 
 
 

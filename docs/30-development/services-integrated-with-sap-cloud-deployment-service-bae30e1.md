@@ -114,6 +114,26 @@ SAP Build Process Automation uses the SAP Cloud Deployment service to facilitate
 <tr>
 <td valign="top">
 
+Terraform Provider for Cloud Foundry
+
+</td>
+<td valign="top">
+
+The Terraform Provider for Cloud Foundry uses the SAP Cloud Deployment service through its `cloudfoundry_mta` resource to enable infrastructure-as-code deployment of multitarget applications. When you define an MTA deployment in your Terraform configuration using the `cloudfoundry_mta` resource, Terraform initiates a deployment operation via the SAP Cloud Deployment service API, and your application is deployed to the target Cloud Foundry space. This integration allows MTA deployments to be managed declaratively alongside other infrastructure resources in Terraform workflows, supporting automated provisioning, updates, and lifecycle management of multitarget applications.
+
+</td>
+<td valign="top">
+
+-   [Terraform Provider for Cloud Foundry](https://registry.terraform.io/providers/cloudfoundry/cloudfoundry/latest/docs)
+-   [cloudfoundry\_mta \(Resource\)](https://registry.terraform.io/providers/cloudfoundry/cloudfoundry/latest/docs/resources/mta)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Transport management tools \(cTMS, CTS+\)
 
 </td>

@@ -54,3 +54,8 @@ You can use this app to:
 
 If you need support or experience issues, please report an incident under component `BC-SRV-APS-IAM`.
 
+**Related Information**  
+
+
+[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Get an overview of available business catalogs and their restrictions.")
+

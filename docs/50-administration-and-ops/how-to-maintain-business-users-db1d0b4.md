@@ -219,13 +219,21 @@ You can change user data \(for example, the user name\) and regional settings \(
 
 **Downloading User Lists**
 
--   To download a list of all users with an email address as `CSV` files for upload to *SAP Cloud Identity Services - Identity Authentication*, proceed as follows:
+-   You can download a list of all business users with an email address as `CSV` files and upload it to *SAP Cloud Identity Services - Identity Authentication*. To do so, proceed as follows:
 
-    1.  To open the file, you have to set the list separator to comma by setting the format in the regional settings of your operating system to*English \(United States\)*.
+    1.  Open the *Maintain Business Users* app.
 
-    2.  Open the *Administration Console for SAP Cloud Identity Services – Identity Authentication*.
+    2.  Choose *Download*→ *Download for IDP \(.csv\)*.
 
-    3.  To upload the `CSV` file, go to *User Management* \> *Import Users*.
+    3.  Save the generated `CSV` file locally. This file will be used for the user import in *Identity Authentication*.
+
+    4.  **Optional:**Adjust regional settings to view the CSV file correctly. To open the file, you have to set the list separator to **comma \( , \)**by setting the format in the regional settings of your operating system to*English \(United States\)*.
+
+    5.  Open *Identity Authentication* \(IDP\) system.
+
+    6.  Open the *Administration Console for SAP Cloud Identity Services – Identity Authentication*.
+
+    7.  Navigate to *User Management* \> *Import Users* to upload the `CSV` file.
 
         > ### Note:  
         > Make sure that the `CSV` file is not opened with any program before the upload.

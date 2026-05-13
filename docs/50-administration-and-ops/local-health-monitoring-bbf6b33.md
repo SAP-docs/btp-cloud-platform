@@ -351,7 +351,7 @@ If the trusted certificate expires within 7 days, it's marked red. If it expires
 <tr>
 <td valign="top">
 
-*HANA Compute Units \(CPU\)*
+*HANA Compute Units \(Memory, CPU\)*
 
 </td>
 <td valign="top">
@@ -361,11 +361,32 @@ If the trusted certificate expires within 7 days, it's marked red. If it expires
 </td>
 <td valign="top">
 
-Used quota for SAP HANA database resources during the last 5 minutes
+Used quota for memory or CPU utilization during the last 5 minutes
 
-A quota represents the available system size and therefore the maximum allowed consumption of a resource. Each resource \(memory, disk or CPU\) is measured against the quota independently. For SAP HANA database resources, the quota is measured in HANA compute units \(HCUs\).
+A quota represents the available system size and therefore the maximum allowed consumption of a resource. Each resource \(memory or CPU\) is measured against the quota independently. For SAP HANA database resources, the quota is measured in HANA compute units \(HCUs\).
 
-The number of HCUs on this card refers to the resource \(memory, disk or CPU\) with the highest quota usage.
+The number of HCUs on this card refers to the resource \(memory or CPU\) with the highest quota usage.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*HANA Compute Units \(Disk\)*
+
+</td>
+<td valign="top">
+
+`hana_hcu_used_count_5m`
+
+</td>
+<td valign="top">
+
+Used quota for disk space consumption during the last 5 minutes
+
+A quota represents the available system size and therefore the maximum allowed consumption of disk space. Disk space consumption is measured against the quota independently. For SAP HANA database resources, the quota is measured in HANA compute units \(HCUs\).
+
+The number of HCUs on this card refers to the disk with the highest quota usage.
 
 </td>
 </tr>

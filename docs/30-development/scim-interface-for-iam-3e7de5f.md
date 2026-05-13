@@ -12,7 +12,11 @@ You can use this interface provided by the communication scenario `SAP_COM_0465`
 
 
 
-For more information about SCIM in general, see the *Related Information* section.
+For more information about SCIM in general, see [System for cross-domain Identity Management](https://simplecloud.info/).
+
+
+
+Useful links can also be found in the *Related Information* section at the bottom of this document.
 
 > ### Note:  
 > The write operations are protected with a X-CSRF-Token.

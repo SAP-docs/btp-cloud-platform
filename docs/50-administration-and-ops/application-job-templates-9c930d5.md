@@ -2,6 +2,8 @@
 
 # Application Job Templates
 
+App ID: F2058
+
 
 
 You can use this app to create your own application job templates. The application job templates consist of a set of parameters that you can set for the assigned job catalog entry. This app is mandatory to create multi-step templates which can then be submitted via the *Application Jobs* app. A multi-step template consists of several other templates that run in a series, one after the other. Each step could be a single-step template, or another multi-step template that was created with the *Application Job Templates* app before.

@@ -16,7 +16,7 @@ Log in with the btp CLI is on global account level.
 
 -   To log in successfully, you need access to a global account. See [Role Collections and Roles in Global Accounts, Directories, and Subaccounts](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-0039cf0.md).
 
--   To log on with SAP Universal ID, you need to log on with the single sign-on parameter \(`btp login --sso`\). If you don't want to use single sign-on, log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you have multiple user accounts with the same email address, log on with your user ID \(S-user or P-user\) instead of your email address. If you've forgotten this password and this user is associated with your SAP Universal ID user, reset your password.
+-   Log on with the password associated with your account \(S-user or P-user\) in the default identity provider, SAP ID service. If you have multiple user accounts with the same email address, log on with your user ID \(S-user or P-user\) instead of your email address. If you've forgotten this password, reset your password.
 
     For more information, see SAP Note [3085908](https://me.sap.com/notes/3085908) and [Log in with Single Sign-On](log-in-with-single-sign-on-b2a56a8.md).
 
@@ -75,7 +75,7 @@ Usage: `btp [OPTIONS] login [PARAMS]`
 </td>
 <td valign="top">
 
-Opens a browser for single sign-on at the identity provider. The btp CLI doesn't prompt for this parameter. If you use SAP Universal ID, you need to use this parameter.
+Opens a browser for single sign-on at the identity provider. The btp CLI doesn't prompt for this parameter.
 
 To suppress automatic browser opening, use `--sso manual`.
 

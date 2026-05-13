@@ -860,7 +860,7 @@ Maintain Business Roles
 </td>
 <td valign="top">
 
-*F1492*
+`F1492`
 
 </td>
 <td valign="top">
@@ -894,7 +894,7 @@ IAM Information System
 </td>
 <td valign="top">
 
-*F2450*
+`F2450`
 
 </td>
 <td valign="top">
@@ -928,7 +928,7 @@ Business Catalogs
 </td>
 <td valign="top">
 
-F2471
+`F2471`
 
 </td>
 <td valign="top">
@@ -962,7 +962,7 @@ Business Role Templates
 </td>
 <td valign="top">
 
-F2820
+`F2820`
 
 </td>
 <td valign="top">
@@ -996,7 +996,7 @@ Display Restriction Types
 </td>
 <td valign="top">
 
-F3816
+`F3816`
 
 </td>
 <td valign="top">
@@ -1030,7 +1030,7 @@ IAM Key Figures
 </td>
 <td valign="top">
 
-F4474
+`F4474`
 
 </td>
 <td valign="top">
@@ -1064,7 +1064,7 @@ Display IAM Apps
 </td>
 <td valign="top">
 
-F7500
+`F7500`
 
 </td>
 <td valign="top">
@@ -1098,7 +1098,7 @@ Display Technical Users
 </td>
 <td valign="top">
 
-F1301
+`F1301`
 
 </td>
 <td valign="top">
@@ -1132,7 +1132,7 @@ Maintain Business Users
 </td>
 <td valign="top">
 
-F1303
+`F1303`
 
 </td>
 <td valign="top">
@@ -1166,7 +1166,7 @@ IAM Information System
 </td>
 <td valign="top">
 
-F2405
+`F2405`
 
 </td>
 <td valign="top">
@@ -1200,7 +1200,7 @@ Display Restriction Types
 </td>
 <td valign="top">
 
-F3816
+`F3816`
 
 </td>
 <td valign="top">
@@ -1234,7 +1234,7 @@ IAM Key Figures
 </td>
 <td valign="top">
 
-F4474
+`F4474`
 
 </td>
 <td valign="top">

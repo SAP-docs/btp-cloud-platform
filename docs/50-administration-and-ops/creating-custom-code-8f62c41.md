@@ -20,10 +20,9 @@ Put the cursor on a class, interface, or parameter to view the documentation dis
 
 In edit mode, you can add prebuilt code blocks by selecting *Insert Code Snippet*. For more information, see [Inserting Code Snippets](inserting-code-snippets-614b05a.md).
 
-You can use keyboard shortcuts while working with the ABAP Cloud editor. You can view a list of all possible shortcuts by clicking *Show Keyboard Shortcuts*.
+You can use the entity manipulation language \(EML\) to implement behavior extensions. For more information, see [Entity Manipulation Language](https://help.sap.com/docs/abap-cloud/abap-rap/entity-manipulation-language-eml).
 
-> ### Note:  
-> Do not use the `return` statement in your code because it can affect the framework logic. It can result in missing custom logic trace entries or unexpected code behavior.
+You can use keyboard shortcuts while working with the ABAP Cloud editor. You can view a list of all possible shortcuts by clicking *Show Keyboard Shortcuts*.
 
 
 

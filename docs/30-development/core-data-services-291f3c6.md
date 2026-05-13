@@ -10,7 +10,7 @@ The XCO library provides several abstractions and APIs to simplify working with 
 
 ## Read APIs
 
-With the CDS Read APIs it is possible to access the content of a given CDS entity in a strongly typed manner, as is illustrated by the following example:
+With the CDS Read APIs, it's possible to access the content of a given CDS entity in a strongly typed manner, as is illustrated by the following example:
 
 > ### Sample Code:  
 > ```abap
@@ -61,7 +61,7 @@ With the CDS Read APIs it is possible to access the content of a given CDS entit
 
 ## Data Definition Language
 
-Using the Data Definition Language \(DDL\) module of the XCO Library, different kinds of DDL expressions can be built and successively used in conjunction with the XCO Generation APIs when providing specifications for DDLS objects. Complex expressions like case, cast, or conditional expressions as well as literals, field, and data source expressions can be easily specified using the XCO\_CP\_DDL API:
+Using the Data Definition Language \(DDL\) module of the XCO Library, different kinds of DDL expressions can be built and successively used in conjunction with the XCO Generation APIs when providing specifications for DDLS objects. Complex expressions like case, cast, or conditional expressions as well as literals, field, and data source expressions can be easily specified using the `XCO_CP_DDL` API:
 
 > ### Sample Code:  
 > ```abap
@@ -136,7 +136,7 @@ The XCO CDS module may be used to conveniently retrieve the value of annotations
 
 In the example above, the value of the “UI” annotation defined directly on the provided CDS view entity is read and written to the specifically defined ABAP structure. Parts of the annotation value not specified in the ABAP structure will be ignored.
 
-Annotations for CDS entities are aggregated at runtime from different sources. With the XCO annotation Query APIs it is easy to specify which source should be considered when annotations are retrieved, e.g. it is possible to consider only annotations defined in metadata extensions:
+Annotations for CDS entities are aggregated at runtime from different sources. With the XCO annotation Query APIs, it's easy to specify which source should be considered when annotations are retrieved. For example, it's possible to consider only annotations defined in metadata extensions:
 
 > ### Sample Code:  
 > ```abap
@@ -147,7 +147,7 @@ Annotations for CDS entities are aggregated at runtime from different sources. W
 >   )->contain( 'UI' ).
 > ```
 
-The following annotation sources are available via XCO\_CP\_CDS=\>ANNOTATIONS:
+The following annotation sources are available via `XCO_CP_CDS=>ANNOTATIONS`:
 
 -   Aggregated: The aggregation of all the different sources according to the preference rules reflecting the value that will be present at runtime
 
@@ -159,4 +159,44 @@ The following annotation sources are available via XCO\_CP\_CDS=\>ANNOTATIONS:
 
 -   Metadata extension: Annotations that are defined in a metadata extension that extends the given CDS entity
 
+
+
+
+## Cardinality
+
+The XCO CDS module supports the definition of cardinalities using two different syntax forms:
+
+-   Cardinality Syntax Written in Words
+
+-   Numeric Cardinality Syntax
+
+
+> ### Tip:  
+> SAP recommends using the cardinality syntax written in words instead of the numeric syntax, since it improves query performance in some scenarios.
+
+> ### Sample Code:  
+> **Cardinality Syntax Written in Words**
+> 
+> ```abap
+> DATA(lo_of_exact_one_to_exact_one) = xco_cp_cds=>cardinality->of_exact_one_to_exact_one.
+> DATA(lo_of_exact_one_to_many) = xco_cp_cds=>cardinality->of_exact_one_to_many.
+> DATA(lo_of_exact_one_to_one) = xco_cp_cds=>cardinality->of_exact_one_to_one.
+> DATA(lo_of_many_to_exact_one) = xco_cp_cds=>cardinality->of_many_to_exact_one.
+> DATA(lo_of_many_to_many) = xco_cp_cds=>cardinality->of_many_to_many.
+> DATA(lo_of_many_to_one) = xco_cp_cds=>cardinality->of_many_to_one.
+> DATA(lo_of_one_to_exact_one) = xco_cp_cds=>cardinality->of_one_to_exact_one.
+> DATA(lo_of_one_to_many) = xco_cp_cds=>cardinality->of_one_to_many.
+> DATA(lo_of_one_to_one) = xco_cp_cds=>cardinality->of_one_to_one.
+> ```
+
+> ### Sample Code:  
+> **Numeric Syntax**
+> 
+> ```abap
+> DATA(lo_zero_to_one) = xco_cp_cds=>cardinality->zero_to_one.
+> DATA(lo_one) = xco_cp_cds=>cardinality->one.
+> DATA(lo_one_to_one) = xco_cp_cds=>cardinality->one_to_one.
+> DATA(lo_zero_to_n) = xco_cp_cds=>cardinality->zero_to_n.
+> DATA(lo_one_to_n) = xco_cp_cds=>cardinality->one_to_n.
+> ```
 

@@ -12,7 +12,7 @@ You log on to SAP BTP via the Cloud Foundry CLI or the browser and you get an HT
 
 ## Reason and Prerequisites
 
-Authentication in Cloud Foundry runs through the UAA service which tunnels the credentials supplied \(such as username and password\) towards a trusted Open ID Connect Identity Provider \(IdP\). SAP's default IdP is the SAP ID service, which is available at [https://accounts.sap.com](https://accounts.sap.com/) for SAP ID Service, or at[https://account.sap.com](https://account.sap.com/) for SAP Universal ID.
+Authentication in Cloud Foundry runs through the UAA service which tunnels the credentials supplied \(such as username and password\) towards a trusted Open ID Connect Identity Provider \(IdP\). SAP's default IdP is the SAP ID service, which is available at [https://accounts.sap.com](https://accounts.sap.com/) for SAP ID Service.
 
 To narrow down the origin of the issue, you need to check the individual components involved in the login process.
 
