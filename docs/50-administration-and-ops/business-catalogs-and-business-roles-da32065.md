@@ -1666,32 +1666,6 @@ Output Management
 <tr>
 <td valign="top">
 
-Output Management
-
-</td>
-<td valign="top">
-
- <?sap-ot O2O class="- topic/xref " href="c408af0b11c549f19a054a9d1433cbbe.xml" text="" desc="" xtrc="xref:61" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/da320654ed6e4e1e804a1a882cd461ea.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?>  
-
-</td>
-<td valign="top">
-
-`SAP_BR_ADMINISTRATOR`
-
-*Administrator*
-
-</td>
-<td valign="top">
-
-`SAP_CORE_BC_OM_PRT`
-
-*Output Management - Printing*
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Additional Software
 
 </td>
