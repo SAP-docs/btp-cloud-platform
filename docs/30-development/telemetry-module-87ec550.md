@@ -64,7 +64,7 @@ To support telemetry for your applications, the Telemetry module provides the fo
 
 -   **Instrumentation Guidance**: To generate telemetry data, you must instrument your code. Based on [Open Telemetry](https://opentelemetry.io/) \(OTel\), you get community samples on how to instrument your code using the [Open Telemetry SDKs](https://opentelemetry.io/docs/languages/) in most programming languages.
 
--   **Simplified Permission Management**: To manage access to Telemetry resources, you can use the module's aggregated ClusterRoles: `kyma-telemetry-view` grants read access and `kyma-telemetry-edit` grants write access to all Telemetry module resources.
+-   **Simplified Permission Management**: To manage access to Telemetry resources, you can use the module's aggregated ClusterRoles \(see [Authorization](telemetry-module-87ec550.md#loio87ec55072f394ac48d91c8c723e26e3b__section_telemetry_authorization)\).
 
 
 
@@ -113,6 +113,19 @@ To define how to collect, process, and ship a specific signal, use the pipeline 
 -   [TracePipeline CRD](https://kyma-project.io/#/telemetry-manager/user/resources/04-tracepipeline)
 
 -   [MetricPipeline CRD](https://kyma-project.io/#/telemetry-manager/user/resources/05-metricpipeline)
+
+
+
+
+<a name="loio87ec55072f394ac48d91c8c723e26e3b__section_telemetry_authorization"/>
+
+## Authorization
+
+To assign access permissions to the Telemetry module resources, use the following [aggregated ClusterRoles](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles):
+
+-   `kyma-telemetry-view` to grant read-only access
+
+-   `kyma-telemetry-edit` to grant write access
 
 
 

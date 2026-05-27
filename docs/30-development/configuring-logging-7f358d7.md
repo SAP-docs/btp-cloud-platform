@@ -118,7 +118,7 @@ spec:
     kubectl logs -n kyma-system -l app=keda-operator
     ```
 
--   To check the `keda-metrics-api-server` logs, run:
+-   To check the `keda-metrics-apiserver` logs, run:
 
     ```
     kubectl logs -n kyma-system -l app=keda-operator-metrics-apiserver

@@ -90,6 +90,15 @@ You configure the Eventing module by creating and applying Kubernetes Custom Res
 
 
 
+## Authorization
+
+To assign access permissions to the Eventing module resources, use the following [aggregated ClusterRoles](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles):
+
+-   `kyma-eventing-view` - Grants read-only access to all Eventing module resources and their status.
+-   `kyma-eventing-edit` - Grants full access to all Eventing module resources and read-only access to their status.
+
+
+
 ## Resource Consumption
 
 To learn more about the resources used by the Eventing module, see [Kyma Modules' Sizing](../50-administration-and-ops/kyma-modules-sizing-3a92490.md).
