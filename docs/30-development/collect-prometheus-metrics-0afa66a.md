@@ -191,7 +191,7 @@ If your application is part of an Istio service mesh, you must consider service 
 
 -   The metric agent can scrape endpoints from workloads that enforce mutual TLS \(mTLS\). For scraping through HTTPS, Istio must configure the workload using *STRICT* mTLS mode.
 
-    If you can't use *STRICT* mTLS mode, you can set up scraping through plain HTTP by adding the following annotation to your Service: `prometheus.io/scheme: http`. For related troubleshooting, see [Log Entry: Failed to Scrape Prometheus Endpoint](troubleshooting-for-the-telemetry-module-b86d7cb.md#loiob86d7cb096bb45af82f00463b24c4334__section_troubleshoot_log_entry_failed_to_scrape_prometheus).
+    If you can't use *STRICT* mTLS mode, you can set up scraping through plain HTTP by adding the following annotation to your Service: `prometheus.io/scheme: http`. For related troubleshooting, see [MetricPipeline: Failed to Scrape Prometheus Endpoint](troubleshooting-for-the-telemetry-module-b86d7cb.md#loiob86d7cb096bb45af82f00463b24c4334__section_troubleshoot_log_entry_failed_to_scrape_prometheus).
 
 
 

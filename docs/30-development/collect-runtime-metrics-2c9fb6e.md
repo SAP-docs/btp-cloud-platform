@@ -19,7 +19,7 @@ By default, the `runtime` input is disabled. If you want to monitor your Kuberne
       enabled: true
 ```
 
-With this, the metric agent starts collecting all runtime metrics from all resources \(Pod, container, Node, Volume, DaemonSet, Deployment, StatefulSet, and Job\).
+With this, the Metric Agent starts collecting all runtime metrics from all resources \(Pod, container, Node, Volume, DaemonSet, Deployment, StatefulSet, and Job\).
 
 > ### Tip:  
 > To select metrics from specific namespaces or to include system namespaces, see [Filter Metrics](filter-metrics-6bd4bfd.md).
@@ -67,7 +67,7 @@ See a summary of the types of information you can gather for each resource:
 <tr>
 <th valign="top">
 
-**Resource** 
+Resource
 
 </th>
 <th valign="top">
@@ -175,4 +175,42 @@ Counts of active, successful, and failed Pods
 </table>
 
 To learn which specific metrics are collected from which source \(`kubletstatsreceiver` or `k8sclusterreceiver`\), see [Runtime Metrics](https://github.com/kyma-project/telemetry-manager/tree/main/docs/user/collecting-metrics/runtime-metrics.md).
+
+
+
+<a name="loio2c9fb6e7efe84c34b3d3f99ca3e787fc__section_collect_additional_metrics"/>
+
+## Collect Additional Metrics
+
+You can collect additional metrics emitted from the `kubeletstatsreceiver` or `k8sclusterreceiver`. To collect them, add the metric names to the `additionalMetrics` list in the `runtime` input.
+
+The following example collects the metrics `k8s.pod.memory_request_utilization` \(from `kubeletstatsreceiver`\) and `k8s.container.status.state` \(from `k8sclusterreceiver`\):
+
+```
+...
+    input:
+      runtime:
+        enabled: true
+        additionalMetrics:
+          - k8s.pod.memory_request_utilization
+          - k8s.container.status.state
+```
+
+To learn which metrics can be added to the `additionalMetrics` list, see [Runtime Additional Metrics](https://github.com/kyma-project/telemetry-manager/blob/main/docs/user/collecting-metrics/runtime-metrics.md#runtime-additional-metrics).
+
+The `additionalMetrics` list overrides the `resources` section. For example, if you disable `pod` metrics in the `runtime` input but add a specific Pod metric to the `additionalMetrics` list, that specific metric is still collected.
+
+The following example collects the `k8s.pod.memory_request_utilization` metric even though the `pod` metrics are disabled:
+
+```
+...
+    input:
+      runtime:
+        enabled: true
+        resources:
+          pod:
+            enabled: false
+        additionalMetrics:
+          - k8s.pod.memory_request_utilization
+```
 

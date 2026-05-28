@@ -2,7 +2,7 @@
 
 # Istio Integration
 
-When you have the Istio module in your cluster, the Telemetry module automatically integrates with it. It detects the Istio installation and injects sidecars into the Telemetry components, adding them to the service mesh. This enables secure mTLS communication for your Telemetry pipelines by default.
+When you have the Istio module in your cluster, the Telemetry module automatically integrates with it. It detects the Istio installation and configures the Telemetry components accordingly, enabling secure mTLS communication for outbound data export by default.
 
 
 
@@ -10,12 +10,9 @@ When you have the Istio module in your cluster, the Telemetry module automatical
 
 ## Receiving Data from Your Applications
 
-The Telemetry gateways are automatically configured to accept OTLP data from applications both inside and outside the Istio service mesh. To achieve this, the ingestion endpoints of gateways are set to Istio's permissive mode, so they accept mTLS-based communication as well as plain text.
+The OTLP Gateway runs as a DaemonSet, with one instance on each cluster node. To ensure that telemetry data from your applications stays on the same node, the ingestion Service uses the Kubernetes `internalTrafficPolicy` \(see [Service Internal Traffic Policy](https://kubernetes.io/docs/concepts/services-networking/service-traffic-policy/#using-service-internal-traffic-policy)\). By setting this policy to *Local*, data that your applications send is always received by the gateway instance on the same node.
 
--   Applications within the mesh automatically send data to the gateways using mTLS for a secure, encrypted connection.
-
--   Applications outside the mesh can send data to the gateway using a standard plain text connection.
-
+Because the data path stays within a single node, Istio sidecars and mTLS are not required on the ingestion path. Applications can push data to the OTLP Gateway over a plain-text connection regardless of whether they are part of the Istio mesh.
 
 > ### Tip:  
 > Learn more about Istio-specific input configuration for logs, traces, and metrics:
@@ -30,13 +27,31 @@ The Telemetry gateways are automatically configured to accept OTLP data from app
 
 
 
+<a name="loiod31499b9af91402b8d3f99db6d2e9879__section_node_local_ingestion_security"/>
+
+## Node-Local Ingestion Security
+
+The OTLP Gateway's node-local ingestion path provides the following security properties:
+
+-   No cross-node traffic on ingestion: The Service routes traffic only to the local node's gateway Pod. Telemetry data does not travel over the node-to-node network.
+
+-   Kernel-level network isolation: Pod-to-pod communication on the same node uses virtual network interfaces connected through a virtual bridge in the node's root network namespace. To intercept this traffic, an attacker needs root access to the node's network namespace or a man-in-the-middle position, which means the node is already compromised.
+
+-   No mTLS required for ingestion: Because the data path stays within a single node, mTLS encryption is not needed. This improves performance by removing the Istio sidecar from the ingestion path, without creating a security risk.
+
+
+> ### Note:  
+> These properties apply only to the ingestion path \(applications pushing data to the OTLP Gateway\). For the export path \(the OTLP Gateway sending data to your backend\), mTLS is still used automatically when the backend is part of the Istio mesh. See [Sending Data to In-Cluster Backends](istio-integration-d31499b.md#loiod31499b9af91402b8d3f99db6d2e9879__section_sending_data_to_incluster_backends).
+
+
+
 <a name="loiod31499b9af91402b8d3f99db6d2e9879__section_sending_data_to_incluster_backends"/>
 
 ## Sending Data to In-Cluster Backends
 
-Telemetry gateways automatically secure the connection when sending data to your observability backends.
+The OTLP Gateway automatically secures the connection when sending data to your observability backends.
 
-If you're using an in-cluster backend that is part of the Istio mesh, the Telemetry gateways automatically use mTLS to send data to the backend securely. You don't need any special configuration for this.
+If you use an in-cluster backend that is part of the Istio mesh, the OTLP Gateway automatically uses mTLS to send data to the backend securely. You don't need any special configuration for this.
 
 For sending data to backends outside the cluster, see [Integrate With Your OTLP Backend](integrate-with-your-otlp-backend-e726417.md).
 

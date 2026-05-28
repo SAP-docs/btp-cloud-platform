@@ -10,9 +10,9 @@ Use the default OTLP input to collect telemetry data from your instrumented appl
 
 ## Overview
 
-When you create any `LogPipeline`, `TracePipeline`, or `MetricPipeline`, the Telemetry module automatically deploys the respective gateway. This opens a stable, cluster-internal [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/) endpoint for each signal type, ready to receive data from your applications.
+When you create any `LogPipeline`, `TracePipeline`, or `MetricPipeline`, the Telemetry module automatically deploys the OTLP Gateway. This opens a stable, cluster-internal [OTLP](https://opentelemetry.io/docs/specs/otel/protocol/) endpoint, ready to receive data from your applications.
 
-Each endpoint listens on port `4317` for gRPC \(default\) and on port `4318` for HTTP.
+The endpoint listens on port `4317` for gRPC \(default\) and on port `4318` for HTTP.
 
 ![](images/OTLP_Input_e40856d.png)
 
@@ -26,20 +26,10 @@ To send data from your application, first instrument your code using an [OTel SD
 
 It's recommended that you configure the exporter's destination by setting the standard [environment variables](https://opentelemetry.io/docs/languages/sdk-configuration/otlp-exporter/#otel_exporter_otlp_traces_endpoint) in your application's deployment. This method avoids hardcoding endpoints in your application code.
 
-Use the following environment variables to set the OTLP endpoint for each signal type:
+Use the following environment variable to set the harmonized OTLP endpoint, which accepts all signal types:
 
--   Traces gRPC: `export OTEL_EXPORTER_OTLP_TRACES_ENDPOINT="http://telemetry-otlp-traces.kyma-system:4317"`
-
--   Traces HTTP: `export OTEL_EXPORTER_OTLP_TRACES_ENDPOINT="http://telemetry-otlp-traces.kyma-system:4318/v1/traces"`
-
--   Metrics gRPC: `export OTEL_EXPORTER_OTLP_METRICS_ENDPOINT="http://telemetry-otlp-metrics.kyma-system:4317"`
-
--   Metrics HTTP: `export OTEL_EXPORTER_OTLP_METRICS_ENDPOINT="http://telemetry-otlp-metrics.kyma-system:4318/v1/metrics"`
-
--   Logs gRPC: `export OTEL_EXPORTER_OTLP_LOGS_ENDPOINT="http://telemetry-otlp-logs.kyma-system:4317"`
-
--   Logs HTTP: `export OTEL_EXPORTER_OTLP_LOGS_ENDPOINT="http://telemetry-otlp-logs.kyma-system:4318/v1/logs"`
-
+-   gRPC: `export OTEL_EXPORTER_OTLP_ENDPOINT="http://telemetry-otlp.kyma-system:4317"`
+-   HTTP: `export OTEL_EXPORTER_OTLP_ENDPOINT="http://telemetry-otlp.kyma-system:4318"`
 
 > ### Note:  
 > If your cluster uses Istio, communication with these endpoints is automatically secured with mTLS. For details, see [Istio Integration](istio-integration-d31499b.md).
@@ -50,7 +40,7 @@ Use the following environment variables to set the OTLP endpoint for each signal
 
 ## Verify the Endpoints
 
-To see whether you've set up your gateways and their push endpoints successfully, check the status of the default `Telemetry` resource:
+To see whether you've set up your OTLP Gateway and its push endpoints successfully, check the status of the default `Telemetry` resource:
 
 `kubectl -n kyma-system get telemetries.operator.kyma-project.io default -oyaml`
 
@@ -58,16 +48,10 @@ The output shows the available endpoints and the pipeline health under the `stat
 
 > ### Output Code:  
 > ```
->   endpoints:
->     metrics:
->       grpc: http://telemetry-otlp-metrics.kyma-system:4317
->       http: http://telemetry-otlp-metrics.kyma-system:4318
->     traces:
->       grpc: http://telemetry-otlp-traces.kyma-system:4317
->       http: http://telemetry-otlp-traces.kyma-system:4318
->     logs:
->       grpc: http://telemetry-otlp-logs.kyma-system:4317
->       http: http://telemetry-otlp-logs.kyma-system:4318
+> endpoints:
+>     otlp:
+>       grpc: http://telemetry-otlp.kyma-system:4317
+>       http: http://telemetry-otlp.kyma-system:4318
 > ```
 
 

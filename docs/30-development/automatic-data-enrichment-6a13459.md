@@ -13,29 +13,27 @@ The Telemetry gateways automatically enrich your data with OTel resource attribu
 
 ## Service Attributes
 
-The service name is the logical name of the service that emits the telemetry data. The gateway ensures that this attribute always has a valid value.
+By default, the gateway enriches telemetry data with service attributes following [OTel conventions](https://opentelemetry.io/docs/specs/semconv/non-normative/k8s-attributes/#service-attributes). It sets `service.namespace`, `service.name`, `service.version`, and `service.instance.id` based on Kubernetes metadata.
 
 If you don't provide a service name, or if its value follows the pattern <code>unknown_service:<i class="varname">&lt;process.executable.name&gt;</i></code> as described in the [specification](https://opentelemetry.io/docs/specs/semconv/resource/#service), the gateway generates it from Kubernetes metadata.
 
-The gateway determines the service name based on the following hierarchy of labels and names:
+Be aware of [these OTel-specific edge case limitations](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/k8sattributesprocessor/README.md#configuring-recommended-resource-attributes).
 
-1.  `app.kubernetes.io/name`: Pod label value
-
-2.  `app`: Pod label value
-
-3.  Deployment/DaemonSet/StatefulSet/Job name
-
-4.  Pod name
-
-5.  If none of the above is available, the value is *unknown\_service*
-
-
-> ### Tip:  
-> The Telemetry module also supports enrichment with service attributes matching OTel conventions \(see [OTel: Service Attributes](https://opentelemetry.io/docs/specs/semconv/non-normative/k8s-attributes/#service-attributes)\), which enriches `service.namespace`, `service.name`, `service.version`, and `service.instance.id`.
+> ### Caution:  
+> The legacy strategy for service name enrichment is deprecated and will be removed in a future release. The legacy strategy is active if the annotation `telemetry.kyma-project.io/service-enrichment` is set to *kyma-legacy* or is missing on the Telemetry CR. It determines the service name based on the following hierarchy:
 > 
-> If you'd like to use that, manually set the `telemetry.kyma-project.io/service-enrichment` annotation in the Telemetry CR to *otel*. If you want to return to the previous method, set the annotation back to *kyma-legacy*.
+> 1.  `app.kubernetes.io/name`: Pod label value
 > 
-> However, if you choose to use the OTel enrichment strategy, be aware of [these OTel-specific edge case limitations](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/k8sattributesprocessor/README.md#configuring-recommended-resource-attributes).
+> 2.  `app`: Pod label value
+> 
+> 3.  Deployment/DaemonSet/StatefulSet/Job name
+> 
+> 4.  Pod name
+> 
+> 5.  If none of the above is available, the value is *unknown\_service*
+> 
+> 
+> To migrate, set the annotation `telemetry.kyma-project.io/service-enrichment`: *otel* on your Telemetry CR.
 
 
 

@@ -12,7 +12,7 @@ With the Telemetry module, you can collect metrics from your workloads and Kuber
 
 A `MetricPipeline` is a Kubernetes custom resource \(CR\) that configures metric collection for your cluster. When you create a `MetricPipeline`, it automatically provisions the necessary components \(for details, see [Metrics Architecture](metrics-architecture-59d31e9.md)\):
 
--   A metric gateway that provides a central OTLP endpoint for receiving metrics pushed from applications.
+-   The OTLP Gateway provides a central OTLP endpoint for receiving metrics pushed from applications.
 -   A metric agent that runs on each cluster node to pull \(scrape\) metrics from applications and Kubernetes resources.
 
 The pipeline enriches all collected metrics with Kubernetes metadata. It also transforms non-OTLP formats \(like Prometheus\) into the OTLP standard before sending them to your chosen backend.
@@ -57,10 +57,8 @@ By default, this minimal pipeline collects the following types of metrics:
 
 -   OTLP Metrics: Activates cluster-internal endpoints to receive metrics in the OTLP format. Your applications can push metrics directly to these URLs:
 
-    -   gRPC: `http://telemetry-otlp-metrics.kyma-system:4317`
-
-    -   HTTP: `http://telemetry-otlp-metrics.kyma-system:4318`
-
+    -   gRPC: `http://telemetry-otlp.kyma-system:4317`
+    -   HTTP: `http://telemetry-otlp.kyma-system:4318`
 
 -   Health Metrics: Collects health and performance metrics about the Telemetry module's components. This input is always active and cannot be disabled. For details, see [Monitor Pipeline Health](monitor-pipeline-health-b56ed5c.md).
 
@@ -85,7 +83,7 @@ You can adjust the `MetricPipeline` using runtime configuration with the availab
 
 -   Choose from which specific namespaces you want to include or exclude metrics \(see [Filter Metrics](filter-metrics-6bd4bfd.md)\).
 
--   Avoid redundancy by dropping push-based OTLP metrics that are sent directly to the metric gateway \(see [Route Specific Inputs to Different Backends](set-up-the-otlp-input-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_filter_input_for_backends)\).
+-   Avoid redundancy by dropping push-based OTLP metrics that are sent directly to the OTLP Gateway \(see [Route Specific Inputs to Different Backends](set-up-the-otlp-input-61567b7.md#loio61567b79e6db41cd81de5f58ec077201__section_filter_input_for_backends)\).
 
 -   Reduce or increase metric collection frequency for all pull-based inputs or for a specific input type by changing the collection interval \(see [Configure Collection Interval](collecting-metrics-44ac6c5.md#loio44ac6c5afef0464480fa18acb7483972__section_collection_interval)\).
 
@@ -136,7 +134,7 @@ For details on the available parameters, see [Telemetry Custom Resource](https:/
 
 ## Limitations
 
--   **Throughput**: Assuming an average metric with 20 metric data points and 10 labels, the default metric **gateway** setup has a maximum throughput of 34K metric data points/sec. If more data is sent to the gateway, it is refused. To increase the maximum throughput, manually scale out the gateway by increasing the number of replicas for the metric gateway \(see [Telemetry CRD](https://kyma-project.io/#/telemetry-manager/user/resources/01-telemetry)\).
+-   **Throughput**: Assuming an average metric with 20 metric data points and 10 labels, the default OTLP Gateway setup has a maximum throughput of 34K metric data points/sec per node. If more data is sent to the gateway, it is refused. The OTLP Gateway runs one instance per cluster node.
 
 -   **Scraping**: The metric **agent** enforces the following limits when scraping metrics from applications and Istio proxies:
 
@@ -147,13 +145,9 @@ For details on the available parameters, see [Telemetry Custom Resource](https:/
 
     If a scrape exceeds either limit, the metric agent drops the scrape and logs a warning message. To resolve this issue, try reducing the number of exported metrics.
 
--   **Load Balancing With Istio**: To ensure availability, the metric gateway runs with multiple instances. If you want to increase the maximum throughput, use manual scaling and enter a higher number of instances.
-
-    By design, the connections to the gateway are long-living connections \(because OTLP is based on gRPC and HTTP/2\). For optimal scaling of the gateway, the clients or applications must balance the connections across the available instances, which is automatically achieved if you use an Istio sidecar. If your application has no Istio sidecar, the data is always sent to one instance of the gateway.
-
 -   **Unavailability of Output**: For up to 5 minutes, a retry for data is attempted when the destination is unavailable. After that, data is dropped.
 
--   **No Guaranteed Delivery**: The used buffers are volatile. If the gateway or agent instances crash, metric data can be lost.
+-   **No Guaranteed Delivery**: The used buffers are volatile. If any gateway or agent instance crashes, metric data can be lost.
 
 -   **Multiple MetricPipeline Support**: The maximum amount of `MetricPipeline` resources is 5.
 
