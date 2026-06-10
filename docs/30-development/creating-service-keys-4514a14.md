@@ -6,7 +6,7 @@ You can use service keys to generate credentials to communicate directly with a 
 
 You can usethe SAP BTP cockpit or the Cloud Foundry Command Line Interface to create service keys:
 
--   [Create Service Keys Using the Cockpit](create-service-keys-using-the-cockpit-cdf4f20.md)
+-   [Creating Service Keys Using the Cockpit](https://help.sap.com/docs/service-manager/sap-service-manager/creating-service-keys-in-cloud-foundry)
 
 -   [Create Service Keys Using the Cloud Foundry Command Line Interface](create-service-keys-using-the-cloud-foundry-command-line-interface-7de6b31.md)
 

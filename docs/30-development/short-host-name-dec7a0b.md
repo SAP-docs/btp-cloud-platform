@@ -1,6 +1,6 @@
 <!-- loiodec7a0b1573c474293d7e36412a4b9a8 -->
 
-# Using a Short Host Name
+# Short Host Name
 
 Simplify your APIRule configuration by using a short host name instead of a fully qualified domain name \(FQDN\).
 

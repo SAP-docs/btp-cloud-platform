@@ -368,7 +368,7 @@ For setting up the TLS Gateway, you must prepare the domain name available in th
 
 <!-- task\_m5h\_srj\_vhc -->
 
-## Kyma Domain Scenario
+## Default Domain Scenario
 
 
 

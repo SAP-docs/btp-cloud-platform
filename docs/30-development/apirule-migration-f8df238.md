@@ -15,7 +15,7 @@ To migrate to version `v2`, follow the steps:
 1.  To identify which APIRules must be migrated, run the following command:
 
     ```
-    kubectl get apirules.gateway.kyma-project.io -A-o json | jq '.items[] | select(.metadata.annotations["gateway.kyma-project.io/original-version"] == "v1beta1") | {namespace: .metadata.namespace, name: .metadata.name}'
+    kubectl get apirules.gateway.kyma-project.io -A -o json | jq '.items[] | select(.metadata.annotations["gateway.kyma-project.io/original-version"] == "v1beta1") | {namespace: .metadata.namespace, name: .metadata.name}'
     ```
 
 2.  If two or more of your APIRules target the same workload, apply an additional AuthorizationPolicy to avoid traffic disruption during migration. See [Migrate Multiple APIRules Targeting the Same Workload from v1beta1 to v2](migrate-multiple-apirules-targeting-the-same-workload-from-v1beta1-to-v2-b897dd3.md).
@@ -47,12 +47,9 @@ Kyma dashboard doesn’t display APIRule CRs in version `v1beta1`. All APIRules 
 
 You won't be able to create APIRule CRs `v1beta1` in new clusters. In existing clusters, you will still be able to create and modify APIRule CRs `v1beta1`.
 
-**Step 3: Planned for API Gateway 3.4**
+**Step 3: Completed with API Gateway 3.4**
 
 You won't be able to create APIRule CRs `v1beta1` in new and existing clusters, modify existing APIRule CRs `v1beta1`, or delete them. All APIRule `v1beta1` configurations set up prior to this restriction will remain active and continue to function as expected. The API Gateway module will manage and reconcile resources based on the existing APIRule settings.
-
--   Fast channel release date: 19 November, 2025
--   Regular channel release date: 30 December, 2025
 
 ![](images/APIRule_Migration_Timeline_-_External_f1ce3d8.png)
 

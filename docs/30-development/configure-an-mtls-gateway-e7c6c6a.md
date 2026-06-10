@@ -435,7 +435,7 @@ For setting up the mTLS Gateway, you must prepare the domain name available in t
 
 <!-- task\_m2p\_3zl\_dhc -->
 
-## Default Kyma Domain Scenario
+## Default Domain Scenario
 
 
 

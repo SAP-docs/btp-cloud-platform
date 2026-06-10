@@ -1,6 +1,6 @@
 <!-- loio0c0ec74470114a6da55e44131d89e60a -->
 
-# Exposing Workloads Using Gateway API
+# Expose Workloads Using Gateway API
 
 Use [Gateway API](https://gateway-api.sigs.k8s.io/) to expose your workload.
 

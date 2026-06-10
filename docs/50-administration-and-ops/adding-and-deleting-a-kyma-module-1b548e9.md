@@ -53,7 +53,7 @@ To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to d
         -   To add a new module with the default configuration, use the following command:
 
             ```
-            kyma module add {MODULE-NAME} --default-cr
+            kyma module add {MODULE-NAME} --default-config-cr
             ```
 
         -   To add a module with your specific configuration, create a YAML file containing your module custom resource \(CR\) settings, and use the`--cr-path={CR-FILEPATH}` flag:
@@ -66,7 +66,7 @@ To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to d
         -   To add a module with the specified release channel, use the `-c {CHANNEL-NAME}` flag:
 
             ```
-            kyma module add {MODULE-NAME} -c {CHANNEL-NAME} --default-cr
+            kyma module add {MODULE-NAME} -c {CHANNEL-NAME} --default-config-cr
             
             ```
 

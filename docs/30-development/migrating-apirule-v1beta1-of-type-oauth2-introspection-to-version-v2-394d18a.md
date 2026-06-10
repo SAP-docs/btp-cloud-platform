@@ -78,7 +78,7 @@ In this example, the APIRule `v1beta1` was created with the `oauth2_introspectio
 
         The following example shows the configuration of OAuth2 Proxy with the following parameters:
 
-        -   `CLIENT_SECRET`, `CLIENT_ID`, and `OIDC_ISSUER_URL`. To get them, follow [Get a JSON Web Token \(JWT\)](https://kyma-project.io/#/api-gateway/user/tutorials/01-50-expose-and-secure-a-workload/01-51-get-jwt).
+        -   `CLIENT_SECRET`, `CLIENT_ID`, and `OIDC_ISSUER_URL`. To get them, follow [Get a JSON Web Token \(JWT\)](https://kyma-project.io/external-content/api-gateway/docs/user/expose-workloads/jwt/expose-workload-jwt.html#get-a-jwt).
 
         -   `DOMAIN_TO_EXPOSE_WORKLOADS` refers to either a custom domain or, as in this example, the default domain *local.kyma.dev*.
 

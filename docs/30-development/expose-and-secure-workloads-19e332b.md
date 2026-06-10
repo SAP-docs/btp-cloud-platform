@@ -21,7 +21,7 @@ You use an APIRule to define the following:
 
 The API Gateway module watches APIRules and translates them into Istio configuration, such as `VirtualService` and `AuthorizationPolicy` objects. This means you don't need to create these Istio objects yourself.
 
-For a detailed field description, see [APIRule Custom Resource](https://kyma-project.io/external-content/api-gateway/docs/user/custom-resources/apirule/README.html).
+For a detailed field description, see [APIRule Custom Resource](https://kyma-project.io/external-content/api-gateway/docs/user/custom-resources/apirule/04-10-apirule-custom-resource.html).
 
 
 
@@ -42,8 +42,8 @@ With an APIRule, you can configure the following options:
     > 
     > Use **noAuth** for endpoints that must remain openly accessible. This setup is suitable for development and testing environments where security requirements are lower and quick access to services is necessary, or when the data being accessed isn't sensitive and doesn't require strict security measures.
 
--   Use short host names instead of full domain names. The domain suffix is taken from the referenced Istio Gateway. See [Using a Short Host Name](using-a-short-host-name-dec7a0b.md).
--   Expose multiple workloads on the same host and route traffic to different Services based on paths and HTTP methods. See [Expose Multiple Workloads on the Same Host](expose-multiple-workloads-on-the-same-host-ac66329.md).
+-   Use short host names instead of full domain names. The domain suffix is taken from the referenced Istio Gateway. See [Short Host Name](short-host-name-dec7a0b.md).
+-   Expose multiple workloads on the same host and route traffic to different Services based on paths and HTTP methods. See [Exposing Multiple Workloads on the Same Host](exposing-multiple-workloads-on-the-same-host-ac66329.md).
 -   Expose and secure workloads with mTLS by using an APIRule together with an mTLS-enabled Istio Gateway. See [Configure an mTLS Gateway](configure-an-mtls-gateway-e7c6c6a.md).
 
 You can combine these options in a single APIRule. For example, you can expose several Services under one host, protect some paths with `jwt` or `extAuth`, and leave public status and health check endpoints open with `noAuth`.
@@ -56,6 +56,6 @@ In most scenarios, using APIRules to expose and secure workloads is recommended.
 
 See the following topics:
 
--   [Restricting IP-Based Access](restricting-ip-based-access-8eccd49.md)
--   [Exposing Workloads with Istio VirtualService](exposing-workloads-with-istio-virtualservice-5484296.md) 
+-   [Restrict IP-Based Access](restrict-ip-based-access-8eccd49.md)
+-   [Expose Workloads with Istio VirtualService](expose-workloads-with-istio-virtualservice-5484296.md) 
 

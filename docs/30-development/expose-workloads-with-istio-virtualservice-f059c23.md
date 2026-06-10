@@ -1,6 +1,6 @@
 <!-- copyf059c23874764fd1a6f5dc34d5e920c9 -->
 
-# Exposing Workloads with Istio VirtualService
+# Expose Workloads with Istio VirtualService
 
 Learn how to expose a workload with Istio VirtualService.
 

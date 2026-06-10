@@ -1,8 +1,8 @@
 <!-- loio8eccd49452b041bf913cf77d10ad4d17 -->
 
-# Restricting IP-Based Access
+# Restrict IP-Based Access
 
-Expose your workload and configure IP-based access using the X-Forwarded-For \(XFF\) header. This helps to enhance security by ensuring that only trusted IPs can interact with your application.
+Expose your workload and configure IP-based access using the X-Forwarded-For \(XFF\) header. This helps to enhance security by ensuring that only trusted IPs can interact with your application. \(testing web push\)
 
 
 
@@ -13,7 +13,7 @@ Expose your workload and configure IP-based access using the X-Forwarded-For \(X
 -   You have the Istio and API Gateway modules added. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 -   You have a deployed workload.
 -   You have access to Kyma dashboard. Alternatively, to use CLI instructions, you must install [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl) and [curl](https://curl.se/).
--   You have [set up your custom domain](https://kyma-project.io/#/api-gateway/user/tutorials/01-10-setup-custom-domain-for-workload). Alternatively, you can use the default domain of your Kyma cluster and the default Gateway `kyma-system/kyma-gateway`.
+-   You have set up your custom domain \(see [Configure a TLS Gateway](configure-a-tls-gateway-87a874c.md)\). Alternatively, you can use the default domain of your Kyma cluster and the default Gateway `kyma-system/kyma-gateway`.
 
     > ### Note:  
     > Because the default Kyma domain is a wildcard domain, which uses a simple TLS Gateway, it is recommended that you set up your custom domain for use in a production environment.

@@ -137,6 +137,8 @@ A platform user added as an org member can be either an **Org Manager** or an **
 
 See:
 
+[Org Administration Using the Cockpit](../50-administration-and-ops/org-administration-using-the-cockpit-c4c25cc.md)
+
 [About Roles in the Cloud Foundry Environment](../50-administration-and-ops/about-roles-in-the-cloud-foundry-environment-0907638.md)
 
 [https://docs.cloudfoundry.org/concepts/roles.html\#roles](https://docs.cloudfoundry.org/concepts/roles.html#roles)

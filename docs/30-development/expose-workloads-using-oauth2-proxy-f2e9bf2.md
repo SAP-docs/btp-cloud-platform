@@ -1,6 +1,6 @@
 <!-- loiof2e9bf2be2714186b4231decd62a160b -->
 
-# Exposing Workloads Using oauth2-proxy
+# Expose Workloads Using oauth2-proxy
 
 Learn how to configure [oauth2-proxy](https://github.com/oauth2-proxy/manifests/tree/main/helm/oauth2-proxy) external authorization provider in the Istio custom resource \(CR\).
 
@@ -11,7 +11,7 @@ Learn how to configure [oauth2-proxy](https://github.com/oauth2-proxy/manifests/
 ## Prerequisites
 
 -   You have the Istio module added.
--   You have set up your custom domain. See [Set Up a Custom Domain for Exposing a Workload](https://kyma-project.io/#/api-gateway/user/tutorials/01-10-setup-custom-domain-for-workload). Alternatively, you can use the default domain of your Kyma cluster and the default Gateway `kyma-system/kyma-gateway`. To use a Kyma domain to expose a workload, the API Gateway module must be added.
+-   You have set up your custom domain. See [Configure a TLS Gateway](configure-a-tls-gateway-87a874c.md). Alternatively, you can use the default domain of your Kyma cluster and the default Gateway `kyma-system/kyma-gateway`. To use a Kyma domain to expose a workload, the API Gateway module must be added.
 
     > ### Note:  
     > Because the default Kyma domain is a wildcard domain, which uses a simple TLS Gateway, it is recommended that you set up your custom domain for use in a production environment.

@@ -1,10 +1,10 @@
 <!-- loioac66329f84bd460d9e9db761983190fb -->
 
-# Expose Multiple Workloads on the Same Host
+# Exposing Multiple Workloads on the Same Host
 
 Expose multiple backend workloads under a single host by routing traffic to different Services.
 
-There are two primary patterns for configuring multiple workloads on the same host: [Path-Level Service Definition](expose-multiple-workloads-on-the-same-host-ac66329.md#loioac66329f84bd460d9e9db761983190fb__path-level-definition) and [Root-Level Service with Overrides](expose-multiple-workloads-on-the-same-host-ac66329.md#loioac66329f84bd460d9e9db761983190fb__root-level-definiton). Additionally, you can expose Services deployed in different namespaces. See [Cross-Namespace Service Exposure](expose-multiple-workloads-on-the-same-host-ac66329.md#loioac66329f84bd460d9e9db761983190fb__cross-namespace-service-exposure).
+There are two primary patterns for configuring multiple workloads on the same host: [Path-Level Service Definition](exposing-multiple-workloads-on-the-same-host-ac66329.md#loioac66329f84bd460d9e9db761983190fb__path-level-definition) and [Root-Level Service with Overrides](exposing-multiple-workloads-on-the-same-host-ac66329.md#loioac66329f84bd460d9e9db761983190fb__root-level-definiton). Additionally, you can expose Services deployed in different namespaces. See [Cross-Namespace Service Exposure](exposing-multiple-workloads-on-the-same-host-ac66329.md#loioac66329f84bd460d9e9db761983190fb__cross-namespace-service-exposure).
 
 
 

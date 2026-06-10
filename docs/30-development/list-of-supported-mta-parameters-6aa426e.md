@@ -4259,5 +4259,43 @@ Landscape-specific value that is equal to the default application disk quota
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`phases-config` 
+
+</td>
+<td valign="top">
+
+Module Hook
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Overrides the default target application \(`live` or `idle`\) on which a hook task is executed for a specific blue-green deployment phase. Valid values for `target-app` are `live` and `idle`. For more information, see [Overriding the Default Target App for Hook Execution](module-hooks-b9245ba.md#loiob9245ba90aa14681a416065df8e8c593__override-target-app).
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+```
+phases-config: 
+  - phase: blue-green.application.after-stop.live
+    target-app: idle
+```
+
+This hook will be executed on the idle application, after the stop of the live application.
+
+</td>
+</tr>
 </table>
 

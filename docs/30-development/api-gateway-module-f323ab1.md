@@ -4,9 +4,6 @@
 
 Use the API Gateway module to expose and secure APIs.
 
-> ### Caution:  
-> The APIRule CustomResourceDefinition \(CRD\) in version `v1beta1` has been deprecated and scheduled for deletion. If you use APIRule custom resources \(CRs\) `v1beta1`, you must migrate to version `v2`. See [APIRule Migration](apirule-migration-f8df238.md).
-
 
 
 <a name="loiof323ab16595a47779bc74344969c0133__section_h2t_yq2_qbc"/>
@@ -86,11 +83,21 @@ RateLimit Controller manages the configuration of local rate limiting on the Ist
 
 ## API/Custom Resource Definitions
 
-The `apigateways.operator.kyma-project.io` CRD describes the APIGateway CR that APIGateway Controller uses to manage the module and its resources. See [APIGateway Custom Resource](https://kyma-project.io/#/api-gateway/user/custom-resources/apigateway/04-00-apigateway-custom-resource).
+The `apigateways.operator.kyma-project.io` CRD describes the APIGateway CR that APIGateway Controller uses to manage the module and its resources. See [APIGateway Custom Resource](https://kyma-project.io/external-content/api-gateway/docs/user/custom-resources/apigateway/04-00-apigateway-custom-resource.html).
 
-The `apirules.operator.kyma-project.io` CRD describes the APIRule CR that APIRule Controller uses to expose and secure APIs. See [APIRule Custom Resource](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/README).
+The `apirules.operator.kyma-project.io` CRD describes the APIRule CR that APIRule Controller uses to expose and secure APIs. See [APIRule Custom Resource](https://kyma-project.io/external-content/api-gateway/docs/user/custom-resources/apirule/04-10-apirule-custom-resource.html).
 
-The `ratelimits.gateway.kyma-project.io` CRD describes the kind and the format of data that RateLimit Controller uses to configure the request rate limits for applications. See [RateLimit Custom Resource](https://kyma-project.io/#/api-gateway/user/custom-resources/ratelimit/04-00-ratelimit).
+The `ratelimits.gateway.kyma-project.io` CRD describes the kind and the format of data that RateLimit Controller uses to configure the request rate limits for applications. See [RateLimit Custom Resource](https://kyma-project.io/external-content/api-gateway/docs/user/custom-resources/ratelimit/04-10-ratelimit-custom-resource.html).
+
+
+
+## Authorization
+
+To assign access permissions to the API Gateway module resources, use the following [aggregated ClusterRoles](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles).
+
+-   `kyma-api-gateway-view` - Grants read-only access to all API Gateway resources.
+-   `kyma-api-gateway-edit` - Grants full access to `gateway.kyma-project.io` resources and read-only access to `operator.kyma-project.io` resources.
+-   `kyma-api-gateway-admin` - Grants full access to all API Gateway resources.
 
 
 
@@ -104,8 +111,6 @@ To learn more about the resources used by the API Gateway module, see [Kyma Modu
 
 
 [kyma-project.io: API Gateway troubleshooting guides](https://kyma-project.io/#/api-gateway/user/troubleshooting-guides/README)
-
-[kyma-project.io: API Gateway tutorials](https://kyma-project.io/#/api-gateway/user/tutorials/README)
 
 [Ory Oathkeeper Introduction](https://www.ory.sh/docs/oathkeeper)
 

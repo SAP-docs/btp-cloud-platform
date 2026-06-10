@@ -33,7 +33,7 @@ To securely expose workloads in SAP BTP, Kyma runtime, use the Istio and API Gat
 
 -   [Set Up a Custom Domain for a Workload](https://kyma-project.io/external-content/api-gateway/docs/user/00-05-domains-and-gateways.html#getting-started-with-istio-gateways)
 
--   Disable the default gateway. See [Disable or Enable Kyma Gateway](https://kyma-project.io/#/api-gateway/user/custom-resources/apigateway/04-10-kyma-gateway?id=disable-or-enable-kyma-gateway).
+-   Disable the default gateway. See [Kyma Gateway](../30-development/kyma-gateway-f515bd7.md).
 
 -   Set up your own API gateway with one of the following options:
 
@@ -42,12 +42,7 @@ To securely expose workloads in SAP BTP, Kyma runtime, use the Istio and API Gat
     -   [Configure an mTLS Gateway](../30-development/configure-an-mtls-gateway-e7c6c6a.md)
 
 
--   Create an [APIRule Custom Resource](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-10-apirule-custom-resource) to securely expose your workloads
-
-    -   [Expose and Secure a Workload with a JWT Using SAP Cloud Identity Services](../30-development/expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd)
-
-    -   [Expose and Secure a Workload with a Certificate](https://kyma-project.io/#/api-gateway/user/tutorials/01-50-expose-and-secure-a-workload/01-54-expose-and-secure-workload-with-certificate)
-
+-   Create an [APIRule Custom Resource](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-10-apirule-custom-resource) to securely expose your workloads. See [Expose and Secure a Workload with a JWT Using SAP Cloud Identity Services](../30-development/expose-and-secure-a-workload-with-a-jwt-using-sap-cloud-identity-services-44bb2d3.md#loio44bb2d3596554bf4b94ea344e40937dd).
 
 
 

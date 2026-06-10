@@ -57,12 +57,14 @@ TLS
 
 -   Default Kyma Gateway `kyma-system/kyma-gateway` - pre-configured and ready to use for quick start and development.
 
+    See [Kyma Gateway](kyma-gateway-f515bd7.md).
+
     > ### Caution:  
     > Because the default Kyma domain is a wildcard domain, which uses a simple TLS Gateway, it is recommended that you set up your custom domain for use in a production environment.
 
 -   Custom TLS Gateway on the default Kyma domain - Gateway isolation with minimal setup and no DNS configuration required.
 
-    For configuration procedure, see [Configure a TLS Gateway: Kyma Domain Scenario](configure-a-tls-gateway-87a874c.md#loio87a874c616e04740a14235acff6597a3__task_m5h_srj_vhc).
+    See [Configure a TLS Gateway: Kyma Domain Scenario](configure-a-tls-gateway-87a874c.md#loio87a874c616e04740a14235acff6597a3__task_m5h_srj_vhc).
 
 
 
@@ -72,7 +74,7 @@ TLS
 
 Custom TLS Gateway on your custom domain - recommended for production environments, provides full control over the domain name.
 
-For configuration procedure, see [Configure a TLS Gateway: Custom Domain Scenario](configure-a-tls-gateway-87a874c.md#loio87a874c616e04740a14235acff6597a3__task_fc1_4rj_vhc).
+See [Configure a TLS Gateway: Custom Domain Scenario](configure-a-tls-gateway-87a874c.md#loio87a874c616e04740a14235acff6597a3__task_fc1_4rj_vhc).
 
 </td>
 </tr>
@@ -86,14 +88,14 @@ mTLS
 
 Custom mTLS Gateway on the default Kyma domain - secure B2B APIs with client authentication, no DNS configuration required.
 
-For configuration procedure, see [Configure an mTLS Gateway: Kyma Domain Scenario](configure-an-mtls-gateway-e7c6c6a.md#loioe7c6c6a2b47744dbaa405b422e454303__task_m2p_3zl_dhc).
+See [Configure an mTLS Gateway: Kyma Domain Scenario](configure-an-mtls-gateway-e7c6c6a.md#loioe7c6c6a2b47744dbaa405b422e454303__task_m2p_3zl_dhc).
 
 </td>
 <td valign="top">
 
 Custom mTLS Gateway on your custom domain - recommended for production B2B APIs integrations, provides strongest security with full control over domain name.
 
-For configuration procedure, see [Configure an mTLS Gateway: Custom Domain Scenario](configure-an-mtls-gateway-e7c6c6a.md#loioe7c6c6a2b47744dbaa405b422e454303__h5l_rnt_wgc).
+See [Configure an mTLS Gateway: Custom Domain Scenario](configure-an-mtls-gateway-e7c6c6a.md#loioe7c6c6a2b47744dbaa405b422e454303__h5l_rnt_wgc).
 
 </td>
 </tr>
