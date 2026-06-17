@@ -1018,6 +1018,11 @@ Allowed Input
 Virtual Machine Size
 
 </th>
+<th valign="top">
+
+Default Volume Size
+
+</th>
 </tr>
 <tr>
 <td valign="top" rowspan="21">
@@ -1053,6 +1058,11 @@ Updating
 2 vCPU, 8 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1063,6 +1073,11 @@ Updating
 <td valign="top">
 
 4 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1077,6 +1092,11 @@ Updating
 8 vCPU, 32 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1087,6 +1107,11 @@ Updating
 <td valign="top">
 
 16 vCPU, 64 GB RAM
+
+</td>
+<td valign="top">
+
+94 Gi
 
 </td>
 </tr>
@@ -1101,6 +1126,11 @@ Updating
 32 vCPU, 128 GB RAM
 
 </td>
+<td valign="top">
+
+158 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1111,6 +1141,11 @@ Updating
 <td valign="top">
 
 48 vCPU, 192 GB RAM
+
+</td>
+<td valign="top">
+
+222 Gi
 
 </td>
 </tr>
@@ -1125,6 +1160,11 @@ Updating
 64 vCPU, 256 GB RAM
 
 </td>
+<td valign="top">
+
+250 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1135,6 +1175,11 @@ Updating
 <td valign="top">
 
 2 vCPU, 8 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1149,6 +1194,11 @@ Updating
 4 vCPU, 16 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1159,6 +1209,11 @@ Updating
 <td valign="top">
 
 8 vCPU, 32 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1173,6 +1228,11 @@ Updating
 16 vCPU, 64 GB RAM
 
 </td>
+<td valign="top">
+
+94 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1183,6 +1243,11 @@ Updating
 <td valign="top">
 
 32 vCPU, 128 GB RAM
+
+</td>
+<td valign="top">
+
+158 Gi
 
 </td>
 </tr>
@@ -1197,6 +1262,11 @@ Updating
 48 vCPU, 192 GB RAM
 
 </td>
+<td valign="top">
+
+222 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1207,6 +1277,11 @@ Updating
 <td valign="top">
 
 64 vCPU, 256 GB RAM
+
+</td>
+<td valign="top">
+
+250 Gi
 
 </td>
 </tr>
@@ -1221,6 +1296,11 @@ Updating
 2 vCPU, 8 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1231,6 +1311,11 @@ Updating
 <td valign="top">
 
 4 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1245,6 +1330,11 @@ Updating
 8 vCPU, 32 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1255,6 +1345,11 @@ Updating
 <td valign="top">
 
 16 vCPU, 64 GB RAM
+
+</td>
+<td valign="top">
+
+94 Gi
 
 </td>
 </tr>
@@ -1269,6 +1364,11 @@ Updating
 32 vCPU, 128 GB RAM
 
 </td>
+<td valign="top">
+
+158 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1281,6 +1381,11 @@ Updating
 48 vCPU, 192 GB RAM
 
 </td>
+<td valign="top">
+
+222 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1291,6 +1396,11 @@ Updating
 <td valign="top">
 
 64 vCPU, 256 GB RAM
+
+</td>
+<td valign="top">
+
+250 Gi
 
 </td>
 </tr>
@@ -1328,6 +1438,11 @@ Updating
 2 vCPU, 8 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1338,6 +1453,11 @@ Updating
 <td valign="top">
 
 4 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1352,6 +1472,11 @@ Updating
 8 vCPU, 32 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1362,6 +1487,11 @@ Updating
 <td valign="top">
 
 16 vCPU, 64 GB RAM
+
+</td>
+<td valign="top">
+
+94 Gi
 
 </td>
 </tr>
@@ -1376,6 +1506,11 @@ Updating
 32 vCPU, 128 GB RAM
 
 </td>
+<td valign="top">
+
+158 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1388,6 +1523,11 @@ Updating
 48 vCPU, 192 GB RAM
 
 </td>
+<td valign="top">
+
+222 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1398,6 +1538,11 @@ Updating
 <td valign="top">
 
 64 vCPU, 256 GB RAM
+
+</td>
+<td valign="top">
+
+250 Gi
 
 </td>
 </tr>
@@ -1435,6 +1580,11 @@ Updating
 2 vCPU, 8 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1445,6 +1595,11 @@ Updating
 <td valign="top">
 
 4 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1459,6 +1614,11 @@ Updating
 8 vCPU, 32 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1469,6 +1629,11 @@ Updating
 <td valign="top">
 
 16 vCPU, 64 GB RAM
+
+</td>
+<td valign="top">
+
+94 Gi
 
 </td>
 </tr>
@@ -1483,6 +1648,11 @@ Updating
 32 vCPU, 128 GB RAM
 
 </td>
+<td valign="top">
+
+158 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1493,6 +1663,11 @@ Updating
 <td valign="top">
 
 48 vCPU, 192 GB RAM
+
+</td>
+<td valign="top">
+
+222 Gi
 
 </td>
 </tr>
@@ -1507,6 +1682,11 @@ Updating
 64 vCPU, 256 GB RAM
 
 </td>
+<td valign="top">
+
+250 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1517,6 +1697,11 @@ Updating
 <td valign="top">
 
 4 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1531,6 +1716,11 @@ Updating
 8 vCPU, 32 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1541,6 +1731,11 @@ Updating
 <td valign="top">
 
 16 vCPU, 64 GB RAM
+
+</td>
+<td valign="top">
+
+94 Gi
 
 </td>
 </tr>
@@ -1555,6 +1750,11 @@ Updating
 32 vCPU, 128 GB RAM
 
 </td>
+<td valign="top">
+
+158 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1567,6 +1767,11 @@ Updating
 48 vCPU, 192 GB RAM
 
 </td>
+<td valign="top">
+
+222 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1577,6 +1782,11 @@ Updating
 <td valign="top">
 
 64 vCPU, 256 GB RAM
+
+</td>
+<td valign="top">
+
+250 Gi
 
 </td>
 </tr>
@@ -1610,6 +1820,11 @@ Updating
 4 vCPU, 16 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1620,6 +1835,11 @@ Updating
 <td valign="top">
 
 4 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1653,6 +1873,11 @@ Updating
 2 vCPU, 8 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1663,6 +1888,11 @@ Updating
 <td valign="top">
 
 4 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1677,6 +1907,11 @@ Updating
 6 vCPU, 24 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1687,6 +1922,11 @@ Updating
 <td valign="top">
 
 8 vCPU, 32 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1701,6 +1941,11 @@ Updating
 12 vCPU, 48 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1711,6 +1956,11 @@ Updating
 <td valign="top">
 
 16 vCPU, 64 GB RAM
+
+</td>
+<td valign="top">
+
+94 Gi
 
 </td>
 </tr>
@@ -1725,6 +1975,11 @@ Updating
 32 vCPU, 128 GB RAM
 
 </td>
+<td valign="top">
+
+158 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1735,6 +1990,11 @@ Updating
 <td valign="top">
 
 64 vCPU, 256 GB RAM
+
+</td>
+<td valign="top">
+
+250 Gi
 
 </td>
 </tr>
@@ -1788,6 +2048,11 @@ Virtual Machine Size
 </th>
 <th valign="top">
 
+Default Volume Size
+
+</th>
+<th valign="top">
+
 Availability Regions
 
 </th>
@@ -1819,6 +2084,11 @@ Updating
 <td valign="top">
 
 2 vCPU, 4 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 <td valign="top" rowspan="7">
@@ -1860,6 +2130,11 @@ Updating
 4 vCPU, 8 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1870,6 +2145,11 @@ Updating
 <td valign="top">
 
 8 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -1884,6 +2164,11 @@ Updating
 16 vCPU, 32 GB RAM
 
 </td>
+<td valign="top">
+
+94 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1894,6 +2179,11 @@ Updating
 <td valign="top">
 
 32 vCPU, 64 GB RAM
+
+</td>
+<td valign="top">
+
+158 Gi
 
 </td>
 </tr>
@@ -1908,6 +2198,11 @@ Updating
 48 vCPU, 96 GB RAM
 
 </td>
+<td valign="top">
+
+222 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1920,6 +2215,11 @@ Updating
 64 vCPU, 128 GB RAM
 
 </td>
+<td valign="top">
+
+250 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1930,6 +2230,11 @@ Updating
 <td valign="top">
 
 2 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 <td valign="top" rowspan="7">
@@ -1959,6 +2264,11 @@ Updating
 4 vCPU, 32 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1969,6 +2279,11 @@ Updating
 <td valign="top">
 
 8 vCPU, 64 GB RAM
+
+</td>
+<td valign="top">
+
+94 Gi
 
 </td>
 </tr>
@@ -1983,6 +2298,11 @@ Updating
 16 vCPU, 132 GB RAM
 
 </td>
+<td valign="top">
+
+158 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1993,6 +2313,11 @@ Updating
 <td valign="top">
 
 32 vCPU, 256 GB RAM
+
+</td>
+<td valign="top">
+
+250 Gi
 
 </td>
 </tr>
@@ -2007,6 +2332,11 @@ Updating
 48 vCPU, 384 GB RAM
 
 </td>
+<td valign="top">
+
+250 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2017,6 +2347,11 @@ Updating
 <td valign="top">
 
 64 vCPU, 512 GB RAM
+
+</td>
+<td valign="top">
+
+250 Gi
 
 </td>
 </tr>
@@ -2049,6 +2384,11 @@ Updating
 2 vCPU, 4 GB RAM
 
 </td>
+<td valign="top">
+
+80 GI
+
+</td>
 <td valign="top" rowspan="6">
 
 `europe-west3`
@@ -2078,6 +2418,11 @@ Updating
 4 vCPU, 8 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2088,6 +2433,11 @@ Updating
 <td valign="top">
 
 8 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -2102,6 +2452,11 @@ Updating
 16 vCPU, 32 GB RAM
 
 </td>
+<td valign="top">
+
+94 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2114,6 +2469,11 @@ Updating
 32 vCPU, 64 GB RAM
 
 </td>
+<td valign="top">
+
+158 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2124,6 +2484,11 @@ Updating
 <td valign="top">
 
 56 vCPU, 112 GB RAM
+
+</td>
+<td valign="top">
+
+250 Gi
 
 </td>
 </tr>
@@ -2156,6 +2521,11 @@ Updating
 2 vCPU, 4 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 <td valign="top" rowspan="7">
 
 All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Region).
@@ -2173,6 +2543,11 @@ All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters
 4 vCPU, 8 GB RAM
 
 </td>
+<td valign="top">
+
+80 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2183,6 +2558,11 @@ All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters
 <td valign="top">
 
 8 vCPU, 16 GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
 
 </td>
 </tr>
@@ -2197,6 +2577,11 @@ All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters
 16 vCPU, 32 GB RAM
 
 </td>
+<td valign="top">
+
+94 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2207,6 +2592,11 @@ All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters
 <td valign="top">
 
 32 vCPU, 64 GB RAM
+
+</td>
+<td valign="top">
+
+158 Gi
 
 </td>
 </tr>
@@ -2221,6 +2611,11 @@ All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters
 48 vCPU, 96 GB RAM
 
 </td>
+<td valign="top">
+
+222 Gi
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -2230,7 +2625,14 @@ All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters
 </td>
 <td valign="top">
 
-64 vCPU, 128 GB RAM
+64 vCPU,
+
+128 GB RAM
+
+</td>
+<td valign="top">
+
+250 Gi
 
 </td>
 </tr>

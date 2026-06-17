@@ -78,7 +78,7 @@ Follow these steps to get familiar with workloads and learn how to use them.
 **Related Information**  
 
 
-[API Gateway Module](api-gateway-module-f323ab1.md "Use the API Gateway module to expose and secure APIs.")
+[API Gateway Module](api-gateway-module-f323ab1.md "API Gateway is a Kyma module with which you can expose and secure APIs.")
 
 [Eventing Module](eventing-module-07b2d1d.md "Use the Eventing module to set up event-driven communication between applications in your Kyma cluster using a publish-subscribe model.")
 
