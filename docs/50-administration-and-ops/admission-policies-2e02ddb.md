@@ -10,13 +10,22 @@ Learn about the validating admission policies deployed in SAP BTP, Kyma runtime 
 
 ## Namespaces Delete Protection
 
-This policy prevents the deletion of the `istio-system` and `kyma-system` namespaces unless the request comes from an allowed service account.
+This policy prevents the deletion of Kyma-managed namespaces unless the request comes from an allowed user, group, or service account.
 
-The `istio-system` and `kyma-system` namespaces host critical platform components. An accidental or unauthorized deletion of these namespaces can cause cluster-wide outages, break service mesh functionality, and interfere with platform lifecycle operations.
+The following namespaces host critical platform components and are protected from deletion:
 
-When you try to delete these namespaces, you encounter an API error. The validating admission policy returns a rejection with the message that you cannot delete the `istio-system` or `kyma-system` namespaces. This action requires an authorized service account.
+-   `istio-system`
+-   `kyma-system`
+-   `sap-transp-proxy-system`
+-   `ztis-agent-system`
+-   `docker-registry`
+-   `registry-proxy`
 
-Verify that you're targeting the correct namespace and use application namespaces instead of the system namespaces.
+An accidental or unauthorized deletion of these namespaces can cause cluster-wide outages, break service mesh functionality, and interfere with platform lifecycle operations.
+
+When you try to delete these namespaces, you receive an API error. The validating admission policy returns a rejection with the message that you cannot delete the Kyma-managed namespaces. This action requires an allowed user, group, or service account.
+
+Verify that you're targeting the correct namespace and use application namespaces instead of the Kyma-managed system namespaces.
 
 
 
@@ -28,7 +37,7 @@ This policy prevents the deletion of workloads \(Deployments, StatefulSets, Daem
 
 The `kyma-system` namespace runs managed Kyma components. Deleting workloads there can break the control plane, integrations, and user-facing services. This policy prevents accidental disruption and enforces that only trusted controllers or processes make such changes.
 
-When you try to delete a workload in `kyma-system`, you see a rejection at the API admission step with the message that you cannot delete workloads in the `kyma-system` namespace. This action requires an authorized user, group, or service account.
+When you try to delete a workload in `kyma-system`, you see a rejection at the API admission step with the message that you cannot delete workloads in the `kyma-system` namespace. This action requires an allowed user, group, or service account.
 
 When you delete workloads, verify that you're targeting the correct namespace. For changes to customer workloads, use their application namespaces rather than `kyma-system`.
 
@@ -76,4 +85,55 @@ For configuration examples, see [Kyma: Dynatrace Setup](https://kyma-project.io/
 This policy prevents the use of network policies with `default-deny-all` rules in the Kyma-managed namespaces. Such network policies block essential communication between Kyma components within a cluster, potentially leading to system failures.
 
 If you attempt to create or update a network policy that violates this rule, the action is blocked, and you receive a warning. In such a case, review your network policy configuration and ensure it includes specific allow rules instead of denying all traffic. For applications that require strict network isolation, consider using your own namespaces instead of the Kyma-managed namespaces.
+
+
+
+## Kyma Module Label Protection
+
+This policy prevents you from setting labels with the `kyma-project.io/` prefix on any resource in Kyma-managed namespaces.
+
+The `kyma-project.io/` label prefix is reserved exclusively for Kyma module operators to identify and manage their resources. When your resource in a protected namespace carries a `kyma-project.io/` label, Kyma module operators may misidentify it as a module operator-managed resource. This misidentification causes the operator to enter an error state.
+
+The following namespaces are protected:
+
+-   `kyma-system`
+-   `istio-system`
+-   `docker-registry`
+-   `registry-proxy`
+-   `sap-trans-proxy-system`
+-   `ztis-agent-system`
+
+When you create or update a resource with a `kyma-project.io/` label in one of these namespaces, you receive an API error message stating that setting reserved labels isn't allowed.
+
+-   If you need to categorize or identify your resources, use your own label prefix instead of the reserved `kyma-project.io/` prefix.
+-   If you're deploying workloads that require such a label, deploy them into your own application namespaces rather than into Kyma-managed system namespaces.
+
+
+
+## Kyma Storage Protection
+
+This policy prevents you from deleting PersistentVolumeClaims \(PVCs\) in the `kyma-system` namespace and PersistentVolumes \(PVs\) that are bound to a `kyma-system` PVC, unless the request comes from an allowed user, group, or service account.
+
+The `kyma-system` namespace may use persistent storage for platform components. Deleting a PVC or its bound PV can result in permanent data loss for those components. This policy ensures that only trusted users, groups, or service accounts can remove storage resources tied to platform operations.
+
+When you try to delete a PVC in `kyma-system`, or a PV that is bound to a PVC in `kyma-system`, you receive an API error. The error message states that this deletion isn't allowed and requires an allowed user, group, or service account.
+
+Verify that you're targeting the correct resource. If you need to remove storage in `kyma-system`, contact your platform administrator to perform the operation with an allowed user, group, or service account.
+
+
+
+<a name="loio2e02ddb5b3b9459da6056a5aaafaf421__section_kyverno_namespace_protection"/>
+
+## Kyverno Namespace Protection
+
+This policy validates that Kyverno ClusterPolicies and policies that affect workloads, such as Pods, Deployments, StatefulSets, DaemonSets, Jobs, CronJobs, ReplicaSets, include an `exclude` block that covers Kyma-managed namespaces.
+
+Kyverno policies without explicit exclusions can inadvertently match resources in Kyma-managed namespaces, such as `kyma-system` and `istio-system`. This can cause mutations or validations to interfere with platform-managed components and lead to instability or failed reconciliation of Kyma modules.
+
+When you create or update a Kyverno policy that affects workloads but is missing the required exclusions, you receive a warning. The operation isn't blocked, but you should address the warning to avoid unintended impact on Kyma components.
+
+Add an `exclude` block to each rule that affects workloads. Use one of the following approaches:
+
+-   Label-based exclusion \(recommended\): Exclude namespaces with the selector `operator.kyma-project.io/managed-by NotIn [kyma]`. This label automatically covers all current and future Kyma-managed namespaces.
+-   Explicit namespace exclusion: List both `kyma-system` and `istio-system` in the `exclude` block's `namespaces` field.
 
