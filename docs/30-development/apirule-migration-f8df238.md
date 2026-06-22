@@ -31,25 +31,3 @@ To migrate to version `v2`, follow the steps:
 
 For more information about APIRule `v2`, see also [APIRule `v2` Custom Resource](https://kyma-project.io/#/api-gateway/user/custom-resources/apirule/04-10-apirule-custom-resource) and [Changes Introduced in APIRule v2](changes-introduced-in-apirule-v2-aa34a4a.md).
 
-
-
-<a name="loiof8df238618eb4858905c2b42fa4ec815__section_msj_d2c_hgc"/>
-
-## APIRule `v1beta1` Migration Timeline
-
-The APIRule `v1beta1` deletion process is divided into three steps. See the following timeline:
-
-**Step 1: Completed with API Gateway 3.2**
-
-Kyma dashboard doesn’t display APIRule CRs in version `v1beta1`. All APIRules `v1beta1` are fully operational from the command line, and you are still able to manage them using kubectl. This change does not affect any pipelines that manage APIRules using Kubernetes utilities such as kubectl or helm.
-
-**Step 2: Completed with API Gateway 3.3**
-
-You won't be able to create APIRule CRs `v1beta1` in new clusters. In existing clusters, you will still be able to create and modify APIRule CRs `v1beta1`.
-
-**Step 3: Completed with API Gateway 3.4**
-
-You won't be able to create APIRule CRs `v1beta1` in new and existing clusters, modify existing APIRule CRs `v1beta1`, or delete them. All APIRule `v1beta1` configurations set up prior to this restriction will remain active and continue to function as expected. The API Gateway module will manage and reconcile resources based on the existing APIRule settings.
-
-![](images/APIRule_Migration_Timeline_-_External_f1ce3d8.png)
-

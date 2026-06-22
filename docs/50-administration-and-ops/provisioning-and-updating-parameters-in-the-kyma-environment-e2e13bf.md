@@ -19,6 +19,8 @@ To check which parameters are available for configuration in a particular plan, 
 
 
 
+<a name="loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Access_Control_List"/>
+
 ## Access Control List
 
 *Access Control List* \(`accessControlList`\) specifies the IP ranges that can access the Kubernetes API. Internally, the list of IP ranges includes additional entries necessary for the continuous operation of your cluster.
@@ -156,6 +158,105 @@ To remove your access control list, set `allowedCIDRs` to an empty list.
     "allowedCIDRs": []
     }
 ```
+
+
+
+<a name="loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_Volume_Size"/>
+
+## Additional Volume Size
+
+With the *Additional Volume Size* \(`additionalVolumeSizeGi`\) parameter, you can request extra disk space on top of the default volume size for your worker nodes. The total volume size is computed as the sum of the default volume size and `additionalVolumeSizeGi`.
+
+You can set `additionalVolumeSizeGi` on the main Kyma worker pool and on additional worker node pools. See  <?sap-ot O2O class="- topic/xref " href="e2e13bfaa2f54a4fb179f0f1f840353a__section_additional_wn_pools.xml" text="Additional Worker Node Pools" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e2e13bfaa2f54a4fb179f0f1f840353a.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+
+> ### Tip:  
+> Before requesting additional disk space, check your current default volume size. See [Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type).
+
+**Additional Volume Size Parameter**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Parameter
+
+</th>
+<th valign="top">
+
+Supported Operation
+
+</th>
+<th valign="top">
+
+Default Value
+
+</th>
+<th valign="top">
+
+Allowed Input
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*Additional Volume Size*
+
+btp CLI parameter: `additionalVolumeSizeGi`
+
+type: integer
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+*0*
+
+</td>
+<td valign="top">
+
+Integer between 0 and 100.
+
+</td>
+</tr>
+</table>
+
+To add extra disk space to the main Kyma worker pool, set `additionalVolumeSizeGi` at the root level of the request.
+
+```
+"additionalVolumeSizeGi": 50
+```
+
+To add extra disk space to an additional worker node pool, set `additionalVolumeSizeGi` within the respective entry in the `additionalWorkerNodePools` array.
+
+```
+{
+  "additionalWorkerNodePools": [
+    {
+      "name": "worker-1",
+      "machineType": "Standard_D4s_v5",
+      "haZones": true,
+      "autoScalerMin": 3,
+      "autoScalerMax": 10,
+      "additionalVolumeSizeGi": 50
+    }
+  ]
+}
+```
+
+When updating an existing cluster, the behavior differs depending on the worker pool:
+
+-   Main Kyma worker pool: If `additionalVolumeSizeGi` changes, the total volume size is recomputed as the sum of the default volume size and the new `additionalVolumeSizeGi` value. If you don't include `additionalVolumeSizeGi` in the update request, the existing volume is preserved.
+
+-   Additional worker node pools: To update the additional volume size of an existing pool, you must explicitly provide the new `additionalVolumeSizeGi` value in the update request. To remove the additional volume size, either omit `additionalVolumeSizeGi` from the update request or set it to *0*.
+
 
 
 

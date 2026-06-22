@@ -354,7 +354,9 @@ Updating
 
 ## Standard: Amazon Web Services, Google Cloud, and Microsoft Azure
 
-The technical names of the standard enterprise plans are `aws`, `gcp`, and `azure`. Within these plans, Kyma offers the high availability feature. For more information, see [Availability Zones in the Kyma Environment](../10-concepts/availability-zones-in-the-kyma-environment-a649bd9.md).
+The technical names of the standard enterprise plans are `aws`, `gcp`, and `azure`.
+
+Within these plans, Kyma offers the high availability feature. For more information, see [Availability Zones in the Kyma Environment](../10-concepts/availability-zones-in-the-kyma-environment-a649bd9.md).
 
 > ### Note:  
 > To indicate that your Kyma runtime is used for production, select *Used for production* in your subaccount details. This setting allows SAP BTP, Kyma runtime operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).
@@ -666,7 +668,62 @@ Updating
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Access Control List*[<sup>1</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_gcp)
+
+`accessControlList`
+
+</td>
+<td valign="top">
+
+Specifies the IP ranges that can access the Kubernetes API.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Access Control List](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Access_Control_List)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Additional Volume Size*
+
+btp CLI parameter: `additionalVolumeSizeGi`
+
+</td>
+<td valign="top">
+
+Specifies extra disk space on top of the default volume size for a worker node pool.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Additional Volume Size](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_Volume_Size)
+
+</td>
+</tr>
 </table>
+
+> ### Note:  
+> <sup>1</sup> Not available in the standard Google Cloud \(`gcp`\) plan.
 
 
 
@@ -978,6 +1035,32 @@ Updating
 <td valign="top">
 
 [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Additional Volume Size*
+
+btp CLI parameter: `additionalVolumeSizeGi`
+
+</td>
+<td valign="top">
+
+Specifies extra disk space on top of the default volume size for a worker node pool.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Additional Volume Size](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_Volume_Size)
 
 </td>
 </tr>
@@ -1300,7 +1383,62 @@ Updating
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Access Control List*[<sup>2</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_br_gcp)
+
+`accessControlList`
+
+</td>
+<td valign="top">
+
+Specifies the IP ranges that can access the Kubernetes API.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Access Control List](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Access_Control_List)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Additional Volume Size*
+
+btp CLI parameter: `additionalVolumeSizeGi`
+
+</td>
+<td valign="top">
+
+Specifies extra disk space on top of the default volume size for a worker node pool.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+[Additional Volume Size](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_Volume_Size)
+
+</td>
+</tr>
 </table>
+
+> ### Note:  
+> <sup>2</sup> Not available in the Build Runtime: Google Cloud \(`build-runtime-gcp`\) plan.
 
 
 

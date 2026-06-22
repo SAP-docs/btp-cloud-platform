@@ -272,7 +272,13 @@ Number of CUs per Hour
 
 ### Underlying Metrics: Storage
 
-You can calculate CUs for different storage types: PersistentVolume and VolumeSnapshotContent resources. SAP BTP, Kyma runtime is provisioned with 32 GB of storage dedicated to operational data at no additional cost. However, certain Kyma modules may require extra storage. In such cases, they create additional volumes, which incur charges for the extra storage used. Note that for PersistentVolume resources, storage is provided in blocks of 32 GB, so if you use 33 GB, you're charged for 64 GB \(2 blocks of 32 GB\). For VolumeSnapshotContent resources, you pay based on the actual amount of storage used.
+You can calculate CUs for the following storage types:
+
+-   PersistentVolumes
+-   VolumeSnapshotContents
+-   Additional node volume
+
+SAP BTP, Kyma runtime is provisioned with 32 GB of storage dedicated to operational data at no additional cost. However, certain Kyma modules may require extra storage. In such cases, they create additional volumes, which incur charges for the extra storage used. Note that for PersistentVolume resources, storage is provided in blocks of 32 GB, so if you use 33 GB, you're charged for 64 GB \(2 blocks of 32 GB\). For VolumeSnapshotContent resources, you pay based on the actual amount of storage used. If you use 4 nodes of 10 GB additional volume, which is 40 GB, you're charged for 64GB.
 
 **Calculation for Storage**
 
