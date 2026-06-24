@@ -12,7 +12,7 @@ Availability zones are isolated failure domains within a single geographical reg
 
 The Kubernetes and SAP BTP, Kyma runtime configurations are optimized for production use cases. By operating on a three-availability-zone architecture, Kyma offers the high availability feature within the following enterprise plans:
 
--   [Standard: Amazon Web Services, Google Cloud, and Microsoft Azure](../50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__section_y4g_qld_hpb)
+-   [Standard: Amazon Web Services, Google Cloud, Microsoft Azure, and Alibaba Cloud](../50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__section_y4g_qld_hpb)
 -   [Build Runtime: Amazon Web Services, Google Cloud, and Microsoft Azure](../50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__section_hnj_3nz_bfc) 
 
 This means that the default worker nodes are deployed in three availability zones of the respective [cloud region](regions-for-the-kyma-environment-557ec3a.md), and thus can provide zone-level failure tolerance for Kyma and applications deployed on Kyma runtime. The [Kubernetes control plane](https://kubernetes.io/docs/reference/glossary/?all=true#term-control-plane) is also hosted in three availability zones. Thus, the runtime automatically manages node and zone failures for all managed components, including the Kubernetes API server.

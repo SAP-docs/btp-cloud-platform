@@ -466,6 +466,38 @@ Switzerland \(Zurich\) EU Access
 
 Enterprise account
 
+</td>
+<td valign="top">
+
+cn20
+
+</td>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+cf-cn20
+
+</td>
+<td valign="top">
+
+China \(North 3\)
+
+</td>
+<td valign="top">
+
+`azure`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
 Trial account
 
 </td>
@@ -1453,6 +1485,38 @@ Japan \(Tokyo\)
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Enterprise account
+
+</td>
+<td valign="top">
+
+cn40
+
+</td>
+<td valign="top">
+
+Alibaba Cloud
+
+</td>
+<td valign="top">
+
+cf-cn40
+
+</td>
+<td valign="top">
+
+China \(Shanghai\)
+
+</td>
+<td valign="top">
+
+`alicloud` 
+
+</td>
+</tr>
 </table>
 
 
@@ -1490,12 +1554,12 @@ Region Name
 </th>
 </tr>
 <tr>
-<td valign="top" rowspan="13">
+<td valign="top" rowspan="14">
 
 Microsoft Azure
 
 </td>
-<td valign="top" rowspan="13">
+<td valign="top" rowspan="14">
 
 `azure`
 
@@ -1656,6 +1720,18 @@ Brazil \(São Paulo\)
 <td valign="top">
 
 Canada \(Toronto\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`chinanorth3` [<sup>1</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_azure_china)
+
+</td>
+<td valign="top">
+
+China \(North 3\)
 
 </td>
 </tr>
@@ -2118,7 +2194,32 @@ UAE \(Dubai\)
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Alibaba Cloud
+
+</td>
+<td valign="top">
+
+`alicloud`
+
+</td>
+<td valign="top">
+
+`cn-shanghai`
+
+</td>
+<td valign="top">
+
+China \(Shanghai\)
+
+</td>
+</tr>
 </table>
+
+> ### Note:  
+> <sup>1</sup> Only available in the Microsoft Azure \(`azure`\) plan.
 
 
 

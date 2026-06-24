@@ -8,15 +8,23 @@ Below you can find which memory calculators are used in the relevant Java buildp
 
 
 
+<a name="loio505a71ae53e84c7a972bb6c34b4316fb__section_qqb_4z3_k1c"/>
+
+## SAP Java Buildpack 2
+
+This buildpack supports only [Memory Calculator V2](memory-calculator-v2-8eef959.md), which is the same as the one provided by the community Java Buildpack. See: [\(GitHub\) Java Buildpack Memory Calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
+
+
+
 <a name="loio505a71ae53e84c7a972bb6c34b4316fb__section_kyg_nz3_k1c"/>
 
-## SAP Java Buildpack 1
+## SAP Java Buildpack 1 – Deprecated!
 
-This buildpack supports two memory calculator versions:
+This buildpack is no longer available. It used to support two memory calculator versions:
 
 -   [Memory Calculator V2](memory-calculator-v2-8eef959.md) – activated by default.
 
--   [Memory Calculator V1 \(SAP JVM Memory Calculator\)](memory-calculator-v1-sap-jvm-memory-calculator-c1059e0.md) – this is an optional memory calculator. You can activate it by adding the following environment variable:
+-   [Memory Calculator V1 – DEPRECATED!](memory-calculator-v1-deprecated-c1059e0.md) – this was an optional memory calculator that could be activated by adding the following environment variable:
 
     ```
     ---
@@ -29,18 +37,8 @@ This buildpack supports two memory calculator versions:
     ```
 
 
-
-
-<a name="loio505a71ae53e84c7a972bb6c34b4316fb__section_qqb_4z3_k1c"/>
-
-## SAP Java Buildpack 2
-
-This buildpack supports only [Memory Calculator V2](memory-calculator-v2-8eef959.md), which is the same as the one provided by the community Java Buildpack. See: [\(GitHub\) Java Buildpack Memory Calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
-
 > ### Restriction:  
-> Memory Calculator V1 is only available for [SAP Java Buildpack 1 – DEPRECATED!](sap-java-buildpack-1-deprecated-ad3e8df.md).
-> 
-> If you try to activate it for [SAP Java Buildpack 2](sap-java-buildpack-2-1cf206b.md), an error will be thrown.
+> Memory Calculator V1 is no longer used. It was only available for [SAP Java Buildpack 1 – DEPRECATED!](sap-java-buildpack-1-deprecated-ad3e8df.md).
 
 
 

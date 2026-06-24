@@ -20,37 +20,39 @@ Select the text sources that you want to have translated.
 2.  Scroll down to *Text Sources* and click *Add*.
 3.  Here you can select which text source types to add. The following text source types are supported:
 
-    -   Application Job Catalog Entries
+    -   Application job catalog entries
 
-    -   Application Job Templates
+    -   Application job templates
 
-    -   Application Log Objects
+    -   Application log objects
 
-    -   Business Configuration Objects
+    -   Business configuration objects
 
-    -   CDS Type Definitions
+    -   CDS type definitions
 
-    -   Data Definitions \(View Entities, Projection Views, Abstract Entities and Custom Entities\)
+    -   Data definitions \(view entities, projection views, abstract entities and custom entities\)
 
-    -   Data Elements
+    -   Data elements
 
     -   Domains
 
-    -   Fiori Launchpad App Descriptor Items
+    -   Email templates
 
-    -   Fiori Launchpad Page Templates
+    -   Fiori launchpad app descriptor items
 
-    -   Fiori Launchpad Space Templates
+    -   Fiori launchpad page templates
 
-    -   IAM Business Catalogs
+    -   Fiori launchpad space templates
 
-    -   Message Classes
+    -   IAM business catalogs
 
-    -   Metadata Extensions
+    -   Message classes
 
-    -   Text Pools
+    -   Metadata extensions
 
-    -   Text Tables
+    -   Text pools
+
+    -   Text tables
 
 
     It’s also possible to specify a package from which all supported translatable elements will be pulled into the translation project. Please note that translatable elements in sub packages are not included.

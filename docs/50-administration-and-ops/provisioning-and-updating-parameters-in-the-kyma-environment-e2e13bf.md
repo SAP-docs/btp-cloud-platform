@@ -167,7 +167,7 @@ To remove your access control list, set `allowedCIDRs` to an empty list.
 
 With the *Additional Volume Size* \(`additionalVolumeSizeGi`\) parameter, you can request extra disk space on top of the default volume size for your worker nodes. The total volume size is computed as the sum of the default volume size and `additionalVolumeSizeGi`.
 
-You can set `additionalVolumeSizeGi` on the main Kyma worker pool and on additional worker node pools. See  <?sap-ot O2O class="- topic/xref " href="e2e13bfaa2f54a4fb179f0f1f840353a__section_additional_wn_pools.xml" text="Additional Worker Node Pools" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e2e13bfaa2f54a4fb179f0f1f840353a.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+You can set `additionalVolumeSizeGi` on the main Kyma worker pool and on additional worker node pools. See [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools).
 
 > ### Tip:  
 > Before requesting additional disk space, check your current default volume size. See [Machine Type](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Machine_Type).
@@ -483,6 +483,34 @@ See [Taints Configuration](taints-configuration-db28c29.md).
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Additional Volume Size*
+
+btp CLI parameter: `additionalVolumeSizeGi`
+
+</td>
+<td valign="top">
+
+Specifies extra disk space added on top of the default volume size for a worker node pool.
+
+See [Additional Volume Size](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_Volume_Size).
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+Integer between 0 and 100.
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -656,6 +684,7 @@ Standard:
 -   `aws`
 -   `gcp`
 -   `azure`
+-   `alicloud`
 
 Build Runtime:
 
@@ -813,6 +842,7 @@ Standard:
 -   `aws`
 -   `gcp`
 -   `azure`
+-   `alicloud`
 
 Build Runtime:
 
@@ -1941,6 +1971,144 @@ Updating
 <td valign="top">
 
 80 Gi
+
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="7">
+
+Standard: Alibaba Cloud
+
+technical name: `alicloud`
+
+</td>
+<td valign="top" rowspan="7">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top" rowspan="7">
+
+`ecs.g9i.large`
+
+</td>
+<td valign="top">
+
+`ecs.g9i.large`
+
+</td>
+<td valign="top">
+
+2vCPU, 8GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ecs.g9i.xlarge`
+
+</td>
+<td valign="top">
+
+4vCPU, 16GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ecs.g9i.2xlarge`
+
+</td>
+<td valign="top">
+
+8vCPU, 32GB RAM
+
+</td>
+<td valign="top">
+
+80 Gi
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ecs.g9i.4xlarge`
+
+</td>
+<td valign="top">
+
+16vCPU, 64GB RAM
+
+</td>
+<td valign="top">
+
+94 Gi
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ecs.g9i.8xlarge`
+
+</td>
+<td valign="top">
+
+32vCPU, 128GB RAM
+
+</td>
+<td valign="top">
+
+158 Gi
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ecs.g9i.12xlarge`
+
+</td>
+<td valign="top">
+
+48vCPU, 192GB RAM
+
+</td>
+<td valign="top">
+
+222 Gi
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`ecs.g9i.16xlarge`
+
+</td>
+<td valign="top">
+
+64vCPU, 256GB RAM
+
+</td>
+<td valign="top">
+
+250 Gi
 
 </td>
 </tr>
@@ -3978,11 +4146,6 @@ The following example shows the default configuration of an `oidc` object. To re
 
 *Region\** \(`region`\) is a mandatory string parameter, which defines a region where your cluster runs.
 
-> ### Note:  
-> The region marked with "<sup>6</sup>" supports the *Colocate Control Plane* feature.
-> 
-> For more information, see [Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed).
-
 **Region Parameter**
 
 
@@ -4346,7 +4509,7 @@ North America \(Virginia\)
 </td>
 </tr>
 <tr>
-<td valign="top" rowspan="13">
+<td valign="top" rowspan="14">
 
 Standard: Microsoft Azure
 
@@ -4361,7 +4524,7 @@ Build Runtime: Microsoft Azure
 technical name: `build-runtime-azure`
 
 </td>
-<td valign="top" rowspan="13">
+<td valign="top" rowspan="14">
 
 Provisioning
 
@@ -4522,6 +4685,18 @@ Canada \(Toronto\)
 </td>
 </tr>
 <tr>
+<td valign="top">
+
+`chinanorth3`[<sup>7</sup>](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_azure_china)
+
+</td>
+<td valign="top">
+
+China \(North 3\)[<sup>7</sup>](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_azure_china)
+
+</td>
+</tr>
+<tr>
 <td valign="top" rowspan="7">
 
 SAP Cloud Infrastructure
@@ -4541,12 +4716,12 @@ Provisioning
 </td>
 <td valign="top">
 
-`eu-de-1`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`eu-de-1`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-Germany \(Rot\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+Germany \(Rot\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -4565,12 +4740,12 @@ Germany \(Frankfurt\)
 <tr>
 <td valign="top">
 
-`na-us-1`<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+`na-us-1`<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 <td valign="top">
 
-US East \(Sterling\)<sup>[5](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
+US East \(Sterling\)<sup>[6](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__note_seed_regions)</sup>
 
 </td>
 </tr>
@@ -4622,7 +4797,39 @@ UAE \(Dubai\)
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Alibaba Cloud
+
+technical name: `alicloud`
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+`cn-shanghai`
+
+</td>
+<td valign="top">
+
+China \(Shanghai\)
+
+</td>
+</tr>
 </table>
+
+> ### Note:  
+> The region marked with "<sup>6</sup>" supports the *Colocate Control Plane* feature.
+> 
+> For more information, see [Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed).
+
+> ### Note:  
+> <sup>7</sup> Only available in the Microsoft Azure \(`azure`\) plan.
 
 Here is an example of the JSON input for the *Region* parameter:
 

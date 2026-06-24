@@ -71,29 +71,12 @@ env:
 
 
 
-<a name="loio588cfd95fbab41178c21ceefd916a311__section_qvt_wrw_mdc"/>
+## Generate Heap Dumps
 
-## Generate Heap Dumps with Java Properties
+It's a good practice to generate an **`.hprof`** heap dump file on the event of *OutOfMemoryError* to analyze and find the root cause of the issue. You can do this the following ways:
 
-It's a good practice to generate a **`.hprof`** heap dump file on the event of *OutOfMemoryError* to analyze and find the root cause of the issue.
-
-Various distributions including *SapMachineJre* and *SapMachineJdk* provide standard mechanism for generating a heap dump in the event of an OOM error. The following properties can be added on startup for this purpose:
-
-```
--XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=<heap_dump_path> -XX:OnOutOfMemoryError='kill -9 %p'
-```
-
--   **`-XX:+HeapDumpOnOutOfMemoryError`** triggers heap dump generation under a default path.
-
--   **`-XX:HeapDumpPath`** specifies *where* to specify the heap dump file.
-
--   **`-XX:OnOutOfMemoryError`** specifies *what command or script* to be run if OOM occurs. This command usually kills the process.
-
-
-The heap dump is generated and stored in an application container location. This means, it will be removed once the application instance container is restarted.
-
-> ### Note:  
-> Killing the process will trigger a restart. Therefore, if you need to investigate further in the heap dump file stored in the application container, the process should not be killed.
+-   [Generate with Java Properties](generate-heap-dumps-with-java-properties-63d1e87.md)
+-   [Generate with Object Store](generate-heap-dumps-and-store-them-remotely-5a08633.md)
 
 **Related Information**  
 

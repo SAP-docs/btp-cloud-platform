@@ -5,7 +5,7 @@
 # Managing Budgets in Your Global Account
 
 > ### Note:  
-> The use of budgets in your global account is subject to its availability in your country or region.
+> The use of budgets in your global account is subject to its availability in your country or region. Additionally, even where budgets are available, the option to send automatic email alerts to global account administrators when spending exceeds defined thresholds, may not be supported in your country or region.
 
 Budgets allow you to better control your global account spending and plan for future consumption by setting up budget limits for your global account in SAP BTP.
 
@@ -209,6 +209,9 @@ Additionally, you can:
 
 -   Opt-in to send automatic email notifications to global account administrators when a threshold is exceeded.
 
+    > ### Note:  
+    > This option is subject to availability in your country or region.
+
 -   Use the SAP Alert Notification service for SAP BTP to set up customized alerts for your preferred recipients, communication channels, and monitoring solutions.
 
 
@@ -368,6 +371,11 @@ Action Required
 <td valign="top">
 
 Automatic Alerts
+
+> ### Note:  
+> This option is subject to availability in your country or region.
+
+
 
 </td>
 <td valign="top">

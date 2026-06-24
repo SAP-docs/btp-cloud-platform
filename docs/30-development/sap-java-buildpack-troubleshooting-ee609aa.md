@@ -66,7 +66,7 @@ You need to modify your Java applications to run on Apache TomEE 7 instead. To d
 
 4.  After applying the new change, if your application fails with an *OutOfMemoryError* exception, change your memory size configuration. See:
 
-    [Memory Calculator V1](memory-calculator-v1-sap-jvm-memory-calculator-c1059e0.md)
+    [Memory Calculator V1](memory-calculator-v1-deprecated-c1059e0.md)
 
     [XS Advanced Model: Memory Size Options](https://help.sap.com/docs/SAP_HANA_PLATFORM/4505d0bdaf4948449b7f7379d24d0f0d/5c253fd9539340369478809b3977be72.html)
 

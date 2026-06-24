@@ -102,13 +102,17 @@ For more information about your users of SAP ID service can enable multifactor a
 
 ## Trust and Identity Providers
 
-Trust between your subaccount and SAP ID service is preconfigured by default, so you can start using it without further configuration.
+The system preconfigures trust between your subaccount and SAP ID service by default, so you can start using the service without further configuration.
 
-You can hide the default trust.
+For web-based access, such as through a browser, you can hide the default trust.
 
 For more information, see [Hide Logon Link for Default Identity Provider](hide-logon-link-for-default-identity-provider-9e3d457.md).
 
-To use a custom identity provider, establish trust to your custom identity provider. We describe a custom trust configuration using the example of SAP Cloud Identity Services.
+For non-interactive logons, such as with CLI tools or password grant flow, you can make a custom identity provider the default.
+
+For more information, see [btp update security/settings](https://help.sap.com/docs/btp/btp-cli-command-reference/btp-update-security-settings#ariaid-title2).
+
+To use a custom identity provider, establish trust with your custom identity provider. We describe a custom trust configuration using the example of SAP Cloud Identity Services.
 
 For more information, see [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md).
 

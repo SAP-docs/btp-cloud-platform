@@ -352,9 +352,9 @@ Updating
 
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_y4g_qld_hpb"/>
 
-## Standard: Amazon Web Services, Google Cloud, and Microsoft Azure
+## Standard: Amazon Web Services, Google Cloud, Microsoft Azure, and Alibaba Cloud
 
-The technical names of the standard enterprise plans are `aws`, `gcp`, and `azure`.
+The technical names of the standard enterprise plans are `aws`, `gcp`, `azure`, and `alicloud`.
 
 Within these plans, Kyma offers the high availability feature. For more information, see [Availability Zones in the Kyma Environment](../10-concepts/availability-zones-in-the-kyma-environment-a649bd9.md).
 
@@ -671,7 +671,7 @@ Updating
 <tr>
 <td valign="top">
 
-*Access Control List*[<sup>1</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_gcp)
+*Access Control List* [<sup>1,</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_gcp) [<sup>2</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_alicloud)
 
 `accessControlList`
 
@@ -697,7 +697,7 @@ Updating
 <tr>
 <td valign="top">
 
-*Additional Volume Size*
+*Additional Volume Size* [<sup>2</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_alicloud)
 
 btp CLI parameter: `additionalVolumeSizeGi`
 
@@ -724,6 +724,9 @@ Updating
 
 > ### Note:  
 > <sup>1</sup> Not available in the standard Google Cloud \(`gcp`\) plan.
+
+> ### Note:  
+> <sup>2</sup> Not available in the standard Alibaba Cloud \(`alicloud`\) plan or in the China \(North 3\) \(cf-cn20\) region in the Microsoft Azure \(`azure`\) plan.
 
 
 
@@ -1070,9 +1073,9 @@ Updating
 
 <a name="loiobefe01d5d8864e59bf847fa5a5f3d669__section_hnj_3nz_bfc"/>
 
-## Build Runtime: Amazon Web Services, Google Cloud, and Microsoft Azure
+## Build Runtime: Amazon Web Services, Google Cloud, Microsoft Azure, and Alibaba Cloud
 
-The technical names of these enterprise plans are `build-runtime-aws`, `build-runtime-gcp`, and `build-runtime-azure`. Use them to integrate Kyma's functionalities within SAP Build. See the [SAP Build documentation](https://help.sap.com/docs/build-service/build-service-guide/what-is-sap-build?version=Cloud).
+The technical names of these enterprise plans are `build-runtime-aws`, `build-runtime-gcp`, `build-runtime-azure`, and `build-runtime-alicloud`. Use them to integrate Kyma's functionalities within SAP Build. See the [SAP Build documentation](https://help.sap.com/docs/build-service/build-service-guide/what-is-sap-build?version=Cloud).
 
 You can switch from the standard enterprise plans to build runtime plans within the same cloud provider. For more information, see [Updating Kyma Environment Plans](updating-kyma-environment-plans-64fa95a.md).
 
@@ -1386,7 +1389,7 @@ Updating
 <tr>
 <td valign="top">
 
-*Access Control List*[<sup>2</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_br_gcp)
+*Access Control List* [<sup>3,</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_br_gcp) [<sup>4</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_br_alicloud)
 
 `accessControlList`
 
@@ -1412,7 +1415,7 @@ Updating
 <tr>
 <td valign="top">
 
-*Additional Volume Size*
+*Additional Volume Size* [<sup>4</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_br_alicloud)
 
 btp CLI parameter: `additionalVolumeSizeGi`
 
@@ -1438,7 +1441,10 @@ Updating
 </table>
 
 > ### Note:  
-> <sup>2</sup> Not available in the Build Runtime: Google Cloud \(`build-runtime-gcp`\) plan.
+> <sup>3</sup> Not available in the Build Runtime: Google Cloud \(`build-runtime-gcp`\) plan.
+
+> ### Note:  
+> <sup>4</sup> Not available in the Build Runtime: Alibaba Cloud \(`build-runtime-alicloud`\) plan.
 
 
 
@@ -1726,6 +1732,30 @@ Updating
 <td valign="top">
 
 [Additional Worker Node Pools](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_WN_Pools)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Colocate Control Plane*
+
+btp CLI parameter: `colocateControlPlane`
+
+</td>
+<td valign="top">
+
+Allows you to have both the control plane and worker nodes in the same region.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+</td>
+<td valign="top">
+
+[Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
 
 </td>
 </tr>

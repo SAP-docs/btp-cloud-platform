@@ -131,7 +131,7 @@ Spaces
 <tr>
 <td valign="top">
 
-Manage org members on the *Members* page at environment level in the SAP BTP cockpit or with the Cloud Foundry CLI.
+Manage org members on the *Org Members* page at environment level in the subaccount using the SAP BTP cockpit or with the Cloud Foundry CLI.
 
 A platform user added as an org member can be either an **Org Manager** or an **Org Auditor** or implicitly an **Org User**.
 
@@ -148,7 +148,7 @@ See:
 </td>
 <td valign="top">
 
-Manage space members on the *Members* page at space level in the SAP BTP cockpit or with the Cloud Foundry CLI.
+Manage space members on the *Org Members* page at space level in the SAP BTP cockpit or with the Cloud Foundry CLI.
 
 A platform user added as a space member can be either a **Space Manager**, **Space Developer**, **Space Auditor**, or **Space Supporter**.
 

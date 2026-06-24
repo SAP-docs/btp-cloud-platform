@@ -1,8 +1,8 @@
 <!-- loioc1059e056aad406297addcd177a4fb7c -->
 
-# Memory Calculator V1 \(SAP JVM Memory Calculator\)
+# Memory Calculator V1 – DEPRECATED!
 
-This memory calculator is optional, and you can activate it by adding the following environment variable:
+Memory Calculator V1, also known as *SAP JVM Memory Calculator*, is optional. It could be only activated for SAP Java Buildpack 1 by adding the following environment variable:
 
 ```
 ---
@@ -15,9 +15,7 @@ applications:
 ```
 
 > ### Restriction:  
-> Memory Calculator V1 is only available for [SAP Java Buildpack 1 – DEPRECATED!](sap-java-buildpack-1-deprecated-ad3e8df.md).
-> 
-> If you try to activate it for [SAP Java Buildpack 2](sap-java-buildpack-2-1cf206b.md), an error will be thrown.
+> Memory Calculator V1 is no longer used. It was only available for [SAP Java Buildpack 1 – DEPRECATED!](sap-java-buildpack-1-deprecated-ad3e8df.md).
 
 **When deploying applications on Cloud Foundry, developers can specify the memory limit of the application.**
 

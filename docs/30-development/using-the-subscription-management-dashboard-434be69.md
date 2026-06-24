@@ -91,9 +91,9 @@ You can apply various search and filtering criteria such as plan, subscription s
 
 Clicking on a subscription row opens details about the subscription to the right where you can find more information about the subscription and analyze errors if the subscription status is `Failed`.
 
-You can also perform additional operations, such as update subscription dependencies, if you're assigned to the `Subscription Management Dashboard Administrator` role.
+You can also perform additional operations, such as update subscription dependencies, if you're assigned to the `Subscription Management Dashboard Administrator` role. This operation updates the subscription with the latest list of dependencies \(if an app provider has added or removed dependencies of a particular subscription, for example.\)
 
-This operation updates the subscription with the latest list of dependencies \(if an app provider has added or removed dependencies of a particular subscription, for example.\)
+In the main screen, administrators can also update multiple subscriptions at once. Select specific subscriptions to update, or update all of them.
 
 ![](images/For_Dashboard2_9b943b5.png)
 

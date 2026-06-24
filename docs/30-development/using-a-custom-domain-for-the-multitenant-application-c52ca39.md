@@ -22,14 +22,14 @@ To create a multitenant application for use with a custom domain, following conf
 
 -   SaaS Registry Callback URLs getDependencies and onSubscription. Please refer to [Saas Provisioning Service](saas-provisioning-service-cbc379e.md).
 
--   XSUAA OAuth 2.0 Client configuration redirect-uris. Please refer to [Listing Allowed Redirect URIs](https://help.sap.com/docs/btp/sap-business-technology-platform/security-considerations-for-sap-authorization-and-trust-management-service?version=Cloud#loio88b7d9d4c6ff4498b48dbc0b7be8a294) 
+-   XSUAA OAuth 2.0 Client configuration redirect-uris. Please refer to [Listing Allowed Redirect URIs](https://help.sap.com/docs/btp/sap-business-technology-platform/security-considerations-for-sap-authorization-and-trust-management-service?version=Cloud#loio88b7d9d4c6ff4498b48dbc0b7be8a294). We recommend to tighten these configurations as much as possible.
 
 -   [CF routes](https://docs.cloudfoundry.org/devguide/deploy-apps/routes-domains.html#routes) assigned to approuter application
 
 
-For the subscriptions to the multitenant application to work correctly, configured SaaS Registry callback URLs need to be reachable \(cis… route\). For Application Routing routing to work, the approuter needs to be able to resolve the application URL based on current `TENANT_HOST_PATTERN` configuration.
+For the subscriptions to the multitenant application to work correctly, configured SaaS Registry callback URLs need to be reachable \(cis… route\). For Application Routing to work, the approuter needs to be able to resolve the application URL based on current `TENANT_HOST_PATTERN` configuration.
 
-You can use the[Maintain Solution](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d2a73509305c4ea7971ee24e68509dd8.html) app in the Landscape Portal to easily create such a multitenant application with custom domain, please refer to [Create Deployment Configuration](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/146b71650f254d57b403ec982eea82ff.html) → **Step 3: Routing Information**.
+You can use the [Maintain Solution](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/d2a73509305c4ea7971ee24e68509dd8.html) app in the Landscape Portal to easily create such a multitenant application with custom domain, please refer to [Create Deployment Configuration](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/146b71650f254d57b403ec982eea82ff.html) → **Step 3: Routing Settings**.
 
 Or, if you are following the MTA-based approach to create your multitenant application, in the [MTA Extension descriptor for production phase](https://github.com/sap-software/abap-saas-reference-solution/blob/main/extensions/examples/prod.mtaext) these configurations are changed using following MTA parameters:
 

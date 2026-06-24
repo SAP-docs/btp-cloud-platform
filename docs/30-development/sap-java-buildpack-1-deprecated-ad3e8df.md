@@ -229,7 +229,7 @@ SAP Java Buildpack 1 provides the following components in the application contai
 
 -   [Memory Calculator V2](memory-calculator-v2-8eef959.md) - default
 
--   [Memory Calculator V1 \(SAP JVM Memory Calculator\)](memory-calculator-v1-sap-jvm-memory-calculator-c1059e0.md) - optional
+-   [Memory Calculator V1 – DEPRECATED!](memory-calculator-v1-deprecated-c1059e0.md) - optional
 
 -   [SAP BTP Security Services Integration Libraries](https://github.com/SAP/cloud-security-services-integration-library) – version 2.x
 

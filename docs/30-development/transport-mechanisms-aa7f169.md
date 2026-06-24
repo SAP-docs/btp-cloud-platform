@@ -95,22 +95,5 @@ only DEV to DEV is possible
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-cross-GA possible?
-
-</td>
-<td valign="top">
-
-no
-
-</td>
-<td valign="top">
-
-yes
-
-</td>
-</tr>
 </table>
 

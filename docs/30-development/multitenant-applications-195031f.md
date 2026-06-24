@@ -88,11 +88,11 @@ Depending on the stage of implementation of the multitenant application, a diffe
 
 -   Configuration for **Development Phase**:
 
-    For development, test and demo purposes, MTA deployment can be done using the`${default-domain}` as `app-domain`and a `route-prefix`, which will avoid collisions due to the default domain. Additionally, we suggest setting the property `XS_APP_LOG_LEVEL` on the approuter module to `debug` to ensure that there is more detailed logging output.
+    For development, test, and demo purposes, MTA deployment can be done using the`${default-domain}` as `app-domain`and a `route-prefix`, which will avoid collisions due to the default domain. We recommend defining the specific routes that shall be used later for consumer subscriptions in the approuter MTA module and as redirect-uris in the XSUAA oauth2-configuration \(refer to [oauth2-configuration \(Custom Option\)](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fhelp.sap.com%2Fdocs%2Fauthorization-and-trust-management-service%2Fauthorization-and-trust-management%2Fapplication-security-descriptor-configuration-syntax%3Fversion%3DCloud%23oauth2-configuration-(custom-option))\). Additionally, we suggest setting the property `XS_APP_LOG_LEVEL` on the approuter module to `debug` to ensure that there is more detailed logging output.
 
 -   Configuration for **Production Phase**:
 
-    For purpose of providing a solution / solutions to applications consumers in a production scenario, the MTA deployment should be done using a custom domain configured with the app-domain parameter \(`app-domain`\) and an empty route-prefix \(`route-prefix.`\). Using the custom domain, a wildcard route for tenant access \("`*.${app-domain}`"\) can be created.
+    To provide a solution to applications consumers in a production scenario, the MTA deployment should be done using a custom domain configured with the app-domain parameter \(`app-domain`\) and an empty route-prefix \(`route-prefix`\). While using the custom domain, we recommend defining a wildcard route \("`*.${app-domain}`"\) as part of the approuter MTA module \(refer to [oauth2-configuration \(Custom Option\)](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fhelp.sap.com%2Fdocs%2Fauthorization-and-trust-management-service%2Fauthorization-and-trust-management%2Fapplication-security-descriptor-configuration-syntax%3Fversion%3DCloud%23oauth2-configuration-(custom-option))\). In this case you can make use of the same wildcard for defining redirect-uris in the XSUAA oauth2-configuration
 
 
 

@@ -36,6 +36,8 @@
 
 The `xsuaa` service instance, acts as an OAuth 2.0 client to the multitenant application, and to the `ABAP Solution` service instance. It provides access to the SaaS Provisioning service for calling callbacks and getting the dependencies API by granting corresponding scopes.
 
+Use the custom oauth2-configuration property \(refer to [oauth2-configuration \(Custom Option\)](https://help.sap.com/docs/link-disclaimer?site=https%3A%2F%2Fhelp.sap.com%2Fdocs%2Fauthorization-and-trust-management-service%2Fauthorization-and-trust-management%2Fapplication-security-descriptor-configuration-syntax%3Fversion%3DCloud%23oauth2-configuration-(custom-option))\) to define custom values for the OAuth 2.0 clients. We recommend to tighten these configurations as much as possible.
+
 A role collection is defined as part of the xsuaa configuration which provides authorization for the initial user onboarding in the new ABAP tenant after a subscription was done.
 
 For this purpose, the “SolutionAdmin” role is referenced. See [Quick Start: Create Role Collections \(with Predefined Roles\).](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/fe750543788a40b79a49854590ad0b11.html)
