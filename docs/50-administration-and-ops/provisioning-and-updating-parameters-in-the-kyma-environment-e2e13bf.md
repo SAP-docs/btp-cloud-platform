@@ -4824,12 +4824,12 @@ China \(Shanghai\)
 </table>
 
 > ### Note:  
-> The region marked with "<sup>6</sup>" supports the *Colocate Control Plane* feature.
+> <sup>6</sup> Supports the *Colocate Control Plane* feature.
 > 
 > For more information, see [Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed).
 
 > ### Note:  
-> <sup>7</sup> Only available in the Microsoft Azure \(`azure`\) plan.
+> <sup>7</sup> This region is available only in the BTP region cf-cn20 and is the sole region available within the Microsoft Azure \(`azure`\) plan in China.
 
 Here is an example of the JSON input for the *Region* parameter:
 

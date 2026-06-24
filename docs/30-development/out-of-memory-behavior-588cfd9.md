@@ -76,7 +76,7 @@ env:
 It's a good practice to generate an **`.hprof`** heap dump file on the event of *OutOfMemoryError* to analyze and find the root cause of the issue. You can do this the following ways:
 
 -   [Generate with Java Properties](generate-heap-dumps-with-java-properties-63d1e87.md)
--   [Generate with Object Store](generate-heap-dumps-and-store-them-remotely-5a08633.md)
+-   [Generate with Object Store](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/5a086335e91846bb9a6c0026aecc963d.html "") :arrow_upper_right:
 
 **Related Information**  
 

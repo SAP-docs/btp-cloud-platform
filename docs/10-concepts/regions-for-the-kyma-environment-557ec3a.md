@@ -484,7 +484,7 @@ cf-cn20
 </td>
 <td valign="top">
 
-China \(North 3\)
+China \(North 3\) [<sup>1</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_azure_china)
 
 </td>
 <td valign="top">
@@ -1519,6 +1519,9 @@ China \(Shanghai\)
 </tr>
 </table>
 
+> ### Note:  
+> <sup>1</sup> This region is available only in the BTP region cf-cn20 and is the sole region available within the Microsoft Azure \(`azure`\) plan in China.
+
 
 
 <a name="loio557ec3adc3174ed4914ec9d6d13487cf__section_uqf_2sl_wlb"/>
@@ -1731,7 +1734,7 @@ Canada \(Toronto\)
 </td>
 <td valign="top">
 
-China \(North 3\)
+China \(North 3\) [<sup>1</sup>](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_azure_china)
 
 </td>
 </tr>
@@ -2217,9 +2220,6 @@ China \(Shanghai\)
 </td>
 </tr>
 </table>
-
-> ### Note:  
-> <sup>1</sup> Only available in the Microsoft Azure \(`azure`\) plan.
 
 
 

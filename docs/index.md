@@ -192,7 +192,6 @@
                         -   [Java Memory Assistant \[AWS, Azure, or GCP Regions\]](30-development/java-memory-assistant-aws-azure-or-gcp-regions-604fdb5.md)
                         -   [Out-Of-Memory Behavior](30-development/out-of-memory-behavior-588cfd9.md)
                             -   [Generate Heap Dumps with Java Properties](30-development/generate-heap-dumps-with-java-properties-63d1e87.md)
-                            -   [Generate Heap Dumps and Store Them Remotely](30-development/generate-heap-dumps-and-store-them-remotely-5a08633.md)
                         -   [ActiveProcessorCount](30-development/activeprocessorcount-9013611.md)
                         -   [Using an Agent](30-development/using-an-agent-156fa75.md)
                         -   [SapMachine](30-development/sapmachine-785d6b3.md)
