@@ -54,11 +54,11 @@ The default context path value for Tomcat and TomEE is *****""***** \(empty stri
 
 For more information on how to change the default value, see:
 
--   [Tomcat 9](tomcat-9-ddfc101.md)
+-   [Tomcat 9 – DEPRECATED!](tomcat-9-deprecated-ddfc101.md)
 
 -   [Tomcat 10](tomcat-10-97d0e34.md)
 
--   [TomEE 7](tomee-7-79c039a.md)
+-   [TomEE 7 – DEPRECATED!](tomee-7-deprecated-79c039a.md)
 
 -   [TomEE 10](tomee-10-66e808e.md)
 

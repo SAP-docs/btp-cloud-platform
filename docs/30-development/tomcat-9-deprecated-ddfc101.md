@@ -1,6 +1,6 @@
 <!-- loioddfc10180fe844049cc71f6989942dc2 -->
 
-# Tomcat 9
+# Tomcat 9 – DEPRECATED!
 
 By default, web applications pushed with SAP Java Buildpack 1 are running in an Apache Tomcat 9 container.
 

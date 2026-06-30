@@ -6,9 +6,9 @@ SAP Java Buildpack 1 is a Cloud Foundry buildpack for running JVM-based applicat
 
 This buildpack supports Java 8, 11, and 17, as well as the following runtimes:
 
--   [TomEE 7](tomee-7-79c039a.md)
+-   [TomEE 7 – DEPRECATED!](tomee-7-deprecated-79c039a.md)
 
--   [Tomcat 9](tomcat-9-ddfc101.md)
+-   [Tomcat 9 – DEPRECATED!](tomcat-9-deprecated-ddfc101.md)
 
 -   [Java Main](java-main-8a1786a.md)
 
@@ -223,7 +223,7 @@ To learn how to configure your application to use SapMachine JRE and JDK, see: [
 
 SAP Java Buildpack 1 provides the following components in the application container \(`<APP_ROOT_DIR>/app/META-INF/.sap_java_buildpack`\):
 
--   Runtimes – [Tomcat 9](tomcat-9-ddfc101.md), [TomEE 7](tomee-7-79c039a.md), and [Java Main](java-main-8a1786a.md)
+-   Runtimes – [Tomcat 9 – DEPRECATED!](tomcat-9-deprecated-ddfc101.md), [TomEE 7 – DEPRECATED!](tomee-7-deprecated-79c039a.md), and [Java Main](java-main-8a1786a.md)
 
 -   [SapMachine](sapmachine-785d6b3.md)
 

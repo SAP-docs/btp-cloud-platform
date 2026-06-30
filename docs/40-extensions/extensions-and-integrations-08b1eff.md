@@ -1,6 +1,6 @@
 <!-- loio08b1effc53634890a525f945017e2edc -->
 
-# Extensions
+# Extensions and Integrations
 
 The extension capabilities of SAP Business Technology Platform \(SAP BTP\) enables developers to implement loosely coupled extension applications securely, thus implementing additional workflows or modules on top of the existing SAP cloud solution they already have.
 

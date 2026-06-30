@@ -1,6 +1,6 @@
 <!-- loio79c039ab43b946a7b50c5d0326a3b40b -->
 
-# TomEE 7
+# TomEE 7 – DEPRECATED!
 
 Web applications deployed with SAP Java Buildpack 1 can run in an TomEE 7 container, which is compatible with Apache Tomcat 8.5 and 9.
 

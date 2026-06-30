@@ -511,6 +511,58 @@ Integer between 0 and 100.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+*Annotations*
+
+btp CLI parameter: `annotations`
+
+</td>
+<td valign="top">
+
+Attaches arbitrary non-identifying metadata to worker nodes, such as tooling configuration or operational notes.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+Key-value pairs where each key is a non-empty string and each value is a string.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*Labels*
+
+btp CLI parameter: `labels`
+
+</td>
+<td valign="top">
+
+Attaches identifying metadata to worker nodes that you can use to identify, filter, and organize them.
+
+</td>
+<td valign="top">
+
+Provisioning
+
+Updating
+
+</td>
+<td valign="top">
+
+Key-value pairs where each key is a non-empty string and each value is a string.
+
+</td>
+</tr>
 </table>
 
 > ### Note:  
@@ -520,6 +572,12 @@ Integer between 0 and 100.
 
 > ### Note:  
 > <sup>2</sup> You can only use this parameter to update your Kyma runtime by creating a new additional worker node pool. You cannot use it to update an existing additional worker node pool.
+
+When updating optional parameters of an existing additional worker node pool, the following rules apply:
+
+-   If you omit an optional field in the update request, the existing setting for that pool is removed.
+-   If you set an optional field to an empty object \(*\[\]*\), the existing setting for that pool is also removed.
+-   To update an optional field, provide the new setting - the update overwrites the existing setting for that pool.
 
 See the example configuration:
 
@@ -532,7 +590,15 @@ See the example configuration:
 >       "machineType": "Standard_D2s_v5",
 >       "haZones": true,
 >       "autoScalerMin": 3,
->       "autoScalerMax": 20
+>       "autoScalerMax": 20,
+>       "labels": {
+>         "env": "prod",
+>         "team": "platform"
+>       },
+>       "annotations": {
+>         "owner": "team-platform",
+>         "cost-center": "12345"
+>       }
 >     },
 >     {
 >       "name": "worker-2",
@@ -565,7 +631,7 @@ See also [Assigning Workloads to Worker Node Pools](assigning-workloads-to-worke
 
 ## Administrators
 
-The *Administrators* parameter specifies the list of runtime administrators.
+The *Administrators* \(`administrators`\) parameter specifies the list of runtime administrators.
 
 **Administrators Parameter**
 
@@ -612,7 +678,7 @@ Updating
 </td>
 <td valign="top">
 
-None
+If you don't provide the parameter or provide an empty array during provisioning, the email address of the provisioning user is used.
 
 </td>
 <td valign="top">
@@ -633,6 +699,10 @@ See an example of the JSON input:
 >         "example_3@mail.com"
 >     ]
 > ```
+
+If you don't include `administrators` or provide an empty array in an update request, the existing list of administrators remains unchanged.
+
+To revoke all administrators, set the parameter to a list with a single entry. The entry does not have to correspond to an existing user.
 
 
 
@@ -1033,7 +1103,7 @@ See also [Tracking Kubeconfig and Cluster Associations in Kyma](tracking-kubecon
 
 ## Colocate Control Plane
 
-With the *Colocate Control Plane* parameter, you can specify if your control plane and worker nodes should be in the same region.
+With the *Colocate Control Plane* \(`colocateControlPlane`\) parameter, you can specify if your control plane and worker nodes should be in the same region.
 
 If you set it to `true`, it ensures the location of the control plane in the same region where your cluster's worker nodes are deployed. With this setting, you can control where your sensitive data is stored. If the control plane cannot be colocated in the selected region, the provisioning process fails. The error message offers you a list of regions supporting the control plane colocation.
 
@@ -1072,7 +1142,7 @@ Allowed Input
 
 *Colocate Control Plane*
 
-btp CLI name: `colocateControlPlan`
+btp CLI name: `colocateControlPlane`
 
 type: boolean
 
@@ -3368,7 +3438,7 @@ Also, the range for Services must not overlap with those used for nodes or Pods.
 </tr>
 </table>
 
-See the default JSON input for the *Networking* object:
+See the default JSON input for the `networking` object:
 
 > ### Sample Code:  
 > ```
@@ -3385,7 +3455,7 @@ See the default JSON input for the *Networking* object:
 
 ## OpenID Connect \(OIDC\)
 
-The *OpenID Connect* \(OIDC\) property can be configured in the following ways:
+The *OpenID Connect* \(OIDC\) \(`oidc`\) property can be configured in the following ways:
 
 -   As a list of `oidc` objects
 -   As a single `oidc` object
