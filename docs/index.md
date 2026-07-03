@@ -27,6 +27,8 @@
                 -   [Kyma Dashboard Command Palette](10-concepts/kyma-dashboard-command-palette-7542ffb.md)
                 -   [Troubleshooting for Kyma Dashboard](10-concepts/troubleshooting-for-kyma-dashboard-32d548c.md)
                     -   [Cannot Find Kyma Resource in Kyma Dashboard](10-concepts/cannot-find-kyma-resource-in-kyma-dashboard-107fcb6.md)
+            -   [Joule in Kyma Dashboard](10-concepts/joule-in-kyma-dashboard-10c7fb8.md)
+                -   [Practical Examples of Joule Problem-Solving Capabilities](10-concepts/practical-examples-of-joule-problem-solving-capabilities-e169e8b.md)
             -   [Kyma CLI](10-concepts/kyma-cli-292454b.md)
             -   [Availability Zones in the Kyma Environment](10-concepts/availability-zones-in-the-kyma-environment-a649bd9.md)
             -   [Kyma Runtime: Basic Concepts](10-concepts/kyma-runtime-basic-concepts-4a0dd09.md)
