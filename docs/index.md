@@ -2028,6 +2028,7 @@
             -   [Updating Kyma Environment Plans](50-administration-and-ops/updating-kyma-environment-plans-64fa95a.md)
             -   [Assigning Kyma Instances to IaaS Provider Accounts](50-administration-and-ops/assigning-kyma-instances-to-iaas-provider-accounts-ead08cd.md)
         -   [Provisioning and Updating Parameters in the Kyma Environment](50-administration-and-ops/provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md)
+            -   [Accessing Your Audit Log Data](50-administration-and-ops/accessing-your-audit-log-data-3f0002b.md)
             -   [Taints Configuration](50-administration-and-ops/taints-configuration-db28c29.md)
             -   [Custom OpenID Connect Configuration](50-administration-and-ops/custom-openid-connect-configuration-97fc95d.md)
         -   [Adding and Deleting a Kyma Module](50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c)
