@@ -35,6 +35,30 @@ Before diving into the different user and member management concepts, it's impor
 
 For more information, see [Platform Users](platform-users-4401316.md) and [Business Users](business-users-2e68494.md).
 
+
+
+## Exceptions
+
+There are some exceptions from the separation of platform and business users. Typical cases are the ABAP environment, which doesn't distinguish between these two types, and SAP Build Code or SAP Build applications, which developers currently access as business users.
+
+
+
+### ABAP Environment
+
+Typical cases are the ABAP environment, which doesn't distinguish between these two types, and SAP Build Code or SAP Build applications, which developers currently access as business users.
+
+The user and authorization concept used in the ABAP environment is completely decoupled and independent from the authorization concept of SAP BTP or within Cloud Foundry. The ABAP environment runs within the SAP BTP, Cloud Foundry environment. Therefore, administrators or developers need the right authorizations in Cloud Foundry to create the ABAP environment or other services, which get consumed in an application running in the ABAP environment.
+
+For more information, see [Administration and Operations in the ABAP Environment](../50-administration-and-ops/administration-and-operations-in-the-abap-environment-c4fd102.md).
+
+
+
+### Kyma Environment
+
+To enable a Kyma environment, you need the subaccount administrator role collection \(see [Role Collections and Roles in Global Accounts, Directories, and Subaccounts](role-collections-and-roles-in-global-accounts-directories-and-subaccounts-0039cf0.md)\). All other authorizations and trust are managed in the Kyma cluster.
+
+Kyma uses Kubernetes Role-Based Access Control \(RBAC\) and assures during provisioning that a user who creates and owns a particular runtime is given the cluster-admin role. Users with the cluster-admin role can define any additional cluster roles or use those defined in Kyma and bind them to other users from Kyma dashboard or with the kubectl CLI tool. See [Assign Roles in the Kyma Environment](../60-security/assign-roles-in-the-kyma-environment-148ae38.md). For recommendations on setting up roles and permissions in Kyma, see [Role-Based Access Control (RBAC) in Kyma](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/bb31080fd0474d38a050e32a7a7ed629.html "Assigning permissions in Kyma is based on the Kubernetes role-based access control (RBAC). It’s recommended that you start with separating the developers and operators of a cluster. Later, you can refine the role concept as required.") :arrow_upper_right:.
+
 **Related Information**  
 
 

@@ -43,3 +43,8 @@ Joule has the following capabilities in Kyma dashboard:
 -   Scope guard: Asks for clarification if your request is too broad or ambiguous, rather than performing unscoped queries to ensure you receive accurate and focused answers.
 -   Rate limiting: Allows up to 3,000 requests per minute to ensure fair usage. Once you reach the rate limit, subsequent requests return an error code until enough time passes for the call count to drop below the limit.
 
+**Related Information**  
+
+
+[Joule in SAP BTP, Kyma Runtime](https://help.sap.com/docs/joule/capabilities-guide/joule-in-sap-btp-kyma-runtime?locale=en-US&version=CLOUD)
+

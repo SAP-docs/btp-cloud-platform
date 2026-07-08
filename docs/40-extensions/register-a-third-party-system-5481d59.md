@@ -21,9 +21,9 @@ You are a global account administrator, or you are a system landscape administra
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-To add a third-party system to the list in the *System Landscape* \> *Systems* page, you need to create a system type for this third-party system. At this point you provide all the required details for this system type: its name, namespace, and provider. Then, you add systems of this new type. For third-party systems, this completes the registration process and you have your third-party system registered with SAP BTP. Even though the third-party system is registered directly, no status is displayed.
+To add a third-party system to the list in the *Systems* tab in the *System Landscape* \> *Systems* page, first you need go to the *System Types* tab to create a system type for this third-party system. At this point you provide all the required details for this system type: its name, namespace, and provider. Then, you add systems of this new type. For third-party systems, this completes the registration process and you have your third-party system registered with SAP BTP. Even though the third-party system is registered directly, no status is displayed.
 
-When you have this system added in the *Systems* page, you can select it and open its system details. There, you specify in the consumption bundles the APIs, and the events. A consumption bundle organizes a set of related APIs and events into a single group for consumption purposes and expresses information about how the APIs and events that it contains can be accessed. All APIs and events that are part of the same consumption bundle need to be accessible through the same set of credentials.
+When you have this system added in the *Systems* tab in the *Systems* page, you can select it and open its system details. There, you specify in the consumption bundles the APIs, and the events. A consumption bundle organizes a set of related APIs and events into a single group for consumption purposes and expresses information about how the APIs and events that it contains can be accessed. All APIs and events that are part of the same consumption bundle need to be accessible through the same set of credentials.
 
 > ### Note:  
 > You cannot migrate the added third-party systems between global accounts.
@@ -129,7 +129,7 @@ When you have this system added in the *Systems* page, you can select it and ope
 
 ## Results
 
-The system has been added as a record to the list on the *Systems* page in the SAP BTP cockpit and you have added the respective APIs or events.
+The system has been added as a record to the list on the *Systems* tab in the *Systems* page in the SAP BTP cockpit and you have added the respective APIs or events.
 
 If you no longer need it, you can remove the system depending on its status. See [Deregister or Removе a System](deregister-or-remov-a-system-0c6f498.md).
 

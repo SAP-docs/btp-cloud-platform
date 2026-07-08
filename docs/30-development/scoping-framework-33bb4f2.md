@@ -58,36 +58,12 @@ ESH: CDS Search Model
 <tr>
 <td valign="top">
 
-`JOBD`
-
-</td>
-<td valign="top">
-
-Technical Job Definition
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 `PCFN`
 
 </td>
 <td valign="top">
 
 Predefined Field: Extensible Node
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-`SAJC`
-
-</td>
-<td valign="top">
-
-Application Job Catalog Entry
 
 </td>
 </tr>

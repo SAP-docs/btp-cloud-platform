@@ -36,6 +36,8 @@ With the multi-availability zone option for an ABAP environment system inside a 
 -   The second database instance affects the costs for the ABAP persistence: the consumed HANA Compute Units \(HCUs\) increase by factor 2.
 
 
+To switch on the multi-availability zone option, set the parameter `multi_availability_zones` to `true`. See [Updating an ABAP System](../20-getting-started/updating-an-abap-system-7890ffa.md).
+
 > ### Note:  
 > The multi-availability zone option is based on the principles of the multi-availability zone architecture for SAP BTP *In-Metro Disaster Recovery* as described in [Resilience, High Availability, and Disaster Recovery](https://help.sap.com/docs/btp/sap-business-technology-platform/resilience-high-availability-and-disaster-recovery?version=Cloud).
 

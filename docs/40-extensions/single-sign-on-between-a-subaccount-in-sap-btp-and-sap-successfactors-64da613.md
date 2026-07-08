@@ -6,6 +6,9 @@ Use this procedure to configure the single sign-on \(SSO\) between SAP BTP and t
 
 When a user attempts to access SAP SuccessFactors for the first time, the system redirects the user to the identity provider for authentication. From then on, the user session is kept active, and the user is no longer prompted for credentials when trying to use the SAP SuccessFactors application. This is called single sign-on \(SSO\).
 
+> ### Note:  
+> For SAML-based single sign-on integrations, we recommend using Identity Authentication as the primary identity provider instead of using SAP SuccessFactors as the identity provider.
+
 
 
 ## Using Identity Authentication

@@ -13,7 +13,7 @@ Learn how to integrate ABAP Test Cockpit \(ATC\) checked systems and how to enab
 **Related Information**  
 
 
-[SAP\_COM\_0464](sap-com-0464-34e52b1.md "Learn how to establish a connection between the Analyze Custom Code/Custom Code Migration app running in an SAP BTP ABAP environment, with the customer's SAP S/4HANA or SAP S/4HANA Cloud Private Edition ABAP system.")
+[SAP\_COM\_0464](sap-com-0464-34e52b1.md "Learn how to establish a connection between the Analyze Custom Code/Custom Code Migration app running in an SAP BTP ABAP environment, with the customer's SAP ECC, SAP S/4HANA or SAP S/4HANA Cloud Private Edition ABAP system.")
 
 [SAP\_COM\_0B22](sap-com-0b22-02ca9d9.md "This document describes the configuration steps that have to be carried out by customers to enable the Code Explain functionality in the Analyze Custom Code/Custom Code Migration app on the SAP Fiori launchpad.")
 

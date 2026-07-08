@@ -742,7 +742,7 @@ Updating
 </td>
 <td valign="top">
 
-[Access to Audit Logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
+[e2e13bfaa2f54a4fb179f0f1f840353a.md\#loioe2e13bfaa2f54a4fb179f0f1f840353a\_\_section\_access\_to\_audit\_logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
 
 </td>
 </tr>
@@ -1115,7 +1115,7 @@ Updating
 </td>
 <td valign="top">
 
-[Access to Audit Logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
+[e2e13bfaa2f54a4fb179f0f1f840353a.md\#loioe2e13bfaa2f54a4fb179f0f1f840353a\_\_section\_access\_to\_audit\_logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
 
 </td>
 </tr>
@@ -1512,7 +1512,7 @@ Updating
 </td>
 <td valign="top">
 
-[Access to Audit Logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
+[e2e13bfaa2f54a4fb179f0f1f840353a.md\#loioe2e13bfaa2f54a4fb179f0f1f840353a\_\_section\_access\_to\_audit\_logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
 
 </td>
 </tr>
@@ -1859,7 +1859,7 @@ Updating
 </td>
 <td valign="top">
 
-[Access to Audit Logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
+[e2e13bfaa2f54a4fb179f0f1f840353a.md\#loioe2e13bfaa2f54a4fb179f0f1f840353a\_\_section\_access\_to\_audit\_logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
 
 </td>
 </tr>

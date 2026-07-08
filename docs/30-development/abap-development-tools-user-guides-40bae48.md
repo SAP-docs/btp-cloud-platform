@@ -4,6 +4,9 @@
 
 Get an overview of all available user guides for ABAP development tools.
 
+> ### Note:  
+> Certain features of this product require an additional license. For more information, see [SAP Joule for Developers, ABAP AI Capabilities](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/sap-joule-for-developers-abap-ai-capabilities?locale=en-US).
+
 **[ABAP Development Tools for Eclipse](https://help.sap.com/docs/abap-cloud/abap-development-tools-user-guide/about-abap-development-tools-user-guide?version=sap_btp)**
 
 This guide describes the tool set and functionality of [ABAP development tools for Eclipse](https://help.sap.com/docs/ABAP_DEVELOPMENT_TOOLS_FOR_ECLIPSE):
@@ -30,11 +33,7 @@ This guide describes the tool set and functionality of [ABAP development tools f
 -   ABAP RESTful Application Programming Model \(RAP\) supports end-to-end application development, including the implementation of business logic, services, and user interfaces.
 -   SAP Joule for Developers, ABAI AI capabilities extends ABAP development tools for Visual Studio Code with AI-powered development assistance that supports developers across the software development process. Its Agentic AI capabilities based on Model Context Protocol \(MCP\) tools enable AI agents to support and accelerate development tasks.
 
-    > ### Note:  
-    > Certain features of this product require an additional license. For more information, see [SAP Joule for Developers, ABAP AI Capabilities](https://help.sap.com/docs/abap-cloud/abap-development-tools-for-visual-studio-code/sap-joule-for-developers-abap-ai-capabilities?locale=en-US).
+**[AI in ABAP Cloud](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/generative-ai-in-abap-cloud?locale=en-US)**
 
-
-**[Generative AI in ABAP Cloud](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/generative-ai-in-abap-cloud?locale=en-US)**
-
-This guide describes how generative AI supports you in the end-to-end development for ABAP Cloud.
+This guide describes how AI supports you in the end-to-end development for ABAP Cloud: SAP Joule for Developers, ABAP AI capabilities is an integrated set of AI-based features that supports you in the end-to-end development using AI to enhance your developer experience. Agentic AI focuses on building goal-driven ABAP applications by using AI agents that execute development tasks with minimal human intervention through the open Model Context Protocol \(MCP\) standard. This enables complex development workflows to be automated and executed faster, increase your efficiency and reduce the total cost of development.
 

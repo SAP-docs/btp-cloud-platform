@@ -161,82 +161,6 @@ To remove your access control list, set `allowedCIDRs` to an empty list.
 
 
 
-<a name="loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs"/>
-
-## Access to Audit Logs
-
-With the *Access to Audit Logs* \(`auditLogAccess`\) parameter, you can gain direct read access to your own audit log data using the SAP Audit Log Retrieval API v2. When you enable the parameter, Kyma stores the required credentials in a Kubernetes Secret named `auditlog-read-credentials` in the `kyma-system` namespace of your cluster.
-
-> ### Caution:  
-> Enabling *Access to Audit Logs* is irreversible. Once you enable the feature, you cannot disable it.
-
-**Access to Audit Logs Parameter**
-
-
-<table>
-<tr>
-<th valign="top">
-
-Parameter
-
-</th>
-<th valign="top">
-
-Supported Operations
-
-</th>
-<th valign="top">
-
-Default Value
-
-</th>
-<th valign="top">
-
-Allowed Input
-
-</th>
-</tr>
-<tr>
-<td valign="top">
-
-*Access to Audit Logs*
-
-btp CLI name: `auditLogAccess`
-
-type: boolean
-
-</td>
-<td valign="top">
-
-Provisioning
-
-Updating
-
-</td>
-<td valign="top">
-
-*false*
-
-</td>
-<td valign="top">
-
-*true* or *false*
-
-</td>
-</tr>
-</table>
-
-See an example of the JSON input:
-
-> ### Sample Code:  
-> ```
-> "auditLogAccess": true
-> ```
-
-See also [Accessing Your Audit Log Data](accessing-your-audit-log-data-3f0002b.md).
-
-
-
 <a name="loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_Volume_Size"/>
 
 ## Additional Volume Size
@@ -1844,12 +1768,12 @@ Updating
 </td>
 <td valign="top" rowspan="20">
 
-`Standard_D2s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup>
+`Standard_D2s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup>
 
 </td>
 <td valign="top">
 
-`Standard_D2s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D2s_v5`\)
+`Standard_D2s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D2s_v5`\)
 
 </td>
 <td valign="top">
@@ -1866,7 +1790,7 @@ Updating
 <tr>
 <td valign="top">
 
-`Standard_D4s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D4s_v5`\)
+`Standard_D4s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D4s_v5`\)
 
 </td>
 <td valign="top">
@@ -1883,7 +1807,7 @@ Updating
 <tr>
 <td valign="top">
 
-`Standard_D8s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D8s_v5`\)
+`Standard_D8s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D8s_v5`\)
 
 </td>
 <td valign="top">
@@ -1900,7 +1824,7 @@ Updating
 <tr>
 <td valign="top">
 
-`Standard_D16s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D16s_v5`\)
+`Standard_D16s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D16s_v5`\)
 
 </td>
 <td valign="top">
@@ -1917,7 +1841,7 @@ Updating
 <tr>
 <td valign="top">
 
-`Standard_D32s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D32s_v5`\)
+`Standard_D32s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D32s_v5`\)
 
 </td>
 <td valign="top">
@@ -1934,7 +1858,7 @@ Updating
 <tr>
 <td valign="top">
 
-`Standard_D48s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D48s_v5`\)
+`Standard_D48s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D48s_v5`\)
 
 </td>
 <td valign="top">
@@ -1951,7 +1875,7 @@ Updating
 <tr>
 <td valign="top">
 
-`Standard_D64s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D64s_v5`\)
+`Standard_D64s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D64s_v5`\)
 
 </td>
 <td valign="top">
@@ -2203,12 +2127,12 @@ Updating
 </td>
 <td valign="top" rowspan="5">
 
-`Standard_D4s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup>
+`Standard_D4s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup>
 
 </td>
 <td valign="top">
 
-`Standard_D2s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D2s_v5`\)
+`Standard_D2s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D2s_v5`\)
 
 </td>
 <td valign="top">
@@ -2225,7 +2149,7 @@ Updating
 <tr>
 <td valign="top">
 
-`Standard_D4s^3`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D4s_v5`\)
+`Standard_D4s`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_abstract_reg_mts)</sup> \(`Standard_D4s_v5`\)
 
 </td>
 <td valign="top">

@@ -143,6 +143,10 @@ Value
 
 `IQAPI_CHECK_INFOSET`
 
+`FM_CCM_DYNPRO_READ`
+
+`SCI_GET_DDLS`
+
 </td>
 </tr>
 <tr>

@@ -60,7 +60,7 @@ Once you have classified the importance of your data and the required retention 
 
 -   **Optimizing the Delta Merge by Partitioning HANA Tables**
 
-    SAP HANA requires memory to perform delta merge operations on tables. If you expect a table in your SAP HANA database to grow considerably to **over 100 million records**, you should consider optimizing the delta merge by partitioning the table. If you choose a very selective partition key that is also used frequently as a filter criterion by the application, this may also increase query performance.
+    SAP HANA requires memory to perform delta merge operations on tables. If you expect a table in your SAP HANA database to grow considerably to **over 100 million records** \(the limit is 2<sup>31</sup> records\), you should consider optimizing the delta merge by partitioning the table. If you choose a very selective partition key that is also used frequently as a filter criterion by the application, this may also increase query performance.
 
     For more information about partitioning your table, see [Partition HANA Tables](partition-hana-tables-c2af316.md).
 

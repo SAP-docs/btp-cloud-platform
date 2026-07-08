@@ -46,7 +46,7 @@ Cloud Management Service
 </td>
 <td valign="top">
 
-**`central`:**Service plan for using SAP Cloud Management service APIs to manage your global accounts, subaccounts, directories, and entitlements.
+**`central`:** Service plan for using SAP Cloud Management service APIs to manage your global accounts, subaccounts, directories, and entitlements.
 
 </td>
 <td valign="top">
@@ -92,7 +92,7 @@ Cloud Management Service
 </td>
 <td valign="top">
 
-**`local`:**Service plan for using SAP Cloud Management service APIs to manage your environments and subscriptions to multitenant applications.
+**`local`:** Service plan for using SAP Cloud Management service APIs to manage your environments and subscriptions to multitenant applications.
 
 </td>
 <td valign="top">
@@ -123,7 +123,7 @@ Cloud Management Service
 </td>
 <td valign="top">
 
-**`central-viewer`:**Service plan for using SAP Cloud Management service APIs to read your global accounts, subaccounts, directories, and service entitlements and assignments.
+**`central-viewer`:** Service plan for using SAP Cloud Management service APIs to read your global accounts, subaccounts, directories, and service entitlements and assignments.
 
 </td>
 <td valign="top">
@@ -158,7 +158,7 @@ Cloud Management Service
 </td>
 <td valign="top">
 
-**`local-viewer`:**Service plan for using SAP Cloud Management service APIs to read your environments and subscriptions to SaaS multitenant applications.
+**`local-viewer`:** Service plan for using SAP Cloud Management service APIs to read your environments and subscriptions to SaaS multitenant applications.
 
 </td>
 <td valign="top">
