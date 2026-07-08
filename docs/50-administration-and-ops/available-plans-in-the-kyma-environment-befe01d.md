@@ -720,32 +720,6 @@ Updating
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-*Access to Audit Logs* [<sup>2</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_alicloud)
-
-btp CLI parameter: `auditLogAccess`
-
-</td>
-<td valign="top">
-
-Enables direct read access to your own audit log data using the SAP Audit Log Retrieval API v2.
-
-</td>
-<td valign="top">
-
-Provisioning
-
-Updating
-
-</td>
-<td valign="top">
-
-[e2e13bfaa2f54a4fb179f0f1f840353a.md\#loioe2e13bfaa2f54a4fb179f0f1f840353a\_\_section\_access\_to\_audit\_logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
-
-</td>
-</tr>
 </table>
 
 > ### Note:  
@@ -1090,32 +1064,6 @@ Updating
 <td valign="top">
 
 [Additional Volume Size](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_Additional_Volume_Size)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Access to Audit Logs*
-
-btp CLI parameter: `auditLogAccess`
-
-</td>
-<td valign="top">
-
-Enables direct read access to your own audit log data using the SAP Audit Log Retrieval API v2.
-
-</td>
-<td valign="top">
-
-Provisioning
-
-Updating
-
-</td>
-<td valign="top">
-
-[e2e13bfaa2f54a4fb179f0f1f840353a.md\#loioe2e13bfaa2f54a4fb179f0f1f840353a\_\_section\_access\_to\_audit\_logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
 
 </td>
 </tr>
@@ -1490,32 +1438,6 @@ Updating
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-*Access to Audit Logs* [<sup>4</sup>](available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__footnote_not_br_alicloud)
-
-btp CLI parameter: `auditLogAccess`
-
-</td>
-<td valign="top">
-
-Enables direct read access to your own audit log data using the SAP Audit Log Retrieval API v2.
-
-</td>
-<td valign="top">
-
-Provisioning
-
-Updating
-
-</td>
-<td valign="top">
-
-[e2e13bfaa2f54a4fb179f0f1f840353a.md\#loioe2e13bfaa2f54a4fb179f0f1f840353a\_\_section\_access\_to\_audit\_logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
-
-</td>
-</tr>
 </table>
 
 > ### Note:  
@@ -1834,32 +1756,6 @@ Provisioning
 <td valign="top">
 
 [Colocate Control Plane](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_shoot_and_seed)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-*Access to Audit Logs*
-
-btp CLI parameter: `auditLogAccess`
-
-</td>
-<td valign="top">
-
-Enables direct read access to your own audit log data using the SAP Audit Log Retrieval API v2.
-
-</td>
-<td valign="top">
-
-Provisioning
-
-Updating
-
-</td>
-<td valign="top">
-
-[e2e13bfaa2f54a4fb179f0f1f840353a.md\#loioe2e13bfaa2f54a4fb179f0f1f840353a\_\_section\_access\_to\_audit\_logs](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_access_to_audit_logs)
 
 </td>
 </tr>
