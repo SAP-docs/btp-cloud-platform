@@ -1314,7 +1314,6 @@
                     -   [Editing a Budget](50-administration-and-ops/managing-budgets-in-your-global-account-e115d5f.md#loiob66fa124aa754aa9a85a31922b315b0a)
                     -   [Deleting a Budget](50-administration-and-ops/managing-budgets-in-your-global-account-e115d5f.md#loiocefc83ee594a4e42ab1728a527abb1a4)
                     -   [Setting Up Budget Threshold Alerts](50-administration-and-ops/managing-budgets-in-your-global-account-e115d5f.md#loio80849f9e7f654041b026e22582c72b45)
-                -   [Analyzing Consumption Costs Using Joule in the Cockpit](50-administration-and-ops/analyzing-consumption-costs-using-joule-in-the-cockpit-476bf99.md)
                 -   [Configure Legal Information](50-administration-and-ops/configure-legal-information-f4e2b81.md)
                 -   [Enable Analytics in the Cockpit](50-administration-and-ops/enable-analytics-in-the-cockpit-757443e.md)
             -   [Managing Directories Using the Cockpit](50-administration-and-ops/managing-directories-using-the-cockpit-f495ac1.md)
