@@ -272,7 +272,7 @@ Configurations in the **manifest.yml** file:
 
     ```
     env:
-      JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomee/conf/server.xml': {'connector.maxPostSize':800000}]"
+      JBP_CONFIG_RESOURCE_CONFIGURATION: "['tomcat/conf/server.xml': {'connector.maxPostSize':800000}]"
     ```
 
 -   To configure the maximum number of request processing threads, use:

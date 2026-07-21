@@ -146,7 +146,7 @@ E0203 11:39:56.586030       1 this is an error example
 **Related Information**  
 
 
-[Configuring Keda Module](configuring-keda-module-3cc1f25.md "By default, the Keda module comes with the default configuration. You can change the configuration using the Keda CustomResourceDefinition (CRD). See how to configure the logging.level attribute, enable the Istio sidecar injection, change resource consumption, define custom annotations, or override the minimum TLS version.")
+[Configuring Keda Module](configuring-keda-module-3cc1f25.md "By default, the Keda module comes with the default configuration. You can change the configuration using the Keda CustomResourceDefinition (CRD). See how to configure the logging.level attribute, enable the Istio sidecar injection, change resource consumption, define custom annotations, override the minimum TLS version, or enable the KEDA HTTP Add-on.")
 
 [KEDA Logs](https://keda.sh/docs/2.18/operate/cluster/#logs)
 

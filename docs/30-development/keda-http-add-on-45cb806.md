@@ -93,9 +93,8 @@ Watches `HTTPScaledObject` resources and configures the Interceptor routing and 
 Enable the HTTP Add-on by annotating the `Keda` custom resource \(CR\):
 
 ```
-kubectl annotate keda default \
-  keda.kyma-project.io/addon-enabled=true \
-  keda.kyma-project.io/addon-namespace=keda
+kubectl annotate keda -n kyma-system default \
+  keda.kyma-project.io/addon-enabled=true
 ```
 
 
@@ -185,11 +184,11 @@ Set to *true* to enable Istio sidecar injection on the add-on `Deployment`s. Def
 To move the HTTP Add-on to a different namespace, update the `addon-namespace` annotation:
 
 ```
-kubectl annotate keda default \
+kubectl annotate keda -n kyma-system default \
   keda.kyma-project.io/addon-namespace=my-new-namespace --overwrite
 ```
 
-The controller detects the namespace change, removes only the HTTP Add-on resources from the old namespace \(other `Deployments`s `Services`, and so on in that namespace are not affected\), creates the new namespace, if it doesn't exist, with `istio-injection=enabled`, and installs the HTTP Add-on in the new namespace.
+The controller detects the namespace change, removes only the HTTP Add-on resources from the old namespace \(other `Deployments`, `Services`, and so on in that namespace are not affected\), creates the new namespace, if it doesn't exist, with `istio-injection=enabled`, and installs the HTTP Add-on in the new namespace.
 
 
 
@@ -200,11 +199,30 @@ The controller detects the namespace change, removes only the HTTP Add-on resour
 To disable the HTTP Add-on, run:
 
 ```
-kubectl annotate keda default \
+kubectl annotate keda -n kyma-system default \
   keda.kyma-project.io/addon-enabled=false --overwrite
 ```
 
 This removes all add-on resources from the cluster. Only the resources managed by the HTTP Add-on are removed. Other workloads in the namespace are not affected.
+
+
+
+<a name="loio45cb806a9667487e95df843736828d96__section_uninstall_protection_rcc"/>
+
+## Uninstall Protection
+
+The Keda Manager refuses to disable or uninstall the HTTP Add-on while any `HTTPScaledObject` resources exist in the cluster. This protects user workloads from losing their scaling controller and ending up with orphaned resources after the CRD is removed.
+
+If you try to disable the add-on or delete the Keda module CR while `HTTPScaledObject`s exist, the Keda CR's `Status.State` flips to *Warning* and the `Addon` condition is set to *False* with reason *HTTPAddonInUse*. The message tells you how many `HTTPScaledObject`s are blocking the uninstall.
+
+To find and remove them:
+
+```
+kubectl get httpscaledobjects -A
+          kubectl delete httpscaledobject -n <namespace> <name>
+```
+
+Once all `HTTPScaledObject`s are deleted, the Keda Manager retries automatically within about 30 seconds.
 
 
 

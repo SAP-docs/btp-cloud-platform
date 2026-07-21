@@ -22,8 +22,11 @@ To fulfill its part of the shared responsibilities, the Kyma team must be able t
 
 To register your Kyma cluster for PCI DSS, report a case in SAP for Me with the component `BC-CP-XF-KYMA`, providing the following details:
 
--   Your cluster ID
+-   Your subaccount ID
+-   You Kyma environment instance ID or APIServerURL
 -   Desired registration date
+
+You can find the subaccount ID, environment instance ID, and APIServerURL in your subaccount *Overview*.
 
 To withdraw your Kyma cluster from PCI DSS, report another case in SAP for Me. To learn how to report a case, see [Getting Support](https://help.sap.com/docs/btp/sap-business-technology-platform/btp-getting-support?version=Cloud#procedure).
 

@@ -11,10 +11,7 @@ Joule in Kyma dashboard is a conversational AI assistant that inspects your live
 To access Joule, go to your Kyma dashboard, and click the diamond icon <span class="SAP-icons-V5"></span> in the top navigation bar.
 
 > ### Note:  
-> Joule is not available in the following Kyma clusters:
-> 
-> -   With EU restricted access
-> -   Configured with a custom OpenID Connect \(OIDC\) client
+> Joule isn't available in Kyma clusters that are provisioned in regions with EU restricted access or configured with a custom OpenID Connect \(OIDC\) client. For a list of all EU Access regions, refer to [Regions for the Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/regions-for-kyma-environment?version=Cloud).
 
 When you send a message, Joule analyzes your query and the current dashboard context to decide what information to retrieve. It prioritizes live cluster data, such as resource status, configuration, and logs, over documentation. It asks for clarification if your request is too broad to answer accurately.
 
