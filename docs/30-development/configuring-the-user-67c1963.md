@@ -355,5 +355,22 @@ Value
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+`S_ADMI_FCD`
+
+</td>
+<td valign="top">
+
+`S_ADMI_FCD`
+
+</td>
+<td valign="top">
+
+`SCMD` \(Write\)
+
+</td>
+</tr>
 </table>
 

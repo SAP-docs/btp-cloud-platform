@@ -1075,6 +1075,38 @@ The application health check type
 <tr>
 <td valign="top">
 
+`health-check-interval`
+
+</td>
+<td valign="top">
+
+Module
+
+</td>
+<td valign="top">
+
+Write
+
+</td>
+<td valign="top">
+
+Specifies the interval, in seconds, between successive liveness health check invocations that the Cloud Controller performs against the application.
+
+</td>
+<td valign="top">
+
+n/a
+
+</td>
+<td valign="top">
+
+`health-check-interval: 15`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `host`
 
 </td>
@@ -1926,7 +1958,7 @@ Write
 </td>
 <td valign="top">
 
-The password used for authentication by the XS controller at the service broker when performing service-related requests. The parameter is mandatory if `create-service-broker: true`.
+The password used for authentication by the Cloud Controller at the service broker when performing service-related requests. The parameter is mandatory if `create-service-broker: true`.
 
 </td>
 <td valign="top">
@@ -2022,7 +2054,7 @@ Write
 </td>
 <td valign="top">
 
-The name of the user required for authentication by the XS controller at the service broker when performing service-related requests. The parameter is mandatory if `create-service-broker: true`.
+The name of the user required for authentication by the Cloud Controller at the service broker when performing service-related requests. The parameter is mandatory if `create-service-broker: true`.
 
 </td>
 <td valign="top">

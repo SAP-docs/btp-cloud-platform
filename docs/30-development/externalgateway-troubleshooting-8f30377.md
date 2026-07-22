@@ -10,7 +10,7 @@ If your `ExternalGateway` or the traffic that flows through it is not behaving a
 kubectl describe externalgateway <name> -n <namespace>
 ```
 
-If the `ExternalGateway` status is ***Ready=False***, jump to  <?sap-ot O2O class="- topic/xref " href="#section_readiness_conditions" text="ExternalGateway Readiness Conditions" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8f3037758a944db7ab1aea86962f040c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+If the `ExternalGateway` status is ***Ready=False***, jump to [ExternalGateway Readiness Conditions](externalgateway-troubleshooting-8f30377.md#loio8f3037758a944db7ab1aea86962f040c__section_readiness_conditions).
 
 Otherwise, match your symptom to one of the following failure modes.
 
@@ -34,7 +34,7 @@ The request never reaches the Kyma Istio ingress gateway. See the common root ca
 
 **Solution**
 
-1.  Check the `ExternalGateway` status first. If ***Ready=False***, see  <?sap-ot O2O class="- topic/xref " href="#section_readiness_conditions" text="ExternalGateway Readiness Conditions" desc="" xtrc="xref:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8f3037758a944db7ab1aea86962f040c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+1.  Check the `ExternalGateway` status first. If ***Ready=False***, see [ExternalGateway Readiness Conditions](externalgateway-troubleshooting-8f30377.md#loio8f3037758a944db7ab1aea86962f040c__section_readiness_conditions).
 2.  Verify that the `DNSEntry` for the internal domain exists and is ready:
 
     ```
@@ -75,7 +75,7 @@ Your request reaches the Kyma Istio ingress gateway, but the TLS handshake fails
 
 **Solution**
 
-1.  Check the `ExternalGateway` status. Look for ***Ready=False*** with the reason ***CASecretNotFound***, ***CASecretKeyAmbiguous***, or ***CASecretInvalid***. See  <?sap-ot O2O class="- topic/xref " href="#section_readiness_conditions" text="ExternalGateway Readiness Conditions" desc="" xtrc="xref:3" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8f3037758a944db7ab1aea86962f040c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+1.  Check the `ExternalGateway` status. Look for ***Ready=False*** with the reason ***CASecretNotFound***, ***CASecretKeyAmbiguous***, or ***CASecretInvalid***. See [ExternalGateway Readiness Conditions](externalgateway-troubleshooting-8f30377.md#loio8f3037758a944db7ab1aea86962f040c__section_readiness_conditions).
 2.  Inspect the CA Secret content:
 
     ```
@@ -103,7 +103,7 @@ A common root cause is that the `spec.region` of the `ExternalGateway` points to
 
 **Solution**
 
-1.  Check the `ExternalGateway` status. Look for ***Ready=False*** with the reason ***RegionNotFound*** or ***RegionHasNoSubjects***. See  <?sap-ot O2O class="- topic/xref " href="#section_readiness_conditions" text="ExternalGateway Readiness Conditions" desc="" xtrc="xref:4" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/8f3037758a944db7ab1aea86962f040c.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> .
+1.  Check the `ExternalGateway` status. Look for ***Ready=False*** with the reason ***RegionNotFound*** or ***RegionHasNoSubjects***. See [ExternalGateway Readiness Conditions](externalgateway-troubleshooting-8f30377.md#loio8f3037758a944db7ab1aea86962f040c__section_readiness_conditions).
 2.  Print the RegionsConfigMap and confirm your region has the expected subjects:
 
     ```

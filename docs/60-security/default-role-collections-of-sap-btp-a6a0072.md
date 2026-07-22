@@ -6,6 +6,8 @@ The following table displays the default role collections available with SAP BTP
 
 
 
+For more information about these role collections, see also the *Related Information*.
+
 **Default Role Collections Including Roles and Role Templates**
 
 
@@ -147,6 +149,60 @@ cmp!*<suffix\>*
 <td valign="top">
 
 Administrative access to systems and scenario-related resources. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Global Account Administrator
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+auditlog-management!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Read access to audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Global Account Administrator
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+auditlog-viewer-initial-content!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View audit logs 
 
 </td>
 </tr>
@@ -315,6 +371,87 @@ Administrative access to service brokers and environments on a subaccount level.
 <tr>
 <td valign="top">
 
+Subaccount Administrator
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+auditlog-management!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Read access to audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Subaccount Administrator
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+auditlog-viewer-initial-content!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Subaccount Administrator
+
+</td>
+<td valign="top">
+
+Destination Fragment Administrator 
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Manage destination fragments 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Global Account Viewer
 
 </td>
@@ -390,6 +527,60 @@ xsuaa!*<suffix\>*
 <td valign="top">
 
 Read-only access for authorizations, trusted identity providers, and users. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Global Account Viewer
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+auditlog-management!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Read access to audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Global Account Viewer
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+auditlog-viewer-initial-content!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View audit logs 
 
 </td>
 </tr>
@@ -531,6 +722,87 @@ Read-only access to service brokers and environments on a subaccount level
 <tr>
 <td valign="top">
 
+Subaccount Viewer
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+auditlog-management!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Read access to audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Subaccount Viewer
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+auditlog-viewer-initial-content!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Subaccount Viewer
+
+</td>
+<td valign="top">
+
+Destination Fragment Viewer 
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View destination fragments 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Subaccount Service Administrator
 
 </td>
@@ -660,6 +932,33 @@ destination-xsappname!*<suffix\>*
 <td valign="top">
 
 Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Fragment Administrator
+
+</td>
+<td valign="top">
+
+Destination Fragment Administrator 
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Manage destination fragments 
 
 </td>
 </tr>
@@ -1284,5 +1583,174 @@ Read-only access to service brokers and environments on a subaccount level.
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Certificate Instance Viewer 
+
+</td>
+<td valign="top">
+
+Destination\_Certificate\_Instance\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View destination certificates on instance level 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Fragment All Properties Administrator 
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_All\_Properties\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Allow inclusion of all properties in a fragment, even such properties that require the retype of other sensitive properties. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Fragment Instance Administrator 
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_Instance\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Manage destination fragments on instance level 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Fragment Instance Viewer 
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_Instance\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View destination fragments on instance level 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Destination Fragment Viewer 
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+View destination fragments 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+None
+
+</td>
+<td valign="top">
+
+Service Credentials Viewer 
+
+</td>
+<td valign="top">
+
+Service\_Credentials\_Viewer 
+
+</td>
+<td valign="top">
+
+service-manager!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Read-only access to service bindings including the credentials. 
+
+</td>
+</tr>
 </table>
+
+**Related Information**  
+
+
+[Role Collections and Roles in Global Accounts, Directories, and Subaccounts](../10-concepts/role-collections-and-roles-in-global-accounts-directories-and-subaccounts-0039cf0.md "SAP BTP provides a set of role collections to set up administrator access to your global account and subaccounts.")
+
+[User Roles in SAP BTP Connectivity](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/user-roles?version=Cloud)
 

@@ -261,6 +261,28 @@ NATS deploys a NATS cluster within the Kyma cluster. You can use it as a backend
 <tr>
 <td valign="top">
 
+Registry Cache
+
+`registry-cache`
+
+</td>
+<td valign="top">
+
+With the Registry Cache module, you can add a caching layer for container image registries, reducing outbound traffic to upstream registries and improving image pull performance.
+
+</td>
+<td valign="top">
+
+-   [Registry Cache Module](../30-development/registry-cache-module-cdca828.md)
+-   [GitHub repository: Registry Cache](https://github.com/kyma-project/registry-cache)
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Serverless
 
 `serverless`

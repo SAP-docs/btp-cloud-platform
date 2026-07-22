@@ -33,6 +33,8 @@ You can use the default role collections, but you can’t change or delete them.
 
 -   *Destination Administrator*
 
+-   *Destination Fragment Administrator*
+
 -   *Subaccount Service Administrator*
 
 
@@ -130,6 +132,30 @@ The *xsuaa\_admin* role template provides this role. You find the role template 
 <tr>
 <td valign="top">
 
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Read access to audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+View audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 System Landscape Administrator 
 
 </td>
@@ -169,6 +195,30 @@ Description
 <tr>
 <td valign="top">
 
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Read access to audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+View audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Cloud Connector Administrator 
 
 </td>
@@ -187,6 +237,18 @@ Destination Administrator
 <td valign="top">
 
 Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Fragment Administrator 
+
+</td>
+<td valign="top">
+
+Manage destination fragments
 
 </td>
 </tr>
@@ -336,6 +398,38 @@ Manage destination configurations, certificates and subaccount trust via the Des
 </tr>
 </table>
 
+If you assign the *Destination Fragment Administrator* role collection to a user, you grant the user administration permissions for the management of destination fragments for the SAP Destination service in a subaccount.
+
+**Destination Fragment Administrator Role Collection**
+
+
+<table>
+<tr>
+<th valign="top">
+
+Roles Included
+
+</th>
+<th valign="top">
+
+Description
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Fragment Administrator 
+
+</td>
+<td valign="top">
+
+Manage destination fragments 
+
+</td>
+</tr>
+</table>
+
 If you assign the *Subaccount Service Administrator* role collection to a user, you grant the user administration permissions for the Service Manager in a subaccount.
 
 **Subaccount Service Administrator Role Collection**
@@ -419,6 +513,30 @@ Role for global account members with read-only authorizations for core commercia
 <tr>
 <td valign="top">
 
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Read access to audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+View audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 User and Role Auditor 
 
 </td>
@@ -463,12 +581,48 @@ Description
 <tr>
 <td valign="top">
 
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Read access to audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+View audit logs 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Cloud Connector Auditor 
 
 </td>
 <td valign="top">
 
 View the data transmission tunnels used by the Cloud connector to communicate with back-end systems. 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Fragment Viewer 
+
+</td>
+<td valign="top">
+
+View destination fragments 
 
 </td>
 </tr>
@@ -756,6 +910,50 @@ destination-xsappname!*<suffix\>*
 <tr>
 <td valign="top">
 
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Global account and subaccount
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+auditlog-management!*<suffix\>*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+Global account and subaccount
+
+</td>
+<td valign="top">
+
+Auditlog\_Auditor 
+
+</td>
+<td valign="top">
+
+auditlog-viewer-initial-content!*<suffix\>*
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Cloud Connector Administrator 
 
 </td>
@@ -888,6 +1086,28 @@ destination-xsappname!*<suffix\>*
 <tr>
 <td valign="top">
 
+Destination Certificate Instance Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Certificate\_Instance\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Destination Certificate Viewer 
 
 </td>
@@ -987,6 +1207,116 @@ Subaccount
 <td valign="top">
 
 Destination\_Configuration\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Fragment Administrator 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Fragment All Properties Administrator 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_All\_Properties\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Fragment Instance Administrator 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_Instance\_Administrator 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Fragment Instance Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_Instance\_Viewer 
+
+</td>
+<td valign="top">
+
+destination-xsappname!*<suffix\>* 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Destination Fragment Viewer 
+
+</td>
+<td valign="top">
+
+Subaccount
+
+</td>
+<td valign="top">
+
+Destination\_Fragment\_Viewer 
 
 </td>
 <td valign="top">

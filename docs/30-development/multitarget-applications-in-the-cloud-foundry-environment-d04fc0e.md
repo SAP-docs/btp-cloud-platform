@@ -323,8 +323,6 @@ In addition to the features that are not supported by the Cloud Foundry environm
 
 -   Route services. See [https://docs.cloudfoundry.org/services/route-services.html](https://docs.cloudfoundry.org/services/route-services.html).
 
--   Health check interval. See [https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html](https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html).
-
 -   Metadata. See [https://docs.cloudfoundry.org/adminguide/metadata.html](https://docs.cloudfoundry.org/adminguide/metadata.html).
 
 -   Per-route options. See [https://docs.cloudfoundry.org/devguide/custom-per-route-options.html](https://docs.cloudfoundry.org/devguide/custom-per-route-options.html).

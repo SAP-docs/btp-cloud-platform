@@ -26,7 +26,7 @@ The ABAP class mentioned here is considered the main class of each application j
 
 [Creating the Job Template](creating-the-job-template-1f04ad2.md "")
 
-[Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ABAP development tools for Eclipse and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
+[Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 
 [Application Logs](application-logs-091bec9.md "You can use the Application Logs to display and check if any errors occurred during runtime.")
 

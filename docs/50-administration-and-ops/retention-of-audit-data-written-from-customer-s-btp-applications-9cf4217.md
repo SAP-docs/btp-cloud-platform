@@ -33,9 +33,7 @@ The functionality for writing customer-generated audit data as part of the **Aud
 -   Canada \(Toronto\)
 -   Europe \(Eemshaven\)
 -   Europe \(Frankfurt\)
-
 -   Europe \(Frankfurt, EU Access\)
-
 -   Europe \(Netherlands\)
 -   India \(Mumbai\)
 -   Israel \(Tel Aviv\)
@@ -44,10 +42,10 @@ The functionality for writing customer-generated audit data as part of the **Aud
 -   KSA \(Dammam – KSA Non-Regulated Customers\)
 -   KSA \(Dammam – KSA Regulated Customers\)
 -   Singapore
+-   South Korea \(Seoul\)
 -   Switzerland \(EU Access\)
 -   US Central \(IA\)
 -   US East \(VA\)
-
 -   US West \(WA\)
 
 If you want to use this functionality in another region, contact the Service owner to discuss the conditions for storing large volumes of audit data. **Audit Log service, premium edition** with its advanced functionalities is a commercialized consumption-based service plan. You can find the cost per Customer Written Volume stored in GB in [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/audit-log-service?commercialModel=cpea&tab=service_plan&region=all).

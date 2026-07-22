@@ -37,7 +37,7 @@ You have to connect your ABAP system via RFC. To do this, follow the steps descr
 After creating the communication arrangement, assign the business catalog `SAP_CA_BC_IC_LND_CAL_CA0_PC` **or** `SAP_CA_BC_IC_LND_CAL_CA1_PC` to schedule an application job. The application job is required to pull the data of the three related IMG activities via the connection. The check logic of the application job and the transaction prevent the scheduling and execution in clients where the selected customizing objects are not editable.
 
 > ### Note:  
-> Existing factory calendar customizing will be overwritten by the import. In case the automatic pull destination is configured, a warning is issued in the customizing maintenance UIs to prevent concurrent changes.
+> All existing factory calendar customizing will be overwritten by the import. In case the automatic pull destination is configured, a warning is issued in the customizing maintenance UIs to prevent concurrent changes.
 
 All changes are recorded on a task.
 
