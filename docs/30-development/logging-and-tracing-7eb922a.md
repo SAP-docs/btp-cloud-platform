@@ -93,34 +93,6 @@ SAP Java Buildpack integrates the [Cloud Foundry Java Logging Support](https://g
 
 
 
-5.  \(Optional\) Check the audit logs.
-
-    Changing the logging level of your application \(by using the **`set-logging-level`** command\) can be tracked in the audit log server. To enable audit logging, bind your Java application to an Audit Log service instance, with plan **oauth2**.
-
-    **NOTE:** For SpringBoot applications based on Java Main, you also need to add the following dependencies in the **`pom.xml`** file:
-
-    ```
-    
-    <dependency>
-      <groupId>com.sap.cp.auditlog</groupId>
-      <artifactId>audit-java-client-api</artifactId>
-      <version>${com.sap.cp.auditlog.audit-java-client.version}</version>
-    </dependency>
-    										
-    <dependency>
-      <groupId>com.sap.cp.auditlog</groupId>
-      <artifactId>audit-java-client-impl</artifactId>
-      <version>${com.sap.cp.auditlog.audit-java-client.version}</version>
-    </dependency>
-    										
-    <dependency>
-      <groupId>com.sap.cloud.sjb</groupId>
-      <artifactId>xs-env</artifactId>
-      <version>${com.sap.cloud.sjb.xs-env.version}</version>
-      <scope>runtime</scope>
-    </dependency>
-    ```
-
 
 **Related Information**  
 

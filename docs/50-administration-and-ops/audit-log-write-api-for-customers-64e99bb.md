@@ -303,6 +303,16 @@ The endpoints exposed for the *premium* service plan for the 4 types of audit lo
 
 
 
+### Request Encoding
+
+Declare the encoding in the Content-Type header:
+
+```
+Content-Type: application/json; charset=UTF-8
+```
+
+
+
 ### Response Status Codes
 
 The following response status codes can be returned from the Audit Log Write API:
@@ -747,7 +757,7 @@ Mandatory fields: `uuid`, `user`, `time`, `data`, `tenant`.
 
 ```
 curl --location --request POST 'https://api.auditlog.cf.<cf-domain>:6081/audit-log/oauth2/v2/security-events' \
---header 'Content-Type: application/json' \
+--header 'Content-Type: application/json; charset=UTF-8' \
 --header 'Authorization: Bearer <JWT-token-value>' \
 --data-raw '{
   "uuid": "<uuid-value>",
@@ -768,7 +778,7 @@ Mandatory fields: `object_id`, `uuid`, `user`, `tenant`, `time`, `attributes`.
 
 ```
 curl --location --request POST 'https://api.auditlog.cf.<cf-domain>:6081/audit-log/oauth2/v2/configuration-changes' \
---header 'Content-Type: application/json' \
+--header 'Content-Type: application/json; charset=UTF-8' \
 --header 'Authorization: Bearer <JWT-token-value>'\
 --data-raw '{
   "uuid": "<uuid-value>",
@@ -816,7 +826,7 @@ Mandatory fields: `object_id`, `user`, `tenant`, `time`, `attributes`.
 
 ```
 curl --location --request POST 'https://api.auditlog.cf.<cf-domain>:6081/audit-log/oauth2/v2/data-accesses' \
---header 'Content-Type: application/json' \
+--header 'Content-Type: application/json; charset=UTF-8' \
 --header 'Authorization: Bearer <JWT-token-value>'\
 --data-raw '{
   "uuid": "<uuid-value>",
@@ -876,7 +886,7 @@ Mandatory fields: `object_id`, `user`, `tenant`, `time`, `attributes`.
 
 ```
 curl --location --request POST 'https://api.auditlog.cf.<cf-domain>:6081/audit-log/oauth2/v2/data-modifications' \
---header 'Content-Type: application/json' \
+--header 'Content-Type: application/json; charset=UTF-8' \
 --header 'Authorization: Bearer <JWT-token-value>' \
 --data-raw '{
   "uuid": "<uuid-value>",
