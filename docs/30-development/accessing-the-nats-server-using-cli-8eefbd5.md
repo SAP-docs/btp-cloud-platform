@@ -25,7 +25,7 @@ Accessing certain resources in NATS requires [system account privileges](https:/
 
 ## Procedure
 
-1.  Get the credentials. Run:
+1.  To get the credentials, run:
 
     ```
     kubectl get secrets -n kyma-system eventing-nats-secret -ogo-template='{{index .data "resolver.conf"|base64decode}}'| grep 'user:'| tr -d '{}'

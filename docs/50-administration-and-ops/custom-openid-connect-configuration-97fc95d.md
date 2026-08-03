@@ -2,7 +2,7 @@
 
 # Custom OpenID Connect Configuration
 
-During SAP BTP, Kyma runtime provisioning or update, you can provide your custom Open ID Connect \(OIDC\) configuration as a list of `oidc` objects or as a single `oidc` object. You can also have no OIDC configuration.
+During SAP BTP, Kyma runtime provisioning or update, you can provide your custom Open ID Connect \(OIDC\) configuration as a list of `oidc` objects \(recommended\) or as a single `oidc` object. You can also have no OIDC configuration.
 
 <a name="concept_i2s_3j5_xfc"/>
 
@@ -10,7 +10,7 @@ During SAP BTP, Kyma runtime provisioning or update, you can provide your custom
 
 ## Configuring the OIDC Property as a List of `oidc` Objects
 
-Configure the `oidc` property as a list of `oidc` objects. In this way, you can define zero, one, or multiple OIDC configurations. When using the list of `oidc` objects, you must provide values for each element except for `requiredClaims`. By configuring the OIDC details yourself, you gain full visibility of your settings within the SAP BTP cockpit. For your convenience, in the SAP BTP cockpit, one `oidc` object has the predefined values filled in, but you can change them. For each additional `oidc` object, you must provide your own settings.
+It is recommended to configure the `oidc` property as a list of `oidc` objects. In this way, you can define zero, one, or multiple OIDC configurations. When using the list of `oidc` objects, you must provide values for each element except for `requiredClaims`. By configuring the OIDC details yourself, you gain full visibility of your settings within the SAP BTP cockpit. For your convenience, in the SAP BTP cockpit, one `oidc` object has the predefined values filled in, but you can change them. For each additional `oidc` object, you must provide your own settings.
 
 
 

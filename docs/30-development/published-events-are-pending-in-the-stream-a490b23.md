@@ -40,7 +40,7 @@ You need the latest version of [NATS CLI](https://github.com/nats-io/natscli) an
     kubectl port-forward -n kyma-system eventing-nats-0 4222
     ```
 
-2.  Run this shell script:
+2.  Run this Shell script:
 
     ```
     for consumer in $(nats consumer list -n sap) #  sap is the stream name

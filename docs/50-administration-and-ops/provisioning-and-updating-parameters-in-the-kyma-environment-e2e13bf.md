@@ -2681,7 +2681,7 @@ Updating
 
 `eu-west-2`
 
-`eu-south-1`<sup>[3](provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__footnote_non_ha_regions)</sup>
+`eu-south-1`
 
 `ca-central-1`
 
@@ -3221,9 +3221,6 @@ All Microsoft Azure regions. See [Region\*](provisioning-and-updating-parameters
 </td>
 </tr>
 </table>
-
-> ### Note:  
-> <sup>3</sup> This region offers fewer than three availability zones.
 
 
 

@@ -32,7 +32,7 @@ Because you're already logged into SAP BTP cockpit, Joule recognizes you and can
 
 Joule in SAP BTP cockpit is available in 8 languages: English, Chinese, Japanese, Korean, German, Portuguese, French, and Spanish.
 
-Joule automatically adopts the language settings in the cockpit. To change the language, navigate to the global account settings by selecting :gear: in your user menu. Select the *Language* tab and choose the language from the drop-down menu. Select *Save*.
+Joule automatically adopts the language settings in the cockpit. To change the language, navigate to your profile settings by clicking on your avatar and selecting :gear: in the user menu. Select the *Language* tab and choose the language from the drop-down menu. Select *Save*.
 
 When you return to Joule, it will first appear in the previous language. Joule will switch to your new language when you enter a message or select *New Conversation*.
 

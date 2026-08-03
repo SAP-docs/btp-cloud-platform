@@ -20,7 +20,7 @@ Configure a single Subscription to receive events of multiple types.
 
 ## Context
 
-To subscribe to multiple events, you need a Subscription custom resource \(CR\). The following example shows how to subscribe to events of two types: `order.received.v1` and `order.changed.v1`.
+To subscribe to multiple events, you must create a Subscription custom resource \(CR\). The following example shows how to subscribe to events of two types: `order.received.v1` and `order.changed.v1`.
 
 If you want to subscribe to more event types, add more types to your subscription.
 
@@ -59,7 +59,15 @@ If you want to subscribe to more event types, add more types to your subscriptio
 2.  Verify that the subscription is ready.
 
     -   In Kyma dashboard, the status must be ***READY***.
-    -   Alternatively, run `kubectl get subscriptions lastorder-sub -o=jsonpath="{.status.ready}"` and see if the response is ***true***.
+
+    -   Alternatively, run:
+
+        ```
+        kubectl get subscriptions lastorder-sub -o=jsonpath="{.status.ready}"
+        ```
+
+        The response must be ***true***.
+
 
 3.  Port-forward the Eventing Publisher Proxy to `localhost`, using port `3000`:
 

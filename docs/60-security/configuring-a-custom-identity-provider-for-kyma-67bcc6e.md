@@ -127,7 +127,7 @@ Your Kyma environment is instantiated with a custom IdP.
 
 [Authentication in the Kyma Environment](authentication-in-the-kyma-environment-85200d8.md "To authenticate in the Kyma environment, you can either use the default identity provider (IdP) or set up a custom identity provider.")
 
-[Custom OpenID Connect Configuration](../50-administration-and-ops/custom-openid-connect-configuration-97fc95d.md "During SAP BTP, Kyma runtime provisioning or update, you can provide your custom Open ID Connect (OIDC) configuration as a list of oidc objects or as a single oidc object. You can also have no OIDC configuration.")
+[Custom OpenID Connect Configuration](../50-administration-and-ops/custom-openid-connect-configuration-97fc95d.md "During SAP BTP, Kyma runtime provisioning or update, you can provide your custom Open ID Connect (OIDC) configuration as a list of oidc objects (recommended) or as a single oidc object. You can also have no OIDC configuration.")
 
 [OpenID Connect \(OIDC\)](../50-administration-and-ops/provisioning-and-updating-parameters-in-the-kyma-environment-e2e13bf.md#loioe2e13bfaa2f54a4fb179f0f1f840353a__section_OIDC)
 

@@ -2123,6 +2123,114 @@ Simplify integration via APIs.
 <tr>
 <td valign="top">
 
+[SAP Direct Tax Management](https://help.sap.com/docs/SAP_DIRECT_TAX_MANAGEMENT) 
+
+</td>
+<td valign="top">
+
+Manage your SAP Direct Tax Management inventory with ease.
+
+</td>
+<td valign="top">
+
+-   LOD-PER-DTM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   AWS
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Direct Tax Management](https://help.sap.com/docs/SAP_DIRECT_TAX_MANAGEMENT) 
+
+</td>
+<td valign="top">
+
+Manage your SAP Direct Tax Management inventory with ease.
+
+</td>
+<td valign="top">
+
+-   LOD-PER-DTM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Dynatrace Agent Activation](https://help.sap.com/viewer/p/DYNATRACE_AGENT_ACTIVATION) 
 
 </td>

@@ -27,7 +27,7 @@ For a Subscription custom resource \(CR\), the fully qualified event name follow
 
 An event type consists of the following components:
 
--   Event: Typically, has two or three segments separated by a dot \(`.`\); for example, `order.created` or `Account.Root.Created`
+-   Event: Typically, has two or three segments separated by a dot \(`.`\), like `order.created` or `Account.Root.Created`
 -   Version: A version identifier, typically `v1`
 
 For publishers, the event type takes these sample forms:
@@ -45,7 +45,11 @@ The Eventing Publisher Proxy modifies event names to filter out prohibited chara
 
 If an event name contains prohibited characters, the Eventing Publisher Proxy removes these characters and uses the cleaned name for internal processing and routing. For example, if an event type is `order.payment*success.v1`, the Eventing module cleans it to `order.paymentsuccess.v1`.
 
-To check the Subscription's cleaned event type, run: `kubectl get subscriptions {SUBSCRIPTION_NAME} -o=jsonpath="{.status.types}"`
+To check the Subscription's cleaned event type, run:
+
+```
+kubectl get subscriptions {SUBSCRIPTION_NAME} -o=jsonpath="{.status.types}"
+```
 
 This cleanup happens internally; you can still publish and subscribe using the original event names \(with prohibited characters\). However, the Eventing module processes the cleaned version.
 

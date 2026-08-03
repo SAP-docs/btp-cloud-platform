@@ -24,7 +24,7 @@ Follow these steps to detect the source of the problem:
 
 
 
-### 1. Verify that the Eventing module is healthy
+### 1. Verify That the Eventing Module Is Healthy
 
 1.  Check the state of the `Eventing` CR:
 
