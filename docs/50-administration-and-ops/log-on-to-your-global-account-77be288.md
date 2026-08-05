@@ -18,6 +18,10 @@ For more information, see [2669325 - How to add a user as a Global Account admin
 
 
 
+## Context
+
+
+
 <a name="loio77be28886328492086ab07c003cb8d37__steps_w21_1ns_ndb"/>
 
 ## Procedure

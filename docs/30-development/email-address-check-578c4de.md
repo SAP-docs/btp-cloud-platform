@@ -2,7 +2,11 @@
 
 # Email Address Check
 
-The class `CL_MAIL_ADDRESS` implements the interface `IF_MAIL_ADDRESS` and allows the user to check if it contains a syntactic valid email address in the input string according to the standard RFC 5322.
+
+
+## Email Address Validation
+
+The class `CL_MAIL_ADDRESS` implements the interface`IF_MAIL_ADDRESS` and enables the user to validate the provided email address. This class checks whether the provided email address is syntactically valid according to the RFC 5322 standard.
 
 
 

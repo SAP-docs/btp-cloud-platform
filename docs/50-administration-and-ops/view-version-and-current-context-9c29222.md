@@ -6,6 +6,10 @@ To find out the current context you’re working in, run the command `btp --info
 
 
 
+## Context
+
+
+
 ## Procedure
 
 Use `btp --info` or just `btp`.

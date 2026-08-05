@@ -258,7 +258,7 @@ If you need support or experience issues, please report an incident under compon
 **Related Information**  
 
 
-[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Get an overview of available business catalogs and their restrictions.")
+[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Find out which business catalogs are required to access the IAM administration apps and what restrictions apply.")
 
 [Maintain Communication Users](maintain-communication-users-eef80dd.md "You can use this app to create and edit communication users. Communication users are used by solutions to authenticate themselves to be able to post data.")
 

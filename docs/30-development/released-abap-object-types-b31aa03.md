@@ -300,6 +300,18 @@ Dictionary Tuning: Entities Buffer
 <tr>
 <td valign="top">
 
+DTIX
+
+</td>
+<td valign="top">
+
+Entity Index
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 DTEL
 
 </td>
@@ -510,6 +522,18 @@ RONT
 <td valign="top">
 
 SAP Object Type
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+RVBC
+
+</td>
+<td valign="top">
+
+Review Booklet Configuration Model
 
 </td>
 </tr>
@@ -756,6 +780,18 @@ Service Definition
 <tr>
 <td valign="top">
 
+SUCO
+
+</td>
+<td valign="top">
+
+Authorization Default Variant
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SUSH
 
 </td>
@@ -798,6 +834,18 @@ TABL
 <td valign="top">
 
 Table Definition
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TRAN
+
+</td>
+<td valign="top">
+
+Transaction
 
 </td>
 </tr>
@@ -880,10 +928,4 @@ Transformation
 -   Open transport requests for any of the imported ABAP objects must be released before they can be changed. Otherwise, they get locked.
 
 
-
-<a name="loiob31aa03640b940d5981ce2af1cd0a019__section_sxt_ttv_qjb"/>
-
-## Known Issues
-
--   Changes in table definitions could lead to data loss.
 

@@ -112,6 +112,8 @@ A partner account is an enterprise account that enables you to build application
 
 
 
+
+
 To become a partner, you need to fill in an application form and then sign your partner contract. You will be assigned to a partner account with the respective resources. To apply for the partner program, visit [https://partneredge.sap.com/content/partnerregistration/en\_us/registration.html?partnertype=BLD&engagement=0002&build=1](https://partneredge.sap.com/content/partnerregistration/en_us/registration.html?partnertype=BLD&engagement=0002&build=1). You will receive a welcome mail with further information afterwards.
 
 General information about the partner program is available on[https://www.sap.com/partners/partner-program.html](https://www.sap.com/partners/partner-program.html) .

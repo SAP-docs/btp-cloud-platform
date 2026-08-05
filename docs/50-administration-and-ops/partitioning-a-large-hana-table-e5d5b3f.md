@@ -6,6 +6,13 @@ Break down large columnar tables into partitions before the SAP HANA database th
 
 
 
+## Context
+
+> ### Note:  
+> Using this app may cause an application downtime because the table is locked and inserts are not possible.
+
+
+
 <a name="loioe5d5b3fe71614a1d8f4fc80e9c14a6cb__PartitioningLargeTables_steps"/>
 
 ## Procedure

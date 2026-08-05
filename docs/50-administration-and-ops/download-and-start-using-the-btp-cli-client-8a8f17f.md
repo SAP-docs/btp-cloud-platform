@@ -41,6 +41,10 @@ There are various ways of downloading the client for each operating system, as e
 
 
 
+## Context
+
+
+
 ## Procedure
 
 1.  To get the btp CLI client, you can either run the installation script or download the client manually.
@@ -125,6 +129,10 @@ There are various ways of downloading the client for each operating system, as e
 
 
 
+## Context
+
+
+
 <a name="loio6c48b6dbd6f744778e4389f935a3e554__steps_pvc_nm5_ldc"/>
 
 ## Procedure
@@ -206,6 +214,10 @@ There are various ways of downloading the client for each operating system, as e
 <!-- loioe1caa5f29fb340e797cc13383451dcf9 -->
 
 ## Get the btp CLI Client for Linux \(amd64 and arm64\)
+
+
+
+## Context
 
 
 

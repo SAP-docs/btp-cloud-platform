@@ -55,6 +55,8 @@ Some applications can be accessed using a URL that includes a query parameter to
 > ### Example:  
 > `https://application.cfapps.eu10.hana.ondemand.com/?sap_idp=some-origin-key`
 
+For information about how to create such URLs, see [Create URLs to Access Applications with Specific Identity Providers](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/create-url-to-access-saml-oidc-application-with-specific-identity-provider?version=Cloud).
+
 Options
 
 1.  Make sure all users access applications with such URLs.

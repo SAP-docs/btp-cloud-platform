@@ -8,5 +8,5 @@ When using SAP BTP ABAP environment as central check system, you will use the **
 
 To use this SAP Fiori app, your SAP administrator must enable the app provide access for the relevant users. In addition, you also need to establish an RFC connection for the Cloud Connector. This enables you to access the on-premise system as checked system from the ABAP environment as central check system remotely.
 
-To find out more about this configuration, see [Configuring Remote ATC Using a Central Check System](https://help.sap.com/docs/btp/sap-business-technology-platform/configuring-remote-atc-using-central-check-system?state=DRAFT&version=Dev).
+To find out more about this configuration, see [Configuring Remote ATC Using a Central Check System](https://help.sap.com/docs/btp/sap-business-technology-platform/configuring-remote-atc-using-central-check-system).
 

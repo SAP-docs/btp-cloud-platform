@@ -12,6 +12,8 @@ Send mails using the Simple Message Transfer Protocol \(SMTP\).
 
 It is necessary to complete the communication scenario [Integrating Outbound Emails Using SMTP](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/integrating-outbound-emails-using-smtp?locale=en-US&version=Cloud).
 
+Verify if the email address checks are activated, as described in [Configuration of the System Email Outbound](configuration-of-the-system-email-outbound-26f9400.md). Enabling these checks helps to ensure sender and recipient address validation, improves delivery reliability, and simplifies compliance, especially in non-productive systems.
+
 
 
 <a name="copya3d3f38de12b430bb670e418e7e66bad__section_u1r_zjg_slb"/>

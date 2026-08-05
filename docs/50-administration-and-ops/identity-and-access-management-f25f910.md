@@ -57,7 +57,7 @@ For more information, see sections *Maintain Business Users* and *Business Catal
 
 [Business Role Templates](business-role-templates-223dfd3.md "The app provides a summary of business role templates delivered by SAP and helps determine if adaptations are needed after an upgrade.")
 
-[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Get an overview of available business catalogs and their restrictions.")
+[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Find out which business catalogs are required to access the IAM administration apps and what restrictions apply.")
 
 [Maintain Deleted Business Users](maintain-deleted-business-users-a904bdd.md)
 

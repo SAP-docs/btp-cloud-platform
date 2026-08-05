@@ -628,7 +628,7 @@ You can also extend module hooks through the extension descriptor. To do so, add
 
 [Defining Multitarget Application Deployment Descriptors for Cloud Foundry](defining-multitarget-application-deployment-descriptors-for-cloud-foundry-f48880b.md)
 
-[Defining MTA Extension Descriptors](defining-mta-extension-descriptors-50df803.md)
+[Defining MTA Extension Descriptors](defining-mta-extension-descriptors-50df803.md "MTA extension descriptors are YAML files that complement deployment descriptors by providing environment-specific or deployment-specific data such as scaling configurations and credentials. They enable deploying the same MTA archive with different configurations by adding or overwriting parameters and properties without modifying the original archive.")
 
 [Legacy Blue-Green Deployment](legacy-blue-green-deployment-764308c.md "Use the legacy blue-green deployment strategy of multitarget applications.")
 

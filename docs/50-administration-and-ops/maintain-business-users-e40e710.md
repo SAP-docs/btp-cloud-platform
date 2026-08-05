@@ -48,7 +48,7 @@ If you need support or experience issues, please report an incident under compon
 **Related Information**  
 
 
-[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Get an overview of available business catalogs and their restrictions.")
+[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Find out which business catalogs are required to access the IAM administration apps and what restrictions apply.")
 
  <?sap-ot O2O class="- topic/link " href="b17542423e9c45f3a258832b96dd7ce2.xml" text="" desc="" xtrc="link:2" xtrf="file:/home/builder/src/dita-all/jjq1673438782153/loio2080d0faf9d84ce6aa14caa4caa32935_en-US/src/content/localization/en-us/e40e710321c74f28916affa9ae984bce.xml" output-class="" outputTopicFile="file:/home/builder/tp.net.sf.dita-ot/2.3/plugins/com.elovirta.dita.markdown_1.3.0/xsl/dita2markdownImpl.xsl" ?> 
 

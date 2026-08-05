@@ -10,6 +10,15 @@ SCIM stands for System for Cross-domain Identity Management. It is an open stand
 
 You can use this interface provided by the communication scenario `SAP_COM_0465` to maintain and retrieve business users in your Cloud system and assign business roles and business user groups to them.
 
+> ### Caution:  
+> The *userType* attribute in the SCIM User payload supports only a predefined set of values.
+> 
+> If the *userType* attribute is not provided, it will default to *Employee*.
+> 
+> Any value other than the supported ones will result in a processing error.
+> 
+> Do not send unsupported user type values. If required, map existing user type values from your source system to one of the supported values before calling the SCIM interface.
+
 
 
 For more information about SCIM in general, see [System for cross-domain Identity Management](https://simplecloud.info/).

@@ -20,7 +20,7 @@ This app provides the following key features:
 
 -   Display of summary information, the source code, and the call stack for each ABAP runtime error that has occurred
 
--   Option to navigate to ABAP development tools for Eclipse \(ADT\) to fix the error or to display the error in the Web browser \(HTML\)
+-   Option to navigate to ABAP development tools \(ADT\) to fix the error or to display the error in the Web browser \(HTML\)
 
 
 

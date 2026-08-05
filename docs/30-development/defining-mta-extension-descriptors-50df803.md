@@ -2,17 +2,14 @@
 
 # Defining MTA Extension Descriptors
 
-The Multitarget Application \(МТА\) extension descriptor is a YAML file that contains data complementary to the deployment descriptor \(from MTA archive\). It has a structure similar to the one of the deployment descriptor, and you will normally find it placed outside of the MTA archive.
+MTA extension descriptors are YAML files that complement deployment descriptors by providing environment-specific or deployment-specific data such as scaling configurations and credentials. They enable deploying the same MTA archive with different configurations by adding or overwriting parameters and properties without modifying the original archive.
 
-The data can be environment-specific or deployment-specific, for example, application scaling setup or credentials depending on the user who performs the deployment. This allows you to use the one and the same unmodifiable MTA archive and deploy it with different extension descriptors, resulting in different setups.
-
-When you are deploying an MTA, you can provide several extension descriptors. The descriptors in the chain are considered in order, with each descriptor having a higher priority than the one it extends.
+The multitarget application \(МТА\) extension descriptor has a structure similar to the one of the deployment descriptor, and you will normally find it placed outside of the MTA archive.
 
 > ### Note:  
 > The format and available options within the extension descriptor may change with newer versions of the MTA specification. You must always specify the schema version option when defining an extension descriptor to inform the SAP BTP which MTA specification version should be used. Furthermore, the schema version used within the extension descriptor and the deployment descriptor should always be the same.
 
-> ### Note:  
-> Each extension descriptor is defined in a separate file with an extension `.mtaext`.
+When you are deploying an MTA, you can provide several extension descriptors. The descriptors in the chain are considered in order, with each descriptor having a higher priority than the one it extends. Each extension descriptor is defined in a separate file with an extension `.mtaext`.
 
 In the examples below, we have a deployment descriptor, which has already been defined, and several extension descriptors.
 
@@ -95,7 +92,6 @@ When you deploy the same MTA in combination with the two MTA extension descripto
     -   Overwrites the value of the parameter `instances`. It becomes equals to 5
     -   Adds a new parameter `disk-quota` that equals to 10GB
 
-
 -   …
 -   Creates a Cloud Foundry application, which runs on 5 instances, each with 4GB of memory and 10GB of disk space
 
@@ -167,7 +163,7 @@ In some cases, there are operation-level parameters \(command-line arguments\) t
 
 
 
-**What is possible to do with an extension descriptor?**
+## Purpose and Scope of the Extension Descriptor
 
 You can do the following using an extension descriptor:
 
@@ -188,11 +184,7 @@ You cannot use an extension descriptor to:
 **Related Information**  
 
 
-[Defining MTA Deployment Descriptors for the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/ef90452321f84b43af8d14d4012aefe0.html "") :arrow_upper_right:
-
-[Defining Multitarget Application Archives](defining-multitarget-application-archives-33a0e0e.md "You package the MTA deployment descriptor and module binaries in an MTA archive. You can manually do so as described below, or alternatively use the Cloud MTA Build tool.")
-
-[MTA Module Types, Resource Types, and Parameters for Applications in the Neo Environment](https://help.sap.com/viewer/ea72206b834e4ace9cd834feed6c0e09/Cloud/en-US/f1caa871360c40e7be7ce4264ab9c336.html "") :arrow_upper_right:
+[Defining Multitarget Application Archives](defining-multitarget-application-archives-33a0e0e.md "You package the MTA deployment descriptor and module binaries in an MTA archive. You can manually do so as described below, or alternatively use the Cloud MTA Build Tool.")
 
 [The Multitarget Application Model v.2](https://help.sap.com/doc/multitarget-application-modelv2/Cloud/en-US/The%20Multitarget%20Application%20Model.pdf)
 

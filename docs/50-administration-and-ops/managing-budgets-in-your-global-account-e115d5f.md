@@ -54,6 +54,10 @@ Access and manage your global account's budgets in SAP BTP cockpit. Monitor spen
 
 
 
+## Context
+
+
+
 ## Procedure
 
 1.  Open SAP BTP cockpit.
@@ -83,6 +87,8 @@ Access and manage your global account's budgets in SAP BTP cockpit. Monitor spen
 <!-- loioc5cffe4fd7c44160b6266d5924f451aa -->
 
 ## Understanding the Budget Settings
+
+
 
 
 
@@ -233,6 +239,10 @@ Each global account is allowed up to 30 active budgets. Active budgets have an e
 
 
 
+## Context
+
+
+
 ## Procedure
 
 1.  In the *Budgets* tab, click *Create*.
@@ -272,6 +282,10 @@ Viewing a budget provides detailed information about the budget's configuration 
 
 
 
+## Context
+
+
+
 ## Procedure
 
 In the *Budgets* tab, click on a budget to display more details.
@@ -292,6 +306,10 @@ Editing a budget allows you to make changes to the budget's settings.
 > When you make changes to an existing budget, previously sent alerts may not accurately reflect the new budget settings.
 > 
 > Any changes you make to budget amount will trigger alerts from the current month onward, not retroactively.
+
+
+
+## Context
 
 
 
@@ -325,6 +343,10 @@ Before deleting a budget, we recommended that you first check with the user that
 
 
 
+## Context
+
+
+
 ## Procedure
 
 1.  Go to the *Budgets* tab.
@@ -341,6 +363,8 @@ Before deleting a budget, we recommended that you first check with the user that
 ## Setting Up Budget Threshold Alerts
 
 Besides regularly checking the status and history graphs of active budgets for up-to-date information on spending, you can also configure alerts to notify relevant users and/or channels in your organization when a budget's threshold is exceeded.
+
+
 
 
 

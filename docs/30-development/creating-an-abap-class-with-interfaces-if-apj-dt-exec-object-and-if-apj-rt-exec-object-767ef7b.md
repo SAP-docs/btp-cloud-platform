@@ -4,8 +4,12 @@
 
 Find out how to run business logic in an application job using an ABAP class that implements interfaces `IF_APJ_DT_EXEC_OBJECT` and `IF_APJ_RT_EXEC_OBJECT`.
 
-> ### Note:  
-> Note that this is a legacy interface. Don't use it for new developments. If you use this interface, you only have limited options during the editing of the job catalog entry.
+> ### Caution:  
+> **Obsolete - Legacy Approach**
+> 
+> These are legacy interfaces. If you use them, you have limited options when editing the application job catalog entry. Don't use these interfaces for new developments. Instead, use the interface `IF_APJ_RT_RUN`. We recommend that you adopt the new interface whenever appropriate. Enhancements and new features are implemented solely with the new interfaces. As a result, runtime APIs or UIs for application jobs built with the new interface provide better results and features compared to application jobs built with the old interfaces.
+> 
+> Best practice → [Creating an ABAP Class with Interface IF\_APJ\_RT\_RUN](creating-an-abap-class-with-interface-if-apj-rt-run-79bd2d9.md)
 
 If you want to run the business coding of your application in an application job, you can create an ABAP class which implements the interfaces`IF_APJ_DT_EXEC_OBJECT` and `IF_APJ_RT_EXEC_OBJECT` and put the coding into this class. It's not recommended to use this possibility for new developments, because it offers limited functionality only.
 

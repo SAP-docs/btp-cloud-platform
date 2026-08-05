@@ -6,6 +6,18 @@ Many business applications use units of measurement in their business processes.
 
 We provide a subset of common standardized units, dimensions, and ISO codes for use as predelivered content. In addition, you need to define customer-owned units and dimensions in customer applications.
 
+> ### Note:  
+> We recommend that you maintain units of measurement using the following configurations of the *Custom Business Configurations* SAP Fiori app:
+> 
+> -   *Units of Measurement*
+> 
+> -   *Dimensions for Units of Measurement*
+> 
+> -   *ISO Codes for Units of Measurement*
+> 
+> 
+> For more information, see [Configure Units of Measurement](../50-administration-and-ops/configure-units-of-measurement-7d768f1.md) and [Custom Business Configurations App](../50-administration-and-ops/custom-business-configurations-app-76384d8.md).
+
 
 
 <a name="loio8961c2c4cebf457f95fb080a736babdc__section_lwd_lw5_plb"/>
@@ -33,19 +45,19 @@ UoMs are used across applications. An initial set of UoMs is delivered in the sy
 
 ### Critical Fields
 
-**Critical Fields**
+****
 
 
 <table>
 <tr>
 <th valign="top">
 
-For...
+Critical Fields for...
 
 </th>
 <th valign="top">
 
-Critical Fields
+Description
 
 </th>
 </tr>

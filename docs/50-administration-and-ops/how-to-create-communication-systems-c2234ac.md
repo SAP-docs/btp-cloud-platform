@@ -92,9 +92,22 @@ To create a communication system perform the following steps:
 
     -   *SAML Bearer Assertion Provider*
 
-        Before you can authenticate using SAML2 Bearer assertions transmitted via the authorization header, you have to configure a trusted relationship to the required *SAML Identity Provider* \(token issuer\).
+        Before you can authenticate using SAML2 Bearer assertions transmitted via the authorization header, you have to configure a trusted relationship to the required *SAML Identity Provider* \(token issuer\). Proceed as follows:
 
-        Upload the signing certificate of the trusted provider and define the provider name.
+        1.  Navigate to your *BTP Cockpit*subaccount
+        2.  Go to *Connectivity* \> *Destination Trust* \> *SAML IDP Trust Configuration* \> *Active Trust Certificate* 
+        3.  Choose *Export* to download the signing certificate of the SAML Identity Provider.
+
+        Upload the signing certificate of the trusted provider and define the provider name in your ABAP system. Proceed as follows:
+
+        1.  Open the *Communication Systems* app.
+        2.  Create a new communication system or open an existing one.
+        3.  On the *General* tab, activate the *SAML Bearer Assertion Provider* switch.
+        4.  Choose *Upload Signing Certificate* and upload the certificate that you exported from the SAP BTP Cockpit.
+        5.  After uploading, locate the newly displayed *Signing Certificate Subject* field.
+        6.  Copy the *CN \(Common Name\)* value from the certificate subject.
+        7.  Paste this value into the *SAML Bearer Issuer* field.
+        8.  Save your changes.
 
         Define the required *User ID Mapping Mode* if it is unspecified and you don't use e-mail addresses, but either logon name or global user ID.
 

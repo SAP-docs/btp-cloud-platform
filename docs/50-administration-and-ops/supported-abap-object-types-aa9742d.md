@@ -2034,6 +2034,23 @@ SOAP Provider Model
 <tr>
 <td valign="top">
 
+SUCO
+
+</td>
+<td valign="top">
+
+Authorization Default Variant
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SUSI
 
 </td>
@@ -2232,6 +2249,23 @@ Definition of a Maintenance and Transport Object
 <td valign="top">
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+TRAN
+
+</td>
+<td valign="top">
+
+Transaction
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>

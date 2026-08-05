@@ -12,7 +12,14 @@ To connect the ABAP environment and SAP Build Process Automation, you need a com
 
 ## Prerequisites
 
-You have already created a communication user, or you know how to create a new one through the Maintain Communication Users app on the SAP S/4HANA.
+-   You have already created a communication user, or you know how to create a new one through the Maintain Communication Users app on the SAP S/4HANA.
+-   You have created an SAP Build Process Automation instance and service key on the SAP BTP cockpit of your subaccount.
+-   If you are using a shared environment, not the "Public" environment \(for which the usage is deprecated\) you need to update the service instance.
+-   For this, you must add an API Key for your shared environment and store the API key together with the environment ID in the service instance.
+-   For more information, see:
+    -   [Add API Keys to an Environment](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/add-api-keys?version=Cloud&locale=en-US)
+    -   [Update a Service Instance](https://help.sap.com/docs/build-process-automation/sap-build-process-automation/update-service-instance?version=Cloud&locale=en-US)
+
 
 
 

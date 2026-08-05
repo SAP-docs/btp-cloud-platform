@@ -18,7 +18,9 @@ You can use this app to:
 
 
 
--   Display business catalogs, their usage in roles, and general description
+-   Display business catalogs, their usage in roles, and general description.
+
+-   Display restriction types and in which business catalog the restriction type is used.
 
 -   Display business catalog changes: Check if the business catalogs or apps in your area have changed \(for example, a transaction has been replaced with an SAP Fiori app\), and which business roles are affected by these changes.
 
@@ -57,5 +59,7 @@ If you need support or experience issues, please report an incident under compon
 **Related Information**  
 
 
-[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Get an overview of available business catalogs and their restrictions.")
+[Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Find out which business catalogs are required to access the IAM administration apps and what restrictions apply.")
+
+[Display Restriction Types](display-restriction-types-9203905.md "You can use this app to display restriction types and their validity.")
 

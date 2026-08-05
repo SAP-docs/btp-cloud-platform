@@ -30,6 +30,7 @@ The Security Audit Log records the following information:
 -   Security-related changes to the ABAP Platform \(for example, change of system changeability\)
 -   Information that provides a higher level of transparency \(for example, successful and unsuccessful logon attempts\)
 -   Information that enables the reconstruction of a series of events \(for example, successful or unsuccessful transaction starts\)
+-   Security Audit Log events are retained according to the configured retention period \(45 days by default\). For details about configuring the retention period, see [Manage Security Audit Log](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/manage-security-audit-log-50a4b4f1d3964760acc7e533d52671e5?version=Cloud).
 
 The app *Display Static System Audit* \(available for the external auditor role\) displays a detailed list of the Security Audit Log events, which are visible in the Security Audit Log app. SAP Note [2903873](https://me.sap.com/notes/2903873) provides a list of currently recorded Security Audit Log events.
 

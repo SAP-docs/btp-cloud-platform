@@ -233,5 +233,5 @@ To learn more about platform and business users in SAP BTP, see [User and Member
 **Related Information**  
 
 
-[Business Catalogs for IAM Administration Apps](../50-administration-and-ops/business-catalogs-for-iam-administration-apps-9bbbfc7.md "Get an overview of available business catalogs and their restrictions.")
+[Business Catalogs for IAM Administration Apps](../50-administration-and-ops/business-catalogs-for-iam-administration-apps-9bbbfc7.md "Find out which business catalogs are required to access the IAM administration apps and what restrictions apply.")
 

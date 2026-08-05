@@ -127,6 +127,8 @@ A global account can group together different directories and subaccounts that a
 
 
 
+
+
 The hierarchical structure of global accounts, directories, and subaccounts lets you define an account model that accurately fits your business and development needs. For example, if you want to separate development, testing, and productive usage for different departments in your organization, you can create a directory for each department, and within each directory, you group subaccounts for development, testing, and production.
 
 <a name="loioe8663c08ead648faa673b0d63c5b478e"/>

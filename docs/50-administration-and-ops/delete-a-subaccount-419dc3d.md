@@ -4,7 +4,7 @@
 
 # Delete a Subaccount
 
-Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy, free up quota used by services in your subaccounts, and to reduce overall costs. 
+Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy, free up quota used by services in your subaccounts, and to reduce overall costs.
 
 <a name="task_a4g_zp3_bvb"/>
 

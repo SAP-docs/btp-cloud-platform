@@ -6,6 +6,8 @@ A list of support components for SAP BTP services and tools. Filter for the serv
 
 
 
+
+
 > ### Note:  
 > The table below lists the support components for services. If you are looking for components of tools or issues related to software logistics, see [Additional Components](support-components-08d1103.md#loio08d1103928fb42f3a73b3f425e00e13c__section_add_components).
 

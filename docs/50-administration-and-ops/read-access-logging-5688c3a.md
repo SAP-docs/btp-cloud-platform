@@ -93,5 +93,5 @@ For monitoring in external systems, for example Security Information and Event M
 **Related Information**  
 
 
-[SAP Signavio Process Navigator for Data Protection and Privacy \(Scope Item 5LE\)](https://me.sap.com/processnavigator/SolP/5LE)
+[Data Protection and Privacy \(62Y\)](https://me.sap.com/processnavigator/SolP/62Y)
 

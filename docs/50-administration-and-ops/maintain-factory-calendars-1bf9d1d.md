@@ -30,6 +30,9 @@ To maintain factory calendars, log on to the SAP Fiori launchpad in the *SAP Bus
 > 
 > The business catalog is included in the business role template `SAP_BR_BPC_EXPERT`.
 
+> ### Note:  
+> When the communication arrangement for the **Factory Calendar Integration** scenario \(`SAP_COM_0834`\) is active and configured \([Integrating Factory Calendar](https://help.sap.com/docs/sap-btp-abap-environment/abap-environment/integrating-factory-calendar?version=Cloud)\), the *Maintain Factory Calendars* app is switched to read-only.
+
 > ### Caution:  
 > The following HANA SQL functions are currently not supported:
 > 

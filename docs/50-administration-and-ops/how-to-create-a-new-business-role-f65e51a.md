@@ -27,18 +27,18 @@ You use business roles to control the access to your applications. To create a b
 
 3.  Add general role details, such as business role name, ID and description.
 
-4.  On the *Assigned Business Catalogs* tab, select *Add* to add the required business catalogs. Select the catalogs according to the business activities that the users with this role need to perform. Select *Apply*.
+4.  On the *Business Catalogs* tab, select *Add* to add the required business catalogs. Select the business catalogs according to the business activities that the users with this role need to perform. Choose *Apply*.
 
     > ### Note:  
     > Some business catalogs require additional dependent catalogs to be assigned to enable access to associated master data information \(for example, for business partners or customers\). These additionally required catalogs ensure access to all business objects used with the SAP Fiori apps of the main catalog. When you select the business catalogs you want to add to the business role and click *Add*, a list of dependent business catalogs is displayed. You can then select all the dependencies you want to add.
 
-5.  By default, the value help and read access for each business catalog is set to unrestricted and there is no write access. If you want to change these restrictions, select *Maintain Restrictions*.
+5.  By default, the value help and read access for each business catalog is set to unrestricted and there is no write access. If you want to change these restrictions, choose *Maintain Restrictions*.
 
 6.  Maintain instance-based restrictions for all required business objects \(following the requirements of your local authorization concept\).
 
-7.  If required, click *Manage Launchpad Space* to create a new space or use an existing space. For more information, see the *Related information* section below.
+7.  If required, choose *Launchpad Space* to assign a space to the business role.
 
-8.  On the *Assigned Business Users* tab, you can assign the business users to your new business role. These users will receive the authorizations as defined in the business role.
+8.  On the *Business Users* tab, you can assign the business users to your new business role. These users will receive the authorizations as defined in the business role.
 
 9.  To activate the business role, save it.
 
