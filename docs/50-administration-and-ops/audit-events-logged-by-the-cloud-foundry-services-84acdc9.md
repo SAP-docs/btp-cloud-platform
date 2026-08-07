@@ -1,6 +1,6 @@
 <!-- loio84acdc91c60c4f32b7c06cdbc442fdef -->
 
-# Audit Events Logged by the  Services
+# Audit Events Logged by the Cloud Foundry Services
 
 This document contains a list of the Cloud Foundry services that log audit events. The logged events are service specific and determined by the service itself. The Audit Log service does not know what audit events the services log, it only provides the infrastructure for services to write the logs, and for customers to read them by using the Audit Log Retrieval API and the Audit Log Viewer. For more information about the audit events logged by a service, follow the corresponding link in the table.
 
@@ -220,7 +220,7 @@ SAP Audit Log
 </td>
 <td valign="top">
 
-[Audit Events Logged by SAP Audit Log service](audit-events-logged-by-the-services-84acdc9.md)
+[Audit Events Logged by SAP Audit Log service](https://help.sap.com/docs/btp/sap-business-technology-platform/audit-events-logged-by-sap-audit-log-service) 
 
 </td>
 </tr>

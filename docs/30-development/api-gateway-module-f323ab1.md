@@ -65,9 +65,8 @@ The `ratelimits.gateway.kyma-project.io` CRD describes the kind and the format o
 
 To assign access permissions to the API Gateway module resources, use the following [aggregated ClusterRoles](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#aggregated-clusterroles):
 
--   `kyma-api-gateway-view` - Grants read-only access to all API Gateway resources.
--   `kyma-api-gateway-edit` - Grants full access to `gateway.kyma-project.io` resources and read-only access to `operator.kyma-project.io` resources.
--   `kyma-api-gateway-admin` - Grants full access to all API Gateway resources.
+-   `kyma-api-gateway-view` - Grants read-only access to API Gateway resources.
+-   `kyma-api-gateway-edit` - Grants full access to API Gateway resources.
 
 
 

@@ -68,7 +68,7 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
 
 > ### Caution:  
-> Environments enabled on your trial account may not be valid for your whole trial period. To learn about the validity period for the Kyma environment, see [About the Trial Account](../20-getting-started/about-the-trial-account-c4fff0f.md).
+> Environments enabled on your trial account may not be valid for your whole trial period. To learn about the validity period for the Kyma environment, see [About the Trial Kyma Instance](../20-getting-started/about-the-trial-kyma-instance-c4fff0f.md).
 
 
 
@@ -110,5 +110,5 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
 [Getting Started with a Trial Account in the Cloud Foundry Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-cloud-foundry-environment-e50ab7b.md "Quickly get started with a trial account.")
 
-[Getting Started with a Trial Account in the Kyma Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-kyma-environment-ccb83c7.md "Quickly get started with a trial account in the Kyma environment.")
+[Getting Started with a Trial Kyma Instance](../20-getting-started/getting-started-with-a-trial-kyma-instance-ccb83c7.md "Get started with a trial SAP BTP, Kyma runtime instance, and explore its features and capabilities.")
 
