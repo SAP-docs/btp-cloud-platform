@@ -12217,6 +12217,62 @@ Automate your document information extraction processes.
 </td>
 <td valign="top">
 
+-   SAP
+
+
+
+</td>
+<td valign="top">
+
+-   UAE \(Dubai\)
+-   Europe \(Frankfurt\) EUA only
+-   Europe \(Rot\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Document AI](https://help.sap.com/docs/document-information-extraction/document-information-extraction/enabling-service-in-cloud-foundry-environment) 
+
+</td>
+<td valign="top">
+
+Automate your document information extraction processes.
+
+</td>
+<td valign="top">
+
+-   CA-ML-BDP
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
 -   AWS
 
 
@@ -12229,6 +12285,124 @@ Automate your document information extraction processes.
 -   Japan \(Tokyo\)
 -   US East \(VA\)
 -   Australia \(Sydney\)
+-   Singapore
+-   South Korea \(Seoul\)
+-   Brazil \(São Paulo\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Document AI](https://help.sap.com/docs/document-information-extraction/document-information-extraction/enabling-service-in-cloud-foundry-environment) 
+
+</td>
+<td valign="top">
+
+Automate your document information extraction processes.
+
+</td>
+<td valign="top">
+
+-   CA-ML-BDP
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   Azure
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Netherlands\)
+-   US East \(VA\)
+-   Australia \(Sydney\)
+-   Singapore
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+[SAP Document AI](https://help.sap.com/docs/document-information-extraction/document-information-extraction/enabling-service-in-cloud-foundry-environment) 
+
+</td>
+<td valign="top">
+
+Automate your document information extraction processes.
+
+</td>
+<td valign="top">
+
+-   CA-ML-BDP
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   Europe \(Frankfurt\)
+-   US Central \(IA\)
+-   Australia \(Sydney\)
+-   KSA \(Dammam\) public sector
+-   India \(Mumbai\)
 
 
 

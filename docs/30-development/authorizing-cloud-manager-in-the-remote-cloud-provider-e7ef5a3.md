@@ -52,23 +52,6 @@ Cloud Manager Principal
 
 </td>
 </tr>
-<tr>
-<td valign="top">
-
-[https://cockpit.canary.scp.sapns2.us](https://cockpit.canary.scp.sapns2.us)<sup>[1](authorizing-cloud-manager-in-the-remote-cloud-provider-e7ef5a3.md#loioe7ef5a3258a240cb87b6de8baa63f4fa__footnote_gov_cloud)</sup>
-
-</td>
-<td valign="top">
-
-[https://dashboard.canary.us50.kyma.cloud.sap](https://dashboard.canary.us50.kyma.cloud.sap)<sup>[1](authorizing-cloud-manager-in-the-remote-cloud-provider-e7ef5a3.md#loioe7ef5a3258a240cb87b6de8baa63f4fa__footnote_gov_cloud)</sup>
-
-</td>
-<td valign="top">
-
-`arn:aws-us-gov:iam::306124193223:user/cloud-manager-vpc-peering`<sup>[1](authorizing-cloud-manager-in-the-remote-cloud-provider-e7ef5a3.md#loioe7ef5a3258a240cb87b6de8baa63f4fa__footnote_gov_cloud)</sup>
-
-</td>
-</tr>
 </table>
 
 <sup>1</sup>Relevant only for the Government Cloud \(US\) region.

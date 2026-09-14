@@ -168,12 +168,13 @@ Kubernetes worker nodes use a kubectl version higher than 1.12.9 \(V-242396\).
 
 ### Node Operating System
 
-Kyma uses [Garden Linux](https://github.com/gardenlinux/gardenlinux) as its node operating system. Garden Linux is a Linux distribution with a minimal set of applications optimized for use in containerized environments.
+SAP BTP, Kyma runtime uses [Garden Linux](https://github.com/gardenlinux/gardenlinux) as its node operating system. Garden Linux is a Linux distribution with a minimal set of applications optimized for use in containerized environments.
 
--   Node operating system images are hardened and audited.
+The node operating system in Kyma has the following qualities:
+
+-   Node operating system images are secured and audited.
 -   Malware scans and vulnerability scans are performed as part of the release process of the node operating system images. For more information, see [Security Vulnerability Management in the Kyma Environment](security-vulnerability-management-in-the-kyma-environment-b1b0a64.md).
--   The node operating system is immutable.
--   Remote access to nodes is disabled and nodes are not exposed to the Internet.
+-   Remote access to nodes \(for example, SSH\) is not permitted, and nodes are not exposed to the Internet.
 
 
 

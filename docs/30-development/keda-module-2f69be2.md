@@ -51,7 +51,7 @@ Keda Manager helps you to install and manage KEDA in your cluster. It manages th
 
 ## API/Custom Resource Definitions
 
-For the Keda CR conditions, check [Keda Custom Resource Conditions](keda-custom-resource-conditions-12a88ed.md).
+The `kedas.operator.kyma-project.io` CustomResourceDefinition \(CRD\) is a detailed description of the Keda module configuration that you want to install on your cluster. See [Keda](https://kyma-project.io/external-content/keda-manager/docs/user/06-10-keda-cr.html).
 
 To learn more about the KEDA CR, see [KEDA Custom Resources](https://keda.sh/docs/latest/concepts/#custom-resources-crd).
 

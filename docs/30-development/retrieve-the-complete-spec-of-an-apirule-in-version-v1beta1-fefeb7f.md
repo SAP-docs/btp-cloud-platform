@@ -126,13 +126,13 @@ In this case, you must access the original `APIRule` *v1beta1* configuration thr
     ```
 
 
-**Next Steps**  
-Adjust the obtained configuration of the `APIRule` to migrate it to version *v2*. To learn how to do this, follow the relevant tutorial:  
 
 
-[Migrate APIRule v1beta1 of Type noop, allow, or no\_auth to Version v2](migrate-apirule-v1beta1-of-type-noop-allow-or-no-auth-to-version-v2-2b19ef5.md "Learn how to migrate an APIRule created in version v1beta1 using the noop, allow, or no_auth handlers to version v2. In APIRule v2, the noAuth handler replaces the noop, allow, and no_auth handlers from v1beta1.")
+## Next Steps
 
-[Migrate APIRule v1beta1 of Type jwt to Version v2](migrate-apirule-v1beta1-of-type-jwt-to-version-v2-bcaec91.md "Learn how to migrate an APIRule created in version v1beta1 using the jwt handler to version v2.")
+Adjust the obtained configuration of the `APIRule` to migrate it to version *v2*. To learn how to do this, follow the relevant tutorial:
 
-[Migrate APIRule v1beta1 of Type oauth2\_introspection to Version v2](migrate-apirule-v1beta1-of-type-oauth2-introspection-to-version-v2-394d18a.md "Learn how to migrate an APIRule created in version v1beta1 using the oauth2_introspection handler to version v2. In APIRule v2, the extAuth handler replaces all Ory Oathkeeper-based handlers used in the v1beta1 version. The instructions focus on oauth2_introspection because it is the most popular Ory Oathkeeper-based handler.")
+-   [Migrate APIRule v1beta1 of Type jwt to Version v2](migrate-apirule-v1beta1-of-type-jwt-to-version-v2-bcaec91.md)
+-   [Migrate APIRule v1beta1 of Type noop, allow, or no\_auth to Version v2](migrate-apirule-v1beta1-of-type-noop-allow-or-no-auth-to-version-v2-2b19ef5.md)
+-   [Migrate APIRule v1beta1 of Type oauth2\_introspection to Version v2](migrate-apirule-v1beta1-of-type-oauth2-introspection-to-version-v2-394d18a.md)
 

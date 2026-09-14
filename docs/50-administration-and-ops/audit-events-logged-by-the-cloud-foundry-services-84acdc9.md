@@ -491,6 +491,18 @@ SAP Integration Advisor
 <tr>
 <td valign="top">
 
+SAP Job Scheduling Service
+
+</td>
+<td valign="top">
+
+[https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/auditing-and-logging-information](https://help.sap.com/docs/job-scheduling/sap-job-scheduling-service/auditing-and-logging-information)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 SAP Leonardo Machine Learning Foundation
 
 </td>
