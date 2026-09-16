@@ -40,7 +40,7 @@ The following code sample demonstrates how to generate a CDS table entity using 
 > lo_put_operation->execute( ).
 > ```
 
-Running this `PUT` operation generates the CDS external entity `ZMY_CDS_TABLE_ENTITY` with the following source code:
+Running this `PUT` operation generates the CDS table entity `ZMY_CDS_TABLE_ENTITY` with the following source code:
 
 > ### Sample Code:  
 > ```

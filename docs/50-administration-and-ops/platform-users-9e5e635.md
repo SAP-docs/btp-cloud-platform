@@ -9,7 +9,7 @@
 Platform users who were added as members and have administrative permissions can view or manage the list of global accounts, directories, subaccounts, and Cloud Foundry orgs and spaces that are available to them. Members access them using the SAP BTP Cockpit, the SAP BTP command-line interface \(btp CLI\), or the Cloud Foundry command-line interface \(CF CLI\).
 
 > ### Note:  
-> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
+> The content in this section is not relevant for Government Cloud \(US\) regions.
 
 For platform users, there's a [default identity provider](default-identity-provider-d6a8db7.md). We expect that you have your own user base. We recommend that you configure SAP Cloud Identity Services as the custom identity provider and connect SAP Cloud Identity Services to your own corporate identity provider.
 

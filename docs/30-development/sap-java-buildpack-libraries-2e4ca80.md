@@ -549,6 +549,23 @@ Changes
 <tr>
 <td valign="top">
 
+`(September 17 2026)`
+
+**`Version 2.25.0`**
+
+</td>
+<td valign="top">
+
+-   *com.sap.cloud.servicemanager* is updated from version 1.8.0 to 1.9.0
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `(September 3 2026)`
 
 **`Version 2.24.0`**

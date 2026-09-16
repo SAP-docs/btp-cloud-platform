@@ -2,7 +2,7 @@
 
 # Auditing and Logging Information for SAP Authorization and Trust Management Service
 
-Here you can find a list of the security events that are logged by SAP Authorization and Trust Management service \(XSUAA\). These events are provided in addition to the events of the Cloud Foundry User Account and Authentication service \(UAA\).
+SAP Authorization and Trust Management service \(XSUAA\) logs security events. These events supplement the events of the Cloud Foundry User Account and Authentication service \(UAA\).
 
 
 
@@ -10,11 +10,16 @@ Here you can find a list of the security events that are logged by SAP Authoriza
 
 ## Troubleshoot Identity Provider Issues
 
-To help troubleshoot issues with the identity provider, use tools depending on the trust configuration:
+To troubleshoot issues with the identity provider, use tools based on the trust configuration:
 
-For SAML identity providers, you can use the network trace of your browser. For more information, see [2461862](https://me.sap.com/notes/2461862).
+-   For SAML identity providers, use the network trace of your browser.
 
-For OIDC identity providers, use the troubleshooting tools of the identity provider. For SAP Cloud Identity Services, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/logging-openid-connect-tokens?version=Cloud).
+    For more information, see [2461862](https://me.sap.com/notes/2461862).
+
+-   For OIDC identity providers, use the troubleshooting tools of the identity provider.
+
+    For SAP Cloud Identity Services, see [Logging OpenID Connect Tokens](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/logging-openid-connect-tokens?version=Cloud).
+
 
 
 
@@ -30,12 +35,14 @@ For information about the security events of the UAA, see [UAA Audit Requirement
 
 ## Security Events of the SAP Authorization and Trust Management Service
 
-The SAP Authorization and Trust Management service uses role collections to handle account management.
+The SAP Authorization and Trust Management service uses role collections to manage accounts.
 
-SAP Authorization and Trust Management service records all its changes in its database tables and summarizes these changes in the audit log. The following table summarizes the audit log entries.
+SAP Authorization and Trust Management service records all changes in its database tables and summarizes them in the audit log. The following table summarizes the audit log entries.
 
 > ### Note:  
-> ***UNKNOWN\_USER*** in an audit log message is a placeholder, which usually appears when logs are written for flows that don't involve users, for example, client credential flows.
+> -   When messages exceed 4 KB, the system breaks the messages into multiple entries. The system identifies each message with a `msgId` GUID and the parts with a `msgNo` index. To view the whole response, gather the parts and combine the contents together.
+> 
+> -   ***UNKNOWN\_USER*** in an audit log message is a placeholder, that appears when the system writes for flows that don't involve users, such as client credential flows.
 
 **Security Events Written in Audit Logs**
 
@@ -93,7 +100,7 @@ Attributes of the identity provider.
 </td>
 <td valign="top">
 
-Trusting an identity provider using OpenID Connect triggers a change in the XSUAA tenant.
+When you trust an identity provider using OpenID Connect, the system triggers a change in the XSUAA tenant.
 
 </td>
 </tr>
@@ -225,7 +232,7 @@ Attributes of the service instance.
 <td valign="top" colspan="3">
 
 > ### Note:  
-> If you create a new binding secret for the service instance, a new binding entry is created in the SAP Authorization and Trust Management service. This entry then appears in the audit log of the subaccount of the service instance. The audit log of the subaccount of the reuse service itself isn't affected.
+> If you create a new binding secret for the service instance, the system creates a new binding entry in the SAP Authorization and Trust Management service. This entry then appears in the audit log of the subaccount of the service instance. The audit log of the subaccount of the reuse service itself remains unaffected.
 
 
 
@@ -562,7 +569,7 @@ audit.security-events
 </td>
 <td valign="top">
 
-Occurs when an error occurs when attempting to exchange a token for a token with an embedded token from SAP Cloud Identity Services or a corporate identity provider. Check the configuration of the application.
+This error occurs when attempting to exchange a token for a token with an embedded token from SAP Cloud Identity Services or a corporate identity provider. Check the configuration of the application.
 
 For more information, see [Include Tokens from Corporate Identity Providers or SAP Cloud Identity Services in Tokens of the SAP Authorization and Trust Management Service](../30-development/include-tokens-from-corporate-identity-providers-or-sap-cloud-identity-services-in-tokens-8dc480a.md).
 
@@ -572,7 +579,7 @@ For more information, see [Include Tokens from Corporate Identity Providers or S
 <td valign="top" colspan="3">
 
 > ### Caution:  
-> Be prepared for the possibility that the initial token retrieval might not include the corporate identity provider token. In such a case, a retry is recommended. However, keep in mind that even the retry might not yield the desired token, so ensure your application can handle this situation appropriately.
+> The initial token retrieval might not include the corporate identity provider token. In this case, retry the operation. The retry might not yield the desired token, so ensure your application can handle this situation.
 
 
 
@@ -600,7 +607,7 @@ audit.security-events
 </td>
 <td valign="top">
 
-Occurs when the time skew between SAP Authorization and Trust Management service and the identity provider is larger than 60 seconds. Or the authentication response took more than 60 seconds to reach the SAP Authorization and Trust Management service after being issued.
+This error occurs when the time skew between SAP Authorization and Trust Management service and the identity provider is larger than 60 seconds. Or the authentication response took more than 60 seconds to reach the SAP Authorization and Trust Management service after being issued.
 
 Check the time skew between the identity provider and SAP Authorization and Trust Management service. Synchronize the clock of the identity provider.
 
@@ -634,9 +641,9 @@ audit.security-events
 </td>
 <td valign="top">
 
-Occurs when an authentication response from an identity provider takes more than 15 minutes.
+This error occurs when an authentication response from an identity provider takes more than 15 minutes.
 
-If this error occurs consistently, check why the identity provider needs more than 15 minutes to issue an authentication response.
+If this error occurs consistently, investigate why your identity provider needs more than 15 minutes to issue an authentication response.
 
 </td>
 </tr>
@@ -652,7 +659,7 @@ audit.security-events
 </td>
 <td valign="top">
 
-Occurs when a user attempts to log on or refresh a session for which the authentication request has expired, for example, if this message is preceded by `AuthnRequest expired - ID`.
+This error occurs when a user attempts to log on or refresh a session for which the authentication request has expired, for example, if this message is preceded by `AuthnRequest expired - ID`.
 
 </td>
 </tr>
@@ -668,7 +675,7 @@ audit.security-events
 </td>
 <td valign="top">
 
-Occurs when the certificate used to sign the SAML response isn't valid.
+This error occurs when the certificate used to sign the SAML response isn't valid.
 
 </td>
 </tr>
@@ -717,12 +724,7 @@ audit.security-events
 </td>
 <td valign="top">
 
-We include SAML responses in the audit log for web single sign-on and SAML bearer assertions.
-
-> ### Note:  
-> When messages exceed 4k, we break the messages into multiple entries. We identify each message with a `msgId` GUID and the parts with a `msgNo` index. To view the whole SAML response, gather the parts and stitch the contents together.
-
-
+The system includes SAML responses in the audit log for web single sign-on and SAML bearer assertions.
 
 </td>
 </tr>

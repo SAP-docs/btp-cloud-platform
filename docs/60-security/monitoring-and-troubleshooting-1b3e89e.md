@@ -22,7 +22,7 @@ Our troubleshooting information can be found in [Troubleshooting for SAP Authori
 
 [Enable and Provide Application Logs](enable-and-provide-application-logs-f22d510.md "If there are authentication problems in your application, enable logging for the container security library in question, reproduce the problem, and attach the application logs. To obtain more details, set the environment variables for the application.")
 
-[Auditing and Logging Information for SAP Authorization and Trust Management Service](auditing-and-logging-information-for-sap-authorization-and-trust-management-service-d8f4b7c.md "Here you can find a list of the security events that are logged by SAP Authorization and Trust Management service (XSUAA). These events are provided in addition to the events of the Cloud Foundry User Account and Authentication service (UAA).")
+[Auditing and Logging Information for SAP Authorization and Trust Management Service](auditing-and-logging-information-for-sap-authorization-and-trust-management-service-d8f4b7c.md "SAP Authorization and Trust Management service (XSUAA) logs security events. These events supplement the events of the Cloud Foundry User Account and Authentication service (UAA).")
 
 [Authorization and Access Control Cookbook](https://cap.cloud.sap/docs/guides/authorization)
 

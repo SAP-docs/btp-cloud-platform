@@ -13,11 +13,6 @@ For platform users, there's a [default identity provider](../50-administration-a
 > 
 > For more information, see [Trust and Federation with Identity Providers](../50-administration-and-ops/trust-and-federation-with-identity-providers-cb1bc8f.md).
 
-> ### Note:  
-> For China \(Shanghai\) and Government Cloud \(US\) regions, a different default identity provider is used, and you can't use SAP Cloud Identity Services as identity provider in the global account.
-> 
-> If you want to use two-factor authentication in the China \(Shanghai\) region, see this [blog article](https://blogs.sap.com/2021/02/22/activate-totp-two-factor-authentication-on-sap-business-technology-platform-formerly-known-as-cloud-platform-at-alibaba-cloud/) on *SAP Community*.
-
 
 
 <a name="loio440131674b0147a09e696053a53832d5__section_bhj_b1x_jlb"/>

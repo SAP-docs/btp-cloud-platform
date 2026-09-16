@@ -29,9 +29,6 @@ You have a scenario where your SAP BTP application, such as SAP Build Work Zone,
 
 ## Context
 
-> ### Note:  
-> The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
-
 In this scenario, the SAP BTP application passes the token of a corporate identity provider with the help of connectivity services to your on-premise SAP system. To configure this form of principal propagation, you must ensure SAP Cloud Identity Services and the relevant connectivity services are set up to support this scenario.
 
 The following figure illustrates this scenario.
