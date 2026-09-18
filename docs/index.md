@@ -1300,7 +1300,6 @@
         -   [Account Administration in the Cockpit](50-administration-and-ops/account-administration-in-the-cockpit-8061ecc.md)
             -   [Access the Cockpit](50-administration-and-ops/access-the-cockpit-4e75066.md)
                 -   [Accessibility Features in SAP BTP cockpit](50-administration-and-ops/accessibility-features-in-sap-btp-cockpit-8153bc4.md)
-            -   [In-App Onboarding and User Analytics with WalkMe](50-administration-and-ops/in-app-onboarding-and-user-analytics-with-walkme-bd5702b.md)
             -   [Navigate in the Cockpit](50-administration-and-ops/navigate-in-the-cockpit-0874895.md)
                 -   [Personalizing the Home Screen](50-administration-and-ops/personalizing-the-home-screen-08d23a2.md)
             -   [Managing Global Accounts Using the Cockpit](50-administration-and-ops/managing-global-accounts-using-the-cockpit-667f34b.md)
