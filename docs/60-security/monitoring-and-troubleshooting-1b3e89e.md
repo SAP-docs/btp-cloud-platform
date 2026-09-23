@@ -18,7 +18,7 @@ Our troubleshooting information can be found in [Troubleshooting for SAP Authori
 **Related Information**  
 
 
-[Getting Support](../70-getting-support/getting-support-5dd7398.md "Learn about the support channels and procedures you can use to report technical issues and get help through SAP for Me.")
+[Getting Support](../70-getting-support/getting-support-5dd7398.md "To get help with technical issues, use the support channels and procedures available through SAP for Me. Before you begin, check the platform status and use the built-in support tools.")
 
 [Enable and Provide Application Logs](enable-and-provide-application-logs-f22d510.md "If there are authentication problems in your application, enable logging for the container security library in question, reproduce the problem, and attach the application logs. To obtain more details, set the environment variables for the application.")
 

@@ -39,7 +39,7 @@ metadata:
 
 ### Annotating a Pod or a Pod Template
 
-To adjust a specific Pod or Pods from a template, add annotations directly to your Pod or to the `spec.template.metadata.annotations` section of a Deployment, StatefulSet, or a similar resource.
+Add annotations directly to your Pod or to the `spec.template.metadata.annotations` section of a Deployment, StatefulSet, or a similar resource. As a result, only that specific Pod or Pods from that template are adjusted.
 
 ```
 apiVersion: apps/v1
@@ -191,27 +191,100 @@ No
 
 ### `rt-cfg.kyma-project.io/add-cluster-trust-bundle`
 
-The annotation mounts the cluster's TLS certificate bundle into your containers.
+The annotation mounts the cluster's TLS certificate bundle into your containers and automatically restarts Pods when the CA bundle changes
 
-Some landscapes use custom TLS certificates that are not included in the standard operating system trust store. When you enable this feature, Runtime Bootstrapper mounts the cluster's certificate bundle as a read-only volume into every container \(including init-containers\) under the `/etc/ssl/certs` path. As a result, your application can trust landscape-specific HTTPS endpoints without any code changes.
+Some landscapes use custom TLS certificates that are not included in the standard operating system trust store. When you enable this feature, Runtime Bootstrapper mounts the cluster's certificate bundle as a read-only volume into every container \(including init-containers\) under the path `/etc/ssl/certs`. As a result, your application can trust landscape-specific HTTPS endpoints without any code changes.
+
+The annotation accepts the following values:
+
+
+<table>
+<tr>
+<th valign="top">
+
+Value
+
+</th>
+<th valign="top">
+
+Behavior
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+*true*
+
+</td>
+<td valign="top">
+
+Mount the CA bundle and automatically restart the Pod when the bundle changes
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+*false*
+
+</td>
+<td valign="top">
+
+Explicit opt-out - no CA bundle mount, even if namespace defaults enable it
+
+</td>
+</tr>
+</table>
 
 The annotation causes the following changes in your Pod:
 
 -   `.spec.volumes[]` - a projected volume named `rt-bootstrapper-certs` is added
 -   `.spec.containers[*].volumeMounts` - the volume is mounted read-only at `/etc/ssl/certs`
 -   `.spec.initContainers[*].volumeMounts` - same mount applied to init-containers
+-   `.metadata.annotations["rt-bootstrapper.kyma-project.io/ctb-hash"]` - a SHA-256 hash of the current CA bundle content, used to detect changes. This annotation is stamped on every Pod that receives the CA bundle, regardless of whether the opt-in came from a Pod annotation, namespace annotation, or namespace defaults.
 
-**Certificate Rotation**
+**Explicit Opt-Out**
 
-> ### Caution:  
-> The mounted CA bundle is rotated periodically for security, and the file at `/etc/ssl/certs` is updated in place without restarting your Pod. Because most applications load TLS trust stores only at startup, your application might not automatically use the new certificates after a rotation. This can cause TLS connection failures.
+If you set the annotation to `"false"` on a Pod, it explicitly opts out of the CA bundle mount. This overrides namespace-level defaults. Use it when a specific workload must not receive the certificate bundle.
 
-To handle certificate rotation, choose one of the following approaches:
+```
+annotations:
+  rt-cfg.kyma-project.io/add-cluster-trust-bundle: "false"
+```
 
--   Watch for file changes inside your application: Implement a file watcher that detects changes under `/etc/ssl/certs` and reloads the trust store at runtime without restarting the process. This is the most resilient approach and avoids any downtime.
+**Automatic Restart on Certificate Rotation**
 
--   Trigger an externally managed restart: Use a controller that watches the underlying `ClusterTrustBundle` resource and automatically rolls your workload when it changes. This is conceptually similar to how [stakater/Reloader](https://github.com/stakater/Reloader) restarts Pods when a referenced ConfigMap or Secret changes. A restart ensures the new certificate is loaded, at the cost of a brief interruption.
+Runtime Bootstrapper automatically restarts Pods when the `ClusterTrustBundle` CA changes. A built-in controller watches the `ClusterTrustBundle` resource and computes a SHA-256 hash of its content. When the hash changes, the controller scans all namespaces for Pods whose stamped hash no longer matches and deletes them. The owning controller \(for example, a Deployment's ReplicaSet\) recreates the Pods, and the webhook stamps the new hash during admission.
 
+Only Pods managed by an owner \(for example, a ReplicaSet or StatefulSet\) are restarted. Standalone Pods without an owner still receive the CA bundle and the hash annotation but are never deleted to avoid data loss.
+
+This means your application does not need to implement file watching or any other mechanism to handle certificate rotation. The restart ensures the new certificate is loaded at startup.
+
+> ### Tip:  
+> If your application can reload TLS trust stores at runtime \(for example, by watching for file changes under `/etc/ssl/certs`\), it can pick up the new certificates without a restart. The automatic restart acts as a safety net for applications that load certificates only at startup.
+
+**Enabling Automatic Restart in Your Namespace**
+
+The restart controller can only operate in namespaces where the Runtime Bootstrapper ServiceAccount has Pods *get*, *list*, and *delete* permissions. By default, these permissions are configured for Kyma-managed namespaces \(for example, `kyma-system`, `istio-system`\). To enable automatic restarts in your own namespace, create a RoleBinding that grants the required permissions. Replace `my-namespace` with your namespace name:
+
+```
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: rt-bootstrapper-pod-restarter-my-namespace
+  namespace: my-namespace
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: rt-bootstrapper-pod-restarter-role
+subjects:
+- kind: ServiceAccount
+  name: rt-bootstrapper-controller-manager
+  namespace: kyma-system
+```
+
+Without this binding, the controller logs a warning and skips the namespace.
 
 
 

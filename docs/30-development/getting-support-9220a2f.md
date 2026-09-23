@@ -92,7 +92,7 @@ Enter and attach the following to the incident;
 **Related Information**  
 
 
-[Getting Support for SAP BTP](../70-getting-support/getting-support-5dd7398.md "Learn about the support channels and procedures you can use to report technical issues and get help through SAP for Me.")
+[Getting Support for SAP BTP](../70-getting-support/getting-support-5dd7398.md "To get help with technical issues, use the support channels and procedures available through SAP for Me. Before you begin, check the platform status and use the built-in support tools.")
 
 [Troubleshooting](troubleshooting-ae1d53e.md "A troubleshooting guide for HTML5 application repository.")
 
