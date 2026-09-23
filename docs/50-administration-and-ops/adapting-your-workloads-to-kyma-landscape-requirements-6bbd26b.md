@@ -214,7 +214,7 @@ Behavior
 <tr>
 <td valign="top">
 
-*true*
+*"true"*
 
 </td>
 <td valign="top">
@@ -226,7 +226,7 @@ Mount the CA bundle and automatically restart the Pod when the bundle changes
 <tr>
 <td valign="top">
 
-*false*
+*"false"*
 
 </td>
 <td valign="top">
