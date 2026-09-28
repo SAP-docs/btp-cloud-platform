@@ -2,7 +2,7 @@
 
 # Integrating SAP Document Management Service
 
-You can integrate the SAP BTP ABAP environment with SAP Document Management Service to establish a communication scenario.
+You can integrate the SAP Business AI Platform, ABAP environment with SAP Document Management Service to establish a communication scenario.
 
 
 
@@ -26,12 +26,12 @@ You can integrate the SAP BTP ABAP environment with SAP Document Management Serv
 
 SAP Document Management Service helps companies with managing records or attachments that are linked to business objects or a specific business context.
 
-For each tenant of SAP BTP ABAP environment, a service instance of SAP Document Management Service in Cloud Foundry environment has to be created.
+For each tenant of SAP Business AI Platform, ABAP environment, a service instance of SAP Document Management Service in Cloud Foundry environment has to be created.
 
 You can build and edit communication arrangements that your organization has set up with a communication partner using the *Communication Arrangement* application. The system provides communication scenarios for inbound and outbound communication that you can use to create communication arrangements. Inbound communication describes how a communication partner receives business documents, while outbound communication describes how a communication partner sends business documents to a communication partner. The communication scenario specifies the authorizations, inbound and outbound services, and supported authentication methods that are necessary for the communication.
 
 > ### Note:  
-> There is a collection of sample classes available on Github: `https://github.com/SAP-samples/abap-cmis-client-sample`. They help you use SAP Document Management Service, Integration option, in the SAP BTP ABAP environment.
+> There is a collection of sample classes available on Github: `https://github.com/SAP-samples/abap-cmis-client-sample`. They help you use SAP Document Management Service, Integration option, in the SAP Business AI Platform, ABAP environment.
 
 **Related Information**  
 

@@ -15,7 +15,7 @@
 -   You have cloned the software component to the ABAP environment system. See [Cloning Software Components to an ABAP Environment System](cloning-software-components-to-an-abap-environment-system-383ce2f.md).
 
 
-You can use the communication scenario `SAP_COM_0948` to work with software components on a SAP BTP ABAP environment system.
+You can use the communication scenario `SAP_COM_0948` to work with software components on a SAP Business AI Platform, ABAP environment system.
 
 1.  *Authentification on the server*
 

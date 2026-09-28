@@ -2,7 +2,7 @@
 
 # Integration with SAP Key Management Service
 
-SAP BTP ABAP environment provides an optional integration of an ABAP environment instance and its SAP HANA Cloud database with the SAP Key Management Service \(KMS\).
+SAP Business AI Platform, ABAP environment provides an optional integration of an ABAP environment instance and its SAP HANA Cloud database with the SAP Key Management Service \(KMS\).
 
 The integration with SAP KMS is established on the level of the SAP BTP subaccount where the ABAP environment instance is created. Once this integration is enabled, the encryption keys of the SAP HANA Cloud database are manageable via SAP KMS. Key activities will affect the SAP HANA Cloud database and the ABAP environment instance.
 

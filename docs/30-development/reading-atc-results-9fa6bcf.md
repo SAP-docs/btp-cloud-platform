@@ -6,7 +6,7 @@
 
 ## Prerequisites
 
--   You have an SAP BTP ABAP environment system.
+-   You have an SAP Business AI Platform, ABAP environment system.
 
 -   You’ve created a *Communication User* and generated a **password** as described in [How to Create Communication Users](../50-administration-and-ops/how-to-create-communication-users-0377ade.md).
 

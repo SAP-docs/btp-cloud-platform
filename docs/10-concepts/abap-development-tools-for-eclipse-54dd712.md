@@ -8,7 +8,7 @@ ABAP development tools for Eclipse is SAP’s state-of-the-art integrated develo
 
 ## Features
 
-ABAP development tools for Eclipse enables you to perform ABAP-based development tasks, when you want to build, to extend, and to run ABAP applications based on SAP products, such as SAP S/4HANA and SAP S/4HANA Cloud Private Edition for classic ABAP development as well as SAP BTP ABAP environment and SAP S/4HANA Cloud Public Edition for Cloud development.
+ABAP development tools for Eclipse enables you to perform ABAP-based development tasks, when you want to build, to extend, and to run ABAP applications based on SAP products, such as SAP S/4HANA and SAP S/4HANA Cloud Private Edition for classic ABAP development as well as SAP Business AI Platform, ABAP environment and SAP S/4HANA Cloud Public Edition for Cloud development.
 
 It supports ABAP developers with the following possibilities:
 
@@ -72,7 +72,7 @@ The [ABAP Development Tools for Eclipse Guide](https://help.sap.com/docs/abap-cl
 
 ## Release Notes
 
-ABAP development tools for Eclipse is released to customers in combination with the SAP BTP ABAP environment shipments. Documentation in the context of ABAP Platform will be shipped in accordance with the relevant SAP product shipments.
+ABAP development tools for Eclipse is released to customers in combination with the SAP Business AI Platform, ABAP environment shipments. Documentation in the context of ABAP Platform will be shipped in accordance with the relevant SAP product shipments.
 
 The release notes are a general overview of the most significant changes relating to features of ABAP development tools for Eclipse in the context of ABAP development and the ABAP programming models.
 

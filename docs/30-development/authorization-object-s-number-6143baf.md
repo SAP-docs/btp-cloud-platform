@@ -13,7 +13,7 @@
 
 
 
-To make objects available for business partners in the SAP BTP ABAP environment, you need to create an I AM app and assign the authorization `S_NUMBER` to this app in the authorization settings. Here, all available objects will be listed, though they don't need to be released objects.
+To make objects available for business partners in the SAP Business AI Platform, ABAP environment, you need to create an I AM app and assign the authorization `S_NUMBER` to this app in the authorization settings. Here, all available objects will be listed, though they don't need to be released objects.
 
 ![](images/authorizations_s-number_b220f09.jpg)
 

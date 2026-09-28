@@ -16,7 +16,7 @@ These apps enable you to create three different kinds of projects:
 
 -   SAP BTP Analysis Project:
 
-    Analyze custom code for readiness to run in SAP BTP ABAP environment.
+    Analyze custom code for readiness to run in SAP Business AI Platform, ABAP environment.
 
 -   Custom Code Analysis Project:
 
@@ -52,7 +52,7 @@ SAP Joule for Developers, ABAP AI Capabilities:
 As of SAP BTP ABAP environment release 2602, you have the option to activate an AI-powered feature in the Custom Code Analysis app: The *ATC Explain* capability enables you to get an explanation of your ATC findings in-app.
 
 > ### Note:  
-> To leverage Joule's capabilities, you need to purchase an additional license: For SAP BTP ABAP environment, SAP S/4HANA Cloud Public Edition, and SAP S/4HANA Cloud Private Edition, see SAP note [3571857](https://me.sap.com/notes/3571857).
+> To leverage Joule's capabilities, you need to purchase an additional license: For SAP Business AI Platform, ABAP environment, SAP S/4HANA Cloud Public Edition, and SAP S/4HANA Cloud Private Edition, see SAP note [3571857](https://me.sap.com/notes/3571857).
 
 
 

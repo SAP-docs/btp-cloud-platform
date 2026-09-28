@@ -10,7 +10,7 @@ You can maintain files in the SAP Fiori launchpad to launch the *Number Range* a
 
 ## Prerequisites
 
-The business user will need to be assigned with suitable authorization in the SAP BTP ABAP environment:
+The business user will need to be assigned with suitable authorization in the SAP Business AI Platform, ABAP environment:
 
 -   the `SAP_CA_BC_IC_LND_NUM_PC` catalog is needed, as it grants access to the *Maintain Number Ranges* app
 -   the `SAP_CA_BC_IC_LND_PC` catalog is needed, as it grants access to the customizing changes
@@ -26,7 +26,7 @@ A custom tile that navigates directly to the *Number Range Object* app has been 
 
 The implementation contains a creation and deployment of an empty freestyle UI5 app that redirects to the `NumberRangeInterval-manage` \(manage number range intervals\) with the required parameter. When clicking the tile, the launchpad will first navigate to the intent of the custom app \(which is maintained in the app descriptor\) and will then automatically be rerouted to the intent of the *Maintain Business Configurations* app. This rerouting is quite simple to implement after generating an empty app in Business Application Studio \(BAS\).
 
-In terms of authorization control, a custom business catalog and business role needs to be created in the SAP BTP ABAP environment and assigned to the business user.
+In terms of authorization control, a custom business catalog and business role needs to be created in the SAP Business AI Platform, ABAP environment and assigned to the business user.
 
 
 

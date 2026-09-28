@@ -2,7 +2,7 @@
 
 # \(Deprecated\) Test Integration \(SAP\_COM\_0510\)
 
-Communication scenario `SAP_COM_0510` enables you to create continuous integration pipelines for SAP BTP ABAP environment systems.
+Communication scenario `SAP_COM_0510` enables you to create continuous integration pipelines for SAP Business AI Platform, ABAP environment systems.
 
 You can use this communication scenario to create continuous integration processes. See[Automate the Software Lifecycle Management Process](https://help.sap.com/docs/SAP_S4HANA_CLOUD/6aa39f1ac05441e5a23f484f31e477e7/e342c2497fe54bf890688d2d44c4dcff.html).
 

@@ -2,7 +2,7 @@
 
 # Virus Scanning
 
-SAP BTP ABAP environment applies virus scans on uploaded external data via OData service calls for fields of type `binary` to detect malicious or suspicious content.
+SAP Business AI Platform, ABAP environment applies virus scans on uploaded external data via OData service calls for fields of type `binary` to detect malicious or suspicious content.
 
 In case malicious code is reported for binary content, it will be rejected and can't be processed any further. We also highly recommend common client protection tools, such as virus scanners on the clients.
 

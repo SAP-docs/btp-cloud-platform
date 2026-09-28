@@ -2,9 +2,9 @@
 
 # Resilience of an ABAP Environment System
 
-Learn about the resilience features that are provided to all ABAP Cloud applications built on the SAP BTP ABAP environment.
+Learn about the resilience features that are provided to all ABAP Cloud applications built on the SAP Business AI Platform, ABAP environment.
 
-Instances deployed to the SAP BTP ABAP environment without the multi-availability zone option receive the following resilience features:
+Instances deployed to the SAP Business AI Platform, ABAP environment without the multi-availability zone option receive the following resilience features:
 
 -   The components of a single ABAP system and the corresponding SAP HANA Cloud database preferably run together inside the same availability zone of a region.
 
@@ -50,7 +50,7 @@ To switch on the multi-availability zone option, set the parameter `multi_availa
 > The multi-availability zone option does not reduce the technical downtime for upgrades or updates and hotfix collection imports.
 
 > ### Note:  
-> SAP BTP ABAP environment provides protection against denial-of-service attacks via various defense mechanisms. These are continuously improved to keep a decent protection level. However, a full protection against DoS attacks can't be guaranteed.
+> SAP Business AI Platform, ABAP environment provides protection against denial-of-service attacks via various defense mechanisms. These are continuously improved to keep a decent protection level. However, a full protection against DoS attacks can't be guaranteed.
 
 **Related Information**  
 

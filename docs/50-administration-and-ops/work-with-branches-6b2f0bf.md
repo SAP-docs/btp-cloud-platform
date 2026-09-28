@@ -44,7 +44,7 @@ It is possible to merge branches of a software component with Bring Your Own Git
 
 **Option 1: Merging of Branches Using the Git Provider UI** 
 
-You need to do a double maintenance for all the changes made to a branch that should be merged. This double maintenance needs to be performed on an SAP BTP ABAP environment, so that the changes exist in both the source branch and the target branch.
+You need to do a double maintenance for all the changes made to a branch that should be merged. This double maintenance needs to be performed on an SAP Business AI Platform, ABAP environment, so that the changes exist in both the source branch and the target branch.
 
 If the double maintenance has not been done correctly, and changes to the same object are present in both branches, Git might detect a merge conflict.
 
@@ -56,7 +56,7 @@ It is essential not to resolve merge conflicts using a merge conflict resolver b
 
 With this approach, it is mandatory to clone the remote Git repository to your local machine.
 
-After the repository is cloned to your local machine, you need to perform the merge of the branches using either the `ours` or `theirs` strategy option. This approach ensures that the merging of branches does not alter individual line contents, butcontents but takes full objects from one side to the other instead. This way, the resulting commit from the merge is importable into an SAP BTP ABAP environment. As a reference, please take a look at the example below on how to perform a merge using the `theirs` strategy.
+After the repository is cloned to your local machine, you need to perform the merge of the branches using either the `ours` or `theirs` strategy option. This approach ensures that the merging of branches does not alter individual line contents, butcontents but takes full objects from one side to the other instead. This way, the resulting commit from the merge is importable into an SAP Business AI Platform, ABAP environment. As a reference, please take a look at the example below on how to perform a merge using the `theirs` strategy.
 
 > ### Sample Code:  
 > ```
