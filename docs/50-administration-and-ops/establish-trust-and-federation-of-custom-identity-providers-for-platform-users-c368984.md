@@ -33,9 +33,6 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 
 ## Context
 
-> ### Note:  
-> The content in this section is not relevant for Government Cloud \(US\) regions.
-
 Platform users perform technical development, deployment, and administration tasks. For example, they perform subaccount administration in the SAP BTP cockpit or access the Cloud Foundry command line interface \(CF CLI\). By hosting these users in your own identity provider, you gain a number of advantages over hosting them in the default identity provider.
 
 -   Integrate the management of these users with your corporate identity management strategy, hosted on your own identity providers. You control your own user lifecycle and single sign-on strategies throughout the entire landscape.
@@ -115,9 +112,6 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
     > 
     > > ### Tip:  
     > > If the identity provider isn't available in the value help for Neo subaccount members, log on to the global account with a user from that identity provider and create a new Neo subaccount. If it's not needed otherwise, you can delete it.
-
-    > ### Recommendation:  
-    > We recommend that you keep at least one global account administrator from the default identity provider. You can then use this administrator to log on in the rare instance that access to the custom identity provider fails.
 
 -   Log on to the SAP BTP cockpit as a user from the custom identity provider. In the *Trust Configuration* page, the *Open* link in the *SAP BTP Cockpit* column contains the URL \(for example, *https://emea.cockpit.btp.cloud.sap/cockpit/?idp=cidppuxhm.accounts.ondemand.com*\) for the user to log on with the custom identity provider. Copy the link and send it to your platform user colleagues. Remember if you have the cockpit open and if you want to work in parallel, your current session may be shared by your browser. Open the link in a private or incognito browsing mode.
 

@@ -179,7 +179,7 @@ Adobe Document Services \(SAP Forms service by Adobe\) Integration \(SAP\_COM\_0
 <tr>
 <td valign="top">
 
-SAP BTP ABAP Environment - Software Component Test Integration \(SAP\_COM\_0510\)
+SAP Business AI Platform, ABAP environment - Software Component Test Integration \(SAP\_COM\_0510\)
 
 </td>
 <td valign="top">
@@ -227,7 +227,7 @@ E-Mail Integration \(SAP\_COM\_0548\)
 <tr>
 <td valign="top">
 
-SAP BTP ABAP Environment - Software Assembly Integration \(SAP\_COM\_0582\)
+SAP Business AI Platform, ABAP environment - Software Assembly Integration \(SAP\_COM\_0582\)
 
 </td>
 <td valign="top">

@@ -2,7 +2,7 @@
 
 # Manage Git Repository
 
-The Manage Git Repository API allows you to manage software components \(Git repositories\) on an SAP BTP ABAP Environment system.
+The Manage Git Repository API allows you to manage software components \(Git repositories\) on an SAP Business AI Platform, ABAP environment system.
 
 
 

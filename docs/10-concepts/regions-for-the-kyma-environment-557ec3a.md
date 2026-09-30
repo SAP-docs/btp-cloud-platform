@@ -58,7 +58,7 @@ Enterprise account
 
 Partner Test, Demo, and Development account
 
-Trial account <sup>[1](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_trial)</sup>
+Trial account \(available only on request; for more information, see [Getting Started with a Trial Kyma Instance](../20-getting-started/getting-started-with-a-trial-kyma-instance-ccb83c7.md)\)
 
 </td>
 <td valign="top">
@@ -538,7 +538,7 @@ The only available cluster region is China \(North 3\) \(`chinanorth3`\). See [C
 
 Enterprise account
 
-Trial account <sup>[1](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_trial)</sup>
+Trial account \(available only on request; for more information, see [Getting Started with a Trial Kyma Instance](../20-getting-started/getting-started-with-a-trial-kyma-instance-ccb83c7.md)\)
 
 </td>
 <td valign="top">
@@ -576,7 +576,7 @@ US East \(VA\)
 
 Enterprise account
 
-Trial account <sup>[1](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_trial)</sup>
+Trial account \(available only on request; for more information, see [Getting Started with a Trial Kyma Instance](../20-getting-started/getting-started-with-a-trial-kyma-instance-ccb83c7.md)\)
 
 </td>
 <td valign="top">
@@ -1593,15 +1593,13 @@ China \(Shanghai\)
 </tr>
 </table>
 
-<sup>1</sup> A trial Kyma instance is available only on request. For more information, see [Getting Started with a Trial Kyma Instance](../20-getting-started/getting-started-with-a-trial-kyma-instance-ccb83c7.md).
-
 
 
 <a name="loio557ec3adc3174ed4914ec9d6d13487cf__section_uqf_2sl_wlb"/>
 
 ## Cluster Regions
 
-When you enable a Kyma environment for a given subaccount, you must select a service plan and region where for your cluster. The available regions vary by IaaS provider and service plan. By default, any cluster region can be used with any subaccount region within a service plan. Exceptions are noted in the Subaccount Regions table. To see the supported regions for specific service plans, expand the table for your preferred IaaS provider.
+When you enable a Kyma environment for a given subaccount, you must select a service plan and region for your cluster. The available regions vary by IaaS provider and service plan. By default, any cluster region can be used with any subaccount region within a service plan. Exceptions are noted in the Subaccount Regions table. To see the supported regions for specific service plans, expand the table for your preferred IaaS provider.
 
 
 
@@ -1756,12 +1754,12 @@ All
 <tr>
 <td valign="top">
 
-`switzerlandnorth`
+`switzerlandnorth` \(not available with the `azure_lite` plan\)
 
 </td>
 <td valign="top">
 
-Switzerland \(Zurich\) <sup>[2](regions-for-the-kyma-environment-557ec3a.md#loio557ec3adc3174ed4914ec9d6d13487cf__footnote_switzerlandnorth)</sup>
+Switzerland \(Zurich\)
 
 </td>
 <td valign="top">
@@ -1890,8 +1888,6 @@ cn20 only
 </td>
 </tr>
 </table>
-
-<sup>2</sup> Not available with the `azure_lite` plan.
 
 
 

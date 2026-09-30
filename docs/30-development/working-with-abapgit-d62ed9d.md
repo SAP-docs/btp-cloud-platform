@@ -19,7 +19,7 @@ With the official SAP distribution of abapGit, you can use ABAP Development Tool
 
 *Side-by-Side-Development*
 
-abapGit can assist you in side-by-side development by enabling the transfer of source code between on-premise systems and SAP BTP ABAP Environment.
+abapGit can assist you in side-by-side development by enabling the transfer of source code between on-premise systems and SAP Business AI Platform, ABAP environment.
 
 *Account Transfer*
 

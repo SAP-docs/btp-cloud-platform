@@ -13,5 +13,5 @@ Job catalog entries and job templates are created with a package assignment and 
 
 [Creating the Job Template](creating-the-job-template-1f04ad2.md "")
 
-[Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
+[Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ABAP development tools for Eclipse and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 

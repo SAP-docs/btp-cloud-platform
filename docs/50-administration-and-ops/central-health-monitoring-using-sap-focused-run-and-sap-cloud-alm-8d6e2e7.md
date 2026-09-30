@@ -10,7 +10,7 @@ Learn more about how you can monitor the ABAP environment using SAP Focused Run 
 
 ## Context
 
-If you run SAP BTP ABAP environment as part of a hybrid landscape with on-premise and cloud systems, you might already have a central monitoring and alerting infrastructure in place. For example, the service offering SAP Focused Run is designed specifically for businesses that need high-volume system and application monitoring, alerting, and analytics, especially for hybrid landscapes including on-premise SAP solutions.
+If you run SAP Business AI Platform, ABAP environment as part of a hybrid landscape with on-premise and cloud systems, you might already have a central monitoring and alerting infrastructure in place. For example, the service offering SAP Focused Run is designed specifically for businesses that need high-volume system and application monitoring, alerting, and analytics, especially for hybrid landscapes including on-premise SAP solutions.
 
 In addition, for cloud-centric customers, there's SAP Cloud ALM as an application lifecycle management offering.
 
@@ -280,7 +280,7 @@ abap\_system\_client\_cert\_expiry\_d
 
 Expiry of client certificates in days
 
-With this metric, you can monitor whether any client certificates expire that you have uploaded to the ABAP system for the communication with systems or services outside the ABAP system, for example, BTP services. Make sure that your client certificates are valid, so that communication doesn't break off.
+With this metric, you can monitor whether any client certificates expire that you have uploaded to the ABAP system for the communication with systems or services outside the ABAP system, for example, SAP Business AI Platform services. Make sure that your client certificates are valid, so that communication doesn't break off.
 
 If the client certificate expires within 7 days, it's marked red. If it expires within 30 days, it's marked yellow.
 

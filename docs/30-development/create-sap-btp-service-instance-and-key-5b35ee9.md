@@ -88,12 +88,14 @@ Create service key for OAuth 2.0-based authentication.
         >     "x509": {
         >       "certificate": "<Client-Default-Certificate>",
         >       "ensure-uniqueness": false,
-        >       "certificate-pinning": true,
+        >       "certificate-pinning": false,
         >       "hide-certificate": true
         >     }
         >   }
         > }
         > ```
+
+        To rotate a certificate, see: [How to Handle Default Client Certificate Renewal](../50-administration-and-ops/how-to-handle-default-client-certificate-renewal-f7a5543.md)
 
         For more information, see [Parameters for Self-Managed X.509 Certificates](https://help.sap.com/docs/btp/sap-business-technology-platform/parameters-for-self-managed-x-509-certificates?state=DRAFT&version=Cloud)
 

@@ -4,7 +4,7 @@
 
 
 
-With this app, you can view SAP BTP ABAP environment data owned by the customer.
+With this app, you can view SAP Business AI Platform, ABAP environment data owned by the customer.
 
 
 

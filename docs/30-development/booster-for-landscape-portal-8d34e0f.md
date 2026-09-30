@@ -37,7 +37,7 @@ You can start the booster from your global account for development. A wizard que
 
 1.  Navigate to your global account for development in the BTP Cockpit.
 2.  Navigate to the *Boosters* tab.
-3.  Select the “Landscape Portal for SAP BTP ABAP Environment” booster and click *Start*.
+3.  Select the “Landscape Portal for SAP Business AI Platform, ABAP environment” booster and click *Start*.
 4.  Configure the *00 Landscape Portal*subaccount.
     1.  Choose a subaccount name and subdomain.
 

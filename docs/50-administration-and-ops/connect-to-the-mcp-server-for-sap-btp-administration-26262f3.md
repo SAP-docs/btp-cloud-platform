@@ -65,7 +65,7 @@ Ensure that you meet the following requirements before connecting:
     </td>
     <td valign="top">
     
-    Your BTP username and password \(Base64-encoded\), and your IAS tenant subdomain.
+    Your IAS username and password \(Base64-encoded\), and your IAS tenant subdomain. If your IAS tenant delegates login to a corporate identity provider \(for example, PingID or Microsoft Entra ID\), use your IAS credentials.
     
     </td>
     </tr>
@@ -181,7 +181,7 @@ Instructions
 
 **Direct Connection**
 
-1.  Compute the Base64 encoding of your credentials in the format `<username>:<password>` and set it as an environment variable along with your IAS tenant subdomain.
+1.  Compute the Base64 encoding of your IAS credentials in the format `<username>:<password>` and set it as an environment variable along with your IAS tenant subdomain.
 
     macOS and Linux:
 
@@ -240,7 +240,7 @@ Instructions
 
 **Direct Connection**
 
-1.  Before configuring VS Code, compute the Base64 encoding of your credentials in the format `<username>:<password>`.
+1.  Before configuring VS Code, compute the Base64 encoding of your IAS credentials in the format `<username>:<password>`.
 
     macOS and Linux:
 
@@ -321,7 +321,7 @@ Instructions
 
 **Direct Connection**
 
-1.  Compute the Base64 encoding of your credentials in the format `<username>:<password>` and set it as an environment variable along with your IAS tenant subdomain.
+1.  Compute the Base64 encoding of your IAS credentials in the format `<username>:<password>` and set it as an environment variable along with your IAS tenant subdomain.
 
     macOS and Linux:
 

@@ -2,7 +2,7 @@
 
 # SAP\_COM\_0A68
 
-You, as a Solution Manager administrator, want to use ATC on an SAP BTP ABAP environment system as your central check system to perform Retrofit checks via ChaRM.
+You, as a Solution Manager administrator, want to use ATC on an SAP Business AI Platform, ABAP environment system as your central check system to perform Retrofit checks via ChaRM.
 
 
 
@@ -14,7 +14,7 @@ You, as a Solution Manager administrator, want to use ATC on an SAP BTP ABAP env
 
 ## Purpose
 
-This communication scenario provides the integration of SAP Solution Manager with an ATC central check system running on SAP BTP ABAP environment to perform Retrofit checks via ChaRM \(Change Request Management\).
+This communication scenario provides the integration of SAP Solution Manager with an ATC central check system running on SAP Business AI Platform, ABAP environment to perform Retrofit checks via ChaRM \(Change Request Management\).
 
 
 

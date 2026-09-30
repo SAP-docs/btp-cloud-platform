@@ -2,11 +2,11 @@
 
 # Integrating UI Theme Designer
 
-To set up the integration between SAP BTP ABAP Environment and UI theme designer, you can use the communication scenario `SAP_COM_0623`.
+To set up the integration between SAP Business AI Platform, ABAP environment and UI theme designer, you can use the communication scenario `SAP_COM_0623`.
 
 You can use `SAP_COM_0623` to establish a connection to the Cloud Foundry environment.
 
-Create a communication arrangement in SAP BTP ABAP Environment to establish a connection to Cloud Foundry for fetching custom themes which can then be used in SAP BTP ABAP.
+Create a communication arrangement in SAP Business AI Platform, ABAP environment to establish a connection to Cloud Foundry for fetching custom themes which can then be used in SAP BTP ABAP.
 
 
 
@@ -18,7 +18,7 @@ Your user needs a business role with the business catalog *Communication Managem
 
 In Cloud Foundry, you need to have the environment for the UI theme designer prepared as described in [Portal Scenario](https://help.sap.com/docs/BTP/09f6818d8e064537973102d6289e2aca/26c100668d0047af9db9141ab1d92571.html).
 
-A custom theme needs to be created and published in UI theme designer to be available for consumption in SAP BTP ABAP Environment. For more information, see [Create Themes — End to End Flow](https://help.sap.com/docs/BTP/09f6818d8e064537973102d6289e2aca/0d2d662651d443288b5dce463acf4193.html). The theme ID shown in UI theme designer will be used to define default theme or additional themes to be used in SAP BTP ABAP Environment.
+A custom theme needs to be created and published in UI theme designer to be available for consumption in SAP Business AI Platform, ABAP environment. For more information, see [Create Themes — End to End Flow](https://help.sap.com/docs/BTP/09f6818d8e064537973102d6289e2aca/0d2d662651d443288b5dce463acf4193.html). The theme ID shown in UI theme designer will be used to define default theme or additional themes to be used in SAP Business AI Platform, ABAP environment.
 
 An entitlement for the UI theme designer \(theming\) service is required in your global account and needs to be assigned to the subaccount.
 
@@ -28,7 +28,7 @@ An entitlement for the UI theme designer \(theming\) service is required in your
 
 ## Creating an Instance for UI Theme Designer Service in Cloud Foundry
 
-To consume published themes in SAP BTP ABAP Environment, an instance of UI theme designer service needs to be created in Cloud Foundry.
+To consume published themes in SAP Business AI Platform, ABAP environment, an instance of UI theme designer service needs to be created in Cloud Foundry.
 
 1.  Navigate to the *Service Marketplace* in the Cloud Foundry subaccount. Select service *UI Theme Designer* \(name: theming\) and click *Create*.
 
@@ -58,7 +58,7 @@ To consume published themes in SAP BTP ABAP Environment, an instance of UI theme
 
 ## Creating a Service Key in Cloud Foundry
 
-The simplest way to enable communication between SAP BTP ABAP Environment and Cloud Foundry is to create a service key in Cloud Foundry and use its content for configuring the communication arrangement.
+The simplest way to enable communication between SAP Business AI Platform, ABAP environment and Cloud Foundry is to create a service key in Cloud Foundry and use its content for configuring the communication arrangement.
 
 1.  Navigate to the space of your Cloud Foundry subaccount. Go to *Services* \> *Instances* and select the instance for the UI theme designer.
 
@@ -73,9 +73,9 @@ The simplest way to enable communication between SAP BTP ABAP Environment and Cl
 
 ## Using mTLS for the Communication
 
-To enable mTLS for the communication between SAP BTP ABAP Environment and the UI theme designer in Cloud Foundry, the steps are a little bit different:
+To enable mTLS for the communication between SAP Business AI Platform, ABAP environment and the UI theme designer in Cloud Foundry, the steps are a little bit different:
 
-1.  In SAP BTP ABAP Environment, go to *Maintain Client Certificates*.
+1.  In SAP Business AI Platform, ABAP environment, go to *Maintain Client Certificates*.
 
 2.  Export the Client Default certificate. Choose one where *Valid to* is a date in the future.
 
@@ -108,7 +108,7 @@ If the client certificate is not valid anymore, you need to repeat the described
 
 3.  Recreate the Service Key as described above in steps 3 and 4. Copy this new key.
 
-4.  Then go to the SAP BTP ABAP Environment, and in the launchpad choose *Communication Management* \> *Communication Arrangements*.
+4.  Then go to the SAP Business AI Platform, ABAP environment, and in the launchpad choose *Communication Management* \> *Communication Arrangements*.
 
 5.  Select the previously created Communication Arrangement for `SAP_COM_0623`. Choose *Update by Service Key*, paste the newly created Key and then choose *Update*.
 
@@ -117,9 +117,9 @@ If the client certificate is not valid anymore, you need to repeat the described
 
 <a name="loiod8e9ce04153e4af799c8f76efe4b23bf__section_mz1_pfq_25b"/>
 
-## Creating a Communication Arrangement in SAP BTP ABAP Environment
+## Creating a Communication Arrangement in SAP Business AI Platform, ABAP environment
 
-1.  Log on to the SAP BTP ABAP Environment system as administator \(or as a user with the necessary role/catalog assigned\).
+1.  Log on to the SAP Business AI Platform, ABAP environment system as administator \(or as a user with the necessary role/catalog assigned\).
 
 2.  In the launchpad, navigate to the group *Communication Management* and choose the tile *Communication Arrangements*.
 
@@ -134,7 +134,7 @@ If the client certificate is not valid anymore, you need to repeat the described
 7.  Now click *Create*. With the help of the service key, everything is created in the background - communication system and communication arrangement - and all fields relevant for enabling a connection to Cloud Foundry are filled.
 
     > ### Note:  
-    > In a SAP BTP ABAP Environment system, there is only one communication arrangement for `SAP_COM_0623` \(connection to the Cloud Foundry environment\) per client possible. If you have already an existing connection for custom themes and want to create a new connection, you must delete the old connection first.
+    > In a SAP Business AI Platform, ABAP environment system, there is only one communication arrangement for `SAP_COM_0623` \(connection to the Cloud Foundry environment\) per client possible. If you have already an existing connection for custom themes and want to create a new connection, you must delete the old connection first.
 
 8.  Now you can maintain the fields for the communication arrangement. Besides the default theme ID, you can also maintain the field *Additional Theme IDs*. Here you can provide additional themes \(resp. their IDs\) from which the users can select one in the SAP Fiori launchpad personalization.
 
@@ -148,11 +148,11 @@ If the client certificate is not valid anymore, you need to repeat the described
 
 <a name="loiod8e9ce04153e4af799c8f76efe4b23bf__section_ay4_qhq_25b"/>
 
-## Maintain Content Security Policy in SAP BTP ABAP Environment
+## Maintain Content Security Policy in SAP Business AI Platform, ABAP environment
 
-To be able to correctly display custom themes in SAP BTP ABAP Environment, the runtime endpoint of UI theme designer \(theming\) service needs to be maintained as trusted site.
+To be able to correctly display custom themes in SAP Business AI Platform, ABAP environment, the runtime endpoint of UI theme designer \(theming\) service needs to be maintained as trusted site.
 
-1.  Log on to the SAP BTP ABAP Environment system as administrator \(or as a user with the necessary role/catalog assigned\).
+1.  Log on to the SAP Business AI Platform, ABAP environment system as administrator \(or as a user with the necessary role/catalog assigned\).
 
 2.  In the launchpad, navigate to the group *Security* and choose te tile *Manage Content Security Policy*.
 
@@ -172,7 +172,7 @@ To be able to correctly display custom themes in SAP BTP ABAP Environment, the r
 
 ## Results
 
-After a refresh in the FLP of SAP BTP ABAP Environment, your custom theme is available according to your configuration, as follows:
+After a refresh in the FLP of SAP Business AI Platform, ABAP environment, your custom theme is available according to your configuration, as follows:
 
 -   If you have entered the custom theme as an *additional theme*, the SAP Fiori launchpad is unchanged but the theme is now available in the *User Actions* menu under *Settings* \> *Appearance*.
 
@@ -200,9 +200,9 @@ After a refresh in the FLP of SAP BTP ABAP Environment, your custom theme is ava
 
 -   **Custom Theme in Theming Service is not available and FLP in ABAP Environment is broken**
 
-    FLP in SAP BTP ABAP Environment is not usable because default theme or theme selected for business user cannot be loaded.
+    FLP in SAP Business AI Platform, ABAP environment is not usable because default theme or theme selected for business user cannot be loaded.
 
-    **Solution**: Is it possible to specify theme ID to be used for FLP in SAP BTP ABAP Environment using an URL parameter `sap-theme=<theme-id>`
+    **Solution**: Is it possible to specify theme ID to be used for FLP in SAP Business AI Platform, ABAP environment using an URL parameter `sap-theme=<theme-id>`
 
     See *Usage of the sap-theme URL parameter* in SAP Note [2043817](https://me.sap.com/notes/2043817).
 

@@ -339,7 +339,7 @@ Editing a budget allows you to make changes to the budget's settings.
 
 Deleting a budget removes it permanently from your global account. Deleted budgets cannot be retrieved.
 
-Before deleting a budget, we recommended that you first check with the user that created the budget. Open the budget's details to view this information.
+Before deleting a budget, we recommend that you first check with the user that created the budget. Open the budget's details to view this information.
 
 
 

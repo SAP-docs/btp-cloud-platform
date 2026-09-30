@@ -37,6 +37,23 @@ Changes
 <tr>
 <td valign="top">
 
+`(01 October 2026)`
+
+**`Version 2.34.0`**
+
+</td>
+<td valign="top">
+
+-   No changes
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `(20 August 2026)`
 
 **`Version 2.33.0`**
@@ -299,6 +316,23 @@ Changes
 <tr>
 <td valign="top">
 
+`(01 October 2026)`
+
+**`Version 2.35.0`**
+
+</td>
+<td valign="top">
+
+-   No changes
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `(August 20 2026)`
 
 **`Version 2.34.0`**
@@ -545,6 +579,23 @@ Release
 Changes
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+`(October 1 2026)`
+
+**`Version 2.26.0`**
+
+</td>
+<td valign="top">
+
+-   *org.slf4j* is updated from version 2.0.18 to 2.0.19
+
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">

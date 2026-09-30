@@ -2,7 +2,7 @@
 
 # ABAP Compute Units
 
-ABAP Compute Units \(ACUs\) represent the runtime size in an SAP BTP ABAP environment. Each ABAP Compute Unit comprises 16 GB of memory and approximately four virtual CPUs \(vCPUs\).
+ABAP Compute Units \(ACUs\) represent the runtime size in an SAP Business AI Platform, ABAP environment. Each ABAP Compute Unit comprises 16 GB of memory and approximately four virtual CPUs \(vCPUs\).
 
 For availability reasons, we recommend using more instances instead of larger ones. However, large servers are more efficient when usage is constantly high, such as in multi-tenancy systems. Multi-tenancy systems consume more resources for runtime \(ACU\) and persistence \(HANA Compute Units, HCUs\).
 

@@ -44,7 +44,7 @@ The following list covers all possible use cases and will guide you to the respe
 **Related Information**  
 
 
-[SAP BTP ABAP environment](https://help.sap.com/docs/sap-btp-abap-environment)
+[SAP Business AI Platform, ABAP environment](https://help.sap.com/docs/sap-btp-abap-environment)
 
 [Custom Code Analysis](../50-administration-and-ops/performing-a-custom-code-analysis-15d0a1a.md "")
 
