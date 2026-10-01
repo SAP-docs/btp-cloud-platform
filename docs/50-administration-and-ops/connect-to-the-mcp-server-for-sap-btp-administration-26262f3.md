@@ -226,7 +226,7 @@ Instructions
 
     ```
     {
-      "mcpServers": {
+      "servers": {
         "BTP Administration": {
           "type": "streamableHttp",
           "url": "https://sso.mcp.btp.cloud.sap/mcp"
@@ -273,7 +273,7 @@ Instructions
           "description": "IAS tenant subdomain"
         }
       ],
-      "mcpServers": {
+      "servers": {
         "BTP Administration": {
           "type": "streamableHttp",
           "url": "https://proxy.c-769d49e.kyma.ondemand.com/mcp",
