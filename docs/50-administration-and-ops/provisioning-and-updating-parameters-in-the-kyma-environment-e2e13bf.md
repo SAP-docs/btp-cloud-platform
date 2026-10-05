@@ -1393,6 +1393,8 @@ You can use the machine types listed in the table with the following plans:
 -   Standard: Amazon Web Services \(technical name: `aws`\)
 -   Build Runtime: Amazon Web Services \(technical name: `build-runtime-aws`\)
 
+The `m5` and `m6i` machine types have been deprecated and can no longer be provisioned. To avoid breaking existing configurations, these inputs are automatically mapped to the equivalent `m7i` generation, so you do not need to adjust your configurations.
+
 **AWS Machine Types**
 
 
@@ -1546,7 +1548,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m6i.large`
+`m6i.large` \(`m7i.large`\)
 
 </td>
 <td valign="top">
@@ -1563,7 +1565,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m6i.xlarge`
+`m6i.xlarge` \(`m7i.xlarge`\)
 
 </td>
 <td valign="top">
@@ -1580,7 +1582,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m6i.2xlarge`
+`m6i.2xlarge` \(`m7i.2xlarge`\)
 
 </td>
 <td valign="top">
@@ -1597,7 +1599,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m6i.4xlarge`
+`m6i.4xlarge` \(`m7i.4xlarge`\)
 
 </td>
 <td valign="top">
@@ -1614,7 +1616,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m6i.8xlarge`
+`m6i.8xlarge` \(`m7i.8xlarge`\)
 
 </td>
 <td valign="top">
@@ -1631,7 +1633,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m6i.12xlarge`
+`m6i.12xlarge` \(`m7i.12xlarge`\)
 
 </td>
 <td valign="top">
@@ -1648,7 +1650,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m6i.16xlarge`
+`m6i.16xlarge` \(`m7i.16xlarge`\)
 
 </td>
 <td valign="top">
@@ -1665,7 +1667,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m5.large`
+`m5.large` \(`m7i.large`\)
 
 </td>
 <td valign="top">
@@ -1682,7 +1684,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m5.xlarge`
+`m5.xlarge` \(`m7i.xlarge`\)
 
 </td>
 <td valign="top">
@@ -1699,7 +1701,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m5.2xlarge`
+`m5.2xlarge` \(`m7i.2xlarge`\)
 
 </td>
 <td valign="top">
@@ -1716,7 +1718,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m5.4xlarge`
+`m5.4xlarge` \(`m7i.4xlarge`\)
 
 </td>
 <td valign="top">
@@ -1733,7 +1735,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m5.8xlarge`
+`m5.8xlarge` \(`m7i.8xlarge`\)
 
 </td>
 <td valign="top">
@@ -1750,7 +1752,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m5.12xlarge`
+`m5.12xlarge` \(`m7i.12xlarge`\)
 
 </td>
 <td valign="top">
@@ -1767,7 +1769,7 @@ Default Volume Size
 <tr>
 <td valign="top">
 
-`m5.16xlarge`
+`m5.16xlarge` \(`m7i.16xlarge`\)
 
 </td>
 <td valign="top">
@@ -3586,7 +3588,7 @@ type: string
 </td>
 <td valign="top">
 
-Look up the available Kyma modules at [Kyma Modules](../10-concepts/kyma-modules-0dda141.md).
+Defines the module's technical name. To check the available Kyma modules and their technical names, see [Kyma Modules](../10-concepts/kyma-modules-0dda141.md).
 
 </td>
 <td valign="top">
@@ -3612,7 +3614,7 @@ type: string
 </td>
 <td valign="top">
 
-Defines the preferred release channel. The default is `regular`. The other option is `fast`.
+Defines the preferred release channel. The default is `regular`. The other option is `fast`. See [Kyma Release Channels](../10-concepts/kyma-module-releases-95a4101.md#loio95a410144d7c449687c957da0cc43a0d__section_kyma_release_channels).
 
 </td>
 <td valign="top">
@@ -3638,11 +3640,11 @@ type: string
 </td>
 <td valign="top">
 
-Defines how a module's custom resource configuration is handled during enablement and reconciliation.
+Specifies whether Kyma manages the module's default custom resource \(CR\).
 
-By default, it is set to `CreateAndDelete` and allows the creation or deletion of a module's resource.
+If you set `customResourcePolicy` to `CreateAndDelete` or leave the field empty, Kyma provides the default module's configuration and applies it during runtime provisioning. This configuration is stored in the default module CR. You can edit this CR at any time, and Kyma doesn't overwrite your changes. When you delete the module, Kyma automatically removes the default module CR.
 
-If you set it to `Ignore`, a module's resource is not created.
+If you set `customResourcePolicy` to `Ignore`, the module is available in your cluster but it is not installed. Module-related CustomResourceDefinitions \(for example, APIRule for API Gateway module or Istio VirtualService for the Istio module\) are not available until the module is installed. To install the module, you must apply the module CR with your configuration. Before deleting the module, you must delete the CR first. Use this setting when you want to provide your own configuration from the start, for example in automated provisioning workflows where you manage CRs as YAML files.
 
 </td>
 <td valign="top">
@@ -3662,7 +3664,7 @@ Provisioning
 
 ### Configuration
 
-You have the default Kyma modules provisioned in your cluster if you do not provide the `modules` object in the JSON payload, or if you use the following input:
+If you don't provide the `modules` object in the JSON payload, or if you use the following input, you have the default Kyma modules provisioned in your cluster :
 
 > ### Sample Code:  
 > ```
@@ -3671,7 +3673,7 @@ You have the default Kyma modules provisioned in your cluster if you do not prov
 > } 
 > ```
 
-See an example of JSON input for a custom list of Kyma modules:
+See an example of JSON input for a custom list of Kyma modules.
 
 > ### Sample Code:  
 > ```
@@ -3682,8 +3684,22 @@ See an example of JSON input for a custom list of Kyma modules:
 >         },
 >         {
 >             "name": "keda",
->             "customResourcePolicy": "CreateAndDelete",
->             "channel": "fast"
+>             "channel": "regular",
+>             "customResourcePolicy": "CreateAndDelete"
+>         }
+>     ]
+> }
+> ```
+
+If you use the following JSON input, Kyma doesn't create the Istio module's default CR and doesn't install Istio CRDs \(such as VirtualServices or Gateways\). To complete the setup, you must apply your own Istio CR. You can set `customResourcePolicy` to `Ignore` for any Kyma module. To configure the module CR, find reference documentation on kyma-project.io. For example, [Istio Custom Resource](https://kyma-project.io/external-content/istio/docs/user/04-00-istio-custom-resource.html).
+
+> ### Sample Code:  
+> ```
+> "modules": {
+>     "list": [
+>         {
+>             "name": "istio",
+>             "customResourcePolicy": "Ignore"
 >         }
 >     ]
 > }

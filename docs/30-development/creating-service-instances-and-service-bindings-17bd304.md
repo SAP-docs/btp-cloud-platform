@@ -190,3 +190,69 @@ Kyma dashboard is a web-based UI providing a graphical overview of your cluster 
 
 You can use a given service in your Kyma cluster.
 
+<a name="loio5a30dd31252d4a3bbb0a5330622fc5d8"/>
+
+<!-- loio5a30dd31252d4a3bbb0a5330622fc5d8 -->
+
+## Creating a Service Binding for a Service Instance in a Different Namespace
+
+You can create a service binding that references a service instance provisioned in a different namespace.
+
+
+
+## Procedure
+
+1.  Set the `serviceInstanceNamespace` field in the `ServiceBinding` `spec` to the namespace where the service instance resides. Replace the placeholders and run:
+
+    ```
+    kubectl create -f - <<EOF
+    apiVersion: services.cloud.sap.com/v1
+    kind: ServiceBinding
+    metadata:
+      name: {BINDING_NAME}
+      namespace: {BINDING_NAMESPACE}
+    spec:
+      serviceInstanceName: {SERVICE_INSTANCE_NAME}
+      serviceInstanceNamespace: {INSTANCE_NAMESPACE}
+      secretName: {SECRET_NAME}
+    EOF
+    ```
+
+2.  Check the service binding status:
+
+    ```
+    kubectl get servicebindings.services.cloud.sap.com {BINDING_NAME} -n {BINDING_NAMESPACE}
+    ```
+
+    You see the status ***Created***.
+
+
+
+
+<a name="loio5a30dd31252d4a3bbb0a5330622fc5d8__result_abc_xns"/>
+
+## Results
+
+The application in the binding's namespace can use the Secret referenced in the `spec.secretName` field to access the service instance provisioned in the namespace specified in the `spec.serviceInstanceNamespace` field.
+
+
+
+<a name="loio5a30dd31252d4a3bbb0a5330622fc5d8__postreq_abc_restrict"/>
+
+## Next Steps
+
+**Restricting Cross-Namespace Bindings**
+
+To restrict which namespaces can create cross-namespace bindings, add one of the following annotations to the service instance:
+
+-   `services.cloud.sap.com/allowCrossNamespaceBinding: "false"` — to block cross-namespace bindings from all other namespaces
+-   `services.cloud.sap.com/allowedNamespacesForBinding` — to limit cross-namespace bindings to specific namespaces, add the annotation with a comma-separated list of allowed namespaces \(with no spaces\), for example: `services.cloud.sap.com/allowedNamespacesForBinding: "ns1,ns2"`
+
+Without these annotations, any namespace can create cross-namespace bindings for this instance.
+
+If the binding's namespace is not permitted by the service instance's annotations, the `Succeeded` condition of the binding is set to *false* with reason *Blocked*. The binding automatically retries when the service instance's annotations change.
+
+When a cross-namespace binding is blocked, the binding status shows a message indicating that the service instance couldn't be found or doesn't allow cross-namespace binding. You see the same message when the instance doesn't exist. If you see it and you're sure the instance name and namespace are correct, check whether the service instance has cross-namespace binding restrictions set.
+
+To resolve a blocked binding, either remove the restriction from the service instance or update the `services.cloud.sap.com/allowedNamespacesForBinding` annotation to include the binding's namespace.
+
