@@ -11,7 +11,7 @@ Get an overview of all available user guides for ABAP development tools.
 
 This guide describes the tool set and functionality of [ABAP development tools for Eclipse](https://help.sap.com/docs/ABAP_DEVELOPMENT_TOOLS_FOR_ECLIPSE):
 
--   SAP Joule for Developers, ABAP AI capabilities supports you in the end-to-end development using AI and can be integrated into ABAP development tools for Eclipse. It's currently available for customers using SAP BTP ABAP environment, SAP S/4HANA Cloud Public Edition or SAP S/4HANA Cloud Private Edition. To leverage SAP Joule for Developers, ABAP AI capabilities, you need to purchase an additional license. See [Getting Started](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/prerequisites-and-required-authorizations).
+-   SAP Joule for Developers, ABAP AI capabilities supports you in the end-to-end development using AI and can be integrated into ABAP development tools for Eclipse. It's currently available for customers using SAP Business AI Platform, ABAP environment, SAP S/4HANA Cloud Public Edition or SAP S/4HANA Cloud Private Edition. To leverage SAP Joule for Developers, ABAP AI capabilities, you need to purchase an additional license. See [Getting Started](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/prerequisites-and-required-authorizations).
 -   Within the ABAP core development scenario: In particular, it focuses on use cases for creating, editing, testing and debugging development objects like ABAP classes, ABAP Dictionary objects, function modules and so forth.
 
 -   For Core Data Services \(CDS\) in ABAP development for SAP HANA scenarios: In particular, it focuses on use cases for creating, editing, testing, and analyzing ABAP CDS entities like data definitions and so forth.

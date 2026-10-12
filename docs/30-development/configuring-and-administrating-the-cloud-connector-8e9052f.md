@@ -2,5 +2,5 @@
 
 # Configuring and Administrating the Cloud Connector
 
-The *Cloud Connector* enables the connection between the SAP BTP ABAP environment and on-premise systems in a secured network.
+The *Cloud Connector* enables the connection between the SAP Business AI Platform, ABAP environment and on-premise systems in a secured network.
 

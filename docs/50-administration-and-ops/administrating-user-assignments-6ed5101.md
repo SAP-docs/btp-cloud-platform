@@ -2,7 +2,7 @@
 
 # Administrating User Assignments
 
-The user assignment describes the relevant roles that a user requires to access SAP BTP ABAP environment using the Analyze Custom Code app.
+The user assignment describes the relevant roles that a user requires to access SAP Business AI Platform, ABAP environment using the Analyze Custom Code app.
 
 
 

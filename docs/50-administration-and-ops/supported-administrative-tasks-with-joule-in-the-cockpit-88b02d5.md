@@ -33,7 +33,7 @@ Joule in the BTP cockpit can also assist you with administrative tasks related t
 -   See the Cloud Foundry org or space users
 -   Add a user to a Cloud Foundry org or space
 
-Joule is also capable of helping you to find the root causes of runtime issues with your applications hosted by the **Application Frontend** service and suggest ways to resolve there errors.
+Joule is also capable of helping you to find the root causes of runtime issues with your applications hosted by the **Application Frontend** service and suggest ways to resolve there errors. See [Analyzing Application Issues with Joule](https://help.sap.com/docs/APPLICATION_FRONTEND/9affcc2d6aca4f9d9a5414c13e5ea894/cbaf99e6d57f427f9fe4515ce2e88972.html?locale=en-US&version=LATEST&ai=true).
 
 Joule can also **navigate** you to select pages within the cockpit:
 
@@ -49,6 +49,4 @@ Joule can also **navigate** you to select pages within the cockpit:
 [Best Practices for Joule in the Cockpit](best-practices-for-joule-in-the-cockpit-20b5e3e.md "Get the most our of Joule in SAP BTP Cockpit.")
 
 [Troubleshooting Joule in the Cockpit](https://help.sap.com/docs/BTP/60f1b283f0fd4d0aa7b3f8cea4d73d1d/e2d8e2c0ad914564bd02f8b0d2c526c7.html?locale=en-US&state=PRODUCTION&version=CLOUD)
-
-[Analyzing Consumption Costs Using Joule in the Cockpit](https://help.sap.com/docs/btp/sap-business-technology-platform/analyzing-consumption-costs-using-joule-in-cockpit?locale=en-US)
 

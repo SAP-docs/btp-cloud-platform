@@ -10,7 +10,7 @@ The resource accessible represents the on-premise system that can be accessed th
 
 ## Context
 
-You want to enable the connection for SAP BTP ABAP environment to an on-premise system.
+You want to enable the connection for SAP Business AI Platform, ABAP environment to an on-premise system.
 
 For more information, see [Configure Access Control \(RFC\)](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/ca5868997e48468395cf0ca4882f5783.html)
 
@@ -112,7 +112,7 @@ For more information, see [Configure Access Control \(RFC\)](https://help.sap.co
 9.  To define which function modules are executable in the on-premise, choose <span class="SAP-icons-V5"></span> *Import resources belonging to a scenario* from the section toolbar in the *Resources Of …* section.
 
     > ### Note:  
-    > To get the relevant import file for the Custom Code Migration scenario, see SAP Note [2861842](https://me.sap.com/notes/2861842) - Custom Code Migration in SAP BTP ABAP environment: Set up SAP Cloud Connector.
+    > To get the relevant import file for the Custom Code Migration scenario, see SAP Note [2861842](https://me.sap.com/notes/2861842) - Custom Code Migration in SAP Business AI Platform, ABAP environment: Set up SAP Cloud Connector.
 
 10. *Browse* the *Scenario File* and choose *Select*.
 
