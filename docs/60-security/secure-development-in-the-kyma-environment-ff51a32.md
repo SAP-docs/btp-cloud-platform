@@ -10,7 +10,7 @@ Secure development focuses on Pod security, network traffic restriction, Istio s
 
 ## Pod Security
 
-To learn how to secure your Kubernetes Pods in Kyma, see [Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommendations-f8cb6e5.md).
+To learn how to secure your Kubernetes Pods in Kyma see [Kubernetes Pod Security Recommendations](kubernetes-pod-security-recommendations-f8cb6e5.md).
 
 
 

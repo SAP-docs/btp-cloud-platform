@@ -95,7 +95,7 @@ You may need to create a support user to troubleshoot issues in your system. See
 
 [Gather Support Information](gather-support-information-6daa475.md "The Eclipse tools come with a wizard for gathering support information in case you need help with a feature or operation (during deploying/debugging applications, logging, configurations, and so on).")
 
-[Platform Updates and Notifications](platform-updates-and-notifications-99070c7.md "Learn about the platform updates, including biweekly updates, immediate fixes, and major upgrades. Find out how to subscribe for notifications.")
+[Platform Updates and Notifications](platform-updates-and-notifications-99070c7.md "Platform updates for SAP Business Technology Platform include biweekly releases, immediate fixes, and major upgrades. To stay informed about updates and planned maintenance that may affect your applications, subscribe to notifications.")
 
 [Cloud Availability Center](https://support.sap.com/en/my-support/systems-installations/cac.html)
 

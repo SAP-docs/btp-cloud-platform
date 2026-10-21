@@ -3642,9 +3642,9 @@ type: string
 
 Specifies whether Kyma manages the module's default custom resource \(CR\).
 
-If you set `customResourcePolicy` to `CreateAndDelete` or leave the field empty, Kyma provides the default module's configuration and applies it during runtime provisioning. This configuration is stored in the default module CR. You can edit this CR at any time, and Kyma doesn't overwrite your changes. When you delete the module, Kyma automatically removes the default module CR.
+If you set `customResourcePolicy` to `CreateAndDelete` or leave the field empty, Kyma configures the module with default settings. The default configuration is defined in the module CR, which you can edit at any time and Kyma doesn't overwrite your changes. When you delete the module, Kyma also removes the module CR.
 
-If you set `customResourcePolicy` to `Ignore`, the module is available in your cluster but it is not installed. Module-related CustomResourceDefinitions \(for example, APIRule for API Gateway module or Istio VirtualService for the Istio module\) are not available until the module is installed. To install the module, you must apply the module CR with your configuration. Before deleting the module, you must delete the CR first. Use this setting when you want to provide your own configuration from the start, for example in automated provisioning workflows where you manage CRs as YAML files.
+If you set `customResourcePolicy` to `Ignore`, the module is added to your cluster without default configuration. Module CustomResourceDefinitions \(CRDs\) are not installed until you apply the module CR with your own configuration. For example, you can't create VirtualServices with the Istio module until you apply the Istio CR. Before deleting the module, you must delete the CR first. Use this setting when you want to provide your module configuration from the start, for example in automated provisioning workflows where you manage CRs as YAML files.
 
 </td>
 <td valign="top">

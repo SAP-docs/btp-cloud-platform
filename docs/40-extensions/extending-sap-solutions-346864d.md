@@ -45,8 +45,6 @@ To enable the integration, you need to:
 
     -   For systems of type different than SAP S/4HANA Cloud, SAP Marketing Cloud, SAP SuccessFactors and SAP systems from the SAP Customer Experience portfolio, the SAP system is already registered when it's part of the *Systems* page. However, in the *Status* column, there is no status shown. See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
 
-    -   For third-party systems, the system is already registered when it's part of the *Systems* page. However, in the *Status* column, there is no status shown. See [Register a Third-Party System](register-a-third-party-system-5481d59.md).
-
 
     > ### Note:  
     > You cannot migrate the registered SAP systems between global accounts.

@@ -10,9 +10,9 @@ When implementing your extensibility scenario, there are a couple of concepts yo
 
 ## Systems
 
-A system is a specific instance of an SAP or third-party solution that is manually added or auto discovered and is listed in the *System Landscape* \> *Systems* page in the SAP BTP cockpit.
+A system is a specific instance of an SAP solution that is manually added or auto discovered and is listed in the *System Landscape* \> *Systems* page in the SAP BTP cockpit.
 
-When you want to add functionality to your SAP or third-party solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP or third-party solution, you add the system of this solution to the *Systems* page of the SAP BTP cockpit. If the system is one of the following types, you also have to register it using a registration token:
+When you want to add functionality to your SAP solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP solution, you add the system of this solution to the *Systems* page of the SAP BTP cockpit. If the system is one of the following types, you also have to register it using a registration token:
 
 -   SAP S/4HANA Cloud
 
@@ -69,9 +69,7 @@ The registration process can have the following status values:
 
 **Consumption Bundles, APIs, and Events**
 
-Consumption bundles group logically APIs and events intended for communication with the SAP or third-party system. This grouping means that the consumption of the APIs or the events can happen by using the same set of credentials later on. When you register a system, you can also preview the number and the content of consumption bundles that are exposed for communication with the given system.
-
-After you add your third-party systems, you can specify the set of APIs and events in consumption bundles. A consumption bundle organizes a set of related APIs and events into a single group for consumption purposes and expresses information about how the APIs and events that it contains can be accessed. All APIs and events that are part of the same consumption bundle need to be accessible through the same set of credentials. You add the consumption bundles in *System Details* of the respective third-party system.
+Consumption bundles group logically APIs and events intended for communication with the SAP system. This grouping means that the consumption of the APIs or the events can happen by using the same set of credentials later on. When you register a system, you can also preview the number and the content of consumption bundles that are exposed for communication with the given system.
 
 You can explore the consumption bundles, the APIs, and the events configured for your system in *System Details*. To do that, go to the respective tab: *Consumption Bundles*, *APIs*, or *Events*.
 
@@ -156,20 +154,20 @@ You can see the discovery mechanism and access all the actions related to the sy
 
 ## Formations
 
-A formation is a logical grouping of SAP or third-party systems that can be extended in a business scenario. Formations allow you to combine SAP or third-party solution systems and a subaccount in SAP BTP to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your extension scenario. To create a fully functional formation, you can use a two-step wizard. At the first step, you specify a custom formation name and assign a subaccount to it. At the second step, you can include an SAP or third-party solution system in the formation. You do this configuration once and you can change it anytime.
+A formation is a logical grouping of SAP systems that can be extended in a business scenario. Formations allow you to combine SAP solution systems and a subaccount in SAP BTP to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your extension scenario. To create a fully functional formation, you can use a two-step wizard. At the first step, you specify a custom formation name and assign a subaccount to it. At the second step, you can include an SAP solution system in the formation. You do this configuration once and you can change it anytime.
 
-Extension business cases often involve extending several SAP or third-party solutions at a time. For example, for a given business case you might need to extend the functionality or the UI as follows:
+Extension business cases often involve extending several SAP solutions at a time. For example, for a given business case you might need to extend the functionality or the UI as follows:
 
 -   An SAP SuccessFactors system, and an SAP S/4HANA Cloud system. First, you need to configure the connectivity of each of these systems to Cloud Foundry, Kyma, or both environments. Extension applications of both solutions are part of the same business need.
 
 -   An SAP Commerce Cloud system, and an SAP S/4HANA Cloud system. Again, you first configure the connectivity of each of these systems to the Kyma environment.
 
--   A single system of the supported SAP or third-party solutions.
+-   A single system of the supported SAP solutions.
 
--   SAP or third-party systems that expose event data, which can be shared and exchanged with the systems included in the formation.
+-   SAP systems that expose event data, which can be shared and exchanged with the systems included in the formation.
 
 
-When creating a formation in the *System Landscape* \> *Formations* page in the SAP BTP cockpit, you include the systems of the different SAP or third-party solutions you want to extend. If your business case features more than one system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
+When creating a formation in the *System Landscape* \> *Formations* page in the SAP BTP cockpit, you include the systems of the different SAP solutions you want to extend. If your business case features more than one system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
 
 
 
@@ -177,11 +175,11 @@ When creating a formation in the *System Landscape* \> *Formations* page in the 
 
 **Consumption Bundle APIs**
 
-A consumption bundle can group logically a set of APIs for communication with the SAP or third-party system.
+A consumption bundle can group logically a set of APIs for communication with the SAP system.
 
 **Consumption Bundle Events**
 
-A consumption bundle can group logically a set of events for communication with the SAP or third-party system.
+A consumption bundle can group logically a set of events for communication with the SAP system.
 
 
 

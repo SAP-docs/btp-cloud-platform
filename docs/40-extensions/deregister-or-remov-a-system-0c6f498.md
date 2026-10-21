@@ -33,7 +33,7 @@ The deregistration and the removal processes have the following states displayed
     Once a system of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio is registered, you can deregister it only after deleting its entitlement configurations and excluding it from the formations it takes part in.
 
 -   *Error while Deregistering* - the deregistration has failed. Try to deregister the system again. If the problem persists, you have to report a case in one of the components mentioned below.
--   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the SAP systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio is deregistered, and then, it is removed from the systems list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure. This state also applies to other manually added SAP or third-party systems that you are removing.
+-   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the SAP systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio is deregistered, and then, it is removed from the systems list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure. This state also applies to other manually added SAP systems that you are removing.
 
     Once a system is registered, you can only remove it if you first deregister it.
 
@@ -54,7 +54,7 @@ The deregistration and the removal processes have the following states displayed
 
 1.  In the cockpit, navigate to your global account, and then choose *System Landscape* \> *Systems* .
 
-2.  On the *Systems* page, select the SAP or third-party system you want to deregister or remove.
+2.  On the *Systems* page, select the SAP system you want to deregister or remove.
 
     -   To deregister a system, choose <span class="SAP-icons-V5"></span> \(Deregister system\) from the *Actions* column, or choose *Deregister System* from the *System Details* page that you access when selecting the system from the system landscape list.
 

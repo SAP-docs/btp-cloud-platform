@@ -219,6 +219,23 @@ Changes
 <tr>
 <td valign="top">
 
+`(October 15 2026)`
+
+**`Version 2.29.0`**
+
+</td>
+<td valign="top">
+
+-   No changes
+
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 `(September 3 2026)`
 
 **`Version 2.24.0 - 2.28.0`**
@@ -579,6 +596,25 @@ Release
 Changes
 
 </th>
+</tr>
+<tr>
+<td valign="top">
+
+`(October 15 2026)`
+
+**`Version 2.27.0`**
+
+</td>
+<td valign="top">
+
+-   *com.sap.cloud.servicemanager* is updated from version 1.9.0 to 1.10.1
+
+-   *org.slf4j* is updated from version 2.0.19 to 2.0.20
+
+
+
+
+</td>
 </tr>
 <tr>
 <td valign="top">

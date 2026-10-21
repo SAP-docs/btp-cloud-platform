@@ -4,7 +4,7 @@
 
 SAP Java Buildpack is a Cloud Foundry buildpack for running SapMachine-based applications.
 
-This buildpack supports Java 17, 21 and 25, as well as the following runtimes:
+This buildpack supports Java 21 and 25, as well as the following runtimes:
 
 -   [TomEE 10](tomee-10-66e808e.md)
 
@@ -201,7 +201,6 @@ modules:
 
 SAP Java Buildpack \(`sap_java_buildpack_jakarta`\) supports the following Java versions:
 
--   Java **17** – you can obtain it by using SapMachine 17 \(*it provides a JRE with Java 17*\)
 -   Java **21** – **default version**. You can obtain it by using SapMachine 21 \(*it provides a JRE with Java 21*\)
 -   Java **25** – you can obtain it by using SapMachine 25 \(*it provides a JRE with Java 25*\)
 
@@ -217,7 +216,7 @@ SAP Java Buildpack provides the following components in the application containe
 
 -   Runtimes – [Tomcat 10](tomcat-10-97d0e34.md), [Tomcat 11](tomcat-11-7c854a1.md), [TomEE 10](tomee-10-66e808e.md), and [Java Main](java-main-8a1786a.md)
 
--   [SapMachine](sapmachine-785d6b3.md) – version 17, 21, 25
+-   [SapMachine](sapmachine-785d6b3.md) – version 21, 25
 
 -   [Memory Calculator](memory-calculator-505a71a.md)
 
@@ -247,8 +246,6 @@ To see the latest news and updates about SAP Java Buildpack, regularly check the
 ## Troubleshooting
 
 If you encounter an issue while using SAP Java Buildpack, you can:
-
--   Search for your problem in our [Troubleshooting](sap-java-buildpack-troubleshooting-ee609aa.md) section.
 
 -   Create an incident for your specific problem, using support component **BC-CP-CF-BLDP**. To provide the necessary details, use the following template: [Initial Problem-Related Data](troubleshooting-073b7fc.md) 
 

@@ -38,6 +38,30 @@ Business Catalog ID
 <tr>
 <td valign="top">
 
+Intelligent Scenario Lifecycle Management
+
+</td>
+<td valign="top">
+
+[Manage Gen AI Scenarios](../30-development/manage-gen-ai-scenarios-5fef720.md) 
+
+</td>
+<td valign="top">
+
+`SAP_BR_ANALYTICS_SPECIALIST` 
+
+</td>
+<td valign="top">
+
+`SAP_CORE_BC_ISM_ISC`
+
+`SAP_CORE_BC_ISM_ISO`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Extensibility
 
 </td>
