@@ -6,7 +6,7 @@ Choose the development environment, tools, APIs, and programming model that best
 
 Navigating the large portfolio of solutions, services, tools, and frameworks can be difficult. That's why we want to provide you with recommendations based on our years of experience in helping customers achieve their goals. The best practices listed here are targeted at developers. If you're looking for recommendations on general development planning and setting up SAP BTP, see [SAP BTP Administrator's Guide](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/9f2bb927464e4d1ba3d13b2d79ca9bd1.html "This guide is the starting point for setting up application lifecycle management for your specific use case, business, and IT landscape. It contains recommendations and best practices that give you an overview of what you should consider when planning development projects on SAP BTP – from setting up the correct organizational structure to creating an account and security model, to developing and operating applications. It also includes links to step-by-step instructions when required.") :arrow_upper_right:. If you're interested in extending existing applications, see [Extensions and Integrations](../40-extensions/extensions-and-integrations-08b1eff.md).
 
-The following graphic offers an overview of the most important considerations to take when starting development on SAP BTP for the Cloud Foundry environment. The steps are recommendations, you're free to complete them in a different order if you feel it suits your needs better.
+The following graphic offers an overview of the most important considerations to take when starting development on SAP BTP for Cloud Foundry. The steps are recommendations, you're free to complete them in a different order if you feel it suits your needs better.
 
 
 
@@ -22,7 +22,7 @@ The following graphic offers an overview of the most important considerations to
 
 ## The Recommended Path: The SAP Cloud Application Programming Model
 
-We recommend using the SAP Cloud Application Programming Model \(CAP\) for full-stack development. CAP is a framework of languages, libraries, APIs, and tools that guide developers along a proven path of best practices. It was designed with a business domain focus in mind, relying on common patterns and reuse models for programming. With CAP you can develop multitarget applications or automate tasks such as authorization, integration, or localization to make applications and services easier to fix and maintain. CAP is compatible with any development environment, but we recommend SAP Business Application Studio.
+We recommend using the SAP Cloud Application Programming Model \(CAP\) for full-stack development. CAP is a framework of languages, libraries, APIs, and tools that guide developers along a proven path of best practices. It was designed with a business domain focus in mind, relying on common patterns and reuse models for programming. With CAP, you can develop multitarget applications or automate tasks such as authorization, integration, or localization to make applications and services easier to fix and maintain. CAP is compatible with any development environment, but we recommend SAP Business Application Studio.
 
 For more information, see [Developing with the SAP Cloud Application Programming Model](developing-with-the-sap-cloud-application-programming-model-00823f9.md) and [SAP Business Application Studio](https://help.sap.com/viewer/product/SAP%20Business%20Application%20Studio/Cloud/en-US).
 
@@ -44,7 +44,7 @@ For more information, see [Multitarget Applications in the Cloud Foundry Environ
 
 ## SAP Alert Notification service
 
-Applications running in the Cloud Foundry environment are constantly monitored through health checks. If an application doesn't respond, for example because it crashed, it fails the health check and is automatically restarted. Because the system restarts applications quickly to avoid major disruptions, it can be difficult to identify underlying problems. For more information about configuring Health Checks, see [https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html](https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html)
+Applications running in Cloud Foundry are constantly monitored through health checks. If an application doesn't respond, for example because it crashed, it fails the health check and is automatically restarted. Because the system restarts applications quickly to avoid major disruptions, it can be difficult to identify underlying problems. For more information about configuring Health Checks, see [https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html](https://docs.cloudfoundry.org/devguide/deploy-apps/healthchecks.html)
 
 To support the smooth operation of your applications and services, we recommend using the SAP Alert Notification service. Using a standardized environment-agnostic model, the service collects any update from the application checks as well as crucial technical information from other services on SAP BTP. It also handles custom scenarios that only occur in your specific application and environment. Each piece of information is translated into a common event model.
 

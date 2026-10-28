@@ -30,7 +30,7 @@ All SaaS Provisioning Service APIs adhere to the rate limiting rules as describe
 > ### Tip:  
 > Instead of APIs, can use a dedicated user interface with the same capabilities to manage your multitenant application's subscriptions.
 > 
-> For more information, see [Using the Subscription Management Dashboard](using-the-subscription-management-dashboard-434be69.md).
+> For more information, see [Using the SAP BTP Subscription Management Dashboard](using-the-sap-btp-subscription-management-dashboard-434be69.md).
 
 
 

@@ -15968,6 +15968,60 @@ Manage your SAP Direct Tax Management inventory with ease.
 <tr>
 <td valign="top">
 
+[SAP Direct Tax Management](https://help.sap.com/docs/SAP_DIRECT_TAX_MANAGEMENT) 
+
+</td>
+<td valign="top">
+
+Manage your SAP Direct Tax Management inventory with ease.
+
+</td>
+<td valign="top">
+
+-   LOD-PER-DTM
+
+
+
+</td>
+<td valign="top">
+
+-   Cloud Foundry
+
+
+
+</td>
+<td valign="top">
+
+-   GCP
+
+
+
+</td>
+<td valign="top">
+
+-   US Central \(IA\)
+
+
+
+</td>
+<td valign="top">
+
+-   Yes
+
+
+
+</td>
+<td valign="top">
+
+-   Available
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 [Data Attribute Recommendation](https://help.sap.com/docs/data-attribute-recommendation/data-attribute-recommendation/enabling-service-in-cloud-foundry-environment) 
 
 </td>

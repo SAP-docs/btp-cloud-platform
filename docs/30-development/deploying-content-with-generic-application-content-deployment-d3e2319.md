@@ -36,7 +36,7 @@ Cloud Foundry service offerings that currently support GACD are:
 
 ## How Content is Deployed with Generic Application Content Deployment
 
-The diagram below illustrates the steps and BTP components involved in the process of content deployment with Generic Application Content Deployment:
+The diagram below illustrates the steps and SAP BTP components involved in the process of content deployment with Generic Application Content Deployment:
 
 ![](images/DeployingContentWithGenericApplicationContentDeploymentService_1616934.png)
 
@@ -297,7 +297,7 @@ You can deploy content directly to an existing service key with a descriptor mod
 
 ### Using user-provided services
 
-Sometimes, the content endpoint might not be exposed as a standard service broker in BTP. In these cases, neither service instance nor service key can be created. The only option to utilize content deployment to such content target is via user-provided services.
+Sometimes, the content endpoint might not be exposed as a standard service broker in SAP BTP. In these cases, neither service instance nor service key can be created. The only option to utilize content deployment to such content target is via user-provided services.
 
 > ### Sample Code:  
 > ```

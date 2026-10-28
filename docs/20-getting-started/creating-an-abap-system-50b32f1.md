@@ -344,7 +344,9 @@ For more information about creating service instances, see [Create Service Insta
     <tr>
     <td valign="top">
     
-    **HANA Cloud Disk Size**
+    HANA Cloud Disk Size
+
+    \(`size_of_persistence_disc`\)
     
     </td>
     <td valign="top">

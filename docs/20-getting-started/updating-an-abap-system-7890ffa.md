@@ -16,13 +16,13 @@ Learn how to update your ABAP environment instance or change its service plan.
 
 After you have created an ABAP environment instance, you can change the following properties:
 
--   ABAP System Description
+-   ABAP System Description \(description\)
 
 -   Total ABAP Runtime Size \(size\_of\_runtime\)
 
 -   ABAP Runtime Size per Application Server \(application\_server\_size\)
 
--   Elastic Scaling of the ABAP Application Server
+-   Elastic Scaling of the ABAP Application Server \(elastic\)
 
 -   HANA Cloud Memory Size \(size\_of\_persistence\)
 

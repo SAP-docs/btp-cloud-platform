@@ -6,15 +6,15 @@
 
 ## Symptom
 
-After sending a request to a web application in the SAP BTP, Cloud Foundry environment, the system responds as follows:
+After sending a request to a web application in the SAP BTP, Cloud Foundry runtime, the system responds as follows:
 
-`Error - Identity provider could not process the authentication request received. Delete your browser cache and stored cookies, and restart your browser. If you continue to experience issues, send an e-mail to sso@sap.com.`
+***Error - Identity provider could not process the authentication request received. Delete your browser cache and stored cookies, and restart your browser. If you continue to experience issues, send an e-mail to sso@sap.com.***
 
 
 
 ## Reason and Prerequisites
 
-The Cloud Foundry environment uses the Identity Authentication service as its SAML 2.0 identity provider. The SAP Authorization and Trust Management service \(XSUAA\) forwards unauthenticated requests to the configured identity provider. This error occurs because the trust relationship between the SAP Authorization and Trust Management service and the identity provider hasn't been fully configured. The subaccount has not been registered in the SAML 2.0 identity provider.
+SAP BTP, Cloud Foundry runtime uses the Identity Authentication service as its SAML 2.0 identity provider. The SAP Authorization and Trust Management service \(XSUAA\) forwards unauthenticated requests to the configured identity provider. This error occurs because the trust relationship between the SAP Authorization and Trust Management service and the identity provider hasn't been fully configured. The subaccount has not been registered in the SAML 2.0 identity provider.
 
 
 

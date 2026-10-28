@@ -4,19 +4,19 @@
 
 In this section, you can find information for audit log functionalities in the Cloud Foundry environment.
 
-SAP Audit Log is a core, security, and compliance-based SAP BTP service to provide means for audit purposes. The following features of Audit Log Service are available for SAP BTP Applications and Services:
+SAP Audit Log is a core, security, and compliance-based SAP BTP service to provide means for audit purposes. The following features of SAP Audit Log service are available for SAP BTP Applications and Services:
 
 -   With the default features, you have:
 
     -   Written compliance audit data from SAP BTP services and applications, through oAuth2 service plan.
     -   Audit data securely stored for a default retention time of 90 days with no additional costs applied.
 
-    -   Retrieval of audit data within the default retention period ensured as part of the Auditlog Management Service.
+    -   Retrieval of audit data within the default retention period ensured as part of the SAP Audit Log Management service.
 
 
 -   With the advanced features you can:
 
-    -   Write audit data from your owned BTP applications.
+    -   Write audit data from your owned SAP BTP applications.
 
     -   Configure the retention period.
 
@@ -47,7 +47,7 @@ The SAP Audit Log stores audit logs representing different actions taken over yo
 
 See [Change Logging and Read-Access Logging](../60-security/change-logging-and-read-access-logging-93fac8d.md).
 
-If your subaccount audit logs contain other log types or information, create a [support ticket](https://me.sap.com/getsupport) with component BC-CP-CF-SEC-AUDITLG.
+If your subaccount audit logs contain other log types or information, create a [support ticket](https://me.sap.com/getsupport) with component `BC-CP-CF-SEC-AUDITLG`.
 
 **Related Information**  
 

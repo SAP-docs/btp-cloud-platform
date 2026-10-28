@@ -43,9 +43,9 @@ Availability and Performance
 
 This service is available in the following environments:
 
--   Cloud Foundry environment
+-   Cloud Foundry
 
--   Kyma environment
+-   Kyma 
 
 
 

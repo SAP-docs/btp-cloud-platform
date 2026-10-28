@@ -32,10 +32,10 @@ You can add an additional role collection with a different name to your *xs-secu
 
 1.  Add a new role collection with a different name to the *xs-security.json*.
 2.  Add/modify the role templates within that role collection according to your needs.
-3.  Update the SAP Authorization and Trust Management service service instance. See [Update Service Instances Using the SAP BTP Cockpit or Cloud Foundry Command Line Interface](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/54fe2e7250924b12916897727ea78d29.html).
+3.  Update the SAP Authorization and Trust Management service instance. See [Update Service Instances Using the SAP BTP Cockpit or Cloud Foundry Command Line Interface](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/54fe2e7250924b12916897727ea78d29.html).
 4.  Assign the new role collection to the application users.
 5.  \(Optional\) When all users have been migrated to the new role collection, remove the old role collection from the *xs-security.json*.
-6.  \(Optional\) Update the SAP Authorization and Trust Management service service instance.
+6.  \(Optional\) Update the SAP Authorization and Trust Management service instance.
 
 
 

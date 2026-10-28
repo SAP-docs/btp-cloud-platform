@@ -2,20 +2,20 @@
 
 # Enable Command Autocompletion
 
-Use command autocompletion to save keystrokes when entering command actions, group-object combinations, and their parameters in the SAP BTP command line interface \(btp CLI\).
+Use command autocompletion to save keystrokes when entering command actions, group-object combinations, and their parameters in the SAP BTP command line interface \(BTP CLI\).
 
 
 
 ## Context
 
-Autocompletion in btp CLI currently supports the following shells:
+Autocompletion in BTP CLI currently supports the following shells:
 
 -   Bash
 -   PowerShell
 -   Zsh
 
 > ### Note:  
-> The respective shell must be installed on your operating system before enabling autocomplete. Additionally, the btp CLI executable must be available on the `path` for autocompletion to initialize. To install it on the `path`, follow the steps outlined in[Download and Start Using the btp CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506).
+> The respective shell must be installed on your operating system before enabling autocomplete. Additionally, the BTP CLI executable must be available on the `path` for autocompletion to initialize. To install it on the `path`, follow the steps outlined in[Download and Start Using the BTP CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506).
 
 Once autocomplete is enabled \(it’s disabled by default\), you use the autocomplete feature as follows in the command line:
 
@@ -124,7 +124,7 @@ You can run either `btp` or `btp --info` to see if command autocompletion is cur
 > ### Tip:  
 > If you see a discrepancy between the version of the autocomplete script and the client, the update of the autocomplete script might have failed. In such a case, try to disable and enable the autocomplete feature again.
 
-Whenever you start a new btp CLI terminal session, the autocomplete suggestions are automatically updated to include the latest commands.
+Whenever you start a new BTP CLI terminal session, the autocomplete suggestions are automatically updated to include the latest commands.
 
-If disabling the command autocompletion fails or you have uninstalled the btp CLI client without disabling autocompletion, you can manually remove traces of the autocomplete installation in your shell initialization file \(RC or profile file depending on your shell\) by deleting the section in your RC file from `Begin SAP BTP command line interface autocomplete`to `End SAP BTP command line interface autocomplete`.
+If disabling the command autocompletion fails or you have uninstalled the BTP CLI client without disabling autocompletion, you can manually remove traces of the autocomplete installation in your shell initialization file \(RC or profile file depending on your shell\) by deleting the section in your RC file from <code>Begin SAP BTP command line interface autocomplete</code>to <code>End SAP BTP command line interface autocomplete</code>.
 

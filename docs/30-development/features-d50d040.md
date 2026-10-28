@@ -21,5 +21,5 @@ The section describes the features of MTA deployment in the Cloud Foundry enviro
 -   [Sequential Resource Processing](sequential-resource-processing-b93db81.md)
 -   [Cross-MTA Dependencies](cross-mta-dependencies-b8e1953.md)
 -   [Sensitive Data Handling During MTA Deployment](sensitive-data-handling-during-mta-deployment-4c40fda.md)
--   [Features Related to SAP Alert Notificaton service for SAP BTP](features-related-to-sap-alert-notificaton-service-for-sap-btp-1f8e254.md)
+-   [Features Related to SAP Alert Notification Service for SAP BTP](features-related-to-sap-alert-notification-service-for-sap-btp-1f8e254.md)
 

@@ -1,8 +1,8 @@
 <!-- loio8a8f17f5fd334fb583438edbd831d506 -->
 
-# Download and Start Using the btp CLI Client
+# Download and Start Using the BTP CLI Client
 
-To use the SAP BTP command line interface \(btp CLI\), you need to download the client first.
+To use the SAP BTP command line interface \(BTP CLI\), you need to download the client first.
 
 
 
@@ -10,7 +10,7 @@ To use the SAP BTP command line interface \(btp CLI\), you need to download the 
 
 ## Context
 
-Each client version is supported for at least one year. Most of the updates to the btp CLI don't require a new client installation, but are made available through the btp CLI server so that you can use them in your installed version of the client. Using the latest version of the client ensures that you don't miss out on any new features or security updates. If you already have the client installed, you can see which version you have by simply entering `btp`.
+Each client version is supported for at least one year. Most of the updates to the BTP CLI don't require a new client installation, but are made available through the BTP CLI server so that you can use them in your installed version of the client. Using the latest version of the client ensures that you don't miss out on any new features or security updates. If you already have the client installed, you can see which version you have by simply entering `btp`.
 
 To stay informed about features, client releases, as well as client deprecations and discontinuations, check out the [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP%20Command%20Line%20Interface&locale=en-US&version=Cloud) page on SAP Help Portal \(filtered for *SAP BTP Command Line Interface*\).
 
@@ -31,13 +31,13 @@ There are various ways of downloading the client for each operating system, as e
 
 [Set a Target for Subsequent Commands with btp target](set-a-target-for-subsequent-commands-with-btp-target-720645a.md "Set the target for command calls to a subaccount, a directory, or a global account with the btp target command.")
 
-[btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
+[BTP CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 
 <a name="loio28a339f4145842cb88681af8ec66996c"/>
 
 <!-- loio28a339f4145842cb88681af8ec66996c -->
 
-## Get the btp CLI Client for Microsoft Windows \(amd64\)
+## Get the BTP CLI Client for Microsoft Windows \(amd64\)
 
 
 
@@ -47,7 +47,7 @@ There are various ways of downloading the client for each operating system, as e
 
 ## Procedure
 
-1.  To get the btp CLI client, you can either run the installation script or download the client manually.
+1.  To get the BTP CLI client, you can either run the installation script or download the client manually.
 
     -   Option 1: **Installation Script \(Windows PowerShell\)**
 
@@ -57,7 +57,7 @@ There are various ways of downloading the client for each operating system, as e
         Invoke-RestMethod 'https://cli.btp.cloud.sap/btpcli-install.ps1' | Invoke-Expression
         ```
 
-        To uninstall the btp CLI:
+        To uninstall the BTP CLI:
 
         ```
         Invoke-RestMethod 'https://cli.btp.cloud.sap/btpcli-uninstall.ps1' | Invoke-Expression
@@ -65,7 +65,7 @@ There are various ways of downloading the client for each operating system, as e
 
     -   Option 2: **Windows Package Manager**
 
-        You can use Windows Package Manager \([WinGet](https://github.com/microsoft/winget-pkgs/tree/master/manifests/s/SAP/btp)\) to download the latest version of the btp CLI. WinGet downloads the client from [SAP Development Tools](https://tools.hana.ondemand.com/). In your terminal, run:
+        You can use Windows Package Manager \([WinGet](https://github.com/microsoft/winget-pkgs/tree/master/manifests/s/SAP/btp)\) to download the latest version of the BTP CLI. WinGet downloads the client from [SAP Development Tools](https://tools.hana.ondemand.com/). In your terminal, run:
 
         ```
         winget install SAP.btp --source winget
@@ -93,9 +93,9 @@ There are various ways of downloading the client for each operating system, as e
 
 2.  In your terminal, run `btp`. Note that you need read and write permissions in the target folder to run this executable.
 
-3.  Log into your global account with `btp login` and enter the required information. You must confirm the btp CLI server \(`https://cli.btp.cloud.sap/`\) and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
+3.  Log into your global account with `btp login` and enter the required information. You must confirm the BTP CLI server \(`https://cli.btp.cloud.sap/`\) and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
-4.  Once you're logged in, familiarize yourself with the btp CLI, for example with [How to Work with the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/11d9f67d2c68485ca2f435b955d3b85b.html?locale=en-US&state=PRODUCTION&version=Cloud), [Command Syntax of the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/69606f42743f46c29fa72c04e8c18674.html?locale=en-US&state=PRODUCTION&version=Cloud), or simply by trying out a few commands, such as the following:
+4.  Once you're logged in, familiarize yourself with the BTP CLI, for example with [How to Work with the BTP CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/11d9f67d2c68485ca2f435b955d3b85b.html?locale=en-US&state=PRODUCTION&version=Cloud), [Command Syntax of the BTP CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/69606f42743f46c29fa72c04e8c18674.html?locale=en-US&state=PRODUCTION&version=Cloud), or simply by trying out a few commands, such as the following:
 
     ```
     btp list accounts/subaccount
@@ -114,7 +114,7 @@ There are various ways of downloading the client for each operating system, as e
     ```
 
     > ### Tip:  
-    > Use the command autocompletion feature in the btp CLI to save keystrokes when entering command actions, group-object combinations, and their parameters in the command line. For more information, see [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md).
+    > Use the command autocompletion feature in the BTP CLI to save keystrokes when entering command actions, group-object combinations, and their parameters in the command line. For more information, see [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md).
 
 5.  If you're going to work in a subaccount of this global account, consider setting the target to this subaccount using `btp target` and select the subaccount. See [Set a Target for Subsequent Commands with btp target](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/720645a3ed3945bd8d97a670b948ac07.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
@@ -125,7 +125,7 @@ There are various ways of downloading the client for each operating system, as e
 
 <!-- loio6c48b6dbd6f744778e4389f935a3e554 -->
 
-## Get the btp CLI Client for Apple macOS \(amd64 and arm64\)
+## Get the BTP CLI Client for Apple macOS \(amd64 and arm64\)
 
 
 
@@ -137,7 +137,7 @@ There are various ways of downloading the client for each operating system, as e
 
 ## Procedure
 
-1.  To get the btp CLI client, you can either run the installation script or download the client manually.
+1.  To get the BTP CLI client, you can either run the installation script or download the client manually.
 
     -   Option 1: **Installation Script**
 
@@ -147,7 +147,7 @@ There are various ways of downloading the client for each operating system, as e
         curl https://cli.btp.cloud.sap/btpcli-install.sh | zsh
         ```
 
-        To uninstall the btp CLI:
+        To uninstall the BTP CLI:
 
         ```
         curl https://cli.btp.cloud.sap/btpcli-uninstall.sh | zsh
@@ -155,7 +155,7 @@ There are various ways of downloading the client for each operating system, as e
 
     -   Option 2: **Homebrew Package Manager**
 
-        You can use [Homebrew](https://formulae.brew.sh/cask/btp#default) open source package management software to download the latest version of the btp CLI. Homebrew downloads the client from [SAP Development Tools](https://tools.hana.ondemand.com). In your terminal, run:
+        You can use [Homebrew](https://formulae.brew.sh/cask/btp#default) open source package management software to download the latest version of the BTP CLI. Homebrew downloads the client from [SAP Development Tools](https://tools.hana.ondemand.com). In your terminal, run:
 
         ```
         brew install --cask btp
@@ -181,9 +181,9 @@ There are various ways of downloading the client for each operating system, as e
 
 2.  In your terminal, run `btp`. Note that you need read and write permissions in the target folder to run this executable.
 
-3.  Log into your global account with `btp login`and enter the required information. You must confirm the btp CLI server \(`https://cli.btp.cloud.sap/`\) and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
+3.  Log into your global account with `btp login`and enter the required information. You must confirm the BTP CLI server \(`https://cli.btp.cloud.sap/`\) and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
-4.  Once you're logged in, familiarize yourself with the btp CLI, for example with [How to Work with the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/11d9f67d2c68485ca2f435b955d3b85b.html?locale=en-US&state=PRODUCTION&version=Cloud), [Command Syntax of the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/69606f42743f46c29fa72c04e8c18674.html?locale=en-US&state=PRODUCTION&version=Cloud), or simply by trying out a few commands, such as the following:
+4.  Once you're logged in, familiarize yourself with the BTP CLI, for example with [How to Work with the BTP CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/11d9f67d2c68485ca2f435b955d3b85b.html?locale=en-US&state=PRODUCTION&version=Cloud), [Command Syntax of the BTP CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/69606f42743f46c29fa72c04e8c18674.html?locale=en-US&state=PRODUCTION&version=Cloud), or simply by trying out a few commands, such as the following:
 
     ```
     btp list accounts/subaccount
@@ -202,7 +202,7 @@ There are various ways of downloading the client for each operating system, as e
     ```
 
     > ### Tip:  
-    > Use the command autocompletion feature in the btp CLI to save keystrokes when entering command actions, group-object combinations, and their parameters in the command line. For more information, see [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md).
+    > Use the command autocompletion feature in the BTP CLI to save keystrokes when entering command actions, group-object combinations, and their parameters in the command line. For more information, see [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md).
 
 5.  If you're going to work in a subaccount of this global account, consider setting the target to this subaccount using `btp target` and select the subaccount. See [Set a Target for Subsequent Commands with btp target](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/720645a3ed3945bd8d97a670b948ac07.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
@@ -213,7 +213,7 @@ There are various ways of downloading the client for each operating system, as e
 
 <!-- loioe1caa5f29fb340e797cc13383451dcf9 -->
 
-## Get the btp CLI Client for Linux \(amd64 and arm64\)
+## Get the BTP CLI Client for Linux \(amd64 and arm64\)
 
 
 
@@ -225,7 +225,7 @@ There are various ways of downloading the client for each operating system, as e
 
 ## Procedure
 
-1.  To get the btp CLI client, you can either run the installation script or download the client manually.
+1.  To get the BTP CLI client, you can either run the installation script or download the client manually.
 
     -   Option 1: **Installation Script**
 
@@ -235,7 +235,7 @@ There are various ways of downloading the client for each operating system, as e
         curl https://cli.btp.cloud.sap/btpcli-install.sh | bash
         ```
 
-        To uninstall the btp CLI:
+        To uninstall the BTP CLI:
 
         ```
         curl https://cli.btp.cloud.sap/btpcli-uninstall.sh | bash
@@ -243,7 +243,7 @@ There are various ways of downloading the client for each operating system, as e
 
     -   Option 2: **Homebrew Package Manager**
 
-        You can use [Homebrew](https://formulae.brew.sh/cask/btp#default) open source package management software to download the latest version of the btp CLI. Homebrew downloads the client from [SAP Development Tools](https://tools.hana.ondemand.com). In your terminal, run:
+        You can use [Homebrew](https://formulae.brew.sh/cask/btp#default) open source package management software to download the latest version of the BTP CLI. Homebrew downloads the client from [SAP Development Tools](https://tools.hana.ondemand.com). In your terminal, run:
 
         ```
         brew install --cask btp
@@ -269,9 +269,9 @@ There are various ways of downloading the client for each operating system, as e
 
 2.  In your terminal, run `btp`. Note that you need read and write permissions in the target folder to run this executable.
 
-3.  Log into your global account with `btp login` and enter the required information. You must confirm the btp CLI server \(`https://cli.btp.cloud.sap/`\) and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
+3.  Log into your global account with `btp login` and enter the required information. You must confirm the BTP CLI server \(`https://cli.btp.cloud.sap/`\) and, if you have more than one, select your global account. For details, see [Log in](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/e241b30195ff4d009dba3076e0ae8d27.html?locale=en-US&state=PRODUCTION&version=Cloud).
 
-4.  Once you're logged in, familiarize yourself with the btp CLI, for example with [How to Work with the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/11d9f67d2c68485ca2f435b955d3b85b.html?locale=en-US&state=PRODUCTION&version=Cloud), [Command Syntax of the btp CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/69606f42743f46c29fa72c04e8c18674.html?locale=en-US&state=PRODUCTION&version=Cloud), or simply by trying out a few commands, such as the following:
+4.  Once you're logged in, familiarize yourself with the BTP CLI, for example with [How to Work with the BTP CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/11d9f67d2c68485ca2f435b955d3b85b.html?locale=en-US&state=PRODUCTION&version=Cloud), [Command Syntax of the BTP CLI](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/69606f42743f46c29fa72c04e8c18674.html?locale=en-US&state=PRODUCTION&version=Cloud), or simply by trying out a few commands, such as the following:
 
     ```
     btp list accounts/subaccount
@@ -290,7 +290,7 @@ There are various ways of downloading the client for each operating system, as e
     ```
 
     > ### Tip:  
-    > Use the command autocompletion feature in the btp CLI to save keystrokes when entering command actions, group-object combinations, and their parameters in the command line. For more information, see [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md).
+    > Use the command autocompletion feature in the BTP CLI to save keystrokes when entering command actions, group-object combinations, and their parameters in the command line. For more information, see [Enable Command Autocompletion](enable-command-autocompletion-46355fa.md).
 
 5.  If you're going to work in a subaccount of this global account, consider setting the target to this subaccount using `btp target` and select the subaccount. See [Set a Target for Subsequent Commands with btp target](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/720645a3ed3945bd8d97a670b948ac07.html?locale=en-US&state=PRODUCTION&version=Cloud).
 

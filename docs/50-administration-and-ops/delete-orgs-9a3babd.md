@@ -13,7 +13,7 @@ You can delete a Cloud Foundry org from a subaccount using the SAP BTP cockpit. 
 You are a global account administrator, as well as a member of the subaccount containing the org you want to delete.
 
 > ### Note:  
-> You can delete an org using only the cockpit or the btp CLI. You cannot use the Cloud Foundry CLI to perform this task.
+> You can delete an org using only the SAP BTP cockpit or the BTP CLI. You cannot use the Cloud Foundry CLI to perform this task.
 
 
 

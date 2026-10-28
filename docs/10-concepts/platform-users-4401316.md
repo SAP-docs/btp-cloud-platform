@@ -4,7 +4,7 @@
 
 **Platform users** are usually developers, administrators or operators who deploy, administer, and troubleshoot accounts, applications and services on SAP BTP. They also manage entitlements and environments. They’re the users that have full access and give certain permissions, for instance, at global account, directory, or subaccount level. Due to their powerful authorizations, we recommend that you protect them with strong authentication \(for example, two-factor authentication\). Members of subaccounts only have basic access.
 
-Platform users who have administrative permissions can view or manage the list of global accounts, subaccounts, and environments, such as Cloud Foundry orgs and spaces. Platform users have access to them using the SAP BTP cockpit, infrastructure as code, the SAP BTP command-line interface \(btp CLI\), or environment-specific CLI, such as the Cloud Foundry \(CF\) CLI. Using Joule is bound to the SAP BTP cockpit authorization.
+Platform users who have administrative permissions can view or manage the list of global accounts, subaccounts, and environments, such as Cloud Foundry orgs and spaces. Platform users have access to them using the SAP BTP cockpit, infrastructure as code, the SAP BTP command-line interface \(BTP CLI\), or environment-specific CLI, such as the Cloud Foundry \(CF\) CLI. Using Joule is bound to the SAP BTP cockpit authorization.
 
 For platform users, there's a [default identity provider](../50-administration-and-ops/default-identity-provider-d6a8db7.md). We expect that you have your own identity provider.
 
@@ -50,7 +50,7 @@ You manage global account members by assigning role collections to platform user
 -   Global Account Administrator
 -   Global Account Viewer
 
-Assign these role collections from the SAP BTP cockpit or the btp CLI.
+Assign these role collections from the SAP BTP cockpit or the BTP CLI.
 
 See:
 
@@ -68,7 +68,7 @@ You manage directory members by assigning role collections to platform users. Us
 -   Directory Administrator
 -   Directory Viewer
 
-Assign these role collections from the SAP BTP cockpit or the btp CLI.
+Assign these role collections from the SAP BTP cockpit or the BTP CLI.
 
 See:
 
@@ -93,7 +93,7 @@ Use the predefined role collections, such as:
 -   Subaccount Administrator
 -   Subaccount Viewer
 
-Assign these role collections from the SAP BTP cockpit or the btp CLI.
+Assign these role collections from the SAP BTP cockpit or the BTP CLI.
 
 See:
 

@@ -10,7 +10,7 @@ Update standard enterprise Kyma environment plans to build runtime plans.
 
 ## Prerequisites
 
--   Assign entitlements for Kyma runtime with the **build-runtime-aws**, **build-runtime-gcp**, or **build-runtime-azure** plan to your subaccount. For more information, see [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-entitlements-and-quotas-for-subaccounts).
+-   Assign entitlements for Kyma runtime with the `build-runtime-aws`, `build-runtime-gcp`, or `build-runtime-azure` plan to your subaccount. For more information, see [Configure Entitlements and Quotas for Subaccounts](https://help.sap.com/docs/btp/sap-business-technology-platform/configure-entitlements-and-quotas-for-subaccounts).
 
 
 

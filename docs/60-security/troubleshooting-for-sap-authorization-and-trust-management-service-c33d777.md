@@ -46,7 +46,7 @@ If you need support or experience issues, please report an incident under compon
 
 [User from Corporate IdP Cannot Log on to Neo Subaccount](user-from-corporate-idp-cannot-log-on-to-neo-subaccount-370a3e9.md)
 
-[Share Authorization and Trust Management service instances](share-authorization-and-trust-management-service-instances-2da15b6.md)
+[Share SAP Authorization and Trust Management Service Instances](share-sap-authorization-and-trust-management-service-instances-2da15b6.md)
 
 [Invalid "redirect\_uri"](invalid-redirect-uri-936599f.md)
 

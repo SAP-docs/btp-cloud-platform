@@ -5,7 +5,7 @@
 is a preconfigured [Istio Gateway CR](https://istio.io/latest/docs/reference/config/networking/gateway/) named `kyma-gateway` located in the `kyma-system` namespace. It describes the ports and protocols exposed for a particular domain.
 
 > ### Caution:  
-> `Kyma Gateway` is not recommended for production environments. For production use, set up a custom gateway with your own domain and certificate. For more information, see [Istio Gateways](kyma-gateway-f515bd7.md).
+> <code>Kyma Gateway</code> is not recommended for production environments. For production use, set up a custom gateway with your own domain and certificate. For more information, see [Istio Gateways](kyma-gateway-f515bd7.md).
 > 
 > For instructions on how to set up a custom gateway, see the following topics:
 > 

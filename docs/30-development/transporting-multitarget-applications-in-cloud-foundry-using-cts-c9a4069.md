@@ -29,9 +29,9 @@ You use the Change and Transport System \(CTS\) of ABAP to transport and deploy 
 
 1.  Package the application in a Multitarget Application \(MTA\) archive using the Archive Builder Tool as described in [Defining Multitarget Application Archives](defining-multitarget-application-archives-33a0e0e.md).
 
-2.  Attach the MTA archive to a CTS+ transport request as described in `How to...Configure SAP BTP, Cloud Foundry environment for CTS`.
+2.  Attach the MTA archive to a CTS+ transport request as described in *How to...Configure SAP BTP, Cloud Foundry environment for CTS*.
 
-3.  Trigger the import of an SAP BTP application as described in `How to...Configure SAP BTP, Cloud Foundry environment for CTS`.
+3.  Trigger the import of an SAP BTP application as described in *How to...Configure SAP BTP, Cloud Foundry environment for CTS*.
 
 
 **Related Information**  

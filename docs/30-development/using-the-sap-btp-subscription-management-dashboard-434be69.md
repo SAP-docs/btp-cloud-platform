@@ -2,7 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Using the Subscription Management Dashboard
+# Using the SAP BTP Subscription Management Dashboard
 
 Learn how to use the SAP BTP subscription management dashboard to manage your multitenant applications through a user interface.
 
@@ -14,7 +14,7 @@ Learn how to use the SAP BTP subscription management dashboard to manage your mu
 
 SaaS and IAS application providers can now use the new subscription management dashboard to manage their multitenant application's subscriptions.
 
-The tool is based on the SaaS Provisioning service APIs that you can now work with using a user interface to simplify your operation and maintenance work.
+The tool is based on the SAP Software-as-a-Service Provisioning service \(SaaS Provisioning \) APIs that you can now work with using a user interface to simplify your operation and maintenance work.
 
 
 
@@ -22,7 +22,7 @@ The tool is based on the SaaS Provisioning service APIs that you can now work wi
 
 ## Main Capabilities
 
-You can do the following in the subscription management dashboard:
+You can do the following in the SAP BTP subscription management dashboard:
 
 -   View all subscriptions to your application and the information about them, such as their state and tenant ID.
 -   View each subscription's dependencies and status.
@@ -54,7 +54,7 @@ Add the relevant role to a role collection and assign yourself or another user t
 For more information about roles, see [Configure Application Roles and Assign Roles to Users](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/56a71531fc154717bf221f9e293ba215.html).
 
 > ### Note:  
-> If you don't see the roles, you need to update the instance of the SaaS Provisioning service \(technical name: `saas-registry`\) associated with your application \(`application` plan\). This enables the new roles.
+> If you don't see the roles, you need to update the instance of the SaaS Provisioning Service \(technical name: `saas-registry`\) associated with your application \(`application` plan\). This enables the new roles.
 
 
 
@@ -65,7 +65,7 @@ For more information about roles, see [Configure Application Roles and Assign Ro
     > ### Note:  
     > Only users who are assigned to one of the roles specified in the previous section can see the link to the dashboard and open it.
 
-2.  In the *Instances* section, find the instance of the SaaS Provisioning service \(technical name: `saas-registry`\) with the `application` plan and click on it.
+2.  In the *Instances* section, find the instance of the SaaS Provisioning Service\(technical name: `saas-registry`\) with the `application` plan and click on it.
 
     Details about the instance open to the right.
 

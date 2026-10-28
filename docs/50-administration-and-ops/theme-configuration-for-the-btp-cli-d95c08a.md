@@ -1,6 +1,6 @@
 <!-- loiod95c08ad1e694317bcae3470a77a6a7d -->
 
-# Theme Configuration for the btp CLI
+# Theme Configuration for the BTP CLI
 
 Customize the visual theme of the SAP BTP Command Line Interface \(btp CLI\).
 
@@ -8,7 +8,7 @@ Customize the visual theme of the SAP BTP Command Line Interface \(btp CLI\).
 
 ## Context
 
-You can control the visual appearance of the SAP BTP Command Line Interface \(btp CLI\) output by using the theme configuration parameter.
+You can control the visual appearance of the SAP BTP Command Line Interface \(BTP CLI\) output by using the theme configuration parameter.
 
 
 

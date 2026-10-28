@@ -54,7 +54,7 @@ Subaccount
 -   At least one custom trust configuration for application users is available in the subaccount.
 
 -   > ### Note:  
-    > To deactivate the default trust configuration, you can also use the following command of the SAP BTP command line interface \(btp CLI\).
+    > To deactivate the default trust configuration, you can also use the following command of the SAP BTP command line interface \(BTP CLI\).
     > 
     > `btp [OPTIONS] update security/trust ORIGIN [--subaccount [ID]] [--status [STATUS]]`
     > 

@@ -225,12 +225,12 @@ To change token validity, use one of the following methods:
 
 ## Access to REST APIs
 
-To get access to the APIs of the SAP Authorization and Trust Management service, use the SAP BTP command-line interface \(btp CLI\) to create API credentials. You can create read-only or read-write API credentials that apply to the global account, directory, or subaccount.
+To get access to the APIs of the SAP Authorization and Trust Management service, use the SAP BTP command line interface \(BTP CLI\) to create API credentials. You can create read-only or read-write API credentials that apply to the global account, directory, or subaccount.
 
 **Related Information**  
 
 
-[Access to REST APIs](security-considerations-for-the-sap-authorization-and-trust-management-service-f117cab.md#loio0b406a94f4604a4f98bbe606ef92d50d "To get access to the APIs of the SAP Authorization and Trust Management service, use the SAP BTP command-line interface (btp CLI) to create API credentials. You can create read-only or read-write API credentials that apply to the global account, directory, or subaccount.")
+[Access to REST APIs](security-considerations-for-the-sap-authorization-and-trust-management-service-f117cab.md#loio0b406a94f4604a4f98bbe606ef92d50d "To get access to the APIs of the SAP Authorization and Trust Management service, use the SAP BTP command line interface (BTP CLI) to create API credentials. You can create read-only or read-write API credentials that apply to the global account, directory, or subaccount.")
 
 <a name="loio24c226d64f994d80879d5f2518c0d0ab"/>
 

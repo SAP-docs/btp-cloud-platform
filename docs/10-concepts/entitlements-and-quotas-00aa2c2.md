@@ -103,7 +103,7 @@ For more information on space quota plans in the Cloud Foundry environment, see:
 
 ## Resource Providers
 
-SAP BTP allows you to connect your global account in the SAP BTP Cockpit to your provider account from a non-SAP cloud vendor, and consume remote service resources that you already own and which are supported by SAP through this channel.
+SAP BTP allows you to connect your global account in the SAP BTP cockpit to your provider account from a non-SAP cloud vendor, and consume remote service resources that you already own and which are supported by SAP through this channel.
 
 For example, if you’re subscribed to Amazon Web Services \(AWS\) and have already purchased services, such as PostgreSQL, you can register the vendor as a resource provider in SAP BTP and consume this service across your subaccounts together with other services offered by SAP.
 

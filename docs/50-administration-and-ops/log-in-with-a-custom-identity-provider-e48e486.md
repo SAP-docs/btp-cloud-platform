@@ -44,5 +44,5 @@ To learn how to configure trust to a custom identity provider, see [Establish Tr
 
 [Trust and Federation with Identity Providers](trust-and-federation-with-identity-providers-cb1bc8f.md "When setting up accounts you need to assign users. While we provide you with your first users from the default identity provider to get you started, your organization has identity providers that you want to integrate.")
 
-[Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
+[Log in](log-in-e241b30.md "Log in with the BTP CLI is on global account level.")
 

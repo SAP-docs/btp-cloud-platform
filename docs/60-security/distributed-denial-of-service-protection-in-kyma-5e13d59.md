@@ -60,7 +60,7 @@ Standard network DDoS protection
 </tr>
 </table>
 
-> ### Remember:  
+> ### Caution:  
 > Because these are cloud providers' default offerings, they are subject to change as per the cloud providers' terms and conditions.
 
 

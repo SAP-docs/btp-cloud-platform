@@ -128,5 +128,5 @@ This is the workflow and requirements for developing and deploying a multitenant
 
 [Data Protection and Privacy](../60-security/data-protection-and-privacy-7e513d3.md "Data protection is associated with numerous legal requirements and privacy concerns. In addition to compliance with general data protection and privacy acts, it's necessary to consider compliance with industry-specific legislation in different countries/regions.")
 
-[Using the Subscription Management Dashboard](using-the-subscription-management-dashboard-434be69.md "Learn how to use the SAP BTP subscription management dashboard to manage your multitenant applications through a user interface.")
+[Using the SAP BTP Subscription Management Dashboard](using-the-sap-btp-subscription-management-dashboard-434be69.md "Learn how to use the SAP BTP subscription management dashboard to manage your multitenant applications through a user interface.")
 

@@ -134,7 +134,7 @@ Depending on the phase of the multitenant application, a different `TENANT_HOST_
 
 
 
-### Subscription Management Dashboard
+### SAP BTP Subscription Management Dashboard
 
-With Subscription Management Dashboard as the dashboard UI of SaaS Provisioning Service, the application provider can centrally manage subscriptions, e.g. unsubscribe existing application consumer subscriptions. See [Using the Subscription Management Dashboard.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/434be695f9e946ccb4c28911dd1e16d0.html)
+With SAP BTP subscription management dashboard as the dashboard UI of SaaS Provisioning Service, the application provider can centrally manage subscriptions, e.g. unsubscribe existing application consumer subscriptions. See [Using the Subscription Management Dashboard.](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/434be695f9e946ccb4c28911dd1e16d0.html)
 

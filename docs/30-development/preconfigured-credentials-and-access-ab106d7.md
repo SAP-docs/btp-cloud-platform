@@ -139,7 +139,7 @@ You can use every namespace for your operations. The parameter is always set to 
 
 <a name="loioab106d78f9704b10b7c46a8de880da9c__section_t24_zn5_g2c"/>
 
-## **Default Credentials and Kyma Runtime Deletion**
+## Default Credentials and Kyma Runtime Deletion
 
 The preconfigured credentials described in the [Credentials](preconfigured-credentials-and-access-ab106d7.md#loioab106d78f9704b10b7c46a8de880da9c__credentials_start) section may affect the deletion of your Kyma cluster.
 

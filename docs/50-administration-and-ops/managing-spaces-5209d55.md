@@ -34,7 +34,7 @@ For more information, see [About Roles in the Cloud Foundry Environment](about-r
 
 ## What Can You Find on the Spaces Page?
 
-To visit this page in the cockpit:
+To visit this page in the SAP BTP cockpit:
 
 1.  Navigate to a subaccount of your choice.
 

@@ -105,6 +105,53 @@ eu01.hana.ondemand.com
 <tr>
 <td valign="top">
 
+Alibaba Cloud
+
+</td>
+<td valign="top">
+
+cn40
+
+</td>
+<td valign="top">
+
+China \(Shanghai\)
+
+</td>
+<td valign="top">
+
+cf-cn40
+
+</td>
+<td valign="top">
+
+cn-shanghai
+
+</td>
+<td valign="top">
+
+101.132.173.213, 47.100.166.73
+
+</td>
+<td valign="top">
+
+api.cf.cn40.platform.sapcloud.cn
+
+</td>
+<td valign="top">
+
+cn40.abapenv.platform.sapcloud.cn
+
+</td>
+<td valign="top">
+
+[https://cockpit.cn40.platform.sapcloud.cn/](https://cockpit.cn40.platform.sapcloud.cn/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Amazon Web Services
 
 </td>
@@ -832,6 +879,53 @@ ch20.hana.ondemand.com
 <td valign="top">
 
 [https://eu-access.cockpit.btp.cloud.sap/](https://eu-access.cockpit.btp.cloud.sap/) 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Microsoft Azure
+
+</td>
+<td valign="top">
+
+cn20
+
+</td>
+<td valign="top">
+
+China \(North 3\)
+
+</td>
+<td valign="top">
+
+cf-cn20
+
+</td>
+<td valign="top">
+
+chinanorth3
+
+</td>
+<td valign="top">
+
+52.130.232.107, 52.130.216.11, 159.27.72.16
+
+</td>
+<td valign="top">
+
+api.cf.cn20.platform.sapcloud.cn
+
+</td>
+<td valign="top">
+
+cn20.abapenv.platform.sapcloud.cn
+
+</td>
+<td valign="top">
+
+[https://cockpit.cn40.platform.sapcloud.cn/](https://cockpit.cn40.platform.sapcloud.cn/) 
 
 </td>
 </tr>

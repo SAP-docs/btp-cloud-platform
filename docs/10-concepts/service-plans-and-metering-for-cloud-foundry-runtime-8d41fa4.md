@@ -23,8 +23,8 @@ This image is interactive. Hover over rectangles in the diagram to see the descr
 ![A diagram depicting the relationship between service plans in the
 									SAP Discovery Center,
 								service plans in the SAP BTP
-								cockpit, environment plans in the SAP BTP
-								cockpit, and the metric GB Memory.
+                                    cockpit, environment plans in the SAP BTP
+                                    cockpit, and the metric GB Memory.
 								Consumption-based
 								commercial model, line 1 of 2: Service Plan (SAP
 									Discovery Center) - Standard;
@@ -122,17 +122,17 @@ Service Plan \(SAP Discovery Center\)
 </th>
 <th valign="top" align="center">
 
-Service \(SAP BTP Cockpit: *Entity Assignments*\)
+Service \(SAP BTP cockpit: *Entity Assignments*\)
 
 </th>
 <th valign="top" align="center">
 
-Service Plan \(SAP BTP Cockpit: *Entity Assignments*\)
+Service Plan \(SAP BTP cockpit: *Entity Assignments*\)
 
 </th>
 <th valign="top" align="center">
 
-Environment Plan \(SAP BTP Cockpit: *Enable Cloud Foundry*\)
+Environment Plan \(SAP BTP cockpit: *Enable Cloud Foundry*\)
 
 </th>
 <th valign="top" align="center">
@@ -452,12 +452,12 @@ Metric
 </th>
 <th valign="top" align="center">
 
-Service \(SAP BTP Cockpit\)
+Service \(SAP BTP cockpit\)
 
 </th>
 <th valign="top" align="center">
 
-Metric \(SAP BTP Cockpit\)
+Metric \(SAP BTP cockpit\)
 
 </th>
 <th valign="top" align="center">

@@ -36,7 +36,7 @@ However if *Create Shadow Users on User Logon* is turned off, shadow users aren'
 
 To resolve the issue, use one of the following options:
 
--   Enable *Create Shadow Users on User Logon* for the custom identity provider in the SAP BTP cockpit:
+-   Enable *Create Shadow Users on User Logon* for the custom identity provider:
 
     1.  In the SAP BTP cockpit, go to your subaccount \(see [Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration*.
 
@@ -49,7 +49,7 @@ To resolve the issue, use one of the following options:
     5.  Choose *Save*.
 
 
--   Manually create a user for yor the respective identity provider in the SAP BTP cockpit \(see [Create Users](../50-administration-and-ops/create-users-a3bc7e8.md)\).
+-   Manually create a user for yor the respective identity provider \(see [Create Users](../50-administration-and-ops/create-users-a3bc7e8.md)\).
 
     1.  In the SAP BTP cockpit, go to your subaccount \(see [Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Users*.
 

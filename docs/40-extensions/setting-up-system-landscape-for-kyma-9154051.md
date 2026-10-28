@@ -21,7 +21,7 @@ You want to extend the functionality on top of your existing SAP solution becaus
 
 To enable the side-by-side extensibility with Kyma for your SAP solution, you have to:
 
-1.  Create an SAP BTP, Kyma environment instance in your subaccount in SAP BTP.
+1.  Create an Kyma environment instance in your subaccount in SAP BTP.
 
 2.  Add the Application Connector module on your Kyma runtime.
 

@@ -10,7 +10,7 @@ With automatic Istio sidecar proxy injection enabled, all of your workloads’ P
 
 <a name="loio8f4471de8a0d433aa9f688e599cfe2c0__section_xwz_15p_tdc"/>
 
-## **Default Behavior**
+## Default Behavior
 
 By default, Istio enables communication between all the services in the service mesh. As a result, each sidecar proxy receives all the configurations for every service. The configurations contain a lot of Istio-based resource details. Also, when a service scales or a Pod restarts, the Istio control plane always propagates the configurations of all other services to Istio sidecar proxies.
 
@@ -26,7 +26,7 @@ All these effects can be solved with the optimized usage of the Istio Sidecar re
 
 <a name="loio8f4471de8a0d433aa9f688e599cfe2c0__section_uqr_25p_tdc"/>
 
-## **Optimization**
+## Optimization
 
 To select which services communicate with each other, specify the configurations the proxy should get from the Istio control plane using the Sidecar custom resource \(CR\).
 
