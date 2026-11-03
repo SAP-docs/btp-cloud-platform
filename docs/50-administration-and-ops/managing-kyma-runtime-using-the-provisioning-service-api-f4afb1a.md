@@ -15,7 +15,7 @@ The SAP Cloud Management service for SAP BTP \(technical name: `cis`\) provides 
     -   [kubectl](https://kubernetes.io/docs/reference/kubectl/) configured to communicate with your Kyma instance \(see [Access a Kyma Instance Using kubectl](../30-development/access-a-kyma-instance-using-kubectl-3e25944.md)\)
     -   [jq](https://jqlang.github.io/jq/)
     -   [curl](https://curl.se/)
-    -   SAP BTP command line interface \(btp CLI\). See [Download and Start Using the btp CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506).
+    -   SAP BTP command line interface \(btp CLI\). See [Download and Start Using the BTP CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506).
 
 
 

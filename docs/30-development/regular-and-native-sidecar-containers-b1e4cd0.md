@@ -95,7 +95,7 @@ Regular sidecars
 </td>
 <td valign="top">
 
-Native sidecars, unless you set **compatibilityMode** in the Istio CR to `true`
+Native sidecars, unless you set `compatibilityMode` in the Istio CR to `true`
 
 </td>
 </tr>

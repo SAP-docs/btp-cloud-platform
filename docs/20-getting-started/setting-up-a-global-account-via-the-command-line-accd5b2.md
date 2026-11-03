@@ -20,7 +20,7 @@ To manage Cloud Foundry, i.e. for managing service instances and members in orgs
 
 -   You have downloaded and extracted the following command-line tools:
 
-    -   SAP BTP command line interface \(btp CLI\). See [Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506)
+    -   SAP BTP command line interface \(btp CLI\). See [Download and Start Using the BTP CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506)
 
     -   Cloud Foundry CLI \(cf CLI\). See [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) 
 
@@ -383,7 +383,7 @@ Run this command in the btp CLI:
 </td>
 <td valign="top">
 
-See [Working with Environments Using the btp CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md) and[Org Management Using the SAP BTP Command Line Interface \(btp CLI\)](../50-administration-and-ops/org-management-using-the-sap-btp-command-line-interface-btp-cli-aee40e1.md) .
+See [Working with Environments Using the BTP CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md) and[Org Management Using the SAP BTP Command Line Interface \(BTP CLI\)](../50-administration-and-ops/org-management-using-the-sap-btp-command-line-interface-btp-cli-aee40e1.md) .
 
 </td>
 </tr>
@@ -412,7 +412,7 @@ Run this command in the btp CLI:
 </td>
 <td valign="top">
 
-See [Working with Environments Using the btp CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md).
+See [Working with Environments Using the BTP CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md).
 
 </td>
 </tr>
@@ -515,7 +515,7 @@ See [Using Services in the Cloud Foundry Environment](../30-development/using-se
 
 Using the btp CLI, you can perform additional account maintenance tasks, such as updating global account and subaccount details, deleting subaccounts, and deleting environment instances.
 
-Subaccount members can also use the btp CLI to work with multitenant applications. See [Working with Multitenant Applications Using the btp CLI](../50-administration-and-ops/working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md).
+Subaccount members can also use the btp CLI to work with multitenant applications. See [Working with Multitenant Applications Using the BTP CLI](../50-administration-and-ops/working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md).
 
 
 
@@ -532,7 +532,7 @@ For further documentation about developer tasks, see [Development in the Cloud F
 
 [Command Syntax of the btp CLI](../50-administration-and-ops/command-syntax-of-the-btp-cli-69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
 
-[Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506 "To use the SAP BTP command line interface (btp CLI), you need to download the client first.")
+[Download and Start Using the BTP CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506 "To use the SAP BTP command line interface (BTP CLI), you need to download the client first.")
 
 [btp CLI Command Reference](https://help.sap.com/docs/BTP/btp-cli/intro.html)
 

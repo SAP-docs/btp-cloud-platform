@@ -55,7 +55,7 @@ Once you have developed, deployed, configured, and registered your multitenant a
     See:
 
     -   [Subscribe to Multitenant Applications Using the Cockpit](../50-administration-and-ops/subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md)
-    -   [Working with Multitenant Applications Using the btp CLI](../50-administration-and-ops/working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md)
+    -   [Working with Multitenant Applications Using the BTP CLI](../50-administration-and-ops/working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md)
     -   Subscribe the tenant to an application using the REST API. For more information, see [Using SAP SaaS Provisioning Service APIs to Manage Multitenant Applications](using-sap-saas-provisioning-service-apis-to-manage-multitenant-applications-ed08c7d.md)
 
 3.  Set up application roles and assign users.
@@ -71,5 +71,5 @@ Once you have developed, deployed, configured, and registered your multitenant a
 
 Once you've provided your multitenant application to consumers to subscribe to it, you can view and manage all the subscriptions by using a dedicated interface called SAP BTP subscription management dashboard.
 
-For more information, see [Using the Subscription Management Dashboard](using-the-subscription-management-dashboard-434be69.md).
+For more information, see [Using the SAP BTP Subscription Management Dashboard](using-the-sap-btp-subscription-management-dashboard-434be69.md).
 

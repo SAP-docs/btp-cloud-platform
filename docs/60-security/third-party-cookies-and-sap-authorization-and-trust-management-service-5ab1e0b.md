@@ -2,7 +2,7 @@
 
 # Third-Party Cookies and SAP Authorization and Trust Management Service
 
-Browser manufacturers are phasing out support for third-party cookies. This change can prevent embedded BTP applications and their logon screens from functioning.
+Browser manufacturers are phasing out support for third-party cookies. This change can prevent embedded SAP BTP applications and their logon screens from functioning.
 
 To prevent your logon scenarios from failing, make sure that all multi-environment subaccounts, which contain these embedded applications, are configured to use a tenant of SAP Cloud Identity Services as the trusted identity provider.
 

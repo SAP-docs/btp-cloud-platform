@@ -129,7 +129,7 @@ npm WARN EBADENGINE Unsupported engine {
 
 ### Reason
 
-Node.js 18 reached end of life on **April 30, 2025** \(according to the [Node.js Roadmap](https://github.com/nodejs/Release)\), and was removed from the SAP BTP, Cloud Foundry environment with `nodejs_buildpack` version **v1.8.41**.
+Node.js 18 reached end of life on **April 30, 2025** \(according to the [Node.js Roadmap](https://github.com/nodejs/Release)\), and was removed from the SAP BTP, Cloud Foundry runtime with `nodejs_buildpack` version **v1.8.41**.
 
 
 

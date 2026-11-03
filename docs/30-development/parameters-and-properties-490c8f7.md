@@ -10,7 +10,7 @@ The values of parameters and properties might be literals. This way, the result 
 
 Regardless of the defined value - literal or substitution variable, in most cases the end value for each parameter or property is definitive and well-known before the deployment. This is because the substitution variable values represent a certain template and template resolving is done in the beginning of the MTA deployment.
 
-The module level parameter `${default-host}` follows the template `${org}-${space}-<module_name>`. For example, when it is used in a module `my-module` and the deployment is done within org `my-org`, space `my-space`, the end value of `${default-host}` will be `my-org-my-space-my-module`.
+The module-level parameter `${default-host}` follows the template `${org}-${space}-<module_name>`. For example, when it is used in a module `my-module` and the deployment is done within org `my-org`, space `my-space`, the end value of `${default-host}` will be `my-org-my-space-my-module`.
 
 However, in some cases the parameter or property value is dynamic and cannot be predicted before the deployment. In these cases, the substitution variable is dynamic and is done in a later phase of the MTA deployment.
 
@@ -33,10 +33,10 @@ The values of properties and parameters are used during the deployment or at run
 
 Parameters are reserved variables that affect the behavior of the MTA-aware tools, such as the Cloud MTA Build Tool \(MBT\) or SAP Cloud Deployment service.
 
-Parameters might be used on various levels in the MTA descriptor - top-level, module level, resource level, and dependency level. Based on the parameter applicability it might be used in combination in several places, for example, both on resource and module levels.
+Parameters might be used at various levels in the MTA descriptor — top level, module level, resource level, and dependency level. Based on the parameter applicability it might be used in combination in several places, for example, both at the resource and module levels.
 
 > ### Example:  
-> The example below shows the parameter \``memory`\` on a module level which defines the amount of memory used by the Cloud Foundry application represented by the module \``node-hello-world`\` during application runtime.
+> The example below shows the parameter \``memory`\` at the module level which defines the amount of memory used by the Cloud Foundry application represented by the module \``node-hello-world`\` during application runtime.
 > 
 > > ### Sample Code:  
 > > ```
@@ -1360,9 +1360,9 @@ As an alternative, you can also externalize such configurations in a file. See [
 
 ## Properties
 
-MTA properties are Cloud Foundry application environment variables that are used during application runtime. When an MTA property is set, the SAP Cloud Deployment service injects its key as the environment variable key and its value as the variable value in the application, represented by the corresponding MTA module.
+MTA properties are Cloud Foundry application environment variables that are used during application runtime. When an MTA property is set at the module level, the SAP Cloud Deployment service injects its key as the environment variable key and its value as the variable value in the application, represented by the corresponding MTA module.
 
-MTA properties can be declared in different levels - module level, resource level, and dependency level.
+MTA properties can be declared at different levels — module level, resource level, and dependency level.
 
 
 
@@ -1376,45 +1376,52 @@ To enable resource properties to resolve values from a property in another resou
 > It is not possible to reference **list** configuration entries either from resources or “subscription” functionalities \(deployment features that are available to subscriber applications\).
 
 > ### Code Syntax:  
-> Cross-References between Properties in the MTA Deployment Descriptor in a YAML file
+> Cross-references between properties in the MTA deployment descriptor .yaml file
 > 
 > ```
-> 
 > modules: 
 >   - name: java 
 >     ... 
 >     provides:  
 >       - name: backend  
 >         properties:  
->           url: ${default-url}/foo 
+>           url: ${default-live-url}/foo 
 > resources:  
 >   - name: example  
 >     type: example-type   
 >     properties:   
 >       example-prop: my-example-prop   
->     - name: uaa
->       type: uaa-type 
->       requires: 
->         - name: example 
->         - name: backend 
->             properties: 
->               prop: ~{url} 
->             parameters: 
->               param: ~{url} 
->       properties: 
->         pro1: ~{example/example-prop} 
->       parameters: 
->         config: 
->           app-router-url: ~{backend/url}
->           example-prop: ~{example/example-prop}
+>   - name: uaa
+>     type: uaa-type 
+>     requires: 
+>       - name: example 
+>       - name: backend 
+>         properties: 
+>           prop: ~{url} 
+>         parameters: 
+>           param: ~{url} 
+>     properties: 
+>       pro1: ~{example/example-prop} 
+>     parameters: 
+>       config: 
+>         app-router-url: ~{backend/url}
+>         example-prop: ~{example/example-prop}
 > ```
 
 Note the following about the example above:
 
--   The application name `backend` can depend on the provided content.
--   The `java` module provides the `url` property, which can be referenced by other modules. Its value is generated using the default `url` provided to the application during deployment.
--   The `java` module property `prop` contains a parameter `url`, which results in an environment variable *<prop\>* containing the referenced value.
--   References to other properties can also be used for parameter values, for example in values contained in the `provides` section of a module.
+-   The `java` module provides a dependency named `backend`, which exposes a `url` property. Its value is built from `${default-live-url}`, which always resolves to the live \(non-idle\) application URL. This is the recommended choice when the property is consumed by a resource, because resource parameters are resolved during the initial phase of deployment \(before idle applications are started\).
+
+-   The `uaa` resource requires `backend` and declares `prop: ~{url}` in the `properties` block of that dependency. This creates an environment variable named `prop` in the `uaa` resource whose value is taken from the `url` property provided by `backend`. This is independent of the `parameters` block in the same dependency, where `param: ~{url}` uses the same referenced value as a parameter input instead of as an environment variable.
+
+-   References to provided properties can also be used in resource parameter values, as shown in the `config` block of `uaa`, where both `~{backend/url}` and `~{example/example-prop}` use fully qualified cross-reference syntax.
+
+
+> ### Note:  
+> The choice between `${default-url}` and `${default-live-url}` in `provides` properties depends on who consumes the provided value:
+> 
+> -   **Resource consumer**: Use `${default-live-url}`. Resource parameters are resolved during the initial phase of a blue-green deployment, before idle applications are started. Using `${default-url}` here causes the resource to target the idle URL \(with the `-idle` suffix\) and misdirect traffic.
+> -   **Module consumer**: `${default-url}` can be the right choice if you want new modules to communicate with each other during the testing phase of a blue-green deployment. For example, if a backend module provides `${default-url}` and a frontend module consumes it, the idle frontend will point to the idle backend during testing. At the end of the blue-green deployment, both resolve to the correct live URLs.
 
 
 

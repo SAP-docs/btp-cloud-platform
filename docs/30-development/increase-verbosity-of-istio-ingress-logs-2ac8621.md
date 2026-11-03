@@ -1,6 +1,6 @@
 <!-- loio2ac8621a868d473da005994a9e3bc7e4 -->
 
-# Increase Verbosity of the Istio Ingress Logs
+# Increase Verbosity of Istio Ingress Logs
 
 To diagnose connection issues, you may need more verbose logs in the Istio Ingress container. Such logs may help determine whether the request reaches the Ingress and what happens to it.
 

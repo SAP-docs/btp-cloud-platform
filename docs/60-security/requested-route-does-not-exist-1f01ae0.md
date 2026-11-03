@@ -6,7 +6,7 @@
 
 ## Symptom
 
-You send a request to a web application, which is running on SAP BTP, Cloud Foundry environment and the browser responds with the message:
+You send a request to a web application, which is running on SAP BTP, Cloud Foundry runtime and the browser responds with the message:
 
 `404 Not Found: Requested route ('<cloudFoundryHostname>.<cloudFoundryDomain>') does not exist.`
 

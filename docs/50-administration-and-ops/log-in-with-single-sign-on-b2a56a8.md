@@ -61,7 +61,7 @@ You’ve successfully logged in. You can return to the command line to work in y
 **Related Information**  
 
 
-[Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
+[Log in](log-in-e241b30.md "Log in with the BTP CLI is on global account level.")
 
 [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md "")
 

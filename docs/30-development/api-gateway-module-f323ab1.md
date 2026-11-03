@@ -45,8 +45,6 @@ Within the API Gateway module, API Gateway Operator manages the application of A
 
 
 
-<a name="loiof323ab16595a47779bc74344969c0133__section_api_crd"/>
-
 ## API/Custom Resource Definitions
 
 The `apigateways.operator.kyma-project.io` CustomResourceDefinition \(CRD\) describes the `APIGateway` CR that APIGateway Controller uses to manage the module and its resources. See [APIGateway Custom Resource](https://kyma-project.io/external-content/api-gateway/docs/user/custom-resources/apigateway/04-00-apigateway-custom-resource.html).

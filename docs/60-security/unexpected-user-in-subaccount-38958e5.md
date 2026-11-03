@@ -33,7 +33,7 @@ Check the audit log of the SAP Authorization and Trust Management service. See [
 
 There, you can see who created the user and coordinate your processes.
 
--   If the creator was the CLOUD\_FOUNDRY\_SNYC user, the user was created by the background job for synchronizing Cloud Foundry users. If you don't want SAP BTP to create these users you can disable this job for your subaccount. See [Switch Off Automatic Creation of Shadow Users](../50-administration-and-ops/switch-off-automatic-creation-of-shadow-users-d852567.md).
+-   If the creator was the `CLOUD_FOUNDRY_SNYC` user, the user was created by the background job for synchronizing Cloud Foundry users. If you don't want SAP BTP to create these users, you can disable this job for your subaccount. See [Switch Off Automatic Creation of Shadow Users](../50-administration-and-ops/switch-off-automatic-creation-of-shadow-users-d852567.md).
 
 -   If the creator was a provisioning job, check with the solution used for provisioning and check for errors in configuration. For more information, see [Provision Users to SAP BTP Accounts](../50-administration-and-ops/provision-users-to-sap-btp-accounts-bb1b2f4.md).
 

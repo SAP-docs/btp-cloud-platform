@@ -6,18 +6,18 @@
 
 ## Symptom
 
-After sending a request to a web application in the SAP BTP, Cloud Foundry environment, you see a logon screen with the title SAP HANA XS Advanced.
+After sending a request to a web application in the SAP BTP, Cloud Foundry runtime, you see a logon screen with the title SAP HANA XS Advanced.
 
-Below the Log On field, the following domain is displayed: xs2security.accounts400.ondemand.com
+Below the *Log On* field, the following domain is displayed: `xs2security.accounts400.ondemand.com`
 
 > ### Note:  
-> **The expected system behavior is to return a logon screen with the title Welcome <IdP\_tenant\_name\>!.**
+> **The expected system behavior is to return a logon screen with the title ***Welcome <IdP\_tenant\_name\>!***.**
 
 
 
 ## Reason and Prerequisites
 
-The request of the business user is not authenticated, so it needs to be redirected to the identity provider where the business user is defined. The trust of the identity provider is configured and assigned to the tenant to which the business user belongs. In this case, SAP BTP, Cloud Foundry environment cannot correctly determine the tenant of the business user. As a result, it cannot find the correct identity provider and falls back to
+The request of the business user is not authenticated, so it needs to be redirected to the identity provider where the business user is defined. The trust of the identity provider is configured and assigned to the tenant to which the business user belongs. In this case, SAP BTP, Cloud Foundry runtime cannot correctly determine the tenant of the business user. As a result, it cannot find the correct identity provider and falls back to
 
 [https://authentication.sap.hana.ondemand.com](https://authentication.sap.hana.ondemand.com/)
 

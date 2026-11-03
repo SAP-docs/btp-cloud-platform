@@ -46,7 +46,7 @@ There are several options to customize attribute mappings in SAP Cloud Identity 
     > ### Note:  
     > You can add attribute sources or disable the default application attributes. You can also add self-defined attributes for mapping to role collections.
     > 
-    > For example, you have so many groups being added to your token and you're running into size limits. You can disable the standard groups configuration and add a regular expression to include only those groups, which begin with BTP. So, to the *groups* attribute, you add a source of type `Expression` with the value `${companyGroups:regex[BTP.*]}`.
+    > For example, you have so many groups being added to your token and you're running into size limits. You can disable the standard groups configuration and add a regular expression to include only those groups, which begin with “BTP”. So, to the *groups* attribute, you add a source of type `Expression` with the value `${companyGroups:regex[BTP.*]}`.
     > 
     > For more information, see [Configuring Attributes Based on Flexible Expressions](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/configure-default-attributes-sent-to-application?version=Cloud).
     > 

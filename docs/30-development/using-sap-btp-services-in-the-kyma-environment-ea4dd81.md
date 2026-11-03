@@ -10,7 +10,7 @@ With the Kyma environment, you can connect SAP BTP services to your cluster and 
 
 ## Context
 
-To consume SAP BTP services and use their functionality for building and deploying your own applications, you must create and manage the service instances and bindings. To learn how to do it, see [Creating Service Instances and Service Bindings](creating-service-instances-and-service-bindings-17bd304.md#loio17bd304aeab34294a4ca34fa9564147c) and [Deleting Service Bindings and Service Instances](deleting-service-bindings-and-service-instances-5deca69.md).
+To consume SAP BTP services and use their functionality for building and deploying your own applications, you must create and manage the service instances and bindings. To learn how to do it, see [Creating Service Instances and Service Bindings](creating-service-instances-and-service-bindings-17bd304.md#loio17bd304aeab34294a4ca34fa9564147c), [Updating Service Instances](updating-service-instances-dbf7960.md), and [Deleting Service Bindings and Service Instances](deleting-service-bindings-and-service-instances-5deca69.md).
 
 For an example of how to use a service, see [Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/create-s4c-ext-service-instance-in-kyma-msg?version=Cloud).
 
@@ -20,6 +20,10 @@ For an example of how to use a service, see [Create an SAP S/4HANA Cloud Extensi
 [SAP BTP Operator Module](sap-btp-operator-module-50347ea.md "Use the SAP BTP Operator module to enable service management and consume SAP BTP services from your Kyma cluster.")
 
 [Preconfigured Credentials and Access](preconfigured-credentials-and-access-ab106d7.md "When you create SAP BTP, Kyma runtime, all necessary resources for consuming SAP BTP services are created, and the basic cluster access is configured.")
+
+[Customizing the Default Credentials and Access](customizing-the-default-credentials-and-access-15f22d5.md "You can customize the sap-btp-manager Secret and manage your own default configuration of the SAP BTP Operator module.")
+
+[Migrating Service Instances and Service Bindings from a Custom SAP BTP Service Operator](migrating-service-instances-and-service-bindings-from-a-custom-sap-btp-service-operator-dbc019d.md "Learn how to migrate service instances and service bindings from your custom SAP BTP service operator to a Kyma cluster.")
 
 [Working with Multiple Subaccounts](working-with-multiple-subaccounts-862dd6a.md "With the SAP BTP Operator module, you can create configurations for several subaccounts in a single Kyma cluster.")
 

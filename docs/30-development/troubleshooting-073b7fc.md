@@ -6,7 +6,6 @@ While using the buildpacks, you might encounter issues or have questions regardi
 
 The following troubleshooting pages are related to the relevant development languages and buildpacks:
 
--   [SAP Java Buildpack: Troubleshooting](sap-java-buildpack-troubleshooting-ee609aa.md)
 -   [Node.js Buildpack: Troubleshooting](node-js-buildpack-troubleshooting-1462ff0.md)
 -   [Python Buildpack: Troubleshooting](python-buildpack-troubleshooting-caaf1dc.md)
 

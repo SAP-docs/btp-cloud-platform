@@ -8,7 +8,7 @@ You can change the location of the configuration file by using the `--config` op
 
 ## Context
 
-Upon successful login, the btp CLI creates a configuration file \(`config.json`\) in the default location of your user config directory:
+Upon successful login, the BTP CLI creates a configuration file \(`config.json`\) in the default location of your user config directory:
 
 -   Microsoft Windows: <code>C:\Users\<i class="varname">&lt;username&gt;</i>\AppData\Roaming\SAP\btp\config.json</code>
 
@@ -17,7 +17,7 @@ Upon successful login, the btp CLI creates a configuration file \(`config.json`\
 -   Linux: `~/.config/.btp/config.json`
 
 
-This folder serves as the working directory of the btp CLI, that is, it’s necessary for its proper functioning, and is used with each command execution.
+This folder serves as the working directory of the BTP CLI, that is, it’s necessary for its proper functioning, and is used with each command execution.
 
 If you want the configuration file to be created in a different folder, you can use the `--config` option in your login command and then specify this location in each command call with this `--config` option.
 
@@ -71,7 +71,7 @@ Terminal B
 btp login
 ```
 
-Run all commands as usual. The btp CLI uses the default configuration file.
+Run all commands as usual. The BTP CLI uses the default configuration file.
 
 </td>
 <td valign="top">

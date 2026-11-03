@@ -18,7 +18,7 @@ For all tasks on global account and subaccount level, you can use the **the btp 
 
 -   You have downloaded and extracted the following command-line tools:
 
-    -   SAP BTP command-line interface \(btp CLI\). See [Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506)
+    -   SAP BTP command-line interface \(btp CLI\). See [Download and Start Using the BTP CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506)
 
     -   Cloud Foundry CLI \(cf CLI\). See [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md) 
 
@@ -352,7 +352,7 @@ Run this command in the btp CLI:
 </td>
 <td valign="top">
 
-See [Working with Environments Using the btp CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md).
+See [Working with Environments Using the BTP CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md).
 
 </td>
 </tr>
@@ -381,7 +381,7 @@ Run this command in the btp CLI:
 </td>
 <td valign="top">
 
-See [Working with Environments Using the btp CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md).
+See [Working with Environments Using the BTP CLI](../50-administration-and-ops/working-with-environments-using-the-btp-cli-48db155.md).
 
 </td>
 </tr>
@@ -484,7 +484,7 @@ See [Using Services in the Cloud Foundry Environment](../30-development/using-se
 
 Using the btp CLI, you can perform account maintenance tasks, such as updating global account and subaccount details, deleting subaccounts, and deleting environment instances.
 
-Subaccount members can also use the btp CLI to work with multitenant applications. See [Working with Multitenant Applications Using the btp CLI](../50-administration-and-ops/working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md).
+Subaccount members can also use the btp CLI to work with multitenant applications. See [Working with Multitenant Applications Using the BTP CLI](../50-administration-and-ops/working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md).
 
 
 
@@ -501,7 +501,7 @@ For more information about developer tasks, see [Development in the Cloud Foundr
 
 [Command Syntax of the btp CLI](../50-administration-and-ops/command-syntax-of-the-btp-cli-69606f4.md "Each command consists of the base call btp followed by a verb (the action), a combination of group and object, and parameters.")
 
-[Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506 "To use the SAP BTP command line interface (btp CLI), you need to download the client first.")
+[Download and Start Using the BTP CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506 "To use the SAP BTP command line interface (BTP CLI), you need to download the client first.")
 
 [Commands in the btp CLI](../50-administration-and-ops/commands-in-the-btp-cli-a03a555.md "Find a full reference of all btp CLI commands and their parameters here: btp CLI Command Reference.")
 

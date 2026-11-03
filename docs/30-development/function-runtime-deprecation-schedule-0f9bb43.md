@@ -2,9 +2,11 @@
 
 # Function Runtime Deprecation Schedule
 
-Learn about the planned deprecation and end-of-life \(EOL\) dates for the supported Function runtimes in Kyma Serverless.
+This document outlines the planned deprecation and end-of-life \(EOL\) dates for supported Function runtimes in Kyma Serverless.
 
 
+
+<a name="loio0f9bb43ce217414f882f0fadd4516376__section_supported_runtimes"/>
 
 ## Supported Runtimes and Deprecation Timeline
 
@@ -26,23 +28,11 @@ Planned Deprecation
 Estimated EOL
 
 </th>
-</tr>
-<tr>
-<td valign="top">
+<th valign="top">
 
-Node.js 20
+Status
 
-</td>
-<td valign="top">
-
-February 2026
-
-</td>
-<td valign="top">
-
-April 2026
-
-</td>
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -58,6 +48,11 @@ July 2026
 <td valign="top">
 
 November 2026
+
+</td>
+<td valign="top">
+
+Deprecated
 
 </td>
 </tr>
@@ -77,6 +72,33 @@ TBD
 TBD
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Node.js 26
+
+</td>
+<td valign="top">
+
+TBD
+
+</td>
+<td valign="top">
+
+TBD
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -92,6 +114,11 @@ September 2026
 <td valign="top">
 
 March 2027
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -111,38 +138,74 @@ TBD
 TBD
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 </table>
 
 
 
+<a name="loio0f9bb43ce217414f882f0fadd4516376__section_deprecation_history"/>
+
 ## Deprecation History
 
 
+<dl>
+<dt><b>
 
-### Node.js 20
+Node.js 22
 
--   **Status**: deprecated
--   **Deprecation version**: v1.10.0
--   **Details**: Node.js 20 runtime was deprecated starting with version 1.10.0. For more information, see [this issue](https://github.com/kyma-project/serverless/issues/2231).
+</b></dt>
+<dd>
+
+`Status`: Deprecated
+
+`Deprecation Version`: `v1.14.0`
+
+Node.js 22 is deprecated. For more information, see [\#2681](https://github.com/kyma-project/serverless/issues/2681). Migrate to Node.js 24 or newer.
+
+
+
+</dd><dt><b>
+
+Node.js 20
+
+</b></dt>
+<dd>
+
+`Status`: Removed
+
+`Deprecation Version`: `v1.10.0`
+
+`Removal Version`: `v1.14.0`
+
+Node.js 20 reached end-of-life. For more information, see [\#2231](https://github.com/kyma-project/serverless/issues/2231) and [\#2682](https://github.com/kyma-project/serverless/issues/2682). Migrate to Node.js 22 or newer.
+
+
+
+</dd>
+</dl>
 
 > ### Note:  
-> The deprecation and EOL dates listed in this document are **predictions based on current release cadence and Node.js/Python LTS schedules**. These dates are subject to change and may be adjusted based on the following:
+> The deprecation and EOL dates listed in this document are predictions based on current release cadence and Node.js/Python LTS schedules. These dates are subject to change and may be adjusted based on the following:
 > 
 > -   Changes in the Kyma Serverless release schedule
 > -   Updates to upstream Node.js and Python LTS timelines
 > -   Community feedback and requirements
 > -   Security considerations
 > 
-> Always check the [What's New notes](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&clear=all&Valid_as_Of=2022-01-01:2028-12-31&q=serverless) for announcements regarding runtime deprecations and EOL timelines.
+> Always check the [release notes](https://github.com/kyma-project/serverless/releases) for announcements regarding runtime deprecations and EOL timelines.
 
 
+
+<a name="loio0f9bb43ce217414f882f0fadd4516376__section_recommendations"/>
 
 ## Recommendations
 
-To ensure uninterrupted service, consider the following best practices:
-
 -   Plan upgrades to newer runtimes well in advance of deprecation dates.
--   Monitor the What's New notes for any changes to this schedule.
--   For Functions using deprecated runtimes, migrate before the EOL date.
+-   Monitor release notes for any changes to this schedule.
+-   For Functions using deprecated runtimes, migrate before the EOL date to avoid service disruption.
 

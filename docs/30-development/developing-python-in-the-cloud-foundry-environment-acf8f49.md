@@ -194,7 +194,7 @@ You can also decide to deploy your application with a particular buildpack versi
 To check the latest news and updates about the Python buildpack, go to its [buildpack releases](https://github.com/cloudfoundry/python-buildpack/releases) on the GitHub community page.
 
 > ### Note:  
-> In May 2023, SAP migrated the root file system used in the Cloud Foundry environment in SAP BTP from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Python applications on SAP BTP, Cloud Foundry using the Python buildpack, we recommend that you update and migrate your applications, as well as the Python buildpack. For more information about migration timelines, risks, and consequences, see:
+> In May 2023, SAP migrated the root file system used in SAP BTP, Cloud Foundry runtime from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Python applications on SAP BTP, Cloud Foundry using the Python buildpack, we recommend that you update and migrate your applications, as well as the Python buildpack. For more information about migration timelines, risks, and consequences, see:
 > 
 > -   [Deprecation of Cloud Foundry Stack cflinuxfs3 and Migration to cflinuxfs4](https://blogs.sap.com/2023/02/16/deprecation-of-cloud-foundry-stack-cflinuxfs3-and-migration-to-cflinuxfs4/)
 > 

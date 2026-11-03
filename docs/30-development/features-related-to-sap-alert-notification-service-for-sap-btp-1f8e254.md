@@ -1,6 +1,6 @@
 <!-- loio1f8e2542308e4eb0b2a5bf91462fb4dc -->
 
-# Features Related to SAP Alert Notificaton service for SAP BTP
+# Features Related to SAP Alert Notification Service for SAP BTP
 
 Deploy and update SAP Alert Notification service for SAP BTP using the multitarget application concept, or get notified by the service about the status of multitarget application operations.
 
@@ -10,7 +10,7 @@ Deploy and update SAP Alert Notification service for SAP BTP using the multitarg
 
 ## Deploying and Updating the Service
 
-As an alternative to the manual procedure, you can use a deployment descriptor to automate the initial deployment of SAP Alert Notification service. You can use the same procedure to update the service parameters. See the procedure described in [Configuration Management Using Multitarget Application Descriptors](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/configuration-management-using-multitarget-application-descriptors?version=Cloud).
+As an alternative to the manual procedure, you can use a deployment descriptor to automate the initial deployment of SAP Availability service. You can use the same procedure to update the service parameters. See the procedure described in [Configuration Management Using Multitarget Application Descriptors](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/configuration-management-using-multitarget-application-descriptors?version=Cloud).
 
 
 

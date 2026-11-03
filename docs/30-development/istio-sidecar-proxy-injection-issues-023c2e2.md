@@ -96,11 +96,11 @@ Find out which Pods do not have Istio sidecar proxy injection enabled and why. Y
 
     3.  Check if Istio sidecar proxy injection is enabled for the Pod's Deployment.
 
-        In the **Workloads** section, select **Deployments** and choose *Edit*. In the `UI Form` section, check if the `Enable Sidecar Injection` toggle is switched.
+        In the *Workloads* section, select *Deployments* and choose *Edit*. In the `UI Form` section, check if the `Enable Sidecar Injection` toggle is switched.
 
     4.  Check if the label `sidecar.istio.io/inject: false` is set on a Pod.
 
-        In the **Workloads** section, select **Pods**. Search for `sidecar.istio.io/inject: false`. If your Pod is displayed on the list, it has the label set.
+        In the *Workloads* section, select *Pods*. Search for `sidecar.istio.io/inject: false`. If your Pod is displayed on the list, it has the label set.
 
     5.  To learn how to include a Pod into the Istio service mesh, see [Enabling Istio Sidecar Proxy Injection](enabling-istio-sidecar-proxy-injection-b3c6f1d.md).
 

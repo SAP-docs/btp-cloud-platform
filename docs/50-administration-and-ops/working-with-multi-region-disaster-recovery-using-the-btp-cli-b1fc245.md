@@ -1,8 +1,8 @@
 <!-- loiob1fc24553a79405d93b2d0841c4ae9dc -->
 
-# Working with Multi-Region Disaster Recovery Using the btp CLI
+# Working with Multi-Region Disaster Recovery Using the BTP CLI
 
-Use the SAP BTP command line interface \(btp CLI\) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.
+Use the SAP BTP command line interface \(BTP CLI\) to manage Multi-Region Disaster Recovery setups, such as creating, viewing, or deleting subaccount pairs.
 
 > ### Tip:  
 > You must be assigned to Central Disaster Recovery Administrator role by being added to Subaccount Administrator role collection in both subaccounts. Each subaccount can only be paired to one subaccount. You can create instance pairs and subscription pairs in paired subaccounts.
@@ -90,9 +90,9 @@ Unpair a subaccount with its paired subaccount
 
 [Setting Entitlements Using the btp CLI](setting-entitlements-using-the-btp-cli-5af849c.md "Use the SAP BTP command line interface (btp CLI) to set entitlements to define the functionality or permissions available for users of global accounts, directories, and subaccounts.")
 
-[Working with Environments Using the btp CLI](working-with-environments-using-the-btp-cli-48db155.md "Use the SAP BTP command line interface (btp CLI) to manage runtime environment instances in a subaccount. For example, enable the Cloud Foundry environment by creating a Cloud Foundry org (environment instance).")
+[Working with Environments Using the BTP CLI](working-with-environments-using-the-btp-cli-48db155.md "Use the SAP BTP command line interface (BTP CLI) to manage runtime environment instances in a subaccount. For example, enable the Cloud Foundry environment by creating a Cloud Foundry org (environment instance).")
 
-[Working with Multitenant Applications Using the btp CLI](working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md "Use the SAP BTP command line interface (btp CLI) to manage the multitenant applications to which a subaccount is entitled to subscribe.")
+[Working with Multitenant Applications Using the BTP CLI](working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md "Use the SAP BTP command line interface (BTP CLI) to manage the multitenant applications to which a subaccount is entitled to subscribe.")
 
 [Working with External Resource Providers Using the btp CLI](working-with-external-resource-providers-using-the-btp-cli-48d7688.md "Use the SAP BTP command line interface (btp CLI) to get details, or to create or delete resource provider instances in a global account.")
 

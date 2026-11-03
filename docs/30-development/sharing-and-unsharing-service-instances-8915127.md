@@ -7,7 +7,7 @@ You can share service instances of the SAP Authorization and Trust Management se
 -   You must have the *Subaccount Service Administrator* role collection in the specified subaccount. Use the SAP BTP cockpit to assign this role collection \(see [Assigning Role Collections to Users or User Groups](../50-administration-and-ops/assigning-role-collections-to-users-or-user-groups-31532c7.md).\)
 
 
-Using the SAP BTP command line interface \(btp CLI\), you can share service instances across spaces or environments \(for example, Cloud Foundry and Kubernetes\). Shared service instances don't have the same credential. The client ID can be the same or different. Sharing service instances is possible with service instances of the `application` and `broker` plan.
+Using the SAP BTP command line interface \(BTP CLI\), you can share service instances across spaces or environments \(for example, Cloud Foundry and Kubernetes\). Shared service instances don't have the same credential. The client ID can be the same or different. Sharing service instances is possible with service instances of the `application` and `broker` plan.
 
 > ### Note:  
 > It depends on the specific service whether sharing and unsharing servivc instances is available.

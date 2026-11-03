@@ -87,7 +87,7 @@ Namespaced
 
 Module CR managed by the lifecycle infrastructure. Tracks the installation health of the Registry Cache module.
 
-See [RegistryCache Custom Resource](https://github.com/kyma-project/registry-cache/blob/main/docs/user/resources/RegistryCache.md).
+See [RegistryCache Custom Resource](https://kyma-project.io/external-content/registry-cache/docs/user/resources/registry_cache_cr.html).
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Namespaced
 
 User-created CR that configures a caching layer for a specific upstream container image registry.
 
-See [RegistryCacheConfig Custom Resource](https://github.com/kyma-project/registry-cache/blob/main/docs/user/resources/RegistryCacheConfig.md).
+See [RegistryCacheConfig Custom Resource](https://kyma-project.io/external-content/registry-cache/docs/user/resources/registry_cache_config_cr.html).
 
 </td>
 </tr>

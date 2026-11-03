@@ -17,10 +17,6 @@ cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_jakarta
 ```
 
 ```
-cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack
-```
-
-```
 cf push -f <PATH_TO_APP_MANIFEST> -b java_buildpack
 ```
 

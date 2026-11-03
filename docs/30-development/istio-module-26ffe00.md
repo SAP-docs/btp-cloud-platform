@@ -58,7 +58,7 @@ Istio Controller manages Istio installation as defined in the Istio custom resou
 
 
 
-<a name="loio26ffe00c24574db58697992b93f397ac__section_j3q_qr2_qbc"/>
+<a name="loio26ffe00c24574db58697992b93f397ac__section_crd_istio"/>
 
 ## API/Custom Resource Definitions
 

@@ -73,9 +73,11 @@ Select the text sources that you want to have translated.
 > ### Note:  
 > **Text Tables**
 > 
-> Text tables are database tables that were created as part of a business object and in which language-dependent texts are stored. The translation of text table entries is only available in environments that support transporting client-specific data.
+> Text tables are database tables that were created as part of a business object and in which language-dependent texts are stored. The translation of text table entries is only available in environments that support transporting cross-client data.
 > 
 > A database table needs to fulfill the following requirements to be considered a text table by the *Maintain Translations* app:
+> 
+> -   The database table must not be client-dependent, meaning that is must not start with a key field of ABAP Dictionary built-in type `CLNT`.
 > 
 > -   The database table has exactly one key field of ABAP Dictionary Built-in Type LANG.
 > 

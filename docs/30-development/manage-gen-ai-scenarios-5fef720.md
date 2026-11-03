@@ -4,7 +4,7 @@
 
 After communication system and communication arrangement are configured, create an intelligent scenario and continue managing the lifecycle of the intelligent scenario. You are required to create an intelligent scenario for your custom owned Gen AI use cases.
 
-With this intelligent scenario you can perform all lifecycle management operations to get an inference result. You can perform all the operations using the *Intelligent Scenario Management* app. You can also choose to automate all the operations by using turnkey feature. Once turnkey is enabled for an intelligent scenario, all the operations from pre-requisites check to activation are run automatically. Or, you can perform all these operations manually too.
+With this intelligent scenario you can perform all lifecycle management operations to get an inference result. You can perform all the operations using the [Intelligent Scenario Management App](intelligent-scenario-management-app-c975fe6.md). You can also choose to automate all the operations by using turnkey feature. Once turnkey is enabled for an intelligent scenario, all the operations from pre-requisites check to activation are run automatically. Or, you can perform all these operations manually too.
 
 The following is a list of operations that you can perform on an intelligent scenario:
 

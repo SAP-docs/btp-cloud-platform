@@ -20,7 +20,7 @@ For more information, see [Migrate from SAML Trust Configuration to OpenID Conne
 
 1.  Find the inactive SAML trust configuration with the `oidc-migration-backup` origin key. There's an active trust configuration with the same name and a different origin key. This trust is the one you can restore to a SAML trust configuration.
 
-    You can look up the origin key in the trust configuration in the SAP BTP cockpit, using the SAP BTP command-line interface \(CLI\), or the Identity Provider Management API.
+    You can look up the origin key in the trust configuration in the SAP BTP cockpit, using the SAP BTP command line interface \(BTP CLI\), or the Identity Provider Management API.
 
       
       
@@ -28,11 +28,11 @@ For more information, see [Migrate from SAML Trust Configuration to OpenID Conne
 
     ![](images/OIDC_Migration_Backup_68d59f6.png "Finding the Origin Key in the Cockpit")
 
-2.  To restore the trust configuration from OIDC to SAML, use the SAP BTP command line interface \(CLI\).
+2.  To restore the trust configuration from OIDC to SAML, use the BTP CLI.
 
     For more information, see [Managing Trust from SAP BTP to an SAP Cloud Identity Services Tenant](managing-trust-from-sap-btp-to-an-sap-cloud-identity-services-tenant-6140107.md).
 
-3.  Log on to the btp CLI \(see [Log in](log-in-e241b30.md)\).
+3.  Log on to theBTP CLI \(see [Log in](log-in-e241b30.md)\).
 
 4.  Make sure that you set the target to the relevant SAP BTP subaccount.
 
@@ -45,7 +45,7 @@ For more information, see [Migrate from SAML Trust Configuration to OpenID Conne
 
     `btp restore security/trust my-origin-key`
 
-    The btp CLI returns that the restored trust configuration is active and that the protocol is SAML.
+    The BTP CLI returns that the restored trust configuration is active and that the protocol is SAML.
 
 7.  Check whether your trust configuration with the OpenID Connect protocol has been restored to SAML. Go to your subaccount in the SAP BTP cockpit and choose *Security* \> *Trust Configuration*. You see only one SAML trust configuration - the restored one. The OIDC trust configuration has disappeared.
 

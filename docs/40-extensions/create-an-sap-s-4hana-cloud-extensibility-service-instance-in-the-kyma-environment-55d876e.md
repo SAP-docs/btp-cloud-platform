@@ -1,6 +1,6 @@
 <!-- loio55d876e1d63b4955bd57fbb842a89f92 -->
 
-# Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment
+# Create an SAP S/4HANA Cloud Extensibility Service Instance in the Kyma Environment 
 
 Use this procedure to configure the communication between SAP S/4HANA Cloud and SAP Event Mesh in the Kyma environment.
 

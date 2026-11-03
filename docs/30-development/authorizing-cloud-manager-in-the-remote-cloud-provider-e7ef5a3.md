@@ -21,7 +21,7 @@ Use the following table to identify the Cloud Manager principal. Then, perform t
 <tr>
 <th valign="top">
 
-BTP Cockpit URL
+SAP BTP Cockpit URL
 
 </th>
 <th valign="top">
@@ -173,7 +173,7 @@ Use the following table to identify the Cloud Manager service account:
 <tr>
 <th valign="top">
 
-BTP Cockpit URL
+SAP BTP Cockpit URL
 
 </th>
 <th valign="top">
@@ -221,7 +221,7 @@ To authorize Cloud Manager in the remote subscription, Microsoft Azure requires 
 <tr>
 <th valign="top">
 
-BTP Cockpit URL
+SAP BTP Cockpit URL
 
 </th>
 <th valign="top">

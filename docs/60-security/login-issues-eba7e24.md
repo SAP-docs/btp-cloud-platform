@@ -29,7 +29,7 @@ To narrow down the origin of the issue, you need to check the individual compone
     If you are redirected to [https://accounts.sap.com](http://accounts.sap.com/) asking for two-factor authentication and a passcode, a second factor in the form of a one-time TOTP token is mandatory.
 
 2.  See [Activate TOTP Two-Factor Authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/ab8a3237cd424a0c97b921100d263b8a.html?version=Cloud) for information about how to configure a device to generate TOTP tokens; for example, with an authenticator app.
-3.  Log on to your Cloud Foundry environment using two-factor authentication.
+3.  Log on to your Cloud Foundry runtime using two-factor authentication.
     1.  Type `cf login`.
     2.  Enter your e-mail address.
     3.  Enter your password in the following format: <your global password\><one-time-token\>

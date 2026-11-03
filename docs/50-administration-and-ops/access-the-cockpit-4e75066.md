@@ -15,7 +15,7 @@ Navigate to [https://cockpit.btp.cloud.sap](https://cockpit.btp.cloud.sap) to ac
 > 
 > For example: `https://cockpit.btp.cloud.sap?idp=mytenant.accounts.ondemand.com`
 > 
-> For more information, see [Log On with a Custom Identity Provider to the SAP BTP Cockpit](log-on-with-a-custom-identity-provider-to-the-sap-btp-cockpit-0bef982.md).
+> For more information, see [Log On with a Custom Identity Provider to the SAP BTP cockpit](log-on-with-a-custom-identity-provider-to-the-sap-btp-cockpit-0bef982.md).
 
 
 

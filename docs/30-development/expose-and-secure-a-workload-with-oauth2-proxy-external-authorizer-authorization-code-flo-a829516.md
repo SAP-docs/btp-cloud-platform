@@ -166,8 +166,8 @@ You can either use Kyma dashboard or kubectl.
 
     3.  Add a rule with the following configuration.
 
-        -   **Access Strategy**: `extAuth`
-        -   In **External Authorization**, add the `oauth2-proxy` authorizer.
+        -   `Access Strategy`: `extAuth`
+        -   In `External Authorization`, add the `oauth2-proxy` authorizer.
         -   Add allowed methods and the request path.
 
     4.  Choose *Create*.
@@ -175,7 +175,7 @@ You can either use Kyma dashboard or kubectl.
 
 -   Use kubectl.
 
-    To expose and secure your Service, create the APIRule CR. In the rules section, define the **extAuth** field and add the `oauth2-proxy` authorizer.
+    To expose and secure your Service, create the APIRule CR. In the rules section, define the `extAuth` field and add the `oauth2-proxy` authorizer.
 
     ```
     ...
@@ -200,7 +200,7 @@ To access your workload, copy the host link defined in your APIRule and open it 
 
 ### Example
 
-See the following example APIRule with **extAuth** authorizer that exposes the sample HTTPBin Deployment:
+See the following example APIRule with `extAuth` authorizer that exposes the sample HTTPBin Deployment:
 
 > ### Example:  
 > 1.  Create the `httpbin-system` namespace and deploy a sample HTTPBin Deployment.

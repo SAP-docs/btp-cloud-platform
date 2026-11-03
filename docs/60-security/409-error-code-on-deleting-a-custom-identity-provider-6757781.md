@@ -13,13 +13,13 @@
 
 ## Reason and Prerequisites
 
--   This issue occurs when there are applications still present in the Identity Authentication service \(IAS\). For example, this can happen if you have created an identity service instance.
+-   This issue occurs when there are applications still present in SAP Cloud Identity Services - Identity Authentication. For example, this can happen if you have created an identity service instance.
 
 
 
 ## Solution
 
-1.  Check the IAS tenant for which you want to delete the trust configuration in the SAP BTP cockpit.
+1.  Check the Identity Authentication tenant for which you want to delete the trust configuration in the SAP BTP cockpit.
 2.  You need to delete all the applications of the error message.
 
 **Note**: Delete only those applications that you are sure are not needed anymore.

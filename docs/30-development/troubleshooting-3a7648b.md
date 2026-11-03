@@ -10,7 +10,7 @@
 
 -   Always use MTA Undeployment \(cf undeploy <MTA ID\> --delete-services\) instead of deleting service instances individually.
 
--   Check if the saas-registry service instance still contains active subscriptions: the saas-registry instance can only be deleted once there are no more active subscriptions. Unsubscribe using the [Subscription Management Dashboard](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/434be695f9e946ccb4c28911dd1e16d0.html?locale=en-US&version=Cloud) Note, however that if the subscription is forced to be deleted through any additional channel \(using the Subscription Management Dashboard or by subaccount deletion\), it will lead to an orphan tenant in the ABAP Solution. Providers need to be aware of this before deleting subscriptions with the ‘force’ option.
+-   Check if the saas-registry service instance still contains active subscriptions: the saas-registry instance can only be deleted once there are no more active subscriptions. Unsubscribe using the [Subscription Management Dashboard](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/434be695f9e946ccb4c28911dd1e16d0.html?locale=en-US&version=Cloud) Note, however that if the subscription is forced to be deleted through any additional channel \(using the SAP BTP subscription management dashboard or by subaccount deletion\), it will lead to an orphan tenant in the ABAP Solution. Providers need to be aware of this before deleting subscriptions with the ‘force’ option.
 
 
 

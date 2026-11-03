@@ -44,12 +44,12 @@ For more information, see [Use a Custom IDP for Subaccount Configuration](https:
 <tr>
 <td valign="top">
 
-SAP BTP Command Line Interface \(btp CLI\)
+SAP BTP command line interface \(BTP CLI\)
 
 </td>
 <td valign="top">
 
-Once trust has been configured on the global account level in the cockpit, platform users can log on using the custom identity provider and use the full range of the btp CLI.
+Once trust has been configured on the global account level in the cockpit, platform users can log on using the custom identity provider and use the full range of the BTP CLI.
 
 To log on to a global account, you need to provide the hostname of the tenant \(for example, *ar9ibaxhm*\) with the `--idp` parameter. See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
 

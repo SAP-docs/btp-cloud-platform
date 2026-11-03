@@ -45,7 +45,7 @@ Check the the subdomain and landscape domain of your request
 <tr>
 <td valign="top">
 
-The subdomain belongs to a subaccount which has not yet been defined in the Cloud Foundry environment.
+The subdomain belongs to a subaccount which has not yet been defined in Cloud Foundry.
 
 </td>
 <td valign="top">
@@ -90,13 +90,13 @@ Extend your trial account
 
 Check the subdomain and landscape domain of your request. You can find the subdomain in the SAP BTP cockpit in the **Overview** section of the subaccount that you are using for the request, under **Subaccount Details**.
 
-You can find the landscape URL for your Cloud Foundry environment [here](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html#loiof344a57233d34199b2123b9620d0bb41). For example, the subdomain for the European region is **eu10.hana.ondemand.com**.
+You can find the landscape URL for your Cloud Foundry runtime [here](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html#loiof344a57233d34199b2123b9620d0bb41). For example, the subdomain for the European region is **eu10.hana.ondemand.com**.
 
 
 
 ### Create the Missing Subaccount
 
-Create the missing subaccount with the same subdomain in the Cloud Foundry environment of the respective Cloud Foundry domain.
+Create the missing subaccount with the same subdomain in the Cloud Foundry runtime of the respective Cloud Foundry domain.
 
 
 

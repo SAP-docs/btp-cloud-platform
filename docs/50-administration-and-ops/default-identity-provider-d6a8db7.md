@@ -81,7 +81,7 @@ For more information about your users of SAP ID service can enable multifactor a
 > 
 >     For more information, see [Log On Manually With a Custom Identity Provider](log-on-manually-with-a-custom-identity-provider-e1009b4.md).
 > 
-> -   SAP Business Technology Platform command-line interface \(btp CLI\)
+> -   SAP BTP command line interface \(BTP CLI\)
 > 
 >     Alternatively, you can log on through a browser instead.
 > 

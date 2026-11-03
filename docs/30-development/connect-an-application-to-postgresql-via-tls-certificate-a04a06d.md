@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-You have a Java application created and deployed in an enterprise \(productive\) SAP BTP subaccount, in the SAP BTP, Cloud Foundry environment.
+You have a Java application created and deployed in an enterprise \(productive\) subaccount, in the SAP BTP, Cloud Foundry environment.
 
 > ### Note:  
 > This scenario is not applicable for SAP BTP trial accounts.

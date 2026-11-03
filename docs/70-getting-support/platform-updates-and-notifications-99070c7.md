@@ -2,7 +2,7 @@
 
 # Platform Updates and Notifications
 
-Learn about the platform updates, including biweekly updates, immediate fixes, and major upgrades. Find out how to subscribe for notifications.
+Platform updates for SAP Business Technology Platform include biweekly releases, immediate fixes, and major upgrades. To stay informed about updates and planned maintenance that may affect your applications, subscribe to notifications.
 
 SAP BTP is a dynamic product, which has continuous production releases \(updates\). To get notifications for the new features and fixes every release, subscribe at [What's New for SAP Business Technology Platform](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&version=Cloud). For more information, see [Subscribing to What's New Notifications](https://help.sap.com/docs/BTP/922bf2dbe0b646aaaa8cb5e077cfd799/903c8f5e91e44346b03c9511022a5e25.html?locale=en-US).
 

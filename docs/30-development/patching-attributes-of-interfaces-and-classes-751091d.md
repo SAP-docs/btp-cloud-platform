@@ -2,7 +2,7 @@
 
 # Patching Attributes of Interfaces and Classes
 
-The code samples illustrate how the interface and class Read APIs can be combined with `PATCH` operations to conditionally change attributes of interfaces and classes.
+The code samples illustrate how `PATCH` operations can be used to modify attributes of interfaces and classes, with XCO Read APIs enabling conditional modifications based on the current state of the objects.
 
 In the first example an attribute is inserted into an interface if it's not yet part of it and deleted if it's already a part of the interface. By running the class several times in a row the attribute will be continuously inserted and deleted.
 

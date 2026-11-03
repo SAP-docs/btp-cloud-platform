@@ -2,7 +2,7 @@
 
 # SapMachine
 
-SapMachine provides a Java Runtime Environment \(JRE\) with Java 17, 21, and 25.
+SapMachine provides a Java Runtime Environment \(JRE\) with Java 21 and 25.
 
 
 
@@ -111,40 +111,6 @@ applications:
 
 
 
-### SapMachine 17
-
-> ### Tip:  
-> SAP Java Buildpack provides a customized SapMachine JRE 17 that contains a [jdk.compiler](https://docs.oracle.com/en/java/javase/11/docs/api/jdk.compiler/module-summary.html) module.
-
-We recommend that you use the latest stable version, which is available in the major version of SapMachine JRE 17. Set the JBP\_CONFIG\_SAP\_MACHINE\_JRE variable like this:
-
-```
----
-applications:
-- name: <app-name>
-  ...
-  env:
-    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: '{ version: 17.+ }'
-```
-
-In some cases, it can be helpful to pin a particular published version of SapMachine JRE 17. To make the buildpack download this JRE version \(for example, 17.0.20\), specify it the following way:
-
-```
----
-applications:
-- name: <app-name>
-  ...
-  env:
-    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jre.SAPMachineJRE']"
-    JBP_CONFIG_SAP_MACHINE_JRE: '{use_offline_repository: false, version: 17.0.20 }'
-  ...
-```
-
-**NOTE:** To stay secure, you need to update this version string on your own. For this reason, SAP does **not** recommend this approach.
-
-
-
 <a name="loio785d6b390b834bee818e242160f87df5__section_jdk"/>
 
 ## Activation Using JDK
@@ -162,11 +128,11 @@ applications:
 ```
 
 > ### Note:  
-> SapMachine JDK is **not bundled** within the buildpack. Therefore, if you want to use SapMachine JDK 17, 21 or 25, you have to download it from the [GitHub project](https://sapmachine.io/) as an online component.
+> SapMachine JDK is **not bundled** within the buildpack. Therefore, if you want to use SapMachine JDK 21 or 25, you have to download it from the [GitHub project](https://sapmachine.io/) as an online component.
 > 
-> However, you can use the [jdk.compiler](https://docs.oracle.com/en/java/javase/11/docs/api/jdk.compiler/module-summary.html) module, which is **provided** by the buildpack as part of the customized SapMachine JRE, v. 17, 21 and 25. To learn more, see section [Activation Using JRE](sapmachine-785d6b3.md#loio785d6b390b834bee818e242160f87df5__section_jre).
+> However, you can use the [jdk.compiler](https://docs.oracle.com/en/java/javase/11/docs/api/jdk.compiler/module-summary.html) module, which is **provided** by the buildpack as part of the customized SapMachine JRE, v. 21 and 25. To learn more, see section [Activation Using JRE](sapmachine-785d6b3.md#loio785d6b390b834bee818e242160f87df5__section_jre).
 
-To specify an online JDK version \(17, 21, or 25\), use environment variable JBP\_CONFIG\_SAP\_MACHINE\_JDK.
+To specify an online JDK version \(21 or 25\), use environment variable JBP\_CONFIG\_SAP\_MACHINE\_JDK.
 
 
 
@@ -225,37 +191,6 @@ applications:
   env:
     JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
     JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 21.0.12 }'
-  ...
-```
-
-**NOTE:** To stay secure, you need to update this version string on your own. For this reason, SAP does **not** recommend this approach.
-
-
-
-### SapMachine 17
-
-We recommend that you use the latest stable version, which is available in the major version of SapMachine JDK 17. Set the JBP\_CONFIG\_SAP\_MACHINE\_JDK variable like this:
-
-```
----
-applications:
-- name: <app-name>
-  ...
-  env:
-    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.+ }'
-```
-
-In some cases, it can be helpful to pin a particular published version of SapMachine JDK 17. To make the buildpack download this JDK version \(for example, 17.0.20\), specify it the following way:
-
-```
----
-applications:
-- name: <app-name>
-  ...
-  env:
-    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
-    JBP_CONFIG_SAP_MACHINE_JDK: '{ version: 17.0.20 }'
   ...
 ```
 

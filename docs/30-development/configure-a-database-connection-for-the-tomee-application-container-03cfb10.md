@@ -4,15 +4,6 @@
 
 
 
-<a name="loio03cfb10c5b2042bd9cc0a1bc6bc6ba92__context_q5h_yxx_j2c"/>
-
-## Context
-
-> ### Note:  
-> The examples below refer to TomEE 10 and SAP Java Buildpack 2.
-
-
-
 <a name="loio03cfb10c5b2042bd9cc0a1bc6bc6ba92__steps_nqh_bx5_2fb"/>
 
 ## Procedure

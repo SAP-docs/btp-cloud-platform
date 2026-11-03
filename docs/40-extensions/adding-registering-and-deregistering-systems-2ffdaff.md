@@ -147,14 +147,6 @@ The system has been added as a record to the list on the *Systems* page in the S
 
 
 
-## Registering Third-Party Systems
-
-You add a third-party system to the list in the *System Landscape* \> *Systems* page. At this point you provide all the required details for this system: its type, provider, URL, and system ID. For third-party systems, this completes the registration process and you have your third-party system registered with SAP BTP. Even though the third-party system is registered directly, no status is displayed.
-
-See [Register a Third-Party System](register-a-third-party-system-5481d59.md).
-
-
-
 <a name="loio2ffdaff0f1454acdb046876045321c91__section_nvz_2cy_mdc"/>
 
 ## Deregistering Systems
@@ -189,6 +181,4 @@ See [Mergе SAP Systems](merg-sap-systems-5592d86.md).
 [Register a Microsoft 365 Copilot for Joule System](register-a-microsoft-365-copilot-for-joule-system-f216895.md "")
 
 [Register a System of Type SAP BTP Application](register-a-system-of-type-sap-btp-application-134070f.md "")
-
-[Register a Third-Party System](register-a-third-party-system-5481d59.md "To connect a third-party systems, for example a Google system, with a global account in SAP BTP, you first need to create a system type for this system and then to add a system of this new type to the Systems page.")
 

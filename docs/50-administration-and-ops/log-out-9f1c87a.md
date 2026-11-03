@@ -21,5 +21,5 @@ This terminates your active logout session and ensures that all user-specific da
 **Related Information**  
 
 
-[Log in](log-in-e241b30.md "Log in with the btp CLI is on global account level.")
+[Log in](log-in-e241b30.md "Log in with the BTP CLI is on global account level.")
 

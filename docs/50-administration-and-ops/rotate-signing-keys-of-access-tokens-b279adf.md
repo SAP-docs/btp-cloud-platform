@@ -21,13 +21,13 @@ We recommend that you use the automatic signing key rotation for access tokens. 
 > 
 > For subaccounts created after January 19, 2026, automatic signing key rotation is enabled by default. If you use SAP HANA Cloud with principal propagation and Cloud connector, you must disable automatic signing key rotation.
 
-If the automatic signing key rotation is enabled, SAP BTP rotates the signing key periodically. The first signing key rotation is initiated immediately, and the new key becomes active 48 hours after the enablement. Use the SAP BTP cockpit or the SAP BTP command line interface \(btp CLI\).
+If the automatic signing key rotation is enabled, SAP BTP rotates the signing key periodically. The first signing key rotation is initiated immediately, and the new key becomes active 48 hours after the enablement. Use the SAP BTP cockpit or the SAP BTP command line interface \(BTP CLI\).
 
 -   Enable the automatic signing key rotation in the SAP BTP cockpit:
 
     Choose your subaccount and go to the *Signing Keys* tab in *Security* \> *Settings*. Choose *Enable*.
 
--   Enable the automatic signing key rotation using the following command of the SAP BTP command line interface \(btp CLI\):
+-   Enable the automatic signing key rotation using the following command of the SAP BTP command line interface \(BTP CLI\):
 
     `btp update security/settings --rotate-signing-key-automatically TRUE` \(Boolean\)
 
@@ -38,7 +38,7 @@ If the automatic signing key rotation is enabled, SAP BTP rotates the signing ke
 > If issues arise, you can disable the automatic signing key rotation.
 
 > ### Note:  
-> You may also initiate the signing key rotation manually, for example, if needed for testing. Note that the rotation is completed within 48 hours. Use the following command of the SAP BTP command line interface \(btp CLI\):
+> You may also initiate the signing key rotation manually, for example, if needed for testing. Note that the rotation is completed within 48 hours. Use the following command of the SAP BTP command line interface \(BTP CLI\):
 > 
 > `btp rotate security/token-key`
 
@@ -50,17 +50,17 @@ If the automatic signing key rotation is enabled, SAP BTP rotates the signing ke
 
 You can also manually rotate the signing keys. You can create a new signing key and enable it after a grace period. The latter is required so that signing key caches \(for example, in libraries\) can retrieve the new keys. Keep in mind that only two signing keys are allowed at the same time.
 
--   To rotate the signing keys directly, use the following command of the SAP BTP command line interface \(btp CLI\). The signing key is rotated after 48 hours.
+-   To rotate the signing keys directly, use the following command of the SAP BTP command line interface \(BTP CLI\). The signing key is rotated after 48 hours.
 
     `btp rotate security/token-key --key ID`
 
 
-For more information on how to manually manage the rotation using the SAP BTP cockpit or the SAP BTP command line interface \(CLI\), see the related links.
+For more information on how to manually manage the rotation using the SAP BTP cockpit or the SAP BTP command line interface \(BTP CLI\), see the related links.
 
 **Related Information**  
 
 
-[Manually Rotate Signing Keys of Access Tokens with the SAP BTP CLI](rotate-signing-keys-of-access-tokens-b279adf.md#loio8e15b59efbd846de990a9207b45ac71d "The SAP BTP CLI enables you to manually rotate the signing keys of access tokens.")
+[Manually Rotate Signing Keys of Access Tokens with the BTP CLI](rotate-signing-keys-of-access-tokens-b279adf.md#loio8e15b59efbd846de990a9207b45ac71d "The BTP CLI enables you to manually rotate the signing keys of access tokens.")
 
 [Manually Rotate Signing Keys of Access Tokens with the Security Setting API](rotate-signing-keys-of-access-tokens-b279adf.md#loiodb9daade18d04bfbb4b03fca11dbd349 "You can use the Security Setting API of the SAP Authorization and Trust Management service to manually rotate the signing keys of access tokens.")
 
@@ -68,9 +68,9 @@ For more information on how to manually manage the rotation using the SAP BTP co
 
 <!-- loio8e15b59efbd846de990a9207b45ac71d -->
 
-## Manually Rotate Signing Keys of Access Tokens with the SAP BTP CLI
+## Manually Rotate Signing Keys of Access Tokens with the BTP CLI
 
-The SAP BTP CLI enables you to manually rotate the signing keys of access tokens.
+The BTP CLI enables you to manually rotate the signing keys of access tokens.
 
 
 
@@ -93,7 +93,7 @@ To support this delay in rotation, the service enforces a minimum 12-hour delay 
 
 ## Context
 
-To rotate the signing key of access tokens, use the SAP BTP command-line interface \(btp CLI\). You can rotate signing keys for the global account, directory, or subaccount.
+To rotate the signing key of access tokens, use the SAP BTP command line interface \(BTP CLI\). You can rotate signing keys for the global account, directory, or subaccount.
 
 For more information, see [Managing Signing Keys for Access Tokens](managing-signing-keys-for-access-tokens-dfca1d3.md).
 
@@ -101,7 +101,7 @@ For more information, see [Managing Signing Keys for Access Tokens](managing-sig
 
 ## Procedure
 
-1.  Log on to the SAP BTP CLI.
+1.  Log on to the BTP CLI.
 
     For more information, see [Log in](log-in-e241b30.md).
 
@@ -136,7 +136,7 @@ For more information, see [Managing Signing Keys for Access Tokens](managing-sig
     > 
     > -   [Managed Certificate Collections](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-security-guide/managed-certificate-collections) in the *SAP HANA Cloud, SAP HANA Database Security Guide*
     > 
-    > -   [Configure Trusted Entities in the Cloud Connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/set-up-trust-for-principal-propagation#loioa4ee70f0274248f8bbc7594179ef948d__configure_trust) in the *SAP BTP Connectivity* documentation
+    > -   SAP BTP Connectivity:[Configure Trusted Entities in the Cloud Connector](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/set-up-trust-for-principal-propagation#loioa4ee70f0274248f8bbc7594179ef948d__configure_trust)
     > 
     > 
     > Plan for possible service interruption when you add your first signing key.

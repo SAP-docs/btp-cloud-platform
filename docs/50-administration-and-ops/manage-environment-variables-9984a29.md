@@ -64,7 +64,7 @@ There are two types of environment variable groups:
 
 ### Procedure
 
-1.  In the SAP BTP cockpit, navigate to the *Applications* page in your Cloud Foundry space.
+1.  In the SAP BTP cockpit navigate to the *Applications* page in your Cloud Foundry space.
 
 2.  Choose the application whose environment variables you want to view.
 
