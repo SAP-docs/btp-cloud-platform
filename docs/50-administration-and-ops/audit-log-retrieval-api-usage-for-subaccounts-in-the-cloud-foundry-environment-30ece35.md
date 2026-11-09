@@ -197,7 +197,14 @@ Supported request parameters:
 
 -   `time_from and time_to`– if no time filter is specified the default timeframe of 30 days back is returned. Use the following format: YYYY-MM-DDTHH:MM:SS, for example 2018-05-11T10:42:00. The time is in UTC.
 
--   `handle` - in case the result set is too large, it's chunked, and a handle is returned for reading the next chunk. The handle is returned as a Response Header in the form: Paging: `handle=<value>`. Then you can provide `handle=<value>` as a request parameter in the subsequent retrieval request.
+-   `handle` - if the result set is too large, it is split into chunks, and a handle is returned for reading the next chunk. The handle encodes the time range parameters \(`time_from` and `time_to`\). Pass the handle alone — do not include these parameters separately. The handle is returned as a response header in the following form:
+
+    ```
+    Paging:
+            handle=<value>
+    ```
+
+    .To retrieve the next chunk, include `handle=<value>` as a request parameter in your next request.
 
 -   `category` - this parameter allows you to filter the audit logs by predefined event types. If no event type is specified, all event types are returned. The available event types are:
 
@@ -265,7 +272,7 @@ Execute the following HTTP GET request:
 Execute the following HTTP GET request:
 
 ```
-<url_from_service_key>/auditlog/v2/auditlogrecords?handle=2018-06-14T10:11:18.968<4f932695-8616-4e1f-ac9a-1cdfb758f01d<2018-06-14T10:11:00.000
+<url_from_service_key>/auditlog/v2/auditlogrecords?handle=<handle>
 ```
 
 Response codes:

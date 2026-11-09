@@ -19,7 +19,7 @@ For an example of how to use a service, see [Create an SAP S/4HANA Cloud Extensi
 
 [SAP BTP Operator Module](sap-btp-operator-module-50347ea.md "Use the SAP BTP Operator module to enable service management and consume SAP BTP services from your Kyma cluster.")
 
-[Preconfigured Credentials and Access](preconfigured-credentials-and-access-ab106d7.md "When you create SAP BTP, Kyma runtime, all necessary resources for consuming SAP BTP services are created, and the basic cluster access is configured.")
+[Preconfigured Credentials and Access](preconfigured-credentials-and-access-ab106d7.md "When you create Kyma runtime on SAP platform, all necessary resources for consuming SAP BTP services are created, and the basic cluster access is configured.")
 
 [Customizing the Default Credentials and Access](customizing-the-default-credentials-and-access-15f22d5.md "You can customize the sap-btp-manager Secret and manage your own default configuration of the SAP BTP Operator module.")
 

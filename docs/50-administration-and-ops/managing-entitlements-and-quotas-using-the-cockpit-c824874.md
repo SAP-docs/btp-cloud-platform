@@ -15,7 +15,7 @@ Optionally, you can assign service plans and quota from the global account to di
 > 
 > Note that if you're assigning plans to a subaccount that is under a managed directory that also has the user management feature enabled, then you must be either the directory administrator or a global account administrator.
 
-There are two places in the SAP BTP cockpit where you can view entitlements and assign service plans and quotas for subaccounts - at the global account level and at the subaccount level. Depending on your permissions, you may only have access to one of these pages. You can find more details below:
+There are two places in the cockpit where you can view entitlements and assign service plans and quotas for subaccounts - at the global account level and at the subaccount level. Depending on your permissions, you may only have access to one of these pages. You can find more details below:
 
 **Entitlements Pages**
 
@@ -233,7 +233,7 @@ In the Cloud Foundry environment, you can further distribute the quotas that are
 > Optionally, you can configure assignments and quotas for supported services that you own or subscribe to from supported non-SAP cloud vendors. These services can be consumed in SAP BTP in your subaccounts alongside your self-developed services and those provided by SAP. This functionality requires first setting up a resource provider instance for your provider account in the cockpit. For more information, see [Managing Resource Providers](managing-resource-providers-e2c250d.md).
 
 > ### Note:  
-> In global accounts that use the consumption-based commercial model, a default runtime memory quota of 200 GB for the standard plan is automatically assigned to every subaccount. This quota represents a limit on how much runtime memory the applications in the subaccount can use at any given time. When you use the standard plan for SAP BTP, Cloud Foundry runtime in the consumption-based commercial model, you're billed based on the amount of runtime memory that has actually been consumed. For more information, see [Service Plans and Metering for Cloud Foundry Runtime](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/service-plans-and-metering-for-cloud-foundry-runtime?version=Cloud) and [Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting#consumption-monitoring).
+> In global accounts that use the consumption-based commercial model, a default runtime memory quota of 200 GB for the standard plan is automatically assigned to every subaccount. This quota represents a limit on how much runtime memory the applications in the subaccount can use at any given time. When you use the standard plan for Cloud Foundry runtime on SAP platform in the consumption-based commercial model, you're billed based on the amount of runtime memory that has actually been consumed. For more information, see [Service Plans and Metering for Cloud Foundry Runtime](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/service-plans-and-metering-for-cloud-foundry-runtime?version=Cloud) and [Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting#consumption-monitoring).
 > 
 > A global account administrator can change the default quota as described in [\(optional\) Adjusting Runtime Memory Quota for Cloud Foundry Runtime \(Consumption-Based\)](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/optional-adjusting-runtime-memory-quota-for-cloud-foundry-runtime?version=Cloud).
 
@@ -242,11 +242,11 @@ In the Cloud Foundry environment, you can further distribute the quotas that are
 
 [Entitlements and Quotas](../10-concepts/entitlements-and-quotas-00aa2c2.md "When you purchase an enterprise account, you’re entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
 
-[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using cockpit.")
 
-[Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using cockpit.")
 
-[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the SAP BTP cockpit to create space quotas.")
+[Create Space Quotas](create-space-quotas-b13c4a2.md "You can use the cockpit to create space quotas.")
 
 [Create Space Quota Plans Using the Cloud Foundry Command Line Interface](create-space-quota-plans-using-the-cloud-foundry-command-line-interface-504fde9.md "You can use the Cloud Foundry Command Line Interface to create space quota plans.")
 

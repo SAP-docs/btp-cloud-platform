@@ -4,7 +4,7 @@
 
 # Getting Started with a Trial Kyma Instance
 
-Get started with a trial SAP BTP, Kyma runtime instance, and explore its features and capabilities.
+Get started with a trial Kyma runtime on SAP platform instance, and explore its features and capabilities.
 
 
 
@@ -16,7 +16,7 @@ Get started with a trial SAP BTP, Kyma runtime instance, and explore its feature
 
 2.  Set up your subaccount.
 
-    When you register for the SAP BTP trial account, a subaccount is created for you. If your subaccount was successfully created in the SAP BTP cockpit, skip this step and proceed to adding entitlements.
+    When you register for the SAP BTP trial account, a subaccount is created for you. If your subaccount was successfully created in the cockpit, skip this step and proceed to adding entitlements.
 
     If your subaccount was not created automatically, create it manually by following these steps:
 

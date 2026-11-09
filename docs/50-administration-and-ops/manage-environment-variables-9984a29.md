@@ -2,7 +2,7 @@
 
 # Manage Environment Variables
 
-You can use the SAP BTP cockpit to view system-provided and create user-provided variables. The Cloud Foundry environment uses these variables to communicate with the applications deployed in it.
+You can use the cockpit to view system-provided and create user-provided variables. The Cloud Foundry environment uses these variables to communicate with the applications deployed in it.
 
 
 
@@ -64,7 +64,7 @@ There are two types of environment variable groups:
 
 ### Procedure
 
-1.  In the SAP BTP cockpit navigate to the *Applications* page in your Cloud Foundry space.
+1.  In the cockpit navigate to the *Applications* page in your Cloud Foundry space.
 
 2.  Choose the application whose environment variables you want to view.
 
@@ -90,7 +90,7 @@ There are two types of environment variable groups:
 
 ### Procedure
 
-1.  In the SAP BTP cockpit, navigate to the *Applications* page in your Cloud Foundry space.
+1.  In the cockpit, navigate to the *Applications* page in your Cloud Foundry space.
 
 2.  Choose the application for which you want to create a user-provided variable.
 

@@ -8,7 +8,7 @@
 
 ## Symptom
 
-You deleted the SAP Service Manager service binding in the SAP BTP cockpit and now cannot create new SAP BTP service instances or bindings. The SAP BTP Operator module may be failing.
+You deleted the SAP Service Manager service binding in the cockpit and now cannot create new SAP BTP service instances or bindings. The SAP BTP Operator module may be failing.
 
 
 
@@ -23,7 +23,7 @@ When you delete the binding, the Kyma infrastructure still holds the old credent
 > ### Note:  
 > Alternatively, if the `sap-btp-manager` Secret itself was deleted from the cluster, Kyma's automatic reconciliation restores it within 24 hours — no support ticket is needed. To restore the Secret immediately, use the credentials from the existing binding and follow [Customizing the Default Credentials and Access](customizing-the-default-credentials-and-access-15f22d5.md).
 
-Each Kyma runtime has a dedicated Service Manager instance in a one-to-one relationship. If you have multiple Kyma runtimes, you have multiple Service Manager instances, each with its own binding. The Service Manager instance name in the SAP BTP cockpit matches the instance ID of the corresponding Kyma runtime. You need this mapping to identify the correct instance when raising a support ticket.
+Each Kyma runtime has a dedicated Service Manager instance in a one-to-one relationship. If you have multiple Kyma runtimes, you have multiple Service Manager instances, each with its own binding. The Service Manager instance name in the cockpit matches the instance ID of the corresponding Kyma runtime. You need this mapping to identify the correct instance when raising a support ticket.
 
 
 
@@ -31,7 +31,7 @@ Each Kyma runtime has a dedicated Service Manager instance in a one-to-one relat
 
 ## Solution
 
-1.  In the SAP BTP cockpit, open your Kyma runtime and note its instance ID.
+1.  In the cockpit, open your Kyma runtime and note its instance ID.
 2.  In the list of Service Manager service instances, find the one whose name matches your Kyma instance ID. This is the dedicated Service Manager instance for your Kyma runtime.
 3.  In that Service Manager instance, check whether a binding exists.
     -   If no binding exists, recreate it, then proceed to the next step.

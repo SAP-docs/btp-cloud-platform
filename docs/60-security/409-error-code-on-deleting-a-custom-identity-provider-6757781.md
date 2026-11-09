@@ -6,7 +6,7 @@
 
 ## Symptom
 
--   On deleting a custom identity provider \(origin: *sap.custom*\) in the SAP BTP cockpit, you get an error.
+-   On deleting a custom identity provider \(origin: *sap.custom*\) in the cockpit, you get an error.
 -   If you open the developer console \(F12\) and try again, you will see a more detailed error message.
 
 
@@ -19,7 +19,7 @@
 
 ## Solution
 
-1.  Check the Identity Authentication tenant for which you want to delete the trust configuration in the SAP BTP cockpit.
+1.  Check the Identity Authentication tenant for which you want to delete the trust configuration in the cockpit.
 2.  You need to delete all the applications of the error message.
 
 **Note**: Delete only those applications that you are sure are not needed anymore.

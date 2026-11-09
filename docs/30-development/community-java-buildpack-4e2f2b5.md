@@ -10,7 +10,7 @@ Find SAP-managed Cloud Foundry Java components and updates that belong to the co
 
 ## Buildpack Versioning
 
-The SAP BTP, Cloud Foundry environment provides one recent version of **`java_buildpack`** as part of its system buildpacks. To check this version, proceed as follows:
+The Cloud Foundry environment provides one recent version of **`java_buildpack`** as part of its system buildpacks. To check this version, proceed as follows:
 
 1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 

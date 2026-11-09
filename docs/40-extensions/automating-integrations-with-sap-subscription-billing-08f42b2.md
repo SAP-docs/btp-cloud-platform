@@ -13,7 +13,7 @@
 
 SAP Subscription Billing is a public cloud solution that supports innovative, subscription-based business models. It enables flexible definition of product prices and automates processes such as subscription generation, rating, and preparation of billing data. SAP Subscription Billing offers comprehensive management of subscriptions throughout their life cycle. See [SAP Subscription Billing](https://help.sap.com/docs/subscription-billing/feature-overview/sap-subscription-billing).
 
-To set up SAP Subscription Billing with SAP S/4HANA Cloud on SAP BTP you need to have all the necessary systems included in a formation of type *Integration with SAP Subscription Billing* in the *System Landscape* \> *Systems* page of the SAP BTP cockpit.
+To set up SAP Subscription Billing with SAP S/4HANA Cloud on SAP BTP you need to have all the necessary systems included in a formation of type *Integration with SAP Subscription Billing* in the *System Landscape* \> *Systems* page of the cockpit.
 
 > ### Note:  
 > This documentation refers to SAP S/4HANA Cloud Public Edition. See [Introduction to the Universe of SAP S/4HANA Cloud Public Edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).

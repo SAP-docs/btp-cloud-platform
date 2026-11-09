@@ -2,7 +2,7 @@
 
 # Configure a TLS Gateway
 
-Learn how to configure a TLS Gateway in SAP BTP, Kyma runtime using Gardener-managed Let's Encrypt certificates.
+Learn how to configure a TLS Gateway in Kyma runtime on SAP platform using Gardener-managed Let's Encrypt certificates.
 
 
 

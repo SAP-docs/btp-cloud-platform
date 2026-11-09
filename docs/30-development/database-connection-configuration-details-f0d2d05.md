@@ -2,7 +2,7 @@
 
 # Database Connection Configuration Details
 
-Define details of the database connection used by your Java Web Application running on SAP BTP, Cloud Foundry with SAP Java Buildpack.
+Define details of the database connection used by your Java Web Application running on Cloud Foundry with SAP Java Buildpack.
 
 
 

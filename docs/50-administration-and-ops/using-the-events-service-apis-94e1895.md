@@ -2,7 +2,7 @@
 
 # Using the Events Service APIs
 
-The Events service provides REST APIs that collect information about events relating to account administrative operations in the microservices of the SAP Cloud Management service for SAP BTP, such as Accounts, Entitlements, Provisioning, and the SAP SaaS Provisioning service, within central and local regions.
+The Events service provides REST APIs that collect information about events relating to account administrative operations in the microservices of the SAP Cloud Management service on SAP platform, such as Accounts, Entitlements, Provisioning, and the SAP SaaS Provisioning service, within central and local regions.
 
 You can filter the events by various query parameters, such as a specific time frame, event type, or the type of entity associated with the event.
 
@@ -85,5 +85,5 @@ Get event types
 **Related Information**  
 
 
-[Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md "The APIs of the SAP Cloud Management service for SAP BTP are protected with the OAuth 2.0 Password grant type and, in some cases, also the Client Credentials grant type. This procedure guides you through the steps to create an OAuth client and obtain an access token from SAP Authorization and Trust Management service (xsuaa) to call the APIs of the SAP Cloud Management service.")
+[Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md "The APIs of the SAP Cloud Management service on SAP platform are protected with the OAuth 2.0 Password grant type and, in some cases, also the Client Credentials grant type. This procedure guides you through the steps to create an OAuth client and obtain an access token from SAP Authorization and Trust Management service (xsuaa) to call the APIs of the SAP Cloud Management service.")
 

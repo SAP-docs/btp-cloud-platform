@@ -8,7 +8,7 @@ SAP BTP offers users the ability to turn data into business value, compose end-t
 
 SAP Business Technology Platform is built on a multi-cloud foundation, which lets you choose from different infrastructures and runtimes. The services and solutions of SAP BTP are available on multiple cloud infrastructure providers, and it supports different runtimes, such as Cloud Foundry, ABAP, and Kyma, as well as multiple regions, and a broad choice of programming languages.
 
-The central point of entry to the platform is the **SAP BTP cockpit**, where you can access your accounts and applications and manage all activities associated with them.
+The central point of entry to the platform is the **cockpit**, where you can access your accounts and applications and manage all activities associated with them.
 
 
 
@@ -71,7 +71,7 @@ SAP BTP provides the following environments:
 
 -   [Kyma Environment](kyma-environment-468c2f3.md)
 
-    SAP BTP, Kyma runtime provides a fully managed cloud-native Kubernetes application runtime based on the open-source project "Kyma". Based on modular building blocks, Kyma runtime includes all the necessary capabilities to simplify the development and to run enterprise-grade cloud-native applications.
+    Kyma runtime on SAP platform provides a fully managed cloud-native Kubernetes application runtime based on the open-source project "Kyma". Based on modular building blocks, Kyma runtime includes all the necessary capabilities to simplify the development and to run enterprise-grade cloud-native applications.
 
 -   [Neo Environment](neo-environment-0f79436.md)
 
@@ -112,7 +112,7 @@ SAP BTP offers two different commercial models:
 
 ![Commercial Models](images/Commercial_Models_6d1e8a8.png)
 
--   **Consumption-based commercial model:** Your organization receives access to all current and future services that are eligible for this model. You have complete flexibility to turn services on and off and to switch between services as your business requires throughout the duration of your contract. This commercial model is available in the following flavors: SAP BTP Enterprise Agreement \(SAP BTPEA\),Cloud Platform Enterprise Agreement \(CPEA\), and Pay-As-You-Go for SAP BTP.
+-   **Consumption-based commercial model:** Your organization receives access to all current and future services that are eligible for this model. You have complete flexibility to turn services on and off and to switch between services as your business requires throughout the duration of your contract. This commercial model is available in the following flavors: SAP BTP Enterprise Agreement \(SAP BTPEA\),Cloud Platform Enterprise Agreement \(CPEA\), and Pay-As-You-Go.
 
     For more information, see [What Is the Consumption-Based Commercial Model?](what-is-the-consumption-based-commercial-model-7047eb4.md)
 
@@ -127,7 +127,7 @@ SAP BTP offers two different commercial models:
 
 ## Account Model
 
-The SAP BTP cockpit is structured according to global accounts, directories, and subaccounts:
+The cockpit is structured according to global accounts, directories, and subaccounts:
 
 ![Directories and Subaccounts](images/Relationship_Between_Directories_and_Subaccounts_d60105c.png)
 
@@ -137,7 +137,7 @@ The SAP BTP cockpit is structured according to global accounts, directories, and
 
 -   In **subaccounts**, you deploy applications, use services, and manage your subscriptions. You can use them to manage members, authorizations, and entitlements.
 
-    In the SAP BTP, Cloud Foundry environment, the subaccount is divided into one or more spaces, which is where application development, deployment, and maintenance take place.
+    In the Cloud Foundry environment, the subaccount is divided into one or more spaces, which is where application development, deployment, and maintenance take place.
 
 
 For more information, see [Account Model](account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377).

@@ -21,7 +21,7 @@ This buildpack supports Java 21 and 25, as well as the following runtimes:
 
 ## Usage
 
-To use this buildpack, specify its name when deploying a Jakarta-based application to the SAP BTP, Cloud Foundry environment. You can do it the following ways:
+To use this buildpack, specify its name when deploying a Jakarta-based application to the Cloud Foundry environment. You can do it the following ways:
 
 -   Specify it directly in the `cf push` command:
 
@@ -81,15 +81,15 @@ To use this buildpack, specify its name when deploying a Jakarta-based applicati
 
 ## Buildpack Versioning
 
-The SAP BTP, Cloud Foundry environment provides four versions of SAP Java Buildpack as part of its system buildpacks:
+The Cloud Foundry environment provides four versions of SAP Java Buildpack as part of its system buildpacks:
 
 -   *sap\_java\_buildpack\_jakarta* – Holds the latest available version of SAP Java Buildpack. All new features and fixes are provided with this version.
 
 -   *sap\_java\_buildpack\_jakarta\_<version\_latest\>* – Holds the latest available version of SAP Java Buildpack. It's available for a limited timeframe \(4 to 6 weeks\).
 
--   *sap\_java\_buildpack\_jakarta\_<version\_previous\>* – This version used to be latest in the previous update of the SAP BTP, Cloud Foundry environment. It's available for a limited timeframe \(4 to 6 weeks\).
+-   *sap\_java\_buildpack\_jakarta\_<version\_previous\>* – This version used to be latest in the previous update of the Cloud Foundry environment. It's available for a limited timeframe \(4 to 6 weeks\).
 
--   *sap\_java\_buildpack\_jakarta\_<version\_before\_previous\>* – This version used to be latest before two updates of the SAP BTP, Cloud Foundry environment. It's available for a limited timeframe \(4 to 6 weeks\).
+-   *sap\_java\_buildpack\_jakarta\_<version\_before\_previous\>* – This version used to be latest before two updates of the Cloud Foundry environment. It's available for a limited timeframe \(4 to 6 weeks\).
 
 
 To check these versions, proceed as follows:
@@ -134,7 +134,7 @@ sap_java_buildpack_jakarta_2_68      3         true      false     sap_java_buil
 sap_java_buildpack_jakarta_2_67      4         true      false     sap_java_buildpack_jakarta-v2.67.0.zip
 ```
 
-When SAP Java Buildpack is updated on the SAP BTP, Cloud Foundry environment from version **2.69.0** to **2.70.0**, the list will change to:
+When SAP Java Buildpack is updated on the Cloud Foundry environment from version **2.69.0** to **2.70.0**, the list will change to:
 
 ```
 
@@ -155,7 +155,7 @@ This means that *sap\_java\_buildpack\_jakarta\_2\_67* will no longer be availab
 
 ### How to switch to a specific buildpack version?
 
-To use *sap\_java\_buildpack\_jakarta\_<version\_suffix\>*, specify its name when pushing an application to the SAP BTP, Cloud Foundry environment:
+To use *sap\_java\_buildpack\_jakarta\_<version\_suffix\>*, specify its name when pushing an application to the Cloud Foundry environment:
 
 ```
 cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_jakarta_2_70

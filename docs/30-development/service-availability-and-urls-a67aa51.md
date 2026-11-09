@@ -15,7 +15,7 @@ The SAP Cloud Deployment service is currently available on the following URLs:
     > The legacy route `https://deploy-service.cfapps.<domain>` is deprecated and will be removed by the end of 2026. For more information, see SAP Note [3695458](https://me.sap.com/notes/3695458).
 
 
-The `<domain>` is derived from the Cloud Foundry API endpoint, which you can find in the *Overview* section of your subaccount in the SAP BTP cockpit.
+The `<domain>` is derived from the Cloud Foundry API endpoint, which you can find in the *Overview* section of your subaccount in the cockpit.
 
 The SAP Cloud Deployment service is available in all Cloud Foundry regions \(see [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md)\). For some Cloud Foundry regions, there are multiple CF API endpoints, and the SAP Cloud Deployment service is available on each of them:
 

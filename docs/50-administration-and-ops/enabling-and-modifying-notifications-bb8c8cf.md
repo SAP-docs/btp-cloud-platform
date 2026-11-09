@@ -48,7 +48,7 @@ At every level, a toggle switch turns notifications on or off, and a navigation 
 
     Typical delivery channels are:
 
-    -   *In-App notifications* – Delivered inside the SAP BTP cockpit.
+    -   *In-App notifications* – Delivered inside the cockpit.
 
     -   *E-mail* – Sent to your registered e-mail address.
 

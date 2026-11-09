@@ -285,7 +285,7 @@ destination-xsappname!*<suffix\>*
 </td>
 <td valign="top">
 
-Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+Manage destination configurations, certificates and subaccount trust via the Destination editor in the cockpit. 
 
 </td>
 </tr>
@@ -636,7 +636,7 @@ destination-xsappname!*<suffix\>*
 </td>
 <td valign="top">
 
-View destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+View destination configurations, certificates and subaccount trust via the Destination editor in the cockpit. 
 
 </td>
 </tr>
@@ -879,7 +879,7 @@ destination-xsappname!*<suffix\>*
 </td>
 <td valign="top">
 
-Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+Manage destination configurations, certificates and subaccount trust via the Destination editor in the cockpit. 
 
 </td>
 </tr>
@@ -933,7 +933,7 @@ destination-xsappname!*<suffix\>*
 </td>
 <td valign="top">
 
-Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+Manage destination configurations, certificates and subaccount trust via the Destination editor in the cockpit. 
 
 </td>
 </tr>

@@ -1,11 +1,11 @@
 <!-- loio54fe2e7250924b12916897727ea78d29 -->
 
-# Update Service Instances Using the SAP BTP Cockpit or Cloud Foundry Command Line Interface
+# Update Service Instances Using the Cockpit or Cloud Foundry Command Line Interface
 
 > ### Note:  
-> We have redesigned SAP BTP cockpit screens to view and manage service instances.
+> We have redesigned cockpit screens to view and manage service instances.
 > 
-> For more information about the procedure to update service instances using the SAP BTP cockpit, see [Updating Service Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/002ae850a32244af85c8405fbcd7d9ab.html).
+> For more information about the procedure to update service instances using the cockpit, see [Updating Service Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/002ae850a32244af85c8405fbcd7d9ab.html).
 > 
 > To learn how to update service instances using the Cloud Foundry Command Line Interface, continue reading this document.
 

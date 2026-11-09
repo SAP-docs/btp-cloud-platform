@@ -2,7 +2,7 @@
 
 # Development in the Cloud Foundry Environment
 
-Learn more about developing applications on the SAP BTP, Cloud Foundry environment.
+Learn more about developing applications on the Cloud Foundry environment.
 
 
 
@@ -10,7 +10,7 @@ Learn more about developing applications on the SAP BTP, Cloud Foundry environme
 
 ## Overview
 
-SAP BTP, Cloud Foundry environment is an open Platform-as-a-Service \(PaaS\) targeted at microservice development and orchestration.
+Cloud Foundry environment is an open Platform-as-a-Service \(PaaS\) targeted at microservice development and orchestration.
 
 
 <dl>
@@ -122,14 +122,14 @@ For more information on the supported programming languages, see:
 
 
 
-If you already have monolithic applications running on SAP BTP and are looking for a way to run them in the Cloud Foundry environment, read our migration best practice guide. See [Migrating from the Neo Environment to the Multi-Cloud Foundation for SAP BTP (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate scenarios from the Neo environment to the multi-cloud foundation for SAP BTP. This guide is for SAP Business Technology Platform (SAP BTP) customers and partners with scenarios in the Neo environment that need to move to the multi-cloud foundation, including the Cloud Foundry environment or the Kyma environment.") :arrow_upper_right:.
+If you already have monolithic applications running on SAP BTP and are looking for a way to run them in the Cloud Foundry environment, read our migration best practice guide. See [Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate scenarios from the Neo environment to the multi-cloud foundation. This guide is for SAP Business Technology Platform (SAP BTP) customers and partners with scenarios in the Neo environment that need to move to the multi-cloud foundation, including the Cloud Foundry environment or the Kyma environment.") :arrow_upper_right:.
 
 **Related Information**  
 
 
-[Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the SAP BTP, Cloud Foundry runtime service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
+[Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the Cloud Foundry runtime on SAP platform service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
 
 [Troubleshooting App Deployment and Health](https://docs.cloudfoundry.org/devguide/deploy-apps/troubleshoot-app-health.html)
 
-[SAP BTP, Cloud Foundry Runtime](https://help.sap.com/docs/CF_RUNTIME?version=Cloud)
+[Cloud Foundry Runtime on SAP Platform](https://help.sap.com/docs/CF_RUNTIME?version=Cloud)
 

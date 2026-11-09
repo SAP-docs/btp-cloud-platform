@@ -13,7 +13,7 @@
 
 SAP Advanced Financial Closing supports you in planning, processing, monitoring, and analyzing financial closing tasks for the entities of your group. See [SAP Advanced Financial Closing User Guide](https://help.sap.com/docs/advanced-financial-closing/user/financial-closing).
 
-To set up SAP Advanced Financial Closing with SAP S/4HANA Cloud on SAP BTP you need to have all the necessary systems included in a formation of type *Integration with SAP Advanced Financial Closing* in the *System Landscape* \> *Systems* page of the SAP BTP cockpit.
+To set up SAP Advanced Financial Closing with SAP S/4HANA Cloud on SAP BTP you need to have all the necessary systems included in a formation of type *Integration with SAP Advanced Financial Closing* in the *System Landscape* \> *Systems* page of the cockpit.
 
 > ### Note:  
 > This documentation refers to SAP S/4HANA Cloud Public Edition. See [Introduction to the Universe of SAP S/4HANA Cloud Public Edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).
@@ -52,7 +52,7 @@ When creating *Integration with SAP Advanced Financial Closing* formations, keep
 
 If you have SAP Advanced Financial Closing set up in your subaccount in SAP BTP, follow these steps to configure the integration between SAP Advanced Financial Closing and SAP S/4HANA Cloud using a formation of type *Integration with SAP Advanced Financial Closing*.
 
-As an alternative to the steps that follow, you can use the *Set Up SAP Advanced Financial Closing* booster in the SAP BTP cockpit and have the end-to-end scenario set up. See [SAP Advanced Financial Closing Administration Guide: Automated Setup](https://help.sap.com/docs/advanced-financial-closing/administration/automated-setup).
+As an alternative to the steps that follow, you can use the *Set Up SAP Advanced Financial Closing* booster in the cockpit and have the end-to-end scenario set up. See [SAP Advanced Financial Closing Administration Guide: Automated Setup](https://help.sap.com/docs/advanced-financial-closing/administration/automated-setup).
 
 > ### Note:  
 > We recommend that you use the *Set Up SAP Advanced Financial Closing* booster.

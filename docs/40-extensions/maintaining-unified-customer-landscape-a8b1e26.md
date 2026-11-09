@@ -11,7 +11,7 @@
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-Unified Customer Landscape is a service that offers customer landscape management capabilities. The frontend representation of this service is the *System Landscape* page in the SAP BTP cockpit. The dedicated *SAP S/4HANA Cloud Extensibility* and *SAP SuccessFactors Extensibility* services are also part of the Unified Customer Landscape capabilities.
+Unified Customer Landscape is a service that offers customer landscape management capabilities. The frontend representation of this service is the *System Landscape* page in the cockpit. The dedicated *SAP S/4HANA Cloud Extensibility* and *SAP SuccessFactors Extensibility* services are also part of the Unified Customer Landscape capabilities.
 
 
 
@@ -19,7 +19,7 @@ Unified Customer Landscape is a service that offers customer landscape managemen
 
 ## Customer Landscape Discovery
 
-The *System Landscape* page of the SAP BTP cockpit gives you a visual overview of your SAP systems associated with the given global account or a subaccount. There are different ways to add systems in the *Systems* \> *Systems* page: manually or automatically. If a system of your solution is associated with your global account or through a subscription in SAP BTP cockpit associated with a given subaccount, it will appear in the list automatically. Otherwise, you have to add your system manually. Systems are added to the list in one of the following ways:
+The *System Landscape* page of the cockpit gives you a visual overview of your SAP systems associated with the given global account or a subaccount. There are different ways to add systems in the *Systems* \> *Systems* page: manually or automatically. If a system of your solution is associated with your global account or through a subscription in cockpit associated with a given subaccount, it will appear in the list automatically. Otherwise, you have to add your system manually. Systems are added to the list in one of the following ways:
 
 -   Auto-Discovered
 
@@ -27,7 +27,7 @@ The *System Landscape* page of the SAP BTP cockpit gives you a visual overview o
 
 -   Subaccount/<my-subaccount\>
 
-    Specifies that the system has been added through a subscription in SAP BTP cockpit associated with a given subaccount. The subscription has been discovered and added automatically through the subaccount.
+    Specifies that the system has been added through a subscription in cockpit associated with a given subaccount. The subscription has been discovered and added automatically through the subaccount.
 
 -   Manually-Added
 
@@ -44,7 +44,7 @@ The *System Landscape* page of the SAP BTP cockpit gives you a visual overview o
 
 Unified Customer Landscape also helps you integrate and extend your SAP S/4HANA Cloud, SAP Ariba, SAP SuccessFactors, and other SAP systems in one single experience.
 
-In the SAP BTP cockpit, you get a comprehensive overview of all your systems associated with your customer ID. These systems can be registered or auto discovered. They are conveniently listed as a record in the *Systems* list. Moreover, Unified Customer Landscape lets you integrate one or more systems in a common business case by including these systems in a formation.
+In the cockpit, you get a comprehensive overview of all your systems associated with your customer ID. These systems can be registered or auto discovered. They are conveniently listed as a record in the *Systems* list. Moreover, Unified Customer Landscape lets you integrate one or more systems in a common business case by including these systems in a formation.
 
 See:
 

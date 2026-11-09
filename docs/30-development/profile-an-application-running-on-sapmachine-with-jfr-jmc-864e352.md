@@ -14,13 +14,13 @@ You can use Java Flight Recorder \([JFR](https://docs.oracle.com/en/java/java-co
 
 -   You have installed the Cloud Foundry command line interface. See: [Download and Install the cf CLI](https://help.sap.com/docs/btp/sap-business-technology-platform/download-and-install-cloud-foundry-command-line-interface?version=Cloud)
 
--   You are logged on to a SAP BTP, Cloud Foundry space. See: [Log On to the Cloud Foundry Environment Using cf CLI](https://help.sap.com/docs/btp/sap-business-technology-platform/log-on-to-cloud-foundry-environment-using-cloud-foundry-command-line-interface?version=Cloud)
+-   You are logged on to a Cloud Foundry space. See: [Log On to the Cloud Foundry Environment Using cf CLI](https://help.sap.com/docs/btp/sap-business-technology-platform/log-on-to-cloud-foundry-environment-using-cloud-foundry-command-line-interface?version=Cloud)
 
 -   The version of your buildpack is at least **1.110.0** \(for SAP Java Buildpack 1\) or **2.24.0** \(for SAP Java Buildpack 2\).
 
 -   The version of your SapMachine is at least **17.0.14** or **21.0.6**.
 
--   You have a Java application that is up and running on SAP BTP, Cloud Foundry.
+-   You have a Java application that is up and running on Cloud Foundry.
 
 -   You have enabled SSH for your application. See: [Configuring SSH access at the app level](https://docs.cloudfoundry.org/devguide/deploy-apps/ssh-apps.html#configure-ssh-access-apps)
 

@@ -6,5 +6,5 @@ Service Fabrik CF CLI plugin is used for performing various backup and restore o
 
 This CF CLI plugin is only available for ServiceFabrik broker, so it can only be used with CF installations in which this service broker is available. You can also list all available commands and their usage with 'cf backup'. You can now manage your backups of service instance and restore them using the backup and restore functionality.
 
-To use the functionality, use the SAP BTP cockpit or the extended Cloud Foundry commands in the command line interface.
+To use the functionality, use the cockpit or the extended Cloud Foundry commands in the command line interface.
 

@@ -834,5 +834,5 @@ Maximum
 **Related Information**  
 
 
-[Sizing](https://help.sap.com/viewer/8cc4e6b957be41d0b7a07680d1d9bb07/Cloud/en-US/48461639e27242feb3171f4fca696ec8.html "Compare the sizing for SAP BTP, Kyma runtime and SAP BTP, Cloud Foundry runtime.") :arrow_upper_right:
+[Sizing](https://help.sap.com/viewer/8cc4e6b957be41d0b7a07680d1d9bb07/Cloud/en-US/48461639e27242feb3171f4fca696ec8.html "Compare the sizing for Kyma runtime on SAP platform and Cloud Foundry runtime on SAP platform.") :arrow_upper_right:
 

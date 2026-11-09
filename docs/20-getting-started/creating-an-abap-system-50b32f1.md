@@ -25,7 +25,7 @@ For more information about creating service instances, see [Create Service Insta
 
 ## Procedure
 
-1.  Log on to the SAP BTP cockpit and navigate to the Cloud Foundry subaccount. See [Navigate in the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/0874895f1f78459f9517da55a11ffebd.html).
+1.  Log on to the cockpit and navigate to the Cloud Foundry subaccount. See [Navigate in the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/0874895f1f78459f9517da55a11ffebd.html).
 2.  From the navigation area, choose *Services* \> *Service Marketplace.* 
 
     You see a list of all services that are available to you.

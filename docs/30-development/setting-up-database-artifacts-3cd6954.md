@@ -4,7 +4,7 @@
 
 Learn how to set up database artifacts using SAP HANA.
 
-SAP HANA is an innovative in-memory relational database management system that you can leverage when developing in the SAP BTP, Cloud Foundry environment. It minimizes data movements by making it possible for you to work with the data directly in memory.
+SAP HANA is an innovative in-memory relational database management system that you can leverage when developing in the Cloud Foundry environment. It minimizes data movements by making it possible for you to work with the data directly in memory.
 
 With SAP HANA, you can leverage current hardware capabilities to increase performance and reduce costs, for example by building applications that integrate the business control logic and database layer.
 

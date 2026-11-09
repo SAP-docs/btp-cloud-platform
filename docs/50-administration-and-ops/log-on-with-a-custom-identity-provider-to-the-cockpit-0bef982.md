@@ -1,8 +1,8 @@
 <!-- loio0bef9822f5cc40e2b48303e51bec6b94 -->
 
-# Log On with a Custom Identity Provider to the SAP BTP cockpit
+# Log On with a Custom Identity Provider to the cockpit
 
-All users can log on to the SAP BTP cockpit with a custom identity provider.
+All users can log on to the cockpit with a custom identity provider.
 
 
 
@@ -23,7 +23,7 @@ All users can log on to the SAP BTP cockpit with a custom identity provider.
 
 ## Context
 
-Use the *Open* link in the SAP BTP Cockpit column. It contains a URL for the user to log on with the custom identity provider.
+Use the *Open* link in the Cockpit column. It contains a URL for the user to log on with the custom identity provider.
 
 > ### Example:  
 > *https://emea.cockpit.btp.cloud.sap/cockpit/?idp=mytenant.accounts.ondemand.com*
@@ -36,7 +36,7 @@ Otherwise platform users access the cockpit without this URL parameter. For more
 
 ## Procedure
 
-1.  Go to your global account or subaccount\(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration* in the SAP BTP cockpit.
+1.  Go to your global account or subaccount\(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration* in the cockpit.
 
 2.  Use the *Open* link in the SAP BTP*Cockpit* column.
 

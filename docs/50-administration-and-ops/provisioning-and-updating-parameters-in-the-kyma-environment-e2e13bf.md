@@ -10,7 +10,7 @@ When creating a Kyma cluster, you can configure various parameters to adjust it 
 
 ## Overview
 
-To configure the cluster parameters, you can use your preferred interface, the SAP BTP cockpit, or the SAP BTP command line interface \(btp CLI\).
+To configure the cluster parameters, you can use your preferred interface, the cockpit, or the SAP BTP command line interface \(btp CLI\).
 
 To check which parameters are available for configuration in a particular plan, see [Available Plans in the Kyma Environment](available-plans-in-the-kyma-environment-befe01d.md).
 
@@ -5473,7 +5473,7 @@ China \(Shanghai\)
 **Related Information**  
 
 
-[Creating Kyma Instances](creating-kyma-instances-09dd313.md "Set up a Kubernetes cluster with SAP BTP, Kyma runtime and use it to build applications and extensions to your SAP and third-party solutions. You can create one or multiple Kyma clusters in a single SAP BTP subaccount.")
+[Creating Kyma Instances](creating-kyma-instances-09dd313.md "Set up a Kubernetes cluster with Kyma runtime on SAP platform and use it to build applications and extensions to your SAP and third-party solutions. You can create one or multiple Kyma clusters in a single SAP BTP subaccount.")
 
 [Available Plans in the Kyma Environment](available-plans-in-the-kyma-environment-befe01d.md "Depending on your global account type, you have access to a different plan that specifies the cluster parameters for the Kyma environment.")
 
@@ -5481,5 +5481,5 @@ China \(Shanghai\)
 
 [Kyma Modules](../10-concepts/kyma-modules-0dda141.md "With Kyma's modular approach, you can install just the modules you need, instead of a predefined set of components.")
 
-[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (BTP CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.")
+[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the cockpit for users who like to work in a terminal or want to automate operations using scripts.")
 

@@ -19,7 +19,7 @@ If you are working in an enterprise account, you need to add quotas to the servi
 
 ## Procedure
 
-1.  Log on to the SAP BTP cockpit as administrator.
+1.  Log on to the cockpit as administrator.
 
 2.  Go to your global account.
 

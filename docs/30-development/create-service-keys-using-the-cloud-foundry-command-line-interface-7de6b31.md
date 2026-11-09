@@ -45,9 +45,9 @@ Local clients, apps in other spaces, or entities outside your deployment can now
 **Related Information**  
 
 
-[Creating Service Instances](creating-service-instances-8221b74.md "Use the SAP BTP cockpit or the Cloud Foundry Command Line Interface to create service instances:")
+[Creating Service Instances](creating-service-instances-8221b74.md "Use the cockpit or the Cloud Foundry Command Line Interface to create service instances:")
 
-[Binding Service Instances to Applications](binding-service-instances-to-applications-e98280a.md "Use the SAP BTP cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:")
+[Binding Service Instances to Applications](binding-service-instances-to-applications-e98280a.md "Use the cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:")
 
-[About Services](about-services-d1d0fc8.md "In the Cloud Foundry environment, you usually enable services by creating a service instance using either the SAP BTP cockpit or the Cloud Foundry command line interface (cf CLI), and binding that instance to your application.")
+[About Services](about-services-d1d0fc8.md "In the Cloud Foundry environment, you usually enable services by creating a service instance using either the cockpit or the Cloud Foundry command line interface (cf CLI), and binding that instance to your application.")
 

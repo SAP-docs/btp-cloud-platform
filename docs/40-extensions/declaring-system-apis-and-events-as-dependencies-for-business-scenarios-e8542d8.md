@@ -96,7 +96,7 @@ Integration dependencies contain aspects. An aspect contains a set of APIs and/o
 
 ## Prerequisites
 
--   An SAP Cloud system is registered in the *Systems* page in SAP BTP cockpit and has a catalog of events that it plans to publish. Refer to the product documentation for the publishing system for more details. For example, an SAP SuccessFactors system can be configured to publish events. See [SAP Cloud Application Event Hub Service Guide: Integration Use Cases](https://help.sap.com/docs/event-broker/event-broker-service-guide/integration-use-cases?version=Cloud).
+-   An SAP Cloud system is registered in the *Systems* page in cockpit and has a catalog of events that it plans to publish. Refer to the product documentation for the publishing system for more details. For example, an SAP SuccessFactors system can be configured to publish events. See [SAP Cloud Application Event Hub Service Guide: Integration Use Cases](https://help.sap.com/docs/event-broker/event-broker-service-guide/integration-use-cases?version=Cloud).
 
     The SAP system you plan to use as the subscriber is registered in the *Systems* page. If you want to use SAP Integration Suite integration flows to consume events from SAP Cloud Application Event Hub, then the tenant with the integration flow must be registered in the *Systems* page. See [Integration Example using SAP Integration Suite](https://help.sap.com/docs/event-broker/event-broker-service-guide/integration-example-using-sap-integration-suite-iflows?version=Cloud).
 

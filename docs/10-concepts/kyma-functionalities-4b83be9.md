@@ -4,7 +4,7 @@
 
 # Kyma Functionalities
 
-SAP BTP, Kyma runtime and open source project "Kyma" offer slightly different functionalities and install a different set of components.
+Kyma runtime on SAP platform and open source project "Kyma" offer slightly different functionalities and install a different set of components.
 
 
 
@@ -27,7 +27,7 @@ open source project "Kyma"
 </th>
 <th valign="top">
 
-SAP BTP, Kyma runtime
+Kyma runtime on SAP platform
 
 </th>
 </tr>
@@ -95,7 +95,7 @@ Kyma CLI
 </td>
 <td valign="top">
 
-limited \(SAP BTP, Kyma runtime supports commands for serverless Functions, not the commands related to installation.\)
+limited \(Kyma runtime on SAP platform supports commands for serverless Functions, not the commands related to installation.\)
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ Centrally hosted Kyma dashboard
 <tr>
 <td valign="top">
 
-System landscape management in SAP BTP cockpit
+System landscape management in cockpit
 
 </td>
 <td valign="top">

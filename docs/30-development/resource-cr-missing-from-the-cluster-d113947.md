@@ -53,5 +53,5 @@ To restore the CR, follow these steps:
 
 5.  Review the service instance or binding in SAP BTP to confirm it recognizes the re-established connection with the CR in your Kyma cluster.
 
-If the connection is not re-established, ensure that your Kyma cluster's ID matches the cluster ID associated with the SAP BTP service instance or binding. To view the cluster ID in the SAP BTP cockpit, go to *Services* \> *Instances and Subscriptions*. It's under *Instances*, in the `Scope` column, in the row that provides information about the service instance. Alternatively, you can view the cluster ID using the SAP BTP command line interface \(btp CLI\). If you discover mismatched IDs, reconfigure your Kyma cluster with the correct cluster ID.
+If the connection is not re-established, ensure that your Kyma cluster's ID matches the cluster ID associated with the SAP BTP service instance or binding. To view the cluster ID in the cockpit, go to *Services* \> *Instances and Subscriptions*. It's under *Instances*, in the `Scope` column, in the row that provides information about the service instance. Alternatively, you can view the cluster ID using the SAP BTP command line interface \(btp CLI\). If you discover mismatched IDs, reconfigure your Kyma cluster with the correct cluster ID.
 

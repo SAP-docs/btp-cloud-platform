@@ -62,5 +62,5 @@ When the application starts, the factory named `com.sap.xs.jdbc.datasource.Tomca
 **Related Information**  
 
 
-[Database Connection Configuration Details](database-connection-configuration-details-f0d2d05.md "Define details of the database connection used by your Java Web Application running on SAP BTP, Cloud Foundry with SAP Java Buildpack.")
+[Database Connection Configuration Details](database-connection-configuration-details-f0d2d05.md "Define details of the database connection used by your Java Web Application running on Cloud Foundry with SAP Java Buildpack.")
 

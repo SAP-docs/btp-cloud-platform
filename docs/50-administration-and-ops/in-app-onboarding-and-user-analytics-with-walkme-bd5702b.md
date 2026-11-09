@@ -9,7 +9,7 @@ WalkMe, the AI-powered Digital Adoption Platform \(DAP\), is a digital layer add
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and SAP Souvereign Cloud regions.
 
-The SAP BTP cockpit offers in-app onboarding tours and contextual information, powered by WalkMe, for free. The content is developed and managed by SAP.
+The cockpit offers in-app onboarding tours and contextual information, powered by WalkMe, for free. The content is developed and managed by SAP.
 
 For more information about WalkMe, see [WalkMe Digital Adoption](https://help.sap.com/docs/WALKME).
 
@@ -17,7 +17,7 @@ For more information about WalkMe, see [WalkMe Digital Adoption](https://help.sa
 
 ## Language Support
 
-The WalkMe walk-thrus are available in English only at the current time. If you're using the SAP BTP cockpit in another language, you'll see SAP Companion static in-app help only.
+The WalkMe walk-thrus are available in English only at the current time. If you're using the cockpit in another language, you'll see SAP Companion static in-app help only.
 
 
 
@@ -25,7 +25,7 @@ The WalkMe walk-thrus are available in English only at the current time. If you'
 
 ## WalkMe End User Experience
 
-When you launch the SAP BTP cockpit for the first time, a welcome screen offers you options to follow a walk-thru to get a global understanding of the SAP BTP cockpit or to follow available tours that guide the user through key tasks. You can choose your preferred option or simply close the welcome screen.
+When you launch the cockpit for the first time, a welcome screen offers you options to follow a walk-thru to get a global understanding of the cockpit or to follow available tours that guide the user through key tasks. You can choose your preferred option or simply close the welcome screen.
 
 You can view the list of available walk-thrus by clicking the <span class="SAP-icons-V5"></span> Question Mark button in the banner at the top of the page, and then select the tour that maps to a task you want to accomplish.
 
@@ -33,7 +33,7 @@ You can view the list of available walk-thrus by clicking the <span class="SAP-i
 
 ## WalkMe and SAP Companion
 
-WalkMe walk-thrus replace the former SAP Companion guided tours in the SAP BTP cockpit. SAP Companion static in-app help is accessible via the WalkMe menu.
+WalkMe walk-thrus replace the former SAP Companion guided tours in the cockpit. SAP Companion static in-app help is accessible via the WalkMe menu.
 
 
 

@@ -71,7 +71,7 @@ For a consumer to use a tenant-aware application on SAP BTP, the application own
 
 1.  Has a dedicated subaccount in the application provider's global account.
 
-2.  Subscribes to the application using either the SAP BTP cockpit, SAP BTP command-line interface, or a dedicated REST API.
+2.  Subscribes to the application using either the cockpit, SAP BTP command-line interface, or a dedicated REST API.
 
     A subscription means that there is a direct relationship between an application provider and the consumer's tenant. The application provider authorizes the consumer tenant to use the application.
 

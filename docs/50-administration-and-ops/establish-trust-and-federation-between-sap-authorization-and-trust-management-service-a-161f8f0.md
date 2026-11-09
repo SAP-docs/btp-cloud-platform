@@ -51,7 +51,7 @@ Consider the following restrictions and tips before you start.
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, go to your subaccount\(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration*.
+1.  In the cockpit, go to your subaccount\(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration*.
 
 2.  Choose *Establish Trust*.
 

@@ -17,7 +17,7 @@
 > -   `APIRule`s *v1beta1* are no longer visible in Kyma dashboard. You can still view them with `kubectl`, but they display in the converted *v2* format.
 > -   Reconciliation of `APIRules` *v1beta1* is disabled, and the API Gateway module no longer manages them. Migrating to version *v2* may temporarily disrupt workload availability and access.
 > 
-> For the `APIRule` deletion timeline for SAP BTP, Kyma runtime, see [API Gateway What's New notes](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&version=Cloud&q=api+gateway+module).
+> For the `APIRule` deletion timeline for Kyma runtime on SAP platform, see [API Gateway What's New notes](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&version=Cloud&q=api+gateway+module).
 
 
 

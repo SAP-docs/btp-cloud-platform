@@ -16,7 +16,7 @@ This page explains the relationship between the service plans of the SAP Discove
 
 The following diagram shows how the service plans listed in the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/kyma-runtime?tab=service_plan) correspond to the plans you choose in the SAP BTP cockpit. For more information about the commercial model, see [What is the Consumption-Based Commercial Model?](https://help.sap.com/docs/btp/sap-business-technology-platform/what-is-consumption-based-commercial-model?version=Cloud)
 
-Note that there's no subscription-based commercial model for SAP BTP, Kyma runtime.
+Note that there's no subscription-based commercial model for Kyma runtime on SAP platform.
 
 ![Service Plans for Kyma Runtime: Free (SKU 8011146) and Standard (8008456), with Standard available for aws, gcp, and azure.](images/Service_Plans_Kyma_fa903de.png)
 
@@ -119,7 +119,7 @@ Select Microsoft Azure as the cloud provider where your Kyma cluster is deployed
 
 ## Metrics
 
-The usage metric for SAP BTP, Kyma runtime is a Capacity Unit \(CU\) per hour.
+The usage metric for Kyma runtime on SAP platform is a Capacity Unit \(CU\) per hour.
 
 
 <table>
@@ -145,7 +145,7 @@ Capacity Unit
 
 Number of units consumed by the usage of the services as outlined in the solution-specific product supplement.
 
-For SAP BTP, Kyma runtime, CUs are calculated for **nodes** and for **storage**.
+For Kyma runtime on SAP platform, CUs are calculated for **nodes** and for **storage**.
 
 </td>
 </tr>
@@ -272,7 +272,7 @@ Number of CUs per Hour
 
 ### Underlying Metrics: Storage
 
-SAP BTP, Kyma runtime is provisioned with 32 GB of storage dedicated to operational data at no additional cost. However, certain Kyma modules may require extra storage. In such cases, they create additional volumes, which incur charges for the extra storage used.
+Kyma runtime on SAP platform is provisioned with 32 GB of storage dedicated to operational data at no additional cost. However, certain Kyma modules may require extra storage. In such cases, they create additional volumes, which incur charges for the extra storage used.
 
 You can calculate CUs for the following storage types:
 
@@ -735,7 +735,7 @@ Using the Cloud Manager module and enabling Redis or NFS storage or both, introd
 
 ## Calculator
 
-Find the Kyma price calculator at [https://kyma-project.github.io/price-calculator/](https://kyma-project.github.io/price-calculator/) and use it to estimate the costs for your SAP BTP, Kyma runtime.
+Find the Kyma price calculator at [https://kyma-project.github.io/price-calculator/](https://kyma-project.github.io/price-calculator/) and use it to estimate the costs for your Kyma runtime on SAP platform.
 
 1.  Choose the base configuration for the size and minimum number virtual machines \(VM\) you need.
 

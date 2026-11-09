@@ -2,7 +2,7 @@
 
 # Creating a Service Key \(Optional\)
 
-In the SAP BTP cockpit, you can create a service key for the ABAP system. You can later use this service key, for example, to log on to the ABAP system from ABAP development tools for Eclipse for test purposes.
+In the cockpit, you can create a service key for the ABAP system. You can later use this service key, for example, to log on to the ABAP system from ABAP development tools for Eclipse for test purposes.
 
 
 

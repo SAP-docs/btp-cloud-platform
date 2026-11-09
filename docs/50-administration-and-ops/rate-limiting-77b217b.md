@@ -2,7 +2,7 @@
 
 # Rate Limiting
 
-Describes how all API requests to the SAP Cloud Management service for SAP BTP adhere to rate limiting rules.
+Describes how all API requests to the SAP Cloud Management service on SAP platform adhere to rate limiting rules.
 
 Every API endpoint defines its own custom rate limit rule for the number of requests per time window and per identified caller.
 

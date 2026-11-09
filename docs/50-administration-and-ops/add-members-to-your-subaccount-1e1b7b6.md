@@ -36,7 +36,7 @@ There are two types of users in subaccounts:
 
     These users are members of your team. Platform users manage the subaccount with the cloud management tools.
 
-    Assign predefined or custom role collections to users who need to manage or view the subaccount in SAP BTP cockpit. Examples of predefined role collections include the following:
+    Assign predefined or custom role collections to users who need to manage or view the subaccount in cockpit. Examples of predefined role collections include the following:
 
     -   *Subaccount Administrator*
 
@@ -56,7 +56,7 @@ There are two types of users in subaccounts:
 
 -   Business users
 
-    These users consume applications and services. Business users don't access cloud management tools like the SAP BTP cockpit. Assign role collections required by the applications and services that the business users consume.
+    These users consume applications and services. Business users don't access cloud management tools like the cockpit. Assign role collections required by the applications and services that the business users consume.
 
 
 
@@ -92,12 +92,12 @@ There are two types of users in subaccounts:
 The user can log on to SAP BTP and access resources according to the role collections you've assigned to the user.
 
 > ### Note:  
-> If the new subaccount platform user logs on to SAP BTP cockpit and there's no corresponding platform user at the global account level, SAP BTP creates one automatically.
+> If the new subaccount platform user logs on to cockpit and there's no corresponding platform user at the global account level, SAP BTP creates one automatically.
 
 **Related Information**  
 
 
 [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, user management takes place at all levels from global account to environment. There are different types of users, such as depending on their roles in the company.")
 
-[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.")
+[Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts, directories, and subaccounts in the cockpit.")
 

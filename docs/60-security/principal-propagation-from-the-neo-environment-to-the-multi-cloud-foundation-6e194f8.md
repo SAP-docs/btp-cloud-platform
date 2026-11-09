@@ -26,7 +26,7 @@ The graphic below illustrates the overall setup of the scenario.
 -   You have developed and deployed both applications, each in the corresponding subaccount.
 
 > ### Note:  
-> All configuration steps described in this tutorial are done using the SAP BTP cockpit.
+> All configuration steps described in this tutorial are done using the cockpit.
 
 
 

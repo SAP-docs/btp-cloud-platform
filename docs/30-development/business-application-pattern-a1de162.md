@@ -23,7 +23,7 @@ This topic covers the following:
 
 ## Application Patterns
 
-The diagram below is a logical view, abstracting from numerous details like the CF router, CF controller, and represents architecture of a business application. In general, a business application consists of multiple microservices which are deployed as separate applications to SAP BTP, Cloud Foundry environment.
+The diagram below is a logical view, abstracting from numerous details like the CF router, CF controller, and represents architecture of a business application. In general, a business application consists of multiple microservices which are deployed as separate applications to Cloud Foundry environment.
 
 ![](images/CF_Application_Pattern_b4dc505.png)
 
@@ -64,7 +64,7 @@ The application router exposes the endpoint accessed by a browser to access the 
 
 ## UAA Service
 
-The User Account and Authentication \(UAA\) service is a multi-tenant identity management service, used in the SAP BTP, Cloud Foundry environment. Its primary role is as an OAuth2 provider, issuing tokens for client applications to use when they act on behalf of the users of the Cloud Foundry environment. It can also authenticate users with their credentials for the Cloud Foundry environment, and can act as an SSO service using those credentials \(or others\). It has endpoints for managing user accounts and for registering OAuth2 clients, as well as various other management functions.
+The User Account and Authentication \(UAA\) service is a multi-tenant identity management service, used in the Cloud Foundry environment. Its primary role is as an OAuth2 provider, issuing tokens for client applications to use when they act on behalf of the users of the Cloud Foundry environment. It can also authenticate users with their credentials for the Cloud Foundry environment, and can act as an SSO service using those credentials \(or others\). It has endpoints for managing user accounts and for registering OAuth2 clients, as well as various other management functions.
 
 
 

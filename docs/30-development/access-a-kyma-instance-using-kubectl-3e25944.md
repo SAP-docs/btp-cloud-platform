@@ -10,7 +10,7 @@ As an alternative to managing Kyma with a graphical user interface, Kyma dashboa
 
 ## Prerequisites
 
-You have a Kyma instance created in your subaccount of the SAP BTP cockpit.
+You have a Kyma instance created in your subaccount of the cockpit.
 
 
 
@@ -27,7 +27,7 @@ To start using kubectl, follow these steps:
     > ### Recommendation:  
     > On Windows, we recommend using the release binaries to install the kubectl oidc-login plugin. The installation of the kubectl oidc-login plugin using Chocolatey and Krew could cause issues.
 
-2.  In the SAP BTP cockpit, in your subaccount *Overview*, go to the *Kyma Environment* section, and click on the *KubeconfigURL* link to download `kubeconfig.yaml`.
+2.  In the cockpit, in your subaccount *Overview*, go to the *Kyma Environment* section, and click on the *KubeconfigURL* link to download `kubeconfig.yaml`.
 
 3.  In the terminal, export the kubeconfig file.
 

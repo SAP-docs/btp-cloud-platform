@@ -12,7 +12,7 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
 -   The prerequisites for working with the SAP BTP command line interface \(CLI\) are fulfilled \(see [Log in](log-in-e241b30.md)\).
 
--   In the SAP BTP cockpit under *Custom Identity Provider for Applications*, there are no trust configurations with the OpenID Connect protocol and no more than one with SAML trust configuration that is used for interactive user login \(*Available for User Logon*\); namely the configuration that you want to migrate.
+-   In the cockpit under *Custom Identity Provider for Applications*, there are no trust configurations with the OpenID Connect protocol and no more than one with SAML trust configuration that is used for interactive user login \(*Available for User Logon*\); namely the configuration that you want to migrate.
 
     > ### Note:  
     > SAML trust configurations that are used for principal propagation from other applications are not relevant and can remain unchanged.
@@ -26,7 +26,7 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
 1.  Find the origin key of the identity provider that you want to switch.
 
-    You can look up the origin key in the trust configuration in the SAP BTP cockpit, using the SAP BTP command line interface \(BTP CLI\), or the Identity Provider Management API.
+    You can look up the origin key in the trust configuration in the cockpit, using the SAP BTP command line interface \(btp CLI\), or the Identity Provider Management API.
 
       
       
@@ -34,11 +34,11 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
 
     ![](images/Show_Origin_Key_in_cockpit_7e03dc2.png "Finding the Origin Key in the Cockpit")
 
-2.  To migrate the trust configuration from SAML to OIDC, use the BTP CLI.
+2.  To migrate the trust configuration from SAML to OIDC, use the btp CLI.
 
     For more information, see [Managing Trust from SAP BTP to an SAP Cloud Identity Services Tenant](managing-trust-from-sap-btp-to-an-sap-cloud-identity-services-tenant-6140107.md).
 
-3.  Log on to the BTP CLI \(see [Log in](log-in-e241b30.md)\).
+3.  Log on to the btp CLI \(see [Log in](log-in-e241b30.md)\).
 
 4.  Make sure that you set the target to the relevant subaccount.
 
@@ -55,9 +55,9 @@ If your subaccount uses the SAML protocol to connect to your custom identity pro
     > ### Example:  
     > `btp migrate security/trust my-origin-key --idp myidp.accounts.ondemand.com`
 
-    The BTP CLI returns that the trust configuration is active and that the protocol is OIDC.
+    The btp CLI returns that the trust configuration is active and that the protocol is OIDC.
 
-7.  Check that your SAML trust configuration was migrated to a trust configuration with the OpenID Connect protocol. Go to your subaccount in the SAP BTP cockpit and choose *Security* \> *Trust Configuration*.
+7.  Check that your SAML trust configuration was migrated to a trust configuration with the OpenID Connect protocol. Go to your subaccount in the cockpit and choose *Security* \> *Trust Configuration*.
 
 
 

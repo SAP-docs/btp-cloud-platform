@@ -36,7 +36,7 @@ A consumer tenant in client \>= 200 \(business type *Partner Customer Test* or *
 
 -   **Backend Access using ABAP Development Tools**
 
-    Access to a consumer tenant in client \>= 200 using ABAP Development Tools requires an adapted service key in the service instance in the SAP BTP cockpit: The service key `SAP_ASP` displayed in the cockpit needs to be adjusted with the GUID of the consumer tenant. See [Create Support Users](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/7a839f03916a491892e8997a79c67602.html?locale=en-US).
+    Access to a consumer tenant in client \>= 200 using ABAP Development Tools requires an adapted service key in the service instance in the cockpit: The service key `SAP_ASP` displayed in the cockpit needs to be adjusted with the GUID of the consumer tenant. See [Create Support Users](https://help.sap.com/docs/help/d91c4152c3d74c12bc9bd4ed92681902/7a839f03916a491892e8997a79c67602.html?locale=en-US).
 
 
 ABAP Development Tools access with a provider support user created in the Landscape Portal grants access to troubleshooting capabilities, such as those granted with business role `Application Support Engineer - Development Support (BR_APPL_SUP_ENG_DEV_SUP)`.

@@ -89,7 +89,7 @@ Role for global account members with read-write authorizations for core commerci
 > ### Note:  
 > Users with this authorization don't automatically gain administrator authorizations in all subaccounts, but can grant themselves administrator-level access. You can opt out of this feature. For more information, see [Add Members to Your Subaccount](../50-administration-and-ops/add-members-to-your-subaccount-1e1b7b6.md).
 
-The *GlobalAccount\_Admin* role template contains this role. You find the role template in the SAP BTP Cockpit if you choose the *cis-central!*<suffix\>** application identifier.
+The *GlobalAccount\_Admin* role template contains this role. You find the role template in the Cockpit if you choose the *cis-central!*<suffix\>** application identifier.
 
 > ### Example:  
 > *cis-central!b1*
@@ -108,7 +108,7 @@ Global Account Usage Reporting Viewer
 
 Role for global account members with read-only authorizations for core commercialization operations, such as viewing global account usage information.
 
-The *GlobalAccount\_Usage\_Reporting\_Viewer* role template provides this role. You find the role template in the SAP BTP Cockpit if you chose the *uas!*<suffix\>** application identifier
+The *GlobalAccount\_Usage\_Reporting\_Viewer* role template provides this role. You find the role template in the Cockpit if you chose the *uas!*<suffix\>** application identifier
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ User and Role Administrator
 
 Manage authorizations, trusted identity providers, and users. <span style="color:#E78C07;"><span class="SAP-icons-V5"></span></span>: Includes security authorizations. See *Scopes with Critical Security Authorizations* under [Scopes](https://help.sap.com/docs/btp/sap-business-technology-platform/application-security-descriptor-configuration-syntax?version=Cloud#scopes).
 
-The *xsuaa\_admin* role template provides this role. You find the role template in the SAP BTP Cockpit if you choose the *xsuaa!*<suffix\>** application identifier.
+The *xsuaa\_admin* role template provides this role. You find the role template in the Cockpit if you choose the *xsuaa!*<suffix\>** application identifier.
 
 > ### Example:  
 > *xsuaa!tl*
@@ -165,7 +165,7 @@ System Landscape Administrator
 
 Administrative access to systems and scenario-related resources.
 
-The *GlobalAccount\_System\_Landscape\_Administrator* role template provides this role. You find the role template in the SAP BTP Cockpit if you choose the *cmp!*<suffix\>** application identifier.
+The *GlobalAccount\_System\_Landscape\_Administrator* role template provides this role. You find the role template in the Cockpit if you choose the *cmp!*<suffix\>** application identifier.
 
 > ### Example:  
 > *cmp!b7*
@@ -238,7 +238,7 @@ Destination Administrator
 </td>
 <td valign="top">
 
-Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+Manage destination configurations, certificates and subaccount trust via the Destination editor in the cockpit. 
 
 </td>
 </tr>
@@ -362,7 +362,7 @@ Destination Administrator
 </td>
 <td valign="top">
 
-Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+Manage destination configurations, certificates and subaccount trust via the Destination editor in the cockpit. 
 
 </td>
 </tr>
@@ -394,7 +394,7 @@ Destination Administrator
 </td>
 <td valign="top">
 
-Manage destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+Manage destination configurations, certificates and subaccount trust via the Destination editor in the cockpit. 
 
 </td>
 </tr>
@@ -636,7 +636,7 @@ Destination Viewer
 </td>
 <td valign="top">
 
-View destination configurations, certificates and subaccount trust via the Destination editor in the SAP BTP cockpit. 
+View destination configurations, certificates and subaccount trust via the Destination editor in the cockpit. 
 
 </td>
 </tr>
@@ -1827,7 +1827,7 @@ If you've enabled environments in your subaccount, manage the roles for those en
 
 
 > ### Note:  
-> The ABAP environment uses the roles of the SAP BTP, Cloud Foundry Environment.
+> The ABAP environment uses the roles of the Cloud Foundry Environment.
 
 **Related Information**  
 

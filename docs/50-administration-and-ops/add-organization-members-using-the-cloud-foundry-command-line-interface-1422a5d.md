@@ -12,7 +12,7 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to add organizat
 
 -   The Cloud Foundry environment is enabled.
 
-    Enable it in the SAP BTP cockpit. For more information, see [Create a Subaccount](create-a-subaccount-05280a1.md).
+    Enable it in the cockpit. For more information, see [Create a Subaccount](create-a-subaccount-05280a1.md).
 
 -   The Org Manager role for the org in question.
 

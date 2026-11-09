@@ -113,7 +113,7 @@ A Gateway host is the domain name or hostname that the Gateway listens on to acc
 
 -   Use the default domain of your Kyma cluster.
 
-    When you create an SAP BTP, Kyma runtime instance, your cluster receives a default wildcard domain that provides the endpoint for the Kubernetes API server. This is the primary access point for all cluster management operations, used by kubectl and other tools.
+    When you create an Kyma runtime on SAP platform instance, your cluster receives a default wildcard domain that provides the endpoint for the Kubernetes API server. This is the primary access point for all cluster management operations, used by kubectl and other tools.
 
     By default, the default Ingress Gateway `kyma-gateway` is configured under this domain. To learn what the domain is, you can check the APIServer URL in your subaccount overview, or get the domain name from the default simple TLS Gateway:
 

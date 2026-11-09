@@ -53,5 +53,5 @@ You can subscribe to events that are of interest to you and use a delivery chann
 **Related Information**  
 
 
-[What Is SAP Alert Notification Service for SAP BTP](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/latest/en-US/086361cb02fb467993acd6f9515607d4.html)
+[What Is SAP Alert Notification Service on SAP Platform](https://help.sap.com/viewer/5967a369d4b74f7a9c2b91f5df8e6ab6/latest/en-US/086361cb02fb467993acd6f9515607d4.html)
 

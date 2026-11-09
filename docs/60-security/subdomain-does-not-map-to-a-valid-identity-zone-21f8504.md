@@ -6,7 +6,7 @@
 
 ## Symptom
 
-You send an unauthenticated request to a web application, which is running on SAP BTP, Cloud Foundry. The system responds with the message:
+You send an unauthenticated request to a web application, which is running on Cloud Foundry. The system responds with the message:
 
 The subdomain does not map to a valid identity zone.
 
@@ -88,7 +88,7 @@ Extend your trial account
 
 ### Check the Subdomain and Landscape Domain of Your Request
 
-Check the subdomain and landscape domain of your request. You can find the subdomain in the SAP BTP cockpit in the **Overview** section of the subaccount that you are using for the request, under **Subaccount Details**.
+Check the subdomain and landscape domain of your request. You can find the subdomain in the cockpit in the **Overview** section of the subaccount that you are using for the request, under **Subaccount Details**.
 
 You can find the landscape URL for your Cloud Foundry runtime [here](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/350356d1dc314d3199dca15bd2ab9b0e.html#loiof344a57233d34199b2123b9620d0bb41). For example, the subdomain for the European region is **eu10.hana.ondemand.com**.
 
@@ -137,7 +137,7 @@ The regular expression and the Cloud Foundry hostname are separated by a hyphen.
 
 ### Extend your trial account
 
-Extend your trial account from within the SAP BTP cockpit.
+Extend your trial account from within the cockpit.
 
 1.  Visit the [trial page](https://cockpit.hanatrial.ondemand.com/cockpit#/home/trial).
 2.  Choose **Enter Your Trial Account**.

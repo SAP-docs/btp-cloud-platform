@@ -12,7 +12,7 @@ You can unassign users groups from a role collection by deleting them from the r
 
 ## Procedure
 
-1.  Open the SAP BTP cockpit.
+1.  Open the cockpit.
 
 2.  Go to your global account and subaccount \(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\).
 

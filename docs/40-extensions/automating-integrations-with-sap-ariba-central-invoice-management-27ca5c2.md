@@ -65,7 +65,7 @@ When creating formations of type *Integration with SAP Ariba Central Invoice Man
 
 ## Procedure
 
-As an alternative to the steps that follow, you can use the *Set Up SAP Ariba Central Invoice Management* booster in the SAP BTP cockpit and have the end-to-end scenario set up. The booster includes:
+As an alternative to the steps that follow, you can use the *Set Up SAP Ariba Central Invoice Management* booster in the cockpit and have the end-to-end scenario set up. The booster includes:
 
 -   Creating new subaccounts
 
@@ -77,7 +77,7 @@ As an alternative to the steps that follow, you can use the *Set Up SAP Ariba Ce
 > ### Tip:  
 > We recommend that you use the *Set Up SAP Ariba Central Invoice Management* booster.
 
-1.  In the *System Landscape* \> *Systems* page of the SAP BTP cockpit, browse the already added systems in your system landscape.
+1.  In the *System Landscape* \> *Systems* page of the cockpit, browse the already added systems in your system landscape.
 
     The *SAP S/4HANA Cloud* and the *SAP Ariba Central Invoice Management* systems you are going to include in this formation must not be part of another formation.
 

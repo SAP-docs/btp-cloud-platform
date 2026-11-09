@@ -2,7 +2,7 @@
 
 # Add Members to Your Global Account
 
-Add users as global account members using the SAP BTP cockpit.
+Add users as global account members using the cockpit.
 
 
 
@@ -29,7 +29,7 @@ Add users as global account members using the SAP BTP cockpit.
 
 ## Context
 
-Assign predefined or custom role collections to users who need to manage or view the global account in SAP BTP cockpit. Examples of predefined role collections include the following:
+Assign predefined or custom role collections to users who need to manage or view the global account in cockpit. Examples of predefined role collections include the following:
 
 -   *Global Account Administrator*
 
@@ -51,7 +51,7 @@ For more information about these role collections, see [Role Collections and Rol
     For more information, see [Create Users](create-users-a3bc7e8.md).
 
     > ### Note:  
-    > If the user is already a user in a subaccount and has logged on to SAP BTP cockpit, SAP BTP adds the user at the global account level automatically, but without any role collections.
+    > If the user is already a user in a subaccount and has logged on to cockpit, SAP BTP adds the user at the global account level automatically, but without any role collections.
 
 3.  Assign a role collection to the user.
 
@@ -64,7 +64,7 @@ For more information about these role collections, see [Role Collections and Rol
 
 ## Results
 
-The next time this user logs on to the SAP BTP cockpit, the user can access this global account.
+The next time this user logs on to the cockpit, the user can access this global account.
 
 **Related Information**  
 

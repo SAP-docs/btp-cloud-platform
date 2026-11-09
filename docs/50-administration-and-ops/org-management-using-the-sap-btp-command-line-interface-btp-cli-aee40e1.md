@@ -1,8 +1,8 @@
 <!-- loioaee40e1afa56445a9bd57c2621d6eaaa -->
 
-# Org Management Using the SAP BTP Command Line Interface \(BTP CLI\)
+# Org Management Using the SAP BTP Command Line Interface \(btp CLI\)
 
-The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. To manage the lifecycle of an org in the Cloud Foundry environment, use the `accounts/environment-instance` command in the BTP CLI.
+The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. To manage the lifecycle of an org in the Cloud Foundry environment, use the `accounts/environment-instance` command in the btp CLI.
 
 
 
@@ -286,7 +286,7 @@ The Cloud Foundry org and all its data will be lost.
 
 ## Adding and Removing Org Managers
 
-You can also use the BTP CLI to add or remove org managers.
+You can also use the btp CLI to add or remove org managers.
 
 ****
 
@@ -402,7 +402,7 @@ To learn how to remove a user from the Cloud Foundry org and the subaccount, see
 **Related Information**  
 
 
-[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (BTP CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.")
+[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the cockpit for users who like to work in a terminal or want to automate operations using scripts.")
 
 [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
 
@@ -410,7 +410,7 @@ To learn how to remove a user from the Cloud Foundry org and the subaccount, see
 
 [Add Org Members](add-org-members-a4eeaf1.md "In the SAP BTP cockpit, add users as org members and assign roles to grant the users access to information, such as user and quota information in a Cloud Foundry org.")
 
-[Managing Spaces](managing-spaces-5209d55.md "Learn what a Cloud Foundry space is, what type of information you will find on the Spaces page in the SAP BTP cockpit, and what you can do with or within a space.")
+[Managing Spaces](managing-spaces-5209d55.md "Learn what a Cloud Foundry space is, what type of information you will find on the Spaces page in the cockpit, and what you can do with or within a space.")
 
 [About User Management in the Cloud Foundry Environment](about-user-management-in-the-cloud-foundry-environment-8e6ce96.md "The Cloud Foundry environment has its own store for user data within SAP BTP. Understanding the relationship between SAP BTP and the Cloud Foundry environment is useful.")
 

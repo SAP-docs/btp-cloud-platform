@@ -4,7 +4,7 @@
 
 # Managing Spaces
 
-Learn what a Cloud Foundry space is, what type of information you will find on the *Spaces* page in the SAP BTP cockpit, and what you can do with or within a space.
+Learn what a Cloud Foundry space is, what type of information you will find on the *Spaces* page in the cockpit, and what you can do with or within a space.
 
 
 
@@ -34,7 +34,7 @@ For more information, see [About Roles in the Cloud Foundry Environment](about-r
 
 ## What Can You Find on the Spaces Page?
 
-To visit this page in the SAP BTP cockpit:
+To visit this page in the cockpit:
 
 1.  Navigate to a subaccount of your choice.
 

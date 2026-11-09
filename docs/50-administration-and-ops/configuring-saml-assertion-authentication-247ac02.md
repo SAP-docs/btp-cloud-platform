@@ -33,7 +33,7 @@ You can provide your own certificate to sign the SAML assertion or use the stand
 
 4.  Create a destination.
 
-    Create a destination using the Destinations editor in the SAP BTP cockpit. For more information, see [Using the Destination Editor in the Cockpit](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/using-destinations-editor-in-cockpit?version=Cloud). Provide the following data:
+    Create a destination using the Destinations editor in the cockpit. For more information, see [Using the Destination Editor in the Cockpit](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/using-destinations-editor-in-cockpit?version=Cloud). Provide the following data:
 
 
     <table>

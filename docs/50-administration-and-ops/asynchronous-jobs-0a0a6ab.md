@@ -2,7 +2,7 @@
 
 # Asynchronous Jobs
 
-Describes the asynchronous calls that are supported by some functionality from the SAP Cloud Management service for SAP BTP.
+Describes the asynchronous calls that are supported by some functionality from the SAP Cloud Management service on SAP platform.
 
 When the API responds with the status code *202*, the request can be processed as an asynchronous job.
 

@@ -2,7 +2,7 @@
 
 # Cloud Manager Module
 
-Use the Cloud Manager module to manage infrastructure providers' resources from SAP BTP, Kyma runtime.
+Use the Cloud Manager module to manage infrastructure providers' resources from Kyma runtime on SAP platform.
 
 
 
@@ -36,7 +36,7 @@ The Cloud Manager module provides the following features tailored for each of th
 
 -   [NFS](nfs-4783e94.md): Network File System \(NFS\) server that can be used as a ReadWriteMany \(RWX\) volume in the Kyma cluster.
 
--   [VPC Peering](vpc-peering-255e45e.md): Virtual Private Cloud \(VPC\) peering between your SAP BTP, Kyma runtime and remote cloud provider's project, account, or subscription.
+-   [VPC Peering](vpc-peering-255e45e.md): Virtual Private Cloud \(VPC\) peering between your Kyma runtime on SAP platform and remote cloud provider's project, account, or subscription.
 
 -   [Redis](redis-6127744.md): cloud provider-flavored cache that can be used in your Kyma cluster.
 

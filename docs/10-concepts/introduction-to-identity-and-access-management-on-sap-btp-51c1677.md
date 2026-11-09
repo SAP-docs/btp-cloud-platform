@@ -122,5 +122,5 @@ Some key capabilities:
 
 ## Using Cloud Identity Services with SAP BTP
 
-Cloud Identity Services are the default integration component for SAP cloud solutions and for SAP BTP. You can use them to protect access to the platform, the SAP BTP cockpit itself, or the applications running on top of the platform. For more information about Cloud Identity Services, refer to the [Cloud Identity Services](https://help.sap.com/docs/cloud-identity-services) documentation or explore the [learning journey](https://learning.sap.com/courses/operating-sap-business-technology-platform).
+Cloud Identity Services are the default integration component for SAP cloud solutions and for SAP BTP. You can use them to protect access to the platform, the cockpit itself, or the applications running on top of the platform. For more information about Cloud Identity Services, refer to the [Cloud Identity Services](https://help.sap.com/docs/cloud-identity-services) documentation or explore the [learning journey](https://learning.sap.com/courses/operating-sap-business-technology-platform).
 

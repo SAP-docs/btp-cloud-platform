@@ -45,7 +45,7 @@ Dynatrace supports full-stack monitoring for Cloud Foundry – from the applicat
 
     For more information, see:
 
-    -   Dynatrace Docs: [Create a user-provided service in your SAP BTP, Cloud Foundry Environment](https://www.dynatrace.com/support/help/setup-and-configuration/setup-on-container-platforms/cloud-foundry/deploy-oneagent-on-sap-cloud-platform-for-application-only-monitoring#create-a-user-provided-service-in-your-sap-btp-cloud-foundry-environment)
+    -   Dynatrace Docs: [Create a user-provided service in your Cloud Foundry Environment](https://www.dynatrace.com/support/help/setup-and-configuration/setup-on-container-platforms/cloud-foundry/deploy-oneagent-on-sap-cloud-platform-for-application-only-monitoring#create-a-user-provided-service-in-your-sap-btp-cloud-foundry-environment)
 
     -   Cloud Foundry Docs: [User-Provided Service Instances](https://docs.cloudfoundry.org/devguide/services/user-provided.html)
 
@@ -66,7 +66,7 @@ Dynatrace supports full-stack monitoring for Cloud Foundry – from the applicat
 
     **NOTE:** If there are more than one Dynatrace services bound to the application, the service that's going to be used is the one that was chronologically bound first.
 
-4.  Deploy the application to the SAP BTP, Cloud Foundry environment with the updated *manifest.yml* file. Run:
+4.  Deploy the application to the Cloud Foundry environment with the updated *manifest.yml* file. Run:
 
     ```
     cf push myapp

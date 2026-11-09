@@ -2,7 +2,7 @@
 
 # Enable Environment or Create Environment Instance
 
-Enable an environment or create an environment instance using the SAP BTP cockpit.
+Enable an environment or create an environment instance using the cockpit.
 
 
 

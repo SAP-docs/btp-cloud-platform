@@ -2,7 +2,7 @@
 
 # Deleting Service Instances
 
-Usethe SAP BTP cockpit or the Cloud Foundry Command Line Interface to delete service instances:
+Usethe cockpit or the Cloud Foundry Command Line Interface to delete service instances:
 
 > ### Caution:  
 > Be aware that instances will be deleted ultimately. There is no way to revoke this step.

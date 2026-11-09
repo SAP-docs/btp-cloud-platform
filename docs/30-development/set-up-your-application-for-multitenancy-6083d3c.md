@@ -289,7 +289,7 @@ You declare your application security descriptor with JSON syntax and store it i
 
     Assign the `ProductListViewer` role collection to your user. This role collection contains the necessary role to view the products in your application.
 
-    1.  Open the SAP BTP cockpit.
+    1.  Open the cockpit.
 
     2.  Navigate to your consumer subaccount.
 

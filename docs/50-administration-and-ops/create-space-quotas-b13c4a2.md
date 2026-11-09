@@ -2,7 +2,7 @@
 
 # Create Space Quotas
 
-You can use the SAP BTP cockpit to create space quotas.
+You can use the cockpit to create space quotas.
 
 
 

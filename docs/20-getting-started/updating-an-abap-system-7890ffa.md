@@ -156,7 +156,7 @@ You can update the service plan from one ABAP environment service plan to anothe
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, choose your Cloud Foundry subaccount and navigate to the space in which you have created your ABAP environment instance. See [Navigate in the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/0874895f1f78459f9517da55a11ffebd.html).
+1.  In the cockpit, choose your Cloud Foundry subaccount and navigate to the space in which you have created your ABAP environment instance. See [Navigate in the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/0874895f1f78459f9517da55a11ffebd.html).
 2.  Make sure that you have the Space Developer role in the service instance's space:
     -   Go to *Space Members* and check if your user is listed there
     -   If you're not listed as a member, add yourself as a *Space Developer*. For more information, see [Add Space Members](https://help.sap.com/docs/btp/sap-business-technology-platform/add-space-members-using-cockpit?version=Cloud)

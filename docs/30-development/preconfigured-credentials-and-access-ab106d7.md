@@ -2,7 +2,7 @@
 
 # Preconfigured Credentials and Access
 
-When you create SAP BTP, Kyma runtime, all necessary resources for consuming SAP BTP services are created, and the basic cluster access is configured.
+When you create Kyma runtime on SAP platform, all necessary resources for consuming SAP BTP services are created, and the basic cluster access is configured.
 
 
 
@@ -10,7 +10,7 @@ When you create SAP BTP, Kyma runtime, all necessary resources for consuming SAP
 
 ## Credentials
 
-When you create a Kyma instance in the SAP BTP cockpit, the following events happen in your subaccount:
+When you create a Kyma instance in the cockpit, the following events happen in your subaccount:
 
 1.  An SAP Service Manager service instance with the `service-operator-access` plan is created.
 

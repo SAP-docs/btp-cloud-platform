@@ -7,7 +7,7 @@ Learn how to use Runtime Bootstrapper, a built-in Kyma component, to automatical
 > ### Note:  
 > The content in this topic is only relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-When you deploy workloads on SAP BTP, Kyma runtime in certain regions, such as China \(Shanghai\) and Government Cloud \(US\), Pods need specific configurations. For example, Pods may need to pull images from a private registry or trust landscape-specific TLS certificates. Runtime Bootstrapper automatically applies these configurations to your Pods at creation time. This process is transparent and requires no changes to your application code.
+When you deploy workloads on Kyma runtime on SAP platform in certain regions, such as China \(Shanghai\) and Government Cloud \(US\), Pods need specific configurations. For example, Pods may need to pull images from a private registry or trust landscape-specific TLS certificates. Runtime Bootstrapper automatically applies these configurations to your Pods at creation time. This process is transparent and requires no changes to your application code.
 
 Runtime Bootstrapper only modifies Pods. It doesn't affect any other Kubernetes resources, such as Deployments, Services, ConfigMaps, or Secrets.
 

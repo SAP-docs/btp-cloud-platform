@@ -14,7 +14,7 @@ If multiple OIDC configurations are provided, user entries are generated followi
 
 The pattern continues for additional users. Without any OIDC configuration, the `users` section is omitted.
 
-To view the kubeconfig file, you can download it from the SAP BTP cockpit. In your subaccount *Overview*, go to the *Kyma Environment* section and choose the *KubeconfigURL* link.
+To view the kubeconfig file, you can download it from the cockpit. In your subaccount *Overview*, go to the *Kyma Environment* section and choose the *KubeconfigURL* link.
 
 See how the *\{CLUSTER\_NAME\}* value is used in a typical kubeconfig file:
 

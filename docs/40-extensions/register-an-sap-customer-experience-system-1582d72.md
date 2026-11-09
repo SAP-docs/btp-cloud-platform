@@ -29,12 +29,12 @@ The registration process has the following states displayed in the cockpit:
 
 -   *Registered* - the registration token has been used and the automated registration process has been successfully completed. The system can be assigned to a formation on the *Formations* page in the cockpit.
 -   *Error while Registering* - the registration has failed. Remove the system and then add it to the *Systems* list and try to register it again
--   *Deregistering* - а deregistration process has started in the SAP BTP cockpit. As a result, the connection between the SAP solution system and the global account in SAP BTP is removed. The system remains in the list and you can register it again later on.
+-   *Deregistering* - а deregistration process has started in the cockpit. As a result, the connection between the SAP solution system and the global account in SAP BTP is removed. The system remains in the list and you can register it again later on.
 
     Once a system is registered, you can deregister it only after removing it from all entitlement configurations and formations it takes part in.
 
 -   *Error while Deregistering* - the deregistration has failed. Try to deregister the system again. If the problem persists, report a case in the `BC-CP-MP` component.
--   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the link between the SAP solution and SAP BTP is destroyed and the system is removed from the list. To register the system again, first you must add it to the list anew, and then initiate the registration procedure.
+-   *Removing* - a system removal process has started in the cockpit. As a result, the link between the SAP solution and SAP BTP is destroyed and the system is removed from the list. To register the system again, first you must add it to the list anew, and then initiate the registration procedure.
 
     Once a system is registered, you can only remove it if you first deregister it.
 

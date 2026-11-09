@@ -30,7 +30,7 @@ As an administrator, you can create shadow users in your subaccount and you must
 
 ## Procedure
 
-1.  Open the SAP BTP cockpit.
+1.  Open the cockpit.
 
 2.  Go to your global account and/or subaccount \(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\).
 
@@ -38,7 +38,7 @@ As an administrator, you can create shadow users in your subaccount and you must
 
 4.  Choose *Create*.
 
-    The SAP BTP cockpit displays a new row where you can enter the user data.
+    The cockpit displays a new row where you can enter the user data.
 
 5.  Enter the user ID and email address.
 
@@ -52,7 +52,7 @@ As an administrator, you can create shadow users in your subaccount and you must
     > 
     > For example: `https://my-application.cfapps.eu10.hana.ondemand.com/`
     > 
-    > Logging on with the SAP BTP cockpit or the command-line interface isn't enough.
+    > Logging on with the cockpit or the command-line interface isn't enough.
 
 6.  Choose the identity provider where the user is stored. The dropdown list displays the identity providers configured in the trust configuration of your subaccount.
 

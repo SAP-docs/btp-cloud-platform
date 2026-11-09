@@ -4,7 +4,7 @@
 
 # Manage the Account Explorer Hierarchy
 
-Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.
+Create an account structure by creating a hierarchy of directories and subaccounts using the cockpit. Add, move, and delete subaccounts and directories in your structure.
 
 
 
@@ -75,9 +75,9 @@ You can create a hierarchical structure that is up to 7 levels deep. The highest
 
 [Directories](../10-concepts/account-model-8ed4a70.md#loioa92721fc75524ec09a7a7255997dbd94 "With directories, you can organize and manage your subaccounts according to your technical and business needs.")
 
-[Create a Directory](create-a-directory-b8ef1c4.md "Create a directory using the SAP BTP cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.")
+[Create a Directory](create-a-directory-b8ef1c4.md "Create a directory using the cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.")
 
-[Create a Subaccount](create-a-subaccount-05280a1.md "Create subaccounts in your global account using the SAP BTP cockpit.")
+[Create a Subaccount](create-a-subaccount-05280a1.md "Create subaccounts in your global account using the cockpit.")
 
-[Delete a Subaccount](delete-a-subaccount-419dc3d.md "Delete subaccounts using the SAP BTP cockpit to clean up your account hierarchy, free up quota used by services in your subaccounts, and to reduce overall costs.")
+[Delete a Subaccount](delete-a-subaccount-419dc3d.md "Delete subaccounts using the cockpit to clean up your account hierarchy, free up quota used by services in your subaccounts, and to reduce overall costs.")
 

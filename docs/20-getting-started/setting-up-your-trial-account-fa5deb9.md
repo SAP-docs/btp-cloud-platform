@@ -12,7 +12,7 @@ Your trial account is set up automatically, so that you can start using it right
 
 ## Create Your Trial Subaccount
 
-The first thing that is needed in the setup of your trial account is the creation of a subaccount. If this step was successful in the SAP BTP cockpit, you can directly skip to the next section.
+The first thing that is needed in the setup of your trial account is the creation of a subaccount. If this step was successful in the cockpit, you can directly skip to the next section.
 
 
 

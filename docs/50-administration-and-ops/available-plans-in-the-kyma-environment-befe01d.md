@@ -10,7 +10,7 @@ Depending on your global account type, you have access to a different plan that 
 
 ## Trial
 
-The trial version of SAP BTP, Kyma runtime is available only on request. For more information, see [Getting Started with a Trial Kyma Instance](../20-getting-started/getting-started-with-a-trial-kyma-instance-ccb83c7.md).
+The trial version of Kyma runtime on SAP platform is available only on request. For more information, see [Getting Started with a Trial Kyma Instance](../20-getting-started/getting-started-with-a-trial-kyma-instance-ccb83c7.md).
 
 For details on the trial cluster specification, see [Scope and Limitations](../20-getting-started/about-the-trial-kyma-instance-c4fff0f.md#loioc4fff0f58f90424f8e0af28975ac7f0f__section_scope_limitations).
 
@@ -230,7 +230,7 @@ The technical names of the standard enterprise plans are `aws`, `gcp`, `azure`, 
 Within these plans, Kyma offers the high availability feature. For more information, see [Availability Zones in the Kyma Environment](../10-concepts/availability-zones-in-the-kyma-environment-a649bd9.md).
 
 > ### Note:  
-> To indicate that your Kyma runtime is used for production, select *Used for production* in your subaccount details. This setting allows SAP BTP, Kyma runtime operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).
+> To indicate that your Kyma runtime is used for production, select *Used for production* in your subaccount details. This setting allows Kyma runtime on SAP platform operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).
 
 After your Kyma instance is created, you can switch from standard enterprise plans to build runtime plans within the same cloud provider. However, you can't switch from build runtime plans to the standard plans. For more information, see [Updating Kyma Environment Plans](updating-kyma-environment-plans-64fa95a.md).
 
@@ -1427,7 +1427,7 @@ Updating
 
 ## Kyma Test Demo and Development \(Azure Lite\)
 
-The technical name of the plan is `azure_lite`. The Kyma Test Demo and Development plan is offered to Partners, within the [*Pay-As-You-Go for SAP BTP for cloud test, demo, and development*](https://partneredge.sap.com/en/profile/create-profile.html) commercial model. You can use this plan for testing, development, and demo purposes. In the SAP BTP cockpit, the plan is called "Kyma Runtime Partner TDD".
+The technical name of the plan is `azure_lite`. The Kyma Test Demo and Development plan is offered to Partners, within the [*Pay-As-You-Go for SAP BTP for cloud test, demo, and development*](https://partneredge.sap.com/en/profile/create-profile.html) commercial model. You can use this plan for testing, development, and demo purposes. In the cockpit, the plan is called "Kyma Runtime Partner TDD".
 
 > ### Remember:  
 > The parameters marked with an asterisk "\*" are mandatory.
@@ -1771,7 +1771,7 @@ Updating
 
 [Kyma Modules](../10-concepts/kyma-modules-0dda141.md "With Kyma's modular approach, you can install just the modules you need, instead of a predefined set of components.")
 
-[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (BTP CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.")
+[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the cockpit for users who like to work in a terminal or want to automate operations using scripts.")
 
 [Service Plans and Metering for Kyma Runtime](../10-concepts/service-plans-and-metering-for-kyma-runtime-c33bb11.md "This page explains the relationship between the service plans of the SAP Discovery Center and the service plans of the SAP BTP cockpit and provides information to help you understand how the service is billed.")
 

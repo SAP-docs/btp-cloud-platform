@@ -10,7 +10,7 @@ To authenticate in the Kyma environment, you can either use the default identity
 
 ## Default vs. Custom Identity Provider
 
-SAP BTP, Kyma runtime uses OpenID Connect for authentication. Kyma runtime is configured with a default identity provider: a shared [SAP Cloud Identity Services](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/landing-page?version=Cloud) tenant. This is a good starting point for development and testing purposes. For production scenarios, it's recommended that you set up your own SAP Cloud Identity Services tenant which provides the following features:
+Kyma runtime on SAP platform uses OpenID Connect for authentication. Kyma runtime is configured with a default identity provider: a shared [SAP Cloud Identity Services](https://help.sap.com/docs/cloud-identity-services/cloud-identity-services/landing-page?version=Cloud) tenant. This is a good starting point for development and testing purposes. For production scenarios, it's recommended that you set up your own SAP Cloud Identity Services tenant which provides the following features:
 
 -   Manages users
 

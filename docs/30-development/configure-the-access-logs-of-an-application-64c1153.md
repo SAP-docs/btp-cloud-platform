@@ -21,7 +21,7 @@ SAP Java Buildpack uses the *logback-access* module to provide HTTP-access log f
 
 The access logs differ slightly from the other logs and traces. There are many standard tools available that read access logs from any server, display them, calculate statistics and so on. That's why the format of the access log produced by Tomcat and TomEE is not SAP-specific. The default pattern defined in the configuration file is **`"%date "%r" %s %b"`**.
 
-To find the access log files of your application, you have to connect via SSH to the SAP BTP, Cloud Foundry container and go to the **`logs`** directory.
+To find the access log files of your application, you have to connect via SSH to the Cloud Foundry container and go to the **`logs`** directory.
 
 To change the default access log settings, follow the steps below.
 

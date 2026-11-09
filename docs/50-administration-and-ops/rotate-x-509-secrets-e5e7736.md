@@ -60,7 +60,7 @@ When your private key is exposed or your certificates are about to expire, it's 
 
 [Binding Parameters of SAP Authorization and Trust Management Service](binding-parameters-of-sap-authorization-and-trust-management-service-3240307.md "When binding applications or creating service keys for services instances of the SAP Authorization and Trust Management service (XSUAA), provide configuration parameters in JSON format.")
 
-[Binding Service Instances to Applications](../30-development/binding-service-instances-to-applications-e98280a.md "Use the SAP BTP cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:")
+[Binding Service Instances to Applications](../30-development/binding-service-instances-to-applications-e98280a.md "Use the cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:")
 
 [Service Instance Secrets](service-instance-secrets-5578ec4.md "When an application consumes a service instance of the SAP Authorization and Trust Management service (XSUAA), the application identifies itself to the service instance with a client ID and a secret. The client ID and secret are the credentials with which an application authenticates itself to the service instance.")
 

@@ -8,7 +8,7 @@ Learn how to create a destination with SAML assertion authentication to establis
 
 ## Procedure
 
-1.  Log on to the SAP BTP cockpit as an administrator.
+1.  Log on to the cockpit as an administrator.
 
 2.  From your global account, navigate to your Cloud Foundry subaccount.
 

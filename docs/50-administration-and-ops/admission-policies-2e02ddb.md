@@ -2,7 +2,7 @@
 
 # Admission Policies
 
-Learn about the validating admission policies deployed in SAP BTP, Kyma runtime clusters, why they block specific actions, and what you can do if you need an exception. These policies are enforced at admission time and protect cluster stability, security, and operational correctness.
+Learn about the validating admission policies deployed in Kyma runtime on SAP platform clusters, why they block specific actions, and what you can do if you need an exception. These policies are enforced at admission time and protect cluster stability, security, and operational correctness.
 
 
 
@@ -119,6 +119,20 @@ The `kyma-system` namespace may use persistent storage for platform components. 
 When you try to delete a PVC in `kyma-system`, or a PV that is bound to a PVC in `kyma-system`, you receive an API error. The error message states that this deletion isn't allowed and requires an allowed user, group, or service account.
 
 Verify that you're targeting the correct resource. If you need to remove storage in `kyma-system`, contact your platform administrator to perform the operation with an allowed user, group, or service account.
+
+
+
+<a name="loio2e02ddb5b3b9459da6056a5aaafaf421__section_namespace_finalizer_protection"/>
+
+## Namespace Finalizer Protection
+
+This policy prevents the manual removal of finalizers from namespaces unless the request comes from an allowed user, group, or service account.
+
+Finalizers on a namespace ensure that dependent resources are cleaned up correctly before the namespace is fully deleted. Manually removing a finalizer can leave the namespace and its resources in an inconsistent state, corrupt cluster state, and orphan resources that can no longer be managed or cleaned up. This policy ensures that only trusted controllers, users, groups, or service accounts can modify namespace finalizers, so that namespace deletion follows the correct lifecycle.
+
+When you try to remove a finalizer from a namespace \(either from the namespace's `metadata.finalizers` field or through the `namespaces/finalize` subresource\), you receive an API error. The validating admission policy returns a rejection with the message that removing finalizers from namespaces isn't allowed and requires an allowed user, group, or service account.
+
+If a namespace appears stuck in the `Terminating` state, don't remove its finalizers manually. Instead, verify that the resources blocking deletion have been cleaned up, and allow the platform's controllers to complete the deletion. If you need to force the removal of a finalizer, contact your platform administrator to perform the operation with an allowed user, group, or service account.
 
 
 

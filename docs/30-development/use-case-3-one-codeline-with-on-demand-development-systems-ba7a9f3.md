@@ -89,7 +89,7 @@ Provision a development and a production system
 </td>
 <td valign="top">
 
-SAP BTP cockpit 
+cockpit 
 
 </td>
 </tr>
@@ -471,7 +471,7 @@ De-provision system DEV
 </td>
 <td valign="top">
 
-SAP BTP cockpit
+cockpit
 
 </td>
 </tr>
@@ -549,7 +549,7 @@ Provision a new development system
 </td>
 <td valign="top">
 
-SAP BTP cockpit
+cockpit
 
 </td>
 </tr>
@@ -846,7 +846,7 @@ Delete the development system
 </td>
 <td valign="top">
 
-SAP BTP cockpit
+cockpit
 
 </td>
 </tr>

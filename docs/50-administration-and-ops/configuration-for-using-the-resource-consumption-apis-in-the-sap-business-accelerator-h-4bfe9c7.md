@@ -2,7 +2,7 @@
 
 # Configuration for Using the Resource Consumption APIs in the SAP Business Accelerator Hub
 
-The **Resource Consumption** APIs of the SAP Usage Data Management service for SAP BTP are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.
+The **Resource Consumption** APIs of the SAP Usage Data Management service on SAP platform are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.
 
 
 

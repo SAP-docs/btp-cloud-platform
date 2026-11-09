@@ -2,7 +2,7 @@
 
 # Rate Limiting Rules
 
-API requests to the SAP Usage Data Management service for SAP BTP are subject to rate limits.
+API requests to the SAP Usage Data Management service on SAP platform are subject to rate limits.
 
 Rate limits restrict the number of requests made by a caller within a defined time period. For authenticated requests, callers are identified by the authenticated user name, the tenant ID or the OAuth client ID. For non-authenticated requests, callers are identified by the originating IP address.
 

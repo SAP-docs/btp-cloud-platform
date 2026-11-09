@@ -2,7 +2,7 @@
 
 # Personalizing the Home Screen
 
-Tailor the home screen of the SAP BTP cockpit to your needs by choosing which cards are displayed and removing the ones you do not use.
+Tailor the home screen of the cockpit to your needs by choosing which cards are displayed and removing the ones you do not use.
 
 
 

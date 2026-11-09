@@ -2,13 +2,13 @@
 
 # Developing Node.js in the Cloud Foundry Environment
 
-This section offers selected information for Node.js development on SAP BTP, Cloud Foundry and references to more detailed sources.
+This section offers selected information for Node.js development on Cloud Foundry and references to more detailed sources.
 
 
 
 You'll get information about the buildpack supported by SAP, the Node.js packages, and how to consume them in your application.
 
-There is also a tutorial with an introduction to securing your application, and some tips and tricks for developing and running Node.js applications on SAP BTP, Cloud Foundry.
+There is also a tutorial with an introduction to securing your application, and some tips and tricks for developing and running Node.js applications on Cloud Foundry.
 
 
 
@@ -41,7 +41,7 @@ You can download and consume SAP-developed Node.js packages via the SAP NPM Regi
 
 ## Buildpack Versioning
 
-The SAP BTP, Cloud Foundry environment provides one recent version of **`nodejs_buildpack`** as part of its system buildpacks. To check this version, proceed as follows:
+The Cloud Foundry environment provides one recent version of **`nodejs_buildpack`** as part of its system buildpacks. To check this version, proceed as follows:
 
 1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 
@@ -64,7 +64,7 @@ To learn about changes in the Node.js buildpack's versions and features, regular
 
 ## Usage
 
-To use this buildpack, specify its name when deploying a Node.js application to the SAP BTP, Cloud Foundry environment. You can do it the following ways:
+To use this buildpack, specify its name when deploying a Node.js application to the Cloud Foundry environment. You can do it the following ways:
 
 -   Specify it directly in the `cf push` command:
 
@@ -120,7 +120,7 @@ To use this buildpack, specify its name when deploying a Node.js application to 
 
 ## Supported Versions
 
-The `nodejs_buildpack` running on SAP BTP, Cloud Foundry environment supports the following versions:
+The `nodejs_buildpack` running on Cloud Foundry environment supports the following versions:
 
 -   Node.js **20** - this version reached end-of-life on April 30, 2026.
 -   Node.js **22**
@@ -181,7 +181,7 @@ To learn more, see [MTA Module Types](https://help.sap.com/docs/btp/sap-business
 To check the latest news and updates about the Node.js buildpack, go to its release notes: [What's New for Node.js Buildpack](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?locale=en-US&amp%3BComponent=Node.js%20System%20Buildpack&Valid_as_Of=2022-01-01%3A2050-12-31&Component=Node.js%20System%20Buildpack) 
 
 > ### Note:  
-> In May 2023, SAP migrated the root file system used in SAP BTP, Cloud Foundry runtime from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Node.js applications on SAP BTP, Cloud Foundry using the Node.js buildpack, we recommend that you update and migrate your applications, as well as the Node.js buildpack. For more information about migration timelines, risks, and consequences, see:
+> In May 2023, SAP migrated the root file system used in Cloud Foundry runtime on SAP platform from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Node.js applications on Cloud Foundry using the Node.js buildpack, we recommend that you update and migrate your applications, as well as the Node.js buildpack. For more information about migration timelines, risks, and consequences, see:
 > 
 > -   [Deprecation of Cloud Foundry Stack cflinuxfs3 and Migration to cflinuxfs4](https://blogs.sap.com/2023/02/16/deprecation-of-cloud-foundry-stack-cflinuxfs3-and-migration-to-cflinuxfs4/)
 > 

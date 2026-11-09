@@ -2,7 +2,7 @@
 
 # Managing Kyma Runtime Using the Provisioning Service API
 
-The SAP Cloud Management service for SAP BTP \(technical name: `cis`\) provides the Provisioning Service API to create and manage available environments. Use the Provisioning Service API to automatically manage and access SAP BTP, Kyma runtime.
+The SAP Cloud Management service on SAP platform \(technical name: `cis`\) provides the Provisioning Service API to create and manage available environments. Use the Provisioning Service API to automatically manage and access Kyma runtime on SAP platform.
 
 
 
@@ -10,12 +10,12 @@ The SAP Cloud Management service for SAP BTP \(technical name: `cis`\) provides 
 
 ## Prerequisites
 
--   Your subaccount must have entitlements for SAP BTP, Kyma runtime and the SAP Cloud Management service for SAP BTP. See [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
+-   Your subaccount must have entitlements for Kyma runtime on SAP platform and the SAP Cloud Management service on SAP platform. See [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md).
 -   Command line interface \(CLI\) tools:
     -   [kubectl](https://kubernetes.io/docs/reference/kubectl/) configured to communicate with your Kyma instance \(see [Access a Kyma Instance Using kubectl](../30-development/access-a-kyma-instance-using-kubectl-3e25944.md)\)
     -   [jq](https://jqlang.github.io/jq/)
     -   [curl](https://curl.se/)
-    -   SAP BTP command line interface \(btp CLI\). See [Download and Start Using the BTP CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506).
+    -   SAP BTP command line interface \(btp CLI\). See [Download and Start Using the btp CLI Client](download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506).
 
 
 
@@ -30,7 +30,7 @@ To manage a Kyma instance automatically, create a Kyma service binding. The Kyma
 
 1.  Provision the SAP Cloud Management service instance with the `local` plan and create a binding to get the credentials for the Provisioning Service API. To do that, you can use one of the following methods:
 
-    -   SAP BTP cockpit, as described in [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
+    -   cockpit, as described in [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
 
     -   btp CLI and follow these steps:
 
@@ -169,5 +169,5 @@ curl -s -X DELETE "$PROVISIONING_SERVICE_URL/provisioning/v1/environments/$INSTA
 **Related Information**  
 
 
-[Account Administration Using APIs of the SAP Cloud Management Service](account-administration-using-apis-of-the-sap-cloud-management-service-17b6a17.md "Provides information about using the APIs of the SAP Cloud Management service for SAP BTP (technical name: cis) to manage some of the administrative operations in your accounts.")
+[Account Administration Using APIs of the SAP Cloud Management Service](account-administration-using-apis-of-the-sap-cloud-management-service-17b6a17.md "Provides information about using the APIs of the SAP Cloud Management service on SAP platform (technical name: cis) to manage some of the administrative operations in your accounts.")
 

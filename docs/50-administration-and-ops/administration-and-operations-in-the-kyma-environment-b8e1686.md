@@ -2,7 +2,7 @@
 
 # Administration and Operations in the Kyma Environment
 
-This is the managed offering of SAP BTP, Kyma runtime \(based on the open-source project "Kyma"\). The administrators of the Kyma environment take care of setting it up and make sure it is ready for developers to work with. Create your Kyma instance to build applications and extensions to SAP and third-party solutions, manage roles, have your Kubernetes objects backed up, and view metrics and logs.
+This is the managed offering of Kyma runtime on SAP platform \(based on the open-source project "Kyma"\). The administrators of the Kyma environment take care of setting it up and make sure it is ready for developers to work with. Create your Kyma instance to build applications and extensions to SAP and third-party solutions, manage roles, have your Kubernetes objects backed up, and view metrics and logs.
 
 > ### Caution:  
 > If you apply cluster-wide security tools or policies to your cluster, configure them to exclude Kyma-managed namespaces and components. Policies that go beyond the platform defaults can block module installation and reconciliation. Kyma modules are not modified to comply with custom security policies.

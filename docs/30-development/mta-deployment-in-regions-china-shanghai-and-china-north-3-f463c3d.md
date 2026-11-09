@@ -107,7 +107,7 @@ Due to the missing shared domains in regions China \(Shanghai\) and China \(Nort
     > If you are using this option, make sure you have the MultiApps CLI plugin version 2.1.3 or higher.
 
 
-The deploy-service URL needs to be in the following format: `deploy-service.cf.<domain>`. You can derive the domain from the Cloud Foundry API endpoint which is visible in the *Overview* of your subaccount in the SAP BTP cockpit. See also [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
+The deploy-service URL needs to be in the following format: `deploy-service.cf.<domain>`. You can derive the domain from the Cloud Foundry API endpoint which is visible in the *Overview* of your subaccount in the cockpit. See also [Regions and API Endpoints Available for the Cloud Foundry Environment](../10-concepts/regions-and-api-endpoints-available-for-the-cloud-foundry-environment-f344a57.md).
 
 > ### Note:  
 > For region China \(Shanghai\) with API endpoint `api.cf.cn40.platform.sapcloud.cn`, you need to specify the URL as follows: `export MULTIAPPS_CONTROLLER_URL=deploy-service.cf.cn40.platform.sapcloud.cn`.

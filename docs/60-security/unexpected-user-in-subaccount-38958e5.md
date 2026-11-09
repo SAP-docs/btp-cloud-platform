@@ -47,5 +47,5 @@ There, you can see who created the user and coordinate your processes.
 
 [Add Members to Your Subaccount](../50-administration-and-ops/add-members-to-your-subaccount-1e1b7b6.md "Add members to your subaccount to enable users to access resources available there. Platform users manage subaccounts with cloud management tools, while business users consume applications and services.")
 
-[Add Members to Your Global Account](../50-administration-and-ops/add-members-to-your-global-account-4a04913.md "Add users as global account members using the SAP BTP cockpit.")
+[Add Members to Your Global Account](../50-administration-and-ops/add-members-to-your-global-account-4a04913.md "Add users as global account members using the cockpit.")
 

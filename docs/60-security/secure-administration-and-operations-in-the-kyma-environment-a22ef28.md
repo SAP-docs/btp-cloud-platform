@@ -18,7 +18,7 @@ While creating a staged development environment is a good idea in any case, ther
 
 ## Authentication
 
-SAP BTP, Kyma runtime uses OpenID Connect for authentication. Kyma runtime is configured to use a default shared SAP Cloud Identity Services tenant, SAP ID service, as an identity provider. This is a good starting point for development and testing purposes. However, for production scenarios, it's recommended to get your own SAP Cloud Identity Services tenant. For more information, see [Authentication in the Kyma Environment](authentication-in-the-kyma-environment-85200d8.md).
+Kyma runtime on SAP platform uses OpenID Connect for authentication. Kyma runtime is configured to use a default shared SAP Cloud Identity Services tenant, SAP ID service, as an identity provider. This is a good starting point for development and testing purposes. However, for production scenarios, it's recommended to get your own SAP Cloud Identity Services tenant. For more information, see [Authentication in the Kyma Environment](authentication-in-the-kyma-environment-85200d8.md).
 
 
 
@@ -41,7 +41,7 @@ Collecting Istio access logs can help indicate the core concepts of monitoring \
 **Related Information**  
 
 
-[Kyma Security Concepts](kyma-security-concepts-dbf4503.md "SAP BTP, Kyma runtime takes various security measures regarding your cluster and its underlying infrastructure. Benefit from the security setup that SAP BTP, Kyma runtime provides.")
+[Kyma Security Concepts](kyma-security-concepts-dbf4503.md "Kyma runtime on SAP platform takes various security measures regarding your cluster and its underlying infrastructure. Benefit from the security setup that Kyma runtime on SAP platform provides.")
 
 [Secure Development in the Kyma Environment](secure-development-in-the-kyma-environment-ff51a32.md "Secure development focuses on Pod security, network traffic restriction, Istio sidecar proxy injection, and workload exposure. Learn about the security measures you can take to improve the security of your Kyma environment .")
 

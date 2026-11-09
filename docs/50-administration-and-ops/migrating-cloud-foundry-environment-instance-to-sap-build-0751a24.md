@@ -57,8 +57,8 @@ Update your Cloud Foundry environment instance to migrate it to the `build-runti
     For more information, see [Upgrading your service to the build-default or build-runtime plan](https://help.sap.com/docs/build-service/build-service-guide/changing-service-plans?version=Cloud#upgrading-your-service-to-the-build-default-or-build-runtime-plan).
 
 -   In your subaccount, there's an active instance of the Cloud Foundry environment that uses one of the following plans:
-    -   `standard`: see [Standard Plan for Cloud Foundry Runtime](https://help.sap.com/viewer/4287333baaa6413a8ece0a8ed1196af4/Cloud/en-US/102df6e2c3e74e4ea6c8067809a03a7e.html "Learn how to set up the standard plan for SAP BTP, Cloud Foundry runtime in enterprise global accounts.") :arrow_upper_right:
-    -   `free`: see [Free Plan for Cloud Foundry Runtime](https://help.sap.com/viewer/4287333baaa6413a8ece0a8ed1196af4/Cloud/en-US/5f4a816f349f46a9b792df000be32117.html "Learn how to set up the free tier plan available for SAP BTP, Cloud Foundry runtime in an enterprise global account that uses the consumption-based commercial model.") :arrow_upper_right:
+    -   `standard`: see [Standard Plan for Cloud Foundry Runtime](https://help.sap.com/viewer/4287333baaa6413a8ece0a8ed1196af4/Cloud/en-US/102df6e2c3e74e4ea6c8067809a03a7e.html "Learn how to set up the standard plan for Cloud Foundry runtime on SAP platform in enterprise global accounts.") :arrow_upper_right:
+    -   `free`: see [Free Plan for Cloud Foundry Runtime](https://help.sap.com/viewer/4287333baaa6413a8ece0a8ed1196af4/Cloud/en-US/5f4a816f349f46a9b792df000be32117.html "Learn how to set up the free tier plan available for Cloud Foundry runtime on SAP platform in an enterprise global account that uses the consumption-based commercial model.") :arrow_upper_right:
     -   `build-code`: see [What Is SAP Build Code](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/504854f457cc4fbf9f79136dbc773618.html)
 
 
@@ -118,5 +118,5 @@ If the status of your Cloud Foundry environment instance after the procedure is 
 **Related Information**  
 
 
-[Service Plans and Metering for Cloud Foundry Runtime](../10-concepts/service-plans-and-metering-for-cloud-foundry-runtime-8d41fa4.md "This page explains the relationship between the service plans in the SAP Discovery Center and those in the SAP BTP cockpit, and provides information to help you understand how the service is billed.")
+[Service Plans and Metering for Cloud Foundry Runtime](../10-concepts/service-plans-and-metering-for-cloud-foundry-runtime-8d41fa4.md "This page explains the relationship between the service plans in the SAP Discovery Center and those in the cockpit, and provides information to help you understand how the service is billed.")
 

@@ -29,7 +29,7 @@ If the *Audit Log Service* of plan *premium* is not visible from the account coc
 
 The *premium* plan of the auditlog service uses mTLS authentication via X.509 certificates. To create a service instance via the account cockpit, do the following:
 
-1.  Select the *premium* plan for the service instance creation from the Service Marketplace inside the SAP BTP cockpit.
+1.  Select the *premium* plan for the service instance creation from the Service Marketplace inside the cockpit.
 2.  Choose a runtime and a name for the service instance.
 3.  Specify a unique *xsappname* per subaccount for each instance and provide the x509 authentication parameters during service instance creation.
 
@@ -82,7 +82,7 @@ The service keys provide credentials and URLs for interacting with your service 
 
 ### Create a Service Binding
 
-Like service keys, the classical service bindings provide credentials and endpoints for using a service instance and are mainly intended to be used with SAP BTP, Cloud Foundry runtime applications. You can bind a SAP BTP, Cloud Foundry runtime application to one or more service instances. As a result, in the VCAP\_SERVICES application environment variable there is a dedicated JSON object for each service binding.
+Like service keys, the classical service bindings provide credentials and endpoints for using a service instance and are mainly intended to be used with Cloud Foundry runtime on SAP platform applications. You can bind a Cloud Foundry runtime on SAP platform application to one or more service instances. As a result, in the VCAP\_SERVICES application environment variable there is a dedicated JSON object for each service binding.
 
 You can perform the binding operation directly from the account cockpit settings of the application, via the CF client, or via the application deployment manifest. Specifically for the Audit Log Write API “premium” plan, it is important to provide the credentials parameter to enable the provisioning of X.509 certificates. Examples:
 
@@ -265,7 +265,7 @@ This section describes the approach to obtain credentials for authentication and
 
 Once the validity of the certificate credentials from the service key and service binding expire, the credentials for using the Audit Log service become invalid until the certificates are rotated. Make sure to properly rotate the credentials before they expire to avoid issues using the Audit Log service.
 
--   For the case of SAP BTP, Cloud Foundry runtime apps with service bindings, do the credentials rotation by recreating the service binding with the auditlog service instance \(`cf unbind-service`; `cf bind-service`\). On each bind operation a new set of x509 certificates is generated.
+-   For the case of Cloud Foundry runtime on SAP platform apps with service bindings, do the credentials rotation by recreating the service binding with the auditlog service instance \(`cf unbind-service`; `cf bind-service`\). On each bind operation a new set of x509 certificates is generated.
 
 -   For the case of apps using auditlog credentials from an auditlog service key, rotate the credentials by creating a new service key and extracting the certificates and private key from the newly created key.
 

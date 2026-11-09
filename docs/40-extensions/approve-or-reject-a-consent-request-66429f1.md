@@ -19,7 +19,7 @@ To learn more about the use cases of consent requests for systems or system type
 
 ## Procedure
 
-1.  Sign in to the SAP BTP cockpit and navigate to *System Landscape* \> *Consent Requests*.
+1.  Sign in to the cockpit and navigate to *System Landscape* \> *Consent Requests*.
 
 2.  In the *Incoming Consent Requests* tab, choose the *For Systems* and *For System Types* tabs to check for incoming consent requests.
 

@@ -6,9 +6,9 @@ Find here selected information for SAP HANA database development and references 
 
 
 
-This section gives you information about database development and its surrounding tasks especially if you want to explore the SAP BTP, Cloud Foundry environment. To get more into detail, we have references to other guides and the SAP HANA Cloud service documentation. The context we’re looking at is multitarget application \(MTA\) development, whereby SAP HANA is the database module and you develop all artifacts in that module.
+This section gives you information about database development and its surrounding tasks especially if you want to explore the Cloud Foundry environment. To get more into detail, we have references to other guides and the SAP HANA Cloud service documentation. The context we’re looking at is multitarget application \(MTA\) development, whereby SAP HANA is the database module and you develop all artifacts in that module.
 
-There are multiple scenarios when you start using SAP HANA Cloud in the SAP BTP, Cloud Foundry environment. For each of these scenarios, we give you a recommendation:
+There are multiple scenarios when you start using SAP HANA Cloud in the Cloud Foundry environment. For each of these scenarios, we give you a recommendation:
 
 
 <table>
@@ -41,7 +41,7 @@ See [SAP HANA Cloud](developing-sap-hana-in-the-cloud-foundry-environment-14224d
 <tr>
 <td valign="top">
 
-You're using SAP HANA service for SAP BTP and SAP HANA Platform 2.0 \(XS advanced\) on-premise.
+You're using SAP HANA service on SAP platform and SAP HANA Platform 2.0 \(XS advanced\) on-premise.
 
 </td>
 <td valign="top">
@@ -79,7 +79,7 @@ You're using SAP HANA Platform 1.0 \(XS classic\) on-premise. This scenario also
 </td>
 <td valign="top">
 
-This scenario is presumably a bigger project. The task isn’t only to use a different version of SAP HANA but also to make architectural changes: from monolithic applications to microservice-based applications. To give you an overview on things you need to consider, have a look at our guide: [Migrating from the Neo Environment to the Multi-Cloud Foundation for SAP BTP (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate scenarios from the Neo environment to the multi-cloud foundation for SAP BTP. This guide is for SAP Business Technology Platform (SAP BTP) customers and partners with scenarios in the Neo environment that need to move to the multi-cloud foundation, including the Cloud Foundry environment or the Kyma environment.") :arrow_upper_right: 
+This scenario is presumably a bigger project. The task isn’t only to use a different version of SAP HANA but also to make architectural changes: from monolithic applications to microservice-based applications. To give you an overview on things you need to consider, have a look at our guide: [Migrating from the Neo Environment to the Multi-Cloud Foundation (Cloud Foundry and Kyma)](https://help.sap.com/viewer/b017fc4f944e4eb5b31501b3d1b6a1f0/Cloud/en-US/aae4e0ae1cdf434b908c3c8cf3ea942a.html "Learn why and how to migrate scenarios from the Neo environment to the multi-cloud foundation. This guide is for SAP Business Technology Platform (SAP BTP) customers and partners with scenarios in the Neo environment that need to move to the multi-cloud foundation, including the Cloud Foundry environment or the Kyma environment.") :arrow_upper_right: 
 
 </td>
 </tr>
@@ -93,7 +93,7 @@ This scenario is presumably a bigger project. The task isn’t only to use a dif
 
 
 
-This section is a quick introduction to the latest SAP HANA offering on SAP BTP, Cloud Foundry environment. In essence, you get to know the most important tools and information about data modeling. This content is meant to provide an overview. Please follow the links to the content you’re interested in and start your learning journey.
+This section is a quick introduction to the latest SAP HANA offering on Cloud Foundry environment. In essence, you get to know the most important tools and information about data modeling. This content is meant to provide an overview. Please follow the links to the content you’re interested in and start your learning journey.
 
 
 

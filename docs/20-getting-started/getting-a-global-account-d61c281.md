@@ -100,7 +100,7 @@ If you are located in China and want to buy a global account on SAP BTP, you nee
 
 [Using Free Service Plans](../10-concepts/using-free-service-plans-524e108.md "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model and an enterprise account.")
 
-[Access the Cockpit](../50-administration-and-ops/access-the-cockpit-4e75066.md "Learn how to access the SAP BTP cockpit.")
+[Access the Cockpit](../50-administration-and-ops/access-the-cockpit-4e75066.md "Learn how to access the cockpit.")
 
 <a name="loio0730b01feb484396b5a3daaa5115d73d"/>
 

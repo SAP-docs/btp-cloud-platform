@@ -2,7 +2,7 @@
 
 # Available Technology
 
-You can deploy your application in SAP BTP, Kyma runtime as a Docker container.
+You can deploy your application in Kyma runtime on SAP platform as a Docker container.
 
 You can use any technology of choice as long as you can package it as a Docker container. The Docker container can be built using Cloud Native Buildpacks \(CNB\). It is also possible to build lightweight [Serverless](https://kyma-project.io/external-content/serverless/docs/user/README.html) Functions in Python and JavaScript.
 

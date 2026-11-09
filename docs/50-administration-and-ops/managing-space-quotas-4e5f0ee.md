@@ -4,7 +4,7 @@
 
 # Managing Space Quotas
 
-Learn what a space quota is, what type of information you will find on the *Space Quotas* page in the SAP BTP cockpit, and what you can do with a space quota in the Cloud Foundry environment.
+Learn what a space quota is, what type of information you will find on the *Space Quotas* page in the cockpit, and what you can do with a space quota in the Cloud Foundry environment.
 
 
 
@@ -124,7 +124,7 @@ You can switch between the following views on this page:
 **Related Information**  
 
 
-[Managing Spaces](managing-spaces-5209d55.md "Learn what a Cloud Foundry space is, what type of information you will find on the Spaces page in the SAP BTP cockpit, and what you can do with or within a space.")
+[Managing Spaces](managing-spaces-5209d55.md "Learn what a Cloud Foundry space is, what type of information you will find on the Spaces page in the cockpit, and what you can do with or within a space.")
 
 [About Roles in the Cloud Foundry Environment](about-roles-in-the-cloud-foundry-environment-0907638.md "Roles determine which features users can view and access, and which actions they can initiate.")
 

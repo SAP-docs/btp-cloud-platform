@@ -12,7 +12,7 @@ You can back up and restore the following configuration settings:
 
 -   Your subaccount-specific IdP metadata.
 
-    To download your SAP SuccessFactors IdP SAML 2.0 metadata, in the SAP BTP cockpit, navigate to *Connectivity* \> *Destinations* \> *Download IdP Metadata*.
+    To download your SAP SuccessFactors IdP SAML 2.0 metadata, in the cockpit, navigate to *Connectivity* \> *Destinations* \> *Download IdP Metadata*.
 
 -   Your identity provider configurations.
 

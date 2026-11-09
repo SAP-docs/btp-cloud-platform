@@ -4,7 +4,7 @@
 
 # Navigate in the Cockpit
 
-Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.
+Learn how to navigate to your global accounts, directories, and subaccounts in the cockpit.
 
 
 

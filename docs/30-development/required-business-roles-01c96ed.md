@@ -5,7 +5,7 @@
 Different actions require different roles as well. In the process description, the following role proposals are used:
 
 -   System Administrator
-    -   Creates ABAP systems in the SAP BTP cockpit 
+    -   Creates ABAP systems in the cockpit 
     -   Needs authorization for space/organization management in the Cloud Foundry environment subaccount
 
 -   User Administrator

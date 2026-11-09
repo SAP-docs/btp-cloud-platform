@@ -2,7 +2,7 @@
 
 # SAP Business Application Studio
 
-SAP Business Application Studio is a new cloud service in the SAP BTP, Cloud Foundry environment offering a modern development environment tailored for efficient development of business applications.
+SAP Business Application Studio is a new cloud service in the Cloud Foundry environment offering a modern development environment tailored for efficient development of business applications.
 
 SAP Business Application Studio provides a desktop-grade IDE experience in the cloud, including command line functionalities and optimized editors.
 

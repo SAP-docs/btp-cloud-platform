@@ -2,7 +2,7 @@
 
 # Security in the Kyma Environment
 
-Security in SAP BTP, Kyma runtime comprises the following pillars:
+Security in Kyma runtime on SAP platform comprises the following pillars:
 
 -   [Kyma Security Concepts](kyma-security-concepts-dbf4503.md)
 

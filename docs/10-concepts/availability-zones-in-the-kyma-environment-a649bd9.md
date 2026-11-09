@@ -10,7 +10,7 @@ Availability zones are isolated failure domains within a single geographical reg
 
 ## High Availability
 
-The Kubernetes and SAP BTP, Kyma runtime configurations are optimized for production use cases. By operating on a three-availability-zone architecture, Kyma offers the high availability feature within the following enterprise plans:
+The Kubernetes and Kyma runtime on SAP platform configurations are optimized for production use cases. By operating on a three-availability-zone architecture, Kyma offers the high availability feature within the following enterprise plans:
 
 -   [Standard: Amazon Web Services, Google Cloud, Microsoft Azure, and Alibaba Cloud](../50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__section_y4g_qld_hpb)
 -   [Build Runtime: Amazon Web Services, Google Cloud, and Microsoft Azure](../50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md#loiobefe01d5d8864e59bf847fa5a5f3d669__section_hnj_3nz_bfc) 

@@ -2,7 +2,7 @@
 
 # Configure an mTLS Gateway
 
-Learn how to configure mutual TLS \(mTLS\) in SAP BTP, Kyma runtime using Gardener-managed Let's Encrypt server certificates and client certificates that you supply.
+Learn how to configure mutual TLS \(mTLS\) in Kyma runtime on SAP platform using Gardener-managed Let's Encrypt server certificates and client certificates that you supply.
 
 
 

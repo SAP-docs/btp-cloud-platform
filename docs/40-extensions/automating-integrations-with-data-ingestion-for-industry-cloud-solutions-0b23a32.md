@@ -48,7 +48,7 @@ You are a global account administrator, or you are a system landscape administra
 
 ## Procedure
 
-1.  In the *System Landscape* \> *Systems* page of the SAP BTP cockpit, browse the already added systems that are part of the industry cloud solutions published by SAP in your customer system landscape.
+1.  In the *System Landscape* \> *Systems* page of the cockpit, browse the already added systems that are part of the industry cloud solutions published by SAP in your customer system landscape.
 
     The system that is part of the industry cloud solutions published by SAP and that you want to include in this formation must not be part of another formation.
 

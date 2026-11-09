@@ -40,7 +40,7 @@ The root CA bundle used by the cluster must include the CA that signed your Git 
 
 Depending on your environment, take one of the following steps:
 
--   For SAP BTP, Kyma runtime, contact your landscape administrator to ensure the required root CA is included in the cluster's trusted CA bundle.
+-   For Kyma runtime on SAP platform, contact your landscape administrator to ensure the required root CA is included in the cluster's trusted CA bundle.
 -   For a self-managed cluster, add the CA certificate to the cluster's system trust store or configure the relevant node/Pod CA bundle to include the missing CA. Refer to your Kubernetes distribution documentation for the exact procedure.
 
 After the CA bundle is updated, the Serverless manager automatically retries fetching the Git source, and the Function status should return to ***Ready***.

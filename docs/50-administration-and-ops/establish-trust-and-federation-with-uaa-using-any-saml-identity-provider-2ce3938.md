@@ -15,7 +15,7 @@ Integrate trust between the SAP BTP subaccount and any SAML 2.0 identity provide
 > 
 > For more information, see the announcement of December 31, 2024 in the [release notes](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=Authorization+and+Trust+Management+Service&Valid_as_Of=2022-01-01:2050-12-31&locale=en-US).
 
-To establish trust, configure the trust configuration of the SAML 2.0 identity provider in your subaccount using the SAP BTP cockpit. Next, register your subaccount in User Account and Authentication service using the administration console of your SAML 2.0 identity provider. To complete federation, maintain the federation attributes of the SAML 2.0 user groups. This makes sure that you can assign authorizations to user groups.
+To establish trust, configure the trust configuration of the SAML 2.0 identity provider in your subaccount using the cockpit. Next, register your subaccount in User Account and Authentication service using the administration console of your SAML 2.0 identity provider. To complete federation, maintain the federation attributes of the SAML 2.0 user groups. This makes sure that you can assign authorizations to user groups.
 
 <a name="loio8a213ea1a8664e6b96c0593e71339e0e"/>
 
@@ -46,7 +46,7 @@ You want to establish a trust relationship with an SAML 2.0 identity provider in
 
 ## Procedure
 
-1.  Go to your subaccount\(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration* \> ** in the SAP BTP cockpit.
+1.  Go to your subaccount\(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration* \> ** in the cockpit.
 
 2.  Choose *Add SAML Trust*.
 

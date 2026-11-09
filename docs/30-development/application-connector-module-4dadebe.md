@@ -37,7 +37,7 @@ Besides proxying any ingress and egress requests to external systems and dealing
 
 The Application Connector module provides the following features:
 
--   Easy installation of Kyma's Application Connectivity capabilities by enabling the Application Connector module in your SAP BTP, Kyma runtime.
+-   Easy installation of Kyma's Application Connectivity capabilities by enabling the Application Connector module in your Kyma runtime on SAP platform.
 
 -   Simple configuration using Kubernetes CRs and easy management with Kyma dashboard.
 

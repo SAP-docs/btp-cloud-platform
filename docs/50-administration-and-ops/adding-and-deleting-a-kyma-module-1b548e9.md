@@ -86,9 +86,9 @@ If you prefer Kyma CLI, run `kyma module list`.
 **Related Information**  
 
 
-[Kyma Dashboard](../10-concepts/kyma-dashboard-482ae2f.md "Use Kyma dashboard to access various features and functionalities of SAP BTP, Kyma runtime.")
+[Kyma Dashboard](../10-concepts/kyma-dashboard-482ae2f.md "Use Kyma dashboard to access various features and functionalities of Kyma runtime on SAP platform.")
 
-[Kyma CLI](../10-concepts/kyma-cli-292454b.md "Kyma CLI is an essential tool for application developers who want to get started quickly and efficiently with SAP BTP, Kyma runtime. Designed to streamline workflows, it simplifies complex tasks, enabling developers to deploy and manage applications easily.")
+[Kyma CLI](../10-concepts/kyma-cli-292454b.md "Kyma CLI is an essential tool for application developers who want to get started quickly and efficiently with Kyma runtime on SAP platform. Designed to streamline workflows, it simplifies complex tasks, enabling developers to deploy and manage applications easily.")
 
 <a name="task_o3l_vg1_cfc"/>
 
@@ -132,7 +132,7 @@ If you prefer Kyma CLI, run `kyma module list`.
 **Related Information**  
 
 
-[Kyma Dashboard](../10-concepts/kyma-dashboard-482ae2f.md "Use Kyma dashboard to access various features and functionalities of SAP BTP, Kyma runtime.")
+[Kyma Dashboard](../10-concepts/kyma-dashboard-482ae2f.md "Use Kyma dashboard to access various features and functionalities of Kyma runtime on SAP platform.")
 
-[Kyma CLI](../10-concepts/kyma-cli-292454b.md "Kyma CLI is an essential tool for application developers who want to get started quickly and efficiently with SAP BTP, Kyma runtime. Designed to streamline workflows, it simplifies complex tasks, enabling developers to deploy and manage applications easily.")
+[Kyma CLI](../10-concepts/kyma-cli-292454b.md "Kyma CLI is an essential tool for application developers who want to get started quickly and efficiently with Kyma runtime on SAP platform. Designed to streamline workflows, it simplifies complex tasks, enabling developers to deploy and manage applications easily.")
 

@@ -2,7 +2,7 @@
 
 # Additional Information About Cloud Foundry
 
-Links to additional information about Cloud Foundry that is useful to know but not necessarily directly connected to the SAP BTP, Cloud Foundry environment.
+Links to additional information about Cloud Foundry that is useful to know but not necessarily directly connected to the Cloud Foundry environment.
 
 
 

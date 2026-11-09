@@ -31,7 +31,7 @@ For the platform development tools, SDK, Cloud connector, and SAP JVM, see [http
 
 ## Browser Support
 
-For a list of supported browsers for the SAP BTP cockpit, see [Feature Scope Description](https://help.sap.com/doc/5e8107bf49684962b897217040398007/Cloud/en-US/SAP_Cloud_Platform_FSD.pdf).
+For a list of supported browsers for the cockpit, see [Feature Scope Description](https://help.sap.com/doc/5e8107bf49684962b897217040398007/Cloud/en-US/SAP_Cloud_Platform_FSD.pdf).
 
 For a list of supported browsers for developing SAPUI5 applications, see [Browser and Platform Support](https://sapui5.hana.ondemand.com/sdk/#/topic/74b59efa0eef48988d3b716bd0ecc933).
 

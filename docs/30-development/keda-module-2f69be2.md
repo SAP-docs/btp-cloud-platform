@@ -82,3 +82,8 @@ To learn more about the resources used by the Keda module, see [Keda Module's Si
 
 To learn how to scale the Kubernetes workloads using the KEDA API based on a simple CPU consumption case, and how the Keda module can complement other Kyma components, see [Demo Applications](https://github.com/kyma-project/keda-manager/blob/main/docs/user/04-20-demo-applications.md).
 
+**Related Information**  
+
+
+[Configuring Keda Module](configuring-keda-module-3cc1f25.md "By default, the Keda module comes with the default configuration. You can change the configuration using the Keda CustomResourceDefinition (CRD). See how to configure the logging.level attribute, enable the Istio sidecar injection, change resource consumption, define custom annotations, override the minimum TLS version, or enable the KEDA HTTP Add-on.")
+

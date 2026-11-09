@@ -47,7 +47,7 @@ Single logout \(SLO\)
 </td>
 <td valign="top">
 
-For platform users of custom identity providers, logging out from the SAP BTP cockpit \(including Neo cockpit\) terminates the session in the used SAP Cloud Identity Services tenant and sessions of other applications that connect to the same tenant. What is required is that the sessions support this kind of logout. This requirement doesn't apply for other instances of the SAP BTP cockpit except for instances where the user initially logged out from. In this case, sessions remain active.
+For platform users of custom identity providers, logging out from the cockpit \(including Neo cockpit\) terminates the session in the used SAP Cloud Identity Services tenant and sessions of other applications that connect to the same tenant. What is required is that the sessions support this kind of logout. This requirement doesn't apply for other instances of the SAP BTP cockpit except for instances where the user initially logged out from. In this case, sessions remain active.
 
 </td>
 </tr>

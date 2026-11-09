@@ -42,7 +42,7 @@ The authentication to SAP SuccessFactors applications is restricted to the autho
 
 To ensure the required security for accessing the applications, you need to configure the single sign-on between the subaccount in SAP BTP and the SAP SuccessFactors system using a SAML identity provider. The single sign-on requires both solutions to be configured as trusted SAML service providers for the identity provider, and at the same time, the identity provider to be configured as trusted identity provider for the two solutions.
 
-Use a subaccount in SAP BTP with the SAP BTP, Cloud Foundry runtime enabled and follow these steps to set up the single sign-on \(SSO\):
+Use a subaccount in SAP BTP with the Cloud Foundry runtime on SAP platform enabled and follow these steps to set up the single sign-on \(SSO\):
 
 1.  [Configure SAP SuccessFactors as a Trusted Identity Provider in SAP BTP](configure-sap-successfactors-as-a-trusted-identity-provider-in-sap-btp-80a3fd1.md)
 2.  [Configure the Subaccount as a Trusted Service Provider in SAP SuccessFactors](configure-the-subaccount-as-a-trusted-service-provider-in-sap-successfactors-9efe2a1.md)

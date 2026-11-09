@@ -39,7 +39,7 @@ Get an overview about how to create and deploy an SAP Fiori application to Cloud
         -   \(Option 1\) **Discover a Cloud Foundry Service** 
 
             > ### Note:  
-            > You have to log on to your Cloud Foundry space by executing command `cf login`. When you're prompted to enter the API endpoint and org name, you can navigate to your subaccount in the SAP BTP cockpit, where you can find this information.
+            > You have to log on to your Cloud Foundry space by executing command `cf login`. When you're prompted to enter the API endpoint and org name, you can navigate to your subaccount in the cockpit, where you can find this information.
 
         -   \(Option 2\) **Upload a Service Key File**
 

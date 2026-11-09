@@ -26,7 +26,7 @@ You can use the automated integration that allows you to include various SAP sys
 
 A formation is a logical grouping of SAP systems following a business scenario. Formations allow you to combine SAP solution systems to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your integration or extension scenario. There are three formation types: formations for business scenarios, for integrating with a specific service in SAP BTP, and for extensibility.
 
-When creating a formation in the SAP BTP cockpit, you include the systems of the different SAP solutions you want to extend. If your business case features more than one SAP solution system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
+When creating a formation in the cockpit, you include the systems of the different SAP solutions you want to extend. If your business case features more than one SAP solution system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
 
 A formation can have the following status values:
 
@@ -42,7 +42,7 @@ A formation can have the following status values:
 
     The formation has been created but you cannot use it productively yet.
 
-    Based on the formation type and the subaccount that you specified, it might require an SAP BTP Kyma environment instance or an SAP Business Application Studio subscription. Although the SAP BTP cockpit allows you to create such a formation, to enable and make use of it, you must also create the respective instance or subscription.
+    Based on the formation type and the subaccount that you specified, it might require an SAP BTP Kyma environment instance or an SAP Business Application Studio subscription. Although the cockpit allows you to create such a formation, to enable and make use of it, you must also create the respective instance or subscription.
 
 -   *Synchronizing*
 
@@ -55,7 +55,7 @@ A formation can have the following status values:
 
 When you include systems in a formation, these systems are synchronized in the background. If an error occurs, you can resynchronize these systems to restart the synchronization process. To do that, choose *Resynchronize* for the particular formation. You will have this action available only for formations that are in status *Error*.
 
-If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in SAP BTP cockpit and their formation type is *Side-by-Side Extensibility with Kyma*.
+If you want to reconfigure the systems in a formation from scratch without excluding them, you have to choose *Reset and Resynchronize*. You will have this action available only for formations that have no status in cockpit and their formation type is *Side-by-Side Extensibility with Kyma*.
 
 > ### Note:  
 > When registering a system or creating a formation, the data you provide in the given input fields is not encrypted with your customer managed key. The data you enter is only encrypted at rest.
@@ -64,7 +64,7 @@ If you want to reconfigure the systems in a formation from scratch without exclu
 
 ## Procedure
 
-1.  Open the SAP BTP cockpit and navigate to your global account.
+1.  Open the cockpit and navigate to your global account.
 
 2.  Choose *System Landscape* \> *Formations*.
 

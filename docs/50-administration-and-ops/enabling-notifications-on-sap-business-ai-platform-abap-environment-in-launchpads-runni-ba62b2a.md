@@ -10,7 +10,7 @@ Get an overview of the communication scenario `SAP_COM_0683` - Enabling Notifica
 
 ## Prerequisites
 
--   To receive notifications, every user must have the same email configured in the SAP BTP system user management section and in the Identity Provider \(IdP\) used by the launchpad running on SAP BTP, Cloud Foundry environment.
+-   To receive notifications, every user must have the same email configured in the SAP BTP system user management section and in the Identity Provider \(IdP\) used by the launchpad running on Cloud Foundry environment.
 
 -   If you want to deliver push notifications to mobile devices, the target user is identified using the email ID they provided. Currently, it is not possible to use other types of identifiers.
 -   You've generated and noted the following parameters from the launchpad running on SAP BTP:

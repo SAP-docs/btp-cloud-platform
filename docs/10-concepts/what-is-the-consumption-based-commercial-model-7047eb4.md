@@ -9,7 +9,7 @@ With the consumption-based model, your organization purchases an entitlement to 
 
 
 
-The consumption-based commercial model is available in the following flavors: the **SAP BTPEA** **\(SAP BTP Enterprise Agreement\)**, the **CPEA** \(**Cloud Platform Enterprise Agreement**\), and **Pay-As-You-Go for SAP BTP**. Each option is suited to different business situations and levels of financial commitment, as described in the table below. For additional information and clarifications, please contact your account executive.
+The consumption-based commercial model is available in the following flavors: the **SAP BTPEA** **\(SAP BTP Enterprise Agreement\)**, the **CPEA** \(**Cloud Platform Enterprise Agreement**\), and **Pay-As-You-Go**. Each option is suited to different business situations and levels of financial commitment, as described in the table below. For additional information and clarifications, please contact your account executive.
 
 
 <table>
@@ -60,7 +60,7 @@ The consumption-based commercial model is available in the following flavors: th
 <tr>
 <td valign="top">
 
-**Pay-As-You-Go for SAP BTP**
+**Pay-As-You-Go**
 
 </td>
 <td valign="top">
@@ -79,7 +79,7 @@ If you want information about the **Pay-As-You-Go for SAP BTP for cloud test, de
 </table>
 
 > ### Note:  
-> In global accounts that use the consumption-based commercial model, a default runtime memory quota of 200 GB for the standard plan is automatically assigned to every subaccount. This quota represents a limit on how much runtime memory the applications in the subaccount can use at any given time. When you use the standard plan for SAP BTP, Cloud Foundry runtime in the consumption-based commercial model, you're billed based on the amount of runtime memory that has actually been consumed. For more information, see [Service Plans and Metering for Cloud Foundry Runtime](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/service-plans-and-metering-for-cloud-foundry-runtime?version=Cloud) and [Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting#consumption-monitoring).
+> In global accounts that use the consumption-based commercial model, a default runtime memory quota of 200 GB for the standard plan is automatically assigned to every subaccount. This quota represents a limit on how much runtime memory the applications in the subaccount can use at any given time. When you use the standard plan for Cloud Foundry runtime on SAP platform in the consumption-based commercial model, you're billed based on the amount of runtime memory that has actually been consumed. For more information, see [Service Plans and Metering for Cloud Foundry Runtime](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/service-plans-and-metering-for-cloud-foundry-runtime?version=Cloud) and [Consumption Monitoring](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/monitoring-and-troubleshooting#consumption-monitoring).
 > 
 > A global account administrator can change the default quota as described in [\(optional\) Adjusting Runtime Memory Quota for Cloud Foundry Runtime \(Consumption-Based\)](https://help.sap.com/docs/cf-runtime/cloud-foundry-runtime/optional-adjusting-runtime-memory-quota-for-cloud-foundry-runtime?version=Cloud).
 
@@ -88,7 +88,7 @@ If you want information about the **Pay-As-You-Go for SAP BTP for cloud test, de
 
 For information about eligible services and pricing, see [https://www.sap.com/products/technology-platform/pricing.html](https://www.sap.com/products/technology-platform/pricing.html), or access the SAP BTP service catalog via the [SAP Discovery Center](https://discovery-center.cloud.sap). The SAP BTP service catalog allows you to identify service availability per data center and to determine licensing model compatibility per available service plan.
 
-As part of the free tier model for SAP BTP, some services offer free service plans that allow you to try out these services without any additional charge within your SAP BTPEA,CPEA, or Pay-As-You-Go for SAP BTP global account. For more information, see [Using Free Service Plans](using-free-service-plans-524e108.md).
+As part of the free tier model for SAP BTP, some services offer free service plans that allow you to try out these services without any additional charge within your SAP BTPEA,CPEA, or Pay-As-You-Go global account. For more information, see [Using Free Service Plans](using-free-service-plans-524e108.md).
 
 To find frequently asked questions about the consumption-based commercial model, see the *Frequently Asked Questions* section in [https://www.sap.com/products/technology-platform/pricing.html](https://www.sap.com/products/technology-platform/pricing.html) .
 
@@ -100,13 +100,13 @@ To find frequently asked questions about the consumption-based commercial model,
 
 [What Is the Subscription-Based Commercial Model?](what-is-the-subscription-based-commercial-model-239b6e0.md "Your organization receives a fixed price and period (typically a 1 to 3-year period) for access to your subscribed SAP BTP services.")
 
-[Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.")
+[Monitoring Usage and Consumption Costs in Your Global Account](../50-administration-and-ops/monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.")
 
 [View Subaccount Usage Analytics](../50-administration-and-ops/view-subaccount-usage-analytics-8f4d9db.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your subaccount.")
 
 [Managing Global Accounts Using the Cockpit](../50-administration-and-ops/managing-global-accounts-using-the-cockpit-667f34b.md "Your SAP BTP global account is the entry point for managing the resources, landscape, and entitlements for your departments and projects in a self-service manner.")
 
-[Managing Directories Using the Cockpit](../50-administration-and-ops/managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.")
+[Managing Directories Using the Cockpit](../50-administration-and-ops/managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the cockpit.")
 
 [Managing Subaccounts Using the Cockpit](../50-administration-and-ops/managing-subaccounts-using-the-cockpit-55d0b6d.md "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.")
 

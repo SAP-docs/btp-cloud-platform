@@ -2,7 +2,7 @@
 
 # Creating Kyma Instances
 
-Set up a Kubernetes cluster with SAP BTP, Kyma runtime and use it to build applications and extensions to your SAP and third-party solutions. You can create one or multiple Kyma clusters in a single SAP BTP subaccount.
+Set up a Kubernetes cluster with Kyma runtime on SAP platform and use it to build applications and extensions to your SAP and third-party solutions. You can create one or multiple Kyma clusters in a single SAP BTP subaccount.
 
 
 
@@ -20,7 +20,7 @@ Your subaccount has entitlements for Kyma runtime configured. See [Configure Ent
 
 To set up Kyma environment in your subaccount, you must create an instance of it. You can create it from your subaccount *Overview* section by choosing *Enable Kyma* and following the wizard steps to configure the provisioning parameters. You can also create a Kyma environment instance from *Service Marketplace* in the same way as any other SAP BTP service or application.
 
-If you prefer to work in a terminal or want to automate operations using scripts, you can create Kyma environment with the SAP BTP command line interface \(btp CLI\). See [Enable SAP BTP, Kyma Runtime Using the Command Line](https://developers.sap.com/tutorials/btp-cli-setup-kyma-cluster.html).
+If you prefer to work in a terminal or want to automate operations using scripts, you can create Kyma environment with the SAP BTP command line interface \(btp CLI\). See [Enable Kyma Runtime on SAP Platform Using the Command Line](https://developers.sap.com/tutorials/btp-cli-setup-kyma-cluster.html).
 
 In the process of provisioning a Kyma cluster, an instance of SAP Service Manager is created \(see [Credentials](../30-development/preconfigured-credentials-and-access-ab106d7.md#loioab106d78f9704b10b7c46a8de880da9c__section_uyv_vfq_tcc)\). Therefore, each Kyma instance has an instance of Service Manager assigned to it. If you have multiple Kyma clusters in your subaccount, you can easily trace which Service Manager instance is assigned to which Kyma instance by the Service Manager instance's display name, which is the same as its matching Kyma instance's ID.
 
@@ -28,7 +28,7 @@ In the process of provisioning a Kyma cluster, an instance of SAP Service Manage
 > If the creation of an SAP Service Manager instance is unsuccessful, Kyma provisioning cannot begin. If the situation persists, create a support ticket \(see [Getting Support](https://help.sap.com/docs/btp/sap-business-technology-platform/btp-getting-support?locale=en-US&version=Cloud)\).
 
 > ### Note:  
-> To indicate that your SAP BTP, Kyma runtime is used for production, select *Used for production* in your subaccount details. This setting allows Kyma runtime operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).
+> To indicate that your Kyma runtime on SAP platform is used for production, select *Used for production* in your subaccount details. This setting allows Kyma runtime operators to prioritize incidents and support cases affecting production subaccounts over subaccounts used for non-production purposes. See [Change Subaccount Details](change-subaccount-details-567d4a8.md).
 
 
 
@@ -36,7 +36,7 @@ In the process of provisioning a Kyma cluster, an instance of SAP Service Manage
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, navigate to your subaccount *Overview*.
+1.  In the cockpit, navigate to your subaccount *Overview*.
 
 2.  In the *Kyma Environment* section, choose *Enable Kyma* when creating your first Kyma instance. When provisioning the second and subsequent Kyma clusters, choose *Create*.
 
@@ -105,5 +105,5 @@ You have created a Kyma environment instance. If needed, you can repeat the proc
 
 [Adding and Deleting a Kyma Module](adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, delete it to save resources.")
 
-[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (BTP CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the SAP BTP cockpit for users who like to work in a terminal or want to automate operations using scripts.")
+[Account Administration Using the SAP BTP Command Line Interface \(btp CLI\)](account-administration-using-the-sap-btp-command-line-interface-btp-cli-7c6df2d.md "Use the SAP BTP command line interface (btp CLI) for all account administration tasks, such as creating or updating subaccounts, authorization management, and working with service brokers and platforms. It is an alternative to the cockpit for users who like to work in a terminal or want to automate operations using scripts.")
 

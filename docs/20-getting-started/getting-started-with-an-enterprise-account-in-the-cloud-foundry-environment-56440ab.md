@@ -4,7 +4,7 @@
 
 Quickly get started with an enterprise account in the Cloud Foundry Environment.
 
-This topic focuses on how to get started with a customer or partner account using the SAP BTP cockpit. However, you can also perform these tasks using the CLI. See [Setting Up a Global Account via the Command Line](setting-up-a-global-account-via-the-command-line-accd5b2.md).
+This topic focuses on how to get started with a customer or partner account using the cockpit. However, you can also perform these tasks using the CLI. See [Setting Up a Global Account via the Command Line](setting-up-a-global-account-via-the-command-line-accd5b2.md).
 
 
 
@@ -16,7 +16,7 @@ This topic focuses on how to get started with a customer or partner account usin
 
 1.  After you've received your logon data by email, create subaccounts in your global account. This allows you to further break down your account model and structure it according to your business needs. See [Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md).
 
-2.  If you haven't done so already, now is a good time to download and install the Cloud Foundry Command Line Interface \(cf CLI\). This tool allows you to administer and configure your environment, enable services, and deploy applications. See [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md). But don't worry, you can also perform all the necessary task using the SAP BTP cockpit, which you don't need to install.
+2.  If you haven't done so already, now is a good time to download and install the Cloud Foundry Command Line Interface \(cf CLI\). This tool allows you to administer and configure your environment, enable services, and deploy applications. See [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md). But don't worry, you can also perform all the necessary task using the cockpit, which you don't need to install.
 3.  If you'd like to use the cf CLI, log on to your environment. See [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md).
 4.  Create a Cloud Foundry organization in each of your subaccounts. See [Create Orgs](../50-administration-and-ops/create-orgs-a9b1f54.md)
 5.  Create spaces. See [Create Spaces](../50-administration-and-ops/create-spaces-2f6ed22.md).

@@ -9,8 +9,8 @@ is a preconfigured [Istio Gateway CR](https://istio.io/latest/docs/reference/con
 > 
 > For instructions on how to set up a custom gateway, see the following topics:
 > 
-> -   For TLS, see [Configure a TLS Gateway in SAP BTP, Kyma Runtime](kyma-gateway-f515bd7.md).
-> -   For mutual TLS \(mTLS\), see [Mutual TLS Authentication](kyma-gateway-f515bd7.md) and [Configure mTLS Authentication in SAP BTP, Kyma Runtime](kyma-gateway-f515bd7.md).
+> -   For TLS, see [Configure a TLS Gateway in Kyma Runtime on SAP Platform](kyma-gateway-f515bd7.md).
+> -   For mutual TLS \(mTLS\), see [Mutual TLS Authentication](kyma-gateway-f515bd7.md) and [Configure mTLS Authentication in Kyma Runtime on SAP Platform](kyma-gateway-f515bd7.md).
 
 
 
@@ -22,11 +22,11 @@ Kyma Gateway is configured with the following settings:
 
 -   It listens on port *443* \(HTTPS\) using TLS mode *SIMPLE*, with a TLS credential supplied from the `kyma-gateway-certs` Secret in the `istio-system` namespace.
 -   It listens on port *80* \(HTTP\) and automatically redirects all HTTP requests to HTTPS \(responds with a *301* status code\).
--   It serves all hosts matching the wildcard `*.{domain}`, where `{domain}` is the cluster domain resolved at reconciliation time. In an SAP BTP, Kyma runtime cluster, Kyma Gateway uses the Gardener Shoot domain.
+-   It serves all hosts matching the wildcard `*.{domain}`, where `{domain}` is the cluster domain resolved at reconciliation time. In an Kyma runtime on SAP platform cluster, Kyma Gateway uses the Gardener Shoot domain.
 -   The gateway selector targets the default Istio ingress gateway \(`app: istio-ingressgateway`, `istio: ingressgateway`\).
 -   The `istio-healthz` VirtualService is reconciled in the `istio-system` namespace. It exposes the Istio readiness endpoint at `healthz.{GARDENER_SHOOT_DOMAIN}/healthz/ready` through Kyma Gateway.
 
-![Architecture diagram showing Kyma Gateway resources in SAP BTP, Kyma Runtime. The kube-system namespace contains the shoot-info ConfigMap. The kyma-system namespace contains the kyma-gateway Istio Gateway and kyma-gateway Gardener DNSEntry. The istio-system namespace contains the kyma-tls-cert Gardener Certificate, kyma-gateway-certs Secrets, istio-ingressgateway Service, and istio-healthz VirtualService. Arrows show relationships: the ConfigMap provides cluster domain information, the DNSEntry retrieves Ingress IP from the Service, and the Certificate manages the Secrets.](images/API_Gateway_Architecture_401fe29.png)
+![Architecture diagram showing Kyma Gateway resources in Kyma Runtime on SAP Platform. The kube-system namespace contains the shoot-info ConfigMap. The kyma-system namespace contains the kyma-gateway Istio Gateway and kyma-gateway Gardener DNSEntry. The istio-system namespace contains the kyma-tls-cert Gardener Certificate, kyma-gateway-certs Secrets, istio-ingressgateway Service, and istio-healthz VirtualService. Arrows show relationships: the ConfigMap provides cluster domain information, the DNSEntry retrieves Ingress IP from the Service, and the Certificate manages the Secrets.](images/API_Gateway_Architecture_401fe29.png)
 
 
 

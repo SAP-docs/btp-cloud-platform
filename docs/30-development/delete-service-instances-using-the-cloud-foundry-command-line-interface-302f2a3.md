@@ -68,7 +68,7 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to delete servic
 **Related Information**  
 
 
-[About Services](about-services-d1d0fc8.md "In the Cloud Foundry environment, you usually enable services by creating a service instance using either the SAP BTP cockpit or the Cloud Foundry command line interface (cf CLI), and binding that instance to your application.")
+[About Services](about-services-d1d0fc8.md "In the Cloud Foundry environment, you usually enable services by creating a service instance using either the cockpit or the Cloud Foundry command line interface (cf CLI), and binding that instance to your application.")
 
-[Deleting Service Instances](deleting-service-instances-aa0d25a.md "Use the SAP BTP cockpit or the Cloud Foundry Command Line Interface to delete service instances:")
+[Deleting Service Instances](deleting-service-instances-aa0d25a.md "Use the cockpit or the Cloud Foundry Command Line Interface to delete service instances:")
 

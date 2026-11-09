@@ -46,7 +46,7 @@ If you need further assistance with creating and deploying an application, check
                 From the ABAP environment drop-down menu, choose a service instance.
 
                 > ### Note:  
-                > You have to log on to your Cloud Foundry space by executing command `cf login` in the terminal or by navigating to *View* \> *Find Command* \> *CF: Login to Cloud Foundry*. When you're prompted to enter the API endpoint, org name, and space, you can navigate to your subaccount in the SAP BTP cockpit, where you can find this information.
+                > You have to log on to your Cloud Foundry space by executing command `cf login` in the terminal or by navigating to *View* \> *Find Command* \> *CF: Login to Cloud Foundry*. When you're prompted to enter the API endpoint, org name, and space, you can navigate to your subaccount in the cockpit, where you can find this information.
 
 
         -   Continue with choosing a service.

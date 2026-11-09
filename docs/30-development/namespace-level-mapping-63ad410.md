@@ -10,7 +10,7 @@ You can map a Kubernetes namespace to an SAP Service Manager instance in a given
 
 ## Prerequisites
 
--   A subaccount in the SAP BTP cockpit.
+-   A subaccount in the cockpit.
 
 -   You have the SAP BTP Operator module in your cluster. See [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c).
 
@@ -41,7 +41,7 @@ To connect a namespace to a specific subaccount, maintain the access credentials
 
 2.  Create a service binding to the SAP Service Manager service instance you have created. See [Creating Service Bindings in Other Environments](https://help.sap.com/docs/service-manager/sap-service-manager/creating-service-bindings-in-other-environments?locale=en-US&version=Cloud).
 
-3.  Get the access credentials of the SAP Service Manager instance from its service binding. Copy them from the SAP BTP cockpit as a JSON file.
+3.  Get the access credentials of the SAP Service Manager instance from its service binding. Copy them from the cockpit as a JSON file.
 
 4.  Create the `creds.json` file in your working directory and save the credentials there.
 

@@ -23,7 +23,7 @@ To configure the subaccount as a trusted service provider in SAP SuccessFactors,
 
 ## Context
 
-With the SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan, you can create automatically an assertion consumer service in SAP SuccessFactors for the subaccount in which this service instance is created and a logout URL for each extension application you have deployed in SAP BTP that is extending the functionality of the registered SAP SuccessFactors system. To create an assertion consumer service, you either go to the SAP SuccessFactors Provisioning and create these assertion consumer services manually, or create them automatically in the SAP BTP cockpit via an SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan without loggin in to the Provisioning.
+With the SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan, you can create automatically an assertion consumer service in SAP SuccessFactors for the subaccount in which this service instance is created and a logout URL for each extension application you have deployed in SAP BTP that is extending the functionality of the registered SAP SuccessFactors system. To create an assertion consumer service, you either go to the SAP SuccessFactors Provisioning and create these assertion consumer services manually, or create them automatically in the cockpit via an SAP SuccessFactors Extensibility service instance using the *sso-configuration* service plan without loggin in to the Provisioning.
 
 To create an assertion consumer service automatically, you create an SAP SuccessFactors Extensibility service instance of plan *sso-configuration* providing all the necessary information in a JSON file. You can have only one service instance of plan *sso-configuration* per subaccount.
 
@@ -51,7 +51,7 @@ When you delete the SAP SuccessFactors Extensibility service instance of plan *s
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, navigate to the subaccount in which you want to create a service instance.
+1.  In the cockpit, navigate to the subaccount in which you want to create a service instance.
 
 2.  In the navigation area, choose *Services* \> *Service Marketplace*.
 

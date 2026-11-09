@@ -2,7 +2,7 @@
 
 # About Services
 
-In the Cloud Foundry environment, you usually enable services by creating a service instance using either the SAP BTP cockpit or the Cloud Foundry command line interface \(cf CLI\), and binding that instance to your application.
+In the Cloud Foundry environment, you usually enable services by creating a service instance using either the cockpit or the Cloud Foundry command line interface \(cf CLI\), and binding that instance to your application.
 
 In a PaaS environment, all external dependencies, such as databases, messaging systems, files systems, and so on, are services. In the Cloud Foundry environment, services are offered in a marketplace, from which users can create service instances on-demand. A service instances is a single instantiation of a service running on SAP BTP. Service instances are created using a specific service plan. A service plan is a configuration variant of a service. For example, a database may be configured with various "t-shirt sizes", each of which is a different service plan.
 
@@ -28,9 +28,9 @@ For more conceptual information about using services in the Cloud Foundry enviro
 **Related Information**  
 
 
-[Creating Service Instances](creating-service-instances-8221b74.md "Use the SAP BTP cockpit or the Cloud Foundry Command Line Interface to create service instances:")
+[Creating Service Instances](creating-service-instances-8221b74.md "Use the cockpit or the Cloud Foundry Command Line Interface to create service instances:")
 
-[Binding Service Instances to Applications](binding-service-instances-to-applications-e98280a.md "Use the SAP BTP cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:")
+[Binding Service Instances to Applications](binding-service-instances-to-applications-e98280a.md "Use the cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:")
 
 [Creating Service Keys](creating-service-keys-4514a14.md "You can use service keys to generate credentials to communicate directly with a service instance. Once you configure them for your service, local clients, apps in other spaces, or entities outside your deployment can access your service with these keys.")
 

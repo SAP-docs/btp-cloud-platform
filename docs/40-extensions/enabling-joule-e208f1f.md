@@ -13,7 +13,7 @@
 
 Leveraging its generative AI capabilities, Joule aims to understand your requests, retrieve information, and complete your tasks in a conversational way. You can describe the current task to Joule, who can help automate tasks or take you to places where you can find desired data. By using Joule, you can easily interact with the system and increase your productivity.
 
-To use Joule in SAP systems, you have to integrate these systems with Joule. To do that, you have to include the SAP systems in a formation of type *Integration with Joule* on the *System Landscape* \> *Formations* page of the SAP BTP cockpit. The integration is between the Joule system and every SAP system in the formation, but not between each and every SAP system.
+To use Joule in SAP systems, you have to integrate these systems with Joule. To do that, you have to include the SAP systems in a formation of type *Integration with Joule* on the *System Landscape* \> *Formations* page of the cockpit. The integration is between the Joule system and every SAP system in the formation, but not between each and every SAP system.
 
 To see which SAP systems are supported, see [Joule Capabilities](https://help.sap.com/docs/JOULE/cfbd4200de484c19ab9b1333acaeb44e/41de8c499c72413c8e134493686a5348.html).
 
@@ -58,12 +58,12 @@ When creating *Integration with Joule* formations, keep in mind the following ru
 
 The following procedure outlines the steps you need to perform to enable the integration between Joule and SAP systems.
 
-As an alternative to the steps that follow, you can use the *Setting Up Joule* booster in the SAP BTP cockpit and have the end-to-end scenario set up. See [Run the Joule Booster](https://help.sap.com/docs/JOULE/6189c8655c484916bb8eb767126a653a/34157c476600476cb9180062db6002af.html?version=CLOUD).
+As an alternative to the steps that follow, you can use the *Setting Up Joule* booster in the cockpit and have the end-to-end scenario set up. See [Run the Joule Booster](https://help.sap.com/docs/JOULE/6189c8655c484916bb8eb767126a653a/34157c476600476cb9180062db6002af.html?version=CLOUD).
 
 > ### Note:  
 > We recommend that you use the *Setting Up Joule* booster.
 
-1.  In the SAP BTP cockpit, in the *System Landscape* \> *Systems* page of the SAP BTP cockpit, browse the already added systems in your customer system landscape or manually add and register any missing systems.
+1.  In the cockpit, in the *System Landscape* \> *Systems* page of the cockpit, browse the already added systems in your customer system landscape or manually add and register any missing systems.
 
     The *Joule* system you are going to include in this formation must not be part of another formation.
 
@@ -75,7 +75,7 @@ As an alternative to the steps that follow, you can use the *Setting Up Joule* b
 
     -   *Subaccount/*<my-subaccount\>**
 
-        A subscription in SAP BTP cockpit associated with a given subaccount. The subscription has been discovered and added automatically through the subaccount. Check the value of the *Discovery* column to see the subaccount where your system is subscribed.
+        A subscription in cockpit associated with a given subaccount. The subscription has been discovered and added automatically through the subaccount. Check the value of the *Discovery* column to see the subaccount where your system is subscribed.
 
     -   *Manually added*
 

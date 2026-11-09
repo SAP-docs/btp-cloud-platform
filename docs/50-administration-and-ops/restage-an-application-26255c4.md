@@ -2,7 +2,7 @@
 
 # Restage an Application
 
-You can use the SAP BTP cockpit to restage an application deployed to the Cloud Foundry environment.
+You can use the cockpit to restage an application deployed to the Cloud Foundry environment.
 
 
 

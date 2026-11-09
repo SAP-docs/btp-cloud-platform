@@ -4,7 +4,7 @@
 
 # Start, Stop, and Restart Applications
 
-You can start and stop applications in the Cloud Foundry environment in the SAP BTP cockpit to control whether they can be accessed by end users.
+You can start and stop applications in the Cloud Foundry environment in the cockpit to control whether they can be accessed by end users.
 
 
 
@@ -36,7 +36,7 @@ The first start of the application occurs when you deploy the app, if enough quo
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, navigate to the *Applications* page in your space.
+1.  In the cockpit, navigate to the *Applications* page in your space.
 
 2.  You can perform these actions either directly from the *Applications* page, or by navigating into your application, to the *Application Overview* page:
 
@@ -110,5 +110,5 @@ The first start of the application occurs when you deploy the app, if enough quo
 **Related Information**  
 
 
-[Deploy an Application](deploy-an-application-09fdb9b.md "You can use the SAP BTP cockpit to deploy a new application in the Cloud Foundry environment.")
+[Deploy an Application](deploy-an-application-09fdb9b.md "You can use the cockpit to deploy a new application in the Cloud Foundry environment.")
 

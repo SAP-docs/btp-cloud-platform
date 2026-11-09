@@ -2,13 +2,13 @@
 
 # Troubleshoot Applications
 
-You can use application events and logs to troubleshoot your application in the SAP BTP cockpit.
+You can use application events and logs to troubleshoot your application in the cockpit.
 
 
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, navigate to the *Applications* page in your Cloud Foundry space.
+1.  In the cockpit, navigate to the *Applications* page in your Cloud Foundry space.
 
 2.  Choose the application whose events or logs you want to manage.
 

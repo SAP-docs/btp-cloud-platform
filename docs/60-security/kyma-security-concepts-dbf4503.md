@@ -2,7 +2,7 @@
 
 # Kyma Security Concepts
 
-SAP BTP, Kyma runtime takes various security measures regarding your cluster and its underlying infrastructure. Benefit from the security setup that SAP BTP, Kyma runtime provides.
+Kyma runtime on SAP platform takes various security measures regarding your cluster and its underlying infrastructure. Benefit from the security setup that Kyma runtime on SAP platform provides.
 
 
 
@@ -168,7 +168,7 @@ Kubernetes worker nodes use a kubectl version higher than 1.12.9 \(V-242396\).
 
 ### Node Operating System
 
-SAP BTP, Kyma runtime uses [Garden Linux](https://github.com/gardenlinux/gardenlinux) as its node operating system. Garden Linux is a Linux distribution with a minimal set of applications optimized for use in containerized environments.
+Kyma runtime on SAP platform uses [Garden Linux](https://github.com/gardenlinux/gardenlinux) as its node operating system. Garden Linux is a Linux distribution with a minimal set of applications optimized for use in containerized environments.
 
 The node operating system in Kyma has the following qualities:
 
@@ -246,7 +246,7 @@ All communication in the Kyma cluster is encrypted using TLS 1.2.
 
 ### Authentication at the API Server
 
-By default, a SAP BTP, Kyma runtime cluster is deployed with a shared tenant of SAP Cloud Identity Services provided by SAP. This identity provider \(IdP\) uses OIDC tokens to authenticate and is configured to enforce multi-factor authentication.
+By default, a Kyma runtime on SAP platform cluster is deployed with a shared tenant of SAP Cloud Identity Services provided by SAP. This identity provider \(IdP\) uses OIDC tokens to authenticate and is configured to enforce multi-factor authentication.
 
 As a best practice, you, the customer, can change the identity provider to one controlled by you. This gives you control over the identity lifecycle of your accounts. For details, see [Configuring a Custom Identity Provider for Kyma](configuring-a-custom-identity-provider-for-kyma-67bcc6e.md).
 
@@ -285,7 +285,7 @@ Kyma worker nodes are distributed over several availability zones in order to pr
 
 ### Kubernetes-Native Audit Logging Configuration
 
-Audit Logging of the Kubernetes API server is active, and the logs are written to SAP Platform Logging Service for SAP BTP.
+Audit Logging of the Kubernetes API server is active, and the logs are written to SAP Platform Logging Service.
 
 The Kubernetes API server fulfills the following DISA STIGs requirements:
 

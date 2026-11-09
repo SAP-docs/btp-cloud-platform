@@ -8,7 +8,7 @@
 
 ## Symptom
 
-If you navigate to your subaccount in the SAP BTP Cockpit, you can't see the Security tab.
+If you navigate to your subaccount in the Cockpit, you can't see the Security tab.
 
 
 
@@ -37,7 +37,7 @@ The creator of the subaccount and the users that should be added must have at le
 
 The creator of the subaccount has to grant the security administrator role. To do this, follow these steps:
 
-1.  Open your SAP BTP Cockpit.
+1.  Open your Cockpit.
 2.  Navigate to your subaccount.
 3.  Choose the **Security** tab and choose **Administrators**.
 4.  Choose **Add Administrators**.

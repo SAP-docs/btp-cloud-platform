@@ -31,7 +31,7 @@ To switch plans, you must update your environment instance.
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, navigate to your subaccount *Instances and Subscriptions*.
+1.  In the cockpit, navigate to your subaccount *Instances and Subscriptions*.
 
 2.  Go to *Environments*, and from the three-dot menu at the end of the Kyma environment row, select *Update*.
 

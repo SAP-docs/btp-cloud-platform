@@ -13,7 +13,7 @@
 
 SAP Collaboration Manager is a chat solution that is integrated into the SAP Fiori launchpad, enabling you to accomplish tasks quickly in your business applications. Collaborate with colleagues on activities, create notes and chats, and share attachments and screenshots.
 
-To set up SAP Collaboration Manager with SAP S/4HANA Cloud on SAP BTP, you need to have all the necessary systems included in a formation of type *Integration with SAP Collaboration Manager* in the *System Landscape* \> *Systems* page of the SAP BTP cockpit.
+To set up SAP Collaboration Manager with SAP S/4HANA Cloud on SAP BTP, you need to have all the necessary systems included in a formation of type *Integration with SAP Collaboration Manager* in the *System Landscape* \> *Systems* page of the cockpit.
 
 > ### Note:  
 > This documentation refers to SAP S/4HANA Cloud Public Edition. See [Introduction to the Universe of SAP S/4HANA Cloud Public Edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).
@@ -54,7 +54,7 @@ When creating *Integration with SAP Collaboration Manager* formations, keep in m
 
 If you have SAP Collaboration Manager set up in your subaccount in SAP BTP, follow these steps to configure the integration between SAP Collaboration Manager and SAP S/4HANA Cloud using a formation of type *Integration with SAP Collaboration Manager*.
 
-As an alternative to the steps that follow, you can use the *SAP Collaboration Manager* booster in the SAP BTP cockpit and have the end-to-end scenario set up. See [Run the SAP Collaboration Manager Booster](https://help.sap.com/docs/SAP%20Collaboration%20Manager/cb0f914082ac49ddac2aecc728117530/b4093f2ed3e747f0b9aaebb946e6e411.html).
+As an alternative to the steps that follow, you can use the *SAP Collaboration Manager* booster in the cockpit and have the end-to-end scenario set up. See [Run the SAP Collaboration Manager Booster](https://help.sap.com/docs/SAP%20Collaboration%20Manager/cb0f914082ac49ddac2aecc728117530/b4093f2ed3e747f0b9aaebb946e6e411.html).
 
 > ### Note:  
 > We recommend that you use the *SAP Collaboration Manager* booster.

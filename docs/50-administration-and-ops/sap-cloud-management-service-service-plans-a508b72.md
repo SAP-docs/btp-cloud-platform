@@ -2,7 +2,7 @@
 
 # SAP Cloud Management Service - Service Plans
 
-Describes the service plans for the SAP Cloud Management service for SAP BTP and the scopes that they provide. The techncial name for this service is `cis`.
+Describes the service plans for the SAP Cloud Management service on SAP platform and the scopes that they provide. The techncial name for this service is `cis`.
 
 
 <table>
@@ -77,7 +77,7 @@ Cloud Management Service
 </td>
 <td valign="top">
 
--   `grantType`: Choose whether to get a Client Credentials or Password grant type token when using the SAP Service Manager API, CLI, or the SAP BTP cockpit to create the service instance of the SAP Cloud Management service \(`cis`\). If you don't specify this parameter, the Password grant type is chosen by default.
+-   `grantType`: Choose whether to get a Client Credentials or Password grant type token when using the SAP Service Manager API, CLI, or the cockpit to create the service instance of the SAP Cloud Management service \(`cis`\). If you don't specify this parameter, the Password grant type is chosen by default.
 -   `directoryId`: ID of a directory to allow directory administrators to use the APIs of the [Accounts and Entitlements services](https://api.sap.com/package/SAPCloudPlatformCoreServices) to perform account management actions, such as creating subaccounts and setting entitlements, in the directory.
 
 For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
@@ -111,7 +111,7 @@ Cloud Management Service
 </td>
 <td valign="top">
 
-`grantType`: Choose whether to get a Client Credentials or Password grant type token when using the SAP Service Manager API, CLI, or the SAP BTP cockpit to create the service instance of the SAP Cloud Management service \(`cis`\). If you don't specify this parameter, the Password grant type is chosen by default. For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
+`grantType`: Choose whether to get a Client Credentials or Password grant type token when using the SAP Service Manager API, CLI, or the cockpit to create the service instance of the SAP Cloud Management service \(`cis`\). If you don't specify this parameter, the Password grant type is chosen by default. For more information, see [Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md).
 
 </td>
 </tr>
@@ -217,5 +217,5 @@ For information about assigning these plans to a subaccount, see [Managing Entit
 **Related Information**  
 
 
-[Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md "The APIs of the SAP Cloud Management service for SAP BTP are protected with the OAuth 2.0 Password grant type and, in some cases, also the Client Credentials grant type. This procedure guides you through the steps to create an OAuth client and obtain an access token from SAP Authorization and Trust Management service (xsuaa) to call the APIs of the SAP Cloud Management service.")
+[Getting an Access Token for SAP Cloud Management Service APIs](getting-an-access-token-for-sap-cloud-management-service-apis-3670474.md "The APIs of the SAP Cloud Management service on SAP platform are protected with the OAuth 2.0 Password grant type and, in some cases, also the Client Credentials grant type. This procedure guides you through the steps to create an OAuth client and obtain an access token from SAP Authorization and Trust Management service (xsuaa) to call the APIs of the SAP Cloud Management service.")
 

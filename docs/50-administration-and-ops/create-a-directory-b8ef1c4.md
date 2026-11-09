@@ -4,7 +4,7 @@
 
 # Create a Directory
 
-Create a directory using the SAP BTP cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.
+Create a directory using the cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.
 
 
 
@@ -90,11 +90,11 @@ Once you've created a directory, you can perform the following actions:
 
 [Directories](../10-concepts/account-model-8ed4a70.md#loioa92721fc75524ec09a7a7255997dbd94 "With directories, you can organize and manage your subaccounts according to your technical and business needs.")
 
-[Manage the Account Explorer Hierarchy](manage-the-account-explorer-hierarchy-2e2a5b6.md "Create an account structure by creating a hierarchy of directories and subaccounts using the SAP BTP cockpit. Add, move, and delete subaccounts and directories in your structure.")
+[Manage the Account Explorer Hierarchy](manage-the-account-explorer-hierarchy-2e2a5b6.md "Create an account structure by creating a hierarchy of directories and subaccounts using the cockpit. Add, move, and delete subaccounts and directories in your structure.")
 
-[Manage Users in Directories](manage-users-in-directories-ff4d4a4.md "Manage members in your directory using the SAP BTP cockpit.")
+[Manage Users in Directories](manage-users-in-directories-ff4d4a4.md "Manage members in your directory using the cockpit.")
 
-[Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Directories](configure-entitlements-and-quotas-for-directories-37f8871.md "Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using cockpit.")
 
 [View Directory Usage Analytics](view-directory-usage-analytics-a287782.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.")
 

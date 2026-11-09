@@ -2,7 +2,7 @@
 
 # Service Plans and Metering for SAP Business AI Platform, ABAP environment
 
-This page explains the relationship between the service plans of the SAP Discovery Center and the service plans of the SAP BTP cockpit and provides information to help you understand how the service is billed.
+This page explains the relationship between the service plans of the SAP Discovery Center and the service plans of the cockpit and provides information to help you understand how the service is billed.
 
 
 
@@ -21,7 +21,7 @@ This page explains the relationship between the service plans of the SAP Discove
 
 
 
-### SAP BTP Cockpit: Service Plans
+### Cockpit: Service Plans
 
 
 <table>

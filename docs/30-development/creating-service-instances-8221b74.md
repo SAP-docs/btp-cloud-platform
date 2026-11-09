@@ -2,7 +2,7 @@
 
 # Creating Service Instances
 
-Usethe SAP BTP cockpit or the Cloud Foundry Command Line Interface to create service instances:
+Usethe cockpit or the Cloud Foundry Command Line Interface to create service instances:
 
 -   [Create Service Instances Using the Cockpit](create-service-instances-using-the-cockpit-5516f91.md)
 

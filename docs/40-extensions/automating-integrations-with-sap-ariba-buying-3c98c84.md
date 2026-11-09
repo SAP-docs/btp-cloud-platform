@@ -13,7 +13,7 @@
 
 SAP Ariba Buying offers procurement users a unique buying experience through a guided process. SAP Ariba Buying provides buyers an easy process to shop for items. Buyers can search for, view and purchase items that are available in the connected shopping sites, or request items from suppliers. SAP Ariba Buying also helps buyers to track their purchase requests.
 
-To set up SAP Ariba Buying with SAP S/4HANA Cloud on SAP BTP you need to have all the necessary systems included in a formation of type *Integration with SAP Ariba Buying* in the *System Landscape* \> *Systems* page of the SAP BTP cockpit.
+To set up SAP Ariba Buying with SAP S/4HANA Cloud on SAP BTP you need to have all the necessary systems included in a formation of type *Integration with SAP Ariba Buying* in the *System Landscape* \> *Systems* page of the cockpit.
 
 > ### Note:  
 > This documentation refers to SAP S/4HANA Cloud Public Edition. See [Introduction to the Universe of SAP S/4HANA Cloud Public Edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).
@@ -41,7 +41,7 @@ When creating *Integration with SAP Ariba Buying* formations, keep in mind the f
 
 -   You have an Identity Authentication tenant. See [Indentity Authentication: Initial Setup](https://help.sap.com/docs/identity-authentication/identity-authentication/initial-setup?version=Cloud).
 
--   \(Optional: if you are using the *Set Up SAP Ariba Buying* booster in the SAP BTP cockpit, this step will be automatically done by the booster.\) Check that you have a system of type *SAP Ariba Buying* in the *Systems* page. This system is added through a subscription in SAP BTP cockpit associated with a given subaccount. The subscription has been discovered and added automatically through the subaccount. To have a system of type *SAP Ariba Buying* in the *Systems* page, you need to:
+-   \(Optional: if you are using the *Set Up SAP Ariba Buying* booster in the cockpit, this step will be automatically done by the booster.\) Check that you have a system of type *SAP Ariba Buying* in the *Systems* page. This system is added through a subscription in cockpit associated with a given subaccount. The subscription has been discovered and added automatically through the subaccount. To have a system of type *SAP Ariba Buying* in the *Systems* page, you need to:
 
     -   You have subscribed to SAP Ariba Buying. See [Get a Subscription to SAP Ariba Buying](https://help.sap.com/docs/SAP_Ariba_Buying/28baac3abbeb4ea1a5ab25033f326c44/f8ff8be8a53a4f66965aaa86016cb18c.html).
 
@@ -66,7 +66,7 @@ When creating *Integration with SAP Ariba Buying* formations, keep in mind the f
 
 If you have SAP Ariba Buying set up in your subaccount in SAP BTP, follow these steps to configure the integration between SAP Ariba Buying and SAP S/4HANA Cloud using a formation of type *Integration with SAP Ariba Buying*.
 
-If you want to have the end-to-end setup automatically, including creating the formation, use the *Set Up SAP Ariba Buying* booster in the SAP BTP cockpit to guide you through the steps to configure SAP Ariba Buying in your subaccount and integrate it with SAP S/4HANA Cloud.
+If you want to have the end-to-end setup automatically, including creating the formation, use the *Set Up SAP Ariba Buying* booster in the cockpit to guide you through the steps to configure SAP Ariba Buying in your subaccount and integrate it with SAP S/4HANA Cloud.
 
 1.  In the *Systems* page, find the systems of type *SAP Ariba Buying* and *SAP S/4HANA Cloud* that you want to include in a formation.
 

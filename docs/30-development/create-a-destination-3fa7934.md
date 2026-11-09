@@ -12,7 +12,7 @@ If your business application uses external services, you have to set up a destin
 
 ## Creating a Destination in Your Subaccount
 
-1.  Log on to the SAP BTP cockpit and navigate to your subaccount.
+1.  Log on to the cockpit and navigate to your subaccount.
 2.  In the navigation area, go to *Connectivity* \> *Destinations* and select *New Destination*.
 3.  Set up your destination and select *Save*. For more information, see [Create Destinations from Scratch](https://help.sap.com/docs/connectivity/sap-btp-connectivity-cf/create-destinations-from-scratch?version=Cloud).
 

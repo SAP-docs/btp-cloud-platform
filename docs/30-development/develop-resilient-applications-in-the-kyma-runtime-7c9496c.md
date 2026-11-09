@@ -2,7 +2,7 @@
 
 # Develop Resilient Applications in the Kyma Runtime
 
-All SAP BTP, Kyma runtime production plans ensure high availability. To benefit from the high-availability setup, make sure the architecture and deployment of your application comply with resiliency best practices. Use the following guidelines for Kubernetes and microservice-based applications to develop a stable application. Read further to find some Istio-related resiliency tips.
+All Kyma runtime on SAP platform production plans ensure high availability. To benefit from the high-availability setup, make sure the architecture and deployment of your application comply with resiliency best practices. Use the following guidelines for Kubernetes and microservice-based applications to develop a stable application. Read further to find some Istio-related resiliency tips.
 
 
 
@@ -18,9 +18,9 @@ To develop resilient applications deployed on Kubernetes, use:
 
 -   The [Keda Module](keda-module-2f69be2.md) or [Kubernetes autoscaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/) to automatically adjust the number of replicas based on resource usage.
 
--   [Rolling updates](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/) to minimize downtime during application updates. If you don't provide any configuration, rolling updates are by default enabled in your SAP BTP, Kyma runtime.
+-   [Rolling updates](https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/) to minimize downtime during application updates. If you don't provide any configuration, rolling updates are by default enabled in your Kyma runtime on SAP platform.
 
--   SAP BTP backing services, such as [PostgreSQL](https://help.sap.com/docs/postgresql-hyperscaler-option/postgresql-on-sap-btp-hyperscaler-option/what-is-postgresql-hyperscaler-option) or [Object Store](https://help.sap.com/docs/object-store/object-store-service-on-sap-btp/what-is-object-store) on SAP BTP. If you have to store some application data on SAP BTP, Kyma runtime, use persistent storage to ensure data is not lost in the event of a pod failure.
+-   SAP BTP backing services, such as [PostgreSQL](https://help.sap.com/docs/postgresql-hyperscaler-option/postgresql-on-sap-btp-hyperscaler-option/what-is-postgresql-hyperscaler-option) or [Object Store](https://help.sap.com/docs/object-store/object-store-service-on-sap-btp/what-is-object-store) on SAP BTP. If you have to store some application data on Kyma runtime on SAP platform, use persistent storage to ensure data is not lost in the event of a pod failure.
 
 -   [Resource quotas](https://kubernetes.io/docs/concepts/policy/resource-quotas/) to prevent resource starvation and ensure fair resource allocation.
 
@@ -60,7 +60,7 @@ The [Istio Module](istio-module-26ffe00.md) and Istio traffic management feature
 
 [Improve resiliency of your applications deployed on Kyma runtime by using multiple availability zones](https://blogs.sap.com/2022/11/02/improve-resiliency-of-your-applications-deployed-on-kyma-runtime-by-using-multiple-availability-zones/)
 
-[Developing enterprise-grade applications with mutual TLS easy with SAP BTP, Kyma runtime and SAP BTP destinations](https://community.sap.com/t5/technology-blogs-by-sap/developing-enterprise-grade-applications-with-mutual-tls-easy-with-sap-btp/ba-p/13580304)
+[Developing enterprise-grade applications with mutual TLS easy with Kyma runtime on SAP platform and SAP BTP destinations](https://community.sap.com/t5/technology-blogs-by-sap/developing-enterprise-grade-applications-with-mutual-tls-easy-with-sap-btp/ba-p/13580304)
 
 [SAP BTP Kyma API Rules with destinations and a managed approuter](https://community.sap.com/t5/technology-blogs-by-sap/sap-btp-kyma-api-rules-with-destinations-and-a-managed-approuter/ba-p/13581367)
 

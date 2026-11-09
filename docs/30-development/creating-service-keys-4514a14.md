@@ -4,7 +4,7 @@
 
 You can use service keys to generate credentials to communicate directly with a service instance. Once you configure them for your service, local clients, apps in other spaces, or entities outside your deployment can access your service with these keys.
 
-You can usethe SAP BTP cockpit or the Cloud Foundry Command Line Interface to create service keys:
+You can usethe cockpit or the Cloud Foundry Command Line Interface to create service keys:
 
 -   [Create Service Keys Using the Cockpit](create-service-keys-using-the-cockpit-cdf4f20.md)
 

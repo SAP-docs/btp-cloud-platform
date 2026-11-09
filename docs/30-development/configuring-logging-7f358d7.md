@@ -59,7 +59,7 @@ kubectl logs -n kyma-system -l app.kubernetes.io/name=keda-manager
 
 <!-- concept\_wxb\_jhd\_k3c -->
 
-## Configure the Keda Module Components Logging
+## Configure Keda Module Components Logging
 
 > ### Remember:  
 > Applying logging configuration changes to the `operator`, `metrics-server`, and `admission-webhooks` components triggers a restart to apply the new settings.

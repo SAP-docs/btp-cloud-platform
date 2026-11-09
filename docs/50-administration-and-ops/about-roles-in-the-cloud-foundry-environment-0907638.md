@@ -4,7 +4,7 @@
 
 Roles determine which features users can view and access, and which actions they can initiate.
 
-Cloud Foundry includes predefined roles that are specific to the navigation level in the SAP BTP cockpit; for example, the roles at the level of the organization differ from the ones for the space. Each role comes with a set of permissions. Roles apply to all operations that are associated with the organization or the space, irrespective of the tool used \(Eclipse-based tools, SAP BTP cockpit, and cf CLI\).
+Cloud Foundry includes predefined roles that are specific to the navigation level in the cockpit; for example, the roles at the level of the organization differ from the ones for the space. Each role comes with a set of permissions. Roles apply to all operations that are associated with the organization or the space, irrespective of the tool used \(Eclipse-based tools, cockpit, and cf CLI\).
 
 The following roles can be assigned to users in the Cloud Foundry environment on SAP BTP:
 

@@ -110,5 +110,5 @@ In the [SAP Discovery Center service catalog overview](https://discovery-center.
 
 [Getting Started with a Trial Account in the Cloud Foundry Environment](../20-getting-started/getting-started-with-a-trial-account-in-the-cloud-foundry-environment-e50ab7b.md "Quickly get started with a trial account.")
 
-[Getting Started with a Trial Kyma Instance](../20-getting-started/getting-started-with-a-trial-kyma-instance-ccb83c7.md "Get started with a trial SAP BTP, Kyma runtime instance, and explore its features and capabilities.")
+[Getting Started with a Trial Kyma Instance](../20-getting-started/getting-started-with-a-trial-kyma-instance-ccb83c7.md "Get started with a trial Kyma runtime on SAP platform instance, and explore its features and capabilities.")
 

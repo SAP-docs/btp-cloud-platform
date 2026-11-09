@@ -12,7 +12,7 @@ API Gateway is a Kyma module with which you can expose and secure APIs.
 
 To use the API Gateway module, you must also add the Istio module. Moreover, to expose a workload using the `APIRule` custom resource \(CR\), the workload must be part of the Istio service mesh.
 
-By default, both the API Gateway and Istio modules are automatically added when you create a SAP BTP, Kyma runtime instance.
+By default, both the API Gateway and Istio modules are automatically added when you create a Kyma runtime on SAP platform instance.
 
 
 

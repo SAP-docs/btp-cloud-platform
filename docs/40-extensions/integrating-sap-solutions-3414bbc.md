@@ -2,7 +2,7 @@
 
 # Integrating SAP Solutions
 
-You can integrate several systems and services as part of the common business scenario. To do that, you create a formation in the SAP BTP cockpit that includes all systems that the scenario requires.
+You can integrate several systems and services as part of the common business scenario. To do that, you create a formation in the cockpit that includes all systems that the scenario requires.
 
 A formation is a logical grouping of SAP systems that can be integrated as part of a business scenario. Formations allow you to combine SAP solution systems to simplify the connectivity setup and to provide a unified view of all components required for the implementation of your integration or extension scenario. To create a fully functional formation, you have to include SAP solution systems. You do this configuration once and you can change it anytime.
 

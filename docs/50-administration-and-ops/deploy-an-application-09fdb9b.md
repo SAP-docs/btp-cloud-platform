@@ -2,7 +2,7 @@
 
 # Deploy an Application
 
-You can use the SAP BTP cockpit to deploy a new application in the Cloud Foundry environment.
+You can use the cockpit to deploy a new application in the Cloud Foundry environment.
 
 
 

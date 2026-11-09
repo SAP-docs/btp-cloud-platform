@@ -13,7 +13,7 @@ Learn about the different account administration and application operation tasks
 
 -   [Org Administration Using the Cockpit](org-administration-using-the-cockpit-c4c25cc.md)
 
--   [Org Management Using the SAP BTP Command Line Interface \(BTP CLI\)](org-management-using-the-sap-btp-command-line-interface-btp-cli-aee40e1.md)
+-   [Org Management Using the SAP BTP Command Line Interface \(btp CLI\)](org-management-using-the-sap-btp-command-line-interface-btp-cli-aee40e1.md)
 
 -   [Org Administration Using the Cloud Foundry CLI](org-administration-using-the-cloud-foundry-cli-927377f.md)
 -   [Application Operations in the Cloud Foundry Environment](application-operations-in-the-cloud-foundry-environment-0f1286a.md)
@@ -27,11 +27,11 @@ Learn about the different account administration and application operation tasks
 **Related Information**  
 
 
-[Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the SAP BTP, Cloud Foundry runtime service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
+[Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the Cloud Foundry runtime on SAP platform service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
 
 [Getting Started in the Cloud Foundry Environment](../20-getting-started/getting-started-in-the-cloud-foundry-environment-b328cc8.md "Get onboarded in the Cloud Foundry environment of SAP BTP. Follow the workflows for trial or customer accounts or subscribe to business applications.")
 
-[Development in the Cloud Foundry Environment](../30-development/development-in-the-cloud-foundry-environment-40a8f8f.md "Learn more about developing applications on the SAP BTP, Cloud Foundry environment.")
+[Development in the Cloud Foundry Environment](../30-development/development-in-the-cloud-foundry-environment-40a8f8f.md "Learn more about developing applications on the Cloud Foundry environment.")
 
-[Tutorial Navigator: Learn How to Manage Your Cloud Foundry Environment in the SAP BTP Cockpit](https://developers.sap.com/group.btp-manage-cloud-foundry-cockpit.html)
+[Tutorial Navigator: Learn How to Manage Your Cloud Foundry Environment in the Cockpit](https://developers.sap.com/group.btp-manage-cloud-foundry-cockpit.html)
 

@@ -6,7 +6,7 @@
 
 ## Symptom
 
-After sending a request to a web application in the SAP BTP, Cloud Foundry runtime, you get a response containing a nested error element with the value ***access\_denied*** and an ***error\_description*** element.
+After sending a request to a web application in the Cloud Foundry runtime on SAP platform, you get a response containing a nested error element with the value ***access\_denied*** and an ***error\_description*** element.
 
 The system responds with ***Access is denied***.
 

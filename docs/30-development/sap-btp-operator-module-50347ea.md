@@ -67,9 +67,9 @@ For more information on multitenancy, see [Working with Multiple Subaccounts](wo
 
 
 
-### SAP BTP, Kyma Runtime
+### Kyma Runtime on SAP Platform
 
-SAP BTP, Kyma runtime runs on a Kubernetes cluster and wraps the SAP BTP Operator module, API server, and one or more applications. The application or multiple applications are the actual consumers of SAP BTP services.
+Kyma runtime on SAP platform runs on a Kubernetes cluster and wraps the SAP BTP Operator module, API server, and one or more applications. The application or multiple applications are the actual consumers of SAP BTP services.
 
 
 

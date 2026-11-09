@@ -43,5 +43,5 @@ Joule has the following capabilities in Kyma dashboard:
 **Related Information**  
 
 
-[Joule in SAP BTP, Kyma Runtime](https://help.sap.com/docs/joule/capabilities-guide/joule-in-sap-btp-kyma-runtime?locale=en-US&version=CLOUD)
+[Joule in Kyma Runtime on SAP Platform](https://help.sap.com/docs/joule/capabilities-guide/joule-in-sap-btp-kyma-runtime?locale=en-US&version=CLOUD)
 

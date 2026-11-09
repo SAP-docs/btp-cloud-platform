@@ -135,30 +135,29 @@ By default, the Keda module comes with the default configuration. You can change
 
         ```
         kubectl annotate keda -n kyma-system default \
-          						keda.kyma-project.io/addon-enabled=true
+          keda.kyma-project.io/addon-enabled=true
         ```
 
     -   Optionally, to enable Istio sidecar injection on the HTTP Add-on Deployments, set the following annotation:
 
         ```
         kubectl annotate keda -n kyma-system default \
-          						keda.kyma-project.io/addon-istio-injection=true
+          keda.kyma-project.io/addon-istio-injection=true
         ```
 
     -   Optionally, to install the HTTP Add-on in a different namespace than the default `kyma-system`, set the following annotation:
 
         ```
         kubectl annotate keda -n kyma-system default \
-          						keda.kyma-project.io/addon-namespace=my-new-namespace --overwrite
+          keda.kyma-project.io/addon-namespace=my-new-namespace --overwrite
         ```
 
 
 
+**Related Information**  
 
 
-<a name="loio3cc1f25be90f45aa974a11a53cf18430__postreq_cp3_5gd_ncc"/>
+[KEDA HTTP Add-on](keda-http-add-on-45cb806.md "The KEDA HTTP Add-on extends KEDA with the ability to scale HTTP workloads to and from zero based on incoming request rate.")
 
-## Next Steps
-
-For more information about the KEDA resources, see [KEDA concepts](https://keda.sh/docs/latest/concepts/).
+[KEDA Concepts](https://keda.sh/docs/latest/concepts/)
 

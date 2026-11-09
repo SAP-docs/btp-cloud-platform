@@ -6,7 +6,7 @@ To enable client certificate-based authentication in SAP Business AI Platform, A
 
 
 
-SAP BTP cockpit:
+cockpit:
 
 
 

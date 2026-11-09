@@ -6,5 +6,5 @@ Here you can find information regarding the available extended tasks for creatin
 
 
 
-In addition, as an application developer, you may want to create role collections for immediate use. For example, to deliver role collections that administrators can use in the SAP BTP cockpit and easily assign to users in an onboarding process.
+In addition, as an application developer, you may want to create role collections for immediate use. For example, to deliver role collections that administrators can use in the cockpit and easily assign to users in an onboarding process.
 

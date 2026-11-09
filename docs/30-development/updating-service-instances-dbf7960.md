@@ -22,7 +22,7 @@ Use Kyma dashboard or kubectl to update service instances.
 You are using a service instance in the Kyma environment and want to update the service's plan or other service-specific parameters.
 
 > ### Note:  
-> You can only update service instances in Kyma using Kyma dashboard or kubectl. You can't perform the operation using the SAP BTP cockpit.
+> You can only update service instances in Kyma using Kyma dashboard or kubectl. You can't perform the operation using the cockpit.
 
 
 

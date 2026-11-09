@@ -85,5 +85,5 @@ The User Account and Authentication service stores user-related data records in 
 
 [Switch Off Automatic Creation of Shadow Users](../50-administration-and-ops/switch-off-automatic-creation-of-shadow-users-d852567.md "To switch off the creation of shadow users in the trust configuration of custom identity providers, administrators must explicitly allow users to log on. Administrators then have full control over who is allowed to log on.")
 
-[Delete Shadow Users for Data Protection and Privacy Using the Cockpit](delete-shadow-users-for-data-protection-and-privacy-using-the-cockpit-893c5ac.md "Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization. SAP BTP cockpit offers an application to select and delete shadow users.")
+[Delete Shadow Users for Data Protection and Privacy Using the Cockpit](delete-shadow-users-for-data-protection-and-privacy-using-the-cockpit-893c5ac.md "Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization. cockpit offers an application to select and delete shadow users.")
 

@@ -4,7 +4,7 @@
 
 # Log On to Your Global Account
 
-Use the SAP BTP cockpit to log on to your global account and start working in SAP BTP.
+Use the cockpit to log on to your global account and start working in SAP BTP.
 
 
 
@@ -26,7 +26,7 @@ For more information, see [2669325 - How to add a user as a Global Account admin
 
 ## Procedure
 
-1.  Access the SAP BTP cockpit.
+1.  Access the cockpit.
 
     For more information, see [Access the Cockpit](access-the-cockpit-4e75066.md).
 
@@ -66,5 +66,5 @@ The *Account Explorer* page for that global account opens.
 
 [Global Accounts](../10-concepts/account-model-8ed4a70.md#loioc165d95ee700407eb181770901caec94 "A global account is the realization of a contract you or your company has made with SAP.")
 
-[Create a Subaccount](create-a-subaccount-05280a1.md "Create subaccounts in your global account using the SAP BTP cockpit.")
+[Create a Subaccount](create-a-subaccount-05280a1.md "Create subaccounts in your global account using the cockpit.")
 

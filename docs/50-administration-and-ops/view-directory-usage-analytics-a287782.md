@@ -6,7 +6,7 @@
 
 You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your directory.
 
-To monitor and track usage in a directory, open your directory from the *Account Explorer* in the SAP BTP cockpit, and then go to the *Usage Analytics* page in the navigation area.
+To monitor and track usage in a directory, open your directory from the *Account Explorer* in the cockpit, and then go to the *Usage Analytics* page in the navigation area.
 
 > ### Note:  
 > This cockpit page is available only for directories that have user management enabled.
@@ -95,13 +95,13 @@ Some rounding or shortening is applied to large values. You can mouse over value
 
 [Org Administration Using the Cockpit](org-administration-using-the-cockpit-c4c25cc.md "In the Cloud Foundry environment, manage orgs, spaces and space quota plans using the SAP BTP cockpit.")
 
-[Monitoring Usage and Consumption Costs in Your Global Account](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.")
+[Monitoring Usage and Consumption Costs in Your Global Account](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.")
 
 [What Is the Consumption-Based Commercial Model?](../10-concepts/what-is-the-consumption-based-commercial-model-7047eb4.md "With the consumption-based model, your organization purchases an entitlement to all current and future SAP BTP services that are eligible for this model. Throughout the duration of your contract, you have complete flexibility to turn services on and off and to switch between services as your business requires.")
 
 [View Subaccount Usage Analytics](view-subaccount-usage-analytics-8f4d9db.md "You can explore, compare, and analyze all your actual usage data for the services and applications that are available in your subaccount.")
 
-[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
+[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service on SAP platform for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 
-[Manage Users in Directories](manage-users-in-directories-ff4d4a4.md "Manage members in your directory using the SAP BTP cockpit.")
+[Manage Users in Directories](manage-users-in-directories-ff4d4a4.md "Manage members in your directory using the cockpit.")
 

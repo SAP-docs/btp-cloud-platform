@@ -2,7 +2,7 @@
 
 # Monitoring Usage Information Using APIs of the SAP Usage Data Management Service 
 
-Provides information about using the *Resource Consumption* APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing. 
+Provides information about using the *Resource Consumption* APIs of the SAP Usage Data Management service on SAP platform for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing. 
 
 The service accumulates the information and provides reports in SAP BTP cockpit via APIs for resource planning and cross-billing purposes.
 
@@ -139,7 +139,7 @@ Get monthly cost reporting data for all subaccounts for the Cloud Platform Enter
 **Related Information**  
 
 
-[Configuration for Using the Resource Consumption APIs in the SAP Business Accelerator Hub](configuration-for-using-the-resource-consumption-apis-in-the-sap-business-accelerator-h-4bfe9c7.md "The Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.")
+[Configuration for Using the Resource Consumption APIs in the SAP Business Accelerator Hub](configuration-for-using-the-resource-consumption-apis-in-the-sap-business-accelerator-h-4bfe9c7.md "The Resource Consumption APIs of the SAP Usage Data Management service on SAP platform are protected with OAuth 2.0 Client Credentials grant type and in some cases, also the Password grant type.")
 
-[SAP Usage Data Management Service - Service Plans](sap-usage-data-management-service-service-plans-c94c85e.md "Describes the plans available for the SAP Usage Data Management service for SAP BTP.")
+[SAP Usage Data Management Service - Service Plans](sap-usage-data-management-service-service-plans-c94c85e.md "Describes the plans available for the SAP Usage Data Management service on SAP platform.")
 

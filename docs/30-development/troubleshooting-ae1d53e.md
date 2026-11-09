@@ -878,7 +878,7 @@ Solution
 </td>
 <td valign="top">
 
-In the additional properties section of the destination section of the SAP BTP cockpit, add the `HTML5.DynamicDestination` property and set the value to *true*.
+In the additional properties section of the destination section of the cockpit, add the `HTML5.DynamicDestination` property and set the value to *true*.
 
 </td>
 </tr>
@@ -998,7 +998,7 @@ Solution
 
 2.  Redeploy or update the XSUAA service instance.
 
-3.  Make sure that the users have the new role\_template, *Token\_Exchange* added to their role\_collections in the SAP BTP cockpit *Global Account* \> *Subaccount* \> *Security* \> *Role Collections* and verify that the created role's *Application Identifier* is the same as the `xsappname` from the xs-security.json.
+3.  Make sure that the users have the new role\_template, *Token\_Exchange* added to their role\_collections in the cockpit *Global Account* \> *Subaccount* \> *Security* \> *Role Collections* and verify that the created role's *Application Identifier* is the same as the `xsappname` from the xs-security.json.
 
 4.  If the roles of the target business service does not appear on the subscriber tenant UI, it means that the target business service subscription failed or it was bound to the application router after the subscription took place. In this case, try to unsubscribe and subscribe again. Make sure that the target business service roles appear on subscriber tenant UI.
 

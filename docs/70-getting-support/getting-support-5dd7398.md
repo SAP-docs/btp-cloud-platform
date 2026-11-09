@@ -31,9 +31,9 @@ Before you report a case, ensure the following:
     > ### Note:  
     > Trial users can ask for support by posting a question in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html). However, they should first check for answers in [SAP Community](https://www.sap.com/community/topic/cloud-platform.html).
 
--   **Try Out Built-In Support Within SAP BTP Cockpit**
+-   **Try Out Built-In Support Within Cockpit**
 
-    When using SAP BTP cockpit as an S-user, try Built-In Support to get customer help within the cockpit. See [Built-In Support](https://help.sap.com/docs/built-in-support).
+    When using cockpit as an S-user, try Built-In Support to get customer help within the cockpit. See [Built-In Support](https://help.sap.com/docs/built-in-support).
 
 -   **Learn the Best Practices and Offerings**
 

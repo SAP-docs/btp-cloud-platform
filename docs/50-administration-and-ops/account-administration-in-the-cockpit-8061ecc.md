@@ -2,7 +2,7 @@
 
 # Account Administration in the Cockpit
 
-Learn about frequent administrative tasks you can perform using the SAP BTP cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.
+Learn about frequent administrative tasks you can perform using the cockpit, such as managing global accounts, directories, subaccounts, entitlements, and members.
 
 **Related Information**  
 

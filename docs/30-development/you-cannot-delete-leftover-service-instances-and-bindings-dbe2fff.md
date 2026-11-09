@@ -28,7 +28,7 @@ You cannot access your Kyma cluster where the service instances and bindings wer
 > This cleanup procedure deletes all service instances and bindings associated with the inaccessible cluster.
 
 1.  To access the SAP Service Manager API, perform the following actions:
-    1.  In the SAP BTP cockpit, create an SAP Service Manager service instance with the `subaccount-admin` plan and its service binding. The `service-operator-access` plan does not have the necessary access level for performing the cleanup operation. See [Creating Instances in Other Environments](https://help.sap.com/docs/service-manager/sap-service-manager/creating-service-instances) and [Creating Service Bindings in Other Environments](https://help.sap.com/docs/service-manager/sap-service-manager/creating-service-bindings-in-other-environments).
+    1.  In the cockpit, create an SAP Service Manager service instance with the `subaccount-admin` plan and its service binding. The `service-operator-access` plan does not have the necessary access level for performing the cleanup operation. See [Creating Instances in Other Environments](https://help.sap.com/docs/service-manager/sap-service-manager/creating-service-instances) and [Creating Service Bindings in Other Environments](https://help.sap.com/docs/service-manager/sap-service-manager/creating-service-bindings-in-other-environments).
     2.  To get an access token, run the following command. Replace the placeholders with the `url`, `clientid`, and `clientsecret` from the service binding you have created.
 
         ```
@@ -40,7 +40,7 @@ You cannot access your Kyma cluster where the service instances and bindings wer
 
 2.  To prepare the DELETE request, identify the following parameters:
     -   `platformID` - the ID of the Service Manager instance with the `service-operator-access` plan.
-    -   `clusterID` - the ID of your cluster. To get `it`, in the SAP BTP cockpit, go to *Services* \> *Instances and Subscriptions*. In the *Instances* section, copy the cluster ID from the `Scope` column in the row that provides information about the service instance\(s\) you want to delete.
+    -   `clusterID` - the ID of your cluster. To get `it`, in the cockpit, go to *Services* \> *Instances and Subscriptions*. In the *Instances* section, copy the cluster ID from the `Scope` column in the row that provides information about the service instance\(s\) you want to delete.
 
 3.  Send the following request:
 

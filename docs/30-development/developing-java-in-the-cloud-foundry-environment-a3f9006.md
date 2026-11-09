@@ -2,7 +2,7 @@
 
 # Developing Java in the Cloud Foundry Environment
 
-Find selected information for Java development on SAP BTP, Cloud Foundry and references to more detailed sources.
+Find selected information for Java development on Cloud Foundry and references to more detailed sources.
 
 
 
@@ -10,7 +10,7 @@ Find selected information for Java development on SAP BTP, Cloud Foundry and ref
 
 ## Usage
 
-To use a buildpack, specify its name when deploying a Java application to SAP BTP, Cloud Foundry. For example:
+To use a buildpack, specify its name when deploying a Java application to Cloud Foundry. For example:
 
 ```
 cf push -f <PATH_TO_APP_MANIFEST> -b sap_java_buildpack_jakarta

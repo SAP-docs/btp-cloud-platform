@@ -10,7 +10,7 @@ Get started with developing applications and services in the Cloud Foundry envir
 
 ## Basic Considerations
 
-At the outset of every development project stand questions about the goal you want to achieve, which skills, tools, and programming languages are required, and how the finished application or service is deployed and maintained. This topic provides an overview of the programming models, development languages, tools, and services you can leverage in the SAP BTP, Cloud Foundry environment to help you address those questions.
+At the outset of every development project stand questions about the goal you want to achieve, which skills, tools, and programming languages are required, and how the finished application or service is deployed and maintained. This topic provides an overview of the programming models, development languages, tools, and services you can leverage in the Cloud Foundry environment to help you address those questions.
 
 
 
@@ -26,7 +26,7 @@ Learn about the SAP Business Application Studio, the environment tailored for ef
 
 ## Business Application Pattern
 
-To find information about the recommended development architecture for business applications in the SAP BTP, Cloud Foundry environment, see [Business Application Pattern](business-application-pattern-a1de162.md).
+To find information about the recommended development architecture for business applications in the Cloud Foundry environment, see [Business Application Pattern](business-application-pattern-a1de162.md).
 
 
 
@@ -50,7 +50,7 @@ In a PaaS environment, external dependencies such as databases, messaging system
 
 ## Development Languages
 
-Find information and tutorials for the main development languages supported in the SAP BTP, Cloud Foundry environment: Java, Node.js, and Python. See [Development Languages](development-languages-2d0ff22.md).
+Find information and tutorials for the main development languages supported in the Cloud Foundry environment: Java, Node.js, and Python. See [Development Languages](development-languages-2d0ff22.md).
 
 
 

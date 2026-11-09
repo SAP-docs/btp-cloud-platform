@@ -2,7 +2,7 @@
 
 # Managing Directories Using the Cockpit
 
-Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.
+Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the cockpit.
 
 
 

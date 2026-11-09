@@ -2,7 +2,7 @@
 
 # Bind an Application to a Service
 
-In the SAP BTP cockpit, you can bind applications in the Cloud Foundry environment to services by binding them to available service instances. If no service instances are available, you can create a new service instance and bind the application to it directly from the *Service Bindings* page at the application level. Service bindings are used for configuring and delivering access credentials to your applications.
+In the cockpit, you can bind applications in the Cloud Foundry environment to services by binding them to available service instances. If no service instances are available, you can create a new service instance and bind the application to it directly from the *Service Bindings* page at the application level. Service bindings are used for configuring and delivering access credentials to your applications.
 
 
 
@@ -41,7 +41,7 @@ Here is a detailed description of both procedures:
 
 ### Option 1: Bind an Existing Service Instance
 
-1.  In the SAP BTP cockpit, navigate to the *Applications* page in your Cloud Foundry space.
+1.  In the cockpit, navigate to the *Applications* page in your Cloud Foundry space.
 
 2.  Choose the application for which you want to create a service binding.
 
@@ -66,7 +66,7 @@ Here is a detailed description of both procedures:
 
 ### Option 2: Create and Bind a New Service Instance
 
-1.  In the SAP BTP cockpit, navigate to the *Applications* page in your Cloud Foundry space.
+1.  In the cockpit, navigate to the *Applications* page in your Cloud Foundry space.
 
     > ### Note:  
     > Alternatively, you can create and bind service instances from the *Services* \> *Instances and Subscriptions* page in the cockpit. For more information, see [Service Instances](https://help.sap.com/docs/service-manager/sap-service-manager/service-instances) and [Binding Service Instances to Cloud Foundry Applications](https://help.sap.com/docs/service-manager/sap-service-manager/binding-service-instances-to-cloud-foundry-applications).

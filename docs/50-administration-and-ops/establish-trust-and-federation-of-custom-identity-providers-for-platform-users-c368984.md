@@ -33,7 +33,7 @@ You want to use a custom identity provider for the platform users of SAP BTP in 
 
 ## Context
 
-Platform users perform technical development, deployment, and administration tasks. For example, they perform subaccount administration in the SAP BTP cockpit or access the Cloud Foundry command line interface \(CF CLI\). By hosting these users in your own identity provider, you gain a number of advantages over hosting them in the default identity provider.
+Platform users perform technical development, deployment, and administration tasks. For example, they perform subaccount administration in the cockpit or access the Cloud Foundry command line interface \(CF CLI\). By hosting these users in your own identity provider, you gain a number of advantages over hosting them in the default identity provider.
 
 -   Integrate the management of these users with your corporate identity management strategy, hosted on your own identity providers. You control your own user lifecycle and single sign-on strategies throughout the entire landscape.
 
@@ -53,7 +53,7 @@ Establish a trust relationship with a custom identity provider in your global ac
 
 ## Procedure
 
-1.  Go to your global account\(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration* in the SAP BTP cockpit.
+1.  Go to your global account\(see [Navigate in the Cockpit](navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration* in the cockpit.
 
 2.  Choose *Establish Trust*.
 
@@ -99,7 +99,7 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
 
 -   Add platform users to your orgs and spaces.
 
-    For more information about adding members with the SAP BTP cockpit, see [Add Org Members](add-org-members-a4eeaf1.md) and [Add Space Members](add-space-members-81d0b4d.md).
+    For more information about adding members with the cockpit, see [Add Org Members](add-org-members-a4eeaf1.md) and [Add Space Members](add-space-members-81d0b4d.md).
 
     For more information about adding members with the command-line interface, see [Add Organization Members Using the Cloud Foundry Command Line Interface](add-organization-members-using-the-cloud-foundry-command-line-interface-1422a5d.md) and [Add Space Members Using the Cloud Foundry Command Line Interface](add-space-members-using-the-cloud-foundry-command-line-interface-d23ea8b.md).
 
@@ -113,9 +113,9 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
     > > ### Tip:  
     > > If the identity provider isn't available in the value help for Neo subaccount members, log on to the global account with a user from that identity provider and create a new Neo subaccount. If it's not needed otherwise, you can delete it.
 
--   Log on to the SAP BTP cockpit as a user from the custom identity provider. In the *Trust Configuration* page, the *Open* link in the SAP BTP cockpit column contains the URL \(for example, *https://emea.cockpit.btp.cloud.sap/cockpit/?idp=cidppuxhm.accounts.ondemand.com*\) for the user to log on with the custom identity provider. Copy the link and send it to your platform user colleagues. Remember if you have the SAP BTP cockpit open and if you want to work in parallel, your current session may be shared by your browser. Open the link in a private or incognito browsing mode.
+-   Log on to the cockpit as a user from the custom identity provider. In the *Trust Configuration* page, the *Open* link in the cockpit column contains the URL \(for example, *https://emea.cockpit.btp.cloud.sap/cockpit/?idp=cidppuxhm.accounts.ondemand.com*\) for the user to log on with the custom identity provider. Copy the link and send it to your platform user colleagues. Remember if you have the cockpit open and if you want to work in parallel, your current session may be shared by your browser. Open the link in a private or incognito browsing mode.
 
-    For more information, see [Log On with a Custom Identity Provider to the SAP BTP cockpit](log-on-with-a-custom-identity-provider-to-the-sap-btp-cockpit-0bef982.md).
+    For more information, see [Log On with a Custom Identity Provider to the cockpit](log-on-with-a-custom-identity-provider-to-the-cockpit-0bef982.md).
 
 -   If you want to impose, for example, two-factor authentication for platform users, you must configure [two-factor authentication](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/596e7f8b3f0441aaa8736be6bb368d5f.html) in **all** the SAP Cloud Identity Services applications involved. Multifactor authentication is used as an example.
 
@@ -131,13 +131,13 @@ You've configured trust in your tenant of SAP Cloud Identity Services, which is 
 
     For more information, see [Corporate Identity Provider](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/19f3eca47db643b6aad448b5dc1075ad.html) in the documentation for SAP Cloud Identity Services.
 
--   Work in the SAP BTP command line interface \(BTP CLI\).
+-   Work in the SAP BTP command line interface \(btp CLI\).
 
     To log on to a global account, you need to provide the hostname of the tenant \(for example, *ar9ibaxhm*\) with the `--idp` parameter. See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
 
     To work with users and role collections on global account, directory, or subaccount level, you need to provide the origin key with the `--of-idp` parameter in the following commands: `btp list security/user`, `btp get security/user`, `btp delete security/user`, `btp assign security/role-collection`, `btp unassign security/role-collection`.
 
-    Both values can be found in the SAP BTP cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers*.
+    Both values can be found in the cockpit under *Security* → *Trust Configuration* → *Custom Platform Identity Providers*.
 
     As an administrator, you want to determine which of the SAP Cloud Identity Services tenants' domains SAP BTP should use for platform user logon. For this reason, you specify a custom domain for an SAP Cloud Identity Services tenant. You can use the `btp update security/trust` command and specify the domain in the `--domain` parameter.
 

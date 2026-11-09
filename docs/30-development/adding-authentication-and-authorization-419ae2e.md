@@ -53,7 +53,7 @@ For more information, see [Tutorials for the SAP Authorization and Trust Managem
 
 Here you can find information regarding accessing the UAA admin APIs for creating XSUAA artifacts, as well as the process of configuring redirect URLs.
 
-In addition, as an application developer, you may want to create role collections for immediate use. For example, to deliver role collections that administrators can use in the SAP BTP cockpit and easily assign to users in an onboarding process.
+In addition, as an application developer, you may want to create role collections for immediate use. For example, to deliver role collections that administrators can use in the cockpit and easily assign to users in an onboarding process.
 
 For more information, see [Create Role Collections with Predefined Roles](create-role-collections-with-predefined-roles-fe75054.md).
 

@@ -4,7 +4,7 @@
 
 # Enable Analytics in the Cockpit
 
-Learn about how to enable analytics in the SAP BTP Cockpit to improve the overall user experience.
+Learn about how to enable analytics in the Cockpit to improve the overall user experience.
 
 
 
@@ -23,7 +23,7 @@ You have the Administrator role for the global account for which you'd like to e
 
 ## Context
 
-To help improve user experience in the SAP BTP Cockpit, global account administrators can allow global account users to send anonymized usage data to SAP. By enabling analytics in the cockpit, we'll identify and fix issues more quickly, making for an improved cockpit experience. We use analytics to understand how users interact with the platform. With this information, we can make improvements, such as adapting navigation patterns, enhancing customer support, and prioritizing features.
+To help improve user experience in the Cockpit, global account administrators can allow global account users to send anonymized usage data to SAP. By enabling analytics in the cockpit, we'll identify and fix issues more quickly, making for an improved cockpit experience. We use analytics to understand how users interact with the platform. With this information, we can make improvements, such as adapting navigation patterns, enhancing customer support, and prioritizing features.
 
 What kind of data do we collect?
 
@@ -67,5 +67,5 @@ After you have enabled analytics in the global account, each global account user
 
 [SAP BTP Cookie Statement](https://cockpit.btp.cloud.sap/legaldocuments/SAP_BTP_Cockpit_Privacy_Statement.pdf)
 
-[SAP BTP Cockpit Privacy Statement](https://cockpit.btp.cloud.sap/legaldocuments/SAP_BTP_Cockpit_Privacy_Statement.pdf)
+[Cockpit Privacy Statement](https://cockpit.btp.cloud.sap/legaldocuments/SAP_BTP_Cockpit_Privacy_Statement.pdf)
 

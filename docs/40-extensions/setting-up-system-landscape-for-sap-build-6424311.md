@@ -11,7 +11,7 @@
 > ### Note:  
 > The content in this section is not relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
 
-A registered SAP S/4HANA Cloud system in the SAP BTP cockpit can expose consumption bundles that contain APIs and events. You can easily discover and consume the APIs exposed by the SAP S/4HANA Cloud systems in your system landscape when you develop and extend applications on SAP BTP, Cloud Foundry environment, using SAP Build. To do this, first you need to enable connectivity between your system landscape in SAP BTP cockpit and SAP Build. The integration requires performing several configuration steps starting with configuration on a global account level, and then, configuration on a subaccount level.
+A registered SAP S/4HANA Cloud system in the SAP BTP cockpit can expose consumption bundles that contain APIs and events. You can easily discover and consume the APIs exposed by the SAP S/4HANA Cloud systems in your system landscape when you develop and extend applications on Cloud Foundry environment, using SAP Build. To do this, first you need to enable connectivity between your system landscape in SAP BTP cockpit and SAP Build. The integration requires performing several configuration steps starting with configuration on a global account level, and then, configuration on a subaccount level.
 
 > ### Note:  
 > This documentation refers to SAP S/4HANA Cloud Public Edition. See [Introduction to the Universe of SAP S/4HANA Cloud Public Edition](https://help.sap.com/docs/SAP_S4HANA_CLOUD/f77dde055ecb4541b57787d362c46a36/2962fce53eef47b4b3a8e6c945adafbe.html).
@@ -133,7 +133,7 @@ The following procedure outlines the steps you need to perform to consume the AP
 
 ## Next Steps
 
-Develop applications on SAP BTP, Cloud Foundry environment using SAP Build and the system landscape.
+Develop applications on Cloud Foundry environment using SAP Build and the system landscape.
 
 When you enable the connectivity, the SAP S/4HANA Cloud systems and their APIs are accessible in SAP Build. Next you can use the APIs to develop new or extend the existing functionality with the help of SAP Build.
 

@@ -12,7 +12,7 @@ You can back up the following configuration settings:
 
 -   Your SAP SuccessFactors IdP SAML 2.0 metadata.
 
-    To download your SAP SuccessFactors IdP SAML 2.0 metadata, in the SAP BTP cockpit, navigate to *Connectivity* \> *Destinations* \> *Download IdP Metadata*.
+    To download your SAP SuccessFactors IdP SAML 2.0 metadata, in the cockpit, navigate to *Connectivity* \> *Destinations* \> *Download IdP Metadata*.
 
 -   Your identity provider configurations.
 

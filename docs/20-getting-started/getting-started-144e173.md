@@ -55,5 +55,5 @@ The SAP Developer Center provides further resources to get you started:
 
 [SAP BTP Developer's Guide](https://help.sap.com/docs/BTP/0c8c1db388f645159e134a005aaabbcf/ba26ec41130d4835aef2265ad3d3704e.html?locale=en-US&state=PRODUCTION&version=Cloud)
 
-[Access the Cockpit](../50-administration-and-ops/access-the-cockpit-4e75066.md "Learn how to access the SAP BTP cockpit.")
+[Access the Cockpit](../50-administration-and-ops/access-the-cockpit-4e75066.md "Learn how to access the cockpit.")
 

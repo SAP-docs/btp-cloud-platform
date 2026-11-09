@@ -33,7 +33,7 @@ The deregistration and the removal processes have the following states displayed
     Once a system of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio is registered, you can deregister it only after deleting its entitlement configurations and excluding it from the formations it takes part in.
 
 -   *Error while Deregistering* - the deregistration has failed. Try to deregister the system again. If the problem persists, you have to report a case in one of the components mentioned below.
--   *Removing* - a system removal process has started in the SAP BTP cockpit. As a result, the SAP systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio is deregistered, and then, it is removed from the systems list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure. This state also applies to other manually added SAP systems that you are removing.
+-   *Removing* - a system removal process has started in the cockpit. As a result, the SAP systems of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio is deregistered, and then, it is removed from the systems list completely. To register the system again, first, you must add it to the list anew, and then, initiate the registration procedure. This state also applies to other manually added SAP systems that you are removing.
 
     Once a system is registered, you can only remove it if you first deregister it.
 
@@ -80,5 +80,5 @@ The deregistration and the removal processes have the following states displayed
 
 ## Results
 
-The system has been deregistered or removed as a record from the list on the *Systems* page in the SAP BTP cockpit.
+The system has been deregistered or removed as a record from the list on the *Systems* page in the cockpit.
 

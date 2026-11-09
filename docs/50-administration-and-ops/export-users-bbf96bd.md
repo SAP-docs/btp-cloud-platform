@@ -18,7 +18,7 @@ You have the relevant administrator authorizations for the account, from which y
 
 ## Procedure
 
-1.  Open the SAP BTP cockpit and navigate to your global account, subaccount, or directory.
+1.  Open the cockpit and navigate to your global account, subaccount, or directory.
 
 2.  From the side navigation, select *Security* \> *Users*.
 
@@ -26,7 +26,7 @@ You have the relevant administrator authorizations for the account, from which y
 
 4.  Choose *Export All Users* or *Export All Users with Role Collections*.
 
-    The SAP BTP cockpit exports user data into a CSV file, which is downloaded to your browser's default download folder.
+    The cockpit exports user data into a CSV file, which is downloaded to your browser's default download folder.
 
     The CSV file contains these columns:
 

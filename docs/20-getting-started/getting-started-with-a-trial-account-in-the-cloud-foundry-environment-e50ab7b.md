@@ -24,11 +24,11 @@ If you want to familiarize yourself with the Cloud Foundry environment, see [Clo
 
 ![](images/Image_Map_Trial_2-Setting_Up_Your_Account_Model_6980fff.png)
 
-1.  When you register for a trial account, a subaccount and a space are created for you. You can create additional subaccounts and spaces, thereby further breaking down your account model and structuring it according to your development scenario, but first it's important you understand how to navigate to your accounts and spaces using the SAP BTP cockpit. See [Navigate to Orgs and Spaces](../50-administration-and-ops/navigate-to-orgs-and-spaces-5bf8735.md).
+1.  When you register for a trial account, a subaccount and a space are created for you. You can create additional subaccounts and spaces, thereby further breaking down your account model and structuring it according to your development scenario, but first it's important you understand how to navigate to your accounts and spaces using the cockpit. See [Navigate to Orgs and Spaces](../50-administration-and-ops/navigate-to-orgs-and-spaces-5bf8735.md).
 
-2.  If you like, create further subaccounts. See [Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md). You can also download and use the CLI forSAP BTP to create new subaccounts. See [Download and Start Using the BTP CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506) and [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md).
+2.  If you like, create further subaccounts. See [Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md). You can also download and use the CLI forSAP BTP to create new subaccounts. See [Download and Start Using the btp CLI Client](../50-administration-and-ops/download-and-start-using-the-btp-cli-client-8a8f17f.md#loio8a8f17f5fd334fb583438edbd831d506) and [Working with Global Accounts, Directories, and Subaccounts Using the btp CLI](../50-administration-and-ops/working-with-global-accounts-directories-and-subaccounts-using-the-btp-cli-85a683e.md).
 
-3.  If you haven't done so already, now is a good time to download and install the Cloud Foundry Command Line Interface \(cf CLI\). This tool allows you to administer and configure your environment,enable services, and deploy applications. See [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md). But don't worry, you can also perform all the necessary task using the SAP BTP cockpit, which you don't need to install.
+3.  If you haven't done so already, now is a good time to download and install the Cloud Foundry Command Line Interface \(cf CLI\). This tool allows you to administer and configure your environment,enable services, and deploy applications. See [Download and Install the Cloud Foundry Command Line Interface](../50-administration-and-ops/download-and-install-the-cloud-foundry-command-line-interface-4ef907a.md). But don't worry, you can also perform all the necessary task using the cockpit, which you don't need to install.
 4.  If you'd like to use the cf CLI, log on to your environment. See [Log On to the Cloud Foundry Environment Using the Cloud Foundry Command Line Interface](../50-administration-and-ops/log-on-to-the-cloud-foundry-environment-using-the-cloud-foundry-command-line-interface-7a37d66.md).
 5.  If you like, create further spaces. See [Create Spaces](../50-administration-and-ops/create-spaces-2f6ed22.md). If you want to learn more about subaccounts, orgs, and spaces, and how they relate to each other, see [Account Model](../10-concepts/account-model-8ed4a70.md#loio8ed4a705efa0431b910056c0acdbf377).
 
@@ -65,12 +65,12 @@ If you want to familiarize yourself with the Cloud Foundry environment, see [Clo
 6.  You can also create instances of user-provided services. See [Creating User-Provided Service Instances](../30-development/creating-user-provided-service-instances-a44355e.md).
 
 > ### Tip:  
-> Also check out the tutorial [Create Your First App on Cloud Foundry](https://developers.sap.com/group.scp-3-first-app.html) to see how you can deploy a pre-bundled set of artifacts using the SAP BTP cockpit, access the app from your web browser, and create an instance of a service available on Cloud Foundry and bind it to your app.
+> Also check out the tutorial [Create Your First App on Cloud Foundry](https://developers.sap.com/group.scp-3-first-app.html) to see how you can deploy a pre-bundled set of artifacts using the cockpit, access the app from your web browser, and create an instance of a service available on Cloud Foundry and bind it to your app.
 
 **Related Information**  
 
 
-[Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the SAP BTP, Cloud Foundry runtime service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
+[Cloud Foundry Environment](../10-concepts/cloud-foundry-environment-9c7092c.md "The Cloud Foundry environment allows you to create polyglot cloud applications in Cloud Foundry. It contains the Cloud Foundry runtime on SAP platform service, which is based on the open-source application platform managed by the Cloud Foundry Foundation.")
 
 [Trial Accounts and Free Tier](../10-concepts/trial-accounts-and-free-tier-046f127.md "Explore the different options for trying out SAP BTP.")
 
@@ -80,5 +80,5 @@ If you want to familiarize yourself with the Cloud Foundry environment, see [Clo
 
 [User and Member Management](../10-concepts/user-and-member-management-cc1c676.md "On SAP BTP, user management takes place at all levels from global account to environment. There are different types of users, such as depending on their roles in the company.")
 
-[About Services](../30-development/about-services-d1d0fc8.md "In the Cloud Foundry environment, you usually enable services by creating a service instance using either the SAP BTP cockpit or the Cloud Foundry command line interface (cf CLI), and binding that instance to your application.")
+[About Services](../30-development/about-services-d1d0fc8.md "In the Cloud Foundry environment, you usually enable services by creating a service instance using either the cockpit or the Cloud Foundry command line interface (cf CLI), and binding that instance to your application.")
 

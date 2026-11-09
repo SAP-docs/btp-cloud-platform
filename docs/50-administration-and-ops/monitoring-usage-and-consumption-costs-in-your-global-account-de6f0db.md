@@ -4,7 +4,7 @@
 
 # Monitoring Usage and Consumption Costs in Your Global Account
 
-SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.
+cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.
 
 > ### Note:  
 > -   The use of the consumption-based commercial model is subject to its availability in your country or region.
@@ -317,7 +317,7 @@ Shows key indicators of your global account's monthly consumption costs over the
 -   Average monthly cost
 
 > ### Note:  
-> The available indicators in this card depend on which consumption-based model is used by your global account. For example, the *Total forecasted cost for current month* indicator is not available for the Pay-As-You-Go for SAP BTP model.
+> The available indicators in this card depend on which consumption-based model is used by your global account. For example, the *Total forecasted cost for current month* indicator is not available for the Pay-As-You-Go model.
 > 
 > Some indicators also require a minimum amount of historical data.
 
@@ -386,16 +386,16 @@ This card has the same functionality as the **SAP BTP Enterprise Agreement** car
 <tr>
 <td valign="top">
 
-**Pay-As-You-Go for SAP BTP** 
+**Pay-As-You-Go** 
 
 </td>
 <td valign="top">
 
-Shows the cumulative cost trend and monthly cost trend of your global account over the last 12 months according to the licensing of your Pay-As-You-Go for SAP BTP commercial model agreement.
+Shows the cumulative cost trend and monthly cost trend of your global account over the last 12 months according to the licensing of your Pay-As-You-Go commercial model agreement.
 
-This card is displayed only if your global account uses the Pay-As-You-Go for SAP BTP flavor of the consumption-based commercial model.
+This card is displayed only if your global account uses the Pay-As-You-Go flavor of the consumption-based commercial model.
 
-With this commercial model, you pay only for the SAP BTP services that you use, and you are billed monthly in arrears. If your global account uses both the Pay-As-You-Go for SAP BTP consumption-based commercial model and the subscription-based model, this card displays only the usage that is charged under the consumption-based model. For services included in your subscription, only usage beyond your prepaid quota is shown here and is billed per your contract’s consumption-based terms. For instance, if your subscription covers 100 site visits and you have 151, this card reflects data for the extra 51 visits that exceed your subscription-based quota.
+With this commercial model, you pay only for the SAP BTP services that you use, and you are billed monthly in arrears. If your global account uses both the Pay-As-You-Go consumption-based commercial model and the subscription-based model, this card displays only the usage that is charged under the consumption-based model. For services included in your subscription, only usage beyond your prepaid quota is shown here and is billed per your contract’s consumption-based terms. For instance, if your subscription covers 100 site visits and you have 151, this card reflects data for the extra 51 visits that exceed your subscription-based quota.
 
 If your global account has received a refund at any time during the current cloud credits period, you may see a difference between the displayed monthly costs and your billing document.
 
@@ -642,7 +642,7 @@ Use the *Usage* tab to display, monitor, and analyze the distribution of the act
 
 Pay attention also to the following:
 
--   If your global account uses only a consumption-based commercial model, such as SAP BTP Enterprise Agreement \(SAP BTPEA\),Cloud Platform Enterprise Agreement \(CPEA\), and Pay-As-You-Go for SAP BTP, this tab includes all usage data, including non-rated services, such as free service plans.
+-   If your global account uses only a consumption-based commercial model, such as SAP BTP Enterprise Agreement \(SAP BTPEA\),Cloud Platform Enterprise Agreement \(CPEA\), and Pay-As-You-Go, this tab includes all usage data, including non-rated services, such as free service plans.
 -   If your global account uses both the consumption-based and subscription-based commercial models, this tab combines all usage data, which falls under your consumption-based plans, prepaid subscription quota, and non-rated data sets, such as free service plans. You can see the distribution of charged and prepaid usage and costs in the *Billing* tab.
 
 
@@ -889,7 +889,7 @@ All subaccount calculations are estimated and proportionate to the total global 
 `[Subaccount usage / Global account usage x Rate plan per SKU]`
 
 > ### Note:  
-> Global accounts are the only contractual billable entity for SAP BTP. Directories and subaccounts are used as structural entities in the global account, and their usage and cost data should only be used for your internal cost estimations. The relative calculation per billable usage within each subaccount is an estimation only as it is based on certain measures which in some cases can either be different from the metrics that are presented in the **SAP BTP Enterprise Agreement**, **Cloud Platform Enterprise Agreement**, and**Pay-As-You-Go for SAP BTP** cards in the *Overview* tab, or which use different formulas than the ones used for billing.
+> Global accounts are the only contractual billable entity for SAP BTP. Directories and subaccounts are used as structural entities in the global account, and their usage and cost data should only be used for your internal cost estimations. The relative calculation per billable usage within each subaccount is an estimation only as it is based on certain measures which in some cases can either be different from the metrics that are presented in the **SAP BTP Enterprise Agreement**, **Cloud Platform Enterprise Agreement**, and**Pay-As-You-Go** cards in the *Overview* tab, or which use different formulas than the ones used for billing.
 
 
 
@@ -1007,5 +1007,5 @@ Yes
 
 [Labels](../10-concepts/account-model-8ed4a70.md#loioe8663c08ead648faa673b0d63c5b478e "Labels are user-defined words or phrases that you can assign to various entities in SAP BTP to categorize them in your global account, to identify them more easily.")
 
-[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
+[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service on SAP platform for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 

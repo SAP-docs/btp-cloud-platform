@@ -8,7 +8,7 @@
 
 ## Symptom
 
-You have configured a custom identity provider for applications in the SAP BTP cockpit, such as the SAP Cloud Identity Services.
+You have configured a custom identity provider for applications in the cockpit, such as the SAP Cloud Identity Services.
 
 When you open an SAP BTP application, such as a custom developed application or a subscribed application like SAP Business Application Studio, you receive the following error:
 
@@ -20,7 +20,7 @@ When you open an SAP BTP application, such as a custom developed application or 
 
 ## Reason and Prerequisites
 
-The user from the custom identy provider for applications doesn't exist in the list of users of the SAP BTP cockpit.
+The user from the custom identy provider for applications doesn't exist in the list of users of the cockpit.
 
 When a user authenticates at an application in your subaccount using any identity provider, the User Account and Authentication always stores user-related data provided by the identity provider in the form of shadow users. It uses details of the shadow users to issue tokens that refer to a specific user.
 
@@ -38,7 +38,7 @@ To resolve the issue, use one of the following options:
 
 -   Enable *Create Shadow Users on User Logon* for the custom identity provider:
 
-    1.  In the SAP BTP cockpit, go to your subaccount \(see [Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration*.
+    1.  In the cockpit, go to your subaccount \(see [Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Trust Configuration*.
 
     2.  Select your custom identity provider for applications.
 
@@ -51,7 +51,7 @@ To resolve the issue, use one of the following options:
 
 -   Manually create a user for yor the respective identity provider \(see [Create Users](../50-administration-and-ops/create-users-a3bc7e8.md)\).
 
-    1.  In the SAP BTP cockpit, go to your subaccount \(see [Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Users*.
+    1.  In the cockpit, go to your subaccount \(see [Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md)\) and choose *Security* \> *Users*.
 
     2.  Create a new user for the respective identity provider by using *Create*.
 

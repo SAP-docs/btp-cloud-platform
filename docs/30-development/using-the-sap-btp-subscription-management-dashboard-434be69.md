@@ -35,7 +35,7 @@ The dashboard also displays detailed information about any errors that arise dur
 
 <a name="loio434be695f9e946ccb4c28911dd1e16d0__section_ut1_kwv_nqb"/>
 
-## Accessing the Dashboard in the SAP BTP Cockpit
+## Accessing the Dashboard in the Cockpit
 
 
 
@@ -60,7 +60,7 @@ For more information about roles, see [Configure Application Roles and Assign Ro
 
 ### Open the Dashboard
 
-1.  In the left-hand navigation bar of the SAP BTP cockpit, select *Services* \> *Instances and Subscriptions*.
+1.  In the left-hand navigation bar of the cockpit, select *Services* \> *Instances and Subscriptions*.
 
     > ### Note:  
     > Only users who are assigned to one of the roles specified in the previous section can see the link to the dashboard and open it.

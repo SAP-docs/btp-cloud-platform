@@ -93,7 +93,7 @@ SAP BTP uses encrypted communication channels based on HTTPS/TLS, supporting TLS
 Make sure you use HTTP clients \(such as web browsers\) that support TLS version 1.2 or higher for connecting to SAP BTP.
 
 > ### Note:  
-> You can optionally use TLS 1.3 in the Custom Domain Manager. This option allows the use of TLS 1.3 with applications running on SAP BTP. It's not allowed to use TLS 1.3, for example for the SAP BTP cockpit or SAP Cloud Identity Services. These services are still using TLS 1.2.
+> You can optionally use TLS 1.3 in the Custom Domain Manager. This option allows the use of TLS 1.3 with applications running on SAP BTP. It's not allowed to use TLS 1.3, for example for the cockpit or SAP Cloud Identity Services. These services are still using TLS 1.2.
 > 
 > See [What Is Custom Domain](https://help.sap.com/docs/custom-domain/custom-domain-manager/what-is-custom-domain).
 
@@ -111,7 +111,7 @@ Use the Audit Log Retrieval API to view the audit logs stored for your subaccoun
 
 ## Credential Store
 
-SAP Credential Store provides a repository for passwords and keys for applications that are running on SAP BTP, Cloud Foundry environment. It enables the applications to retrieve credentials and use them for authentication to external services, or to perform cryptographic operations and TLS communication.
+SAP Credential Store provides a repository for passwords and keys for applications that are running on Cloud Foundry environment. It enables the applications to retrieve credentials and use them for authentication to external services, or to perform cryptographic operations and TLS communication.
 
 See [SAP Credential Store](https://help.sap.com/viewer/product/CREDENTIAL_STORE/Cloud/en-US).
 

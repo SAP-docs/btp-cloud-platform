@@ -4,7 +4,7 @@
 
 # Managing Resource Providers
 
-SAP BTP allows you to connect your global account in the SAP BTP cockpit to your provider account from a non-SAP cloud vendor, and consume remote service resources that you already own and which are supported by SAP through this channel.
+SAP BTP allows you to connect your global account in the cockpit to your provider account from a non-SAP cloud vendor, and consume remote service resources that you already own and which are supported by SAP through this channel.
 
 > ### Note:  
 > The use of this functionality is subject to the availability of the supported non-SAP cloud vendors in your country or region.
@@ -242,5 +242,5 @@ Follow these steps to manage the resource providers that you have already config
 **Related Information**  
 
 
-[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using cockpit.")
 

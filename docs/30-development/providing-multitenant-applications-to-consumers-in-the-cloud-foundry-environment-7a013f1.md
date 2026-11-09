@@ -14,7 +14,7 @@ Once you have built a multitenant application in the Cloud Foundry environment u
 
 To use multitenancy in the Cloud Foundry environment in SAP BTP, the application provider must create a subaccount for each consumer in the same global account where the multitenant application is deployed.
 
-The multitenant application is deployed to one subaccount only, which is the hosting subaccount of the application provider. Consumers simply subscribe to the provider application from their subaccount through the SAP BTP cockpit, the SAP BTP command line interface, or dedicated REST APIs.
+The multitenant application is deployed to one subaccount only, which is the hosting subaccount of the application provider. Consumers simply subscribe to the provider application from their subaccount through the cockpit, the SAP BTP command line interface, or dedicated REST APIs.
 
 The application provider is responsible for:
 
@@ -55,7 +55,7 @@ Once you have developed, deployed, configured, and registered your multitenant a
     See:
 
     -   [Subscribe to Multitenant Applications Using the Cockpit](../50-administration-and-ops/subscribe-to-multitenant-applications-using-the-cockpit-7a3e396.md)
-    -   [Working with Multitenant Applications Using the BTP CLI](../50-administration-and-ops/working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md)
+    -   [Working with Multitenant Applications Using the btp CLI](../50-administration-and-ops/working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md)
     -   Subscribe the tenant to an application using the REST API. For more information, see [Using SAP SaaS Provisioning Service APIs to Manage Multitenant Applications](using-sap-saas-provisioning-service-apis-to-manage-multitenant-applications-ed08c7d.md)
 
 3.  Set up application roles and assign users.

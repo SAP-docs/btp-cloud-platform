@@ -2,12 +2,12 @@
 
 # Getting an Access Token for SAP Cloud Management Service APIs
 
-The APIs of the SAP Cloud Management service for SAP BTP are protected with the OAuth 2.0 Password grant type and, in some cases, also the Client Credentials grant type. This procedure guides you through the steps to create an OAuth client and obtain an access token from SAP Authorization and Trust Management service \(`xsuaa`\) to call the APIs of the SAP Cloud Management service.
+The APIs of the SAP Cloud Management service on SAP platform are protected with the OAuth 2.0 Password grant type and, in some cases, also the Client Credentials grant type. This procedure guides you through the steps to create an OAuth client and obtain an access token from SAP Authorization and Trust Management service \(`xsuaa`\) to call the APIs of the SAP Cloud Management service.
 
 
 
 > ### Note:  
-> The Client Credentials grant type is currently available for the SAP Cloud Management service only when creating the instances of this service on a subaccount level by using the SAP Service Manager API, CLI, or when creating an instance of an SAP Cloud Management service by using the SAP BTP cockpit and selecting the *Other* environment.
+> The Client Credentials grant type is currently available for the SAP Cloud Management service only when creating the instances of this service on a subaccount level by using the SAP Service Manager API, CLI, or when creating an instance of an SAP Cloud Management service by using the cockpit and selecting the *Other* environment.
 > 
 > For more information, see [Consuming Services in Other Environments Using the Service Management Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
 
@@ -37,7 +37,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
 
     There are several options available to create instances depending on the environment you use.
 
-    -   To create a service instance in the Cloud Foundry environment using the SAP BTP cockpit or the cf CLI, see [Creating Service Instances](../30-development/creating-service-instances-8221b74.md).
+    -   To create a service instance in the Cloud Foundry environment using the cockpit or the cf CLI, see [Creating Service Instances](../30-development/creating-service-instances-8221b74.md).
 
     -   To create a service instance in other environments using the Service Manager Control \(SMCTL\) CLI or SAP Service Manager APIs, see [Consuming Services in Other Environments Using the Service Management Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
 
@@ -98,7 +98,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
         For more information about the APIs, see the `Subaccount Operations` section of the `Accounts` service in the [SAP Business Accelerator Hub](https://api.sap.com/api/APIAccountsService/resource) 
 
         > ### Note:  
-        > If you use the SAP Service Manager API, CLI, or the SAP BTP cockpit to create the service instance of the SAP Cloud Management service \(`cis`\), you can get a Client Credentials grant type token by specifying the following parameter during the instance creation: `{"grantType": "clientCredentials"}`.
+        > If you use the SAP Service Manager API, CLI, or the cockpit to create the service instance of the SAP Cloud Management service \(`cis`\), you can get a Client Credentials grant type token by specifying the following parameter during the instance creation: `{"grantType": "clientCredentials"}`.
         > 
         > If you don't specify this parameter, the Password grant type is chosen by default.
         > 
@@ -119,7 +119,7 @@ Your global account admin has entitled at least one of the plans of the SAP Clou
 
     There are several options available to create service keys depending on the environment you use.
 
-    -   To create a service key in the Cloud Foundry environment using the SAP BTP cockpit or the cf CLI, see [Creating Service Keys](../30-development/creating-service-keys-4514a14.md).
+    -   To create a service key in the Cloud Foundry environment using the cockpit or the cf CLI, see [Creating Service Keys](../30-development/creating-service-keys-4514a14.md).
 
     -   To create bindings in other environments, see [Consuming Services in Other Environments Using the Service Management Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/0714ac254e83492281d95e25548b388c.html).
 

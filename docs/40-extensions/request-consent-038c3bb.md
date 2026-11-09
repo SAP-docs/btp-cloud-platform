@@ -21,7 +21,7 @@ You request consent for a system type when you went to add a system of this syst
 
 ## Procedure
 
-1.  Sign in to the SAP BTP cockpit and navigate to *System Landscape* \> *Consent Requests*.
+1.  Sign in to the cockpit and navigate to *System Landscape* \> *Consent Requests*.
 
 2.  In *My Consent Requests* tab, choose *Request Consent*.
 

@@ -10,7 +10,7 @@ Create a communication system to set up communication between your ABAP environm
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, download your subaccount-specific trust certificate by navigating to *Connectivity* \> *Destinations* \> *Download Trust*.
+1.  In the cockpit, download your subaccount-specific trust certificate by navigating to *Connectivity* \> *Destinations* \> *Download Trust*.
 
 2.  In the SAP Fiori launchpad of your ABAP environment system, create a communication system by using the *Communication Systems* app. See [How to Create Communication Systems](https://help.sap.com/docs/btp/sap-business-technology-platform/how-to-create-communication-systems?version=Cloud).
 

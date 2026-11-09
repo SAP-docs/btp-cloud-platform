@@ -2,7 +2,7 @@
 
 # Access the Cockpit
 
-Learn how to access the SAP BTP cockpit.
+Learn how to access the cockpit.
 
 
 
@@ -15,13 +15,13 @@ Navigate to [https://cockpit.btp.cloud.sap](https://cockpit.btp.cloud.sap) to ac
 > 
 > For example: `https://cockpit.btp.cloud.sap?idp=mytenant.accounts.ondemand.com`
 > 
-> For more information, see [Log On with a Custom Identity Provider to the SAP BTP cockpit](log-on-with-a-custom-identity-provider-to-the-sap-btp-cockpit-0bef982.md).
+> For more information, see [Log On with a Custom Identity Provider to the cockpit](log-on-with-a-custom-identity-provider-to-the-cockpit-0bef982.md).
 
 
 
 ### Accessing the cockpit from China
 
-Users accessing SAP BTP cockpit from China must use a dedicated regional entry point.
+Users accessing cockpit from China must use a dedicated regional entry point.
 
 Use the following URL to access the cockpit: [https://cockpit.cn40.platform.sapcloud.cn](https://cockpit.cn40.platform.sapcloud.cn)
 

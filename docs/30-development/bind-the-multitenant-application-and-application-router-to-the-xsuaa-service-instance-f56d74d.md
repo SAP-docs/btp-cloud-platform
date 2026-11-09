@@ -80,5 +80,5 @@ The name of the `xsuaa` application you deployed in [Configure the approuter App
 > ```
 
 > ### Tip:  
-> You can also bind the application to the `xsuaa` service instances directly in the SAP BTP cockpit.
+> You can also bind the application to the `xsuaa` service instances directly in the cockpit.
 

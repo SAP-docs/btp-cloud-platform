@@ -2,7 +2,7 @@
 
 # Registry Cache Module
 
-The Registry Cache module adds a caching layer for container image registries in SAP BTP, Kyma runtime instances.
+The Registry Cache module adds a caching layer for container image registries in Kyma runtime on SAP platform instances.
 
 
 

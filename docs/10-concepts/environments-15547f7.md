@@ -21,11 +21,11 @@ Each environment comes equipped with specific tools, technologies, and runtimes 
 
 To actually use an environment in a subaccount, you must **enable** it, which creates an instance of that environment. There are several ways to create **environment instances**:
 
--   In the SAP BTP cockpit, on the subaccount overview, choose *Enable*.
+-   In the cockpit, on the subaccount overview, choose *Enable*.
 
--   In the SAP BTP cockpit, under *Service Marketplace*. Here, you get more information, such as the available plans and links to further information.
+-   In the cockpit, under *Service Marketplace*. Here, you get more information, such as the available plans and links to further information.
 
--   Using the BTP CLI command `btp create accounts/environment-instance`
+-   Using the btp CLI command `btp create accounts/environment-instance`
 
 
 **Related Information**  

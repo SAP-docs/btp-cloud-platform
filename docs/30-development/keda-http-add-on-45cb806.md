@@ -169,7 +169,7 @@ No
 </td>
 <td valign="top">
 
-Set to *true* to enable Istio sidecar injection on the add-on `Deployment`s. Defaults to *false* — the add-on `Deployment`s are annotated with `sidecar.istio.io/inject`: *"false"* unless this annotation is explicitly set to *true*. When enabled, the `Interceptor` `Deployment` also receives `traffic.sidecar.istio.io/excludeInboundPorts`: *"9090"* to prevent the sidecar from intercepting internal gRPC traffic.
+Set to *true* to enable Istio sidecar injection on the add-on `Deployment`s. Defaults to *false* — the add-on `Deployment`s are annotated with `sidecar.istio.io/inject`: *"false"* unless this annotation is explicitly set to *true*. When enabled, the `Interceptor` `Deployment` also receives `traffic.sidecar.istio.io/excludeInboundPorts`: *"9090"* to prevent the sidecar from intercepting internal gRPC traffic. Keda Manager also creates a port-level `PERMISSIVE` PeerAuthentication on port `15090` so Kyma telemetry can scrape Istio sidecar metrics over plain HTTP under mesh-wide STRICT mTLS.
 
 </td>
 </tr>
@@ -219,7 +219,7 @@ To find and remove them:
 
 ```
 kubectl get httpscaledobjects -A
-          kubectl delete httpscaledobject -n <namespace> <name>
+kubectl delete httpscaledobject -n <namespace> <name>
 ```
 
 Once all `HTTPScaledObject`s are deleted, the Keda Manager retries automatically within about 30 seconds.

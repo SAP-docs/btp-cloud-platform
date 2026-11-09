@@ -12,7 +12,7 @@ Your SAP BTP global account is the entry point for managing the resources, lands
 
 ## Global Account Settings
 
-As a global account administrator, you can access the global account settings by clicking :gear: in the SAP BTP cockpit.
+As a global account administrator, you can access the global account settings by clicking :gear: in the cockpit.
 
 In the *General* tab of the global account settings, you can obtain general information about your global account, including your global account ID, global account name, account type, payment models, contract status, global account subdomain, geographic access restrictions, and when your account was created.
 
@@ -35,7 +35,7 @@ In the *Subaccounts* tab in the global account settings, you can
 
 [Setting Up Your Account Model](https://help.sap.com/viewer/df50977d8bfa4c9a8a063ddb37113c43/Cloud/en-US/2db81f42f5194454beecde6cd4994dda.html "Your account model defines how you organize global accounts, directories, and subaccounts in SAP BTP to match your business and development needs.") :arrow_upper_right:
 
-[Managing Directories Using the Cockpit](managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the SAP BTP cockpit.")
+[Managing Directories Using the Cockpit](managing-directories-using-the-cockpit-f495ac1.md "Learn how to organize and manage your subaccounts according to your technical and business needs by using directories in the cockpit.")
 
 [Managing Subaccounts Using the Cockpit](managing-subaccounts-using-the-cockpit-55d0b6d.md "Learn how to structure a global account according to your organization’s and project’s requirements with regard to members, authorizations, and entitlements by managing subaccounts.")
 

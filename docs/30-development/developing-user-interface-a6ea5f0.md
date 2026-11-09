@@ -2,11 +2,11 @@
 
 # Developing User Interface
 
-Get information on user interface development in the SAP BTP, Cloud Foundry environment.
+Get information on user interface development in the Cloud Foundry environment.
 
 The key to a modern user interface is pairing great performance with a consistent and recognizable design across applications, platforms, and devices. To keep the user experience homogenous, you can establish a flexible implementation paradigm based on reusable components. Doing so enables extensibility and easier maintainability.
 
-We know that it can be difficult to decide this up front. You can find information about UI development options in the SAP BTP, Cloud Foundry environment in the following sections.
+We know that it can be difficult to decide this up front. You can find information about UI development options in the Cloud Foundry environment in the following sections.
 
 
 

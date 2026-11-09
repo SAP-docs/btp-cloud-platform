@@ -2,7 +2,7 @@
 
 # Delete Shadow Users for Data Protection and Privacy Using the Cockpit
 
-Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization. SAP BTP cockpit offers an application to select and delete shadow users.
+Data privacy regulations or policies may require you to delete this data, for example, when the user has left your organization. cockpit offers an application to select and delete shadow users.
 
 
 

@@ -2732,7 +2732,7 @@ For more information about the load balancers and their features, see the offici
 **Related Information**  
 
 
-[Creating Kyma Instances](../50-administration-and-ops/creating-kyma-instances-09dd313.md "Set up a Kubernetes cluster with SAP BTP, Kyma runtime and use it to build applications and extensions to your SAP and third-party solutions. You can create one or multiple Kyma clusters in a single SAP BTP subaccount.")
+[Creating Kyma Instances](../50-administration-and-ops/creating-kyma-instances-09dd313.md "Set up a Kubernetes cluster with Kyma runtime on SAP platform and use it to build applications and extensions to your SAP and third-party solutions. You can create one or multiple Kyma clusters in a single SAP BTP subaccount.")
 
 [Available Plans in the Kyma Environment](../50-administration-and-ops/available-plans-in-the-kyma-environment-befe01d.md "Depending on your global account type, you have access to a different plan that specifies the cluster parameters for the Kyma environment.")
 

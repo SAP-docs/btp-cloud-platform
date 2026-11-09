@@ -26,7 +26,7 @@ Make sure that no tenant is subscribed to your application before you initiate t
 The procedure described in this section uses the cf CLI.
 
 > ### Tip:  
-> You can delete a service instance directly in the SAP BTP cockpit, in the *Service Instances* page.
+> You can delete a service instance directly in the cockpit, in the *Service Instances* page.
 
 
 

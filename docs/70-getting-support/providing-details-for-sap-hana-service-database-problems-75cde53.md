@@ -40,7 +40,7 @@ The URL of the space the database is provisioned in
 </td>
 <td valign="top" rowspan="2">
 
-1.  In the SAP BTP cockpit, navigate to the org and space the database is provisioned in.
+1.  In the cockpit, navigate to the org and space the database is provisioned in.
 
 2.  In the navigation area, go to *SAP HANA* \> *Database Systems*.
 
@@ -81,7 +81,7 @@ The service instance ID
 </td>
 <td valign="top" rowspan="2">
 
-1.  In the SAP BTP cockpit, navigate to the space the SAP HANA service instance is provisioned in.
+1.  In the cockpit, navigate to the space the SAP HANA service instance is provisioned in.
 2.  In the navigation area, choose *Services* \> *Service Instances*.
 3.  In the list of available services, find your SAP HANA service instance and choose <span class="SAP-icons-V5"></span> Open Dashboard from the *Actions* column.
 4.  Copy the service instance GUID under *Details* \> *ID*.

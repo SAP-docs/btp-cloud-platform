@@ -2,11 +2,11 @@
 
 # Account Administration Using APIs of the SAP Cloud Management Service
 
-Provides information about using the APIs of the SAP Cloud Management service for SAP BTP \(technical name: `cis`\) to manage some of the administrative operations in your accounts.
+Provides information about using the APIs of the SAP Cloud Management service on SAP platform \(technical name: `cis`\) to manage some of the administrative operations in your accounts.
 
-The APIs of the core services for SAP BTP allow you to manage, build, and extend the core capabilities of SAP BTP. Each core service focuses on a different aspect of the platform, such as the management of accounts and product entitlements, and the registration and provisioning of subscriptions for multitenant applications and services.
+The APIs of the core services allow you to manage, build, and extend the core capabilities of SAP BTP. Each core service focuses on a different aspect of the platform, such as the management of accounts and product entitlements, and the registration and provisioning of subscriptions for multitenant applications and services.
 
-The APIs of the SAP Cloud Management service are included in the core services for SAP BTP.
+The APIs of the SAP Cloud Management service are included in the core services.
 
 The following table provides an overview of the SAP Cloud Management service APIs:
 
@@ -124,15 +124,15 @@ For additional information about using the SAP Cloud Management service APIs wit
 **Related Information**  
 
 
-[Error Response Format](error-response-format-77fef2f.md "Describes the response format for the errors from the SAP Cloud Management service for SAP BTP.")
+[Error Response Format](error-response-format-77fef2f.md "Describes the response format for the errors from the SAP Cloud Management service on SAP platform.")
 
-[Asynchronous Jobs](asynchronous-jobs-0a0a6ab.md "Describes the asynchronous calls that are supported by some functionality from the SAP Cloud Management service for SAP BTP.")
+[Asynchronous Jobs](asynchronous-jobs-0a0a6ab.md "Describes the asynchronous calls that are supported by some functionality from the SAP Cloud Management service on SAP platform.")
 
-[Using the Events Service APIs](using-the-events-service-apis-94e1895.md "The Events service provides REST APIs that collect information about events relating to account administrative operations in the microservices of the SAP Cloud Management service for SAP BTP, such as Accounts, Entitlements, Provisioning, and the SAP SaaS Provisioning service, within central and local regions.")
+[Using the Events Service APIs](using-the-events-service-apis-94e1895.md "The Events service provides REST APIs that collect information about events relating to account administrative operations in the microservices of the SAP Cloud Management service on SAP platform, such as Accounts, Entitlements, Provisioning, and the SAP SaaS Provisioning service, within central and local regions.")
 
-[Rate Limiting](rate-limiting-77b217b.md "Describes how all API requests to the SAP Cloud Management service for SAP BTP adhere to rate limiting rules.")
+[Rate Limiting](rate-limiting-77b217b.md "Describes how all API requests to the SAP Cloud Management service on SAP platform adhere to rate limiting rules.")
 
-[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service for SAP BTP for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
+[Monitoring Usage Information Using APIs of the SAP Usage Data Management Service](monitoring-usage-information-using-apis-of-the-sap-usage-data-management-service-bf2b304.md "Provides information about using the Resource Consumption APIs of the SAP Usage Data Management service on SAP platform for gathering, storing, and making usage information available for all services and applications in all regions in a cloud deployment. This information is for the purpose of central analysis, reporting, and license auditing.")
 
 [Using SAP SaaS Provisioning Service APIs to Manage Multitenant Applications](../30-development/using-sap-saas-provisioning-service-apis-to-manage-multitenant-applications-ed08c7d.md "Use the SaaS Provisioning Service (technical name: saas-registry) APIs to work with multitenant applications.")
 

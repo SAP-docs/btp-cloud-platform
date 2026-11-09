@@ -10,7 +10,7 @@ Use this procedure to configure the communication between SAP S/4HANA Cloud and 
 
 ## Prerequisites
 
-In the SAP BTP cockpit, you have assigned the `messaging` SAP S/4HANA Cloud service plan to the subaccount you want to pair with the SAP S/4HANA Cloud tenant. See [Configure the Entitlements for the SAP BTP Subaccount](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md).
+In the cockpit, you have assigned the `messaging` SAP S/4HANA Cloud service plan to the subaccount you want to pair with the SAP S/4HANA Cloud tenant. See [Configure the Entitlements for the SAP BTP Subaccount](configure-the-entitlements-for-the-sap-s-4hana-cloud-extensibility-service-65ad330.md).
 
 
 
@@ -26,7 +26,7 @@ When creating this service instance, you create the required configurations in b
 
 ## Procedure
 
-1.  In the SAP BTP cockpit, navigate to the subaccount for which you want to create an SAP S/4HANA Cloud Extensibility service instance.
+1.  In the cockpit, navigate to the subaccount for which you want to create an SAP S/4HANA Cloud Extensibility service instance.
 
 2.  On the subaccount *Overview* page in the *Kyma Environment* section, open the Kyma dashboard.
 

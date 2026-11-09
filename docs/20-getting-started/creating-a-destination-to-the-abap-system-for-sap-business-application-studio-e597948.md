@@ -16,7 +16,7 @@ The process for connecting to an ABAP service instance URL when creating a new A
 
 ## Procedure
 
-1.  Log on to the SAP BTP cockpit as administrator.
+1.  Log on to the cockpit as administrator.
 
 2.  From your global account, navigate to your Cloud Foundry subaccount.
 

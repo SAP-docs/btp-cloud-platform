@@ -51,9 +51,9 @@ To bind your application to the user-provided service instance, follow the steps
 **Related Information**  
 
 
-[Creating Service Instances](creating-service-instances-8221b74.md "Use the SAP BTP cockpit or the Cloud Foundry Command Line Interface to create service instances:")
+[Creating Service Instances](creating-service-instances-8221b74.md "Use the cockpit or the Cloud Foundry Command Line Interface to create service instances:")
 
 [Creating Service Keys](creating-service-keys-4514a14.md "You can use service keys to generate credentials to communicate directly with a service instance. Once you configure them for your service, local clients, apps in other spaces, or entities outside your deployment can access your service with these keys.")
 
-[About Services](about-services-d1d0fc8.md "In the Cloud Foundry environment, you usually enable services by creating a service instance using either the SAP BTP cockpit or the Cloud Foundry command line interface (cf CLI), and binding that instance to your application.")
+[About Services](about-services-d1d0fc8.md "In the Cloud Foundry environment, you usually enable services by creating a service instance using either the cockpit or the Cloud Foundry command line interface (cf CLI), and binding that instance to your application.")
 

@@ -2,9 +2,9 @@
 
 # SAP's Access to Your Kyma Environment
 
-SAP BTP, Kyma runtime provides reliable, secure infrastructure management while ensuring you maintain full control over your applications.
+Kyma runtime on SAP platform provides reliable, secure infrastructure management while ensuring you maintain full control over your applications.
 
-As a managed service, SAP BTP, Kyma runtime maintains a clear separation of responsibilities: SAP acts as the platform operator, and customers as the application owners. Customers retain full control over their applications and workloads, while SAP manages the underlying infrastructure, to ensure continuous platform stability. For more information, see [Operating Model in the Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/operating-model-in-kyma-environment?version=Cloud). This model requires SAP to occasionally access your cluster for operational purposes.
+As a managed service, Kyma runtime on SAP platform maintains a clear separation of responsibilities: SAP acts as the platform operator, and customers as the application owners. Customers retain full control over their applications and workloads, while SAP manages the underlying infrastructure, to ensure continuous platform stability. For more information, see [Operating Model in the Kyma Environment](https://help.sap.com/docs/btp/sap-business-technology-platform/operating-model-in-kyma-environment?version=Cloud). This model requires SAP to occasionally access your cluster for operational purposes.
 
 SAP can access your environment exclusively for the following operational tasks:
 

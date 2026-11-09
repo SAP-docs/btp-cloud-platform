@@ -4,7 +4,7 @@
 
 # Bind Routes to Service Instances
 
-You can bind a route to a service instance in the SAP BTP cockpit.
+You can bind a route to a service instance in the cockpit.
 
 
 

@@ -10,9 +10,9 @@ When implementing your extensibility scenario, there are a couple of concepts yo
 
 ## Systems
 
-A system is a specific instance of an SAP solution that is manually added or auto discovered and is listed in the *System Landscape* \> *Systems* page in the SAP BTP cockpit.
+A system is a specific instance of an SAP solution that is manually added or auto discovered and is listed in the *System Landscape* \> *Systems* page in the cockpit.
 
-When you want to add functionality to your SAP solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP solution, you add the system of this solution to the *Systems* page of the SAP BTP cockpit. If the system is one of the following types, you also have to register it using a registration token:
+When you want to add functionality to your SAP solution, you start by developing an extension application and deploying it in SAP BTP. Then, to allow the application to access the SAP solution, you add the system of this solution to the *Systems* page of the cockpit. If the system is one of the following types, you also have to register it using a registration token:
 
 -   SAP S/4HANA Cloud
 
@@ -51,7 +51,7 @@ The registration process can have the following status values:
 
 -   *Removing*
 
-    A system removal process has started in the SAP BTP cockpit. You can remove a system from the list only when this system:
+    A system removal process has started in the cockpit. You can remove a system from the list only when this system:
 
     -   Hasn't been registered yet
 
@@ -81,7 +81,7 @@ You can use the URL as an entry point to the corresponding system. Optionally, y
 
 ### Discovery Mechanisms
 
-There are different ways to add systems to the *Systems* page in the SAP BTP cockpit: manually or automatically. If a system of your solution is associated with your global account or through a subscription in SAP BTP cockpit associated with a given subaccount, it will appear in the list automatically. Otherwise, you have to add your system manually. Systems are added to the list in one of the following ways:
+There are different ways to add systems to the *Systems* page in the cockpit: manually or automatically. If a system of your solution is associated with your global account or through a subscription in cockpit associated with a given subaccount, it will appear in the list automatically. Otherwise, you have to add your system manually. Systems are added to the list in one of the following ways:
 
 **Auto-Discovered**
 
@@ -92,7 +92,7 @@ An auto-discovered system is a system \(associated with the given global account
 
 **Subaccount/<my-subaccount\>**
 
-Specifies that the system has been added through a subscription in SAP BTP cockpit associated with a given subaccount. The subscription has been discovered and added automatically through the subaccount.
+Specifies that the system has been added through a subscription in cockpit associated with a given subaccount. The subscription has been discovered and added automatically through the subaccount.
 
 **Manually-Added**
 
@@ -116,7 +116,7 @@ Adding a system to the list in the *Systems* page is just the first step of the 
 
 When registering an SAP system of type SAP SuccessFactors, SAP S/4HANA Cloud, SAP Marketing Cloud and SAP systems from the SAP Customer Experience portfolio, the required configuration on the system side has been performed, and therefore, the newly added system can exchange or expose its technical details, metadata, APIs, or events. Only when the registration process is complete and the system is registered with SAP BTP, it can exchange the relevant information and enable the extension or integration scenario.
 
-The registration of the newly added systems is based on a registration token. The token is used for the pairing of the system and the corresponding global account. After you add a system, you can get the token in the SAP BTP cockpit. Then, you can use it to configure the integration on the corresponding system side. By using the registration token on the system side and registering the system, the system administrator allows the integration of the system with SAP BTP.
+The registration of the newly added systems is based on a registration token. The token is used for the pairing of the system and the corresponding global account. After you add a system, you can get the token in the cockpit. Then, you can use it to configure the integration on the corresponding system side. By using the registration token on the system side and registering the system, the system administrator allows the integration of the system with SAP BTP.
 
 The system gets a *Registered* status, only when a token is issued and the registration is complete on the corresponding system side. In general, the *Registered* status means that the communication between the system and SAP BTP has been established. However, depending on the system and its requirements, additional configuration might be needed for the enablement of a fully functional extension scenario. The additional configuration, depending on the system type, is outlined in the corresponding documents listed in the *Related Information* section. See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
 
@@ -132,7 +132,7 @@ When you register an SAP S/4HANA Cloud system, you can automate some of the requ
 
 For example, you can use the Event Mesh communication scenario group when you get the registration token for the SAP S/4HANA Cloud system. This allows the automatic enablement of the communication scenario `SAP_COM_0892` after the corresponding system is added to the formation of type *Eventing Between SAP Cloud Systems*.
 
-You can configure the communication scenario groups when registering an SAP S/4HANA Cloud system in the SAP BTP cockpit, in *System Landscape* \> *Systems*. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
+You can configure the communication scenario groups when registering an SAP S/4HANA Cloud system in the cockpit, in *System Landscape* \> *Systems*. See [Register an SAP S/4HANA Cloud System in a Global Account in SAP BTP](register-an-sap-s-4hana-cloud-system-in-a-global-account-in-sap-btp-28171b6.md).
 
 **Merging**
 
@@ -146,7 +146,7 @@ Deregistering a system means that the connectivity between this system and the g
 
 Removing a system means that this system is no longer part of the system landscape list. To remove a system from the list, first you have to deregister it. You can remove a system from the *Actions* column, or from the *System Details* page that you access when selecting the system from the *System* list. See [Deregister or Removе a System](deregister-or-remov-a-system-0c6f498.md).
 
-You can see the discovery mechanism and access all the actions related to the systems listed in the SAP BTP cockpit, in *System Landscape* \> *Systems*. See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
+You can see the discovery mechanism and access all the actions related to the systems listed in the cockpit, in *System Landscape* \> *Systems*. See [Adding, Registering and Deregistering Systems](adding-registering-and-deregistering-systems-2ffdaff.md).
 
 
 
@@ -167,7 +167,7 @@ Extension business cases often involve extending several SAP solutions at a time
 -   SAP systems that expose event data, which can be shared and exchanged with the systems included in the formation.
 
 
-When creating a formation in the *System Landscape* \> *Formations* page in the SAP BTP cockpit, you include the systems of the different SAP solutions you want to extend. If your business case features more than one system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
+When creating a formation in the *System Landscape* \> *Formations* page in the cockpit, you include the systems of the different SAP solutions you want to extend. If your business case features more than one system, you can use the corresponding button to include additional systems in the formation. You can start the dialog as many times and add systems to your formation as you want.
 
 
 
@@ -205,7 +205,7 @@ A formation can have the following status values:
 
     The formation has been created but you cannot use it productively yet.
 
-    Based on the formation type and the subaccount that you specified, it might require an SAP BTP, Kyma environment instance or an SAP Business Application Studio subscription. Although the SAP BTP cockpit allows you to create such a formation, to enable and make use of it, you must also create the respective instance or subscription.
+    Based on the formation type and the subaccount that you specified, it might require an SAP BTP, Kyma environment instance or an SAP Business Application Studio subscription. Although the cockpit allows you to create such a formation, to enable and make use of it, you must also create the respective instance or subscription.
 
 -   *Synchronizing*
 
@@ -248,5 +248,5 @@ Detach the systems, unassign the subaccount, and delete the formation at one go.
 
 When you start a formation deletion process, first the systems are excluded from the formation, then, the subaccount is unassigned, and last, the formation is deleted from the list completely.
 
-You can create and configure formations in the SAP BTP cockpit, in *System Landscape* \> *Formations*. See [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md).
+You can create and configure formations in the cockpit, in *System Landscape* \> *Formations*. See [Automating Integrations Using Formations](automating-integrations-using-formations-68b04fa.md).
 

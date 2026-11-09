@@ -6,7 +6,7 @@
 
 Budgets allow cost controllers and global account admins in SAP BTPto better control their global account spending and plan for future consumption by setting up budget limits for global accounts.
 
-Automatic email alerts notify global account administrators when spending exceeds defined thresholds, allowing for timely intervention. You can also use the SAP Alert Notification service for SAP BTP to create custom alerts according to your specific monitoring needs.
+Automatic email alerts notify global account administrators when spending exceeds defined thresholds, allowing for timely intervention. You can also use the SAP Alert Notification service on SAP Platform to create custom alerts according to your specific monitoring needs.
 
 > ### Note:  
 > The use of budgets in your global account is subject to its availability in your country or region. Additionally, even where budgets are available, the option to send automatic email alerts to global account administrators when spending exceeds defined thresholds, may not be supported in your country or region.
@@ -37,7 +37,7 @@ When you use budgets in your global account, note the following important detail
 
 ## Accessing Your Global Account's Budgets
 
-Access and manage your global account's budgets in SAP BTP cockpit. Monitor spending, view active and expired budgets, and configure table columns.
+Access and manage your global account's budgets in cockpit. Monitor spending, view active and expired budgets, and configure table columns.
 
 
 
@@ -45,7 +45,7 @@ Access and manage your global account's budgets in SAP BTP cockpit. Monitor spen
 
 ## Prerequisites
 
--   Your global account uses the SAP BTP Enterprise Agreement \(SAP BTPEA\), Cloud Platform Enterprise Agreement \(CPEA\), or Pay-As-You-Go for SAP BTP flavor of the consumption-based commercial model, or it combines one of these consumption-based flavors with the subscription-based commercial model.
+-   Your global account uses the SAP BTP Enterprise Agreement \(SAP BTPEA\), Cloud Platform Enterprise Agreement \(CPEA\), or Pay-As-You-Go flavor of the consumption-based commercial model, or it combines one of these consumption-based flavors with the subscription-based commercial model.
 
     Note that the use of the consumption-based commercial model is subject to its availability in your country or region.
 
@@ -60,7 +60,7 @@ Access and manage your global account's budgets in SAP BTP cockpit. Monitor spen
 
 ## Procedure
 
-1.  Open SAP BTP cockpit.
+1.  Open cockpit.
 
 2.  From the global account level, go to the *Costs and Usage* page.
 
@@ -100,7 +100,7 @@ Each global account is allowed up to 30 active budgets. Active budgets have an e
 
 ## Procedure
 
-1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
+1.  In cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
 2.  In the *Budgets* tab, click *Create*.
 
@@ -270,7 +270,7 @@ Additionally, you can:
     > ### Note:  
     > This option is subject to availability in your country or region.
 
--   Use the SAP Alert Notification service for SAP BTP to set up customized alerts for your preferred recipients, communication channels, and monitoring solutions.
+-   Use the SAP Alert Notification service on SAP Platform to set up customized alerts for your preferred recipients, communication channels, and monitoring solutions.
 
 
 For more information, see [Setting Up Budget Threshold Alerts](managing-budgets-in-your-global-account-e115d5f.md#loio80849f9e7f654041b026e22582c72b45).
@@ -295,7 +295,7 @@ Viewing a budget provides detailed information about the budget's configuration 
 
 ## Procedure
 
-1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
+1.  In cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
 2.  In the *Budgets* tab, click on a budget to display more details.
 
@@ -325,7 +325,7 @@ Editing a budget allows you to make changes to the budget's settings.
 
 ## Procedure
 
-1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
+1.  In cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
 2.  In the *Budgets* tab, go to the Active Budgets table.
 
@@ -364,7 +364,7 @@ Before deleting a budget, check with the users who created and last modified it 
 
 ## Procedure
 
-1.  In SAP BTP cockpit, open your global account and then navigate to the *Costs and Usage* page.
+1.  In cockpit, open your global account and then navigate to the *Costs and Usage* page.
 
 2.  Go to the *Budgets* tab.
 
@@ -450,7 +450,7 @@ Custom Alerts
 </td>
 <td valign="top">
 
-Whenever a budget's threshold value is exceeded, we also automatically send an event to the SAP Alert Notification service for SAP BTP.
+Whenever a budget's threshold value is exceeded, we also automatically send an event to the SAP Alert Notification service on SAP Platform.
 
 You can integrate with SAP Alert Notification service to send custom alerts to your preferred recipients, communication channels, and monitoring solutions. This is a paid service. For pricing information, go to the [SAP Discovery Center](https://discovery-center.cloud.sap/serviceCatalog/sap-alert-notification-service).
 
@@ -493,7 +493,7 @@ For more information, see:
 **Related Information**  
 
 
-[Monitoring Usage and Consumption Costs in Your Global Account](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "SAP BTP cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.")
+[Monitoring Usage and Consumption Costs in Your Global Account](monitoring-usage-and-consumption-costs-in-your-global-account-de6f0db.md "cockpit supports advanced usage and cost monitoring of services in your global account. You can compare the usage and costs of multiple services and subaccounts, see monthly trends, and drill down into subaccounts and service plans for detailed information.")
 
 [SAP Alert Notification Service for SAP BTP](https://help.sap.com/docs/alert-notification/sap-alert-notification-for-sap-btp/what-is-sap-alert-notification-service-for-sap-btp?version=Cloud)
 

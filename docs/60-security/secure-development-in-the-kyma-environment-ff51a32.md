@@ -29,7 +29,7 @@ To learn how to secure your Kubernetes Pods in Kyma see [Kubernetes Pod Security
 
 ## Expose Workloads Securely
 
-To securely expose workloads in SAP BTP, Kyma runtime, use the Istio and API Gateway modules. As a prerequisite, make sure that you have those two modules added to your Kyma cluster. Then, perform the following tasks:
+To securely expose workloads in Kyma runtime on SAP platform, use the Istio and API Gateway modules. As a prerequisite, make sure that you have those two modules added to your Kyma cluster. Then, perform the following tasks:
 
 -   Set up a custom domain for a workload. See [Istio Gateways](../30-development/istio-gateways-8297fa1.md).
 
@@ -60,7 +60,7 @@ For more information, see [Function Security](https://kyma-project.io/external-c
 **Related Information**  
 
 
-[Kyma Security Concepts](kyma-security-concepts-dbf4503.md "SAP BTP, Kyma runtime takes various security measures regarding your cluster and its underlying infrastructure. Benefit from the security setup that SAP BTP, Kyma runtime provides.")
+[Kyma Security Concepts](kyma-security-concepts-dbf4503.md "Kyma runtime on SAP platform takes various security measures regarding your cluster and its underlying infrastructure. Benefit from the security setup that Kyma runtime on SAP platform provides.")
 
 [Secure Administration and Operations in the Kyma Environment](secure-administration-and-operations-in-the-kyma-environment-a22ef28.md "Secure administration and operations focus on landscape setup, authentication, authorization, and Istio access logs. Learn about the security measures you can take to improve the security of your Kyma environment.")
 

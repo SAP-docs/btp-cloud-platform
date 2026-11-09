@@ -2,7 +2,7 @@
 
 # Error Response Format
 
-Describes the response format for the errors from the SAP Cloud Management service for SAP BTP.
+Describes the response format for the errors from the SAP Cloud Management service on SAP platform.
 
 Standard HTTP codes are used to indicate successful execution or if errors occur. The response includes additional information about the error, including an application error code and human readable error description. This example represents a common error response resulting from a failed API request.
 

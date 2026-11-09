@@ -2,7 +2,7 @@
 
 # Tips and Tricks for Python Applications
 
-Get to know the Python buildpack for the SAP BTP, Cloud Foundry environment.
+Get to know the Python buildpack for the Cloud Foundry environment.
 
 Check the following Cloud Foundry documentation: [Python Buildpack](https://docs.cloudfoundry.org/buildpacks/python/index.html)
 
@@ -27,7 +27,7 @@ Depending on the region where the application is deployed:
 
 ## Specify a buildpack version in `manifest.yml`
 
-At some point, you might need \(or decide\) to deploy your application with a particular buildpack version from the community [python-buildpack](https://github.com/cloudfoundry/python-buildpack) repository. For example, if this buildpack contains a Python version that is no longer supported by the SAP BTP, Cloud Foundry environment.
+At some point, you might need \(or decide\) to deploy your application with a particular buildpack version from the community [python-buildpack](https://github.com/cloudfoundry/python-buildpack) repository. For example, if this buildpack contains a Python version that is no longer supported by the Cloud Foundry environment.
 
 Let's say, you want to pin version [1.8.4](https://github.com/cloudfoundry/python-buildpack/releases/tag/v1.8.4). To do that, proceed as follows:
 
@@ -62,7 +62,7 @@ If you don't want to make changes in your **manifest.yml** file, you can include
     cf push myapp -b https://github.com/cloudfoundry/python-buildpack.git#v1.8.4
     ```
 
--   To pin this buildpack version for all applications running in your SAP BTP, Cloud Foundry environment subaccount, run:
+-   To pin this buildpack version for all applications running in your Cloud Foundry environment subaccount, run:
 
     ```
     cf push -b https://github.com/cloudfoundry/python-buildpack.git#v1.8.4
@@ -75,7 +75,7 @@ If you don't want to make changes in your **manifest.yml** file, you can include
 
 ## Specify application memory in `manifest.yml`
 
-When deploying an application in the SAP BTP, Cloud Foundry environment without specifying the application memory requirements, the Cloud Foundry controller assigns the default \(1G of RAM currently\) for your application. Many Python applications require less memory and assigning the default is a waste of resources.
+When deploying an application in the Cloud Foundry environment without specifying the application memory requirements, the Cloud Foundry controller assigns the default \(1G of RAM currently\) for your application. Many Python applications require less memory and assigning the default is a waste of resources.
 
 To save memory from your quota, specify the memory size in the deployment descriptor of your Cloud Foundry application – `manifest.yml`. For example:
 

@@ -224,7 +224,7 @@ PS\*
 
 In SAP BTP, there are platform and business users.
 
-**Platform users** operate in the SAP BTP cockpit by deploying, administering, and troubleshooting applications and services. They are authorized by using role collections or by user assignment in the Cloud Foundry space as space or org members, such as space developers.
+**Platform users** operate in the cockpit by deploying, administering, and troubleshooting applications and services. They are authorized by using role collections or by user assignment in the Cloud Foundry space as space or org members, such as space developers.
 
 **Business users** use the applications that are deployed to SAP BTP and are authorized by using role collections.
 

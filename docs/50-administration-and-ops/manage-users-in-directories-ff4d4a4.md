@@ -2,7 +2,7 @@
 
 # Manage Users in Directories
 
-Manage members in your directory using the SAP BTP cockpit.
+Manage members in your directory using the cockpit.
 
 
 
@@ -40,7 +40,7 @@ Manage members in your directory using the SAP BTP cockpit.
 
 ## Context
 
-Assign predefined or custom role collections to users who need to manage or view the directory in SAP BTP cockpit. Examples of predefined role collections include the following:
+Assign predefined or custom role collections to users who need to manage or view the directory in cockpit. Examples of predefined role collections include the following:
 
 -   *Directory Administrator*
 -   *Directory Viewer*
@@ -68,7 +68,7 @@ For more information about these role collections, see [Role Collections and Rol
 
 ## Results
 
-The next time this user logs on to the SAP BTP cockpit, the user can access this directory.
+The next time this user logs on to the cockpit, the user can access this directory.
 
 **Related Information**  
 

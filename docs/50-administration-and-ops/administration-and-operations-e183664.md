@@ -14,7 +14,7 @@ Administration and operation tasks for SAP BTP include management and configurat
 
 ## Administration of Global Accounts, Directories, and Subaccounts
 
-Some of the typical responsibilities of SAP BTP administrators include maintenance of global accounts, management of directories and subaccounts, and configuration of entitlements. To do this, you can use either the SAP BTP cockpit, the SAP BTP command line interface, or APIs.
+Some of the typical responsibilities of SAP BTP administrators include maintenance of global accounts, management of directories and subaccounts, and configuration of entitlements. To do this, you can use either the cockpit, the SAP BTP command line interface, or APIs.
 
 -   [Account Administration in the Cockpit](account-administration-in-the-cockpit-8061ecc.md)
 
@@ -35,7 +35,7 @@ Environments constitute the actual platform-as-a-service offering of SAP BTP tha
 
 ### Administration and Operations in the Cloud Foundry Environment
 
-In the Cloud Foundry environment, you can manage orgs, spaces, and space quota plans using the SAP BTP cockpit or the SAP BTP command line interface.
+In the Cloud Foundry environment, you can manage orgs, spaces, and space quota plans using the cockpit or the SAP BTP command line interface.
 
 Learn more about the different application operations that you can perform in the Cloud Foundry environment.
 

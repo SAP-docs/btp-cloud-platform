@@ -2,7 +2,7 @@
 
 # Kyma Dashboard
 
-Use Kyma dashboard to access various features and functionalities of SAP BTP, Kyma runtime.
+Use Kyma dashboard to access various features and functionalities of Kyma runtime on SAP platform.
 
 Kyma dashboard is a web-based UI utilizing the React library and the SAP Fiori Horizon design system. Kyma uses Kyma dashboard as a central administration dashboard, which provides a graphical overview of your cluster and all its resources.
 
@@ -32,7 +32,7 @@ You can use Kyma dashboard to perform the following actions:
 **Related Information**  
 
 
-[Creating Kyma Instances](../50-administration-and-ops/creating-kyma-instances-09dd313.md "Set up a Kubernetes cluster with SAP BTP, Kyma runtime and use it to build applications and extensions to your SAP and third-party solutions. You can create one or multiple Kyma clusters in a single SAP BTP subaccount.")
+[Creating Kyma Instances](../50-administration-and-ops/creating-kyma-instances-09dd313.md "Set up a Kubernetes cluster with Kyma runtime on SAP platform and use it to build applications and extensions to your SAP and third-party solutions. You can create one or multiple Kyma clusters in a single SAP BTP subaccount.")
 
 [Adding and Deleting a Kyma Module](../50-administration-and-ops/adding-and-deleting-a-kyma-module-1b548e9.md#loio1b548e9ad4744b978b8b595288b0cb5c "To use a Kyma module, you must add it first. Use Kyma dashboard or Kyma CLI to do that. If you don't need the module anymore, delete it to save resources.")
 

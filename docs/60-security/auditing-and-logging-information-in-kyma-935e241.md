@@ -31,7 +31,7 @@ As a user, you don't have direct access to the audit logs. If you want to get in
 
 ## Events Written in Audit Logs
 
-Here you can find a list of the security events that are logged by SAP BTP, Kyma runtime.
+Here you can find a list of the security events that are logged by Kyma runtime on SAP platform.
 
 
 

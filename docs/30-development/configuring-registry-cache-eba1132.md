@@ -2,7 +2,7 @@
 
 # Configuring Registry Cache
 
-Create a `RegistryCacheConfig` custom resource \(CR\) to enable caching for an upstream container image registry in your SAP BTP, Kyma runtime instance.
+Create a `RegistryCacheConfig` custom resource \(CR\) to enable caching for an upstream container image registry in your Kyma runtime on SAP platform instance.
 
 
 

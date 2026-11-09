@@ -173,7 +173,7 @@ Application developer
 </td>
 <td valign="top">
 
-CF command line interface or SAP BTP cockpit
+CF command line interface or cockpit
 
 </td>
 </tr>

@@ -17,7 +17,7 @@ The SaaS Provisioning Service allows application providers to register multitena
 1.  Create a service instance of the SaaS Provisioning Service with a configuration JSON file in the Cloud Foundry space where the multitenant application is deployed.
 
     > ### Tip:  
-    > You can create the SaaS Provisioning Service instance directly in the SAP BTP cockpit.
+    > You can create the SaaS Provisioning Service instance directly in the cockpit.
 
     For general instructions, see [Creating Service Instances](https://help.sap.com/viewer/09cc82baadc542a688176dce601398de/Cloud/en-US/fad874a99a434ae58c59d7340a528bdc.html).
 
@@ -372,7 +372,7 @@ The SaaS Provisioning Service allows application providers to register multitena
     > ```
 
     > ### Tip:  
-    > You can bind your application to the SaaS Provisioning Service instance directly in the SAP BTP cockpit.
+    > You can bind your application to the SaaS Provisioning Service instance directly in the cockpit.
 
     For general instructions, see [Binding Service Instances to Applications](binding-service-instances-to-applications-e98280a.md).
 

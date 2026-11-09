@@ -10,7 +10,7 @@ Find help about authorization issues with SAP Integration Suite.
 
 ## I assigned the correct role collections to my user but still can’t access SAP Integration Suite
 
-After subscribing to the application and assigning roles, clear your browser cookies and cache. Then, sign out of the SAP BTP cockpit and SAP Integration Suite, and sign in again.
+After subscribing to the application and assigning roles, clear your browser cookies and cache. Then, sign out of the cockpit and SAP Integration Suite, and sign in again.
 
 If the issue persists, raise a ticket under the component you’re trying to access. See SAP Note [2904202](https://me.sap.com/notes/2904202).
 

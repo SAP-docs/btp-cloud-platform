@@ -8,11 +8,11 @@ In the ABAP environment, the authentication of business users is based on OAuth 
 
 ![](images/Identity_Federation_0d33fdd.png)
 
-The business application \(OAuth 2.0 client\) is on one hand represented by the Web Access for ABAP as the gateway component or a standalone approuter application deployed to the SAP BTP, Cloud Foundry environment. See [Subscribing to the Web Access for ABAP](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/98928b0941294c74b946cdcefca9b047.html?version=Cloud) and [Application Router](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/01c5f9ba7d6847aaaf069d153b981b51.html?version=Cloud).
+The business application \(OAuth 2.0 client\) is on one hand represented by the Web Access for ABAP as the gateway component or a standalone approuter application deployed to the Cloud Foundry environment. See [Subscribing to the Web Access for ABAP](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/98928b0941294c74b946cdcefca9b047.html?version=Cloud) and [Application Router](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/01c5f9ba7d6847aaaf069d153b981b51.html?version=Cloud).
 
 On the other hand, an ABAP environment system is serving the business application resources \(OAuth 2.0 resource server\). See [Creating an ABAP System](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/50b32f144e184154987a06e4b55ce447.html?version=Cloud).
 
-The SAP Authorization and Trust Management service in the SAP BTP, Cloud Foundry environment is providing endpoints to retrieve and exchange the authorization code for an access token \(OAuth 2.0 authorization/authentication server\). See [SAP Authorization and Trust Management Service](https://help.sap.com/docs/CP_AUTHORIZ_TRUST_MNG/ae8e8427ecdf407790d96dad93b5f723/6373bb7a96114d619bfdfdc6f505d1b9.html?version=Cloud).
+The SAP Authorization and Trust Management service in the Cloud Foundry environment is providing endpoints to retrieve and exchange the authorization code for an access token \(OAuth 2.0 authorization/authentication server\). See [SAP Authorization and Trust Management Service](https://help.sap.com/docs/CP_AUTHORIZ_TRUST_MNG/ae8e8427ecdf407790d96dad93b5f723/6373bb7a96114d619bfdfdc6f505d1b9.html?version=Cloud).
 
 The Identity Authentication service is configured as an identity provider in the SAP BTP subaccount where the ABAP environment system has been created. The same subaccount is created as an application in the Identity Authentication service. See [Configuring Applications](https://help.sap.com/docs/IDENTITY_AUTHENTICATION/6d6d63354d1242d185ab4830fc04feb1/61ad3b0796ca4f5bae706632a29b1418.html?version=Cloud).
 

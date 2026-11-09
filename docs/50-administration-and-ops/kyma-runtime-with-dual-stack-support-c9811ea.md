@@ -10,7 +10,7 @@ Learn how to apply dual-stack support in Kyma instances.
 
 ## Context
 
-SAP BTP, Kyma runtime can support both Internet Protocol \(IP\) versions, IPv4 and IPv6, simultaneously \(dual stack\), when deployed on Google Cloud and Amazon Web Services IaaS providers. Compared to IPv4, IPv6 offers a significantly greater number of unique IP addresses, which enhances network flexibility. To retrieve support for both Internet protocols, create your Kyma runtime with dual-stack support enabled.
+Kyma runtime on SAP platform can support both Internet Protocol \(IP\) versions, IPv4 and IPv6, simultaneously \(dual stack\), when deployed on Google Cloud and Amazon Web Services IaaS providers. Compared to IPv4, IPv6 offers a significantly greater number of unique IP addresses, which enhances network flexibility. To retrieve support for both Internet protocols, create your Kyma runtime with dual-stack support enabled.
 
 The dual-stack feature is only available for newly created Kyma instances. Existing instances are limited to IPv4.
 

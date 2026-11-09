@@ -2,13 +2,13 @@
 
 # Developing Python in the Cloud Foundry Environment
 
-This section offers selected information for Python development on the SAP BTP, Cloud Foundry environment and references to more detailed sources.
+This section offers selected information for Python development on the Cloud Foundry environment and references to more detailed sources.
 
 
 
 You'll get information about the buildpack supported by SAP, about the Python packages, and how to consume them in your application.
 
-There is also a tutorial with an introduction to securing your application, and some tips and tricks for developing and running Python applications on the SAP BTP, Cloud Foundry environment.
+There is also a tutorial with an introduction to securing your application, and some tips and tricks for developing and running Python applications on the Cloud Foundry environment.
 
 
 
@@ -113,7 +113,7 @@ The SAP HANA Database Client provides means for database connectivity.
 
 ## Buildpack Versioning
 
-The SAP BTP, Cloud Foundry environment provides one recent version of **`python_buildpack`** as part of its system buildpacks. To check this version, proceed as follows:
+The Cloud Foundry environment provides one recent version of **`python_buildpack`** as part of its system buildpacks. To check this version, proceed as follows:
 
 1.  Log in to a particular SAP BTP region and subaccount. For example, if your region is **eu10**, run:
 
@@ -136,7 +136,7 @@ To learn about changes in the Python buildpack's versions and features, regularl
 
 ## Usage
 
-To use this buildpack, specify its name when deploying a Python application to the SAP BTP, Cloud Foundry environment. You can do that in two ways:
+To use this buildpack, specify its name when deploying a Python application to the Cloud Foundry environment. You can do that in two ways:
 
 -   Specify it directly in the `cf push` command:
 
@@ -194,11 +194,11 @@ You can also decide to deploy your application with a particular buildpack versi
 To check the latest news and updates about the Python buildpack, go to its [buildpack releases](https://github.com/cloudfoundry/python-buildpack/releases) on the GitHub community page.
 
 > ### Note:  
-> In May 2023, SAP migrated the root file system used in SAP BTP, Cloud Foundry runtime from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Python applications on SAP BTP, Cloud Foundry using the Python buildpack, we recommend that you update and migrate your applications, as well as the Python buildpack. For more information about migration timelines, risks, and consequences, see:
+> In May 2023, SAP migrated the root file system used in Cloud Foundry runtime on SAP platform from the deprecated `cflinuxfs3` stack to **`cflinuxfs4`**. If you are running Python applications on Cloud Foundry using the Python buildpack, we recommend that you update and migrate your applications, as well as the Python buildpack. For more information about migration timelines, risks, and consequences, see:
 > 
 > -   [Deprecation of Cloud Foundry Stack cflinuxfs3 and Migration to cflinuxfs4](https://blogs.sap.com/2023/02/16/deprecation-of-cloud-foundry-stack-cflinuxfs3-and-migration-to-cflinuxfs4/)
 > 
-> -   [What's New for SAP BTP, Cloud Foundry Runtime \(cflinuxfs\)](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP,%20Cloud%20Foundry%20Runtime&q=cflinuxfs&locale=en-US&version=Cloud)
+> -   [What's New for Cloud Foundry Runtime on SAP Platform \(cflinuxfs\)](https://help.sap.com/whats-new/cf0cb2cb149647329b5d02aa96303f56?Component=SAP%20BTP,%20Cloud%20Foundry%20Runtime&q=cflinuxfs&locale=en-US&version=Cloud)
 
 
 

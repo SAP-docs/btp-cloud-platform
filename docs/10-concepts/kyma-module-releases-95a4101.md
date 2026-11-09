@@ -56,5 +56,5 @@ For details on the Kyma release schedule, see [3459911](https://me.sap.com/notes
 **Related Information**  
 
 
-[Kyma Functionalities](kyma-functionalities-4b83be9.md "SAP BTP, Kyma runtime and open source project &quot;Kyma&quot; offer slightly different functionalities and install a different set of components.")
+[Kyma Functionalities](kyma-functionalities-4b83be9.md "Kyma runtime on SAP platform and open source project &quot;Kyma&quot; offer slightly different functionalities and install a different set of components.")
 

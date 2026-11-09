@@ -44,12 +44,12 @@ For more information, see [Use a Custom IDP for Subaccount Configuration](https:
 <tr>
 <td valign="top">
 
-SAP BTP command line interface \(BTP CLI\)
+SAP BTP command line interface \(btp CLI\)
 
 </td>
 <td valign="top">
 
-Once trust has been configured on the global account level in the cockpit, platform users can log on using the custom identity provider and use the full range of the BTP CLI.
+Once trust has been configured on the global account level in the cockpit, platform users can log on using the custom identity provider and use the full range of the btp CLI.
 
 To log on to a global account, you need to provide the hostname of the tenant \(for example, *ar9ibaxhm*\) with the `--idp` parameter. See [Log in with a Custom Identity Provider](log-in-with-a-custom-identity-provider-e48e486.md).
 
@@ -70,7 +70,7 @@ Cloud Foundry command-line interface \(CF CLI\)
 Make sure you use the Cloud Foundry command-line interface \(CF CLI v7\). For more information, see [https://docs.cloudfoundry.org/cf-cli/v7.html](https://docs.cloudfoundry.org/cf-cli/v7.html).
 
 > ### Restriction:  
-> With v6 of the CF CLI, you can't use the `--origin` option in `cf set-org-role` and `cf set-space-role`. Use the *Members* tab in the SAP BTP cockpit. Go to the SAP BTP cockpit under **<my\_global\_account\>** \> **<my\_subaccount\>** \> *Security* \> *Members* to set the user's permissions.
+> With v6 of the CF CLI, you can't use the `--origin` option in `cf set-org-role` and `cf set-space-role`. Use the *Members* tab in the cockpit. Go to the cockpit under **<my\_global\_account\>** \> **<my\_subaccount\>** \> *Security* \> *Members* to set the user's permissions.
 
 For more information, see [Log On with a Custom Identity Provider to the Cloud Foundry Environment Using the Cloud Foundry Command-Line Interface](log-on-with-a-custom-identity-provider-to-the-cloud-foundry-environment-using-the-cloud-d477618.md).
 
@@ -95,12 +95,12 @@ For more information, see the [SAP Application Logging service](https://help.sap
 <tr>
 <td valign="top">
 
-SAP BTP cockpit 
+cockpit 
 
 </td>
 <td valign="top">
 
-Platform users logged on using custom identity providers can use the full range of the SAP BTP cockpit.
+Platform users logged on using custom identity providers can use the full range of the cockpit.
 
 </td>
 </tr>

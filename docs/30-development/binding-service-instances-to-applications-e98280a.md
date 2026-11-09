@@ -2,7 +2,7 @@
 
 # Binding Service Instances to Applications
 
-Usethe SAP BTP cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:
+Usethe cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:
 
 -   [Bind Service Instances to Applications Using the Cockpit](bind-service-instances-to-applications-using-the-cockpit-2d2a3e8.md)
 

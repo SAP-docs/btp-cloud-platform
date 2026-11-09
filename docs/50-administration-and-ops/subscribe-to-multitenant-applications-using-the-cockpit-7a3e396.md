@@ -4,7 +4,7 @@
 
 # Subscribe to Multitenant Applications Using the Cockpit
 
-Subscribe to multitenant applications from the *Subscriptions* page in the SAP BTP cockpit.
+Subscribe to multitenant applications from the *Subscriptions* page in the cockpit.
 
 
 
@@ -142,5 +142,5 @@ The instructions provided here apply whether you are an SAP customer subscribing
 **Related Information**  
 
 
-[Working with Multitenant Applications Using the BTP CLI](working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md "Use the SAP BTP command line interface (BTP CLI) to manage the multitenant applications to which a subaccount is entitled to subscribe.")
+[Working with Multitenant Applications Using the btp CLI](working-with-multitenant-applications-using-the-btp-cli-c1b0fcc.md "Use the SAP BTP command line interface (btp CLI) to manage the multitenant applications to which a subaccount is entitled to subscribe.")
 

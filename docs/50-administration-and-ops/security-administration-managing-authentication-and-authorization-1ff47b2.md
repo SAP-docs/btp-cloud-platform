@@ -31,9 +31,9 @@ Application developers create and deploy application-based authorization artifac
 
 To perform the functions related to authorization artifacts, account administrators can have multiple options. Here are some of the options:
 
--   The SAP BTP cockpit covers all authorization functions. Its user interface offers easy-to-use and clear navigation.
+-   The cockpit covers all authorization functions. Its user interface offers easy-to-use and clear navigation.
 
--   There is also a command line option to manage most authorization artifacts. If you prefer working in a terminal or automating operations, use the SAP BTP command line interface \(BTP CLI\). It's suitable for repetitive tasks.
+-   There is also a command line option to manage most authorization artifacts. If you prefer working in a terminal or automating operations, use the SAP BTP command line interface \(btp CLI\). It's suitable for repetitive tasks.
 
 -   Especially if you need to perform bulk operations or programmatically access the authorizations, we recommend to use the REST API for authorizations of the SAP Authorization and Trust Management service.
 

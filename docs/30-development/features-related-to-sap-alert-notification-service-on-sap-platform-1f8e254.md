@@ -1,8 +1,8 @@
 <!-- loio1f8e2542308e4eb0b2a5bf91462fb4dc -->
 
-# Features Related to SAP Alert Notification Service for SAP BTP
+# Features Related to SAP Alert Notification Service on SAP Platform
 
-Deploy and update SAP Alert Notification service for SAP BTP using the multitarget application concept, or get notified by the service about the status of multitarget application operations.
+Deploy and update SAP Alert Notification service on SAP Platform using the multitarget application concept, or get notified by the service about the status of multitarget application operations.
 
 
 

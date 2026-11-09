@@ -47,7 +47,7 @@ There are some exceptions from the separation of platform and business users. Ty
 
 Typical cases are the ABAP environment, which doesn't distinguish between these two types, and SAP Build Code or SAP Build applications, which developers currently access as business users.
 
-The user and authorization concept used in the ABAP environment is completely decoupled and independent from the authorization concept of SAP BTP or within Cloud Foundry. The ABAP environment runs within the SAP BTP, Cloud Foundry environment. Therefore, administrators or developers need the right authorizations in Cloud Foundry to create the ABAP environment or other services, which get consumed in an application running in the ABAP environment.
+The user and authorization concept used in the ABAP environment is completely decoupled and independent from the authorization concept of SAP BTP or within Cloud Foundry. The ABAP environment runs within the Cloud Foundry environment. Therefore, administrators or developers need the right authorizations in Cloud Foundry to create the ABAP environment or other services, which get consumed in an application running in the ABAP environment.
 
 For more information, see [Administration and Operations in the ABAP Environment](../50-administration-and-ops/administration-and-operations-in-the-abap-environment-c4fd102.md).
 

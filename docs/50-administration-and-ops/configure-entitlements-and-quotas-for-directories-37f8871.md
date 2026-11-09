@@ -4,7 +4,7 @@
 
 # Configure Entitlements and Quotas for Directories
 
-Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using SAP BTP cockpit. 
+Distribute entitlements that are available in your global account to directories by adding service plans and their allowed quotas by using cockpit. 
 
 <a name="task_pxy_ph1_ryb"/>
 
@@ -241,13 +241,13 @@ Use this procedure to configure the service plan assignments and quotas for one 
 
 [Directories](../10-concepts/account-model-8ed4a70.md#loioa92721fc75524ec09a7a7255997dbd94 "With directories, you can organize and manage your subaccounts according to your technical and business needs.")
 
-[Manage Users in Directories](manage-users-in-directories-ff4d4a4.md "Manage members in your directory using the SAP BTP cockpit.")
+[Manage Users in Directories](manage-users-in-directories-ff4d4a4.md "Manage members in your directory using the cockpit.")
 
-[Create a Directory](create-a-directory-b8ef1c4.md "Create a directory using the SAP BTP cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.")
+[Create a Directory](create-a-directory-b8ef1c4.md "Create a directory using the cockpit to organize and manage your subaccounts. For example, you can group subaccounts by project, team, or department.")
 
 [Managing Entitlements and Quotas Using the Cockpit](managing-entitlements-and-quotas-using-the-cockpit-c824874.md "When you purchase an enterprise account, you are entitled to use a specific set of resources, such as the amount of memory that can be allocated to your applications.")
 
-[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using SAP BTP cockpit.")
+[Configure Entitlements and Quotas for Subaccounts](configure-entitlements-and-quotas-for-subaccounts-5ba357b.md "Distribute the entitlements that are available in your global account by adding service plans and their allowed quotas to your subaccounts using cockpit.")
 
 [Using Free Service Plans](../10-concepts/using-free-service-plans-524e108.md "The free tier model for SAP BTP lets you try out services in global accounts without any additional cost using the consumption-based commercial model and an enterprise account.")
 

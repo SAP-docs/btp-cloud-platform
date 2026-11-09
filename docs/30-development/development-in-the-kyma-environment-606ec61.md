@@ -2,7 +2,7 @@
 
 # Development in the Kyma Environment
 
-Learn more about developing applications in SAP BTP, Kyma runtime.
+Learn more about developing applications in Kyma runtime on SAP platform.
 
 
 
@@ -10,7 +10,7 @@ Learn more about developing applications in SAP BTP, Kyma runtime.
 
 ## Overview
 
-With SAP BTP, Kyma runtime, you can build simple Functions, develop, and deploy more complex microservices, or mixtures of those, depending on your use case complexity level. Functions and microservices can act as stand-alone applications or extensions of these SAP systems:
+With Kyma runtime on SAP platform, you can build simple Functions, develop, and deploy more complex microservices, or mixtures of those, depending on your use case complexity level. Functions and microservices can act as stand-alone applications or extensions of these SAP systems:
 
 -   SAP S/4HANA
 
@@ -83,11 +83,11 @@ The APIs of Kyma modules and third-party modules' may vary from the least stable
 
 To help you get started with the development process, go through the following missions that show how to develop applications in the Kyma runtime.
 
--   [Build an Application in SAP BTP, Kyma Runtime](https://developers.sap.com/mission.cp-kyma-build-app.html)
+-   [Build an Application in Kyma Runtime on SAP Platform](https://developers.sap.com/mission.cp-kyma-build-app.html)
 
--   [Develop a Full-Stack Application in SAP BTP, Kyma Runtime](https://developers.sap.com/mission.cp-kyma-full-stack.html)
+-   [Develop a Full-Stack Application in Kyma Runtime on SAP Platform](https://developers.sap.com/mission.cp-kyma-full-stack.html)
 
--   [Deploy a Full-Stack CAP Application in SAP BTP, Kyma Runtime Following SAP BTP Developer’s Guide](https://developers.sap.com/group.deploy-full-stack-cap-kyma-runtime.html)
+-   [Deploy a Full-Stack CAP Application in Kyma Runtime on SAP Platform Following SAP BTP Developer’s Guide](https://developers.sap.com/group.deploy-full-stack-cap-kyma-runtime.html)
 
 
 

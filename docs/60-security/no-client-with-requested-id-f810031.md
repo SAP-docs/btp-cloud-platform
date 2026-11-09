@@ -6,7 +6,7 @@
 
 ## Symptom
 
-You are not yet authenticated, and you send your first request to a web application, which is running on SAP BTP, Cloud Foundry environment. After you enter your credentials in the login screen, the system responds with the following error message:
+You are not yet authenticated, and you send your first request to a web application, which is running on Cloud Foundry environment. After you enter your credentials in the login screen, the system responds with the following error message:
 
 ```
 No client with requested id: <OAuth2 Client-Id> - Authorization Request Error - There was an error. The request for authorization was invalid.

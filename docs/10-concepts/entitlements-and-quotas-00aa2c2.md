@@ -45,7 +45,7 @@ From the perspective of your SAP BTP global account contract, the global quota o
 
 -   **Fixed quota:** The quota or allowance of the service plan is the upper limit at which the plan can be consumed collectively across your global account. This is typical of global accounts that have the **subscription-based** commercial model agreement.
 
--   **Unlimited quota:** There is no upper limit to how much the service plan can be used collectively across your global account. This is typical of most services that are eligible to global accounts with a **consumption-based** commercial model agreement \(Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go for SAP BTP\). At the end of the month, the number of units used determines how much you are charged.
+-   **Unlimited quota:** There is no upper limit to how much the service plan can be used collectively across your global account. This is typical of most services that are eligible to global accounts with a **consumption-based** commercial model agreement \(Cloud Platform Enterprise Agreement \(CPEA\) and Pay-As-You-Go\). At the end of the month, the number of units used determines how much you are charged.
 
 
 Regardless of whether the global quota of a plan on the global account level is fixed or unlimited, the specifics and properties of each plan determines how its quota can be distributed by the global account admin to the subaccounts in your global account. There are two types of quota assignments:
@@ -103,7 +103,7 @@ For more information on space quota plans in the Cloud Foundry environment, see:
 
 ## Resource Providers
 
-SAP BTP allows you to connect your global account in the SAP BTP cockpit to your provider account from a non-SAP cloud vendor, and consume remote service resources that you already own and which are supported by SAP through this channel.
+SAP BTP allows you to connect your global account in the cockpit to your provider account from a non-SAP cloud vendor, and consume remote service resources that you already own and which are supported by SAP through this channel.
 
 For example, if you’re subscribed to Amazon Web Services \(AWS\) and have already purchased services, such as PostgreSQL, you can register the vendor as a resource provider in SAP BTP and consume this service across your subaccounts together with other services offered by SAP.
 

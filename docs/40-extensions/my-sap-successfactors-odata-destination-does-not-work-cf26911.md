@@ -10,7 +10,7 @@ SAP SuccessFactors OData destination does not work.
 
 ## Issue/Symptom
 
-You are extending SAP SuccessFactors on SAP BTP, Cloud Foundry environment using the SAP SuccessFactors Extensibility service. You are trying to configure the integration between SAP SuccessFactors and SAP Business Technology Platform \(SAP BTP\) and your SAP SuccessFactors OData destination does not work.
+You are extending SAP SuccessFactors on Cloud Foundry environment using the SAP SuccessFactors Extensibility service. You are trying to configure the integration between SAP SuccessFactors and SAP Business Technology Platform \(SAP BTP\) and your SAP SuccessFactors OData destination does not work.
 
 
 
@@ -30,7 +30,7 @@ To fix your SAP SuccessFactors OData destination, you can try the following:
 -   Make sure that the *uaa.user* authorization scope is defined in the role template in the *xs-security.json*file. See [Accessing Business Service Data](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/783809d7e52f4e14a45945f3f2bad751.html).
 -   Make sure you consume the destination correctly, as described in [Consumе the Destination](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/55e837080eac424e8e107e18c3a8ac12.html#loio528d9ae5e6e4495cbd65514294f3994a).
 -   Make sure that you use the *user\_token* OAuth grant for retrieving the destination. See [OAuth User Token Exchange Authentication](https://help.sap.com/docs/CP_CONNECTIVITY/cca91383641e40ffbe03bdc78f00f681/e3c333f9de6245fca326993f2397c13a.html).
--   Make sure that the name of the destination that you use in your application matches the name of the one created in the SAP BTP cockpit.
+-   Make sure that the name of the destination that you use in your application matches the name of the one created in the cockpit.
 -   Note that if you have a destination defined as an environment variable, it will overrule the one created in the cockpit.
 -   Check the logs in Kibana. If you do not have the application logging service, you can add it. See [Access and Analyze Application Logs and Container Metrics](https://help.sap.com/viewer/ee8e8a203e024bbb8c8c2d03fce527dc/Cloud/en-US/30f9cfee0b5d46548ea2fca4ff75bb18.html).
 -   Make sure that the name of the destination is the same as the name of the SAP SuccessFactors Extensibility service instance you have created. See [Access and Analyze Application Logs, Container Metrics and Custom Metrics](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/8b774e4ca8be46a4830a021f727667ed.html?version=Cloud).

@@ -4,7 +4,7 @@
 
 Boosters are a set of guided interactive steps that enable you to select, configure, and consume services on SAP BTP to achieve a specific technical goal.
 
-You can access them directly from your desired global account in the SAP BTP cockpit, by choosing *Boosters* in the navigation menu. This leads to a page where you can find an overview of all available boosters, grouped by capability. From this overview page, you can get quick information about a booster, start a booster, or choose a tile to access the booster details.
+You can access them directly from your desired global account in the cockpit, by choosing *Boosters* in the navigation menu. This leads to a page where you can find an overview of all available boosters, grouped by capability. From this overview page, you can get quick information about a booster, start a booster, or choose a tile to access the booster details.
 
 
 
@@ -36,9 +36,9 @@ When you start a booster, a wizard opens up which guides you through a set of st
 **Related Information**  
 
 
-[Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md "Create subaccounts in your global account using the SAP BTP cockpit.")
+[Create a Subaccount](../50-administration-and-ops/create-a-subaccount-05280a1.md "Create subaccounts in your global account using the cockpit.")
 
-[Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts, directories, and subaccounts in the SAP BTP cockpit.")
+[Navigate in the Cockpit](../50-administration-and-ops/navigate-in-the-cockpit-0874895.md "Learn how to navigate to your global accounts, directories, and subaccounts in the cockpit.")
 
 [Create Spaces](../50-administration-and-ops/create-spaces-2f6ed22.md "Create spaces in your Cloud Foundry organization using the SAP BTP cockpit. In a space, you can deploy and maintain applications, and connect them to services.")
 

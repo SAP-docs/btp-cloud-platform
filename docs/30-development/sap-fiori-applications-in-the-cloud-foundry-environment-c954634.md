@@ -2,7 +2,7 @@
 
 # SAP Fiori Applications in the Cloud Foundry Environment
 
-When you plan to create an SAP Fiori application that you have deployed to the SAP BTP, Cloud Foundry environment and want to provide this application to business users, you may want to get a better understanding of the required steps before getting started with the UI development.
+When you plan to create an SAP Fiori application that you have deployed to the Cloud Foundry environment and want to provide this application to business users, you may want to get a better understanding of the required steps before getting started with the UI development.
 
 > ### Recommendation:  
 > We recommend using the same UI5 version that is being used by the ABAP environment system.
@@ -30,7 +30,7 @@ The next step is to build the MTA project. This generates an `*.mtar` file and `
 
 Before deploying your UI, you should preview your application. To preview your application or discover available OData services, business catalog `SAP_CORE_BC_EXT_TST` has to be assigned to your user, which allows you to preview your application and . See [Business Catalogs for Development Tasks](../50-administration-and-ops/business-catalogs-for-development-tasks-a9f4278.md).
 
-The final step is to create a deployment configuration and deploy the MTA to your SAP BTP, Cloud Foundry environment space, which requires the [space developer role](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/967fc4e2b1314cf7afc7d7043b53e566.html?version=Cloud). By doing so, the SAP Fiori application that you have added to the MTA gets deployed to the HTML5 application repository.
+The final step is to create a deployment configuration and deploy the MTA to your Cloud Foundry environment space, which requires the [space developer role](https://help.sap.com/docs/BTP/65de2977205c403bbc107264b8eccf4b/967fc4e2b1314cf7afc7d7043b53e566.html?version=Cloud). By doing so, the SAP Fiori application that you have added to the MTA gets deployed to the HTML5 application repository.
 
 
 

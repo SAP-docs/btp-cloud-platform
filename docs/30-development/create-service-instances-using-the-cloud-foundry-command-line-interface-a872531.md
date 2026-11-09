@@ -48,9 +48,9 @@ You can use the Cloud Foundry Command Line Interface \(cf CLI\) to create servic
 **Related Information**  
 
 
-[Binding Service Instances to Applications](binding-service-instances-to-applications-e98280a.md "Use the SAP BTP cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:")
+[Binding Service Instances to Applications](binding-service-instances-to-applications-e98280a.md "Use the cockpit or the Cloud Foundry Command Line Interface to bind service instances to applications:")
 
 [Creating User-Provided Service Instances](creating-user-provided-service-instances-a44355e.md "User-provided service instances enable you to use services that are not available in the marketplace with your applications running in the Cloud Foundry environment.")
 
-[About Services](about-services-d1d0fc8.md "In the Cloud Foundry environment, you usually enable services by creating a service instance using either the SAP BTP cockpit or the Cloud Foundry command line interface (cf CLI), and binding that instance to your application.")
+[About Services](about-services-d1d0fc8.md "In the Cloud Foundry environment, you usually enable services by creating a service instance using either the cockpit or the Cloud Foundry command line interface (cf CLI), and binding that instance to your application.")
 

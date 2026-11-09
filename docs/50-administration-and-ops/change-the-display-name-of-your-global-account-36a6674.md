@@ -4,7 +4,7 @@
 
 # Change the Display Name of Your Global Account
 
-Change the display name for the global account using the SAP BTP cockpit.
+Change the display name for the global account using the cockpit.
 
 
 
