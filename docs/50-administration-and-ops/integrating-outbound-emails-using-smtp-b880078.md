@@ -34,12 +34,16 @@ There are two ways to connect an SMTP server.
     > ### Note:  
     > This parameter is only required if several SAP BTP, Cloud connectors are used in one subaccount \(to define the target SAP BTP, Cloud Connector with the same *SCC Location ID*\).
 
-    > ### Note:  
-    > If you want to use OAuth 2.0 as authentication method you must define the Token Endpoint for your email provider.
 
-    > ### Note:  
-    > Define a user for outbound communication according to te authentication method you are using.
 
+
+### Additional information for authentication via OAuth 2.0 configuration
+
+To use OAuth 2.0 as an authentication method, you must define the token endpoint for your email provider.
+
+Create a user for outbound communication according to the authentication method you are using.
+
+For JSON Web Token \(JWT\) certificate-based authentication, download the certificate to your local machine. Then upload it to your email provider's authentication system.
 
 Afterwards, create a communication arrangement for the `SAP_COM_0548` communication scenario using this communication system.
 

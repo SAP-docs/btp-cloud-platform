@@ -454,6 +454,33 @@ Manage destination fragments
 <tr>
 <td valign="top">
 
+Subaccount Administrator
+
+</td>
+<td valign="top">
+
+Central Disaster Recovery Administrator 
+
+</td>
+<td valign="top">
+
+Central\_Disaster\_Recovery\_Administrator 
+
+</td>
+<td valign="top">
+
+cdr-services!*<suffix\>* 
+
+</td>
+<td valign="top">
+
+Central Disaster Recovery Administrator 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Global Account Viewer
 
 </td>

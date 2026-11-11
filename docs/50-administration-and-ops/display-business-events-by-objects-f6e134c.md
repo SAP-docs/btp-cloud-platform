@@ -22,6 +22,7 @@ You can use this app to view:
 
 -   Number of events for each instance of object component, and the processing cycle time
 
+-   Inbound and outbound relationships for object components. You can navigate across object components.
 
 
 

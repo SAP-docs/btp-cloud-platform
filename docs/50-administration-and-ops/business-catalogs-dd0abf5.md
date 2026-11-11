@@ -2,11 +2,11 @@
 
 # Business Catalogs
 
-You use this app to display all available business catalogs.
+**App ID:** F2471
 
 
 
-With this app you can get an overview of the business catalogs, their status \(for example *Deprecated*\), and their usage within business roles. You use this application to see which applications and business catalogs delivered by SAP have changed, for example after an upgrade. They may also be deprecated. As a key user, you need to have an overview of these changes to adapt the affected business roles accordingly.
+With this app you can get an overview of the business catalogs, their status \(for example *Deprecated*\), and their usage within business roles. You can use this app to see which SAP-delivered apps and business catalogs have changed, for example, after an upgrade. Some business catalogs may be deprecated. As an IAM administrator, you need an overview of these changes to adapt the affected business roles accordingly.
 
 
 
@@ -61,5 +61,5 @@ If you need support or experience issues, please report an incident under compon
 
 [Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Find out which business catalogs are required to access the IAM administration apps and what restrictions apply.")
 
-[Display Restriction Types](display-restriction-types-9203905.md "You can use this app to display restriction types and their validity.")
+[Display Restriction Types](display-restriction-types-9203905.md)
 

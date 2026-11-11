@@ -14,7 +14,7 @@ To undeploy content you need to delete the content from the repository and delet
 
     Example: `cf undeploy html5.repo.deployer.myHTML5App --delete-services --delete-service-keys`
 
-    -   Use the `–delete-services` option, to delete the `app-host` service plan instance and the application content from HTML5 application repository.
+    -   Use the `–delete-services` option, to delete the `app-host` service plan instance and the application content from SAP HTML5 Application Repository service.
 
     -   For the `cf undeploy` command, you need the `mta id`. To get the `mta id`, do one of the following:
 

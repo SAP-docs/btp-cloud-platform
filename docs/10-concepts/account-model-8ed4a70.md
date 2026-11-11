@@ -40,7 +40,7 @@ A global account can contain one or more subaccounts in which you deploy applica
 
 ![Subaccounts](images/Subaccounts_bd96ff2.png)
 
-Each subaccount is associated with a region, which is the physical location where applications, data, or services are hosted. The specific region is relevant when you deploy applications and access the SAP BTP cockpit using the corresponding cockpit URL. The region assigned to your subaccount doesn't have to be directly related to your location. You could be located in the United States, for example, but operate your subaccount in Europe.
+Each subaccount is associated with a region, which is the physical location where applications, data, or services are hosted. The specific region is relevant when you deploy applications and access the cockpit using the corresponding cockpit URL. The region assigned to your subaccount doesn't have to be directly related to your location. You could be located in the United States, for example, but operate your subaccount in Europe.
 
 The entitlements and quotas that have been purchased for a global account have to be assigned to the individual subaccounts.
 

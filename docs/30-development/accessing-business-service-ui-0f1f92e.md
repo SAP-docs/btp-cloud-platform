@@ -2,9 +2,9 @@
 
 # Accessing Business Service UI
 
-This section provides information about accessing Business Services UIs that are stored in HTML5 Application Repository.
+This section provides information about accessing Business Services UIs that are stored in SAP HTML5 Application Repository service.
 
-Business Service UI's must be stored in HTML5 Application Repository and defined in their `manifest.json` files as `public: true` in order to be accessible from an application router application that is typically running in a different space than the Business Service space. In addition, dataSource URIs must be relative to the base URL, which means there is no need for a slash as the first character.
+Business Service UI's must be stored in the SAP HTML5 Application Repository service and defined in their `manifest.json` files as `public: true` in order to be accessible from an application router application that is typically running in a different space than the Business Service space. In addition, dataSource URIs must be relative to the base URL, which means there is no need for a slash as the first character.
 
 The following is an example `manifest.json` file of a Business Service:
 

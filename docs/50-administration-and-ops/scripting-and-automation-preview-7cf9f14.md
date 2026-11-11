@@ -94,7 +94,7 @@ Closes the panel
 </tr>
 </table>
 
-The panel stays open as you navigate: you do not need to reopen it on each page.
+The panel stays open as you navigate; you do not need to reopen it on each page.
 
 
 

@@ -17,7 +17,7 @@ Notification settings let you decide which events you are informed about and thr
 -   **Delivery channels** – For each event, you choose how you are notified, for example through in-app notifications or e-mail.
 
 
-At every level, a toggle switch turns notifications on or off, and a navigation arrow opens the next level of detail. The steps below describe the general process; Cloud Foundry is used as an example service.
+At every level, a toggle switch turns notifications on or off, and a navigation arrow opens the next level of detail.
 
 > ### Note:  
 > For now, only global account administrators can receive and modify notifications.
@@ -34,7 +34,7 @@ At every level, a toggle switch turns notifications on or off, and a navigation 
 
 2.  To enable or disable notifications for an entire service, use the toggle switch of the corresponding category.
 
-3.  To fine-tune the events of a service, select its navigation arrow, for example *Cloud Foundry*.
+3.  To fine-tune the events of a service, select its navigation arrow.
 
     The detail view for the selected service opens. A toggle at the top enables or disables all notifications for the service, and the individual events are listed below.
 

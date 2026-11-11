@@ -59,5 +59,5 @@ In order to support JWT token exchange, the login JWT token should contain the `
 
 [Integration with Business Services](integration-with-business-services-f6337cd.md "Application router supports integration with Business Services, which are a flavor of reuse-services.")
 
-[Accessing Business Service UI](accessing-business-service-ui-0f1f92e.md "This section provides information about accessing Business Services UIs that are stored in HTML5 Application Repository.")
+[Accessing Business Service UI](accessing-business-service-ui-0f1f92e.md "This section provides information about accessing Business Services UIs that are stored in SAP HTML5 Application Repository service .")
 

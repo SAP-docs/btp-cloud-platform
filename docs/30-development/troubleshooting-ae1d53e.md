@@ -1146,5 +1146,5 @@ If the lists don't not contain a solution for your issue, you can create an inci
 **Related Information**  
 
 
-[Getting Support](getting-support-9220a2f.md "If you have questions or encounter an issue while working with HTML5 Application Repository, there are various ways to address them.")
+[Getting Support](getting-support-9220a2f.md "If you have questions or encounter an issue while working with SAP HTML5 Application Repository service , there are various ways to address them.")
 

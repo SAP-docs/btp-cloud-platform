@@ -2,9 +2,9 @@
 
 # Processing a Request at Runtime
 
-At runtime, the application router tries to fetch the `xs-app.json` file from the HTML5 application in the HTML5 Application Repository, and to use it for routing the request.
+At runtime, the application router tries to fetch the `xs-app.json` file from the HTML5 application in the SAP HTML5 Application Repository service, and to use it for routing the request.
 
-A valid request to an application router that uses the HTML5 Application Repository must have the following format:
+A valid request to an application router that uses the SAP HTML5 Application Repository service must have the following format:
 
 > ### Sample Code:  
 > ```
@@ -68,7 +68,7 @@ Yes
 </td>
 <td valign="top">
 
-Used to uniquely identify the application in HTML5 Application Repository.
+Used to uniquely identify the application in the SAP HTML5 Application Repository service.
 
 > ### Note:  
 > Must not contain dots or special characters.
@@ -90,7 +90,7 @@ No
 </td>
 <td valign="top">
 
-Used to uniquely identify a specific application version in HTML5 Application Repository. If no version is provided, the default application version will be used.
+Used to uniquely identify a specific application version in the SAP HTML5 Application Repository service. If no version is provided, the default application version will be used.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ Yes
 </td>
 <td valign="top">
 
-The path to the file as it was stored in HTML5 Application Repository.
+The path to the file as it was stored in the SAP HTML5 Application Repository service.
 
 </td>
 </tr>
@@ -115,8 +115,8 @@ The path to the file as it was stored in HTML5 Application Repository.
 
 When processing a request at runtime, the following algorithm is applied:
 
--   If no HTML5 application is found in HTML5 Application Repository for the current request, the central application router `xs-app.json` will be used for routing.
+-   If no HTML5 application is found in the SAP HTML5 Application Repository service for the current request, the central application router `xs-app.json` will be used for routing.
 
--   If the HTML5 application exists in HTML5 Application Repository but no `xs-app.json` file is returned, an error message will be issued and the request processing will be stopped.
+-   If the HTML5 application exists in the SAP HTML5 Application Repository service but no `xs-app.json` file is returned, an error message will be issued and the request processing will be stopped.
 
 

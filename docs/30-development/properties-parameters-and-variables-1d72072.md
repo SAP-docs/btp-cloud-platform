@@ -438,6 +438,34 @@ env:
 <tr>
 <td valign="top">
 
+JBP\_CONFIG\_JAVA\_MEMORY\_ASSISTANT
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+See column **Example**
+
+</td>
+<td valign="top">
+
+```
+
+env:
+  JBP_CONFIG_JAVA_MEMORY_ASSISTANT: '{enabled : true}'
+```
+
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 JBP\_CONFIG\_SAP\_MACHINE\_JRE
 
 </td>

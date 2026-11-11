@@ -38,7 +38,7 @@ To change access to the objects of other users used in the *Application Jobs* ap
 **Related Information**  
 
 
-[Maintain Business Users](maintain-business-users-e40e710.md "You use this app to provide business users with access rights and to maintain business user settings.")
+[Maintain Business Users](maintain-business-users-e40e710.md)
 
 [Maintain Business Roles](maintain-business-roles-8980ad0.md)
 

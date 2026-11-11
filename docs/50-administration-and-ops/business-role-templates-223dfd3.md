@@ -2,7 +2,7 @@
 
 # Business Role Templates
 
-The app provides a summary of business role templates delivered by SAP and helps determine if adaptations are needed after an upgrade.
+**App ID:** F2820
 
 
 

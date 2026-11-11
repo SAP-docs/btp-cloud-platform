@@ -10,7 +10,19 @@ Java Memory Assistant is a Java agent that generates heap dumps based on preconf
 > ### Note:  
 > This public repository went out of maintenance on **Sept 21, 2023**. Nevertheless, its latest version [0.5.0](https://github.com/SAP-archive/java-memory-assistant/releases/tag/0.5.0) is working fine so you can keep using it.
 
-When enabled in the buildpack, the agent generates two files – **\*.hprof** \(heap dump\) and **\*.addons**, when the configured memory limits are met.
+To enable the agent in the buildpack, add the following configuration to the `manifest.yml/mtad.yaml` descriptor:
+
+> ### Sample Code:  
+> manifest.yml/mtad.yaml
+> 
+> ```
+> ---
+> ...
+>   env:
+>      JBP_CONFIG_JAVA_MEMORY_ASSISTANT: '{enabled : true}'
+> ```
+
+When enabled, the agent generates two files – **\*.hprof** \(heap dump\) and **\*.addons**, when the configured memory limits are met.
 
 The **\*.addons** file contains:
 

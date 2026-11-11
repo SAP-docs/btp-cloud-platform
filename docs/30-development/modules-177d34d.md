@@ -3088,7 +3088,7 @@ If deployment is based on an MTA archive, it is not necessary to duplicate the c
 
 [Managing Service Brokers](https://docs.cloudfoundry.org/services/managing-service-brokers.html)
 
-[Parameters and Properties](parameters-and-properties-490c8f7.md)
+[Parameters and Properties](parameters-and-properties-490c8f7.md "Parameters and properties are the two kinds of configurable values in an MTA descriptor. Learn how to configure, reference, escape, and resolve them dynamically.")
 
 [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md "It is possible to declare metadata for parameters and properties defined in the MTA deployment description, for example, using the “parameters-metadata:” or “properties-metadata:” keys, respectively; the mapping is based on the keys defined for a parameter or property.")
 

@@ -33,25 +33,25 @@ Each transaction can be associated with multiple launchpad app descriptor items.
 
 Target mappings are a prerequisite for navigating to an app in the SAP Fiori launchpad. Tiles serve as the visual representation of an app. It is possible that only a target mapping is provided if the app is not launched from a tile and only from another app \(app-to-app navigation\). Tiles can be referenced in SAP Fiori launchpad pages. Pages are grouped into SAP Fiori launchpad spaces that are then assigned to business roles.
 
-A transaction can relate to several IAM apps that define different access rights through the defined authorization values, for example, to differentiate read and write access. IAM apps are bundled in business catalogs and provide sets of authorization values. Business catalogs can be assigned to business roles. The related restrictions become available for the business roles through the authorization values of the active IAM apps contained in the business role. Business roles are then assigned to a business user. The business user can access the related tiles and target mappings of the associated transactions from the active IAM apps available through the business role.
+A transaction can relate to several IAM apps that define different access rights through the defined authorization values, for example, to differentiate read and write access. IAM apps are bundled in business catalogs and provide sets of authorization values. Business catalogs can be assigned to business roles. In addition to assigning IAM apps through business catalogs, you also have the option to assign IAM apps directly to business roles. This direct assignment is particularly useful when a business role requires only a few IAM apps from a specific business catalog, helping you keep business roles lean without adding unnecessary business catalog content. The related restrictions become available for the business roles through the authorization values of the active IAM apps contained in the business role. Business roles are then assigned to a business user. The business user can access the related tiles and target mappings of the associated transactions from the active IAM apps available through the business role.
 
 ![Get an architecture view on the entities involved in authorization management and the relationships between them using cardinalities to indicate how many instances of one entity relate to instances of another (for example, one-to-one or one-to-many).](images/IAMApps_DataModel_ea16ec4.png)
 
-Let's focus more on the relationship between transactions and app authorization variants as illustrated in the following graphic using an example. An app authorization variant relates to one transaction, but a transaction can relate to several app authorization variants to define different access rights. The different app authorization variants grant access to the same SAP Fiori launchpad content through the transaction.
+Let's focus more on the relationship between transactions and IAM apps as illustrated in the following graphic using an example. An IAM app relates to one transaction, but a transaction can relate to several IAM apps to define different access rights. The different IAM apps grant access to the same SAP Fiori launchpad content through the transaction.
 
 > ### Example:  
 > The *Maintain Business Users* app has the Fiori ID `F1303` and, for example, the following app authorization variants:
 > 
-> -   an app authorization variant called *Display Business Users* \(IAM app ID: `F1303_03_TRAN`\) with read authorization
+> -   an IAM app called *Display Business Users* \(IAM app ID: `F1303_03_TRAN`\) with read authorization
 > 
-> -   an app authorization variant called *Assign Business Users to Business Roles* \(IAM app ID: `F1303_22_TRAN`\) with write authorization
+> -   an IAM app called *Assign Business Users to Business Roles* \(IAM app ID: `F1303_22_TRAN`\) with write authorization
 > 
-> -   an app authorization variant called *Maintain Business Users* \(IAM app ID: `F1303_TRAN`\) with write authorization
+> -   an IAM app called *Maintain Business Users* \(IAM app ID: `F1303_TRAN`\) with write authorization
 > 
 > 
-> All three app authorization variants belong to the transaction code `F1303`. They grant access to the same tiles and target mappings in SAP Fiori launchpad but have separate IAM app IDs with the prefix `F1303`. If you only want to grant read access to business users assigned to a specific business role, for example, you activate the *Display Business Users* app authorization variant \(`F1303_03_TRAN`\).
+> All three IAM apps belong to the transaction code `F1303`. They grant access to the same tiles and target mappings in SAP Fiori launchpad but have separate IAM app IDs with the prefix `F1303`. If you only want to grant read access to business users assigned to a specific business role, for example, you activate the *Display Business Users* app authorization variant \(`F1303_03_TRAN`\).
 
-![Get the details about the relationship between transactions and app authorization variants.](images/IAMApps_Transaction_b08e387.png)
+![Get the details about the relationship between transactions and IAM apps.](images/IAMApps_Transaction_b08e387.png)
 
 
 
@@ -59,15 +59,15 @@ Let's focus more on the relationship between transactions and app authorization 
 
 ## App View
 
-In contrast to the architecture view on authorization management, the following graphic highlights the apps you can use as an administrator to manage authorizations for business roles using app authorization variants.
+In contrast to the architecture view on authorization management, the following graphic highlights the apps you can use as an administrator to manage authorizations for business roles using IAM apps.
 
-Use the *Maintain Business Users* app to provide business users with access rights to SAP Fiori apps through business roles.
+Use the *Maintain Business Users* \(`F1303`\) app to provide business users with access rights to SAP Fiori apps through business roles.
 
-Use the *Maintain Business Roles* app to define business roles that control the access to your applications by combining predefined business catalogs. If the business catalogs support IAM apps, they bundle app authorization variants. After such business catalogs are assigned to a business role, you have the option to deactivate individual IAM apps according to your business requirements. This allows you to assign only the apps that are required for a business role to it giving you the flexibility to manage authorizations for business users on a more granular level. For more information, refer to [How to Activate or Deactivate IAM Apps \(App Authorization Variants\)](how-to-activate-or-deactivate-iam-apps-app-authorization-variants-61f5a1a.md).
+Use the *Maintain Business Roles* \(`F1492`\) app to define business roles that control the access to your applications by combining predefined business catalogs. If the business catalogs support IAM apps, they bundle IAM apps. After such business catalogs are assigned to a business role, you have the option to activate or deactivate individual IAM apps according to your business requirements. This allows you to assign only the IAM apps that are required for a business role to it, giving you the flexibility to manage authorizations for business users on a more granular level. You also have the option to assign IAM apps directly to a business role, which can be useful when only a few IAM apps from a specific business catalog are needed. For more information, refer to [How to Activate or Deactivate IAM Apps \(App Authorization Variants\)](how-to-activate-or-deactivate-iam-apps-app-authorization-variants-61f5a1a.md).
 
-Use the *Maintain Launchpad Spaces* and *Maintain Launchpad Pages* apps to define the SAP Fiori launchpad of the business user. In the *Maintain Launchpad Pages* app you can display all tiles that are referenced by transactions and available through the corresponding business role for a specific page using the role context feature. The activation status of IAM apps is not considered for this feature.
+Use the *Manage Launchpad Spaces* \(`F4834`\) and *Maintain Launchpad Pages* \(`F4512`\) apps to define the SAP Fiori launchpad of the business user. In the *Maintain Launchpad Pages* app you can display all tiles that are referenced by transactions and available through the corresponding business role for a specific page using the role context feature. The activation status of IAM apps is not considered for this feature.
 
-![Get an app view on authorization management to understand which apps you can use to manage authorizations for business roles using app authorization variants.](images/IAMApps_AppView_7dffcac.png)
+![Get an app view on authorization management to understand which apps you can use to manage authorizations for business roles using IAM apps.](images/IAMApps_AppView_7dffcac.png)
 
 
 
@@ -95,7 +95,7 @@ Use the *Maintain Launchpad Spaces* and *Maintain Launchpad Pages* apps to defin
 
 Business roles assigned to your business user define the access to apps and the layout of your SAP Fiori launchpad \(spaces, pages, tiles\) through provided authorizations. There are two main effects for you as an end user:
 
--   To manage authorizations more granularly, administrators can deactivate IAM apps in business roles assigned to your business user. Authorizations for deactivated IAM apps assigned to a business role are removed. This means that you no longer have access to apps you previously accessed by default.
+-   To manage authorizations more granularly, administrators can activate or deactivate IAM apps in business roles assigned to your business user. Activated IAM apps grant you the corresponding permissions; deactivated IAM apps remove those permissions. The apps and capabilities available to you depend on which IAM apps your administrator has activated in your assigned business roles.
 
 -   An app can have multiple tiles as access points on SAP Fiori launchpad. This can be the case if tiles have been provided with different parameters to display different information in the app.
 

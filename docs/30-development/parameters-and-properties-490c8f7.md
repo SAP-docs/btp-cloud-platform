@@ -2,28 +2,114 @@
 
 # Parameters and Properties
 
-This section contains information about the parameters and properties of a multitarget application \(MTA\).
+Parameters and properties are the two kinds of configurable values in an MTA descriptor. Learn how to configure, reference, escape, and resolve them dynamically.
 
-The values of parameters and properties can be specified at design time, in the MTA development description \(`mta.yaml`\) or in the MTA deployment descriptor \(`mtad.yaml`\). In some cases, it is better to declare certain values depending on the deployment, for example, in an extension descriptor file \(`myDeployExtension.mtaext`\).
 
-The values of parameters and properties might be literals. This way, the result of each deployment will be the same every time. However, by using the placeholders described below, the values might also be set as substitution variables and therefore each deployment might end in a different result depending on the environment or other configurations.
 
-Regardless of the defined value - literal or substitution variable, in most cases the end value for each parameter or property is definitive and well-known before the deployment. This is because the substitution variable values represent a certain template and template resolving is done in the beginning of the MTA deployment.
+<a name="loio490c8f71e2b74bc0a59302cada66117c__section_overview"/>
 
-The module-level parameter `${default-host}` follows the template `${org}-${space}-<module_name>`. For example, when it is used in a module `my-module` and the deployment is done within org `my-org`, space `my-space`, the end value of `${default-host}` will be `my-org-my-space-my-module`.
+## Overview
 
-However, in some cases the parameter or property value is dynamic and cannot be predicted before the deployment. In these cases, the substitution variable is dynamic and is done in a later phase of the MTA deployment.
+A multitarget application \(MTA\) is configured through two kinds of values:
 
-If you want to learn more about dynamically resolved parameters see the [Dynamic parameters](parameters-and-properties-490c8f7.md#loio490c8f71e2b74bc0a59302cada66117c__section_kdm_3qt_txb) section below.
+-   **Parameters** are reserved variables that control the behavior of the MTA tooling \(Cloud MTA Build Tool, SAP Cloud Deployment service\) — for example, how much memory an application gets or how long staging may take.
+-   **Properties** are values injected into your application at runtime as Cloud Foundry environment variables.
 
-The values of properties and parameters are used during the deployment or at runtime of the MTA.
 
-> ### Note:  
-> Both parameters and properties may have literal values, such as strings, integers, etc. This also applies to deeply nested structured values, such as arrays or maps.
+<table>
+<tr>
+<th valign="top">
+
+ 
+
+</th>
+<th valign="top">
+
+Parameters
+
+</th>
+<th valign="top">
+
+Properties
+
+</th>
+</tr>
+<tr>
+<td valign="top">
+
+**Purpose**
+
+</td>
+<td valign="top">
+
+Control build and deploy behavior
+
+</td>
+<td valign="top">
+
+Provide runtime configuration to the application
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Consumed By**
+
+</td>
+<td valign="top">
+
+MTA tooling and SAP Cloud Deployment service
+
+</td>
+<td valign="top">
+
+Your running application \(as environment variables\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Placeholder Syntax**
+
+</td>
+<td valign="top">
+
+`${name}`
+
+</td>
+<td valign="top">
+
+`~{name}`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**Declared At**
+
+</td>
+<td valign="top">
+
+Top, module, resource, and dependency level
+
+</td>
+<td valign="top">
+
+Module, resource, and dependency level
+
+</td>
+</tr>
+</table>
+
+You declare both at design time in the MTA development descriptor \(`mta.yaml`\) or MTA deployment descriptor \(`mtad.yaml`\). When a value should depend on the target environment, you override it at deploy time in an extension descriptor \(`myDeployExtension.mtaext`\).
+
+Values may be literals \(strings, integers, arrays, or maps\) or placeholders that are resolved during deployment. See [Placeholders \(Substitution Variables\)](parameters-and-properties-490c8f7.md#loio490c8f71e2b74bc0a59302cada66117c__section_placeholders).
 
 > ### Tip:  
-> -   You can declare metadata for parameters and properties defined in the MTA deployment descriptor. The mapping is based on the parameter or property keys. For example, you can specify if a parameter is **required** \(`optional: false`\) or can be modified `overwritable: true`. For more information, see [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md).
-> -   Descriptors can contain so-called placeholders \(also known as substitution variables\), which can be used as sub-strings within property and parameter values. Placeholder names are enclosed by the dollar sign \(`$`\) and curly brackets \(`{}`\). For example: `${host}` and `${domain}`. For each parameter “`P`”, there is a corresponding placeholder `${P}`. The value of *<P\>* can be defined either by a descriptor used for deployment, or by the deploy service itself. Placeholders can also be used without any corresponding parameters; in this scenario, their value cannot be overridden in a descriptor. Such placeholders are read-only.
+> You can declare metadata for parameters and properties defined in the MTA deployment descriptor. For example, you can specify if a parameter is required \(`optional: false`\) or can be modified \(`overwritable: true`\). For more information, see [Metadata for Properties and Parameters](metadata-for-properties-and-parameters-fca2ced.md).
 
 
 
@@ -31,12 +117,10 @@ The values of properties and parameters are used during the deployment or at run
 
 ## Parameters
 
-Parameters are reserved variables that affect the behavior of the MTA-aware tools, such as the Cloud MTA Build Tool \(MBT\) or SAP Cloud Deployment service.
-
-Parameters might be used at various levels in the MTA descriptor — top level, module level, resource level, and dependency level. Based on the parameter applicability it might be used in combination in several places, for example, both at the resource and module levels.
+Parameters are values that affect the behavior of MTA-aware tools, such as the Cloud MTA Build Tool \(MBT\) or SAP Cloud Deployment service. The SAP Cloud Deployment service defines a set of supported parameters with predefined behavior.
 
 > ### Example:  
-> The example below shows the parameter \``memory`\` at the module level which defines the amount of memory used by the Cloud Foundry application represented by the module \``node-hello-world`\` during application runtime.
+> The `memory` parameter at the module level defines the amount of memory used by the Cloud Foundry application represented by the module `node-hello-world` during application runtime.
 > 
 > > ### Sample Code:  
 > > ```
@@ -45,22 +129,509 @@ Parameters might be used at various levels in the MTA descriptor — top level, 
 > >     type: javascript.nodejs
 > >     path: web/
 > >     parameters:
-> >        memory: 128M 
+> >       memory: 128M
 > > ```
 
-Parameters can be “Read-Only” \(also known as “System”\) or “Write” \(default value can be overwritten\). All parameter values can be referenced as part of other property or parameter value strings. The value of a “Read-Only” parameter cannot be changed in descriptors. Only its value can be referenced using the placeholder notation. To reference a parameter value, use the placeholder notation <code>${<i class="varname">&lt;parameter&gt;</i>}</code>, for example `${org}`.
+Parameters can be set at several levels: top level, module and module hook level, resource level, and dependency \(`provides` / `requires`\) level. The same parameter may be used at more than one level — for example, it can be set both at the resource and module levels — and depending on the level, it may be interpreted and applied differently. Top-level parameters have global scope and are accessible anywhere in the descriptor. Parameters set at lower levels — module, resource, or dependency level — are local to that scope and visible only within the same block.
 
-SAP Cloud Deployment service supports a list of parameters and their \(default\) values:
+Parameters can be **Read-Only** \(also known as "System"\) or **Write** \(if they have a default value, it can be overwritten\). All parameter values can be referenced using the placeholder notation `${<parameter>}`, for example `${org}`. The value of a **Read-Only** parameter cannot be changed in descriptors — it can only be referenced.
+
+SAP Cloud Deployment service supports the following types of parameters:
 
 -   [Module-Specific Parameters](modules-177d34d.md#loio177d34d45e3d4fd99f4eeeffc5814cf1__section_moduleSpecificParameters)
 -   [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters)
 -   [Module Hooks - Specific Parameters](module-hooks-b9245ba.md#loiob9245ba90aa14681a416065df8e8c593__section_byz_kcf_wjb)
--   Top-Level Parameters \(see table below\) - Top-level parameters are generally applicable parameters that cover various scenarios and can be used in different parts of the MTA descriptors. They can be grouped into to categories - "Read-Only" and "Write":
--   -   Top-level "Write" parameters are designed to impact the behavior of the whole MTA deployment or many parts of it. It is wise to use them in order to avoid duplication. Their values can be defined and controlled by the customer. These parameters can be referenced throughout the whole document.
--   Top-level "Read-Only" parameters are commonly used parameters that can only be referenced in different parts of the MTA descriptors.
+-   Top-Level Parameters \(see the table in [Reference: Parameter Tables](parameters-and-properties-490c8f7.md#loio490c8f71e2b74bc0a59302cada66117c__section_parameterTables)\) — Top-level parameters are generally applicable parameters that cover various scenarios and can be used in different parts of the MTA descriptors. They can be grouped into to categories - "Read-Only" and "Write":
+    -   Top-level "Write" parameters are designed to impact the behavior of the whole MTA deployment or many parts of it. It is wise to use them in order to avoid duplication. Their values can be defined and controlled by the customer. These parameters can be referenced throughout the whole document.
+    -   Top-level "Read-Only" parameters are commonly used parameters that can only be referenced in different parts of the MTA descriptors.
+
+-   Dependency-Specific Parameters \(see the table in [Reference: Parameter Tables](parameters-and-properties-490c8f7.md#loio490c8f71e2b74bc0a59302cada66117c__section_parameterTables)\) — These parameters can be used with the `provides` or `requires` dependencies
 
 
--   **Top-Level Parameters**
+All supported parameters are consolidated in [List of Supported MTA Parameters](list-of-supported-mta-parameters-6aa426e.md) for your convenience.
+
+> ### Note:  
+> The supported parameters follow the kebab-case naming notation \(lowercase words separated by hyphens, for example `service-plan` or `health-check-type`\), not camelCase \(for example `servicePlan`\).
+> 
+> This notation applies only to the supported parameters defined by the SAP Cloud Deployment service. Customer-defined parameters that you declare and reference elsewhere in the descriptor are not bound by this convention and may use any notation you choose.
+
+You can declare custom parameters at any level in the descriptor and reference them with `${...}`:
+
+> ### Example:  
+> The custom parameter `environment` is declared once at the top level. It is referenced in the resource configuration.
+> 
+> > ### Sample Code:  
+> > ```
+> > _schema-version: 3.3.0
+> > ID: my-app
+> > version: 1.0.0
+> > 
+> > parameters:
+> >   environment: dev   # custom parameter
+> > 
+> > resources:
+> >   - name: external-config
+> >     type: configuration
+> >     parameters:
+> >       provider-id: my-provider:configuration_${environment}   # referencing the custom parameter
+> > ```
+
+
+
+<a name="loio490c8f71e2b74bc0a59302cada66117c__section_p3w_xdw_vjb"/>
+
+## Properties
+
+MTA properties are Cloud Foundry application environment variables used during application runtime. When an MTA property is set, the SAP Cloud Deployment service injects its key as the environment variable name and its value as the variable value into the application represented by the corresponding MTA module. Properties are not taken into account when an MTA module represents SAP content rather than a Cloud Foundry application \(see [Content Deployment](content-deployment-68d0da8.md)\).
+
+You can declare MTA properties at module level, resource level, and dependency level.
+
+> ### Sample Code:  
+> ```
+> modules:
+>   - name: my-app-module
+>     type: application 
+>     path: "appBits.zip"
+>     properties: 
+>       default-host: ${default-host}
+> ```
+
+To make a property consume a value produced by another module or resource, see [Referencing Values Across the Descriptor](parameters-and-properties-490c8f7.md#loio490c8f71e2b74bc0a59302cada66117c__section_referencing).
+
+
+
+<a name="loio490c8f71e2b74bc0a59302cada66117c__section_placeholders"/>
+
+## Placeholders \(Substitution Variables\)
+
+Instead of hard-coding a value or duplicating it, you can reference another value with a **placeholder**. Placeholder names are enclosed in a sigil and curly braces:
+
+-   `${parameter}` references a **parameter** value – for example, `${org}` resolves to the current Cloud Foundry org name.
+-   `~{property}` references a **property** value provided by another module or resource.
+
+Each supported parameter `P` has a corresponding placeholder `${P}`. "Write" parameters can have their value set in a descriptor, while "Read-Only" parameters can only be referenced, as their value is always set by the SAP Cloud Deployment service.
+
+
+
+### When Placeholders Are Resolved
+
+In most cases, the final value is known during the initial phase of deployment **before** any changes are applied. Placeholder resolution acts as a template pass that the SAP Cloud Deployment service runs at the start of the operation.
+
+For example, the module-level parameter `${default-host}` follows the template `${org}-${space}-<module_name>`. When it is used in module `my-module` and deployed to org `my-org`, space `my-space`, it resolves to `my-org-my-space-my-module`.
+
+Some values, however, cannot be known until the deployment is in progress — for example, the GUID of a newly created service instance. These are resolved in a later phase. See [Dynamic Parameters](parameters-and-properties-490c8f7.md#loio490c8f71e2b74bc0a59302cada66117c__section_kdm_3qt_txb).
+
+
+
+### Escaping Placeholders and References
+
+In some cases, you may want a value that looks like a placeholder \(`${...}`\) or a cross-reference \(`~{...}`\) to be passed through unchanged, instead of being resolved during deployment. This is required when the value is resolved later by a different component \(for example, by the application's own configuration engine at runtime, or by a service broker when it provisions the instance\), which must therefore receive the `${...}` syntax intact.
+
+To prevent a placeholder or reference from being resolved, escape it with a single backslash \(`\`\) directly before the opening `${` or `~{`. The escaped expression is skipped during template resolution, and the leading backslash is removed once all other placeholders and references have been resolved. As a result, the deployed value contains the literal `${...}` or `~{...}`.
+
+> ### Note:  
+> Escaping applies to both placeholder syntax \(`${...}`\) and property reference syntax \(`~{...}`\). Each occurrence must be escaped individually, including repeated occurrences within the same value.
+
+> ### Note:  
+> Escaping a reference in a **quoted** string requires **two** backslashes, whereas escaping a reference in a **non-quoted** string requires only **one**. This is a consequence of YAML's own escaping rules and is not an MTA-specific detail.
+
+> ### Sample Code:  
+> Escaping Placeholders in the MTA Deployment Descriptor \(mtad.yaml\)
+> 
+> ```
+> modules:
+>   - name: my-app
+>     type: application
+>     parameters:
+>       # Resolved by the Cloud Deployment service to the actual application host:
+>       app-host: ${default-host}
+>     properties:
+>       # Escaped in a quoted string - two backslashes. Passed through
+>       # unchanged; the application's own configuration engine resolves
+>       # ${server.port} at runtime:
+>       LISTEN_CONFIG: "port=\\${server.port}"
+>     requires:
+>       - name: identity-service
+> 
+> resources:
+>   - name: identity-service
+>     type: org.cloudfoundry.managed-service
+>     parameters:
+>       service: identity
+>       service-plan: application
+>       config:
+>         display-name: my-app-${space}
+>         default-attributes:
+>           # Escaped in non-quoted strings - one backslash. Forwarded to the
+>           # service instance verbatim; the Identity Authentication service substitutes
+>           # the values per user at runtime, not the Cloud Deployment service:
+>           user_name: \${corporateIdP.user_uuid}
+>           email: \${corporateIdP.mail}
+> ```
+
+In this example:
+
+-   In module `my-app`, the parameter `app-host` is resolved by the SAP Cloud Deployment service to the real application host, while the property `LISTEN_CONFIG` reaches the application as the literal string `port=${server.port}`, which the application's own configuration engine resolves at runtime. Because the value is a **double-quoted** string, the reference is escaped with **two** backslashes.
+-   In the `identity-service` resource, `${space}` in `display-name` is resolved by the SAP Cloud Deployment service, while the escaped `user_name` and `email` values are forwarded to the Identity Authentication service instance as the literal strings `${corporateIdP.user_uuid}` and `${corporateIdP.mail}`. Because these are **non-quoted** values, each reference is escaped with a **single** backslash.
+
+> ### Note:  
+> A backslash that does not precede `${` or `~{` is treated as an ordinary character and is left unchanged.
+
+
+
+<a name="loio490c8f71e2b74bc0a59302cada66117c__section_referencing"/>
+
+## Referencing Values Across the Descriptor
+
+One module or resource often needs a value produced by another. This is done with a `requires` declaration that points at a `provides` block, which belongs to a module, or at another resource's properties.
+
+
+
+### Sharing a Value Between Two Modules
+
+The most common cross-reference is one module consuming a value that another module exposes. The producing module declares a `provides` block, while the consuming module declares a matching `requires` entry and reads individual properties with the `~{<provides-name>/<property>}` syntax.
+
+> ### Sample Code:  
+> Sharing a value between two modules in the MTA deployment descriptor \(mtad.yaml\)
+> 
+> ```
+> modules:
+>   - name: providing-module
+>     type: application
+>     path: appBits.zip
+>     provides:
+>       - name: module-1-provided        # the shared bundle of values
+>         properties:
+>           user: ${generated-user}      # may reference module or global parameters
+>           config: "static-string"      # or be a literal
+>           url: ${default-url}
+> 
+>   - name: consuming-module
+>     type: application
+>     path: appBits.zip
+>     requires:
+>       - name: module-1-provided        # gain access to the provided values
+>     properties:                        # injected as application environment variables
+>       m1-user: ~{module-1-provided/user}
+>       m1-config: '~{module-1-provided/config}-with-suffix'   # usable inside a string
+>       m1-url: ~{module-1-provided/url}
+> ```
+
+Note the following about the example above:
+
+-   `~{<provides-name>/<property>}` names the `provides` block first, then the property inside it — **not** the module name.
+-   A reference can be embedded inside a larger string value \(see `m1-config`\).
+-   A module-to-module `requires` dependency **does** influence deployment order: the providing module is deployed before the consuming module.
+
+> ### Note:  
+> The choice between `${default-url}` and `${default-live-url}` in a `provides` block depends on who consumes the provided value:
+> 
+> -   **Module consumer**: `${default-url}` is the right choice when you want modules to communicate with each other during the testing phase of a blue-green deployment. At the end of deployment, both the providing and consuming module resolve to the correct live URLs.
+> -   **Resource consumer**: Use `${default-live-url}`. Resource parameters are resolved during the initial phase of a blue-green deployment, before idle applications are started. Using `${default-url}` here causes the resource to target the idle URL \(with the `-idle` suffix\) and misdirect traffic.
+
+
+
+### Consuming a Provided Dependency from a Resource
+
+A resource can also consume a value from a module's `provides` block, or from another resource's properties, by declaring a `requires` dependency. These `requires` declarations do **not** affect the order of application deployment.
+
+> ### Restriction:  
+> It is not possible to reference **list** configuration entries either from resources or from "subscription" functionalities \(deployment features available to subscriber applications\).
+
+> ### Sample Code:  
+> Cross-references between properties in the MTA deployment descriptor \(mtad.yaml\)
+> 
+> ```
+> modules:
+>   - name: java
+>     type: java.tomcat
+>     path: java.war
+>     provides:
+>       - name: backend
+>         properties:
+>           url: ${default-live-url}/foo
+> 
+>   - name: app-router
+>     type: javascript.nodejs
+>     path: router/
+>     requires:
+>       # Consuming from a resource's provided value: makes UAA_SHARED an
+>       # environment variable of the app-router application.
+>       - name: uaa
+>         properties:
+>           UAA_SHARED: ~{uaa/pro1}
+>       # Consuming from a module's provided dependency: BACKEND_URL becomes
+>       # an environment variable built from backend's url property.
+>       - name: backend
+>         properties:
+>           BACKEND_URL: ~{backend/url}
+> 
+> resources:
+>   - name: example
+>     type: example-type
+>     properties:
+>       example-prop: my-example-prop
+> 
+>   - name: uaa
+>     type: org.cloudfoundry.managed-service
+>     parameters:
+>       service: xsuaa
+>       service-plan: application
+>       # Resource parameters feed service configuration.
+>       # ~{example/example-prop} pulls a value from the 'example' resource.
+>       config:
+>         example-prop: ~{example/example-prop}
+>     properties:
+>       # This property is a REFERENCE SOURCE only. It is resolved from
+>       # example/example-prop and exposed so other entities can read it as
+>       # ~{uaa/pro1}. It is consumed above by the app-router module.
+>       pro1: ~{example/example-prop}
+> ```
+
+Note the following about the example above:
+
+-   The `java` module provides a dependency named `backend`, which exposes a `url` property. Its value is built from `${default-live-url}`, which always resolves to the live \(non-idle\) application URL. This is the recommended choice when the property is consumed by a **resource**, because resource parameters are resolved during the initial phase of deployment, before idle applications are started.
+-   **Environment variables are injected only into applications \(modules\).** The `app-router` module gets two environment variables — `UAA_SHARED` and `BACKEND_URL` — because they are declared in the `properties` block of that module's `requires` dependencies. This is the only place a `~{...}` property reference becomes an environment variable.
+-   **A property defined on a resource does not become an environment variable.** A resource's `properties` — such as `pro1` on the `uaa` resource — serve solely as a source of values that other entities can reference through the `~{resource-name/property}` syntax. Here `pro1` is resolved from `example/example-prop` and exposed so that `app-router` can consume it as `~{uaa/pro1}`.
+-   References to provided properties can also be used in resource **parameter** values, as shown in the `config` block of the `uaa` resource, where `~{example/example-prop}` uses the fully qualified cross-reference syntax. These parameter values feed service configuration, not environment variables.
+
+
+
+### Property Reference Syntax
+
+Property references use the `~{...}` syntax. Two forms are supported:
+
+-   Short form \(`~{property}`\): valid when the reference appears inside a `requires` entry's own `properties` or `parameters` block. The resolver identifies the source from the enclosing `requires` block, so no prefix is needed.
+-   Fully qualified form \(`~{requires-name/property}`\): required when the reference appears outside a `requires` block — for example, at the module's top-level `properties` or `parameters`, or inside a resource's `parameters`. The requires-name tells the resolver which `requires` entry provides the value.
+
+> ### Sample Code:  
+> The module `staticapp` uses both forms for the same property. Inside the `external-configurations` requires block the short form is valid. At module level, the fully qualified form is required.
+> 
+> ```
+> modules:
+>   - name: staticapp
+>     parameters:
+>       module-param: ~{external-configurations/a-config-property}.inModuleParameter   # fully qualified — at module level
+>     properties:
+>       module-prop: ~{external-configurations/a-config-property}.directly             # fully qualified — at module level
+>     requires:
+>       - name: external-configurations
+>         parameters:
+>           param-in-requires: ~{a-config-property}.inRequiresParam      # short form — inside requires block
+>         properties:
+>           prop-in-requires: ~{a-config-property}.inRequiresProperty    # short form — inside requires block
+>       - name: myBackingService
+> ```
+
+The fully qualified form also lets you combine values from multiple `requires` entries into a single structured property. The SAP Cloud Deployment service supports this as an extension of the standard syntax, enabling you to declare implicit groups, as illustrated in the following example:
+
+> ### Sample Code:  
+> Syntax Extension: Alternative Grouping of MTA Properties
+> 
+> ```
+> modules:
+>   - name: pricing-ui
+>     type: javascript.nodejs
+>     properties:
+>       API:
+>        - key: internal1
+>          protocol: ~{price_opt/protocol}
+>        - key: external
+>          url: ~{competitor_data/url}
+>          api_keys: ~{competitor_data/creds}
+>     requires:
+>       - name: competitor_data
+>       - name: price_opt
+>   - name: pricing-backend
+>     type: java.tomcat
+>     provides:
+>       - name: price_opt
+>         properties:
+>           protocol: http
+> 
+> resources:
+>   - name: competitor_data
+>     properties:
+>       url: "https://marketwatch.acme.com/"
+>       creds:
+>         app_key: 25892e17-80f6
+>         secret_key: cd171f7c-560d
+> ```
+
+
+
+### Resolution Order
+
+Values are resolved in a fixed order during deployment. Understanding it explains which value "wins" when the same name is defined at multiple levels, and why a reference is sometimes still empty.
+
+1.  **Descriptors are merged first.** The deployment descriptor \(`mtad.yaml`\) is merged with any extension descriptors \(`.mtaext`\) before any placeholder is resolved. Extension descriptors therefore override literal values, and the overridden result is what later steps work with.
+2.  **System \(read-only\) parameters are collected**, such as `${org}`, `${space}`, and `${default-domain}`. These are available to everything resolved afterward.
+3.  **A single resolution pass then runs, in this order:**
+    1.  **Parameters** \(`${...}`\) are resolved and validated.
+    2.  **Properties** \(`${...}` inside property values\) are resolved. This is why a property may reference a parameter, but a parameter must not depend on a property.
+    3.  **Cross-MTA `configuration` references** are resolved \(looked up from other already-deployed MTAs\).
+    4.  **`provides` / `requires` references** \(`~{...}`\) are resolved last, so a `~{...}` can consume any value produced in the earlier phases.
+
+
+**Precedence when the same parameter is defined at multiple levels** \(most specific wins\):
+
+For module parameters, from highest to lowest precedence:
+
+1.  Required-dependency level
+2.  Module level
+3.  Module-type level
+4.  Global \(top-level\)
+
+For resource parameters, from highest to lowest precedence:
+
+1.  Resource level
+2.  Resource-type level
+
+> ### Note:  
+> If a `~{...}` reference points at a value that cannot exist until later in the deployment \(for example, a service instance GUID\), it is deferred and resolved in a later phase. See [Dynamic Parameters](parameters-and-properties-490c8f7.md#loio490c8f71e2b74bc0a59302cada66117c__section_kdm_3qt_txb).
+
+
+
+<a name="loio490c8f71e2b74bc0a59302cada66117c__section_kdm_3qt_txb"/>
+
+## Dynamic Parameters
+
+Unlike the template placeholders described above, dynamic parameters are resolved in a later deployment phase, once the referenced entity exists.
+
+In some cases, it is required to use a value that is unknown before deployment — for example, the GUID of another service instance. The GUID of a newly created service instance is not known before the creation of that service, but it might be consumed later during the same MTA deployment.
+
+> ### Note:  
+> Currently, this feature is limited to resolving the service GUID for the following resource types:
+> 
+> -   `org.cloudfoundry.managed-service`
+> -   `org.cloudfoundry.user-provided-service`
+> -   `org.cloudfoundry.existing-service`
+
+Resolved parameters can only be referenced from other resources or from a cross-MTA dependency. References from modules are not resolved.
+
+> ### Sample Code:  
+> MTA Deployment Descriptor \(mtad.yaml\)
+> 
+> ```
+> _schema-version: 3
+> ID: sample-dynamic-service-guid
+> version: 1.0.0
+> 
+> modules:
+>   - name: sample-app
+>     type: staticfile
+>     path: content.zip
+>     requires:
+>       - name: test-service
+>       - name: hana-service
+> 
+> resources:
+>   - name: test-service
+>     type: org.cloudfoundry.user-provided-service
+>     parameters:
+>       config:
+>         service-guid-of-db: ~{hana-service/my-db-service-guid}
+>     requires:
+>       - name: hana-service
+>     processed-after: [hana-service]
+> 
+>   - name: hana-service
+>     type: org.cloudfoundry.managed-service
+>     parameters:
+>       service: hana
+>       service-plan: schema
+>     properties:
+>       my-db-service-guid: ${service-guid}
+> ```
+
+> ### Note:  
+> To use this feature, declare `${service-guid}` inside the `properties` section of the resource. The consumer of the service GUID value must add the respective resource name to its `requires` section and specify the `processed-after` parameter, because the order of resource processing must be explicitly described.
+
+
+
+### Dynamic Parameters Across MTAs
+
+Resolved parameters can also be referenced from a cross-MTA dependency, allowing a service instance GUID to be referenced from another MTA.
+
+The following example shows the dependency declaration referencing a dynamic parameter in the deployment descriptor of the "provider" MTA:
+
+> ### Sample Code:  
+> Provider MTA \(mtad.yaml\)
+> 
+> ```
+> _schema-version: 3
+> ID: dynamic-service-guid-provider
+> version: 1.0.0
+> 
+> modules:
+>   - name: app-provider
+>     type: staticfile
+>     path: appBits.zip
+>     provides:
+>       - name: db-guid
+>         public: true
+>         parameters:
+>           visibility:
+>             - org: ${org}
+>               space: ${space}
+>         properties:
+>           db-instanceid: ~{hana-service/my-db-service-guid}
+>     requires:
+>       - name: hana-service
+> 
+> resources:
+>   - name: hana-service
+>     type: org.cloudfoundry.managed-service
+>     parameters:
+>       service: hana
+>       service-plan: schema
+>     properties:
+>       my-db-service-guid: ${service-guid}
+> ```
+
+The following example shows the dependency declaration in the deployment descriptor of the "consumer" MTA:
+
+> ### Sample Code:  
+> Consumer MTA \(mtad.yaml\)
+> 
+> ```
+> _schema-version: 3
+> ID: dynamic-service-guid-consumer
+> version: 1.0.0
+> 
+> modules:
+>   - name: app-consumer
+>     type: staticfile
+>     path: content.zip
+>     requires:
+>       - name: db-config
+>         properties:
+>           reference_instance: ~{db-instanceid}
+> 
+> resources:
+>   - name: db-config
+>     type: configuration
+>     parameters:
+>       provider-id: "dynamic-service-guid-provider:db-guid"
+>       version: ">=1.0.0"
+>       target:
+>         org: ${org}
+>         space: ${space}
+> ```
+
+For more information about cross-MTA configurations see [Cross-MTA Dependencies](cross-mta-dependencies-b8e1953.md).
+
+
+
+<a name="loio490c8f71e2b74bc0a59302cada66117c__section_parameterTables"/>
+
+## Reference: Parameter Tables
+
+
+
+### Top-Level Parameters
+
+**Top-Level Parameters**
 
 
 <table>
@@ -1051,7 +1622,8 @@ N/A
 </table>
 
 
-These parameters can be used with the `provides` or `requires` dependencies:
+
+### Dependency-Specific Parameters
 
 **Dependency-Specific Parameters**
 
@@ -1352,241 +1924,11 @@ provides:
 </tr>
 </table>
 
-As an alternative, you can also externalize such configurations in a file. See [Service Instance Parameters](service-instance-parameters-a36df26.md).
 
 
+### Level-Specific Parameter Lists
 
-<a name="loio490c8f71e2b74bc0a59302cada66117c__section_p3w_xdw_vjb"/>
-
-## Properties
-
-MTA properties are Cloud Foundry application environment variables that are used during application runtime. When an MTA property is set at the module level, the SAP Cloud Deployment service injects its key as the environment variable key and its value as the variable value in the application, represented by the corresponding MTA module.
-
-MTA properties can be declared at different levels — module level, resource level, and dependency level.
-
-
-
-
-
-### Cross-References to Properties
-
-To enable resource properties to resolve values from a property in another resource or module, a resource must declare a dependency. However, these “requires” declarations do not affect the order of the application deployment.
-
-> ### Restriction:  
-> It is not possible to reference **list** configuration entries either from resources or “subscription” functionalities \(deployment features that are available to subscriber applications\).
-
-> ### Code Syntax:  
-> Cross-references between properties in the MTA deployment descriptor .yaml file
-> 
-> ```
-> modules: 
->   - name: java 
->     ... 
->     provides:  
->       - name: backend  
->         properties:  
->           url: ${default-live-url}/foo 
-> resources:  
->   - name: example  
->     type: example-type   
->     properties:   
->       example-prop: my-example-prop   
->   - name: uaa
->     type: uaa-type 
->     requires: 
->       - name: example 
->       - name: backend 
->         properties: 
->           prop: ~{url} 
->         parameters: 
->           param: ~{url} 
->     properties: 
->       pro1: ~{example/example-prop} 
->     parameters: 
->       config: 
->         app-router-url: ~{backend/url}
->         example-prop: ~{example/example-prop}
-> ```
-
-Note the following about the example above:
-
--   The `java` module provides a dependency named `backend`, which exposes a `url` property. Its value is built from `${default-live-url}`, which always resolves to the live \(non-idle\) application URL. This is the recommended choice when the property is consumed by a resource, because resource parameters are resolved during the initial phase of deployment \(before idle applications are started\).
-
--   The `uaa` resource requires `backend` and declares `prop: ~{url}` in the `properties` block of that dependency. This creates an environment variable named `prop` in the `uaa` resource whose value is taken from the `url` property provided by `backend`. This is independent of the `parameters` block in the same dependency, where `param: ~{url}` uses the same referenced value as a parameter input instead of as an environment variable.
-
--   References to provided properties can also be used in resource parameter values, as shown in the `config` block of `uaa`, where both `~{backend/url}` and `~{example/example-prop}` use fully qualified cross-reference syntax.
-
-
-> ### Note:  
-> The choice between `${default-url}` and `${default-live-url}` in `provides` properties depends on who consumes the provided value:
-> 
-> -   **Resource consumer**: Use `${default-live-url}`. Resource parameters are resolved during the initial phase of a blue-green deployment, before idle applications are started. Using `${default-url}` here causes the resource to target the idle URL \(with the `-idle` suffix\) and misdirect traffic.
-> -   **Module consumer**: `${default-url}` can be the right choice if you want new modules to communicate with each other during the testing phase of a blue-green deployment. For example, if a backend module provides `${default-url}` and a frontend module consumes it, the idle frontend will point to the idle backend during testing. At the end of the blue-green deployment, both resolve to the correct live URLs.
-
-
-
-<a name="loio490c8f71e2b74bc0a59302cada66117c__section_nyn_gl2_fpb"/>
-
-## Fully qualified references to properties
-
-The SAP Cloud Deployment service supports the extension of the standard syntax for references in module properties. This extension enables you to specify the name of the `requires` section inside the property reference. You can use this syntax extension to declare implicit groups, as illustrated in the following example:
-
-> ### Sample Code:  
-> Syntax Extension: Alternative Grouping of MTA Properties
-> 
-> ```
-> modules:
->   - name: pricing-ui
->     type: javascript.nodejs 
->     properties: 
->       API: # equivalent to group, but defined in the module properties
->        - key: internal1
->          protocol: ~{price_opt/protocol} #reference to value of protocol defined in price_opt of module pricing-backend
->        - key: external 
->          url: ~{competitor_data/url} # reference to string value of property 'url' in required resource 'competitor_data' 
->          api_keys: ~{competitor_data/creds} # reference to list value of property 'creds' in 'competitor_data' 
->     requires: 
->      - name: competitor_data 
->      - name: price_opt 
->   - name: pricing-backend
->     type: java.tomcat 
->     provides: 
->      - name: price_opt 
->        properties: 
->           protocol: http ... 
->   resources: 
->     - name: competitor_data 
->       properties: 
->         url: "https://marketwatch.acme.com/" 
->         creds: 
->           app_key: 25892e17-80f6 
->           secret_key: cd171f7c-560d 
-> ```
-
-
-
-<a name="loio490c8f71e2b74bc0a59302cada66117c__section_kdm_3qt_txb"/>
-
-## Dynamic parameters
-
-In some cases, it is required to use a value that is unknown before deployment. For example, such entity could be the GUID of another service instance. The GUID of a newly created service instance is not known before the creation of said service but it might be consumed during the MTA deployment.
-
-The feature enables an existing Cloud Foundry entity parameter value to be used inside an MTA descriptor.
-
-> ### Note:  
-> Currently, the feature is limited to resolving service GUID for the following resource types:
-> 
-> -   `org.cloudfoundry.managed-service`
-> -   `org.cloudfoundry.user-provided-service`
-> -   `org.cloudfoundry.existing-service`
-
-Resolved parameters can only be referenced from other resources or from a cross-MTA dependency. If a dynamic parameter is referenced from other places, like modules, the reference won’t be resolved.
-
-> ### Sample Code:  
-> MTA Deployment Descriptor \(`mtad.yaml`\)
-> 
-> ```
-> _schema-version: 3 
-> ID: sample-dynamic-service-guid 
-> version: 1.0.0 
-> 
-> modules: 
->   - name: sample-app 
->     type: staticfile 
->     path: content.zip 
->     requires: 
->       - name: test-service 
->       - name: hana-service 
-> 
-> resources: 
->   - name: test-service 
->     type: org.cloudfoundry.user-provided-service 
->     parameters: 
->       config: 
->         service-guid-of-db: ~{hana-service/my-db-service-guid} 
->     requires: 
->       - name: hana-service 
->     processed-after: [hana-service] 
-> 
->   - name: hana-service 
->     type: org.cloudfoundry.managed-service 
->     parameters: 
->       service: hana 
->       service-plan: schema 
->     properties: 
->       my-db-service-guid: ${service-guid}
-> ```
-
-> ### Note:  
-> In order to use this feature, it is necessary to specify `${service-guid}` inside the `properties` section of the resource. Consumer of service GUID value must add respective resource name in the `requires` section and specify the `processed-after` parameter because the order of resource processing must be explicitly described.
-
-
-
-### Dynamic parameter as a cross-MTA dependency
-
-Resolved parameters can also be referenced from a cross-MTA dependency, allowing the service instance to be referenced from another MTA.
-
-The following example shows the dependency declaration referencing a dynamic parameter in the deployment descriptor of the “provider” MTA:
-
-> ### Sample Code:  
-> ```
-> _schema-version: 3
-> ID: dynamic-service-guid-provider
-> version: 1.0.0
-> 
-> modules:
->  - name: app-provider
->    type: staticfile
->    path: appBits.zip
->    provides:
->       - name: db-guid
->         public: true
->         parameters:
->            visibility:     
->            - org: ${org}      
->              space: ${space}  
->         properties:
->             db-instanceid: ~{hana-service/my-db-service-guid} 
->    requires: 
->      - name: hana-service
-> 
-> resources: 
->   - name: hana-service
->     type: org.cloudfoundry.managed-service
->     parameters:
->       service: hana
->       service-plan: schema
->     properties: 
->       my-db-service-guid: ${service-guid}
-> ```
-
-The following example shows the dependency declaration in the deployment descriptor of the “consumer” MTA:
-
-> ### Sample Code:  
-> ```
-> _schema-version: 3
-> ID: dynamic-service-guid-consumer
-> version: 1.0.0
-> 
-> modules:
->   - name: app-consumer
->     type: staticfile
->     path: content.zip
->     requires:
->       - name: db-config
->         properties:
->           reference_instance: ~{db-instanceid}
-> 
-> resources:
->   - name: db-config
->     type: configuration
->     parameters:
->       provider-id: "dynamic-service-guid-provider:db-guid"
->       version: ">=1.0.0"
->       target:
->         org: ${org}
->         space: ${space}
-> ```
-
-For more information about cross-MTA configurations see [Cross-MTA Dependencies](cross-mta-dependencies-b8e1953.md).
+-   [Module-Specific Parameters](modules-177d34d.md#loio177d34d45e3d4fd99f4eeeffc5814cf1__section_moduleSpecificParameters)
+-   [Resource-Specific Parameters](resources-9e34487.md#loio9e34487b1a8643fb9a93ae6c4894f015__section_resourceSpecificParameters)
+-   [Module Hooks - Specific Parameters](module-hooks-b9245ba.md#loiob9245ba90aa14681a416065df8e8c593__section_byz_kcf_wjb)
 

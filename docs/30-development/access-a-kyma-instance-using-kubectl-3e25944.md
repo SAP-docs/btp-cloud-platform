@@ -2,7 +2,7 @@
 
 # Access a Kyma Instance Using kubectl
 
-As an alternative to managing Kyma with a graphical user interface, Kyma dashboard, you can also use the Kubernetes command-line tool, kubectl.
+As an alternative to managing Kyma runtime on SAP platform with a graphical user interface, Kyma dashboard, you can also use the Kubernetes command-line tool, kubectl.
 
 
 

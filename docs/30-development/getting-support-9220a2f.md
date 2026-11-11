@@ -2,7 +2,7 @@
 
 # Getting Support
 
-If you have questions or encounter an issue while working with HTML5 Application Repository, there are various ways to address them.
+If you have questions or encounter an issue while working with SAP HTML5 Application Repository service, there are various ways to address them.
 
 Create an incident in the SAP Support Portal using one of the following components:
 
@@ -23,7 +23,7 @@ Component
 <tr>
 <td valign="top">
 
-HTML5 Application Repository
+SAP HTML5 Application Repository service
 
 </td>
 <td valign="top">
@@ -52,7 +52,7 @@ Provide the following incident details:
 
 <a name="loio9220a2fd35d84c888c0ae870ca62bfb7__section_bsb_mdf_33b"/>
 
-## HTML5 Application Repository
+## HTML5 Application Repository Service
 
 Enter and attach the following to the incident;
 

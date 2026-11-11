@@ -59,6 +59,9 @@ Select the text sources that you want to have translated.
 
 4.  Select *Add* to open the *Add Text Source* dialog which displays all text sources that can be added to the translation project. By filtering the type and name, you can choose the text sources you want to add. Select *Add* to add the text sources you selected to your translation project.
 
+    > ### Tip:  
+    > For performance reasons, we recommend that a translation project shouldn't contain more than 1000 texts. Larger projects can cause a timeout during publishing. Be aware that a text source might contain more than one text.
+
     > ### Note:  
     > Text sources that can be translated by a translation project need to reside in the same software component as the translation project.
 

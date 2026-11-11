@@ -2,7 +2,7 @@
 
 # Auditing and Logging Information
 
-Here you can find a list of the security events that are logged by the HTML5 application repository.
+Here you can find a list of the security events that are logged by the SAP HTML5 Application Repository service.
 
 **Events written in audit logs**
 
@@ -120,7 +120,7 @@ Message: *Attempt to access private application. application name :*`'+ appKey +
 
 Deletion of an application
 
-\(Deletion of an app-host service instance from the HTML5 application repository\)
+\(Deletion of an app-host service instance from the SAP HTML5 Application Repository service\)
 
 </td>
 <td valign="top">

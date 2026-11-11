@@ -2,11 +2,28 @@
 
 # Maintain Business Role Groups
 
+**App ID:** F6461
 
 
-With this app you can create business role groups and assign multiple business roles to them. This helps you to organize your area and easily search for all business roles of a certain category \(for example to assign business users to them\). Grouping also facilitates maintenance of authorizations. If you are the super administrator for all areas, you can delegate this task to administrators for the relevant areas, such as Financials. In this case, you would create a business role group for Financials and allow to assign these business roles only to particular user groups.
 
-Please note that the name of business role group is created automatically in namespace *ZCB*.
+With this app you can bundle related business roles together by functional department, business process, or project phase. Once grouped, you can search and filter roles by category, assign them to business users more efficiently, and keep a clear picture of your role landscape at any time.
+
+Grouping brings practical benefits across three areas:
+
+-   It simplifies authorization maintenance when you need to review or update business roles across an entire functional domain.
+
+-   It speeds up audit and compliance reviews: you can pull all business roles tied to Procurement or Supply Chain instantly, without hunting through individual assignments.
+
+-   It also streamlines transport management, letting you move custom business roles in logical functional blocks rather than transporting dozens of standalone business roles one by one.
+
+
+Delegated administration is built into the concept. Rather than giving an administrator access to all business roles, you can scope their responsibility to a specific business role group, for example, a **Finance** group and restrict which business user groups those business roles can be assigned to.
+
+> ### Example:  
+> You can create a `ZCB_FINANCE` business role group containing the Accounts Payable Accountant, Accounts Receivable Accountant, and General Ledger Accountant business roles and hand its management over to the **Finance** area administrator. Or you can bundle regional variants like US Accounts Payable and EU Accounts Payable into a `FIN_AP_GLOBAL` business role group to monitor or transport all sub-ledger functions at once.
+
+> ### Note:  
+> The system automatically creates the business role group name in namespace *ZCB*.
 
 
 
@@ -20,7 +37,8 @@ You can use this app to:
 
 -   Reassign or remove business roles to or from business role groups
 
-    Note: You can also use drag and drop to move business roles from one group to another.
+    > ### Note:  
+    > You can also use drag and drop to move business roles from one group to another.
 
 -   Upload business role assignments
 
@@ -54,66 +72,66 @@ Restriction Types
 <tr>
 <td valign="top">
 
-SAP\_CORE\_BC\_IAM\_RM
+`SAP_CORE_BC_IAM_RM` 
 
 </td>
 <td valign="top">
 
-*Business Role* \(S\_BRL\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP\_CORE\_BC\_IAM\_UM
-
-</td>
-<td valign="top">
-
-*Business User*\(CLASS\)
-
-*Business Role* \(S\_BRL\)
+*Business Role* \(`S_BRL`\)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP\_CORE\_BC\_IAM\_RA
+`SAP_CORE_BC_IAM_UM`
 
 </td>
 <td valign="top">
 
-*Business Role* \(S\_BRL\)
+*Business User*\(`CLASS`\)
 
-*Business Role User Assignment* \(S\_BRL\_ASG\)
-
-*Business User* \(CLASS\)
+*Business Role* \(`S_BRL`\)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP\_CORE\_BC\_IAM\_RM\_DISP\_PC
+`SAP_CORE_BC_IAM_RA`
 
 </td>
 <td valign="top">
 
-*Business Role* \(S\_BRL\)
+*Business Role* \(`S_BRL`\)
+
+*Business Role User Assignment* \(`S_BRL_ASG`\)
+
+*Business User* \(`CLASS`\)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP\_CORE\_BC\_IAM\_UM\_DISP\_PC
+`SAP_CORE_BC_IAM_RM_DISP_PC`
 
 </td>
 <td valign="top">
 
-*Business User* \(CLASS\)
+*Business Role* \(`S_BRL`\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`SAP_CORE_BC_IAM_UM_DISP_PC`
+
+</td>
+<td valign="top">
+
+*Business User* \(`CLASS`\)
 
 </td>
 </tr>

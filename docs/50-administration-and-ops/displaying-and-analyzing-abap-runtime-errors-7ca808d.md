@@ -27,9 +27,9 @@ To analyze an ABAP runtime error, click on a row in the list. This takes you to 
 
 -   The *General* section shows a description of what happened, an analysis of the error and information on where the program terminated.
 
--   The *Source Code Extract* section shows an extract of the ABAP source code where the error occurred. You can work in the source code now and return to the source code position where the error occurred at any time by choosing *Go to Line with Runtime Error*. You can now choose whether you want to go to the ABAP code in the ABAP development tools in Eclipse \(ADT\) to debug or change the development object or whether you want to display the code read-only in HTML.
+-   The *Source Code Extract* section shows an extract of the ABAP source code where the error occurred. You can work in the source code now and return to the source code position where the error occurred at any time by choosing *Go to Line with Runtime Error*. You can now choose whether you want to go to the ABAP code in the ABAP development tools for Eclipse \(ADT\) to debug or change the development object or whether you want to display the code read-only in HTML.
 
--   The *Active Calls/Events* section lists the call stack with information on where the active calls and events occurred. From here, you can also navigate to the ABAP code in the ABAP development tools \(ADT\) or display it in HTML.
+-   The *Active Calls/Events* section lists the call stack with information on where the active calls and events occurred. From here, you can also navigate to the ABAP code in the ABAP development tools for Eclipse \(ADT\) or display it in HTML.
 
 -   Some HTTP requests from applications can result in failures that are recorded as ABAP runtime errors. For these cases you can find more information about the application call in the *Application Information* section.
 

@@ -4,11 +4,11 @@
 
 SAP BTP enables you to access and run HTML5 applications in a cloud environment without the need to maintain your own runtime infrastructure.
 
-HTML5 applications consist of static content that runs on a browser. Then you develop your applications - either in SAP Business Application Studio, or in your own IDE \(integrated development environment\) - and deploy them to the [HTML5 application repository](html5-application-repository-f8520f5.md).
+HTML5 applications consist of static content that runs on a browser. Then you develop your applications - either in SAP Business Application Studio, or in your own IDE \(integrated development environment\) - and deploy them to the [SAP HTML5 Application Repository service on SAP platform](html5-application-repository-f8520f5.md).
 
 Depending on your backend application setup, you either configure the destinations during development, or define them after deploying the application. Finally, to consume the applications, you can create a site using SAP Cloud Portal service or SAP Build Work Zone, build the URL, and define custom domains.
 
-On the Cloud Foundry environment of SAP BTP you can run an application that was uploaded to HTML5 application repository using one of the following options:
+On the Cloud Foundry environment of SAP BTP you can run an application that was uploaded to SAP HTML5 Application Repository service using one of the following options:
 
 -   Use the application router that is managed by SAP.
 
@@ -19,7 +19,7 @@ On the Cloud Foundry environment of SAP BTP you can run an application that was 
     For more information, see [Application Router](application-router-01c5f9b.md).
 
 
-Both options allow you to serve static content from HTML5 application repository, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information. However, the [managed application router](managed-application-router-589a239.md) brings many benefits, such as:
+Both options allow you to serve static content from the SAP HTML5 Application Repository service, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information. However, the [managed application router](managed-application-router-589a239.md) brings many benefits, such as:
 
 -   Simplify and speed up your development and deployment experience
 
@@ -42,7 +42,7 @@ Therefore, we recommend running your own [application router](application-router
 **Related Information**  
 
 
-[HTML5 Application Repository](html5-application-repository-f8520f5.md "HTML5 application repository enables central storage of HTML5 applications' static content on the Cloud Foundry environment. This service can be consumed from the Cloud Foundry runtime on SAP platform, the Kyma runtime on SAP platform, Kubernetes, or by creating a service instance on the subaccount level regardless of an environment.")
+[HTML5 Application Repository](html5-application-repository-f8520f5.md "The SAP HTML5 Application Repository service on SAP platform enables central storage of HTML5 applications' static content on the Cloud Foundry environment. This service can be consumed from the Cloud Foundry runtime on SAP platform, the Kyma runtime on SAP platform, Kubernetes, or by creating a service instance on the subaccount level regardless of an environment.")
 
 [Application Router](application-router-01c5f9b.md "The application router is the single point-of-entry for an application running in the Cloud Foundry environment on SAP BTP. The application router is used to serve static content, authenticate users, rewrite URLs, and forward or proxy requests to other micro services while propagating user information.")
 

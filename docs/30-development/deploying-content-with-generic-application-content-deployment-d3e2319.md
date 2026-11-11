@@ -395,7 +395,7 @@ You can provide content deployment configuration as part of the module parameter
 **Related Information**  
 
 
-[Deploy Content Using the Generic Application Content Deployer](deploy-content-using-the-generic-application-content-deployer-07c6796.md "Deploy content from the HTML5 Application Repository using the Generic Application Content Deployer (GACD).")
+[Deploy Content Using the Generic Application Content Deployer](deploy-content-using-the-generic-application-content-deployer-07c6796.md "Deploy content from the SAP HTML5 Application Repository service using the Generic Application Content Deployer (GACD).")
 
 [Create Destinations Using the MTA Descriptor](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/8aeea65eb9d64267b554f64a3db8a349.html "Use the multitarget-application (MTA) descriptor to manage destinations for complex deployments.") :arrow_upper_right:
 

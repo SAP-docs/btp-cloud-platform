@@ -2,15 +2,11 @@
 
 # Display Technical Users
 
-This app shows all technical users that exist in the system.
+**App ID:** F1301
 
 
 
-<a name="loio7fb79d7a811146679646ebfb5844b858__purpose"/>
-
-## Purpose
-
-This app has two tabs:
+With this app you can view all technical users that exist in the system. The app has two tabs:
 
 -   Technical User
 

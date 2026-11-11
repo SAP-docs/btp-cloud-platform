@@ -8,7 +8,7 @@ An SAP Business Service exposes in its binding information in a set of attribute
 
 To access business services, the following applies:
 
--   The Business Service UI must be stored in HTML5 Application Repository to be accessible from an application router.
+-   The Business Service UI must be stored in the SAP HTML5 Application Repository service to be accessible from an application router.
 
 -   The Business Service UI must be defined as "public" to be accessible from an application router in a different space than the one from which the UI was uploaded.
 
@@ -369,7 +369,7 @@ The following example shows how to provide the required information. This inform
 
 [Accessing Business Service Data](accessing-business-service-data-783809d.md "This section describes how the application router accesses the Business Service data.")
 
-[Accessing Business Service UI](accessing-business-service-ui-0f1f92e.md "This section provides information about accessing Business Services UIs that are stored in HTML5 Application Repository.")
+[Accessing Business Service UI](accessing-business-service-ui-0f1f92e.md "This section provides information about accessing Business Services UIs that are stored in SAP HTML5 Application Repository service .")
 
 [services](services-92741fa.md "Specify options for a service in your application.")
 

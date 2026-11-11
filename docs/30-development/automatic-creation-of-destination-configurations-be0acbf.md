@@ -6,7 +6,7 @@ If you use the HTML5 application deployer together with an application router ma
 
 To enable the automatic creation of destination configurations, add the environment variable SAP\_CLOUD\_SERVICE in the deployment.yaml or Helm chart of the Kyma project and provide the value of the sap.cloud.service property from the manifest.json file of the HTML5 application that you want to deploy. The destination configurations can point to instances of the following services:
 
--   An HTML5 Application Repository service instance of the app-host service plan \(mandatory\)
+-   An SAP HTML5 Application Repository service instance of the app-host service plan \(mandatory\)
 
 -   An SAP Authorization and Trust Management \(XSUAA\) service instance \(optional\)
 

@@ -28,7 +28,7 @@ An overview of the technical users in the system – both communication users an
 **Related Information**  
 
 
-[IAM Information System](iam-information-system-82d17cf.md "With this app you can get an overview of business users in your system and what roles and restrictions are assigned to them.")
+[IAM Information System](iam-information-system-82d17cf.md)
 
 [IAM Key Figures](iam-key-figures-f249696.md)
 

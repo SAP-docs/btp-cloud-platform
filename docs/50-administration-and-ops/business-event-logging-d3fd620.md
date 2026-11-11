@@ -19,24 +19,58 @@ This graphic displays the components of Business Event Logging:
 
 ![](images/BEL_ABAP_c8e837b.png)
 
+With Business Event Logging, you can collect records of these business events, irrespective of whether the consumer has subscribed to the event, and relationships between objects to get insights into the way business processes run in the local system.
 
 
-<a name="loiod3fd620a58d74ecc9e89e54aeb79aa95__section_hrk_qtd_yqb"/>
 
-## Benefits
 
-With Business Event Logging, you can collect records of these business events, irrespective of whether the consumer has subscribed to the event, to get insights into the way business processes run in the local system. You can either store the default information or the complete business event data, depending on your configuration settings.
 
-Essential properties of an event are stored by default. These properties are:
+### Business Events
+
+The entire business data of the event is stored together with additional metadata. For example, the essential properties logged are:
 
 -   Objects
+
 -   Object components
+
 -   Business object key
--   Date of event
+
+-   Time stamp of event
+
 -   Event type \(corresponding to performed action\)
+
 -   User who performed the action
--   Relevant field changes
+
+-   Field changes contained in the business event
+
 -   Qualifiers \(for generic events\)
 
-Field changes are also recorded as long as they are defined in the business events.
+-   Transactional information
+
+
+Field changes are also recorded as long as they are defined in the events.
+
+
+
+### Relationships
+
+Relationships show associations between objects. An association can go in two directions:
+
+-   **Outbound** — an association from this object to another object
+-   **Inbound** — an association from another object to this object
+
+**Outbound Relationships** 
+
+An outbound relationship originates from the current object and points to a related object. From the perspective of the source object, the related object is the target.
+
+**Inbound Relationships** 
+
+An inbound relationship originates from another object and points to the current object. From the perspective of the target object, the source object is the one establishing the relationship.
+
+**Object-Internal Relationships** 
+
+Relationships can also exist within the same business object — linking two different components of the same object.
+
+> ### Note:  
+> Attributes or field changes are recorded only for events available in the [SAP Business Accelerator Hub](https://api.sap.com/products/SAPS4HANACloud/events/events). To record changes for new events, see [Log Custom Business Events](../30-development/log-custom-business-events-6ecc451.md) or contact SAP.
 

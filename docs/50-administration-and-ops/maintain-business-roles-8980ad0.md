@@ -2,6 +2,8 @@
 
 # Maintain Business Roles
 
+**App ID:** F1492
+
 
 
 You can use this app to create and edit business roles, add business catalogs to the roles, and maintain access restrictions. If the assigned business catalogs support IAM apps, the corresponding apps are assigned too. You can also directly assign IAM apps \(for example app authorization variants\) to the business role if you require more flexible authorization assignment.

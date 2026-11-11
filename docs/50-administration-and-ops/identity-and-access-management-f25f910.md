@@ -47,15 +47,15 @@ For more information, see sections *Maintain Business Users* and *Business Catal
 **Related Information**  
 
 
-[Maintain Business Users](maintain-business-users-e40e710.md "You use this app to provide business users with access rights and to maintain business user settings.")
+[Maintain Business Users](maintain-business-users-e40e710.md)
 
-[Display Technical Users](display-technical-users-7fb79d7.md "This app shows all technical users that exist in the system.")
+[Display Technical Users](display-technical-users-7fb79d7.md)
 
-[Business Catalogs](business-catalogs-dd0abf5.md "You use this app to display all available business catalogs.")
+[Business Catalogs](business-catalogs-dd0abf5.md)
 
-[IAM Information System](iam-information-system-82d17cf.md "With this app you can get an overview of business users in your system and what roles and restrictions are assigned to them.")
+[IAM Information System](iam-information-system-82d17cf.md)
 
-[Business Role Templates](business-role-templates-223dfd3.md "The app provides a summary of business role templates delivered by SAP and helps determine if adaptations are needed after an upgrade.")
+[Business Role Templates](business-role-templates-223dfd3.md)
 
 [Business Catalogs for IAM Administration Apps](business-catalogs-for-iam-administration-apps-9bbbfc7.md "Find out which business catalogs are required to access the IAM administration apps and what restrictions apply.")
 
@@ -67,7 +67,7 @@ For more information, see sections *Maintain Business Users* and *Business Catal
 
 [Display Authorization Trace](display-authorization-trace-79b3c9b.md)
 
-[Display Restriction Types](display-restriction-types-9203905.md "You can use this app to display restriction types and their validity.")
+[Display Restriction Types](display-restriction-types-9203905.md)
 
 [Maintain Business Roles](maintain-business-roles-8980ad0.md)
 

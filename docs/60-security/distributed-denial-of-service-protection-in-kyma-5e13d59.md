@@ -69,5 +69,5 @@ Standard network DDoS protection
 
 ## Web Application Firewalls
 
-It is not possible to configure or enable web application firewalls in SAP BTP, Kyma runtime.
+It is not possible to configure or enable web application firewalls in Kyma runtime on SAP platform.
 

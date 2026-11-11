@@ -221,6 +221,18 @@ View audit logs
 <tr>
 <td valign="top">
 
+\>Central Disaster Recovery Administrator 
+
+</td>
+<td valign="top">
+
+Central Disaster Recovery Administrator 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Cloud Connector Administrator 
 
 </td>

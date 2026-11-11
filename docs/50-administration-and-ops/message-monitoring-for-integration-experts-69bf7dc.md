@@ -41,7 +41,9 @@ You can use this app to:
 
 -   Display the original payload of a message in the message's data content.
 
--   View the log history of a message \(only available for interfaces that use the application log engine\)
+-   View the log history of a message \(only available for interfaces that use the application log engine\).
+
+-   Create and manage views that store your personalized filter settings, layout preferences, and other control parameters.
 
 
 

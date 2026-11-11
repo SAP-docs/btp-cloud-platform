@@ -19,5 +19,5 @@ After the end of the grace period, the tenant and all related data are irreversi
 
 Once the last consumer unsubscribes from the SaaS solution, the provider needs to delete the empty system in the BTP cockpit.
 
-Alternatively, as a SaaS solution operator, your can use the *Subscription Management Dashboard* in the provider subaccount to unsubscribe tenants centrally without triggering unsubscription in the consumer subaccount. See [Using the Subscription Management Dashboard](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/434be695f9e946ccb4c28911dd1e16d0.html).
+Alternatively, as a SaaS solution operator, your can use the SAP BTP subscription management dashboard in the provider subaccount to unsubscribe tenants centrally without triggering unsubscription in the consumer subaccount. See [Using the Subscription Management Dashboard](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/434be695f9e946ccb4c28911dd1e16d0.html).
 

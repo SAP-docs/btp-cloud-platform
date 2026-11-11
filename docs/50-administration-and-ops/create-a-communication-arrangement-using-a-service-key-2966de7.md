@@ -97,9 +97,9 @@ To connect the ABAP environment and SAP Build Process Automation, you need a com
     </td>
     <td valign="top">
     
-    -   Select the customer type corresponding to the scenarios for which you would like to create an extension workflow.
-    -   The consumer type is used to identify the communication arrangement. Ensure that you assign the customer type to exactly one communication arrangement. You can assign multiple consumer types to one communication arrangement.
-    -   Based on how the extension workflow is integrated, the customer type may vary. If the intergration method is:
+    -   Select the consumer type corresponding to the scenarios for which you would like to create an extension workflow.
+    -   The consumer type is used to identify the communication arrangement. Ensure that you assign the consumer type to exactly one communication arrangement. You can assign multiple consumer types to one communication arrangement.
+    -   Based on how the extension workflow is integrated, the consumer type may vary. If the intergration method is:
         -   Flexible Workflow Extension of Business Workflow: Use the scenario identifier as the consumer type. For example, WS12345678.
         -   Directly integrated through API: Choose the consumer type provided and documented by the SAP S/4HANA Cloud application.
 

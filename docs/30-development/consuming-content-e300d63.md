@@ -2,13 +2,13 @@
 
 # Consuming Content
 
-Use the `app-runtime` service plan to consume HTML5 applications from the HTML5 Application Repository.
+Use the `app-runtime` service plan to consume HTML5 applications from the SAP HTML5 Application Repository service.
 
 
 
 ## Context
 
-Application router can consume content from the HTML5 Application Repository by binding an HTML5 Application Repository service instance with `app-runtime` plan to the application router. In addition, the routing to the HTML5 Application Repository service is configured in the `xs-app.json` file.
+Application router can consume content from the HTML5 Application Repository by binding an SAP HTML5 Application Repository service instance with `app-runtime` plan to the application router. In addition, the routing to the HTML5 Application Repository service is configured in the `xs-app.json` file.
 
 
 
@@ -18,7 +18,7 @@ Application router can consume content from the HTML5 Application Repository by 
 
     Example: `cf create-service html5-apps-repo app-runtime MyHtml5AppsRepoRuntimeInstance`
 
-2.  Bind the HTML5 Application Repository runtime instance to the application router in the `manifest.yaml` file.
+2.  Bind the SAP HTML5 Application Repository service runtime instance to the application router in the `manifest.yaml` file.
 
     > ### Sample Code:  
     > ```
@@ -33,7 +33,7 @@ Application router can consume content from the HTML5 Application Repository by 
 
 3.  Push the application with the following command: `cf push`
 
-4.  To redirect requests to the HTML5 Application Repository runtime, configure the routing to the HTML5 Application Repository service in your `xs-app.json` file.
+4.  To redirect requests to the SAP HTML5 Application Repository service runtime, configure the routing to the HTML5 Application Repository service in your `xs-app.json` file.
 
     > ### Sample Code:  
     > ```

@@ -8,7 +8,8 @@ This task describes upcoming support for key user extensibility migration.
 
 ## Context
 
-Key user extensibility migration*is not yet available* and will be delivered with a later release.
+> ### Note:  
+> Key user extensibility migration*is not yet available* and will be delivered with a later release.
 
 The following steps describe how the migration process will work once it becomes available.
 

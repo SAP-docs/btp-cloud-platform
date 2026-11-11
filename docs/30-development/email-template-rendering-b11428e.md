@@ -22,7 +22,7 @@ The field values of the email template will be selected from the corresponding C
 
 > ### Sample Code:  
 > ```
-> data lt_key_table type if_smtg_email_template=>ty_gt_data_key.
+> data lt_key_table type if_smtg_email_template=>tyt_template_keys.
 > data lo_template type ref to if_smtg_email_templ_renderer.
 > 
 > try.

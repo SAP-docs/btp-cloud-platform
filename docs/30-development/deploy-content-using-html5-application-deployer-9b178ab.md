@@ -2,7 +2,7 @@
 
 # Deploy Content Using HTML5 Application Deployer
 
-Use the HTML5 application deployer module to deploy the content of the HTML5 applications to the HTML5 Application Repository.
+Use the HTML5 application deployer module to deploy the content of the HTML5 applications to the SAP HTML5 Application Repository service.
 
 
 
@@ -26,7 +26,7 @@ Use the HTML5 application deployer module to deploy the content of the HTML5 app
 
 The HTML5 application deployer is available on npmjs.com \(NPM\), see [@sap/html5-app-deployer](https://www.npmjs.com/package/@sap/html5-app-deployer).
 
-You can deploy your content to the HTML5 Application Repository using the HTML5 application deployer npm module.
+You can deploy your content to the SAP HTML5 Application Repository service using the HTML5 application deployer npm module.
 
 
 
@@ -162,7 +162,7 @@ You can deploy your content to the HTML5 Application Repository using the HTML5 
 
     The deployment starts the following:
 
-    -   Create an HTML5 Application Repository service instance of the `app-host` service plan.
+    -   Create an SAP HTML5 Application Repository service instance of the `app-host` service plan.
 
     -   Create an HTML5 application deployer application, which uses the HTML5 application deployer npm module.
 

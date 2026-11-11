@@ -32,7 +32,7 @@ Manage the lifecycle of applications
 </b></dt>
 <dd>
 
-Start, stop, scale, and configure distributed cloud applications using standard Cloud Foundry tools, our web-based administration user interface for SAP BTP, and dev-ops capabilities.
+Start, stop, scale, and configure distributed cloud applications using standard Cloud Foundry tools, our web-based administration user interface, and dev-ops capabilities.
 
 
 
@@ -43,7 +43,7 @@ Optimize development and operations
 </b></dt>
 <dd>
 
-Use the rich set of SAP BTP services including messaging, persistence, and many other capabilities, such as built-in security, compliance, elastic scale, and high-availability setup.
+Use the rich set of SAP platform services including messaging, persistence, and many other capabilities, such as built-in security, compliance, elastic scale, and high-availability setup.
 
 
 

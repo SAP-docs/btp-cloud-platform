@@ -23,6 +23,7 @@ You can use this app to:
 -   Set process information for a message \(such as defining a process status\).
 -   Identify interfaces with an active alert and confirm the alert.
 -   Edit the payload of messages, even if the messages aren't customized to be changeable.
+-   Create and manage views that store your personalized filter settings, layout preferences, and other control parameters.
 
 Despite having similar functionalities as *Message Monitoring for Integration Experts*, *Message Monitoring \(Emergency Correction\)* doesn't support navigating to the *Message Monitoring* app or performing mass error handling.
 

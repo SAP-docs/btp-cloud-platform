@@ -1,8 +1,8 @@
 <!-- loio6bbd26b74ffd48c9bb304cf04cf2cabb -->
 
-# Adapting Your Workloads to Kyma Landscape Requirements
+# Adapting Your Workloads to Kyma Runtime Landscape Requirements
 
-Learn how to use Runtime Bootstrapper, a built-in Kyma component, to automatically adapt your Pods to landscape-specific requirements such as private registries, custom TLS certificates, and FIPS mode signaling.
+Learn how to use Runtime Bootstrapper, a built-in Kyma runtime component, to automatically adapt your Pods to landscape-specific requirements such as private registries, custom TLS certificates, and FIPS mode signaling.
 
 > ### Note:  
 > The content in this topic is only relevant for China \(Shanghai\) and Government Cloud \(US\) regions.
@@ -68,7 +68,7 @@ You can combine both methods. If you enable a feature on a namespace, all Pods i
 
 Each annotation enables one specific feature. To activate it, set the value to *true*.
 
-The availability shown below may change. To confirm a feature is active in your landscape, see [Confirming a Pod Was Modified](adapting-your-workloads-to-kyma-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__section_confirming_pod_modified_bnz). If a feature appears inactive despite being listed as available, contact your landscape operator.
+The availability shown below may change. To confirm a feature is active in your landscape, see [Confirming a Pod Was Modified](adapting-your-workloads-to-kyma-runtime-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__section_confirming_pod_modified_bnz). If a feature appears inactive despite being listed as available, contact your landscape operator.
 
 
 <table>
@@ -97,7 +97,7 @@ Relevant to China \(Shanghai\)
 <tr>
 <td valign="top">
 
-[`rt-cfg.kyma-project.io/add-cluster-trust-bundle`](adapting-your-workloads-to-kyma-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__annotation_trust_bundle)
+[`rt-cfg.kyma-project.io/add-cluster-trust-bundle`](adapting-your-workloads-to-kyma-runtime-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__annotation_trust_bundle)
 
 </td>
 <td valign="top">
@@ -119,7 +119,7 @@ No
 <tr>
 <td valign="top">
 
-[`rt-cfg.kyma-project.io/add-img-pull-secret`](adapting-your-workloads-to-kyma-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__annotation_add_img_pull_secret)
+[`rt-cfg.kyma-project.io/add-img-pull-secret`](adapting-your-workloads-to-kyma-runtime-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__annotation_add_img_pull_secret)
 
 </td>
 <td valign="top">
@@ -141,7 +141,7 @@ Yes
 <tr>
 <td valign="top">
 
-[`rt-cfg.kyma-project.io/alter-img-registry`](adapting-your-workloads-to-kyma-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__annotation_alter_img_registry)
+[`rt-cfg.kyma-project.io/alter-img-registry`](adapting-your-workloads-to-kyma-runtime-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__annotation_alter_img_registry)
 
 </td>
 <td valign="top">
@@ -163,7 +163,7 @@ Yes
 <tr>
 <td valign="top">
 
-[`rt-cfg.kyma-project.io/set-fips-mode`](adapting-your-workloads-to-kyma-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__annotation_set_fips_mode)
+[`rt-cfg.kyma-project.io/set-fips-mode`](adapting-your-workloads-to-kyma-runtime-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__annotation_set_fips_mode)
 
 </td>
 <td valign="top">
@@ -185,7 +185,7 @@ No
 </table>
 
 > ### Tip:  
-> To enable all features available in your region at once, use the shorthand annotation [`rt-cfg.kyma-project.io/all: "true"`](adapting-your-workloads-to-kyma-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__annotation_all) on either a namespace or a Pod.
+> To enable all features available in your region at once, use the shorthand annotation [`rt-cfg.kyma-project.io/all: "true"`](adapting-your-workloads-to-kyma-runtime-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__annotation_all) on either a namespace or a Pod.
 
 
 
@@ -338,7 +338,7 @@ The annotation causes the following changes in your Pod:
 
 The annotation enables all features available for your region at once.
 
-Setting this annotation to *true* applies all features available for your region \(see [Supported Annotations](adapting-your-workloads-to-kyma-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__section_supported_annotations_wqx)\) that are enabled in the operator's configuration. Use it when you want your namespace or Pod to receive all applicable landscape adaptations without listing them individually.
+Setting this annotation to *true* applies all features available for your region \(see [Supported Annotations](adapting-your-workloads-to-kyma-runtime-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__section_supported_annotations_wqx)\) that are enabled in the operator's configuration. Use it when you want your namespace or Pod to receive all applicable landscape adaptations without listing them individually.
 
 ```
 annotations:
@@ -369,5 +369,5 @@ If the output is ***true***, Runtime Bootstrapper applied at least one modificat
 kubectl logs -n kyma-system -l app.kubernetes.io/name=rt-bootstrapper
 ```
 
-If the output is empty or ***false***, either no feature annotations were set on the Pod or its namespace, or the annotations used are not supported in this landscape. See [Supported Annotations](adapting-your-workloads-to-kyma-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__section_supported_annotations_wqx).
+If the output is empty or ***false***, either no feature annotations were set on the Pod or its namespace, or the annotations used are not supported in this landscape. See [Supported Annotations](adapting-your-workloads-to-kyma-runtime-landscape-requirements-6bbd26b.md#loio6bbd26b74ffd48c9bb304cf04cf2cabb__section_supported_annotations_wqx).
 

@@ -2,7 +2,7 @@
 
 # Working with Resources of the SAP Service Manager Using the btp CLI
 
-Use the SAP BTP command line interface to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.
+Use the SAP BTP command line interface \(btp CLI\) to perform various operations related to your platforms, attached service brokers, service instances, and service bindings.
 
 You can also get information about the service plans and service offerings associated with your subaccount.
 

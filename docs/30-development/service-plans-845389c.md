@@ -2,7 +2,7 @@
 
 # Service Plans
 
-The HTML5 Application Repository service comprises the following service plans:
+The SAP HTML5 Application Repository service comprises the following service plans:
 
 -   *app-host*
 

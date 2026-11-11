@@ -2,6 +2,8 @@
 
 # Display Authorization Trace
 
+**App ID:** F4106
+
 
 
 With this app you can enable an authorization trace for a business user. This helps you to analyze if any authorizations are missing or are insufficient.

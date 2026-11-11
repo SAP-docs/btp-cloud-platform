@@ -2,11 +2,11 @@
 
 # Display Restriction Types
 
-You can use this app to display restriction types and their validity.
+**App ID:** F3816
 
 
 
-With this app you can display restriction types, the assigned fields, and in which business catalog the restriction type is used.
+With this app you can display restriction types and their validity, the assigned fields, and in which business catalog the restriction type is used.
 
 
 

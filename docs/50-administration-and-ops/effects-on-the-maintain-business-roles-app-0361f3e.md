@@ -17,7 +17,7 @@ If the business role is created from a business role template, the *Activate IAM
 **Related Information**  
 
 
-[Business Catalogs](business-catalogs-dd0abf5.md "You use this app to display all available business catalogs.")
+[Business Catalogs](business-catalogs-dd0abf5.md)
 
 [How to Activate or Deactivate IAM Apps \(App Authorization Variants\)](how-to-activate-or-deactivate-iam-apps-app-authorization-variants-61f5a1a.md "With IAM apps of the app authorization variant type, you have the flexibility to manage authorizations for business users on a more granular level. You can activate or deactivate individual IAM apps according to your business requirements.")
 

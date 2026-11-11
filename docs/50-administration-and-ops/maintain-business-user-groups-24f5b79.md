@@ -2,11 +2,21 @@
 
 # Maintain Business User Groups
 
+**App ID:** F6399
 
 
-With this app you can create business user groups and assign multiple business users to them. This helps you to organize your area and easily search for all business users of a certain category \(for example to assign them to business roles\). Grouping also facilitates maintenance of authorizations. If you are the super administrator for all areas, you can delegate this task to administrators for the relevant areas, such as Financials. In this case, you would create a business user group for Financials.
 
-Please note that the name of business user group is created automatically in namespace *ZCB*.
+With this app you can organize users into logical groups based on organizational areas, project teams, or location. Once grouped, you can search within those groups independently, review all members at once, and apply actions to the entire group in one step, such as assigning business roles.
+
+You can create and manage business user groups manually, or synchronize them automatically from an external corporate identity provider via System for Cross-domain Identity Management \(SCIM\) integration. This keeps your SAP user structure aligned with your company's central directory.
+
+Beyond organization, business user groups are the foundation of delegated administration. Rather than granting an administrator access to your entire user base, you can scope their authorization to a specific group. This keeps overall control with the super administrator while distributing day-to-day maintenance to the right people.
+
+> ### Example:  
+> You can create a **Finance** business user group and hand management over to the **Finance** area administrator without exposing any other users. You can set up a dedicated business user group for a go-live team to control access during a specific implementation phase. Or you can bundle all external consultants into a business user group so their team lead can handle only their basic details, without access to internal employee records.
+
+> ### Note:  
+> The system automatically creates the business user group name in namespace *ZCB*.
 
 
 
@@ -20,7 +30,8 @@ You can use this app to:
 
 -   Reassign or remove business users to or from business user groups
 
-    Note: You can also use drag and drop to move business users from one group to another.
+    > ### Note:  
+    > You can also use drag and drop to move business users from one group to another.
 
 -   Upload business user assignments
 
@@ -54,66 +65,66 @@ Restriction Types
 <tr>
 <td valign="top">
 
-SAP\_CORE\_BC\_IAM\_RM
+`SAP_CORE_BC_IAM_RM` 
 
 </td>
 <td valign="top">
 
-*Business Role* \(S\_BRL\)
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-SAP\_CORE\_BC\_IAM\_UM
-
-</td>
-<td valign="top">
-
-*Business User*\(CLASS\)
-
-*Business Role* \(S\_BRL\)
+*Business Role* \(`S_BRL`\)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP\_CORE\_BC\_IAM\_RA
+`SAP_CORE_BC_IAM_UM`
 
 </td>
 <td valign="top">
 
-*Business Role* \(S\_BRL\)
+*Business User*\(`CLASS`\)
 
-*Business Role User Assignment* \(S\_BRL\_ASG\)
-
-*Business User* \(CLASS\)
+*Business Role* \(`S_BRL`\)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP\_CORE\_BC\_IAM\_RM\_DISP\_PC
+`SAP_CORE_BC_IAM_RA`
 
 </td>
 <td valign="top">
 
-*Business Role* \(S\_BRL\)
+*Business Role* \(`S_BRL`\)
+
+*Business Role User Assignment* \(`S_BRL_ASG`\)
+
+*Business User* \(`CLASS`\)
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-SAP\_CORE\_BC\_IAM\_UM\_DISP\_PC
+`SAP_CORE_BC_IAM_RM_DISP_PC`
 
 </td>
 <td valign="top">
 
-*Business User* \(CLASS\)
+*Business Role* \(`S_BRL`\)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`SAP_CORE_BC_IAM_UM_DISP_PC`
+
+</td>
+<td valign="top">
+
+*Business User* \(`CLASS`\)
 
 </td>
 </tr>

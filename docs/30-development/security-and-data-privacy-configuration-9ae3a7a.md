@@ -16,11 +16,11 @@ This section provides information about security and data privacy.
 
 -   Data Protection and Data Privacy
 
-    The HTML5 application repository service applies the legally required data protection and privacy measures to data that is stored on behalf of customers. These measures include, for example, the need to know principle during support processes, or data isolation between spaces.
+    The SAP HTML5 Application Repository service applies the legally required data protection and privacy measures to data that is stored on behalf of customers. These measures include, for example, the need to know principle during support processes, or data isolation between spaces.
 
-    The HTML5 application repository runtime is a microservice responsible for providing read access to HTML5 applications during runtime. When the HTML5 application is public, the service enables sharing this content with consuming application routers from different spaces.
+    The SAP HTML5 Application Repository service runtime is a microservice responsible for providing read access to HTML5 applications during runtime. When the HTML5 application is public, the service enables sharing this content with consuming application routers from different spaces.
 
 
 > ### Note:  
-> The HTML5 application repository service does not provide the technical capabilities to support the collection, processing, and storage of personal data. The file names used for deploying the HTML5 applications are not intended for personal data.
+> The SAP HTML5 Application Repository service does not provide the technical capabilities to support the collection, processing, and storage of personal data. The file names used for deploying the HTML5 applications are not intended for personal data.
 

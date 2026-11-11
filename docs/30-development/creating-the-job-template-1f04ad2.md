@@ -9,5 +9,5 @@ The creation of a job template follows the same technical rules as a *Job Catalo
 **Related Information**  
 
 
-[Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ADT and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
+[Setting up the Authorizations](setting-up-the-authorizations-bb559a5.md "Some further activities in ABAP development tools for Eclipse and in the administrator’s launchpad are necessary to be able to schedule the job template in the Fiori app Application Jobs.")
 

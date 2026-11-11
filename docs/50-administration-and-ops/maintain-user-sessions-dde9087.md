@@ -2,6 +2,8 @@
 
 # Maintain User Sessions
 
+**App ID:** F6049
+
 
 
 With this app administrators can monitor and control users’ logon sessions in the system. You can filter by user ID or name, see when each session was last used, the session index, how many locks it holds, and the client/device IP address. From the list, admins can select sessions and delete/end them to free locks, resolve stuck processes, reclaim resources, and support security or troubleshooting activities.

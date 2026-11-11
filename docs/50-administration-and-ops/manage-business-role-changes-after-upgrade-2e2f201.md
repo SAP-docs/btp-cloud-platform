@@ -2,6 +2,8 @@
 
 # Manage Business Role Changes After Upgrade
 
+**App ID:** F6955
+
 
 
 With this app you can display all relevant changes to business catalogs and restriction types after an upgrade. If a new restriction type was added to a business catalog for example, you can maintain the corresponding restrictions using this app.

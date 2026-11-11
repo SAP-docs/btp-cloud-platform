@@ -2,11 +2,11 @@
 
 # Maintain Business Users
 
-You use this app to provide business users with access rights and to maintain business user settings.
+**App ID:** F1303
 
 
 
-Business users gain access to Fiori apps through business roles. A business role can comprise one or several business catalogs which in turn comprise several apps.
+With this app you can provide business users with access rights and maintain their settings. Business users gain access to Fiori apps through business roles. A business role can include one or more business catalogs, which in turn include multiple apps.
 
 
 

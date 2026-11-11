@@ -2,7 +2,7 @@
 
 # Deploy Content Using the Generic Application Content Deployer
 
-Deploy content from the HTML5 Application Repository using the Generic Application Content Deployer \(GACD\).
+Deploy content from the SAP HTML5 Application Repository service using the Generic Application Content Deployer \(GACD\).
 
 
 
@@ -23,7 +23,7 @@ Deploy content from the HTML5 Application Repository using the Generic Applicati
 
 ## Context
 
-You can deploy your content to the HTML5 Application Repository using the GACD \(Generic Application Content Deployer\) module. The GACD module has the module type `com.sap.application.content`. This module type enables the deploy plug-in generic application content deploy support. It means that when a module is processed in the cf deploy flow, the deploy service locates the service resource that is required as a target for the deploy and deploys the corresponding `content.zip` file.
+You can deploy your content to the SAP HTML5 Application Repository service using the GACD \(Generic Application Content Deployer\) module. The GACD module has the module type `com.sap.application.content`. This module type enables the deploy plug-in generic application content deploy support. It means that when a module is processed in the cf deploy flow, the deploy service locates the service resource that is required as a target for the deploy and deploys the corresponding `content.zip` file.
 
 
 

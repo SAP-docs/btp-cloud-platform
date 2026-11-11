@@ -125,7 +125,7 @@ Additionally, be aware of the following effects when working with IAM apps:
     Transactions and their authorizations can be referenced in two types of business catalogs: those that support IAM apps and a small number that do not. If both types of business catalogs are assigned to a business role, the business catalog without IAM app support determines the authorizations for that business role. For these few non-migrated business catalogs, the corresponding tiles are not available on their own. However, if they are combined with migrated business catalogs that include the same transaction, the tiles become available. Still, these tiles do not appear in the app finder for the non-migrated business catalogs.
 
     > ### Example:  
-    > Let's picture the following scenario: A transaction is assigned to both types of business catalogs and both types of business catalogs are assigned to a business role. Even if the IAM app is deactivated in the business catalog that supports IAM apps, the transaction authorizations remain included because of the business catalog that doesn't support IAM apps and their deactivation.
+    > Let's picture the following scenario: A transaction is assigned to both types of business catalogs and both types of business catalogs are assigned to a business role. Even if the IAM app is deactivated in the business catalog that supports IAM apps, the transaction authorizations remain included because the business catalog that doesn't support IAM apps still contributes its authorizations, and those cannot be deactivated individually.
 
 -   **IAM App Deactivation Limitations in Dependent Business Catalogs**
 

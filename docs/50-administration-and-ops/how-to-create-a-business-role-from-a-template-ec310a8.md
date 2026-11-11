@@ -55,7 +55,7 @@ When you create a role based on a template, as a default the read and value help
 **Related Information**  
 
 
-[Business Role Templates](business-role-templates-223dfd3.md "The app provides a summary of business role templates delivered by SAP and helps determine if adaptations are needed after an upgrade.")
+[Business Role Templates](business-role-templates-223dfd3.md)
 
 [Step by Step: Create a New Space and Page for a Business Role](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/ab05d9e086554a08af88d6482deb1bcb.html)
 

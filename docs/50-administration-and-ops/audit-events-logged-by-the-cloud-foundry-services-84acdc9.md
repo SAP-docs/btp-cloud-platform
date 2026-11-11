@@ -335,7 +335,7 @@ SAP Cloud Integration for data services
 <tr>
 <td valign="top">
 
-SAP Cloud Management service for SAP BTP
+SAP Cloud Management service
 
 </td>
 <td valign="top">

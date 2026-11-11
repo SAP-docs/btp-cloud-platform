@@ -45,7 +45,7 @@ You cannot access your Kyma cluster where the service instances and bindings wer
 3.  Send the following request:
 
     ```
-    curl -X DELETE '{sm_url}v1/platforms/{platformID}/clusters/{clusterID}' \
+    curl -X DELETE '{sm_url}/v1/platforms/{platformID}/clusters/{clusterID}' \
        -H 'Authorization: Bearer {ACCESS_TOKEN}'
     ```
 
